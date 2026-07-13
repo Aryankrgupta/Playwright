@@ -1,7 +1,7 @@
 // In dev, Vite's proxy (see vite.config.js) forwards /api/* to the backend,
 // so a relative path just works. For a production build served separately
 // from the API, set VITE_API_URL (e.g. in a .env file) to the API's origin.
-const API_BASE = import.meta.env.VITE_API_URL || "";
+const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:3000";
 
 export async function stopTask() {
   const res = await fetch(`${API_BASE}/api/stop`, { method: "POST" });
