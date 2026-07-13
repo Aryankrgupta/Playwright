@@ -1,0 +1,523 @@
+- generic [active] [ref=f1e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f1e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f1e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f1e8]:
+    - search [ref=f1e9]:
+      - generic [ref=f1e11]:
+        - link "Go to Google Home" [ref=f1e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQPAgI
+        - generic [ref=f1e21]:
+          - generic [ref=f1e22]:
+            - combobox "Search" [ref=f1e25]: supercar supercar
+            - generic [ref=f1e26]:
+              - button "Clear" [ref=f1e28] [cursor=pointer]
+              - generic [ref=f1e33]:
+                - button "Search by voice" [ref=f1e34] [cursor=pointer]
+                - button "Search by image" [ref=f1e37] [cursor=pointer]
+          - button "Search" [ref=f1e40] [cursor=pointer]
+    - generic [ref=f1e45]:
+      - button "Settings" [ref=f1e47] [cursor=pointer]
+      - button "Share" [ref=f1e53] [cursor=pointer]
+      - generic [ref=f1e59]:
+        - button "Google apps" [ref=f1e61] [cursor=pointer]
+        - link "Sign in" [ref=f1e66] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsupercar%26sca_esv%3Dfea2caa620225ab9%26source%3Dhp%26ei%3DfJBUaquQK9zSwcsP35aU8Q0%26iflsig%3DABILxe8AAAAAalSejACGPOtQCYF4hIKiJao4hnQwiV1t%26ved%3D0ahUKEwirvsvNjc-VAxVcaXADHV8LJd4Q4dUDCB4%26uact%3D5%26oq%3Dsupercar%26gs_lp%3DEgdnd3Mtd2l6IghzdXBlcmNhckgTUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE%26sclient%3Dgws-wiz&ec=futura_srp_og_si_72236_p
+  - generic [ref=f1e68]:
+    - navigation [ref=f1e74]:
+      - generic [ref=f1e80]:
+        - list [ref=f1e81]:
+          - listitem [ref=f1e82]:
+            - link "AI Mode" [ref=f1e85] [cursor=pointer]:
+              - /url: /search?q=supercar&sca_esv=fea2caa620225ab9&udm=50&source=hp&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYRQDtz5om-6srRFNP4UK_6edrYqFyYjVoLL0-Wmdmyc0u13h2Xl3P-7Fmh0o6KIonLSStrYX7-J-cMLG287nQ7raf0FkoLkOJb1mfQmtNYyMRhn-hrlv2gKJDeHb5aiCA66AyzkImpJHz_-TdiqyVBEHRiSEA&aep=1&ntc=1&sa=X&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ2J8OegQIERAD
+          - listitem [ref=f1e89]:
+            - link "All" [disabled] [ref=f1e90]
+          - listitem [ref=f1e93]:
+            - link "Images" [ref=f1e94] [cursor=pointer]:
+              - /url: /search?sca_esv=fea2caa620225ab9&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYRQDtz5om-6srRFNP4UK_6edrYqFyYjVoLL0-Wmdmyc0u13h2Xl3P-7Fmh0o6KIonLSStrYX7-J-cMLG287nQ7raf0FkoLkOJb1mfQmtNYyMRhn-hrlv2gKJDeHb5aiCA66AyzkImpJHz_-TdiqyVBEHRiSEA&q=supercar&sa=X&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQtKgLegQIFxAB
+          - listitem [ref=f1e97]:
+            - link "Shopping" [ref=f1e98] [cursor=pointer]:
+              - /url: /search?sca_esv=fea2caa620225ab9&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYRQDtz5om-6srRFNP4UK_6edrYqFyYjVoLL0-Wmdmyc0u13h2Xl3P-7Fmh0o6KIonLSStrYX7-J-cMLG287nQ7raf0FkoLkOJb1mfQmtNYyMRhn-hrlv2gKJDeHb5aiCA66AyzkImpJHz_-TdiqyVBEHRiSEA&q=supercar&ved=1t:220175&ictx=111
+          - listitem [ref=f1e101]:
+            - link "Videos" [ref=f1e102] [cursor=pointer]:
+              - /url: /search?sca_esv=fea2caa620225ab9&udm=7&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYRQDtz5om-6srRFNP4UK_6edrYqFyYjVoLL0-Wmdmyc0u13h2Xl3P-7Fmh0o6KIonLSStrYX7-J-cMLG287nQ7raf0FkoLkOJb1mfQmtNYyMRhn-hrlv2gKJDeHb5aiCA66AyzkImpJHz_-TdiqyVBEHRiSEA&q=supercar&sa=X&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQtKgLegQIFhAB
+          - listitem [ref=f1e105]:
+            - link "Short videos" [ref=f1e106] [cursor=pointer]:
+              - /url: /search?sca_esv=fea2caa620225ab9&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYRQDtz5om-6srRFNP4UK_6edrYqFyYjVoLL0-Wmdmyc0u13h2Xl3P-7Fmh0o6KIonLSStrYX7-J-cMLG287nQ7raf0FkoLkOJb1mfQmtNYyMRhn-hrlv2gKJDeHb5aiCA66AyzkImpJHz_-TdiqyVBEHRiSEA&q=supercar&sa=X&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQs6gLegQIFBAB
+          - listitem [ref=f1e109]:
+            - link "News" [ref=f1e110] [cursor=pointer]:
+              - /url: /search?sca_esv=fea2caa620225ab9&q=supercar&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYRQDtz5om-6srRFNP4UK_6edrYqFyYjVoLL0-Wmdmyc0u13h2Xl3P-7Fmh0o6KIonLSStrYX7-J-cMLG287nQ7raf0FkoLkOJb1mfQmtNYyMRhn-hrlv2gKJDeHb5aiCA66AyzkImpJHz_-TdiqyVBEHRiSEA&sa=X&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ0pQJegQIExAB
+          - listitem [ref=f1e113]:
+            - button [ref=f1e114] [cursor=pointer]:
+              - generic "More filters" [ref=f1e115]: More
+        - button "Tools" [ref=f1e122] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f1e129]
+    - generic [ref=f1e134]:
+      - generic [ref=f1e151]:
+        - generic [ref=f1e154]:
+          - generic [ref=f1e156]:
+            - heading "AI Overview" [level=2] [ref=f1e160]
+            - generic [ref=f1e162]:
+              - button "Change language to Hindi" [ref=f1e163] [cursor=pointer]:
+                - generic [ref=f1e164]: हिन्दी
+              - button "Listen" [ref=f1e167]
+            - button "About this result" [ref=f1e177]
+          - generic [ref=f1e200]:
+            - generic [ref=f1e202]:
+              - list [ref=f1e204]:
+                - listitem [ref=f1e205]:
+                  - button [ref=f1e207]:
+                    - img "Here are the 20 current supercars you should know about | Top ..." [ref=f1e208]
+                - listitem [ref=f1e209]:
+                  - button [ref=f1e211]:
+                    - img "What Defines a Supercar?" [ref=f1e212]
+                - listitem [ref=f1e213]:
+                  - button [ref=f1e215]:
+                    - img "Lamborghini Terzo Millennio is a 'possible future' electric ..." [ref=f1e216]
+                - listitem [ref=f1e217]:
+                  - button [ref=f1e219]:
+                    - img "Ferrari unveils new supercar, the F80 | Fox Business" [ref=f1e220]
+                - listitem [ref=f1e221]:
+                  - button [ref=f1e223]:
+                    - 'img "Great News: Alpine Is Working On a New Supercar" [ref=f1e224]'
+                - link "View all related links" [ref=f1e225] [cursor=pointer]:
+                  - /url: https://www.google.com/search?q=supercar&sca_esv=fea2caa620225ab9&source=univ&ei=fJBUaquQK9zSwcsP35aU8Q0&iflsig=ABILxe8AAAAAalSejACGPOtQCYF4hIKiJao4hnQwiV1t&ved=0CAAQjYkUahcKEwjQ746Fjs-VAxUAAAAAHQAAAAAQAg&uact=5&oq=supercar&gs_lp=Egdnd3Mtd2l6IghzdXBlcmNhckgTUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE&sclient=gws-wiz&udm=2&sa=X
+                  - generic [ref=f1e230]: View all
+                - button [ref=f1e231] [cursor=pointer]
+              - generic [ref=f1e235]:
+                - text: A supercar is
+                - mark [ref=f1e236]: a high-performance, street-legal sports car that delivers race-track-level speed, agile handling, and exclusive, head-turning design
+                - text: . Ranging from roughly $200,000 to millions of dollars, these vehicles utilize motorsports-derived technology and aerodynamic engineering to achieve immense power—often producing anywhere from 600 to well over 1,000 brake horsepower.
+                - generic [ref=f1e238]:
+                  - link "Wikipedia (+3) – View related links" [ref=f1e239] [cursor=pointer]:
+                    - /url: /goto?url=CAESSQHuR6pN87_zYhRrkQgC40i46SPKv3e4NWHXY34Ij-tvMuyhydlTEdMzvyAkxSbQpj8eY6NAsqtQHiufnEGBNEgqnTxp3FWpSPI=
+                  - button "Wikipedia (+3) – View related links" [ref=f1e240] [cursor=pointer]:
+                    - generic [ref=f1e242]:
+                      - generic [ref=f1e243]: Wikipedia
+                      - generic [ref=f1e244]: "+3"
+              - generic [ref=f1e249]:
+                - generic [ref=f1e252]:
+                  - generic [ref=f1e253]: "For a closer look at the raw speed and unique sound profiles of modern supercars out on the track:"
+                  - generic [ref=f1e255]:
+                    - button [ref=f1e259] [cursor=pointer]:
+                      - generic [ref=f1e260]: 34:37
+                    - link [ref=f1e275] [cursor=pointer]:
+                      - /url: /goto?url=CAESTgHuR6pN8v2mq6216sjE4FYAG0svsUTOjlC__yFyNeX3OwLZon1Pkam-AcpvpVoqKb-3dXbDuMPOj5B3fkMuBk5geDulsnc0ke3zvbOQiQ==
+                      - generic [ref=f1e276]:
+                        - generic [ref=f1e277]: Sneaking my 1000 HP SUPRA into EUROPES BIGGEST SUPERCAR ...
+                        - generic [ref=f1e284]:
+                          - generic [ref=f1e285]: OG Schaefchen
+                          - generic [ref=f1e286]: YouTube · 27 Apr 2026
+                - heading [level=3] [ref=f1e288]: Key Characteristics of a Supercar
+                - list [ref=f1e290]:
+                  - listitem [ref=f1e291]:
+                    - generic [ref=f1e292]:
+                      - strong [ref=f1e293]: "Extreme Performance:"
+                      - text: Supercars typically feature advanced mid-engine layouts that optimize weight distribution for high-speed cornering. They frequently exceed speeds of 200 mph (320 km/h) and boast blistering 0 to 60 mph acceleration times.
+                    - generic [ref=f1e295]:
+                      - link [ref=f1e296] [cursor=pointer]:
+                        - /url: /goto?url=CAESSQHuR6pN87_zYhRrkQgC40i46SPKv3e4NWHXY34Ij-tvMuyhydlTEdMzvyAkxSbQpj8eY6NAsqtQHiufnEGBNEgqnTxp3FWpSPI=
+                      - button [ref=f1e297] [cursor=pointer]:
+                        - generic [ref=f1e299]:
+                          - generic [ref=f1e300]: Wikipedia
+                          - generic [ref=f1e301]: "+4"
+                  - listitem [ref=f1e306]:
+                    - generic [ref=f1e307]:
+                      - strong [ref=f1e308]: "Exclusivity and Cachet:"
+                      - text: These vehicles are built in limited numbers, often acting as the flagship showcase for luxury brands like Ferrari, Lamborghini, McLaren, and Porsche.
+                    - generic [ref=f1e310]:
+                      - link [ref=f1e311] [cursor=pointer]:
+                        - /url: /goto?url=CAESSQHuR6pN87_zYhRrkQgC40i46SPKv3e4NWHXY34Ij-tvMuyhydlTEdMzvyAkxSbQpj8eY6NAsqtQHiufnEGBNEgqnTxp3FWpSPI=
+                      - button [ref=f1e312] [cursor=pointer]:
+                        - generic [ref=f1e313]: Wikipedia
+                  - listitem [ref=f1e320]:
+                    - generic [ref=f1e321]:
+                      - strong [ref=f1e322]: "Hypercars:"
+                      - text: The highest tier of this category—the extreme fringe with multi-million dollar price tags and top speeds bridging 300 mph (e.g., Bugatti models)—is often referred to as a
+                      - emphasis [ref=f1e323]: hypercar
+                      - text: .
+                    - generic [ref=f1e325]:
+                      - link [ref=f1e326] [cursor=pointer]:
+                        - /url: /goto?url=CAESSQHuR6pN87_zYhRrkQgC40i46SPKv3e4NWHXY34Ij-tvMuyhydlTEdMzvyAkxSbQpj8eY6NAsqtQHiufnEGBNEgqnTxp3FWpSPI=
+                      - button [ref=f1e327] [cursor=pointer]:
+                        - generic [ref=f1e329]:
+                          - generic [ref=f1e330]: Wikipedia
+                          - generic [ref=f1e331]: "+2"
+                - heading [level=3] [ref=f1e337]: Supercars in the Local Context
+                - generic [ref=f1e339]:
+                  - text: If you are looking for top-tier supercars in India, prominent models range from the
+                  - strong [ref=f1e340]: Lamborghini Revuelto
+                  - text: and
+                  - strong [ref=f1e341]: Ferrari 12Cilindri
+                  - text: to the
+                  - strong [ref=f1e342]: McLaren 750S
+                  - text: . The Indian market is also home to high-performance grand tourers, with cars like the
+                  - strong [ref=f1e343]: Maserati GranTurismo
+                  - text: and flagship
+                  - strong [ref=f1e344]: Ferraris
+                  - text: seeing widespread popularity.
+                  - generic [ref=f1e346]:
+                    - link [ref=f1e347] [cursor=pointer]:
+                      - /url: /goto?url=CAESUgHuR6pN3MmgUC54PHoMrR6UEA6SaHfL1c4g0cMsJMIaB1uhL9jmTcBWXXDaaeO75bJQFcklrmuoGL0VHDtXoKAVtm8EQ9k09T0ZHgaHhFfgQKk=
+                    - button [ref=f1e348] [cursor=pointer]:
+                      - generic [ref=f1e350]:
+                        - generic [ref=f1e351]: CarDekho
+                        - generic [ref=f1e352]: "+1"
+                - generic [ref=f1e359]:
+                  - generic [ref=f1e360]: "For a detailed review and breakdown of the features and loud exhaust notes on a comparable high-end sports car:"
+                  - generic [ref=f1e362]:
+                    - button [ref=f1e366] [cursor=pointer]:
+                      - generic [ref=f1e367]: 2:59
+                    - link [ref=f1e380] [cursor=pointer]:
+                      - /url: /goto?url=CAESTQHuR6pNo-oZ4IHuTPIVuULUQTDPY3M7uVXmOmYJXw-O81tDjeGxu6imx6ixwyUzr4uYl0fKfT8MPw9bnS4_AwWsZcB3RjKY1-5YPULj
+                      - generic [ref=f1e381]:
+                        - generic [ref=f1e382]: This Supercar Is Efficient & Loud!
+                        - generic [ref=f1e389]:
+                          - generic [ref=f1e390]: Faisal Khan
+                          - generic [ref=f1e391]: YouTube · 10 Feb 2026
+            - generic [ref=f1e395]:
+              - generic [ref=f1e397]:
+                - button [ref=f1e398]:
+                  - generic [ref=f1e406]: 3 sites
+                - button "About this result" [ref=f1e412] [cursor=pointer]
+              - list [ref=f1e417]:
+                - listitem [ref=f1e418]:
+                  - generic [ref=f1e419]:
+                    - link "Supercar - Wikipedia. Opens in new tab." [ref=f1e420] [cursor=pointer]:
+                      - /url: /goto?url=CAESSQHuR6pN87_zYhRrkQgC40i46SPKv3e4NWHXY34Ij-tvMuyhydlTEdMzvyAkxSbQpj8eY6NAsqtQHiufnEGBNEgqnTxp3FWpSPI=
+                    - generic [ref=f1e421]:
+                      - generic [ref=f1e423]:
+                        - generic [ref=f1e424]: Supercar - Wikipedia
+                        - generic [ref=f1e425]: A supercar, also known as an exotic car, is a street-legal sports car with race track-like power, speed, and handling, plus a cert...
+                      - generic [ref=f1e427]:
+                        - generic [ref=f1e430]: Wikipedia
+                        - button "About this result" [ref=f1e436] [cursor=pointer]
+                - listitem [ref=f1e442]:
+                  - generic [ref=f1e443]:
+                    - link "Best Super Luxury cars in India - CarDekho. Opens in new tab." [ref=f1e444] [cursor=pointer]:
+                      - /url: /goto?url=CAESUgHuR6pN3MmgUC54PHoMrR6UEA6SaHfL1c4g0cMsJMIaB1uhL9jmTcBWXXDaaeO75bJQFcklrmuoGL0VHDtXoKAVtm8EQ9k09T0ZHgaHhFfgQKk=
+                    - generic [ref=f1e445]:
+                      - generic [ref=f1e447]:
+                        - generic [ref=f1e448]: Best Super Luxury cars in India - CarDekho
+                        - generic [ref=f1e449]: The Best Super Luxury cars in India include Maserati GranTurismo (Rs. 2.25 Cr), Bentley Flying Spur (Rs. 5.25 Cr), Rolls-Royce Pha...
+                      - generic [ref=f1e451]:
+                        - generic [ref=f1e454]: CarDekho
+                        - button "About this result" [ref=f1e460] [cursor=pointer]
+                - listitem [ref=f1e466]:
+                  - generic [ref=f1e467]:
+                    - link "Best super cars in India – Price, mileage, specifications - Cars24. Opens in new tab." [ref=f1e468] [cursor=pointer]:
+                      - /url: /goto?url=CAESeAHuR6pN0u4B7EJBwANkaPjNGSx0JHJzZ_QK1Tm6DYQmLzvH_Tturi7ODttnc2ZSt-WNFkEtH0UWTm9c5k3VBIwKwnUhjRKdKxBxBj2KBlIJyJhNXReFsZRzXcLbFp-PthEMAfHghGCJ1uU79d2IrsraAbcPMDRMCQ==
+                    - generic [ref=f1e469]:
+                      - generic [ref=f1e471]:
+                        - generic [ref=f1e472]: Best super cars in India – Price, mileage, specifications - Cars24
+                        - generic [ref=f1e473]: Best super cars in India – Price, mileage, specifications * Top 10 supercars in India in 2026. * Lamborghini Revuelto | 1001 bhp. ...
+                      - generic [ref=f1e475]:
+                        - generic [ref=f1e478]: Cars24
+                        - button [ref=f1e484] [cursor=pointer]
+              - button [ref=f1e490] [cursor=pointer]:
+                - generic [ref=f1e491]: Show all
+        - button "Show more AI Overview" [ref=f1e499]:
+          - generic [ref=f1e500] [cursor=pointer]: Show more
+      - main [ref=f1e507]:
+        - generic [ref=f1e511]:
+          - generic [ref=f1e514]:
+            - heading "Web results" [level=2] [ref=f1e515]
+            - generic [ref=f1e516]:
+              - generic [ref=f1e519]:
+                - link "Supercar Wikipedia https://en.wikipedia.org › wiki › Supercar" [ref=f1e521] [cursor=pointer]:
+                  - /url: /goto?url=CAESXgHuR6pN3G023hDfNcwUC340R5qYugigr59JuektyyZTufbwCb13oKdWHSx8ReJrR--MTEBZ1C-hWyWNHGQWH0DxovtR1T3jBs243d1W1VPTe4dLMXoznUlKOgqZyXI=
+                  - heading "Supercar" [level=3] [ref=f1e522]
+                  - generic [ref=f1e528]:
+                    - generic [ref=f1e529]: Wikipedia
+                    - generic [ref=f1e531]: https://en.wikipedia.org › wiki › Supercar
+                - button "About this result" [ref=f1e535] [cursor=pointer]
+              - generic [ref=f1e541]:
+                - generic [ref=f1e542]:
+                  - text: A
+                  - emphasis [ref=f1e543]: supercar
+                  - text: ", also known as an exotic car, is a street-legal sports car with race track-like power, speed, and handling"
+                - link "Read more" [ref=f1e544] [cursor=pointer]:
+                  - /url: /goto?url=CAESvAEB7keqTdB8OXjl9XUafAZh1B806sYOBd9V9FCUtDylIExTBbS04mjOG6clLguUOKU1f26fmT_guww-GvPLebh80NE_DLUwLoKBl62bARu90-6jzP4cpgQVmuTt-F9Al2xHdwwuto-fjZza438X9qLzX3D3DfmjdkLH8cGCMMfstAXUZQYK7JYEvqK0JDvbqlG_Bptk7K9JE8su1VeRHQ7P5nFzeHrBM-5uU6f-Adv8x4LDEoU1_vxgIofl4g==
+              - link [ref=f1e547] [cursor=pointer]:
+                - /url: /goto?url=CAESXgHuR6pN3G023hDfNcwUC340R5qYugigr59JuektyyZTufbwCb13oKdWHSx8ReJrR--MTEBZ1C-hWyWNHGQWH0DxovtR1T3jBs243d1W1VPTe4dLMXoznUlKOgqZyXI=
+                - img "supercar from en.wikipedia.org" [ref=f1e549]
+          - generic [ref=f1e554]:
+            - heading "People also ask" [level=2] [ref=f1e556]
+            - generic [ref=f1e557]:
+              - button "Which is the No. 1 super car?" [ref=f1e563] [cursor=pointer]
+              - button "Which car is most liked by girls?" [ref=f1e577] [cursor=pointer]
+              - button "Which car is a supercar?" [ref=f1e591] [cursor=pointer]
+              - button "What does supercar mean?" [ref=f1e605] [cursor=pointer]
+          - generic [ref=f1e615]:
+            - heading "Web results" [level=2] [ref=f1e616]
+            - generic [ref=f1e617]:
+              - generic [ref=f1e620]:
+                - link "Best Super Luxury cars in India CarDekho https://www.cardekho.com › New Cars" [ref=f1e622] [cursor=pointer]:
+                  - /url: /goto?url=CAESZwHuR6pN9tQsDwuDB70u576ChWO_FJQQtJEj8TvvCmVM21bVWBAgcn4H_nlsnz36Uk__zcFXvSXQcObaFRgdtYlGpF0x3lXjqghsl_i8VZjubZJ92AY6P8VGThMzvhKEdYLFSv5-xPo=
+                  - heading "Best Super Luxury cars in India" [level=3] [ref=f1e623]
+                  - generic [ref=f1e629]:
+                    - generic [ref=f1e630]: CarDekho
+                    - generic [ref=f1e632]: https://www.cardekho.com › New Cars
+                - button "About this result" [ref=f1e636] [cursor=pointer]
+              - generic [ref=f1e642]:
+                - text: The Best Super Luxury cars in India include Maserati GranTurismo (Rs. 2.25 Cr), Bentley Flying Spur (Rs. 5.25 Cr), Rolls-Royce Phantom (Rs. 8.99 Cr), ...
+                - link "Read more" [ref=f1e643] [cursor=pointer]:
+                  - /url: /goto?url=CAESvQEB7keqTQbmBazXp1ms4uKgxVTjFFXDqR8083uL4DYqvl4G8XjFJoQhzVzO-otA4rgTs9xn-jro3WWc7Y-AFBfJc3dUPyvm1nccFVphNgehJAJoLR0ROh2eKoMAJZ-jSr8pz9Q1yb3GNaZpBQHRKlYhJv4kdGpxIjoO43tps3-upZ3l4v2HPx5UbkZeSxqcfG-llj5k-Wvko7nDvv2TLmrQMON34uH6z1brOrvFQ7E7ecMUiLe0-hG5aZjlFdo=
+              - link [ref=f1e646] [cursor=pointer]:
+                - /url: /goto?url=CAESZwHuR6pN9tQsDwuDB70u576ChWO_FJQQtJEj8TvvCmVM21bVWBAgcn4H_nlsnz36Uk__zcFXvSXQcObaFRgdtYlGpF0x3lXjqghsl_i8VZjubZJ92AY6P8VGThMzvhKEdYLFSv5-xPo=
+                - img "supercar from www.cardekho.com" [ref=f1e648]
+          - generic [ref=f1e652]:
+            - generic [ref=f1e655]:
+              - link "Here are the 20 current supercars you should know about Top Gear https://www.topgear.com › car-news › top-gear-advice" [ref=f1e657] [cursor=pointer]:
+                - /url: /goto?url=CAESnAEB7keqTd8NUfrXmQmqJHPmb9YHzH8JIrTtBhXPcHP7KpY_jfdKlKaXtmpBhyT6jGIkl8AJ-63fTXLz-vX_9ZmWmaSq8-_5xDu0X4KM_ezkgN3r9OG2ip7KhS33fbcsWzZJ_oj7m8euB35ByyEGrpuQVpZxeFyEyRQ_kGRSeRSmpatn0fsnqy99s6nqoVos3yNuhqv46SWuoKej5OA=
+                - heading "Here are the 20 current supercars you should know about" [level=3] [ref=f1e658]
+                - generic [ref=f1e664]:
+                  - generic [ref=f1e665]: Top Gear
+                  - generic [ref=f1e667]: https://www.topgear.com › car-news › top-gear-advice
+              - button "About this result" [ref=f1e671] [cursor=pointer]
+            - generic [ref=f1e677]:
+              - generic [ref=f1e678]:
+                - emphasis [ref=f1e679]: Here are the 20 current supercars you should know about
+                - text: . From Porsche to Pininfarina, Lotus to Lamborghini, these are the supercars of the moment.
+              - link "Read more" [ref=f1e680] [cursor=pointer]:
+                - /url: /goto?url=CAESwwIB7keqTZmhv-BmJ6puOCZ21hh3PYw_C07JHgkivUK8ydoaFg8JzG8g6xTwFBF_qZn1IL2m-llMYcd7tbTA04KFzgRl6NqqXl7ypcGERkTbFe4i_si18rcls2Y5Y4Mfpl69DqJJapYVl398bREjE8_we1DtS6wfpAy1UdqUVAQlpGNLYLlsSgfAUcFuguXUmq7IP--iCWovrJqYG8mAMe01iVlGa8g51GT8EslTzviVj-gQQY_87FkkRS-V21u8G8YR8g8ZegADQRt_9lY0duNyHlwmXq6Rcwxx2sV95RcSkLpj1cedisiCfhJz7tkM-vsLbSEO3AgU7G8MszB-8ExM6TkwwXpCSPuX1qgwzOzFp4RbwbZm9WpHMCrLPW1MZAgsNCGyMrfQqU9TxJMohrZFkLkOKaahpqvypMW-KmS9dZ91Zg==
+            - link "supercar images from www.topgear.com" [ref=f1e682] [cursor=pointer]:
+              - /url: /goto?url=CAESnAEB7keqTd8NUfrXmQmqJHPmb9YHzH8JIrTtBhXPcHP7KpY_jfdKlKaXtmpBhyT6jGIkl8AJ-63fTXLz-vX_9ZmWmaSq8-_5xDu0X4KM_ezkgN3r9OG2ip7KhS33fbcsWzZJ_oj7m8euB35ByyEGrpuQVpZxeFyEyRQ_kGRSeRSmpatn0fsnqy99s6nqoVos3yNuhqv46SWuoKej5OA=
+          - generic [ref=f1e694]:
+            - generic [ref=f1e696]:
+              - heading "Videos" [level=2] [ref=f1e697]
+              - button "About this result" [ref=f1e698] [cursor=pointer]
+            - generic [ref=f1e704]:
+              - generic [ref=f1e710]:
+                - generic [ref=f1e711]:
+                  - generic [ref=f1e712]:
+                    - link [ref=f1e714] [cursor=pointer]:
+                      - /url: /goto?url=CAESYwHuR6pN3D_zsvaATmvyWacilrUwGaBmBgde7_odTixvVNcoK-AaUYbnnHz1v6_A8T0_iwAwnM0OjbIUxqHuIDn4ohwCFRSDVwg0-OrD3rg83wPEfKPoWy_rQPogCjWxEB8_ZA==
+                      - heading "The Poster Car Drive 2026 - Supercar Driver 4K YouTube Supercar Driver 3 weeks ago" [level=3] [ref=f1e715]:
+                        - generic [ref=f1e716]: The Poster Car Drive 2026 - Supercar Driver 4K
+                        - generic [ref=f1e720]:
+                          - generic [ref=f1e721]:
+                            - text: YouTube
+                            - generic [ref=f1e722]: · Supercar Driver
+                          - generic [ref=f1e723]: 3 weeks ago
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · Supercar Driver
+                        - button "About this result" [ref=f1e724] [cursor=pointer]
+                  - button "The Poster Car Drive 2026 - Supercar Driver 4K by Supercar Driver on YouTube. Play on Google. 14:59" [ref=f1e729] [cursor=pointer]:
+                    - generic [ref=f1e730]: 14:59
+                - button "Modern supercars lack soul, noise, and driver engagement. Analog cars offer a more challenging, engaging, and nostalgic driving experience." [ref=f1e746] [cursor=pointer]
+              - generic [ref=f1e757]:
+                - generic [ref=f1e758]:
+                  - link [ref=f1e760] [cursor=pointer]:
+                    - /url: /goto?url=CAESYwHuR6pNm8p2-uXaxP0IUf3k-3lcwaOGnRlTfnNdzebieQQ2MSKoBE2x7Gmf-T-V6rXbpxRHK1gIQzYlL0f3gDa9VZem2rJ4Hpp3Z1mpMnoRssHexSGytkP_7fgPdaML60v2JA==
+                    - heading "20 Best Supercar Debuts at Goodwood Festival of Speed YouTube Goodwood Road & Racing 3 days ago" [level=3] [ref=f1e761]:
+                      - generic [ref=f1e762]: 20 Best Supercar Debuts at Goodwood Festival of Speed
+                      - generic [ref=f1e766]:
+                        - generic [ref=f1e767]:
+                          - text: YouTube
+                          - generic [ref=f1e768]: · Goodwood Road & Racing
+                        - generic [ref=f1e769]: 3 days ago
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · Goodwood Road & Racing
+                      - button "About this result" [ref=f1e770] [cursor=pointer]
+                - button "20 Best Supercar Debuts at Goodwood Festival of Speed by Goodwood Road & Racing on YouTube. Play on Google. 14:50" [ref=f1e775] [cursor=pointer]:
+                  - generic [ref=f1e776]: 14:50
+              - generic [ref=f1e796]:
+                - generic [ref=f1e797]:
+                  - generic [ref=f1e798]:
+                    - link [ref=f1e800] [cursor=pointer]:
+                      - /url: /goto?url=CAESYwHuR6pNG88HfNXFIAMgXrmJT091_c0IXPQ7o_pLsZKrApF8Fh6P9DUeERW1UAlOMTDeA3CjbpIx7w69bgcViIOH6UTzxTG7K1fN5FdPHAZ_ZfFVWxEj9bYqIcg-0Ys4h-kMIQ==
+                      - heading "Sneaking my 1000 HP SUPRA into EUROPES BIGGEST ... YouTube OG Schaefchen 27 Apr 2026" [level=3] [ref=f1e801]:
+                        - generic [ref=f1e802]: Sneaking my 1000 HP SUPRA into EUROPES BIGGEST ...
+                        - generic [ref=f1e806]:
+                          - generic [ref=f1e807]:
+                            - text: YouTube
+                            - generic [ref=f1e808]: · OG Schaefchen
+                          - generic [ref=f1e809]: 27 Apr 2026
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · OG Schaefchen
+                        - button "About this result" [ref=f1e810] [cursor=pointer]
+                  - button "Sneaking my 1000 HP SUPRA into EUROPES BIGGEST ... by OG Schaefchen on YouTube. Play on Google. 34:37" [ref=f1e815] [cursor=pointer]:
+                    - generic [ref=f1e816]: 34:37
+                - button "This Supra has 1000 HP and was snuck into Europe's biggest supercar meet, where it was not well-received by other supercar owners." [ref=f1e832] [cursor=pointer]
+            - link "View all videos" [ref=f1e839] [cursor=pointer]:
+              - /url: /search?sca_esv=fea2caa620225ab9&udm=7&q=supercar&sa=X&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ8ccDKAJ6BAhZEAQ
+              - separator [ref=f1e840]
+              - generic [ref=f1e841]: View all
+          - generic [ref=f1e848]:
+            - heading "Web results" [level=2] [ref=f1e849]
+            - generic [ref=f1e850]:
+              - generic [ref=f1e853]:
+                - link "Supercars - Fastest & most powerful Koenigsegg Automotive AB https://www.koenigsegg.com › supercars" [ref=f1e855] [cursor=pointer]:
+                  - /url: /goto?url=CAESXAHuR6pNufs85aTwTNoS3qeoheOo3XQVYPsIMVUS1cJK11IeG900AHR20UPYBYPbqzL7KrZ7FWMGZ89-LZ_RC16RIPwgSud0JsKUgzDzwOqWHB_zsuAe3ese1j0E
+                  - heading "Supercars - Fastest & most powerful" [level=3] [ref=f1e856]
+                  - generic [ref=f1e862]:
+                    - generic [ref=f1e863]: Koenigsegg Automotive AB
+                    - generic [ref=f1e865]: https://www.koenigsegg.com › supercars
+                - button "About this result" [ref=f1e869] [cursor=pointer]
+              - generic [ref=f1e875]:
+                - generic [ref=f1e876]:
+                  - emphasis [ref=f1e877]: Koenigsegg is a Swedish high-performance car manufacturer
+                  - text: that is known for producing some of the fastest and most powerful supercars in the world.
+                - link "Read more" [ref=f1e878] [cursor=pointer]:
+                  - /url: /goto?url=CAESpwIB7keqTZXA8rsVxd0AVWI_fFIYoYzz2vzvY78xhGEKMbdPokQ-fPqw2ccmh3GdaBD7fDzol2CVc3kGdbn-aQRRUKJ_7sdlWHCvEZAIBn2KNRPFxEsCFamTEtNiN3NrH91GRVstoUF04PUkZw2GlibNXx6TtQwIQdNM19nMD96JcMORwNPSD3ZPZd6xelmy3BKFXPHehjCKQqGBK7hPKgTbXBKY29Af7XhEYayMVahDby_Ka5RwJkznzw9T8epAkITUNZ3joXVekRsA0-qg3uT7iBrUk0VkQOd6fhgSw_9CF3YKsvfqWjaWI8ZuROKeeoSWR0lZGfgBdy5-mbEUvG4ae--by0B_6AWYRgUv4R2AojZ9_pN14KMHVSsDnFDg6DsGJc8YkXlC
+              - link [ref=f1e881] [cursor=pointer]:
+                - /url: /goto?url=CAESXAHuR6pNufs85aTwTNoS3qeoheOo3XQVYPsIMVUS1cJK11IeG900AHR20UPYBYPbqzL7KrZ7FWMGZ89-LZ_RC16RIPwgSud0JsKUgzDzwOqWHB_zsuAe3ese1j0E
+                - img "supercar from www.koenigsegg.com" [ref=f1e883]
+          - generic [ref=f1e887]:
+            - generic [ref=f1e890]:
+              - link "Supercar Blondie (@supercarblondie) Instagram · supercarblondie 1.8Cr+ followers" [ref=f1e892] [cursor=pointer]:
+                - /url: /goto?url=CAESaAHuR6pN6SdVz-hhKjlVWyzafQLMPN0iyKgFhbUCfFav3wdnRHCWV82tDxLoUxAd9Rf1cT-okgxRA_ehTVpxx7RedQgXp59eWiSIg1R-dXSVNSDMgfSWR-_rAUgjuxqPVG_kL-K_X6kW
+                - heading "Supercar Blondie (@supercarblondie)" [level=3] [ref=f1e893]
+                - generic [ref=f1e899]:
+                  - generic [ref=f1e900]: Instagram · supercarblondie
+                  - generic [ref=f1e902]: 1.8Cr+ followers
+              - button "About this result" [ref=f1e906] [cursor=pointer]
+            - generic [ref=f1e911]: "18M followers · 728 following · 2780 posts · @supercarblondie: “Currently in Saint Tropez☀️ Looking for a special car? DM us”"
+            - link [ref=f1e915] [cursor=pointer]:
+              - /url: /goto?url=CAESaAHuR6pN6SdVz-hhKjlVWyzafQLMPN0iyKgFhbUCfFav3wdnRHCWV82tDxLoUxAd9Rf1cT-okgxRA_ehTVpxx7RedQgXp59eWiSIg1R-dXSVNSDMgfSWR-_rAUgjuxqPVG_kL-K_X6kW
+              - img "supercar from www.instagram.com" [ref=f1e917]
+          - generic [ref=f1e921]:
+            - generic [ref=f1e924]:
+              - link "The Supercar Blog - All About Supercars and High Octane ... The Supercar Blog https://www.thesupercarblog.com" [ref=f1e926] [cursor=pointer]:
+                - /url: /goto?url=CAESWAHuR6pNJOCLrXeu4ydsVxBdnLL3AJSRB1wnEODR-SiUSpeF7ANE4a9TpvFaySYknl9kWIB1AupFv2Who_Zr5vJL0WXqlChqDVSy9idEz8cn7i939dpEZ-E=
+                - heading "The Supercar Blog - All About Supercars and High Octane ..." [level=3] [ref=f1e927]
+                - generic [ref=f1e933]:
+                  - generic [ref=f1e934]: The Supercar Blog
+                  - generic [ref=f1e936]: https://www.thesupercarblog.com
+              - button "About this result" [ref=f1e940] [cursor=pointer]
+            - generic [ref=f1e947]:
+              - emphasis [ref=f1e948]: The Supercar Blog
+              - text: is a news website that covers all the latest from the world of hypercars, supercars, exotics and sports cars.
+            - link [ref=f1e951] [cursor=pointer]:
+              - /url: /goto?url=CAESWAHuR6pNJOCLrXeu4ydsVxBdnLL3AJSRB1wnEODR-SiUSpeF7ANE4a9TpvFaySYknl9kWIB1AupFv2Who_Zr5vJL0WXqlChqDVSy9idEz8cn7i939dpEZ-E=
+              - img "supercar from www.thesupercarblog.com" [ref=f1e953]
+          - generic [ref=f1e957]:
+            - generic [ref=f1e960]:
+              - link "r/supercars Reddit · r/supercars 1.2L+ followers" [ref=f1e962] [cursor=pointer]:
+                - /url: /goto?url=CAESWwHuR6pNfK_pIY749TYzCJn6UKA1tUGPIuAiYh5UA_OAaet4ZDdcWRlTbvXee5vFOsiF7FI2C5M164HsEvfQTfLwX0SIE1M2Sn9IJmIHrU94qOWxMeTlgplULVM=
+                - heading "r/supercars" [level=3] [ref=f1e963]
+                - generic [ref=f1e969]:
+                  - generic [ref=f1e970]: Reddit · r/supercars
+                  - generic [ref=f1e972]: 1.2L+ followers
+              - button "About this result" [ref=f1e976] [cursor=pointer]
+            - generic [ref=f1e983]:
+              - text: "r/supercars:"
+              - emphasis [ref=f1e984]: Discussion, news, pics, and vids of supercars
+              - text: from around the world.
+            - link [ref=f1e987] [cursor=pointer]:
+              - /url: /goto?url=CAESWwHuR6pNfK_pIY749TYzCJn6UKA1tUGPIuAiYh5UA_OAaet4ZDdcWRlTbvXee5vFOsiF7FI2C5M164HsEvfQTfLwX0SIE1M2Sn9IJmIHrU94qOWxMeTlgplULVM=
+              - img "supercar from www.reddit.com" [ref=f1e989]
+          - generic [ref=f1e993]:
+            - generic [ref=f1e996]:
+              - link "Buy Supercars in India - Boit Club Registry Boit Club™ https://boit.club › collections › buy-supercars-india" [ref=f1e998] [cursor=pointer]:
+                - /url: /goto?url=CAESaQHuR6pNMsdGKh4H5KHMyRoo7IgHNH6-97Tr7DMFg1yhijV0TSyzmvKlu8oAv7CFwDLQY52jnhTQKF8EHK4cJQaHw_-NbHykp-q9vsZtHXNy2nYKc0cHz88b5foC6BXnjxfBomU9dnULXg==
+                - heading "Buy Supercars in India - Boit Club Registry" [level=3] [ref=f1e999]
+                - generic [ref=f1e1005]:
+                  - generic [ref=f1e1006]: Boit Club™
+                  - generic [ref=f1e1008]: https://boit.club › collections › buy-supercars-india
+              - button "About this result" [ref=f1e1012] [cursor=pointer]
+            - generic [ref=f1e1018]:
+              - generic [ref=f1e1019]:
+                - text: Experience the ultimate convenience and transparency of
+                - emphasis [ref=f1e1020]: buying supercars and rare cars in India
+                - text: through Boit. We verify buyers and sellers and thoroughly ...
+              - link "Read more" [ref=f1e1021] [cursor=pointer]:
+                - /url: /goto?url=CAESwwEB7keqTUNjD0-tpzIDx2o6VhEvOqJFyiSocNPtcxvL3Pby-CmNED8Ft4ntu3CNKxbvHi09hvOAYNzFoG4qYW4fq2HF4qh6hmptTPYSCniPSEq5YjHhSinNYBJ9qkNOW5awzYF0uKnjTC5z8EBbcXV00p5xV01ATd57NSFng4IM6L37sHtnRZkOCrxMQtFkBPIPFDrr4b41n7aDLLyAVMS4Zr92pP9Z5_4UMOddHPLxsnx-kG_Uf0m1Ly0MgT8BGBeW5L4=
+            - link "supercar images from boit.club" [ref=f1e1023] [cursor=pointer]:
+              - /url: /goto?url=CAESaQHuR6pNMsdGKh4H5KHMyRoo7IgHNH6-97Tr7DMFg1yhijV0TSyzmvKlu8oAv7CFwDLQY52jnhTQKF8EHK4cJQaHw_-NbHykp-q9vsZtHXNy2nYKc0cHz88b5foC6BXnjxfBomU9dnULXg==
+        - generic [ref=f1e1038]:
+          - generic [ref=f1e1043]:
+            - heading "People also search for" [level=2] [ref=f1e1045]
+            - generic [ref=f1e1047]:
+              - generic [ref=f1e1048]:
+                - link "Supercar price" [ref=f1e1052] [cursor=pointer]:
+                  - /url: /search?sca_esv=fea2caa620225ab9&q=Supercar+price&sa=X&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ1QJ6BAhcEAE
+                - link "Supercar in india" [ref=f1e1066] [cursor=pointer]:
+                  - /url: /search?sca_esv=fea2caa620225ab9&q=Supercar+in+india&sa=X&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ1QJ6BAhjEAE
+                - link "Supercars list" [ref=f1e1080] [cursor=pointer]:
+                  - /url: /search?sca_esv=fea2caa620225ab9&q=Supercars+list&sa=X&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ1QJ6BAhiEAE
+                - link "Supercar name" [ref=f1e1094] [cursor=pointer]:
+                  - /url: /search?sca_esv=fea2caa620225ab9&q=Supercar+name&sa=X&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ1QJ6BAhhEAE
+              - generic [ref=f1e1105]:
+                - link "Top 10 supercars" [ref=f1e1109] [cursor=pointer]:
+                  - /url: /search?sca_esv=fea2caa620225ab9&q=Top+10+supercars&sa=X&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ1QJ6BAhfEAE
+                - link "Top 100 supercars" [ref=f1e1123] [cursor=pointer]:
+                  - /url: /search?sca_esv=fea2caa620225ab9&q=Top+100+supercars&sa=X&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ1QJ6BAhdEAE
+                - link "Supercar brand" [ref=f1e1137] [cursor=pointer]:
+                  - /url: /search?sca_esv=fea2caa620225ab9&q=Supercar+brand&sa=X&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ1QJ6BAhgEAE
+                - link "Supercar TV show" [ref=f1e1151] [cursor=pointer]:
+                  - /url: /search?sca_esv=fea2caa620225ab9&q=Supercar+TV+show&sa=X&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ1QJ6BAheEAE
+          - navigation [ref=f1e1162]:
+            - heading "Page navigation" [level=1] [ref=f1e1163]
+            - text: "1"
+            - link "Page 2" [ref=f1e1166] [cursor=pointer]:
+              - /url: /search?q=supercar&sca_esv=fea2caa620225ab9&ei=zZBUarvjBtSxwcsPtrSbEA&start=10&sa=N&sstk=AU9db-BLY4kdr2H4XTT6sYasqBFCui8cEmyVcFK6Ztmx1BjqzKnYlg0DtIGGviq0wfI_kngaeVoaOzHunBR3U_zJEXJEE5dW4QiL1A&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ8tMDegQIWhAE
+              - text: "2"
+            - link "Page 3" [ref=f1e1168] [cursor=pointer]:
+              - /url: /search?q=supercar&sca_esv=fea2caa620225ab9&ei=zZBUarvjBtSxwcsPtrSbEA&start=20&sa=N&sstk=AU9db-BLY4kdr2H4XTT6sYasqBFCui8cEmyVcFK6Ztmx1BjqzKnYlg0DtIGGviq0wfI_kngaeVoaOzHunBR3U_zJEXJEE5dW4QiL1A&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ8tMDegQIWhAG
+              - text: "3"
+            - link "Page 4" [ref=f1e1170] [cursor=pointer]:
+              - /url: /search?q=supercar&sca_esv=fea2caa620225ab9&ei=zZBUarvjBtSxwcsPtrSbEA&start=30&sa=N&sstk=AU9db-BLY4kdr2H4XTT6sYasqBFCui8cEmyVcFK6Ztmx1BjqzKnYlg0DtIGGviq0wfI_kngaeVoaOzHunBR3U_zJEXJEE5dW4QiL1A&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ8tMDegQIWhAI
+              - text: "4"
+            - link "Page 5" [ref=f1e1172] [cursor=pointer]:
+              - /url: /search?q=supercar&sca_esv=fea2caa620225ab9&ei=zZBUarvjBtSxwcsPtrSbEA&start=40&sa=N&sstk=AU9db-BLY4kdr2H4XTT6sYasqBFCui8cEmyVcFK6Ztmx1BjqzKnYlg0DtIGGviq0wfI_kngaeVoaOzHunBR3U_zJEXJEE5dW4QiL1A&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ8tMDegQIWhAK
+              - text: "5"
+            - link "Page 6" [ref=f1e1174] [cursor=pointer]:
+              - /url: /search?q=supercar&sca_esv=fea2caa620225ab9&ei=zZBUarvjBtSxwcsPtrSbEA&start=50&sa=N&sstk=AU9db-BLY4kdr2H4XTT6sYasqBFCui8cEmyVcFK6Ztmx1BjqzKnYlg0DtIGGviq0wfI_kngaeVoaOzHunBR3U_zJEXJEE5dW4QiL1A&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ8tMDegQIWhAM
+              - text: "6"
+            - link "Page 7" [ref=f1e1176] [cursor=pointer]:
+              - /url: /search?q=supercar&sca_esv=fea2caa620225ab9&ei=zZBUarvjBtSxwcsPtrSbEA&start=60&sa=N&sstk=AU9db-BLY4kdr2H4XTT6sYasqBFCui8cEmyVcFK6Ztmx1BjqzKnYlg0DtIGGviq0wfI_kngaeVoaOzHunBR3U_zJEXJEE5dW4QiL1A&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ8tMDegQIWhAO
+              - text: "7"
+            - link "Page 8" [ref=f1e1178] [cursor=pointer]:
+              - /url: /search?q=supercar&sca_esv=fea2caa620225ab9&ei=zZBUarvjBtSxwcsPtrSbEA&start=70&sa=N&sstk=AU9db-BLY4kdr2H4XTT6sYasqBFCui8cEmyVcFK6Ztmx1BjqzKnYlg0DtIGGviq0wfI_kngaeVoaOzHunBR3U_zJEXJEE5dW4QiL1A&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ8tMDegQIWhAQ
+              - text: "8"
+            - link "Page 9" [ref=f1e1180] [cursor=pointer]:
+              - /url: /search?q=supercar&sca_esv=fea2caa620225ab9&ei=zZBUarvjBtSxwcsPtrSbEA&start=80&sa=N&sstk=AU9db-BLY4kdr2H4XTT6sYasqBFCui8cEmyVcFK6Ztmx1BjqzKnYlg0DtIGGviq0wfI_kngaeVoaOzHunBR3U_zJEXJEE5dW4QiL1A&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ8tMDegQIWhAS
+              - text: "9"
+            - link "Page 10" [ref=f1e1182] [cursor=pointer]:
+              - /url: /search?q=supercar&sca_esv=fea2caa620225ab9&ei=zZBUarvjBtSxwcsPtrSbEA&start=90&sa=N&sstk=AU9db-BLY4kdr2H4XTT6sYasqBFCui8cEmyVcFK6Ztmx1BjqzKnYlg0DtIGGviq0wfI_kngaeVoaOzHunBR3U_zJEXJEE5dW4QiL1A&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ8tMDegQIWhAU
+              - text: "10"
+            - heading [level=2] [ref=f1e1184]:
+              - link "Next" [ref=f1e1185] [cursor=pointer]:
+                - /url: /search?q=supercar&sca_esv=fea2caa620225ab9&ei=zZBUarvjBtSxwcsPtrSbEA&start=10&sa=N&sstk=AU9db-BLY4kdr2H4XTT6sYasqBFCui8cEmyVcFK6Ztmx1BjqzKnYlg0DtIGGviq0wfI_kngaeVoaOzHunBR3U_zJEXJEE5dW4QiL1A&ved=2ahUKEwj7_fbzjc-VAxXUWHADHTbaBgIQ8NMDegQIWhAW
+        - navigation
+    - contentinfo [ref=f1e1188]:
+      - heading "Footer links" [level=1] [ref=f1e1189]
+      - generic [ref=f1e1193]:
+        - generic [ref=f1e1195]:
+          - text: India
+          - generic [ref=f1e1197]:
+            - button "Patna, Bihar - Based on your past activity" [ref=f1e1199] [cursor=pointer]:
+              - generic [ref=f1e1200]: Patna, Bihar
+              - generic [ref=f1e1202]:
+                - text: "-"
+                - generic [ref=f1e1203]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=f1e1205] [cursor=pointer]
+        - generic [ref=f1e1208]:
+          - link "Help" [ref=f1e1209] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=f1e1210] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f1e1211] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f1e1212] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

@@ -1,0 +1,21 @@
+{
+  "name": "wayfinder-backend",
+  "version": "1.0.0",
+  "description": "API server: runs the LLM + Playwright MCP agent loop and streams progress as ndjson.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "openai": "^4.77.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

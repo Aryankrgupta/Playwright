@@ -1,0 +1,380 @@
+- generic [active] [ref=f1e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f1e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f1e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f1e8]:
+    - search [ref=f1e9]:
+      - generic [ref=f1e11]:
+        - link "Go to Google Home" [ref=f1e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQPAgI
+        - generic [ref=f1e21]:
+          - generic [ref=f1e22]:
+            - combobox "Search" [ref=f1e25]: supercar image supercar image
+            - generic [ref=f1e26]:
+              - button "Clear" [ref=f1e28] [cursor=pointer]
+              - generic [ref=f1e33]:
+                - button "Search by voice" [ref=f1e34] [cursor=pointer]
+                - button "Search by image" [ref=f1e37] [cursor=pointer]
+          - button "Search" [ref=f1e40] [cursor=pointer]
+    - generic [ref=f1e45]:
+      - button "Settings" [ref=f1e47] [cursor=pointer]
+      - button "Share" [ref=f1e53] [cursor=pointer]
+      - generic [ref=f1e59]:
+        - button "Google apps" [ref=f1e61] [cursor=pointer]
+        - link "Sign in" [ref=f1e66] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsupercar%2Bimage%26sca_esv%3D20b4b65056ec4911%26source%3Dhp%26ei%3DorNUav7mIeeRnesP_ZTPmQM%26iflsig%3DABILxe8AAAAAalTBsiV54R3Wl9RE26JYzhlED17c3Jif%26ved%3D0ahUKEwj-v4yQr8-VAxXnSGcHHX3KMzMQ4dUDCB4%26uact%3D5%26oq%3Dsupercar%2Bimage%26gs_lp%3DEgdnd3Mtd2l6Ig5zdXBlcmNhciBpbWFnZUgWUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE%26sclient%3Dgws-wiz&ec=futura_srp_og_si_72236_p
+  - generic [ref=f1e68]:
+    - navigation [ref=f1e74]:
+      - generic [ref=f1e80]:
+        - list [ref=f1e81]:
+          - listitem [ref=f1e82]:
+            - link "AI Mode" [ref=f1e85] [cursor=pointer]:
+              - /url: /search?q=supercar+image&sca_esv=20b4b65056ec4911&udm=50&source=hp&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYQR84vEJkyW62ul7Q3Bkhu9lnQJN2b4NlD2btUk2oQl-qgZfU3Kzovg9IJ2_6-GA8FZesY5GISzWOFavQtdsLXzr7_tyfW1DDjxH3ADCA51UtYohgJDlzVqURWcxe2Wo_jaxEKWo1aGeYJiJH0rUrjYrJp8RA&aep=1&ntc=1&sa=X&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQ2J8OegQIDhAD
+          - listitem [ref=f1e89]:
+            - link "All" [disabled] [ref=f1e90]
+          - listitem [ref=f1e93]:
+            - link "Images" [ref=f1e94] [cursor=pointer]:
+              - /url: /search?sca_esv=20b4b65056ec4911&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYQR84vEJkyW62ul7Q3Bkhu9lnQJN2b4NlD2btUk2oQl-qgZfU3Kzovg9IJ2_6-GA8FZesY5GISzWOFavQtdsLXzr7_tyfW1DDjxH3ADCA51UtYohgJDlzVqURWcxe2Wo_jaxEKWo1aGeYJiJH0rUrjYrJp8RA&q=supercar+image&sa=X&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQtKgLegQIFBAB
+          - listitem [ref=f1e97]:
+            - link "Shopping" [ref=f1e98] [cursor=pointer]:
+              - /url: /search?sca_esv=20b4b65056ec4911&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYQR84vEJkyW62ul7Q3Bkhu9lnQJN2b4NlD2btUk2oQl-qgZfU3Kzovg9IJ2_6-GA8FZesY5GISzWOFavQtdsLXzr7_tyfW1DDjxH3ADCA51UtYohgJDlzVqURWcxe2Wo_jaxEKWo1aGeYJiJH0rUrjYrJp8RA&q=supercar+image&ved=1t:220175&ictx=111
+          - listitem [ref=f1e101]:
+            - link "Videos" [ref=f1e102] [cursor=pointer]:
+              - /url: /search?sca_esv=20b4b65056ec4911&udm=7&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYQR84vEJkyW62ul7Q3Bkhu9lnQJN2b4NlD2btUk2oQl-qgZfU3Kzovg9IJ2_6-GA8FZesY5GISzWOFavQtdsLXzr7_tyfW1DDjxH3ADCA51UtYohgJDlzVqURWcxe2Wo_jaxEKWo1aGeYJiJH0rUrjYrJp8RA&q=supercar+image&sa=X&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQtKgLegQIExAB
+          - listitem [ref=f1e105]:
+            - link "News" [ref=f1e106] [cursor=pointer]:
+              - /url: /search?sca_esv=20b4b65056ec4911&q=supercar+image&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYQR84vEJkyW62ul7Q3Bkhu9lnQJN2b4NlD2btUk2oQl-qgZfU3Kzovg9IJ2_6-GA8FZesY5GISzWOFavQtdsLXzr7_tyfW1DDjxH3ADCA51UtYohgJDlzVqURWcxe2Wo_jaxEKWo1aGeYJiJH0rUrjYrJp8RA&sa=X&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQ0pQJegQIERAB
+          - listitem [ref=f1e109]:
+            - link "Short videos" [ref=f1e110] [cursor=pointer]:
+              - /url: /search?sca_esv=20b4b65056ec4911&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYQR84vEJkyW62ul7Q3Bkhu9lnQJN2b4NlD2btUk2oQl-qgZfU3Kzovg9IJ2_6-GA8FZesY5GISzWOFavQtdsLXzr7_tyfW1DDjxH3ADCA51UtYohgJDlzVqURWcxe2Wo_jaxEKWo1aGeYJiJH0rUrjYrJp8RA&q=supercar+image&sa=X&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQs6gLegQIEBAB
+          - listitem [ref=f1e113]:
+            - button [ref=f1e114] [cursor=pointer]:
+              - generic "More filters" [ref=f1e115]: More
+        - button "Tools" [ref=f1e122] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f1e129]
+    - generic [ref=f1e134]:
+      - generic [ref=f1e142]:
+        - heading "Images" [level=2] [ref=f1e146]
+        - generic [ref=f1e151]:
+          - generic [ref=f1e155] [cursor=pointer]:
+            - link "Here are the 20 current supercars you should know about ... Top Gear" [ref=f1e156]:
+              - /url: /goto?url=CAESnAEB7keqTS0BGpYiLNCtORKjwrrXGJmrbNh3B_gRHrR6nOMiKWm-XlY1nMkY6JCeYnMK1FettAoV76nEPrD6g7MidMx5KtlAZKIxf3GYBnEyhEEqnd7VzwGDMJjnK2a6qwnOOIApG96sGeJeh85KMc2TLEXnLDVLGK7_YcrZblez2OSryP6AK9N3IsGIxc7044tV7Oedp5ylrOoYm34=
+            - button [ref=f1e158]:
+              - img "Here are the 20 current supercars you should know about ..." [ref=f1e160]
+            - generic [ref=f1e162]:
+              - generic [ref=f1e163]: Here are the 20 current supercars you should know about ...
+              - generic [ref=f1e165]:
+                - generic [ref=f1e166]: Top Gear
+                - button "About this result" [ref=f1e175]
+          - generic [ref=f1e183] [cursor=pointer]:
+            - link "750+ Supercar Pictures [HD] | Download Free Images on Unsplash Unsplash" [ref=f1e184]:
+              - /url: /goto?url=CAESXgHuR6pNXj3Jo0xCgDKNCiNTCxIZ0--NI-6jS74QEWIePIHoBT9Ujsn7ztbInVsIHv49EmRuwxY7gGerpKihHk3NK_tLId8SJlfXu4Gzj9leLZMKTY-u8q-Mtwbx8vg=
+            - button [ref=f1e186]:
+              - img "750+ Supercar Pictures [HD] | Download Free Images on Unsplash" [ref=f1e188]
+            - generic [ref=f1e190]:
+              - generic [ref=f1e191]: 750+ Supercar Pictures [HD] | Download Free Images on Unsplash
+              - generic [ref=f1e193]:
+                - generic [ref=f1e194]: Unsplash
+                - button "About this result" [ref=f1e203]
+          - generic [ref=f1e211] [cursor=pointer]:
+            - link "What Defines a Supercar? iLusso" [ref=f1e212]:
+              - /url: /goto?url=CAESbAHuR6pNedRyrblZDVbzsuvDdHyThDThQdwcXgv6dP9S_XfaCLLnEnpSv9P6c-PZ49x3agI2xlfdlbXK_8U8BZFJsXT6YRtASztHNkiAmBKMvZI-JY6xz9rU7KS07R7h8-io5neSuHp0gs3T5Q==
+            - button [ref=f1e214]:
+              - img "What Defines a Supercar?" [ref=f1e216]
+            - generic [ref=f1e218]:
+              - generic [ref=f1e219]: What Defines a Supercar?
+              - generic [ref=f1e221]:
+                - generic [ref=f1e222]: iLusso
+                - button "About this result" [ref=f1e231]
+          - generic [ref=f1e239] [cursor=pointer]:
+            - link "5 luxury supercars launching in India in 2021 that'll ... GQ India" [ref=f1e240]:
+              - /url: /goto?url=CAESjwEB7keqTZbFi7DkYR2fN3n6C7Am3JOvgDt21UDbss4aD1HjbqpZAK_Bf6TAusINz-JbA1IfeU29PebTKrpkHXzQxUT-j6xKaQvvoBKEEINvv0GIpqiWyvO1yTo9nxu7g0p3XXRJWa0LsLdX_cs1dvLq-6SPhEPfVXu_T0gp0elsFdXTdi31n3neBwisP919ug==
+            - button [ref=f1e242]:
+              - img "5 luxury supercars launching in India in 2021 that'll ..." [ref=f1e244]
+            - generic [ref=f1e246]:
+              - generic [ref=f1e247]: 5 luxury supercars launching in India in 2021 that'll ...
+              - generic [ref=f1e249]:
+                - generic [ref=f1e250]: GQ India
+                - button "About this result" [ref=f1e259]
+          - generic [ref=f1e267] [cursor=pointer]:
+            - link "900+ Best Supercars ideas | dream cars, cool cars, sport cars Pinterest" [ref=f1e268]:
+              - /url: /goto?url=CAESZAHuR6pNveuPKPo2KvK68Pv0vx2-5V-mftcga-fOGQixBVDO_TfPB4zlVkMBFH__1wsso51nSS7Dy8xe48Kx3qe0uE5gmfcyNiXgz5mNLDzBTe0ksVNmEIudPMI40wnVeEd-FKY=
+            - button [ref=f1e270]:
+              - img "900+ Best Supercars ideas | dream cars, cool cars, sport cars" [ref=f1e272]
+            - generic [ref=f1e274]:
+              - generic [ref=f1e275]: 900+ Best Supercars ideas | dream cars, cool cars, sport cars
+              - generic [ref=f1e277]:
+                - generic [ref=f1e278]: Pinterest
+                - button "About this result" [ref=f1e287]
+          - generic [ref=f1e295] [cursor=pointer]:
+            - link "Super Car Images – Browse 159,456 Stock Photos, Vectors, and ... Adobe Stock" [ref=f1e296]:
+              - /url: /goto?url=CAESYgHuR6pNiEfa6LPX67h-p5dn8FxAItatMEvbo9HLb1DmUoy-OMxga7Lce4bKTrMFNp1868VVCkgfUKJlfu5roBIImmkK0FPQ6gtq54VYDn1pAFDslo6E8EFyqjAqo9_jgICl
+            - button [ref=f1e298]:
+              - img "Super Car Images – Browse 159,456 Stock Photos, Vectors, and ..." [ref=f1e300]
+            - generic [ref=f1e302]:
+              - generic [ref=f1e303]: Super Car Images – Browse 159,456 Stock Photos, Vectors, and ...
+              - generic [ref=f1e305]:
+                - generic [ref=f1e306]: Adobe Stock
+                - button "About this result" [ref=f1e315]
+          - generic [ref=f1e323] [cursor=pointer]:
+            - link "20,000+ Free Super Cars & Car Images - Pixabay Pixabay" [ref=f1e324]:
+              - /url: /goto?url=CAESZwHuR6pNvtPxpxDPk1hvby9Qwh_r-1W58dIyAmX1Fmurjazm67invkUKkoil07dWYK9dkoeGqIEKH88vjcdtXbP6Om0fIK1nJefVCvg0lJZG_Ot0QJO1IYnOY0y0S5jue1ai4w7hfTM=
+            - button [ref=f1e326]:
+              - img "20,000+ Free Super Cars & Car Images - Pixabay" [ref=f1e328]
+            - generic [ref=f1e330]:
+              - generic [ref=f1e331]: 20,000+ Free Super Cars & Car Images - Pixabay
+              - generic [ref=f1e333]:
+                - generic [ref=f1e334]: Pixabay
+                - button "About this result" [ref=f1e343]
+          - generic [ref=f1e351] [cursor=pointer]:
+            - link "14,300+ Supercar Stock Photos, Pictures & Royalty-Free ... iStock" [ref=f1e352]:
+              - /url: /goto?url=CAESYwHuR6pNoi_N_kdlRk1DCs51wd_ETw7g6AJCDEDhmlrlZbGxQTJddjhdzL0fEfYKHkeCm4OvbIKJ_hF1Imn4sg9W2x6rY8dipXBKUJyINQO__QH-byi38GOthL9yHzMDBR9DCw==
+            - button [ref=f1e354]:
+              - img "14,300+ Supercar Stock Photos, Pictures & Royalty-Free ..." [ref=f1e356]
+            - generic [ref=f1e358]:
+              - generic [ref=f1e359]: 14,300+ Supercar Stock Photos, Pictures & Royalty-Free ...
+              - generic [ref=f1e361]:
+                - generic [ref=f1e362]: iStock
+                - button "About this result" [ref=f1e371]
+          - generic [ref=f1e379] [cursor=pointer]:
+            - link "Supercar Photos, Download The BEST Free Supercar Stock ... Pexels" [ref=f1e380]:
+              - /url: /goto?url=CAESXwHuR6pNawSUCxr3okRiUuXyI0AUvwp9-4P6BsrSdCocNwfCQDzDNStSXVAbPBm2lKb6psItkZVGsdPg8uwbnN6dM0aOwfQssJyBucPPQzQM7p_Q0Tnyqzcq-YhbhF-J
+            - button [ref=f1e382]:
+              - img "Supercar Photos, Download The BEST Free Supercar Stock ..." [ref=f1e384]
+            - generic [ref=f1e386]:
+              - generic [ref=f1e387]: Supercar Photos, Download The BEST Free Supercar Stock ...
+              - generic [ref=f1e389]:
+                - generic [ref=f1e390]: Pexels
+                - button "About this result" [ref=f1e399]
+          - generic [ref=f1e407] [cursor=pointer]:
+            - link "11,864 Supercar Front View Royalty-Free Images, Stock Photos ... Shutterstock" [ref=f1e408]:
+              - /url: /goto?url=CAESbwHuR6pNGg3e7_bwZAzWvAuCV3_m_xgzsjMLE2GRjM7vNy7Ffp2sUm8J-mpjz3voLa1h5EiO8gEJqFdIidZ2ch21vguDjkfbPauHiZ_WVyNo3tP95KivLofQlie7Q2PzmyvlZvXE8tQWvRL7qqgbaw==
+            - button [ref=f1e410]:
+              - img "11,864 Supercar Front View Royalty-Free Images, Stock Photos ..." [ref=f1e412]
+            - generic [ref=f1e414]:
+              - generic [ref=f1e415]: 11,864 Supercar Front View Royalty-Free Images, Stock Photos ...
+              - generic [ref=f1e417]:
+                - generic [ref=f1e418]: Shutterstock
+                - button "About this result" [ref=f1e427]
+        - button "Show more images" [ref=f1e433] [cursor=pointer]:
+          - separator [ref=f1e434]
+      - main [ref=f1e440]:
+        - generic [ref=f1e444]:
+          - generic [ref=f1e447]:
+            - heading "Web results" [level=2] [ref=f1e448]
+            - generic [ref=f1e449]:
+              - generic [ref=f1e452]:
+                - link "750+ Supercar Pictures [HD] | Download Free Images on ... Unsplash https://unsplash.com › photos › supercar" [ref=f1e454] [cursor=pointer]:
+                  - /url: /goto?url=CAESXgHuR6pNXj3Jo0xCgDKNCiNTCxIZ0--NI-6jS74QEWIePIHoBT9Ujsn7ztbInVsIHv49EmRuwxY7gGerpKihHk3NK_tLId8SJlfXu4Gzj9leLZMKTY-u8q-Mtwbx8vg=
+                  - heading "750+ Supercar Pictures [HD] | Download Free Images on ..." [level=3] [ref=f1e455]
+                  - generic [ref=f1e461]:
+                    - generic [ref=f1e462]: Unsplash
+                    - generic [ref=f1e464]: https://unsplash.com › photos › supercar
+                - button "About this result" [ref=f1e468] [cursor=pointer]
+              - generic [ref=f1e475]:
+                - emphasis [ref=f1e476]: Download the perfect supercar pictures
+                - text: . Find over 100+ of the best free supercar images. Free for commercial use ✓ No attribution required ✓ Copyright-free.
+              - link "supercar image images from unsplash.com" [ref=f1e478] [cursor=pointer]:
+                - /url: /goto?url=CAESXgHuR6pNXj3Jo0xCgDKNCiNTCxIZ0--NI-6jS74QEWIePIHoBT9Ujsn7ztbInVsIHv49EmRuwxY7gGerpKihHk3NK_tLId8SJlfXu4Gzj9leLZMKTY-u8q-Mtwbx8vg=
+          - generic [ref=f1e490]:
+            - generic [ref=f1e493]:
+              - link "Super Cars Wallpaper Hd Pinterest https://www.pinterest.com › ... › Cars › Super Cars" [ref=f1e495] [cursor=pointer]:
+                - /url: /goto?url=CAESfQHuR6pNP5I4D53UKQJvGBxQCoq13KyXqVmED91ZjkfnpI1Oe9-IHSC5RUmXvoo4k_BulK18h4gOYo9AxPiNPxRK4kEq5_YDfYx-7EcRgPjwA_QwxSo1gXoc3bCO_5YRvF_YlqKzmNKHXrngvF2rVvQXyAseBU3WTle0C9AQ
+                - heading "Super Cars Wallpaper Hd" [level=3] [ref=f1e496]
+                - generic [ref=f1e502]:
+                  - generic [ref=f1e503]: Pinterest
+                  - generic [ref=f1e505]: https://www.pinterest.com › ... › Cars › Super Cars
+              - button "About this result" [ref=f1e509] [cursor=pointer]
+            - generic [ref=f1e515]:
+              - generic [ref=f1e516]:
+                - text: Discover Pinterest's best ideas and inspiration for
+                - emphasis [ref=f1e517]: Super cars wallpaper hd
+                - text: . Get inspired and try out new things. 8k people searched this.
+              - link "Read more" [ref=f1e518] [cursor=pointer]:
+                - /url: /goto?url=CAES0AEB7keqTdKyPZIoDfAQmPPgyMFDfAiZywIrg2M7usTSO9UFiba9xKLh5pxzEnxM2hUH0We-8Uwp1Aqe7_KSJctD6bPLrGPeFAsWlqW2LnHYnLz9X5tao6I5uG-K85HTA_7hyzvGZ6TBaKEZuTvaP9uoLZDBD7qi1lfSesnpIlkvV-HiOjSPC7Nrrs_8LDIbxO0toPfaYbDJKd6HkdhO8advE5J0swzXN50HN0DRVq5Ss5nvhuFl1RK2gEhXr-kobSRUkmPq56FHxNRorpVO3cXA
+            - link "supercar image images from www.pinterest.com" [ref=f1e520] [cursor=pointer]:
+              - /url: /goto?url=CAESfQHuR6pNP5I4D53UKQJvGBxQCoq13KyXqVmED91ZjkfnpI1Oe9-IHSC5RUmXvoo4k_BulK18h4gOYo9AxPiNPxRK4kEq5_YDfYx-7EcRgPjwA_QwxSo1gXoc3bCO_5YRvF_YlqKzmNKHXrngvF2rVvQXyAseBU3WTle0C9AQ
+          - generic [ref=f1e537]:
+            - generic [ref=f1e540]:
+              - link "Super Car Stock Photos, Images and Backgrounds for Free ... Vecteezy https://www.vecteezy.com › free-photos › super-car" [ref=f1e542] [cursor=pointer]:
+                - /url: /goto?url=CAESZgHuR6pNAPrK2kk6cVO0-s75p5vg7JgFDCm89cT_nSNZtt7IuRYhYwjUkXSlXBrj30IXGO1k96SQli7Yp9IYTtE-J87EAtYvKIYZFiws3py67ZREfkR-uiF4EW7FHnL-OFSArXH9Fg==
+                - heading "Super Car Stock Photos, Images and Backgrounds for Free ..." [level=3] [ref=f1e543]
+                - generic [ref=f1e549]:
+                  - generic [ref=f1e550]: Vecteezy
+                  - generic [ref=f1e552]: https://www.vecteezy.com › free-photos › super-car
+              - button "About this result" [ref=f1e556] [cursor=pointer]
+            - generic [ref=f1e563]:
+              - emphasis [ref=f1e564]: Browse 3383 beautiful Super Car stock images
+              - text: ", photos and wallpaper for royalty-free download from the creative contributors at Vecteezy!"
+            - link "supercar image images from www.vecteezy.com" [ref=f1e566] [cursor=pointer]:
+              - /url: /goto?url=CAESZgHuR6pNAPrK2kk6cVO0-s75p5vg7JgFDCm89cT_nSNZtt7IuRYhYwjUkXSlXBrj30IXGO1k96SQli7Yp9IYTtE-J87EAtYvKIYZFiws3py67ZREfkR-uiF4EW7FHnL-OFSArXH9Fg==
+          - generic [ref=f1e578]:
+            - generic [ref=f1e581]:
+              - link "Supercar & Exotic Car Images & Photo Galleries Supercars.net https://www.supercars.net › blog › gallery-home" [ref=f1e583] [cursor=pointer]:
+                - /url: /goto?url=CAESkQEB7keqTRzKIg_9s5wThV6qbHDAXpKosVTxhGC0UUK1iYIGe_1_sr7Q52z5lQh8Kvd3s_zeZ2RMgu89J47qjTzuOFpCbzfAt3wtlNTHAGQqVjBtXzzJCsRWvx4ypdmtDTK5SZzGDMUquXSwJ-ZkReUYF0SO-gVO771haK4RvBHQ7SEwsEix2MdEb36tXbmknbl5
+                - heading "Supercar & Exotic Car Images & Photo Galleries" [level=3] [ref=f1e584]
+                - generic [ref=f1e593]:
+                  - generic [ref=f1e594]: Supercars.net
+                  - generic [ref=f1e596]: https://www.supercars.net › blog › gallery-home
+              - button "About this result" [ref=f1e600] [cursor=pointer]
+            - generic [ref=f1e607]:
+              - text: An awesome collection of
+              - emphasis [ref=f1e608]: epic supercar pictures and galleries
+              - text: . Enjoy the beauty, aggression and outright strinking nature of the best cars on the planet.
+            - link "supercar image images from www.supercars.net" [ref=f1e610] [cursor=pointer]:
+              - /url: /goto?url=CAESkQEB7keqTRzKIg_9s5wThV6qbHDAXpKosVTxhGC0UUK1iYIGe_1_sr7Q52z5lQh8Kvd3s_zeZ2RMgu89J47qjTzuOFpCbzfAt3wtlNTHAGQqVjBtXzzJCsRWvx4ypdmtDTK5SZzGDMUquXSwJ-ZkReUYF0SO-gVO771haK4RvBHQ7SEwsEix2MdEb36tXbmknbl5
+          - generic [ref=f1e622]:
+            - generic [ref=f1e625]:
+              - link "159456 results for super car in all Adobe Stock https://stock.adobe.com › search" [ref=f1e627] [cursor=pointer]:
+                - /url: /goto?url=CAESYgHuR6pNiEfa6LPX67h-p5dn8FxAItatMEvbo9HLb1DmUoy-OMxga7Lce4bKTrMFNp1868VVCkgfUKJlfu5roBIImmkK0FPQ6gtq54VYDn1pAFDslo6E8EFyqjAqo9_jgICl
+                - heading "159456 results for super car in all" [level=3] [ref=f1e628]
+                - generic [ref=f1e634]:
+                  - generic [ref=f1e635]: Adobe Stock
+                  - generic [ref=f1e637]: https://stock.adobe.com › search
+              - button "About this result" [ref=f1e641] [cursor=pointer]
+            - generic [ref=f1e648]:
+              - emphasis [ref=f1e649]: Search from thousands of royalty-free Super Car stock images
+              - text: and video for your next project. Download royalty-free stock photos, vectors, HD footage and ...
+            - link "supercar image images from stock.adobe.com" [ref=f1e651] [cursor=pointer]:
+              - /url: /goto?url=CAESYgHuR6pNiEfa6LPX67h-p5dn8FxAItatMEvbo9HLb1DmUoy-OMxga7Lce4bKTrMFNp1868VVCkgfUKJlfu5roBIImmkK0FPQ6gtq54VYDn1pAFDslo6E8EFyqjAqo9_jgICl
+          - generic [ref=f1e663]:
+            - generic [ref=f1e666]:
+              - link "Supercar Images - Free Download on ... Magnific https://www.magnific.com › free-photos-vectors › supe..." [ref=f1e668] [cursor=pointer]:
+                - /url: /goto?url=CAESbQHuR6pNYUPlpDJHyhlABIjzrAtkib4dXDZDA9DEhmE6f925SJN0OJ9SYtdjEG-fA_LjtsotdYgXmNXUwz7NdG2HRssEX89OD1MqJgYesoIo5xLgfbn4XOsklEK3NPUGyV8eOUhr-hG_-NrMvy8=
+                - heading "Supercar Images - Free Download on ..." [level=3] [ref=f1e669]
+                - generic [ref=f1e675]:
+                  - generic [ref=f1e676]: Magnific
+                  - generic [ref=f1e678]: https://www.magnific.com › free-photos-vectors › supe...
+              - button "About this result" [ref=f1e682] [cursor=pointer]
+            - generic [ref=f1e689]:
+              - text: Find & Download Free Graphic Resources for Supercar Vectors, Stock Photos & PSD files. ✓
+              - emphasis [ref=f1e690]: Free for commercial use
+              - text: ✓ High Quality Images.
+            - link "supercar image images from www.magnific.com" [ref=f1e692] [cursor=pointer]:
+              - /url: /goto?url=CAESbQHuR6pNYUPlpDJHyhlABIjzrAtkib4dXDZDA9DEhmE6f925SJN0OJ9SYtdjEG-fA_LjtsotdYgXmNXUwz7NdG2HRssEX89OD1MqJgYesoIo5xLgfbn4XOsklEK3NPUGyV8eOUhr-hG_-NrMvy8=
+          - generic [ref=f1e704]:
+            - generic [ref=f1e707]:
+              - link "Super Cars Pinterest https://www.pinterest.com › Explore › Vehicles › Cars" [ref=f1e709] [cursor=pointer]:
+                - /url: /goto?url=CAEScAHuR6pNb1Kdo4WIlcd1AbJQnjN00ElFk7dlUm4KrsXsFUzL9vk7Uu_xa3zfqSuCk3p5ZmMALgGi4GCSBJ12Ac4c4l9y9Hp7_o91DJFyCmufZwOE9KFn4Avql0IGLXsy13b3JA2sbdnK9Q_xqOcwKlc=
+                - heading "Super Cars" [level=3] [ref=f1e710]
+                - generic [ref=f1e716]:
+                  - generic [ref=f1e717]: Pinterest
+                  - generic [ref=f1e719]: https://www.pinterest.com › Explore › Vehicles › Cars
+              - button "About this result" [ref=f1e723] [cursor=pointer]
+            - generic [ref=f1e729]:
+              - generic [ref=f1e730]:
+                - emphasis [ref=f1e731]: Super Cars Images
+                - text: · Pictures Of Sports Cars · Mobil Mustang · Dream Cars Bmw · Super Fast Cars · Good Looking Cars · Super Sport Cars · Hes Mine · Cool Car ...
+              - link "Read more" [ref=f1e732] [cursor=pointer]:
+                - /url: /goto?url=CAESpAEB7keqTdrSqz0jsVZouRs9_48xNfhvGgUIuMlEgKKwUu8klq1ha-VaoRJKc2-gsFtXiOOElK_eFg24Uu-MYd8ni3g67Kc8_qv-0Cq75Obi_Ls4vm9nLPEFSL-ubLwZxAOHGzE70Ja86HcM4oTUmQY4gQoiDC7FxqNYZfN-Kr1IaF59NRySLhb5XuNlxqznCMoFtuhQw7RTFFcwPxYg-U5aLqK7TA==
+          - generic [ref=f1e736]:
+            - generic [ref=f1e739]:
+              - link "Here are the 20 current supercars you should know about Top Gear https://www.topgear.com › car-news › top-gear-advice" [ref=f1e741] [cursor=pointer]:
+                - /url: /goto?url=CAESnAEB7keqTS0BGpYiLNCtORKjwrrXGJmrbNh3B_gRHrR6nOMiKWm-XlY1nMkY6JCeYnMK1FettAoV76nEPrD6g7MidMx5KtlAZKIxf3GYBnEyhEEqnd7VzwGDMJjnK2a6qwnOOIApG96sGeJeh85KMc2TLEXnLDVLGK7_YcrZblez2OSryP6AK9N3IsGIxc7044tV7Oedp5ylrOoYm34=
+                - heading "Here are the 20 current supercars you should know about" [level=3] [ref=f1e742]
+                - generic [ref=f1e748]:
+                  - generic [ref=f1e749]: Top Gear
+                  - generic [ref=f1e751]: https://www.topgear.com › car-news › top-gear-advice
+              - button "About this result" [ref=f1e755] [cursor=pointer]
+            - generic [ref=f1e761]:
+              - generic [ref=f1e762]:
+                - emphasis [ref=f1e763]: Here are the 20 current supercars you should know about
+                - text: . From Porsche to Pininfarina, Lotus to Lamborghini, these are the supercars of the moment.
+              - link "Read more" [ref=f1e764] [cursor=pointer]:
+                - /url: /goto?url=CAESwwIB7keqTYVCn1WJ0ZPncUmpEapnANd0UCUNVUGnIJASW1o5044zLt2ERrDqdIIY5pA_Ya4WitRaDscJEsSPOI0ToU3y2rMkHzL2dfdtTidpUkZdrZ2eFLJ3UwI002Y0ti37vi3tbCSpnhZY9QmEGM_mbqQ6Zr64J37M4M2fY2fkD9AhBU72LSm_C9RF_5O1tG_WVOYQa54GLp_QbOkRfjRHke_ksfOoTOUEYxyy4k34sqJTvZy9nSfhwj4PcSa71Aj9Unimk1eDrevcK7M32yq0QbG2d1bIlPWKCbE5siw8o84T1R8jsPcnMywCvWAbjk1r8ZgdOQg3kXJI4XNKQhataA1vE77lY9szzdcSYsaCNtJSqKXhxn1v2qGHh8NdBWLIe6TAZVdQkNduQR9OSrBKFT2oj8JKJwPhgqLAiErrvWR0hg==
+            - link "supercar image images from www.topgear.com" [ref=f1e766] [cursor=pointer]:
+              - /url: /goto?url=CAESnAEB7keqTS0BGpYiLNCtORKjwrrXGJmrbNh3B_gRHrR6nOMiKWm-XlY1nMkY6JCeYnMK1FettAoV76nEPrD6g7MidMx5KtlAZKIxf3GYBnEyhEEqnd7VzwGDMJjnK2a6qwnOOIApG96sGeJeh85KMc2TLEXnLDVLGK7_YcrZblez2OSryP6AK9N3IsGIxc7044tV7Oedp5ylrOoYm34=
+          - generic [ref=f1e778]:
+            - generic [ref=f1e781]:
+              - link "Free Supercar Photos Pexels https://www.pexels.com › search › supercar" [ref=f1e783] [cursor=pointer]:
+                - /url: /goto?url=CAESXwHuR6pNawSUCxr3okRiUuXyI0AUvwp9-4P6BsrSdCocNwfCQDzDNStSXVAbPBm2lKb6psItkZVGsdPg8uwbnN6dM0aOwfQssJyBucPPQzQM7p_Q0Tnyqzcq-YhbhF-J
+                - heading "Free Supercar Photos" [level=3] [ref=f1e784]
+                - generic [ref=f1e790]:
+                  - generic [ref=f1e791]: Pexels
+                  - generic [ref=f1e793]: https://www.pexels.com › search › supercar
+              - button "About this result" [ref=f1e797] [cursor=pointer]
+            - generic [ref=f1e804]:
+              - emphasis [ref=f1e805]: Download and use 6000+ Supercar stock photos for free
+              - text: . ✓ Thousands of new images every day ✓ Completely Free to Use ✓ High-quality videos and images from ...
+            - link "supercar image images from www.pexels.com" [ref=f1e807] [cursor=pointer]:
+              - /url: /goto?url=CAESXwHuR6pNawSUCxr3okRiUuXyI0AUvwp9-4P6BsrSdCocNwfCQDzDNStSXVAbPBm2lKb6psItkZVGsdPg8uwbnN6dM0aOwfQssJyBucPPQzQM7p_Q0Tnyqzcq-YhbhF-J
+        - generic [ref=f1e822]:
+          - generic [ref=f1e827]:
+            - heading "People also search for" [level=2] [ref=f1e829]
+            - generic [ref=f1e831]:
+              - generic [ref=f1e832]:
+                - link "Supercar images wallpaper" [ref=f1e836] [cursor=pointer]:
+                  - /url: /search?sca_esv=20b4b65056ec4911&q=Supercar+images+wallpaper&sa=X&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQ1QJ6BAhDEAE
+                - link "Supercar images hd 4k" [ref=f1e850] [cursor=pointer]:
+                  - /url: /search?sca_esv=20b4b65056ec4911&q=Supercar+images+hd+4k&sa=X&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQ1QJ6BAhLEAE
+                - link "Supercar images 4k" [ref=f1e864] [cursor=pointer]:
+                  - /url: /search?sca_esv=20b4b65056ec4911&q=Supercar+images+4k&sa=X&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQ1QJ6BAhKEAE
+                - link "Supercar images download" [ref=f1e878] [cursor=pointer]:
+                  - /url: /search?sca_esv=20b4b65056ec4911&q=Supercar+images+download&sa=X&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQ1QJ6BAhJEAE
+              - generic [ref=f1e889]:
+                - link "Beautiful supercar images" [ref=f1e893] [cursor=pointer]:
+                  - /url: /search?sca_esv=20b4b65056ec4911&q=Beautiful+supercar+images&sa=X&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQ1QJ6BAhIEAE
+                - link "Super car Photo 3d" [ref=f1e907] [cursor=pointer]:
+                  - /url: /search?sca_esv=20b4b65056ec4911&q=Super+car+Photo+3d&sa=X&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQ1QJ6BAhHEAE
+                - link "Super cars Images with names" [ref=f1e921] [cursor=pointer]:
+                  - /url: /search?sca_esv=20b4b65056ec4911&q=Super+cars+Images+with+names&sa=X&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQ1QJ6BAhGEAE
+                - link "Super car Photo Lamborghini" [ref=f1e935] [cursor=pointer]:
+                  - /url: /search?sca_esv=20b4b65056ec4911&q=Super+car+Photo+Lamborghini&sa=X&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQ1QJ6BAhFEAE
+          - navigation [ref=f1e946]:
+            - heading "Page navigation" [level=1] [ref=f1e947]
+            - text: "1"
+            - link "Page 2" [ref=f1e950] [cursor=pointer]:
+              - /url: /search?q=supercar+image&sca_esv=20b4b65056ec4911&ei=_bNUaumYI-CL4-EPtMacgA8&start=10&sa=N&sstk=AU9db-DAGGffbxyFTIiJvKJPBSb3hG6pq_28JYvFkMp2j-FfzSSXcfHnu956FiqtVJiSdire7n-KryhyeYuCsAje0Z7O1_3nlA8xjw&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQ8tMDegQITBAE
+              - text: "2"
+            - link "Page 3" [ref=f1e952] [cursor=pointer]:
+              - /url: /search?q=supercar+image&sca_esv=20b4b65056ec4911&ei=_bNUaumYI-CL4-EPtMacgA8&start=20&sa=N&sstk=AU9db-DAGGffbxyFTIiJvKJPBSb3hG6pq_28JYvFkMp2j-FfzSSXcfHnu956FiqtVJiSdire7n-KryhyeYuCsAje0Z7O1_3nlA8xjw&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQ8tMDegQITBAG
+              - text: "3"
+            - link "Page 4" [ref=f1e954] [cursor=pointer]:
+              - /url: /search?q=supercar+image&sca_esv=20b4b65056ec4911&ei=_bNUaumYI-CL4-EPtMacgA8&start=30&sa=N&sstk=AU9db-DAGGffbxyFTIiJvKJPBSb3hG6pq_28JYvFkMp2j-FfzSSXcfHnu956FiqtVJiSdire7n-KryhyeYuCsAje0Z7O1_3nlA8xjw&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQ8tMDegQITBAI
+              - text: "4"
+            - link "Page 5" [ref=f1e956] [cursor=pointer]:
+              - /url: /search?q=supercar+image&sca_esv=20b4b65056ec4911&ei=_bNUaumYI-CL4-EPtMacgA8&start=40&sa=N&sstk=AU9db-DAGGffbxyFTIiJvKJPBSb3hG6pq_28JYvFkMp2j-FfzSSXcfHnu956FiqtVJiSdire7n-KryhyeYuCsAje0Z7O1_3nlA8xjw&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQ8tMDegQITBAK
+              - text: "5"
+            - link "Page 6" [ref=f1e958] [cursor=pointer]:
+              - /url: /search?q=supercar+image&sca_esv=20b4b65056ec4911&ei=_bNUaumYI-CL4-EPtMacgA8&start=50&sa=N&sstk=AU9db-DAGGffbxyFTIiJvKJPBSb3hG6pq_28JYvFkMp2j-FfzSSXcfHnu956FiqtVJiSdire7n-KryhyeYuCsAje0Z7O1_3nlA8xjw&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQ8tMDegQITBAM
+              - text: "6"
+            - link "Page 7" [ref=f1e960] [cursor=pointer]:
+              - /url: /search?q=supercar+image&sca_esv=20b4b65056ec4911&ei=_bNUaumYI-CL4-EPtMacgA8&start=60&sa=N&sstk=AU9db-DAGGffbxyFTIiJvKJPBSb3hG6pq_28JYvFkMp2j-FfzSSXcfHnu956FiqtVJiSdire7n-KryhyeYuCsAje0Z7O1_3nlA8xjw&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQ8tMDegQITBAO
+              - text: "7"
+            - link "Page 8" [ref=f1e962] [cursor=pointer]:
+              - /url: /search?q=supercar+image&sca_esv=20b4b65056ec4911&ei=_bNUaumYI-CL4-EPtMacgA8&start=70&sa=N&sstk=AU9db-DAGGffbxyFTIiJvKJPBSb3hG6pq_28JYvFkMp2j-FfzSSXcfHnu956FiqtVJiSdire7n-KryhyeYuCsAje0Z7O1_3nlA8xjw&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQ8tMDegQITBAQ
+              - text: "8"
+            - link "Page 9" [ref=f1e964] [cursor=pointer]:
+              - /url: /search?q=supercar+image&sca_esv=20b4b65056ec4911&ei=_bNUaumYI-CL4-EPtMacgA8&start=80&sa=N&sstk=AU9db-DAGGffbxyFTIiJvKJPBSb3hG6pq_28JYvFkMp2j-FfzSSXcfHnu956FiqtVJiSdire7n-KryhyeYuCsAje0Z7O1_3nlA8xjw&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQ8tMDegQITBAS
+              - text: "9"
+            - link "Page 10" [ref=f1e966] [cursor=pointer]:
+              - /url: /search?q=supercar+image&sca_esv=20b4b65056ec4911&ei=_bNUaumYI-CL4-EPtMacgA8&start=90&sa=N&sstk=AU9db-DAGGffbxyFTIiJvKJPBSb3hG6pq_28JYvFkMp2j-FfzSSXcfHnu956FiqtVJiSdire7n-KryhyeYuCsAje0Z7O1_3nlA8xjw&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQ8tMDegQITBAU
+              - text: "10"
+            - heading [level=2] [ref=f1e968]:
+              - link "Next" [ref=f1e969] [cursor=pointer]:
+                - /url: /search?q=supercar+image&sca_esv=20b4b65056ec4911&ei=_bNUaumYI-CL4-EPtMacgA8&start=10&sa=N&sstk=AU9db-DAGGffbxyFTIiJvKJPBSb3hG6pq_28JYvFkMp2j-FfzSSXcfHnu956FiqtVJiSdire7n-KryhyeYuCsAje0Z7O1_3nlA8xjw&ved=2ahUKEwipi8C7r8-VAxXgxTgGHTQjB_AQ8NMDegQITBAW
+        - navigation
+    - contentinfo [ref=f1e972]:
+      - heading "Footer links" [level=1] [ref=f1e973]
+      - generic [ref=f1e977]:
+        - generic [ref=f1e979]:
+          - text: India
+          - generic [ref=f1e981]:
+            - button "Patna, Bihar - From your IP address" [ref=f1e983] [cursor=pointer]:
+              - generic [ref=f1e984]: Patna, Bihar
+              - generic [ref=f1e986]:
+                - text: "-"
+                - generic [ref=f1e987]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=f1e989] [cursor=pointer]
+        - generic [ref=f1e992]:
+          - link "Help" [ref=f1e993] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=f1e994] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f1e995] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f1e996] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

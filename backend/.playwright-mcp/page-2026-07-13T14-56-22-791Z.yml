@@ -1,0 +1,497 @@
+- generic [active] [ref=f9e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f9e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f9e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f9e8]:
+    - search [ref=f9e9]:
+      - generic [ref=f9e11]:
+        - link "Go to Google Home" [ref=f9e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4QPAgI
+        - generic [ref=f9e21]:
+          - generic [ref=f9e22]:
+            - combobox "Search" [ref=f9e25]: most expensive supercar most expensive supercar
+            - generic [ref=f9e26]:
+              - button "Clear" [ref=f9e28] [cursor=pointer]
+              - generic [ref=f9e33]:
+                - button "Search by voice" [ref=f9e34] [cursor=pointer]
+                - button "Search by image" [ref=f9e37] [cursor=pointer]
+          - button "Search" [ref=f9e40] [cursor=pointer]
+    - generic [ref=f9e45]:
+      - button "Settings" [ref=f9e47] [cursor=pointer]
+      - button "Share" [ref=f9e53] [cursor=pointer]
+      - generic [ref=f9e59]:
+        - button "Google apps" [ref=f9e61] [cursor=pointer]
+        - link "Sign in" [ref=f9e66] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dmost%2Bexpensive%2Bsupercar%26sca_esv%3D8482441741432c72%26source%3Dhp%26ei%3DTPxUaqWfNMTWseMPwpSAyAw%26iflsig%3DABILxe8AAAAAalUKXL1xsq32LMOM0RyK_0ju0Q7mEQAY%26ved%3D0ahUKEwil9a629M-VAxVEa2wGHUIKAMkQ4dUDCB4%26uact%3D5%26oq%3Dmost%2Bexpensive%2Bsupercar%26gs_lp%3DEgdnd3Mtd2l6Ihdtb3N0IGV4cGVuc2l2ZSBzdXBlcmNhckgNUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE%26sclient%3Dgws-wiz&ec=futura_srp_og_si_72236_p
+  - generic [ref=f9e68]:
+    - navigation [ref=f9e74]:
+      - generic [ref=f9e80]:
+        - list [ref=f9e81]:
+          - listitem [ref=f9e82]:
+            - link "AI Mode" [ref=f9e85] [cursor=pointer]:
+              - /url: /search?q=most+expensive+supercar&sca_esv=8482441741432c72&udm=50&source=hp&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jmGsLLhV9MC9EWyWlfU-dFSaPFLJh1uvA1YJHXOcaWY4mofEk3uErCUaYXTIbdr4L1mGbOvKlbV0CPyF_k2C-W7rSdcx-2fDRePaE-r63uP20NCBoqr_mrF4kKnn7hM_zVnBG1XISjPpQreH01KBcSeeh1Zfw&aep=1&ntc=1&sa=X&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q2J8OegQIFBAD
+          - listitem [ref=f9e89]:
+            - link "All" [disabled] [ref=f9e90]
+          - listitem [ref=f9e93]:
+            - link "Shopping" [ref=f9e94] [cursor=pointer]:
+              - /url: /search?sca_esv=8482441741432c72&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jmGsLLhV9MC9EWyWlfU-dFSaPFLJh1uvA1YJHXOcaWY4mofEk3uErCUaYXTIbdr4L1mGbOvKlbV0CPyF_k2C-W7rSdcx-2fDRePaE-r63uP20NCBoqr_mrF4kKnn7hM_zVnBG1XISjPpQreH01KBcSeeh1Zfw&q=most+expensive+supercar&ved=1t:220175&ictx=111
+          - listitem [ref=f9e97]:
+            - link "Images" [ref=f9e98] [cursor=pointer]:
+              - /url: /search?sca_esv=8482441741432c72&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jmGsLLhV9MC9EWyWlfU-dFSaPFLJh1uvA1YJHXOcaWY4mofEk3uErCUaYXTIbdr4L1mGbOvKlbV0CPyF_k2C-W7rSdcx-2fDRePaE-r63uP20NCBoqr_mrF4kKnn7hM_zVnBG1XISjPpQreH01KBcSeeh1Zfw&q=most+expensive+supercar&sa=X&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4QtKgLegQIGhAB
+          - listitem [ref=f9e101]:
+            - link "News" [ref=f9e102] [cursor=pointer]:
+              - /url: /search?sca_esv=8482441741432c72&q=most+expensive+supercar&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jmGsLLhV9MC9EWyWlfU-dFSaPFLJh1uvA1YJHXOcaWY4mofEk3uErCUaYXTIbdr4L1mGbOvKlbV0CPyF_k2C-W7rSdcx-2fDRePaE-r63uP20NCBoqr_mrF4kKnn7hM_zVnBG1XISjPpQreH01KBcSeeh1Zfw&sa=X&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q0pQJegQIGBAB
+          - listitem [ref=f9e105]:
+            - link "Videos" [ref=f9e106] [cursor=pointer]:
+              - /url: /search?sca_esv=8482441741432c72&udm=7&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jmGsLLhV9MC9EWyWlfU-dFSaPFLJh1uvA1YJHXOcaWY4mofEk3uErCUaYXTIbdr4L1mGbOvKlbV0CPyF_k2C-W7rSdcx-2fDRePaE-r63uP20NCBoqr_mrF4kKnn7hM_zVnBG1XISjPpQreH01KBcSeeh1Zfw&q=most+expensive+supercar&sa=X&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4QtKgLegQIFxAB
+          - listitem [ref=f9e109]:
+            - link "Short videos" [ref=f9e110] [cursor=pointer]:
+              - /url: /search?sca_esv=8482441741432c72&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jmGsLLhV9MC9EWyWlfU-dFSaPFLJh1uvA1YJHXOcaWY4mofEk3uErCUaYXTIbdr4L1mGbOvKlbV0CPyF_k2C-W7rSdcx-2fDRePaE-r63uP20NCBoqr_mrF4kKnn7hM_zVnBG1XISjPpQreH01KBcSeeh1Zfw&q=most+expensive+supercar&sa=X&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Qs6gLegQIFhAB
+          - listitem [ref=f9e113]:
+            - button [ref=f9e114] [cursor=pointer]:
+              - generic "More filters" [ref=f9e115]: More
+        - button "Tools" [ref=f9e122] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f9e130]
+    - generic [ref=f9e135]:
+      - generic [ref=f9e152]:
+        - generic [ref=f9e155]:
+          - generic [ref=f9e157]:
+            - heading "AI Overview" [level=2] [ref=f9e161]
+            - generic [ref=f9e163]:
+              - button "Change language to Hindi" [ref=f9e164] [cursor=pointer]:
+                - generic [ref=f9e165]: हिन्दी
+              - button "Listen" [ref=f9e168]
+            - button "About this result" [ref=f9e178]
+          - generic [ref=f9e201]:
+            - generic [ref=f9e203]:
+              - list [ref=f9e205]:
+                - listitem [ref=f9e206]:
+                  - button [ref=f9e208]:
+                    - img "The 8 Most Expensive Supercars Ever Built - Ilusso.com" [ref=f9e209]
+                - listitem [ref=f9e210]:
+                  - button [ref=f9e212]:
+                    - img "The Most Expensive New Cars You Can (Actually) Buy" [ref=f9e213]
+                - listitem [ref=f9e214]:
+                  - button [ref=f9e216]:
+                    - img "The 8 Most Expensive Supercars Ever Built - Ilusso.com" [ref=f9e217]
+                - listitem [ref=f9e218]:
+                  - button [ref=f9e220]:
+                    - img "16 Most Expensive Cars in the World 2026 | World's Costliest ..." [ref=f9e221]
+                - listitem [ref=f9e222]:
+                  - button [ref=f9e224]:
+                    - img "The 8 Most Expensive Supercars Ever Built - Ilusso.com" [ref=f9e225]
+                - link "View all related links" [ref=f9e226] [cursor=pointer]:
+                  - /url: https://www.google.com/search?q=most%20expensive%20supercar&sca_esv=8482441741432c72&source=univ&ei=TPxUaqWfNMTWseMPwpSAyAw&iflsig=ABILxe8AAAAAalUKXL1xsq32LMOM0RyK_0ju0Q7mEQAY&ved=0CAAQjYkUahcKEwiQnbvZ9M-VAxUAAAAAHQAAAAAQAg&uact=5&oq=most%20expensive%20supercar&gs_lp=Egdnd3Mtd2l6Ihdtb3N0IGV4cGVuc2l2ZSBzdXBlcmNhckgNUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE&sclient=gws-wiz&udm=2&sa=X
+                  - generic [ref=f9e231]: View all
+                - button [ref=f9e232] [cursor=pointer]
+              - generic [ref=f9e236]:
+                - text: The most expensive new supercar is the
+                - mark [ref=f9e237]:
+                  - strong [ref=f9e238]: Rolls-Royce La Rose Noire Droptail
+                - text: ", valued at an astonishing"
+                - strong [ref=f9e239]: $30 Million
+                - text: (approx. ₹250 Crores). Only four units of this bespoke, coach-built hyper-GT exist worldwide, featuring a 6.8-liter twin-turbo V12 engine and a removable hardtop with electrochromic glass.
+                - generic [ref=f9e241]:
+                  - link "Spinny (+1) – View related links" [ref=f9e242] [cursor=pointer]:
+                    - /url: /goto?url=CAESYAHuR6pN4um7rtY4hscNK2SqVL486rPk7vYdfv0Z-6EKtXgOg9pz7otyFOS4uHZB9PPYvr6TYg6SDEAodNo-7WcJ4IyUF5lEm88FsPFxW8WGgvVqA2s8THMGdv81FCxKCA==
+                  - button "Spinny (+1) – View related links" [ref=f9e243] [cursor=pointer]:
+                    - generic [ref=f9e245]:
+                      - generic [ref=f9e246]: Spinny
+                      - generic [ref=f9e247]: "+1"
+              - generic [ref=f9e252]: "To dive deeper into some of the most expensive and exclusive cars ever built, check out the video below:"
+              - generic [ref=f9e254]:
+                - generic [ref=f9e257]:
+                  - generic [ref=f9e258]: "For a closer look at the world's most costly and exclusive vehicles:"
+                  - generic [ref=f9e260]:
+                    - button [ref=f9e264] [cursor=pointer]:
+                      - generic [ref=f9e265]: 27:33
+                    - link [ref=f9e280] [cursor=pointer]:
+                      - /url: /goto?url=CAESTgHuR6pNm6s3lvZQBSkBtcXI64fkM4KlkvUrpylmyLm9l4TJJ97SiKFa_mWe-C3sJNpPQRnQnGh-Fp4xmMCxMfJWt5hAw9RK9Gq__IhR5A==
+                      - generic [ref=f9e281]:
+                        - generic [ref=f9e282]: Top 10 Most Expensive Cars In The World 2026
+                        - generic [ref=f9e289]:
+                          - generic [ref=f9e290]: ELuxuryLifestyle
+                          - generic [ref=f9e291]: YouTube · 12 Apr 2026
+                - generic [ref=f9e292]: "Other elite supercars commanding similar multi-million dollar price tags include:"
+                - list [ref=f9e295]:
+                  - listitem [ref=f9e296]:
+                    - generic [ref=f9e297]:
+                      - strong [ref=f9e298]: "Rolls-Royce Boat Tail:"
+                      - text: $28 Million
+                  - listitem [ref=f9e299]:
+                    - generic [ref=f9e300]:
+                      - strong [ref=f9e301]: "Bugatti La Voiture Noire:"
+                      - text: $18.9 Million
+                  - listitem [ref=f9e302]:
+                    - generic [ref=f9e303]:
+                      - strong [ref=f9e304]: "Pagani Zonda HP Barchetta:"
+                      - text: $17.5 Million
+                  - listitem [ref=f9e305]:
+                    - generic [ref=f9e306]:
+                      - strong [ref=f9e307]: "Mercedes-Maybach Exelero:"
+                      - text: $8 Million
+                    - generic [ref=f9e309]:
+                      - link [ref=f9e310] [cursor=pointer]:
+                        - /url: /goto?url=CAESaQHuR6pN4woxg1PDJtnGf1i6r4lqUfUF2Qfr7QSAyzxeYQIFOKvp3rmnh1sMrwLwEkoXfhT0Aqzvikt9sBdkkVL3NzTFD-iUDrDhEEyGabvI6ORuIiUw8Q5naDNXTCIXEBegCxI9nSEyBA==
+                      - button [ref=f9e311] [cursor=pointer]:
+                        - generic [ref=f9e313]:
+                          - generic [ref=f9e314]: iLusso
+                          - generic [ref=f9e315]: "+3"
+            - generic [ref=f9e323]:
+              - generic [ref=f9e325]:
+                - button "4 sites" [ref=f9e326] [cursor=pointer]
+                - button "About this result" [ref=f9e340] [cursor=pointer]
+              - list [ref=f9e345]:
+                - listitem [ref=f9e346]:
+                  - generic [ref=f9e347]:
+                    - link "The 8 Most Expensive Supercars Ever Built - Ilusso.com. Opens in new tab." [ref=f9e348] [cursor=pointer]:
+                      - /url: /goto?url=CAESaQHuR6pN4woxg1PDJtnGf1i6r4lqUfUF2Qfr7QSAyzxeYQIFOKvp3rmnh1sMrwLwEkoXfhT0Aqzvikt9sBdkkVL3NzTFD-iUDrDhEEyGabvI6ORuIiUw8Q5naDNXTCIXEBegCxI9nSEyBA==
+                    - generic [ref=f9e349]:
+                      - generic [ref=f9e351]:
+                        - generic [ref=f9e352]: The 8 Most Expensive Supercars Ever Built - Ilusso.com
+                        - generic [ref=f9e353]: "Table_title: A List of the Most Expensive Cars Table_content: | CAR MODEL | PRICE | | --- | --- | | Aston Martin Valkyrie | $3.2 M..."
+                      - generic [ref=f9e355]:
+                        - generic [ref=f9e358]: iLusso
+                        - button "About this result" [ref=f9e364] [cursor=pointer]
+                - listitem [ref=f9e370]:
+                  - generic [ref=f9e371]:
+                    - link "16 Most Expensive Cars in the World 2026 | World's Costliest Cars. Opens in new tab." [ref=f9e372] [cursor=pointer]:
+                      - /url: /goto?url=CAESYAHuR6pN4um7rtY4hscNK2SqVL486rPk7vYdfv0Z-6EKtXgOg9pz7otyFOS4uHZB9PPYvr6TYg6SDEAodNo-7WcJ4IyUF5lEm88FsPFxW8WGgvVqA2s8THMGdv81FCxKCA==
+                    - generic [ref=f9e373]:
+                      - generic [ref=f9e375]:
+                        - generic [ref=f9e376]: 16 Most Expensive Cars in the World 2026 | World's Costliest Cars
+                        - generic [ref=f9e377]: For the better part of a century, you'd always find a Bentley, Merc, or Rolls-Royce held the title of the most expensive car in th...
+                      - generic [ref=f9e379]:
+                        - generic [ref=f9e382]: Spinny
+                        - button "About this result" [ref=f9e388] [cursor=pointer]
+                - listitem [ref=f9e394]:
+                  - generic [ref=f9e395]:
+                    - link "16 Most Expensive Cars in the World 2026 | Price in ₹ - Cars24. Opens in new tab." [ref=f9e396] [cursor=pointer]:
+                      - /url: /goto?url=CAESZgHuR6pN9kHnqGJvmGYjMMHwPSAgaqQgW92MtmhBQLfIB05lpuN2ytYZEFiPmyR7ehIb1SkXxqQrIiVQR3xESkHBxsnf9wgCVjoNqxtYVdBwqa-e-OzBql5E9oFdDQHVUfotM1QGPA==
+                    - generic [ref=f9e397]:
+                      - generic [ref=f9e399]:
+                        - generic [ref=f9e400]: 16 Most Expensive Cars in the World 2026 | Price in ₹ - Cars24
+                        - generic [ref=f9e401]: "* 1. Rolls-Royce La Rose Noire Droptail | $30M | ₹283 Crores. Touted as the most expensive car in the world at a staggering Rs. 28..."
+                      - generic [ref=f9e403]:
+                        - generic [ref=f9e406]: Cars24
+                        - button [ref=f9e412] [cursor=pointer]
+              - button [ref=f9e418] [cursor=pointer]:
+                - generic [ref=f9e419]: Show all
+        - button "Show more AI Overview" [ref=f9e427]:
+          - generic [ref=f9e428] [cursor=pointer]: Show more
+      - main [ref=f9e435]:
+        - generic [ref=f9e440]:
+          - generic [ref=f9e443]:
+            - heading "Web results" [level=2] [ref=f9e444]
+            - generic [ref=f9e445]:
+              - generic [ref=f9e448]:
+                - link "The 8 Most Expensive Supercars Ever Built iLusso https://www.ilusso.com › news › the-8-most-expensive-..." [ref=f9e450] [cursor=pointer]:
+                  - /url: /goto?url=CAESfgHuR6pNufxHDRGJLwCn7tm27-1yk2pZ4bIKDTHc2wVLjZhP-BpSdwn7uhxzG3FjFpgW_Ute8_VLTwvoj7ypxbfOvsv6u_5z3n0zQPbjLZQ6PfGF2noptaGC9yZHrECtzzHqYXqwopmkRYx14qAY54Svlv5JldSOrCVvTxZxKg==
+                  - heading "The 8 Most Expensive Supercars Ever Built" [level=3] [ref=f9e451]
+                  - generic [ref=f9e457]:
+                    - generic [ref=f9e458]: iLusso
+                    - generic [ref=f9e460]: https://www.ilusso.com › news › the-8-most-expensive-...
+                - button "About this result" [ref=f9e464] [cursor=pointer]
+              - generic [ref=f9e470]:
+                - generic [ref=f9e471]:
+                  - text: The Most Expensive Supercars ·
+                  - emphasis [ref=f9e472]: "Aston Martin Valkyrie: $3 Million"
+                  - text: "· McLaren Speedtail: $3 Million · Lamborghini Veneno: $4.5 Million · Pagani Zonda HP Barchetta: ..."
+                - link "Read more" [ref=f9e473] [cursor=pointer]:
+                  - /url: /goto?url=CAES9AIB7keqTbFFzwWfUQUYX0Rybf0Olkc3-A7-9l9MOgkgmZllzR0Dy8kQPptlp0h_CLlQ27ODJETen5YOGh3RWaHmljT-lymd3GgCp3XLYhXT3Kdx86OCpXdZ3RPvqAwzdtTDMy-7Nz5551uxB1vZ9FkWrykDrNIObLe1T8iZgxwLtTKeaaxc-o24HfP6hVAkX_eCwvaYmZnYq396fV1E4LQUKRdrbcuS69ET4HRq0T4Yziso-xoMz9k1xMMP5v4_3144tMwqFiAhXJ-n9Nnm-MrJMXgNe5F9Jo27YcuVcLjVg1N8E48lsHL3z7X7q-WZwdXb5UYLpQ_CfYLjee3xaQw5ixV9Oro_fgKDzlOJqcqOrJSECv_uUc4vWgfp0ipttS4esYXpOFJuyDqFGnnEyapQal8mfVrWu25p490GllfiaGjdfTPfPp5uEs5ixeOVDv9SyPD6Dq2Zm6PRbvbhXZkdsVbcUA9OUvJFbVg8m8wLL6rnAco=
+              - link [ref=f9e476] [cursor=pointer]:
+                - /url: /goto?url=CAESfgHuR6pNufxHDRGJLwCn7tm27-1yk2pZ4bIKDTHc2wVLjZhP-BpSdwn7uhxzG3FjFpgW_Ute8_VLTwvoj7ypxbfOvsv6u_5z3n0zQPbjLZQ6PfGF2noptaGC9yZHrECtzzHqYXqwopmkRYx14qAY54Svlv5JldSOrCVvTxZxKg==
+                - img "most expensive supercar from www.ilusso.com" [ref=f9e478]
+          - generic [ref=f9e483]:
+            - heading "People also ask" [level=2] [ref=f9e485]
+            - generic [ref=f9e486]:
+              - button "What is the top 10 most expensive car?" [ref=f9e492] [cursor=pointer]
+              - button "Who owns the $70 million Ferrari?" [ref=f9e506] [cursor=pointer]
+              - button "Who has 7000 Rolls-Royce?" [ref=f9e520] [cursor=pointer]
+              - button "Which is the No. 1 super car?" [ref=f9e534] [cursor=pointer]
+          - generic [ref=f9e544]:
+            - heading "Web results" [level=2] [ref=f9e545]
+            - generic [ref=f9e546]:
+              - generic [ref=f9e549]:
+                - link "16 Most Expensive Cars in the World 2026 Spinny https://www.spinny.com › Spinny Post › BEST CARS" [ref=f9e551] [cursor=pointer]:
+                  - /url: /goto?url=CAESdQHuR6pNF9ScYC82N2MC8YLDIXB76XOIlynL5cBdHrASJjGo53E093j4msB9qaoifIFlmAvHvIg9O0vTRvujJfxIwQCOWzYAk3_UDPHS1ShxbD3depYzuyQOEmZjNgd6HGLvJ7QaIKM4XjG2dtRCtmAkwHnIAg==
+                  - heading "16 Most Expensive Cars in the World 2026" [level=3] [ref=f9e552]
+                  - generic [ref=f9e558]:
+                    - generic [ref=f9e559]: Spinny
+                    - generic [ref=f9e561]: https://www.spinny.com › Spinny Post › BEST CARS
+                - button "About this result" [ref=f9e565] [cursor=pointer]
+              - generic [ref=f9e571]:
+                - generic [ref=f9e572]:
+                  - text: Topping the world's most expensive cars in the world in 2026 is the
+                  - emphasis [ref=f9e573]: Rolls-Royce La Rose Noire Droptail
+                  - text: ", valued at ₹250 crores ($30M), with only four units ..."
+                - link "Read more" [ref=f9e574] [cursor=pointer]:
+                  - /url: /goto?url=CAES1AEB7keqTXxpX4_VhjCpa0ec30nMHa_63meT3colE8TaMLLW-G0OwYiQpozIeByr5AYIQ3rUFwtPIbVyRMlxQkXV9ZTtEpcsEs52X35nAbdl2T9JMNs6RxBlaN2Awm3GUH5Y3Udhr1sl-EgzCtm8MeDbLE2Qq8cgIf6ouMwHPl1hT7EZvKIOr82Qy0js3-6z49ZC4DcYbk9ymR4hyXBj7YDV2j8RMwxQWijNmZjTYjEVt3rPl89g0pxQXBcjgIhAj-66c0wqPSeEgurUdGhra0T64oz4yg==
+              - link [ref=f9e577] [cursor=pointer]:
+                - /url: /goto?url=CAESdQHuR6pNF9ScYC82N2MC8YLDIXB76XOIlynL5cBdHrASJjGo53E093j4msB9qaoifIFlmAvHvIg9O0vTRvujJfxIwQCOWzYAk3_UDPHS1ShxbD3depYzuyQOEmZjNgd6HGLvJ7QaIKM4XjG2dtRCtmAkwHnIAg==
+                - img "most expensive supercar from www.spinny.com" [ref=f9e579]
+          - generic [ref=f9e583]:
+            - generic [ref=f9e586]:
+              - link "16 Most Expensive Cars in the World 2026 | Price in ₹ Cars24 https://www.cars24.com › Article" [ref=f9e588] [cursor=pointer]:
+                - /url: /goto?url=CAESewHuR6pNXo253ykL5t84IRj3OEBNyMuE0ZikmmV_49LyqzlpnBlBXw9mV847jLvgk9vF5N08UeEgac9CZ-H40nliLKolF-aQXi-b70xOPMqL1QfdhdZFgT0VGTO1gUAt6Vk0pkgOkET2Qd0WpbwFD369_qElFudvyHfOOA==
+                - heading "16 Most Expensive Cars in the World 2026 | Price in ₹" [level=3] [ref=f9e589]
+                - generic [ref=f9e595]:
+                  - generic [ref=f9e596]: Cars24
+                  - generic [ref=f9e598]: https://www.cars24.com › Article
+              - button "About this result" [ref=f9e602] [cursor=pointer]
+            - generic [ref=f9e608]:
+              - generic [ref=f9e609]: 21 Jun 2026 —
+              - generic [ref=f9e610]:
+                - text: Touted as the most expensive car in the world at a staggering Rs. 283 crores ($30M), the
+                - emphasis [ref=f9e611]: Rolls-Royce La Rose Noire Droptail
+                - text: serves as the ...
+              - link "Read more" [ref=f9e612] [cursor=pointer]:
+                - /url: /goto?url=CAES3gEB7keqTQXb-WSww7bHO8JyPO6uYNfEkh_QyX6t-7txwZEnT8bqrlPxZzxJx_qX5P4HyEdaajM5mJg6ZDQvwdn7Z_wsSvZ5c1GHDKD65nhLJd0b-5l5i472TK68o2yJOHgu-xHOSn6kLok_dLBwnIEBe0gfBRY4CaC5s3SSUPi8u2s6qON8q96w6D4jHsbALhXugE5pBseWM7lkIGqLzbVCB7DFSa08e7MrVe-VbcE2EYhc-Cqjfr_ojKtZPVFIIS_AD7r0V7JpwmTg7RS-zIKqbYzgKEhfrhUHFJ99ZEw=
+            - link "most expensive supercar images from www.cars24.com" [ref=f9e614] [cursor=pointer]:
+              - /url: /goto?url=CAESewHuR6pNXo253ykL5t84IRj3OEBNyMuE0ZikmmV_49LyqzlpnBlBXw9mV847jLvgk9vF5N08UeEgac9CZ-H40nliLKolF-aQXi-b70xOPMqL1QfdhdZFgT0VGTO1gUAt6Vk0pkgOkET2Qd0WpbwFD369_qElFudvyHfOOA==
+          - generic [ref=f9e626]:
+            - generic [ref=f9e628]:
+              - heading "Videos" [level=2] [ref=f9e629]
+              - button "About this result" [ref=f9e630] [cursor=pointer]
+            - generic [ref=f9e636]:
+              - generic [ref=f9e642]:
+                - generic [ref=f9e643]:
+                  - link [ref=f9e645] [cursor=pointer]:
+                    - /url: /goto?url=CAESYwHuR6pNtonFMZQ7bQJVzq1o29ygce9kp63iaO1PkK8AqXEXNDQBQ06j8KwdfApKsUFKVT_IvaaCbrsRTjzxC265yJTcBd5e78CLqclr8wz8dLKYa4Rlu6wVY9f5UX0iQUgKmQ==
+                    - heading "12 Most Expensive Cars On The Planet YouTube ELuxuryLifestyle 5 days ago" [level=3] [ref=f9e646]:
+                      - generic [ref=f9e647]: 12 Most Expensive Cars On The Planet
+                      - generic [ref=f9e651]:
+                        - generic [ref=f9e652]:
+                          - text: YouTube
+                          - generic [ref=f9e653]: · ELuxuryLifestyle
+                        - generic [ref=f9e654]: 5 days ago
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · ELuxuryLifestyle
+                      - button "About this result" [ref=f9e655] [cursor=pointer]
+                - button "12 Most Expensive Cars On The Planet by ELuxuryLifestyle on YouTube. Play on Google. 27:06" [ref=f9e660] [cursor=pointer]:
+                  - generic [ref=f9e661]: 27:06
+              - generic [ref=f9e679]:
+                - generic [ref=f9e680]:
+                  - link [ref=f9e682] [cursor=pointer]:
+                    - /url: /goto?url=CAESYwHuR6pNSBAnYMO6UUTNh0U74ruHab5EoBLm09UG0Yy_qZXZ_xTe--n1-4CY5ft0VkT_EcDxNKCWodMi9w9umotaV8a_vnOful_2Q4kY5HnQJOs-cB2vwusKv3jVYz0U9ixf8A==
+                    - heading "10 Most EXPENSIVE Cars in WORLD! (BEST LUXURY CARS ... YouTube AlphaONEcars 1 week ago" [level=3] [ref=f9e683]:
+                      - generic [ref=f9e684]: 10 Most EXPENSIVE Cars in WORLD! (BEST LUXURY CARS ...
+                      - generic [ref=f9e688]:
+                        - generic [ref=f9e689]:
+                          - text: YouTube
+                          - generic [ref=f9e690]: · AlphaONEcars
+                        - generic [ref=f9e691]: 1 week ago
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · AlphaONEcars
+                      - button "About this result" [ref=f9e692] [cursor=pointer]
+                - button "10 Most EXPENSIVE Cars in WORLD! (BEST LUXURY CARS ... by AlphaONEcars on YouTube. Play on Google. 11:51" [ref=f9e697] [cursor=pointer]:
+                  - generic [ref=f9e698]: 11:51
+              - generic [ref=f9e717]:
+                - generic [ref=f9e718]:
+                  - generic [ref=f9e719]:
+                    - link [ref=f9e721] [cursor=pointer]:
+                      - /url: /goto?url=CAESYwHuR6pNEs1aHEFDbOj-4fXwI-O2zBZPtcVJRfKx7CU6HfrK_JKDpML7NW3sEo8tV1kCv0FV-XwMOHHOsiT2fVmZsC7siioxiIv_-tKUi89nnCnBtr7JC1Z3X5RmN5pXIAEluw==
+                      - heading "INVESTIGATING THE WORLD'S MOST EXPENSIVE ... YouTube Mr JWW 29 Mar 2026" [level=3] [ref=f9e722]:
+                        - generic [ref=f9e723]: INVESTIGATING THE WORLD'S MOST EXPENSIVE ...
+                        - generic [ref=f9e727]:
+                          - generic [ref=f9e728]:
+                            - text: YouTube
+                            - generic [ref=f9e729]: · Mr JWW
+                          - generic [ref=f9e730]: 29 Mar 2026
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · Mr JWW
+                        - button "About this result" [ref=f9e731] [cursor=pointer]
+                  - button "INVESTIGATING THE WORLD'S MOST EXPENSIVE ... by Mr JWW on YouTube. Play on Google. 14:26" [ref=f9e736] [cursor=pointer]:
+                    - generic [ref=f9e737]: 14:26
+                - button "Over 400 super and hypercars gathered at the Nurburg Ring, with some exceeding £5 million in value." [ref=f9e750] [cursor=pointer]
+            - link "View all videos" [ref=f9e756] [cursor=pointer]:
+              - /url: /search?sca_esv=8482441741432c72&udm=7&q=most+expensive+supercar&sa=X&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q8ccDKAJ6BAhJEAQ
+              - separator [ref=f9e757]
+              - generic [ref=f9e758]: View all
+          - generic [ref=f9e765]:
+            - heading "Web results" [level=2] [ref=f9e766]
+            - generic [ref=f9e767]:
+              - generic [ref=f9e770]:
+                - link "The 65 Most Expensive Cars In The World Motor1.com https://www.motor1.com › Features" [ref=f9e772] [cursor=pointer]:
+                  - /url: /goto?url=CAESfAHuR6pNP-x2t7nskU7a7ghPyLMTirVeLVQ1VcyWBBtPEY7StGCDtV6ZFGVgzGvXvA-NxwM4d2h1t17YGHfdY6aPPpfM81-7NAfReVOvcxKKLxCPamy_QXn6gSyDLnhXitg2qYY2WB15dZptXeOTkjWOSOU8wQpTAxjCuvc=
+                  - heading "The 65 Most Expensive Cars In The World" [level=3] [ref=f9e773]
+                  - generic [ref=f9e779]:
+                    - generic [ref=f9e780]: Motor1.com
+                    - generic [ref=f9e782]: https://www.motor1.com › Features
+                - button "About this result" [ref=f9e786] [cursor=pointer]
+              - generic [ref=f9e792]:
+                - generic [ref=f9e793]: 12 Jun 2026 —
+                - generic [ref=f9e794]:
+                  - emphasis [ref=f9e795]: The Koenigsegg Jesko
+                  - text: ", apart from being the fastest car the company has made to date, is also the most expensive. At $3.0 million out of the box, ..."
+                - link "Read more" [ref=f9e796] [cursor=pointer]:
+                  - /url: /goto?url=CAES7gEB7keqTQsQ7jVqqOwJfshv2jsq2Fh_AEjK-2IIDxGNCNOJTtqQEUhJ6S6FZKotbCqs9dYhyhIau_8eudDaT8Q-JEa5tXqrmp-tcbIBR2cmW3QEkpxneUfrSIYfhTYTF1cbUObLwfd5mzBIjTRmA7NnI_ngOFopitGiRZqDkcb194WZoFz9-9SdT6cwswxK4OnbIQ2v7wiXzLD-K6oDk3szs1HkyTmxTYPxbsTCIjRUBwSdZjGWAeUigb6konBVBn9ktbvmXa04Rt_BpAFAjigIGQK1BNrPTKu3FKHwhchdt3F1i9YLyYV8zfRoJuhh
+              - link [ref=f9e799] [cursor=pointer]:
+                - /url: /goto?url=CAESfAHuR6pNP-x2t7nskU7a7ghPyLMTirVeLVQ1VcyWBBtPEY7StGCDtV6ZFGVgzGvXvA-NxwM4d2h1t17YGHfdY6aPPpfM81-7NAfReVOvcxKKLxCPamy_QXn6gSyDLnhXitg2qYY2WB15dZptXeOTkjWOSOU8wQpTAxjCuvc=
+                - img "most expensive supercar from www.motor1.com" [ref=f9e801]
+          - generic [ref=f9e805]:
+            - generic [ref=f9e808]:
+              - link "The 50 Most Expensive Cars in the World Robb Report https://robbreport.com › motors › cars › lists › most-ex..." [ref=f9e810] [cursor=pointer]:
+                - /url: /goto?url=CAESgAEB7keqTSZ7e6plKg8DK66V14DoA_9I-XuYN1tMOBht5FX6pKfrYVg6SiGdnnSy_7OhhV_Ff4kSzVFlLn_9Ye171x-SXrySdaVPGPLN6Kjq-7QNuTqebrqSJF1SGcuxe-rdGwGlXopG_7m2TWmrnC-M6ZobLMRmTNCJOm2HEkRENQ==
+                - heading "The 50 Most Expensive Cars in the World" [level=3] [ref=f9e811]
+                - generic [ref=f9e817]:
+                  - generic [ref=f9e818]: Robb Report
+                  - generic [ref=f9e820]: https://robbreport.com › motors › cars › lists › most-ex...
+              - button "About this result" [ref=f9e824] [cursor=pointer]
+            - generic [ref=f9e830]:
+              - generic [ref=f9e831]: 17 Jul 2025 —
+              - generic [ref=f9e832]:
+                - emphasis [ref=f9e833]: Koenigsegg Gemera — $1.7 Million
+                - text: ... The Gemera is the rare supercar that has room for the whole family. The Swedish marque's latest model may ...
+              - link "Read more" [ref=f9e834] [cursor=pointer]:
+                - /url: /goto?url=CAESigIB7keqTRx0Ead0UmWR1cgerDej1BcQc8fjOTmGqJUYHYGAwC38RBe2OeCZnCkovqHNbiMgUNyaH0rieaHXSHlOCslq1IfD5mjLSwSHPb3yN8B-iY_7Ewnb6rBxtRIkhxQflA9XCNMo4o22ZRE1KnU4eIRP3DGlHfl-zLygCMiUTKVJrF8u4PpAXgi_aHoe30ojgaovdEZgu3ZwiLOTJWE6E_UcuKdk6c3tRaFwZg3Cv8WT_FTqwGUnEdkUnX9fcvtOU6pE0I6RONfTkXQK2LSfahOxVy8SdaMgcb6OGwSF9XZ5aVOwTcJ5unRcVAcHfeMF5-E5-_A6ApHMmd0_ffL1OHVvyWPAWVHVag==
+            - link [ref=f9e837] [cursor=pointer]:
+              - /url: /goto?url=CAESgAEB7keqTSZ7e6plKg8DK66V14DoA_9I-XuYN1tMOBht5FX6pKfrYVg6SiGdnnSy_7OhhV_Ff4kSzVFlLn_9Ye171x-SXrySdaVPGPLN6Kjq-7QNuTqebrqSJF1SGcuxe-rdGwGlXopG_7m2TWmrnC-M6ZobLMRmTNCJOm2HEkRENQ==
+              - img "most expensive supercar from robbreport.com" [ref=f9e839]
+          - generic [ref=f9e843]:
+            - generic [ref=f9e846]:
+              - link "The Most Expensive New Cars You Can (Actually) Buy Car and Driver https://www.caranddriver.com › features › most-expens..." [ref=f9e848] [cursor=pointer]:
+                - /url: /goto?url=CAESfAHuR6pNFbsrO4Ed6LdTCVk5VARGHAFqfe3IdDV1Uy_uIfj-_OcRqITszYKsNb1EM46uZuVZB2fr703sAb9cBzT6dmIRzZFNIJxSyGpJPFQkxNi-D_UD2ZiNN2NQV13uMY-3Nx5wOKohB91woINePiTeW0Oq4AExEYrgLJo=
+                - heading "The Most Expensive New Cars You Can (Actually) Buy" [level=3] [ref=f9e849]
+                - generic [ref=f9e855]:
+                  - generic [ref=f9e856]: Car and Driver
+                  - generic [ref=f9e858]: https://www.caranddriver.com › features › most-expens...
+              - button "About this result" [ref=f9e862] [cursor=pointer]
+            - generic [ref=f9e868]:
+              - generic [ref=f9e869]: 20 Jun 2025 —
+              - generic [ref=f9e870]:
+                - emphasis [ref=f9e871]: "McLaren 750S: $318,085"
+                - text: ... The British supercar manufacturer's top supercar (for the moment, until the W1 arrives) is one of the best in the world ...
+              - link "Read more" [ref=f9e872] [cursor=pointer]:
+                - /url: /goto?url=CAES-gEB7keqTRppkV4GR3mrbw38T2bhm25Cm7LZUW1_C97wMEg6xWVb7jrjQ_O_bVpAucCYHHO2ff1FuqvR9BbVj9KpGKunYbwhNgtH5qksyQMSqU0rI3bLQvsDSnk5veQGgU6xLllGnMfeVc3jcAD87I9bHhDuxqsWgKEuNOM5Sl0ryAaLRdDgCXHONBZiu9ugGz5v8WSY0vhqe4kDtiSwnk1dz1Hwmi4LbpOt7aeUJTNeaELngUH7GKyyskVVYQrA6PEc1_Uyspw4trEv4Bkrphiwud9GR2AJRT3LvKY0MtTZ5fcFd_JXWvZZLIEer0YbC5a6hFMHKfhDBYyu
+            - link [ref=f9e875] [cursor=pointer]:
+              - /url: /goto?url=CAESfAHuR6pNFbsrO4Ed6LdTCVk5VARGHAFqfe3IdDV1Uy_uIfj-_OcRqITszYKsNb1EM46uZuVZB2fr703sAb9cBzT6dmIRzZFNIJxSyGpJPFQkxNi-D_UD2ZiNN2NQV13uMY-3Nx5wOKohB91woINePiTeW0Oq4AExEYrgLJo=
+              - img "most expensive supercar from www.caranddriver.com" [ref=f9e877]
+            - generic [ref=f9e878]: 180-day returns
+          - generic [ref=f9e884]:
+            - generic [ref=f9e887]:
+              - link "List of most expensive cars sold at auction Wikipedia https://en.wikipedia.org › wiki › List_of_most_expensi..." [ref=f9e889] [cursor=pointer]:
+                - /url: /goto?url=CAESgQEB7keqTcZhEB82njNBxUvel1PLLwN5OhOasjD_sz3MRqFmlzgfFL6wrbDPeiKKaVOVdVDW5JTmnR05qUjaolK4e-LRbjnXh6Fzr8R-KGRdNgTEDOvJXRu5IPX2Vu0yva_KM0l16bQ0hTVgHQ8_GahxmTWvpRwAjtAXaiavDhV48PU=
+                - heading "List of most expensive cars sold at auction" [level=3] [ref=f9e890]
+                - generic [ref=f9e896]:
+                  - generic [ref=f9e897]: Wikipedia
+                  - generic [ref=f9e899]: https://en.wikipedia.org › wiki › List_of_most_expensi...
+              - button "About this result" [ref=f9e903] [cursor=pointer]
+            - generic [ref=f9e910]:
+              - text: The record is held by a
+              - emphasis [ref=f9e911]: 1955 Mercedes-Benz 300 SLR Uhlenhaut coupe
+              - text: sold in 2022 for €135 million to a private collector.
+          - generic [ref=f9e915]:
+            - generic [ref=f9e918]:
+              - link "Most expensive cars in the world 2026 - Top 10 RAC https://www.rac.co.uk › ... › Driving advice" [ref=f9e920] [cursor=pointer]:
+                - /url: /goto?url=CAESiwEB7keqTfDxHswIBBcM56qyU8vUt8hS-8PUbOvVPV8HuvRkNjmPb_8tssqsPx6bYb_EJHDfhrhnmE5Q6p1xoRKwnq-aiqI5UfRWnW3_v8sO604Pwa2sNGlvBYlV5_ZWpGFhzkd8lUEC2vY0ga7SLEN5eCQoeq2uRY8DcFyUrhXAI5FrwdAJlbrROk9C
+                - heading "Most expensive cars in the world 2026 - Top 10" [level=3] [ref=f9e921]
+                - generic [ref=f9e927]:
+                  - generic [ref=f9e928]: RAC
+                  - generic [ref=f9e930]: https://www.rac.co.uk › ... › Driving advice
+              - button "About this result" [ref=f9e934] [cursor=pointer]
+            - generic [ref=f9e940]:
+              - generic [ref=f9e941]:
+                - text: Top 10 most expensive cars in the world ·
+                - emphasis [ref=f9e942]: Bugatti Divo
+                - text: · Pagani Huayra Imola Roadster · Pagani Huayra Codalunga · Mercedes-Maybach Exelero · Bugatti Centodieci ...
+              - link "Read more" [ref=f9e943] [cursor=pointer]:
+                - /url: /goto?url=CAES4QIB7keqTYmShAXwwrxa8GqpgLSHiHpeXovfb-sT6hoaZbdp9B5NjHpADiXlvAKs5P6KpG02VDXrqbGbyNPAe4yki83QW2HrFd1CiH7usk32W7_IoU-SSwlCemzRwL-luy94lbfH52Nhl1aIlvvGcEbgHgYOQpBKtHyHgL21KOAfDEwNVou9LPtASCf4qnhUvD1Uky-5mcE0t6PJIwflSeAsG0RMb_m-KMoTVr9JepOUOipLWDDMd38-dwY-CDUxuwJjigMPY74E1YmR2APWNStgBsPrecee6DONztI0gHlivhN9_byd_ekyvw6eVWGqkcBlfVWV3bDA2nB0c3Sl1ltklqD3BQdeiZgNc4LNTGgMwDxWQFx41qjpaxcE7tTgGOWR08gn5bB67py18O4JNAGglqjvRFlS83_A9wJeoM-Pe9nsD1tuq98M64soEjpOWHURZj71nr0c3KfOucuF8OkRbg==
+            - link [ref=f9e946] [cursor=pointer]:
+              - /url: /goto?url=CAESiwEB7keqTfDxHswIBBcM56qyU8vUt8hS-8PUbOvVPV8HuvRkNjmPb_8tssqsPx6bYb_EJHDfhrhnmE5Q6p1xoRKwnq-aiqI5UfRWnW3_v8sO604Pwa2sNGlvBYlV5_ZWpGFhzkd8lUEC2vY0ga7SLEN5eCQoeq2uRY8DcFyUrhXAI5FrwdAJlbrROk9C
+              - img "most expensive supercar from www.rac.co.uk" [ref=f9e948]
+        - generic [ref=f9e950]:
+          - generic [ref=f9e955]:
+            - heading "People also search for" [level=2] [ref=f9e957]
+            - generic [ref=f9e959]:
+              - generic [ref=f9e960]:
+                - link "6 most expensive car in the world" [ref=f9e964] [cursor=pointer]:
+                  - /url: /search?sca_esv=8482441741432c72&q=6+most+expensive+car+in+the+world&sa=X&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q1QJ6BAhTEAE
+                - link "Rolls-Royce La Rose Noire Droptail" [ref=f9e978] [cursor=pointer]:
+                  - /url: /search?sca_esv=8482441741432c72&q=Rolls-Royce+La+Rose+Noire+Droptail&sa=X&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q1QJ6BAhXEAE
+                - link "Most expensive supercar in India" [ref=f9e992] [cursor=pointer]:
+                  - /url: /search?sca_esv=8482441741432c72&q=Most+expensive+supercar+in+India&sa=X&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q1QJ6BAhYEAE
+                - link "Most expensive supercar brands" [ref=f9e1006] [cursor=pointer]:
+                  - /url: /search?sca_esv=8482441741432c72&q=Most+expensive+supercar+brands&sa=X&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q1QJ6BAhUEAE
+              - generic [ref=f9e1017]:
+                - link "Most expensive car in the world in rupees" [ref=f9e1021] [cursor=pointer]:
+                  - /url: /search?sca_esv=8482441741432c72&q=Most+expensive+car+in+the+world+in+rupees&sa=X&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q1QJ6BAhREAE
+                - link "Most expensive hypercar" [ref=f9e1035] [cursor=pointer]:
+                  - /url: /search?sca_esv=8482441741432c72&q=Most+expensive+hypercar&sa=X&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q1QJ6BAhWEAE
+                - link "Top 10 most expensive car in the world" [ref=f9e1049] [cursor=pointer]:
+                  - /url: /search?sca_esv=8482441741432c72&q=Top+10+most+expensive+car+in+the+world&sa=X&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q1QJ6BAhSEAE
+                - link "Most expensive sports car in the world" [ref=f9e1063] [cursor=pointer]:
+                  - /url: /search?sca_esv=8482441741432c72&q=Most+expensive+sports+car+in+the+world&sa=X&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q1QJ6BAhVEAE
+          - navigation [ref=f9e1074]:
+            - heading "Page navigation" [level=1] [ref=f9e1075]
+            - text: "1"
+            - link "Page 2" [ref=f9e1078] [cursor=pointer]:
+              - /url: /search?q=most+expensive+supercar&sca_esv=8482441741432c72&ei=lPxUavW0I5KRseMP1oC18A4&start=10&sa=N&sstk=AU9db-CekCbbJcyDWw9MDvnIM_kCPfjvxA9Sua7IrXojg2775lMtbv_VMMjlGB1jPJImS4Jhx5QO1DrQm5k03sGPxNJY54fzN1Pbtg&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q8tMDegQIQhAE
+              - text: "2"
+            - link "Page 3" [ref=f9e1080] [cursor=pointer]:
+              - /url: /search?q=most+expensive+supercar&sca_esv=8482441741432c72&ei=lPxUavW0I5KRseMP1oC18A4&start=20&sa=N&sstk=AU9db-CekCbbJcyDWw9MDvnIM_kCPfjvxA9Sua7IrXojg2775lMtbv_VMMjlGB1jPJImS4Jhx5QO1DrQm5k03sGPxNJY54fzN1Pbtg&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q8tMDegQIQhAG
+              - text: "3"
+            - link "Page 4" [ref=f9e1082] [cursor=pointer]:
+              - /url: /search?q=most+expensive+supercar&sca_esv=8482441741432c72&ei=lPxUavW0I5KRseMP1oC18A4&start=30&sa=N&sstk=AU9db-CekCbbJcyDWw9MDvnIM_kCPfjvxA9Sua7IrXojg2775lMtbv_VMMjlGB1jPJImS4Jhx5QO1DrQm5k03sGPxNJY54fzN1Pbtg&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q8tMDegQIQhAI
+              - text: "4"
+            - link "Page 5" [ref=f9e1084] [cursor=pointer]:
+              - /url: /search?q=most+expensive+supercar&sca_esv=8482441741432c72&ei=lPxUavW0I5KRseMP1oC18A4&start=40&sa=N&sstk=AU9db-CekCbbJcyDWw9MDvnIM_kCPfjvxA9Sua7IrXojg2775lMtbv_VMMjlGB1jPJImS4Jhx5QO1DrQm5k03sGPxNJY54fzN1Pbtg&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q8tMDegQIQhAK
+              - text: "5"
+            - link "Page 6" [ref=f9e1086] [cursor=pointer]:
+              - /url: /search?q=most+expensive+supercar&sca_esv=8482441741432c72&ei=lPxUavW0I5KRseMP1oC18A4&start=50&sa=N&sstk=AU9db-CekCbbJcyDWw9MDvnIM_kCPfjvxA9Sua7IrXojg2775lMtbv_VMMjlGB1jPJImS4Jhx5QO1DrQm5k03sGPxNJY54fzN1Pbtg&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q8tMDegQIQhAM
+              - text: "6"
+            - link "Page 7" [ref=f9e1088] [cursor=pointer]:
+              - /url: /search?q=most+expensive+supercar&sca_esv=8482441741432c72&ei=lPxUavW0I5KRseMP1oC18A4&start=60&sa=N&sstk=AU9db-CekCbbJcyDWw9MDvnIM_kCPfjvxA9Sua7IrXojg2775lMtbv_VMMjlGB1jPJImS4Jhx5QO1DrQm5k03sGPxNJY54fzN1Pbtg&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q8tMDegQIQhAO
+              - text: "7"
+            - link "Page 8" [ref=f9e1090] [cursor=pointer]:
+              - /url: /search?q=most+expensive+supercar&sca_esv=8482441741432c72&ei=lPxUavW0I5KRseMP1oC18A4&start=70&sa=N&sstk=AU9db-CekCbbJcyDWw9MDvnIM_kCPfjvxA9Sua7IrXojg2775lMtbv_VMMjlGB1jPJImS4Jhx5QO1DrQm5k03sGPxNJY54fzN1Pbtg&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q8tMDegQIQhAQ
+              - text: "8"
+            - link "Page 9" [ref=f9e1092] [cursor=pointer]:
+              - /url: /search?q=most+expensive+supercar&sca_esv=8482441741432c72&ei=lPxUavW0I5KRseMP1oC18A4&start=80&sa=N&sstk=AU9db-CekCbbJcyDWw9MDvnIM_kCPfjvxA9Sua7IrXojg2775lMtbv_VMMjlGB1jPJImS4Jhx5QO1DrQm5k03sGPxNJY54fzN1Pbtg&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q8tMDegQIQhAS
+              - text: "9"
+            - link "Page 10" [ref=f9e1094] [cursor=pointer]:
+              - /url: /search?q=most+expensive+supercar&sca_esv=8482441741432c72&ei=lPxUavW0I5KRseMP1oC18A4&start=90&sa=N&sstk=AU9db-CekCbbJcyDWw9MDvnIM_kCPfjvxA9Sua7IrXojg2775lMtbv_VMMjlGB1jPJImS4Jhx5QO1DrQm5k03sGPxNJY54fzN1Pbtg&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q8tMDegQIQhAU
+              - text: "10"
+            - heading [level=2] [ref=f9e1096]:
+              - link "Next" [ref=f9e1097] [cursor=pointer]:
+                - /url: /search?q=most+expensive+supercar&sca_esv=8482441741432c72&ei=lPxUavW0I5KRseMP1oC18A4&start=10&sa=N&sstk=AU9db-CekCbbJcyDWw9MDvnIM_kCPfjvxA9Sua7IrXojg2775lMtbv_VMMjlGB1jPJImS4Jhx5QO1DrQm5k03sGPxNJY54fzN1Pbtg&ved=2ahUKEwj1zsjY9M-VAxWSSGwGHVZADe4Q8NMDegQIQhAW
+        - navigation
+    - contentinfo [ref=f9e1100]:
+      - heading "Footer links" [level=1] [ref=f9e1101]
+      - generic [ref=f9e1105]:
+        - generic [ref=f9e1107]:
+          - text: India
+          - generic [ref=f9e1109]:
+            - button "Patna, Bihar - Based on your past activity" [ref=f9e1111] [cursor=pointer]:
+              - generic [ref=f9e1112]: Patna, Bihar
+              - generic [ref=f9e1114]:
+                - text: "-"
+                - generic [ref=f9e1115]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=f9e1117] [cursor=pointer]
+        - generic [ref=f9e1120]:
+          - link "Help" [ref=f9e1121] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=f9e1122] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f9e1123] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f9e1124] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1
