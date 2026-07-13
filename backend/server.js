@@ -69,7 +69,7 @@ let currentAbort = null;
 async function getMcpClient() {
   if (mcpClient) return mcpClient;
 
-  const args = ["@playwright/mcp", "--browser=chromium"];
+  const args = ["@playwright/mcp", "--browser", "chromium"];
 if (process.env.PLAYWRIGHT_HEADED !== "true") args.push("--headless");
   const transport = new StdioClientTransport({
     command: "npx",
