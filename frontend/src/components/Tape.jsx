@@ -1,10 +1,18 @@
 import { useEffect, useRef } from "react";
 import Entry from "./Entry.jsx";
 
-export default function Tape({ events, onImageClick }) {
+export default function Tape({ events, onImageClick, onRetry }) {
   const bottomRef = useRef(null);
+  const hasMounted = useRef(false);
 
   useEffect(() => {
+    if (!hasMounted.current) {
+      // Skip the auto-scroll on first mount -- this fires right after a
+      // page refresh when restored history already has events loaded, and
+      // scrolling then drags the whole page down instead of just this tape.
+      hasMounted.current = true;
+      return;
+    }
     bottomRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
   }, [events.length]);
 
@@ -18,7 +26,13 @@ export default function Tape({ events, onImageClick }) {
           </div>
         )}
         {events.map((evt, i) => (
-          <Entry key={i} event={evt} onImageClick={onImageClick} />
+          <Entry
+            key={i}
+            event={evt}
+            onImageClick={onImageClick}
+            onRetry={onRetry}
+            isLatest={i === events.length - 1}
+          />
         ))}
         <div ref={bottomRef} />
       </div>

@@ -1,20 +1,20 @@
-// In dev, Vite's proxy (see vite.config.js) forwards /api/* to the backend,
-// so a relative path just works. For a production build served separately
-// from the API, set VITE_API_URL (e.g. in a .env file) to the API's origin.
 const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:3000";
 
-export async function stopTask() {
-  const res = await fetch(`${API_BASE}/api/stop`, { method: "POST" });
+export async function stopTask(taskId) {
+  const res = await fetch(`${API_BASE}/api/stop/${taskId}`, { method: "POST" });
   return res.json();
 }
 
-// Streams ndjson events from POST /api/task, calling onEvent for each parsed
-// line as it arrives. Throws if the initial request fails (non-2xx).
-export async function runTask(task, onEvent) {
+export async function resumeTask(taskId) {
+  const res = await fetch(`${API_BASE}/api/resume/${taskId}`, { method: "POST" });
+  return res.json();
+}
+
+export async function runTask(task, onEvent, options = {}) {
   const res = await fetch(`${API_BASE}/api/task`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ task }),
+    body: JSON.stringify({ task, forceRefresh: !!options.forceRefresh }),
   });
 
   if (!res.ok) {
