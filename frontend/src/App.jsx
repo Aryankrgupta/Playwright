@@ -32,6 +32,7 @@ function loadStoredRuns() {
 
 export default function App() {
   const [task, setTask] = useState("");
+  const [turbo, setTurbo] = useState(true);
   const [runs, setRuns] = useState(loadStoredRuns);
   const [lightboxSrc, setLightboxSrc] = useState(null);
   const nextId = useRef(runs.reduce((max, r) => Math.max(max, r.id + 1), 0));
@@ -72,7 +73,7 @@ export default function App() {
         setRuns((prev) =>
           prev.map((r) => (r.id === id ? { ...r, events: [...r.events, evt] } : r))
         );
-      });
+      }, { turbo });
     } catch (err) {
       setRuns((prev) =>
         prev.map((r) =>
@@ -128,7 +129,7 @@ export default function App() {
             prev.map((r) => (r.id === id ? { ...r, events: [...r.events, evt] } : r))
           );
         },
-        { forceRefresh: true }
+        { forceRefresh: true, turbo }
       );
     } catch (err) {
       setRuns((prev) =>
@@ -166,7 +167,7 @@ export default function App() {
       <HistorySidebar runs={runs} onSelect={handleSelectHistory} onClear={handleClearHistory} />
       <div className="wrap">
         <Header running={runs.some((r) => r.running)} />
-        <TaskBar task={task} setTask={setTask} onRun={handleRun} />
+        <TaskBar task={task} setTask={setTask} onRun={handleRun} turbo={turbo} setTurbo={setTurbo} />
         {runs.length === 0 && (
           <section className="tape-wrap">
             <div className="tape">

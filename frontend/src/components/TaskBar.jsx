@@ -22,7 +22,7 @@ function pickRandom(pool, count) {
   return shuffled.slice(0, count);
 }
 
-export default function TaskBar({ task, setTask, onRun }) {
+export default function TaskBar({ task, setTask, onRun, turbo, setTurbo }) {
   const [seed, setSeed] = useState(0);
   const suggestions = useMemo(
     () => pickRandom(SUGGESTION_POOL, SUGGESTION_COUNT),
@@ -54,6 +54,14 @@ export default function TaskBar({ task, setTask, onRun }) {
           onChange={(e) => setTask(e.target.value)}
           onKeyDown={handleKeyDown}
         />
+        <button
+          type="button"
+          className={`turbo-toggle${turbo ? " on" : ""}`}
+          onClick={() => setTurbo((t) => !t)}
+          title={turbo ? "Turbo on: Cerebras + Groq + OpenRouter fallback chain" : "Turbo off: Cerebras only"}
+        >
+          ⚡ Turbo {turbo ? "On" : "Off"}
+        </button>
         <button type="submit" id="runBtn" disabled={!task.trim()}>
           Run task
         </button>

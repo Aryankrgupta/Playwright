@@ -489,6 +489,29 @@ html, body, #root {
   font-weight: 700;
 }
 
+.turbo-toggle {
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  border-radius: 8px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 13px;
+  padding: 0 14px;
+  height: 44px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+.turbo-toggle.on {
+  color: var(--action);
+  border-color: var(--action);
+  background: rgba(242, 184, 75, 0.1);
+}
+.turbo-toggle:hover {
+  filter: brightness(1.1);
+}
+
 @media (max-width: 820px) {
   .page { flex-direction: column; }
   .history-sidebar {

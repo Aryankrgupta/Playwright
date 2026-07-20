@@ -14,7 +14,11 @@ export async function runTask(task, onEvent, options = {}) {
   const res = await fetch(`${API_BASE}/api/task`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ task, forceRefresh: !!options.forceRefresh }),
+    body: JSON.stringify({
+      task,
+      forceRefresh: !!options.forceRefresh,
+      turbo: options.turbo !== false,
+    }),
   });
 
   if (!res.ok) {
