@@ -1,0 +1,1 @@
+[    2631ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://api.pushshift.io/reddit/search/submission?subreddit=programming&sort=desc&sort_type=score&size=1:0

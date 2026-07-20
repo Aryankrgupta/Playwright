@@ -1,0 +1,638 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [active] [ref=e9] [cursor=pointer]
+        - generic [ref=e13]:
+          - link "YouTube Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e20]: IN
+        - button "Skip navigation" [ref=e24] [cursor=pointer]
+      - generic [ref=e29]:
+        - search [ref=e30]:
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - combobox "Search" [expanded] [ref=e35]: random song
+              - button "Clear search query" [ref=e113] [cursor=pointer]
+            - button "Search" [ref=e36] [cursor=pointer]
+        - generic [ref=e41]:
+          - button "Search with your voice" [ref=e43] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e52]:
+        - button "Settings" [ref=e57] [cursor=pointer]
+        - link "Sign in" [ref=e63] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253Drandom%252Bsong&hl=en&ec=65620
+  - navigation [ref=e72]:
+    - generic [ref=e73]:
+      - link "Home" [ref=e75] [cursor=pointer]:
+        - /url: /
+      - link "Shorts" [ref=e81] [cursor=pointer]:
+        - /url: /shorts/
+      - link "Subscriptions" [ref=e87] [cursor=pointer]:
+        - /url: /feed/subscriptions
+      - link "You" [ref=e93] [cursor=pointer]:
+        - /url: /feed/you
+  - generic [ref=e98]:
+    - text: •
+    - main [ref=e123]:
+      - generic [ref=e124]:
+        - generic [ref=e126]:
+          - tablist [ref=e131]:
+            - tab "All" [selected] [ref=e135] [cursor=pointer]
+            - tab "Shorts" [ref=e144] [cursor=pointer]
+            - tab "Unwatched" [ref=e153] [cursor=pointer]
+            - tab "Watched" [ref=e162] [cursor=pointer]
+            - tab "Videos" [ref=e171] [cursor=pointer]
+            - tab "Recently uploaded" [ref=e180] [cursor=pointer]
+            - tab "Live" [ref=e189] [cursor=pointer]
+          - generic [ref=e196]:
+            - button "Search filters" [ref=e198] [cursor=pointer]:
+              - generic [ref=e199]: Filters
+            - tooltip "tooltip"
+        - generic [ref=e210]:
+          - generic [ref=e211]:
+            - heading "Shorts" [level=2] [ref=e219]
+            - generic [ref=e220]:
+              - generic [ref=e221]:
+                - generic [ref=e224]:
+                  - link [ref=e225] [cursor=pointer]:
+                    - /url: /shorts/muRMd1-MAEw
+                  - generic [ref=e229] [cursor=pointer]:
+                    - link "Band Jawaani - Aesthetic Velocity Dance 🥺🔥" [ref=e230]:
+                      - /url: /shorts/muRMd1-MAEw
+                    - generic [ref=e231]: 10M views
+                  - button "More actions" [ref=e233] [cursor=pointer]
+                - generic [ref=e243]:
+                  - link [ref=e244] [cursor=pointer]:
+                    - /url: /shorts/bL8tuIQ-4NM
+                  - generic [ref=e248] [cursor=pointer]:
+                    - 'link "Top 5 Most Popular Songs OF Different Countries🎧🌍| Habibi-Levitating-aankh marey| #explore #shorts" [ref=e249]':
+                      - /url: /shorts/bL8tuIQ-4NM
+                    - generic [ref=e250]: 88M views
+                  - button "More actions" [ref=e252] [cursor=pointer]
+                - generic [ref=e262]:
+                  - link [ref=e263] [cursor=pointer]:
+                    - /url: /shorts/_EG8ioMFpgE
+                  - generic [ref=e267] [cursor=pointer]:
+                    - 'link "Enjoy This Vibe 💥💥|aesthetic song|| ||lyrics|| watsapp status #shorts #song #lyrics" [ref=e268]':
+                      - /url: /shorts/_EG8ioMFpgE
+                    - generic [ref=e269]: 2.3M views
+                  - button "More actions" [ref=e271] [cursor=pointer]
+              - generic [ref=e279]:
+                - generic [ref=e282]:
+                  - link [ref=e283] [cursor=pointer]:
+                    - /url: /shorts/NrLpvfhbDRI
+                  - generic [ref=e287] [cursor=pointer]:
+                    - link "THIS SONG IS EVERYWHERE✨🎶" [ref=e288]:
+                      - /url: /shorts/NrLpvfhbDRI
+                    - generic [ref=e289]: 22M views
+                  - button "More actions" [ref=e291] [cursor=pointer]
+                - generic [ref=e301]:
+                  - link [ref=e302] [cursor=pointer]:
+                    - /url: /shorts/gkFhJN9SF9A
+                  - generic [ref=e306] [cursor=pointer]:
+                    - 'link "18th birthday lofi song popular song #bollywood #song #popular #trending #shorts" [ref=e307]':
+                      - /url: /shorts/gkFhJN9SF9A
+                    - generic [ref=e308]: 14M views
+                  - button "More actions" [ref=e310] [cursor=pointer]
+          - generic [ref=e319] [cursor=pointer]:
+            - link [ref=e320]:
+              - /url: /watch?v=PfcwlfCm7fc&list=PLONsb5_weGQVHCttK1vBuPcUYUE3mpoIs
+              - generic [ref=e321]: 102 videos
+            - generic [ref=e335]:
+              - heading "Random Bollywood Songs" [level=3] [ref=e336]:
+                - link "Random Bollywood Songs" [ref=e337]:
+                  - /url: /watch?v=PfcwlfCm7fc&list=PLONsb5_weGQVHCttK1vBuPcUYUE3mpoIs
+              - generic [ref=e339]:
+                - group [ref=e340]:
+                  - link "Anuj Kumar" [ref=e343]:
+                    - /url: /@imanujkumar
+                  - generic [ref=e344]: •
+                  - link "Playlist" [ref=e347]:
+                    - /url: /@imanujkumar
+                - group [ref=e348]
+                - group [ref=e349]:
+                  - link "Falak Tak (From \"Tashan\") · 5:56" [ref=e351]:
+                    - /url: /watch?v=PfcwlfCm7fc&list=PLONsb5_weGQVHCttK1vBuPcUYUE3mpoIs
+                - group [ref=e352]:
+                  - link "Ajab Si · 4:02" [ref=e354]:
+                    - /url: /watch?v=bdS6OoH1W2A&list=PLONsb5_weGQVHCttK1vBuPcUYUE3mpoIs
+                - group [ref=e355]
+                - group [ref=e356]:
+                  - link "View full playlist" [ref=e359]:
+                    - /url: /playlist?list=PLONsb5_weGQVHCttK1vBuPcUYUE3mpoIs
+          - generic [ref=e361]:
+            - link [ref=e363] [cursor=pointer]:
+              - /url: /watch?v=dH6WRk3dafo&list=RDdH6WRk3dafo&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+            - generic [ref=e365] [cursor=pointer]:
+              - generic [ref=e366]:
+                - heading [level=3] [ref=e368]:
+                  - link "Songs which feels different at 3am 🎧 20 minutes" [ref=e369]:
+                    - /url: /watch?v=dH6WRk3dafo&list=RDdH6WRk3dafo&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+                    - text: Songs which feels different at 3am 🎧
+                - generic [ref=e372]:
+                  - generic [ref=e373]: 10M views
+                  - generic [ref=e374]: •11 months ago
+              - generic [ref=e375]:
+                - link "Go to channel 𝙈𝙤𝙤nlight whispers" [ref=e376]:
+                  - /url: /@moonlightwhisper7
+                - link "𝙈𝙤𝙤nlight whispers" [ref=e381]:
+                  - /url: /@moonlightwhisper7
+              - generic [ref=e382]:
+                - generic [ref=e383]: Turn your volume up. This one's not just a song — it's a whole mood. If you vibe with late-night chaos, catchy beats, and lyrics that ...
+                - tooltip "tooltip"
+          - generic [ref=e385]:
+            - link [ref=e387] [cursor=pointer]:
+              - /url: /watch?v=0Cshm-BsiaU&list=RD0Cshm-BsiaU&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwHSBwkJmQsBhyohjO8%3D
+            - generic [ref=e389] [cursor=pointer]:
+              - generic [ref=e390]:
+                - heading [level=3] [ref=e392]:
+                  - link "Lil Tecca - Ransom (Lyrics) 2 minutes, 40 seconds" [ref=e393]:
+                    - /url: /watch?v=0Cshm-BsiaU&list=RD0Cshm-BsiaU&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwHSBwkJmQsBhyohjO8%3D
+                    - text: Lil Tecca - Ransom (Lyrics)
+                - generic [ref=e396]:
+                  - generic [ref=e397]: 21M views
+                  - generic [ref=e398]: •6 years ago
+              - generic [ref=e399]:
+                - link "Go to channel 7clouds" [ref=e400]:
+                  - /url: /@7clouds
+                - generic [ref=e401]:
+                  - link "7clouds" [ref=e405]:
+                    - /url: /@7clouds
+                  - img "Verified" [ref=e410]
+              - generic [ref=e412]:
+                - text: "Follow our Spotify playlists: http://bit.ly/7cloudsSpotify Lil Tecca - Ransom (Lyrics) ⏬ Download / Stream: ..."
+                - tooltip "tooltip"
+          - generic [ref=e413]:
+            - heading "Shorts" [level=2] [ref=e421]
+            - generic [ref=e422]:
+              - generic [ref=e423]:
+                - generic [ref=e426]:
+                  - link [ref=e427] [cursor=pointer]:
+                    - /url: /shorts/tD8lItxZJVw
+                  - generic [ref=e431] [cursor=pointer]:
+                    - 'link "She proved these lyrics right ✅#bollywood #shorts #@ektapareek" [ref=e432]':
+                      - /url: /shorts/tD8lItxZJVw
+                    - generic [ref=e433]: 12M views
+                  - button "More actions" [ref=e435] [cursor=pointer]
+                - generic [ref=e445]:
+                  - link [ref=e446] [cursor=pointer]:
+                    - /url: /shorts/edUZps64db8
+                  - generic [ref=e450] [cursor=pointer]:
+                    - link "When a Random Song Is Stuck In Your Head.." [ref=e451]:
+                      - /url: /shorts/edUZps64db8
+                    - generic [ref=e452]: 1.7M views
+                  - button "More actions" [ref=e454] [cursor=pointer]
+                - generic [ref=e464]:
+                  - link [ref=e465] [cursor=pointer]:
+                    - /url: /shorts/FNp3lH3TMqQ
+                  - generic [ref=e469] [cursor=pointer]:
+                    - link "When a Random Song Is Stuck In Your Head…" [ref=e470]:
+                      - /url: /shorts/FNp3lH3TMqQ
+                    - generic [ref=e471]: 26M views
+                  - button "More actions" [ref=e473] [cursor=pointer]
+              - generic [ref=e481]:
+                - generic [ref=e484]:
+                  - link [ref=e485] [cursor=pointer]:
+                    - /url: /shorts/OhRVNwwPocA
+                  - generic [ref=e489] [cursor=pointer]:
+                    - 'link "Lovesick girls-blackpink #viral #blackpink #kpop #trend #songlyrics #foryou #explorar #karaoke #sing" [ref=e490]':
+                      - /url: /shorts/OhRVNwwPocA
+                    - generic [ref=e491]: 1.5M views
+                  - button "More actions" [ref=e493] [cursor=pointer]
+                - generic [ref=e503]:
+                  - link [ref=e504] [cursor=pointer]:
+                    - /url: /shorts/pKa_gaZl4Ac
+                  - generic [ref=e508] [cursor=pointer]:
+                    - link "Embarrassing Playlist Shuffle Challenge" [ref=e509]:
+                      - /url: /shorts/pKa_gaZl4Ac
+                    - generic [ref=e510]: 637K views
+                  - button "More actions" [ref=e512] [cursor=pointer]
+                - generic [ref=e522]:
+                  - link [ref=e523] [cursor=pointer]:
+                    - /url: /shorts/lxPAIaTR9TI
+                  - generic [ref=e527] [cursor=pointer]:
+                    - 'link "Use headphones png for reels 💔🫶🏻🎧 #shorts #viral #png" [ref=e528]':
+                      - /url: /shorts/lxPAIaTR9TI
+                    - generic [ref=e529]: 22M views
+                  - button "More actions" [ref=e531] [cursor=pointer]
+              - generic [ref=e539]:
+                - generic [ref=e542]:
+                  - link [ref=e543] [cursor=pointer]:
+                    - /url: /shorts/yuxiNqwLbuc
+                  - generic [ref=e547] [cursor=pointer]:
+                    - 'link "10 songs in 1 minute challenge! #challenge #1minutevideo #songs" [ref=e548]':
+                      - /url: /shorts/yuxiNqwLbuc
+                    - generic [ref=e549]: 6.5M views
+                  - button "More actions" [ref=e551] [cursor=pointer]
+                - generic [ref=e561]:
+                  - link [ref=e562] [cursor=pointer]:
+                    - /url: /shorts/VBZc32Wx7j8
+                  - generic [ref=e566] [cursor=pointer]:
+                    - 'link "Making song on 4 random words. #music #hiphop" [ref=e567]':
+                      - /url: /shorts/VBZc32Wx7j8
+                    - generic [ref=e568]: 16M views
+                  - button "More actions" [ref=e570] [cursor=pointer]
+                - generic [ref=e580]:
+                  - link [ref=e581] [cursor=pointer]:
+                    - /url: /shorts/l7aShjO8LCo
+                  - generic [ref=e585] [cursor=pointer]:
+                    - 'link "Her taste in Men 🫶🤗#shorts #bollywood #bollywoodupdates #trendingshorts #bollywoodsongs" [ref=e586]':
+                      - /url: /shorts/l7aShjO8LCo
+                    - generic [ref=e587]: 9.8M views
+                  - button "More actions" [ref=e589] [cursor=pointer]
+              - generic [ref=e597]:
+                - generic [ref=e600]:
+                  - link [ref=e601] [cursor=pointer]:
+                    - /url: /shorts/eAeMpm8jfMs
+                  - generic [ref=e605] [cursor=pointer]:
+                    - link "Them Dancing in Different Songs 💁‍♀️⚔️💃(They Look So Good!! 👏🤩)" [ref=e606]:
+                      - /url: /shorts/eAeMpm8jfMs
+                    - generic [ref=e607]: 3.1M views
+                  - button "More actions" [ref=e609] [cursor=pointer]
+                - generic [ref=e619]:
+                  - link [ref=e620] [cursor=pointer]:
+                    - /url: /shorts/yu7diyyGCPU
+                  - generic [ref=e624] [cursor=pointer]:
+                    - link "TRY WITH YOUR OWN VOICE 🤍- CHAMK CHALLO SONG LYRICS🎶#song#lyrics#songlyrics#trywithyourownvoice" [ref=e625]:
+                      - /url: /shorts/yu7diyyGCPU
+                    - generic [ref=e626]: 7.7M views
+                  - button "More actions" [ref=e628] [cursor=pointer]
+                - generic [ref=e638]:
+                  - link [ref=e639] [cursor=pointer]:
+                    - /url: /shorts/My1dOrSybuE
+                  - generic [ref=e643] [cursor=pointer]:
+                    - 'link "still vibing on it! 🌚👁️👄👁️. #delusional #bts #btsshorts #innocentarmy #fyp #1million #100k #shorts" [ref=e644]':
+                      - /url: /shorts/My1dOrSybuE
+                    - generic [ref=e645]: 5.8M views
+                  - button "More actions" [ref=e647] [cursor=pointer]
+            - button "Show more" [ref=e658] [cursor=pointer]
+          - generic [ref=e668]:
+            - link [ref=e670] [cursor=pointer]:
+              - /url: /watch?v=1YdYjb7Mfeg&list=RD1YdYjb7Mfeg&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwHSBwkJmQsBhyohjO8%3D
+            - generic [ref=e672] [cursor=pointer]:
+              - generic [ref=e673]:
+                - heading [level=3] [ref=e675]:
+                  - link "𝘉𝘳𝘢𝘪𝘯𝘳𝘰𝘵 𝘴𝘰𝘯𝘨𝘴 𝘺𝘰𝘶 𝘢𝘤𝘵𝘶𝘢𝘭𝘭𝘺 𝘭𝘰𝘷𝘦 😭🧠💋⋆. 𐙚 ˚ 26 minutes" [ref=e676]:
+                    - /url: /watch?v=1YdYjb7Mfeg&list=RD1YdYjb7Mfeg&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwHSBwkJmQsBhyohjO8%3D
+                    - text: 𝘉𝘳𝘢𝘪𝘯𝘳𝘰𝘵 𝘴𝘰𝘯𝘨𝘴 𝘺𝘰𝘶 𝘢𝘤𝘵𝘶𝘢𝘭𝘭𝘺 𝘭𝘰𝘷𝘦 😭🧠💋⋆. 𐙚 ˚
+                - generic [ref=e679]:
+                  - generic [ref=e680]: 421K views
+                  - generic [ref=e681]: •2 months ago
+              - generic [ref=e682]:
+                - link "Go to channel 𝙏𝙪𝙭𝙡𝙞𝙥𝙨 🌷" [ref=e683]:
+                  - /url: /@tuxlipsss
+                - link "𝙏𝙪𝙭𝙡𝙞𝙥𝙨 🌷" [ref=e688]:
+                  - /url: /@tuxlipsss
+              - generic [ref=e689]:
+                - text: Put on your headphones for the ultimate vibe experience ✨ Because music always feels better when it's close to your soul ...
+                - tooltip "tooltip"
+              - generic [ref=e692]:
+                - generic [ref=e693]:
+                  - generic [ref=e696]: 28 chapters
+                  - button "440 Volt | Dhinka Chika | Pungi | Kaise Bani | Fugly Fugly | Zor Ka Jhatka | Tha Kar Ke | Mujhko Yaad Sataye Teri | I Don't Know What To Do | O Meri Zohrajabeen | Tinku Jiya | Tooh | Dance Like A Chammiya | Chingam Chabake | Po Po | Time Lagaye Kaiko | Main Badhiya Tu Bhi Badhiya | Switty Tera Pyar Chaida | Dil Kare Chu Che | Emotional Atyachar | Chavanprash | Gandi Baat | Maston Ka Jhund | Keeda Remix | Shaitaan Ka Saala | Chinta Ta Ta Chita Chita | Hum Pagal Nahi Hai | Bhaag DK Bose" [ref=e698]
+                - button "More" [ref=e703]
+          - generic [ref=e712] [cursor=pointer]:
+            - link [ref=e713]:
+              - /url: /watch?v=fJ9rUzIMcZQ&list=PLjVNFxTohXwrutuDJ3paBIxFcaXITeVZ3
+              - generic [ref=e714]: 332 videos
+            - generic [ref=e728]:
+              - heading "Completely Random Songs" [level=3] [ref=e729]:
+                - link "Completely Random Songs" [ref=e730]:
+                  - /url: /watch?v=fJ9rUzIMcZQ&list=PLjVNFxTohXwrutuDJ3paBIxFcaXITeVZ3
+              - generic [ref=e732]:
+                - group [ref=e733]:
+                  - link "Eliza." [ref=e736]:
+                    - /url: /@eliza11911
+                  - generic [ref=e737]: •
+                  - link "Playlist" [ref=e740]:
+                    - /url: /@eliza11911
+                - group [ref=e741]
+                - group [ref=e742]:
+                  - link "Queen – Bohemian Rhapsody (Official Video Remastered) · 6:00" [ref=e744]:
+                    - /url: /watch?v=fJ9rUzIMcZQ&list=PLjVNFxTohXwrutuDJ3paBIxFcaXITeVZ3
+                - group [ref=e745]:
+                  - link "Guns N' Roses - Paradise City (Official Music Video) · 6:49" [ref=e747]:
+                    - /url: /watch?v=Rbm6GXllBiw&list=PLjVNFxTohXwrutuDJ3paBIxFcaXITeVZ3
+                - group [ref=e748]
+                - group [ref=e749]:
+                  - link "View full playlist" [ref=e752]:
+                    - /url: /playlist?list=PLjVNFxTohXwrutuDJ3paBIxFcaXITeVZ3
+          - generic [ref=e754]:
+            - link [ref=e756] [cursor=pointer]:
+              - /url: /watch?v=MTX1-iIr2_8&list=RDMTX1-iIr2_8&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+            - generic [ref=e758] [cursor=pointer]:
+              - generic [ref=e759]:
+                - heading [level=3] [ref=e761]:
+                  - link "𝑨 𝒑𝒍𝒂𝒚𝒍𝒊𝒔𝒕 𝒕𝒐 𝒘𝒂𝒌𝒆 𝒖𝒑 𝒚𝒐𝒖𝒓 𝒊𝒏𝒏𝒆𝒓 𝒅𝒂𝒏𝒄𝒆𝒓 [𝒑𝒂𝒓𝒕-𝟏] 𖹭.ᐟ 22 minutes" [ref=e762]:
+                    - /url: /watch?v=MTX1-iIr2_8&list=RDMTX1-iIr2_8&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+                    - text: 𝑨 𝒑𝒍𝒂𝒚𝒍𝒊𝒔𝒕 𝒕𝒐 𝒘𝒂𝒌𝒆 𝒖𝒑 𝒚𝒐𝒖𝒓 𝒊𝒏𝒏𝒆𝒓 𝒅𝒂𝒏𝒄𝒆𝒓 [𝒑𝒂𝒓𝒕-𝟏] 𖹭.ᐟ
+                - generic [ref=e765]:
+                  - generic [ref=e766]: 11M views
+                  - generic [ref=e767]: •1 year ago
+              - generic [ref=e768]:
+                - link "Go to channel 𝑺𝒉𝒊𝒂𝒘𝒂𝒔𝒆⋆˚࿔" [ref=e769]:
+                  - /url: /@Shiawase10
+                - link "𝑺𝒉𝒊𝒂𝒘𝒂𝒔𝒆⋆˚࿔" [ref=e774]:
+                  - /url: /@Shiawase10
+              - generic [ref=e775]:
+                - text: "\"music credit goes to the owners\" #aesthetic#shiawase♡ . . 00:00 - Subha hone na de 01:06 - Ooh la la 01:51 - Kukkad 03:20 ..."
+                - tooltip "tooltip"
+              - generic [ref=e778]:
+                - generic [ref=e779]:
+                  - generic [ref=e782]: 22 chapters
+                  - button "Subha hone na de | Ooh la la | Kukkad | Desi boys | Aayi nahi | Aadat se majboor | Aa re pritam pyare | Fevicol se | Gale lag ja | Locha e ulfat | Pyar ki pungi | Lat lag gayi | Jadoo ki jhappi | Tinku Jiya | Munni Badnaam Hui | Anarkali disco chali | Chokra jawan re | Kajra re | Billo rani | Thumkeshwari | Dj waley babu | Daddy mummy" [ref=e784]
+                - button "More" [ref=e789]
+          - generic [ref=e798]:
+            - link [ref=e800] [cursor=pointer]:
+              - /url: /watch?v=8Na2X9Wrrtg&list=RD8Na2X9Wrrtg&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwHSBwkJmQsBhyohjO8%3D
+            - generic [ref=e802] [cursor=pointer]:
+              - generic [ref=e803]:
+                - heading [level=3] [ref=e805]:
+                  - 'link "Songs that make you dance at 3Am ❣️🎶| desi playlist| jiyaaaa|#desimusic #trending 9 minutes, 18 seconds" [ref=e806]':
+                    - /url: /watch?v=8Na2X9Wrrtg&list=RD8Na2X9Wrrtg&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwHSBwkJmQsBhyohjO8%3D
+                    - text: "Songs that make you dance at 3Am ❣️🎶| desi playlist| jiyaaaa|#desimusic #trending"
+                - generic [ref=e809]:
+                  - generic [ref=e810]: 8.3M views
+                  - generic [ref=e811]: •8 months ago
+              - generic [ref=e812]:
+                - link "Go to channel Theaestheticside" [ref=e813]:
+                  - /url: /@TheAestheticSide999
+                - link "Theaestheticside" [ref=e818]:
+                  - /url: /@TheAestheticSide999
+              - generic [ref=e819]:
+                - generic [ref=e820]: "Songs that make you dance at 3Am ❣️ | desi playlist| jiyaaaa|#desimusic #trending #aesthetic #song #bollywoodsongs Please ..."
+                - tooltip "tooltip"
+              - generic [ref=e823]:
+                - generic [ref=e824]:
+                  - generic [ref=e827]: Matching chapter
+                  - button "0:00 Song - Sweety Tera Drama" [ref=e829]
+                - button "More" [ref=e834]
+          - generic [ref=e843]:
+            - link [ref=e845] [cursor=pointer]:
+              - /url: /watch?v=QJyAH06kDmA&list=RDQJyAH06kDmA&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+            - generic [ref=e847] [cursor=pointer]:
+              - generic [ref=e848]:
+                - heading [level=3] [ref=e850]:
+                  - link "Songs That Will Make You Dance At Night 20 minutes" [ref=e851]:
+                    - /url: /watch?v=QJyAH06kDmA&list=RDQJyAH06kDmA&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+                    - text: Songs That Will Make You Dance At Night
+                - generic [ref=e854]:
+                  - generic [ref=e855]: 4.6M views
+                  - generic [ref=e856]: •2 years ago
+              - generic [ref=e857]:
+                - link "Go to channel Aesthetic Cappa" [ref=e858]:
+                  - /url: /@Aesthetic_Cappa
+                - link "Aesthetic Cappa" [ref=e863]:
+                  - /url: /@Aesthetic_Cappa
+              - generic [ref=e864]:
+                - text: Hi Cappians!! Lets Dance Togethere. Don't Have a Perfect Playlist? Haha Found It. If You Wanna Watch The Original Edit Audio, ...
+                - tooltip "tooltip"
+              - generic [ref=e867]:
+                - generic [ref=e868]:
+                  - generic [ref=e871]: 29 chapters
+                  - button "Everyone After This Video | One Dance | Dancin' | Love Me Back | Ride It | Paro | Billionera | No Lie | Copines | Kiss and Makeup | Cool For The Summer | Chammak Chalo | On The Floor | Mujeriego | Cleared | Havana | Made In Romenia | Voy Voy | Bumpy Ride | Dinero | Sad Girlz Luv Money | Gasolina | Hips Don't Lie | н+3+яд✻7lucjio0t6... | Industry Baby | Bad Boy | отключаю телефон | Slow Motion | Tell Ur Girlfriend" [ref=e873]
+                - button "More" [ref=e878]
+          - generic [ref=e887]:
+            - link [ref=e889] [cursor=pointer]:
+              - /url: /watch?v=yDv0WSgXJVg&list=RDyDv0WSgXJVg&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+            - generic [ref=e891] [cursor=pointer]:
+              - generic [ref=e892]:
+                - heading [level=3] [ref=e894]:
+                  - link "\"Senorita Zindagi Na Milegi Dobara\" Full HD Video Song | Farhan Akhtar, Hrithik Roshan, Abhay Deol 3 minutes, 52 seconds" [ref=e895]:
+                    - /url: /watch?v=yDv0WSgXJVg&list=RDyDv0WSgXJVg&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+                    - text: "\"Senorita Zindagi Na Milegi Dobara\" Full HD Video Song | Farhan Akhtar, Hrithik Roshan, Abhay Deol"
+                - generic [ref=e898]:
+                  - generic [ref=e899]: 167M views
+                  - generic [ref=e900]: •13 years ago
+              - generic [ref=e901]:
+                - link "Go to channel T-Series" [ref=e902]:
+                  - /url: /@tseries
+                - generic [ref=e903]:
+                  - link "T-Series" [ref=e907]:
+                    - /url: /@tseries
+                  - img "Verified" [ref=e912]
+              - generic [ref=e914]:
+                - text: For more awesome videos SUSBCRIBE our channel - http://goo.gl/DatSF Enjoy full HD video of "Senorita" from movie "Zindagi Na ...
+                - tooltip "tooltip"
+          - generic [ref=e916]:
+            - link [ref=e918] [cursor=pointer]:
+              - /url: /watch?v=pIvf9bOPXIw&list=RDpIvf9bOPXIw&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+            - generic [ref=e920] [cursor=pointer]:
+              - generic [ref=e921]:
+                - heading [level=3] [ref=e923]:
+                  - link "Feel Good Hindi Songs | Audio Jukebox | Upbeat Bollywood Songs 1 hour, 27 minutes" [ref=e924]:
+                    - /url: /watch?v=pIvf9bOPXIw&list=RDpIvf9bOPXIw&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+                    - text: Feel Good Hindi Songs | Audio Jukebox | Upbeat Bollywood Songs
+                - generic [ref=e927]:
+                  - generic [ref=e928]: 9.3M views
+                  - generic [ref=e929]: •1 year ago
+              - generic [ref=e930]:
+                - link "Go to channel YRF Music" [ref=e931]:
+                  - /url: /@yrfmusic
+                - generic [ref=e932]:
+                  - link "YRF Music" [ref=e936]:
+                    - /url: /@yrfmusic
+                  - img "Verified" [ref=e941]
+              - generic [ref=e943]:
+                - text: Packed with upbeat, cheerful tunes, this jukebox is your perfect companion for a mood boost! Press play, let loose, and enjoy the ...
+                - tooltip "tooltip"
+              - generic [ref=e946]:
+                - generic [ref=e947]:
+                  - generic [ref=e950]: 19 chapters
+                  - button "Haan Ke Haan | Haareya | Shayarana | Sahibaa | Jiya Re | Tarkeebein | Jaage Jaage | Jazba | Aahista Aahista | Chak De | Dilbara | Laapata | Madhubala | Hum To Aise Hain | My Dil Goes Mmmm | Nachle Ve | Ude Dil Befikre | Khol De Par | Sab Badhiya Hai" [ref=e952]
+                - button "More" [ref=e957]
+          - generic [ref=e966] [cursor=pointer]:
+            - link [ref=e967]:
+              - /url: /watch?v=0DlbQ5GvFrI&list=PLEFhGfzSIA3OrHu-K0dovaEX0TNtgn-RO
+              - generic [ref=e968]: 30 videos
+            - generic [ref=e982]:
+              - heading "Random songs" [level=3] [ref=e983]:
+                - link "Random songs" [ref=e984]:
+                  - /url: /watch?v=0DlbQ5GvFrI&list=PLEFhGfzSIA3OrHu-K0dovaEX0TNtgn-RO
+              - generic [ref=e986]:
+                - group [ref=e987]:
+                  - link "cookie girl" [ref=e990]:
+                    - /url: /@cookiegirl-ek3ld
+                  - generic [ref=e991]: •
+                  - link "Playlist" [ref=e994]:
+                    - /url: /@cookiegirl-ek3ld
+                - group [ref=e995]
+                - group [ref=e996]:
+                  - link "Sabrina Carpenter - because i liked a boy (Lyrics) · 3:17" [ref=e998]:
+                    - /url: /watch?v=0DlbQ5GvFrI&list=PLEFhGfzSIA3OrHu-K0dovaEX0TNtgn-RO
+                - group [ref=e999]:
+                  - link "Johnny Huynh - BLEED MY LOVE (Official Video) · 2:36" [ref=e1001]:
+                    - /url: /watch?v=jVM3tKI7vc8&list=PLEFhGfzSIA3OrHu-K0dovaEX0TNtgn-RO
+                - group [ref=e1002]
+                - group [ref=e1003]:
+                  - link "View full playlist" [ref=e1006]:
+                    - /url: /playlist?list=PLEFhGfzSIA3OrHu-K0dovaEX0TNtgn-RO
+          - generic [ref=e1008]:
+            - link [ref=e1010] [cursor=pointer]:
+              - /url: /watch?v=IWmmv7T-D7U&list=RDIWmmv7T-D7U&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+            - generic [ref=e1012] [cursor=pointer]:
+              - generic [ref=e1013]:
+                - heading [level=3] [ref=e1015]:
+                  - link "Best Instagram Trending Lofi Songs | Slowed+Reverb | Lofi Mashup 23 minutes" [ref=e1016]:
+                    - /url: /watch?v=IWmmv7T-D7U&list=RDIWmmv7T-D7U&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+                    - text: Best Instagram Trending Lofi Songs | Slowed+Reverb | Lofi Mashup
+                - generic [ref=e1019]:
+                  - generic [ref=e1020]: 27M views
+                  - generic [ref=e1021]: •3 years ago
+              - generic [ref=e1022]:
+                - link "Go to channel Slow Waves" [ref=e1023]:
+                  - /url: /@SlowWaves_official
+                - link "Slow Waves" [ref=e1028]:
+                  - /url: /@SlowWaves_official
+              - generic [ref=e1029]:
+                - generic [ref=e1030]: "Best Instagram Trending Lofi Songs | Slowed+Reverb | Lofi Mashup #bollywoodlofimix #mashupsong #bestmoodoffsong"
+                - tooltip "tooltip"
+          - generic [ref=e1032]:
+            - link [ref=e1034] [cursor=pointer]:
+              - /url: /watch?v=-3QNQj_jmts&list=RD-3QNQj_jmts&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+            - generic [ref=e1036] [cursor=pointer]:
+              - generic [ref=e1037]:
+                - heading [level=3] [ref=e1039]:
+                  - 'link "POV: desi songs which will make you dance at 3am! (hindi playlist)✨ #100k #fyp #foryou #recommended 9 minutes, 7 seconds" [ref=e1040]':
+                    - /url: /watch?v=-3QNQj_jmts&list=RD-3QNQj_jmts&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+                    - text: "POV: desi songs which will make you dance at 3am! (hindi playlist)✨ #100k #fyp #foryou #recommended"
+                - generic [ref=e1043]:
+                  - generic [ref=e1044]: 13M views
+                  - generic [ref=e1045]: •1 year ago
+              - generic [ref=e1046]:
+                - link "Go to channel _.𝐞𝐝𝐢𝐭𝐢𝐧𝐠._.𝐞𝐫𝐚._" [ref=e1047]:
+                  - /url: /@editing._.era._.029
+                - link "_.𝐞𝐝𝐢𝐭𝐢𝐧𝐠._.𝐞𝐫𝐚._" [ref=e1052]:
+                  - /url: /@editing._.era._.029
+              - generic [ref=e1053]:
+                - text: "trending #shorts #viral #video #aesthetic #edit #shortsviral #popular #subscribe #fypシ゚ #subscribers #1million #1k #like ..."
+                - tooltip "tooltip"
+          - generic [ref=e1055]:
+            - link [ref=e1057] [cursor=pointer]:
+              - /url: /watch?v=hN4f9POjgEk&list=RDhN4f9POjgEk&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+            - generic [ref=e1059] [cursor=pointer]:
+              - generic [ref=e1060]:
+                - heading [level=3] [ref=e1062]:
+                  - link "24 Hit songs Of Ayushmann Khurrana - Nazm Nazm, Naina Da Kya Kasoor, Dil Ka Telephone..... 1 hour, 13 minutes" [ref=e1063]:
+                    - /url: /watch?v=hN4f9POjgEk&list=RDhN4f9POjgEk&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+                    - text: 24 Hit songs Of Ayushmann Khurrana - Nazm Nazm, Naina Da Kya Kasoor, Dil Ka Telephone.....
+                - generic [ref=e1066]:
+                  - generic [ref=e1067]: 9.8M views
+                  - generic [ref=e1068]: •5 years ago
+              - generic [ref=e1069]:
+                - link "Go to channel Zee Music Company" [ref=e1070]:
+                  - /url: /@zeemusiccompany
+                - generic [ref=e1071]:
+                  - link "Zee Music Company" [ref=e1075]:
+                    - /url: /@zeemusiccompany
+                  - img "Verified" [ref=e1080]
+              - generic [ref=e1082]:
+                - text: "SUBSCRIBE to Zee Music Company - https://bit.ly/2yPcBkS Tracklist: 0:00:00 - Nazm Nazm 0:02:17 - Naina Da Kya Kasoor ..."
+                - tooltip "tooltip"
+              - generic [ref=e1085]:
+                - generic [ref=e1086]:
+                  - generic [ref=e1089]: 24 chapters
+                  - button "Nazm Nazm | Naina Da Kya Kasoor | Dil Ka Telephone | Sweety Tera Drama | Madari Ka Bandar | Radhe Radhe | Twist Kamariya | AndhaDhun Title Track | Ik Mulaqaat | Aap Se Milkar | Naina Yeh | Badass Babuaa | Woh Ladki | Bairaagi | Intezari | Gat Gat | Shuru Karein Kya | Ik Mulaqaat Unplugged | Laila Laila | Intezari Unplugged | Do Din Ka Ye Mela | Oh Bhai Re | Kanjoos | Jootam Phenk" [ref=e1091]
+                - button "More" [ref=e1096]
+          - generic [ref=e1105]:
+            - link [ref=e1107] [cursor=pointer]:
+              - /url: /watch?v=csx88cqa3y4&list=RDcsx88cqa3y4&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+            - generic [ref=e1109] [cursor=pointer]:
+              - generic [ref=e1110]:
+                - heading [level=3] [ref=e1112]:
+                  - link "Unplugged Hindi Songs 2022 23 minutes" [ref=e1113]:
+                    - /url: /watch?v=csx88cqa3y4&list=RDcsx88cqa3y4&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+                    - text: Unplugged Hindi Songs 2022
+                - generic [ref=e1116]:
+                  - generic [ref=e1117]: 40M views
+                  - generic [ref=e1118]: •7 years ago
+              - generic [ref=e1119]:
+                - link "Go to channel BBCD" [ref=e1120]:
+                  - /url: /@TheLonare
+                - link "BBCD" [ref=e1125]:
+                  - /url: /@TheLonare
+              - generic [ref=e1126]:
+                - generic [ref=e1127]: Unplugged Hindi Songs 2022. If you want to sell event tickets online with no fee then head to https://www.bylde.com.
+                - tooltip "tooltip"
+          - generic [ref=e1129]:
+            - link [ref=e1131] [cursor=pointer]:
+              - /url: /watch?v=cYatYLzx9hA&list=RDcYatYLzx9hA&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+            - generic [ref=e1133] [cursor=pointer]:
+              - generic [ref=e1134]:
+                - heading [level=3] [ref=e1136]:
+                  - link "Top Favourites on YouTube - Volume 1 | Audio Jukebox | Popular Bollywood Songs 1 hour, 39 minutes" [ref=e1137]:
+                    - /url: /watch?v=cYatYLzx9hA&list=RDcYatYLzx9hA&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+                    - text: Top Favourites on YouTube - Volume 1 | Audio Jukebox | Popular Bollywood Songs
+                - generic [ref=e1140]:
+                  - generic [ref=e1141]: 7.3M views
+                  - generic [ref=e1142]: •1 year ago
+              - generic [ref=e1143]:
+                - link "Go to channel YRF Music" [ref=e1144]:
+                  - /url: /@yrfmusic
+                - generic [ref=e1145]:
+                  - link "YRF Music" [ref=e1149]:
+                    - /url: /@yrfmusic
+                  - img "Verified" [ref=e1154]
+              - generic [ref=e1156]:
+                - text: Welcome to the Audio Jukebox featuring the biggest hits and viral sensations that have taken YouTube by storm. Sit back, relax ...
+                - tooltip "tooltip"
+              - generic [ref=e1159]:
+                - generic [ref=e1160]:
+                  - generic [ref=e1163]: 20 chapters
+                  - button "Tujh Mein Rab Dikhta Hai | Dil Diyan Gallan | Chand Sifarish | Humko Humise Chura Lo | Jag Ghoomeya | Dard Karaara | Main Yahaan Hoon | Aankhein Khuli | Saiyaara | Dil To Pagal Hai - Title Track | Ghungroo | Besharam Rang | Nashe Si Chadh Gayi | Swag Se Swagat | Jhoome Jo Pathaan | Sharara | Jai Jai Shivshankar | Kajra Re | Kamli | Mere Yaar Ki Shaadi Hai - Title Track" [ref=e1165]
+                - button "More" [ref=e1170]
+          - generic [ref=e1179]:
+            - link [ref=e1181] [cursor=pointer]:
+              - /url: /watch?v=FqwsbV5hItg&list=RDFqwsbV5hItg&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+            - generic [ref=e1183] [cursor=pointer]:
+              - generic [ref=e1184]:
+                - heading [level=3] [ref=e1186]:
+                  - link "Songs that get stuck in your head 39 minutes" [ref=e1187]:
+                    - /url: /watch?v=FqwsbV5hItg&list=RDFqwsbV5hItg&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+                    - text: Songs that get stuck in your head
+                - generic [ref=e1190]:
+                  - generic [ref=e1191]: 3.6M views
+                  - generic [ref=e1192]: •1 year ago
+              - generic [ref=e1193]:
+                - link "Go to channel Shake Music" [ref=e1194]:
+                  - /url: /@ShakeMusic
+                - generic [ref=e1195]:
+                  - link "Shake Music" [ref=e1199]:
+                    - /url: /@ShakeMusic
+                  - img "Verified" [ref=e1204]
+              - generic [ref=e1206]:
+                - generic [ref=e1207]: Songs that get stuck in your head ______ ⚑ Edit & music curation provided by us. The re-upload of our videos is not allowed.
+                - tooltip "tooltip"
+              - generic [ref=e1210]:
+                - generic [ref=e1211]:
+                  - generic [ref=e1214]: 16 chapters
+                  - button "Alban Chela, Veronica Bravo - The Motto | Besomage, Lookin, PACANI - I Ain't Worried | EQRIC, PHARAØH, Whoopa - New Rules | HALUNA, Bersage, Yohan Gerber - Unfaithful | Nito-Onna - Daddy DJ | Besomage, Reaktive - Lost On You | Ben Plum, Stayer, Dream Chaos - Sunroof | Dream Chaos, Ben Plum - Where Are You Now | Whoopa - I Need Your Love | Veronica Bravo, Cour, PACANI - Middle Of The Night | ISAEV, PACANI, Jessica Chertock - Lily | PACANI, Ben Plum - As Long As You Love Me | Coopex, HUX, Poylow - I Don't Wanna Live Forever | Goodscandal, Veronica Bravo, Slap Mage - Flowers | Reaktive, HALUNA - California Dreamin' | Nito-Onna, Yohan Gerber, HORT3N - Natural" [ref=e1216]
+                - button "More" [ref=e1221]
+          - generic [ref=e1230]:
+            - link [ref=e1232] [cursor=pointer]:
+              - /url: /watch?v=T5rmd-vKQeM&list=RDT5rmd-vKQeM&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+            - generic [ref=e1234] [cursor=pointer]:
+              - generic [ref=e1235]:
+                - heading [level=3] [ref=e1237]:
+                  - 'link "#Flashup By Knox Artiste | #14SONGSON1BEAT 4 minutes, 9 seconds" [ref=e1238]':
+                    - /url: /watch?v=T5rmd-vKQeM&list=RDT5rmd-vKQeM&start_radio=1&pp=ygULcmFuZG9tIHNvbmegBwE%3D
+                    - text: "#Flashup By Knox Artiste | #14SONGSON1BEAT"
+                - generic [ref=e1241]:
+                  - generic [ref=e1242]: 389M views
+                  - generic [ref=e1243]: •8 years ago
+              - generic [ref=e1244]:
+                - link "Go to channel Knox Artiste" [ref=e1245]:
+                  - /url: /channel/UCW67rDTapVxGZ69Ja9i6Ifw
+                - generic [ref=e1246]:
+                  - link "Knox Artiste" [ref=e1250]:
+                    - /url: /channel/UCW67rDTapVxGZ69Ja9i6Ifw
+                  - img "Official Artist Channel" [ref=e1255]
+              - generic [ref=e1257]:
+                - generic [ref=e1258]: Check out the brand new video where Knox Artiste sings 14 songs by 14 artists in 5 different languages on 1 beat! Flashup by ...
+                - tooltip "tooltip"
+              - generic [ref=e1261]:
+                - generic [ref=e1262]:
+                  - generic [ref=e1265]: 19 chapters
+                  - button "Intro | Knox Original Rap | DJ Waley Babu - Badshah Feat. Aastha Gill | Knox Original Rap | Move Your Lakk - Diljit Dosanjh | Main Tera Boyfriend Tu Meri Girlfriend - J Star / Arijit Singh | Tere Wargi Nai Ae - Raftaar | Roop Tera Mastana - Kishore Kumar | Dus Bahane - KK, Shaan | Swalla - Jason Derulo | Humma Humma - A.R. Rahman | Despacito - Luis Fonsi | Move Your Lakk - Badshah | Mercy - Badshah | Nashe Se Chadh Gayi - Arijit Singh | Knox Original Rap | Gur Nalon Ishq Mitha - Malkit Singh | Mi Gente - J Balvin & Willy William | Outro" [ref=e1267]
+                - button "More" [ref=e1272]

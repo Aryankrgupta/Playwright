@@ -1,0 +1,3 @@
+[    2388ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://bookface-static.ycombinator.com/vite/assets/sentry-C1FKN-GV.js:13
+[    8463ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://bookface-static.ycombinator.com/vite/assets/sentry-C1FKN-GV.js:13
+[   11676ms] [LOG] [FloatingWidget] continue legacy widget flow @ https://bookface-static.ycombinator.com/vite/assets/sentry-C1FKN-GV.js:13

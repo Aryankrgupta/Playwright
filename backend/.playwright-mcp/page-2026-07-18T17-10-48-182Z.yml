@@ -1,0 +1,61 @@
+- generic [active] [ref=f4e1]:
+  - complementary [ref=f4e2]:
+    - button "Close menu" [ref=f4e3] [cursor=pointer]: ×
+    - link "All Items" [ref=f4e4] [cursor=pointer]:
+      - /url: ./inventory.html
+    - link "About" [ref=f4e5] [cursor=pointer]:
+      - /url: https://app.thetestingacademy.com/
+    - link "Logout" [ref=f4e6] [cursor=pointer]:
+      - /url: "#"
+    - link "Reset App State" [ref=f4e7] [cursor=pointer]:
+      - /url: "#"
+  - banner [ref=f4e8]:
+    - button "Open menu" [ref=f4e9] [cursor=pointer]
+    - generic [ref=f4e12]: TTACart
+    - link "Shopping cart" [ref=f4e13] [cursor=pointer]:
+      - /url: ./cart.html
+      - generic [ref=f4e18]: "1"
+  - generic [ref=f4e19]: "Checkout: Overview"
+  - main [ref=f4e21]:
+    - generic [ref=f4e23]:
+      - generic [ref=f4e24]:
+        - generic [ref=f4e25]: QTY
+        - generic [ref=f4e26]: Description
+      - generic [ref=f4e27]:
+        - generic [ref=f4e28]: "1"
+        - generic [ref=f4e30]:
+          - generic [ref=f4e31]: Test.allTheThings() T-Shirt (Red)
+          - generic [ref=f4e32]: This classic TTA t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+          - generic [ref=f4e33]: $15.99
+      - generic [ref=f4e34]:
+        - generic [ref=f4e35]:
+          - heading "Payment Information:" [level=4] [ref=f4e36]
+          - generic [ref=f4e37]: "TTACard #31337"
+        - generic [ref=f4e38]:
+          - heading "Shipping Information:" [level=4] [ref=f4e39]
+          - generic [ref=f4e40]: Free TTA Express Delivery!
+        - generic [ref=f4e41]:
+          - heading "Price Total" [level=4] [ref=f4e42]
+          - generic [ref=f4e43]:
+            - generic [ref=f4e44]: "Item total: $15.99"
+            - generic [ref=f4e45]: "Tax: $1.28"
+            - generic [ref=f4e46]: "Total: $17.27"
+      - generic [ref=f4e47]:
+        - link "Cancel" [ref=f4e48] [cursor=pointer]:
+          - /url: ./cart.html
+        - button "Finish" [ref=f4e51] [cursor=pointer]
+  - contentinfo [ref=f4e53]:
+    - generic [ref=f4e54]:
+      - link "Twitter" [ref=f4e55] [cursor=pointer]:
+        - /url: https://twitter.com/TheTestingAcad
+      - link "Facebook" [ref=f4e58] [cursor=pointer]:
+        - /url: https://facebook.com/
+      - link "LinkedIn" [ref=f4e61] [cursor=pointer]:
+        - /url: https://linkedin.com/
+    - generic [ref=f4e64]:
+      - text: (c) 2026 TTACart - The Testing Academy. All Rights Reserved.
+      - link "Terms of Service" [ref=f4e65] [cursor=pointer]:
+        - /url: https://app.thetestingacademy.com/
+      - text: "|"
+      - link "Privacy Policy" [ref=f4e66] [cursor=pointer]:
+        - /url: https://app.thetestingacademy.com/

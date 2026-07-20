@@ -1,0 +1,4 @@
+[    1672ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://m.media-amazon.com/images/G/01/IMDb/cm9ib3Rv._TTW_.woff2 @ https://www.imdb.com/chart/top/:654
+[    1672ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://m.media-amazon.com/images/G/01/IMDb/cm9ib3RvTWVk._TTW_.woff2 @ https://www.imdb.com/chart/top/:654
+[    1672ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://m.media-amazon.com/images/G/01/IMDb/cm9ib3RvQm9sZA._TTW_.woff2 @ https://www.imdb.com/chart/top/:654
+[    1759ms] [ERROR] Error: <path> attribute d: Unexpected end of attribute. Expected number, "…zM8.65 3.35L5.86". @ https://www.imdb.com/chart/top/:1273

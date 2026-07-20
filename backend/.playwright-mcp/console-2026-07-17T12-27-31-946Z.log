@@ -1,0 +1,4 @@
+[     977ms] [INFO] [OPTIMIZELY] - INFO 2026-07-17T12:27:32.923Z ProjectConfigManager: Skipping JSON schema validation. @ https://static.files.bbci.co.uk/bbcdotcom/web/20260714-093448-684066af18-web-3.14.0-3/_next/static/chunks/023h3h0opw6ub.js:0
+[     978ms] [INFO] [OPTIMIZELY] - INFO 2026-07-17T12:27:32.924Z Optimizely: Updated Optimizely config to revision 18 (project id 28346550223) @ https://static.files.bbci.co.uk/bbcdotcom/web/20260714-093448-684066af18-web-3.14.0-3/_next/static/chunks/023h3h0opw6ub.js:0
+[    1763ms] [LOG] Messaging without detection successfully executed. @ https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js:0
+[    1784ms] [LOG] interaction complete @ https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js:0

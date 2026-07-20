@@ -1,0 +1,499 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - navigation [ref=f1e3]:
+      - generic "Open navigation drawer" [ref=f1e5] [cursor=pointer]
+      - link "Home" [ref=f1e8] [cursor=pointer]:
+        - /url: /?ref_=hm_nv_home
+      - search [ref=f1e18]:
+        - generic "All" [ref=f1e770] [cursor=pointer]
+        - generic [ref=f1e26]:
+          - combobox [expanded] [ref=f1e27]:
+            - textbox "Search IMDb" [active] [ref=f1e28]
+            - listbox [ref=f1e774]:
+              - generic [ref=f1e776]:
+                - heading [level=3] [ref=f1e777]: Popular searches
+                - listbox [ref=f1e778]:
+                  - option [ref=f1e779]:
+                    - link "the odyssey" [ref=f1e780] [cursor=pointer]:
+                      - /url: /title/tt33764258/?ref_=nv_srb_trend_title_0
+                  - option [ref=f1e785]:
+                    - link "obsession" [ref=f1e786] [cursor=pointer]:
+                      - /url: /title/tt37287335/?ref_=nv_srb_trend_title_1
+                  - option [ref=f1e791]:
+                    - link "the hawk" [ref=f1e792] [cursor=pointer]:
+                      - /url: /title/tt27550719/?ref_=nv_srb_trend_title_2
+                  - option [ref=f1e797]:
+                    - link "ride or die" [ref=f1e798] [cursor=pointer]:
+                      - /url: /title/tt30494226/?ref_=nv_srb_trend_title_3
+                  - option [ref=f1e803]:
+                    - link "the five star weekend" [ref=f1e804] [cursor=pointer]:
+                      - /url: /title/tt35587659/?ref_=nv_srb_trend_title_4
+                  - option [ref=f1e809]:
+                    - link "the sheep detectives" [ref=f1e810] [cursor=pointer]:
+                      - /url: /title/tt32565993/?ref_=nv_srb_trend_title_5
+                  - option [ref=f1e815]:
+                    - link "little house on the prairie" [ref=f1e816] [cursor=pointer]:
+                      - /url: /title/tt2431250/?ref_=nv_srb_trend_title_6
+                  - option [ref=f1e821]:
+                    - link "project hail mary" [ref=f1e822] [cursor=pointer]:
+                      - /url: /title/tt12042730/?ref_=nv_srb_trend_title_7
+          - status [ref=f1e29]: 8 suggestions available
+        - button "Submit search" [ref=f1e30] [cursor=pointer]
+      - link "Sign in" [ref=f1e35] [cursor=pointer]:
+        - /url: /registration/signin/?u=%2F&ref_=hm_nv_generic_lgin
+      - link "Use app" [ref=f1e50] [cursor=pointer]:
+        - /url: https://slyb.app.link/vtz1COZnXAb?$canonical_url=https://www.imdb.com/
+      - status
+    - status
+    - main [ref=f1e52]:
+      - iframe [ref=f1e53]:
+        
+      - complementary "Sponsored Content" [ref=f1e827]:
+        - iframe [ref=f1e829]:
+          - link [ref=f3e2] [cursor=pointer]:
+            - /url: https://aax-events-cell02-cf.eu-south.ono.axp.amazon-adsystem.com/x/c/RJ9VVOa2tchzfPqgYRUGHyoAAAGfej5gzQoAAADKAUFvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDSey_k/clv1c_ek-gwfcyHeDCDAlEk0EOcivQZ3sfKzcwYmXKiN5G9jG7FRY1pfqnB-v0aP3VHB4OgtE3PH7yDhZiv2wUQNH_QaK8Qk3W4Kb0cXdZ5zFhO8ZrgwnjJbRHtL94k112pfRomC2O1MA_FsL7fgDw9Pydj8a0BpkfFlP874e8ZH4-ClZQ0R-09aNy7oYc8tYvMhCVrxTuW634ipZ0GB1v0IhlJ_H8F8eZzD-OnCDNt70hsIEp1tA_f1lYOnFzwrFRNXbNr5BLP6fQqBYwD1i9TZGHUglAa92b9YZhmUm-kBbu8XcZ2b-U6sJ-t9UgSiP9QYiMerHKEnjbiZLYbS3brCsAM-rp_V9Df4NykhdbkLtqalFz9UKzcmLF5lxcH5MEaOJHoOiaoCfWltdcDNqnO1YCk9UStx-46FZSxdXAhX89BURWzSyCerxhbs_7ZPAafzVxp5qEuyiRQZ7kc0sn1ZYypb4_9hD5MjBcduxw4vGZquzRazirB9Dr1LSGR3KMlMRmZPXaV9ezLkfYiI_Wd8OBWKFSoMNjlEtaTOSRyK54kzFfwZEoBICoB49X7mhyZG0BQBD22e4TYFbe39alheKDbQP5KOXPsZQd2PBsQZGhNh2Vsyi8QY47GnlU9BP0JAaqe9G1_tarf7FKsP8ECJhZ2ZcZXI8UnjN7Rmw2huh9zeunIbaIDfiZNbTh62PnVnS9sfX45g1HHRmeqGBOK6Xx8QCzPYBIV48Mc440EzfFJ7yTx6pIJOOBKNrc/https://primevideo.com/detail/amzn1.dv.gti.9163bdbe-5540-44a9-9915-5364be5490b0/?aref=KGE5oB8NBm&ref_=dvm_crs_imd_in_s_gramchikits2
+            - img "Sponsored Content" [ref=f3e3]
+        - button "Get information, provide feedback or report sponsored ad" [ref=f1e830] [cursor=pointer]: SPONSORED
+      - generic [ref=f1e62]:
+        - generic [ref=f1e65]:
+          - figure [ref=f1e67]:
+            - generic [ref=f1e68]:
+              - group [ref=f1e69]:
+                - img "I Play Rocky" [ref=f1e71]
+                - button "Add to Watchlist" [ref=f1e72] [cursor=pointer]
+                - generic "I Play Rocky" [ref=f1e77]
+              - group [ref=f1e79] [cursor=pointer]:
+                - img "'I Play Rocky'" [ref=f1e81]
+                - generic "'I Play Rocky'" [ref=f1e82]:
+                  - generic [ref=f1e89]:
+                    - generic [ref=f1e90]:
+                      - generic [ref=f1e91]: "'I Play Rocky'"
+                      - generic [ref=f1e92]: 2:50
+                    - generic [ref=f1e93]: Watch the Trailer
+                    - generic [ref=f1e831]:
+                      - img "1162 people liked this video" [ref=f1e832]
+                      - text: 1.2K
+                      - generic [ref=f1e834]:
+                        - img "There are 373 reactions to this video from other people, primarily Love it and Appreciate emojis" [ref=f1e835]
+                        - text: "373"
+          - figure [ref=f1e96]:
+            - generic [ref=f1e97]:
+              - group [ref=f1e98]:
+                - img "Digger" [ref=f1e100]
+                - button "Add to Watchlist" [ref=f1e101] [cursor=pointer]
+                - generic "Digger" [ref=f1e106]
+              - group [ref=f1e108] [cursor=pointer]:
+                - img "Tom Cruise Stars as 'Digger'" [ref=f1e110]
+                - generic "Tom Cruise Stars as 'Digger'" [ref=f1e111]:
+                  - generic [ref=f1e118]:
+                    - generic [ref=f1e119]:
+                      - generic [ref=f1e120]: Tom Cruise Stars as 'Digger'
+                      - generic [ref=f1e121]: 2:36
+                    - generic [ref=f1e122]: Watch the Trailer
+                    - generic [ref=f1e908]:
+                      - img "796 people liked this video" [ref=f1e909]
+                      - text: "796"
+                      - generic [ref=f1e911]:
+                        - img "There are 347 reactions to this video from other people, primarily Love it and Appreciate emojis" [ref=f1e912]
+                        - text: "347"
+          - figure [ref=f1e125]:
+            - generic [ref=f1e126]:
+              - group [ref=f1e127]:
+                - img "Christopher Nolan and 'The Odyssey' Cast Break Down Their 'Crazy' Shot Sequences" [ref=f1e985]
+                - button "Add to Watchlist" [ref=f1e129] [cursor=pointer]
+                - generic "Christopher Nolan and 'The Odyssey' Cast Break Down Their 'Crazy' Shot Sequences" [ref=f1e134]
+              - group [ref=f1e136] [cursor=pointer]:
+                - img "Get Into 'The Odyssey' Craziness With Christopher Nolan and the Cast" [ref=f1e986]
+                - generic "Get Into 'The Odyssey' Craziness With Christopher Nolan and the Cast" [ref=f1e138]:
+                  - generic [ref=f1e145]:
+                    - generic [ref=f1e146]:
+                      - generic [ref=f1e147]: Get Into 'The Odyssey' Craziness With Christopher Nolan and the Cast
+                      - generic [ref=f1e148]: 9:23
+                    - generic [ref=f1e149]: Watch Our Interview
+                    - generic [ref=f1e987]:
+                      - img "208 people liked this video" [ref=f1e988]
+                      - text: "208"
+                      - generic [ref=f1e990]:
+                        - img "There are 106 reactions to this video from other people, primarily Love it and Funny emojis" [ref=f1e991]
+                        - text: "106"
+          - figure [ref=f1e152]:
+            - generic [ref=f1e153]:
+              - group [ref=f1e154]:
+                - img "The Runner" [ref=f1e1061]
+                - button "Add to Watchlist" [ref=f1e156] [cursor=pointer]
+                - generic "The Runner" [ref=f1e161]
+              - group [ref=f1e163] [cursor=pointer]:
+                - img "Gal Gadot is 'The Runner'" [ref=f1e1062]
+                - generic "Gal Gadot is 'The Runner'" [ref=f1e165]:
+                  - generic [ref=f1e172]:
+                    - generic [ref=f1e173]:
+                      - generic [ref=f1e174]: Gal Gadot is 'The Runner'
+                      - generic [ref=f1e175]: 1:47
+                    - generic [ref=f1e176]: Watch the Trailer
+                    - generic [ref=f1e1063]:
+                      - img "80 people liked this video" [ref=f1e1064]
+                      - text: "80"
+                      - generic [ref=f1e1066]:
+                        - img "There are 41 reactions to this video from other people, primarily Love it and Funny emojis" [ref=f1e1067]
+                        - text: "41"
+          - figure [ref=f1e179]:
+            - generic [ref=f1e180]:
+              - group [ref=f1e181]:
+                - generic [ref=f1e182]:
+                  - img "Idiots"
+                - button "Add to Watchlist" [ref=f1e183] [cursor=pointer]
+                - generic "Idiots" [ref=f1e188]
+              - group [ref=f1e190] [cursor=pointer]:
+                - generic [ref=f1e191]:
+                  - img "'Idiots'"
+                - generic "'Idiots'" [ref=f1e192]:
+                  - generic [ref=f1e199]:
+                    - generic [ref=f1e200]:
+                      - generic [ref=f1e201]: "'Idiots'"
+                      - generic [ref=f1e202]: 1:39
+                    - generic [ref=f1e203]: Watch the Trailer
+                    - generic [ref=f1e1137]:
+                      - img "84 people liked this video" [ref=f1e1138]
+                      - text: "84"
+                      - generic [ref=f1e1140]:
+                        - img "There are 28 reactions to this video from other people, primarily Love it and Excited emojis" [ref=f1e1141]
+                        - text: "28"
+          - figure [ref=f1e206]:
+            - generic [ref=f1e207]:
+              - group [ref=f1e208]:
+                - generic [ref=f1e209]:
+                  - img "The Whisper Man"
+                - button "Add to Watchlist" [ref=f1e210] [cursor=pointer]
+                - generic "The Whisper Man" [ref=f1e215]
+              - group [ref=f1e217] [cursor=pointer]:
+                - generic [ref=f1e218]:
+                  - img "'The Whisper Man'"
+                - generic "'The Whisper Man'" [ref=f1e219]:
+                  - generic [ref=f1e226]:
+                    - generic [ref=f1e227]:
+                      - generic [ref=f1e228]: "'The Whisper Man'"
+                      - generic [ref=f1e229]: 2:29
+                    - generic [ref=f1e230]: Coming to Netflix Aug. 28
+                    - generic [ref=f1e1212]:
+                      - img "262 people liked this video" [ref=f1e1213]
+                      - text: "262"
+                      - generic [ref=f1e1215]:
+                        - img "There are 54 reactions to this video from other people, primarily Love it and Excited emojis" [ref=f1e1216]
+                        - text: "54"
+          - figure [ref=f1e233]:
+            - generic [ref=f1e234]:
+              - group [ref=f1e235]:
+                - generic [ref=f1e236]:
+                  - 'img "Dune: Part Three"'
+                - button "Add to Watchlist" [ref=f1e237] [cursor=pointer]
+                - 'generic "Dune: Part Three" [ref=f1e242]'
+              - group [ref=f1e244] [cursor=pointer]:
+                - generic [ref=f1e245]:
+                  - 'img "''Dune: Part Three''"'
+                - 'generic "''Dune: Part Three''" [ref=f1e246]':
+                  - generic [ref=f1e253]:
+                    - generic [ref=f1e254]:
+                      - generic [ref=f1e255]: "'Dune: Part Three'"
+                      - generic [ref=f1e256]: 2:47
+                    - generic [ref=f1e257]: Watch the Trailer
+                    - generic [ref=f1e1287]:
+                      - img "1065 people liked this video" [ref=f1e1288]
+                      - text: 1.1K
+                      - generic [ref=f1e1290]:
+                        - img "There are 592 reactions to this video from other people, primarily Love it and Excited emojis" [ref=f1e1291]
+                        - text: "592"
+          - figure [ref=f1e260]:
+            - generic [ref=f1e261]:
+              - group [ref=f1e262]:
+                - generic [ref=f1e263]:
+                  - img "Mayday"
+                - button "Add to Watchlist" [ref=f1e264] [cursor=pointer]
+                - generic "Mayday" [ref=f1e269]
+              - group [ref=f1e271] [cursor=pointer]:
+                - generic [ref=f1e272]:
+                  - img "Kenneth Branagh & Ryan Reynolds Star in 'Mayday'"
+                - generic "Kenneth Branagh & Ryan Reynolds Star in 'Mayday'" [ref=f1e273]:
+                  - generic [ref=f1e280]:
+                    - generic [ref=f1e281]:
+                      - generic [ref=f1e282]: Kenneth Branagh & Ryan Reynolds Star in 'Mayday'
+                      - generic [ref=f1e283]: 2:42
+                    - generic [ref=f1e284]: Watch the Trailer
+                    - generic [ref=f1e1362]:
+                      - img "191 people liked this video" [ref=f1e1363]
+                      - text: "191"
+                      - generic [ref=f1e1365]:
+                        - img "There are 70 reactions to this video from other people, primarily Love it and Funny emojis" [ref=f1e1366]
+                        - text: "70"
+          - figure [ref=f1e287]:
+            - generic [ref=f1e288]:
+              - group [ref=f1e289]:
+                - generic [ref=f1e290]:
+                  - img "The Dog Stars"
+                - button "Add to Watchlist" [ref=f1e291] [cursor=pointer]
+                - generic "The Dog Stars" [ref=f1e296]
+              - group [ref=f1e298] [cursor=pointer]:
+                - generic [ref=f1e299]:
+                  - img "'The Dog Stars'"
+                - generic "'The Dog Stars'" [ref=f1e300]:
+                  - generic [ref=f1e307]:
+                    - generic [ref=f1e308]:
+                      - generic [ref=f1e309]: "'The Dog Stars'"
+                      - generic [ref=f1e310]: 2:06
+                    - generic [ref=f1e311]: Watch the Trailer
+                    - generic [ref=f1e1436]:
+                      - img "123 people liked this video" [ref=f1e1437]
+                      - text: "123"
+                      - generic [ref=f1e1439]:
+                        - img "There are 58 reactions to this video from other people, primarily Love it and Appreciate emojis" [ref=f1e1440]
+                        - text: "58"
+          - figure [ref=f1e314]:
+            - generic [ref=f1e315]:
+              - group [ref=f1e316]:
+                - generic [ref=f1e317]:
+                  - img "The Shards"
+                - button "Add to Watchlist" [ref=f1e318] [cursor=pointer]
+                - generic "The Shards" [ref=f1e323]
+              - group [ref=f1e325] [cursor=pointer]:
+                - generic [ref=f1e326]:
+                  - img "\"The Shards\""
+                - generic "\"The Shards\"" [ref=f1e327]:
+                  - generic [ref=f1e334]:
+                    - generic [ref=f1e335]:
+                      - generic [ref=f1e336]: "\"The Shards\""
+                      - generic [ref=f1e337]: 1:59
+                    - generic [ref=f1e338]: The Latest Ryan Murphy Series
+                    - generic [ref=f1e1513]:
+                      - img "73 people liked this video" [ref=f1e1514]
+                      - text: "73"
+                      - generic [ref=f1e1516]:
+                        - img "There are 40 reactions to this video from other people, primarily Love it and Appreciate emojis" [ref=f1e1517]
+                        - text: "40"
+        - link "Browse trailers" [ref=f1e344] [cursor=pointer]:
+          - /url: /trailers/?ref_=hm_hp_sm
+      - generic [ref=f1e350]:
+        - link "Emmys Nominees" [ref=f1e351] [cursor=pointer]:
+          - /url: /emmys/event/ev0000223/2026/1/?ref_=hm_chip_hm_p1_csegemy
+        - link "Summer Watch Guide" [ref=f1e355] [cursor=pointer]:
+          - /url: /imdbpicks/summer-watch-guide/?ref_=hm_chip_hm_p2_csegswg
+        - link "Most Anticipated in July" [ref=f1e359] [cursor=pointer]:
+          - /url: /most-anticipated/this-month/?ref_=hm_chip_hm_p3_csegmatm
+        - link "IMDb Labs" [ref=f1e363] [cursor=pointer]:
+          - /url: /labs/?ref_=hm_chip_hm_p4_cseglabs
+      - generic [ref=f1e367]:
+        - generic [ref=f1e368]:
+          - heading "Featured today" [level=3] [ref=f1e371]
+          - group [ref=f1e373]:
+            - generic [ref=f1e374]:
+              - group [ref=f1e375]:
+                - group [ref=f1e376]:
+                  - img "Poster" [ref=f1e378]
+                  - link "List" [ref=f1e379] [cursor=pointer]:
+                    - /url: /list/ls4178908507/?ref_=hm_edcft_anticipated_india_second_half_2026_geo_1_i
+                - generic [ref=f1e389]:
+                  - 'link "Most Anticipated Indian Movies: July-December 2026" [ref=f1e390] [cursor=pointer]':
+                    - /url: /list/ls4178908507/?ref_=hm_edcft_anticipated_india_second_half_2026_geo_1_t
+                  - link "See the list" [ref=f1e393] [cursor=pointer]:
+                    - /url: /list/ls4178908507/?ref_=hm_edcft_c_anticipated_india_second_half_2026_geo_1_cta
+              - group [ref=f1e394]:
+                - group [ref=f1e395]:
+                  - img "Editorial Image" [ref=f1e397]
+                  - link "List" [ref=f1e398] [cursor=pointer]:
+                    - /url: /most-anticipated/this-month/?ref_=hm_edcft_ft_csegmatm_elp_1_i
+                - generic [ref=f1e408]:
+                  - link "'The Odyssey' and More to Watch in July" [ref=f1e409] [cursor=pointer]:
+                    - /url: /most-anticipated/this-month/?ref_=hm_edcft_ft_csegmatm_elp_1_t
+                  - link "Add these to your Watchlist" [ref=f1e412] [cursor=pointer]:
+                    - /url: /most-anticipated/this-month/?ref_=hm_edcft_c_ft_csegmatm_elp_1_cta
+              - group [ref=f1e413]:
+                - group [ref=f1e414]:
+                  - img "Production art" [ref=f1e416]
+                  - link "List" [ref=f1e417] [cursor=pointer]:
+                    - /url: /list/ls4178218774/?ref_=hm_edcft_ft_july26tv_2_i&sort=popularity%2Casc
+                - generic [ref=f1e427]:
+                  - 'link "July TV/Streaming Calendar: \"The Hawk\" and More" [ref=f1e428] [cursor=pointer]':
+                    - /url: /list/ls4178218774/?ref_=hm_edcft_ft_july26tv_2_t&sort=popularity%2Casc
+                  - link "See the list" [ref=f1e431] [cursor=pointer]:
+                    - /url: /list/ls4178218774/?ref_=hm_edcft_c_ft_july26tv_2_cta&sort=popularity%2Casc
+              - group [ref=f1e432]:
+                - group [ref=f1e433]:
+                  - img "Production art" [ref=f1e435]
+                  - link "Photos" [ref=f1e436] [cursor=pointer]:
+                    - /url: /most-anticipated/the-odyssey-stars-tty/rg3769210880/mediaviewer/rm1109247490?ref_=hm_edcft_cseghit_odyssey_tty_3_i
+                - generic [ref=f1e444]:
+                  - link "'The Odyssey' Stars Through the Years" [ref=f1e445] [cursor=pointer]:
+                    - /url: /most-anticipated/the-odyssey-stars-tty/rg3769210880/mediaviewer/rm1109247490?ref_=hm_edcft_cseghit_odyssey_tty_3_t
+                  - link "See the full gallery" [ref=f1e448] [cursor=pointer]:
+                    - /url: /most-anticipated/the-odyssey-stars-tty/rg3769210880/mediaviewer/rm1109247490?ref_=hm_edcft_c_cseghit_odyssey_tty_3_cta
+              - group [ref=f1e449]:
+                - group [ref=f1e450]:
+                  - generic [ref=f1e451]:
+                    - img "Poster"
+                  - link "List" [ref=f1e452] [cursor=pointer]:
+                    - /url: /imdbpicks/summer-watch-guide/?ref_=hm_edcft_csegswg_elp_4_i
+                - generic [ref=f1e462]:
+                  - 'link "''Spider-Man: Brand New Day'' and All the Summer Essentials" [ref=f1e463] [cursor=pointer]':
+                    - /url: /imdbpicks/summer-watch-guide/?ref_=hm_edcft_csegswg_elp_4_t
+                  - link "Browse the guide" [ref=f1e466] [cursor=pointer]:
+                    - /url: /imdbpicks/summer-watch-guide/?ref_=hm_edcft_c_csegswg_elp_4_cta
+              - group [ref=f1e467]:
+                - group [ref=f1e468]:
+                  - generic [ref=f1e469]:
+                    - img "Production art"
+                  - link "Photos" [ref=f1e470] [cursor=pointer]:
+                    - /url: /gallery/rg1641716480/mediaviewer/rm1512227074/?ref_=hm_edcft_ft_g_pwl_5_i
+                - generic [ref=f1e478]:
+                  - link "Stunning Pics From 'The Odyssey' Red Carpet" [ref=f1e479] [cursor=pointer]:
+                    - /url: /gallery/rg1641716480/mediaviewer/rm1512227074/?ref_=hm_edcft_ft_g_pwl_5_t
+                  - link "See the gallery" [ref=f1e482] [cursor=pointer]:
+                    - /url: /gallery/rg1641716480/mediaviewer/rm1512227074/?ref_=hm_edcft_c_ft_g_pwl_5_cta
+              - group [ref=f1e483]:
+                - group [ref=f1e484]:
+                  - generic [ref=f1e485]:
+                    - img "Production art"
+                  - link "Poll" [ref=f1e486] [cursor=pointer]:
+                    - /url: /poll/XCZen6qmrcvAfvxj2YE4Kw/?ref_=hm_edcft_pls_071826_6_i
+                - generic [ref=f1e496]:
+                  - 'link "Poll: Coolest Dragon Name on HotD" [ref=f1e497] [cursor=pointer]':
+                    - /url: /poll/XCZen6qmrcvAfvxj2YE4Kw/?ref_=hm_edcft_pls_071826_6_t
+                  - link "Vote now" [ref=f1e500] [cursor=pointer]:
+                    - /url: /poll/XCZen6qmrcvAfvxj2YE4Kw/?ref_=hm_edcft_c_pls_071826_6_cta
+              - group [ref=f1e501]:
+                - group [ref=f1e502]:
+                  - generic [ref=f1e503]:
+                    - img "Publicity photo"
+                  - link "List" [ref=f1e504] [cursor=pointer]:
+                    - /url: /imdbpicks/stars-we-lost-in-2026/ls4154313445/mediaviewer/rm3982076672/?ref_=hm_edcft_csegbest_g_inmem26_7_i
+                - generic [ref=f1e514]:
+                  - 'link "In Memoriam: Stars We Lost in 2026" [ref=f1e515] [cursor=pointer]':
+                    - /url: /imdbpicks/stars-we-lost-in-2026/ls4154313445/mediaviewer/rm3982076672/?ref_=hm_edcft_csegbest_g_inmem26_7_t
+                  - link "See more" [ref=f1e518] [cursor=pointer]:
+                    - /url: /imdbpicks/stars-we-lost-in-2026/ls4154313445/mediaviewer/rm3982076672/?ref_=hm_edcft_c_csegbest_g_inmem26_7_cta
+              - group [ref=f1e519]:
+                - group [ref=f1e520]:
+                  - generic [ref=f1e521]:
+                    - img "Poster"
+                  - link "List" [ref=f1e522] [cursor=pointer]:
+                    - /url: /list/ls4178238093/?ref_=hm_edcft_wtw_netflix_july26_8_i
+                - generic [ref=f1e532]:
+                  - link "Everything New on Netflix This Month" [ref=f1e533] [cursor=pointer]:
+                    - /url: /list/ls4178238093/?ref_=hm_edcft_wtw_netflix_july26_8_t
+                  - link "See the calendar" [ref=f1e536] [cursor=pointer]:
+                    - /url: /list/ls4178238093/?ref_=hm_edcft_c_wtw_netflix_july26_8_cta
+              - group [ref=f1e537]:
+                - group [ref=f1e538]:
+                  - generic [ref=f1e539]:
+                    - img "Poster"
+                  - link "List" [ref=f1e540] [cursor=pointer]:
+                    - /url: /list/ls4154393318/?ref_=hm_edcft_ft_ls_rc_9_i
+                - generic [ref=f1e550]:
+                  - 'link "TV Tracker: Renewed and Canceled Shows" [ref=f1e551] [cursor=pointer]':
+                    - /url: /list/ls4154393318/?ref_=hm_edcft_ft_ls_rc_9_t
+                  - link "Check the status" [ref=f1e554] [cursor=pointer]:
+                    - /url: /list/ls4154393318/?ref_=hm_edcft_c_ft_ls_rc_9_cta
+              - group [ref=f1e555]:
+                - group [ref=f1e556]:
+                  - generic [ref=f1e557]:
+                    - img "Poster"
+                  - link "List" [ref=f1e558] [cursor=pointer]:
+                    - /url: /imdbpicks/staff-picks/?ref_=hm_edcft_csegstfpcks_elp_10_i
+                - generic [ref=f1e568]:
+                  - 'link "Staff Picks: The Movies and Series We Recommend" [ref=f1e569] [cursor=pointer]':
+                    - /url: /imdbpicks/staff-picks/?ref_=hm_edcft_csegstfpcks_elp_10_t
+                  - link "See our picks" [ref=f1e572] [cursor=pointer]:
+                    - /url: /imdbpicks/staff-picks/?ref_=hm_edcft_c_csegstfpcks_elp_10_cta
+              - group [ref=f1e573]:
+                - group [ref=f1e574]:
+                  - generic [ref=f1e575]:
+                    - img "Poster"
+                  - link "List" [ref=f1e576] [cursor=pointer]:
+                    - /url: /list/ls4178218774/?ref_=hm_edcft_pks_july26tv_11_i
+                - generic [ref=f1e586]:
+                  - link "July 2026 TV and Streaming Premiere Dates" [ref=f1e587] [cursor=pointer]:
+                    - /url: /list/ls4178218774/?ref_=hm_edcft_pks_july26tv_11_t
+                  - link "See the list" [ref=f1e590] [cursor=pointer]:
+                    - /url: /list/ls4178218774/?ref_=hm_edcft_c_pks_july26tv_11_cta
+              - group [ref=f1e591]:
+                - group [ref=f1e592]:
+                  - generic [ref=f1e593]:
+                    - img "Poster"
+                  - link "Photos" [ref=f1e594] [cursor=pointer]:
+                    - /url: /imdbpicks/latest-posters/rg1624939264/mediaviewer/rm935577346?ref_=hm_edcft_hp_g_lp_12_i
+                - generic [ref=f1e602]:
+                  - 'link "''Idiots'' and More: New Movie and TV Posters" [ref=f1e603] [cursor=pointer]':
+                    - /url: /imdbpicks/latest-posters/rg1624939264/mediaviewer/rm935577346?ref_=hm_edcft_hp_g_lp_12_t
+                  - link "See more posters" [ref=f1e606] [cursor=pointer]:
+                    - /url: /imdbpicks/latest-posters/rg1624939264/mediaviewer/rm935577346?ref_=hm_edcft_c_hp_g_lp_12_cta
+        - complementary "Sponsored Content" [ref=f1e1590]:
+          - iframe [ref=f1e1592]:
+            - link [ref=f5e2] [cursor=pointer]:
+              - /url: https://aax-events-cell02-cf.eu-south.ono.axp.amazon-adsystem.com/x/c/RMx2WBvV7eiCua1u1O8V2AoAAAGfej5gvgoAAADKBEFvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICDD3zmJ/clv1c_ek-gwQfRHeDCDQnMcbLS2YkZtZbwKoPjOrS9aRPKDS10OyWr5kDGfpxvuqdHLm0VWqn6pRijaALhrlsNEumtPlB6TSeKxWfeumSky8Dl-pfnztH7FpytvMvZn7SNsHpH5EE9WhNNSaPZapy3oihgLLDvvI88htSKkl9hnN24ebN9fu-7yqdOImpEsmzw-kurzkXgDlsGM5Z2BTd5wHDWSv795he9b60POgkiczF9a-i3HBixHt3aXsSZN6djSvSgbmpgf_M3zUiYj78ryceS6LAWENTl69WkFWATHyBamJEvIVGNNrIgJxumwxoZVotbQvAKXVmh_Vo3kq6H_JwZMTfFZVdJuvB2LGrXWJlIuOets4W6zJLm1EugpznGkd1Vwl-nsnmNLlXQiKo0MWS8qeNZH1it5PpcWU1RROlMxHx2SeFzz2NjIew6bEAqNpJFM0fHSTzj2Gg3sOwNd-lIk25OvRr2mJrC8UK8YxQNzpUM-T80zsF4trPsDr-OPnS5ZeMZbJv36EjgkWOtSchHg7I4APLW6A0Ytqsc6aDSmaGAu_3xz_uvEWY_veEk-IgBoRB4WKsWDFJCK8PxQtJba5UCOEGEY-n9_Fmi7FIMe0BMsyi8To477jhU9FPk1eZOZz6tFmHohwMbbq9o6kGNmVfKLN8O3m6OkiU5ZInMI_eIJQQ5SCavLztnoBokTTwWWGhmK3-Ly4qjBTwKBfby6AyEDYxIXhyrcFCUvXNSw1J3dLP5iKa3Jsxu/https://pro.imdb.com/signup/in/?aref=hg8KLH7KJc&rf=cons_dsp_community_indiaprolaunch
+              - img "Sponsored Content" [ref=f5e3]
+          - button "Get information, provide feedback or report sponsored ad" [ref=f1e1593] [cursor=pointer]: SPONSORED
+      - link [ref=f1e615] [cursor=pointer]:
+        - /url: /chart/starmeter/?ref_=hm_mpc_sm
+        - heading "Trending people" [level=3] [ref=f1e616]
+      - generic [ref=f1e624]:
+        - heading "What to watch" [level=3] [ref=f1e626]
+        - link "Get more recommendations" [ref=f1e628] [cursor=pointer]:
+          - /url: /what-to-watch/?ref_=hm_watch_btn
+      - generic [ref=f1e636]:
+        - heading "Explore what’s streaming" [level=3] [ref=f1e638]
+        - link "Set your preferred services" [ref=f1e640] [cursor=pointer]:
+          - /url: /preferences/preferredservices/?ref_=hm_stp_btn
+      - heading "Explore movies & TV shows" [level=3] [ref=f1e649]
+      - heading "More to explore" [level=3] [ref=f1e655]
+    - generic [ref=f1e657]:
+      - generic [ref=f1e660]:
+        - heading "Recently viewed" [level=3] [ref=f1e663]
+        - generic [ref=f1e664]: You have no recently viewed pages
+      - complementary "Bottom Sponsored Advertisement":
+        - button "Close advertisement" [ref=f1e666] [cursor=pointer]
+    - contentinfo [ref=f1e673]:
+      - link "Get the IMDb app" [ref=f1e675] [cursor=pointer]:
+        - /url: https://slyb.app.link/SKdyQ6A449
+      - link "Sign in for more access" [ref=f1e678] [cursor=pointer]:
+        - /url: /registration/signin/?u=%2F&ref_=hm_ftr_reg
+      - generic [ref=f1e680]:
+        - generic [ref=f1e681]:
+          - link "TikTok" [ref=f1e682] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@imdb
+          - link "Instagram" [ref=f1e684] [cursor=pointer]:
+            - /url: https://instagram.com/imdb
+          - link "Twitter" [ref=f1e687] [cursor=pointer]:
+            - /url: https://twitter.com/imdb
+          - link "YouTube" [ref=f1e689] [cursor=pointer]:
+            - /url: https://youtube.com/imdb/
+          - link "Facebook" [ref=f1e691] [cursor=pointer]:
+            - /url: https://facebook.com/imdb
+        - generic [ref=f1e693]:
+          - link "Help" [ref=f1e694] [cursor=pointer]:
+            - /url: https://help.imdb.com/imdb
+          - link "Site Index" [ref=f1e696] [cursor=pointer]:
+            - /url: https://help.imdb.com/article/imdb/general-information/imdb-site-index/GNCX7BHNSPBTFALQ#so
+          - link "IMDbPro" [ref=f1e698] [cursor=pointer]:
+            - /url: https://pro.imdb.com?ref_=cons_tf_pro&rf=cons_tf_pro
+          - link "Box Office Mojo" [ref=f1e700] [cursor=pointer]:
+            - /url: https://www.boxofficemojo.com
+          - link "License IMDb Data" [ref=f1e702] [cursor=pointer]:
+            - /url: https://developer.imdb.com/
+        - generic [ref=f1e704]:
+          - link "Press Room" [ref=f1e705] [cursor=pointer]:
+            - /url: /pressroom/?ref_=hm_ftr
+          - link "Advertising" [ref=f1e706] [cursor=pointer]:
+            - /url: https://advertising.amazon.com/resources/ad-specs/imdb/
+          - link "Jobs" [ref=f1e708] [cursor=pointer]:
+            - /url: https://www.amazon.jobs/en/teams/imdb
+          - link "Conditions of Use" [ref=f1e710] [cursor=pointer]:
+            - /url: /conditions/?ref_=hm_ftr
+          - link "Privacy Policy" [ref=f1e711] [cursor=pointer]:
+            - /url: /privacy/?ref_=hm_ftr
+          - generic [ref=f1e712]:
+            - link "Your Ads Privacy Choices" [ref=f1e713] [cursor=pointer]:
+              - /url: /privacy/redirect/?ref_=hm_ftr
+            - link "Your Ads Privacy Choices" [ref=f1e726] [cursor=pointer]:
+              - /url: /privacy/redirect/?ref_=hm_ftr
+      - img "IMDb, an Amazon company" [ref=f1e728]
+      - paragraph [ref=f1e764]: © 1990-2026 by IMDb.com, Inc.
+    - button "Back to top" [ref=f1e765] [cursor=pointer]
+    - status
+  - alert [ref=f1e769]

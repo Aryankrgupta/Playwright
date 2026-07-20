@@ -1,0 +1,58 @@
+[    1103ms] [WARNING] Error with Feature-Policy header: Unrecognized feature: 'speaker'. @ :0
+[    2852ms] [LOG] prebid-load.js loaded successfully. @ https://htlbid.com/v3/mapping.base/htlbid.js?v=1.4:0
+[    2893ms] [WARNING] [GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607150101/pubads_impl.js?cb=31099747:18
+[    5078ms] [LOG] %craven%c Raven v1.20.1-68jalx background-color:#000;margin-left:1px;padding:1px 3px;font-size:0.75em;color:#ffffff; font-size:0.9em; @ https://raven-static.aditude.io/prod/1.20.1-68jalx/raven.js:1
+[    5816ms] [WARNING] [GPT] Slot.updateTargetingFromMap is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607150101/pubads_impl.js?cb=31099747:18
+[    7810ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    9370ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://dps.jp.cinarra.com/pxd?PLATFORM_ID=1&USER_ID=f7402612-8abd-8f56-fa23-f7e839fc12df:0
+[    9370ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://dps.jp.cinarra.com/pxd?PLATFORM_ID=1&USER_ID=f7402612-8abd-8f56-fa23-f7e839fc12df:0
+[   10536ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://match.rundsp.com/redirect?ex=openx:0
+[   11223ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://cs.nex8.net/cs/openx:0
+[   14305ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://pxl.iqm.com/i/ck/pubmatic?puid=6DD9F755-08F9-4D9F-836F-4869DF8CAB9C:0
+[   17448ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://partners.tremorhub.com/sync?UIIQ=2e0dbaa1-7f96-4a9e-86d4-3713840e0b58:0
+[   17485ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://id5-sync.com/c/102/112/2/8.gif?puid=B61C9445D1B24FF3&gdpr=0&gdpr_consent=:0
+[   17485ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://id5-sync.com/c/102/112/2/8.gif?puid=B61C9445D1B24FF3&gdpr=0&gdpr_consent=:0
+[   17485ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://id5-sync.com/c/102/112/2/8.gif?puid=B61C9445D1B24FF3&gdpr=0&gdpr_consent=:0
+[   17485ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://id5-sync.com/c/102/112/2/8.gif?puid=B61C9445D1B24FF3&gdpr=0&gdpr_consent=:0
+[   17485ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://id5-sync.com/c/102/112/2/8.gif?puid=B61C9445D1B24FF3&gdpr=0&gdpr_consent=:0
+[   35999ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   35999ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   37124ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   56753ms] [ERROR] Provider's accounts list is empty. @ https://stackoverflow.com/questions:0
+[   58964ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://accounts.google.com/gsi/client:87
+[   60704ms] [WARNING] The resource https://securepubads.g.doubleclick.net/tag/js/gpt.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://stackoverflow.com/questions:0
+[   35999ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   37124ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   66043ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   35999ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   37124ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   66043ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   66874ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   66962ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://cm.g.doubleclick.net/pixel?google_nid=index&google_cm&google_hm=alnQJG4sBzoAKs-DBjdeXwAAFasAAAIB&gdpr_consent=&us_privacy=&gdpr=&gpp=&gpp_sid=:0
+[   68076ms] [ERROR] Failed to load resource: the server responded with a status of 451 () @ https://pippio.com/api/sync?pid=710914&_=1&it=4&it=4&it=4&iv=f546103313372d62691bc400724d19f5d25d44d8a87ea870b4b46436643cbea9:0
+[   69574ms] [WARNING] The resource https://securepubads.g.doubleclick.net/tag/js/gpt.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://stackoverflow.com/questions:0
+[   78969ms] [WARNING] The resource https://securepubads.g.doubleclick.net/tag/js/gpt.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://stackoverflow.com/questions:0
+[   35999ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   37124ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   66043ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   66874ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   96031ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   35999ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   37124ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   66043ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   66874ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   96031ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   97195ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   66962ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://cm.g.doubleclick.net/pixel?google_nid=index&google_cm&google_hm=alnQJG4sBzoAKs-DBjdeXwAAFasAAAIB&gdpr_consent=&us_privacy=&gdpr=&gpp=&gpp_sid=:0
+[   68076ms] [ERROR] Failed to load resource: the server responded with a status of 451 () @ https://pippio.com/api/sync?pid=710914&_=1&it=4&it=4&it=4&iv=f546103313372d62691bc400724d19f5d25d44d8a87ea870b4b46436643cbea9:0
+[  101974ms] [WARNING] The resource https://securepubads.g.doubleclick.net/tag/js/gpt.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://stackoverflow.com/questions:0
+[  122093ms] [WARNING] Error with Feature-Policy header: Unrecognized feature: 'speaker'. @ :0
+[  122575ms] [LOG] prebid-load.js loaded successfully. @ https://htlbid.com/v3/mapping.base/htlbid.js?v=1.4:0
+[  122792ms] [LOG] %craven%c Raven v1.20.1-68jalx background-color:#000;margin-left:1px;padding:1px 3px;font-size:0.75em;color:#ffffff; font-size:0.9em; @ https://raven-static.aditude.io/prod/1.20.1-68jalx/raven.js:1
+[  123118ms] [WARNING] [GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607150101/pubads_impl.js?cb=31099747:18
+[  125116ms] [ERROR] Not signed in with the identity provider. @ https://stackoverflow.com/nocaptcha?s=a0fd4af9-6c9e-48e7-a565-e0eebe1512e9:0
+[  132756ms] [ERROR] %cCW display: inline-block; color: #fff; font-size: 9px; background: #61B321; padding: 1px 4px; border-radius: 0; margin-right: 1px; Missing a base prebid mapping for base ".htlad-dfp-magic-hp" @ https://dn0qt3r0xannq.cloudfront.net/stackoverflow-M6HzSe6yue/mapping.base/prebid-wrapper.js:1
+[  138606ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://accounts.google.com/gsi/client:87

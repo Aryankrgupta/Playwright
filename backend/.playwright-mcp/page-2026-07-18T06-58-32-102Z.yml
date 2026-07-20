@@ -1,0 +1,610 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "Site Navigation Links" [ref=e4]:
+      - link "The Weather Company" [ref=e6] [cursor=pointer]:
+        - /url: /en-IN
+        - img "The Weather Company" [ref=e7]
+      - list [ref=e10]:
+        - listitem [ref=e11]:
+          - link "Forecasts":
+            - /url: /en-IN/in/delhi/city/new-delhi/today
+            - paragraph: Forecasts
+        - listitem [ref=e12]:
+          - link [ref=e13] [cursor=pointer]:
+            - /url: /en-IN/weather/radar/interactive/l/7d67733d29d6a86f79bd6a172edd760e933c9f65987b7cc68362088d1e4afeec
+            - paragraph [ref=e16]: Radar
+        - listitem [ref=e17]:
+          - link [ref=e18] [cursor=pointer]:
+            - /url: /en-IN/in/delhi/city/new-delhi/allergy
+            - paragraph [ref=e21]: Allergy Tracker
+        - listitem [ref=e22]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: /en-IN/in/delhi/city/new-delhi/air-quality
+            - paragraph [ref=e28]: Air Quality Index
+        - listitem [ref=e29]:
+          - button [ref=e30] [cursor=pointer]:
+            - img "Overflow Menu Horizontal" [ref=e31]
+            - paragraph [ref=e34]: More
+      - list [ref=e35]:
+        - listitem [ref=e36]:
+          - link [ref=e37] [cursor=pointer]:
+            - /url: /en-IN/login
+            - img "User Avatar" [ref=e38]
+            - paragraph [ref=e42]: Sign in
+    - main [ref=e43]:
+      - generic [ref=e46]:
+        - button "New Delhi" [ref=e49] [cursor=pointer]
+        - generic [ref=e54]:
+          - button
+          - generic [ref=e55]:
+            - link "Today" [ref=e56] [cursor=pointer]:
+              - /url: /en-IN/in/delhi/city/new-delhi/today
+            - link "Hourly" [ref=e57] [cursor=pointer]:
+              - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour
+            - link "10 Day" [ref=e58] [cursor=pointer]:
+              - /url: /en-IN/in/delhi/city/new-delhi/tenday
+            - link "Monthly" [ref=e59] [cursor=pointer]:
+              - /url: /en-IN/weather/monthly/l/7d67733d29d6a86f79bd6a172edd760e933c9f65987b7cc68362088d1e4afeec
+          - button
+      - generic [ref=e60]:
+        - generic [ref=e62]:
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - heading "New Delhi Weather" [level=2] [ref=e67]
+              - generic [ref=e68]:
+                - paragraph [ref=e72]: New Delhi, Delhi
+                - paragraph [ref=e73]: ·
+                - paragraph [ref=e74]: As of 12:26 pm IST
+            - link [ref=e76] [cursor=pointer]:
+              - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour
+              - region "Current Conditions" [ref=e77]:
+                - generic [ref=e78]:
+                  - generic [ref=e79]:
+                    - generic [ref=e82]:
+                      - generic [ref=e83]: Now
+                      - generic [ref=e84]: 97°
+                      - generic [ref=e85]: 96°
+                      - generic [ref=e86]: 95°
+                    - paragraph [ref=e91]: Haze
+                  - generic [ref=e92]:
+                    - generic [ref=e93]:
+                      - generic [ref=e94]:
+                        - paragraph [ref=e95]: Feels Like
+                        - paragraph [ref=e96]:
+                          - generic [ref=e97]: 109°
+                      - generic [ref=e99]:
+                        - paragraph [ref=e100]: H
+                        - paragraph [ref=e101]:
+                          - generic [ref=e102]: 97°
+                      - generic [ref=e104]:
+                        - paragraph [ref=e105]: L
+                        - paragraph [ref=e106]:
+                          - generic [ref=e107]: 86°
+                    - generic [ref=e108]:
+                      - generic [ref=e109]:
+                        - paragraph [ref=e110]: Chance of Rain
+                        - paragraph [ref=e111]: 14%
+                      - paragraph [ref=e113]: 0 in
+          - generic [ref=e116]:
+            - heading "Today's outlook" [level=2] [ref=e117]
+            - paragraph [ref=e118]: Today's high temperature will be nearly the same as yesterday's.
+            - generic [ref=e119]:
+              - button "Chevron Left" [ref=e120] [cursor=pointer]:
+                - img "Chevron Left" [ref=e121]
+              - generic [ref=e124]:
+                - generic [ref=e189]:
+                  - paragraph: 00:30
+                  - paragraph: 91°
+                - generic [ref=e190]:
+                  - paragraph: 01:30
+                  - paragraph: 91°
+                - generic [ref=e191]:
+                  - paragraph: 02:30
+                  - paragraph: 90°
+                - generic [ref=e192]:
+                  - paragraph: 03:30
+                  - paragraph: 89°
+                - generic [ref=e193]:
+                  - paragraph: 04:30
+                  - paragraph: 88°
+                - generic [ref=e194]:
+                  - paragraph: 05:30
+                  - paragraph: 89°
+                - generic [ref=e195]:
+                  - paragraph: 05:34
+                  - generic:
+                    - img "Sunrise"
+                    - paragraph: Sunrise
+                - generic [ref=e196]:
+                  - paragraph: 06:30
+                  - paragraph: 89°
+                - generic [ref=e197]:
+                  - paragraph: 07:30
+                  - paragraph: 90°
+                - generic [ref=e198]:
+                  - paragraph: 08:30
+                  - paragraph: 91°
+                - generic [ref=e199]:
+                  - paragraph: 09:30
+                  - paragraph: 91°
+                - generic [ref=e200]:
+                  - paragraph: 10:30
+                  - paragraph: 92°
+                - generic [ref=e201]:
+                  - paragraph: 11:30
+                  - paragraph: 94°
+                - link "Now, 95°" [ref=e202] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784357771
+                  - paragraph: Now
+                  - paragraph: 95°
+                - link "12:30, 95°" [ref=e203] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784358000
+                  - paragraph: 12:30
+                  - paragraph: 95°
+                - link "13:30, 96°" [ref=e204] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784361600
+                  - paragraph: 13:30
+                  - paragraph: 96°
+                - link "14:30, 96°" [ref=e205] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784365200
+                  - paragraph: 14:30
+                  - paragraph: 96°
+                - link "15:30, 96°" [ref=e206] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784368800
+                  - paragraph: 15:30
+                  - paragraph: 96°
+                - link "16:30, 96°" [ref=e207] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784372400
+                  - paragraph: 16:30
+                  - paragraph: 96°
+                - link "17:30, 96°" [ref=e208] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784376000
+                  - paragraph: 17:30
+                  - paragraph: 96°
+                - link "18:30, 95°" [ref=e209] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784379600
+                  - paragraph: 18:30
+                  - paragraph: 95°
+                - generic [ref=e210]:
+                  - paragraph: 19:20
+                  - generic:
+                    - img "Sunset"
+                    - paragraph: Sunset
+                - link "19:30, 94°" [ref=e211] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784383200
+                  - paragraph: 19:30
+                  - paragraph: 94°
+                - link "20:30, 93°" [ref=e212] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784386800
+                  - paragraph: 20:30
+                  - paragraph: 93°
+                - link "21:30, 92°" [ref=e213] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784390400
+                  - paragraph: 21:30
+                  - paragraph: 92°
+                - link "22:30, 91°" [ref=e214] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784394000
+                  - paragraph: 22:30
+                  - paragraph: 91°
+                - link "23:30, 91°" [ref=e215] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784397600
+                  - paragraph: 23:30
+                  - paragraph: 91°
+                - link "00:30, 90°" [ref=e216] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784401200
+                  - paragraph: 00:30
+                  - paragraph: 90°
+                - link "01:30, 89°" [ref=e217] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784404800
+                  - paragraph: 01:30
+                  - paragraph: 89°
+                - link "02:30, 89°" [ref=e218] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784408400
+                  - paragraph: 02:30
+                  - paragraph: 89°
+                - link "03:30, 88°" [ref=e219] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784412000
+                  - paragraph: 03:30
+                  - paragraph: 88°
+                - link "04:30, 88°" [ref=e220] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784415600
+                  - paragraph: 04:30
+                  - paragraph: 88°
+                - link "05:30, 87°" [ref=e221] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784419200
+                  - paragraph: 05:30
+                  - paragraph: 87°
+                - link "06:30, 88°" [ref=e222] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784422800
+                  - paragraph: 06:30
+                  - paragraph: 88°
+                - link "07:30, 88°" [ref=e223] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784426400
+                  - paragraph: 07:30
+                  - paragraph: 88°
+                - link [ref=e224] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784426400
+                  - paragraph [ref=e227]: More
+              - button "Chevron Right" [ref=e228] [cursor=pointer]:
+                - img "Chevron Right" [ref=e229]
+          - region "Weather Today in" [ref=e233]:
+            - generic [ref=e235]:
+              - generic [ref=e236]:
+                - img "Wind" [ref=e237]
+                - paragraph [ref=e239]: Wind
+                - paragraph [ref=e240]:
+                  - generic [ref=e241]:
+                    - img "Wind direction icon" [ref=e242]
+                    - text: 7 mph
+                    - generic [ref=e244]: WSW
+              - generic [ref=e245]:
+                - img "humidity" [ref=e246]
+                - paragraph [ref=e250]: Humidity
+                - paragraph [ref=e251]: 53%
+              - generic [ref=e252]:
+                - paragraph [ref=e256]: Air Quality
+                - paragraph [ref=e257]: 547 - Severe
+              - generic [ref=e258]:
+                - img "Dew Point" [ref=e259]
+                - paragraph [ref=e262]: Dew Point
+                - paragraph [ref=e263]:
+                  - generic [ref=e264]: 75°
+              - generic [ref=e265]:
+                - img "pressure" [ref=e266]
+                - paragraph [ref=e268]: Pressure
+                - paragraph [ref=e269]:
+                  - generic [ref=e270]:
+                    - img "Pressure falling" [ref=e271]
+                    - generic [ref=e273]: "29.53"
+                    - generic [ref=e274]: in
+              - generic [ref=e275]:
+                - img "Uv Index" [ref=e276]
+                - paragraph [ref=e278]: UV Index
+                - paragraph [ref=e279]: 8 of 11
+              - generic [ref=e280]:
+                - img "View" [ref=e281]
+                - paragraph [ref=e285]: Visibility
+                - paragraph [ref=e286]:
+                  - generic [ref=e287]:
+                    - text: "2.8"
+                    - generic [ref=e288]: mi
+              - generic [ref=e289]:
+                - img "Waxing Crescent" [ref=e290]
+                - paragraph [ref=e292]: Moon Phase
+                - paragraph [ref=e293]: Waxing Crescent
+              - generic [ref=e294]:
+                - img "Sunrise" [ref=e295]
+                - paragraph [ref=e298]: Sunrise
+                - paragraph [ref=e299]: 05:34
+              - generic [ref=e300]:
+                - img "Sunset" [ref=e301]
+                - paragraph [ref=e304]: Sunset
+                - paragraph [ref=e305]: 19:20
+          - region "Daily Forecast" [ref=e308]:
+            - heading "Daily Forecast" [level=1] [ref=e309]
+            - generic [ref=e310]:
+              - generic [ref=e311]:
+                - link "Today 20% 86° 97°" [ref=e313] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/tenday?t=1784338200
+                  - generic [ref=e314]: Today
+                  - generic [ref=e315]: 20%
+                  - generic [ref=e318]:
+                    - generic [ref=e319]: 86°
+                    - generic [ref=e323]: 97°
+                - link "Sun 19 24% 81° 94°" [ref=e326] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/tenday?t=1784424600
+                  - generic [ref=e327]: Sun 19
+                  - generic [ref=e328]: 24%
+                  - generic [ref=e331]:
+                    - generic [ref=e332]: 81°
+                    - generic [ref=e336]: 94°
+                - link "Mon 20 73% 80° 86°" [ref=e339] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/tenday?t=1784511000
+                  - generic [ref=e340]: Mon 20
+                  - generic [ref=e341]: 73%
+                  - generic [ref=e344]:
+                    - generic [ref=e345]: 80°
+                    - generic [ref=e349]: 86°
+                - link "Tue 21 93% 80° 85°" [ref=e352] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/tenday?t=1784597400
+                  - generic [ref=e353]: Tue 21
+                  - generic [ref=e354]: 93%
+                  - generic [ref=e357]:
+                    - generic [ref=e358]: 80°
+                    - generic [ref=e362]: 85°
+                - link "Wed 22 89% 80° 87°" [ref=e365] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/tenday?t=1784683800
+                  - generic [ref=e366]: Wed 22
+                  - generic [ref=e367]: 89%
+                  - generic [ref=e370]:
+                    - generic [ref=e371]: 80°
+                    - generic [ref=e375]: 87°
+                - link "Thu 23 78% 80° 87°" [ref=e378] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/tenday?t=1784770200
+                  - generic [ref=e379]: Thu 23
+                  - generic [ref=e380]: 78%
+                  - generic [ref=e383]:
+                    - generic [ref=e384]: 80°
+                    - generic [ref=e388]: 87°
+                - link "Fri 24 52% 81° 89°" [ref=e391] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/tenday?t=1784856600
+                  - generic [ref=e392]: Fri 24
+                  - generic [ref=e393]: 52%
+                  - generic [ref=e396]:
+                    - generic [ref=e397]: 81°
+                    - generic [ref=e401]: 89°
+              - link "Next 10 days" [ref=e404] [cursor=pointer]:
+                - /url: /en-IN/in/delhi/city/new-delhi/tenday
+          - region "Radar - Slight rain chance in the next 6 hours." [ref=e407]:
+            - link [ref=e408] [cursor=pointer]:
+              - /url: /en-IN/weather/radar/interactive/l/7d67733d29d6a86f79bd6a172edd760e933c9f65987b7cc68362088d1e4afeec
+              - generic [ref=e411]:
+                - paragraph [ref=e412]: Now
+                - button "Map Attribution" [ref=e415]:
+                  - img "Mapbox Logo" [ref=e416]
+          - generic [ref=e425]:
+            - heading "Sponsored Content" [level=2] [ref=e427]
+            - generic [ref=e429]:
+              - generic [ref=e435]:
+                - generic:
+                  - generic [ref=e436] [cursor=pointer]:
+                    - link [ref=e437]:
+                      - /url: https://in.hear.com/d/en_price_list_display
+                      - img "Image for Taboola Advertising Unit" [ref=e439]
+                    - link [ref=e441]:
+                      - /url: https://in.hear.com/d/en_price_list_display
+                      - generic [ref=e442]:
+                        - link "Indians over 70 are switching from hearing aids to this new device." [ref=e443]
+                        - link "Hearing Aids in Taboola advertising section" [ref=e444]: Hearing Aids
+                  - generic [ref=e445] [cursor=pointer]:
+                    - link [ref=e446]:
+                      - /url: https://in.hear.com/d/en_price_list_display
+                      - img "Image for Taboola Advertising Unit" [ref=e448]
+                    - link [ref=e450]:
+                      - /url: https://in.hear.com/d/en_price_list_display
+                      - generic [ref=e451]:
+                        - link "Indians over 65 are switching from hearing aids to this new device." [ref=e452]
+                        - link "Hearing Loss in Taboola advertising section" [ref=e453]: Hearing Loss
+                  - generic [ref=e454] [cursor=pointer]:
+                    - link [ref=e455]:
+                      - /url: https://donateforhealth.com/stories/savevyom
+                      - img "Image for Taboola Advertising Unit" [ref=e457]
+                    - link [ref=e459]:
+                      - /url: https://donateforhealth.com/stories/savevyom
+                      - generic [ref=e460]:
+                        - link "Help him! An eye tumor is stealing his childhood." [ref=e461]
+                        - link "Donate For Health in Taboola advertising section" [ref=e462]: Donate For Health
+              - generic [ref=e468]:
+                - generic:
+                  - generic [ref=e469] [cursor=pointer]:
+                    - link [ref=e470]:
+                      - /url: https://www.iforex.in/landing_pages/br1/hi/DoubleYourBalance
+                      - img "Image for Taboola Advertising Unit" [ref=e472]
+                    - link [ref=e474]:
+                      - /url: https://www.iforex.in/landing_pages/br1/hi/DoubleYourBalance
+                      - generic [ref=e475]:
+                        - link "Start Forex Trading. Get a 100% Welcome Bonus" [ref=e476]
+                        - link "iFOREX in Taboola advertising section" [ref=e477]: iFOREX
+                  - generic [ref=e478] [cursor=pointer]:
+                    - link [ref=e479]:
+                      - /url: https://smartcare.sbilife.co.in/epolicy/SmartShieldPlus/UI/PersonalDetailsMinor.aspx
+                      - img "Image for Taboola Advertising Unit" [ref=e481]
+                    - link [ref=e483]:
+                      - /url: https://smartcare.sbilife.co.in/epolicy/SmartShieldPlus/UI/PersonalDetailsMinor.aspx
+                      - generic [ref=e484]:
+                        - link "2 Cr Term Insurance Plan @ 915/m" [ref=e485]
+                        - link "SBI Life - Smart Shield Plus in Taboola advertising section" [ref=e486]: SBI Life - Smart Shield Plus
+              - generic [ref=e492]:
+                - generic:
+                  - generic [ref=e493] [cursor=pointer]:
+                    - link [ref=e494]:
+                      - /url: https://smartcare.sbilife.co.in/epolicy/SmartShieldPlus/UI/PersonalDetailsMinor.aspx
+                      - img "Image for Taboola Advertising Unit" [ref=e496]
+                    - link [ref=e498]:
+                      - /url: https://smartcare.sbilife.co.in/epolicy/SmartShieldPlus/UI/PersonalDetailsMinor.aspx
+                      - generic [ref=e499]:
+                        - link "1 Cr Term Plan @ ₹512/m*" [ref=e500]
+                        - link "SBI Life - Smart Shield Plus in Taboola advertising section" [ref=e501]: SBI Life - Smart Shield Plus
+                  - generic [ref=e502] [cursor=pointer]:
+                    - link [ref=e503]:
+                      - /url: https://warthunder.com/play4free
+                      - img "Image for Taboola Advertising Unit" [ref=e505]
+                    - link [ref=e507]:
+                      - /url: https://warthunder.com/play4free
+                      - generic [ref=e508]:
+                        - link "Play War Thunder now for free" [ref=e509]
+                        - link "War Thunder in Taboola advertising section" [ref=e510]: War Thunder
+                  - generic [ref=e511] [cursor=pointer]:
+                    - link [ref=e512]:
+                      - /url: https://warthunder.com/play4free
+                      - img "Image for Taboola Advertising Unit" [ref=e514]
+                    - link [ref=e516]:
+                      - /url: https://warthunder.com/play4free
+                      - generic [ref=e517]:
+                        - link "Join new Free to Play WWII MMO War Thunder" [ref=e518]
+                        - link "War Thunder in Taboola advertising section" [ref=e519]: War Thunder
+              - generic [ref=e525] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - img "Image for Taboola Advertising Unit"
+                - generic "You might be interested in the content above" [ref=e526]:
+                  - generic [ref=e527]:
+                    - link "You might be interested in the content above" [ref=e528]
+                    - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e531]':
+                      - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=theweatherchannelinternational-india&utm_medium=referral&utm_content=google-adx-card-delta:Below Content Thumbnails - today | Card 4:"
+                      - text: Sponsored
+              - generic [ref=e537]:
+                - generic:
+                  - generic [ref=e538] [cursor=pointer]:
+                    - link [ref=e539]:
+                      - /url: https://ic.com/lp/en/trade-gold
+                      - img "Image for Taboola Advertising Unit" [ref=e541]
+                    - link [ref=e543]:
+                      - /url: https://ic.com/lp/en/trade-gold
+                      - generic [ref=e544]:
+                        - link "Gold Is Surging in 2026 — Smart Traders Are Already In" [ref=e545]
+                        - link "IC in Taboola advertising section" [ref=e546]: IC
+                  - generic [ref=e547] [cursor=pointer]:
+                    - link [ref=e548]:
+                      - /url: https://curvecomfy.com/collections/womens-shorts
+                      - img "Image for Taboola Advertising Unit" [ref=e550]
+                    - link [ref=e552]:
+                      - /url: https://curvecomfy.com/collections/womens-shorts
+                      - generic [ref=e553]:
+                        - link "Hot Summer Pick" [ref=e554]
+                        - link "CurveComfy in Taboola advertising section" [ref=e555]: CurveComfy
+        - generic [ref=e577]:
+          - generic [ref=e580]:
+            - heading "Air Quality Index" [level=2] [ref=e581]
+            - generic [ref=e582]:
+              - img [ref=e584]:
+                - generic [ref=e587]: "547"
+              - generic [ref=e588]:
+                - heading "Severe" [level=2] [ref=e589]
+                - paragraph [ref=e590]: May cause respiratory impact for healthy people and serious health impacts for people with lung/heart disease. The health impacts may even be experienced during light physical activity.
+            - link "See details" [ref=e592] [cursor=pointer]:
+              - /url: /en-IN/forecast/air-quality/l/28.614,77.209
+            - button [ref=e593] [cursor=pointer]:
+              - paragraph [ref=e596]: Air Quality Index
+          - region "HealthAndActivities.healthAndActivities" [ref=e599]:
+            - heading "Health & Activities" [level=2] [ref=e600]
+            - link "Seasonal Allergies and Pollen Count Forecast No pollen detected in your area Chevron Right" [ref=e602] [cursor=pointer]:
+              - /url: /en-IN/forecast/allergy/l/7d67733d29d6a86f79bd6a172edd760e933c9f65987b7cc68362088d1e4afeec
+              - generic [ref=e610]:
+                - generic [ref=e611]: Seasonal Allergies and Pollen Count Forecast
+                - generic [ref=e612]: No pollen detected in your area
+              - img "Chevron Right" [ref=e613]
+          - region "Advertisement" [ref=e617]
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - region "Advertisement"
+      - generic [ref=e622]:
+        - generic [ref=e623]:
+          - generic [ref=e624]:
+            - list [ref=e625]:
+              - listitem [ref=e626]:
+                - link [ref=e627] [cursor=pointer]:
+                  - /url: https://www.weathercompany.com/
+                  - img "The Weather Company" [ref=e628]
+              - listitem [ref=e629]:
+                - link [ref=e630] [cursor=pointer]:
+                  - /url: https://weather.com/
+                  - img "The Weather Channel" [ref=e631]
+              - listitem [ref=e632]:
+                - link [ref=e633] [cursor=pointer]:
+                  - /url: https://www.wunderground.com/
+                  - img "Weather Underground" [ref=e634]
+              - listitem [ref=e635]:
+                - link [ref=e636] [cursor=pointer]:
+                  - /url: https://weather.com/storm-radar
+                  - img "Storm Radar" [ref=e637]
+            - paragraph [ref=e638]:
+              - text: The Weather Channel is the world's most accurate forecaster according to ForecastWatch,
+              - link "Global and Regional Weather Forecast Accuracy Overview" [ref=e639] [cursor=pointer]:
+                - /url: https://forecastwatch.com/AccuracyOverview2021-2024
+              - text: ", 2021-2024, commissioned by The Weather Company."
+            - paragraph [ref=e640]: Weather Channel.
+          - generic [ref=e642]:
+            - generic [ref=e643]:
+              - paragraph [ref=e644]: Privacy & Legal
+              - list [ref=e645]:
+                - listitem [ref=e646]:
+                  - link "Terms of Use" [ref=e647] [cursor=pointer]:
+                    - /url: /en-IN/privacy/terms-of-use
+                    - paragraph [ref=e648]:
+                      - generic [ref=e649]: Terms of Use
+                - listitem [ref=e650]:
+                  - link "Privacy Policy" [ref=e651] [cursor=pointer]:
+                    - /url: /en-IN/privacy/privacy-policy
+                    - paragraph [ref=e652]:
+                      - generic [ref=e653]: Privacy Policy
+                - listitem [ref=e654]:
+                  - link "Data Rights" [ref=e655] [cursor=pointer]:
+                    - /url: /en-IN/data-rights
+                    - paragraph [ref=e656]:
+                      - generic [ref=e657]: Data Rights
+                - listitem [ref=e658]:
+                  - link "Privacy Settings" [ref=e659] [cursor=pointer]:
+                    - /url: /en-IN/privacy-settings
+                    - paragraph [ref=e660]:
+                      - generic [ref=e661]: Privacy Settings
+                - listitem [ref=e662]:
+                  - link "Data Vendors" [ref=e663] [cursor=pointer]:
+                    - /url: /en-IN/data-vendors
+                    - paragraph [ref=e664]:
+                      - generic [ref=e665]: Data Vendors
+                - listitem [ref=e666]:
+                  - link "AdChoices" [ref=e667] [cursor=pointer]:
+                    - /url: /en-US/services/ad-choices
+                    - paragraph [ref=e668]:
+                      - generic [ref=e669]: AdChoices
+                - listitem [ref=e670]:
+                  - link "Accessibility Statement" [ref=e671] [cursor=pointer]:
+                    - /url: /en-IN/accessibility-statement
+                    - paragraph [ref=e672]:
+                      - generic [ref=e673]: Accessibility Statement
+            - generic [ref=e674]:
+              - paragraph [ref=e676]: More
+              - list [ref=e677]:
+                - listitem [ref=e678]:
+                  - link "Feedback External Link" [ref=e679] [cursor=pointer]:
+                    - /url: //support.weather.com?language=en
+                    - paragraph [ref=e680]:
+                      - generic [ref=e681]: Feedback
+                    - img "External Link" [ref=e682]
+                - listitem [ref=e685]:
+                  - link "News Room External Link" [ref=e686] [cursor=pointer]:
+                    - /url: https://www.weathercompany.com/newsroom
+                    - paragraph [ref=e687]:
+                      - generic [ref=e688]: News Room
+                    - img "External Link" [ref=e689]
+                - listitem [ref=e692]:
+                  - link "Weather Data APIs External Link" [ref=e693] [cursor=pointer]:
+                    - /url: https://www.wunderground.com/weather/api
+                    - paragraph [ref=e694]:
+                      - generic [ref=e695]: Weather Data APIs
+                    - img "External Link" [ref=e696]
+                - listitem [ref=e699]:
+                  - link "Weather Data APIs External Link" [ref=e700] [cursor=pointer]:
+                    - /url: https://www.weathercompany.com/weather-data-apis/
+                    - paragraph [ref=e701]:
+                      - generic [ref=e702]: Weather Data APIs
+                    - img "External Link" [ref=e703]
+        - generic [ref=e707]:
+          - list [ref=e709]:
+            - listitem [ref=e710]:
+              - link [ref=e711] [cursor=pointer]:
+                - /url: https://www.facebook.com/TheWeatherChannel
+                - img "Facebook" [ref=e712]
+            - listitem [ref=e715]:
+              - link [ref=e716] [cursor=pointer]:
+                - /url: http://www.twitter.com/weatherchannel
+                - img "X" [ref=e717]
+            - listitem [ref=e719]:
+              - link [ref=e720] [cursor=pointer]:
+                - /url: http://instagram.com/weatherchannel
+                - img "Instagram" [ref=e721]
+            - listitem [ref=e725]:
+              - link [ref=e726] [cursor=pointer]:
+                - /url: http://www.youtube.com/user/TheWeatherChannel/
+                - img "Youtube" [ref=e727]
+          - paragraph [ref=e730]: © The Weather Company, LLC 2026
+          - list [ref=e732]:
+            - listitem [ref=e733]:
+              - link [ref=e734] [cursor=pointer]:
+                - /url: http://www.exploregeorgia.org/weather-and-travel-tips
+                - img "Explore Georgia" [ref=e735]
+            - listitem [ref=e736]:
+              - link [ref=e737] [cursor=pointer]:
+                - /url: https://www.essentialaccessibility.com/the-weather-channel?utm_source=theweatherchannelhomepage&utm_medium=iconlarge&utm_term=eachannelpage&utm_content=header&utm_campaign=theweatherchannel
+                - img "Essential Accessibility" [ref=e738]
+  - region "Notifications alt+T"
+  - alert [ref=e739]
+  - dialog [ref=e741]:
+    - generic [ref=e745]:
+      - generic [ref=e746]:
+        - paragraph [ref=e747]: ✨ Switching locations is easier with the new location selector.
+        - paragraph [ref=e748]: Search for new locations or choose from a list of your saved locations and recent searches.
+      - button "Dismiss" [ref=e749] [cursor=pointer]

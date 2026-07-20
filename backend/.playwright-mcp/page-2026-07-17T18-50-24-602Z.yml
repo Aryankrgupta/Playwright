@@ -1,0 +1,580 @@
+- generic [ref=f3e2]:
+  - banner [ref=f3e5]:
+    - navigation [ref=f3e6]:
+      - link [ref=f3e7] [cursor=pointer]:
+        - /url: /
+        - img "Y Combinator" [ref=f3e8]
+      - button "Open menu" [ref=f3e9] [cursor=pointer]
+  - generic [ref=f3e15]:
+    - generic [ref=f3e16]:
+      - generic [ref=f3e17]:
+        - link [ref=f3e18] [cursor=pointer]:
+          - /url: ""
+        - generic [ref=f3e19]:
+          - heading [level=2] [ref=f3e20]:
+            - link "Rownd" [ref=f3e21] [cursor=pointer]:
+              - /url: /companies/rownd
+          - paragraph [ref=f3e22]: Fully autonomous defense solutions for the global edge.
+      - generic [ref=f3e23]:
+        - heading "Edge Computer Vision Engineer for Drones!" [level=1] [ref=f3e24]
+        - generic [ref=f3e25]:
+          - generic [ref=f3e26]: $90K - $150K
+          - generic [ref=f3e27]: •
+          - generic [ref=f3e28]: 0.50% - 1.00%
+          - generic [ref=f3e29]: •
+          - generic [ref=f3e30]: Milwaukee, WI, US / WI, US / Durham, NC, US / Raleigh, NC, US
+        - generic [ref=f3e31]:
+          - generic [ref=f3e32]:
+            - strong [ref=f3e34]: Job type
+            - text: Full-time
+          - generic [ref=f3e35]:
+            - strong [ref=f3e37]: Role
+            - text: Engineering, Machine learning
+          - generic [ref=f3e38]:
+            - strong [ref=f3e40]: Experience
+            - text: Any (new grads ok)
+          - generic [ref=f3e41]:
+            - strong [ref=f3e43]: Visa
+            - text: US citizen/visa only
+          - generic [ref=f3e44]:
+            - strong [ref=f3e46]: Skills
+            - text: Machine Learning, Computer Vision, Machine learning
+        - generic [ref=f3e48]:
+          - generic [ref=f3e49]:
+            - generic [ref=f3e50]: Connect directly with founders of the best YC-funded startups.
+            - link "Apply to role ›" [ref=f3e51] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D98685&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=25402
+          - generic [ref=f3e53]:
+            - img "Robert Thelen" [ref=f3e55]
+            - generic [ref=f3e56]:
+              - generic [ref=f3e57]: Robert Thelen
+              - generic [ref=f3e59]: Founder
+      - heading "About the role" [level=2] [ref=f3e60]
+      - generic [ref=f3e62]:
+        - heading "Edge Computer Vision Engineer for Drones!" [level=1] [ref=f3e63]
+        - list [ref=f3e64]:
+          - listitem [ref=f3e65]:
+            - strong [ref=f3e66]: "Company:"
+            - text: Rownd (
+            - link "Rownd.ai" [ref=f3e67] [cursor=pointer]:
+              - /url: http://Rownd.ai
+            - text: /
+            - link "arcedge.ai" [ref=f3e68] [cursor=pointer]:
+              - /url: http://arcedge.ai
+            - text: )
+          - listitem [ref=f3e69]:
+            - strong [ref=f3e70]: "Position Type:"
+            - text: Full-time
+          - listitem [ref=f3e71]:
+            - strong [ref=f3e72]: "Compensation:"
+            - text: Competitive (Salary + Equity, DOE)
+          - listitem [ref=f3e73]:
+            - strong [ref=f3e74]: "Location:"
+            - text: Hybrid-remote (Strong preference for candidates in Raleigh-Durham area, Wisconsin, or other non-traditional tech hubs—outside of SF, NYC, Seattle, etc.)
+          - listitem [ref=f3e75]:
+            - strong [ref=f3e76]: "Travel:"
+            - text: 5-6 weeks of cumulative domestic travel per year (non-continuous, split across ~4 on-site team sessions, client sites, and conventions).
+        - heading [level=2] [ref=f3e77]:
+          - strong [ref=f3e78]: About Rownd
+        - paragraph [ref=f3e79]:
+          - text: Rownd is a fast-paced, high-execution technology and hardware startup. We are building
+          - strong [ref=f3e80]: 100% autonomous physical assets
+          - text: —deploying custom software and hardware systems for defense and commercial sectors to put intelligent machines in the field.
+        - paragraph [ref=f3e81]:
+          - text: We don't just write software or integrate off-the-shelf parts;
+          - strong [ref=f3e82]: we build the full drone
+          - text: from the ground up. We operate with extreme autonomy, an aggressive bias for action, and a "just do it" mindset. We don't write software to sit in the cloud; we write software to make physical things navigate, sense, and act in the real world. We are constantly pushing the absolute outer edges of what is physically and computationally possible. If you want to settle for what was state-of-the-art two years ago, Rownd is not the place for you. If you want to see your code fly, you belong here.
+        - heading [level=2] [ref=f3e83]:
+          - strong [ref=f3e84]: Position Overview
+        - paragraph [ref=f3e85]:
+          - text: We are looking for our
+          - strong [ref=f3e86]: Edge Vision Person
+          - text: —an engineer who can design, build, and deploy the visual intelligence that powers our autonomous drones and edge assets.
+        - paragraph [ref=f3e87]:
+          - text: Because we build the full hardware platform,
+          - strong [ref=f3e88]: you have complete ownership over the vision pipeline.
+          - text: You aren't handcuffed to someone else's hardware choices; you get to pick the cameras, choose the sensors, select the processor, and design the software stack that gets the job done.
+        - paragraph [ref=f3e89]:
+          - text: This is not a traditional, slow-paced corporate research role. You won't be training trillion-parameter models on giant server clusters just to write a paper. Instead, you will be designing
+          - strong [ref=f3e90]: small, highly-optimized, lightning-fast models
+          - text: that live directly on the edge. You will need to be a
+          - strong [ref=f3e91]: "\"Jack of trades, and a master of SOME.\""
+          - text: We don't expect you to know everything, but we expect you to be world-class at a few core things, completely unafraid to jump into the rest, and highly transparent about where you need to learn.
+        - paragraph [ref=f3e92]: You should be highly comfortable using Generative AI and AI coding assistants (GitHub Copilot, Cursor, LLMs) to multiply your output and ship production-grade code rapidly.
+        - heading [level=2] [ref=f3e93]:
+          - strong [ref=f3e94]: Culture, Trust & Expectations
+        - paragraph [ref=f3e95]:
+          - text: At Rownd, we maintain a
+          - strong [ref=f3e96]: high level of trust and exceptionally high expectations
+          - text: .
+        - list [ref=f3e97]:
+          - listitem [ref=f3e98]:
+            - strong [ref=f3e99]: "Figure It Out:"
+            - text: You won’t be handed a step-by-step playbook or a list of perfect requirements. You are expected to think outside the box, try wild new things, conduct rapid research, and do whatever it takes to accomplish our goals.
+          - listitem [ref=f3e100]:
+            - strong [ref=f3e101]: "Comfortable Being Uncomfortable:"
+            - text: Startups are fast and chaotic. You must be completely okay with extreme ambiguity, shifting requirements, and rapid change. When things pivot, your instinct should be to adapt and build, not freeze.
+          - listitem [ref=f3e102]:
+            - strong [ref=f3e103]: "Positive & Collaborative:"
+            - text: We are a tight-knit team. We look for people who are additive, collaborative, positive, and genuinely great to work with. No brilliant jerks.
+          - listitem [ref=f3e104]:
+            - strong [ref=f3e105]: "Hard Work & Real Rest:"
+            - text: This is a startup environment pushing hard to make history—it is not a traditional, comfortable 9-to-5. We work intensely when we are on, but we also fiercely protect our team's well-being. We expect you to actually take your time off, unplug, and recharge.
+          - listitem [ref=f3e106]:
+            - strong [ref=f3e107]: "We work for and with the nation’s Soldiers, Sailors, Marines, and Airmen:"
+            - text: Must be willing and happy to provide software, models, and hardware to the Department of War. If you have moral reservations around supplying the US military and government, then this role and company are not for you.
+        - heading [level=2] [ref=f3e108]:
+          - strong [ref=f3e109]: Key Areas of Responsibility
+        - heading [level=3] [ref=f3e110]:
+          - strong [ref=f3e111]: Edge Model Design & Deployment (Core Focus)
+        - list [ref=f3e112]:
+          - listitem [ref=f3e113]:
+            - strong [ref=f3e114]: "Full Stack Hardware & Sensor Selection:"
+            - text: Research, evaluate, and select optimal camera modules, lenses, optical sensors, and onboard edge compute processors to meet mission requirements.
+          - listitem [ref=f3e115]:
+            - strong [ref=f3e116]: "Next-Gen Architectures:"
+            - text: Implement, optimize, and deploy state-of-the-art vision models (including
+            - strong [ref=f3e117]: YOLO variants, CLIP, DINOv2
+            - text: ", and newer, more interesting backbones). We expect you to aggressively research and adopt newer stacks rather than defaulting to comfortable, outdated frameworks."
+          - listitem [ref=f3e118]:
+            - strong [ref=f3e119]: "Small & Fast Deployments:"
+            - text: Fine-tune, compress, and quantize models for constrained hardware environments (Tracking, Classification, and Segmentation).
+          - listitem [ref=f3e120]:
+            - strong [ref=f3e121]: "Multi-Platform Deployment:"
+            - text: Target both CUDA-enabled devices (NVIDIA Jetson) and non-CUDA NPUs (Neural Processing Units like Hailo, Rockchip, STM32, or similar edge accelerators).
+          - listitem [ref=f3e122]:
+            - strong [ref=f3e123]: "Self-Improving Systems:"
+            - text: Design feedback loops and pipelines that allow deployed assets to continuously flag edge cases, gather raw data, and self-improve over time.
+        - heading [level=3] [ref=f3e124]:
+          - strong [ref=f3e125]: Robotic Systems Integration & Adaptability
+        - list [ref=f3e126]:
+          - listitem [ref=f3e127]:
+            - strong [ref=f3e128]: "Cross-Platform Adaptability:"
+            - text: While our current focus is aerial hardware, you must be ready and willing to adapt your vision stacks to other land-based, maritime, or custom robotic systems as our hardware ecosystem expands.
+          - listitem [ref=f3e129]:
+            - strong [ref=f3e130]: "Robust Evaluation Suites:"
+            - text: Build rigorous, automated evaluation pipelines to benchmark model performance, latency, accuracy, and power consumption across physical edge devices.
+          - listitem [ref=f3e131]:
+            - strong [ref=f3e132]: "Synthetic Data Generation:"
+            - text: When real-world data is scarce, leverage simulation environments, generative tools, and programmatic pipelines to generate high-fidelity synthetic training data.
+        - heading [level=3] [ref=f3e133]:
+          - strong [ref=f3e134]: Code, Systems & Hardware Integration
+        - list [ref=f3e135]:
+          - listitem [ref=f3e136]:
+            - strong [ref=f3e137]: "Production-Grade Code:"
+            - text: Write clean, modular, and performant C++ and Python code to integrate model outputs directly into drone navigation and control pipelines.
+          - listitem [ref=f3e138]:
+            - strong [ref=f3e139]: "AI-Assisted Development:"
+            - text: Seamlessly integrate AI coding tools into your daily workflow to rapidly draft, document, debug, and iterate.
+        - heading [level=3] [ref=f3e140]:
+          - strong [ref=f3e141]: Operations & Team Alignment
+        - list [ref=f3e142]:
+          - listitem [ref=f3e143]:
+            - strong [ref=f3e144]: "Daily Standup Sync:"
+            - text: Active participation in our daily team standup at
+            - strong [ref=f3e145]: 10:30 AM EDT
+            - text: . Because we operate as a remote-first team,
+            - strong [ref=f3e146]: attending with your camera on
+            - text: and ready to actively engage is a strict requirement.
+          - listitem [ref=f3e147]:
+            - strong [ref=f3e148]: "Extreme Autonomy:"
+            - text: Own your work streams end-to-end. We don't micro-manage. We agree on the target, and we expect you to move quickly, iterate, and deliver.
+        - heading [level=2] [ref=f3e149]:
+          - strong [ref=f3e150]: Candidate Qualifications
+        - list [ref=f3e151]:
+          - listitem [ref=f3e152]:
+            - strong [ref=f3e153]: "US Citizenship:"
+            - text: Candidates must be US citizens eligible to obtain and maintain a U.S. Security Clearance (due to our defense work and FCL requirements).
+          - listitem [ref=f3e154]:
+            - strong [ref=f3e155]: "Edge & NPU Expertise:"
+            - text: Hands-on experience deploying CV models to physical hardware, dealing with quantization (INT8/FP16), and optimizing for memory/thermal limits.
+          - listitem [ref=f3e156]:
+            - strong [ref=f3e157]: "Core Tech Stack:"
+            - text: High proficiency in PyTorch/TensorFlow, OpenCV, TensorRT, CUDA, C++, and Python.
+          - listitem [ref=f3e158]:
+            - strong [ref=f3e159]: "\"Just Do It\" Mentality:"
+            - text: You don’t wait for permission. You build a prototype, test it, break it, and fix it. You have a proven track record of "just figuring it out" in highly ambiguous environments.
+          - listitem [ref=f3e160]:
+            - strong [ref=f3e161]: "Location & Lifestyle:"
+            - text: Ideally located in a non-traditional tech hub. We love builders who choose to live, work, and thrive outside the major, overcrowded coastal tech centers.
+          - listitem [ref=f3e162]:
+            - strong [ref=f3e163]: "Travel Flexibility:"
+            - text: Willingness to travel for 4 to 5 weeks cumulatively per year for on-sites, hardware integration, and client field testing.
+        - heading [level=2] [ref=f3e164]:
+          - strong [ref=f3e165]: Are You a "Jack of all trades, master of SOME"?
+        - paragraph [ref=f3e166]: "When you apply, we want to skip the standard corporate fluff. Please include a short note telling us:"
+        - list [ref=f3e167]:
+          - listitem [ref=f3e168]:
+            - strong [ref=f3e169]: What are you absolutely great at?
+            - text: (Your "Master of SOME" superpowers—e.g., custom CUDA kernels, synthetic data pipelines, physical NPU integration, synthetic data generation, etc).
+          - listitem [ref=f3e170]:
+            - strong [ref=f3e171]: Where do you need/want to learn?
+            - text: (Where are your gaps, what are you excited to master next on our team, and what newer stacks are you dying to play with?)
+        - heading [level=2] [ref=f3e172]:
+          - strong [ref=f3e173]: What’s In It For You?
+        - list [ref=f3e174]:
+          - listitem [ref=f3e175]:
+            - strong [ref=f3e176]: "Real-World Impact:"
+            - text: Your models will physically control, guide, and protect 100% autonomous drones and robotic systems in the field.
+          - listitem [ref=f3e177]:
+            - strong [ref=f3e178]: "Hardware Autonomy:"
+            - text: The power to pick your own cameras, sensors, and edge-computing setup.
+          - listitem [ref=f3e179]:
+            - strong [ref=f3e180]: "Defense Tech Credentials:"
+            - text: Direct experience building defense-grade, audit-ready AI systems at a rapidly expanding startup.
+          - listitem [ref=f3e181]:
+            - strong [ref=f3e182]: "Autonomy & Tools:"
+            - text: We will equip you with whatever hardware, computing power, and AI developer tools you need to move fast and succeed.
+          - listitem [ref=f3e183]:
+            - strong [ref=f3e184]: "Ownership:"
+            - text: Competitive salary combined with meaningful equity, letting you share directly in Rownd’s growth.
+      - heading "About the interview" [level=2] [ref=f3e185]
+      - generic [ref=f3e187]:
+        - heading [level=2] [ref=f3e188]:
+          - strong [ref=f3e189]: "Our Hiring Process: How We Work Together"
+        - paragraph [ref=f3e190]: "We hate traditional, slow, whiteboard-style corporate loops as much as you do. We want to see how you build, how you think, and how we collaborate. Here is our direct, transparent 4-step process:"
+        - heading [level=3] [ref=f3e191]:
+          - strong [ref=f3e192]: "Step 0: The Application"
+        - paragraph [ref=f3e193]: Submit your application above and we will get back to you within 24 hours if we want to move forward.
+        - heading [level=3] [ref=f3e194]:
+          - strong [ref=f3e195]: "Step 1: Show Off"
+        - paragraph [ref=f3e196]:
+          - text: Bring something cool to show us! A personal project or a public GitHub repo is best. If your professional work is private or locked under an NDA,
+          - strong [ref=f3e197]: choose something else to show us instead
+          - text: —even if it is only tangentially related to this role. For the show and tell, we value
+          - strong [ref=f3e198]: passion over raw technical merit (although we do love seeing cool stuff)
+          - text: . We want to see an actual model doing cool stuff and hear you explain what you did that was special, unique, or creative to get it working.
+        - heading [level=3] [ref=f3e199]:
+          - strong [ref=f3e200]: "Step 2: The Mutual Fit (A Paid Practical Week)"
+        - paragraph [ref=f3e201]: We want to ensure you love working with our team before making a long-term commitment. We will pay you to work with us for one week (part-time, ~6-8 hours of work designed to easily fit into your current spare time).
+        - list [ref=f3e202]:
+          - listitem [ref=f3e203]:
+            - strong [ref=f3e204]: "The Project:"
+            - text: You will work on a real task—likely training and deploying a small model or building a repeatable vision/data pipeline.
+          - listitem [ref=f3e205]:
+            - strong [ref=f3e206]: "Open Source:"
+            - text: We will open-source the results. You get paid, you keep the code for your portfolio, and we get to see your real-world workflow.
+          - listitem [ref=f3e207]:
+            - strong [ref=f3e208]: "The Rhythm:"
+            - text: If your schedule allows, you will attend our daily standups. If not, we will arrange 2-3 flexible syncs during the week to stay aligned.
+        - heading [level=3] [ref=f3e209]:
+          - strong [ref=f3e210]: "Step 3: CEO & CTO Vision Chat"
+        - paragraph [ref=f3e211]: If we mutually see a fantastic fit, we will have one final chat. This is where we discuss long-term visions—your goals for yourself and the role, and our goals for Rownd and the technology's future.
+        - heading [level=3] [ref=f3e212]:
+          - strong [ref=f3e213]: "Step 4: Offer & Onboarding"
+        - paragraph [ref=f3e214]: If we decide to move forward with an offer, we request an official response within one week, targeting a start date roughly 2-3 weeks later. If the timing or role isn’t a perfect fit right now, we’ll keep the line open for future opportunities as we scale.
+        - heading [level=2]
+      - heading "About Rownd" [level=2] [ref=f3e215]
+      - generic [ref=f3e216]:
+        - paragraph [ref=f3e217]: Rownd is a fast-paced, high-execution technology and hardware startup building 100% autonomous physical assets. We deploy custom software and hardware systems for the defense and commercial sectors to put intelligent machines in the field.
+        - paragraph [ref=f3e218]: We operate with extreme autonomy, an aggressive bias for action, and a "just do it" mindset. We don't write software to sit in the cloud; we write software to make physical things navigate, sense, and act in the real world. We work intensely to make history alongside the nation's military service members, pushing the outer boundaries of what is computationally possible on the edge.
+    - generic [ref=f3e219]:
+      - generic [ref=f3e220]:
+        - link [ref=f3e222] [cursor=pointer]:
+          - /url: /companies/rownd
+          - img "Rownd" [ref=f3e223]
+        - link "Rownd" [ref=f3e226] [cursor=pointer]:
+          - /url: /companies/rownd
+        - generic [ref=f3e227]:
+          - generic [ref=f3e228]:
+            - generic [ref=f3e229]: "Founded:"
+            - generic [ref=f3e230]: "2022"
+          - generic [ref=f3e231]:
+            - generic [ref=f3e232]: "Batch:"
+            - generic [ref=f3e233]: W22
+          - generic [ref=f3e234]:
+            - generic [ref=f3e235]: "Team Size:"
+            - generic [ref=f3e236]: "7"
+          - generic [ref=f3e237]:
+            - generic [ref=f3e238]: "Status:"
+            - generic [ref=f3e239]: Active
+          - generic [ref=f3e241]:
+            - generic [ref=f3e242]: "Location:"
+            - generic [ref=f3e243]: Raleigh, NC
+          - generic [ref=f3e244]:
+            - link "Company website" [ref=f3e245] [cursor=pointer]:
+              - /url: https://rownd.ai
+            - link "LinkedIn profile" [ref=f3e248] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/rownd
+            - link "X (Twitter) account" [ref=f3e250] [cursor=pointer]:
+              - /url: https://twitter.com/RowndHQ
+              - img "X (Twitter) logo" [ref=f3e251]
+            - link "Crunchbase profile" [ref=f3e252] [cursor=pointer]:
+              - /url: https://www.crunchbase.com/organization/rownd
+      - generic [ref=f3e254]: Founders
+      - generic [ref=f3e255]:
+        - generic [ref=f3e257]:
+          - img "Matt Hamann" [ref=f3e259]
+          - generic [ref=f3e260]:
+            - generic [ref=f3e261]:
+              - generic [ref=f3e262]: Matt Hamann
+              - generic [ref=f3e263]:
+                - link "Twitter account" [ref=f3e264] [cursor=pointer]:
+                  - /url: https://x.com/mhamann
+                  - img "Twitter account" [ref=f3e265]
+                - link "LinkedIn profile" [ref=f3e266] [cursor=pointer]:
+                  - /url: https://github.com/in/mhamann
+            - generic [ref=f3e268]: Founder
+        - generic [ref=f3e270]:
+          - img "Rachel Orrino" [ref=f3e272]
+          - generic [ref=f3e273]:
+            - generic [ref=f3e274]:
+              - generic [ref=f3e275]: Rachel Orrino
+              - generic [ref=f3e276]:
+                - link "Twitter account" [ref=f3e277] [cursor=pointer]:
+                  - /url: https://twitter.com/rachradd
+                  - img "Twitter account" [ref=f3e278]
+                - link "LinkedIn profile" [ref=f3e279] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/rachelorrino/
+            - generic [ref=f3e281]: Founder
+        - generic [ref=f3e283]:
+          - img "Robert Thelen" [ref=f3e285]
+          - generic [ref=f3e286]:
+            - generic [ref=f3e287]:
+              - generic [ref=f3e288]: Robert Thelen
+              - generic [ref=f3e289]:
+                - link "Twitter account" [ref=f3e290] [cursor=pointer]:
+                  - /url: https://twitter.com/rgthelen
+                  - img "Twitter account" [ref=f3e291]
+                - link "LinkedIn profile" [ref=f3e292] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/robertthelen/
+            - generic [ref=f3e294]: Founder
+      - generic [ref=f3e295]:
+        - generic [ref=f3e296]: Similar Jobs
+        - generic [ref=f3e297]:
+          - generic [ref=f3e298]:
+            - img "Thesis" [ref=f3e300]
+            - generic [ref=f3e301]:
+              - link "Thesis" [ref=f3e302] [cursor=pointer]:
+                - /url: /companies/thesis
+              - link "Member of Technical Staff" [ref=f3e304] [cursor=pointer]:
+                - /url: /companies/thesis/jobs/R8xvEoc-member-of-technical-staff
+          - generic [ref=f3e305]:
+            - img "Mbodi AI" [ref=f3e307]
+            - generic [ref=f3e308]:
+              - link "Mbodi AI" [ref=f3e309] [cursor=pointer]:
+                - /url: /companies/mbodi-ai
+              - link "Founding Research Engineer" [ref=f3e311] [cursor=pointer]:
+                - /url: /companies/mbodi-ai/jobs/WYAcNkX-founding-research-engineer
+          - generic [ref=f3e312]:
+            - img "hillclimb" [ref=f3e314]
+            - generic [ref=f3e315]:
+              - link "hillclimb" [ref=f3e316] [cursor=pointer]:
+                - /url: /companies/hillclimb
+              - link "Member of Technical Staff, Research" [ref=f3e318] [cursor=pointer]:
+                - /url: /companies/hillclimb/jobs/0libF0X-member-of-technical-staff-research
+          - generic [ref=f3e319]:
+            - img "Raindrop" [ref=f3e321]
+            - generic [ref=f3e322]:
+              - link "Raindrop" [ref=f3e323] [cursor=pointer]:
+                - /url: /companies/raindrop
+              - link "ML Engineer" [ref=f3e325] [cursor=pointer]:
+                - /url: /companies/raindrop/jobs/XJQYwdR-ml-engineer
+          - generic [ref=f3e326]:
+            - img "Juno" [ref=f3e328]
+            - generic [ref=f3e329]:
+              - link "Juno" [ref=f3e330] [cursor=pointer]:
+                - /url: /companies/juno-chat
+              - link "AI Founding Engineer at Juno" [ref=f3e332] [cursor=pointer]:
+                - /url: /companies/juno-chat/jobs/TPnzNRU-ai-founding-engineer-at-juno
+          - generic [ref=f3e333]:
+            - img "CTGT" [ref=f3e335]
+            - generic [ref=f3e336]:
+              - link "CTGT" [ref=f3e337] [cursor=pointer]:
+                - /url: /companies/ctgt
+              - 'link "Machine Learning Engineer: LLM Interpretability & Systems" [ref=f3e339] [cursor=pointer]':
+                - /url: /companies/ctgt/jobs/QbKf46B-machine-learning-engineer-llm-interpretability-systems
+          - generic [ref=f3e340]:
+            - img "Onyx" [ref=f3e342]
+            - generic [ref=f3e343]:
+              - link "Onyx" [ref=f3e344] [cursor=pointer]:
+                - /url: /companies/onyx
+              - link "Machine Learning Engineer" [ref=f3e346] [cursor=pointer]:
+                - /url: /companies/onyx/jobs/3Se5ptG-machine-learning-engineer
+          - generic [ref=f3e347]:
+            - img "Coulomb AI" [ref=f3e349]
+            - generic [ref=f3e350]:
+              - link "Coulomb AI" [ref=f3e351] [cursor=pointer]:
+                - /url: /companies/coulomb-ai
+              - link "AI Engineer" [ref=f3e353] [cursor=pointer]:
+                - /url: /companies/coulomb-ai/jobs/O2Daa8s-ai-engineer
+          - generic [ref=f3e354]:
+            - img "KelAI" [ref=f3e356]
+            - generic [ref=f3e357]:
+              - link "KelAI" [ref=f3e358] [cursor=pointer]:
+                - /url: /companies/kelai
+              - link "Applied AI Engineer" [ref=f3e360] [cursor=pointer]:
+                - /url: /companies/kelai/jobs/kQn2Z4d-applied-ai-engineer
+          - generic [ref=f3e361]:
+            - img "Landeed" [ref=f3e363]
+            - generic [ref=f3e364]:
+              - link "Landeed" [ref=f3e365] [cursor=pointer]:
+                - /url: /companies/landeed
+              - link "Member of Technical Staff - AI/ML Engineer" [ref=f3e367] [cursor=pointer]:
+                - /url: /companies/landeed/jobs/WpfnPfi-member-of-technical-staff-ai-ml-engineer
+          - generic [ref=f3e368]:
+            - img "PerfectBit, Inc." [ref=f3e370]
+            - generic [ref=f3e371]:
+              - link "PerfectBit, Inc." [ref=f3e372] [cursor=pointer]:
+                - /url: /companies/perfectbit-inc
+              - link "Hiring Research Scientists and Research Engineers at PerfectBit" [ref=f3e374] [cursor=pointer]:
+                - /url: /companies/perfectbit-inc/jobs/snGw8px-hiring-research-scientists-and-research-engineers-at-perfectbit
+          - generic [ref=f3e375]:
+            - img "Aemon" [ref=f3e377]
+            - generic [ref=f3e378]:
+              - link "Aemon" [ref=f3e379] [cursor=pointer]:
+                - /url: /companies/aemon
+              - link "Member of Technical Staff Intern 2027" [ref=f3e381] [cursor=pointer]:
+                - /url: /companies/aemon/jobs/1eLVh1X-member-of-technical-staff-intern-2027
+          - generic [ref=f3e382]:
+            - img "CellType" [ref=f3e384]
+            - generic [ref=f3e385]:
+              - link "CellType" [ref=f3e386] [cursor=pointer]:
+                - /url: /companies/celltype
+              - link "Founding Research Engineer, Model Training" [ref=f3e388] [cursor=pointer]:
+                - /url: /companies/celltype/jobs/l7i33bY-founding-research-engineer-model-training
+          - generic [ref=f3e389]:
+            - img "Asendia AI" [ref=f3e391]
+            - generic [ref=f3e392]:
+              - link "Asendia AI" [ref=f3e393] [cursor=pointer]:
+                - /url: /companies/asendia-ai
+              - link "Product Engineer" [ref=f3e395] [cursor=pointer]:
+                - /url: /companies/asendia-ai/jobs/sZsNfP4-product-engineer
+          - generic [ref=f3e396]:
+            - img "Closure" [ref=f3e398]
+            - generic [ref=f3e399]:
+              - link "Closure" [ref=f3e400] [cursor=pointer]:
+                - /url: /companies/closure
+              - link "Founding AI Engineer" [ref=f3e402] [cursor=pointer]:
+                - /url: /companies/closure/jobs/igy1QFY-founding-ai-engineer
+          - generic [ref=f3e403]:
+            - img "Polymath" [ref=f3e405]
+            - generic [ref=f3e406]:
+              - link "Polymath" [ref=f3e407] [cursor=pointer]:
+                - /url: /companies/polymath
+              - link "AI Research Resident" [ref=f3e409] [cursor=pointer]:
+                - /url: /companies/polymath/jobs/SnH2c5h-ai-research-resident
+          - generic [ref=f3e410]:
+            - img "Interface" [ref=f3e412]
+            - generic [ref=f3e413]:
+              - link "Interface" [ref=f3e414] [cursor=pointer]:
+                - /url: /companies/theinterface
+              - link "World Model Research Team (Generalist + Specialist Openings)" [ref=f3e416] [cursor=pointer]:
+                - /url: /companies/theinterface/jobs/7C4ep2P-world-model-research-team-generalist-specialist-openings
+          - generic [ref=f3e417]:
+            - img "Draftaid" [ref=f3e419]
+            - generic [ref=f3e420]:
+              - link "Draftaid" [ref=f3e421] [cursor=pointer]:
+                - /url: /companies/draftaid
+              - link "Founding ML Engineer" [ref=f3e423] [cursor=pointer]:
+                - /url: /companies/draftaid/jobs/kUdKFCc-founding-ml-engineer
+          - generic [ref=f3e424]:
+            - img "Infer" [ref=f3e426]
+            - generic [ref=f3e427]:
+              - link "Infer" [ref=f3e428] [cursor=pointer]:
+                - /url: /companies/infer
+              - link "Applied AI Engineer" [ref=f3e430] [cursor=pointer]:
+                - /url: /companies/infer/jobs/1DhbYdF-applied-ai-engineer
+          - generic [ref=f3e431]:
+            - img "Finku" [ref=f3e433]
+            - generic [ref=f3e434]:
+              - link "Finku" [ref=f3e435] [cursor=pointer]:
+                - /url: /companies/finku
+              - link "Lead Machine Learning Engineer" [ref=f3e437] [cursor=pointer]:
+                - /url: /companies/finku/jobs/F1zbztw-lead-machine-learning-engineer
+  - contentinfo [ref=f3e438]:
+    - heading "Footer" [level=2] [ref=f3e439]
+    - generic [ref=f3e440]:
+      - generic [ref=f3e441]:
+        - generic [ref=f3e443]:
+          - link "Y Combinator Y Combinator" [ref=f3e444] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f3e445]: Y Combinator
+            - img "Y Combinator" [ref=f3e446]
+          - heading "Make something people want." [level=3] [ref=f3e447]
+        - generic [ref=f3e448]:
+          - generic [ref=f3e449]:
+            - heading "Programs" [level=3] [ref=f3e450]
+            - list [ref=f3e451]:
+              - listitem [ref=f3e452]:
+                - link "YC Program" [ref=f3e453] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f3e454]:
+                - link "Startup School" [ref=f3e455] [cursor=pointer]:
+                  - /url: https://startupschool.org
+              - listitem [ref=f3e456]:
+                - link "Work at a Startup" [ref=f3e457] [cursor=pointer]:
+                  - /url: /jobs
+              - listitem [ref=f3e458]:
+                - link "Co-Founder Matching" [ref=f3e459] [cursor=pointer]:
+                  - /url: /cofounder-matching
+          - generic [ref=f3e460]:
+            - heading "Resources" [level=3] [ref=f3e461]
+            - list [ref=f3e462]:
+              - listitem [ref=f3e463]:
+                - link "Startup Directory" [ref=f3e464] [cursor=pointer]:
+                  - /url: /companies
+              - listitem [ref=f3e465]:
+                - link "Startup Library" [ref=f3e466] [cursor=pointer]:
+                  - /url: /library
+              - listitem [ref=f3e467]:
+                - link "Investors" [ref=f3e468] [cursor=pointer]:
+                  - /url: /investors
+              - listitem [ref=f3e469]:
+                - link "Demo Day" [ref=f3e470] [cursor=pointer]:
+                  - /url: /demoday
+              - listitem [ref=f3e471]:
+                - link "Safe" [ref=f3e472] [cursor=pointer]:
+                  - /url: /documents
+              - listitem [ref=f3e473]:
+                - link "Hacker News" [ref=f3e474] [cursor=pointer]:
+                  - /url: https://news.ycombinator.com/
+              - listitem [ref=f3e475]:
+                - link "Launch YC" [ref=f3e476] [cursor=pointer]:
+                  - /url: /launches
+              - listitem [ref=f3e477]:
+                - link "YC Deals" [ref=f3e478] [cursor=pointer]:
+                  - /url: https://deals.ycombinator.com
+          - generic [ref=f3e479]:
+            - heading "Company" [level=3] [ref=f3e480]
+            - list [ref=f3e481]:
+              - listitem [ref=f3e482]:
+                - link "YC Blog" [ref=f3e483] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=f3e484]:
+                - link "Contact" [ref=f3e485] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=f3e486]:
+                - link "Press" [ref=f3e487] [cursor=pointer]:
+                  - /url: /press
+              - listitem [ref=f3e488]:
+                - link "People" [ref=f3e489] [cursor=pointer]:
+                  - /url: /people
+              - listitem [ref=f3e490]:
+                - link "Careers" [ref=f3e491] [cursor=pointer]:
+                  - /url: /software
+              - listitem [ref=f3e492]:
+                - link "Privacy Policy" [ref=f3e493] [cursor=pointer]:
+                  - /url: /legal#privacy
+              - listitem [ref=f3e494]:
+                - link "Notice at Collection" [ref=f3e495] [cursor=pointer]:
+                  - /url: /legal#notice-at-collection
+              - listitem [ref=f3e496]:
+                - link "Security" [ref=f3e497] [cursor=pointer]:
+                  - /url: /security
+              - listitem [ref=f3e498]:
+                - link "Terms of Use" [ref=f3e499] [cursor=pointer]:
+                  - /url: /legal#tou
+      - generic [ref=f3e500]:
+        - generic [ref=f3e501]:
+          - link "Twitter" [ref=f3e502] [cursor=pointer]:
+            - /url: https://twitter.com/ycombinator
+          - link "Facebook" [ref=f3e506] [cursor=pointer]:
+            - /url: https://www.facebook.com/YCombinator/
+          - link "Instagram" [ref=f3e510] [cursor=pointer]:
+            - /url: https://www.instagram.com/ycombinator
+          - link "LinkedIn" [ref=f3e514] [cursor=pointer]:
+            - /url: https://www.linkedin.com/school/y-combinator/
+          - link "Youtube" [ref=f3e518] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/ycombinator
+        - paragraph [ref=f3e522]: © 2026 Y Combinator

@@ -1,0 +1,403 @@
+- generic [active] [ref=f29e1]:
+  - generic [ref=f29e2]:
+    - navigation [ref=f29e3]:
+      - generic "Open navigation drawer" [ref=f29e5] [cursor=pointer]
+      - link "Home" [ref=f29e8] [cursor=pointer]:
+        - /url: /?ref_=hm_nv_home
+      - search [ref=f29e18]:
+        - generic "All" [ref=f29e22] [cursor=pointer]
+        - generic [ref=f29e26]:
+          - combobox [ref=f29e27]:
+            - textbox "Search IMDb" [ref=f29e28]
+            - listbox
+          - status [ref=f29e29]: 8 suggestions available
+        - button "Submit search" [ref=f29e30] [cursor=pointer]
+      - link "Sign in" [ref=f29e35] [cursor=pointer]:
+        - /url: /registration/signin/?u=%2F&ref_=hm_nv_generic_lgin
+      - link "Use app" [ref=f29e37] [cursor=pointer]:
+        - /url: https://slyb.app.link/vtz1COZnXAb?$canonical_url=https://www.imdb.com/
+      - status
+    - status
+    - main [ref=f29e39]:
+      - iframe [ref=f29e40]:
+        
+      - generic [ref=f29e49]:
+        - generic [ref=f29e52]:
+          - figure [ref=f29e54]:
+            - generic [ref=f29e55]:
+              - group [ref=f29e56]:
+                - img "I Play Rocky" [ref=f29e58]
+                - button "Add to Watchlist" [ref=f29e59] [cursor=pointer]
+                - generic "I Play Rocky" [ref=f29e64]
+              - group [ref=f29e66] [cursor=pointer]:
+                - img "'I Play Rocky'" [ref=f29e68]
+                - generic "'I Play Rocky'" [ref=f29e69]:
+                  - generic [ref=f29e76]:
+                    - generic [ref=f29e77]:
+                      - generic [ref=f29e78]: "'I Play Rocky'"
+                      - generic [ref=f29e79]: 2:50
+                    - generic [ref=f29e80]: Watch the Trailer
+          - figure [ref=f29e83]:
+            - generic [ref=f29e84]:
+              - group [ref=f29e85]:
+                - img "Digger" [ref=f29e87]
+                - button "Add to Watchlist" [ref=f29e88] [cursor=pointer]
+                - generic "Digger" [ref=f29e93]
+              - group [ref=f29e95] [cursor=pointer]:
+                - img "Tom Cruise Stars as 'Digger'" [ref=f29e97]
+                - generic "Tom Cruise Stars as 'Digger'" [ref=f29e98]:
+                  - generic [ref=f29e105]:
+                    - generic [ref=f29e106]:
+                      - generic [ref=f29e107]: Tom Cruise Stars as 'Digger'
+                      - generic [ref=f29e108]: 2:36
+                    - generic [ref=f29e109]: Watch the Trailer
+          - figure [ref=f29e112]:
+            - generic [ref=f29e113]:
+              - group [ref=f29e114]:
+                - generic [ref=f29e115]:
+                  - img "Christopher Nolan and 'The Odyssey' Cast Break Down Their 'Crazy' Shot Sequences"
+                - button "Add to Watchlist" [ref=f29e116] [cursor=pointer]
+                - generic "Christopher Nolan and 'The Odyssey' Cast Break Down Their 'Crazy' Shot Sequences" [ref=f29e121]
+              - group [ref=f29e123] [cursor=pointer]:
+                - generic [ref=f29e124]:
+                  - img "Get Into 'The Odyssey' Craziness With Christopher Nolan and the Cast"
+                - generic "Get Into 'The Odyssey' Craziness With Christopher Nolan and the Cast" [ref=f29e125]:
+                  - generic [ref=f29e132]:
+                    - generic [ref=f29e133]:
+                      - generic [ref=f29e134]: Get Into 'The Odyssey' Craziness With Christopher Nolan and the Cast
+                      - generic [ref=f29e135]: 9:23
+                    - generic [ref=f29e136]: Watch Our Interview
+          - figure [ref=f29e139]:
+            - generic [ref=f29e140]:
+              - group [ref=f29e141]:
+                - generic [ref=f29e142]:
+                  - img "Idiots"
+                - button "Add to Watchlist" [ref=f29e143] [cursor=pointer]
+                - generic "Idiots" [ref=f29e148]
+              - group [ref=f29e150] [cursor=pointer]:
+                - generic [ref=f29e151]:
+                  - img "'Idiots'"
+                - generic "'Idiots'" [ref=f29e152]:
+                  - generic [ref=f29e159]:
+                    - generic [ref=f29e160]:
+                      - generic [ref=f29e161]: "'Idiots'"
+                      - generic [ref=f29e162]: 1:39
+                    - generic [ref=f29e163]: Watch the Trailer
+          - figure [ref=f29e166]:
+            - generic [ref=f29e167]:
+              - group [ref=f29e168]:
+                - generic [ref=f29e169]:
+                  - 'img "Dune: Part Three"'
+                - button "Add to Watchlist" [ref=f29e170] [cursor=pointer]
+                - 'generic "Dune: Part Three" [ref=f29e175]'
+              - group [ref=f29e177] [cursor=pointer]:
+                - generic [ref=f29e178]:
+                  - 'img "''Dune: Part Three''"'
+                - 'generic "''Dune: Part Three''" [ref=f29e179]':
+                  - generic [ref=f29e186]:
+                    - generic [ref=f29e187]:
+                      - generic [ref=f29e188]: "'Dune: Part Three'"
+                      - generic [ref=f29e189]: 2:47
+                    - generic [ref=f29e190]: Watch the Trailer
+          - figure [ref=f29e193]:
+            - generic [ref=f29e194]:
+              - group [ref=f29e195]:
+                - generic [ref=f29e196]:
+                  - img "The Runner"
+                - button "Add to Watchlist" [ref=f29e197] [cursor=pointer]
+                - generic "The Runner" [ref=f29e202]
+              - group [ref=f29e204] [cursor=pointer]:
+                - generic [ref=f29e205]:
+                  - img "Gal Gadot is 'The Runner'"
+                - generic "Gal Gadot is 'The Runner'" [ref=f29e206]:
+                  - generic [ref=f29e213]:
+                    - generic [ref=f29e214]:
+                      - generic [ref=f29e215]: Gal Gadot is 'The Runner'
+                      - generic [ref=f29e216]: 1:47
+                    - generic [ref=f29e217]: Watch the Trailer
+          - figure [ref=f29e220]:
+            - generic [ref=f29e221]:
+              - group [ref=f29e222]:
+                - generic [ref=f29e223]:
+                  - img "The Shards"
+                - button "Add to Watchlist" [ref=f29e224] [cursor=pointer]
+                - generic "The Shards" [ref=f29e229]
+              - group [ref=f29e231] [cursor=pointer]:
+                - generic [ref=f29e232]:
+                  - img "\"The Shards\""
+                - generic "\"The Shards\"" [ref=f29e233]:
+                  - generic [ref=f29e240]:
+                    - generic [ref=f29e241]:
+                      - generic [ref=f29e242]: "\"The Shards\""
+                      - generic [ref=f29e243]: 1:59
+                    - generic [ref=f29e244]: The Latest Ryan Murphy Series
+          - figure [ref=f29e247]:
+            - generic [ref=f29e248]:
+              - group [ref=f29e249]:
+                - generic [ref=f29e250]:
+                  - img "The Dog Stars"
+                - button "Add to Watchlist" [ref=f29e251] [cursor=pointer]
+                - generic "The Dog Stars" [ref=f29e256]
+              - group [ref=f29e258] [cursor=pointer]:
+                - generic [ref=f29e259]:
+                  - img "'The Dog Stars'"
+                - generic "'The Dog Stars'" [ref=f29e260]:
+                  - generic [ref=f29e267]:
+                    - generic [ref=f29e268]:
+                      - generic [ref=f29e269]: "'The Dog Stars'"
+                      - generic [ref=f29e270]: 2:06
+                    - generic [ref=f29e271]: Watch the Trailer
+          - figure [ref=f29e274]:
+            - generic [ref=f29e275]:
+              - group [ref=f29e276]:
+                - generic [ref=f29e277]:
+                  - img "Mayday"
+                - button "Add to Watchlist" [ref=f29e278] [cursor=pointer]
+                - generic "Mayday" [ref=f29e283]
+              - group [ref=f29e285] [cursor=pointer]:
+                - generic [ref=f29e286]:
+                  - img "Kenneth Branagh & Ryan Reynolds Star in 'Mayday'"
+                - generic "Kenneth Branagh & Ryan Reynolds Star in 'Mayday'" [ref=f29e287]:
+                  - generic [ref=f29e294]:
+                    - generic [ref=f29e295]:
+                      - generic [ref=f29e296]: Kenneth Branagh & Ryan Reynolds Star in 'Mayday'
+                      - generic [ref=f29e297]: 2:42
+                    - generic [ref=f29e298]: Watch the Trailer
+          - figure [ref=f29e301]:
+            - generic [ref=f29e302]:
+              - group [ref=f29e303]:
+                - generic [ref=f29e304]:
+                  - img "The Whisper Man"
+                - button "Add to Watchlist" [ref=f29e305] [cursor=pointer]
+                - generic "The Whisper Man" [ref=f29e310]
+              - group [ref=f29e312] [cursor=pointer]:
+                - generic [ref=f29e313]:
+                  - img "'The Whisper Man'"
+                - generic "'The Whisper Man'" [ref=f29e314]:
+                  - generic [ref=f29e321]:
+                    - generic [ref=f29e322]:
+                      - generic [ref=f29e323]: "'The Whisper Man'"
+                      - generic [ref=f29e324]: 2:29
+                    - generic [ref=f29e325]: Coming to Netflix Aug. 28
+        - link "Browse trailers" [ref=f29e331] [cursor=pointer]:
+          - /url: /trailers/?ref_=hm_hp_sm
+      - generic [ref=f29e337]:
+        - link "Emmys Nominees" [ref=f29e338] [cursor=pointer]:
+          - /url: /emmys/event/ev0000223/2026/1/?ref_=hm_chip_hm_p1_csegemy
+        - link "Summer Watch Guide" [ref=f29e342] [cursor=pointer]:
+          - /url: /imdbpicks/summer-watch-guide/?ref_=hm_chip_hm_p2_csegswg
+        - link "Most Anticipated in July" [ref=f29e346] [cursor=pointer]:
+          - /url: /most-anticipated/this-month/?ref_=hm_chip_hm_p3_csegmatm
+        - link "IMDb Labs" [ref=f29e350] [cursor=pointer]:
+          - /url: /labs/?ref_=hm_chip_hm_p4_cseglabs
+      - generic [ref=f29e355]:
+        - heading "Featured today" [level=3] [ref=f29e358]
+        - group [ref=f29e360]:
+          - generic [ref=f29e361]:
+            - group [ref=f29e362]:
+              - group [ref=f29e363]:
+                - img "Poster" [ref=f29e365]
+                - link "List" [ref=f29e366] [cursor=pointer]:
+                  - /url: /list/ls4178908507/?ref_=hm_edcft_anticipated_india_second_half_2026_geo_1_i
+              - generic [ref=f29e376]:
+                - 'link "Most Anticipated Indian Movies: July-December 2026" [ref=f29e377] [cursor=pointer]':
+                  - /url: /list/ls4178908507/?ref_=hm_edcft_anticipated_india_second_half_2026_geo_1_t
+                - link "See the list" [ref=f29e380] [cursor=pointer]:
+                  - /url: /list/ls4178908507/?ref_=hm_edcft_c_anticipated_india_second_half_2026_geo_1_cta
+            - group [ref=f29e381]:
+              - group [ref=f29e382]:
+                - img "Editorial Image" [ref=f29e384]
+                - link "List" [ref=f29e385] [cursor=pointer]:
+                  - /url: /most-anticipated/this-month/?ref_=hm_edcft_ft_csegmatm_elp_1_i
+              - generic [ref=f29e395]:
+                - link "'The Odyssey' and More to Watch in July" [ref=f29e396] [cursor=pointer]:
+                  - /url: /most-anticipated/this-month/?ref_=hm_edcft_ft_csegmatm_elp_1_t
+                - link "Add these to your Watchlist" [ref=f29e399] [cursor=pointer]:
+                  - /url: /most-anticipated/this-month/?ref_=hm_edcft_c_ft_csegmatm_elp_1_cta
+            - group [ref=f29e400]:
+              - group [ref=f29e401]:
+                - img "Production art" [ref=f29e403]
+                - link "List" [ref=f29e404] [cursor=pointer]:
+                  - /url: /list/ls4178218774/?ref_=hm_edcft_ft_july26tv_2_i&sort=popularity%2Casc
+              - generic [ref=f29e414]:
+                - 'link "July TV/Streaming Calendar: \"The Hawk\" and More" [ref=f29e415] [cursor=pointer]':
+                  - /url: /list/ls4178218774/?ref_=hm_edcft_ft_july26tv_2_t&sort=popularity%2Casc
+                - link "See the list" [ref=f29e418] [cursor=pointer]:
+                  - /url: /list/ls4178218774/?ref_=hm_edcft_c_ft_july26tv_2_cta&sort=popularity%2Casc
+            - group [ref=f29e419]:
+              - group [ref=f29e420]:
+                - img "Production art" [ref=f29e422]
+                - link "Photos" [ref=f29e423] [cursor=pointer]:
+                  - /url: /most-anticipated/the-odyssey-stars-tty/rg3769210880/mediaviewer/rm1109247490?ref_=hm_edcft_cseghit_odyssey_tty_3_i
+              - generic [ref=f29e431]:
+                - link "'The Odyssey' Stars Through the Years" [ref=f29e432] [cursor=pointer]:
+                  - /url: /most-anticipated/the-odyssey-stars-tty/rg3769210880/mediaviewer/rm1109247490?ref_=hm_edcft_cseghit_odyssey_tty_3_t
+                - link "See the full gallery" [ref=f29e435] [cursor=pointer]:
+                  - /url: /most-anticipated/the-odyssey-stars-tty/rg3769210880/mediaviewer/rm1109247490?ref_=hm_edcft_c_cseghit_odyssey_tty_3_cta
+            - group [ref=f29e436]:
+              - group [ref=f29e437]:
+                - generic [ref=f29e438]:
+                  - img "Poster"
+                - link "List" [ref=f29e439] [cursor=pointer]:
+                  - /url: /imdbpicks/summer-watch-guide/?ref_=hm_edcft_csegswg_elp_4_i
+              - generic [ref=f29e449]:
+                - 'link "''Spider-Man: Brand New Day'' and All the Summer Essentials" [ref=f29e450] [cursor=pointer]':
+                  - /url: /imdbpicks/summer-watch-guide/?ref_=hm_edcft_csegswg_elp_4_t
+                - link "Browse the guide" [ref=f29e453] [cursor=pointer]:
+                  - /url: /imdbpicks/summer-watch-guide/?ref_=hm_edcft_c_csegswg_elp_4_cta
+            - group [ref=f29e454]:
+              - group [ref=f29e455]:
+                - generic [ref=f29e456]:
+                  - img "Poster"
+                - link "Photos" [ref=f29e457] [cursor=pointer]:
+                  - /url: /imdbpicks/latest-posters/rg1624939264/mediaviewer/rm935577346?ref_=hm_edcft_hp_g_lp_5_i
+              - generic [ref=f29e465]:
+                - 'link "''Idiots'' and More: New Movie and TV Posters" [ref=f29e466] [cursor=pointer]':
+                  - /url: /imdbpicks/latest-posters/rg1624939264/mediaviewer/rm935577346?ref_=hm_edcft_hp_g_lp_5_t
+                - link "See more posters" [ref=f29e469] [cursor=pointer]:
+                  - /url: /imdbpicks/latest-posters/rg1624939264/mediaviewer/rm935577346?ref_=hm_edcft_c_hp_g_lp_5_cta
+            - group [ref=f29e470]:
+              - group [ref=f29e471]:
+                - generic [ref=f29e472]:
+                  - img "Poster"
+                - link "List" [ref=f29e473] [cursor=pointer]:
+                  - /url: /list/ls4178238093/?ref_=hm_edcft_wtw_netflix_july26_6_i
+              - generic [ref=f29e483]:
+                - link "Everything New on Netflix This Month" [ref=f29e484] [cursor=pointer]:
+                  - /url: /list/ls4178238093/?ref_=hm_edcft_wtw_netflix_july26_6_t
+                - link "See the calendar" [ref=f29e487] [cursor=pointer]:
+                  - /url: /list/ls4178238093/?ref_=hm_edcft_c_wtw_netflix_july26_6_cta
+            - group [ref=f29e488]:
+              - group [ref=f29e489]:
+                - generic [ref=f29e490]:
+                  - img "Production art"
+                - link "Photos" [ref=f29e491] [cursor=pointer]:
+                  - /url: /gallery/rg1641716480/mediaviewer/rm1512227074/?ref_=hm_edcft_ft_g_pwl_7_i
+              - generic [ref=f29e499]:
+                - link "Stunning Pics From 'The Odyssey' Red Carpet" [ref=f29e500] [cursor=pointer]:
+                  - /url: /gallery/rg1641716480/mediaviewer/rm1512227074/?ref_=hm_edcft_ft_g_pwl_7_t
+                - link "See the gallery" [ref=f29e503] [cursor=pointer]:
+                  - /url: /gallery/rg1641716480/mediaviewer/rm1512227074/?ref_=hm_edcft_c_ft_g_pwl_7_cta
+            - group [ref=f29e504]:
+              - group [ref=f29e505]:
+                - generic [ref=f29e506]:
+                  - img "Production art"
+                - link "Poll" [ref=f29e507] [cursor=pointer]:
+                  - /url: /poll/zCB-_HhIFjo/?ref_=hm_edcft_pls_071126_8_i
+              - generic [ref=f29e517]:
+                - 'link "Poll: Most-Rated Anime on IMDb" [ref=f29e518] [cursor=pointer]':
+                  - /url: /poll/zCB-_HhIFjo/?ref_=hm_edcft_pls_071126_8_t
+                - link "Vote now" [ref=f29e521] [cursor=pointer]:
+                  - /url: /poll/zCB-_HhIFjo/?ref_=hm_edcft_c_pls_071126_8_cta
+            - group [ref=f29e522]:
+              - group [ref=f29e523]:
+                - generic [ref=f29e524]:
+                  - img "Poster"
+                - link "List" [ref=f29e525] [cursor=pointer]:
+                  - /url: /list/ls4178218774/?ref_=hm_edcft_pks_july26tv_9_i
+              - generic [ref=f29e535]:
+                - link "July 2026 TV and Streaming Premiere Dates" [ref=f29e536] [cursor=pointer]:
+                  - /url: /list/ls4178218774/?ref_=hm_edcft_pks_july26tv_9_t
+                - link "See the list" [ref=f29e539] [cursor=pointer]:
+                  - /url: /list/ls4178218774/?ref_=hm_edcft_c_pks_july26tv_9_cta
+            - group [ref=f29e540]:
+              - group [ref=f29e541]:
+                - generic [ref=f29e542]:
+                  - img "Poster"
+                - link "List" [ref=f29e543] [cursor=pointer]:
+                  - /url: /list/ls4154393318/?ref_=hm_edcft_ft_ls_rc_10_i
+              - generic [ref=f29e553]:
+                - 'link "TV Tracker: Renewed and Canceled Shows" [ref=f29e554] [cursor=pointer]':
+                  - /url: /list/ls4154393318/?ref_=hm_edcft_ft_ls_rc_10_t
+                - link "Check the status" [ref=f29e557] [cursor=pointer]:
+                  - /url: /list/ls4154393318/?ref_=hm_edcft_c_ft_ls_rc_10_cta
+            - group [ref=f29e558]:
+              - group [ref=f29e559]:
+                - generic [ref=f29e560]:
+                  - img "Editorial Image"
+                - link "Photos" [ref=f29e561] [cursor=pointer]:
+                  - /url: /gallery/rg497850368/mediaviewer/rm1335543298?ref_=hm_edcft_gal_im_samneill_11_i
+              - generic [ref=f29e569]:
+                - link "Remembering Sam Neill (1947-2026)" [ref=f29e570] [cursor=pointer]:
+                  - /url: /gallery/rg497850368/mediaviewer/rm1335543298?ref_=hm_edcft_gal_im_samneill_11_t
+                - link "See the gallery" [ref=f29e573] [cursor=pointer]:
+                  - /url: /gallery/rg497850368/mediaviewer/rm1335543298?ref_=hm_edcft_c_gal_im_samneill_11_cta
+            - group [ref=f29e574]:
+              - group [ref=f29e575]:
+                - generic [ref=f29e576]:
+                  - img "Publicity photo"
+                - link "List" [ref=f29e577] [cursor=pointer]:
+                  - /url: /imdbpicks/stars-we-lost-in-2026/ls4154313445/mediaviewer/rm3982076672/?ref_=hm_edcft_csegbest_g_inmem26_12_i
+              - generic [ref=f29e587]:
+                - 'link "In Memoriam: Stars We Lost in 2026" [ref=f29e588] [cursor=pointer]':
+                  - /url: /imdbpicks/stars-we-lost-in-2026/ls4154313445/mediaviewer/rm3982076672/?ref_=hm_edcft_csegbest_g_inmem26_12_t
+                - link "See more" [ref=f29e591] [cursor=pointer]:
+                  - /url: /imdbpicks/stars-we-lost-in-2026/ls4154313445/mediaviewer/rm3982076672/?ref_=hm_edcft_c_csegbest_g_inmem26_12_cta
+      - link [ref=f29e600] [cursor=pointer]:
+        - /url: /chart/starmeter/?ref_=hm_mpc_sm
+        - heading "Trending people" [level=3] [ref=f29e601]
+      - generic [ref=f29e609]:
+        - heading "What to watch" [level=3] [ref=f29e611]
+        - link "Get more recommendations" [ref=f29e613] [cursor=pointer]:
+          - /url: /what-to-watch/?ref_=hm_watch_btn
+      - generic [ref=f29e621]:
+        - heading "Explore what’s streaming" [level=3] [ref=f29e623]
+        - link "Set your preferred services" [ref=f29e625] [cursor=pointer]:
+          - /url: /preferences/preferredservices/?ref_=hm_stp_btn
+      - heading "Explore movies & TV shows" [level=3] [ref=f29e634]
+      - heading "More to explore" [level=3] [ref=f29e640]
+    - generic [ref=f29e642]:
+      - generic [ref=f29e645]:
+        - heading "Recently viewed" [level=3] [ref=f29e648]
+        - generic [ref=f29e649]: You have no recently viewed pages
+      - complementary "Bottom Sponsored Advertisement":
+        - button "Close advertisement" [ref=f29e651] [cursor=pointer]
+    - contentinfo [ref=f29e658]:
+      - link "Get the IMDb app" [ref=f29e660] [cursor=pointer]:
+        - /url: https://slyb.app.link/SKdyQ6A449
+      - link "Sign in for more access" [ref=f29e663] [cursor=pointer]:
+        - /url: /registration/signin/?u=%2F&ref_=hm_ftr_reg
+      - generic [ref=f29e665]:
+        - generic [ref=f29e666]:
+          - link "TikTok" [ref=f29e667] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@imdb
+          - link "Instagram" [ref=f29e669] [cursor=pointer]:
+            - /url: https://instagram.com/imdb
+          - link "Twitter" [ref=f29e672] [cursor=pointer]:
+            - /url: https://twitter.com/imdb
+          - link "YouTube" [ref=f29e674] [cursor=pointer]:
+            - /url: https://youtube.com/imdb/
+          - link "Facebook" [ref=f29e676] [cursor=pointer]:
+            - /url: https://facebook.com/imdb
+        - generic [ref=f29e678]:
+          - link "Help" [ref=f29e679] [cursor=pointer]:
+            - /url: https://help.imdb.com/imdb
+          - link "Site Index" [ref=f29e681] [cursor=pointer]:
+            - /url: https://help.imdb.com/article/imdb/general-information/imdb-site-index/GNCX7BHNSPBTFALQ#so
+          - link "IMDbPro" [ref=f29e683] [cursor=pointer]:
+            - /url: https://pro.imdb.com?ref_=cons_tf_pro&rf=cons_tf_pro
+          - link "Box Office Mojo" [ref=f29e685] [cursor=pointer]:
+            - /url: https://www.boxofficemojo.com
+          - link "License IMDb Data" [ref=f29e687] [cursor=pointer]:
+            - /url: https://developer.imdb.com/
+        - generic [ref=f29e689]:
+          - link "Press Room" [ref=f29e690] [cursor=pointer]:
+            - /url: /pressroom/?ref_=hm_ftr
+          - link "Advertising" [ref=f29e691] [cursor=pointer]:
+            - /url: https://advertising.amazon.com/resources/ad-specs/imdb/
+          - link "Jobs" [ref=f29e693] [cursor=pointer]:
+            - /url: https://www.amazon.jobs/en/teams/imdb
+          - link "Conditions of Use" [ref=f29e695] [cursor=pointer]:
+            - /url: /conditions/?ref_=hm_ftr
+          - link "Privacy Policy" [ref=f29e696] [cursor=pointer]:
+            - /url: /privacy/?ref_=hm_ftr
+          - generic [ref=f29e697]:
+            - link "Your Ads Privacy Choices" [ref=f29e698] [cursor=pointer]:
+              - /url: /privacy/redirect/?ref_=hm_ftr
+            - link "Your Ads Privacy Choices" [ref=f29e711] [cursor=pointer]:
+              - /url: /privacy/redirect/?ref_=hm_ftr
+      - img "IMDb, an Amazon company" [ref=f29e713]
+      - paragraph [ref=f29e749]: © 1990-2026 by IMDb.com, Inc.
+    - button "Back to top" [ref=f29e750] [cursor=pointer]
+    - status
+  - alert [ref=f29e754]

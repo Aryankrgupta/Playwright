@@ -1,0 +1,263 @@
+- generic [active] [ref=f197e1]:
+  - generic [ref=f197e2]:
+    - navigation "Site Navigation Links" [ref=f197e4]:
+      - link "The Weather Company" [ref=f197e6] [cursor=pointer]:
+        - /url: /en-IN
+        - img "The Weather Company" [ref=f197e7]
+      - list [ref=f197e10]:
+        - listitem [ref=f197e11]:
+          - link "Forecasts":
+            - /url: /en-IN/us/new-york/city/new-york-city/today
+            - paragraph: Forecasts
+        - listitem [ref=f197e12]:
+          - link [ref=f197e13] [cursor=pointer]:
+            - /url: /en-IN/weather/radar/interactive/l/98e8083bb7de0fc467fd1e22a1692f8f200343e4e0acc3b3fc31e71d29113b54
+            - paragraph [ref=f197e16]: Radar
+        - listitem [ref=f197e17]:
+          - link [ref=f197e18] [cursor=pointer]:
+            - /url: /en-IN/us/new-york/city/new-york-city/allergy
+            - paragraph [ref=f197e21]: Allergy Tracker
+        - listitem [ref=f197e22]:
+          - link [ref=f197e23] [cursor=pointer]:
+            - /url: /en-IN/us/new-york/city/new-york-city/air-quality
+            - paragraph [ref=f197e28]: Air Quality Index
+        - listitem [ref=f197e29]:
+          - button [ref=f197e30] [cursor=pointer]:
+            - img "Overflow Menu Horizontal" [ref=f197e31]
+            - paragraph [ref=f197e34]: More
+      - list [ref=f197e35]:
+        - listitem [ref=f197e36]:
+          - link [ref=f197e37] [cursor=pointer]:
+            - /url: /en-IN/login
+            - img "User Avatar" [ref=f197e38]
+            - paragraph [ref=f197e42]: Sign in
+    - main [ref=f197e43]:
+      - generic [ref=f197e46]:
+        - button "New York City" [ref=f197e49] [cursor=pointer]
+        - generic [ref=f197e54]:
+          - button
+          - generic [ref=f197e55]:
+            - link "Today" [ref=f197e56] [cursor=pointer]:
+              - /url: /en-IN/us/new-york/city/new-york-city/today
+            - link "Hourly" [ref=f197e57] [cursor=pointer]:
+              - /url: /en-IN/us/new-york/city/new-york-city/hourbyhour
+            - link "10 Day" [ref=f197e58] [cursor=pointer]:
+              - /url: /en-IN/us/new-york/city/new-york-city/tenday
+            - link "Monthly" [ref=f197e59] [cursor=pointer]:
+              - /url: /en-IN/weather/monthly/l/98e8083bb7de0fc467fd1e22a1692f8f200343e4e0acc3b3fc31e71d29113b54
+          - button
+      - generic [ref=f197e60]:
+        - region "Advertisement" [ref=f197e65]
+        - generic [ref=f197e70]:
+          - generic [ref=f197e73]:
+            - generic [ref=f197e74]:
+              - heading "New York City Weather" [level=2] [ref=f197e75]
+              - generic [ref=f197e76]:
+                - paragraph [ref=f197e80]: New York City, New York, United States
+                - paragraph [ref=f197e81]: ·
+                - paragraph [ref=f197e82]: As of 2:53 am GMT-4
+            - generic [ref=f197e83]:
+              - alert [ref=f197e84] [cursor=pointer]:
+                - generic [ref=f197e85]:
+                  - generic [ref=f197e86]:
+                    - img "Warning Alert" [ref=f197e87]
+                    - paragraph [ref=f197e90]: Flood Watch
+                  - paragraph [ref=f197e91]: From Sat, 10:00 until Sun, 02:00 EDT
+                - generic [ref=f197e92]:
+                  - paragraph [ref=f197e93]: +1 More
+                  - img "Chevron Right" [ref=f197e94]
+              - link [ref=f197e96] [cursor=pointer]:
+                - /url: /en-IN/us/new-york/city/new-york-city/hourbyhour
+                - region "Current Conditions" [ref=f197e97]
+          - heading "Today's outlook" [level=2] [ref=f197e128]
+          - region "Weather Today in" [ref=f197e133]:
+            - generic [ref=f197e135]:
+              - generic [ref=f197e136]:
+                - img "Wind" [ref=f197e137]
+                - paragraph [ref=f197e139]: Wind
+              - generic [ref=f197e141]:
+                - img "humidity" [ref=f197e142]
+                - paragraph [ref=f197e146]: Humidity
+              - paragraph [ref=f197e152]: Air Quality
+              - generic [ref=f197e154]:
+                - img "Dew Point" [ref=f197e155]
+                - paragraph [ref=f197e158]: Dew Point
+              - generic [ref=f197e160]:
+                - img "pressure" [ref=f197e161]
+                - paragraph [ref=f197e163]: Pressure
+              - generic [ref=f197e165]:
+                - img "Uv Index" [ref=f197e166]
+                - paragraph [ref=f197e168]: UV Index
+              - generic [ref=f197e170]:
+                - img "View" [ref=f197e171]
+                - paragraph [ref=f197e175]: Visibility
+              - generic [ref=f197e177]:
+                - img "New Moon" [ref=f197e178]
+                - paragraph [ref=f197e180]: Moon Phase
+              - generic [ref=f197e182]:
+                - img "Sunrise" [ref=f197e183]
+                - paragraph [ref=f197e186]: Sunrise
+              - generic [ref=f197e188]:
+                - img "Sunset" [ref=f197e189]
+                - paragraph [ref=f197e192]: Sunset
+          - region "Daily Forecast" [ref=f197e196]:
+            - heading "Daily Forecast" [level=1] [ref=f197e197]
+            - link "Next 10 days" [ref=f197e215] [cursor=pointer]:
+              - /url: /en-IN/us/new-york/city/new-york-city/tenday
+          - region "Radar - Dry conditions for the next 6 hours." [ref=f197e218]:
+            - link "Loading Map Attribution" [ref=f197e219] [cursor=pointer]:
+              - /url: /en-IN/weather/radar/interactive/l/98e8083bb7de0fc467fd1e22a1692f8f200343e4e0acc3b3fc31e71d29113b54
+              - generic "Loading" [ref=f197e221]
+              - button "Map Attribution" [ref=f197e225]:
+                - img "Mapbox Logo" [ref=f197e226]
+          - heading "Sponsored Content" [level=2] [ref=f197e237]
+        - generic [ref=f197e239]:
+          - region "Advertisement" [ref=f197e242]
+          - generic [ref=f197e248]:
+            - heading "Air Quality Index" [level=2] [ref=f197e249]
+            - generic [ref=f197e250]:
+              - img [ref=f197e252]:
+                - generic [ref=f197e255]: "95"
+              - generic [ref=f197e256]:
+                - heading "Satisfactory" [level=2] [ref=f197e257]
+                - paragraph [ref=f197e258]: May cause minor breathing discomfort to sensitive people.
+            - link "See details" [ref=f197e260] [cursor=pointer]:
+              - /url: /en-IN/forecast/air-quality/l/40.713,-74.006
+            - button [ref=f197e261] [cursor=pointer]:
+              - paragraph [ref=f197e264]: Air Quality Index
+          - region "HealthAndActivities.healthAndActivities" [ref=f197e267]:
+            - heading "Health & Activities" [level=2] [ref=f197e268]
+            - link "Seasonal Allergies and Pollen Count Forecast Grass pollen is high in your area Chevron Right" [ref=f197e270] [cursor=pointer]:
+              - /url: /en-IN/forecast/allergy/l/98e8083bb7de0fc467fd1e22a1692f8f200343e4e0acc3b3fc31e71d29113b54
+              - generic [ref=f197e278]:
+                - generic [ref=f197e279]: Seasonal Allergies and Pollen Count Forecast
+                - generic [ref=f197e280]: Grass pollen is high in your area
+              - img "Chevron Right" [ref=f197e281]
+          - region "Advertisement" [ref=f197e285]
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - region "Advertisement"
+      - generic [ref=f197e290]:
+        - generic [ref=f197e291]:
+          - generic [ref=f197e292]:
+            - list [ref=f197e293]:
+              - listitem [ref=f197e294]:
+                - link [ref=f197e295] [cursor=pointer]:
+                  - /url: https://www.weathercompany.com/
+                  - img "The Weather Company" [ref=f197e296]
+              - listitem [ref=f197e297]:
+                - link [ref=f197e298] [cursor=pointer]:
+                  - /url: https://weather.com/
+                  - img "The Weather Channel" [ref=f197e299]
+              - listitem [ref=f197e300]:
+                - link [ref=f197e301] [cursor=pointer]:
+                  - /url: https://www.wunderground.com/
+                  - img "Weather Underground" [ref=f197e302]
+              - listitem [ref=f197e303]:
+                - link [ref=f197e304] [cursor=pointer]:
+                  - /url: https://weather.com/storm-radar
+                  - img "Storm Radar" [ref=f197e305]
+            - paragraph [ref=f197e306]:
+              - text: The Weather Channel is the world's most accurate forecaster according to ForecastWatch,
+              - link "Global and Regional Weather Forecast Accuracy Overview" [ref=f197e307] [cursor=pointer]:
+                - /url: https://forecastwatch.com/AccuracyOverview2021-2024
+              - text: ", 2021-2024, commissioned by The Weather Company."
+            - paragraph [ref=f197e308]: Weather Channel.
+          - generic [ref=f197e310]:
+            - generic [ref=f197e311]:
+              - paragraph [ref=f197e312]: Privacy & Legal
+              - list [ref=f197e313]:
+                - listitem [ref=f197e314]:
+                  - link "Terms of Use" [ref=f197e315] [cursor=pointer]:
+                    - /url: /en-IN/privacy/terms-of-use
+                    - paragraph [ref=f197e316]:
+                      - generic [ref=f197e317]: Terms of Use
+                - listitem [ref=f197e318]:
+                  - link "Privacy Policy" [ref=f197e319] [cursor=pointer]:
+                    - /url: /en-IN/privacy/privacy-policy
+                    - paragraph [ref=f197e320]:
+                      - generic [ref=f197e321]: Privacy Policy
+                - listitem [ref=f197e322]:
+                  - link "Data Rights" [ref=f197e323] [cursor=pointer]:
+                    - /url: /en-IN/data-rights
+                    - paragraph [ref=f197e324]:
+                      - generic [ref=f197e325]: Data Rights
+                - listitem [ref=f197e326]:
+                  - link "Privacy Settings" [ref=f197e327] [cursor=pointer]:
+                    - /url: /en-IN/privacy-settings
+                    - paragraph [ref=f197e328]:
+                      - generic [ref=f197e329]: Privacy Settings
+                - listitem [ref=f197e330]:
+                  - link "Data Vendors" [ref=f197e331] [cursor=pointer]:
+                    - /url: /en-IN/data-vendors
+                    - paragraph [ref=f197e332]:
+                      - generic [ref=f197e333]: Data Vendors
+                - listitem [ref=f197e334]:
+                  - link "AdChoices" [ref=f197e335] [cursor=pointer]:
+                    - /url: /en-US/services/ad-choices
+                    - paragraph [ref=f197e336]:
+                      - generic [ref=f197e337]: AdChoices
+                - listitem [ref=f197e338]:
+                  - link "Accessibility Statement" [ref=f197e339] [cursor=pointer]:
+                    - /url: /en-IN/accessibility-statement
+                    - paragraph [ref=f197e340]:
+                      - generic [ref=f197e341]: Accessibility Statement
+            - generic [ref=f197e342]:
+              - paragraph [ref=f197e344]: More
+              - list [ref=f197e345]:
+                - listitem [ref=f197e346]:
+                  - link "Feedback External Link" [ref=f197e347] [cursor=pointer]:
+                    - /url: //support.weather.com?language=en
+                    - paragraph [ref=f197e348]:
+                      - generic [ref=f197e349]: Feedback
+                    - img "External Link" [ref=f197e350]
+                - listitem [ref=f197e353]:
+                  - link "News Room External Link" [ref=f197e354] [cursor=pointer]:
+                    - /url: https://www.weathercompany.com/newsroom
+                    - paragraph [ref=f197e355]:
+                      - generic [ref=f197e356]: News Room
+                    - img "External Link" [ref=f197e357]
+                - listitem [ref=f197e360]:
+                  - link "Weather Data APIs External Link" [ref=f197e361] [cursor=pointer]:
+                    - /url: https://www.wunderground.com/weather/api
+                    - paragraph [ref=f197e362]:
+                      - generic [ref=f197e363]: Weather Data APIs
+                    - img "External Link" [ref=f197e364]
+                - listitem [ref=f197e367]:
+                  - link "Weather Data APIs External Link" [ref=f197e368] [cursor=pointer]:
+                    - /url: https://www.weathercompany.com/weather-data-apis/
+                    - paragraph [ref=f197e369]:
+                      - generic [ref=f197e370]: Weather Data APIs
+                    - img "External Link" [ref=f197e371]
+        - generic [ref=f197e375]:
+          - list [ref=f197e377]:
+            - listitem [ref=f197e378]:
+              - link [ref=f197e379] [cursor=pointer]:
+                - /url: https://www.facebook.com/TheWeatherChannel
+                - img "Facebook" [ref=f197e380]
+            - listitem [ref=f197e383]:
+              - link [ref=f197e384] [cursor=pointer]:
+                - /url: http://www.twitter.com/weatherchannel
+                - img "X" [ref=f197e385]
+            - listitem [ref=f197e387]:
+              - link [ref=f197e388] [cursor=pointer]:
+                - /url: http://instagram.com/weatherchannel
+                - img "Instagram" [ref=f197e389]
+            - listitem [ref=f197e393]:
+              - link [ref=f197e394] [cursor=pointer]:
+                - /url: http://www.youtube.com/user/TheWeatherChannel/
+                - img "Youtube" [ref=f197e395]
+          - paragraph [ref=f197e398]: © The Weather Company, LLC 2026
+          - list [ref=f197e400]:
+            - listitem [ref=f197e401]:
+              - link [ref=f197e402] [cursor=pointer]:
+                - /url: http://www.exploregeorgia.org/weather-and-travel-tips
+                - img "Explore Georgia" [ref=f197e403]
+            - listitem [ref=f197e404]:
+              - link [ref=f197e405] [cursor=pointer]:
+                - /url: https://www.essentialaccessibility.com/the-weather-channel?utm_source=theweatherchannelhomepage&utm_medium=iconlarge&utm_term=eachannelpage&utm_content=header&utm_campaign=theweatherchannel
+                - img "Essential Accessibility" [ref=f197e406]
+  - region "Notifications alt+T"
+  - alert [ref=f197e407]

@@ -1,0 +1,2512 @@
+- generic [active] [ref=f18e1]:
+  - generic [ref=f18e2]:
+    - navigation [ref=f18e3]:
+      - generic "Open navigation drawer" [ref=f18e5] [cursor=pointer]
+      - link "Home" [ref=f18e8] [cursor=pointer]:
+        - /url: /?ref_=chtmvm_nv_home
+      - search [ref=f18e18]:
+        - generic "All" [ref=f18e22] [cursor=pointer]
+        - generic [ref=f18e26]:
+          - combobox [ref=f18e27]:
+            - textbox "Search IMDb" [ref=f18e28]
+            - listbox
+          - status [ref=f18e29]: 8 suggestions available
+        - button "Submit search" [ref=f18e30] [cursor=pointer]
+      - link "Sign in" [ref=f18e35] [cursor=pointer]:
+        - /url: /registration/signin/?u=%2Fchart%2Fmoviemeter%2F&ref_=chtmvm_nv_generic_lgin
+      - link "Use app" [ref=f18e37] [cursor=pointer]:
+        - /url: https://slyb.app.link/vtz1COZnXAb?$canonical_url=https://www.imdb.com/?$canonical_url=https://www.imdb.com/chart/moviemeter/
+      - status
+    - status
+    - main [ref=f18e39]:
+      - iframe [ref=f18e40]:
+        
+      - generic [ref=f18e43]:
+        - generic [ref=f18e45]:
+          - generic [ref=f18e46]:
+            - generic [ref=f18e47]: IMDb Charts
+            - generic [ref=f18e48]:
+              - generic [ref=f18e49]: Share
+              - button "Share on social media" [ref=f18e50] [cursor=pointer]
+          - generic [ref=f18e53]:
+            - heading "Most popular movies" [level=1] [ref=f18e55]
+            - generic [ref=f18e56]: As determined by IMDb users
+        - generic [ref=f18e57]:
+          - generic [ref=f18e58]:
+            - generic [ref=f18e60]:
+              - progressbar "0 OF 100 WATCHED" [ref=f18e61]
+              - generic [ref=f18e63]:
+                - generic [ref=f18e64]: 0 OF 100 WATCHED
+                - generic [ref=f18e65]: 0%
+            - generic [ref=f18e66]:
+              - generic [ref=f18e67]: 100 Titles
+              - generic [ref=f18e69]:
+                - button "Detailed view" [ref=f18e70] [cursor=pointer]
+                - button "Grid view" [ref=f18e72] [cursor=pointer]
+                - 'button "Selected: Compact view" [ref=f18e74] [cursor=pointer]'
+            - button "Open filter prompt" [ref=f18e80] [cursor=pointer]
+            - generic [ref=f18e83]:
+              - generic [ref=f18e84]:
+                - generic [ref=f18e85]: Sort by
+                - generic [ref=f18e86] [cursor=pointer]:
+                  - generic [ref=f18e87]: Ranking
+                  - combobox "Sort by" [ref=f18e90]:
+                    - option "Ranking" [selected]
+                    - option "IMDb rating"
+                    - option "Release date"
+                    - option "Number of ratings"
+                    - option "Alphabetical"
+                    - option "Popularity"
+                    - option "Runtime"
+              - button "Ascending sort order" [ref=f18e91] [cursor=pointer]
+            - generic [ref=f18e96]:
+              - group [ref=f18e98]:
+                - img "Matt Damon in The Odyssey (2026)" [ref=f18e100]
+                - button "Add to Watchlist" [ref=f18e101] [cursor=pointer]
+                - link "View title page for The Odyssey" [ref=f18e106] [cursor=pointer]:
+                  - /url: /title/tt33764258/?ref_=chtmvm_i_1
+              - generic [ref=f18e108]:
+                - text: "#1"
+                - link [ref=f18e111] [cursor=pointer]:
+                  - /url: /title/tt33764258/?ref_=chtmvm_t_1
+                  - heading "The Odyssey" [level=4] [ref=f18e112]
+                - generic [ref=f18e113]: 2026 2h 52m R
+                - generic [ref=f18e114]:
+                  - button "Rate The Odyssey" [ref=f18e116] [cursor=pointer]:
+                    - generic [ref=f18e117]: Rate
+                  - button "Mark The Odyssey as watched" [ref=f18e120] [cursor=pointer]:
+                    - generic [ref=f18e123]: Mark as watched
+              - button "See more information about The Odyssey" [ref=f18e125] [cursor=pointer]
+            - generic [ref=f18e131]:
+              - group [ref=f18e133]:
+                - img "Michael Johnston and Inde Navarrette in Obsession (2025)" [ref=f18e135]
+                - button "Add to Watchlist" [ref=f18e136] [cursor=pointer]
+                - link "View title page for Obsession" [ref=f18e141] [cursor=pointer]:
+                  - /url: /title/tt37287335/?ref_=chtmvm_i_2
+              - generic [ref=f18e143]:
+                - text: "#2"
+                - link [ref=f18e146] [cursor=pointer]:
+                  - /url: /title/tt37287335/?ref_=chtmvm_t_2
+                  - heading "Obsession" [level=4] [ref=f18e147]
+                - generic [ref=f18e148]: 2025 1h 48m R
+                - generic [ref=f18e149]:
+                  - generic [ref=f18e150]:
+                    - 'generic "IMDb rating: 7.9" [ref=f18e151]':
+                      - generic [ref=f18e153]: "7.9"
+                      - generic [ref=f18e154]: (222K)
+                    - button "Rate Obsession" [ref=f18e155] [cursor=pointer]:
+                      - generic [ref=f18e156]: Rate
+                  - button "Mark Obsession as watched" [ref=f18e159] [cursor=pointer]:
+                    - generic [ref=f18e162]: Mark as watched
+              - button "See more information about Obsession" [ref=f18e164] [cursor=pointer]
+            - generic [ref=f18e170]:
+              - group [ref=f18e172]:
+                - img "Julia Louis-Dreyfus, Emma Thompson, Patrick Stewart, Bryan Cranston, Regina Hall, Hugh Jackman, Nicholas Braun, Rhys Darby, Molly Gordon, Aroop Shergill, Chris O'Dowd, Jasper Ambrose, Tommy Birchall, Ishi Agrawal, Brett Goldstein, Hong Chau, Tosin Cole, Nicholas Galitzine, and Bella Ramsey in The Sheep Detectives (2026)" [ref=f18e174]
+                - button "Add to Watchlist" [ref=f18e175] [cursor=pointer]
+                - link "View title page for The Sheep Detectives" [ref=f18e180] [cursor=pointer]:
+                  - /url: /title/tt32565993/?ref_=chtmvm_i_3
+              - generic [ref=f18e182]:
+                - text: "#3"
+                - link [ref=f18e185] [cursor=pointer]:
+                  - /url: /title/tt32565993/?ref_=chtmvm_t_3
+                  - heading "The Sheep Detectives" [level=4] [ref=f18e186]
+                - generic [ref=f18e187]: 2026 1h 49m PG
+                - generic [ref=f18e188]:
+                  - generic [ref=f18e189]:
+                    - 'generic "IMDb rating: 7.4" [ref=f18e190]':
+                      - generic [ref=f18e192]: "7.4"
+                      - generic [ref=f18e193]: (70K)
+                    - button "Rate The Sheep Detectives" [ref=f18e194] [cursor=pointer]:
+                      - generic [ref=f18e195]: Rate
+                  - button "Mark The Sheep Detectives as watched" [ref=f18e198] [cursor=pointer]:
+                    - generic [ref=f18e201]: Mark as watched
+              - button "See more information about The Sheep Detectives" [ref=f18e203] [cursor=pointer]
+            - generic [ref=f18e209]:
+              - group [ref=f18e211]:
+                - img "Ryan Gosling and James Ortiz in Project Hail Mary (2026)" [ref=f18e213]
+                - button "Add to Watchlist" [ref=f18e214] [cursor=pointer]
+                - link "View title page for Project Hail Mary" [ref=f18e219] [cursor=pointer]:
+                  - /url: /title/tt12042730/?ref_=chtmvm_i_4
+              - generic [ref=f18e221]:
+                - text: "#4"
+                - link [ref=f18e224] [cursor=pointer]:
+                  - /url: /title/tt12042730/?ref_=chtmvm_t_4
+                  - heading "Project Hail Mary" [level=4] [ref=f18e225]
+                - generic [ref=f18e226]: 2026 2h 36m PG-13
+                - generic [ref=f18e227]:
+                  - generic [ref=f18e228]:
+                    - 'generic "IMDb rating: 8.2" [ref=f18e229]':
+                      - generic [ref=f18e231]: "8.2"
+                      - generic [ref=f18e232]: (428K)
+                    - button "Rate Project Hail Mary" [ref=f18e233] [cursor=pointer]:
+                      - generic [ref=f18e234]: Rate
+                  - button "Mark Project Hail Mary as watched" [ref=f18e237] [cursor=pointer]:
+                    - generic [ref=f18e240]: Mark as watched
+              - button "See more information about Project Hail Mary" [ref=f18e242] [cursor=pointer]
+            - generic [ref=f18e248]:
+              - group [ref=f18e250]:
+                - img "Evil Dead Burn (2026)" [ref=f18e252]
+                - button "Add to Watchlist" [ref=f18e253] [cursor=pointer]
+                - link "View title page for Evil Dead Burn" [ref=f18e258] [cursor=pointer]:
+                  - /url: /title/tt31170389/?ref_=chtmvm_i_5
+              - generic [ref=f18e260]:
+                - text: "#5"
+                - link [ref=f18e263] [cursor=pointer]:
+                  - /url: /title/tt31170389/?ref_=chtmvm_t_5
+                  - heading "Evil Dead Burn" [level=4] [ref=f18e264]
+                - generic [ref=f18e265]: 2026 1h 50m R
+                - generic [ref=f18e266]:
+                  - generic [ref=f18e267]:
+                    - 'generic "IMDb rating: 6.7" [ref=f18e268]':
+                      - generic [ref=f18e270]: "6.7"
+                      - generic [ref=f18e271]: (14K)
+                    - button "Rate Evil Dead Burn" [ref=f18e272] [cursor=pointer]:
+                      - generic [ref=f18e273]: Rate
+                  - button "Mark Evil Dead Burn as watched" [ref=f18e276] [cursor=pointer]:
+                    - generic [ref=f18e279]: Mark as watched
+              - button "See more information about Evil Dead Burn" [ref=f18e281] [cursor=pointer]
+            - generic [ref=f18e287]:
+              - group [ref=f18e289]:
+                - img "Dwayne Johnson and Catherine Laga'aia in Moana (2026)" [ref=f18e291]
+                - button "Add to Watchlist" [ref=f18e292] [cursor=pointer]
+                - link "View title page for Moana" [ref=f18e297] [cursor=pointer]:
+                  - /url: /title/tt27419466/?ref_=chtmvm_i_6
+              - generic [ref=f18e299]:
+                - text: "#6"
+                - link [ref=f18e302] [cursor=pointer]:
+                  - /url: /title/tt27419466/?ref_=chtmvm_t_6
+                  - heading "Moana" [level=4] [ref=f18e303]
+                - generic [ref=f18e304]: 2026 1h 55m PG
+                - generic [ref=f18e305]:
+                  - generic [ref=f18e306]:
+                    - 'generic "IMDb rating: 5.7" [ref=f18e307]':
+                      - generic [ref=f18e309]: "5.7"
+                      - generic [ref=f18e310]: (6.9K)
+                    - button "Rate Moana" [ref=f18e311] [cursor=pointer]:
+                      - generic [ref=f18e312]: Rate
+                  - button "Mark Moana as watched" [ref=f18e315] [cursor=pointer]:
+                    - generic [ref=f18e318]: Mark as watched
+              - button "See more information about Moana" [ref=f18e320] [cursor=pointer]
+            - generic [ref=f18e326]:
+              - group [ref=f18e328]:
+                - img "Arjun Rampal, Kanwaljeet Singh, Suvinder Vicky, and Diljit Dosanjh in Punjab '95 (2026)" [ref=f18e330]
+                - button "Add to Watchlist" [ref=f18e331] [cursor=pointer]
+                - link "View title page for Punjab '95" [ref=f18e336] [cursor=pointer]:
+                  - /url: /title/tt28089784/?ref_=chtmvm_i_7
+              - generic [ref=f18e338]:
+                - text: "#7"
+                - link [ref=f18e341] [cursor=pointer]:
+                  - /url: /title/tt28089784/?ref_=chtmvm_t_7
+                  - heading "Punjab '95" [level=4] [ref=f18e342]
+                - generic [ref=f18e343]: 2026 2h 49m
+                - generic [ref=f18e344]:
+                  - generic [ref=f18e345]:
+                    - 'generic "IMDb rating: 9.1" [ref=f18e346]':
+                      - generic [ref=f18e348]: "9.1"
+                      - generic [ref=f18e349]: (104K)
+                    - button "Rate Punjab '95" [ref=f18e350] [cursor=pointer]:
+                      - generic [ref=f18e351]: Rate
+                  - button "Mark Punjab '95 as watched" [ref=f18e354] [cursor=pointer]:
+                    - generic [ref=f18e357]: Mark as watched
+              - button "See more information about Punjab '95" [ref=f18e359] [cursor=pointer]
+            - generic [ref=f18e365]:
+              - group [ref=f18e367]:
+                - img "Edward Norton, Penélope Cruz, Seth Rogen, and Olivia Wilde in The Invite (2026)" [ref=f18e369]
+                - button "Add to Watchlist" [ref=f18e370] [cursor=pointer]
+                - link "View title page for The Invite" [ref=f18e375] [cursor=pointer]:
+                  - /url: /title/tt14173636/?ref_=chtmvm_i_8
+              - generic [ref=f18e377]:
+                - text: "#8"
+                - link [ref=f18e380] [cursor=pointer]:
+                  - /url: /title/tt14173636/?ref_=chtmvm_t_8
+                  - heading "The Invite" [level=4] [ref=f18e381]
+                - generic [ref=f18e382]: 2026 1h 47m R
+                - generic [ref=f18e383]:
+                  - generic [ref=f18e384]:
+                    - 'generic "IMDb rating: 7.9" [ref=f18e385]':
+                      - generic [ref=f18e387]: "7.9"
+                      - generic [ref=f18e388]: (12K)
+                    - button "Rate The Invite" [ref=f18e389] [cursor=pointer]:
+                      - generic [ref=f18e390]: Rate
+                  - button "Mark The Invite as watched" [ref=f18e393] [cursor=pointer]:
+                    - generic [ref=f18e396]: Mark as watched
+              - button "See more information about The Invite" [ref=f18e398] [cursor=pointer]
+            - generic [ref=f18e404]:
+              - group [ref=f18e406]:
+                - img "Renate Reinsve in Backrooms (2026)" [ref=f18e408]
+                - button "Add to Watchlist" [ref=f18e409] [cursor=pointer]
+                - link "View title page for Backrooms" [ref=f18e414] [cursor=pointer]:
+                  - /url: /title/tt26657236/?ref_=chtmvm_i_9
+              - generic [ref=f18e416]:
+                - text: "#9"
+                - link [ref=f18e419] [cursor=pointer]:
+                  - /url: /title/tt26657236/?ref_=chtmvm_t_9
+                  - heading "Backrooms" [level=4] [ref=f18e420]
+                - generic [ref=f18e421]: 2026 1h 50m R
+                - generic [ref=f18e422]:
+                  - generic [ref=f18e423]:
+                    - 'generic "IMDb rating: 7.0" [ref=f18e424]':
+                      - generic [ref=f18e426]: "7.0"
+                      - generic [ref=f18e427]: (117K)
+                    - button "Rate Backrooms" [ref=f18e428] [cursor=pointer]:
+                      - generic [ref=f18e429]: Rate
+                  - button "Mark Backrooms as watched" [ref=f18e432] [cursor=pointer]:
+                    - generic [ref=f18e435]: Mark as watched
+              - button "See more information about Backrooms" [ref=f18e437] [cursor=pointer]
+            - generic [ref=f18e443]:
+              - group [ref=f18e445]:
+                - img "Tom Hanks, Joan Cusack, Tim Allen, John Ratzenberger, Conan O'Brien, Jeff Bergman, Blake Clark, Tony Hale, Craig Robinson, Shelby Rabara, Greta Lee, and Melissa Villaseñor in Toy Story 5 (2026)" [ref=f18e447]
+                - button "Add to Watchlist" [ref=f18e448] [cursor=pointer]
+                - link "View title page for Toy Story 5" [ref=f18e453] [cursor=pointer]:
+                  - /url: /title/tt29355505/?ref_=chtmvm_i_10
+              - generic [ref=f18e455]:
+                - text: "#10"
+                - link [ref=f18e458] [cursor=pointer]:
+                  - /url: /title/tt29355505/?ref_=chtmvm_t_10
+                  - heading "Toy Story 5" [level=4] [ref=f18e459]
+                - generic [ref=f18e460]: 2026 1h 42m PG
+                - generic [ref=f18e461]:
+                  - generic [ref=f18e462]:
+                    - 'generic "IMDb rating: 7.5" [ref=f18e463]':
+                      - generic [ref=f18e465]: "7.5"
+                      - generic [ref=f18e466]: (49K)
+                    - button "Rate Toy Story 5" [ref=f18e467] [cursor=pointer]:
+                      - generic [ref=f18e468]: Rate
+                  - button "Mark Toy Story 5 as watched" [ref=f18e471] [cursor=pointer]:
+                    - generic [ref=f18e474]: Mark as watched
+              - button "See more information about Toy Story 5" [ref=f18e476] [cursor=pointer]
+            - generic [ref=f18e482]:
+              - group [ref=f18e484]:
+                - img "Disclosure Day (2026)" [ref=f18e486]
+                - button "Add to Watchlist" [ref=f18e487] [cursor=pointer]
+                - link "View title page for Disclosure Day" [ref=f18e492] [cursor=pointer]:
+                  - /url: /title/tt15047880/?ref_=chtmvm_i_11
+              - generic [ref=f18e494]:
+                - text: "#11"
+                - link [ref=f18e497] [cursor=pointer]:
+                  - /url: /title/tt15047880/?ref_=chtmvm_t_11
+                  - heading "Disclosure Day" [level=4] [ref=f18e498]
+                - generic [ref=f18e499]: 2026 2h 25m PG-13
+                - generic [ref=f18e500]:
+                  - generic [ref=f18e501]:
+                    - 'generic "IMDb rating: 6.7" [ref=f18e502]':
+                      - generic [ref=f18e504]: "6.7"
+                      - generic [ref=f18e505]: (82K)
+                    - button "Rate Disclosure Day" [ref=f18e506] [cursor=pointer]:
+                      - generic [ref=f18e507]: Rate
+                  - button "Mark Disclosure Day as watched" [ref=f18e510] [cursor=pointer]:
+                    - generic [ref=f18e513]: Mark as watched
+              - button "See more information about Disclosure Day" [ref=f18e515] [cursor=pointer]
+            - generic [ref=f18e521]:
+              - group [ref=f18e523]:
+                - img "Nick Robinson and Zoey Deutch in Voicemails for Isabelle (2026)" [ref=f18e525]
+                - button "Add to Watchlist" [ref=f18e526] [cursor=pointer]
+                - link "View title page for Voicemails for Isabelle" [ref=f18e531] [cursor=pointer]:
+                  - /url: /title/tt10375624/?ref_=chtmvm_i_12
+              - generic [ref=f18e533]:
+                - text: "#12"
+                - link [ref=f18e536] [cursor=pointer]:
+                  - /url: /title/tt10375624/?ref_=chtmvm_t_12
+                  - heading "Voicemails for Isabelle" [level=4] [ref=f18e537]
+                - generic [ref=f18e538]: 2026 1h 58m TV-14
+                - generic [ref=f18e539]:
+                  - generic [ref=f18e540]:
+                    - 'generic "IMDb rating: 7.3" [ref=f18e541]':
+                      - generic [ref=f18e543]: "7.3"
+                      - generic [ref=f18e544]: (36K)
+                    - button "Rate Voicemails for Isabelle" [ref=f18e545] [cursor=pointer]:
+                      - generic [ref=f18e546]: Rate
+                  - button "Mark Voicemails for Isabelle as watched" [ref=f18e549] [cursor=pointer]:
+                    - generic [ref=f18e552]: Mark as watched
+              - button "See more information about Voicemails for Isabelle" [ref=f18e554] [cursor=pointer]
+            - generic [ref=f18e560]:
+              - group [ref=f18e562]:
+                - img "Milly Alcock in Supergirl (2026)" [ref=f18e564]
+                - button "Add to Watchlist" [ref=f18e565] [cursor=pointer]
+                - link "View title page for Supergirl" [ref=f18e570] [cursor=pointer]:
+                  - /url: /title/tt8814476/?ref_=chtmvm_i_13
+              - generic [ref=f18e572]:
+                - text: "#13"
+                - link [ref=f18e575] [cursor=pointer]:
+                  - /url: /title/tt8814476/?ref_=chtmvm_t_13
+                  - heading "Supergirl" [level=4] [ref=f18e576]
+                - generic [ref=f18e577]: 2026 1h 48m PG-13
+                - generic [ref=f18e578]:
+                  - generic [ref=f18e579]:
+                    - 'generic "IMDb rating: 6.1" [ref=f18e580]':
+                      - generic [ref=f18e582]: "6.1"
+                      - generic [ref=f18e583]: (50K)
+                    - button "Rate Supergirl" [ref=f18e584] [cursor=pointer]:
+                      - generic [ref=f18e585]: Rate
+                  - button "Mark Supergirl as watched" [ref=f18e588] [cursor=pointer]:
+                    - generic [ref=f18e591]: Mark as watched
+              - button "See more information about Supergirl" [ref=f18e593] [cursor=pointer]
+            - generic [ref=f18e599]:
+              - group [ref=f18e601]:
+                - img "Natalie Grace in Lee Cronin's The Mummy (2026)" [ref=f18e603]
+                - button "Add to Watchlist" [ref=f18e604] [cursor=pointer]
+                - link "View title page for Lee Cronin's The Mummy" [ref=f18e609] [cursor=pointer]:
+                  - /url: /title/tt32612507/?ref_=chtmvm_i_14
+              - generic [ref=f18e611]:
+                - text: "#14"
+                - link [ref=f18e614] [cursor=pointer]:
+                  - /url: /title/tt32612507/?ref_=chtmvm_t_14
+                  - heading "Lee Cronin's The Mummy" [level=4] [ref=f18e615]
+                - generic [ref=f18e616]: 2026 2h 14m R
+                - generic [ref=f18e617]:
+                  - generic [ref=f18e618]:
+                    - 'generic "IMDb rating: 6.2" [ref=f18e619]':
+                      - generic [ref=f18e621]: "6.2"
+                      - generic [ref=f18e622]: (55K)
+                    - button "Rate Lee Cronin's The Mummy" [ref=f18e623] [cursor=pointer]:
+                      - generic [ref=f18e624]: Rate
+                  - button "Mark Lee Cronin's The Mummy as watched" [ref=f18e627] [cursor=pointer]:
+                    - generic [ref=f18e630]: Mark as watched
+              - button "See more information about Lee Cronin's The Mummy" [ref=f18e632] [cursor=pointer]
+            - generic [ref=f18e638]:
+              - group [ref=f18e640]:
+                - img "Pierre Coffin in Minions & Monsters (2026)" [ref=f18e642]
+                - button "Add to Watchlist" [ref=f18e643] [cursor=pointer]
+                - link "View title page for Minions & Monsters" [ref=f18e648] [cursor=pointer]:
+                  - /url: /title/tt32890033/?ref_=chtmvm_i_15
+              - generic [ref=f18e650]:
+                - text: "#15"
+                - link [ref=f18e653] [cursor=pointer]:
+                  - /url: /title/tt32890033/?ref_=chtmvm_t_15
+                  - heading "Minions & Monsters" [level=4] [ref=f18e654]
+                - generic [ref=f18e655]: 2026 1h 30m PG
+                - generic [ref=f18e656]:
+                  - generic [ref=f18e657]:
+                    - 'generic "IMDb rating: 6.5" [ref=f18e658]':
+                      - generic [ref=f18e660]: "6.5"
+                      - generic [ref=f18e661]: (13K)
+                    - button "Rate Minions & Monsters" [ref=f18e662] [cursor=pointer]:
+                      - generic [ref=f18e663]: Rate
+                  - button "Mark Minions & Monsters as watched" [ref=f18e666] [cursor=pointer]:
+                    - generic [ref=f18e669]: Mark as watched
+              - button "See more information about Minions & Monsters" [ref=f18e671] [cursor=pointer]
+            - generic [ref=f18e677]:
+              - group [ref=f18e679]:
+                - img "The Furious (2025)" [ref=f18e681]
+                - button "Add to Watchlist" [ref=f18e682] [cursor=pointer]
+                - link "View title page for The Furious" [ref=f18e687] [cursor=pointer]:
+                  - /url: /title/tt33311069/?ref_=chtmvm_i_16
+              - generic [ref=f18e689]:
+                - text: "#16"
+                - link [ref=f18e692] [cursor=pointer]:
+                  - /url: /title/tt33311069/?ref_=chtmvm_t_16
+                  - heading "The Furious" [level=4] [ref=f18e693]
+                - generic [ref=f18e694]: 2025 1h 53m R
+                - generic [ref=f18e695]:
+                  - generic [ref=f18e696]:
+                    - 'generic "IMDb rating: 7.4" [ref=f18e697]':
+                      - generic [ref=f18e699]: "7.4"
+                      - generic [ref=f18e700]: (15K)
+                    - button "Rate The Furious" [ref=f18e701] [cursor=pointer]:
+                      - generic [ref=f18e702]: Rate
+                  - button "Mark The Furious as watched" [ref=f18e705] [cursor=pointer]:
+                    - generic [ref=f18e708]: Mark as watched
+              - button "See more information about The Furious" [ref=f18e710] [cursor=pointer]
+            - generic [ref=f18e716]:
+              - group [ref=f18e718]:
+                - img "Helena Bonham Carter, Henry Cavill, Sharon Duncan-Brewster, Himesh Patel, Millie Bobby Brown, and Louis Partridge in Enola Holmes 3 (2026)" [ref=f18e720]
+                - button "Add to Watchlist" [ref=f18e721] [cursor=pointer]
+                - link "View title page for Enola Holmes 3" [ref=f18e726] [cursor=pointer]:
+                  - /url: /title/tt32278481/?ref_=chtmvm_i_17
+              - generic [ref=f18e728]:
+                - text: "#17"
+                - link [ref=f18e731] [cursor=pointer]:
+                  - /url: /title/tt32278481/?ref_=chtmvm_t_17
+                  - heading "Enola Holmes 3" [level=4] [ref=f18e732]
+                - generic [ref=f18e733]: 2026 1h 45m PG-13
+                - generic [ref=f18e734]:
+                  - generic [ref=f18e735]:
+                    - 'generic "IMDb rating: 5.8" [ref=f18e736]':
+                      - generic [ref=f18e738]: "5.8"
+                      - generic [ref=f18e739]: (19K)
+                    - button "Rate Enola Holmes 3" [ref=f18e740] [cursor=pointer]:
+                      - generic [ref=f18e741]: Rate
+                  - button "Mark Enola Holmes 3 as watched" [ref=f18e744] [cursor=pointer]:
+                    - generic [ref=f18e747]: Mark as watched
+              - button "See more information about Enola Holmes 3" [ref=f18e749] [cursor=pointer]
+            - generic [ref=f18e755]:
+              - group [ref=f18e757]:
+                - img "Young Washington (2026)" [ref=f18e759]
+                - button "Add to Watchlist" [ref=f18e760] [cursor=pointer]
+                - link "View title page for Young Washington" [ref=f18e765] [cursor=pointer]:
+                  - /url: /title/tt32104007/?ref_=chtmvm_i_18
+              - generic [ref=f18e767]:
+                - text: "#18"
+                - link [ref=f18e770] [cursor=pointer]:
+                  - /url: /title/tt32104007/?ref_=chtmvm_t_18
+                  - heading "Young Washington" [level=4] [ref=f18e771]
+                - generic [ref=f18e772]: 2026 2h 1m PG-13
+                - generic [ref=f18e773]:
+                  - generic [ref=f18e774]:
+                    - 'generic "IMDb rating: 7.5" [ref=f18e775]':
+                      - generic [ref=f18e777]: "7.5"
+                      - generic [ref=f18e778]: (7.7K)
+                    - button "Rate Young Washington" [ref=f18e779] [cursor=pointer]:
+                      - generic [ref=f18e780]: Rate
+                  - button "Mark Young Washington as watched" [ref=f18e783] [cursor=pointer]:
+                    - generic [ref=f18e786]: Mark as watched
+              - button "See more information about Young Washington" [ref=f18e788] [cursor=pointer]
+            - generic [ref=f18e794]:
+              - group [ref=f18e796]:
+                - 'img "Timothée Chalamet and Zendaya in Dune: Part Three (2026)" [ref=f18e798]'
+                - button "Add to Watchlist" [ref=f18e799] [cursor=pointer]
+                - 'link "View title page for Dune: Part Three" [ref=f18e804] [cursor=pointer]':
+                  - /url: /title/tt31378509/?ref_=chtmvm_i_19
+              - generic [ref=f18e806]:
+                - text: "#19"
+                - link [ref=f18e809] [cursor=pointer]:
+                  - /url: /title/tt31378509/?ref_=chtmvm_t_19
+                  - 'heading "Dune: Part Three" [level=4] [ref=f18e810]'
+                - generic [ref=f18e811]: Expected Dec 18, 2026
+              - 'button "See more information about Dune: Part Three" [ref=f18e814] [cursor=pointer]'
+            - generic [ref=f18e820]:
+              - group [ref=f18e822]:
+                - 'img "Zendaya and Tom Holland in Spider-Man: Brand New Day (2026)" [ref=f18e824]'
+                - button "Add to Watchlist" [ref=f18e825] [cursor=pointer]
+                - 'link "View title page for Spider-Man: Brand New Day" [ref=f18e830] [cursor=pointer]':
+                  - /url: /title/tt22084616/?ref_=chtmvm_i_20
+              - generic [ref=f18e832]:
+                - text: "#20"
+                - link [ref=f18e835] [cursor=pointer]:
+                  - /url: /title/tt22084616/?ref_=chtmvm_t_20
+                  - 'heading "Spider-Man: Brand New Day" [level=4] [ref=f18e836]'
+                - generic [ref=f18e837]: Releases Jul 31, 2026 2h 25m PG-13
+              - 'button "See more information about Spider-Man: Brand New Day" [ref=f18e840] [cursor=pointer]'
+            - generic [ref=f18e846]:
+              - group [ref=f18e848]:
+                - img "Jaafar Jackson in Michael (2026)" [ref=f18e850]
+                - button "Add to Watchlist" [ref=f18e851] [cursor=pointer]
+                - link "View title page for Michael" [ref=f18e856] [cursor=pointer]:
+                  - /url: /title/tt11378946/?ref_=chtmvm_i_21
+              - generic [ref=f18e858]:
+                - text: "#21"
+                - link [ref=f18e861] [cursor=pointer]:
+                  - /url: /title/tt11378946/?ref_=chtmvm_t_21
+                  - heading "Michael" [level=4] [ref=f18e862]
+                - generic [ref=f18e863]: 2026 2h 7m PG-13
+                - generic [ref=f18e864]:
+                  - generic [ref=f18e865]:
+                    - 'generic "IMDb rating: 7.4" [ref=f18e866]':
+                      - generic [ref=f18e868]: "7.4"
+                      - generic [ref=f18e869]: (151K)
+                    - button "Rate Michael" [ref=f18e870] [cursor=pointer]:
+                      - generic [ref=f18e871]: Rate
+                  - button "Mark Michael as watched" [ref=f18e874] [cursor=pointer]:
+                    - generic [ref=f18e877]: Mark as watched
+              - button "See more information about Michael" [ref=f18e879] [cursor=pointer]
+            - generic [ref=f18e885]:
+              - group [ref=f18e887]:
+                - img "Hope (2026)" [ref=f18e889]
+                - button "Add to Watchlist" [ref=f18e890] [cursor=pointer]
+                - link "View title page for Hope" [ref=f18e895] [cursor=pointer]:
+                  - /url: /title/tt27369017/?ref_=chtmvm_i_22
+              - generic [ref=f18e897]:
+                - text: "#22"
+                - link [ref=f18e900] [cursor=pointer]:
+                  - /url: /title/tt27369017/?ref_=chtmvm_t_22
+                  - heading "Hope" [level=4] [ref=f18e901]
+                - generic [ref=f18e902]: Releases Sep 9, 2026 2h 40m
+                - generic [ref=f18e903]:
+                  - generic [ref=f18e904]:
+                    - 'generic "IMDb rating: 6.9" [ref=f18e905]':
+                      - generic [ref=f18e907]: "6.9"
+                      - generic [ref=f18e908]: (592)
+                    - button "Rate Hope" [ref=f18e909] [cursor=pointer]:
+                      - generic [ref=f18e910]: Rate
+                  - button "Mark Hope as watched" [ref=f18e913] [cursor=pointer]:
+                    - generic [ref=f18e916]: Mark as watched
+              - button "See more information about Hope" [ref=f18e918] [cursor=pointer]
+            - generic [ref=f18e924]:
+              - group [ref=f18e926]:
+                - img "Jared Leto, Idris Elba, Gary Martin, James Purefoy, Morena Baccarin, Kristen Wiig, Alison Brie, Tom Wilton, Nicholas Galitzine, Camila Mendes, and Sam C. Wilson in Masters of the Universe (2026)" [ref=f18e928]
+                - button "Add to Watchlist" [ref=f18e929] [cursor=pointer]
+                - link "View title page for Masters of the Universe" [ref=f18e934] [cursor=pointer]:
+                  - /url: /title/tt0427340/?ref_=chtmvm_i_23
+              - generic [ref=f18e936]:
+                - text: "#23"
+                - link [ref=f18e939] [cursor=pointer]:
+                  - /url: /title/tt0427340/?ref_=chtmvm_t_23
+                  - heading "Masters of the Universe" [level=4] [ref=f18e940]
+                - generic [ref=f18e941]: 2026 2h 20m PG-13
+                - generic [ref=f18e942]:
+                  - generic [ref=f18e943]:
+                    - 'generic "IMDb rating: 6.8" [ref=f18e944]':
+                      - generic [ref=f18e946]: "6.8"
+                      - generic [ref=f18e947]: (46K)
+                    - button "Rate Masters of the Universe" [ref=f18e948] [cursor=pointer]:
+                      - generic [ref=f18e949]: Rate
+                  - button "Mark Masters of the Universe as watched" [ref=f18e952] [cursor=pointer]:
+                    - generic [ref=f18e955]: Mark as watched
+              - button "See more information about Masters of the Universe" [ref=f18e957] [cursor=pointer]
+            - generic [ref=f18e963]:
+              - group [ref=f18e965]:
+                - img "Passenger (2026)" [ref=f18e967]
+                - button "Add to Watchlist" [ref=f18e968] [cursor=pointer]
+                - link "View title page for Passenger" [ref=f18e973] [cursor=pointer]:
+                  - /url: /title/tt33763941/?ref_=chtmvm_i_24
+              - generic [ref=f18e975]:
+                - text: "#24"
+                - link [ref=f18e978] [cursor=pointer]:
+                  - /url: /title/tt33763941/?ref_=chtmvm_t_24
+                  - heading "Passenger" [level=4] [ref=f18e979]
+                - generic [ref=f18e980]: 2026 1h 37m R
+                - generic [ref=f18e981]:
+                  - generic [ref=f18e982]:
+                    - 'generic "IMDb rating: 5.5" [ref=f18e983]':
+                      - generic [ref=f18e985]: "5.5"
+                      - generic [ref=f18e986]: (12K)
+                    - button "Rate Passenger" [ref=f18e987] [cursor=pointer]:
+                      - generic [ref=f18e988]: Rate
+                  - button "Mark Passenger as watched" [ref=f18e991] [cursor=pointer]:
+                    - generic [ref=f18e994]: Mark as watched
+              - button "See more information about Passenger" [ref=f18e996] [cursor=pointer]
+            - generic [ref=f18e1002]:
+              - group [ref=f18e1004]:
+                - generic [ref=f18e1005]:
+                  - img "Joshua Odjick, Cooper Hoffman, Ben Wang, Charlie Plummer, Garrett Wareing, Tut Nyuot, and David Jonsson in The Long Walk (2025)"
+                - button "Add to Watchlist" [ref=f18e1006] [cursor=pointer]
+                - link "View title page for The Long Walk" [ref=f18e1011] [cursor=pointer]:
+                  - /url: /title/tt10374610/?ref_=chtmvm_i_25
+              - generic [ref=f18e1013]:
+                - text: "#25"
+                - link [ref=f18e1016] [cursor=pointer]:
+                  - /url: /title/tt10374610/?ref_=chtmvm_t_25
+                  - heading "The Long Walk" [level=4] [ref=f18e1017]
+                - generic [ref=f18e1018]: 2025 1h 48m R
+                - generic [ref=f18e1019]:
+                  - generic [ref=f18e1020]:
+                    - 'generic "IMDb rating: 6.7" [ref=f18e1021]':
+                      - generic [ref=f18e1023]: "6.7"
+                      - generic [ref=f18e1024]: (130K)
+                    - button "Rate The Long Walk" [ref=f18e1025] [cursor=pointer]:
+                      - generic [ref=f18e1026]: Rate
+                  - button "Mark The Long Walk as watched" [ref=f18e1029] [cursor=pointer]:
+                    - generic [ref=f18e1032]: Mark as watched
+              - button "See more information about The Long Walk" [ref=f18e1034] [cursor=pointer]
+            - generic [ref=f18e1040]:
+              - group [ref=f18e1042]:
+                - generic [ref=f18e1043]:
+                  - img "Armie Hammer in Citizen Vigilante (2026)"
+                - button "Add to Watchlist" [ref=f18e1044] [cursor=pointer]
+                - link "View title page for Citizen Vigilante" [ref=f18e1049] [cursor=pointer]:
+                  - /url: /title/tt35309713/?ref_=chtmvm_i_26
+              - generic [ref=f18e1051]:
+                - text: "#26"
+                - link [ref=f18e1054] [cursor=pointer]:
+                  - /url: /title/tt35309713/?ref_=chtmvm_t_26
+                  - heading "Citizen Vigilante" [level=4] [ref=f18e1055]
+                - generic [ref=f18e1056]: 2026 1h 29m Not Rated
+                - generic [ref=f18e1057]:
+                  - generic [ref=f18e1058]:
+                    - 'generic "IMDb rating: 6.0" [ref=f18e1059]':
+                      - generic [ref=f18e1061]: "6.0"
+                      - generic [ref=f18e1062]: (32K)
+                    - button "Rate Citizen Vigilante" [ref=f18e1063] [cursor=pointer]:
+                      - generic [ref=f18e1064]: Rate
+                  - button "Mark Citizen Vigilante as watched" [ref=f18e1067] [cursor=pointer]:
+                    - generic [ref=f18e1070]: Mark as watched
+              - button "See more information about Citizen Vigilante" [ref=f18e1072] [cursor=pointer]
+            - generic [ref=f18e1078]:
+              - group [ref=f18e1080]:
+                - generic [ref=f18e1081]:
+                  - 'img "David Cronenberg, Elijah Wood, Sarah Michelle Gellar, Nestor Carbonell, Shawn Hatosy, Kevin Durand, Kathryn Newton, Dan Beirne, Maia Jae, Juan Pablo Romero, Olivia Cheng, Samara Weaving, Varun Saranga, Nadeem Umar-Khitab, Masa Lizdek, and Antony Hall in Ready or Not 2: Here I Come (2026)"'
+                - button "Add to Watchlist" [ref=f18e1082] [cursor=pointer]
+                - 'link "View title page for Ready or Not 2: Here I Come" [ref=f18e1087] [cursor=pointer]':
+                  - /url: /title/tt33978029/?ref_=chtmvm_i_27
+              - generic [ref=f18e1089]:
+                - text: "#27"
+                - link [ref=f18e1092] [cursor=pointer]:
+                  - /url: /title/tt33978029/?ref_=chtmvm_t_27
+                  - 'heading "Ready or Not 2: Here I Come" [level=4] [ref=f18e1093]'
+                - generic [ref=f18e1094]: 2026 1h 48m R
+                - generic [ref=f18e1095]:
+                  - generic [ref=f18e1096]:
+                    - 'generic "IMDb rating: 6.5" [ref=f18e1097]':
+                      - generic [ref=f18e1099]: "6.5"
+                      - generic [ref=f18e1100]: (58K)
+                    - 'button "Rate Ready or Not 2: Here I Come" [ref=f18e1101] [cursor=pointer]':
+                      - generic [ref=f18e1102]: Rate
+                  - 'button "Mark Ready or Not 2: Here I Come as watched" [ref=f18e1105] [cursor=pointer]':
+                    - generic [ref=f18e1108]: Mark as watched
+              - 'button "See more information about Ready or Not 2: Here I Come" [ref=f18e1110] [cursor=pointer]'
+            - generic [ref=f18e1116]:
+              - group [ref=f18e1118]:
+                - generic [ref=f18e1119]:
+                  - img "Amanda Seyfried and Sydney Sweeney in The Housemaid (2025)"
+                - button "Add to Watchlist" [ref=f18e1120] [cursor=pointer]
+                - link "View title page for The Housemaid" [ref=f18e1125] [cursor=pointer]:
+                  - /url: /title/tt27543632/?ref_=chtmvm_i_28
+              - generic [ref=f18e1127]:
+                - text: "#28"
+                - link [ref=f18e1130] [cursor=pointer]:
+                  - /url: /title/tt27543632/?ref_=chtmvm_t_28
+                  - heading "The Housemaid" [level=4] [ref=f18e1131]
+                - generic [ref=f18e1132]: 2025 2h 11m R
+                - generic [ref=f18e1133]:
+                  - generic [ref=f18e1134]:
+                    - 'generic "IMDb rating: 6.7" [ref=f18e1135]':
+                      - generic [ref=f18e1137]: "6.7"
+                      - generic [ref=f18e1138]: (174K)
+                    - button "Rate The Housemaid" [ref=f18e1139] [cursor=pointer]:
+                      - generic [ref=f18e1140]: Rate
+                  - button "Mark The Housemaid as watched" [ref=f18e1143] [cursor=pointer]:
+                    - generic [ref=f18e1146]: Mark as watched
+              - button "See more information about The Housemaid" [ref=f18e1148] [cursor=pointer]
+            - generic [ref=f18e1154]:
+              - group [ref=f18e1156]:
+                - generic [ref=f18e1157]:
+                  - img "Leo Woodall in Tuner (2025)"
+                - button "Add to Watchlist" [ref=f18e1158] [cursor=pointer]
+                - link "View title page for Tuner" [ref=f18e1163] [cursor=pointer]:
+                  - /url: /title/tt33296751/?ref_=chtmvm_i_29
+              - generic [ref=f18e1165]:
+                - text: "#29"
+                - link [ref=f18e1168] [cursor=pointer]:
+                  - /url: /title/tt33296751/?ref_=chtmvm_t_29
+                  - heading "Tuner" [level=4] [ref=f18e1169]
+                - generic [ref=f18e1170]: 2025 1h 47m R
+                - generic [ref=f18e1171]:
+                  - generic [ref=f18e1172]:
+                    - 'generic "IMDb rating: 7.2" [ref=f18e1173]':
+                      - generic [ref=f18e1175]: "7.2"
+                      - generic [ref=f18e1176]: (16K)
+                    - button "Rate Tuner" [ref=f18e1177] [cursor=pointer]:
+                      - generic [ref=f18e1178]: Rate
+                  - button "Mark Tuner as watched" [ref=f18e1181] [cursor=pointer]:
+                    - generic [ref=f18e1184]: Mark as watched
+              - button "See more information about Tuner" [ref=f18e1186] [cursor=pointer]
+            - generic [ref=f18e1192]:
+              - group [ref=f18e1194]:
+                - generic [ref=f18e1195]:
+                  - 'img "Sigourney Weaver, Stephen Lang, Zoe Saldaña, Sam Worthington, Oona Chaplin, Jack Champion, and Britain Dalton in Avatar: Fire and Ash (2025)"'
+                - button "Add to Watchlist" [ref=f18e1196] [cursor=pointer]
+                - 'link "View title page for Avatar: Fire and Ash" [ref=f18e1201] [cursor=pointer]':
+                  - /url: /title/tt1757678/?ref_=chtmvm_i_30
+              - generic [ref=f18e1203]:
+                - text: "#30"
+                - link [ref=f18e1206] [cursor=pointer]:
+                  - /url: /title/tt1757678/?ref_=chtmvm_t_30
+                  - 'heading "Avatar: Fire and Ash" [level=4] [ref=f18e1207]'
+                - generic [ref=f18e1208]: 2025 3h 17m PG-13
+                - generic [ref=f18e1209]:
+                  - generic [ref=f18e1210]:
+                    - 'generic "IMDb rating: 7.2" [ref=f18e1211]':
+                      - generic [ref=f18e1213]: "7.2"
+                      - generic [ref=f18e1214]: (190K)
+                    - 'button "Rate Avatar: Fire and Ash" [ref=f18e1215] [cursor=pointer]':
+                      - generic [ref=f18e1216]: Rate
+                  - 'button "Mark Avatar: Fire and Ash as watched" [ref=f18e1219] [cursor=pointer]':
+                    - generic [ref=f18e1222]: Mark as watched
+              - 'button "See more information about Avatar: Fire and Ash" [ref=f18e1224] [cursor=pointer]'
+            - generic [ref=f18e1230]:
+              - group [ref=f18e1232]:
+                - generic [ref=f18e1233]:
+                  - img "Constance Wu in The Outer Threat (2026)"
+                - button "Add to Watchlist" [ref=f18e1234] [cursor=pointer]
+                - link "View title page for The Outer Threat" [ref=f18e1239] [cursor=pointer]:
+                  - /url: /title/tt33372918/?ref_=chtmvm_i_31
+              - generic [ref=f18e1241]:
+                - text: "#31"
+                - link [ref=f18e1244] [cursor=pointer]:
+                  - /url: /title/tt33372918/?ref_=chtmvm_t_31
+                  - heading "The Outer Threat" [level=4] [ref=f18e1245]
+                - generic [ref=f18e1246]: 2026 1h 34m Unrated
+                - generic [ref=f18e1247]:
+                  - generic [ref=f18e1248]:
+                    - 'generic "IMDb rating: 4.7" [ref=f18e1249]':
+                      - generic [ref=f18e1251]: "4.7"
+                      - generic [ref=f18e1252]: (494)
+                    - button "Rate The Outer Threat" [ref=f18e1253] [cursor=pointer]:
+                      - generic [ref=f18e1254]: Rate
+                  - button "Mark The Outer Threat as watched" [ref=f18e1257] [cursor=pointer]:
+                    - generic [ref=f18e1260]: Mark as watched
+              - button "See more information about The Outer Threat" [ref=f18e1262] [cursor=pointer]
+            - generic [ref=f18e1268]:
+              - group [ref=f18e1270]:
+                - generic [ref=f18e1271]:
+                  - img "Sunny Deol and Akshaye Khanna in Ikka (2026)"
+                - button "Add to Watchlist" [ref=f18e1272] [cursor=pointer]
+                - link "View title page for Ikka" [ref=f18e1277] [cursor=pointer]:
+                  - /url: /title/tt39632269/?ref_=chtmvm_i_32
+              - generic [ref=f18e1279]:
+                - text: "#32"
+                - link [ref=f18e1282] [cursor=pointer]:
+                  - /url: /title/tt39632269/?ref_=chtmvm_t_32
+                  - heading "Ikka" [level=4] [ref=f18e1283]
+                - generic [ref=f18e1284]: 2026 2h 20m TV-MA
+                - generic [ref=f18e1285]:
+                  - generic [ref=f18e1286]:
+                    - 'generic "IMDb rating: 5.5" [ref=f18e1287]':
+                      - generic [ref=f18e1289]: "5.5"
+                      - generic [ref=f18e1290]: (2.6K)
+                    - button "Rate Ikka" [ref=f18e1291] [cursor=pointer]:
+                      - generic [ref=f18e1292]: Rate
+                  - button "Mark Ikka as watched" [ref=f18e1295] [cursor=pointer]:
+                    - generic [ref=f18e1298]: Mark as watched
+              - button "See more information about Ikka" [ref=f18e1300] [cursor=pointer]
+            - generic [ref=f18e1306]:
+              - group [ref=f18e1308]:
+                - generic [ref=f18e1309]:
+                  - img "Meryl Streep, Stanley Tucci, Anne Hathaway, and Emily Blunt in The Devil Wears Prada 2 (2026)"
+                - button "Add to Watchlist" [ref=f18e1310] [cursor=pointer]
+                - link "View title page for The Devil Wears Prada 2" [ref=f18e1315] [cursor=pointer]:
+                  - /url: /title/tt33612209/?ref_=chtmvm_i_33
+              - generic [ref=f18e1317]:
+                - text: "#33"
+                - link [ref=f18e1320] [cursor=pointer]:
+                  - /url: /title/tt33612209/?ref_=chtmvm_t_33
+                  - heading "The Devil Wears Prada 2" [level=4] [ref=f18e1321]
+                - generic [ref=f18e1322]: 2026 1h 59m PG-13
+                - generic [ref=f18e1323]:
+                  - generic [ref=f18e1324]:
+                    - 'generic "IMDb rating: 6.5" [ref=f18e1325]':
+                      - generic [ref=f18e1327]: "6.5"
+                      - generic [ref=f18e1328]: (73K)
+                    - button "Rate The Devil Wears Prada 2" [ref=f18e1329] [cursor=pointer]:
+                      - generic [ref=f18e1330]: Rate
+                  - button "Mark The Devil Wears Prada 2 as watched" [ref=f18e1333] [cursor=pointer]:
+                    - generic [ref=f18e1336]: Mark as watched
+              - button "See more information about The Devil Wears Prada 2" [ref=f18e1338] [cursor=pointer]
+            - generic [ref=f18e1344]:
+              - group [ref=f18e1346]:
+                - generic [ref=f18e1347]:
+                  - img "Robert Pattinson and Zendaya in The Drama (2026)"
+                - button "Add to Watchlist" [ref=f18e1348] [cursor=pointer]
+                - link "View title page for The Drama" [ref=f18e1353] [cursor=pointer]:
+                  - /url: /title/tt33071426/?ref_=chtmvm_i_34
+              - generic [ref=f18e1355]:
+                - text: "#34"
+                - link [ref=f18e1358] [cursor=pointer]:
+                  - /url: /title/tt33071426/?ref_=chtmvm_t_34
+                  - heading "The Drama" [level=4] [ref=f18e1359]
+                - generic [ref=f18e1360]: 2026 1h 45m R
+                - generic [ref=f18e1361]:
+                  - generic [ref=f18e1362]:
+                    - 'generic "IMDb rating: 7.2" [ref=f18e1363]':
+                      - generic [ref=f18e1365]: "7.2"
+                      - generic [ref=f18e1366]: (86K)
+                    - button "Rate The Drama" [ref=f18e1367] [cursor=pointer]:
+                      - generic [ref=f18e1368]: Rate
+                  - button "Mark The Drama as watched" [ref=f18e1371] [cursor=pointer]:
+                    - generic [ref=f18e1374]: Mark as watched
+              - button "See more information about The Drama" [ref=f18e1376] [cursor=pointer]
+            - generic [ref=f18e1382]:
+              - group [ref=f18e1384]:
+                - generic [ref=f18e1385]:
+                  - img "Village of the Giants (1965)"
+                - button "Add to Watchlist" [ref=f18e1386] [cursor=pointer]
+                - link "View title page for Village of the Giants" [ref=f18e1391] [cursor=pointer]:
+                  - /url: /title/tt0059878/?ref_=chtmvm_i_35
+              - generic [ref=f18e1393]:
+                - text: "#35"
+                - link [ref=f18e1396] [cursor=pointer]:
+                  - /url: /title/tt0059878/?ref_=chtmvm_t_35
+                  - heading "Village of the Giants" [level=4] [ref=f18e1397]
+                - generic [ref=f18e1398]: 1965 1h 21m Approved
+                - generic [ref=f18e1399]:
+                  - generic [ref=f18e1400]:
+                    - 'generic "IMDb rating: 3.8" [ref=f18e1401]':
+                      - generic [ref=f18e1403]: "3.8"
+                      - generic [ref=f18e1404]: (3K)
+                    - button "Rate Village of the Giants" [ref=f18e1405] [cursor=pointer]:
+                      - generic [ref=f18e1406]: Rate
+                  - button "Mark Village of the Giants as watched" [ref=f18e1409] [cursor=pointer]:
+                    - generic [ref=f18e1412]: Mark as watched
+              - button "See more information about Village of the Giants" [ref=f18e1414] [cursor=pointer]
+            - generic [ref=f18e1420]:
+              - group [ref=f18e1422]:
+                - generic [ref=f18e1423]:
+                  - 'img "Dionne Quan, Dave Bautista, Steven Yeun, Jessica Matten, Román Zaragoza, and Eric Nam in Avatar Aang: The Last Airbender (2026)"'
+                - button "Add to Watchlist" [ref=f18e1424] [cursor=pointer]
+                - 'link "View title page for Avatar Aang: The Last Airbender" [ref=f18e1429] [cursor=pointer]':
+                  - /url: /title/tt18259538/?ref_=chtmvm_i_36
+              - generic [ref=f18e1431]:
+                - text: "#36"
+                - link [ref=f18e1434] [cursor=pointer]:
+                  - /url: /title/tt18259538/?ref_=chtmvm_t_36
+                  - 'heading "Avatar Aang: The Last Airbender" [level=4] [ref=f18e1435]'
+                - generic [ref=f18e1436]: Releases Jul 25, 2026 1h 39m PG
+              - 'button "See more information about Avatar Aang: The Last Airbender" [ref=f18e1439] [cursor=pointer]'
+            - generic [ref=f18e1445]:
+              - group [ref=f18e1447]:
+                - generic [ref=f18e1448]:
+                  - img "Nell Fisher, Gabrielle Echols, Alyssa Sutherland, and Morgan Davies in Evil Dead Rise (2023)"
+                - button "Add to Watchlist" [ref=f18e1449] [cursor=pointer]
+                - link "View title page for Evil Dead Rise" [ref=f18e1454] [cursor=pointer]:
+                  - /url: /title/tt13345606/?ref_=chtmvm_i_37
+              - generic [ref=f18e1456]:
+                - text: "#37"
+                - link [ref=f18e1459] [cursor=pointer]:
+                  - /url: /title/tt13345606/?ref_=chtmvm_t_37
+                  - heading "Evil Dead Rise" [level=4] [ref=f18e1460]
+                - generic [ref=f18e1461]: 2023 1h 36m R
+                - generic [ref=f18e1462]:
+                  - generic [ref=f18e1463]:
+                    - 'generic "IMDb rating: 6.5" [ref=f18e1464]':
+                      - generic [ref=f18e1466]: "6.5"
+                      - generic [ref=f18e1467]: (172K)
+                    - button "Rate Evil Dead Rise" [ref=f18e1468] [cursor=pointer]:
+                      - generic [ref=f18e1469]: Rate
+                  - button "Mark Evil Dead Rise as watched" [ref=f18e1472] [cursor=pointer]:
+                    - generic [ref=f18e1475]: Mark as watched
+              - button "See more information about Evil Dead Rise" [ref=f18e1477] [cursor=pointer]
+            - generic [ref=f18e1483]:
+              - group [ref=f18e1485]:
+                - img "Jon Hamm, Sabrina Impacciatore, Thomas Lennon, Joe Lo Truglio, Ken Marino, Fred Melamed, John Slattery, Mather Zickel, Miles Gutierrez-Riley, Ben Wang, Michael Cassidy, Zoey Deutch, and Tobie Windham in Gail Daughtry and the Celebrity Sex Pass (2026)" [ref=f18e1487]
+                - button "Add to Watchlist" [ref=f18e1488] [cursor=pointer]
+                - link "View title page for Gail Daughtry and the Celebrity Sex Pass" [ref=f18e1493] [cursor=pointer]:
+                  - /url: /title/tt36834010/?ref_=chtmvm_i_38
+              - generic [ref=f18e1495]:
+                - text: "#38"
+                - link [ref=f18e1498] [cursor=pointer]:
+                  - /url: /title/tt36834010/?ref_=chtmvm_t_38
+                  - heading "Gail Daughtry and the Celebrity Sex Pass" [level=4] [ref=f18e1499]
+                - generic [ref=f18e1500]: 2026 1h 34m R
+                - generic [ref=f18e1501]:
+                  - generic [ref=f18e1502]:
+                    - 'generic "IMDb rating: 6.8" [ref=f18e1503]':
+                      - generic [ref=f18e1505]: "6.8"
+                      - generic [ref=f18e1506]: (1.1K)
+                    - button "Rate Gail Daughtry and the Celebrity Sex Pass" [ref=f18e1507] [cursor=pointer]:
+                      - generic [ref=f18e1508]: Rate
+                  - button "Mark Gail Daughtry and the Celebrity Sex Pass as watched" [ref=f18e1511] [cursor=pointer]:
+                    - generic [ref=f18e1514]: Mark as watched
+              - button "See more information about Gail Daughtry and the Celebrity Sex Pass" [ref=f18e1516] [cursor=pointer]
+            - generic [ref=f18e1522]:
+              - group [ref=f18e1524]:
+                - generic [ref=f18e1525]:
+                  - img "Ajay Devgn, Indra Kumar, Jaaved Jaaferi, Arshad Warsi, Ravi Kishan, Krishan Kumar, Sanjay Mishra, Bhushan Kumar, Sanjeeda Sheikh, Riteish Deshmukh, Vijay Patkar, Upendra Limaye, Esha Gupta, and Anjali Anand in Dhamaal 4 (2026)"
+                - button "Add to Watchlist" [ref=f18e1526] [cursor=pointer]
+                - link "View title page for Dhamaal 4" [ref=f18e1531] [cursor=pointer]:
+                  - /url: /title/tt27548557/?ref_=chtmvm_i_39
+              - generic [ref=f18e1533]:
+                - text: "#39"
+                - link [ref=f18e1536] [cursor=pointer]:
+                  - /url: /title/tt27548557/?ref_=chtmvm_t_39
+                  - heading "Dhamaal 4" [level=4] [ref=f18e1537]
+                - generic [ref=f18e1538]: 2026 2h 23m
+                - generic [ref=f18e1539]:
+                  - generic [ref=f18e1540]:
+                    - 'generic "IMDb rating: 8.7" [ref=f18e1541]':
+                      - generic [ref=f18e1543]: "8.7"
+                      - generic [ref=f18e1544]: (32K)
+                    - button "Rate Dhamaal 4" [ref=f18e1545] [cursor=pointer]:
+                      - generic [ref=f18e1546]: Rate
+                  - button "Mark Dhamaal 4 as watched" [ref=f18e1549] [cursor=pointer]:
+                    - generic [ref=f18e1552]: Mark as watched
+              - button "See more information about Dhamaal 4" [ref=f18e1554] [cursor=pointer]
+            - generic [ref=f18e1560]:
+              - group [ref=f18e1562]:
+                - generic [ref=f18e1563]:
+                  - img "Sam Rockwell in Good Luck, Have Fun, Don't Die (2025)"
+                - button "Add to Watchlist" [ref=f18e1564] [cursor=pointer]
+                - link "View title page for Good Luck, Have Fun, Don't Die" [ref=f18e1569] [cursor=pointer]:
+                  - /url: /title/tt1341338/?ref_=chtmvm_i_40
+              - generic [ref=f18e1571]:
+                - text: "#40"
+                - link [ref=f18e1574] [cursor=pointer]:
+                  - /url: /title/tt1341338/?ref_=chtmvm_t_40
+                  - heading "Good Luck, Have Fun, Don't Die" [level=4] [ref=f18e1575]
+                - generic [ref=f18e1576]: 2025 2h 14m R
+                - generic [ref=f18e1577]:
+                  - generic [ref=f18e1578]:
+                    - 'generic "IMDb rating: 7.0" [ref=f18e1579]':
+                      - generic [ref=f18e1581]: "7.0"
+                      - generic [ref=f18e1582]: (63K)
+                    - button "Rate Good Luck, Have Fun, Don't Die" [ref=f18e1583] [cursor=pointer]:
+                      - generic [ref=f18e1584]: Rate
+                  - button "Mark Good Luck, Have Fun, Don't Die as watched" [ref=f18e1587] [cursor=pointer]:
+                    - generic [ref=f18e1590]: Mark as watched
+              - button "See more information about Good Luck, Have Fun, Don't Die" [ref=f18e1592] [cursor=pointer]
+            - generic [ref=f18e1598]:
+              - group [ref=f18e1600]:
+                - generic [ref=f18e1601]:
+                  - img "Dwayne Johnson, Stephen Kearin, Temuera Morrison, Alan Tudyk, Nicole Scherzinger, Any Gabrielly, and Auli'i Cravalho in Moana (2016)"
+                - button "Add to Watchlist" [ref=f18e1602] [cursor=pointer]
+                - link "View title page for Moana" [ref=f18e1607] [cursor=pointer]:
+                  - /url: /title/tt3521164/?ref_=chtmvm_i_41
+              - generic [ref=f18e1609]:
+                - text: "#41"
+                - link [ref=f18e1612] [cursor=pointer]:
+                  - /url: /title/tt3521164/?ref_=chtmvm_t_41
+                  - heading "Moana" [level=4] [ref=f18e1613]
+                - generic [ref=f18e1614]: 2016 1h 47m PG
+                - generic [ref=f18e1615]:
+                  - generic [ref=f18e1616]:
+                    - 'generic "IMDb rating: 7.6" [ref=f18e1617]':
+                      - generic [ref=f18e1619]: "7.6"
+                      - generic [ref=f18e1620]: (445K)
+                    - button "Rate Moana" [ref=f18e1621] [cursor=pointer]:
+                      - generic [ref=f18e1622]: Rate
+                  - button "Mark Moana as watched" [ref=f18e1625] [cursor=pointer]:
+                    - generic [ref=f18e1628]: Mark as watched
+              - button "See more information about Moana" [ref=f18e1630] [cursor=pointer]
+            - generic [ref=f18e1636]:
+              - group [ref=f18e1638]:
+                - generic [ref=f18e1639]:
+                  - img "John Cena and Eric André in Little Brother (2026)"
+                - button "Add to Watchlist" [ref=f18e1640] [cursor=pointer]
+                - link "View title page for Little Brother" [ref=f18e1645] [cursor=pointer]:
+                  - /url: /title/tt34888871/?ref_=chtmvm_i_42
+              - generic [ref=f18e1647]:
+                - text: "#42"
+                - link [ref=f18e1650] [cursor=pointer]:
+                  - /url: /title/tt34888871/?ref_=chtmvm_t_42
+                  - heading "Little Brother" [level=4] [ref=f18e1651]
+                - generic [ref=f18e1652]: 2026 1h 42m R
+                - generic [ref=f18e1653]:
+                  - generic [ref=f18e1654]:
+                    - 'generic "IMDb rating: 5.5" [ref=f18e1655]':
+                      - generic [ref=f18e1657]: "5.5"
+                      - generic [ref=f18e1658]: (11K)
+                    - button "Rate Little Brother" [ref=f18e1659] [cursor=pointer]:
+                      - generic [ref=f18e1660]: Rate
+                  - button "Mark Little Brother as watched" [ref=f18e1663] [cursor=pointer]:
+                    - generic [ref=f18e1666]: Mark as watched
+              - button "See more information about Little Brother" [ref=f18e1668] [cursor=pointer]
+            - generic [ref=f18e1674]:
+              - group [ref=f18e1676]:
+                - generic [ref=f18e1677]:
+                  - img "Tim Robbins in The Shawshank Redemption (1994)"
+                - button "Add to Watchlist" [ref=f18e1678] [cursor=pointer]
+                - link "View title page for The Shawshank Redemption" [ref=f18e1683] [cursor=pointer]:
+                  - /url: /title/tt0111161/?ref_=chtmvm_i_43
+              - generic [ref=f18e1685]:
+                - text: "#43"
+                - link [ref=f18e1688] [cursor=pointer]:
+                  - /url: /title/tt0111161/?ref_=chtmvm_t_43
+                  - heading "The Shawshank Redemption" [level=4] [ref=f18e1689]
+                - generic [ref=f18e1690]: 1994 2h 22m R
+                - generic [ref=f18e1691]:
+                  - generic [ref=f18e1692]:
+                    - 'generic "IMDb rating: 9.3" [ref=f18e1693]':
+                      - generic [ref=f18e1695]: "9.3"
+                      - generic [ref=f18e1696]: (3.2M)
+                    - button "Rate The Shawshank Redemption" [ref=f18e1697] [cursor=pointer]:
+                      - generic [ref=f18e1698]: Rate
+                  - button "Mark The Shawshank Redemption as watched" [ref=f18e1701] [cursor=pointer]:
+                    - generic [ref=f18e1704]: Mark as watched
+              - button "See more information about The Shawshank Redemption" [ref=f18e1706] [cursor=pointer]
+            - generic [ref=f18e1712]:
+              - group [ref=f18e1714]:
+                - generic [ref=f18e1715]:
+                  - img "Alia Bhatt and Sharvari in Alpha (2026)"
+                - button "Add to Watchlist" [ref=f18e1716] [cursor=pointer]
+                - link "View title page for Alpha" [ref=f18e1721] [cursor=pointer]:
+                  - /url: /title/tt28363783/?ref_=chtmvm_i_44
+              - generic [ref=f18e1723]:
+                - text: "#44"
+                - link [ref=f18e1726] [cursor=pointer]:
+                  - /url: /title/tt28363783/?ref_=chtmvm_t_44
+                  - heading "Alpha" [level=4] [ref=f18e1727]
+                - generic [ref=f18e1728]: 2026 2h 21m
+                - generic [ref=f18e1729]:
+                  - generic [ref=f18e1730]:
+                    - 'generic "IMDb rating: 3.1" [ref=f18e1731]':
+                      - generic [ref=f18e1733]: "3.1"
+                      - generic [ref=f18e1734]: (23K)
+                    - button "Rate Alpha" [ref=f18e1735] [cursor=pointer]:
+                      - generic [ref=f18e1736]: Rate
+                  - button "Mark Alpha as watched" [ref=f18e1739] [cursor=pointer]:
+                    - generic [ref=f18e1742]: Mark as watched
+              - button "See more information about Alpha" [ref=f18e1744] [cursor=pointer]
+            - generic [ref=f18e1750]:
+              - group [ref=f18e1752]:
+                - generic [ref=f18e1753]:
+                  - img "Hugh Jackman in The Death of Robin Hood (2026)"
+                - button "Add to Watchlist" [ref=f18e1754] [cursor=pointer]
+                - link "View title page for The Death of Robin Hood" [ref=f18e1759] [cursor=pointer]:
+                  - /url: /title/tt32273171/?ref_=chtmvm_i_45
+              - generic [ref=f18e1761]:
+                - text: "#45"
+                - link [ref=f18e1764] [cursor=pointer]:
+                  - /url: /title/tt32273171/?ref_=chtmvm_t_45
+                  - heading "The Death of Robin Hood" [level=4] [ref=f18e1765]
+                - generic [ref=f18e1766]: 2026 2h 2m R
+                - generic [ref=f18e1767]:
+                  - generic [ref=f18e1768]:
+                    - 'generic "IMDb rating: 6.2" [ref=f18e1769]':
+                      - generic [ref=f18e1771]: "6.2"
+                      - generic [ref=f18e1772]: (6.2K)
+                    - button "Rate The Death of Robin Hood" [ref=f18e1773] [cursor=pointer]:
+                      - generic [ref=f18e1774]: Rate
+                  - button "Mark The Death of Robin Hood as watched" [ref=f18e1777] [cursor=pointer]:
+                    - generic [ref=f18e1780]: Mark as watched
+              - button "See more information about The Death of Robin Hood" [ref=f18e1782] [cursor=pointer]
+            - generic [ref=f18e1788]:
+              - group [ref=f18e1790]:
+                - generic [ref=f18e1791]:
+                  - img "Marlon Wayans, Chris Elliott, Anna Faris, Regina Hall, Cheri Oteri, Dave Sheridan, Shawn Wayans, Sydney Park, Gregg Wayans, Olivia Rose Keegan, Savannah Lee Nassif, and Cameron Scott Roberts in Scary Movie (2026)"
+                - button "Add to Watchlist" [ref=f18e1792] [cursor=pointer]
+                - link "View title page for Scary Movie" [ref=f18e1797] [cursor=pointer]:
+                  - /url: /title/tt32093575/?ref_=chtmvm_i_46
+              - generic [ref=f18e1799]:
+                - text: "#46"
+                - link [ref=f18e1802] [cursor=pointer]:
+                  - /url: /title/tt32093575/?ref_=chtmvm_t_46
+                  - heading "Scary Movie" [level=4] [ref=f18e1803]
+                - generic [ref=f18e1804]: 2026 1h 36m R
+                - generic [ref=f18e1805]:
+                  - generic [ref=f18e1806]:
+                    - 'generic "IMDb rating: 5.2" [ref=f18e1807]':
+                      - generic [ref=f18e1809]: "5.2"
+                      - generic [ref=f18e1810]: (33K)
+                    - button "Rate Scary Movie" [ref=f18e1811] [cursor=pointer]:
+                      - generic [ref=f18e1812]: Rate
+                  - button "Mark Scary Movie as watched" [ref=f18e1815] [cursor=pointer]:
+                    - generic [ref=f18e1818]: Mark as watched
+              - button "See more information about Scary Movie" [ref=f18e1820] [cursor=pointer]
+            - generic [ref=f18e1826]:
+              - group [ref=f18e1828]:
+                - generic [ref=f18e1829]:
+                  - img "Nina Kiri in Undertone (2025)"
+                - button "Add to Watchlist" [ref=f18e1830] [cursor=pointer]
+                - link "View title page for Undertone" [ref=f18e1835] [cursor=pointer]:
+                  - /url: /title/tt35892608/?ref_=chtmvm_i_47
+              - generic [ref=f18e1837]:
+                - text: "#47"
+                - link [ref=f18e1840] [cursor=pointer]:
+                  - /url: /title/tt35892608/?ref_=chtmvm_t_47
+                  - heading "Undertone" [level=4] [ref=f18e1841]
+                - generic [ref=f18e1842]: 2025 1h 34m R
+                - generic [ref=f18e1843]:
+                  - generic [ref=f18e1844]:
+                    - 'generic "IMDb rating: 5.9" [ref=f18e1845]':
+                      - generic [ref=f18e1847]: "5.9"
+                      - generic [ref=f18e1848]: (26K)
+                    - button "Rate Undertone" [ref=f18e1849] [cursor=pointer]:
+                      - generic [ref=f18e1850]: Rate
+                  - button "Mark Undertone as watched" [ref=f18e1853] [cursor=pointer]:
+                    - generic [ref=f18e1856]: Mark as watched
+              - button "See more information about Undertone" [ref=f18e1858] [cursor=pointer]
+            - generic [ref=f18e1864]:
+              - group [ref=f18e1866]:
+                - generic [ref=f18e1867]:
+                  - img "Stephen Dorff, Trace Adkins, Tim Blake Nelson, Richard Speight Jr., Max Arciniega, Scott Haze, and Gavin Lewis in Old Henry (2021)"
+                - button "Add to Watchlist" [ref=f18e1868] [cursor=pointer]
+                - link "View title page for Old Henry" [ref=f18e1873] [cursor=pointer]:
+                  - /url: /title/tt12731980/?ref_=chtmvm_i_48
+              - generic [ref=f18e1875]:
+                - text: "#48"
+                - link [ref=f18e1878] [cursor=pointer]:
+                  - /url: /title/tt12731980/?ref_=chtmvm_t_48
+                  - heading "Old Henry" [level=4] [ref=f18e1879]
+                - generic [ref=f18e1880]: 2021 1h 39m Not Rated
+                - generic [ref=f18e1881]:
+                  - generic [ref=f18e1882]:
+                    - 'generic "IMDb rating: 7.3" [ref=f18e1883]':
+                      - generic [ref=f18e1885]: "7.3"
+                      - generic [ref=f18e1886]: (47K)
+                    - button "Rate Old Henry" [ref=f18e1887] [cursor=pointer]:
+                      - generic [ref=f18e1888]: Rate
+                  - button "Mark Old Henry as watched" [ref=f18e1891] [cursor=pointer]:
+                    - generic [ref=f18e1894]: Mark as watched
+              - button "See more information about Old Henry" [ref=f18e1896] [cursor=pointer]
+            - generic [ref=f18e1902]:
+              - group [ref=f18e1904]:
+                - generic [ref=f18e1905]:
+                  - img "Rachel McAdams and Dylan O'Brien in Send Help (2026)"
+                - button "Add to Watchlist" [ref=f18e1906] [cursor=pointer]
+                - link "View title page for Send Help" [ref=f18e1911] [cursor=pointer]:
+                  - /url: /title/tt8036976/?ref_=chtmvm_i_49
+              - generic [ref=f18e1913]:
+                - text: "#49"
+                - link [ref=f18e1916] [cursor=pointer]:
+                  - /url: /title/tt8036976/?ref_=chtmvm_t_49
+                  - heading "Send Help" [level=4] [ref=f18e1917]
+                - generic [ref=f18e1918]: 2026 1h 53m R
+                - generic [ref=f18e1919]:
+                  - generic [ref=f18e1920]:
+                    - 'generic "IMDb rating: 6.7" [ref=f18e1921]':
+                      - generic [ref=f18e1923]: "6.7"
+                      - generic [ref=f18e1924]: (136K)
+                    - button "Rate Send Help" [ref=f18e1925] [cursor=pointer]:
+                      - generic [ref=f18e1926]: Rate
+                  - button "Mark Send Help as watched" [ref=f18e1929] [cursor=pointer]:
+                    - generic [ref=f18e1932]: Mark as watched
+              - button "See more information about Send Help" [ref=f18e1934] [cursor=pointer]
+            - generic [ref=f18e1940]:
+              - group [ref=f18e1942]:
+                - generic [ref=f18e1943]:
+                  - img "Patricia Arquette, Heather Graham, Tom Felton, Paterson Joseph, Zazie Beetz, and Myha'la in They Will Kill You (2026)"
+                - button "Add to Watchlist" [ref=f18e1944] [cursor=pointer]
+                - link "View title page for They Will Kill You" [ref=f18e1949] [cursor=pointer]:
+                  - /url: /title/tt31728330/?ref_=chtmvm_i_50
+              - generic [ref=f18e1951]:
+                - text: "#50"
+                - link [ref=f18e1954] [cursor=pointer]:
+                  - /url: /title/tt31728330/?ref_=chtmvm_t_50
+                  - heading "They Will Kill You" [level=4] [ref=f18e1955]
+                - generic [ref=f18e1956]: 2026 1h 34m R
+                - generic [ref=f18e1957]:
+                  - generic [ref=f18e1958]:
+                    - 'generic "IMDb rating: 6.3" [ref=f18e1959]':
+                      - generic [ref=f18e1961]: "6.3"
+                      - generic [ref=f18e1962]: (42K)
+                    - button "Rate They Will Kill You" [ref=f18e1963] [cursor=pointer]:
+                      - generic [ref=f18e1964]: Rate
+                  - button "Mark They Will Kill You as watched" [ref=f18e1967] [cursor=pointer]:
+                    - generic [ref=f18e1970]: Mark as watched
+              - button "See more information about They Will Kill You" [ref=f18e1972] [cursor=pointer]
+            - generic [ref=f18e1978]:
+              - group [ref=f18e1980]:
+                - generic [ref=f18e1981]:
+                  - img "Matthew McConaughey in Interstellar (2014)"
+                - button "Add to Watchlist" [ref=f18e1982] [cursor=pointer]
+                - link "View title page for Interstellar" [ref=f18e1987] [cursor=pointer]:
+                  - /url: /title/tt0816692/?ref_=chtmvm_i_51
+              - generic [ref=f18e1989]:
+                - text: "#51"
+                - link [ref=f18e1992] [cursor=pointer]:
+                  - /url: /title/tt0816692/?ref_=chtmvm_t_51
+                  - heading "Interstellar" [level=4] [ref=f18e1993]
+                - generic [ref=f18e1994]: 2014 2h 49m PG-13
+                - generic [ref=f18e1995]:
+                  - generic [ref=f18e1996]:
+                    - 'generic "IMDb rating: 8.7" [ref=f18e1997]':
+                      - generic [ref=f18e1999]: "8.7"
+                      - generic [ref=f18e2000]: (2.6M)
+                    - button "Rate Interstellar" [ref=f18e2001] [cursor=pointer]:
+                      - generic [ref=f18e2002]: Rate
+                  - button "Mark Interstellar as watched" [ref=f18e2005] [cursor=pointer]:
+                    - generic [ref=f18e2008]: Mark as watched
+              - button "See more information about Interstellar" [ref=f18e2010] [cursor=pointer]
+            - generic [ref=f18e2016]:
+              - group [ref=f18e2018]:
+                - generic [ref=f18e2019]:
+                  - img "Henry Cavill, Jake Gyllenhaal, and Eiza González in In the Grey (2026)"
+                - button "Add to Watchlist" [ref=f18e2020] [cursor=pointer]
+                - link "View title page for In the Grey" [ref=f18e2025] [cursor=pointer]:
+                  - /url: /title/tt27681354/?ref_=chtmvm_i_52
+              - generic [ref=f18e2027]:
+                - text: "#52"
+                - link [ref=f18e2030] [cursor=pointer]:
+                  - /url: /title/tt27681354/?ref_=chtmvm_t_52
+                  - heading "In the Grey" [level=4] [ref=f18e2031]
+                - generic [ref=f18e2032]: 2026 1h 38m R
+                - generic [ref=f18e2033]:
+                  - generic [ref=f18e2034]:
+                    - 'generic "IMDb rating: 6.3" [ref=f18e2035]':
+                      - generic [ref=f18e2037]: "6.3"
+                      - generic [ref=f18e2038]: (28K)
+                    - button "Rate In the Grey" [ref=f18e2039] [cursor=pointer]:
+                      - generic [ref=f18e2040]: Rate
+                  - button "Mark In the Grey as watched" [ref=f18e2043] [cursor=pointer]:
+                    - generic [ref=f18e2046]: Mark as watched
+              - button "See more information about In the Grey" [ref=f18e2048] [cursor=pointer]
+            - generic [ref=f18e2054]:
+              - group [ref=f18e2056]:
+                - generic [ref=f18e2057]:
+                  - img "Black Box (2026)"
+                - button "Add to Watchlist" [ref=f18e2058] [cursor=pointer]
+                - link "View title page for Black Box" [ref=f18e2063] [cursor=pointer]:
+                  - /url: /title/tt32315584/?ref_=chtmvm_i_53
+              - generic [ref=f18e2065]:
+                - text: "#53"
+                - link [ref=f18e2068] [cursor=pointer]:
+                  - /url: /title/tt32315584/?ref_=chtmvm_t_53
+                  - heading "Black Box" [level=4] [ref=f18e2069]
+                - generic [ref=f18e2070]: 2026 1h 25m R
+                - generic [ref=f18e2071]:
+                  - generic [ref=f18e2072]:
+                    - 'generic "IMDb rating: 5.0" [ref=f18e2073]':
+                      - generic [ref=f18e2075]: "5.0"
+                      - generic [ref=f18e2076]: (1.5K)
+                    - button "Rate Black Box" [ref=f18e2077] [cursor=pointer]:
+                      - generic [ref=f18e2078]: Rate
+                  - button "Mark Black Box as watched" [ref=f18e2081] [cursor=pointer]:
+                    - generic [ref=f18e2084]: Mark as watched
+              - button "See more information about Black Box" [ref=f18e2086] [cursor=pointer]
+            - generic [ref=f18e2092]:
+              - group [ref=f18e2094]:
+                - generic [ref=f18e2095]:
+                  - img "Boulevard (2026)"
+                - button "Add to Watchlist" [ref=f18e2096] [cursor=pointer]
+                - link "View title page for Boulevard" [ref=f18e2101] [cursor=pointer]:
+                  - /url: /title/tt38235625/?ref_=chtmvm_i_54
+              - generic [ref=f18e2103]:
+                - text: "#54"
+                - link [ref=f18e2106] [cursor=pointer]:
+                  - /url: /title/tt38235625/?ref_=chtmvm_t_54
+                  - heading "Boulevard" [level=4] [ref=f18e2107]
+                - generic [ref=f18e2108]: 2026 1h 52m R
+                - generic [ref=f18e2109]:
+                  - generic [ref=f18e2110]:
+                    - 'generic "IMDb rating: 4.7" [ref=f18e2111]':
+                      - generic [ref=f18e2113]: "4.7"
+                      - generic [ref=f18e2114]: (713)
+                    - button "Rate Boulevard" [ref=f18e2115] [cursor=pointer]:
+                      - generic [ref=f18e2116]: Rate
+                  - button "Mark Boulevard as watched" [ref=f18e2119] [cursor=pointer]:
+                    - generic [ref=f18e2122]: Mark as watched
+              - button "See more information about Boulevard" [ref=f18e2124] [cursor=pointer]
+            - generic [ref=f18e2130]:
+              - group [ref=f18e2132]:
+                - generic [ref=f18e2133]:
+                  - img "Brad Pitt, Sean Bean, Saffron Burrows, Eric Bana, Orlando Bloom, Rose Byrne, Diane Kruger, and Garrett Hedlund in Troy (2004)"
+                - button "Add to Watchlist" [ref=f18e2134] [cursor=pointer]
+                - link "View title page for Troy" [ref=f18e2139] [cursor=pointer]:
+                  - /url: /title/tt0332452/?ref_=chtmvm_i_55
+              - generic [ref=f18e2141]:
+                - text: "#55"
+                - link [ref=f18e2144] [cursor=pointer]:
+                  - /url: /title/tt0332452/?ref_=chtmvm_t_55
+                  - heading "Troy" [level=4] [ref=f18e2145]
+                - generic [ref=f18e2146]: 2004 2h 43m R
+                - generic [ref=f18e2147]:
+                  - generic [ref=f18e2148]:
+                    - 'generic "IMDb rating: 7.3" [ref=f18e2149]':
+                      - generic [ref=f18e2151]: "7.3"
+                      - generic [ref=f18e2152]: (622K)
+                    - button "Rate Troy" [ref=f18e2153] [cursor=pointer]:
+                      - generic [ref=f18e2154]: Rate
+                  - button "Mark Troy as watched" [ref=f18e2157] [cursor=pointer]:
+                    - generic [ref=f18e2160]: Mark as watched
+              - button "See more information about Troy" [ref=f18e2162] [cursor=pointer]
+            - generic [ref=f18e2168]:
+              - group [ref=f18e2170]:
+                - generic [ref=f18e2171]:
+                  - img "Helena Bonham Carter, Henry Cavill, Susan Wokoma, Adeel Akhtar, Sam Claflin, Millie Bobby Brown, and Louis Partridge in Enola Holmes (2020)"
+                - button "Add to Watchlist" [ref=f18e2172] [cursor=pointer]
+                - link "View title page for Enola Holmes" [ref=f18e2177] [cursor=pointer]:
+                  - /url: /title/tt7846844/?ref_=chtmvm_i_56
+              - generic [ref=f18e2179]:
+                - text: "#56"
+                - link [ref=f18e2182] [cursor=pointer]:
+                  - /url: /title/tt7846844/?ref_=chtmvm_t_56
+                  - heading "Enola Holmes" [level=4] [ref=f18e2183]
+                - generic [ref=f18e2184]: 2020 2h 3m PG-13
+                - generic [ref=f18e2185]:
+                  - generic [ref=f18e2186]:
+                    - 'generic "IMDb rating: 6.7" [ref=f18e2187]':
+                      - generic [ref=f18e2189]: "6.7"
+                      - generic [ref=f18e2190]: (251K)
+                    - button "Rate Enola Holmes" [ref=f18e2191] [cursor=pointer]:
+                      - generic [ref=f18e2192]: Rate
+                  - button "Mark Enola Holmes as watched" [ref=f18e2195] [cursor=pointer]:
+                    - generic [ref=f18e2198]: Mark as watched
+              - button "See more information about Enola Holmes" [ref=f18e2200] [cursor=pointer]
+            - generic [ref=f18e2206]:
+              - group [ref=f18e2208]:
+                - generic [ref=f18e2209]:
+                  - img "Adam Scott in Hokum (2026)"
+                - button "Add to Watchlist" [ref=f18e2210] [cursor=pointer]
+                - link "View title page for Hokum" [ref=f18e2215] [cursor=pointer]:
+                  - /url: /title/tt35672862/?ref_=chtmvm_i_57
+              - generic [ref=f18e2217]:
+                - text: "#57"
+                - link [ref=f18e2220] [cursor=pointer]:
+                  - /url: /title/tt35672862/?ref_=chtmvm_t_57
+                  - heading "Hokum" [level=4] [ref=f18e2221]
+                - generic [ref=f18e2222]: 2026 1h 47m R
+                - generic [ref=f18e2223]:
+                  - generic [ref=f18e2224]:
+                    - 'generic "IMDb rating: 6.7" [ref=f18e2225]':
+                      - generic [ref=f18e2227]: "6.7"
+                      - generic [ref=f18e2228]: (46K)
+                    - button "Rate Hokum" [ref=f18e2229] [cursor=pointer]:
+                      - generic [ref=f18e2230]: Rate
+                  - button "Mark Hokum as watched" [ref=f18e2233] [cursor=pointer]:
+                    - generic [ref=f18e2236]: Mark as watched
+              - button "See more information about Hokum" [ref=f18e2238] [cursor=pointer]
+            - generic [ref=f18e2244]:
+              - group [ref=f18e2246]:
+                - generic [ref=f18e2247]:
+                  - img "Brendan Fraser and Andrew Scott in Pressure (2026)"
+                - button "Add to Watchlist" [ref=f18e2248] [cursor=pointer]
+                - link "View title page for Pressure" [ref=f18e2253] [cursor=pointer]:
+                  - /url: /title/tt32547691/?ref_=chtmvm_i_58
+              - generic [ref=f18e2255]:
+                - text: "#58"
+                - link [ref=f18e2258] [cursor=pointer]:
+                  - /url: /title/tt32547691/?ref_=chtmvm_t_58
+                  - heading "Pressure" [level=4] [ref=f18e2259]
+                - generic [ref=f18e2260]: 2026 1h 40m PG-13
+                - generic [ref=f18e2261]:
+                  - generic [ref=f18e2262]:
+                    - 'generic "IMDb rating: 7.3" [ref=f18e2263]':
+                      - generic [ref=f18e2265]: "7.3"
+                      - generic [ref=f18e2266]: (14K)
+                    - button "Rate Pressure" [ref=f18e2267] [cursor=pointer]:
+                      - generic [ref=f18e2268]: Rate
+                  - button "Mark Pressure as watched" [ref=f18e2271] [cursor=pointer]:
+                    - generic [ref=f18e2274]: Mark as watched
+              - button "See more information about Pressure" [ref=f18e2276] [cursor=pointer]
+            - generic [ref=f18e2282]:
+              - group [ref=f18e2284]:
+                - generic [ref=f18e2285]:
+                  - img "Sally Field, Alfred Molina, and Lewis Pullman in Remarkably Bright Creatures (2026)"
+                - button "Add to Watchlist" [ref=f18e2286] [cursor=pointer]
+                - link "View title page for Remarkably Bright Creatures" [ref=f18e2291] [cursor=pointer]:
+                  - /url: /title/tt33100314/?ref_=chtmvm_i_59
+              - generic [ref=f18e2293]:
+                - text: "#59"
+                - link [ref=f18e2296] [cursor=pointer]:
+                  - /url: /title/tt33100314/?ref_=chtmvm_t_59
+                  - heading "Remarkably Bright Creatures" [level=4] [ref=f18e2297]
+                - generic [ref=f18e2298]: 2026 1h 51m PG-13
+                - generic [ref=f18e2299]:
+                  - generic [ref=f18e2300]:
+                    - 'generic "IMDb rating: 7.7" [ref=f18e2301]':
+                      - generic [ref=f18e2303]: "7.7"
+                      - generic [ref=f18e2304]: (42K)
+                    - button "Rate Remarkably Bright Creatures" [ref=f18e2305] [cursor=pointer]:
+                      - generic [ref=f18e2306]: Rate
+                  - button "Mark Remarkably Bright Creatures as watched" [ref=f18e2309] [cursor=pointer]:
+                    - generic [ref=f18e2312]: Mark as watched
+              - button "See more information about Remarkably Bright Creatures" [ref=f18e2314] [cursor=pointer]
+            - generic [ref=f18e2320]:
+              - group [ref=f18e2322]:
+                - generic [ref=f18e2323]:
+                  - img "Juliette Lewis, Timothy Olyphant, Jason Segel, Keith Jardine, and Samara Weaving in Over Your Dead Body (2026)"
+                - button "Add to Watchlist" [ref=f18e2324] [cursor=pointer]
+                - link "View title page for Over Your Dead Body" [ref=f18e2329] [cursor=pointer]:
+                  - /url: /title/tt34685692/?ref_=chtmvm_i_60
+              - generic [ref=f18e2331]:
+                - text: "#60"
+                - link [ref=f18e2334] [cursor=pointer]:
+                  - /url: /title/tt34685692/?ref_=chtmvm_t_60
+                  - heading "Over Your Dead Body" [level=4] [ref=f18e2335]
+                - generic [ref=f18e2336]: 2026 1h 45m R
+                - generic [ref=f18e2337]:
+                  - generic [ref=f18e2338]:
+                    - 'generic "IMDb rating: 6.3" [ref=f18e2339]':
+                      - generic [ref=f18e2341]: "6.3"
+                      - generic [ref=f18e2342]: (25K)
+                    - button "Rate Over Your Dead Body" [ref=f18e2343] [cursor=pointer]:
+                      - generic [ref=f18e2344]: Rate
+                  - button "Mark Over Your Dead Body as watched" [ref=f18e2347] [cursor=pointer]:
+                    - generic [ref=f18e2350]: Mark as watched
+              - button "See more information about Over Your Dead Body" [ref=f18e2352] [cursor=pointer]
+            - generic [ref=f18e2358]:
+              - group [ref=f18e2360]:
+                - generic [ref=f18e2361]:
+                  - img "Michael B. Jordan in Sinners (2025)"
+                - button "Add to Watchlist" [ref=f18e2362] [cursor=pointer]
+                - link "View title page for Sinners" [ref=f18e2367] [cursor=pointer]:
+                  - /url: /title/tt31193180/?ref_=chtmvm_i_61
+              - generic [ref=f18e2369]:
+                - text: "#61"
+                - link [ref=f18e2372] [cursor=pointer]:
+                  - /url: /title/tt31193180/?ref_=chtmvm_t_61
+                  - heading "Sinners" [level=4] [ref=f18e2373]
+                - generic [ref=f18e2374]: 2025 2h 17m R
+                - generic [ref=f18e2375]:
+                  - generic [ref=f18e2376]:
+                    - 'generic "IMDb rating: 7.5" [ref=f18e2377]':
+                      - generic [ref=f18e2379]: "7.5"
+                      - generic [ref=f18e2380]: (502K)
+                    - button "Rate Sinners" [ref=f18e2381] [cursor=pointer]:
+                      - generic [ref=f18e2382]: Rate
+                  - button "Mark Sinners as watched" [ref=f18e2385] [cursor=pointer]:
+                    - generic [ref=f18e2388]: Mark as watched
+              - button "See more information about Sinners" [ref=f18e2390] [cursor=pointer]
+            - generic [ref=f18e2396]:
+              - group [ref=f18e2398]:
+                - generic [ref=f18e2399]:
+                  - img "Jane Levy in Evil Dead (2013)"
+                - button "Add to Watchlist" [ref=f18e2400] [cursor=pointer]
+                - link "View title page for Evil Dead" [ref=f18e2405] [cursor=pointer]:
+                  - /url: /title/tt1288558/?ref_=chtmvm_i_62
+              - generic [ref=f18e2407]:
+                - text: "#62"
+                - link [ref=f18e2410] [cursor=pointer]:
+                  - /url: /title/tt1288558/?ref_=chtmvm_t_62
+                  - heading "Evil Dead" [level=4] [ref=f18e2411]
+                - generic [ref=f18e2412]: 2013 1h 31m R
+                - generic [ref=f18e2413]:
+                  - generic [ref=f18e2414]:
+                    - 'generic "IMDb rating: 6.5" [ref=f18e2415]':
+                      - generic [ref=f18e2417]: "6.5"
+                      - generic [ref=f18e2418]: (215K)
+                    - button "Rate Evil Dead" [ref=f18e2419] [cursor=pointer]:
+                      - generic [ref=f18e2420]: Rate
+                  - button "Mark Evil Dead as watched" [ref=f18e2423] [cursor=pointer]:
+                    - generic [ref=f18e2426]: Mark as watched
+              - button "See more information about Evil Dead" [ref=f18e2428] [cursor=pointer]
+            - generic [ref=f18e2434]:
+              - group [ref=f18e2436]:
+                - generic [ref=f18e2437]:
+                  - img "Glen Powell in How to Make a Killing (2026)"
+                - button "Add to Watchlist" [ref=f18e2438] [cursor=pointer]
+                - link "View title page for How to Make a Killing" [ref=f18e2443] [cursor=pointer]:
+                  - /url: /title/tt4357198/?ref_=chtmvm_i_63
+              - generic [ref=f18e2445]:
+                - text: "#63"
+                - link [ref=f18e2448] [cursor=pointer]:
+                  - /url: /title/tt4357198/?ref_=chtmvm_t_63
+                  - heading "How to Make a Killing" [level=4] [ref=f18e2449]
+                - generic [ref=f18e2450]: 2026 1h 45m R
+                - generic [ref=f18e2451]:
+                  - generic [ref=f18e2452]:
+                    - 'generic "IMDb rating: 6.5" [ref=f18e2453]':
+                      - generic [ref=f18e2455]: "6.5"
+                      - generic [ref=f18e2456]: (35K)
+                    - button "Rate How to Make a Killing" [ref=f18e2457] [cursor=pointer]:
+                      - generic [ref=f18e2458]: Rate
+                  - button "Mark How to Make a Killing as watched" [ref=f18e2461] [cursor=pointer]:
+                    - generic [ref=f18e2464]: Mark as watched
+              - button "See more information about How to Make a Killing" [ref=f18e2466] [cursor=pointer]
+            - generic [ref=f18e2472]:
+              - group [ref=f18e2474]:
+                - generic [ref=f18e2475]:
+                  - img "Andie MacDowell, Henry Czerny, Adam Brody, Nicky Guadagni, John Ralston, Elyse Levesque, Melanie Scrofano, Mark O'Brien, Kristian Bruun, Samara Weaving, Daniela Barbosa, Celine Tsai, and Hanneke Talbot in Ready or Not (2019)"
+                - button "Add to Watchlist" [ref=f18e2476] [cursor=pointer]
+                - link "View title page for Ready or Not" [ref=f18e2481] [cursor=pointer]:
+                  - /url: /title/tt7798634/?ref_=chtmvm_i_64
+              - generic [ref=f18e2483]:
+                - text: "#64"
+                - link [ref=f18e2486] [cursor=pointer]:
+                  - /url: /title/tt7798634/?ref_=chtmvm_t_64
+                  - heading "Ready or Not" [level=4] [ref=f18e2487]
+                - generic [ref=f18e2488]: 2019 1h 35m R
+                - generic [ref=f18e2489]:
+                  - generic [ref=f18e2490]:
+                    - 'generic "IMDb rating: 6.9" [ref=f18e2491]':
+                      - generic [ref=f18e2493]: "6.9"
+                      - generic [ref=f18e2494]: (257K)
+                    - button "Rate Ready or Not" [ref=f18e2495] [cursor=pointer]:
+                      - generic [ref=f18e2496]: Rate
+                  - button "Mark Ready or Not as watched" [ref=f18e2499] [cursor=pointer]:
+                    - generic [ref=f18e2502]: Mark as watched
+              - button "See more information about Ready or Not" [ref=f18e2504] [cursor=pointer]
+            - generic [ref=f18e2510]:
+              - group [ref=f18e2512]:
+                - generic [ref=f18e2513]:
+                  - 'img "David Corenswet in SUPER/MAN: THE CHRISTOPHER REEVE STORY IS POWERFUL!! MOVIE REVIEW! (2024)"'
+                - button "Add to Watchlist" [ref=f18e2514] [cursor=pointer]
+                - link "View title page for Superman" [ref=f18e2519] [cursor=pointer]:
+                  - /url: /title/tt5950044/?ref_=chtmvm_i_65
+              - generic [ref=f18e2521]:
+                - text: "#65"
+                - link [ref=f18e2524] [cursor=pointer]:
+                  - /url: /title/tt5950044/?ref_=chtmvm_t_65
+                  - heading "Superman" [level=4] [ref=f18e2525]
+                - generic [ref=f18e2526]: 2025 2h 9m PG-13
+                - generic [ref=f18e2527]:
+                  - generic [ref=f18e2528]:
+                    - 'generic "IMDb rating: 7.0" [ref=f18e2529]':
+                      - generic [ref=f18e2531]: "7.0"
+                      - generic [ref=f18e2532]: (429K)
+                    - button "Rate Superman" [ref=f18e2533] [cursor=pointer]:
+                      - generic [ref=f18e2534]: Rate
+                  - button "Mark Superman as watched" [ref=f18e2537] [cursor=pointer]:
+                    - generic [ref=f18e2540]: Mark as watched
+              - button "See more information about Superman" [ref=f18e2542] [cursor=pointer]
+            - generic [ref=f18e2548]:
+              - group [ref=f18e2550]:
+                - generic [ref=f18e2551]:
+                  - 'img "Greg D''Agostino in Avengers: Doomsday (2026)"'
+                - button "Add to Watchlist" [ref=f18e2552] [cursor=pointer]
+                - 'link "View title page for Avengers: Doomsday" [ref=f18e2557] [cursor=pointer]':
+                  - /url: /title/tt21357150/?ref_=chtmvm_i_66
+              - generic [ref=f18e2559]:
+                - text: "#66"
+                - link [ref=f18e2562] [cursor=pointer]:
+                  - /url: /title/tt21357150/?ref_=chtmvm_t_66
+                  - 'heading "Avengers: Doomsday" [level=4] [ref=f18e2563]'
+                - generic [ref=f18e2564]: Expected Dec 18, 2026 2h 45m
+              - 'button "See more information about Avengers: Doomsday" [ref=f18e2567] [cursor=pointer]'
+            - generic [ref=f18e2573]:
+              - group [ref=f18e2575]:
+                - generic [ref=f18e2576]:
+                  - img "Tadanobu Asano, Damon Herriman, Josh Lawson, Hiroyuki Sanada, Karl Urban, Ana Thu Nguyen, CJ Bloomfield, Lewis Tan, Mehcad Brooks, Chin Han, Jessica McNamee, Joe Taslim, Ludi Lin, Desmond Chiam, Max Huang, Tati Gabrielle, Martyn Ford, and Adeline Rudolph in Mortal Kombat II (2026)"
+                - button "Add to Watchlist" [ref=f18e2577] [cursor=pointer]
+                - link "View title page for Mortal Kombat II" [ref=f18e2582] [cursor=pointer]:
+                  - /url: /title/tt17490712/?ref_=chtmvm_i_67
+              - generic [ref=f18e2584]:
+                - text: "#67"
+                - link [ref=f18e2587] [cursor=pointer]:
+                  - /url: /title/tt17490712/?ref_=chtmvm_t_67
+                  - heading "Mortal Kombat II" [level=4] [ref=f18e2588]
+                - generic [ref=f18e2589]: 2026 1h 56m R
+                - generic [ref=f18e2590]:
+                  - generic [ref=f18e2591]:
+                    - 'generic "IMDb rating: 6.4" [ref=f18e2592]':
+                      - generic [ref=f18e2594]: "6.4"
+                      - generic [ref=f18e2595]: (61K)
+                    - button "Rate Mortal Kombat II" [ref=f18e2596] [cursor=pointer]:
+                      - generic [ref=f18e2597]: Rate
+                  - button "Mark Mortal Kombat II as watched" [ref=f18e2600] [cursor=pointer]:
+                    - generic [ref=f18e2603]: Mark as watched
+              - button "See more information about Mortal Kombat II" [ref=f18e2605] [cursor=pointer]
+            - generic [ref=f18e2611]:
+              - group [ref=f18e2613]:
+                - generic [ref=f18e2614]:
+                  - img "Stacy Clausen and Joe Bird in Leviticus (2026)"
+                - button "Add to Watchlist" [ref=f18e2615] [cursor=pointer]
+                - link "View title page for Leviticus" [ref=f18e2620] [cursor=pointer]:
+                  - /url: /title/tt39143902/?ref_=chtmvm_i_68
+              - generic [ref=f18e2622]:
+                - text: "#68"
+                - link [ref=f18e2625] [cursor=pointer]:
+                  - /url: /title/tt39143902/?ref_=chtmvm_t_68
+                  - heading "Leviticus" [level=4] [ref=f18e2626]
+                - generic [ref=f18e2627]: 2026 1h 28m R
+                - generic [ref=f18e2628]:
+                  - generic [ref=f18e2629]:
+                    - 'generic "IMDb rating: 6.8" [ref=f18e2630]':
+                      - generic [ref=f18e2632]: "6.8"
+                      - generic [ref=f18e2633]: (5.5K)
+                    - button "Rate Leviticus" [ref=f18e2634] [cursor=pointer]:
+                      - generic [ref=f18e2635]: Rate
+                  - button "Mark Leviticus as watched" [ref=f18e2638] [cursor=pointer]:
+                    - generic [ref=f18e2641]: Mark as watched
+              - button "See more information about Leviticus" [ref=f18e2643] [cursor=pointer]
+            - generic [ref=f18e2649]:
+              - group [ref=f18e2651]:
+                - generic [ref=f18e2652]:
+                  - img "Werwulf (2026)"
+                - button "Add to Watchlist" [ref=f18e2653] [cursor=pointer]
+                - link "View title page for Werwulf" [ref=f18e2658] [cursor=pointer]:
+                  - /url: /title/tt35514120/?ref_=chtmvm_i_69
+              - generic [ref=f18e2660]:
+                - text: "#69"
+                - link [ref=f18e2663] [cursor=pointer]:
+                  - /url: /title/tt35514120/?ref_=chtmvm_t_69
+                  - heading "Werwulf" [level=4] [ref=f18e2664]
+                - generic [ref=f18e2665]: Expected Dec 25, 2026
+              - button "See more information about Werwulf" [ref=f18e2668] [cursor=pointer]
+            - generic [ref=f18e2674]:
+              - group [ref=f18e2676]:
+                - generic [ref=f18e2677]:
+                  - img "Wamiqa Gabbi, Ayushmann Khurrana, Rakul Preet Singh, and Sara Ali Khan in Pati Patni Aur Woh Do (2026)"
+                - button "Add to Watchlist" [ref=f18e2678] [cursor=pointer]
+                - link "View title page for Pati Patni Aur Woh Do" [ref=f18e2683] [cursor=pointer]:
+                  - /url: /title/tt33054858/?ref_=chtmvm_i_70
+              - generic [ref=f18e2685]:
+                - text: "#70"
+                - link [ref=f18e2688] [cursor=pointer]:
+                  - /url: /title/tt33054858/?ref_=chtmvm_t_70
+                  - heading "Pati Patni Aur Woh Do" [level=4] [ref=f18e2689]
+                - generic [ref=f18e2690]: 2026 1h 57m TV-14
+                - generic [ref=f18e2691]:
+                  - generic [ref=f18e2692]:
+                    - 'generic "IMDb rating: 6.1" [ref=f18e2693]':
+                      - generic [ref=f18e2695]: "6.1"
+                      - generic [ref=f18e2696]: (7.5K)
+                    - button "Rate Pati Patni Aur Woh Do" [ref=f18e2697] [cursor=pointer]:
+                      - generic [ref=f18e2698]: Rate
+                  - button "Mark Pati Patni Aur Woh Do as watched" [ref=f18e2701] [cursor=pointer]:
+                    - generic [ref=f18e2704]: Mark as watched
+              - button "See more information about Pati Patni Aur Woh Do" [ref=f18e2706] [cursor=pointer]
+            - generic [ref=f18e2712]:
+              - group [ref=f18e2714]:
+                - generic [ref=f18e2715]:
+                  - 'img "Dhurandhar: The Revenge (2026)"'
+                - button "Add to Watchlist" [ref=f18e2716] [cursor=pointer]
+                - 'link "View title page for Dhurandhar: The Revenge" [ref=f18e2721] [cursor=pointer]':
+                  - /url: /title/tt39139925/?ref_=chtmvm_i_71
+              - generic [ref=f18e2723]:
+                - text: "#71"
+                - link [ref=f18e2726] [cursor=pointer]:
+                  - /url: /title/tt39139925/?ref_=chtmvm_t_71
+                  - 'heading "Dhurandhar: The Revenge" [level=4] [ref=f18e2727]'
+                - generic [ref=f18e2728]: 2026 3h 55m TV-MA
+                - generic [ref=f18e2729]:
+                  - generic [ref=f18e2730]:
+                    - 'generic "IMDb rating: 8.2" [ref=f18e2731]':
+                      - generic [ref=f18e2733]: "8.2"
+                      - generic [ref=f18e2734]: (67K)
+                    - 'button "Rate Dhurandhar: The Revenge" [ref=f18e2735] [cursor=pointer]':
+                      - generic [ref=f18e2736]: Rate
+                  - 'button "Mark Dhurandhar: The Revenge as watched" [ref=f18e2739] [cursor=pointer]':
+                    - generic [ref=f18e2742]: Mark as watched
+              - 'button "See more information about Dhurandhar: The Revenge" [ref=f18e2744] [cursor=pointer]'
+            - generic [ref=f18e2750]:
+              - group [ref=f18e2752]:
+                - generic [ref=f18e2753]:
+                  - img "Godzilla Minus Zero (2026)"
+                - button "Add to Watchlist" [ref=f18e2754] [cursor=pointer]
+                - link "View title page for Godzilla Minus Zero" [ref=f18e2759] [cursor=pointer]:
+                  - /url: /title/tt34384661/?ref_=chtmvm_i_72
+              - generic [ref=f18e2761]:
+                - text: "#72"
+                - link [ref=f18e2764] [cursor=pointer]:
+                  - /url: /title/tt34384661/?ref_=chtmvm_t_72
+                  - heading "Godzilla Minus Zero" [level=4] [ref=f18e2765]
+                - generic [ref=f18e2766]: Expected Nov 6, 2026 2h 5m
+              - button "See more information about Godzilla Minus Zero" [ref=f18e2769] [cursor=pointer]
+            - generic [ref=f18e2775]:
+              - group [ref=f18e2777]:
+                - generic [ref=f18e2778]:
+                  - img "Emma Stone in Bugonia (2025)"
+                - button "Add to Watchlist" [ref=f18e2779] [cursor=pointer]
+                - link "View title page for Bugonia" [ref=f18e2784] [cursor=pointer]:
+                  - /url: /title/tt12300742/?ref_=chtmvm_i_73
+              - generic [ref=f18e2786]:
+                - text: "#73"
+                - link [ref=f18e2789] [cursor=pointer]:
+                  - /url: /title/tt12300742/?ref_=chtmvm_t_73
+                  - heading "Bugonia" [level=4] [ref=f18e2790]
+                - generic [ref=f18e2791]: 2025 1h 58m R
+                - generic [ref=f18e2792]:
+                  - generic [ref=f18e2793]:
+                    - 'generic "IMDb rating: 7.4" [ref=f18e2794]':
+                      - generic [ref=f18e2796]: "7.4"
+                      - generic [ref=f18e2797]: (209K)
+                    - button "Rate Bugonia" [ref=f18e2798] [cursor=pointer]:
+                      - generic [ref=f18e2799]: Rate
+                  - button "Mark Bugonia as watched" [ref=f18e2802] [cursor=pointer]:
+                    - generic [ref=f18e2805]: Mark as watched
+              - button "See more information about Bugonia" [ref=f18e2807] [cursor=pointer]
+            - generic [ref=f18e2813]:
+              - group [ref=f18e2815]:
+                - generic [ref=f18e2816]:
+                  - img "Leonardo DiCaprio, Joseph Gordon-Levitt, Tom Hardy, Elliot Page, Ken Watanabe, and Dileep Rao in Inception (2010)"
+                - button "Add to Watchlist" [ref=f18e2817] [cursor=pointer]
+                - link "View title page for Inception" [ref=f18e2822] [cursor=pointer]:
+                  - /url: /title/tt1375666/?ref_=chtmvm_i_74
+              - generic [ref=f18e2824]:
+                - text: "#74"
+                - link [ref=f18e2827] [cursor=pointer]:
+                  - /url: /title/tt1375666/?ref_=chtmvm_t_74
+                  - heading "Inception" [level=4] [ref=f18e2828]
+                - generic [ref=f18e2829]: 2010 2h 28m PG-13
+                - generic [ref=f18e2830]:
+                  - generic [ref=f18e2831]:
+                    - 'generic "IMDb rating: 8.8" [ref=f18e2832]':
+                      - generic [ref=f18e2834]: "8.8"
+                      - generic [ref=f18e2835]: (2.8M)
+                    - button "Rate Inception" [ref=f18e2836] [cursor=pointer]:
+                      - generic [ref=f18e2837]: Rate
+                  - button "Mark Inception as watched" [ref=f18e2840] [cursor=pointer]:
+                    - generic [ref=f18e2843]: Mark as watched
+              - button "See more information about Inception" [ref=f18e2845] [cursor=pointer]
+            - generic [ref=f18e2851]:
+              - group [ref=f18e2853]:
+                - generic [ref=f18e2854]:
+                  - img "Khalani Simon-Barrow, Luke Speakman, and Jackson A Park in Weapons (2025)"
+                - button "Add to Watchlist" [ref=f18e2855] [cursor=pointer]
+                - link "View title page for Weapons" [ref=f18e2860] [cursor=pointer]:
+                  - /url: /title/tt26581740/?ref_=chtmvm_i_75
+              - generic [ref=f18e2862]:
+                - text: "#75"
+                - link [ref=f18e2865] [cursor=pointer]:
+                  - /url: /title/tt26581740/?ref_=chtmvm_t_75
+                  - heading "Weapons" [level=4] [ref=f18e2866]
+                - generic [ref=f18e2867]: 2025 2h 8m R
+                - generic [ref=f18e2868]:
+                  - generic [ref=f18e2869]:
+                    - 'generic "IMDb rating: 7.4" [ref=f18e2870]':
+                      - generic [ref=f18e2872]: "7.4"
+                      - generic [ref=f18e2873]: (379K)
+                    - button "Rate Weapons" [ref=f18e2874] [cursor=pointer]:
+                      - generic [ref=f18e2875]: Rate
+                  - button "Mark Weapons as watched" [ref=f18e2878] [cursor=pointer]:
+                    - generic [ref=f18e2881]: Mark as watched
+              - button "See more information about Weapons" [ref=f18e2883] [cursor=pointer]
+            - generic [ref=f18e2889]:
+              - group [ref=f18e2891]:
+                - generic [ref=f18e2892]:
+                  - img "Maika Monroe in Reminders of Him (2026)"
+                - button "Add to Watchlist" [ref=f18e2893] [cursor=pointer]
+                - link "View title page for Reminders of Him" [ref=f18e2898] [cursor=pointer]:
+                  - /url: /title/tt33714084/?ref_=chtmvm_i_76
+              - generic [ref=f18e2900]:
+                - text: "#76"
+                - link [ref=f18e2903] [cursor=pointer]:
+                  - /url: /title/tt33714084/?ref_=chtmvm_t_76
+                  - heading "Reminders of Him" [level=4] [ref=f18e2904]
+                - generic [ref=f18e2905]: 2026 1h 54m PG-13
+                - generic [ref=f18e2906]:
+                  - generic [ref=f18e2907]:
+                    - 'generic "IMDb rating: 6.3" [ref=f18e2908]':
+                      - generic [ref=f18e2910]: "6.3"
+                      - generic [ref=f18e2911]: (10K)
+                    - button "Rate Reminders of Him" [ref=f18e2912] [cursor=pointer]:
+                      - generic [ref=f18e2913]: Rate
+                  - button "Mark Reminders of Him as watched" [ref=f18e2916] [cursor=pointer]:
+                    - generic [ref=f18e2919]: Mark as watched
+              - button "See more information about Reminders of Him" [ref=f18e2921] [cursor=pointer]
+            - generic [ref=f18e2927]:
+              - group [ref=f18e2929]:
+                - generic [ref=f18e2930]:
+                  - img "Charlize Theron and Taron Egerton in Apex (2026)"
+                - button "Add to Watchlist" [ref=f18e2931] [cursor=pointer]
+                - link "View title page for Apex" [ref=f18e2936] [cursor=pointer]:
+                  - /url: /title/tt16431404/?ref_=chtmvm_i_77
+              - generic [ref=f18e2938]:
+                - text: "#77"
+                - link [ref=f18e2941] [cursor=pointer]:
+                  - /url: /title/tt16431404/?ref_=chtmvm_t_77
+                  - heading "Apex" [level=4] [ref=f18e2942]
+                - generic [ref=f18e2943]: 2026 1h 35m R
+                - generic [ref=f18e2944]:
+                  - generic [ref=f18e2945]:
+                    - 'generic "IMDb rating: 6.1" [ref=f18e2946]':
+                      - generic [ref=f18e2948]: "6.1"
+                      - generic [ref=f18e2949]: (97K)
+                    - button "Rate Apex" [ref=f18e2950] [cursor=pointer]:
+                      - generic [ref=f18e2951]: Rate
+                  - button "Mark Apex as watched" [ref=f18e2954] [cursor=pointer]:
+                    - generic [ref=f18e2957]: Mark as watched
+              - button "See more information about Apex" [ref=f18e2959] [cursor=pointer]
+            - generic [ref=f18e2965]:
+              - group [ref=f18e2967]:
+                - generic [ref=f18e2968]:
+                  - img "Patricia Arquette and Bill Pullman in Lost Highway (1997)"
+                - button "Add to Watchlist" [ref=f18e2969] [cursor=pointer]
+                - link "View title page for Lost Highway" [ref=f18e2974] [cursor=pointer]:
+                  - /url: /title/tt0116922/?ref_=chtmvm_i_78
+              - generic [ref=f18e2976]:
+                - text: "#78"
+                - link [ref=f18e2979] [cursor=pointer]:
+                  - /url: /title/tt0116922/?ref_=chtmvm_t_78
+                  - heading "Lost Highway" [level=4] [ref=f18e2980]
+                - generic [ref=f18e2981]: 1997 2h 14m R
+                - generic [ref=f18e2982]:
+                  - generic [ref=f18e2983]:
+                    - 'generic "IMDb rating: 7.6" [ref=f18e2984]':
+                      - generic [ref=f18e2986]: "7.6"
+                      - generic [ref=f18e2987]: (172K)
+                    - button "Rate Lost Highway" [ref=f18e2988] [cursor=pointer]:
+                      - generic [ref=f18e2989]: Rate
+                  - button "Mark Lost Highway as watched" [ref=f18e2992] [cursor=pointer]:
+                    - generic [ref=f18e2995]: Mark as watched
+              - button "See more information about Lost Highway" [ref=f18e2997] [cursor=pointer]
+            - generic [ref=f18e3003]:
+              - group [ref=f18e3005]:
+                - generic [ref=f18e3006]:
+                  - 'img "Shipwrecked: Nightmare at Sea (2026)"'
+                - button "Add to Watchlist" [ref=f18e3007] [cursor=pointer]
+                - 'link "View title page for Shipwrecked: Nightmare at Sea" [ref=f18e3012] [cursor=pointer]':
+                  - /url: /title/tt43595399/?ref_=chtmvm_i_79
+              - generic [ref=f18e3014]:
+                - text: "#79"
+                - link [ref=f18e3017] [cursor=pointer]:
+                  - /url: /title/tt43595399/?ref_=chtmvm_t_79
+                  - 'heading "Shipwrecked: Nightmare at Sea" [level=4] [ref=f18e3018]'
+                - generic [ref=f18e3019]: 2026 1h 27m TV-14
+                - generic [ref=f18e3020]:
+                  - generic [ref=f18e3021]:
+                    - 'generic "IMDb rating: 6.5" [ref=f18e3022]':
+                      - generic [ref=f18e3024]: "6.5"
+                      - generic [ref=f18e3025]: (2.2K)
+                    - 'button "Rate Shipwrecked: Nightmare at Sea" [ref=f18e3026] [cursor=pointer]':
+                      - generic [ref=f18e3027]: Rate
+                  - 'button "Mark Shipwrecked: Nightmare at Sea as watched" [ref=f18e3030] [cursor=pointer]':
+                    - generic [ref=f18e3033]: Mark as watched
+              - 'button "See more information about Shipwrecked: Nightmare at Sea" [ref=f18e3035] [cursor=pointer]'
+            - generic [ref=f18e3041]:
+              - group [ref=f18e3043]:
+                - generic [ref=f18e3044]:
+                  - img "Melissa Villaseñor and Piper Curda in Hoppers (2026)"
+                - button "Add to Watchlist" [ref=f18e3045] [cursor=pointer]
+                - link "View title page for Hoppers" [ref=f18e3050] [cursor=pointer]:
+                  - /url: /title/tt26443616/?ref_=chtmvm_i_80
+              - generic [ref=f18e3052]:
+                - text: "#80"
+                - link [ref=f18e3055] [cursor=pointer]:
+                  - /url: /title/tt26443616/?ref_=chtmvm_t_80
+                  - heading "Hoppers" [level=4] [ref=f18e3056]
+                - generic [ref=f18e3057]: 2026 1h 44m PG
+                - generic [ref=f18e3058]:
+                  - generic [ref=f18e3059]:
+                    - 'generic "IMDb rating: 7.2" [ref=f18e3060]':
+                      - generic [ref=f18e3062]: "7.2"
+                      - generic [ref=f18e3063]: (74K)
+                    - button "Rate Hoppers" [ref=f18e3064] [cursor=pointer]:
+                      - generic [ref=f18e3065]: Rate
+                  - button "Mark Hoppers as watched" [ref=f18e3068] [cursor=pointer]:
+                    - generic [ref=f18e3071]: Mark as watched
+              - button "See more information about Hoppers" [ref=f18e3073] [cursor=pointer]
+            - generic [ref=f18e3079]:
+              - group [ref=f18e3081]:
+                - generic [ref=f18e3082]:
+                  - img "Ben Affleck and Rosamund Pike in Gone Girl (2014)"
+                - button "Add to Watchlist" [ref=f18e3083] [cursor=pointer]
+                - link "View title page for Gone Girl" [ref=f18e3088] [cursor=pointer]:
+                  - /url: /title/tt2267998/?ref_=chtmvm_i_81
+              - generic [ref=f18e3090]:
+                - text: "#81"
+                - link [ref=f18e3093] [cursor=pointer]:
+                  - /url: /title/tt2267998/?ref_=chtmvm_t_81
+                  - heading "Gone Girl" [level=4] [ref=f18e3094]
+                - generic [ref=f18e3095]: 2014 2h 29m R
+                - generic [ref=f18e3096]:
+                  - generic [ref=f18e3097]:
+                    - 'generic "IMDb rating: 8.1" [ref=f18e3098]':
+                      - generic [ref=f18e3100]: "8.1"
+                      - generic [ref=f18e3101]: (1.2M)
+                    - button "Rate Gone Girl" [ref=f18e3102] [cursor=pointer]:
+                      - generic [ref=f18e3103]: Rate
+                  - button "Mark Gone Girl as watched" [ref=f18e3106] [cursor=pointer]:
+                    - generic [ref=f18e3109]: Mark as watched
+              - button "See more information about Gone Girl" [ref=f18e3111] [cursor=pointer]
+            - generic [ref=f18e3117]:
+              - group [ref=f18e3119]:
+                - generic [ref=f18e3120]:
+                  - img "Jessie Buckley and Paul Mescal in Hamnet (2025)"
+                - button "Add to Watchlist" [ref=f18e3121] [cursor=pointer]
+                - link "View title page for Hamnet" [ref=f18e3126] [cursor=pointer]:
+                  - /url: /title/tt14905854/?ref_=chtmvm_i_82
+              - generic [ref=f18e3128]:
+                - text: "#82"
+                - link [ref=f18e3131] [cursor=pointer]:
+                  - /url: /title/tt14905854/?ref_=chtmvm_t_82
+                  - heading "Hamnet" [level=4] [ref=f18e3132]
+                - generic [ref=f18e3133]: 2025 2h 5m PG-13
+                - generic [ref=f18e3134]:
+                  - generic [ref=f18e3135]:
+                    - 'generic "IMDb rating: 7.8" [ref=f18e3136]':
+                      - generic [ref=f18e3138]: "7.8"
+                      - generic [ref=f18e3139]: (124K)
+                    - button "Rate Hamnet" [ref=f18e3140] [cursor=pointer]:
+                      - generic [ref=f18e3141]: Rate
+                  - button "Mark Hamnet as watched" [ref=f18e3144] [cursor=pointer]:
+                    - generic [ref=f18e3147]: Mark as watched
+              - button "See more information about Hamnet" [ref=f18e3149] [cursor=pointer]
+            - generic [ref=f18e3155]:
+              - group [ref=f18e3157]:
+                - generic [ref=f18e3158]:
+                  - img "Christian Bale in The Dark Knight (2008)"
+                - button "Add to Watchlist" [ref=f18e3159] [cursor=pointer]
+                - link "View title page for The Dark Knight" [ref=f18e3164] [cursor=pointer]:
+                  - /url: /title/tt0468569/?ref_=chtmvm_i_83
+              - generic [ref=f18e3166]:
+                - text: "#83"
+                - link [ref=f18e3169] [cursor=pointer]:
+                  - /url: /title/tt0468569/?ref_=chtmvm_t_83
+                  - heading "The Dark Knight" [level=4] [ref=f18e3170]
+                - generic [ref=f18e3171]: 2008 2h 32m PG-13
+                - generic [ref=f18e3172]:
+                  - generic [ref=f18e3173]:
+                    - 'generic "IMDb rating: 9.1" [ref=f18e3174]':
+                      - generic [ref=f18e3176]: "9.1"
+                      - generic [ref=f18e3177]: (3.2M)
+                    - button "Rate The Dark Knight" [ref=f18e3178] [cursor=pointer]:
+                      - generic [ref=f18e3179]: Rate
+                  - button "Mark The Dark Knight as watched" [ref=f18e3182] [cursor=pointer]:
+                    - generic [ref=f18e3185]: Mark as watched
+              - button "See more information about The Dark Knight" [ref=f18e3187] [cursor=pointer]
+            - generic [ref=f18e3193]:
+              - group [ref=f18e3195]:
+                - generic [ref=f18e3196]:
+                  - img "Leonardo DiCaprio and Chase Infiniti in One Battle After Another (2025)"
+                - button "Add to Watchlist" [ref=f18e3197] [cursor=pointer]
+                - link "View title page for One Battle After Another" [ref=f18e3202] [cursor=pointer]:
+                  - /url: /title/tt30144839/?ref_=chtmvm_i_84
+              - generic [ref=f18e3204]:
+                - text: "#84"
+                - link [ref=f18e3207] [cursor=pointer]:
+                  - /url: /title/tt30144839/?ref_=chtmvm_t_84
+                  - heading "One Battle After Another" [level=4] [ref=f18e3208]
+                - generic [ref=f18e3209]: 2025 2h 41m R
+                - generic [ref=f18e3210]:
+                  - generic [ref=f18e3211]:
+                    - 'generic "IMDb rating: 7.6" [ref=f18e3212]':
+                      - generic [ref=f18e3214]: "7.6"
+                      - generic [ref=f18e3215]: (426K)
+                    - button "Rate One Battle After Another" [ref=f18e3216] [cursor=pointer]:
+                      - generic [ref=f18e3217]: Rate
+                  - button "Mark One Battle After Another as watched" [ref=f18e3220] [cursor=pointer]:
+                    - generic [ref=f18e3223]: Mark as watched
+              - button "See more information about One Battle After Another" [ref=f18e3225] [cursor=pointer]
+            - generic [ref=f18e3231]:
+              - group [ref=f18e3233]:
+                - generic [ref=f18e3234]:
+                  - img "LaMonica Garrett in Man of War (2026)"
+                - button "Add to Watchlist" [ref=f18e3235] [cursor=pointer]
+                - link "View title page for Man of War" [ref=f18e3240] [cursor=pointer]:
+                  - /url: /title/tt34584846/?ref_=chtmvm_i_85
+              - generic [ref=f18e3242]:
+                - text: "#85"
+                - link [ref=f18e3245] [cursor=pointer]:
+                  - /url: /title/tt34584846/?ref_=chtmvm_t_85
+                  - heading "Man of War" [level=4] [ref=f18e3246]
+                - generic [ref=f18e3247]: 2026 1h 51m R
+                - generic [ref=f18e3248]:
+                  - generic [ref=f18e3249]:
+                    - 'generic "IMDb rating: 5.1" [ref=f18e3250]':
+                      - generic [ref=f18e3252]: "5.1"
+                      - generic [ref=f18e3253]: (818)
+                    - button "Rate Man of War" [ref=f18e3254] [cursor=pointer]:
+                      - generic [ref=f18e3255]: Rate
+                  - button "Mark Man of War as watched" [ref=f18e3258] [cursor=pointer]:
+                    - generic [ref=f18e3261]: Mark as watched
+              - button "See more information about Man of War" [ref=f18e3263] [cursor=pointer]
+            - generic [ref=f18e3269]:
+              - group [ref=f18e3271]:
+                - generic [ref=f18e3272]:
+                  - 'img "Pedro Pascal, Steve Blum, and Jeremy Allen White in Star Wars: The Mandalorian and Grogu (2026)"'
+                - button "Add to Watchlist" [ref=f18e3273] [cursor=pointer]
+                - 'link "View title page for Star Wars: The Mandalorian and Grogu" [ref=f18e3278] [cursor=pointer]':
+                  - /url: /title/tt30825738/?ref_=chtmvm_i_86
+              - generic [ref=f18e3280]:
+                - text: "#86"
+                - link [ref=f18e3283] [cursor=pointer]:
+                  - /url: /title/tt30825738/?ref_=chtmvm_t_86
+                  - 'heading "Star Wars: The Mandalorian and Grogu" [level=4] [ref=f18e3284]'
+                - generic [ref=f18e3285]: 2026 2h 12m PG-13
+                - generic [ref=f18e3286]:
+                  - generic [ref=f18e3287]:
+                    - 'generic "IMDb rating: 6.9" [ref=f18e3288]':
+                      - generic [ref=f18e3290]: "6.9"
+                      - generic [ref=f18e3291]: (72K)
+                    - 'button "Rate Star Wars: The Mandalorian and Grogu" [ref=f18e3292] [cursor=pointer]':
+                      - generic [ref=f18e3293]: Rate
+                  - 'button "Mark Star Wars: The Mandalorian and Grogu as watched" [ref=f18e3296] [cursor=pointer]':
+                    - generic [ref=f18e3299]: Mark as watched
+              - 'button "See more information about Star Wars: The Mandalorian and Grogu" [ref=f18e3301] [cursor=pointer]'
+            - generic [ref=f18e3307]:
+              - group [ref=f18e3309]:
+                - generic [ref=f18e3310]:
+                  - img "Shahid Kapoor, Kriti Sanon, and Rashmika Mandanna in Cocktail 2 (2026)"
+                - button "Add to Watchlist" [ref=f18e3311] [cursor=pointer]
+                - link "View title page for Cocktail 2" [ref=f18e3316] [cursor=pointer]:
+                  - /url: /title/tt35064672/?ref_=chtmvm_i_87
+              - generic [ref=f18e3318]:
+                - text: "#87"
+                - link [ref=f18e3321] [cursor=pointer]:
+                  - /url: /title/tt35064672/?ref_=chtmvm_t_87
+                  - heading "Cocktail 2" [level=4] [ref=f18e3322]
+                - generic [ref=f18e3323]: 2026 2h 30m
+                - generic [ref=f18e3324]:
+                  - generic [ref=f18e3325]:
+                    - 'generic "IMDb rating: 7.6" [ref=f18e3326]':
+                      - generic [ref=f18e3328]: "7.6"
+                      - generic [ref=f18e3329]: (26K)
+                    - button "Rate Cocktail 2" [ref=f18e3330] [cursor=pointer]:
+                      - generic [ref=f18e3331]: Rate
+                  - button "Mark Cocktail 2 as watched" [ref=f18e3334] [cursor=pointer]:
+                    - generic [ref=f18e3337]: Mark as watched
+              - button "See more information about Cocktail 2" [ref=f18e3339] [cursor=pointer]
+            - generic [ref=f18e3345]:
+              - group [ref=f18e3347]:
+                - generic [ref=f18e3348]:
+                  - img "Marlon Brando in The Godfather (1972)"
+                - button "Add to Watchlist" [ref=f18e3349] [cursor=pointer]
+                - link "View title page for The Godfather" [ref=f18e3354] [cursor=pointer]:
+                  - /url: /title/tt0068646/?ref_=chtmvm_i_88
+              - generic [ref=f18e3356]:
+                - text: "#88"
+                - link [ref=f18e3359] [cursor=pointer]:
+                  - /url: /title/tt0068646/?ref_=chtmvm_t_88
+                  - heading "The Godfather" [level=4] [ref=f18e3360]
+                - generic [ref=f18e3361]: 1972 2h 55m R
+                - generic [ref=f18e3362]:
+                  - generic [ref=f18e3363]:
+                    - 'generic "IMDb rating: 9.2" [ref=f18e3364]':
+                      - generic [ref=f18e3366]: "9.2"
+                      - generic [ref=f18e3367]: (2.2M)
+                    - button "Rate The Godfather" [ref=f18e3368] [cursor=pointer]:
+                      - generic [ref=f18e3369]: Rate
+                  - button "Mark The Godfather as watched" [ref=f18e3372] [cursor=pointer]:
+                    - generic [ref=f18e3375]: Mark as watched
+              - button "See more information about The Godfather" [ref=f18e3377] [cursor=pointer]
+            - generic [ref=f18e3383]:
+              - group [ref=f18e3385]:
+                - generic [ref=f18e3386]:
+                  - img "Aaron Eckhart, Ben Kingsley, Kate Fitzpatrick, Mark Hadlow, Angus Sampson, Madeleine West, Rosie Simei Zhao, Wenhan Li, Richard Crouchley, Dylan Torrell, Clint Elvy, Molly Belle Wright, Tony Zhou, Chrissy Jin, Fei Li, Justin Fong, Gavin Lee, Elijah Tamati, Xiaolei Yu, TJ Ampofo, Bridget Ho, Jemma Atherleigh, Pawan Sharma, Shania Goh, Muche Marare, Wendy Wei Huang, Damien Endt, Rosemary Li, Samuel Silvera, Michael Cardelle, Rarmian Newton, Sonia Dorado, John De Luca, Rob Kipa-Williams, Kelly Gale, Lucy Barrett, Priya Jain, Ryan Bown, Jacqueline Lee Geurts, and Lakota Johnson in Deep Water (2026)"
+                - button "Add to Watchlist" [ref=f18e3387] [cursor=pointer]
+                - link "View title page for Deep Water" [ref=f18e3392] [cursor=pointer]:
+                  - /url: /title/tt29516222/?ref_=chtmvm_i_89
+              - generic [ref=f18e3394]:
+                - text: "#89"
+                - link [ref=f18e3397] [cursor=pointer]:
+                  - /url: /title/tt29516222/?ref_=chtmvm_t_89
+                  - heading "Deep Water" [level=4] [ref=f18e3398]
+                - generic [ref=f18e3399]: 2026 1h 46m R
+                - generic [ref=f18e3400]:
+                  - generic [ref=f18e3401]:
+                    - 'generic "IMDb rating: 5.4" [ref=f18e3402]':
+                      - generic [ref=f18e3404]: "5.4"
+                      - generic [ref=f18e3405]: (7.8K)
+                    - button "Rate Deep Water" [ref=f18e3406] [cursor=pointer]:
+                      - generic [ref=f18e3407]: Rate
+                  - button "Mark Deep Water as watched" [ref=f18e3410] [cursor=pointer]:
+                    - generic [ref=f18e3413]: Mark as watched
+              - button "See more information about Deep Water" [ref=f18e3415] [cursor=pointer]
+            - generic [ref=f18e3421]:
+              - group [ref=f18e3423]:
+                - generic [ref=f18e3424]:
+                  - img "Independence Day (1996)"
+                - button "Add to Watchlist" [ref=f18e3425] [cursor=pointer]
+                - link "View title page for Independence Day" [ref=f18e3430] [cursor=pointer]:
+                  - /url: /title/tt0116629/?ref_=chtmvm_i_90
+              - generic [ref=f18e3432]:
+                - text: "#90"
+                - link [ref=f18e3435] [cursor=pointer]:
+                  - /url: /title/tt0116629/?ref_=chtmvm_t_90
+                  - heading "Independence Day" [level=4] [ref=f18e3436]
+                - generic [ref=f18e3437]: 1996 2h 25m PG-13
+                - generic [ref=f18e3438]:
+                  - generic [ref=f18e3439]:
+                    - 'generic "IMDb rating: 7.0" [ref=f18e3440]':
+                      - generic [ref=f18e3442]: "7.0"
+                      - generic [ref=f18e3443]: (652K)
+                    - button "Rate Independence Day" [ref=f18e3444] [cursor=pointer]:
+                      - generic [ref=f18e3445]: Rate
+                  - button "Mark Independence Day as watched" [ref=f18e3448] [cursor=pointer]:
+                    - generic [ref=f18e3451]: Mark as watched
+              - button "See more information about Independence Day" [ref=f18e3453] [cursor=pointer]
+            - generic [ref=f18e3459]:
+              - group [ref=f18e3461]:
+                - generic [ref=f18e3462]:
+                  - 'img "Jason ''Wee Man'' Acuña, Dave England, Johnny Knoxville, Ehren McGhehey, Chris Pontius, Steve-O, and Preston Lacy in Jackass: Best and Last (2026)"'
+                - button "Add to Watchlist" [ref=f18e3463] [cursor=pointer]
+                - 'link "View title page for Jackass: Best and Last" [ref=f18e3468] [cursor=pointer]':
+                  - /url: /title/tt39316472/?ref_=chtmvm_i_91
+              - generic [ref=f18e3470]:
+                - text: "#91"
+                - link [ref=f18e3473] [cursor=pointer]:
+                  - /url: /title/tt39316472/?ref_=chtmvm_t_91
+                  - 'heading "Jackass: Best and Last" [level=4] [ref=f18e3474]'
+                - generic [ref=f18e3475]: 2026 1h 32m R
+                - generic [ref=f18e3476]:
+                  - generic [ref=f18e3477]:
+                    - 'generic "IMDb rating: 6.7" [ref=f18e3478]':
+                      - generic [ref=f18e3480]: "6.7"
+                      - generic [ref=f18e3481]: (5.4K)
+                    - 'button "Rate Jackass: Best and Last" [ref=f18e3482] [cursor=pointer]':
+                      - generic [ref=f18e3483]: Rate
+                  - 'button "Mark Jackass: Best and Last as watched" [ref=f18e3486] [cursor=pointer]':
+                    - generic [ref=f18e3489]: Mark as watched
+              - 'button "See more information about Jackass: Best and Last" [ref=f18e3491] [cursor=pointer]'
+            - generic [ref=f18e3497]:
+              - group [ref=f18e3499]:
+                - generic [ref=f18e3500]:
+                  - img "The Prestige (2006)"
+                - button "Add to Watchlist" [ref=f18e3501] [cursor=pointer]
+                - link "View title page for The Prestige" [ref=f18e3506] [cursor=pointer]:
+                  - /url: /title/tt0482571/?ref_=chtmvm_i_92
+              - generic [ref=f18e3508]:
+                - text: "#92"
+                - link [ref=f18e3511] [cursor=pointer]:
+                  - /url: /title/tt0482571/?ref_=chtmvm_t_92
+                  - heading "The Prestige" [level=4] [ref=f18e3512]
+                - generic [ref=f18e3513]: 2006 2h 10m PG-13
+                - generic [ref=f18e3514]:
+                  - generic [ref=f18e3515]:
+                    - 'generic "IMDb rating: 8.5" [ref=f18e3516]':
+                      - generic [ref=f18e3518]: "8.5"
+                      - generic [ref=f18e3519]: (1.6M)
+                    - button "Rate The Prestige" [ref=f18e3520] [cursor=pointer]:
+                      - generic [ref=f18e3521]: Rate
+                  - button "Mark The Prestige as watched" [ref=f18e3524] [cursor=pointer]:
+                    - generic [ref=f18e3527]: Mark as watched
+              - button "See more information about The Prestige" [ref=f18e3529] [cursor=pointer]
+            - generic [ref=f18e3535]:
+              - group [ref=f18e3537]:
+                - generic [ref=f18e3538]:
+                  - img "Bob Odenkirk in Normal (2025)"
+                - button "Add to Watchlist" [ref=f18e3539] [cursor=pointer]
+                - link "View title page for Normal" [ref=f18e3544] [cursor=pointer]:
+                  - /url: /title/tt31195136/?ref_=chtmvm_i_93
+              - generic [ref=f18e3546]:
+                - text: "#93"
+                - link [ref=f18e3549] [cursor=pointer]:
+                  - /url: /title/tt31195136/?ref_=chtmvm_t_93
+                  - heading "Normal" [level=4] [ref=f18e3550]
+                - generic [ref=f18e3551]: 2025 1h 31m R
+                - generic [ref=f18e3552]:
+                  - generic [ref=f18e3553]:
+                    - 'generic "IMDb rating: 6.3" [ref=f18e3554]':
+                      - generic [ref=f18e3556]: "6.3"
+                      - generic [ref=f18e3557]: (18K)
+                    - button "Rate Normal" [ref=f18e3558] [cursor=pointer]:
+                      - generic [ref=f18e3559]: Rate
+                  - button "Mark Normal as watched" [ref=f18e3562] [cursor=pointer]:
+                    - generic [ref=f18e3565]: Mark as watched
+              - button "See more information about Normal" [ref=f18e3567] [cursor=pointer]
+            - generic [ref=f18e3573]:
+              - group [ref=f18e3575]:
+                - generic [ref=f18e3576]:
+                  - img "Russell Crowe, Richard E. Grant, Michael Shannon, John Slattery, Leo Woodall, Rami Malek, and Mark O'Brien in Nuremberg (2025)"
+                - button "Add to Watchlist" [ref=f18e3577] [cursor=pointer]
+                - link "View title page for Nuremberg" [ref=f18e3582] [cursor=pointer]:
+                  - /url: /title/tt29567915/?ref_=chtmvm_i_94
+              - generic [ref=f18e3584]:
+                - text: "#94"
+                - link [ref=f18e3587] [cursor=pointer]:
+                  - /url: /title/tt29567915/?ref_=chtmvm_t_94
+                  - heading "Nuremberg" [level=4] [ref=f18e3588]
+                - generic [ref=f18e3589]: 2025 2h 28m PG-13
+                - generic [ref=f18e3590]:
+                  - generic [ref=f18e3591]:
+                    - 'generic "IMDb rating: 7.3" [ref=f18e3592]':
+                      - generic [ref=f18e3594]: "7.3"
+                      - generic [ref=f18e3595]: (107K)
+                    - button "Rate Nuremberg" [ref=f18e3596] [cursor=pointer]:
+                      - generic [ref=f18e3597]: Rate
+                  - button "Mark Nuremberg as watched" [ref=f18e3600] [cursor=pointer]:
+                    - generic [ref=f18e3603]: Mark as watched
+              - button "See more information about Nuremberg" [ref=f18e3605] [cursor=pointer]
+            - generic [ref=f18e3611]:
+              - group [ref=f18e3613]:
+                - generic [ref=f18e3614]:
+                  - img "Tom Hanks, R. Lee Ermey, Tim Allen, Annie Potts, John Ratzenberger, Wallace Shawn, Jim Varney, and Don Rickles in Toy Story (1995)"
+                - button "Add to Watchlist" [ref=f18e3615] [cursor=pointer]
+                - link "View title page for Toy Story" [ref=f18e3620] [cursor=pointer]:
+                  - /url: /title/tt0114709/?ref_=chtmvm_i_95
+              - generic [ref=f18e3622]:
+                - text: "#95"
+                - link [ref=f18e3625] [cursor=pointer]:
+                  - /url: /title/tt0114709/?ref_=chtmvm_t_95
+                  - heading "Toy Story" [level=4] [ref=f18e3626]
+                - generic [ref=f18e3627]: 1995 1h 21m G
+                - generic [ref=f18e3628]:
+                  - generic [ref=f18e3629]:
+                    - 'generic "IMDb rating: 8.3" [ref=f18e3630]':
+                      - generic [ref=f18e3632]: "8.3"
+                      - generic [ref=f18e3633]: (1.2M)
+                    - button "Rate Toy Story" [ref=f18e3634] [cursor=pointer]:
+                      - generic [ref=f18e3635]: Rate
+                  - button "Mark Toy Story as watched" [ref=f18e3638] [cursor=pointer]:
+                    - generic [ref=f18e3641]: Mark as watched
+              - button "See more information about Toy Story" [ref=f18e3643] [cursor=pointer]
+            - generic [ref=f18e3649]:
+              - group [ref=f18e3651]:
+                - generic [ref=f18e3652]:
+                  - 'img "Willem Dafoe, Jamie Foxx, Rhys Ifans, Benedict Cumberbatch, Zendaya, and Tom Holland in Spider-Man: No Way Home (2021)"'
+                - button "Add to Watchlist" [ref=f18e3653] [cursor=pointer]
+                - 'link "View title page for Spider-Man: No Way Home" [ref=f18e3658] [cursor=pointer]':
+                  - /url: /title/tt10872600/?ref_=chtmvm_i_96
+              - generic [ref=f18e3660]:
+                - text: "#96"
+                - link [ref=f18e3663] [cursor=pointer]:
+                  - /url: /title/tt10872600/?ref_=chtmvm_t_96
+                  - 'heading "Spider-Man: No Way Home" [level=4] [ref=f18e3664]'
+                - generic [ref=f18e3665]: 2021 2h 28m PG-13
+                - generic [ref=f18e3666]:
+                  - generic [ref=f18e3667]:
+                    - 'generic "IMDb rating: 8.1" [ref=f18e3668]':
+                      - generic [ref=f18e3670]: "8.1"
+                      - generic [ref=f18e3671]: (1M)
+                    - 'button "Rate Spider-Man: No Way Home" [ref=f18e3672] [cursor=pointer]':
+                      - generic [ref=f18e3673]: Rate
+                  - 'button "Mark Spider-Man: No Way Home as watched" [ref=f18e3676] [cursor=pointer]':
+                    - generic [ref=f18e3679]: Mark as watched
+              - 'button "See more information about Spider-Man: No Way Home" [ref=f18e3681] [cursor=pointer]'
+            - generic [ref=f18e3687]:
+              - group [ref=f18e3689]:
+                - generic [ref=f18e3690]:
+                  - 'img "Liv Tyler, Sean Astin, Sean Bean, Elijah Wood, Cate Blanchett, Viggo Mortensen, Ian McKellen, Orlando Bloom, Billy Boyd, Dominic Monaghan, and John Rhys-Davies in The Lord of the Rings: The Fellowship of the Ring (2001)"'
+                - button "Add to Watchlist" [ref=f18e3691] [cursor=pointer]
+                - 'link "View title page for The Lord of the Rings: The Fellowship of the Ring" [ref=f18e3696] [cursor=pointer]':
+                  - /url: /title/tt0120737/?ref_=chtmvm_i_97
+              - generic [ref=f18e3698]:
+                - text: "#97"
+                - link [ref=f18e3701] [cursor=pointer]:
+                  - /url: /title/tt0120737/?ref_=chtmvm_t_97
+                  - 'heading "The Lord of the Rings: The Fellowship of the Ring" [level=4] [ref=f18e3702]'
+                - generic [ref=f18e3703]: 2001 2h 58m PG-13
+                - generic [ref=f18e3704]:
+                  - generic [ref=f18e3705]:
+                    - 'generic "IMDb rating: 8.9" [ref=f18e3706]':
+                      - generic [ref=f18e3708]: "8.9"
+                      - generic [ref=f18e3709]: (2.2M)
+                    - 'button "Rate The Lord of the Rings: The Fellowship of the Ring" [ref=f18e3710] [cursor=pointer]':
+                      - generic [ref=f18e3711]: Rate
+                  - 'button "Mark The Lord of the Rings: The Fellowship of the Ring as watched" [ref=f18e3714] [cursor=pointer]':
+                    - generic [ref=f18e3717]: Mark as watched
+              - 'button "See more information about The Lord of the Rings: The Fellowship of the Ring" [ref=f18e3719] [cursor=pointer]'
+            - generic [ref=f18e3725]:
+              - group [ref=f18e3727]:
+                - generic [ref=f18e3728]:
+                  - img "Bridget Hoffman in The Evil Dead (1981)"
+                - button "Add to Watchlist" [ref=f18e3729] [cursor=pointer]
+                - link "View title page for The Evil Dead" [ref=f18e3734] [cursor=pointer]:
+                  - /url: /title/tt0083907/?ref_=chtmvm_i_98
+              - generic [ref=f18e3736]:
+                - text: "#98"
+                - link [ref=f18e3739] [cursor=pointer]:
+                  - /url: /title/tt0083907/?ref_=chtmvm_t_98
+                  - heading "The Evil Dead" [level=4] [ref=f18e3740]
+                - generic [ref=f18e3741]: 1981 1h 25m NC-17
+                - generic [ref=f18e3742]:
+                  - generic [ref=f18e3743]:
+                    - 'generic "IMDb rating: 7.3" [ref=f18e3744]':
+                      - generic [ref=f18e3746]: "7.3"
+                      - generic [ref=f18e3747]: (254K)
+                    - button "Rate The Evil Dead" [ref=f18e3748] [cursor=pointer]:
+                      - generic [ref=f18e3749]: Rate
+                  - button "Mark The Evil Dead as watched" [ref=f18e3752] [cursor=pointer]:
+                    - generic [ref=f18e3755]: Mark as watched
+              - button "See more information about The Evil Dead" [ref=f18e3757] [cursor=pointer]
+            - generic [ref=f18e3763]:
+              - group [ref=f18e3765]:
+                - generic [ref=f18e3766]:
+                  - img "Halle Berry, Mark Ruffalo, Chris Hemsworth, and Barry Keoghan in Crime 101 (2026)"
+                - button "Add to Watchlist" [ref=f18e3767] [cursor=pointer]
+                - link "View title page for Crime 101" [ref=f18e3772] [cursor=pointer]:
+                  - /url: /title/tt32430579/?ref_=chtmvm_i_99
+              - generic [ref=f18e3774]:
+                - text: "#99"
+                - link [ref=f18e3777] [cursor=pointer]:
+                  - /url: /title/tt32430579/?ref_=chtmvm_t_99
+                  - heading "Crime 101" [level=4] [ref=f18e3778]
+                - generic [ref=f18e3779]: 2026 2h 20m R
+                - generic [ref=f18e3780]:
+                  - generic [ref=f18e3781]:
+                    - 'generic "IMDb rating: 6.8" [ref=f18e3782]':
+                      - generic [ref=f18e3784]: "6.8"
+                      - generic [ref=f18e3785]: (87K)
+                    - button "Rate Crime 101" [ref=f18e3786] [cursor=pointer]:
+                      - generic [ref=f18e3787]: Rate
+                  - button "Mark Crime 101 as watched" [ref=f18e3790] [cursor=pointer]:
+                    - generic [ref=f18e3793]: Mark as watched
+              - button "See more information about Crime 101" [ref=f18e3795] [cursor=pointer]
+            - generic [ref=f18e3801]:
+              - group [ref=f18e3803]:
+                - generic [ref=f18e3804]:
+                  - 'img "Javier Bardem, Josh Brolin, Rebecca Ferguson, Jason Momoa, Sharon Duncan-Brewster, Oscar Isaac, Timothée Chalamet, and Zendaya in Dune: Part One (2021)"'
+                - button "Add to Watchlist" [ref=f18e3805] [cursor=pointer]
+                - 'link "View title page for Dune: Part One" [ref=f18e3810] [cursor=pointer]':
+                  - /url: /title/tt1160419/?ref_=chtmvm_i_100
+              - generic [ref=f18e3812]:
+                - text: "#100"
+                - link [ref=f18e3815] [cursor=pointer]:
+                  - /url: /title/tt1160419/?ref_=chtmvm_t_100
+                  - 'heading "Dune: Part One" [level=4] [ref=f18e3816]'
+                - generic [ref=f18e3817]: 2021 2h 35m PG-13
+                - generic [ref=f18e3818]:
+                  - generic [ref=f18e3819]:
+                    - 'generic "IMDb rating: 8.0" [ref=f18e3820]':
+                      - generic [ref=f18e3822]: "8.0"
+                      - generic [ref=f18e3823]: (1.1M)
+                    - 'button "Rate Dune: Part One" [ref=f18e3824] [cursor=pointer]':
+                      - generic [ref=f18e3825]: Rate
+                  - 'button "Mark Dune: Part One as watched" [ref=f18e3828] [cursor=pointer]':
+                    - generic [ref=f18e3831]: Mark as watched
+              - 'button "See more information about Dune: Part One" [ref=f18e3833] [cursor=pointer]'
+            - generic [ref=f18e3836]: Our Most Popular charts use data from the search behavior of IMDb's more than 250 million monthly unique visitors to rank the hottest, most buzzed about movies and TV shows.
+          - generic [ref=f18e3837]:
+            - complementary "Sponsored Content" [ref=f18e3840]:
+              - iframe [ref=f18e3842]:
+                - link [ref=f23e2] [cursor=pointer]:
+                  - /url: https://aax-events-cell02-cf.eu-south.ono.axp.amazon-adsystem.com/x/c/ROOyh-P2GvJpPtM3PyFmjvYAAAGfcTJD1QoAAADKBEFvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBYjXFp/clv1c_ek-gwQfRHeDCDQnMcbLS2YnJXCKdeTa9l0HL0Mfo2llBDhIppquP-HyJx4SJK2zjWokIedyCe68pP2QL6GCUWBqxZaAfXCoZoCRr6Y23cSQU6xn1MA7b7uxJJ_t33sGvVQZwC_EaroVJRT6TH7jflcBcxO2M1BXq1kNitdWDQVH4qOTF63Hjwtk9I35YNlAxuH33KDQdY3NqcbF6sbAUiJnTl5f7sSOAHvOBo5fYPF594wlH_KisVkjnVzYIxSQCMFEZhR1NbwDqROxriCS0AbUDBy377sA_Vj3dmU4e-AREBs7xGOYHG6h4afKvGakYhB1-UZc_T1ICLp-Z4EMIp25ceJHXhB8xbZjgthMnC7SAK-2kDOs9JjmBzWnF4jRw3yfZWPPR59ryxjQvu8f9WmLnlApUKiGLqRdTAtzMgdkrOsgy5sRP-Hr9cNxvofQkKER4JSDvFLCCz80SXAaXVWC4EbD6M79rpK7seXcHiSjpOJuW_2mJU3qyM7IF8zE2IVC1EqZh7OZeP5FV38YIVJ4czIuVl9oCrCWTTaZ2bmll9L4GnAxw8ajD4hgcmY7jYwFX_bFlf39_gxY1kGAR_DhKulFHIyx-QBIbAFHVTvrb7-OZt8O9-0LcB6bfHUSt0qX-PW0FtiBiAGuH2FiImHzRLkQRqMO16Zqn5Jmre_vZlnxryzHJ2E9D5221m2xmEgkQiqd7JP3zvfNcEwuiN_KJlAjInjJURh9xm7-89KCjuZ3IARNd/https://pro.imdb.com/signup/in/?aref=VDgTtmKuUU&rf=cons_dsp_loudspeaker_indiaprolaunch
+                  - img "Sponsored Content" [ref=f23e3]
+              - button "Get information, provide feedback or report sponsored ad" [ref=f18e3843] [cursor=pointer]: SPONSORED
+            - generic [ref=f18e3844]:
+              - generic [ref=f18e3845]:
+                - heading "Chart insights" [level=3] [ref=f18e3848]
+                - generic [ref=f18e3849]:
+                  - generic [ref=f18e3850]:
+                    - generic [ref=f18e3851]: Average IMDb rating
+                    - 'generic "Average IMDb rating: 6.434999999999999" [ref=f18e3852]': "6.4"
+                  - progressbar "The average IMDb rating of titles in this chart is 6.434999999999999." [ref=f18e3855]
+              - heading "More to explore" [level=3] [ref=f18e3860]
+              - generic [ref=f18e3862]:
+                - heading "Popular charts" [level=4] [ref=f18e3866]
+                - generic [ref=f18e3867]:
+                  - generic [ref=f18e3868]:
+                    - link "Top box office (US) From the past weekend 10 titles Dwayne Johnson and Catherine Laga'aia in Moana (2026)" [ref=f18e3870] [cursor=pointer]:
+                      - /url: /chart/boxoffice/?ref_=chtmvm_ql_1
+                      - generic [ref=f18e3871]:
+                        - generic [ref=f18e3872]:
+                          - generic [ref=f18e3873]: Top box office (US)
+                          - generic [ref=f18e3874]: From the past weekend
+                          - generic [ref=f18e3875]: 10 titles
+                        - generic [ref=f18e3878]:
+                          - img "Dwayne Johnson and Catherine Laga'aia in Moana (2026)"
+                    - link "IMDb Top 250 movies As rated by regular IMDb voters. 250 titles Tim Robbins in The Shawshank Redemption (1994)" [ref=f18e3880] [cursor=pointer]:
+                      - /url: /chart/top/?ref_=chtmvm_ql_3
+                      - generic [ref=f18e3881]:
+                        - generic [ref=f18e3882]:
+                          - generic [ref=f18e3883]: IMDb Top 250 movies
+                          - generic [ref=f18e3884]: As rated by regular IMDb voters.
+                          - generic [ref=f18e3885]: 250 titles
+                        - generic [ref=f18e3888]:
+                          - img "Tim Robbins in The Shawshank Redemption (1994)"
+                    - link "Top rated English movies English-language movies as rated by IMDb users 250 titles Tim Robbins in The Shawshank Redemption (1994)" [ref=f18e3890] [cursor=pointer]:
+                      - /url: /chart/top-english-movies/?ref_=chtmvm_ql_4
+                      - generic [ref=f18e3891]:
+                        - generic [ref=f18e3892]:
+                          - generic [ref=f18e3893]: Top rated English movies
+                          - generic [ref=f18e3894]: English-language movies as rated by IMDb users
+                          - generic [ref=f18e3895]: 250 titles
+                        - generic [ref=f18e3898]:
+                          - img "Tim Robbins in The Shawshank Redemption (1994)"
+                    - link "Most popular TV shows As determined by IMDb users 100 titles Emma D'Arcy in House of the Dragon (2022)" [ref=f18e3900] [cursor=pointer]:
+                      - /url: /chart/tvmeter/?ref_=chtmvm_ql_5
+                      - generic [ref=f18e3901]:
+                        - generic [ref=f18e3902]:
+                          - generic [ref=f18e3903]: Most popular TV shows
+                          - generic [ref=f18e3904]: As determined by IMDb users
+                          - generic [ref=f18e3905]: 100 titles
+                        - generic [ref=f18e3908]:
+                          - img "Emma D'Arcy in House of the Dragon (2022)"
+                  - generic [ref=f18e3909]:
+                    - link "Top 250 TV shows Top 250 as rated by IMDb Users 250 titles Bryan Cranston in Breaking Bad (2008)" [ref=f18e3911] [cursor=pointer]:
+                      - /url: /chart/toptv/?ref_=chtmvm_ql_6
+                      - generic [ref=f18e3912]:
+                        - generic [ref=f18e3913]:
+                          - generic [ref=f18e3914]: Top 250 TV shows
+                          - generic [ref=f18e3915]: Top 250 as rated by IMDb Users
+                          - generic [ref=f18e3916]: 250 titles
+                        - generic [ref=f18e3919]:
+                          - img "Bryan Cranston in Breaking Bad (2008)"
+                    - link "Lowest rated movies Bottom 100 as voted by IMDb users 100 titles Carmen Electra, Ike Barinholtz, Tony Cox, Gerard Facchini, Roland Kickinger, Vanessa Lachey, Walter Harris, Nicole Parker, Crista Flanagan, Gary 'G. Thang' Johnson, Matt Lanter, Kim Kardashian, and Devin Crittenden in Disaster Movie (2008)" [ref=f18e3921] [cursor=pointer]:
+                      - /url: /chart/bottom/?ref_=chtmvm_ql_7
+                      - generic [ref=f18e3922]:
+                        - generic [ref=f18e3923]:
+                          - generic [ref=f18e3924]: Lowest rated movies
+                          - generic [ref=f18e3925]: Bottom 100 as voted by IMDb users
+                          - generic [ref=f18e3926]: 100 titles
+                        - generic [ref=f18e3929]:
+                          - img "Carmen Electra, Ike Barinholtz, Tony Cox, Gerard Facchini, Roland Kickinger, Vanessa Lachey, Walter Harris, Nicole Parker, Crista Flanagan, Gary 'G. Thang' Johnson, Matt Lanter, Kim Kardashian, and Devin Crittenden in Disaster Movie (2008)"
+                    - link "Trending people As determined by IMDb users 100 people Inde Navarrette" [ref=f18e3931] [cursor=pointer]:
+                      - /url: /chart/starmeter/?ref_=chtmvm_ql_8
+                      - generic [ref=f18e3932]:
+                        - generic [ref=f18e3933]:
+                          - generic [ref=f18e3934]: Trending people
+                          - generic [ref=f18e3935]: As determined by IMDb users
+                          - generic [ref=f18e3936]: 100 people
+                        - generic [ref=f18e3939]:
+                          - img "Inde Navarrette"
+              - generic [ref=f18e3941]:
+                - link [ref=f18e3943] [cursor=pointer]:
+                  - /url: /news/movie/?ref_=chtmvm_sb_sm
+                  - heading "Movie news" [level=4] [ref=f18e3944]
+                - generic [ref=f18e3946]:
+                  - generic [ref=f18e3949] [cursor=pointer]:
+                    - generic [ref=f18e3950]:
+                      - generic [ref=f18e3951]: "Box Office: ‘The Odyssey’ Kicks Off With an Epic $17.6 Million in Previews"
+                      - text: 7/17/2026 by Jordan Moreau and Brent Lang
+                      - link "Variety - Film News" [ref=f18e3952]:
+                        - /url: https://variety.com/2026/film/box-office/box-office-the-odyssey-previews-1236812480/
+                    - generic [ref=f18e3955]:
+                      - img "Image"
+                  - generic [ref=f18e3958] [cursor=pointer]:
+                    - generic [ref=f18e3959]:
+                      - generic [ref=f18e3960]: Danny McBride to Direct G.I. Joe Movie for Paramount
+                      - text: 7/15/2026 by Borys Kit
+                      - link "The Hollywood Reporter - Movie News" [ref=f18e3961]:
+                        - /url: https://www.hollywoodreporter.com/movies/movie-news/danny-mcbride-to-direct-g-i-joe-movie-1236647496/
+                    - generic [ref=f18e3964]:
+                      - img "Danny McBride at an event for Observe and Report (2009)"
+                  - generic [ref=f18e3967] [cursor=pointer]:
+                    - generic [ref=f18e3968]:
+                      - generic [ref=f18e3969]: ‘The Batman Part II’ Release Delayed, Again, by Warner Bros.
+                      - text: 7/15/2026 by Etan Vlessing
+                      - link "The Hollywood Reporter - Movie News" [ref=f18e3970]:
+                        - /url: https://www.hollywoodreporter.com/movies/movie-news/the-batman-part-ii-release-delayed-again-2028-1236649280/
+                    - generic [ref=f18e3973]:
+                      - 'img "The Batman: Part II (2028)"'
+                  - generic [ref=f18e3976] [cursor=pointer]:
+                    - generic [ref=f18e3977]:
+                      - generic [ref=f18e3978]: ‘Alvin and the Chipmunks’ Movie in the Works for Planned 2028 Release
+                      - text: 7/15/2026 by Ryan Gajewski
+                      - link "The Hollywood Reporter - Movie News" [ref=f18e3979]:
+                        - /url: https://www.hollywoodreporter.com/movies/movie-news/alvin-and-the-chipmunks-movie-release-brian-robbins-1236648954/
+                    - generic [ref=f18e3982]:
+                      - img "Justin Long, Jesse McCartney, and Matthew Gray Gubler in Alvin and the Chipmunks (2007)"
+                  - generic [ref=f18e3985] [cursor=pointer]:
+                    - generic [ref=f18e3986]:
+                      - generic [ref=f18e3987]: Vijay’s ‘Jana Nayagan’ Finally Gets a Release Date
+                      - text: 7/15/2026 by Naman Ramachandran
+                      - link "Variety - Film News" [ref=f18e3988]:
+                        - /url: https://variety.com/2026/film/news/vijay-jana-nayagan-release-date-2-1236811540/
+                    - generic [ref=f18e3991]:
+                      - img "Image"
+              - generic [ref=f18e3992]:
+                - heading "Top rated movies by genre" [level=4] [ref=f18e3995]
+                - generic [ref=f18e3997]:
+                  - link "Action" [ref=f18e3998] [cursor=pointer]:
+                    - /url: /search/title/?genres=Action&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr
+                  - link "Adventure" [ref=f18e4000] [cursor=pointer]:
+                    - /url: /search/title/?genres=Adventure&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr_1
+                  - link "Animation" [ref=f18e4002] [cursor=pointer]:
+                    - /url: /search/title/?genres=Animation&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr_2
+                  - link "Biography" [ref=f18e4004] [cursor=pointer]:
+                    - /url: /search/title/?genres=Biography&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr_3
+                  - link "Comedy" [ref=f18e4006] [cursor=pointer]:
+                    - /url: /search/title/?genres=Comedy&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr_4
+                  - link "Crime" [ref=f18e4008] [cursor=pointer]:
+                    - /url: /search/title/?genres=Crime&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr_5
+                  - link "Documentary" [ref=f18e4010] [cursor=pointer]:
+                    - /url: /search/title/?genres=Documentary&explore=genres&sort=user_rating%2Cdesc&title_type=Documentary&num_votes=25000&ref_=chtmvm_gnr_6
+                  - link "Drama" [ref=f18e4012] [cursor=pointer]:
+                    - /url: /search/title/?genres=Drama&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr_7
+                  - link "Family" [ref=f18e4014] [cursor=pointer]:
+                    - /url: /search/title/?genres=Family&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr_8
+                  - link "Fantasy" [ref=f18e4016] [cursor=pointer]:
+                    - /url: /search/title/?genres=Fantasy&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr_9
+                  - link "Film-Noir" [ref=f18e4018] [cursor=pointer]:
+                    - /url: /search/title/?genres=Film-Noir&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr_10
+                  - link "History" [ref=f18e4020] [cursor=pointer]:
+                    - /url: /search/title/?genres=History&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr_11
+                  - link "Horror" [ref=f18e4022] [cursor=pointer]:
+                    - /url: /search/title/?genres=Horror&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr_12
+                  - link "Music" [ref=f18e4024] [cursor=pointer]:
+                    - /url: /search/title/?genres=Music&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr_13
+                  - link "Musical" [ref=f18e4026] [cursor=pointer]:
+                    - /url: /search/title/?genres=Musical&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr_14
+                  - link "Mystery" [ref=f18e4028] [cursor=pointer]:
+                    - /url: /search/title/?genres=Mystery&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr_15
+                  - link "Romance" [ref=f18e4030] [cursor=pointer]:
+                    - /url: /search/title/?genres=Romance&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr_16
+                  - link "Sci-Fi" [ref=f18e4032] [cursor=pointer]:
+                    - /url: /search/title/?genres=Sci-Fi&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr_17
+                  - link "Short" [ref=f18e4034] [cursor=pointer]:
+                    - /url: /search/title/?genres=Short&explore=genres&sort=user_rating%2Cdesc&title_type=Short&num_votes=25000&ref_=chtmvm_gnr_18
+                  - link "Sport" [ref=f18e4036] [cursor=pointer]:
+                    - /url: /search/title/?genres=Sport&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr_19
+                  - link "Thriller" [ref=f18e4038] [cursor=pointer]:
+                    - /url: /search/title/?genres=Thriller&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr_20
+                  - link "War" [ref=f18e4040] [cursor=pointer]:
+                    - /url: /search/title/?genres=War&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr_21
+                  - link "Western" [ref=f18e4042] [cursor=pointer]:
+                    - /url: /search/title/?genres=Western&explore=genres&sort=user_rating%2Cdesc&title_type=feature&num_votes=25000&ref_=chtmvm_gnr_22
+    - generic [ref=f18e4044]:
+      - generic [ref=f18e4047]:
+        - heading "Recently viewed" [level=3] [ref=f18e4050]
+        - generic [ref=f18e4051]: You have no recently viewed pages
+      - complementary "Bottom Sponsored Advertisement":
+        - button "Close advertisement" [ref=f18e4053] [cursor=pointer]
+    - contentinfo [ref=f18e4056]:
+      - link "Get the IMDb app" [ref=f18e4058] [cursor=pointer]:
+        - /url: https://slyb.app.link/SKdyQ6A449
+      - link "Sign in for more access" [ref=f18e4061] [cursor=pointer]:
+        - /url: /registration/signin/?u=%2Fchart%2Fmoviemeter%2F&ref_=chtmvm_ftr_reg
+      - generic [ref=f18e4063]:
+        - generic [ref=f18e4064]:
+          - link "TikTok" [ref=f18e4065] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@imdb
+          - link "Instagram" [ref=f18e4067] [cursor=pointer]:
+            - /url: https://instagram.com/imdb
+          - link "Twitter" [ref=f18e4070] [cursor=pointer]:
+            - /url: https://twitter.com/imdb
+          - link "YouTube" [ref=f18e4072] [cursor=pointer]:
+            - /url: https://youtube.com/imdb/
+          - link "Facebook" [ref=f18e4074] [cursor=pointer]:
+            - /url: https://facebook.com/imdb
+        - generic [ref=f18e4076]:
+          - link "Help" [ref=f18e4077] [cursor=pointer]:
+            - /url: https://help.imdb.com/imdb
+          - link "Site Index" [ref=f18e4079] [cursor=pointer]:
+            - /url: https://help.imdb.com/article/imdb/general-information/imdb-site-index/GNCX7BHNSPBTFALQ#so
+          - link "IMDbPro" [ref=f18e4081] [cursor=pointer]:
+            - /url: https://pro.imdb.com?ref_=cons_tf_pro&rf=cons_tf_pro
+          - link "Box Office Mojo" [ref=f18e4083] [cursor=pointer]:
+            - /url: https://www.boxofficemojo.com
+          - link "License IMDb Data" [ref=f18e4085] [cursor=pointer]:
+            - /url: https://developer.imdb.com/
+        - generic [ref=f18e4087]:
+          - link "Press Room" [ref=f18e4088] [cursor=pointer]:
+            - /url: /pressroom/?ref_=chtmvm_ftr
+          - link "Advertising" [ref=f18e4089] [cursor=pointer]:
+            - /url: https://advertising.amazon.com/resources/ad-specs/imdb/
+          - link "Jobs" [ref=f18e4091] [cursor=pointer]:
+            - /url: https://www.amazon.jobs/en/teams/imdb
+          - link "Conditions of Use" [ref=f18e4093] [cursor=pointer]:
+            - /url: /conditions/?ref_=chtmvm_ftr
+          - link "Privacy Policy" [ref=f18e4094] [cursor=pointer]:
+            - /url: /privacy/?ref_=chtmvm_ftr
+          - generic [ref=f18e4095]:
+            - link "Your Ads Privacy Choices" [ref=f18e4096] [cursor=pointer]:
+              - /url: /privacy/redirect/?ref_=chtmvm_ftr
+            - link "Your Ads Privacy Choices" [ref=f18e4109] [cursor=pointer]:
+              - /url: /privacy/redirect/?ref_=chtmvm_ftr
+      - img "IMDb, an Amazon company" [ref=f18e4111]
+      - paragraph [ref=f18e4147]: © 1990-2026 by IMDb.com, Inc.
+    - button "Back to top" [ref=f18e4148] [cursor=pointer]
+    - status
+  - alert [ref=f18e4152]

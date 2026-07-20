@@ -147,6 +147,17 @@ export default function Entry({ event, onImageClick, onRetry, isLatest }) {
     );
   }
 
+  if (type === "recording") {
+    return (
+      <div className="entry recording">
+        <div className="entry-card">
+          <div className="entry-label">Recording</div>
+          <video controls src={`${import.meta.env.VITE_API_BASE || "http://localhost:3000"}${event.url}`} style={{ maxWidth: "100%", borderRadius: "6px" }} />
+        </div>
+      </div>
+    );
+  }
+
   if (type === "observation") {
     const entryType = event.isError ? "error" : "observation";
     return (

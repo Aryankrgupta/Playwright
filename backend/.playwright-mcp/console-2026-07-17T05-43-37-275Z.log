@@ -1,0 +1,1 @@
+[    2888ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://bookface-static.ycombinator.com/vite/assets/sentry-C1FKN-GV.js:13

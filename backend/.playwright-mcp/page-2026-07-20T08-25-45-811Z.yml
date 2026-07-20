@@ -1,0 +1,611 @@
+- generic [active] [ref=f3e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f3e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f3e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f3e8]:
+    - search [ref=f3e9]:
+      - generic [ref=f3e12]:
+        - link [ref=f3e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQpYkNCAo
+          - img "Go to Google Home" [ref=f3e14]
+        - generic [ref=f3e15]:
+          - combobox "Search" [ref=f3e18]: latest AI news latest AI news
+          - generic [ref=f3e19]:
+            - button "Clear" [ref=f3e21] [cursor=pointer]
+            - generic [ref=f3e26]:
+              - button "Search by voice" [ref=f3e27] [cursor=pointer]
+              - button "Search by image" [ref=f3e30] [cursor=pointer]
+        - button "Search" [ref=f3e33] [cursor=pointer]
+    - generic [ref=f3e38]:
+      - button "Settings" [ref=f3e40] [cursor=pointer]
+      - button "Share" [ref=f3e46] [cursor=pointer]
+      - generic [ref=f3e52]:
+        - button "Google apps" [ref=f3e54] [cursor=pointer]
+        - link "Sign in" [ref=f3e59] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dlatest%2BAI%2Bnews%26sca_esv%3D5999353cb99206ac%26source%3Dhp%26ei%3DddtdasTjK_athvcP_JDtiQM%26iflsig%3DABILxe8AAAAAal3phdITEtm-NWB4XddbTrYdsdAztwwA%26ved%3D0ahUKEwiE8sOv6uCVAxX2luEIHXxIOzEQ4dUDCDE%26uact%3D5%26oq%3Dlatest%2BAI%2Bnews%26gs_lp%3DEgdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3c0hWUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE%26sclient%3Dgws-wiz%26sei%3Dg9tdauTwNPvlseMP7IvTgAs&ec=futura_srp_og_si_72236_p
+  - generic [ref=f3e61]:
+    - navigation [ref=f3e67]:
+      - generic [ref=f3e73]:
+        - list [ref=f3e74]:
+          - listitem [ref=f3e75]:
+            - link "AI Mode" [ref=f3e78] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=5999353cb99206ac&udm=50&source=hp&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQ2J8OegQIEhAD
+          - listitem [ref=f3e82]:
+            - link "All" [disabled] [ref=f3e83]
+          - listitem [ref=f3e86]:
+            - link "News" [ref=f3e87] [cursor=pointer]:
+              - /url: /search?sca_esv=5999353cb99206ac&q=latest+AI+news&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&sa=X&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQ0pQJegQIFxAB
+          - listitem [ref=f3e90]:
+            - link "Videos" [ref=f3e91] [cursor=pointer]:
+              - /url: /search?sca_esv=5999353cb99206ac&udm=7&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&q=latest+AI+news&sa=X&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQtKgLegQIFRAB
+          - listitem [ref=f3e94]:
+            - link "Images" [ref=f3e95] [cursor=pointer]:
+              - /url: /search?sca_esv=5999353cb99206ac&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&q=latest+AI+news&sa=X&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQtKgLegQIFBAB
+          - listitem [ref=f3e98]:
+            - link "Short videos" [ref=f3e99] [cursor=pointer]:
+              - /url: /search?sca_esv=5999353cb99206ac&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&q=latest+AI+news&sa=X&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQs6gLegQIFhAB
+          - listitem [ref=f3e102]:
+            - link "Forums" [ref=f3e103] [cursor=pointer]:
+              - /url: /search?sca_esv=5999353cb99206ac&udm=18&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&q=latest+AI+news&sa=X&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQs6gLegQIGBAB
+          - listitem [ref=f3e106]:
+            - button [ref=f3e107] [cursor=pointer]:
+              - generic "More filters" [ref=f3e108]: More
+        - button "Tools" [ref=f3e115] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f3e122]
+    - generic [ref=f3e127]:
+      - generic [ref=f3e146]:
+        - generic [ref=f3e149]:
+          - generic [ref=f3e151]:
+            - heading "AI Overview" [level=2] [ref=f3e155]
+            - generic [ref=f3e157]:
+              - button "Change language to Hindi" [ref=f3e158] [cursor=pointer]:
+                - generic [ref=f3e159]: हिन्दी
+              - button "Listen" [ref=f3e162]
+            - button "About this result" [ref=f3e172]
+          - generic [ref=f3e197]:
+            - generic [ref=f3e200]:
+              - generic [ref=f3e201]:
+                - text: Major AI developments include
+                - mark [ref=f3e202]: China's Moonshot releasing the K3 open-weight model
+                - text: ", which beats leading frontier models on specific benchmarks. Additionally, Chinese startup BrainCo showcased technology letting users operate robots with thoughts, while Google and Meta are pushing for enhanced local AI, advanced agents, and multimodal features."
+                - generic [ref=f3e204]:
+                  - link "Reddit (+3) – View related links" [ref=f3e205] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/artificial/
+                  - button "Reddit (+3) – View related links" [ref=f3e206] [cursor=pointer]:
+                    - generic [ref=f3e208]:
+                      - generic [ref=f3e209]: Reddit
+                      - generic [ref=f3e210]: ·r/artificial
+                      - generic [ref=f3e211]: "+3"
+              - heading "Key Industry Headlines" [level=3] [ref=f3e216]
+              - list [ref=f3e217]:
+                - listitem [ref=f3e219]:
+                  - generic [ref=f3e220]:
+                    - strong [ref=f3e221]: "Frontier Benchmark Shifts:"
+                    - text: Chinese developer Moonshot AI released Kimi K3, a 2.8-trillion parameter open-weight model. Independent labs rank it ahead of Anthropic's Opus on several key benchmarks, making it the first Chinese model to do so.
+                  - generic [ref=f3e223]:
+                    - link [ref=f3e224] [cursor=pointer]:
+                      - /url: https://www.reddit.com/r/artificial/
+                    - button [ref=f3e225] [cursor=pointer]:
+                      - generic [ref=f3e227]:
+                        - generic [ref=f3e228]: Reddit
+                        - generic [ref=f3e229]: ·r/artificial
+                - listitem [ref=f3e235]:
+                  - generic [ref=f3e236]:
+                    - strong [ref=f3e237]: "Brain-Computer Innovations:"
+                    - text: At the World AI Conference in Shanghai, BrainCo unveiled a non-invasive EEG headset that decodes brain signals into robot commands in under 200 milliseconds.
+                  - button [ref=f3e240] [cursor=pointer]
+                - listitem [ref=f3e246]:
+                  - generic [ref=f3e247]:
+                    - strong [ref=f3e248]: "Agentic AI Expansion:"
+                    - text: Google integrated native computer use into Gemini 3.5 Flash, enabling AI agents to actively see, reason, and take action across desktop, mobile, and browser environments.
+                  - generic [ref=f3e250]:
+                    - link [ref=f3e251] [cursor=pointer]:
+                      - /url: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/
+                    - button [ref=f3e252] [cursor=pointer]:
+                      - generic [ref=f3e253]: blog.google
+                - listitem [ref=f3e261]:
+                  - generic [ref=f3e262]:
+                    - strong [ref=f3e263]: "Infrastructure Deals:"
+                    - text: Meta and Anthropic are reportedly in talks for massive compute lease deals to bolster their AI processing power as the resource race intensifies.
+                  - generic [ref=f3e265]:
+                    - link [ref=f3e266] [cursor=pointer]:
+                      - /url: https://www.reuters.com/technology/artificial-intelligence/
+                    - button [ref=f3e267] [cursor=pointer]:
+                      - generic [ref=f3e268]: Reuters
+              - generic [ref=f3e277]:
+                - generic [ref=f3e278]: "For a closer look at China's growing capabilities in the AI hardware and model capability race:"
+                - generic [ref=f3e280]:
+                  - link [ref=f3e283] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=jv6hBaCtsFg
+                    - generic [ref=f3e284]: 6:28
+                  - link [ref=f3e295] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=jv6hBaCtsFg
+                    - generic [ref=f3e296]:
+                      - generic [ref=f3e297]: China leaps forward in the AI race
+                      - generic [ref=f3e298]:
+                        - generic [ref=f3e299]: 76K views
+                        - text: · 1 day ago
+                      - generic [ref=f3e300]: YouTube · Sky News
+              - heading [level=3] [ref=f3e304]: Market and Corporate Movements
+              - list [ref=f3e305]:
+                - listitem [ref=f3e307]:
+                  - generic [ref=f3e308]:
+                    - strong [ref=f3e309]: "Tech Volatility:"
+                    - text: The benchmark-beating Chinese AI news contributed to a recent rotation in stock markets, with the Nasdaq dropping slightly and chipmakers experiencing brief sell-offs.
+                  - generic [ref=f3e311]:
+                    - link [ref=f3e312] [cursor=pointer]:
+                      - /url: https://www.reddit.com/r/artificial/
+                    - button [ref=f3e313] [cursor=pointer]:
+                      - generic [ref=f3e315]:
+                        - generic [ref=f3e316]: Reddit
+                        - generic [ref=f3e317]: ·r/artificial
+                        - generic [ref=f3e318]: "+1"
+                - listitem [ref=f3e324]:
+                  - generic [ref=f3e325]:
+                    - strong [ref=f3e326]: "Meta's Product Rollback:"
+                    - text: Meta was forced to pull back a new AI image alteration feature on Instagram after facing swift backlash from users.
+                  - generic [ref=f3e328]:
+                    - link [ref=f3e329] [cursor=pointer]:
+                      - /url: https://www.bbc.com/news/topics/ce1qrvleleqt
+                    - button [ref=f3e330] [cursor=pointer]:
+                      - generic [ref=f3e331]: BBC
+              - generic [ref=f3e340]:
+                - generic [ref=f3e341]: "For a quick summary on how agentic capabilities in tools like ChatGPT and Gemini are completely changing how we build software:"
+                - generic [ref=f3e343]:
+                  - link [ref=f3e346] [cursor=pointer]:
+                    - /url: https://www.instagram.com/reel/Dau9utKSIp9/
+                    - generic [ref=f3e347]: 1:49
+                  - link [ref=f3e356] [cursor=pointer]:
+                    - /url: https://www.instagram.com/reel/Dau9utKSIp9/
+                    - generic [ref=f3e357]:
+                      - generic [ref=f3e358]: We wanted to see what the new GPT-5.6 could actually build
+                      - generic [ref=f3e359]:
+                        - generic [ref=f3e360]: 2.7L views
+                        - text: · 6 days ago
+                      - generic [ref=f3e361]: Instagram · Raj
+              - generic [ref=f3e366]:
+                - text: Would you like to know more about
+                - strong [ref=f3e367]: recent open-weight AI model releases
+                - text: ", or are you interested in how"
+                - strong [ref=f3e368]: companies are implementing AI agents
+                - text: for business automation?
+            - generic [ref=f3e373]:
+              - generic [ref=f3e375]:
+                - button [ref=f3e376] [cursor=pointer]:
+                  - generic [ref=f3e384]: 7 sites
+                - button [ref=f3e390] [cursor=pointer]
+              - list [ref=f3e395]:
+                - listitem [ref=f3e396]:
+                  - generic [ref=f3e397]:
+                    - link [ref=f3e398] [cursor=pointer]:
+                      - /url: https://www.reddit.com/r/artificial/
+                    - generic [ref=f3e399]:
+                      - generic [ref=f3e401]:
+                        - generic [ref=f3e402]: Artificial Intelligence (AI) - Reddit
+                        - generic [ref=f3e403]: 19 Jul 2026 — Chinese open-weight model beats Opus 4.8 on some benchmarks, first time this has happened. Discussion. Moonshot released Kimi K3 J...
+                      - generic [ref=f3e406]:
+                        - generic [ref=f3e410]:
+                          - generic [ref=f3e411]: Reddit
+                          - generic [ref=f3e412]: ·
+                          - generic [ref=f3e413]: r/artificial
+                        - button [ref=f3e417] [cursor=pointer]
+                - listitem [ref=f3e423]:
+                  - generic [ref=f3e424]:
+                    - link [ref=f3e425] [cursor=pointer]:
+                      - /url: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/
+                    - generic [ref=f3e426]:
+                      - generic [ref=f3e428]:
+                        - generic [ref=f3e429]: The latest AI news we announced in June 2026
+                        - generic [ref=f3e430]: 1 Jul 2026 — Google just released a bunch of new AI updates to make your devices and apps more helpful. You can now use smarter tools on your l...
+                      - generic [ref=f3e433]:
+                        - generic [ref=f3e436]: blog.google
+                        - button [ref=f3e442] [cursor=pointer]
+                - listitem [ref=f3e448]:
+                  - generic [ref=f3e449]:
+                    - link [ref=f3e450] [cursor=pointer]:
+                      - /url: https://www.reuters.com/technology/artificial-intelligence/
+                    - generic [ref=f3e451]:
+                      - generic [ref=f3e453]:
+                        - generic [ref=f3e454]: AI News | Latest Headlines and Developments | Reuters
+                        - generic [ref=f3e455]: More AI News * Business. Musk's SpaceX in talks to supply the Pentagon with computing power, WSJ reports. July 17, 2026. * Technol...
+                      - generic [ref=f3e458]:
+                        - generic [ref=f3e461]: Reuters
+                        - button [ref=f3e467] [cursor=pointer]
+              - button [ref=f3e473] [cursor=pointer]:
+                - generic [ref=f3e474]: Show all
+        - button "Show more AI Overview" [ref=f3e478]:
+          - generic [ref=f3e479] [cursor=pointer]: Show more
+      - main [ref=f3e486]:
+        - generic [ref=f3e490]:
+          - generic [ref=f3e493]:
+            - heading "Web results" [level=2] [ref=f3e494]
+            - generic [ref=f3e495]:
+              - generic [ref=f3e498]:
+                - link "AI News | Latest News | Insights Powering AI-Driven Business ... AI News https://www.artificialintelligence-news.com" [ref=f3e500] [cursor=pointer]:
+                  - /url: https://www.artificialintelligence-news.com/
+                  - heading "AI News | Latest News | Insights Powering AI-Driven Business ..." [level=3] [ref=f3e501]
+                  - generic [ref=f3e507]:
+                    - generic [ref=f3e508]: AI News
+                    - generic [ref=f3e510]: https://www.artificialintelligence-news.com
+                - button "About this result" [ref=f3e514] [cursor=pointer]
+              - generic [ref=f3e520]:
+                - generic [ref=f3e521]:
+                  - emphasis [ref=f3e522]: Klarna backs Google UCP to power AI agent payments
+                  - text: · Thailand becomes one of the first in Asia to get the Sora app · Malaysia launches Ryt Bank, its first AI- ...
+                - link "Read more" [ref=f3e523] [cursor=pointer]:
+                  - /url: https://www.artificialintelligence-news.com/#:~:text=Klarna%20backs%20Google%20UCP%20to,power%20AI%20agent%20payments&text=Thailand%20becomes%20one%20of%20the,to%20get%20the%20Sora%20app&text=Malaysia%20launches%20Ryt%20Bank%2C%20its,first%20AI%2Dpowered%20bank
+          - generic [ref=f3e527]:
+            - generic [ref=f3e529]:
+              - heading "What people are saying" [level=2] [ref=f3e530]
+              - generic [ref=f3e533]: Trending posts and discussions
+            - generic [ref=f3e544]:
+              - list [ref=f3e546]:
+                - generic [ref=f3e547]:
+                  - listitem [ref=f3e548]:
+                    - generic [ref=f3e552]:
+                      - 'link "Sam Altman believes AI could eventually give one person enough leverage to build a company worth $1 billion without a large team. Research, coding, sales, marketing, and customer support can already be handled partly by AI agents, no-code tools, and connected software. The harder part may be getting attention, earning trust, and turning a useful product into something people are willing to pay for. A solo founder can now move faster than ever, but the idea, timing, and ability to keep customers will still decide whether the business survives. Follow us (👉 @artificialintelligenceee) for everything latest from the AI world. Source: Cleo Abram 290+ likes · 4 hours ago artificialintelligenceee Instagram" [ref=f3e553] [cursor=pointer]':
+                        - /url: https://www.instagram.com/p/DbAFiEGms7B/
+                        - generic [ref=f3e557]:
+                          - 'heading "Sam Altman believes AI could eventually give one person enough leverage to build a company worth $1 billion without a large team. Research, coding, sales, marketing, and customer support can already be handled partly by AI agents, no-code tools, and connected software. The harder part may be getting attention, earning trust, and turning a useful product into something people are willing to pay for. A solo founder can now move faster than ever, but the idea, timing, and ability to keep customers will still decide whether the business survives. Follow us (👉 @artificialintelligenceee) for everything latest from the AI world. Source: Cleo Abram" [level=3] [ref=f3e559]'
+                          - generic [ref=f3e560]: 290+ likes · 4 hours ago
+                          - generic [ref=f3e569]:
+                            - generic [ref=f3e570]: artificialintelligenceee
+                            - generic [ref=f3e571]: Instagram
+                      - button "About this result" [ref=f3e575] [cursor=pointer]
+                  - listitem [ref=f3e580]:
+                    - generic [ref=f3e584]:
+                      - link "Somebody somewhere got to the latest AI models and inserted deep in their consciousness the sentence “Please audit this literature for load-bearing insights and rate-limiting bottlenecks” bc sweet lord the LLMs are absolutely messy with those words, all of a sudden 16 hours ago DKThomp X" [ref=f3e585] [cursor=pointer]:
+                        - /url: https://x.com/DKThomp/status/2078876462594347505?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                        - generic [ref=f3e586]:
+                          - heading "Somebody somewhere got to the latest AI models and inserted deep in their consciousness the sentence “Please audit this literature for load-bearing insights and rate-limiting bottlenecks” bc sweet lord the LLMs are absolutely messy with those words, all of a sudden" [level=3] [ref=f3e588]
+                          - generic [ref=f3e589]: 16 hours ago
+                          - generic [ref=f3e601]:
+                            - generic [ref=f3e602]: DKThomp
+                            - generic [ref=f3e603]: X
+                      - button "About this result" [ref=f3e607] [cursor=pointer]
+                  - listitem [ref=f3e612]:
+                    - generic [ref=f3e616]:
+                      - link "Week 27- AI Is Moving Fast in Life Here’s How to Catch Up on Latest Updates News on AI 17 hours ago Pritam Sahoo LinkedIn" [ref=f3e617] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/pulse/week-27-ai-moving-fast-life-heres-how-catch-up-latest-pritam-sahoo-lhybc
+                        - generic [ref=f3e621]:
+                          - heading "Week 27- AI Is Moving Fast in Life Here’s How to Catch Up on Latest Updates News on AI" [level=3] [ref=f3e623]
+                          - generic [ref=f3e624]: 17 hours ago
+                          - generic [ref=f3e633]:
+                            - generic [ref=f3e634]: Pritam Sahoo
+                            - generic [ref=f3e635]: LinkedIn
+                      - button "About this result" [ref=f3e639] [cursor=pointer]
+                  - listitem [ref=f3e644]:
+                    - generic [ref=f3e649]:
+                      - link "China’s Latest A.I. Breakthrough Threatens America’s Lead Popular comment · The release of a free, open-source Chinese A.I. model that could rival the performance of costly, computing-intensive systems from Silicon Valley’s best-funded companies has reignited concerns over whether the industry’s enormous spending spree on data centers is justified. It isn't. Won't stop them, though. 130+ upvotes . 130+ comments · 1 day ago r/technology Reddit" [ref=f3e650] [cursor=pointer]:
+                        - /url: https://www.reddit.com/r/technology/comments/1uzv9v9/chinas_latest_ai_breakthrough_threatens_americas/
+                        - generic [ref=f3e651]:
+                          - heading "China’s Latest A.I. Breakthrough Threatens America’s Lead" [level=3] [ref=f3e653]
+                          - generic [ref=f3e654]:
+                            - generic [ref=f3e655]:
+                              - generic [ref=f3e656]: Popular comment · The release of a free, open-source Chinese A.I. model that could rival the performance of costly, computing-intensive systems from Silicon Valley’s best-funded companies has reignited concerns over whether the industry’s enormous spending spree on data centers is justified. It isn't. Won't stop them, though.
+                              - generic [ref=f3e657]: 130+ upvotes
+                            - generic [ref=f3e658]: .
+                          - generic [ref=f3e659]: 130+ comments · 1 day ago
+                          - generic [ref=f3e668]:
+                            - generic [ref=f3e669]: r/technology
+                            - generic [ref=f3e670]: Reddit
+                      - button "About this result" [ref=f3e674] [cursor=pointer]
+                  - listitem [ref=f3e679]:
+                    - generic [ref=f3e684]:
+                      - link "Our latest analysis suggests that organizations deploying agentic AI at scale could unlock 3–5% annual productivity gains and 10%+ growth. But the real opportunity isn't the technology—it's how organizations use it. It requires rethinking how people and AI wo 370+ reactions · 1 day ago McKinsey & Company LinkedIn" [ref=f3e685] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/posts/mckinsey_our-latest-analysis-suggests-that-organizations-activity-7484336296878927872-qfxg
+                        - generic [ref=f3e689]:
+                          - heading "Our latest analysis suggests that organizations deploying agentic AI at scale could unlock 3–5% annual productivity gains and 10%+ growth. But the real opportunity isn't the technology—it's how organizations use it. It requires rethinking how people and AI wo" [level=3] [ref=f3e691]
+                          - generic [ref=f3e692]: 370+ reactions · 1 day ago
+                          - generic [ref=f3e704]:
+                            - generic [ref=f3e705]: McKinsey & Company
+                            - generic [ref=f3e706]: LinkedIn
+                      - button "About this result" [ref=f3e710] [cursor=pointer]
+                  - listitem [ref=f3e715]:
+                    - generic [ref=f3e720]:
+                      - button "Kimi K3 FREE for 7 Hours! 🔥 Best AI Coding Model to Replace Claude Code?. Play on Google. 2:46" [ref=f3e725] [cursor=pointer]:
+                        - generic [ref=f3e726]: 2:46
+                      - link "Kimi K3 FREE for 7 Hours! 🔥 Best AI Coding Model to Replace Claude Code? 2.8K+ views · 1 day ago Code With Yousaf YouTube" [ref=f3e740] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=j4OWavtRtbA
+                        - generic [ref=f3e741]:
+                          - heading "Kimi K3 FREE for 7 Hours! 🔥 Best AI Coding Model to Replace Claude Code?" [level=3] [ref=f3e743]
+                          - generic [ref=f3e744]: 2.8K+ views · 1 day ago
+                          - generic [ref=f3e757]:
+                            - generic [ref=f3e758]: Code With Yousaf
+                            - generic [ref=f3e759]: YouTube
+                      - button "About this result" [ref=f3e763] [cursor=pointer]
+                  - listitem [ref=f3e768]:
+                    - generic [ref=f3e773]:
+                      - link "As the latest open-source Kimi K3 lands just a few months behind the top closed-source offerings, Xi Jinping makes open-source China's official AI policy. Popular comment · He understands that releasing an open source model that competes with Western models will tank the US economy 70+ upvotes . 90+ comments · 1 day ago r/Futurology Reddit" [ref=f3e774] [cursor=pointer]:
+                        - /url: https://www.reddit.com/r/Futurology/comments/1uzr6ft/as_the_latest_opensource_kimi_k3_lands_just_a_few/
+                        - generic [ref=f3e775]:
+                          - heading "As the latest open-source Kimi K3 lands just a few months behind the top closed-source offerings, Xi Jinping makes open-source China's official AI policy." [level=3] [ref=f3e777]
+                          - generic [ref=f3e778]:
+                            - generic [ref=f3e779]:
+                              - generic [ref=f3e780]: Popular comment · He understands that releasing an open source model that competes with Western models will tank the US economy
+                              - generic [ref=f3e781]: 70+ upvotes
+                            - generic [ref=f3e782]: .
+                          - generic [ref=f3e783]: 90+ comments · 1 day ago
+                          - generic [ref=f3e792]:
+                            - generic [ref=f3e793]: r/Futurology
+                            - generic [ref=f3e794]: Reddit
+                      - button "About this result" [ref=f3e798] [cursor=pointer]
+                  - listitem [ref=f3e803]:
+                    - generic [ref=f3e808]:
+                      - 'link "1:01 Adam Mosseri says AI generated content should be judged by its quality and the person behind it, not simply by the tools used to create it. He believes platforms should clearly label AI content and provide more information about the creator, allowing people to make informed decisions about what they trust. Rather than filtering AI content out of feeds, Mosseri argues that users should have more control over what they see as AI becomes a bigger part of online content. 👉 Follow @uncover.ai to stay updated with the latest AI news — Media: Lenny’s Podcast 200+ likes · 1 day ago uncover.ai Instagram" [ref=f3e809] [cursor=pointer]':
+                        - /url: https://www.instagram.com/reel/Da9gG-hMObH/
+                        - generic [ref=f3e810]: 1:01
+                        - generic [ref=f3e819]:
+                          - 'heading "Adam Mosseri says AI generated content should be judged by its quality and the person behind it, not simply by the tools used to create it. He believes platforms should clearly label AI content and provide more information about the creator, allowing people to make informed decisions about what they trust. Rather than filtering AI content out of feeds, Mosseri argues that users should have more control over what they see as AI becomes a bigger part of online content. 👉 Follow @uncover.ai to stay updated with the latest AI news — Media: Lenny’s Podcast" [level=3] [ref=f3e821]'
+                          - generic [ref=f3e822]: 200+ likes · 1 day ago
+                          - generic [ref=f3e835]:
+                            - generic [ref=f3e836]: uncover.ai
+                            - generic [ref=f3e837]: Instagram
+                      - button "About this result" [ref=f3e841] [cursor=pointer]
+                  - listitem [ref=f3e846]:
+                    - generic [ref=f3e851]:
+                      - link "On the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public. 1 reaction · 13 hours ago techcrunch Facebook" [ref=f3e852] [cursor=pointer]:
+                        - /url: https://www.facebook.com/techcrunch/posts/on-the-latest-episode-of-equity-we-debate-whether-apples-lawsuit-will-cast-over-/1382263600434170/
+                        - generic [ref=f3e856]:
+                          - heading "On the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public." [level=3] [ref=f3e858]
+                          - generic [ref=f3e859]: 1 reaction · 13 hours ago
+                          - generic [ref=f3e871]:
+                            - generic [ref=f3e872]: techcrunch
+                            - generic [ref=f3e873]: Facebook
+                      - button "About this result" [ref=f3e877] [cursor=pointer]
+                  - listitem [ref=f3e882]:
+                    - generic [ref=f3e887]:
+                      - link "i'm really pretty impressed with the latest round of AI models i normally am pretty strict with what i allow or trust AI to do but today i ran around the city developing pretty large features mostly on my phone and was pleasantly surprised to see them all work mostly correctly usually i'd feel like i'd have to be home and paying attention when deploying stuff like this but maybe those days are over 20+ likes · 1 day ago KevinNaughtonJr X" [ref=f3e888] [cursor=pointer]:
+                        - /url: https://x.com/KevinNaughtonJr/status/2078598642357911626?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+                        - generic [ref=f3e889]:
+                          - heading "i'm really pretty impressed with the latest round of AI models i normally am pretty strict with what i allow or trust AI to do but today i ran around the city developing pretty large features mostly on my phone and was pleasantly surprised to see them all work mostly correctly usually i'd feel like i'd have to be home and paying attention when deploying stuff like this but maybe those days are over" [level=3] [ref=f3e891]
+                          - generic [ref=f3e892]: 20+ likes · 1 day ago
+                          - generic [ref=f3e904]:
+                            - generic [ref=f3e905]: KevinNaughtonJr
+                            - generic [ref=f3e906]: X
+                      - button "About this result" [ref=f3e910] [cursor=pointer]
+                  - listitem [ref=f3e915]:
+                    - generic [ref=f3e920]:
+                      - button "Kimi K3 IS INSANE! Best Open Model EVER That BEATS FABLE 5 & GPT-5.6! (Fully Tested). Play on Google. 18:28" [ref=f3e925] [cursor=pointer]:
+                        - generic [ref=f3e926]: 18:28
+                      - link "Kimi K3 IS INSANE! Best Open Model EVER That BEATS FABLE 5 & GPT-5.6! (Fully Tested) 38.4K+ views · 3 days ago WorldofAI YouTube" [ref=f3e940] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=LEnYkEIOhIY
+                        - generic [ref=f3e941]:
+                          - heading "Kimi K3 IS INSANE! Best Open Model EVER That BEATS FABLE 5 & GPT-5.6! (Fully Tested)" [level=3] [ref=f3e943]
+                          - generic [ref=f3e944]: 38.4K+ views · 3 days ago
+                          - generic [ref=f3e957]:
+                            - generic [ref=f3e958]: WorldofAI
+                            - generic [ref=f3e959]: YouTube
+                      - button "About this result" [ref=f3e963] [cursor=pointer]
+                  - listitem [ref=f3e968]:
+                    - generic [ref=f3e973]:
+                      - 'link "0:48 We are officially building hardware humans can no longer understand or debug. An AI system just designed a 5G microchip that completely outperforms human engineering, yet its layout looks like a glitchy, random QR code with zero human logic. The line between human creation and machine intelligence has officially been crossed. #elonmusk #billgates #narendramodi #microchip #5gtechnology #aihardware 60+ likes · 2 days ago karthiknaidu_official Instagram" [ref=f3e974] [cursor=pointer]':
+                        - /url: https://www.instagram.com/reel/Da7C3XzlYoV/
+                        - generic [ref=f3e975]: 0:48
+                        - generic [ref=f3e984]:
+                          - 'heading "We are officially building hardware humans can no longer understand or debug. An AI system just designed a 5G microchip that completely outperforms human engineering, yet its layout looks like a glitchy, random QR code with zero human logic. The line between human creation and machine intelligence has officially been crossed. #elonmusk #billgates #narendramodi #microchip #5gtechnology #aihardware" [level=3] [ref=f3e986]'
+                          - generic [ref=f3e987]: 60+ likes · 2 days ago
+                          - generic [ref=f3e1000]:
+                            - generic [ref=f3e1001]: karthiknaidu_official
+                            - generic [ref=f3e1002]: Instagram
+                      - button "About this result" [ref=f3e1006] [cursor=pointer]
+              - button [ref=f3e1011] [cursor=pointer]
+          - generic [ref=f3e1019]:
+            - generic [ref=f3e1021]:
+              - heading "Top stories" [level=2] [ref=f3e1023]
+              - link [ref=f3e1027] [cursor=pointer]:
+                - /url: https://accounts.google.com/ServiceLogin?ec=oo-seaport-srp-sp-11135&continue=https://www.google.com/search?q%3Dlatest%2BAI%2Bnews%26sca_esv%3D5999353cb99206ac%26source%3Dhp%26ei%3DddtdasTjK_athvcP_JDtiQM%26iflsig%3DABILxe8AAAAAal3phdITEtm-NWB4XddbTrYdsdAztwwA%26ved%3D0ahUKEwiE8sOv6uCVAxX2luEIHXxIOzEQ4dUDCDE%26uact%3D5%26oq%3Dlatest%2BAI%2Bnews%26gs_lp%3DEgdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3c0hWUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE%26sclient%3Dgws-wiz%26sei%3Dg9tdauTwNPvlseMP7IvTgAs%26ptid%3D11135%26ptt%3D8%26fpts%3D1784535940487
+            - generic [ref=f3e1034]:
+              - generic [ref=f3e1035]:
+                - link "TechCrunch About this result Can an Apple lawsuit derail OpenAI’s hardware plans? 13 hours ago" [ref=f3e1038] [cursor=pointer]:
+                  - /url: https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/
+                  - generic [ref=f3e1043]:
+                    - generic [ref=f3e1045]:
+                      - generic [ref=f3e1046]: TechCrunch
+                      - button "About this result" [ref=f3e1051]
+                    - heading "Can an Apple lawsuit derail OpenAI’s hardware plans?" [level=3] [ref=f3e1054]
+                    - generic: 13 hours ago
+                - link "صحيفة مال About this result Nasdaq, S&P 500 drop 1% after China’s latest AI breakthrough rattles tech stocks 2 days ago" [ref=f3e1060] [cursor=pointer]:
+                  - /url: https://maaal.com/en/news/details/nasdaq-sp-500-drop-1-a/
+                  - generic [ref=f3e1065]:
+                    - generic [ref=f3e1067]:
+                      - generic [ref=f3e1068]: صحيفة مال
+                      - button "About this result" [ref=f3e1073]
+                    - heading "Nasdaq, S&P 500 drop 1% after China’s latest AI breakthrough rattles tech stocks" [level=3] [ref=f3e1076]
+                    - generic: 2 days ago
+              - generic [ref=f3e1079]:
+                - link "blog.google About this result The latest AI news we announced in May 2026 1 month ago" [ref=f3e1082] [cursor=pointer]:
+                  - /url: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/
+                  - generic [ref=f3e1087]:
+                    - generic [ref=f3e1089]:
+                      - generic [ref=f3e1090]: blog.google
+                      - button "About this result" [ref=f3e1095]
+                    - heading "The latest AI news we announced in May 2026" [level=3] [ref=f3e1098]
+                    - generic: 1 month ago
+                - link "blog.google About this result The latest AI news we announced in June 2026 3 weeks ago" [ref=f3e1103] [cursor=pointer]:
+                  - /url: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/
+                  - generic [ref=f3e1108]:
+                    - generic [ref=f3e1110]:
+                      - generic [ref=f3e1111]: blog.google
+                      - button "About this result" [ref=f3e1116]
+                    - heading "The latest AI news we announced in June 2026" [level=3] [ref=f3e1119]
+                    - generic: 3 weeks ago
+            - link "More news" [ref=f3e1122] [cursor=pointer]:
+              - /url: /search?sca_esv=5999353cb99206ac&q=latest+AI+news&tbm=nws&source=univ&tbo=u&sa=X&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQt8YBKAJ6BAhPEAU
+              - separator [ref=f3e1123]
+          - generic [ref=f3e1133]:
+            - heading "People also ask" [level=2] [ref=f3e1135]
+            - generic [ref=f3e1136]:
+              - button "What's the latest news in AI?" [ref=f3e1142] [cursor=pointer]
+              - button "Which new AI is launched recently?" [ref=f3e1156] [cursor=pointer]
+              - button "What is the latest breakthrough in AI?" [ref=f3e1170] [cursor=pointer]
+              - button "Which 3 jobs will survive AI?" [ref=f3e1184] [cursor=pointer]
+          - generic [ref=f3e1194]:
+            - heading "Web results" [level=2] [ref=f3e1195]
+            - generic [ref=f3e1196]:
+              - generic [ref=f3e1199]:
+                - link "AI News | Latest Headlines and Developments Reuters https://www.reuters.com › artificial-intelligence" [ref=f3e1201] [cursor=pointer]:
+                  - /url: https://www.reuters.com/technology/artificial-intelligence/
+                  - heading "AI News | Latest Headlines and Developments" [level=3] [ref=f3e1202]
+                  - generic [ref=f3e1208]:
+                    - generic [ref=f3e1209]: Reuters
+                    - generic [ref=f3e1211]: https://www.reuters.com › artificial-intelligence
+                - button "About this result" [ref=f3e1215] [cursor=pointer]
+              - generic [ref=f3e1222]:
+                - emphasis [ref=f3e1223]: Explore the latest artificial intelligence news with Reuters
+                - text: "- from AI breakthroughs and technology trends to regulation, ethics, business and global ..."
+          - generic [ref=f3e1227]:
+            - generic [ref=f3e1230]:
+              - link "Artificial Intelligence (AI) Reddit · r/artificial 13.1L+ followers" [ref=f3e1232] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/artificial/
+                - heading "Artificial Intelligence (AI)" [level=3] [ref=f3e1233]
+                - generic [ref=f3e1239]:
+                  - generic [ref=f3e1240]: Reddit · r/artificial
+                  - generic [ref=f3e1242]: 13.1L+ followers
+              - button "About this result" [ref=f3e1246] [cursor=pointer]
+            - generic [ref=f3e1252]:
+              - generic [ref=f3e1253]:
+                - text: Three competing Chinese
+                - emphasis [ref=f3e1254]: AI
+                - text: companies (Zhipu, MiniMax, Z.
+                - emphasis [ref=f3e1255]: ai
+                - text: ) lost 15-28% of their value in a single day. Nasdaq dropped, Nvidia briefly surrendered its most- ...
+              - link "Read more" [ref=f3e1256] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/artificial/#:~:text=Three%20competing%20Chinese%20AI%20companies,its%20most%2Dvaluable%2Dcompany%20spot%20to%20Apple.
+          - generic [ref=f3e1260]:
+            - generic [ref=f3e1263]:
+              - link "Artificial Intelligence - Latest AI News and Analysis WSJ https://www.wsj.com › tech › ai" [ref=f3e1265] [cursor=pointer]:
+                - /url: https://www.wsj.com/tech/ai
+                - heading "Artificial Intelligence - Latest AI News and Analysis" [level=3] [ref=f3e1266]
+                - generic [ref=f3e1272]:
+                  - generic [ref=f3e1273]: WSJ
+                  - generic [ref=f3e1275]: https://www.wsj.com › tech › ai
+              - button "About this result" [ref=f3e1279] [cursor=pointer]
+            - generic [ref=f3e1286]:
+              - emphasis [ref=f3e1287]: The latest artificial intelligence news coverage
+              - text: focusing on the technology, tools and the companies building AI technology.
+          - generic [ref=f3e1291]:
+            - generic [ref=f3e1294]:
+              - link "AI at Meta Blog AI at Meta https://ai.meta.com › blog" [ref=f3e1296] [cursor=pointer]:
+                - /url: https://ai.meta.com/blog/
+                - heading "AI at Meta Blog" [level=3] [ref=f3e1297]
+                - generic [ref=f3e1303]:
+                  - generic [ref=f3e1304]: AI at Meta
+                  - generic [ref=f3e1306]: https://ai.meta.com › blog
+              - button "About this result" [ref=f3e1310] [cursor=pointer]
+            - generic [ref=f3e1317]:
+              - emphasis [ref=f3e1318]: Stay up to date on the latest artificial intelligence news from Meta
+              - text: . Meta FEATURED Research Introducing Muse Spark 1.1 July 9, 2026
+          - generic [ref=f3e1322]:
+            - generic [ref=f3e1325]:
+              - link "Artificial intelligence - BBC News BBC https://www.bbc.com › news › topics" [ref=f3e1327] [cursor=pointer]:
+                - /url: https://www.bbc.com/news/topics/ce1qrvleleqt
+                - heading "Artificial intelligence - BBC News" [level=3] [ref=f3e1328]
+                - generic [ref=f3e1334]:
+                  - generic [ref=f3e1335]: BBC
+                  - generic [ref=f3e1337]: https://www.bbc.com › news › topics
+              - button "About this result" [ref=f3e1341] [cursor=pointer]
+            - generic [ref=f3e1347]:
+              - generic [ref=f3e1348]:
+                - emphasis [ref=f3e1349]: China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic
+                - text: · Children taught detail about online sexual risks · SpaceX share price drops below stock market ...
+              - link "Read more" [ref=f3e1350] [cursor=pointer]:
+                - /url: https://www.bbc.com/news/topics/ce1qrvleleqt#:~:text=China's%20Moonshot%20AI%20claims%20Kimi,can%20rival%20OpenAI%20and%20Anthropic&text=Children%20taught%20detail%20about%20online,sexual%20risks&text=SpaceX%20share%20price%20drops%20below,stock%20market%20debut
+          - generic [ref=f3e1354]:
+            - generic [ref=f3e1357]:
+              - link "AI News YouTube · AI News 93.7K+ followers" [ref=f3e1359] [cursor=pointer]:
+                - /url: https://www.youtube.com/@AINewsOfficial
+                - heading "AI News" [level=3] [ref=f3e1360]
+                - generic [ref=f3e1366]:
+                  - generic [ref=f3e1367]: YouTube · AI News
+                  - generic [ref=f3e1369]: 93.7K+ followers
+              - button "About this result" [ref=f3e1373] [cursor=pointer]
+            - generic [ref=f3e1379]:
+              - generic [ref=f3e1380]:
+                - emphasis [ref=f3e1381]: AI News
+                - text: delivers the latest breakthroughs in artificial intelligence, machine learning, deep learning, brain computer interface, robotics, and other future ...
+              - link "Read more" [ref=f3e1382] [cursor=pointer]:
+                - /url: https://www.youtube.com/@AINewsOfficial#:~:text=AI%20News%20delivers%20the%20latest,technology%20in%20an%20educational%20format.
+            - link [ref=f3e1385] [cursor=pointer]:
+              - /url: https://www.youtube.com/@AINewsOfficial
+              - img "latest AI news from www.youtube.com" [ref=f3e1387]
+        - generic [ref=f3e1389]:
+          - generic [ref=f3e1394]:
+            - heading "People also search for" [level=2] [ref=f3e1396]
+            - generic [ref=f3e1398]:
+              - generic [ref=f3e1399]:
+                - link "Latest ai news in india" [ref=f3e1403] [cursor=pointer]:
+                  - /url: /search?sca_esv=5999353cb99206ac&q=Latest+ai+news+in+india&sa=X&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQ1QJ6BAg3EAE
+                - link "Latest ai news reddit" [ref=f3e1417] [cursor=pointer]:
+                  - /url: /search?sca_esv=5999353cb99206ac&q=Latest+ai+news+reddit&sa=X&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQ1QJ6BAhNEAE
+                - link "AI news today live" [ref=f3e1431] [cursor=pointer]:
+                  - /url: /search?sca_esv=5999353cb99206ac&q=AI+news+today+live&sa=X&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQ1QJ6BAhGEAE
+                - link "Latest AI news for developers" [ref=f3e1445] [cursor=pointer]:
+                  - /url: /search?sca_esv=5999353cb99206ac&q=Latest+AI+news+for+developers&sa=X&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQ1QJ6BAhBEAE
+              - generic [ref=f3e1456]:
+                - link "Latest AI news Microsoft" [ref=f3e1460] [cursor=pointer]:
+                  - /url: /search?sca_esv=5999353cb99206ac&q=Latest+AI+news+Microsoft&sa=X&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQ1QJ6BAhAEAE
+                - link "Latest AI technology news" [ref=f3e1474] [cursor=pointer]:
+                  - /url: /search?sca_esv=5999353cb99206ac&q=Latest+AI+technology+news&sa=X&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQ1QJ6BAg-EAE
+                - link "Future of AI news" [ref=f3e1488] [cursor=pointer]:
+                  - /url: /search?sca_esv=5999353cb99206ac&q=Future+of+AI+news&sa=X&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQ1QJ6BAg9EAE
+                - link "Ai anwar" [ref=f3e1502] [cursor=pointer]:
+                  - /url: /search?sca_esv=5999353cb99206ac&q=Ai+anwar&sa=X&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQ1QJ6BAg4EAE
+          - navigation [ref=f3e1517]:
+            - heading "Page navigation" [level=1] [ref=f3e1518]
+            - text: "1"
+            - link "Page 2" [ref=f3e1521] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=5999353cb99206ac&ei=hNtdaoDiDNCdseMP7_7EwAQ&start=10&sa=N&sstk=AU9db-BRUEV33DThM-7APZWwcCwTzoi1u0Fvmw9l9CLEtfxtopYyMz1K3TJOgi2XB8radugw4k5UdfxEUj7C99S6nPQdxwP-_1PLEA&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQ8tMDegQIXhAE
+              - text: "2"
+            - link "Page 3" [ref=f3e1523] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=5999353cb99206ac&ei=hNtdaoDiDNCdseMP7_7EwAQ&start=20&sa=N&sstk=AU9db-BRUEV33DThM-7APZWwcCwTzoi1u0Fvmw9l9CLEtfxtopYyMz1K3TJOgi2XB8radugw4k5UdfxEUj7C99S6nPQdxwP-_1PLEA&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQ8tMDegQIXhAG
+              - text: "3"
+            - link "Page 4" [ref=f3e1525] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=5999353cb99206ac&ei=hNtdaoDiDNCdseMP7_7EwAQ&start=30&sa=N&sstk=AU9db-BRUEV33DThM-7APZWwcCwTzoi1u0Fvmw9l9CLEtfxtopYyMz1K3TJOgi2XB8radugw4k5UdfxEUj7C99S6nPQdxwP-_1PLEA&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQ8tMDegQIXhAI
+              - text: "4"
+            - link "Page 5" [ref=f3e1527] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=5999353cb99206ac&ei=hNtdaoDiDNCdseMP7_7EwAQ&start=40&sa=N&sstk=AU9db-BRUEV33DThM-7APZWwcCwTzoi1u0Fvmw9l9CLEtfxtopYyMz1K3TJOgi2XB8radugw4k5UdfxEUj7C99S6nPQdxwP-_1PLEA&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQ8tMDegQIXhAK
+              - text: "5"
+            - link "Page 6" [ref=f3e1529] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=5999353cb99206ac&ei=hNtdaoDiDNCdseMP7_7EwAQ&start=50&sa=N&sstk=AU9db-BRUEV33DThM-7APZWwcCwTzoi1u0Fvmw9l9CLEtfxtopYyMz1K3TJOgi2XB8radugw4k5UdfxEUj7C99S6nPQdxwP-_1PLEA&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQ8tMDegQIXhAM
+              - text: "6"
+            - link "Page 7" [ref=f3e1531] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=5999353cb99206ac&ei=hNtdaoDiDNCdseMP7_7EwAQ&start=60&sa=N&sstk=AU9db-BRUEV33DThM-7APZWwcCwTzoi1u0Fvmw9l9CLEtfxtopYyMz1K3TJOgi2XB8radugw4k5UdfxEUj7C99S6nPQdxwP-_1PLEA&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQ8tMDegQIXhAO
+              - text: "7"
+            - link "Page 8" [ref=f3e1533] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=5999353cb99206ac&ei=hNtdaoDiDNCdseMP7_7EwAQ&start=70&sa=N&sstk=AU9db-BRUEV33DThM-7APZWwcCwTzoi1u0Fvmw9l9CLEtfxtopYyMz1K3TJOgi2XB8radugw4k5UdfxEUj7C99S6nPQdxwP-_1PLEA&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQ8tMDegQIXhAQ
+              - text: "8"
+            - link "Page 9" [ref=f3e1535] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=5999353cb99206ac&ei=hNtdaoDiDNCdseMP7_7EwAQ&start=80&sa=N&sstk=AU9db-BRUEV33DThM-7APZWwcCwTzoi1u0Fvmw9l9CLEtfxtopYyMz1K3TJOgi2XB8radugw4k5UdfxEUj7C99S6nPQdxwP-_1PLEA&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQ8tMDegQIXhAS
+              - text: "9"
+            - link "Page 10" [ref=f3e1537] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=5999353cb99206ac&ei=hNtdaoDiDNCdseMP7_7EwAQ&start=90&sa=N&sstk=AU9db-BRUEV33DThM-7APZWwcCwTzoi1u0Fvmw9l9CLEtfxtopYyMz1K3TJOgi2XB8radugw4k5UdfxEUj7C99S6nPQdxwP-_1PLEA&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQ8tMDegQIXhAU
+              - text: "10"
+            - heading [level=2] [ref=f3e1539]:
+              - link "Next" [ref=f3e1540] [cursor=pointer]:
+                - /url: /search?q=latest+AI+news&sca_esv=5999353cb99206ac&ei=hNtdaoDiDNCdseMP7_7EwAQ&start=10&sa=N&sstk=AU9db-BRUEV33DThM-7APZWwcCwTzoi1u0Fvmw9l9CLEtfxtopYyMz1K3TJOgi2XB8radugw4k5UdfxEUj7C99S6nPQdxwP-_1PLEA&ved=2ahUKEwiAtLi26uCVAxXQTmwGHW8_EUgQ8NMDegQIXhAW
+        - navigation
+    - contentinfo [ref=f3e1543]:
+      - heading "Footer links" [level=1] [ref=f3e1544]
+      - generic [ref=f3e1548]:
+        - generic [ref=f3e1550]:
+          - text: India
+          - generic [ref=f3e1552]:
+            - button "Patna, Bihar - From your IP address" [ref=f3e1554] [cursor=pointer]:
+              - generic [ref=f3e1555]: Patna, Bihar
+              - generic [ref=f3e1557]:
+                - text: "-"
+                - generic [ref=f3e1558]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=f3e1560] [cursor=pointer]
+        - generic [ref=f3e1563]:
+          - link "Help" [ref=f3e1564] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=f3e1565] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f3e1566] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f3e1567] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

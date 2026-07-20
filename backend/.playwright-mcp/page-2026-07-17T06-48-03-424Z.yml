@@ -1,0 +1,1033 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e4]:
+      - link "Stack Overflow Home" [ref=e5] [cursor=pointer]:
+        - /url: https://stackoverflow.com
+      - button "Products" [ref=e8] [cursor=pointer]
+      - search [ref=e10]:
+        - combobox "Search" [ref=e12]
+      - navigation "Topbar" [ref=e13]:
+        - list [ref=e14]:
+          - listitem [ref=e15]:
+            - link "Help Center and other resources" [ref=e16] [cursor=pointer]:
+              - /url: /help
+          - listitem [ref=e19]:
+            - link "Site switcher" [ref=e20] [cursor=pointer]:
+              - /url: https://stackexchange.com
+          - listitem
+          - listitem
+          - listitem [ref=e23]:
+            - link "Log in" [ref=e24] [cursor=pointer]:
+              - /url: https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2fquestions
+          - listitem [ref=e25]:
+            - link "Sign up" [ref=e26] [cursor=pointer]:
+              - /url: https://stackoverflow.com/users/signup?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2fquestions
+  - generic [ref=e28]:
+    - generic [ref=e29]:
+      - text: The 2026 Annual Developer Survey is live—
+      - link "take the Survey today!" [ref=e30] [cursor=pointer]:
+        - /url: https://take.survey.stackoverflow.co/jfe/form/SV_4GHunpL3IfJ3rRc?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=dev-survey-2026&utm_content=announcement-banner
+    - link "dismiss" [ref=e31] [cursor=pointer]:
+      - /url: "#"
+  - generic [ref=e34]:
+    - navigation "Primary" [ref=e37]:
+      - list [ref=e38]:
+        - listitem [ref=e39]:
+          - list [ref=e40]:
+            - listitem [ref=e41]:
+              - link "Home" [ref=e42] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e47]:
+              - link "Questions" [ref=e48] [cursor=pointer]:
+                - /url: /questions
+            - listitem [ref=e53]:
+              - link "AI Assist" [ref=e54] [cursor=pointer]:
+                - /url: https://stackoverflow.com/ai-assist
+            - listitem [ref=e60]:
+              - link "Tags" [ref=e61] [cursor=pointer]:
+                - /url: /tags
+            - listitem [ref=e67]
+            - listitem [ref=e68]:
+              - link "Stack Overflow for Agents" [ref=e69] [cursor=pointer]:
+                - /url: http://agents.stackoverflow.com
+            - listitem [ref=e75]
+            - listitem [ref=e76]:
+              - link "Challenges" [ref=e77] [cursor=pointer]:
+                - /url: /beta/challenges
+            - listitem [ref=e82]:
+              - link "Chat" [expanded] [ref=e83] [cursor=pointer]:
+                - /url: https://chat.stackoverflow.com/?tab=explore
+            - listitem [ref=e92]:
+              - link "Articles" [ref=e93] [cursor=pointer]:
+                - /url: https://stackoverflow.blog/contributed?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=so-blog&utm_content=experiment-articles
+            - listitem [ref=e99]:
+              - link "Users" [ref=e100] [cursor=pointer]:
+                - /url: /users
+            - listitem [ref=e105]
+            - listitem [ref=e106]:
+              - link "Companies" [ref=e107] [cursor=pointer]:
+                - /url: https://stackoverflow.com/jobs/companies?so_medium=stackoverflow&so_source=SiteNav
+            - listitem [ref=e112]:
+              - button "Collectives" [ref=e114] [cursor=pointer]
+            - listitem [ref=e119]:
+              - paragraph [ref=e120]:
+                - text: Communities for your favorite technologies.
+                - link "Explore all Collectives" [ref=e121] [cursor=pointer]:
+                  - /url: /collectives-all
+        - listitem [ref=e122]:
+          - generic [ref=e123]: Stack Internal
+          - generic [ref=e124]:
+            - paragraph [ref=e139]:
+              - text: Stack Overflow for Teams is now called
+              - strong [ref=e140]: Stack Internal
+              - text: . Bring the best of human thought and AI automation together at your work.
+            - link "Try for free" [ref=e141] [cursor=pointer]:
+              - /url: https://stackoverflowteams.com/teams/create/free/?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=side-bar&utm_content=explore-teams
+            - link "Learn more" [ref=e142] [cursor=pointer]:
+              - /url: https://stackoverflow.co/internal/?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=side-bar&utm_content=explore-teams
+    - generic [ref=e143]:
+      - main [ref=e144]:
+        - generic [ref=e145]:
+          - heading "Newest Questions" [level=1] [ref=e146]
+          - link "Ask Question" [ref=e148] [cursor=pointer]:
+            - /url: /questions/ask
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - generic [ref=e151]: 24,146,346 questions
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - link "Newest" [ref=e155] [cursor=pointer]:
+                  - /url: /questions?tab=Newest
+                - link "Active" [ref=e157] [cursor=pointer]:
+                  - /url: /questions?tab=Active
+                - link "Bountied 2" [ref=e159] [cursor=pointer]:
+                  - /url: /questions?tab=Bounties
+                  - generic [ref=e160]: Bountied
+                  - generic [ref=e161]: "2"
+                - link "Unanswered" [ref=e162] [cursor=pointer]:
+                  - /url: /questions?tab=Unanswered
+                - button "More" [ref=e164] [cursor=pointer]
+              - button "Filter" [ref=e167] [cursor=pointer]
+          - region "Question list filters"
+        - generic [ref=e171]:
+          - generic [ref=e173]:
+            - generic [ref=e174]:
+              - generic "Score of -1" [ref=e175]:
+                - generic [ref=e177]: "-1"
+                - generic [ref=e178]: votes
+              - generic [ref=e179]:
+                - generic [ref=e180]: 0 answers
+                - generic [ref=e181]: "0"
+                - generic [ref=e182]: answers
+              - generic [ref=e183]:
+                - generic [ref=e184]: 14 views
+                - generic [ref=e185]: "14"
+                - generic [ref=e186]: views
+            - generic [ref=e187]:
+              - heading [level=3] [ref=e188]:
+                - link "Analysis of Data Loss Issues During Concurrent Resizing in JDK 1.8 HashMap" [ref=e189] [cursor=pointer]:
+                  - /url: /questions/79981496/analysis-of-data-loss-issues-during-concurrent-resizing-in-jdk-1-8-hashmap
+              - generic [ref=e190]: Analysis of Data Loss During Concurrent Resizing in JDK 1.8 HashMap I'm not sure if my following statement is correct, and the timing of HashMap resizing is also wrong. I just want to know whether the ...
+              - generic [ref=e191]:
+                - list [ref=e193]:
+                  - listitem [ref=e194]:
+                    - link "show questions tagged 'java'" [ref=e195] [cursor=pointer]:
+                      - /url: /questions/tagged/java
+                      - text: java
+                  - listitem [ref=e196]:
+                    - link "show questions tagged 'hashmap'" [ref=e197] [cursor=pointer]:
+                      - /url: /questions/tagged/hashmap
+                      - text: hashmap
+                - generic [ref=e198]:
+                  - link [ref=e199] [cursor=pointer]:
+                    - /url: /users/32945621/linuef
+                  - generic [ref=e202]:
+                    - link "Linuef" [ref=e204] [cursor=pointer]:
+                      - /url: /users/32945621/linuef
+                    - generic [ref=e205]: "1"
+                    - generic [ref=e206]: reputation score 1
+                  - time [ref=e207]: asked 14 mins ago
+          - generic [ref=e209]:
+            - generic [ref=e210]:
+              - generic "Score of -1" [ref=e211]:
+                - generic [ref=e213]: "-1"
+                - generic [ref=e214]: votes
+              - generic [ref=e215]:
+                - generic [ref=e216]: 1 answer
+                - generic [ref=e217]: "1"
+                - generic [ref=e218]: answer
+              - generic [ref=e219]:
+                - generic [ref=e220]: 20 views
+                - generic [ref=e221]: "20"
+                - generic [ref=e222]: views
+            - generic [ref=e223]:
+              - heading [level=3] [ref=e224]:
+                - link "Hikvision GigE camera causes application to crash when UI thread is blocked by button actions" [ref=e225] [cursor=pointer]:
+                  - /url: /questions/79981490/hikvision-gige-camera-causes-application-to-crash-when-ui-thread-is-blocked-by-b
+              - generic [ref=e226]: I am using a PySide6 application with a Hikvision GigE camera. The camera runs in a background thread and continuously streams frames. When the camera is connected, the software works fine as long as ...
+              - generic [ref=e227]:
+                - list [ref=e229]:
+                  - listitem [ref=e230]:
+                    - link "show questions tagged 'object-detection'" [ref=e231] [cursor=pointer]:
+                      - /url: /questions/tagged/object-detection
+                      - text: object-detection
+                  - listitem [ref=e232]:
+                    - link "show questions tagged 'yolo'" [ref=e233] [cursor=pointer]:
+                      - /url: /questions/tagged/yolo
+                      - text: yolo
+                  - listitem [ref=e234]:
+                    - link "show questions tagged 'gigevision'" [ref=e235] [cursor=pointer]:
+                      - /url: /questions/tagged/gigevision
+                      - text: gigevision
+                - generic [ref=e236]:
+                  - link [ref=e237] [cursor=pointer]:
+                    - /url: /users/32945572/malik-shafkat
+                  - generic [ref=e240]:
+                    - link "Malik Shafkat" [ref=e242] [cursor=pointer]:
+                      - /url: /users/32945572/malik-shafkat
+                    - generic [ref=e243]: "1"
+                    - generic [ref=e244]: reputation score 1
+                  - time [ref=e245]: asked 31 mins ago
+          - generic [ref=e246]:
+            - generic [ref=e248]:
+              - iframe
+            - button "Report this ad" [ref=e250] [cursor=pointer]
+          - generic [ref=e252]:
+            - generic [ref=e253]:
+              - generic "Score of -4" [ref=e254]:
+                - generic [ref=e256]: "-4"
+                - generic [ref=e257]: votes
+              - generic [ref=e258]:
+                - generic [ref=e259]: 0 answers
+                - generic [ref=e260]: "0"
+                - generic [ref=e261]: answers
+              - generic [ref=e262]:
+                - generic [ref=e263]: 35 views
+                - generic [ref=e264]: "35"
+                - generic [ref=e265]: views
+            - generic [ref=e266]:
+              - heading [level=3] [ref=e267]:
+                - link "flying saucer vs. Playwright vs. Puppeteer" [ref=e268] [cursor=pointer]:
+                  - /url: /questions/79981487/flying-saucer-vs-playwright-vs-puppeteer
+              - generic [ref=e269]: I want to implement PDF generation. I am confused between these options. I have already used flying saucer. It is excellent and keeps in mind the print CSS part, page breaks, embedding charts and ...
+              - generic [ref=e270]:
+                - list [ref=e272]:
+                  - listitem [ref=e273]:
+                    - link "show questions tagged 'tooling-recommendation'" [ref=e274] [cursor=pointer]:
+                      - /url: /questions/tagged/tooling-recommendation
+                      - text: tooling-recommendation
+                - generic [ref=e278]:
+                  - link [ref=e279] [cursor=pointer]:
+                    - /url: /users/32731133/ashutosh
+                  - generic [ref=e282]:
+                    - link "Ashutosh" [ref=e284] [cursor=pointer]:
+                      - /url: /users/32731133/ashutosh
+                    - generic [ref=e285]: "1"
+                    - generic [ref=e286]: reputation score 1
+                  - time [ref=e287]: asked 53 mins ago
+          - generic [ref=e289]:
+            - generic [ref=e290]:
+              - generic "Score of 0" [ref=e291]:
+                - generic [ref=e293]: "0"
+                - generic [ref=e294]: votes
+              - generic [ref=e295]:
+                - generic [ref=e296]: 0 answers
+                - generic [ref=e297]: "0"
+                - generic [ref=e298]: answers
+              - generic [ref=e299]:
+                - generic [ref=e300]: 27 views
+                - generic [ref=e301]: "27"
+                - generic [ref=e302]: views
+            - generic [ref=e303]:
+              - heading [level=3] [ref=e304]:
+                - link "how to fix pydantic wheel build" [ref=e305] [cursor=pointer]:
+                  - /url: /questions/79981483/how-to-fix-pydantic-wheel-build
+              - generic [ref=e306]: "Building wheels for collected packages: pydantic-core Building wheel for pydantic-core (pyproject.toml) ... error error: subprocess-exited-with-error × Building wheel for pydantic-core (..."
+              - generic [ref=e307]:
+                - list [ref=e309]:
+                  - listitem [ref=e310]:
+                    - link "show questions tagged 'python'" [ref=e311] [cursor=pointer]:
+                      - /url: /questions/tagged/python
+                      - text: python
+                  - listitem [ref=e312]:
+                    - link "show questions tagged 'pip'" [ref=e313] [cursor=pointer]:
+                      - /url: /questions/tagged/pip
+                      - text: pip
+                  - listitem [ref=e314]:
+                    - link "show questions tagged 'pydantic'" [ref=e315] [cursor=pointer]:
+                      - /url: /questions/tagged/pydantic
+                      - text: pydantic
+                - generic [ref=e316]:
+                  - link [ref=e317] [cursor=pointer]:
+                    - /url: /users/31376896/shake
+                  - generic [ref=e320]:
+                    - link "Shake" [ref=e322] [cursor=pointer]:
+                      - /url: /users/31376896/shake
+                    - generic [ref=e323]: "1"
+                    - generic [ref=e324]: reputation score 1
+                  - time [ref=e325]: asked 1 hour ago
+          - generic [ref=e327]:
+            - generic [ref=e328]:
+              - generic "Score of 1" [ref=e329]:
+                - generic [ref=e331]: "1"
+                - generic [ref=e332]: vote
+              - generic [ref=e333]:
+                - generic [ref=e334]: 1 answer
+                - generic [ref=e335]: "1"
+                - generic [ref=e336]: answer
+              - generic [ref=e337]:
+                - generic [ref=e338]: 44 views
+                - generic [ref=e339]: "44"
+                - generic [ref=e340]: views
+            - generic [ref=e341]:
+              - heading [level=3] [ref=e342]:
+                - link "Parse and use Lichess stream data with cURL and PHP" [ref=e343] [cursor=pointer]:
+                  - /url: /questions/79981475/parse-and-use-lichess-stream-data-with-curl-and-php
+              - generic [ref=e344]: I want to stream data from Lichess to the command line. I want to parse it and use it as needed without breaking the stream. I want to do it in native PHP. $ch = curl_init("https://lichess....
+              - generic [ref=e345]:
+                - generic [ref=e346]:
+                  - link [ref=e347] [cursor=pointer]:
+                    - /url: /collectives/php
+                  - list [ref=e348]:
+                    - listitem [ref=e349]:
+                      - link "show questions tagged 'php'" [ref=e350] [cursor=pointer]:
+                        - /url: /questions/tagged/php
+                        - text: php
+                    - listitem [ref=e351]:
+                      - link "show questions tagged 'terminal'" [ref=e352] [cursor=pointer]:
+                        - /url: /questions/tagged/terminal
+                        - text: terminal
+                    - listitem [ref=e353]:
+                      - link "show questions tagged 'lichess'" [ref=e354] [cursor=pointer]:
+                        - /url: /questions/tagged/lichess
+                        - text: lichess
+                - generic [ref=e355]:
+                  - link [ref=e356] [cursor=pointer]:
+                    - /url: /users/17866323/bungee1980
+                  - generic [ref=e359]:
+                    - link "bungee1980" [ref=e361] [cursor=pointer]:
+                      - /url: /users/17866323/bungee1980
+                    - generic [ref=e362]: "121"
+                    - generic [ref=e363]: reputation score 121
+                  - time [ref=e364]: asked 2 hours ago
+          - generic [ref=e366]:
+            - generic [ref=e367]:
+              - generic "Score of -6" [ref=e368]:
+                - generic [ref=e370]: "-6"
+                - generic [ref=e371]: votes
+              - generic [ref=e372]:
+                - generic [ref=e373]: 1 answer
+                - generic [ref=e374]: "1"
+                - generic [ref=e375]: answer
+              - generic [ref=e376]:
+                - generic [ref=e377]: 91 views
+                - generic [ref=e378]: "91"
+                - generic [ref=e379]: views
+            - generic [ref=e380]:
+              - heading [level=3] [ref=e381]:
+                - link "In this code if you see this code is perfect directory also same [closed]" [ref=e382] [cursor=pointer]:
+                  - /url: /questions/79981467/in-this-code-if-you-see-this-code-is-perfect-directory-also-same
+              - generic [ref=e383]: Enter image description here In the image, I've already added file.txt in the same directory as my Python file, but the code still doesn't run. The exact same code works in the tutorial video but not ...
+              - generic [ref=e384]:
+                - list [ref=e386]:
+                  - listitem [ref=e387]:
+                    - link "show questions tagged 'python'" [ref=e388] [cursor=pointer]:
+                      - /url: /questions/tagged/python
+                      - text: python
+                - generic [ref=e389]:
+                  - link [ref=e390] [cursor=pointer]:
+                    - /url: /users/32945246/krishna-pro
+                  - generic [ref=e393]:
+                    - link "krishna pro" [ref=e395] [cursor=pointer]:
+                      - /url: /users/32945246/krishna-pro
+                    - generic [ref=e396]: "1"
+                    - generic [ref=e397]: reputation score 1
+                  - time [ref=e398]: asked 3 hours ago
+          - generic [ref=e400]:
+            - generic [ref=e401]:
+              - generic "Score of 0" [ref=e402]:
+                - generic [ref=e404]: "0"
+                - generic [ref=e405]: votes
+              - generic [ref=e406]:
+                - generic [ref=e407]: 0 answers
+                - generic [ref=e408]: "0"
+                - generic [ref=e409]: answers
+              - generic [ref=e410]:
+                - generic [ref=e411]: 35 views
+                - generic [ref=e412]: "35"
+                - generic [ref=e413]: views
+            - generic [ref=e414]:
+              - heading [level=3] [ref=e415]:
+                - link "In Perl array, Range \"-1\" used to be the last element" [ref=e416] [cursor=pointer]:
+                  - /url: /questions/79981465/in-perl-array-range-1-used-to-be-the-last-element
+              - generic [ref=e417]: For example in @A[3 .. -1], "-1" used to be the last element of a Perl array, but for version 5.22, it is not. Is this version dependent? Can someone clarify this? In the past posts, any ...
+              - generic [ref=e418]:
+                - list [ref=e420]:
+                  - listitem [ref=e421]:
+                    - link "show questions tagged 'perl'" [ref=e422] [cursor=pointer]:
+                      - /url: /questions/tagged/perl
+                      - text: perl
+                - generic [ref=e423]:
+                  - link [ref=e424] [cursor=pointer]:
+                    - /url: /users/16301120/nonoleta7
+                  - generic [ref=e427]:
+                    - link "nonoleta7" [ref=e429] [cursor=pointer]:
+                      - /url: /users/16301120/nonoleta7
+                    - generic [ref=e430]: "1"
+                    - generic [ref=e431]: reputation score 1
+                  - time [ref=e432]: asked 3 hours ago
+          - generic [ref=e434]:
+            - generic [ref=e435]:
+              - generic "Score of -2" [ref=e436]:
+                - generic [ref=e438]: "-2"
+                - generic [ref=e439]: votes
+              - generic [ref=e440]:
+                - generic [ref=e441]: 0 answers
+                - generic [ref=e442]: "0"
+                - generic [ref=e443]: answers
+              - generic [ref=e444]:
+                - generic [ref=e445]: 44 views
+                - generic [ref=e446]: "44"
+                - generic [ref=e447]: views
+            - generic [ref=e448]:
+              - heading [level=3] [ref=e449]:
+                - link "Parse return value of nodejs child process fork" [ref=e450] [cursor=pointer]:
+                  - /url: /questions/79981459/parse-return-value-of-nodejs-child-process-fork
+              - generic [ref=e451]: "The return value of my object returned a by process inside of a child process fork is spread in weird JSON as follows {\"0\": \"{\", \"1\", \"f\", \"2\": \"..."
+              - generic [ref=e452]:
+                - list [ref=e454]:
+                  - listitem [ref=e455]:
+                    - link "show questions tagged 'node.js'" [ref=e456] [cursor=pointer]:
+                      - /url: /questions/tagged/node.js
+                      - text: node.js
+                  - listitem [ref=e457]:
+                    - link "show questions tagged 'json'" [ref=e458] [cursor=pointer]:
+                      - /url: /questions/tagged/json
+                      - text: json
+                  - listitem [ref=e459]:
+                    - link "show questions tagged 'return'" [ref=e460] [cursor=pointer]:
+                      - /url: /questions/tagged/return
+                      - text: return
+                  - listitem [ref=e461]:
+                    - link "show questions tagged 'fork'" [ref=e462] [cursor=pointer]:
+                      - /url: /questions/tagged/fork
+                      - text: fork
+                  - listitem [ref=e463]:
+                    - link "show questions tagged 'child-process'" [ref=e464] [cursor=pointer]:
+                      - /url: /questions/tagged/child-process
+                      - text: child-process
+                - generic [ref=e465]:
+                  - link [ref=e466] [cursor=pointer]:
+                    - /url: /users/8722694/noah-bergh
+                  - generic [ref=e469]:
+                    - link "Noah Bergh" [ref=e471] [cursor=pointer]:
+                      - /url: /users/8722694/noah-bergh
+                    - generic [ref=e472]: "511"
+                    - generic [ref=e473]: reputation score 511
+                  - time [ref=e474]: asked 3 hours ago
+          - generic [ref=e476]:
+            - generic [ref=e477]:
+              - generic "Score of -1" [ref=e478]:
+                - generic [ref=e480]: "-1"
+                - generic [ref=e481]: votes
+              - generic [ref=e482]:
+                - generic [ref=e483]: 0 answers
+                - generic [ref=e484]: "0"
+                - generic [ref=e485]: answers
+              - generic [ref=e486]:
+                - generic [ref=e487]: 44 views
+                - generic [ref=e488]: "44"
+                - generic [ref=e489]: views
+            - generic [ref=e490]:
+              - heading [level=3] [ref=e491]:
+                - link "Does express middleware app.use(path, cb) ignore the rest part of the URL path and execute cb" [ref=e492] [cursor=pointer]:
+                  - /url: /questions/79981455/does-express-middleware-app-usepath-cb-ignore-the-rest-part-of-the-url-path-a
+              - generic [ref=e493]: "Express middleware: app.use(\"/api/food\", cb); where cb(\"/get\", cb) Targeted path end point: /api/food/get Does Express match only the /api/food prefix, ignore the remaining part of ..."
+              - generic [ref=e494]:
+                - list [ref=e496]:
+                  - listitem [ref=e497]:
+                    - link "show questions tagged 'express'" [ref=e498] [cursor=pointer]:
+                      - /url: /questions/tagged/express
+                      - text: express
+                  - listitem [ref=e499]:
+                    - link "show questions tagged 'routes'" [ref=e500] [cursor=pointer]:
+                      - /url: /questions/tagged/routes
+                      - text: routes
+                - generic [ref=e501]:
+                  - link [ref=e502] [cursor=pointer]:
+                    - /url: /users/32864114/muhammad-falak-sher
+                  - generic [ref=e505]:
+                    - link "Muhammad Falak Sher" [ref=e507] [cursor=pointer]:
+                      - /url: /users/32864114/muhammad-falak-sher
+                    - generic [ref=e508]: "31"
+                    - generic [ref=e509]: reputation score 31
+                  - time [ref=e510]: asked 4 hours ago
+          - generic [ref=e512]:
+            - generic [ref=e513]:
+              - generic "Score of 0" [ref=e514]:
+                - generic [ref=e516]: "0"
+                - generic [ref=e517]: votes
+              - generic [ref=e518]:
+                - generic [ref=e519]: 0 answers
+                - generic [ref=e520]: "0"
+                - generic [ref=e521]: answers
+              - generic [ref=e522]:
+                - generic [ref=e523]: 28 views
+                - generic [ref=e524]: "28"
+                - generic [ref=e525]: views
+            - generic [ref=e526]:
+              - heading [level=3] [ref=e527]:
+                - link "OceanBase 4.3.3 throws transaction timeout during MyBatis batch inserts on tables with VSAG vector index" [ref=e528] [cursor=pointer]:
+                  - /url: /questions/79981449/oceanbase-4-3-3-throws-transaction-timeout-during-mybatis-batch-inserts-on-table
+              - generic [ref=e529]: We are migrating our vector ingestion pipeline to OceanBase 4.3.3 (MySQL compatibility mode). Our Spring Boot service batch-inserts text chunks along with their 1536-dimensional embedding vectors ...
+              - generic [ref=e530]:
+                - list [ref=e532]:
+                  - listitem [ref=e533]:
+                    - link "show questions tagged 'mybatis'" [ref=e534] [cursor=pointer]:
+                      - /url: /questions/tagged/mybatis
+                      - text: mybatis
+                  - listitem [ref=e535]:
+                    - link "show questions tagged 'database-performance'" [ref=e536] [cursor=pointer]:
+                      - /url: /questions/tagged/database-performance
+                      - text: database-performance
+                  - listitem [ref=e537]:
+                    - link "show questions tagged 'vector-database'" [ref=e538] [cursor=pointer]:
+                      - /url: /questions/tagged/vector-database
+                      - text: vector-database
+                  - listitem [ref=e539]:
+                    - link "show questions tagged 'oceanbase'" [ref=e540] [cursor=pointer]:
+                      - /url: /questions/tagged/oceanbase
+                      - text: oceanbase
+                - generic [ref=e541]:
+                  - link [ref=e542] [cursor=pointer]:
+                    - /url: /users/32769660/cui-xiao
+                  - generic [ref=e545]:
+                    - link "cui xiao" [ref=e547] [cursor=pointer]:
+                      - /url: /users/32769660/cui-xiao
+                    - generic [ref=e548]: "11"
+                    - generic [ref=e549]: reputation score 11
+                  - time [ref=e550]: asked 5 hours ago
+          - generic [ref=e552]:
+            - generic [ref=e553]:
+              - generic "Score of 0" [ref=e554]:
+                - generic [ref=e556]: "0"
+                - generic [ref=e557]: votes
+              - generic [ref=e558]:
+                - generic [ref=e559]: 1 answer
+                - generic [ref=e560]: "1"
+                - generic [ref=e561]: answer
+              - generic [ref=e562]:
+                - generic [ref=e563]: 26 views
+                - generic [ref=e564]: "26"
+                - generic [ref=e565]: views
+            - generic [ref=e566]:
+              - heading [level=3] [ref=e567]:
+                - link "How should DRF validate polymorphic per-provider JSON payloads before delegating to a service layer?" [ref=e568] [cursor=pointer]:
+                  - /url: /questions/79981448/how-should-drf-validate-polymorphic-per-provider-json-payloads-before-delegating
+              - generic [ref=e569]: I'm refactoring a Django/DRF system that ingests skip-trace data from multiple external bureaus (Experian, Equifax, IDI, TLO). Each provider returns a completely different JSON structure. We store the ...
+              - generic [ref=e570]:
+                - list [ref=e572]:
+                  - listitem [ref=e573]:
+                    - link "show questions tagged 'json'" [ref=e574] [cursor=pointer]:
+                      - /url: /questions/tagged/json
+                      - text: json
+                  - listitem [ref=e575]:
+                    - link "show questions tagged 'django'" [ref=e576] [cursor=pointer]:
+                      - /url: /questions/tagged/django
+                      - text: django
+                  - listitem [ref=e577]:
+                    - link "show questions tagged 'serialization'" [ref=e578] [cursor=pointer]:
+                      - /url: /questions/tagged/serialization
+                      - text: serialization
+                  - listitem [ref=e579]:
+                    - link "show questions tagged 'design-patterns'" [ref=e580] [cursor=pointer]:
+                      - /url: /questions/tagged/design-patterns
+                      - text: design-patterns
+                  - listitem [ref=e581]:
+                    - link "show questions tagged 'django-rest-framework'" [ref=e582] [cursor=pointer]:
+                      - /url: /questions/tagged/django-rest-framework
+                      - text: django-rest-framework
+                - generic [ref=e583]:
+                  - link [ref=e584] [cursor=pointer]:
+                    - /url: /users/7645936/paul-054m41
+                  - generic [ref=e587]:
+                    - link "Paul 054m41" [ref=e589] [cursor=pointer]:
+                      - /url: /users/7645936/paul-054m41
+                    - generic [ref=e590]: "9"
+                    - generic [ref=e591]: reputation score 9
+                  - time [ref=e592]: asked 5 hours ago
+          - generic [ref=e594]:
+            - generic [ref=e595]:
+              - generic "Score of 0" [ref=e596]:
+                - generic [ref=e598]: "0"
+                - generic [ref=e599]: votes
+              - generic [ref=e600]:
+                - generic [ref=e601]: 0 answers
+                - generic [ref=e602]: "0"
+                - generic [ref=e603]: answers
+              - generic [ref=e604]:
+                - generic [ref=e605]: 44 views
+                - generic [ref=e606]: "44"
+                - generic [ref=e607]: views
+            - generic [ref=e608]:
+              - heading [level=3] [ref=e609]:
+                - link "How to Prevent a User from Being in Two Security Groups [closed]" [ref=e610] [cursor=pointer]:
+                  - /url: /questions/79981441/how-to-prevent-a-user-from-being-in-two-security-groups
+              - generic [ref=e611]: Is there a way in Microsoft Entra ID to prevent a user from being added to Group A if they are already a member of Group B, so the user cannot belong to both groups at the same time? I want the add ...
+              - generic [ref=e612]:
+                - generic [ref=e613]:
+                  - link [ref=e614] [cursor=pointer]:
+                    - /url: /collectives/azure
+                  - list [ref=e615]:
+                    - listitem [ref=e616]:
+                      - link "show questions tagged 'microsoft-entra-id'" [ref=e617] [cursor=pointer]:
+                        - /url: /questions/tagged/microsoft-entra-id
+                        - text: microsoft-entra-id
+                - generic [ref=e618]:
+                  - link [ref=e619] [cursor=pointer]:
+                    - /url: /users/24020461/learnit
+                  - generic [ref=e622]:
+                    - link "LearnIt" [ref=e624] [cursor=pointer]:
+                      - /url: /users/24020461/learnit
+                    - generic [ref=e625]: "7"
+                    - generic [ref=e626]: reputation score 7
+                  - time [ref=e627]: asked 6 hours ago
+          - generic [ref=e629]:
+            - generic [ref=e630]:
+              - generic "Score of 0" [ref=e631]:
+                - generic [ref=e633]: "0"
+                - generic [ref=e634]: votes
+              - generic "one of the answers was accepted as the correct answer" [ref=e635]:
+                - generic [ref=e636]: 1 answer
+                - generic [ref=e640]: "1"
+                - generic [ref=e641]: answer
+              - generic [ref=e642]:
+                - generic [ref=e643]: 53 views
+                - generic [ref=e644]: "53"
+                - generic [ref=e645]: views
+            - generic [ref=e646]:
+              - heading [level=3] [ref=e647]:
+                - link "curl_close() deprecation in procedural PHP" [ref=e648] [cursor=pointer]:
+                  - /url: /questions/79981435/curl-close-deprecation-in-procedural-php
+              - generic [ref=e649]: All of my old scripts are written procedural and in writing a new one I've learned that curl_close() is deprecated and that a curl object is closed automatically. But do I have to rewrite all that ...
+              - generic [ref=e650]:
+                - generic [ref=e651]:
+                  - link [ref=e652] [cursor=pointer]:
+                    - /url: /collectives/php
+                  - list [ref=e653]:
+                    - listitem [ref=e654]:
+                      - link "show questions tagged 'best-practices'" [ref=e655] [cursor=pointer]:
+                        - /url: /questions/tagged/best-practices
+                        - text: best-practices
+                    - listitem [ref=e659]:
+                      - link "show questions tagged 'php'" [ref=e660] [cursor=pointer]:
+                        - /url: /questions/tagged/php
+                        - text: php
+                    - listitem [ref=e661]:
+                      - link "show questions tagged 'oop'" [ref=e662] [cursor=pointer]:
+                        - /url: /questions/tagged/oop
+                        - text: oop
+                    - listitem [ref=e663]:
+                      - link "show questions tagged 'curl'" [ref=e664] [cursor=pointer]:
+                        - /url: /questions/tagged/curl
+                        - text: curl
+                - generic [ref=e665]:
+                  - link [ref=e666] [cursor=pointer]:
+                    - /url: /users/17866323/bungee1980
+                  - generic [ref=e669]:
+                    - link "bungee1980" [ref=e671] [cursor=pointer]:
+                      - /url: /users/17866323/bungee1980
+                    - generic [ref=e672]: "121"
+                    - generic [ref=e673]: reputation score 121
+                  - time [ref=e674]: asked 7 hours ago
+          - generic [ref=e676]:
+            - generic [ref=e677]:
+              - generic "Score of 1" [ref=e678]:
+                - generic [ref=e680]: "1"
+                - generic [ref=e681]: vote
+              - generic [ref=e682]:
+                - generic [ref=e683]: 1 answer
+                - generic [ref=e684]: "1"
+                - generic [ref=e685]: answer
+              - generic [ref=e686]:
+                - generic [ref=e687]: 88 views
+                - generic [ref=e688]: "88"
+                - generic [ref=e689]: views
+            - generic [ref=e690]:
+              - heading [level=3] [ref=e691]:
+                - link "How to work around Linux's lack of mandatory file locking?" [ref=e692] [cursor=pointer]:
+                  - /url: /questions/79981432/how-to-work-around-linuxs-lack-of-mandatory-file-locking
+              - generic [ref=e693]: In Windows, the CreateFile function has a sharing mode, which you can use to prevent other processes from opening files or writing to files you are currently operating on. The same mechanism was ...
+              - generic [ref=e694]:
+                - list [ref=e696]:
+                  - listitem [ref=e697]:
+                    - link "show questions tagged 'best-practices'" [ref=e698] [cursor=pointer]:
+                      - /url: /questions/tagged/best-practices
+                      - text: best-practices
+                  - listitem [ref=e702]:
+                    - link "show questions tagged 'c'" [ref=e703] [cursor=pointer]:
+                      - /url: /questions/tagged/c
+                      - text: c
+                  - listitem [ref=e704]:
+                    - link "show questions tagged 'linux'" [ref=e705] [cursor=pointer]:
+                      - /url: /questions/tagged/linux
+                      - text: linux
+                  - listitem [ref=e706]:
+                    - link "show questions tagged 'posix'" [ref=e707] [cursor=pointer]:
+                      - /url: /questions/tagged/posix
+                      - text: posix
+                  - listitem [ref=e708]:
+                    - link "show questions tagged 'file-locking'" [ref=e709] [cursor=pointer]:
+                      - /url: /questions/tagged/file-locking
+                      - text: file-locking
+                - generic [ref=e710]:
+                  - link [ref=e711] [cursor=pointer]:
+                    - /url: /users/10505778/darkatom
+                  - generic [ref=e714]:
+                    - link "DarkAtom" [ref=e716] [cursor=pointer]:
+                      - /url: /users/10505778/darkatom
+                    - generic [ref=e717]: 3,259
+                    - generic [ref=e718]: reputation score 3259
+                  - time [ref=e719]: asked 7 hours ago
+          - generic [ref=e721]:
+            - generic [ref=e722]:
+              - generic "Score of 1" [ref=e723]:
+                - generic [ref=e725]: "1"
+                - generic [ref=e726]: vote
+              - generic [ref=e727]:
+                - generic [ref=e728]: 1 answer
+                - generic [ref=e729]: "1"
+                - generic [ref=e730]: answer
+              - generic [ref=e731]:
+                - generic [ref=e732]: 64 views
+                - generic [ref=e733]: "64"
+                - generic [ref=e734]: views
+            - generic [ref=e735]:
+              - heading [level=3] [ref=e736]:
+                - 'link "Why does `QueryServiceConfig2` return a \"The parameter is incorrect\" error when requesting a service''s preferred node?" [ref=e737] [cursor=pointer]':
+                  - /url: /questions/79981424/why-does-queryserviceconfig2-return-a-the-parameter-is-incorrect-error-when
+              - generic [ref=e738]: I'm writing C#/PowerShell code to get all a service's configuration with QueryServiceConfig2 using P/Invoke. I'm able to get all configuration information except preferred node (...
+              - generic [ref=e739]:
+                - list [ref=e741]:
+                  - listitem [ref=e742]:
+                    - link "show questions tagged 'c#'" [ref=e743] [cursor=pointer]:
+                      - /url: /questions/tagged/c%23
+                      - text: c#
+                  - listitem [ref=e744]:
+                    - link "show questions tagged 'powershell'" [ref=e745] [cursor=pointer]:
+                      - /url: /questions/tagged/powershell
+                      - text: powershell
+                  - listitem [ref=e746]:
+                    - link "show questions tagged 'winapi'" [ref=e747] [cursor=pointer]:
+                      - /url: /questions/tagged/winapi
+                      - text: winapi
+                  - listitem [ref=e748]:
+                    - link "show questions tagged 'windows-services'" [ref=e749] [cursor=pointer]:
+                      - /url: /questions/tagged/windows-services
+                      - text: windows-services
+                  - listitem [ref=e750]:
+                    - link "show questions tagged 'pinvoke'" [ref=e751] [cursor=pointer]:
+                      - /url: /questions/tagged/pinvoke
+                      - text: pinvoke
+                - generic [ref=e752]:
+                  - link [ref=e753] [cursor=pointer]:
+                    - /url: /users/125356/aaron-jensen
+                  - generic [ref=e756]:
+                    - link "Aaron Jensen" [ref=e758] [cursor=pointer]:
+                      - /url: /users/125356/aaron-jensen
+                    - generic [ref=e759]: 27.3k
+                    - generic [ref=e760]: reputation score 27313
+                  - time [ref=e761]: asked 8 hours ago
+        - generic [ref=e762]:
+          - link "15" [ref=e763] [cursor=pointer]:
+            - /url: /questions?tab=newest&pagesize=15
+          - link "30" [ref=e764] [cursor=pointer]:
+            - /url: /questions?tab=newest&pagesize=30
+          - link "50" [ref=e765] [cursor=pointer]:
+            - /url: /questions?tab=newest&pagesize=50
+          - generic [ref=e766]: per page
+        - generic [ref=e767]:
+          - generic [ref=e768]: "1"
+          - link "Go to page 2" [ref=e769] [cursor=pointer]:
+            - /url: /questions?tab=newest&page=2
+            - text: "2"
+          - link "Go to page 3" [ref=e770] [cursor=pointer]:
+            - /url: /questions?tab=newest&page=3
+            - text: "3"
+          - link "Go to page 4" [ref=e771] [cursor=pointer]:
+            - /url: /questions?tab=newest&page=4
+            - text: "4"
+          - link "Go to page 5" [ref=e772] [cursor=pointer]:
+            - /url: /questions?tab=newest&page=5
+            - text: "5"
+          - generic [ref=e773]: …
+          - link "Go to page 1609757" [ref=e774] [cursor=pointer]:
+            - /url: /questions?tab=newest&page=1609757
+            - text: "1609757"
+          - link "Go to next page" [ref=e775] [cursor=pointer]:
+            - /url: /questions?tab=newest&page=2
+            - text: Next
+      - complementary "sidebar" [ref=e776]:
+        - complementary "Stack Overflow for Agents" [ref=e777]:
+          - generic [ref=e778]:
+            - heading "Try Stack Overflow for Agents" [level=2] [ref=e779]
+            - text: Verified knowledge for the agentic era
+            - paragraph [ref=e780]: "Paste this into your AI coding assistant:"
+            - generic [ref=e781]:
+              - generic [ref=e782]: Help me join Stack Overflow for Agents here. Read https://agents.stackoverflow.com/skill.md, then start onboarding.
+              - button "Copy onboarding snippet" [ref=e783]
+            - paragraph [ref=e787]: Supports Claude Code, Cursor, Codex, Windsurf and more.
+            - link "Explore Stack Overflow for Agents" [ref=e788] [cursor=pointer]:
+              - /url: https://agents.stackoverflow.com
+        - list [ref=e790]:
+          - listitem [ref=e791]: The Overflow Blog
+          - listitem [ref=e792]:
+            - link "Your AI is only as responsible as you..." [ref=e798] [cursor=pointer]:
+              - /url: https://stackoverflow.blog/2026/07/14/your-ai-is-only-as-responsible-as-you-are/?cb=1
+          - listitem [ref=e799]:
+            - link "Developers who move fast still need to do it..." [ref=e805] [cursor=pointer]:
+              - /url: https://stackoverflow.blog/2026/07/17/devs-who-move-fast-still-need-to-do-it-together/?cb=1
+          - listitem [ref=e806]: Featured on Meta
+          - listitem [ref=e807]:
+            - generic "Meta Stack Exchange" [ref=e809]
+            - link "Partnering with Communities to Modernize Policies & Norms" [ref=e811] [cursor=pointer]:
+              - /url: https://meta.stackexchange.com/questions/418826/partnering-with-communities-to-modernize-policies-norms?cb=1
+          - listitem [ref=e812]:
+            - generic "Meta Stack Overflow" [ref=e814]
+            - 'link "Policy: Generative AI (e.g., ChatGPT) is banned" [ref=e816] [cursor=pointer]':
+              - /url: https://meta.stackoverflow.com/questions/421831/policy-generative-ai-e-g-chatgpt-is-banned?cb=1
+          - listitem [ref=e817]:
+            - generic "Meta Stack Overflow" [ref=e819]
+            - link "Looking ahead, starting conversations, and seizing the moment" [ref=e821] [cursor=pointer]:
+              - /url: https://meta.stackoverflow.com/questions/440089/looking-ahead-starting-conversations-and-seizing-the-moment?cb=1
+          - listitem [ref=e822]:
+            - generic "Meta Stack Overflow" [ref=e824]
+            - link "Next steps for open-ended questions" [ref=e826] [cursor=pointer]:
+              - /url: https://meta.stackoverflow.com/questions/440088/next-steps-for-open-ended-questions?cb=1
+          - listitem [ref=e827]:
+            - generic "Meta Stack Overflow" [ref=e829]
+            - link "The 2026 Developer Survey is Live" [ref=e831] [cursor=pointer]:
+              - /url: https://meta.stackoverflow.com/questions/439978/the-2026-developer-survey-is-live?cb=1
+        - generic [ref=e832]:
+          - generic [ref=e833]:
+            - text: Collectives
+            - link "see all" [ref=e834] [cursor=pointer]:
+              - /url: /collectives-all
+          - generic [ref=e835]:
+            - generic [ref=e837]:
+              - generic [ref=e840]:
+                - heading [level=1] [ref=e841]:
+                  - link "AWS" [ref=e842] [cursor=pointer]:
+                    - /url: /collectives/aws
+                - generic [ref=e843]: 39k Members
+              - button "Join collective" [ref=e846] [cursor=pointer]: Join
+            - generic [ref=e847]: A collective for developers who utilize Amazon Web Services' infrastructure and platform capabilities. The AWS Collective is organized and managed by the Stack Overflow community as a resource for developers.
+          - generic [ref=e848]:
+            - generic [ref=e850]:
+              - generic [ref=e853]:
+                - heading [level=1] [ref=e854]:
+                  - link "Mobile Development" [ref=e855] [cursor=pointer]:
+                    - /url: /collectives/mobile-dev
+                - generic [ref=e856]: 30k Members
+              - button "Join collective" [ref=e859] [cursor=pointer]: Join
+            - generic [ref=e860]: A collective for developers who want to share their knowledge and learn more about mobile development practices and platforms
+          - generic [ref=e861]:
+            - generic [ref=e863]:
+              - generic [ref=e866]:
+                - heading [level=1] [ref=e867]:
+                  - link "PHP" [ref=e868] [cursor=pointer]:
+                    - /url: /collectives/php
+                - generic [ref=e869]: 18k Members
+              - button "Join collective" [ref=e872] [cursor=pointer]: Join
+            - generic [ref=e873]: A collective where developers working with PHP can learn and connect about the open source scripting language.
+        - generic [ref=e875]:
+          - heading [level=4] [ref=e876]:
+            - link "Hot Network Questions" [ref=e877] [cursor=pointer]:
+              - /url: https://stackexchange.com/questions?tab=hot
+          - list [ref=e878]:
+            - listitem [ref=e879]:
+              - generic "Home Improvement Stack Exchange" [ref=e880]
+              - link "Feeding the 120V electrical for split AC from one of central AC 240V lines?" [ref=e881] [cursor=pointer]:
+                - /url: https://diy.stackexchange.com/questions/331354/feeding-the-120v-electrical-for-split-ac-from-one-of-central-ac-240v-lines
+            - listitem [ref=e882]:
+              - generic "Mathematics Stack Exchange" [ref=e883]
+              - 'link "“Diagonable” vs. “Diagonalizable”: which term is standard, and why?" [ref=e884] [cursor=pointer]':
+                - /url: https://math.stackexchange.com/questions/5143825/diagonable-vs-diagonalizable-which-term-is-standard-and-why
+            - listitem [ref=e885]:
+              - generic "Cross Validated" [ref=e886]
+              - link "Do tied ranks reduce the reliability of Spearmans?" [ref=e887] [cursor=pointer]:
+                - /url: https://stats.stackexchange.com/questions/676567/do-tied-ranks-reduce-the-reliability-of-spearmans
+            - listitem [ref=e888]:
+              - 'generic "Music: Practice & Theory Stack Exchange" [ref=e889]'
+              - link "Glissando from the last note in measure ending before the bar line" [ref=e890] [cursor=pointer]:
+                - /url: https://music.stackexchange.com/questions/143998/glissando-from-the-last-note-in-measure-ending-before-the-bar-line
+            - listitem [ref=e891]:
+              - generic "Mi Yodeya" [ref=e892]
+              - link "Spiritual reason for headaches" [ref=e893] [cursor=pointer]:
+                - /url: https://judaism.stackexchange.com/questions/156587/spiritual-reason-for-headaches
+            - listitem [ref=e894]:
+              - generic "Astronomy Stack Exchange" [ref=e895]
+              - link "Are younger stars more metal rich?" [ref=e896] [cursor=pointer]:
+                - /url: https://astronomy.stackexchange.com/questions/62470/are-younger-stars-more-metal-rich
+            - listitem [ref=e897]:
+              - 'generic "Music: Practice & Theory Stack Exchange" [ref=e898]'
+              - link "What does \"sempre molto pedale\" mean?" [ref=e899] [cursor=pointer]:
+                - /url: https://music.stackexchange.com/questions/143993/what-does-sempre-molto-pedale-mean
+            - listitem [ref=e900]:
+              - generic "Motor Vehicle Maintenance & Repair Stack Exchange" [ref=e901]
+              - link "speedometer/odometer replacement" [ref=e902] [cursor=pointer]:
+                - /url: https://mechanics.stackexchange.com/questions/102306/speedometer-odometer-replacement
+            - listitem [ref=e903]:
+              - generic "Worldbuilding Stack Exchange" [ref=e904]
+              - link "Creating the perfect pathogen to bring about the near-extinction of humanity" [ref=e905] [cursor=pointer]:
+                - /url: https://worldbuilding.stackexchange.com/questions/274029/creating-the-perfect-pathogen-to-bring-about-the-near-extinction-of-humanity
+            - listitem [ref=e906]:
+              - generic "German Language Stack Exchange" [ref=e907]
+              - link "How does one say colloquially \"the paper says\"?" [ref=e908] [cursor=pointer]:
+                - /url: https://german.stackexchange.com/questions/82337/how-does-one-say-colloquially-the-paper-says
+            - listitem [ref=e909]:
+              - generic "MathOverflow" [ref=e910]
+              - link "Settings where we can construct Morse homology" [ref=e911] [cursor=pointer]:
+                - /url: https://mathoverflow.net/questions/513273/settings-where-we-can-construct-morse-homology
+            - listitem [ref=e912]:
+              - generic "Philosophy Stack Exchange" [ref=e913]
+              - link "Is “epistemic humility” a coherent virtue, or does it smuggle in a substantive epistemic claim while posing as neutrality?" [ref=e914] [cursor=pointer]:
+                - /url: https://philosophy.stackexchange.com/questions/139791/is-epistemic-humility-a-coherent-virtue-or-does-it-smuggle-in-a-substantive-e
+            - listitem [ref=e915]:
+              - generic "Travel Stack Exchange" [ref=e916]
+              - link "Large item storage at Hamburg airport" [ref=e917] [cursor=pointer]:
+                - /url: https://travel.stackexchange.com/questions/204063/large-item-storage-at-hamburg-airport
+            - listitem [ref=e918]:
+              - generic "Super User" [ref=e919]
+              - link "Why is grep ignoring colors?" [ref=e920] [cursor=pointer]:
+                - /url: https://superuser.com/questions/1939072/why-is-grep-ignoring-colors
+          - link "more hot questions" [ref=e921] [cursor=pointer]:
+            - /url: "#"
+  - contentinfo [ref=e922]:
+    - generic [ref=e923]:
+      - link "Stack Overflow" [ref=e925] [cursor=pointer]:
+        - /url: https://stackoverflow.com
+      - navigation "Footer" [ref=e928]:
+        - generic [ref=e929]:
+          - heading [level=5] [ref=e930]:
+            - link "Stack Overflow" [ref=e931] [cursor=pointer]:
+              - /url: https://stackoverflow.com
+          - list [ref=e932]:
+            - listitem [ref=e933]:
+              - link "Questions" [ref=e934] [cursor=pointer]:
+                - /url: /questions
+            - listitem [ref=e935]:
+              - link "Help" [ref=e936] [cursor=pointer]:
+                - /url: /help
+            - listitem [ref=e937]:
+              - link "Chat" [ref=e938] [cursor=pointer]:
+                - /url: https://chat.stackoverflow.com/?tab=explore
+        - generic [ref=e939]:
+          - heading [level=5] [ref=e940]:
+            - link "Business" [ref=e941] [cursor=pointer]:
+              - /url: https://stackoverflow.co/
+          - list [ref=e942]:
+            - listitem [ref=e943]:
+              - link "Stack Internal" [ref=e944] [cursor=pointer]:
+                - /url: https://stackoverflow.co/internal/?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=footer&utm_content=teams
+            - listitem [ref=e945]:
+              - link "Stack Data Licensing" [ref=e946] [cursor=pointer]:
+                - /url: https://stackoverflow.co/data-licensing/?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=footer&utm_content=data-licensing
+            - listitem [ref=e947]:
+              - link "Stack Ads" [ref=e948] [cursor=pointer]:
+                - /url: https://stackoverflow.co/advertising/?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=footer&utm_content=advertising
+        - generic [ref=e949]:
+          - heading [level=5] [ref=e950]:
+            - link "Company" [ref=e951] [cursor=pointer]:
+              - /url: https://stackoverflow.co/
+          - list [ref=e952]:
+            - listitem [ref=e953]:
+              - link "About" [ref=e954] [cursor=pointer]:
+                - /url: https://stackoverflow.co/
+            - listitem [ref=e955]:
+              - link "Press" [ref=e956] [cursor=pointer]:
+                - /url: https://stackoverflow.co/company/press/
+            - listitem [ref=e957]:
+              - link "Work Here" [ref=e958] [cursor=pointer]:
+                - /url: https://stackoverflow.co/company/work-here/
+            - listitem [ref=e959]:
+              - link "Legal" [ref=e960] [cursor=pointer]:
+                - /url: https://stackoverflow.com/legal
+            - listitem [ref=e961]:
+              - link "Privacy Policy" [ref=e962] [cursor=pointer]:
+                - /url: https://stackoverflow.com/legal/privacy-policy
+            - listitem [ref=e963]:
+              - link "Terms of Service" [ref=e964] [cursor=pointer]:
+                - /url: https://stackoverflow.com/legal/terms-of-service/public
+            - listitem [ref=e965]:
+              - link "Contact Us" [ref=e966] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e967]:
+              - button "Cookie Settings" [ref=e968] [cursor=pointer]
+            - listitem [ref=e969]:
+              - link "Cookie Policy" [ref=e970] [cursor=pointer]:
+                - /url: https://policies.stackoverflow.co/stack-overflow/cookie-policy
+        - generic [ref=e972]:
+          - heading [level=5] [ref=e973]:
+            - link "Stack Exchange Network" [ref=e974] [cursor=pointer]:
+              - /url: https://stackexchange.com
+          - list [ref=e975]:
+            - listitem [ref=e976]:
+              - link "Technology" [ref=e977] [cursor=pointer]:
+                - /url: https://stackexchange.com/sites#technology
+            - listitem [ref=e978]:
+              - link "Culture & recreation" [ref=e979] [cursor=pointer]:
+                - /url: https://stackexchange.com/sites#culturerecreation
+            - listitem [ref=e980]:
+              - link "Life & arts" [ref=e981] [cursor=pointer]:
+                - /url: https://stackexchange.com/sites#lifearts
+            - listitem [ref=e982]:
+              - link "Science" [ref=e983] [cursor=pointer]:
+                - /url: https://stackexchange.com/sites#science
+            - listitem [ref=e984]:
+              - link "Professional" [ref=e985] [cursor=pointer]:
+                - /url: https://stackexchange.com/sites#professional
+            - listitem [ref=e986]:
+              - link "Business" [ref=e987] [cursor=pointer]:
+                - /url: https://stackexchange.com/sites#business
+            - listitem [ref=e988]:
+              - link "API" [ref=e989] [cursor=pointer]:
+                - /url: https://api.stackexchange.com/
+            - listitem [ref=e990]:
+              - link "Data" [ref=e991] [cursor=pointer]:
+                - /url: https://data.stackexchange.com/
+      - generic [ref=e992]:
+        - list [ref=e993]:
+          - listitem [ref=e994]:
+            - link "Blog" [ref=e995] [cursor=pointer]:
+              - /url: https://stackoverflow.blog?blb=1
+          - listitem [ref=e996]:
+            - link "Facebook" [ref=e997] [cursor=pointer]:
+              - /url: https://www.facebook.com/officialstackoverflow/
+          - listitem [ref=e998]:
+            - link "Twitter" [ref=e999] [cursor=pointer]:
+              - /url: https://twitter.com/stackoverflow
+          - listitem [ref=e1000]:
+            - link "LinkedIn" [ref=e1001] [cursor=pointer]:
+              - /url: https://linkedin.com/company/stack-overflow
+          - listitem [ref=e1002]:
+            - link "Instagram" [ref=e1003] [cursor=pointer]:
+              - /url: https://www.instagram.com/thestackoverflow
+        - paragraph [ref=e1004]:
+          - text: Site design / logo © 2026 Stack Exchange Inc; user contributions licensed under
+          - link "CC BY-SA" [ref=e1005] [cursor=pointer]:
+            - /url: https://stackoverflow.com/help/licensing
+          - text: . rev 2026.7.15.44335
+  - dialog "Privacy" [ref=e1007]:
+    - generic [ref=e1008]:
+      - generic [ref=e1010]:
+        - text: By continuing to use this website, you agree Stack Exchange can store cookies on your device and disclose information in accordance with our
+        - link "Cookie Policy" [ref=e1011] [cursor=pointer]:
+          - /url: https://policies.stackoverflow.co/stack-overflow/cookie-policy/
+        - text: . By exiting this window, default cookies will be accepted. To reject cookies, select an option from below.
+      - generic [ref=e1013]:
+        - button "Necessary cookies only" [ref=e1015] [cursor=pointer]
+        - button "Customize settings, Opens the preference center dialog" [ref=e1016] [cursor=pointer]: Customize settings
+      - button "Close" [ref=e1018] [cursor=pointer]

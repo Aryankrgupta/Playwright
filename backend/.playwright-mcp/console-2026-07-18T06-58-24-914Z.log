@@ -1,0 +1,463 @@
+[    2260ms] [INFO] Helios: confiant disable  @ :5
+[    2260ms] [INFO] Helios: helios disable  @ :5
+[    2385ms] [ERROR] %cAY background: linear-gradient(-152deg,#6937ea,#377fea 65%);border-radius: 3px;color: white;padding: 1px 5px Missing required modules: prebidServerBidAdapter, s2sTesting @ :5
+[    2629ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rQ (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:105197)
+    at rZ (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:106565)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:200572
+    at sm (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:205739)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196989)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:191814
+    at se (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:191915)
+    at sW (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:218479)
+    at MessagePort.O (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:66637)
+[    2931ms] [WARNING] [GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.
+https://goo.gle/gpt-message#170 @ :5
+[    2932ms] [INFO] Helios: Process special slot  WX_Hidden @ :5
+[    2933ms] [INFO] Helios: Process special slot  MW_Interstitial @ :5
+[    2938ms] [WARNING] [GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171 @ :5
+[    3291ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.weather.com/v3/alerts/headlines?format=json&language=en-IN&apiKey=71f92ea9dd2f4790b92ea9dd2f779061&geocode=28.614%2C77.209:0
+[    3303ms] [ERROR] p: MISSING_MESSAGE: HealthAndActivities.healthAndActivities (en-IN)
+    at c (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8277)
+    at m (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8464)
+    at f (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8923)
+    at d (https://weather.com/_next/static/chunks/2rqgnaba-_iax.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:5:208629)
+    at oy (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:121829)
+    at i0 (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:142086)
+    at ls (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:153688)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196928)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196773
+    at sf (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196781) @ :5
+[    3397ms] [ERROR] p: MISSING_MESSAGE: HealthAndActivities.healthAndActivities (en-IN)
+    at c (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8277)
+    at m (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8464)
+    at f (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8923)
+    at d (https://weather.com/_next/static/chunks/2rqgnaba-_iax.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:5:208629)
+    at oy (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:121829)
+    at i0 (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:142086)
+    at ls (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:153688)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196928)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196773
+    at sf (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196781) @ :5
+[    3510ms] [WARNING] Identity value for 'email' is falsy (). This value will be removed from the request. @ :5
+[    4571ms] [ERROR] Provider's accounts list is empty. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[    5182ms] [WARNING] adgb - not initialized. @ :5
+[    6523ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ :5
+[    6604ms] [WARNING] Placements With no Content: Below Content Thumbnails - today | Lazy Injected 1 @ :5
+[    6606ms] [WARNING] Placements With no Content: Below Content Thumbnails - today | Lazy Injected 1 @ :5
+[    8458ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.weather.com/v3/alerts/headlines?format=json&language=en-IN&apiKey=71f92ea9dd2f4790b92ea9dd2f779061&geocode=28.614%2C77.209:0
+[   16576ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ :5
+[   18802ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.weather.com/v3/alerts/headlines?format=json&language=en-IN&apiKey=71f92ea9dd2f4790b92ea9dd2f779061&geocode=28.614%2C77.209:0
+[   30515ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ad.turn.com/r/cs?pid=75&us_privacy=&gdpr=0&gdpr_consent=:0
+[   32531ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ https://sync.ipredictive.com/d/sync/cookie/generic?https://cm.g.doubleclick.net/pixel?google_nid=adelphic_mobile&google_gid=CAESENCDTy-7UJHiBrjfIajbb5U&google_cver=1&google_push=AXcoOmTx3ac-6mqVsgGf6eGlvF00Z-WlYSHRqSCSQ1TaoRDwar7r3di4yYe3P0ucxT6eG0nfCK6ZRH86u1r02wG3uXCc8YUc8C_S&google_hm=${ADELPHIC_CUID_B64}:0
+[   34333ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ad.turn.com/r/cs?pid=9&gdpr=0:0
+[   34333ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ad.turn.com/r/cs?pid=9&gdpr=0:0
+[   36418ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.1rx.io/usersync2/rmpssp?sub=taboola:0
+[   36418ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.1rx.io/usersync2/rmpssp?sub=google&redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dr1%26google_push%3D%5BRX_SPD%5D%26google_hm%3D%5BRX_UUID_B64_BIN%5D&google_gid=CAESEIQELLcxSBbJ7e5Zl79Je_k&google_cver=1&google_push=AXcoOmRfMN0LJRHm_VA11KrQxAhwHA4-9tvsDSZa34_tEd9x30ZFDUdMdV7qUxx3gYOFO_lCDPYSIOJoea33a7T1U4tUs1WW0MsH:0
+[   37479ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://tr.blismedia.com/v1/api/sync/commercegrid?criteo_payload=Dq8w-F9YdU9UNGtGTEdyJTJGMDVZaiUyRjFZNCUyQk5adWZMTVYwT1JXT1V0bVJOQldiVVk4JTNE:0
+[   37686ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://x.bidswitch.net/sync?ssp=criteo&custom_data=yL0n119LS1hoMWJvN2lqbjdXQWhTWHFiVkwlMkZDQXBpUDY0enZXelVIbXdQJTJCc052OCUzRA&gpp=&gpp_sid=&gdpr=0&gdpr_consent=&us_privacy=&cr_user_id=k-tmgQQM0SOJCJ2YNNNCeY6n5RhIp2DygS8DRN_w:0
+[   38790ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ap.lijit.com/pixel?gdpr=0&gdpr_consent=&us_privacy=&gpp=&gpp_sid=&redir=https%3A%2F%2Fs.seedtag.com%2Fcs%2Fcookiesync%2Fsovrn%3Fchanneluid%3D%24UID:0
+[   39211ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmQeGrjCjAvowk6Ca2lxlU8A1MBQDa4A1dQo3bQPMxe4BP8etzaQikFgEaHsRdwujSCwXV31EvZkRi3-UGlT6s6F-3dA6v1w:0
+[   39888ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ad.turn.com/r/cs?pid=9&gdpr=0:0
+[   41432ms] [ERROR] Failed to load resource: the server responded with a status of 424 (Failed Dependency) @ https://t.adx.opera.com/pub/sync?pubid=pub10101531197440&gdpr=1&gdpr_consent=:0
+[   44623ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ https://sync.srv.stackadapt.com/sync?nid=154&google_gid=CAESEMupctxRjka1Q-b-K2dk2CQ&google_cver=1&google_push=AXcoOmREYdtD1b6ah9KFczBptt46Wbzn-5cOhsBIPNHMKQs63A96OPGuRG630vMukvapnKTWfZRJeC20X9QGW7t0coGXnVwY9u9l:0
+[   46591ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://match.prod.bidr.io/cookie-sync/see?_bee_ppp=1:0
+[   50078ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.weather.com/v3/alerts/headlines?format=json&language=en-IN&apiKey=71f92ea9dd2f4790b92ea9dd2f779061&geocode=28.614%2C77.209:0
+[   56672ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://cs.nex8.net/cs/openx:0
+[   56743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/outbrain?channeluid=98e5f9e2-b337-4fbc-8311-4c96815e989f&gdpr=0:0
+[   56744ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/Rubicon?channeluid=MRQ0MV0B-28-4QO0:0
+[   56747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/smart?channeluid=1422986068353180500:0
+[   56747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/opera?channeluid=OPU066bdee663a24a309d482fc8520d39bc:0
+[   56747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/bidswitch-beachfront?channeluid=434af8db-da25-4854-90bf-60a000249698&gdpr=0&gdpr_consent=&gdpr_pd=:0
+[   56747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/Bidswitch?channeluid=434af8db-da25-4854-90bf-60a000249698&gdpr=&gdpr_consent=:0
+[   38790ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ap.lijit.com/pixel?gdpr=0&gdpr_consent=&us_privacy=&gpp=&gpp_sid=&redir=https%3A%2F%2Fs.seedtag.com%2Fcs%2Fcookiesync%2Fsovrn%3Fchanneluid%3D%24UID:0
+[   56743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/outbrain?channeluid=98e5f9e2-b337-4fbc-8311-4c96815e989f&gdpr=0:0
+[   56747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/smart?channeluid=1422986068353180500:0
+[   56747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/opera?channeluid=OPU066bdee663a24a309d482fc8520d39bc:0
+[   56747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/bidswitch-beachfront?channeluid=434af8db-da25-4854-90bf-60a000249698&gdpr=0&gdpr_consent=&gdpr_pd=:0
+[   56747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/Bidswitch?channeluid=434af8db-da25-4854-90bf-60a000249698&gdpr=&gdpr_consent=:0
+[   56941ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://cs.nex8.net/cs/openx:0
+[   38790ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ap.lijit.com/pixel?gdpr=0&gdpr_consent=&us_privacy=&gpp=&gpp_sid=&redir=https%3A%2F%2Fs.seedtag.com%2Fcs%2Fcookiesync%2Fsovrn%3Fchanneluid%3D%24UID:0
+[   56743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/outbrain?channeluid=98e5f9e2-b337-4fbc-8311-4c96815e989f&gdpr=0:0
+[   56747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/smart?channeluid=1422986068353180500:0
+[   56747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/opera?channeluid=OPU066bdee663a24a309d482fc8520d39bc:0
+[   56747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/bidswitch-beachfront?channeluid=434af8db-da25-4854-90bf-60a000249698&gdpr=0&gdpr_consent=&gdpr_pd=:0
+[   56747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/Bidswitch?channeluid=434af8db-da25-4854-90bf-60a000249698&gdpr=&gdpr_consent=:0
+[   60900ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://token.rubiconproject.com/token?pid=49266&gdpr=0&gdpr_consent=:0
+[   38790ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ap.lijit.com/pixel?gdpr=0&gdpr_consent=&us_privacy=&gpp=&gpp_sid=&redir=https%3A%2F%2Fs.seedtag.com%2Fcs%2Fcookiesync%2Fsovrn%3Fchanneluid%3D%24UID:0
+[   56743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/outbrain?channeluid=98e5f9e2-b337-4fbc-8311-4c96815e989f&gdpr=0:0
+[   56747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/smart?channeluid=1422986068353180500:0
+[   56747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/opera?channeluid=OPU066bdee663a24a309d482fc8520d39bc:0
+[   56747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/bidswitch-beachfront?channeluid=434af8db-da25-4854-90bf-60a000249698&gdpr=0&gdpr_consent=&gdpr_pd=:0
+[   56747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://s.seedtag.com/cs/cookiesync/Bidswitch?channeluid=434af8db-da25-4854-90bf-60a000249698&gdpr=&gdpr_consent=:0
+[   67383ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[   32531ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ https://sync.ipredictive.com/d/sync/cookie/generic?https://cm.g.doubleclick.net/pixel?google_nid=adelphic_mobile&google_gid=CAESENCDTy-7UJHiBrjfIajbb5U&google_cver=1&google_push=AXcoOmTx3ac-6mqVsgGf6eGlvF00Z-WlYSHRqSCSQ1TaoRDwar7r3di4yYe3P0ucxT6eG0nfCK6ZRH86u1r02wG3uXCc8YUc8C_S&google_hm=${ADELPHIC_CUID_B64}:0
+[   36418ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.1rx.io/usersync2/rmpssp?sub=google&redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dr1%26google_push%3D%5BRX_SPD%5D%26google_hm%3D%5BRX_UUID_B64_BIN%5D&google_gid=CAESEIQELLcxSBbJ7e5Zl79Je_k&google_cver=1&google_push=AXcoOmRfMN0LJRHm_VA11KrQxAhwHA4-9tvsDSZa34_tEd9x30ZFDUdMdV7qUxx3gYOFO_lCDPYSIOJoea33a7T1U4tUs1WW0MsH:0
+[   39211ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmQeGrjCjAvowk6Ca2lxlU8A1MBQDa4A1dQo3bQPMxe4BP8etzaQikFgEaHsRdwujSCwXV31EvZkRi3-UGlT6s6F-3dA6v1w:0
+[   44623ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ https://sync.srv.stackadapt.com/sync?nid=154&google_gid=CAESEMupctxRjka1Q-b-K2dk2CQ&google_cver=1&google_push=AXcoOmREYdtD1b6ah9KFczBptt46Wbzn-5cOhsBIPNHMKQs63A96OPGuRG630vMukvapnKTWfZRJeC20X9QGW7t0coGXnVwY9u9l:0
+[   32531ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ https://sync.ipredictive.com/d/sync/cookie/generic?https://cm.g.doubleclick.net/pixel?google_nid=adelphic_mobile&google_gid=CAESENCDTy-7UJHiBrjfIajbb5U&google_cver=1&google_push=AXcoOmTx3ac-6mqVsgGf6eGlvF00Z-WlYSHRqSCSQ1TaoRDwar7r3di4yYe3P0ucxT6eG0nfCK6ZRH86u1r02wG3uXCc8YUc8C_S&google_hm=${ADELPHIC_CUID_B64}:0
+[   36418ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.1rx.io/usersync2/rmpssp?sub=google&redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dr1%26google_push%3D%5BRX_SPD%5D%26google_hm%3D%5BRX_UUID_B64_BIN%5D&google_gid=CAESEIQELLcxSBbJ7e5Zl79Je_k&google_cver=1&google_push=AXcoOmRfMN0LJRHm_VA11KrQxAhwHA4-9tvsDSZa34_tEd9x30ZFDUdMdV7qUxx3gYOFO_lCDPYSIOJoea33a7T1U4tUs1WW0MsH:0
+[   39211ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmQeGrjCjAvowk6Ca2lxlU8A1MBQDa4A1dQo3bQPMxe4BP8etzaQikFgEaHsRdwujSCwXV31EvZkRi3-UGlT6s6F-3dA6v1w:0
+[   44623ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ https://sync.srv.stackadapt.com/sync?nid=154&google_gid=CAESEMupctxRjka1Q-b-K2dk2CQ&google_cver=1&google_push=AXcoOmREYdtD1b6ah9KFczBptt46Wbzn-5cOhsBIPNHMKQs63A96OPGuRG630vMukvapnKTWfZRJeC20X9QGW7t0coGXnVwY9u9l:0
+[   32531ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ https://sync.ipredictive.com/d/sync/cookie/generic?https://cm.g.doubleclick.net/pixel?google_nid=adelphic_mobile&google_gid=CAESENCDTy-7UJHiBrjfIajbb5U&google_cver=1&google_push=AXcoOmTx3ac-6mqVsgGf6eGlvF00Z-WlYSHRqSCSQ1TaoRDwar7r3di4yYe3P0ucxT6eG0nfCK6ZRH86u1r02wG3uXCc8YUc8C_S&google_hm=${ADELPHIC_CUID_B64}:0
+[   36418ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.1rx.io/usersync2/rmpssp?sub=google&redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dr1%26google_push%3D%5BRX_SPD%5D%26google_hm%3D%5BRX_UUID_B64_BIN%5D&google_gid=CAESEIQELLcxSBbJ7e5Zl79Je_k&google_cver=1&google_push=AXcoOmRfMN0LJRHm_VA11KrQxAhwHA4-9tvsDSZa34_tEd9x30ZFDUdMdV7qUxx3gYOFO_lCDPYSIOJoea33a7T1U4tUs1WW0MsH:0
+[   39211ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmQeGrjCjAvowk6Ca2lxlU8A1MBQDa4A1dQo3bQPMxe4BP8etzaQikFgEaHsRdwujSCwXV31EvZkRi3-UGlT6s6F-3dA6v1w:0
+[   44623ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ https://sync.srv.stackadapt.com/sync?nid=154&google_gid=CAESEMupctxRjka1Q-b-K2dk2CQ&google_cver=1&google_push=AXcoOmREYdtD1b6ah9KFczBptt46Wbzn-5cOhsBIPNHMKQs63A96OPGuRG630vMukvapnKTWfZRJeC20X9QGW7t0coGXnVwY9u9l:0
+[   71012ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2 @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[   71014ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2 @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[   71141ms] [INFO] Powered by AMP ⚡ HTML – Version 2607061538000 https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected @ https://cdn.ampproject.org/rtv/012607061538000/amp4ads-v0.mjs:1
+[   71156ms] [INFO] Powered by AMP ⚡ HTML – Version 2607061538000 https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected @ https://cdn.ampproject.org/rtv/012607061538000/amp4ads-v0.mjs:1
+[   76036ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://www.temu.com/api/adx/cm/pixel?google_gid=CAESEEUfinmWR4BGa4YdTppJmKY&google_cver=1&google_push=AXcoOmQ2vO6JNSqh8M6SmlL0SeuesBYCLsaO48jWe1L36mxL7Z7ufcrEcJ10ujLlUMoe4MO_QJKPWFOZQ389kdUD6tdXIwBqV5E:0
+[   79741ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[   80173ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmSflU4mvhstAJ-strHysBh1qCxGVmJE-b_sgW00wMGaaSZfG0OJ0_xRE_9lLzNX8U5WdGjGIJyKG9o-UqFgI4g3q1L392SJZdBfu22Tf9E6LCugjcjA_TRHGTqUh-csVCV0M9ela3_sANiiyFuRLFjrAg:0
+[   80175ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmS4agXPQbXzSHgXCj2g-QwVvzvQp0vPUTiuZJSBr1ym874eYNniAbTKjHr5hFMkV2qWWPylMVs7B5RLRX4l9EmDwibeKRtttlllorqebTl3kGpvsEzkzPKO9WJgLfnMrPnoYvZX7EOFhmM:0
+[   83553ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[   94854ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[   32531ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ https://sync.ipredictive.com/d/sync/cookie/generic?https://cm.g.doubleclick.net/pixel?google_nid=adelphic_mobile&google_gid=CAESENCDTy-7UJHiBrjfIajbb5U&google_cver=1&google_push=AXcoOmTx3ac-6mqVsgGf6eGlvF00Z-WlYSHRqSCSQ1TaoRDwar7r3di4yYe3P0ucxT6eG0nfCK6ZRH86u1r02wG3uXCc8YUc8C_S&google_hm=${ADELPHIC_CUID_B64}:0
+[   36418ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.1rx.io/usersync2/rmpssp?sub=google&redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dr1%26google_push%3D%5BRX_SPD%5D%26google_hm%3D%5BRX_UUID_B64_BIN%5D&google_gid=CAESEIQELLcxSBbJ7e5Zl79Je_k&google_cver=1&google_push=AXcoOmRfMN0LJRHm_VA11KrQxAhwHA4-9tvsDSZa34_tEd9x30ZFDUdMdV7qUxx3gYOFO_lCDPYSIOJoea33a7T1U4tUs1WW0MsH:0
+[   39211ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmQeGrjCjAvowk6Ca2lxlU8A1MBQDa4A1dQo3bQPMxe4BP8etzaQikFgEaHsRdwujSCwXV31EvZkRi3-UGlT6s6F-3dA6v1w:0
+[   44623ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ https://sync.srv.stackadapt.com/sync?nid=154&google_gid=CAESEMupctxRjka1Q-b-K2dk2CQ&google_cver=1&google_push=AXcoOmREYdtD1b6ah9KFczBptt46Wbzn-5cOhsBIPNHMKQs63A96OPGuRG630vMukvapnKTWfZRJeC20X9QGW7t0coGXnVwY9u9l:0
+[   76036ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://www.temu.com/api/adx/cm/pixel?google_gid=CAESEEUfinmWR4BGa4YdTppJmKY&google_cver=1&google_push=AXcoOmQ2vO6JNSqh8M6SmlL0SeuesBYCLsaO48jWe1L36mxL7Z7ufcrEcJ10ujLlUMoe4MO_QJKPWFOZQ389kdUD6tdXIwBqV5E:0
+[   80173ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmSflU4mvhstAJ-strHysBh1qCxGVmJE-b_sgW00wMGaaSZfG0OJ0_xRE_9lLzNX8U5WdGjGIJyKG9o-UqFgI4g3q1L392SJZdBfu22Tf9E6LCugjcjA_TRHGTqUh-csVCV0M9ela3_sANiiyFuRLFjrAg:0
+[   80175ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmS4agXPQbXzSHgXCj2g-QwVvzvQp0vPUTiuZJSBr1ym874eYNniAbTKjHr5hFMkV2qWWPylMVs7B5RLRX4l9EmDwibeKRtttlllorqebTl3kGpvsEzkzPKO9WJgLfnMrPnoYvZX7EOFhmM:0
+[  119977ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  120145ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  121110ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  121142ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.weather.com/v3/alerts/headlines?format=json&language=en-IN&apiKey=71f92ea9dd2f4790b92ea9dd2f779061&geocode=28.614%2C77.209:0
+[  122221ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  129011ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  135996ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  145719ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  150784ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  150808ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ad.doubleclick.net/pcs/view?xai=AKAOjstjTFnK7IFzmeFrqq6TdNmUgrq-lY6_Kgg9P3mexlNqOOzl-N5I6xfE3Y3Xkw0WvmpsFojP_r42n5wSKqP0Xd48nTH750d9X72x3VoGdjQF5rlCDX1LU1SAz3SzhfMwNuWwq57C6-_V47DSsVEevJw-v0GRb3Q5qkOcmSAi1N9aZzx8g0txocytbEr8LJa49-fjfKOt86kqU7zccz-7e95KfNCQVnk-eErvAFsIyTNm2abXkIuQKZZyVLf9AfIwEpX2QS825JmlSLIFUQ4zArs_WNfzmOBLmpaBBWpATAG3Ttru41ekZS5295GIyHoY-VIu2Wh_tSfAFPbANPMtE2dwoGSFZMM7x4n8LAoFu6sGIOq0Kr9j5iFgXAriAA9uZL-f69bVmLmitdq2X5ps3r6H2aPuaWmbktJ6NTP-kl_T2QJQzh0M9-8keQhKiBN77ksHm03j2ovn04w7aUsyOJtFJzHekInWsiq-JTWhcXP7mt9SFu-Ha9G9V1TMZh98My__98c5oYbbK--W4_ENhTaenNkW4piihn2-hKXJdYqpTOaQ0VdxeV-qdCtxdz_rISfmUflphNxRW6SnmcL9x1gE06lqhjfR8yybRUugtQ620QIiMQTgDwdTH1EZC78sFfilkbMvpvOJQldULuHfjf4Ls5qy7jCtxJzvIbG-h7_aFaTKjhg3h1ryMQokC7R62oSBjkGJ2GnohZgxK5n4c6vVUM0vgk-i34Ayw-uaQWEusnu9U5cQviNm9QN5uRzA6fOGgOrKCHgrP6pakBH7ttX4L2FHZg1ziqyJUpqIYBagcjKkkb4r-yp02-qYOwu2J1Ci-cJZx95BZqDwkekzwqPg7Wa8_FQgW7NhWtAuZDOi1K50LbfCfaWjW3rUUh-CvCKXjXSP30cEZK8mvwpxaJFxgqEwTYoXbNlm2i0MLyNndJN6JqjdiZr4m6f1E6XSLTh6hfxMIKNBsxX5u9Wix05r4yF1vBfn4wqIWF-l7yzD3VaDy35pPCW8-Ma5T069_yAG35tcyXRp7pJXgPqd6z6vfUQzRRRIpi_GfhV0nvknjZxC_TLv4g0JsCSPxdzMgJDApT8IhlLo_A9Luok9baqAwgJVFolINSMgIA0K3nYgmiH1nrEJc0QsaeVf8ycqd2VN3cg0vco9TD4zqXAuM6kZyPU3i8_9dRy4L8C6NW3Fk0eEu-AYBy6TssW28sxxpgTzRIBnOwoQWsCHn-IbNxg8TxaW9YizLxExie1ZB8XIeenbK8rp5_qeRM3LS3keyn0AJAykwkftfznePNFNTmoOcVcICRpVhD1zekZ9eUiIn8jSB2lDSZbJzE63YVjtpy23EHninR0ZdoqrQjTsSufbUHBjUeqIf59Hfj3AihSTqs4bLvc8NqAkWl8jAs87e1J-3jGqW4e04SvnDgXENCRsNzbKXVvWkC7ESC8QASKQoPQmud_6_9x40s8BcmISvoUtQPIkVfaNGoKocOmgug8zRDVjV_bq2tOwEtfSCJnj4Q7Wpo0k0cM1ziYjmaMQJFhc04Z_0J3JZlpyvjjfFgPqk5kR2qTZRX2N3tDiIhjrEW41b1dyia-avnsWrhGGnFyqHx9YAMZdeMidAZQwHOZJlTWfHvmmNE3XheBl0jfg_xB0Ov0JPy5mB0ltzjzs2Od7aw5VFKz-6Dsa69Qc1Xzp3PEOozKody4OIJlB3BKGUzosKwdj2t73rNikYHoE1r7pr11h8FGS&sai=AMfl-YTIU6LK1VMhW9ZaynENuI-9bvWuePr7fTvptuZxstcJ51x40-YYm3zeQHdtZ6tYbJYoqc6Pl0xfdBSXkyNDmTQZbA084WEyqKLJvRPd2UwErx94ph32jhCJvgPNeKC8P2lMwwIveC4CWtGqLzTJb4tm4NwW2mwnr1m4r61wsn5R5fF2PGbEwVONMjpyUo2z5IH9zgMWnYUh60K42wU0Rfn3SPZl_euhs0I0G-6d57qzl_ctrMFMej2YDI1B_diH6Y425VMxCQjxmoBQdk_ceq3G7CV47vjhI7F1MLAh6GsfIKhi1etYHWnc8so4Ivo7MtoLa2bdGqx93OMt6HBG5J-5vtpUN8tMGOZoYGBIp2DAl4Rz1Dy2XWClo7i65SvpzgsKEk7e1YgTeCRwPo0YrOc7UHFr9tXv7sM0jN_Ih2eyq9uvr-tJC7Y2BLdk1rpEaQwL6a1HaOeQ2rb_jfWAcNJcG1VO6DgHWOYidTN-a_4TiJmzIEqQtOpnyGkoDy3PJZetnGzjWkFPIjnh7BeN6WUO2wbsFlvvpJpf70gDMnStCY-lj8PnnRSm_G7SduI6Sl1-M8UuTYR0X9ta0TrF07349i9jDu7P6jZvcVSwcJ_4AEaF6BLO4qQ0xexkYP1_6OYrQO8Ekutx7V446iLuYq-u-6S9QDv3Y-SCd2pD_agc_M4eG9qXSFnSLP_m7r92AAtoa0dpe0jMT5toMyq1CeXUI_6_Qco4ikEv5a48zLK_VQFFGdD9p9xOgMURHxuENJrfGvgRywCjO5BgGkB79QmWwmlvoUj02V9dgdeNswHSaYQcCfzOuGgetPjTlt8NrCHaAWO7phvLj5l29vjSzFwn0Cwl65nhF40ED_r0ILOUZ_MH08NeD8cvQIK4S2iAtbKGW-nnGdR0Wui8GVFWVzwNruRYvV3QvnL2X0acx2srTL_pq5QCIBOOoRulG3ugXDrqEh5L7rdsHxrLWAjm1Rv3e_-nqctRkk1jajc8iTCogzR2g1cXLjRlhAnbXxtXIpV5Q0lm301eQkuLiJ-8cYpoYTfcthbkB5AG57mxUY6cgI2_5kQ09kL6BFAjyT_tsvwkaXmG_N-y3X2iI38JeXzTKVdnPnJdVM4E6Nqx2YVjr916AABwR5MwCJ3ArVtTBCcT6awZxfm607f-Ee6HFwWt0fVDE94z_mtHPwml0ozi8c3WwpIYcbqADaG4QPt0wELWaD5BBT98lNQNnpB7cvx1K_NgchE9J83jkG7TWLEneumU9CILVBU6eWt-twCgbqpCymJC0aEzDeaYo2UNrL8iyUbeoTLO3so-sKU36gOlcmQ523Dg79TYFZFF7jdDCEbhO4HaMaLEEWai1NQTaHeq7XSF5ITxpazaBlgSGCQbFjhbuDVlBDy0tpQull2k9b1GeseQTRwD8G69HHS4x-Zygd0wxdhOYtwkimCT3Q&sig=Cg0ArKJSzJT8-dgIc3dqEAE&uach_m=%5BUACH%5D&crd=aHR0cHM6Ly9nb2RhZGR5LmNvbQ&pr=missingexchangepricemacro&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&omid=0&rm=1&ctpt=23&cbvp=1&cstd=19&cisv=r20260716.61696&arae=1&ftch=1&adurl=:0
+[  150808ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ad.doubleclick.net/pcs/view?xai=AKAOjstjTFnK7IFzmeFrqq6TdNmUgrq-lY6_Kgg9P3mexlNqOOzl-N5I6xfE3Y3Xkw0WvmpsFojP_r42n5wSKqP0Xd48nTH750d9X72x3VoGdjQF5rlCDX1LU1SAz3SzhfMwNuWwq57C6-_V47DSsVEevJw-v0GRb3Q5qkOcmSAi1N9aZzx8g0txocytbEr8LJa49-fjfKOt86kqU7zccz-7e95KfNCQVnk-eErvAFsIyTNm2abXkIuQKZZyVLf9AfIwEpX2QS825JmlSLIFUQ4zArs_WNfzmOBLmpaBBWpATAG3Ttru41ekZS5295GIyHoY-VIu2Wh_tSfAFPbANPMtE2dwoGSFZMM7x4n8LAoFu6sGIOq0Kr9j5iFgXAriAA9uZL-f69bVmLmitdq2X5ps3r6H2aPuaWmbktJ6NTP-kl_T2QJQzh0M9-8keQhKiBN77ksHm03j2ovn04w7aUsyOJtFJzHekInWsiq-JTWhcXP7mt9SFu-Ha9G9V1TMZh98My__98c5oYbbK--W4_ENhTaenNkW4piihn2-hKXJdYqpTOaQ0VdxeV-qdCtxdz_rISfmUflphNxRW6SnmcL9x1gE06lqhjfR8yybRUugtQ620QIiMQTgDwdTH1EZC78sFfilkbMvpvOJQldULuHfjf4Ls5qy7jCtxJzvIbG-h7_aFaTKjhg3h1ryMQokC7R62oSBjkGJ2GnohZgxK5n4c6vVUM0vgk-i34Ayw-uaQWEusnu9U5cQviNm9QN5uRzA6fOGgOrKCHgrP6pakBH7ttX4L2FHZg1ziqyJUpqIYBagcjKkkb4r-yp02-qYOwu2J1Ci-cJZx95BZqDwkekzwqPg7Wa8_FQgW7NhWtAuZDOi1K50LbfCfaWjW3rUUh-CvCKXjXSP30cEZK8mvwpxaJFxgqEwTYoXbNlm2i0MLyNndJN6JqjdiZr4m6f1E6XSLTh6hfxMIKNBsxX5u9Wix05r4yF1vBfn4wqIWF-l7yzD3VaDy35pPCW8-Ma5T069_yAG35tcyXRp7pJXgPqd6z6vfUQzRRRIpi_GfhV0nvknjZxC_TLv4g0JsCSPxdzMgJDApT8IhlLo_A9Luok9baqAwgJVFolINSMgIA0K3nYgmiH1nrEJc0QsaeVf8ycqd2VN3cg0vco9TD4zqXAuM6kZyPU3i8_9dRy4L8C6NW3Fk0eEu-AYBy6TssW28sxxpgTzRIBnOwoQWsCHn-IbNxg8TxaW9YizLxExie1ZB8XIeenbK8rp5_qeRM3LS3keyn0AJAykwkftfznePNFNTmoOcVcICRpVhD1zekZ9eUiIn8jSB2lDSZbJzE63YVjtpy23EHninR0ZdoqrQjTsSufbUHBjUeqIf59Hfj3AihSTqs4bLvc8NqAkWl8jAs87e1J-3jGqW4e04SvnDgXENCRsNzbKXVvWkC7ESC8QASKQoPQmud_6_9x40s8BcmISvoUtQPIkVfaNGoKocOmgug8zRDVjV_bq2tOwEtfSCJnj4Q7Wpo0k0cM1ziYjmaMQJFhc04Z_0J3JZlpyvjjfFgPqk5kR2qTZRX2N3tDiIhjrEW41b1dyia-avnsWrhGGnFyqHx9YAMZdeMidAZQwHOZJlTWfHvmmNE3XheBl0jfg_xB0Ov0JPy5mB0ltzjzs2Od7aw5VFKz-6Dsa69Qc1Xzp3PEOozKody4OIJlB3BKGUzosKwdj2t73rNikYHoE1r7pr11h8FGS&sai=AMfl-YTIU6LK1VMhW9ZaynENuI-9bvWuePr7fTvptuZxstcJ51x40-YYm3zeQHdtZ6tYbJYoqc6Pl0xfdBSXkyNDmTQZbA084WEyqKLJvRPd2UwErx94ph32jhCJvgPNeKC8P2lMwwIveC4CWtGqLzTJb4tm4NwW2mwnr1m4r61wsn5R5fF2PGbEwVONMjpyUo2z5IH9zgMWnYUh60K42wU0Rfn3SPZl_euhs0I0G-6d57qzl_ctrMFMej2YDI1B_diH6Y425VMxCQjxmoBQdk_ceq3G7CV47vjhI7F1MLAh6GsfIKhi1etYHWnc8so4Ivo7MtoLa2bdGqx93OMt6HBG5J-5vtpUN8tMGOZoYGBIp2DAl4Rz1Dy2XWClo7i65SvpzgsKEk7e1YgTeCRwPo0YrOc7UHFr9tXv7sM0jN_Ih2eyq9uvr-tJC7Y2BLdk1rpEaQwL6a1HaOeQ2rb_jfWAcNJcG1VO6DgHWOYidTN-a_4TiJmzIEqQtOpnyGkoDy3PJZetnGzjWkFPIjnh7BeN6WUO2wbsFlvvpJpf70gDMnStCY-lj8PnnRSm_G7SduI6Sl1-M8UuTYR0X9ta0TrF07349i9jDu7P6jZvcVSwcJ_4AEaF6BLO4qQ0xexkYP1_6OYrQO8Ekutx7V446iLuYq-u-6S9QDv3Y-SCd2pD_agc_M4eG9qXSFnSLP_m7r92AAtoa0dpe0jMT5toMyq1CeXUI_6_Qco4ikEv5a48zLK_VQFFGdD9p9xOgMURHxuENJrfGvgRywCjO5BgGkB79QmWwmlvoUj02V9dgdeNswHSaYQcCfzOuGgetPjTlt8NrCHaAWO7phvLj5l29vjSzFwn0Cwl65nhF40ED_r0ILOUZ_MH08NeD8cvQIK4S2iAtbKGW-nnGdR0Wui8GVFWVzwNruRYvV3QvnL2X0acx2srTL_pq5QCIBOOoRulG3ugXDrqEh5L7rdsHxrLWAjm1Rv3e_-nqctRkk1jajc8iTCogzR2g1cXLjRlhAnbXxtXIpV5Q0lm301eQkuLiJ-8cYpoYTfcthbkB5AG57mxUY6cgI2_5kQ09kL6BFAjyT_tsvwkaXmG_N-y3X2iI38JeXzTKVdnPnJdVM4E6Nqx2YVjr916AABwR5MwCJ3ArVtTBCcT6awZxfm607f-Ee6HFwWt0fVDE94z_mtHPwml0ozi8c3WwpIYcbqADaG4QPt0wELWaD5BBT98lNQNnpB7cvx1K_NgchE9J83jkG7TWLEneumU9CILVBU6eWt-twCgbqpCymJC0aEzDeaYo2UNrL8iyUbeoTLO3so-sKU36gOlcmQ523Dg79TYFZFF7jdDCEbhO4HaMaLEEWai1NQTaHeq7XSF5ITxpazaBlgSGCQbFjhbuDVlBDy0tpQull2k9b1GeseQTRwD8G69HHS4x-Zygd0wxdhOYtwkimCT3Q&sig=Cg0ArKJSzJT8-dgIc3dqEAE&uach_m=%5BUACH%5D&crd=aHR0cHM6Ly9nb2RhZGR5LmNvbQ&pr=missingexchangepricemacro&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&omid=0&rm=1&ctpt=133&vt=11&dtpt=110&dett=3&cstd=19&cisv=r20260716.61696&uach=WyJXaW5kb3dzIiwiMTkuMC4wIiwieDg2IiwiIiwiMTUwLjAuNzg3MS4xMjUiLG51bGwsMCxudWxsLCI2NCIsW1siTm90O0E9QnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjE1MC4wLjc4NzEuMTI1Il0sWyJHb29nbGUgQ2hyb21lIiwiMTUwLjAuNzg3MS4xMjUiXV0sMF0.&arae=1&ftch=1&adurl=:0
+[  150806ms] TypeError: Failed to fetch
+    at xd (<anonymous>:1:36278)
+    at <anonymous>:1:34986
+    at <anonymous>:1:27211
+    at Oc (<anonymous>:1:27108)
+    at Nc (<anonymous>:1:27066)
+    at <anonymous>:1:26941
+    at <anonymous>:1:27404
+    at <anonymous>:1:27211
+    at Oc (<anonymous>:1:27108)
+    at Nc (<anonymous>:1:27066)
+[  150807ms] TypeError: Failed to fetch
+    at xd (<anonymous>:1:36278)
+    at <anonymous>:1:34559
+    at <anonymous>:1:27211
+    at Oc (<anonymous>:1:27108)
+    at Nc (<anonymous>:1:27066)
+    at <anonymous>:1:26941
+    at d (<anonymous>:1:35070)
+    at e (<anonymous>:1:23245)
+    at HTMLIFrameElement.<anonymous> (<anonymous>:1:23624)
+[   32531ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ https://sync.ipredictive.com/d/sync/cookie/generic?https://cm.g.doubleclick.net/pixel?google_nid=adelphic_mobile&google_gid=CAESENCDTy-7UJHiBrjfIajbb5U&google_cver=1&google_push=AXcoOmTx3ac-6mqVsgGf6eGlvF00Z-WlYSHRqSCSQ1TaoRDwar7r3di4yYe3P0ucxT6eG0nfCK6ZRH86u1r02wG3uXCc8YUc8C_S&google_hm=${ADELPHIC_CUID_B64}:0
+[   36418ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.1rx.io/usersync2/rmpssp?sub=google&redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dr1%26google_push%3D%5BRX_SPD%5D%26google_hm%3D%5BRX_UUID_B64_BIN%5D&google_gid=CAESEIQELLcxSBbJ7e5Zl79Je_k&google_cver=1&google_push=AXcoOmRfMN0LJRHm_VA11KrQxAhwHA4-9tvsDSZa34_tEd9x30ZFDUdMdV7qUxx3gYOFO_lCDPYSIOJoea33a7T1U4tUs1WW0MsH:0
+[   39211ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmQeGrjCjAvowk6Ca2lxlU8A1MBQDa4A1dQo3bQPMxe4BP8etzaQikFgEaHsRdwujSCwXV31EvZkRi3-UGlT6s6F-3dA6v1w:0
+[   44623ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ https://sync.srv.stackadapt.com/sync?nid=154&google_gid=CAESEMupctxRjka1Q-b-K2dk2CQ&google_cver=1&google_push=AXcoOmREYdtD1b6ah9KFczBptt46Wbzn-5cOhsBIPNHMKQs63A96OPGuRG630vMukvapnKTWfZRJeC20X9QGW7t0coGXnVwY9u9l:0
+[   76036ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://www.temu.com/api/adx/cm/pixel?google_gid=CAESEEUfinmWR4BGa4YdTppJmKY&google_cver=1&google_push=AXcoOmQ2vO6JNSqh8M6SmlL0SeuesBYCLsaO48jWe1L36mxL7Z7ufcrEcJ10ujLlUMoe4MO_QJKPWFOZQ389kdUD6tdXIwBqV5E:0
+[   80173ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmSflU4mvhstAJ-strHysBh1qCxGVmJE-b_sgW00wMGaaSZfG0OJ0_xRE_9lLzNX8U5WdGjGIJyKG9o-UqFgI4g3q1L392SJZdBfu22Tf9E6LCugjcjA_TRHGTqUh-csVCV0M9ela3_sANiiyFuRLFjrAg:0
+[   80175ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmS4agXPQbXzSHgXCj2g-QwVvzvQp0vPUTiuZJSBr1ym874eYNniAbTKjHr5hFMkV2qWWPylMVs7B5RLRX4l9EmDwibeKRtttlllorqebTl3kGpvsEzkzPKO9WJgLfnMrPnoYvZX7EOFhmM:0
+[  151700ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  153495ms] [ERROR] p: MISSING_MESSAGE: HealthAndActivities.healthAndActivities (en-IN)
+    at c (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8277)
+    at m (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8464)
+    at f (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8923)
+    at d (https://weather.com/_next/static/chunks/2rqgnaba-_iax.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:5:208629)
+    at oy (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:121829)
+    at i0 (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:142086)
+    at ls (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:153688)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196928)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196773
+    at sf (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196781) @ :5
+[  154517ms] [INFO] Helios: confiant disable  @ :5
+[  154517ms] [INFO] Helios: helios disable  @ :5
+[  154648ms] [ERROR] %cAY background: linear-gradient(-152deg,#6937ea,#377fea 65%);border-radius: 3px;color: white;padding: 1px 5px Missing required modules: prebidServerBidAdapter, s2sTesting @ :5
+[  155010ms] [ERROR] p: MISSING_MESSAGE: HealthAndActivities.healthAndActivities (en-IN)
+    at c (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8277)
+    at m (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8464)
+    at f (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8923)
+    at d (https://weather.com/_next/static/chunks/2rqgnaba-_iax.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:5:208629)
+    at oy (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:121829)
+    at i0 (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:142086)
+    at ls (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:153688)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196928)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196773
+    at sf (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196781) @ :5
+[  155058ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rQ (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:105197)
+    at ls (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:156238)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196928)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:191814
+    at se (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:191915)
+    at sW (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:218479)
+    at MessagePort.O (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:66637)
+[  155393ms] [ERROR] Not signed in with the identity provider. @ https://weather.com/en-IN/us/new-york/city/new-york-city/tenday:0
+[  155417ms] [WARNING] Identity value for 'email' is falsy (). This value will be removed from the request. @ :5
+[  155513ms] [ERROR] p: MISSING_MESSAGE: HealthAndActivities.healthAndActivities (en-IN)
+    at c (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8277)
+    at m (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8464)
+    at f (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8923)
+    at d (https://weather.com/_next/static/chunks/2rqgnaba-_iax.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:5:208629)
+    at oy (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:121829)
+    at i0 (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:142086)
+    at ls (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:153688)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196928)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196773
+    at sf (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196781) @ :5
+[  155516ms] [ERROR] p: MISSING_MESSAGE: HealthAndActivities.healthAndActivities (en-IN)
+    at c (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8277)
+    at m (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8464)
+    at f (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8923)
+    at d (https://weather.com/_next/static/chunks/2rqgnaba-_iax.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:5:208629)
+    at oy (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:121829)
+    at i0 (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:142086)
+    at ls (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:153688)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196928)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196773
+    at sf (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196781) @ :5
+[  155534ms] [WARNING] [GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.
+https://goo.gle/gpt-message#170 @ :5
+[  155534ms] [INFO] Helios: Process special slot  WX_Hidden @ :5
+[  155535ms] [INFO] Helios: Process special slot  MW_Interstitial @ :5
+[  155540ms] [WARNING] [GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171 @ :5
+[  155695ms] [ERROR] p: MISSING_MESSAGE: HealthAndActivities.healthAndActivities (en-IN)
+    at c (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8277)
+    at m (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8464)
+    at f (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8923)
+    at d (https://weather.com/_next/static/chunks/2rqgnaba-_iax.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:5:208629)
+    at oy (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:121829)
+    at i0 (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:142086)
+    at ls (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:153688)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196928)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196773
+    at sf (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196781) @ :5
+[  155714ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.weather.com/v3/alerts/headlines?format=json&language=en-IN&apiKey=71f92ea9dd2f4790b92ea9dd2f779061&geocode=28.614%2C77.209:0
+[  155931ms] [ERROR] p: MISSING_MESSAGE: HealthAndActivities.healthAndActivities (en-IN)
+    at c (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8277)
+    at m (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8464)
+    at f (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8923)
+    at d (https://weather.com/_next/static/chunks/2rqgnaba-_iax.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:5:208629)
+    at oy (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:121829)
+    at i0 (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:142086)
+    at ls (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:153688)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196928)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196773
+    at sf (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196781) @ :5
+[  156039ms] [WARNING] adgb - not initialized. @ :5
+[  160643ms] [WARNING] This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead. @ :5
+[  160889ms] [WARNING] This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead. @ :5
+[  161667ms] [WARNING] Placements With no Content: Below Content Thumbnails - tenday | Lazy Injected 1 @ :5
+[  161671ms] [WARNING] Placements With no Content: Below Content Thumbnails - tenday | Lazy Injected 1 @ :5
+[  164309ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  164574ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  166534ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmSEgBonKGoInEKn2Mpqh0czM3ox-fmpfRy3WJezTFFZXl-FGQCQ7bTxEBwSLk3oFYPi5HLAZIqD6W9Kj7qMNu8VS7hzAmbRhLDRbcqa-TtlCFuue2Zw7yaljiWbOF7Uf5rw4Q0ei6H2:0
+[  166534ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmQoHTNpa5tyDs4IU2r6AZ4bKXKYxFqmGsrnDWuStrNLLAptm_5l2Uz6xB073G1TC6g6ylzapCSwNmLuqjZNajBu_tR9H8rVr1fg9vNwoZxDfEge1gYb6Tj6wIYcncsVDM2iOWPBfysxXA:0
+[  166843ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ :5
+[  172325ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://match.sharethrough.com/sync/v1?source_id=UiRtTsXAfjmfSDAKnR1FjWsu&source_user_id=MRQ0MV0B-28-4QO0&gdpr=0&us_privacy=1---:0
+[  173637ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sync.search.spotxchange.com/partner?adv_id=7025&redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dspotxchange_dbm%26google_hm%3D%24SPOTX_BASE64_USER_ID:0
+[  173637ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sync.search.spotxchange.com/partner?adv_id=7025&uid=CAESECJStFa0TC2PR3TSJ8BQsEw&google_cver=1:0
+[  174756ms] [WARNING] This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead. @ :5
+[  175911ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11466&redirect=https%3A%2F%2Fdsum-sec.casalemedia.com%2Frum%3Fcm_dsp_id%3D24%26external_user_id%3D%7Bviewer_token%7D&us_privacy=&gdpr=&gdpr_consent=&gpp=&gpp_sid=:0
+[  180249ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ad.turn.com/r/cs?pid=21:0
+[  180250ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ad.turn.com/r/cs?pid=6&gdpr=0&us_privacy=1---:0
+[  164309ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  164574ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  182327ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  183241ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.srv.stackadapt.com/sync?gdpr=0&us_privacy=1---&nid=140:0
+[  184252ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.1rx.io/usersync2/rubicon?gdpr=0&us_privacy=1---:0
+[  184253ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.1rx.io/usersync2/rmpssp?sub=taboola:0
+[  188591ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ https://pixel.onaudience.com/?partner=137085097&mapped=d8aea58a-f092-44c2-a60a-d38b1e8a3117-tuct1154a995:0
+[  190169ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://trace.mediago.io/ju/cs/taboola:0
+[  166534ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmSEgBonKGoInEKn2Mpqh0czM3ox-fmpfRy3WJezTFFZXl-FGQCQ7bTxEBwSLk3oFYPi5HLAZIqD6W9Kj7qMNu8VS7hzAmbRhLDRbcqa-TtlCFuue2Zw7yaljiWbOF7Uf5rw4Q0ei6H2:0
+[  166534ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmQoHTNpa5tyDs4IU2r6AZ4bKXKYxFqmGsrnDWuStrNLLAptm_5l2Uz6xB073G1TC6g6ylzapCSwNmLuqjZNajBu_tR9H8rVr1fg9vNwoZxDfEge1gYb6Tj6wIYcncsVDM2iOWPBfysxXA:0
+[  173637ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sync.search.spotxchange.com/partner?adv_id=7025&redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dspotxchange_dbm%26google_hm%3D%24SPOTX_BASE64_USER_ID:0
+[  173637ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sync.search.spotxchange.com/partner?adv_id=7025&uid=CAESECJStFa0TC2PR3TSJ8BQsEw&google_cver=1:0
+[  191111ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://pxl.connexity.net/c/cse?a=R&A=22c&D=569a&V=9&I0k=ptnrid&I0v=d8aea58a-f092-44c2-a60a-d38b1e8a3117-tuct1154a995:0
+[  191362ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://dps.jp.cinarra.com/pxd?PLATFORM_ID=1&USER_ID=7ddab7c4-6563-86f2-df60-cfe76cbafb85:0
+[  191556ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.1rx.io/usersync2/rmpssp?sub=taboola:0
+[  194456ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://cs.media.net/cksync?cs=69&type=tb&gdpr=0&gdpr_consent=&us_privacy=1---&redirect=https%3A%2F%2Fsync.taboola.com%2Fsg%2Fmedianetrtb-network%2F1%2Frtb-h%2F%3Fui%3Dd8aea58a-f092-44c2-a60a-d38b1e8a3117-tuct1154a995%26taboola_hm%3D%3Cvsid%3E%0A:0
+[  194494ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://idsync.rlcdn.com/382399.gif?partner_uid=d8aea58a-f092-44c2-a60a-d38b1e8a3117-tuct1154a995&gdpr=0&gdpr_consent=:0
+[  195401ms] [ERROR] Failed to load resource: net::ERR_TIMED_OUT @ https://cms.quantserve.com/pixel/p-Z8PuJEk6U7Hyq.gif?idmatch=0:0
+[  196132ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.richaudience.com/f7872c90c5d3791e2b51f7edce1a0a5d/?p=YU3sCnNWhL&gdpr=0&euconsent=&ccpa=1---&gpp=&gpp_sid=&r=https%3A%2F%2Fsync.taboola.com%2Fsg%2Frichaudiencertb-network%2F1%2Frtb-h%2F%3Ftaboola_hm%3D%5BPDID%5D:0
+[  199261ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ssp-sync.criteo.com/user-sync/redirect?profile=342&gdpr_consent=&gdpr=0&gpp=&gpp_sid=&redir=https%3A%2F%2Fsync-t1.taboola.com%2Fsg%2Fcriteogridrtb-network%2F1%2Frtb-h%2F%3Ftaboola_hm%3D%24%7BCRITEO_USER_ID%7D:0
+[  199262ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ssp-sync.criteo.com/user-sync/match?p=EPgsWF9DZWJ5NXElMkYxbFhaMG9XUmRwQU9URHd3QnF6MTBEMndnQ2NjcGpDR3RVeUElM0Q&u=434af8db-da25-4854-90bf-60a000249698:0
+[  199431ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://bh.contextweb.com/bh/rtset?pid=560382&ev=1&gdpr=0&gdpr_consent=&us_privacy=1---&gpp=&gpp_sid=&rurl=https%3A%2F%2Fsync.taboola.com%2Fsg%2Frtb-pulsepoint-network%2F1%2Frtb-h%2F%3Fui%3Dd8aea58a-f092-44c2-a60a-d38b1e8a3117-tuct1154a995%26taboola_hm%3D%25%25VGUID%25%25&orig=trc:0
+[  199434ms] Object
+[  200531ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ad.turn.com/r/cs?pid=75&us_privacy=&gdpr=0&gdpr_consent=:0
+[  204692ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://tr.blismedia.com/v1/api/sync/commercegrid?criteo_payload=J1RI_l9GeGFPUWFSdXdqNFdDZEVYbGwxMHUxWHBrZEE4SHVmSkw3SU1PbVhLcFUwJTNE:0
+[  205657ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://pixel.advertising.com/ups/55973/sync?uid=d8aea58a-f092-44c2-a60a-d38b1e8a3117-tuct1154a995&_origin=1:0
+[  208739ms] [ERROR] Failed to load resource: net::ERR_TIMED_OUT @ https://ssbsync.smartadserver.com/api/sync?callerId=4:0
+[  210538ms] [ERROR] Failed to load resource: net::ERR_TIMED_OUT @ https://s.c.appier.net/index?userId=alskIm4sB8AADXHfD5eS1QAA%265916&gdpr=&us_privacy=&gdpr_consent=&gpp=&gpp_sid=:0
+[  211247ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://ads.stickyadstv.com/user-registering?dataProviderId=141&userId=CAESEKy0vUmOaCxiOJp6Kw54Esk&google_cver=1:0
+[  211247ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://ads.stickyadstv.com/user-matching?id=11:0
+[  211989ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://match.rundsp.com/redirect?ex=openx:0
+[  212321ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/us/new-york/city/new-york-city/tenday:0
+[  212382ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/us/new-york/city/new-york-city/tenday:0
+[  212435ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/us/new-york/city/new-york-city/tenday:0
+[  212463ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/us/new-york/city/new-york-city/tenday:0
+[  212501ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/us/new-york/city/new-york-city/tenday:0
+[  212501ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/us/new-york/city/new-york-city/tenday:0
+[  215289ms] [WARNING] This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead. @ :5
+[  164309ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  164574ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  182327ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  215402ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  215615ms] [WARNING] This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead. @ :5
+[  164309ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  164574ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  182327ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  215402ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  215718ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  164309ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  164574ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  182327ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  215402ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  215718ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  218757ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  166534ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmSEgBonKGoInEKn2Mpqh0czM3ox-fmpfRy3WJezTFFZXl-FGQCQ7bTxEBwSLk3oFYPi5HLAZIqD6W9Kj7qMNu8VS7hzAmbRhLDRbcqa-TtlCFuue2Zw7yaljiWbOF7Uf5rw4Q0ei6H2:0
+[  166534ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmQoHTNpa5tyDs4IU2r6AZ4bKXKYxFqmGsrnDWuStrNLLAptm_5l2Uz6xB073G1TC6g6ylzapCSwNmLuqjZNajBu_tR9H8rVr1fg9vNwoZxDfEge1gYb6Tj6wIYcncsVDM2iOWPBfysxXA:0
+[  173637ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sync.search.spotxchange.com/partner?adv_id=7025&redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dspotxchange_dbm%26google_hm%3D%24SPOTX_BASE64_USER_ID:0
+[  173637ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sync.search.spotxchange.com/partner?adv_id=7025&uid=CAESECJStFa0TC2PR3TSJ8BQsEw&google_cver=1:0
+[  211247ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://ads.stickyadstv.com/user-registering?dataProviderId=141&userId=CAESEKy0vUmOaCxiOJp6Kw54Esk&google_cver=1:0
+[  211247ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://ads.stickyadstv.com/user-matching?id=11:0
+[  166534ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmSEgBonKGoInEKn2Mpqh0czM3ox-fmpfRy3WJezTFFZXl-FGQCQ7bTxEBwSLk3oFYPi5HLAZIqD6W9Kj7qMNu8VS7hzAmbRhLDRbcqa-TtlCFuue2Zw7yaljiWbOF7Uf5rw4Q0ei6H2:0
+[  166534ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmQoHTNpa5tyDs4IU2r6AZ4bKXKYxFqmGsrnDWuStrNLLAptm_5l2Uz6xB073G1TC6g6ylzapCSwNmLuqjZNajBu_tR9H8rVr1fg9vNwoZxDfEge1gYb6Tj6wIYcncsVDM2iOWPBfysxXA:0
+[  173637ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sync.search.spotxchange.com/partner?adv_id=7025&redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dspotxchange_dbm%26google_hm%3D%24SPOTX_BASE64_USER_ID:0
+[  173637ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sync.search.spotxchange.com/partner?adv_id=7025&uid=CAESECJStFa0TC2PR3TSJ8BQsEw&google_cver=1:0
+[  211247ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://ads.stickyadstv.com/user-registering?dataProviderId=141&userId=CAESEKy0vUmOaCxiOJp6Kw54Esk&google_cver=1:0
+[  211247ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://ads.stickyadstv.com/user-matching?id=11:0
+[  220614ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/googlesansdisplay/v23/ea8FacM9Wef3EJPWRrHjgE4B6CnlZxHVDv79oQ.woff2 @ https://0a90ac570ac955e0e06751975598ab46.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html:0
+[  226288ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/us/new-york/city/new-york-city/tenday:0
+[  226296ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/us/new-york/city/new-york-city/tenday:0
+[  226341ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/us/new-york/city/new-york-city/tenday:0
+[  227186ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/us/new-york/city/new-york-city/tenday:0
+[  228877ms] [WARNING] This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead. @ :5
+[  230256ms] [INFO] Helios: confiant disable  @ :5
+[  230257ms] [INFO] Helios: helios disable  @ :5
+[  230296ms] [ERROR] %cAY background: linear-gradient(-152deg,#6937ea,#377fea 65%);border-radius: 3px;color: white;padding: 1px 5px Missing required modules: prebidServerBidAdapter, s2sTesting @ :5
+[  230398ms] [ERROR] p: MISSING_MESSAGE: HealthAndActivities.healthAndActivities (en-IN)
+    at c (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8277)
+    at m (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8464)
+    at f (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8923)
+    at d (https://weather.com/_next/static/chunks/2rqgnaba-_iax.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:5:208629)
+    at oy (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:121829)
+    at i0 (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:142086)
+    at ls (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:153688)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196928)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196773
+    at sf (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196781) @ :5
+[  230434ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rQ (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:105197)
+    at ls (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:156238)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196928)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:191814
+    at se (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:191915)
+    at sW (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:218479)
+    at MessagePort.O (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:66637)
+[  230493ms] [ERROR] p: MISSING_MESSAGE: HealthAndActivities.healthAndActivities (en-IN)
+    at c (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8277)
+    at m (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8464)
+    at f (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8923)
+    at d (https://weather.com/_next/static/chunks/2rqgnaba-_iax.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:5:208629)
+    at oy (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:121829)
+    at i0 (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:142086)
+    at ls (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:153688)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196928)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196773
+    at sf (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196781) @ :5
+[  230542ms] [ERROR] p: MISSING_MESSAGE: HealthAndActivities.healthAndActivities (en-IN)
+    at c (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8277)
+    at m (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8464)
+    at f (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8923)
+    at d (https://weather.com/_next/static/chunks/2rqgnaba-_iax.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:5:208629)
+    at oy (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:121829)
+    at i0 (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:142086)
+    at ls (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:153688)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196928)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196773
+    at sf (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196781) @ :5
+[  230580ms] [ERROR] p: MISSING_MESSAGE: HealthAndActivities.healthAndActivities (en-IN)
+    at c (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8277)
+    at m (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8464)
+    at f (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8923)
+    at d (https://weather.com/_next/static/chunks/2rqgnaba-_iax.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:5:208629)
+    at oy (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:121829)
+    at i0 (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:142086)
+    at ls (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:153688)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196928)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196773
+    at sf (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196781) @ :5
+[  230608ms] [ERROR] Not signed in with the identity provider. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  230617ms] [WARNING] Identity value for 'email' is falsy (). This value will be removed from the request. @ :5
+[  230639ms] [WARNING] [GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.
+https://goo.gle/gpt-message#170 @ :5
+[  230641ms] [INFO] Helios: Process special slot  WX_Hidden @ :5
+[  230641ms] [INFO] Helios: Process special slot  MW_Interstitial @ :5
+[  230643ms] [WARNING] [GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171 @ :5
+[  230691ms] [WARNING] adgb - not initialized. @ :5
+[  232299ms] [ERROR] p: MISSING_MESSAGE: HealthAndActivities.healthAndActivities (en-IN)
+    at c (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8277)
+    at m (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8464)
+    at f (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8923)
+    at d (https://weather.com/_next/static/chunks/2rqgnaba-_iax.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:5:208629)
+    at oy (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:121829)
+    at i0 (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:142086)
+    at ls (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:153688)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196928)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196773
+    at sf (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196781) @ :5
+[  232400ms] [ERROR] p: MISSING_MESSAGE: HealthAndActivities.healthAndActivities (en-IN)
+    at c (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8277)
+    at m (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8464)
+    at f (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8923)
+    at d (https://weather.com/_next/static/chunks/2rqgnaba-_iax.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:5:208629)
+    at oy (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:121829)
+    at i0 (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:142086)
+    at ls (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:153688)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196928)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196773
+    at sf (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196781) @ :5
+[  232672ms] [WARNING] Placements With no Content: Below Content Thumbnails - today | Lazy Injected 1 @ :5
+[  232674ms] [WARNING] Placements With no Content: Below Content Thumbnails - today | Lazy Injected 1 @ :5
+[  233223ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  233223ms] [WARNING] The resource https://weather.com/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  236203ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ :5
+[  238083ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11466&redirect=https%3A%2F%2Fdsum-sec.casalemedia.com%2Frum%3Fcm_dsp_id%3D24%26external_user_id%3D%7Bviewer_token%7D&us_privacy=&gdpr=&gdpr_consent=&gpp=&gpp_sid=:0
+[  238083ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmQexOmfwzBE-r-u5Z2Qr7nNHRQc0piDMxPC7gCfyXnSHvF8khevIj3s8lfK7KKUjmu8eZXHPG-y_li7ATe2T1R4eSiB1nSHz8RM73Xcsqd38Z7NgJhT4OXKXp14xI6CoWPzZINg3UdM:0
+[  238086ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmT5OkZdMqkHkb4DrfB87pbEF6Dpkj6L4tXbKhaqzamzxDOFdjQXeCN2esIdFrCF12uEl-kR3vxjpjxWJeySQf0rYgtKPUxDx6hrYqzMjrmEUkZuJZT59n4Owi2IxeXYl8Gzh0_u_Rze_2YHleIvYoPJ3w:0
+[  238359ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  238992ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://weather.com/ozpjkkobzd/build/hfc71zebaaqy.index.js?r=1:0
+[  238992ms] [ERROR] Refused to execute script from 'https://weather.com/ozpjkkobzd/build/hfc71zebaaqy.index.js?r=1' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  238083ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmQexOmfwzBE-r-u5Z2Qr7nNHRQc0piDMxPC7gCfyXnSHvF8khevIj3s8lfK7KKUjmu8eZXHPG-y_li7ATe2T1R4eSiB1nSHz8RM73Xcsqd38Z7NgJhT4OXKXp14xI6CoWPzZINg3UdM:0
+[  238086ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmT5OkZdMqkHkb4DrfB87pbEF6Dpkj6L4tXbKhaqzamzxDOFdjQXeCN2esIdFrCF12uEl-kR3vxjpjxWJeySQf0rYgtKPUxDx6hrYqzMjrmEUkZuJZT59n4Owi2IxeXYl8Gzh0_u_Rze_2YHleIvYoPJ3w:0
+[  239882ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.1rx.io/usersync/rubicon/MRQ0MV0B-28-4QO0?gdpr=0&us_privacy=1---:0
+[  239893ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  239971ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  242781ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://verybouncy.com/build/hfc71zebaaqy.index.js:0
+[  245857ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://tr.blismedia.com/v1/api/sync/rubicon?gdpr=0&us_privacy=1---:0
+[  265676ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ https://sync.srv.stackadapt.com/sync?gdpr=0&us_privacy=1---&nid=140:0
+[  274833ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  274834ms] [WARNING] The resource https://weather.com/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  278271ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  278273ms] [WARNING] The resource https://weather.com/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  289239ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  289239ms] [WARNING] The resource https://weather.com/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  294813ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  294813ms] [WARNING] The resource https://weather.com/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  307528ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  307529ms] [WARNING] The resource https://weather.com/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  311437ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  311437ms] [WARNING] The resource https://weather.com/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  324854ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  324854ms] [WARNING] The resource https://weather.com/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  336410ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  337154ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  337161ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/us/new-york/city/new-york-city/today:0
+[  238083ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmQexOmfwzBE-r-u5Z2Qr7nNHRQc0piDMxPC7gCfyXnSHvF8khevIj3s8lfK7KKUjmu8eZXHPG-y_li7ATe2T1R4eSiB1nSHz8RM73Xcsqd38Z7NgJhT4OXKXp14xI6CoWPzZINg3UdM:0
+[  238086ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://csync.loopme.me/?pubid=11537&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_109}&redirect=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dloopme_eb_%26google_hm%3D{viewer_token}&google_gid=CAESEPI3RIesBKm18kNaExzR1QA&google_cver=1&google_push=AXcoOmT5OkZdMqkHkb4DrfB87pbEF6Dpkj6L4tXbKhaqzamzxDOFdjQXeCN2esIdFrCF12uEl-kR3vxjpjxWJeySQf0rYgtKPUxDx6hrYqzMjrmEUkZuJZT59n4Owi2IxeXYl8Gzh0_u_Rze_2YHleIvYoPJ3w:0

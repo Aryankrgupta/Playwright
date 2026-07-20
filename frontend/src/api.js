@@ -18,6 +18,7 @@ export async function runTask(task, onEvent, options = {}) {
       task,
       forceRefresh: !!options.forceRefresh,
       turbo: options.turbo !== false,
+      record: !!options.record,
     }),
   });
 

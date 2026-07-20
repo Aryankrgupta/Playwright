@@ -1,0 +1,201 @@
+- generic [active] [ref=f127e1]:
+  - generic [ref=f127e2]:
+    - navigation "Site Navigation Links" [ref=f127e4]:
+      - link "The Weather Company" [ref=f127e6] [cursor=pointer]:
+        - /url: /en-IN
+        - img "The Weather Company" [ref=f127e7]
+      - list [ref=f127e10]:
+        - listitem [ref=f127e11]:
+          - link "Forecasts":
+            - /url: /en-IN/us/new-york/city/new-york-city/today
+            - paragraph: Forecasts
+        - listitem [ref=f127e12]:
+          - link [ref=f127e13] [cursor=pointer]:
+            - /url: /en-IN/weather/radar/interactive/l/98e8083bb7de0fc467fd1e22a1692f8f200343e4e0acc3b3fc31e71d29113b54
+            - paragraph [ref=f127e16]: Radar
+        - listitem [ref=f127e17]:
+          - link [ref=f127e18] [cursor=pointer]:
+            - /url: /en-IN/us/new-york/city/new-york-city/allergy
+            - paragraph [ref=f127e21]: Allergy Tracker
+        - listitem [ref=f127e22]:
+          - link [ref=f127e23] [cursor=pointer]:
+            - /url: /en-IN/us/new-york/city/new-york-city/air-quality
+            - paragraph [ref=f127e28]: Air Quality Index
+        - listitem [ref=f127e29]:
+          - button [ref=f127e30] [cursor=pointer]:
+            - img "Overflow Menu Horizontal" [ref=f127e31]
+            - paragraph [ref=f127e34]: More
+      - list [ref=f127e35]:
+        - listitem [ref=f127e36]:
+          - link [ref=f127e37] [cursor=pointer]:
+            - /url: /en-IN/login
+            - img "User Avatar" [ref=f127e38]
+            - paragraph [ref=f127e42]: Sign in
+    - main [ref=f127e43]:
+      - generic [ref=f127e46]:
+        - button "New York City" [ref=f127e49] [cursor=pointer]
+        - generic [ref=f127e54]:
+          - button
+          - generic [ref=f127e55]:
+            - link "Today" [ref=f127e56] [cursor=pointer]:
+              - /url: /en-IN/us/new-york/city/new-york-city/today
+            - link "Hourly" [ref=f127e57] [cursor=pointer]:
+              - /url: /en-IN/us/new-york/city/new-york-city/hourbyhour
+            - link "10 Day" [ref=f127e58] [cursor=pointer]:
+              - /url: /en-IN/us/new-york/city/new-york-city/tenday
+            - link "Monthly" [ref=f127e59] [cursor=pointer]:
+              - /url: /en-IN/weather/monthly/l/98e8083bb7de0fc467fd1e22a1692f8f200343e4e0acc3b3fc31e71d29113b54
+          - button
+      - generic [ref=f127e60]:
+        - region "Advertisement" [ref=f127e65]
+        - generic [ref=f127e70]:
+          - region "Daily Forecast" [ref=f127e73]:
+            - heading "Daily Forecast Location New York City, New York, United States · as of 12:31 pm IST" [level=1] [ref=f127e74]:
+              - text: Daily Forecast
+              - generic [ref=f127e75]:
+                - img "Location" [ref=f127e76]
+                - text: New York City, New York, United States
+                - generic [ref=f127e78]: · as of 12:31 pm IST
+            - generic [ref=f127e81]:
+              - generic [ref=f127e82]: Day
+              - generic [ref=f127e83]: Conditions
+              - generic [ref=f127e84]: Temperature
+          - region "Advertisement" [ref=f127e120]
+          - region "Radar -" [ref=f127e126]:
+            - link "Loading Map Attribution" [ref=f127e127] [cursor=pointer]:
+              - /url: /en-IN/weather/radar/interactive/l/98e8083bb7de0fc467fd1e22a1692f8f200343e4e0acc3b3fc31e71d29113b54
+              - generic "Loading" [ref=f127e129]
+              - button "Map Attribution" [ref=f127e133]:
+                - img "Mapbox Logo" [ref=f127e134]
+        - generic [ref=f127e141]:
+          - region "Advertisement" [ref=f127e144]
+          - generic [ref=f127e148]: Loading air quality data...
+          - region "Advertisement" [ref=f127e154]
+          - region "Advertisement" [ref=f127e160]
+        - generic [ref=f127e165]:
+          - region "Advertisement" [ref=f127e168]
+          - generic:
+            - generic:
+              - region "Advertisement"
+      - generic [ref=f127e173]:
+        - generic [ref=f127e174]:
+          - generic [ref=f127e175]:
+            - list [ref=f127e176]:
+              - listitem [ref=f127e177]:
+                - link [ref=f127e178] [cursor=pointer]:
+                  - /url: https://www.weathercompany.com/
+                  - img "The Weather Company" [ref=f127e179]
+              - listitem [ref=f127e180]:
+                - link [ref=f127e181] [cursor=pointer]:
+                  - /url: https://weather.com/
+                  - img "The Weather Channel" [ref=f127e182]
+              - listitem [ref=f127e183]:
+                - link [ref=f127e184] [cursor=pointer]:
+                  - /url: https://www.wunderground.com/
+                  - img "Weather Underground" [ref=f127e185]
+              - listitem [ref=f127e186]:
+                - link [ref=f127e187] [cursor=pointer]:
+                  - /url: https://weather.com/storm-radar
+                  - img "Storm Radar" [ref=f127e188]
+            - paragraph [ref=f127e189]:
+              - text: The Weather Channel is the world's most accurate forecaster according to ForecastWatch,
+              - link "Global and Regional Weather Forecast Accuracy Overview" [ref=f127e190] [cursor=pointer]:
+                - /url: https://forecastwatch.com/AccuracyOverview2021-2024
+              - text: ", 2021-2024, commissioned by The Weather Company."
+            - paragraph [ref=f127e191]: Weather Channel.
+          - generic [ref=f127e193]:
+            - generic [ref=f127e194]:
+              - paragraph [ref=f127e195]: Privacy & Legal
+              - list [ref=f127e196]:
+                - listitem [ref=f127e197]:
+                  - link "Terms of Use" [ref=f127e198] [cursor=pointer]:
+                    - /url: /en-IN/privacy/terms-of-use
+                    - paragraph [ref=f127e199]:
+                      - generic [ref=f127e200]: Terms of Use
+                - listitem [ref=f127e201]:
+                  - link "Privacy Policy" [ref=f127e202] [cursor=pointer]:
+                    - /url: /en-IN/privacy/privacy-policy
+                    - paragraph [ref=f127e203]:
+                      - generic [ref=f127e204]: Privacy Policy
+                - listitem [ref=f127e205]:
+                  - link "Data Rights" [ref=f127e206] [cursor=pointer]:
+                    - /url: /en-IN/data-rights
+                    - paragraph [ref=f127e207]:
+                      - generic [ref=f127e208]: Data Rights
+                - listitem [ref=f127e209]:
+                  - link "Privacy Settings" [ref=f127e210] [cursor=pointer]:
+                    - /url: /en-IN/privacy-settings
+                    - paragraph [ref=f127e211]:
+                      - generic [ref=f127e212]: Privacy Settings
+                - listitem [ref=f127e213]:
+                  - link "Data Vendors" [ref=f127e214] [cursor=pointer]:
+                    - /url: /en-IN/data-vendors
+                    - paragraph [ref=f127e215]:
+                      - generic [ref=f127e216]: Data Vendors
+                - listitem [ref=f127e217]:
+                  - link "AdChoices" [ref=f127e218] [cursor=pointer]:
+                    - /url: /en-US/services/ad-choices
+                    - paragraph [ref=f127e219]:
+                      - generic [ref=f127e220]: AdChoices
+                - listitem [ref=f127e221]:
+                  - link "Accessibility Statement" [ref=f127e222] [cursor=pointer]:
+                    - /url: /en-IN/accessibility-statement
+                    - paragraph [ref=f127e223]:
+                      - generic [ref=f127e224]: Accessibility Statement
+            - generic [ref=f127e225]:
+              - paragraph [ref=f127e227]: More
+              - list [ref=f127e228]:
+                - listitem [ref=f127e229]:
+                  - link "Feedback External Link" [ref=f127e230] [cursor=pointer]:
+                    - /url: //support.weather.com?language=en
+                    - paragraph [ref=f127e231]:
+                      - generic [ref=f127e232]: Feedback
+                    - img "External Link" [ref=f127e233]
+                - listitem [ref=f127e236]:
+                  - link "News Room External Link" [ref=f127e237] [cursor=pointer]:
+                    - /url: https://www.weathercompany.com/newsroom
+                    - paragraph [ref=f127e238]:
+                      - generic [ref=f127e239]: News Room
+                    - img "External Link" [ref=f127e240]
+                - listitem [ref=f127e243]:
+                  - link "Weather Data APIs External Link" [ref=f127e244] [cursor=pointer]:
+                    - /url: https://www.wunderground.com/weather/api
+                    - paragraph [ref=f127e245]:
+                      - generic [ref=f127e246]: Weather Data APIs
+                    - img "External Link" [ref=f127e247]
+                - listitem [ref=f127e250]:
+                  - link "Weather Data APIs External Link" [ref=f127e251] [cursor=pointer]:
+                    - /url: https://www.weathercompany.com/weather-data-apis/
+                    - paragraph [ref=f127e252]:
+                      - generic [ref=f127e253]: Weather Data APIs
+                    - img "External Link" [ref=f127e254]
+        - generic [ref=f127e258]:
+          - list [ref=f127e260]:
+            - listitem [ref=f127e261]:
+              - link [ref=f127e262] [cursor=pointer]:
+                - /url: https://www.facebook.com/TheWeatherChannel
+                - img "Facebook" [ref=f127e263]
+            - listitem [ref=f127e266]:
+              - link [ref=f127e267] [cursor=pointer]:
+                - /url: http://www.twitter.com/weatherchannel
+                - img "X" [ref=f127e268]
+            - listitem [ref=f127e270]:
+              - link [ref=f127e271] [cursor=pointer]:
+                - /url: http://instagram.com/weatherchannel
+                - img "Instagram" [ref=f127e272]
+            - listitem [ref=f127e276]:
+              - link [ref=f127e277] [cursor=pointer]:
+                - /url: http://www.youtube.com/user/TheWeatherChannel/
+                - img "Youtube" [ref=f127e278]
+          - paragraph [ref=f127e281]: © The Weather Company, LLC 2026
+          - list [ref=f127e283]:
+            - listitem [ref=f127e284]:
+              - link [ref=f127e285] [cursor=pointer]:
+                - /url: http://www.exploregeorgia.org/weather-and-travel-tips
+                - img "Explore Georgia" [ref=f127e286]
+            - listitem [ref=f127e287]:
+              - link [ref=f127e288] [cursor=pointer]:
+                - /url: https://www.essentialaccessibility.com/the-weather-channel?utm_source=theweatherchannelhomepage&utm_medium=iconlarge&utm_term=eachannelpage&utm_content=header&utm_campaign=theweatherchannel
+                - img "Essential Accessibility" [ref=f127e289]
+  - region "Notifications alt+T"
+  - alert [ref=f127e290]

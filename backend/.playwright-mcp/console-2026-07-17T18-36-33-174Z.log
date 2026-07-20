@@ -1,0 +1,2 @@
+[    1551ms] [ERROR] Error: <path> attribute d: Unexpected end of attribute. Expected number, "…zM8.65 3.35L5.86". @ https://www.imdb.com/chart/top/:1273
+[    2360ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://dqpnq362acqdi.cloudfront.net/_next/static/chunks/276-6cb5717f2856e15a.js:0

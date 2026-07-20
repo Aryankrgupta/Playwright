@@ -1,0 +1,405 @@
+- generic [active] [ref=f3e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f3e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f3e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f3e8]:
+    - search [ref=f3e9]:
+      - generic [ref=f3e12]:
+        - link [ref=f3e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQpYkNCAo
+          - img "Go to Google Home" [ref=f3e14]
+        - generic [ref=f3e15]:
+          - combobox "Search" [ref=f3e18]: latest supercar news latest supercar news
+          - generic [ref=f3e19]:
+            - button "Clear" [ref=f3e21] [cursor=pointer]
+            - generic [ref=f3e26]:
+              - button "Search by voice" [ref=f3e27] [cursor=pointer]
+              - button "Search by image" [ref=f3e30] [cursor=pointer]
+        - button "Search" [ref=f3e33] [cursor=pointer]
+    - generic [ref=f3e38]:
+      - button "Settings" [ref=f3e40] [cursor=pointer]
+      - button "Share" [ref=f3e46] [cursor=pointer]
+      - generic [ref=f3e52]:
+        - button "Google apps" [ref=f3e54] [cursor=pointer]
+        - link "Sign in" [ref=f3e59] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dlatest%2Bsupercar%2Bnews%26sca_esv%3D5999353cb99206ac%26source%3Dhp%26ei%3Ded9dasvFL_mOseMP0o6jiAw%26iflsig%3DABILxe8AAAAAal3tiT0cweqOe5cV6KeENcqS9o2o5hU9%26ved%3D0ahUKEwiL5t-Z7uCVAxV5R2wGHVLHCMEQ4dUDCDE%26uact%3D5%26oq%3Dlatest%2Bsupercar%2Bnews%26gs_lp%3DEgdnd3Mtd2l6IhRsYXRlc3Qgc3VwZXJjYXIgbmV3c0iiAVAAWABwAHgAkAEAmAEAoAEAqgEAuAEDyAEA-AEBmAIAoAIAmAMAkgcAoAcAsgcAuAcAwgcAyAcAgAgB%26sclient%3Dgws-wiz%26sei%3Dhd9dasK4EKn4seMPvsLiyAY&ec=futura_srp_og_si_72236_p
+  - generic [ref=f3e61]:
+    - navigation [ref=f3e67]:
+      - generic [ref=f3e73]:
+        - list [ref=f3e74]:
+          - listitem [ref=f3e75]:
+            - link "AI Mode" [ref=f3e78] [cursor=pointer]:
+              - /url: /search?q=latest+supercar+news&sca_esv=5999353cb99206ac&udm=50&source=hp&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY14ya9K8VpTgF_eKNMsgpxIUqDlqU5tTbU2ClsAEb6VuCd3GUZ_lZVJ8QaU58TSzvYL_trjH5VxUU-LjRorGffexLi0xPkCM50P0sxbfRcLehMirL8pSLmanmTIFRYUnnxQZO-EGviqPH794R7ycW9BNixeHA&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQ2J8OegQIFBAD
+          - listitem [ref=f3e82]:
+            - link "All" [disabled] [ref=f3e83]
+          - listitem [ref=f3e86]:
+            - link "News" [ref=f3e87] [cursor=pointer]:
+              - /url: /search?sca_esv=5999353cb99206ac&q=latest+supercar+news&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY14ya9K8VpTgF_eKNMsgpxIUqDlqU5tTbU2ClsAEb6VuCd3GUZ_lZVJ8QaU58TSzvYL_trjH5VxUU-LjRorGffexLi0xPkCM50P0sxbfRcLehMirL8pSLmanmTIFRYUnnxQZO-EGviqPH794R7ycW9BNixeHA&sa=X&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQ0pQJegQIGhAB
+          - listitem [ref=f3e90]:
+            - link "Videos" [ref=f3e91] [cursor=pointer]:
+              - /url: /search?sca_esv=5999353cb99206ac&udm=7&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY14ya9K8VpTgF_eKNMsgpxIUqDlqU5tTbU2ClsAEb6VuCd3GUZ_lZVJ8QaU58TSzvYL_trjH5VxUU-LjRorGffexLi0xPkCM50P0sxbfRcLehMirL8pSLmanmTIFRYUnnxQZO-EGviqPH794R7ycW9BNixeHA&q=latest+supercar+news&sa=X&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQtKgLegQIGRAB
+          - listitem [ref=f3e94]:
+            - link "Images" [ref=f3e95] [cursor=pointer]:
+              - /url: /search?sca_esv=5999353cb99206ac&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY14ya9K8VpTgF_eKNMsgpxIUqDlqU5tTbU2ClsAEb6VuCd3GUZ_lZVJ8QaU58TSzvYL_trjH5VxUU-LjRorGffexLi0xPkCM50P0sxbfRcLehMirL8pSLmanmTIFRYUnnxQZO-EGviqPH794R7ycW9BNixeHA&q=latest+supercar+news&sa=X&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQtKgLegQIFxAB
+          - listitem [ref=f3e98]:
+            - link "Shopping" [ref=f3e99] [cursor=pointer]:
+              - /url: /search?sca_esv=5999353cb99206ac&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY14ya9K8VpTgF_eKNMsgpxIUqDlqU5tTbU2ClsAEb6VuCd3GUZ_lZVJ8QaU58TSzvYL_trjH5VxUU-LjRorGffexLi0xPkCM50P0sxbfRcLehMirL8pSLmanmTIFRYUnnxQZO-EGviqPH794R7ycW9BNixeHA&q=latest+supercar+news&ved=1t:220175&ictx=111
+          - listitem [ref=f3e102]:
+            - link "Short videos" [ref=f3e103] [cursor=pointer]:
+              - /url: /search?sca_esv=5999353cb99206ac&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY14ya9K8VpTgF_eKNMsgpxIUqDlqU5tTbU2ClsAEb6VuCd3GUZ_lZVJ8QaU58TSzvYL_trjH5VxUU-LjRorGffexLi0xPkCM50P0sxbfRcLehMirL8pSLmanmTIFRYUnnxQZO-EGviqPH794R7ycW9BNixeHA&q=latest+supercar+news&sa=X&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQs6gLegQIGBAB
+          - listitem [ref=f3e106]:
+            - button [ref=f3e107] [cursor=pointer]:
+              - generic "More filters" [ref=f3e108]: More
+        - button "Tools" [ref=f3e115] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f3e122]
+    - generic [ref=f3e127]:
+      - generic [ref=f3e146]:
+        - generic [ref=f3e148]:
+          - generic [ref=f3e150]:
+            - heading "AI Overview" [level=2] [ref=f3e154]
+            - button "Listen" [ref=f3e158]
+            - button "About this result" [ref=f3e168]
+          - generic [ref=f3e190]:
+            - generic [ref=f3e193]:
+              - generic [ref=f3e194]:
+                - button [ref=f3e197]:
+                  - img "Here are the 20 current supercars you should know about ..." [ref=f3e198]
+                - text: Latest supercar developments include
+                - mark [ref=f3e199]: Ferrari's recent India showcase of the Amalfi Spider at an ex-showroom price of ₹4.6 crore
+                - text: ", McLaren’s highly anticipated P50 with a manual gearbox debuting at 'The Quail', and the McMurtry production fan car making its Goodwood debut."
+                - generic [ref=f3e201]:
+                  - link "Instagram (+3) – View related links" [ref=f3e202] [cursor=pointer]:
+                    - /url: https://www.instagram.com/reel/Da4uIdqI1cT/
+                  - button "Instagram (+3) – View related links" [ref=f3e203] [cursor=pointer]:
+                    - generic [ref=f3e205]:
+                      - generic [ref=f3e206]: Instagram
+                      - generic [ref=f3e207]: ·MotorBeam
+                      - generic [ref=f3e208]: "+3"
+              - generic [ref=f3e214]:
+                - generic [ref=f3e215]: "For a look at Bugatti's latest engineering feat and the aerodynamic development behind the Tourbillon, check out this overview:"
+                - generic [ref=f3e217]:
+                  - link [ref=f3e220] [cursor=pointer]:
+                    - /url: https://www.instagram.com/reel/Da5RMD5tZpw/
+                    - generic [ref=f3e221]:
+                      - img "Related video thumbnail" [ref=f3e222]
+                      - generic [ref=f3e227]: 0:10
+                  - link [ref=f3e232] [cursor=pointer]:
+                    - /url: https://www.instagram.com/reel/Da5RMD5tZpw/
+                    - generic [ref=f3e233]:
+                      - generic [ref=f3e234]: Ferrari has launched the Amalfi Spider in India at ₹4.6 ...
+                      - generic [ref=f3e235]:
+                        - generic [ref=f3e236]: 92K views
+                        - text: · 2 days ago
+                      - generic [ref=f3e237]: Instagram · PowerDrift
+              - generic [ref=f3e242]:
+                - text: Would you like to know more about the latest
+                - strong [ref=f3e243]: electric supercar market
+                - text: (such as the Rimac Nevera or upcoming EV platforms) or are you interested in upcoming
+                - strong [ref=f3e244]: track events and auctions
+                - text: "?"
+            - generic [ref=f3e249]:
+              - generic [ref=f3e251]:
+                - button [ref=f3e252] [cursor=pointer]:
+                  - generic [ref=f3e260]: 4 sites
+                - button [ref=f3e266] [cursor=pointer]
+              - list [ref=f3e271]:
+                - listitem [ref=f3e272]:
+                  - generic [ref=f3e273]:
+                    - link [ref=f3e274] [cursor=pointer]:
+                      - /url: https://www.instagram.com/reel/Da4uIdqI1cT/
+                    - generic [ref=f3e275]:
+                      - generic [ref=f3e276]:
+                        - generic [ref=f3e277]:
+                          - generic [ref=f3e278]: Ferrari has showcased the Amalfi Spider In India today… This ...
+                          - generic [ref=f3e279]: "17 Jul 2026 — #Ferrari #FerrariAmalfi #AmalfiSpider #FerrariIndia #Supercar #LuxuryCars #Convertible #OpenTop #CarLaunch #ExoticCars #MotorFutur..."
+                        - generic [ref=f3e281]: 0:54
+                      - generic [ref=f3e287]:
+                        - generic [ref=f3e294]:
+                          - generic [ref=f3e295]: Instagram
+                          - generic [ref=f3e296]: ·
+                          - generic [ref=f3e297]: MotorBeam
+                        - button [ref=f3e301] [cursor=pointer]
+                - listitem [ref=f3e307]:
+                  - generic [ref=f3e308]:
+                    - link [ref=f3e309] [cursor=pointer]:
+                      - /url: https://www.batmangarage.com/news/
+                    - generic [ref=f3e310]:
+                      - generic [ref=f3e312]:
+                        - generic [ref=f3e313]: Supercar News — Latest Releases | Batman Garage
+                        - generic [ref=f3e314]: McMurtry Automotive unveiled the production version of its record-breaking fan car. Single-seat track-only hypercar with 986 hp, 0...
+                      - generic [ref=f3e317]:
+                        - generic [ref=f3e320]: BatmanGarage
+                        - button [ref=f3e326] [cursor=pointer]
+              - button [ref=f3e332] [cursor=pointer]:
+                - generic [ref=f3e333]: Show all
+        - button "Show more AI Overview" [ref=f3e337]:
+          - generic [ref=f3e338] [cursor=pointer]: Show more
+      - main [ref=f3e345]:
+        - generic [ref=f3e349]:
+          - generic [ref=f3e352]:
+            - heading "Web results" [level=2] [ref=f3e353]
+            - generic [ref=f3e354]:
+              - generic [ref=f3e357]:
+                - link "The Supercar Blog - All About Supercars and High Octane ... The Supercar Blog https://www.thesupercarblog.com" [ref=f3e359] [cursor=pointer]:
+                  - /url: https://www.thesupercarblog.com/
+                  - heading "The Supercar Blog - All About Supercars and High Octane ..." [level=3] [ref=f3e360]
+                  - generic [ref=f3e366]:
+                    - generic [ref=f3e367]: The Supercar Blog
+                    - generic [ref=f3e369]: https://www.thesupercarblog.com
+                - button "About this result" [ref=f3e373] [cursor=pointer]
+              - generic [ref=f3e379]:
+                - generic [ref=f3e380]:
+                  - emphasis [ref=f3e381]: First Ferrari Luce Chassis 0 heads to auction, expected to fetch over $1.1M
+                  - text: · July 17, 2026 ; A rare Bugatti EB110 GT sells for a record $3.8 million at auction.
+                - link "Read more" [ref=f3e382] [cursor=pointer]:
+                  - /url: https://www.thesupercarblog.com/#:~:text=First%20Ferrari%20Luce%20Chassis%200,expected%20to%20fetch%20over%20%241.1M&text=July%2017%2C%202026&text=A%20rare%20Bugatti%20EB110%20GT,record%20%243.8%20million%20at%20auction
+          - generic [ref=f3e386]:
+            - generic [ref=f3e389]:
+              - link "Supercars Top Gear https://www.topgear.com › car-news › supercars" [ref=f3e391] [cursor=pointer]:
+                - /url: https://www.topgear.com/car-news/supercars
+                - heading "Supercars" [level=3] [ref=f3e392]
+                - generic [ref=f3e398]:
+                  - generic [ref=f3e399]: Top Gear
+                  - generic [ref=f3e401]: https://www.topgear.com › car-news › supercars
+              - button "About this result" [ref=f3e405] [cursor=pointer]
+            - generic [ref=f3e411]:
+              - generic [ref=f3e412]:
+                - text: Latest ;
+                - emphasis [ref=f3e413]: Ferrari 849 Testarossa Spider review
+                - text: ": less roof means more drama for Ferrari's time-hopping supercar. 15 Jul 2026 ; Nilu27's new 6.5-litre naturally ..."
+              - link "Read more" [ref=f3e414] [cursor=pointer]:
+                - /url: https://www.topgear.com/car-news/supercars#:~:text=Latest&text=Ferrari%20849%20Testarossa%20Spider%20review%3A,15%20Jul%202026&text=Nilu27's%20new%206.5%2Dlitre%20naturally%20aspirated,power%20than%20it%20first%20thought
+          - generic [ref=f3e418]:
+            - generic [ref=f3e421]:
+              - link "Supercars - Automotive News and Trends Motor1.com https://www.motor1.com › News" [ref=f3e423] [cursor=pointer]:
+                - /url: https://www.motor1.com/news/category/supercars/
+                - heading "Supercars - Automotive News and Trends" [level=3] [ref=f3e424]
+                - generic [ref=f3e430]:
+                  - generic [ref=f3e431]: Motor1.com
+                  - generic [ref=f3e433]: https://www.motor1.com › News
+              - button "About this result" [ref=f3e437] [cursor=pointer]
+            - generic [ref=f3e443]:
+              - generic [ref=f3e444]:
+                - emphasis [ref=f3e445]: A Wild New V10 Off-Road Supercar Is Coming From Rezvani
+                - text: · Bugatti's Last W16-Powered Track Car Is Now Street Legal · This V12 Ferrari-Based Shooting Brake Is A ...
+              - link "Read more" [ref=f3e446] [cursor=pointer]:
+                - /url: https://www.motor1.com/news/category/supercars/#:~:text=A%20Wild%20New%20V10%20Off%2DRoad,Supercar%20Is%20Coming%20From%20Rezvani&text=Bugatti's%20Last%20W16%2DPowered%20Track%20Car,Is%20Now%20Street%20Legal&text=This%20V12%20Ferrari%2DBased%20Shooting%20Brake,Is%20A%20Glass%20Masterpiece
+          - generic [ref=f3e450]:
+            - generic [ref=f3e453]:
+              - link "2026 Repco Supercars Championship | Supercars Supercars https://www.supercars.com" [ref=f3e455] [cursor=pointer]:
+                - /url: https://www.supercars.com/
+                - heading "2026 Repco Supercars Championship | Supercars" [level=3] [ref=f3e456]
+                - generic [ref=f3e462]:
+                  - generic [ref=f3e463]: Supercars
+                  - generic [ref=f3e465]: https://www.supercars.com
+              - button "About this result" [ref=f3e469] [cursor=pointer]
+            - generic [ref=f3e476]:
+              - text: News, video highlights, calendar, results and live timing from the
+              - emphasis [ref=f3e477]: Repco Supercars Championship
+              - text: ", formerly the V8 Supercars Championship."
+          - generic [ref=f3e481]:
+            - generic [ref=f3e484]:
+              - link "Supercars - Hypercars - Exotic Cars | Photos & Reviews MotorTrend https://www.motortrend.com › supercars" [ref=f3e486] [cursor=pointer]:
+                - /url: https://www.motortrend.com/supercars
+                - heading "Supercars - Hypercars - Exotic Cars | Photos & Reviews" [level=3] [ref=f3e487]
+                - generic [ref=f3e493]:
+                  - generic [ref=f3e494]: MotorTrend
+                  - generic [ref=f3e496]: https://www.motortrend.com › supercars
+              - button "About this result" [ref=f3e500] [cursor=pointer]
+            - generic [ref=f3e507]:
+              - text: If you're into supercars, the
+              - emphasis [ref=f3e508]: MotorTrend Supercar section
+              - text: has you covered with photos and reviews of the hottest supercars in the world, ...
+          - generic [ref=f3e512]:
+            - generic [ref=f3e515]:
+              - link "Supercars CarBuzz https://carbuzz.com › tags › supercars" [ref=f3e517] [cursor=pointer]:
+                - /url: https://carbuzz.com/tags/supercars/
+                - heading "Supercars" [level=3] [ref=f3e518]
+                - generic [ref=f3e524]:
+                  - generic [ref=f3e525]: CarBuzz
+                  - generic [ref=f3e527]: https://carbuzz.com › tags › supercars
+              - button "About this result" [ref=f3e531] [cursor=pointer]
+            - generic [ref=f3e538]:
+              - emphasis [ref=f3e539]: Read all the latest supercar news
+              - text: ", with breaking stories and pictures as well as interesting features and insightful editorials."
+          - generic [ref=f3e544]:
+            - heading "People also ask" [level=2] [ref=f3e546]
+            - generic [ref=f3e547]:
+              - button "What is the latest supercar?" [ref=f3e553] [cursor=pointer]
+              - button "Who won the V8 Supercars today?" [ref=f3e567] [cursor=pointer]
+              - button "What is the best supercar right now?" [ref=f3e581] [cursor=pointer]
+              - button "What is the new supercar in 2026?" [ref=f3e595] [cursor=pointer]
+          - generic [ref=f3e605]:
+            - heading "Web results" [level=2] [ref=f3e606]
+            - generic [ref=f3e607]:
+              - generic [ref=f3e610]:
+                - link "V8 Supercars News & Rumours Fastrack Experiences https://fastrackexperiences.com.au › news" [ref=f3e612] [cursor=pointer]:
+                  - /url: https://fastrackexperiences.com.au/news/?srsltid=AfmBOoqcPAU0SlJCv_FB7fgGizt9kxhzandO2tSAGrmVerGAEd1EtIN8
+                  - heading "V8 Supercars News & Rumours" [level=3] [ref=f3e613]
+                  - generic [ref=f3e619]:
+                    - generic [ref=f3e620]: Fastrack Experiences
+                    - generic [ref=f3e622]: https://fastrackexperiences.com.au › news
+                - button "About this result" [ref=f3e626] [cursor=pointer]
+              - generic [ref=f3e633]:
+                - text: We chime in on the
+                - emphasis [ref=f3e634]: latest V8 Supercars news
+                - text: ", and share exclusive info about upcoming events, special experiences, and competitions for the Fastrack ..."
+          - generic [ref=f3e638]:
+            - generic [ref=f3e641]:
+              - link "Supercar News — Latest Releases BatmanGarage https://www.batmangarage.com › news" [ref=f3e643] [cursor=pointer]:
+                - /url: https://www.batmangarage.com/news/
+                - heading "Supercar News — Latest Releases" [level=3] [ref=f3e644]
+                - generic [ref=f3e650]:
+                  - generic [ref=f3e651]: BatmanGarage
+                  - generic [ref=f3e653]: https://www.batmangarage.com › news
+              - button "About this result" [ref=f3e657] [cursor=pointer]
+            - generic [ref=f3e664]:
+              - emphasis [ref=f3e665]: Goodwood debut July 9–12, 2026
+              - text: . Hypercar Debuts at Goodwood. Audi unveils its first series-production supercar
+          - generic [ref=f3e669]:
+            - generic [ref=f3e671]:
+              - heading "What people are saying" [level=2] [ref=f3e672]
+              - generic [ref=f3e675]: Trending posts and discussions
+            - generic [ref=f3e686]:
+              - list [ref=f3e688]:
+                - generic [ref=f3e689]:
+                  - listitem [ref=f3e690]:
+                    - generic [ref=f3e694]:
+                      - link "0:54 Ferrari has showcased the Amalfi Spider In India today… This supercar is a soft top convertible while still running a 640 bhp 3855cc twin-turbo V8 underneath! 12.5K+ likes · 3 days ago motorbeam Instagram" [ref=f3e695] [cursor=pointer]:
+                        - /url: https://www.instagram.com/reel/Da4uIdqI1cT/
+                        - generic [ref=f3e696]: 0:54
+                        - generic [ref=f3e705]:
+                          - heading "Ferrari has showcased the Amalfi Spider In India today… This supercar is a soft top convertible while still running a 640 bhp 3855cc twin-turbo V8 underneath!" [level=3] [ref=f3e707]
+                          - generic [ref=f3e708]: 12.5K+ likes · 3 days ago
+                          - generic [ref=f3e721]:
+                            - generic [ref=f3e722]: motorbeam
+                            - generic [ref=f3e723]: Instagram
+                      - button "About this result" [ref=f3e727] [cursor=pointer]
+                  - listitem [ref=f3e732]:
+                    - generic [ref=f3e736]:
+                      - link "0:11 Ferrari has finally taken the wraps off the Amalfi Spider in India. Let us know your thoughts in the comments. 2.6K+ likes · 3 days ago motoroctane Instagram" [ref=f3e737] [cursor=pointer]:
+                        - /url: https://www.instagram.com/reel/Da4t-i3uNiq/
+                        - generic [ref=f3e738]: 0:11
+                        - generic [ref=f3e747]:
+                          - heading "Ferrari has finally taken the wraps off the Amalfi Spider in India. Let us know your thoughts in the comments." [level=3] [ref=f3e749]
+                          - generic [ref=f3e750]: 2.6K+ likes · 3 days ago
+                          - generic [ref=f3e763]:
+                            - generic [ref=f3e764]: motoroctane
+                            - generic [ref=f3e765]: Instagram
+                      - button "About this result" [ref=f3e769] [cursor=pointer]
+                  - listitem [ref=f3e774]:
+                    - generic [ref=f3e778]:
+                      - 'link "1:07 Here’s a quick walkaround of the new McLaren 788HS. Let us know your favourite McLaren of all time in the comments! #PowerDrift #McLaren #McLaren788HS #Goodwood #FestivalOfSpeed 710+ likes · 2 days ago powerdrift Instagram" [ref=f3e779] [cursor=pointer]':
+                        - /url: https://www.instagram.com/reel/Da5IIUVtn85/
+                        - generic [ref=f3e780]: 1:07
+                        - generic [ref=f3e789]:
+                          - 'heading "Here’s a quick walkaround of the new McLaren 788HS. Let us know your favourite McLaren of all time in the comments! #PowerDrift #McLaren #McLaren788HS #Goodwood #FestivalOfSpeed" [level=3] [ref=f3e791]'
+                          - generic [ref=f3e792]: 710+ likes · 2 days ago
+                          - generic [ref=f3e805]:
+                            - generic [ref=f3e806]: powerdrift
+                            - generic [ref=f3e807]: Instagram
+                      - button "About this result" [ref=f3e811] [cursor=pointer]
+                  - listitem [ref=f3e816]:
+                    - generic [ref=f3e821]:
+                      - 'link "0:51 Ferrari''s latest hybrid supercar just lost its roof. The question is... would you choose the Spider or stick with the coupe? #ferrari #supercar #drivecomau 100+ likes · 2 days ago drivecomau Instagram" [ref=f3e822] [cursor=pointer]':
+                        - /url: https://www.instagram.com/reel/Da43MjgB8fJ/
+                        - generic [ref=f3e823]: 0:51
+                        - generic [ref=f3e832]:
+                          - 'heading "Ferrari''s latest hybrid supercar just lost its roof. The question is... would you choose the Spider or stick with the coupe? #ferrari #supercar #drivecomau" [level=3] [ref=f3e834]'
+                          - generic [ref=f3e835]: 100+ likes · 2 days ago
+                          - generic [ref=f3e848]:
+                            - generic [ref=f3e849]: drivecomau
+                            - generic [ref=f3e850]: Instagram
+                      - button "About this result" [ref=f3e854] [cursor=pointer]
+                  - listitem [ref=f3e859]:
+                    - generic [ref=f3e864]:
+                      - link "A closer look at the contractual situation for each circuit currently on the Supercars schedule 🕵️ 50+ reactions · 3 days ago v8sleuth Facebook" [ref=f3e865] [cursor=pointer]:
+                        - /url: https://www.facebook.com/v8sleuth/posts/a-closer-look-at-the-contractual-situation-for-each-circuit-currently-on-the-sup/1387277066864462/
+                        - generic [ref=f3e869]:
+                          - heading "A closer look at the contractual situation for each circuit currently on the Supercars schedule 🕵️" [level=3] [ref=f3e871]
+                          - generic [ref=f3e872]: 50+ reactions · 3 days ago
+                          - generic [ref=f3e884]:
+                            - generic [ref=f3e885]: v8sleuth
+                            - generic [ref=f3e886]: Facebook
+                      - button "About this result" [ref=f3e890] [cursor=pointer]
+              - button [ref=f3e895] [cursor=pointer]
+        - generic [ref=f3e901]:
+          - generic [ref=f3e906]:
+            - heading "People also search for" [level=2] [ref=f3e908]
+            - generic [ref=f3e910]:
+              - generic [ref=f3e911]:
+                - link "Latest supercar news and rumors" [ref=f3e915] [cursor=pointer]:
+                  - /url: /search?sca_esv=5999353cb99206ac&q=Latest+supercar+news+and+rumors&sa=X&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQ1QJ6BAguEAE
+                - link "Latest supercar news mercedes" [ref=f3e929] [cursor=pointer]:
+                  - /url: /search?sca_esv=5999353cb99206ac&q=Latest+supercar+news+mercedes&sa=X&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQ1QJ6BAg7EAE
+                - link "Supercar websites" [ref=f3e943] [cursor=pointer]:
+                  - /url: /search?sca_esv=5999353cb99206ac&q=Supercar+websites&sa=X&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQ1QJ6BAg5EAE
+                - link "Supercar magazine" [ref=f3e957] [cursor=pointer]:
+                  - /url: /search?sca_esv=5999353cb99206ac&q=Supercar+magazine&sa=X&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQ1QJ6BAgvEAE
+              - generic [ref=f3e968]:
+                - link "Top Gear Supercars Magazine" [ref=f3e972] [cursor=pointer]:
+                  - /url: /search?sca_esv=5999353cb99206ac&q=Top+Gear+Supercars+Magazine&sa=X&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQ1QJ6BAg3EAE
+                - link "Supercars list" [ref=f3e986] [cursor=pointer]:
+                  - /url: /search?sca_esv=5999353cb99206ac&q=Supercars+list&sa=X&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQ1QJ6BAg2EAE
+                - link "Top Gear supercars episode" [ref=f3e1000] [cursor=pointer]:
+                  - /url: /search?sca_esv=5999353cb99206ac&q=Top+Gear+supercars+episode&sa=X&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQ1QJ6BAgyEAE
+                - link "Top 100 supercars" [ref=f3e1014] [cursor=pointer]:
+                  - /url: /search?sca_esv=5999353cb99206ac&q=Top+100+supercars&sa=X&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQ1QJ6BAgwEAE
+          - navigation [ref=f3e1025]:
+            - heading "Page navigation" [level=1] [ref=f3e1026]
+            - text: "1"
+            - link "Page 2" [ref=f3e1029] [cursor=pointer]:
+              - /url: /search?q=latest+supercar+news&sca_esv=5999353cb99206ac&ei=hd9dav-8J4uYseMPzIvw0Qs&start=10&sa=N&sstk=AU9db-BRH6SrvvvNA01dxJTHRPzvy6AteKbigbPotJQzTn1K8qmWGrRBQNNpmXQhGWU_Vf4Lufe3Z84mMvaI_UkXrDfNx-ugRE30kw&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQ8tMDegQIJxAE
+              - text: "2"
+            - link "Page 3" [ref=f3e1031] [cursor=pointer]:
+              - /url: /search?q=latest+supercar+news&sca_esv=5999353cb99206ac&ei=hd9dav-8J4uYseMPzIvw0Qs&start=20&sa=N&sstk=AU9db-BRH6SrvvvNA01dxJTHRPzvy6AteKbigbPotJQzTn1K8qmWGrRBQNNpmXQhGWU_Vf4Lufe3Z84mMvaI_UkXrDfNx-ugRE30kw&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQ8tMDegQIJxAG
+              - text: "3"
+            - link "Page 4" [ref=f3e1033] [cursor=pointer]:
+              - /url: /search?q=latest+supercar+news&sca_esv=5999353cb99206ac&ei=hd9dav-8J4uYseMPzIvw0Qs&start=30&sa=N&sstk=AU9db-BRH6SrvvvNA01dxJTHRPzvy6AteKbigbPotJQzTn1K8qmWGrRBQNNpmXQhGWU_Vf4Lufe3Z84mMvaI_UkXrDfNx-ugRE30kw&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQ8tMDegQIJxAI
+              - text: "4"
+            - link "Page 5" [ref=f3e1035] [cursor=pointer]:
+              - /url: /search?q=latest+supercar+news&sca_esv=5999353cb99206ac&ei=hd9dav-8J4uYseMPzIvw0Qs&start=40&sa=N&sstk=AU9db-BRH6SrvvvNA01dxJTHRPzvy6AteKbigbPotJQzTn1K8qmWGrRBQNNpmXQhGWU_Vf4Lufe3Z84mMvaI_UkXrDfNx-ugRE30kw&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQ8tMDegQIJxAK
+              - text: "5"
+            - link "Page 6" [ref=f3e1037] [cursor=pointer]:
+              - /url: /search?q=latest+supercar+news&sca_esv=5999353cb99206ac&ei=hd9dav-8J4uYseMPzIvw0Qs&start=50&sa=N&sstk=AU9db-BRH6SrvvvNA01dxJTHRPzvy6AteKbigbPotJQzTn1K8qmWGrRBQNNpmXQhGWU_Vf4Lufe3Z84mMvaI_UkXrDfNx-ugRE30kw&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQ8tMDegQIJxAM
+              - text: "6"
+            - link "Page 7" [ref=f3e1039] [cursor=pointer]:
+              - /url: /search?q=latest+supercar+news&sca_esv=5999353cb99206ac&ei=hd9dav-8J4uYseMPzIvw0Qs&start=60&sa=N&sstk=AU9db-BRH6SrvvvNA01dxJTHRPzvy6AteKbigbPotJQzTn1K8qmWGrRBQNNpmXQhGWU_Vf4Lufe3Z84mMvaI_UkXrDfNx-ugRE30kw&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQ8tMDegQIJxAO
+              - text: "7"
+            - link "Page 8" [ref=f3e1041] [cursor=pointer]:
+              - /url: /search?q=latest+supercar+news&sca_esv=5999353cb99206ac&ei=hd9dav-8J4uYseMPzIvw0Qs&start=70&sa=N&sstk=AU9db-BRH6SrvvvNA01dxJTHRPzvy6AteKbigbPotJQzTn1K8qmWGrRBQNNpmXQhGWU_Vf4Lufe3Z84mMvaI_UkXrDfNx-ugRE30kw&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQ8tMDegQIJxAQ
+              - text: "8"
+            - link "Page 9" [ref=f3e1043] [cursor=pointer]:
+              - /url: /search?q=latest+supercar+news&sca_esv=5999353cb99206ac&ei=hd9dav-8J4uYseMPzIvw0Qs&start=80&sa=N&sstk=AU9db-BRH6SrvvvNA01dxJTHRPzvy6AteKbigbPotJQzTn1K8qmWGrRBQNNpmXQhGWU_Vf4Lufe3Z84mMvaI_UkXrDfNx-ugRE30kw&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQ8tMDegQIJxAS
+              - text: "9"
+            - link "Page 10" [ref=f3e1045] [cursor=pointer]:
+              - /url: /search?q=latest+supercar+news&sca_esv=5999353cb99206ac&ei=hd9dav-8J4uYseMPzIvw0Qs&start=90&sa=N&sstk=AU9db-BRH6SrvvvNA01dxJTHRPzvy6AteKbigbPotJQzTn1K8qmWGrRBQNNpmXQhGWU_Vf4Lufe3Z84mMvaI_UkXrDfNx-ugRE30kw&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQ8tMDegQIJxAU
+              - text: "10"
+            - heading [level=2] [ref=f3e1047]:
+              - link "Next" [ref=f3e1048] [cursor=pointer]:
+                - /url: /search?q=latest+supercar+news&sca_esv=5999353cb99206ac&ei=hd9dav-8J4uYseMPzIvw0Qs&start=10&sa=N&sstk=AU9db-BRH6SrvvvNA01dxJTHRPzvy6AteKbigbPotJQzTn1K8qmWGrRBQNNpmXQhGWU_Vf4Lufe3Z84mMvaI_UkXrDfNx-ugRE30kw&ved=2ahUKEwi_k7Sf7uCVAxULTGwGHcwFPLoQ8NMDegQIJxAW
+        - navigation
+    - contentinfo [ref=f3e1051]:
+      - heading "Footer links" [level=1] [ref=f3e1052]
+      - generic [ref=f3e1056]:
+        - generic [ref=f3e1058]:
+          - text: India
+          - generic [ref=f3e1060]:
+            - button "Patna, Bihar - From your IP address" [ref=f3e1062] [cursor=pointer]:
+              - generic [ref=f3e1063]: Patna, Bihar
+              - generic [ref=f3e1065]:
+                - text: "-"
+                - generic [ref=f3e1066]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=f3e1068] [cursor=pointer]
+        - generic [ref=f3e1071]:
+          - link "Help" [ref=f3e1072] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=f3e1073] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f3e1074] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f3e1075] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

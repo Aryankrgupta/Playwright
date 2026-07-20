@@ -22,8 +22,9 @@ function pickRandom(pool, count) {
   return shuffled.slice(0, count);
 }
 
-export default function TaskBar({ task, setTask, onRun, turbo, setTurbo }) {
+export default function TaskBar({ task, setTask, onRun, turbo, setTurbo, record, setRecord }) {
   const [seed, setSeed] = useState(0);
+
   const suggestions = useMemo(
     () => pickRandom(SUGGESTION_POOL, SUGGESTION_COUNT),
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -58,9 +59,26 @@ export default function TaskBar({ task, setTask, onRun, turbo, setTurbo }) {
           type="button"
           className={`turbo-toggle${turbo ? " on" : ""}`}
           onClick={() => setTurbo((t) => !t)}
-          title={turbo ? "Turbo on: Cerebras + Groq + OpenRouter fallback chain" : "Turbo off: Cerebras only"}
+          title={
+            turbo
+              ? "Turbo on: Cerebras + Groq + OpenRouter fallback chain"
+              : "Turbo off: Cerebras only"
+          }
         >
           ⚡ Turbo {turbo ? "On" : "Off"}
+        </button>
+        <button
+          type="button"
+          className={`record-toggle${record ? " on" : ""}`}
+          onClick={() => setRecord((r) => !r)}
+          title={
+            record
+              ? "Recording on: video will be saved for this task"
+              : "Recording off"
+          }
+        >
+          <span className="record-dot" />
+          Record {record ? "On" : "Off"}
         </button>
         <button type="submit" id="runBtn" disabled={!task.trim()}>
           Run task
@@ -68,7 +86,12 @@ export default function TaskBar({ task, setTask, onRun, turbo, setTurbo }) {
       </form>
       <div className="suggestions">
         {suggestions.map((s) => (
-          <button type="button" key={s} className="suggestion-chip" onClick={() => setTask(s)}>
+          <button
+            type="button"
+            key={s}
+            className="suggestion-chip"
+            onClick={() => setTask(s)}
+          >
             {s}
           </button>
         ))}
@@ -82,7 +105,9 @@ export default function TaskBar({ task, setTask, onRun, turbo, setTurbo }) {
         </button>
       </div>
       <p className="hint">
-        The agent narrates its thinking, shows every tool call it makes, and reports back what the browser returned. Tasks queue automatically if 3 are already running. Press Enter to run, Shift+Enter for a new line.
+        The agent narrates its thinking, shows every tool call it makes, and
+        reports back what the browser returned. Tasks queue automatically if 3
+        are already running. Press Enter to run, Shift+Enter for a new line.
       </p>
     </section>
   );

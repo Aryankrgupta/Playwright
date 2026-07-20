@@ -5,7 +5,10 @@ import cors from "cors";
 import OpenAI from "openai";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
+import path from "path";
+import fs from "fs/promises";
 
+const RECORDINGS_DIR = path.join(process.cwd(), "recordings");
 const PORT = process.env.PORT || 3000;
 const MODEL = process.env.CEREBRAS_MODEL || "gpt-oss-120b";
 const FRONTEND_ORIGIN = process.env.FRONTEND_ORIGIN || "http://localhost:5173";
@@ -25,22 +28,8 @@ const cerebras = new OpenAI({
   baseURL: "https://api.cerebras.ai/v1",
 });
 
-const FALLBACK_TIMEOUT_MS = 10000; // if Cerebras hasn't responded in 10s, try Groq instead
-const GROQ_MODEL = process.env.GROQ_MODEL || "llama-3.3-70b-versatile";
-const groqEnabled = !!process.env.GROQ_API_KEY;
-
-const groq = groqEnabled
-  ? new OpenAI({ apiKey: process.env.GROQ_API_KEY, baseURL: "https://api.groq.com/openai/v1" })
-  : null;
-
-if (!groqEnabled) {
-  console.log("[fallback] GROQ_API_KEY not set -- Groq fallback disabled, Cerebras-only mode.");
-}
-
 // ---------------------------------------------------------------------------
-// Timing helpers -- lightweight, console-only instrumentation. No new
-// dependencies; just labeled start/end timestamps so Railway logs show
-// exactly where time goes on each task.
+// Timing helpers -- lightweight, console-only instrumentation.
 // ---------------------------------------------------------------------------
 
 function timer(label) {
@@ -54,24 +43,98 @@ function timer(label) {
   };
 }
 
-// Races a Cerebras call against a timeout. If Cerebras is too slow, or
-// errors (including 429), retries the SAME request against Groq instead of
-// waiting it out or failing outright. Returns { completion, provider }.
-// Throws only if both providers fail (or Groq is unavailable and Cerebras
-// itself failed).
-async function createCompletionWithFallback(label, params, signal) {
+// ---------------------------------------------------------------------------
+// Multi-provider fallback chain: Cerebras (primary) -> Groq -> OpenRouter ->
+// Cerebras (final bounce-back). Each fallback provider tracks its own
+// cooldown independently. A "turbo" flag (per-task) can disable the whole
+// chain and force Cerebras-only.
+// ---------------------------------------------------------------------------
+
+const FALLBACK_TIMEOUT_MS = 10000;
+
+const GROQ_MODEL = process.env.GROQ_MODEL || "llama-3.3-70b-versatile";
+const groqEnabled = !!process.env.GROQ_API_KEY;
+const groq = groqEnabled
+  ? new OpenAI({ apiKey: process.env.GROQ_API_KEY, baseURL: "https://api.groq.com/openai/v1" })
+  : null;
+
+const OPENROUTER_MODEL = process.env.OPENROUTER_MODEL || "openrouter/free";
+const openrouterEnabled = !!process.env.OPENROUTER_API_KEY;
+const openrouter = openrouterEnabled
+  ? new OpenAI({
+      apiKey: process.env.OPENROUTER_API_KEY,
+      baseURL: "https://openrouter.ai/api/v1",
+      defaultHeaders: {
+        "HTTP-Referer": process.env.FRONTEND_ORIGIN || "http://localhost:5173",
+        "X-Title": "Wayfinder",
+      },
+    })
+  : null;
+
+if (!groqEnabled) console.log("[fallback] GROQ_API_KEY not set -- Groq disabled.");
+if (!openrouterEnabled) console.log("[fallback] OPENROUTER_API_KEY not set -- OpenRouter disabled.");
+
+const fallbackChain = [
+  groqEnabled ? { name: "groq", client: groq, model: GROQ_MODEL, disabledUntil: 0 } : null,
+  openrouterEnabled ? { name: "openrouter", client: openrouter, model: OPENROUTER_MODEL, disabledUntil: 0 } : null,
+].filter(Boolean);
+
+function parseCooldownMs(message, fallbackMs = 15 * 60 * 1000) {
+  const match = /try again in\s*(?:([\d.]+)h)?\s*(?:([\d.]+)m)?\s*(?:([\d.]+)s)?/i.exec(message || "");
+  if (!match) return fallbackMs;
+  const [, h, m, s] = match;
+  const ms = ((parseFloat(h) || 0) * 3600 + (parseFloat(m) || 0) * 60 + (parseFloat(s) || 0)) * 1000;
+  return ms > 0 ? ms : fallbackMs;
+}
+
+// Cerebras's gpt-oss model attaches extra non-standard fields (like
+// `reasoning`) to assistant messages. Other providers reject those fields
+// outright, so any message pushed into the shared conversation history
+// must be stripped down to the standard OpenAI shape first.
+function sanitizeAssistantMessage(msg) {
+  const clean = { role: msg.role, content: msg.content ?? null };
+  if (msg.tool_calls) clean.tool_calls = msg.tool_calls;
+  return clean;
+}
+
+// Tries Cerebras first (racing it against a timeout, unless useFallback is
+// false -- then Cerebras alone, no timeout race, no chain). If Cerebras is
+// slow/errors and useFallback is true, walks the fallback chain in order,
+// skipping any provider on cooldown. If every fallback fails, makes one
+// final fresh attempt back on Cerebras. Returns { completion, provider }.
+async function createCompletionWithFallback(label, params, signal, useFallback = true) {
+  const cerebrasController = new AbortController();
+  const forwardAbort = () => cerebrasController.abort();
+  if (signal) signal.addEventListener("abort", forwardAbort, { once: true });
+  const cleanupPrimary = () => signal?.removeEventListener("abort", forwardAbort);
+
   const cerebrasTimer = timer(`${label}: cerebras call`);
-  const cerebrasAttempt = cerebras.chat.completions.create({ model: MODEL, ...params }, { signal })
+  const cerebrasAttempt = cerebras.chat.completions.create({ model: MODEL, ...params }, { signal: cerebrasController.signal })
     .then((result) => ({ ok: true, result }))
     .catch((err) => ({ ok: false, err }));
 
-  if (!groqEnabled) {
+  // Turbo off -- ignore the fallback chain entirely, Cerebras only.
+  if (!useFallback) {
     const outcome = await cerebrasAttempt;
+    cleanupPrimary();
     if (outcome.ok) {
       cerebrasTimer.end();
       return { completion: outcome.result, provider: "cerebras" };
     }
-    cerebrasTimer.end("errored");
+    cerebrasTimer.end("errored (fallback disabled)");
+    throw outcome.err;
+  }
+
+  const availableFallbacks = fallbackChain.filter((p) => Date.now() > p.disabledUntil);
+
+  if (availableFallbacks.length === 0) {
+    const outcome = await cerebrasAttempt;
+    cleanupPrimary();
+    if (outcome.ok) {
+      cerebrasTimer.end();
+      return { completion: outcome.result, provider: "cerebras" };
+    }
+    cerebrasTimer.end(fallbackChain.length ? "errored (all fallbacks on cooldown)" : "errored");
     throw outcome.err;
   }
 
@@ -81,56 +144,63 @@ async function createCompletionWithFallback(label, params, signal) {
   const race = await Promise.race([cerebrasAttempt, timeoutPromise]);
 
   if (race !== timeoutMarker && race.ok) {
+    cleanupPrimary();
     cerebrasTimer.end();
     return { completion: race.result, provider: "cerebras" };
   }
 
-  const reason =
+  if (race === timeoutMarker) {
+    cerebrasController.abort();
+  }
+  cleanupPrimary();
+
+  const primaryReason =
     race === timeoutMarker
-      ? `slow (>${FALLBACK_TIMEOUT_MS}ms), falling back to Groq`
+      ? `slow (>${FALLBACK_TIMEOUT_MS}ms)`
       : race.err?.status === 429
-      ? "rate-limited, falling back to Groq"
-      : "errored, falling back to Groq";
-  cerebrasTimer.end(reason);
+      ? "rate-limited"
+      : "errored";
+  cerebrasTimer.end(`${primaryReason}, trying fallback chain`);
 
-  const groqTimer = timer(`${label}: groq fallback call`);
-  try {
-    const groqResult = await groq.chat.completions.create({ model: GROQ_MODEL, ...params }, { signal });
-    groqTimer.end();
-    return { completion: groqResult, provider: "groq" };
-  } catch (groqErr) {
-    groqTimer.end("errored, bouncing back to Cerebras");
-
-    // Groq has its own quirks (e.g. Llama sometimes emits malformed raw
-    // function-call text that Groq's own validator then rejects as "not in
-    // request.tools" even though it is). Rather than dying here, give
-    // Cerebras one more real attempt -- if the first Cerebras call only
-    // failed because it was SLOW, a fresh attempt now may well succeed.
-    const bounceTimer = timer(`${label}: cerebras bounce-back call`);
+  for (const providerEntry of availableFallbacks) {
+    const fbTimer = timer(`${label}: ${providerEntry.name} fallback call`);
     try {
-      const bounceResult = await cerebras.chat.completions.create({ model: MODEL, ...params }, { signal });
-      bounceTimer.end();
-      return { completion: bounceResult, provider: "cerebras" };
-    } catch (bounceErr) {
-      bounceTimer.end("errored");
-      // Both providers genuinely failed twice over -- surface the most
-      // recent, most relevant error (the bounce-back attempt) rather than
-      // the original timeout, since it's the freshest signal of what's
-      // actually wrong right now.
-      throw bounceErr;
+      const result = await providerEntry.client.chat.completions.create(
+        { model: providerEntry.model, ...params },
+        { signal }
+      );
+      fbTimer.end();
+      return { completion: result, provider: providerEntry.name };
+    } catch (err) {
+      console.error(
+        `[fallback] ${providerEntry.name} rejected ${label}: status=${err?.status} message=${err?.error?.message || err?.message}`
+      );
+
+      if (err?.status === 429) {
+        const cooldownMs = parseCooldownMs(err?.error?.message);
+        providerEntry.disabledUntil = Date.now() + cooldownMs;
+        console.log(`[fallback] ${providerEntry.name} disabled for ${Math.round(cooldownMs / 60000)} min due to rate limit/quota.`);
+      }
+
+      fbTimer.end(`errored (${err?.status || "?"}), trying next`);
     }
   }
-}
 
-// Cerebras's gpt-oss model attaches extra non-standard fields (like
-// `reasoning`) to assistant messages. Groq's API rejects those fields
-// outright, so any message pushed into the shared conversation history
-// must be stripped down to the standard OpenAI shape first -- otherwise a
-// mid-task fallback to Groq fails with a 400 on the very next call.
-function sanitizeAssistantMessage(msg) {
-  const clean = { role: msg.role, content: msg.content ?? null };
-  if (msg.tool_calls) clean.tool_calls = msg.tool_calls;
-  return clean;
+  const bounceController = new AbortController();
+  const forwardBounceAbort = () => bounceController.abort();
+  if (signal) signal.addEventListener("abort", forwardBounceAbort, { once: true });
+
+  const bounceTimer = timer(`${label}: cerebras bounce-back call`);
+  try {
+    const bounceResult = await cerebras.chat.completions.create({ model: MODEL, ...params }, { signal: bounceController.signal });
+    bounceTimer.end();
+    return { completion: bounceResult, provider: "cerebras" };
+  } catch (bounceErr) {
+    bounceTimer.end("errored");
+    throw bounceErr;
+  } finally {
+    signal?.removeEventListener("abort", forwardBounceAbort);
+  }
 }
 
 function parseRetrySeconds(err) {
@@ -169,9 +239,6 @@ function parseRetrySeconds(err) {
 
 const resultCache = new Map();
 
-// Tasks that ask for "current" information shouldn't be cached at all --
-// serving a 5-minute-old cached answer to "what's the top story right now"
-// could be silently wrong.
 const TIME_SENSITIVE_PATTERN = /\b(right now|today|current(ly)?|latest|live|this (week|month|hour)|now\b)/i;
 
 function isTimeSensitive(task) {
@@ -207,14 +274,14 @@ function setCached(task, events) {
 // ---------------------------------------------------------------------------
 
 let activeCount = 0;
-const activeTasks = new Map();  // taskId -> { abortController, client }
-const queue = [];               // { taskId, task, send, res, abortController, cancelled, skipCache }
-const pool = [];                // pre-warmed idle MCP clients
-const pausedTasks = new Map();  // taskId -> { task, client, state, send, res, abortController, skipCache }
+const activeTasks = new Map();
+const queue = [];
+const pool = [];
+const pausedTasks = new Map();
 
 let cachedTools = null;
 
-async function spawnMcpClient() {
+async function spawnMcpClient({ record = false, taskId = null } = {}) {
   const args = [
     "@playwright/mcp",
     "--browser", "chrome",
@@ -222,6 +289,28 @@ async function spawnMcpClient() {
     "--timeout-navigation", "15000",
   ];
   if (process.env.PLAYWRIGHT_HEADED !== "true") args.push("--headless");
+
+  let configPath = null;
+  if (record && taskId) {
+    const dir = path.join(RECORDINGS_DIR, taskId);
+    await fs.mkdir(dir, { recursive: true });
+
+    const config = {
+      outputDir: dir,
+      browser: {
+        contextOptions: {
+          recordVideo: {
+            dir,
+            size: { width: 800, height: 600 },
+          },
+        },
+      },
+    };
+    configPath = path.join(dir, "mcp-config.json");
+    await fs.writeFile(configPath, JSON.stringify(config, null, 2));
+    args.push("--config", configPath);
+  }
+
   const transport = new StdioClientTransport({
     command: "npx",
     args,
@@ -244,8 +333,18 @@ async function fillPool() {
   }
 }
 
-async function getClientFast() {
+async function getClientFast({ record = false, taskId = null } = {}) {
   const t = timer("browser acquisition");
+
+  if (record) {
+    // Recording needs a dedicated, task-specific output folder set at
+    // spawn time -- pooled browsers are generic and can't have that, so
+    // skip the pool entirely and spawn fresh for this task.
+    const client = await spawnMcpClient({ record: true, taskId });
+    t.end("cold spawn (recording)");
+    return client;
+  }
+
   let client;
   const fromPool = pool.length > 0;
   if (fromPool) {
@@ -293,6 +392,32 @@ function summarizeMcpResult(result) {
   };
 }
 
+const FINISH_SUBGOAL_TOOL = {
+  type: "function",
+  function: {
+    name: "finish_subgoal",
+    description:
+      "Call this EXACTLY ONCE when you are done working on the current sub-goal -- whether you succeeded or not. " +
+      "Do not simply stop calling tools; you must call this to conclude. Set success to true only if you actually " +
+      "verified the sub-goal's outcome (e.g. you saw the text/data you were asked to find). If you searched and " +
+      "could not find something after reasonable attempts, set success to false and explain what you tried.",
+    parameters: {
+      type: "object",
+      properties: {
+        success: {
+          type: "boolean",
+          description: "true only if you verified the sub-goal was actually accomplished; false if you could not complete it",
+        },
+        summary: {
+          type: "string",
+          description: "Concise summary of what you found/did, or what specifically blocked you if success is false",
+        },
+      },
+      required: ["success", "summary"],
+    },
+  },
+};
+
 const SYSTEM_PROMPT = `You are a browser automation agent. You control a real web browser through Playwright tools to
 complete one specific sub-goal at a time, as part of a larger task.
 
@@ -320,10 +445,13 @@ Guidelines:
   classes instead (e.g. "[Ss]earch" rather than "(?i)search").
 - When using browser_find, you must always provide either "text" or "regex" -- never call it with neither.
 - If a page requires login credentials you don't have, stop and explain that instead of guessing.
-- When the current sub-goal is complete, reply with a concise summary of what you found or did for THIS sub-goal
-  only. Do not call any more tools once you give that summary.
-- If you get stuck after several attempts on this sub-goal, explain what's blocking you instead of repeating the
-  same failing action.`;
+- When you are done with the current sub-goal -- whether you succeeded or got stuck -- you MUST call the
+  finish_subgoal tool exactly once to conclude it. Never just stop calling tools without calling finish_subgoal;
+  that leaves your outcome ambiguous. Set success:true only if you actually verified the result (e.g. you saw the
+  specific text/data on the page), never optimistically. Set success:false and explain what blocked you if you
+  could not verify it, rather than guessing or claiming something you didn't confirm.
+- If you get stuck after several attempts on this sub-goal, call finish_subgoal with success:false and explain
+  what's blocking you, instead of repeating the same failing action or claiming false progress.`;
 
 const PLAN_SYSTEM_PROMPT = `You are a task planner for a browser automation agent. Given a user's task, break it
 into 2-5 concrete, sequential sub-goals that together accomplish it. Each sub-goal should be a single, well-scoped
@@ -348,11 +476,10 @@ function tryParsePlan(text) {
 // `state` shape:
 // {
 //   task,
-//   subGoals: null | [{ id, goal, status: pending|in-progress|done|failed, summary? }],
-//   currentIndex: number,
-//   currentMessages: [] | null,   -- conversation for the sub-goal in progress
-//   currentStep: number,
-//   currentProvider: null | "cerebras" | "groq",
+//   subGoals: null | [{ id, goal, status, summary? }],
+//   currentIndex, currentMessages, currentStep,
+//   currentProvider: null | "cerebras" | "groq" | "openrouter",
+//   turbo: boolean,
 // }
 async function* runAgent(state, client, tools, signal) {
   if (!state.subGoals) {
@@ -372,7 +499,8 @@ async function* runAgent(state, client, tools, signal) {
           tool_choice: "none",
           max_tokens: 500,
         },
-        signal
+        signal,
+        state.turbo
       );
 
       if (state.currentProvider && state.currentProvider !== provider) {
@@ -393,7 +521,7 @@ async function* runAgent(state, client, tools, signal) {
       if (status === 429 || retryAfterSeconds !== null) {
         yield {
           type: "rate_limited",
-          text: err?.error?.message || err?.message || "Rate limit reached on both providers.",
+          text: err?.error?.message || err?.message || "Rate limit reached.",
           retryAfterSeconds: retryAfterSeconds ?? 30,
         };
         return;
@@ -470,9 +598,14 @@ async function* runAgent(state, client, tools, signal) {
 }
 
 // Runs the ReAct loop for ONE sub-goal only, bounded by SUBGOAL_MAX_STEPS.
+// Completion is now driven by an explicit finish_subgoal tool call, not
+// inferred from the model simply stopping tool calls (which previously let
+// hallucinated/false "done" outcomes slip through uncached... except they
+// WERE being cached as if verified).
 // Returns "rate_limited" | "stopped" | { ok: bool, summary: string }.
 async function* runSubGoal(state, client, tools, signal) {
   const messages = state.currentMessages;
+  const toolsWithFinish = [...tools, FINISH_SUBGOAL_TOOL];
 
   for (let step = state.currentStep; step < SUBGOAL_MAX_STEPS; step++) {
     state.currentStep = step;
@@ -486,8 +619,9 @@ async function* runSubGoal(state, client, tools, signal) {
     try {
       const result = await createCompletionWithFallback(
         `step ${step}`,
-        { messages, tools, tool_choice: "auto", max_tokens: 2048 },
-        signal
+        { messages, tools: toolsWithFinish, tool_choice: "auto", max_tokens: 2048 },
+        signal,
+        state.turbo
       );
       completion = result.completion;
 
@@ -505,7 +639,7 @@ async function* runSubGoal(state, client, tools, signal) {
       if (status === 429 || retryAfterSeconds !== null) {
         yield {
           type: "rate_limited",
-          text: err?.error?.message || err?.message || "Rate limit reached on both providers.",
+          text: err?.error?.message || err?.message || "Rate limit reached.",
           retryAfterSeconds: retryAfterSeconds ?? 30,
         };
         return "rate_limited";
@@ -523,7 +657,30 @@ async function* runSubGoal(state, client, tools, signal) {
     const toolCalls = msg.tool_calls || [];
 
     if (toolCalls.length === 0) {
-      return { ok: true, summary: msg.content || "Done." };
+      messages.push({
+        role: "user",
+        content:
+          "You didn't call any tool. If you're done with this sub-goal (successfully or not), call finish_subgoal " +
+          "now with success and summary. Otherwise continue with the browser tools.",
+      });
+      continue;
+    }
+
+    const finishCall = toolCalls.find((c) => c.function.name === "finish_subgoal");
+    if (finishCall) {
+      let finishArgs = {};
+      try {
+        finishArgs = finishCall.function.arguments ? JSON.parse(finishCall.function.arguments) : {};
+      } catch {
+        finishArgs = {};
+      }
+      const success = finishArgs.success === true;
+      const summary = typeof finishArgs.summary === "string" && finishArgs.summary.trim()
+        ? finishArgs.summary.trim()
+        : success
+        ? "Done."
+        : "Could not complete this sub-goal.";
+      return { ok: success, summary };
     }
 
     for (const call of toolCalls) {
@@ -572,7 +729,7 @@ async function* runSubGoal(state, client, tools, signal) {
   return { ok: false, summary: "Reached step limit for this sub-goal without finishing." };
 }
 
-async function runAndHandle(taskId, task, client, state, send, res, abortController, { sendStart, skipCache = false }) {
+async function runAndHandle(taskId, task, client, state, send, res, abortController, { sendStart, skipCache = false, record = false }) {
   activeTasks.set(taskId, { abortController, client });
 
   const taskTimer = timer(`TASK ${taskId} ("${task}")`);
@@ -607,7 +764,7 @@ async function runAndHandle(taskId, task, client, state, send, res, abortControl
     taskTimer.end(rateLimitedNow ? "paused, will resume" : completedNormally ? "completed" : "ended");
 
     if (rateLimitedNow) {
-      pausedTasks.set(taskId, { task, client, state, send, res, abortController, skipCache });
+      pausedTasks.set(taskId, { task, client, state, send, res, abortController, skipCache, record });
     } else {
       if (client) {
         try {
@@ -616,6 +773,20 @@ async function runAndHandle(taskId, task, client, state, send, res, abortControl
           console.error("Error closing MCP client", closeErr);
         }
       }
+
+      if (record) {
+        try {
+          const dir = path.join(RECORDINGS_DIR, taskId);
+          const files = await fs.readdir(dir);
+          const video = files.find((f) => f.endsWith(".webm"));
+          if (video) {
+            sendAndRecord({ type: "recording", url: `/recordings/${taskId}/${video}` });
+          }
+        } catch (err) {
+          console.error(`No recording found for task ${taskId}:`, err.message);
+        }
+      }
+
       if (completedNormally && !skipCache) {
         setCached(task, recordedEvents);
       }
@@ -628,11 +799,11 @@ async function runAndHandle(taskId, task, client, state, send, res, abortControl
 
 async function startTask(item) {
   activeCount++;
-  const { taskId, task, send, res, abortController, skipCache } = item;
+  const { taskId, task, send, res, abortController, skipCache, record } = item;
 
   let client;
   try {
-    client = await getClientFast();
+    client = await getClientFast({ record, taskId });
   } catch (err) {
     console.error(err);
     send({ type: "error", text: "Failed to start browser session." });
@@ -649,9 +820,10 @@ async function startTask(item) {
     currentMessages: null,
     currentStep: 0,
     currentProvider: null,
+    turbo: item.turbo,
   };
 
-  await runAndHandle(taskId, task, client, state, send, res, abortController, { sendStart: true, skipCache });
+  await runAndHandle(taskId, task, client, state, send, res, abortController, { sendStart: true, skipCache, record });
 }
 
 function resumeTask(taskId) {
@@ -682,6 +854,7 @@ function tryStartNext() {
 const app = express();
 app.use(cors({ origin: FRONTEND_ORIGIN }));
 app.use(express.json());
+app.use("/recordings", express.static(RECORDINGS_DIR));
 
 app.get("/api/health", (req, res) => {
   res.json({
@@ -692,13 +865,20 @@ app.get("/api/health", (req, res) => {
     maxConcurrentTasks: MAX_CONCURRENT_TASKS,
     pooledClients: pool.length,
     cachedResults: resultCache.size,
-    groqFallbackEnabled: groqEnabled,
+    fallbackProviders: fallbackChain.map((p) => ({
+      name: p.name,
+      onCooldown: Date.now() < p.disabledUntil,
+      cooldownEndsIn: Date.now() < p.disabledUntil ? Math.round((p.disabledUntil - Date.now()) / 1000) : 0,
+    })),
   });
 });
 
 app.post("/api/task", (req, res) => {
   const task = (req.body?.task || "").trim();
   const forceRefresh = !!req.body?.forceRefresh;
+  const turbo = req.body?.turbo !== false;
+  const record = !!req.body?.record;
+
   if (!task) {
     res.status(400).json({ error: "Missing task" });
     return;
@@ -714,7 +894,7 @@ app.post("/api/task", (req, res) => {
 
   const send = (event) => res.write(JSON.stringify(event) + "\n");
 
-  const skipCache = forceRefresh || isTimeSensitive(task);
+  const skipCache = forceRefresh || isTimeSensitive(task) || record; // don't cache recorded runs -- the video is per-run, a cache replay would show stale text with no matching video
 
   if (!skipCache) {
     const cached = getCached(task);
@@ -730,7 +910,7 @@ app.post("/api/task", (req, res) => {
   }
 
   const abortController = new AbortController();
-  const item = { taskId, task, send, res, abortController, cancelled: false, skipCache };
+  const item = { taskId, task, send, res, abortController, cancelled: false, skipCache, turbo, record };
 
   res.on("close", () => {
     if (!res.writableEnded) {
@@ -803,7 +983,7 @@ app.listen(PORT, () => {
   console.log(`Wayfinder API running at http://localhost:${PORT}`);
   console.log(`Accepting requests from ${FRONTEND_ORIGIN}`);
   console.log(
-    `Max concurrent tasks: ${MAX_CONCURRENT_TASKS} (queuing + resume-in-place + sub-goal decomposition + smart caching + timing + Groq fallback [${groqEnabled ? "on" : "off"}] enabled)`
+    `Max concurrent tasks: ${MAX_CONCURRENT_TASKS} (queuing + resume-in-place + sub-goal decomposition + finish_subgoal + smart caching + timing + fallback chain [cerebras${groqEnabled ? " -> groq" : ""}${openrouterEnabled ? " -> openrouter" : ""}] + turbo toggle enabled)`
   );
   fillPool();
 });

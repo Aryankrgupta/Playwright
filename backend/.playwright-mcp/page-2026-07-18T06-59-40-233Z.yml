@@ -1,0 +1,917 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "Site Navigation Links" [ref=e4]:
+      - link "The Weather Company" [ref=e6] [cursor=pointer]:
+        - /url: /en-IN
+        - img "The Weather Company" [ref=e7]
+      - list [ref=e10]:
+        - listitem [ref=e11]:
+          - link "Forecasts":
+            - /url: /en-IN/in/delhi/city/new-delhi/today
+            - paragraph: Forecasts
+        - listitem [ref=e12]:
+          - link [ref=e13] [cursor=pointer]:
+            - /url: /en-IN/weather/radar/interactive/l/7d67733d29d6a86f79bd6a172edd760e933c9f65987b7cc68362088d1e4afeec
+            - paragraph [ref=e16]: Radar
+        - listitem [ref=e17]:
+          - link [ref=e18] [cursor=pointer]:
+            - /url: /en-IN/in/delhi/city/new-delhi/allergy
+            - paragraph [ref=e21]: Allergy Tracker
+        - listitem [ref=e22]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: /en-IN/in/delhi/city/new-delhi/air-quality
+            - paragraph [ref=e28]: Air Quality Index
+        - listitem [ref=e29]:
+          - button [ref=e30] [cursor=pointer]:
+            - img "Overflow Menu Horizontal" [ref=e31]
+            - paragraph [ref=e34]: More
+      - list [ref=e35]:
+        - listitem [ref=e36]:
+          - link [ref=e37] [cursor=pointer]:
+            - /url: /en-IN/login
+            - img "User Avatar" [ref=e38]
+            - paragraph [ref=e42]: Sign in
+    - main [ref=e43]:
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - button "New Delhi" [expanded] [ref=e49] [cursor=pointer]
+          - generic [ref=e993]:
+            - generic [ref=e995]:
+              - textbox "Search for a location" [active] [ref=e996]
+              - img "Search"
+              - button "Clear search" [disabled] [ref=e997]:
+                - img "Close" [ref=e998]
+            - generic [ref=e1000]: You have no recent locations
+        - generic [ref=e54]:
+          - button
+          - generic [ref=e55]:
+            - link "Today" [ref=e56] [cursor=pointer]:
+              - /url: /en-IN/in/delhi/city/new-delhi/today
+            - link "Hourly" [ref=e57] [cursor=pointer]:
+              - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour
+            - link "10 Day" [ref=e58] [cursor=pointer]:
+              - /url: /en-IN/in/delhi/city/new-delhi/tenday
+            - link "Monthly" [ref=e59] [cursor=pointer]:
+              - /url: /en-IN/weather/monthly/l/7d67733d29d6a86f79bd6a172edd760e933c9f65987b7cc68362088d1e4afeec
+          - button
+      - generic [ref=e60]:
+        - generic [ref=e62]:
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - heading "New Delhi Weather" [level=2] [ref=e67]
+              - generic [ref=e68]:
+                - paragraph [ref=e72]: New Delhi, Delhi
+                - paragraph [ref=e73]: ·
+                - paragraph [ref=e74]: As of 12:26 pm IST
+            - link [ref=e76] [cursor=pointer]:
+              - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour
+              - region "Current Conditions" [ref=e77]:
+                - generic [ref=e78]:
+                  - generic [ref=e79]:
+                    - generic [ref=e82]:
+                      - generic [ref=e83]: Now
+                      - generic [ref=e84]: 97°
+                      - generic [ref=e85]: 96°
+                      - generic [ref=e86]: 95°
+                    - generic [ref=e88]:
+                      - img "Haze" [ref=e752]
+                      - paragraph [ref=e91]: Haze
+                  - generic [ref=e92]:
+                    - generic [ref=e93]:
+                      - generic [ref=e94]:
+                        - paragraph [ref=e95]: Feels Like
+                        - paragraph [ref=e96]:
+                          - generic [ref=e97]: 109°
+                      - generic [ref=e99]:
+                        - paragraph [ref=e100]: H
+                        - paragraph [ref=e101]:
+                          - generic [ref=e102]: 97°
+                      - generic [ref=e104]:
+                        - paragraph [ref=e105]: L
+                        - paragraph [ref=e106]:
+                          - generic [ref=e107]: 86°
+                    - generic [ref=e108]:
+                      - generic [ref=e109]:
+                        - paragraph [ref=e110]: Chance of Rain
+                        - paragraph [ref=e111]: 14%
+                      - paragraph [ref=e113]: 0 in
+          - generic [ref=e116]:
+            - heading "Today's outlook" [level=2] [ref=e117]
+            - paragraph [ref=e118]: Today's high temperature will be nearly the same as yesterday's.
+            - generic [ref=e119]:
+              - button "Chevron Left" [ref=e120] [cursor=pointer]:
+                - img "Chevron Left" [ref=e121]
+              - generic [ref=e124]:
+                - generic [ref=e189]:
+                  - paragraph: 00:30
+                  - generic:
+                    - img "Partly Cloudy Night"
+                  - paragraph: 91°
+                - generic [ref=e190]:
+                  - paragraph: 01:30
+                  - generic:
+                    - img "Partly Cloudy Night"
+                  - paragraph: 91°
+                - generic [ref=e191]:
+                  - paragraph: 02:30
+                  - generic:
+                    - img "Partly Cloudy Night"
+                  - paragraph: 90°
+                - generic [ref=e192]:
+                  - paragraph: 03:30
+                  - generic:
+                    - img "Partly Cloudy Night"
+                  - paragraph: 89°
+                - generic [ref=e193]:
+                  - paragraph: 04:30
+                  - generic:
+                    - img "Partly Cloudy Night"
+                  - paragraph: 88°
+                - generic [ref=e194]:
+                  - paragraph: 05:30
+                  - generic:
+                    - img "Partly Cloudy Night"
+                  - paragraph: 89°
+                - generic [ref=e195]:
+                  - paragraph: 05:34
+                  - generic:
+                    - img "Sunrise"
+                    - paragraph: Sunrise
+                - generic [ref=e196]:
+                  - paragraph: 06:30
+                  - generic:
+                    - img "Haze"
+                  - paragraph: 89°
+                - generic [ref=e197]:
+                  - paragraph: 07:30
+                  - generic:
+                    - img "Haze"
+                  - paragraph: 90°
+                - generic [ref=e198]:
+                  - paragraph: 08:30
+                  - generic:
+                    - img "Haze"
+                  - paragraph: 91°
+                - generic [ref=e199]:
+                  - paragraph: 09:30
+                  - generic:
+                    - img "Haze"
+                  - paragraph: 91°
+                - generic [ref=e200]:
+                  - paragraph: 10:30
+                  - generic:
+                    - img "Haze"
+                  - paragraph: 92°
+                - generic [ref=e201]:
+                  - paragraph: 11:30
+                  - generic:
+                    - img "Haze"
+                  - paragraph: 94°
+                - link "Now, 95°" [ref=e202] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784357771
+                  - paragraph: Now
+                  - generic:
+                    - img "Haze"
+                  - paragraph: 95°
+                - link "12:30, 95°" [ref=e203] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784358000
+                  - paragraph: 12:30
+                  - generic:
+                    - img "Cloudy"
+                  - paragraph: 95°
+                - link "13:30, 96°" [ref=e204] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784361600
+                  - paragraph: 13:30
+                  - generic:
+                    - img "Cloudy"
+                  - paragraph: 96°
+                - link "14:30, 96°" [ref=e205] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784365200
+                  - paragraph: 14:30
+                  - generic:
+                    - img "Cloudy"
+                  - paragraph: 96°
+                - link "15:30, 96°" [ref=e206] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784368800
+                  - paragraph: 15:30
+                  - generic:
+                    - img "Cloudy"
+                  - paragraph: 96°
+                - link "16:30, 96°" [ref=e207] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784372400
+                  - paragraph: 16:30
+                  - generic:
+                    - img "Cloudy"
+                  - paragraph: 96°
+                - link "17:30, 96°" [ref=e208] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784376000
+                  - paragraph: 17:30
+                  - generic:
+                    - img "Cloudy"
+                  - paragraph: 96°
+                - link "18:30, 95°" [ref=e209] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784379600
+                  - paragraph: 18:30
+                  - generic:
+                    - img "Cloudy"
+                  - paragraph: 95°
+                - generic [ref=e210]:
+                  - paragraph: 19:20
+                  - generic:
+                    - img "Sunset"
+                    - paragraph: Sunset
+                - link "19:30, 94°" [ref=e211] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784383200
+                  - paragraph: 19:30
+                  - generic:
+                    - img "Cloudy"
+                  - paragraph: 94°
+                - link "20:30, 93°" [ref=e212] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784386800
+                  - paragraph: 20:30
+                  - generic:
+                    - img "Cloudy"
+                  - paragraph: 93°
+                - link "21:30, 92°" [ref=e213] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784390400
+                  - paragraph: 21:30
+                  - generic:
+                    - img "Cloudy"
+                  - paragraph: 92°
+                - link "22:30, 91°" [ref=e214] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784394000
+                  - paragraph: 22:30
+                  - generic:
+                    - img "Cloudy"
+                  - paragraph: 91°
+                - link "23:30, 91°" [ref=e215] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784397600
+                  - paragraph: 23:30
+                  - generic:
+                    - img "Cloudy"
+                  - paragraph: 91°
+                - link "00:30, 90°" [ref=e216] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784401200
+                  - paragraph: 00:30
+                  - generic:
+                    - img "Cloudy"
+                  - paragraph: 90°
+                - link "01:30, 89°" [ref=e217] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784404800
+                  - paragraph: 01:30
+                  - generic:
+                    - img "Cloudy"
+                  - paragraph: 89°
+                - link "02:30, 89°" [ref=e218] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784408400
+                  - paragraph: 02:30
+                  - generic:
+                    - img "Cloudy"
+                  - paragraph: 89°
+                - link "03:30, 88°" [ref=e219] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784412000
+                  - paragraph: 03:30
+                  - generic:
+                    - img "Cloudy"
+                  - paragraph: 88°
+                - link "04:30, 88°" [ref=e220] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784415600
+                  - paragraph: 04:30
+                  - generic:
+                    - img "Cloudy"
+                  - paragraph: 88°
+                - link "05:30, 87°" [ref=e221] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784419200
+                  - paragraph: 05:30
+                  - generic:
+                    - img "Cloudy"
+                  - paragraph: 87°
+                - link "06:30, 88°" [ref=e222] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784422800
+                  - paragraph: 06:30
+                  - generic:
+                    - img "Cloudy"
+                  - paragraph: 88°
+                - link "07:30, 88°" [ref=e223] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784426400
+                  - paragraph: 07:30
+                  - generic:
+                    - img "Cloudy"
+                  - paragraph: 88°
+                - link [ref=e224] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/hourbyhour?t=1784426400
+                  - paragraph [ref=e227]: More
+              - button "Chevron Right" [ref=e228] [cursor=pointer]:
+                - img "Chevron Right" [ref=e229]
+          - region "Weather Today in" [ref=e233]:
+            - generic [ref=e235]:
+              - generic [ref=e236]:
+                - img "Wind" [ref=e237]
+                - paragraph [ref=e239]: Wind
+                - paragraph [ref=e240]:
+                  - generic [ref=e241]:
+                    - img "Wind direction icon" [ref=e242]
+                    - text: 7 mph
+                    - generic [ref=e244]: WSW
+              - generic [ref=e245]:
+                - img "humidity" [ref=e246]
+                - paragraph [ref=e250]: Humidity
+                - paragraph [ref=e251]: 53%
+              - generic [ref=e252]:
+                - paragraph [ref=e256]: Air Quality
+                - paragraph [ref=e257]: 547 - Severe
+              - generic [ref=e258]:
+                - img "Dew Point" [ref=e259]
+                - paragraph [ref=e262]: Dew Point
+                - paragraph [ref=e263]:
+                  - generic [ref=e264]: 75°
+              - generic [ref=e265]:
+                - img "pressure" [ref=e266]
+                - paragraph [ref=e268]: Pressure
+                - paragraph [ref=e269]:
+                  - generic [ref=e270]:
+                    - img "Pressure falling" [ref=e271]
+                    - generic [ref=e273]: "29.53"
+                    - generic [ref=e274]: in
+              - generic [ref=e275]:
+                - img "Uv Index" [ref=e276]
+                - paragraph [ref=e278]: UV Index
+                - paragraph [ref=e279]: 8 of 11
+              - generic [ref=e280]:
+                - img "View" [ref=e281]
+                - paragraph [ref=e285]: Visibility
+                - paragraph [ref=e286]:
+                  - generic [ref=e287]:
+                    - text: "2.8"
+                    - generic [ref=e288]: mi
+              - generic [ref=e289]:
+                - img "Waxing Crescent" [ref=e290]
+                - paragraph [ref=e292]: Moon Phase
+                - paragraph [ref=e293]: Waxing Crescent
+              - generic [ref=e294]:
+                - img "Sunrise" [ref=e295]
+                - paragraph [ref=e298]: Sunrise
+                - paragraph [ref=e299]: 05:34
+              - generic [ref=e300]:
+                - img "Sunset" [ref=e301]
+                - paragraph [ref=e304]: Sunset
+                - paragraph [ref=e305]: 19:20
+          - region "Daily Forecast" [ref=e308]:
+            - heading "Daily Forecast" [level=1] [ref=e309]
+            - generic [ref=e310]:
+              - generic [ref=e311]:
+                - link "Today Cloudy 20% 86° 97°" [ref=e755] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/tenday?t=1784338200
+                  - generic [ref=e314]: Today
+                  - generic [ref=e315]:
+                    - img "Cloudy" [ref=e756]
+                    - generic [ref=e317]: 20%
+                  - generic [ref=e318]:
+                    - generic [ref=e319]: 86°
+                    - generic [ref=e323]: 97°
+                - link "Sun 19 Cloudy 24% 81° 94°" [ref=e759] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/tenday?t=1784424600
+                  - generic [ref=e327]: Sun 19
+                  - generic [ref=e328]:
+                    - img "Cloudy" [ref=e760]
+                    - generic [ref=e330]: 24%
+                  - generic [ref=e331]:
+                    - generic [ref=e332]: 81°
+                    - generic [ref=e336]: 94°
+                - link "Mon 20 Thunderstorms 73% 80° 86°" [ref=e763] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/tenday?t=1784511000
+                  - generic [ref=e340]: Mon 20
+                  - generic [ref=e341]:
+                    - img "Thunderstorms" [ref=e764]
+                    - generic [ref=e343]: 73%
+                  - generic [ref=e344]:
+                    - generic [ref=e345]: 80°
+                    - generic [ref=e349]: 86°
+                - link "Tue 21 Thunderstorms 93% 80° 85°" [ref=e767] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/tenday?t=1784597400
+                  - generic [ref=e353]: Tue 21
+                  - generic [ref=e354]:
+                    - img "Thunderstorms" [ref=e768]
+                    - generic [ref=e356]: 93%
+                  - generic [ref=e357]:
+                    - generic [ref=e358]: 80°
+                    - generic [ref=e362]: 85°
+                - link "Wed 22 Thunderstorms 89% 80° 87°" [ref=e771] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/tenday?t=1784683800
+                  - generic [ref=e366]: Wed 22
+                  - generic [ref=e367]:
+                    - img "Thunderstorms" [ref=e772]
+                    - generic [ref=e369]: 89%
+                  - generic [ref=e370]:
+                    - generic [ref=e371]: 80°
+                    - generic [ref=e375]: 87°
+                - link "Thu 23 Thunderstorms 78% 80° 87°" [ref=e775] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/tenday?t=1784770200
+                  - generic [ref=e379]: Thu 23
+                  - generic [ref=e380]:
+                    - img "Thunderstorms" [ref=e776]
+                    - generic [ref=e382]: 78%
+                  - generic [ref=e383]:
+                    - generic [ref=e384]: 80°
+                    - generic [ref=e388]: 87°
+                - link "Fri 24 Scattered Thunderstorms 52% 81° 89°" [ref=e779] [cursor=pointer]:
+                  - /url: /en-IN/in/delhi/city/new-delhi/tenday?t=1784856600
+                  - generic [ref=e392]: Fri 24
+                  - generic [ref=e393]:
+                    - img "Scattered Thunderstorms" [ref=e780]
+                    - generic [ref=e395]: 52%
+                  - generic [ref=e396]:
+                    - generic [ref=e397]: 81°
+                    - generic [ref=e401]: 89°
+              - link "Next 10 days" [ref=e404] [cursor=pointer]:
+                - /url: /en-IN/in/delhi/city/new-delhi/tenday
+          - region "Radar - Slight rain chance in the next 6 hours." [ref=e407]:
+            - link [ref=e408] [cursor=pointer]:
+              - /url: /en-IN/weather/radar/interactive/l/7d67733d29d6a86f79bd6a172edd760e933c9f65987b7cc68362088d1e4afeec
+              - generic [ref=e411]:
+                - paragraph [ref=e412]: Now
+                - button "Map Attribution" [ref=e415]:
+                  - img "Mapbox Logo" [ref=e416]
+          - generic [ref=e425]:
+            - heading "Sponsored Content" [level=2] [ref=e427]
+            - generic [ref=e429]:
+              - generic [ref=e435]:
+                - generic:
+                  - generic [ref=e436] [cursor=pointer]:
+                    - link [ref=e437]:
+                      - /url: https://in.hear.com/d/en_price_list_display
+                      - img "Image for Taboola Advertising Unit" [ref=e439]
+                    - link [ref=e441]:
+                      - /url: https://in.hear.com/d/en_price_list_display
+                      - generic [ref=e442]:
+                        - link "Indians over 70 are switching from hearing aids to this new device." [ref=e443]
+                        - link "Hearing Aids in Taboola advertising section" [ref=e444]: Hearing Aids
+                  - generic [ref=e445] [cursor=pointer]:
+                    - link [ref=e446]:
+                      - /url: https://in.hear.com/d/en_price_list_display
+                      - img "Image for Taboola Advertising Unit" [ref=e448]
+                    - link [ref=e450]:
+                      - /url: https://in.hear.com/d/en_price_list_display
+                      - generic [ref=e451]:
+                        - link "Indians over 65 are switching from hearing aids to this new device." [ref=e452]
+                        - link "Hearing Loss in Taboola advertising section" [ref=e453]: Hearing Loss
+                  - generic [ref=e454] [cursor=pointer]:
+                    - link [ref=e455]:
+                      - /url: https://donateforhealth.com/stories/savevyom
+                      - img "Image for Taboola Advertising Unit" [ref=e457]
+                    - link [ref=e459]:
+                      - /url: https://donateforhealth.com/stories/savevyom
+                      - generic [ref=e460]:
+                        - link "Help him! An eye tumor is stealing his childhood." [ref=e461]
+                        - link "Donate For Health in Taboola advertising section" [ref=e462]: Donate For Health
+              - generic [ref=e468]:
+                - generic:
+                  - generic [ref=e469] [cursor=pointer]:
+                    - link [ref=e470]:
+                      - /url: https://www.iforex.in/landing_pages/br1/hi/DoubleYourBalance
+                      - img "Image for Taboola Advertising Unit" [ref=e472]
+                    - link [ref=e474]:
+                      - /url: https://www.iforex.in/landing_pages/br1/hi/DoubleYourBalance
+                      - generic [ref=e475]:
+                        - link "Start Forex Trading. Get a 100% Welcome Bonus" [ref=e476]
+                        - link "iFOREX in Taboola advertising section" [ref=e477]: iFOREX
+                  - generic [ref=e478] [cursor=pointer]:
+                    - link [ref=e479]:
+                      - /url: https://smartcare.sbilife.co.in/epolicy/SmartShieldPlus/UI/PersonalDetailsMinor.aspx
+                      - img "Image for Taboola Advertising Unit" [ref=e481]
+                    - link [ref=e483]:
+                      - /url: https://smartcare.sbilife.co.in/epolicy/SmartShieldPlus/UI/PersonalDetailsMinor.aspx
+                      - generic [ref=e484]:
+                        - link "2 Cr Term Insurance Plan @ 915/m" [ref=e485]
+                        - link "SBI Life - Smart Shield Plus in Taboola advertising section" [ref=e486]: SBI Life - Smart Shield Plus
+              - generic [ref=e492]:
+                - generic:
+                  - generic [ref=e493] [cursor=pointer]:
+                    - link [ref=e494]:
+                      - /url: https://smartcare.sbilife.co.in/epolicy/SmartShieldPlus/UI/PersonalDetailsMinor.aspx
+                      - img "Image for Taboola Advertising Unit" [ref=e496]
+                    - link [ref=e498]:
+                      - /url: https://smartcare.sbilife.co.in/epolicy/SmartShieldPlus/UI/PersonalDetailsMinor.aspx
+                      - generic [ref=e499]:
+                        - link "1 Cr Term Plan @ ₹512/m*" [ref=e500]
+                        - link "SBI Life - Smart Shield Plus in Taboola advertising section" [ref=e501]: SBI Life - Smart Shield Plus
+                  - generic [ref=e502] [cursor=pointer]:
+                    - link [ref=e503]:
+                      - /url: https://warthunder.com/play4free
+                      - img "Image for Taboola Advertising Unit" [ref=e505]
+                    - link [ref=e507]:
+                      - /url: https://warthunder.com/play4free
+                      - generic [ref=e508]:
+                        - link "Play War Thunder now for free" [ref=e509]
+                        - link "War Thunder in Taboola advertising section" [ref=e510]: War Thunder
+                  - generic [ref=e511] [cursor=pointer]:
+                    - link [ref=e512]:
+                      - /url: https://warthunder.com/play4free
+                      - img "Image for Taboola Advertising Unit" [ref=e514]
+                    - link [ref=e516]:
+                      - /url: https://warthunder.com/play4free
+                      - generic [ref=e517]:
+                        - link "Join new Free to Play WWII MMO War Thunder" [ref=e518]
+                        - link "War Thunder in Taboola advertising section" [ref=e519]: War Thunder
+              - generic [ref=e525] [cursor=pointer]:
+                - generic [ref=e855]:
+                  - img "Image for Taboola Advertising Unit" [ref=e856]
+                  - iframe [ref=e858]:
+                    
+                - generic "You might be interested in the content above" [ref=e526]:
+                  - generic [ref=e527]:
+                    - link "You might be interested in the content above" [ref=e528]
+                    - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e531]':
+                      - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=theweatherchannelinternational-india&utm_medium=referral&utm_content=google-adx-card-delta:Below Content Thumbnails - today | Card 4:"
+                      - text: Sponsored
+              - generic [ref=e537]:
+                - generic:
+                  - generic [ref=e538] [cursor=pointer]:
+                    - link [ref=e539]:
+                      - /url: https://ic.com/lp/en/trade-gold
+                      - img "Image for Taboola Advertising Unit" [ref=e541]
+                    - link [ref=e543]:
+                      - /url: https://ic.com/lp/en/trade-gold
+                      - generic [ref=e544]:
+                        - link "Gold Is Surging in 2026 — Smart Traders Are Already In" [ref=e545]
+                        - link "IC in Taboola advertising section" [ref=e546]: IC
+                  - generic [ref=e547] [cursor=pointer]:
+                    - link [ref=e548]:
+                      - /url: https://curvecomfy.com/collections/womens-shorts
+                      - img "Image for Taboola Advertising Unit" [ref=e550]
+                    - link [ref=e552]:
+                      - /url: https://curvecomfy.com/collections/womens-shorts
+                      - generic [ref=e553]:
+                        - link "Hot Summer Pick" [ref=e554]
+                        - link "CurveComfy in Taboola advertising section" [ref=e555]: CurveComfy
+              - generic [ref=e790]:
+                - generic:
+                  - generic [ref=e791] [cursor=pointer]:
+                    - link [ref=e792]:
+                      - /url: https://tradewise.thefuture.university/cltah1pmp01bbpcsu5o3uytxa/long-free/bala-market-taboola
+                      - img "Image for Taboola Advertising Unit" [ref=e794]
+                    - link [ref=e796]:
+                      - /url: https://tradewise.thefuture.university/cltah1pmp01bbpcsu5o3uytxa/long-free/bala-market-taboola
+                      - generic [ref=e797]:
+                        - 'link "Live Update: The Strategy Uses By Successful Intraday Trader" [ref=e798]'
+                        - link "TradeWise in Taboola advertising section" [ref=e799]: TradeWise
+                  - generic [ref=e800] [cursor=pointer]:
+                    - link [ref=e801]:
+                      - /url: https://tradewise.thefuture.university/cltah1pmp01bbpcsu5o3uytxa/long-free/bala-market-taboola
+                      - img "Image for Taboola Advertising Unit" [ref=e803]
+                    - link [ref=e805]:
+                      - /url: https://tradewise.thefuture.university/cltah1pmp01bbpcsu5o3uytxa/long-free/bala-market-taboola
+                      - generic [ref=e806]:
+                        - link "Start Making Massive Side Income With This Intraday Trading Strategy" [ref=e807]
+                        - link "TradeWise in Taboola advertising section" [ref=e808]: TradeWise
+                  - generic [ref=e809] [cursor=pointer]:
+                    - link [ref=e810]:
+                      - /url: https://catmachine.co.in/aftermarket-cva2.0.html
+                      - img "Image for Taboola Advertising Unit" [ref=e812]
+                    - link [ref=e814]:
+                      - /url: https://catmachine.co.in/aftermarket-cva2.0.html
+                      - generic [ref=e815]:
+                        - link "Cat® CVA Services Commitment" [ref=e816]
+                        - link "Cat® Customer Value Agreements in Taboola advertising section" [ref=e817]: Cat® Customer Value Agreements
+              - generic [ref=e823]:
+                - generic:
+                  - generic [ref=e824] [cursor=pointer]:
+                    - link [ref=e825]:
+                      - /url: https://donateforhealth.com/stories/supporthimanshu
+                      - img "Image for Taboola Advertising Unit" [ref=e827]
+                    - link [ref=e829]:
+                      - /url: https://donateforhealth.com/stories/supporthimanshu
+                      - generic [ref=e830]:
+                        - link "Help! His treatment needs more than ₹6 lakhs." [ref=e831]
+                        - link "Donate For Health in Taboola advertising section" [ref=e832]: Donate For Health
+                  - generic [ref=e833] [cursor=pointer]:
+                    - link [ref=e834]:
+                      - /url: https://volusty.com/collections/best-picks
+                      - img "Image for Taboola Advertising Unit" [ref=e836]
+                    - link [ref=e838]:
+                      - /url: https://volusty.com/collections/best-picks
+                      - generic [ref=e839]:
+                        - link "Stop Searching for the Perfect Everyday Top" [ref=e840]
+                        - link "volusty in Taboola advertising section" [ref=e841]: volusty
+              - generic [ref=e861] [cursor=pointer]:
+                - img "Image for Taboola Advertising Unit" [ref=e862]
+                - iframe [ref=e864]:
+                  - iframe [ref=f100e4]:
+                    - generic [ref=f110e1]:
+                      - generic [ref=f110e3]:
+                        - link [ref=f110e4] [cursor=pointer]:
+                          - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C5FVSViRbatWVAdzmqfkP3qqC8AXEq9-2iAHLk8TNhRaA0erEiw4QASDmtM-ZAWDlsuSDoA6gAYr1s7wCyAEJqQKZMG0P-E1GPuACAKgDAcgDCqoE0QJP0Fl_0qPI1_f4qb4sBGVaGzVNz6GLcpVEzkFjbi1egVg7NgTIVdlYXS6RXE4oPgNvGNNJSOa2nFMLofOeML-5YXvx3S0V5EtPtJfo12-7cLQcEWrBLpPeqvhH0s3IGL5WpiPZuRPJiJU20XaTTXaPjQucwCZIJzIGBNgnnFMH_A67_xsLuewQQgJwYtKXnSvXgdNAZBImLhdmKze4FWdvdKcTJmobBk9Saiu9GYkeNQFxraGCTB55AIcpVS06Gdp3vYy9Z6PXejKb23YgeFuyQlbWcsh2-i-3rh0A2ncqrTQkrKxaMVo7z2GC1lULaOVj2Sf46MYex2jc2TtNiI0WSoCuPmgdJvpRTkpSEc98QqaBCbwVgA6LeEtuLQVofNinNlJsm-s6mUMf1RNo1_oJk-jCZeVuLpg3PfPWuvkpy5xn3C3k6OALwnG1aT9OwqwSwAT7l46i3gXgBAGIBdPp1uBVoAYugAf37tTDAagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ0BMgiKgoCAgICACDoPgECAwICAgICogAKog4AQSL39wTpYn8vDudPblQNgAbEJswoV7u7k_H6ACgOKCpoBaHR0cHM6Ly9tb25pdG9yLmx1bmlvLmFpL3YzLjAvdGVtcGxhdGU_YWNjaWQ9MTc0MjgmdXJsZGVjb2RlPTEma3c9Jm10PSZudz14JmNwbj0yMzAyMzc3NzkxOCZkZXZpPWMmZGV2bT0mbG9jcD05MzAxNTQxJmxvY2k9JnBsPSZjcj0mYWRwPSZzYWR0PSZ1cmw9e2xwdXJsfZgLAcgLAeALAYAMAaIMA5ABAaoNAklOyA0B4g0TCPyNxLnT25UDFVxzKgkdXpUAXuoNEwj_j8W509uVAxVccyoJHV6VAF7wDQKIDv___________wGwDtqoqIAZuBPkA9gTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjUxMDM4Nzk0ODNQBroXAjgBqhgXCQAAAABgJORAEgo1MTAzODc5NDgzGAGyGAkSAqhOGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI1ZjGudPblQMVXHMqCR1elQBeEAEYASAAEgJvmvD_BwE&num=1&cid=CAQSiwIAEQoqgfGN8LLrd3bOutfstJXmKugWuMJFB-e0bLTa1FeJN6fNj7kh49_PDSXhEqlus3HNo57M3vkwktLRavfgLyHjqVZBN2zRDw4g094a_o3_Yx0FsV7N0kJ5z7yK6tD9SQkFWCYPjsztU2AgNN0VuoVf87OuYa2ltnwbpvj-M8f6BwfDB4TfU3Ku7nns62byKQGI8jx3CIIxd6zXdko5Wnh41WYr46WlQLzIKtwOxICuYhSEYNKZWdztYyaDoyxHcx0pvRNaAEkdPI-a2OhKXR1YtCv6TE9HlwMxpPsMUdymul_raH8JZ3I8b5fjils7sPjtYe9Wv1sJHXkkEgQUHUvxPZ5u_DBkR78YAQ&sig=AOD64_1UylHaS0RysLz36P_i8NUKVGCa6Q&client=ca-pub-3677668629134422&rf=4&nb=9&adurl=https://www.wheelsoftrust.com/%3Futm_source%3DGoogle_PMAX%26utm_medium%3DCPA%26utm_campaign%3DWPP_HERO_IBU_Performance_WOT_Google_PMAX_North_SEP25%26utm_term%3DWOT%26utm_content%3DDestini%26gad_source%3D5%26gad_campaignid%3D23019762899%26gclid%3DEAIaIQobChMI1ZjGudPblQMVXHMqCR1elQBeEAEYASAAEgJvmvD_BwE
+                        - link "Scrap Old Bike For Value" [ref=f110e7] [cursor=pointer]:
+                          - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C5FVSViRbatWVAdzmqfkP3qqC8AXEq9-2iAHLk8TNhRaA0erEiw4QASDmtM-ZAWDlsuSDoA6gAYr1s7wCyAEJqQKZMG0P-E1GPuACAKgDAcgDCqoE0QJP0Fl_0qPI1_f4qb4sBGVaGzVNz6GLcpVEzkFjbi1egVg7NgTIVdlYXS6RXE4oPgNvGNNJSOa2nFMLofOeML-5YXvx3S0V5EtPtJfo12-7cLQcEWrBLpPeqvhH0s3IGL5WpiPZuRPJiJU20XaTTXaPjQucwCZIJzIGBNgnnFMH_A67_xsLuewQQgJwYtKXnSvXgdNAZBImLhdmKze4FWdvdKcTJmobBk9Saiu9GYkeNQFxraGCTB55AIcpVS06Gdp3vYy9Z6PXejKb23YgeFuyQlbWcsh2-i-3rh0A2ncqrTQkrKxaMVo7z2GC1lULaOVj2Sf46MYex2jc2TtNiI0WSoCuPmgdJvpRTkpSEc98QqaBCbwVgA6LeEtuLQVofNinNlJsm-s6mUMf1RNo1_oJk-jCZeVuLpg3PfPWuvkpy5xn3C3k6OALwnG1aT9OwqwSwAT7l46i3gXgBAGIBdPp1uBVoAYugAf37tTDAagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ0BMgiKgoCAgICACDoPgECAwICAgICogAKog4AQSL39wTpYn8vDudPblQNgAbEJswoV7u7k_H6ACgOKCpoBaHR0cHM6Ly9tb25pdG9yLmx1bmlvLmFpL3YzLjAvdGVtcGxhdGU_YWNjaWQ9MTc0MjgmdXJsZGVjb2RlPTEma3c9Jm10PSZudz14JmNwbj0yMzAyMzc3NzkxOCZkZXZpPWMmZGV2bT0mbG9jcD05MzAxNTQxJmxvY2k9JnBsPSZjcj0mYWRwPSZzYWR0PSZ1cmw9e2xwdXJsfZgLAcgLAeALAYAMAaIMA5ABAaoNAklOyA0B4g0TCPyNxLnT25UDFVxzKgkdXpUAXuoNEwj_j8W509uVAxVccyoJHV6VAF7wDQKIDv___________wGwDtqoqIAZuBPkA9gTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjUxMDM4Nzk0ODNQBroXAjgBqhgXCQAAAABgJORAEgo1MTAzODc5NDgzGAGyGAkSAqhOGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI1ZjGudPblQMVXHMqCR1elQBeEAEYASAAEgJvmvD_BwE&num=1&cid=CAQSiwIAEQoqgfGN8LLrd3bOutfstJXmKugWuMJFB-e0bLTa1FeJN6fNj7kh49_PDSXhEqlus3HNo57M3vkwktLRavfgLyHjqVZBN2zRDw4g094a_o3_Yx0FsV7N0kJ5z7yK6tD9SQkFWCYPjsztU2AgNN0VuoVf87OuYa2ltnwbpvj-M8f6BwfDB4TfU3Ku7nns62byKQGI8jx3CIIxd6zXdko5Wnh41WYr46WlQLzIKtwOxICuYhSEYNKZWdztYyaDoyxHcx0pvRNaAEkdPI-a2OhKXR1YtCv6TE9HlwMxpPsMUdymul_raH8JZ3I8b5fjils7sPjtYe9Wv1sJHXkkEgQUHUvxPZ5u_DBkR78YAQ&sig=AOD64_1UylHaS0RysLz36P_i8NUKVGCa6Q&client=ca-pub-3677668629134422&rf=4&nb=0&adurl=https://www.wheelsoftrust.com/%3Futm_source%3DGoogle_PMAX%26utm_medium%3DCPA%26utm_campaign%3DWPP_HERO_IBU_Performance_WOT_Google_PMAX_North_SEP25%26utm_term%3DWOT%26utm_content%3DDestini%26gad_source%3D5%26gad_campaignid%3D23019762899%26gclid%3DEAIaIQobChMI1ZjGudPblQMVXHMqCR1elQBeEAEYASAAEgJvmvD_BwE
+                        - generic [ref=f110e8]:
+                          - link [ref=f110e9] [cursor=pointer]:
+                            - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C5FVSViRbatWVAdzmqfkP3qqC8AXEq9-2iAHLk8TNhRaA0erEiw4QASDmtM-ZAWDlsuSDoA6gAYr1s7wCyAEJqQKZMG0P-E1GPuACAKgDAcgDCqoE0QJP0Fl_0qPI1_f4qb4sBGVaGzVNz6GLcpVEzkFjbi1egVg7NgTIVdlYXS6RXE4oPgNvGNNJSOa2nFMLofOeML-5YXvx3S0V5EtPtJfo12-7cLQcEWrBLpPeqvhH0s3IGL5WpiPZuRPJiJU20XaTTXaPjQucwCZIJzIGBNgnnFMH_A67_xsLuewQQgJwYtKXnSvXgdNAZBImLhdmKze4FWdvdKcTJmobBk9Saiu9GYkeNQFxraGCTB55AIcpVS06Gdp3vYy9Z6PXejKb23YgeFuyQlbWcsh2-i-3rh0A2ncqrTQkrKxaMVo7z2GC1lULaOVj2Sf46MYex2jc2TtNiI0WSoCuPmgdJvpRTkpSEc98QqaBCbwVgA6LeEtuLQVofNinNlJsm-s6mUMf1RNo1_oJk-jCZeVuLpg3PfPWuvkpy5xn3C3k6OALwnG1aT9OwqwSwAT7l46i3gXgBAGIBdPp1uBVoAYugAf37tTDAagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ0BMgiKgoCAgICACDoPgECAwICAgICogAKog4AQSL39wTpYn8vDudPblQNgAbEJswoV7u7k_H6ACgOKCpoBaHR0cHM6Ly9tb25pdG9yLmx1bmlvLmFpL3YzLjAvdGVtcGxhdGU_YWNjaWQ9MTc0MjgmdXJsZGVjb2RlPTEma3c9Jm10PSZudz14JmNwbj0yMzAyMzc3NzkxOCZkZXZpPWMmZGV2bT0mbG9jcD05MzAxNTQxJmxvY2k9JnBsPSZjcj0mYWRwPSZzYWR0PSZ1cmw9e2xwdXJsfZgLAcgLAeALAYAMAaIMA5ABAaoNAklOyA0B4g0TCPyNxLnT25UDFVxzKgkdXpUAXuoNEwj_j8W509uVAxVccyoJHV6VAF7wDQKIDv___________wGwDtqoqIAZuBPkA9gTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjUxMDM4Nzk0ODNQBroXAjgBqhgXCQAAAABgJORAEgo1MTAzODc5NDgzGAGyGAkSAqhOGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI1ZjGudPblQMVXHMqCR1elQBeEAEYASAAEgJvmvD_BwE&num=1&cid=CAQSiwIAEQoqgfGN8LLrd3bOutfstJXmKugWuMJFB-e0bLTa1FeJN6fNj7kh49_PDSXhEqlus3HNo57M3vkwktLRavfgLyHjqVZBN2zRDw4g094a_o3_Yx0FsV7N0kJ5z7yK6tD9SQkFWCYPjsztU2AgNN0VuoVf87OuYa2ltnwbpvj-M8f6BwfDB4TfU3Ku7nns62byKQGI8jx3CIIxd6zXdko5Wnh41WYr46WlQLzIKtwOxICuYhSEYNKZWdztYyaDoyxHcx0pvRNaAEkdPI-a2OhKXR1YtCv6TE9HlwMxpPsMUdymul_raH8JZ3I8b5fjils7sPjtYe9Wv1sJHXkkEgQUHUvxPZ5u_DBkR78YAQ&sig=AOD64_1UylHaS0RysLz36P_i8NUKVGCa6Q&client=ca-pub-3677668629134422&rf=4&nb=19&adurl=https://www.wheelsoftrust.com/%3Futm_source%3DGoogle_PMAX%26utm_medium%3DCPA%26utm_campaign%3DWPP_HERO_IBU_Performance_WOT_Google_PMAX_North_SEP25%26utm_term%3DWOT%26utm_content%3DDestini%26gad_source%3D5%26gad_campaignid%3D23019762899%26gclid%3DEAIaIQobChMI1ZjGudPblQMVXHMqCR1elQBeEAEYASAAEgJvmvD_BwE
+                          - link "Check exact bike resale value in seconds. Sell online hassle-free — all brands accepted." [ref=f110e12] [cursor=pointer]:
+                            - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C5FVSViRbatWVAdzmqfkP3qqC8AXEq9-2iAHLk8TNhRaA0erEiw4QASDmtM-ZAWDlsuSDoA6gAYr1s7wCyAEJqQKZMG0P-E1GPuACAKgDAcgDCqoE0QJP0Fl_0qPI1_f4qb4sBGVaGzVNz6GLcpVEzkFjbi1egVg7NgTIVdlYXS6RXE4oPgNvGNNJSOa2nFMLofOeML-5YXvx3S0V5EtPtJfo12-7cLQcEWrBLpPeqvhH0s3IGL5WpiPZuRPJiJU20XaTTXaPjQucwCZIJzIGBNgnnFMH_A67_xsLuewQQgJwYtKXnSvXgdNAZBImLhdmKze4FWdvdKcTJmobBk9Saiu9GYkeNQFxraGCTB55AIcpVS06Gdp3vYy9Z6PXejKb23YgeFuyQlbWcsh2-i-3rh0A2ncqrTQkrKxaMVo7z2GC1lULaOVj2Sf46MYex2jc2TtNiI0WSoCuPmgdJvpRTkpSEc98QqaBCbwVgA6LeEtuLQVofNinNlJsm-s6mUMf1RNo1_oJk-jCZeVuLpg3PfPWuvkpy5xn3C3k6OALwnG1aT9OwqwSwAT7l46i3gXgBAGIBdPp1uBVoAYugAf37tTDAagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ0BMgiKgoCAgICACDoPgECAwICAgICogAKog4AQSL39wTpYn8vDudPblQNgAbEJswoV7u7k_H6ACgOKCpoBaHR0cHM6Ly9tb25pdG9yLmx1bmlvLmFpL3YzLjAvdGVtcGxhdGU_YWNjaWQ9MTc0MjgmdXJsZGVjb2RlPTEma3c9Jm10PSZudz14JmNwbj0yMzAyMzc3NzkxOCZkZXZpPWMmZGV2bT0mbG9jcD05MzAxNTQxJmxvY2k9JnBsPSZjcj0mYWRwPSZzYWR0PSZ1cmw9e2xwdXJsfZgLAcgLAeALAYAMAaIMA5ABAaoNAklOyA0B4g0TCPyNxLnT25UDFVxzKgkdXpUAXuoNEwj_j8W509uVAxVccyoJHV6VAF7wDQKIDv___________wGwDtqoqIAZuBPkA9gTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjUxMDM4Nzk0ODNQBroXAjgBqhgXCQAAAABgJORAEgo1MTAzODc5NDgzGAGyGAkSAqhOGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI1ZjGudPblQMVXHMqCR1elQBeEAEYASAAEgJvmvD_BwE&num=1&cid=CAQSiwIAEQoqgfGN8LLrd3bOutfstJXmKugWuMJFB-e0bLTa1FeJN6fNj7kh49_PDSXhEqlus3HNo57M3vkwktLRavfgLyHjqVZBN2zRDw4g094a_o3_Yx0FsV7N0kJ5z7yK6tD9SQkFWCYPjsztU2AgNN0VuoVf87OuYa2ltnwbpvj-M8f6BwfDB4TfU3Ku7nns62byKQGI8jx3CIIxd6zXdko5Wnh41WYr46WlQLzIKtwOxICuYhSEYNKZWdztYyaDoyxHcx0pvRNaAEkdPI-a2OhKXR1YtCv6TE9HlwMxpPsMUdymul_raH8JZ3I8b5fjils7sPjtYe9Wv1sJHXkkEgQUHUvxPZ5u_DBkR78YAQ&sig=AOD64_1UylHaS0RysLz36P_i8NUKVGCa6Q&client=ca-pub-3677668629134422&rf=4&nb=7&adurl=https://www.wheelsoftrust.com/%3Futm_source%3DGoogle_PMAX%26utm_medium%3DCPA%26utm_campaign%3DWPP_HERO_IBU_Performance_WOT_Google_PMAX_North_SEP25%26utm_term%3DWOT%26utm_content%3DDestini%26gad_source%3D5%26gad_campaignid%3D23019762899%26gclid%3DEAIaIQobChMI1ZjGudPblQMVXHMqCR1elQBeEAEYASAAEgJvmvD_BwE
+                            - text: Check exact bike resale value inseconds. Sell online hassle-free— all brands accepted.
+                          - link [ref=f110e13] [cursor=pointer]:
+                            - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C5FVSViRbatWVAdzmqfkP3qqC8AXEq9-2iAHLk8TNhRaA0erEiw4QASDmtM-ZAWDlsuSDoA6gAYr1s7wCyAEJqQKZMG0P-E1GPuACAKgDAcgDCqoE0QJP0Fl_0qPI1_f4qb4sBGVaGzVNz6GLcpVEzkFjbi1egVg7NgTIVdlYXS6RXE4oPgNvGNNJSOa2nFMLofOeML-5YXvx3S0V5EtPtJfo12-7cLQcEWrBLpPeqvhH0s3IGL5WpiPZuRPJiJU20XaTTXaPjQucwCZIJzIGBNgnnFMH_A67_xsLuewQQgJwYtKXnSvXgdNAZBImLhdmKze4FWdvdKcTJmobBk9Saiu9GYkeNQFxraGCTB55AIcpVS06Gdp3vYy9Z6PXejKb23YgeFuyQlbWcsh2-i-3rh0A2ncqrTQkrKxaMVo7z2GC1lULaOVj2Sf46MYex2jc2TtNiI0WSoCuPmgdJvpRTkpSEc98QqaBCbwVgA6LeEtuLQVofNinNlJsm-s6mUMf1RNo1_oJk-jCZeVuLpg3PfPWuvkpy5xn3C3k6OALwnG1aT9OwqwSwAT7l46i3gXgBAGIBdPp1uBVoAYugAf37tTDAagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ0BMgiKgoCAgICACDoPgECAwICAgICogAKog4AQSL39wTpYn8vDudPblQNgAbEJswoV7u7k_H6ACgOKCpoBaHR0cHM6Ly9tb25pdG9yLmx1bmlvLmFpL3YzLjAvdGVtcGxhdGU_YWNjaWQ9MTc0MjgmdXJsZGVjb2RlPTEma3c9Jm10PSZudz14JmNwbj0yMzAyMzc3NzkxOCZkZXZpPWMmZGV2bT0mbG9jcD05MzAxNTQxJmxvY2k9JnBsPSZjcj0mYWRwPSZzYWR0PSZ1cmw9e2xwdXJsfZgLAcgLAeALAYAMAaIMA5ABAaoNAklOyA0B4g0TCPyNxLnT25UDFVxzKgkdXpUAXuoNEwj_j8W509uVAxVccyoJHV6VAF7wDQKIDv___________wGwDtqoqIAZuBPkA9gTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjUxMDM4Nzk0ODNQBroXAjgBqhgXCQAAAABgJORAEgo1MTAzODc5NDgzGAGyGAkSAqhOGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI1ZjGudPblQMVXHMqCR1elQBeEAEYASAAEgJvmvD_BwE&num=1&cid=CAQSiwIAEQoqgfGN8LLrd3bOutfstJXmKugWuMJFB-e0bLTa1FeJN6fNj7kh49_PDSXhEqlus3HNo57M3vkwktLRavfgLyHjqVZBN2zRDw4g094a_o3_Yx0FsV7N0kJ5z7yK6tD9SQkFWCYPjsztU2AgNN0VuoVf87OuYa2ltnwbpvj-M8f6BwfDB4TfU3Ku7nns62byKQGI8jx3CIIxd6zXdko5Wnh41WYr46WlQLzIKtwOxICuYhSEYNKZWdztYyaDoyxHcx0pvRNaAEkdPI-a2OhKXR1YtCv6TE9HlwMxpPsMUdymul_raH8JZ3I8b5fjils7sPjtYe9Wv1sJHXkkEgQUHUvxPZ5u_DBkR78YAQ&sig=AOD64_1UylHaS0RysLz36P_i8NUKVGCa6Q&client=ca-pub-3677668629134422&rf=4&nb=8&adurl=https://www.wheelsoftrust.com/%3Futm_source%3DGoogle_PMAX%26utm_medium%3DCPA%26utm_campaign%3DWPP_HERO_IBU_Performance_WOT_Google_PMAX_North_SEP25%26utm_term%3DWOT%26utm_content%3DDestini%26gad_source%3D5%26gad_campaignid%3D23019762899%26gclid%3DEAIaIQobChMI1ZjGudPblQMVXHMqCR1elQBeEAEYASAAEgJvmvD_BwE
+                            - link [ref=f110e14]
+                      - generic [ref=f110e18]:
+                        - link [ref=f110e20] [cursor=pointer]:
+                          - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXOIBo9zOX6Cug0phBkMFy0WTRpBHe4HFXpBBKqmkcWx-lE5P8qrTjknIUQfGxz6obDIr5kuY3cTAg4HbJKBrZSnCDiNG11bz3nxCxwkLkm5Tj81gwjP3KTwsMWv8cluJiT5dHAzUzB2oobJRnXxJzMiT-1ZSCZsUwvDYhrG1B1YGkifMol1nAG0c8WnbdCrPScAQpvI0QHkiDwlIL9CAOmgVf5NxWUbiy4ju_BF1KHhP3BwiZws0cGogtBjTNRV-ITKSIKrFClFcHsV8PEX4X2kRbUSeaa9hcxZq-yZfPCCn6EDMa1J1_IjJjbdPiiTTSZqBkviPKaVnVa72DVJ-5FtWDfhtbjrW1fQdyH9ELVrW1XSI3fKrKlEvJOWStfoeSezzKNgQ1ph1AZ9_I7u1E4BbyNoGCADUOX_NHGjYuhmIMuO33a0YLV5qYRnNpIexijmTATREvKabenNrde27QsGCchWsWyh43wbE9fIUGGHlQqQF2M_O0jSinm8N-H3psGRpJzXTf8LD89HvVx7KhWWsCweJy07oAD4bK4IurHieeFX0TRen41MrCDLWpQQKwigUc2bb238_PCQ2n2woebqNL3IDzGaHFwc5XH7_A1sum6F8A7HD8WWhkUCbb3LV_JsKn_38BpO8NBaQ8E1OqJT-o7a-MRS2ljIZ4J9sL3mzN0latadFA-XlKC2g1dVAC0vW6EYtznDrZ98Tm1VJnn-UPQyWxllmAh2tQiQ7vtg6qcSlRaf21kn35jlaLwP2l74yy0Z9kZ045TBX9hNXLRjSGUew1l3PksozlwGFRiRvK9JWaY6TlVUvcplPDj_ESgD1YCBQj2Y4TmPFWWSAIgWB31YXYw60pv9JXFEmrmKOf7n9REHog0VguSkDMdszYCBfTqeuCt4Bt19XRJkZ2mZ69OEVxG8HxQ5Qw-1ga7kGfjslBkdSBgyzPqPJSAaOrXfCm8lhcArhZaCkO5mNz_3Vps-1H3rL_4lh0J3R7ok9lHXuLrnJxF5f-s46P5QiNeqsxIQedyfH8YkfgMJdp7D2w3oL1FYsbn1dgnZoPuG7QG8P8A_25mWWEa7RMLOAeW5DBkW3ZaoRVkLNwQOcR6pHk-n9vku0z4YtMXeHl86kOhtof82YsSjdeHIvMiZqaA-Kt-m5MyghWoGXPWjx80I8WCnSRj1CtMaPvF9loeiK63gyAJTZ9OPOjkiNGuRLPci_0xwUCH-r0iK4_ACv9C63IpX2U0y0DZ4vuCwHxiQ9DKRZ5ti1HQws3e3mjxRvK-rGLXaTS5tMLIrOTyFWuzSGxefJATxJmoDWJP3CLje6HFew_2bmL7B5k_aWRoRCX-3HuH-UqSbAJ2bF3Vzg7YXwqDO48djXdg7qGd7ukv-VRv1OJ3TXPIktCH9ncVGenPFUgBdrvDsrc5wUveQ28cF73B4IQJNAGUq0uZ38c03PfdOmtz-fyM8ijNpMLVVpVyg95-vkAW8G5PNaHqJ8ruYEqNrMAVFyfFJR8GePNhy73SX1tvo0-xklIkL2yugYWBwNfhXbX_A_FuB1rsmE7_WipyBdYQuhdyhsSjAYiPpmqS2XtL2b1URVk9IS1D8YVaqQDfIqS8rk_sYZYx-jMpAe4Sbtpawtq2MQiSwZe9dRItdCJ7080YWhnsK7cQTL5b7rcYCw57Q5WeWMF9SCh9AjjQN-9XVnkh516Da40AtjWpV59M1VeB5W9HN06d1YpJdMIv8QZBYwykLbTy9Ufb69eMULryfVubSGC0T1HYiW43YuWuLT9DVBCV008hJ4Ky-LRU3NmMFso3I_nF2I1s3XO6hzbMeGM0TfQ7Ir20sE-8rYgBx7EUdX8sC8egCNoy9dNOHspugyWa-kHyZxVI0REfj-4JvtMw5JoLZqzvvgL9JSpkxxicJDN-gs-Ug_FFIsuweuX-WioI5WBWb9M4tgrp7hhbc-3tEx1Roe8lRveAdyZ7Sx2W7RolSjB8DRdKTfmHQJbgLOSViylalhjWs3iA9DFkUaZkfmhOym0BXDqWW4yaPVr0yVpgyHReKWu0DfZH-yuqJKDMJvoEAGPtao9p_FKdKTCtYw85bF9_rqoUJx0Bm_Nnv6T3HyQflwAlpNt0_LqdJq3gGIzkAjjiYpcXDuPzigDkZ5Zukm3KPPGFKwWWi64_kYJlyAWx73YeP41RZ1dQ_K62eBt3N4-l2o4Mq8GBGqtxlo9oVFfU2l6Ev4dwq92KVpzwBfR2jW5YEoJg9rUdISnEFxsOlx9V9oZD0-FB_osFX5Ax9EPL2p-z9ON6kMBaKqnjBmrRvApS4ICMdzpQ8PpLwqwwz0ZZXzGC3mqtK7qrSCXYnBDQLUATKrGTUy1rICyUDR1tIZNOzd27L4MJBkiB6QZh1ATwpLA-tPBeR90K0QmTO62pIr7pRxnqEf9fNj0Sa0QgO-V8KnbgOF3o09sV2iWnG1h_uDNqWK7Et_barcRmDNkKSkYrh7RcEhDD-1gjjA-tqGvb15dU_5Kh5Sa6VAyLFLY-LofvXAC476NpIEGUh841u3qw5QnX0aDzDCvP2S3IwHTt-3Rbkpb9AGDfpgGccPUlTE8_QOrNXzzqCfVCCGGt5sHWkWf34uZq0r-ODjTYoXs3jeR_T5b1xe7z77ZlEg29s5X-9ZyEpWd8cYXbytB8e56YzJRTZAgI1oiZuc-zJWZq9M0OlC9UKPJTtSkedV4mAT0cZU1YJDBTIvJViHsf39nQtX1nSoAlv-7llFeN7HE4KFFPF7nPZo4FSCe91oQKAJarfl5Xy4Rk0tngGNMgVz5UlG0lq0GGI0hdE3ufzRUa-DdWrOoSuGymwLmLAFkDYISJoVCLLkNpcem85CHFyiB2JBOS-cYnWFmccoYAi8lw3el3xD4RAVf1--z9PwN6xeOSahyzXPd63XTZn96_EKTcnTfg1vJAbfM_Vl21c6aoCpu09qDhYnbQNw9lXsL2kpaKN_zT8jHfG6aqTt6vkoJyqgbuLRD7aXUjP9gTcQZlWduMXEspu1ewZHugskMXQq3Ib-RVnwlBJfNJsHI8Vhb-N9ynBHKc-oCKF1zCWRqwC3p69Nno5qL8xglMm2zGfoTPqFC8MiAiME3moIxR7Frt2XLCOd8nDK4a_baHeBMYGNviZmjroCIZycYpqMOXoDEpOBJlJR-geo_N0Mm_DaA&opi=122715837
+                        - link [ref=f110e24] [cursor=pointer]:
+                          - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXOIBo9zOX6Cug0phBkMFy0WTRpBHe4HFXpBBKqmkcWx-lE5P8qrTjknIUQfGxz6obDIr5kuY3cTAg4HbJKBrZSnCDiNG11bz3nxCxwkLkm5Tj81gwjP3KTwsMWv8cluJiT5dHAzUzB2oobJRnXxJzMiT-1ZSCZsUwvDYhrG1B1YGkifMol1nAG0c8WnbdCrPScAQpvI0QHkiDwlIL9CAOmgVf5NxWUbiy4ju_BF1KHhP3BwiZws0cGogtBjTNRV-ITKSIKrFClFcHsV8PEX4X2kRbUSeaa9hcxZq-yZfPCCn6EDMa1J1_IjJjbdPiiTTSZqBkviPKaVnVa72DVJ-5FtWDfhtbjrW1fQdyH9ELVrW1XSI3fKrKlEvJOWStfoeSezzKNgQ1ph1AZ9_I7u1E4BbyNoGCADUOX_NHGjYuhmIMuO33a0YLV5qYRnNpIexijmTATREvKabenNrde27QsGCchWsWyh43wbE9fIUGGHlQqQF2M_O0jSinm8N-H3psGRpJzXTf8LD89HvVx7KhWWsCweJy07oAD4bK4IurHieeFX0TRen41MrCDLWpQQKwigUc2bb238_PCQ2n2woebqNL3IDzGaHFwc5XH7_A1sum6F8A7HD8WWhkUCbb3LV_JsKn_38BpO8NBaQ8E1OqJT-o7a-MRS2ljIZ4J9sL3mzN0latadFA-XlKC2g1dVAC0vW6EYtznDrZ98Tm1VJnn-UPQyWxllmAh2tQiQ7vtg6qcSlRaf21kn35jlaLwP2l74yy0Z9kZ045TBX9hNXLRjSGUew1l3PksozlwGFRiRvK9JWaY6TlVUvcplPDj_ESgD1YCBQj2Y4TmPFWWSAIgWB31YXYw60pv9JXFEmrmKOf7n9REHog0VguSkDMdszYCBfTqeuCt4Bt19XRJkZ2mZ69OEVxG8HxQ5Qw-1ga7kGfjslBkdSBgyzPqPJSAaOrXfCm8lhcArhZaCkO5mNz_3Vps-1H3rL_4lh0J3R7ok9lHXuLrnJxF5f-s46P5QiNeqsxIQedyfH8YkfgMJdp7D2w3oL1FYsbn1dgnZoPuG7QG8P8A_25mWWEa7RMLOAeW5DBkW3ZaoRVkLNwQOcR6pHk-n9vku0z4YtMXeHl86kOhtof82YsSjdeHIvMiZqaA-Kt-m5MyghWoGXPWjx80I8WCnSRj1CtMaPvF9loeiK63gyAJTZ9OPOjkiNGuRLPci_0xwUCH-r0iK4_ACv9C63IpX2U0y0DZ4vuCwHxiQ9DKRZ5ti1HQws3e3mjxRvK-rGLXaTS5tMLIrOTyFWuzSGxefJATxJmoDWJP3CLje6HFew_2bmL7B5k_aWRoRCX-3HuH-UqSbAJ2bF3Vzg7YXwqDO48djXdg7qGd7ukv-VRv1OJ3TXPIktCH9ncVGenPFUgBdrvDsrc5wUveQ28cF73B4IQJNAGUq0uZ38c03PfdOmtz-fyM8ijNpMLVVpVyg95-vkAW8G5PNaHqJ8ruYEqNrMAVFyfFJR8GePNhy73SX1tvo0-xklIkL2yugYWBwNfhXbX_A_FuB1rsmE7_WipyBdYQuhdyhsSjAYiPpmqS2XtL2b1URVk9IS1D8YVaqQDfIqS8rk_sYZYx-jMpAe4Sbtpawtq2MQiSwZe9dRItdCJ7080YWhnsK7cQTL5b7rcYCw57Q5WeWMF9SCh9AjjQN-9XVnkh516Da40AtjWpV59M1VeB5W9HN06d1YpJdMIv8QZBYwykLbTy9Ufb69eMULryfVubSGC0T1HYiW43YuWuLT9DVBCV008hJ4Ky-LRU3NmMFso3I_nF2I1s3XO6hzbMeGM0TfQ7Ir20sE-8rYgBx7EUdX8sC8egCNoy9dNOHspugyWa-kHyZxVI0REfj-4JvtMw5JoLZqzvvgL9JSpkxxicJDN-gs-Ug_FFIsuweuX-WioI5WBWb9M4tgrp7hhbc-3tEx1Roe8lRveAdyZ7Sx2W7RolSjB8DRdKTfmHQJbgLOSViylalhjWs3iA9DFkUaZkfmhOym0BXDqWW4yaPVr0yVpgyHReKWu0DfZH-yuqJKDMJvoEAGPtao9p_FKdKTCtYw85bF9_rqoUJx0Bm_Nnv6T3HyQflwAlpNt0_LqdJq3gGIzkAjjiYpcXDuPzigDkZ5Zukm3KPPGFKwWWi64_kYJlyAWx73YeP41RZ1dQ_K62eBt3N4-l2o4Mq8GBGqtxlo9oVFfU2l6Ev4dwq92KVpzwBfR2jW5YEoJg9rUdISnEFxsOlx9V9oZD0-FB_osFX5Ax9EPL2p-z9ON6kMBaKqnjBmrRvApS4ICMdzpQ8PpLwqwwz0ZZXzGC3mqtK7qrSCXYnBDQLUATKrGTUy1rICyUDR1tIZNOzd27L4MJBkiB6QZh1ATwpLA-tPBeR90K0QmTO62pIr7pRxnqEf9fNj0Sa0QgO-V8KnbgOF3o09sV2iWnG1h_uDNqWK7Et_barcRmDNkKSkYrh7RcEhDD-1gjjA-tqGvb15dU_5Kh5Sa6VAyLFLY-LofvXAC476NpIEGUh841u3qw5QnX0aDzDCvP2S3IwHTt-3Rbkpb9AGDfpgGccPUlTE8_QOrNXzzqCfVCCGGt5sHWkWf34uZq0r-ODjTYoXs3jeR_T5b1xe7z77ZlEg29s5X-9ZyEpWd8cYXbytB8e56YzJRTZAgI1oiZuc-zJWZq9M0OlC9UKPJTtSkedV4mAT0cZU1YJDBTIvJViHsf39nQtX1nSoAlv-7llFeN7HE4KFFPF7nPZo4FSCe91oQKAJarfl5Xy4Rk0tngGNMgVz5UlG0lq0GGI0hdE3ufzRUa-DdWrOoSuGymwLmLAFkDYISJoVCLLkNpcem85CHFyiB2JBOS-cYnWFmccoYAi8lw3el3xD4RAVf1--z9PwN6xeOSahyzXPd63XTZn96_EKTcnTfg1vJAbfM_Vl21c6aoCpu09qDhYnbQNw9lXsL2kpaKN_zT8jHfG6aqTt6vkoJyqgbuLRD7aXUjP9gTcQZlWduMXEspu1ewZHugskMXQq3Ib-RVnwlBJfNJsHI8Vhb-N9ynBHKc-oCKF1zCWRqwC3p69Nno5qL8xglMm2zGfoTPqFC8MiAiME3moIxR7Frt2XLCOd8nDK4a_baHeBMYGNviZmjroCIZycYpqMOXoDEpOBJlJR-geo_N0Mm_DaA&opi=122715837
+                      - generic [ref=f110e40]:
+                        - generic [ref=f110e45]: Ads by
+                        - generic [ref=f110e50]:
+                          - generic [ref=f110e51]: Send feedback
+                          - link [ref=f110e55] [cursor=pointer]:
+                            - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXOIBo9zOX6Cug0phBkMFy0WTRpBHe4HFXpBBKqmkcWx-lE5P8qrTjknIUQfGxz6obDIr5kuY3cTAg4HbJKBrZSnCDiNG11bz3nxCxwkLkm5Tj81gwjP3KTwsMWv8cluJiT5dHAzUzB2oobJRnXxJzMiT-1ZSCZsUwvDYhrG1B1YGkifMol1nAG0c8WnbdCrPScAQpvI0QHkiDwlIL9CAOmgVf5NxWUbiy4ju_BF1KHhP3BwiZws0cGogtBjTNRV-ITKSIKrFClFcHsV8PEX4X2kRbUSeaa9hcxZq-yZfPCCn6EDMa1J1_IjJjbdPiiTTSZqBkviPKaVnVa72DVJ-5FtWDfhtbjrW1fQdyH9ELVrW1XSI3fKrKlEvJOWStfoeSezzKNgQ1ph1AZ9_I7u1E4BbyNoGCADUOX_NHGjYuhmIMuO33a0YLV5qYRnNpIexijmTATREvKabenNrde27QsGCchWsWyh43wbE9fIUGGHlQqQF2M_O0jSinm8N-H3psGRpJzXTf8LD89HvVx7KhWWsCweJy07oAD4bK4IurHieeFX0TRen41MrCDLWpQQKwigUc2bb238_PCQ2n2woebqNL3IDzGaHFwc5XH7_A1sum6F8A7HD8WWhkUCbb3LV_JsKn_38BpO8NBaQ8E1OqJT-o7a-MRS2ljIZ4J9sL3mzN0latadFA-XlKC2g1dVAC0vW6EYtznDrZ98Tm1VJnn-UPQyWxllmAh2tQiQ7vtg6qcSlRaf21kn35jlaLwP2l74yy0Z9kZ045TBX9hNXLRjSGUew1l3PksozlwGFRiRvK9JWaY6TlVUvcplPDj_ESgD1YCBQj2Y4TmPFWWSAIgWB31YXYw60pv9JXFEmrmKOf7n9REHog0VguSkDMdszYCBfTqeuCt4Bt19XRJkZ2mZ69OEVxG8HxQ5Qw-1ga7kGfjslBkdSBgyzPqPJSAaOrXfCm8lhcArhZaCkO5mNz_3Vps-1H3rL_4lh0J3R7ok9lHXuLrnJxF5f-s46P5QiNeqsxIQedyfH8YkfgMJdp7D2w3oL1FYsbn1dgnZoPuG7QG8P8A_25mWWEa7RMLOAeW5DBkW3ZaoRVkLNwQOcR6pHk-n9vku0z4YtMXeHl86kOhtof82YsSjdeHIvMiZqaA-Kt-m5MyghWoGXPWjx80I8WCnSRj1CtMaPvF9loeiK63gyAJTZ9OPOjkiNGuRLPci_0xwUCH-r0iK4_ACv9C63IpX2U0y0DZ4vuCwHxiQ9DKRZ5ti1HQws3e3mjxRvK-rGLXaTS5tMLIrOTyFWuzSGxefJATxJmoDWJP3CLje6HFew_2bmL7B5k_aWRoRCX-3HuH-UqSbAJ2bF3Vzg7YXwqDO48djXdg7qGd7ukv-VRv1OJ3TXPIktCH9ncVGenPFUgBdrvDsrc5wUveQ28cF73B4IQJNAGUq0uZ38c03PfdOmtz-fyM8ijNpMLVVpVyg95-vkAW8G5PNaHqJ8ruYEqNrMAVFyfFJR8GePNhy73SX1tvo0-xklIkL2yugYWBwNfhXbX_A_FuB1rsmE7_WipyBdYQuhdyhsSjAYiPpmqS2XtL2b1URVk9IS1D8YVaqQDfIqS8rk_sYZYx-jMpAe4Sbtpawtq2MQiSwZe9dRItdCJ7080YWhnsK7cQTL5b7rcYCw57Q5WeWMF9SCh9AjjQN-9XVnkh516Da40AtjWpV59M1VeB5W9HN06d1YpJdMIv8QZBYwykLbTy9Ufb69eMULryfVubSGC0T1HYiW43YuWuLT9DVBCV008hJ4Ky-LRU3NmMFso3I_nF2I1s3XO6hzbMeGM0TfQ7Ir20sE-8rYgBx7EUdX8sC8egCNoy9dNOHspugyWa-kHyZxVI0REfj-4JvtMw5JoLZqzvvgL9JSpkxxicJDN-gs-Ug_FFIsuweuX-WioI5WBWb9M4tgrp7hhbc-3tEx1Roe8lRveAdyZ7Sx2W7RolSjB8DRdKTfmHQJbgLOSViylalhjWs3iA9DFkUaZkfmhOym0BXDqWW4yaPVr0yVpgyHReKWu0DfZH-yuqJKDMJvoEAGPtao9p_FKdKTCtYw85bF9_rqoUJx0Bm_Nnv6T3HyQflwAlpNt0_LqdJq3gGIzkAjjiYpcXDuPzigDkZ5Zukm3KPPGFKwWWi64_kYJlyAWx73YeP41RZ1dQ_K62eBt3N4-l2o4Mq8GBGqtxlo9oVFfU2l6Ev4dwq92KVpzwBfR2jW5YEoJg9rUdISnEFxsOlx9V9oZD0-FB_osFX5Ax9EPL2p-z9ON6kMBaKqnjBmrRvApS4ICMdzpQ8PpLwqwwz0ZZXzGC3mqtK7qrSCXYnBDQLUATKrGTUy1rICyUDR1tIZNOzd27L4MJBkiB6QZh1ATwpLA-tPBeR90K0QmTO62pIr7pRxnqEf9fNj0Sa0QgO-V8KnbgOF3o09sV2iWnG1h_uDNqWK7Et_barcRmDNkKSkYrh7RcEhDD-1gjjA-tqGvb15dU_5Kh5Sa6VAyLFLY-LofvXAC476NpIEGUh841u3qw5QnX0aDzDCvP2S3IwHTt-3Rbkpb9AGDfpgGccPUlTE8_QOrNXzzqCfVCCGGt5sHWkWf34uZq0r-ODjTYoXs3jeR_T5b1xe7z77ZlEg29s5X-9ZyEpWd8cYXbytB8e56YzJRTZAgI1oiZuc-zJWZq9M0OlC9UKPJTtSkedV4mAT0cZU1YJDBTIvJViHsf39nQtX1nSoAlv-7llFeN7HE4KFFPF7nPZo4FSCe91oQKAJarfl5Xy4Rk0tngGNMgVz5UlG0lq0GGI0hdE3ufzRUa-DdWrOoSuGymwLmLAFkDYISJoVCLLkNpcem85CHFyiB2JBOS-cYnWFmccoYAi8lw3el3xD4RAVf1--z9PwN6xeOSahyzXPd63XTZn96_EKTcnTfg1vJAbfM_Vl21c6aoCpu09qDhYnbQNw9lXsL2kpaKN_zT8jHfG6aqTt6vkoJyqgbuLRD7aXUjP9gTcQZlWduMXEspu1ewZHugskMXQq3Ib-RVnwlBJfNJsHI8Vhb-N9ynBHKc-oCKF1zCWRqwC3p69Nno5qL8xglMm2zGfoTPqFC8MiAiME3moIxR7Frt2XLCOd8nDK4a_baHeBMYGNviZmjroCIZycYpqMOXoDEpOBJlJR-geo_N0Mm_DaA&opi=122715837
+                            - generic [ref=f110e56]: Why this ad?
+                      - generic [ref=f110e59]:
+                        - generic [ref=f110e60] [cursor=pointer]: Ad was inappropriate
+                        - generic [ref=f110e63] [cursor=pointer]: Not interested in this ad
+                        - generic [ref=f110e66] [cursor=pointer]: Seen this ad multiple times
+                        - generic [ref=f110e69] [cursor=pointer]: Ad covered content
+                      - generic [ref=f110e72]: Thanks. Feedback improves Google ads
+                      - generic [ref=f110e78]: Ad closed by
+              - generic [ref=e870]:
+                - generic:
+                  - generic [ref=e871] [cursor=pointer]:
+                    - link [ref=e872]:
+                      - /url: https://servedby.flashtalking.com/click/7/323516;10964993;50126;211;0
+                      - img "Image for Taboola Advertising Unit" [ref=e874]
+                    - link [ref=e876]:
+                      - /url: https://servedby.flashtalking.com/click/7/323516;10964993;50126;211;0
+                      - generic [ref=e877]:
+                        - link "iPhone 17. Designed to delight. Built to last." [ref=e878]
+                        - link "indiaistore in Taboola advertising section" [ref=e879]: indiaistore
+                  - generic [ref=e880] [cursor=pointer]:
+                    - link [ref=e881]:
+                      - /url: https://ic.com/lp/en/trade-gold
+                      - img "Image for Taboola Advertising Unit" [ref=e883]
+                    - link [ref=e885]:
+                      - /url: https://ic.com/lp/en/trade-gold
+                      - generic [ref=e886]:
+                        - link "This Could Be the Best Time to Trade Gold in 5 Years" [ref=e887]
+                        - link "IC in Taboola advertising section" [ref=e888]: IC
+                  - generic [ref=e890] [cursor=pointer]:
+                    - link [ref=e891]:
+                      - /url: https://volusty.com/collections/best-picks
+                      - img "Image for Taboola Advertising Unit" [ref=e893]
+                    - link [ref=e895]:
+                      - /url: https://volusty.com/collections/best-picks
+                      - generic [ref=e896]:
+                        - link "3 Best-Selling Summer Tops Women Can't Stop Buying" [ref=e897]
+                        - link "volusty in Taboola advertising section" [ref=e898]: volusty
+              - generic [ref=e904]:
+                - generic:
+                  - generic [ref=e905] [cursor=pointer]:
+                    - link [ref=e906]:
+                      - /url: https://www.channelnewsasia.com/singapore/2026-mass-call-high-court-chief-justice-ai-work-practices-6067356
+                      - img "Image for Taboola Advertising Unit" [ref=e908]
+                    - link [ref=e910]:
+                      - /url: https://www.channelnewsasia.com/singapore/2026-mass-call-high-court-chief-justice-ai-work-practices-6067356
+                      - generic [ref=e911]:
+                        - 'link "1 in 3 new lawyers may quit within 3 years due to workload, poor culture: Chief Justice" [ref=e912]'
+                        - link "CNA in Taboola advertising section" [ref=e913]: CNA
+                  - generic [ref=e914] [cursor=pointer]:
+                    - link [ref=e915]:
+                      - /url: https://www.channelnewsasia.com/cna-insider/hup-cheong-roast-meat-save-family-business-bad-debt-6224441
+                      - img "Image for Taboola Advertising Unit" [ref=e917]
+                    - link [ref=e919]:
+                      - /url: https://www.channelnewsasia.com/cna-insider/hup-cheong-roast-meat-save-family-business-bad-debt-6224441
+                      - generic [ref=e920]:
+                        - link "She ditched a six-figure salary to save her dad’s business, and uncovered S$500K in bad debt" [ref=e921]
+                        - link "CNA in Taboola advertising section" [ref=e922]: CNA
+              - generic [ref=e928]:
+                - generic:
+                  - generic [ref=e929] [cursor=pointer]:
+                    - link [ref=e930]:
+                      - /url: https://trekkit.in/collections/baselayers-thermals
+                      - img "Image for Taboola Advertising Unit" [ref=e932]
+                    - link [ref=e934]:
+                      - /url: https://trekkit.in/collections/baselayers-thermals
+                      - generic [ref=e935]:
+                        - link "Runs dry. Works harder" [ref=e936]
+                        - link "Trek Kit India in Taboola advertising section" [ref=e937]: Trek Kit India
+                  - generic [ref=e938] [cursor=pointer]:
+                    - link [ref=e939]:
+                      - /url: https://trekkit.in
+                      - img "Image for Taboola Advertising Unit" [ref=e941]
+                    - link [ref=e943]:
+                      - /url: https://trekkit.in
+                      - generic [ref=e944]:
+                        - link "Mountain Gear for Extreme Conditions" [ref=e945]
+                        - link "Trek Kit India in Taboola advertising section" [ref=e946]: Trek Kit India
+                  - generic [ref=e947] [cursor=pointer]:
+                    - link [ref=e948]:
+                      - /url: https://www.channelnewsasia.com/watch/money-mind-2026/tiny-living-big-savings-5798361
+                      - img "Image for Taboola Advertising Unit" [ref=e950]
+                    - link [ref=e952]:
+                      - /url: https://www.channelnewsasia.com/watch/money-mind-2026/tiny-living-big-savings-5798361
+                      - generic [ref=e953]:
+                        - link "How A Malaysian Doctor Couple Saves Thousands By Living In A Tiny Space At Work" [ref=e954]
+                        - link "CNA Money Mind in Taboola advertising section" [ref=e955]: CNA Money Mind
+              - generic [ref=e964] [cursor=pointer]:
+                - img "Image for Taboola Advertising Unit" [ref=e965]
+                - iframe [ref=e967]:
+                  - iframe [ref=f103e4]:
+                    - generic [ref=f114e1]:
+                      - generic [ref=f114e3]:
+                        - link [ref=f114e4] [cursor=pointer]:
+                          - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CDQKhViRbavy-FaikjMwP9MWb0AHEq9-2iAHLk8TNhRaA0erEiw4QASDmtM-ZAWDlsuSDoA6gAYr1s7wCyAEJqQKZMG0P-E1GPuACAKgDAcgDCqoE0QJP0BTIToNtzvwI3jQMW89oFPiNH66rpxF8KxGRVEAJNHQYgjZmOFwMC8_RwOWKn6SDC7_rPfD2T-wXfaOGtbXQ86J3WbUgIAwvnG2CBKj_lL1Wt1juTBeEqTuIX-mIQk8amElUVCvyoBYJk0D0nFsmQC6P-eZZgf8_KXIoXEzTTvh5MeJ_tL0qi33BNbj39Cwkkwm_JK6AXqUSDwzoe2kyFMLBgShnosw2Mer4qlu3bvSwSZ1YstV6N9BGt6qZN7ToDaeXzHbS1chbw6gfg6bbDtCZX0_X75_6v5fajPAcu3yJX7CVNArS88B_dj_VS5O3iiAUEuAf0QPVFKeEVsJ8vJ-O4TWxgeDC3PxlST-Rss8Kz3qyDLG8BTIiJfIMDxJQKkqJZCtrx0QzgvyyB8PdVY1ULLQ6PdrB6SsVKZYxXd4m8o2qvGI9uKdZED13ApO-wAT7l46i3gXgBAGIBdPp1uBVoAYugAf37tTDAagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ0BMgiKgoCAgICACDoPgECAwICAgICogAKog4AQSL39wTpY3c3YudPblQNgAbEJswoV7u7k_H6ACgOKCpoBaHR0cHM6Ly9tb25pdG9yLmx1bmlvLmFpL3YzLjAvdGVtcGxhdGU_YWNjaWQ9MTc0MjgmdXJsZGVjb2RlPTEma3c9Jm10PSZudz14JmNwbj0yMzAyMzc3NzkxOCZkZXZpPWMmZGV2bT0mbG9jcD05MzAxNTQxJmxvY2k9JnBsPSZjcj0mYWRwPSZzYWR0PSZ1cmw9e2xwdXJsfZgLAcgLAeALAYAMAaIMA5ABAaoNAklOyA0B4g0TCJ762LnT25UDFSgSgwMd9OIGGuoNEwjI3dm509uVAxUoEoMDHfTiBhrwDQKIDv___________wGwDtqoqIAZuBPkA9gTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjUxMDM4Nzk0ODNQBroXAjgBqhgXCQAAAADgnOlAEgo1MTAzODc5NDgzGAGyGAkSAqhOGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI_MHaudPblQMVKBKDAx304gYaEAEYASAAEgLjhvD_BwE&num=1&cid=CAQSiwIAEQoqgdpQsQq55MGexT0u0uyQ8qckDgsbocycHs0iuEsxMckZd4vfv9QlrDwoqbGGXl2FrdFo3p5lhPuHC36fUTCm33DsdYs3hpAF4th_Ad3x9t51oeTXv03_w-hDdr0VMQ-fIDeaPQjYoozDDFGviJXHIbvTFhy77g1vEHPOzIJQpVIn5pdFBkFacITYsuKOxWIOopGtVtTfF5dGKGXJkVG3d4ATz_HG3-92hmg3pTaE0Rdz5DP3vXttFFeRdEmsyGVeA2aTbRvQxBuLZjQXV3Z4GE_abJEBhpyPM0Tvmk_mQoJiaui53kVYnakZTvhEiEigWOgU9KCVjUkduiWpgTBx-d9dbLYOADEYAQ&sig=AOD64_10r7naN8Wf73m_qdgwRiZxTw1AYg&client=ca-pub-3677668629134422&rf=4&nb=9&adurl=https://www.wheelsoftrust.com/%3Futm_source%3DGoogle_PMAX%26utm_medium%3DCPA%26utm_campaign%3DWPP_HERO_IBU_Performance_WOT_Google_PMAX_North_SEP25%26utm_term%3DWOT%26utm_content%3DDestini%26gad_source%3D5%26gad_campaignid%3D23019762899%26gclid%3DEAIaIQobChMI_MHaudPblQMVKBKDAx304gYaEAEYASAAEgLjhvD_BwE
+                        - link "Scrap Old Bike For Value" [ref=f114e7] [cursor=pointer]:
+                          - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CDQKhViRbavy-FaikjMwP9MWb0AHEq9-2iAHLk8TNhRaA0erEiw4QASDmtM-ZAWDlsuSDoA6gAYr1s7wCyAEJqQKZMG0P-E1GPuACAKgDAcgDCqoE0QJP0BTIToNtzvwI3jQMW89oFPiNH66rpxF8KxGRVEAJNHQYgjZmOFwMC8_RwOWKn6SDC7_rPfD2T-wXfaOGtbXQ86J3WbUgIAwvnG2CBKj_lL1Wt1juTBeEqTuIX-mIQk8amElUVCvyoBYJk0D0nFsmQC6P-eZZgf8_KXIoXEzTTvh5MeJ_tL0qi33BNbj39Cwkkwm_JK6AXqUSDwzoe2kyFMLBgShnosw2Mer4qlu3bvSwSZ1YstV6N9BGt6qZN7ToDaeXzHbS1chbw6gfg6bbDtCZX0_X75_6v5fajPAcu3yJX7CVNArS88B_dj_VS5O3iiAUEuAf0QPVFKeEVsJ8vJ-O4TWxgeDC3PxlST-Rss8Kz3qyDLG8BTIiJfIMDxJQKkqJZCtrx0QzgvyyB8PdVY1ULLQ6PdrB6SsVKZYxXd4m8o2qvGI9uKdZED13ApO-wAT7l46i3gXgBAGIBdPp1uBVoAYugAf37tTDAagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ0BMgiKgoCAgICACDoPgECAwICAgICogAKog4AQSL39wTpY3c3YudPblQNgAbEJswoV7u7k_H6ACgOKCpoBaHR0cHM6Ly9tb25pdG9yLmx1bmlvLmFpL3YzLjAvdGVtcGxhdGU_YWNjaWQ9MTc0MjgmdXJsZGVjb2RlPTEma3c9Jm10PSZudz14JmNwbj0yMzAyMzc3NzkxOCZkZXZpPWMmZGV2bT0mbG9jcD05MzAxNTQxJmxvY2k9JnBsPSZjcj0mYWRwPSZzYWR0PSZ1cmw9e2xwdXJsfZgLAcgLAeALAYAMAaIMA5ABAaoNAklOyA0B4g0TCJ762LnT25UDFSgSgwMd9OIGGuoNEwjI3dm509uVAxUoEoMDHfTiBhrwDQKIDv___________wGwDtqoqIAZuBPkA9gTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjUxMDM4Nzk0ODNQBroXAjgBqhgXCQAAAADgnOlAEgo1MTAzODc5NDgzGAGyGAkSAqhOGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI_MHaudPblQMVKBKDAx304gYaEAEYASAAEgLjhvD_BwE&num=1&cid=CAQSiwIAEQoqgdpQsQq55MGexT0u0uyQ8qckDgsbocycHs0iuEsxMckZd4vfv9QlrDwoqbGGXl2FrdFo3p5lhPuHC36fUTCm33DsdYs3hpAF4th_Ad3x9t51oeTXv03_w-hDdr0VMQ-fIDeaPQjYoozDDFGviJXHIbvTFhy77g1vEHPOzIJQpVIn5pdFBkFacITYsuKOxWIOopGtVtTfF5dGKGXJkVG3d4ATz_HG3-92hmg3pTaE0Rdz5DP3vXttFFeRdEmsyGVeA2aTbRvQxBuLZjQXV3Z4GE_abJEBhpyPM0Tvmk_mQoJiaui53kVYnakZTvhEiEigWOgU9KCVjUkduiWpgTBx-d9dbLYOADEYAQ&sig=AOD64_10r7naN8Wf73m_qdgwRiZxTw1AYg&client=ca-pub-3677668629134422&rf=4&nb=0&adurl=https://www.wheelsoftrust.com/%3Futm_source%3DGoogle_PMAX%26utm_medium%3DCPA%26utm_campaign%3DWPP_HERO_IBU_Performance_WOT_Google_PMAX_North_SEP25%26utm_term%3DWOT%26utm_content%3DDestini%26gad_source%3D5%26gad_campaignid%3D23019762899%26gclid%3DEAIaIQobChMI_MHaudPblQMVKBKDAx304gYaEAEYASAAEgLjhvD_BwE
+                        - generic [ref=f114e8]:
+                          - link [ref=f114e9] [cursor=pointer]:
+                            - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CDQKhViRbavy-FaikjMwP9MWb0AHEq9-2iAHLk8TNhRaA0erEiw4QASDmtM-ZAWDlsuSDoA6gAYr1s7wCyAEJqQKZMG0P-E1GPuACAKgDAcgDCqoE0QJP0BTIToNtzvwI3jQMW89oFPiNH66rpxF8KxGRVEAJNHQYgjZmOFwMC8_RwOWKn6SDC7_rPfD2T-wXfaOGtbXQ86J3WbUgIAwvnG2CBKj_lL1Wt1juTBeEqTuIX-mIQk8amElUVCvyoBYJk0D0nFsmQC6P-eZZgf8_KXIoXEzTTvh5MeJ_tL0qi33BNbj39Cwkkwm_JK6AXqUSDwzoe2kyFMLBgShnosw2Mer4qlu3bvSwSZ1YstV6N9BGt6qZN7ToDaeXzHbS1chbw6gfg6bbDtCZX0_X75_6v5fajPAcu3yJX7CVNArS88B_dj_VS5O3iiAUEuAf0QPVFKeEVsJ8vJ-O4TWxgeDC3PxlST-Rss8Kz3qyDLG8BTIiJfIMDxJQKkqJZCtrx0QzgvyyB8PdVY1ULLQ6PdrB6SsVKZYxXd4m8o2qvGI9uKdZED13ApO-wAT7l46i3gXgBAGIBdPp1uBVoAYugAf37tTDAagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ0BMgiKgoCAgICACDoPgECAwICAgICogAKog4AQSL39wTpY3c3YudPblQNgAbEJswoV7u7k_H6ACgOKCpoBaHR0cHM6Ly9tb25pdG9yLmx1bmlvLmFpL3YzLjAvdGVtcGxhdGU_YWNjaWQ9MTc0MjgmdXJsZGVjb2RlPTEma3c9Jm10PSZudz14JmNwbj0yMzAyMzc3NzkxOCZkZXZpPWMmZGV2bT0mbG9jcD05MzAxNTQxJmxvY2k9JnBsPSZjcj0mYWRwPSZzYWR0PSZ1cmw9e2xwdXJsfZgLAcgLAeALAYAMAaIMA5ABAaoNAklOyA0B4g0TCJ762LnT25UDFSgSgwMd9OIGGuoNEwjI3dm509uVAxUoEoMDHfTiBhrwDQKIDv___________wGwDtqoqIAZuBPkA9gTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjUxMDM4Nzk0ODNQBroXAjgBqhgXCQAAAADgnOlAEgo1MTAzODc5NDgzGAGyGAkSAqhOGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI_MHaudPblQMVKBKDAx304gYaEAEYASAAEgLjhvD_BwE&num=1&cid=CAQSiwIAEQoqgdpQsQq55MGexT0u0uyQ8qckDgsbocycHs0iuEsxMckZd4vfv9QlrDwoqbGGXl2FrdFo3p5lhPuHC36fUTCm33DsdYs3hpAF4th_Ad3x9t51oeTXv03_w-hDdr0VMQ-fIDeaPQjYoozDDFGviJXHIbvTFhy77g1vEHPOzIJQpVIn5pdFBkFacITYsuKOxWIOopGtVtTfF5dGKGXJkVG3d4ATz_HG3-92hmg3pTaE0Rdz5DP3vXttFFeRdEmsyGVeA2aTbRvQxBuLZjQXV3Z4GE_abJEBhpyPM0Tvmk_mQoJiaui53kVYnakZTvhEiEigWOgU9KCVjUkduiWpgTBx-d9dbLYOADEYAQ&sig=AOD64_10r7naN8Wf73m_qdgwRiZxTw1AYg&client=ca-pub-3677668629134422&rf=4&nb=19&adurl=https://www.wheelsoftrust.com/%3Futm_source%3DGoogle_PMAX%26utm_medium%3DCPA%26utm_campaign%3DWPP_HERO_IBU_Performance_WOT_Google_PMAX_North_SEP25%26utm_term%3DWOT%26utm_content%3DDestini%26gad_source%3D5%26gad_campaignid%3D23019762899%26gclid%3DEAIaIQobChMI_MHaudPblQMVKBKDAx304gYaEAEYASAAEgLjhvD_BwE
+                          - link "Check exact bike resale value in seconds. Sell online hassle-free — all brands accepted." [ref=f114e12] [cursor=pointer]:
+                            - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CDQKhViRbavy-FaikjMwP9MWb0AHEq9-2iAHLk8TNhRaA0erEiw4QASDmtM-ZAWDlsuSDoA6gAYr1s7wCyAEJqQKZMG0P-E1GPuACAKgDAcgDCqoE0QJP0BTIToNtzvwI3jQMW89oFPiNH66rpxF8KxGRVEAJNHQYgjZmOFwMC8_RwOWKn6SDC7_rPfD2T-wXfaOGtbXQ86J3WbUgIAwvnG2CBKj_lL1Wt1juTBeEqTuIX-mIQk8amElUVCvyoBYJk0D0nFsmQC6P-eZZgf8_KXIoXEzTTvh5MeJ_tL0qi33BNbj39Cwkkwm_JK6AXqUSDwzoe2kyFMLBgShnosw2Mer4qlu3bvSwSZ1YstV6N9BGt6qZN7ToDaeXzHbS1chbw6gfg6bbDtCZX0_X75_6v5fajPAcu3yJX7CVNArS88B_dj_VS5O3iiAUEuAf0QPVFKeEVsJ8vJ-O4TWxgeDC3PxlST-Rss8Kz3qyDLG8BTIiJfIMDxJQKkqJZCtrx0QzgvyyB8PdVY1ULLQ6PdrB6SsVKZYxXd4m8o2qvGI9uKdZED13ApO-wAT7l46i3gXgBAGIBdPp1uBVoAYugAf37tTDAagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ0BMgiKgoCAgICACDoPgECAwICAgICogAKog4AQSL39wTpY3c3YudPblQNgAbEJswoV7u7k_H6ACgOKCpoBaHR0cHM6Ly9tb25pdG9yLmx1bmlvLmFpL3YzLjAvdGVtcGxhdGU_YWNjaWQ9MTc0MjgmdXJsZGVjb2RlPTEma3c9Jm10PSZudz14JmNwbj0yMzAyMzc3NzkxOCZkZXZpPWMmZGV2bT0mbG9jcD05MzAxNTQxJmxvY2k9JnBsPSZjcj0mYWRwPSZzYWR0PSZ1cmw9e2xwdXJsfZgLAcgLAeALAYAMAaIMA5ABAaoNAklOyA0B4g0TCJ762LnT25UDFSgSgwMd9OIGGuoNEwjI3dm509uVAxUoEoMDHfTiBhrwDQKIDv___________wGwDtqoqIAZuBPkA9gTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjUxMDM4Nzk0ODNQBroXAjgBqhgXCQAAAADgnOlAEgo1MTAzODc5NDgzGAGyGAkSAqhOGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI_MHaudPblQMVKBKDAx304gYaEAEYASAAEgLjhvD_BwE&num=1&cid=CAQSiwIAEQoqgdpQsQq55MGexT0u0uyQ8qckDgsbocycHs0iuEsxMckZd4vfv9QlrDwoqbGGXl2FrdFo3p5lhPuHC36fUTCm33DsdYs3hpAF4th_Ad3x9t51oeTXv03_w-hDdr0VMQ-fIDeaPQjYoozDDFGviJXHIbvTFhy77g1vEHPOzIJQpVIn5pdFBkFacITYsuKOxWIOopGtVtTfF5dGKGXJkVG3d4ATz_HG3-92hmg3pTaE0Rdz5DP3vXttFFeRdEmsyGVeA2aTbRvQxBuLZjQXV3Z4GE_abJEBhpyPM0Tvmk_mQoJiaui53kVYnakZTvhEiEigWOgU9KCVjUkduiWpgTBx-d9dbLYOADEYAQ&sig=AOD64_10r7naN8Wf73m_qdgwRiZxTw1AYg&client=ca-pub-3677668629134422&rf=4&nb=7&adurl=https://www.wheelsoftrust.com/%3Futm_source%3DGoogle_PMAX%26utm_medium%3DCPA%26utm_campaign%3DWPP_HERO_IBU_Performance_WOT_Google_PMAX_North_SEP25%26utm_term%3DWOT%26utm_content%3DDestini%26gad_source%3D5%26gad_campaignid%3D23019762899%26gclid%3DEAIaIQobChMI_MHaudPblQMVKBKDAx304gYaEAEYASAAEgLjhvD_BwE
+                            - text: Check exact bike resale value inseconds. Sell online hassle-free— all brands accepted.
+                          - link [ref=f114e13] [cursor=pointer]:
+                            - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CDQKhViRbavy-FaikjMwP9MWb0AHEq9-2iAHLk8TNhRaA0erEiw4QASDmtM-ZAWDlsuSDoA6gAYr1s7wCyAEJqQKZMG0P-E1GPuACAKgDAcgDCqoE0QJP0BTIToNtzvwI3jQMW89oFPiNH66rpxF8KxGRVEAJNHQYgjZmOFwMC8_RwOWKn6SDC7_rPfD2T-wXfaOGtbXQ86J3WbUgIAwvnG2CBKj_lL1Wt1juTBeEqTuIX-mIQk8amElUVCvyoBYJk0D0nFsmQC6P-eZZgf8_KXIoXEzTTvh5MeJ_tL0qi33BNbj39Cwkkwm_JK6AXqUSDwzoe2kyFMLBgShnosw2Mer4qlu3bvSwSZ1YstV6N9BGt6qZN7ToDaeXzHbS1chbw6gfg6bbDtCZX0_X75_6v5fajPAcu3yJX7CVNArS88B_dj_VS5O3iiAUEuAf0QPVFKeEVsJ8vJ-O4TWxgeDC3PxlST-Rss8Kz3qyDLG8BTIiJfIMDxJQKkqJZCtrx0QzgvyyB8PdVY1ULLQ6PdrB6SsVKZYxXd4m8o2qvGI9uKdZED13ApO-wAT7l46i3gXgBAGIBdPp1uBVoAYugAf37tTDAagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ0BMgiKgoCAgICACDoPgECAwICAgICogAKog4AQSL39wTpY3c3YudPblQNgAbEJswoV7u7k_H6ACgOKCpoBaHR0cHM6Ly9tb25pdG9yLmx1bmlvLmFpL3YzLjAvdGVtcGxhdGU_YWNjaWQ9MTc0MjgmdXJsZGVjb2RlPTEma3c9Jm10PSZudz14JmNwbj0yMzAyMzc3NzkxOCZkZXZpPWMmZGV2bT0mbG9jcD05MzAxNTQxJmxvY2k9JnBsPSZjcj0mYWRwPSZzYWR0PSZ1cmw9e2xwdXJsfZgLAcgLAeALAYAMAaIMA5ABAaoNAklOyA0B4g0TCJ762LnT25UDFSgSgwMd9OIGGuoNEwjI3dm509uVAxUoEoMDHfTiBhrwDQKIDv___________wGwDtqoqIAZuBPkA9gTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjUxMDM4Nzk0ODNQBroXAjgBqhgXCQAAAADgnOlAEgo1MTAzODc5NDgzGAGyGAkSAqhOGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI_MHaudPblQMVKBKDAx304gYaEAEYASAAEgLjhvD_BwE&num=1&cid=CAQSiwIAEQoqgdpQsQq55MGexT0u0uyQ8qckDgsbocycHs0iuEsxMckZd4vfv9QlrDwoqbGGXl2FrdFo3p5lhPuHC36fUTCm33DsdYs3hpAF4th_Ad3x9t51oeTXv03_w-hDdr0VMQ-fIDeaPQjYoozDDFGviJXHIbvTFhy77g1vEHPOzIJQpVIn5pdFBkFacITYsuKOxWIOopGtVtTfF5dGKGXJkVG3d4ATz_HG3-92hmg3pTaE0Rdz5DP3vXttFFeRdEmsyGVeA2aTbRvQxBuLZjQXV3Z4GE_abJEBhpyPM0Tvmk_mQoJiaui53kVYnakZTvhEiEigWOgU9KCVjUkduiWpgTBx-d9dbLYOADEYAQ&sig=AOD64_10r7naN8Wf73m_qdgwRiZxTw1AYg&client=ca-pub-3677668629134422&rf=4&nb=8&adurl=https://www.wheelsoftrust.com/%3Futm_source%3DGoogle_PMAX%26utm_medium%3DCPA%26utm_campaign%3DWPP_HERO_IBU_Performance_WOT_Google_PMAX_North_SEP25%26utm_term%3DWOT%26utm_content%3DDestini%26gad_source%3D5%26gad_campaignid%3D23019762899%26gclid%3DEAIaIQobChMI_MHaudPblQMVKBKDAx304gYaEAEYASAAEgLjhvD_BwE
+                            - link [ref=f114e14]
+                      - generic [ref=f114e18]:
+                        - link [ref=f114e20] [cursor=pointer]:
+                          - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXOIBo_d8Ma13xojjHkip_QWTxa00jrvMmPrh_IhQBC1bSD1xcgztNJ3pAKF0oTdmuTwmcAaWCVfv5EcmIcBCw1PF-TrLfqeQPbqVqflswuDwiAwdZXg1vzDYP4EhvJK-Rq_pteLfA8aPntHRv_kank4V--h9PtcuTSEKeqlIxbydaQLSUwVXqNYnHJe-rODd1-sqePEWVQgPRhf6sl2of5IYUva9h9vXn8_UT92V_b480moO7FxgiutdsIAons9mKV2XdrFkHRuDLIGG3RO6mxos4QK0lVsghBy5ckvg-eeQic-mpTCCe6d4bs6XEgfdcSCbDNZX_1617mSj8Lzc_Dk06PPYDof1DOuUwXR830mj_1YFWcUoR-mwG-lqvCyNP12C1boak_tYFmJOFccEs-U6ln7DGS7u5Eao06NIdl2UiJCZ73SkoHomLWVF6mMckdYn3f6_WNYESpaUIGjcZ-pwKKI0CGRZNu48se-7G9b-hHLgJ4WNNHyXAx942Iyzi7BWTzFds0QsTdQapakTkU3ARUjU9Ophcytaa7ixBjMD4V28ZPzG-1SmIV5x0Ob4ODQObVVDh2ut6THvN-KK0lzBXOXgFq6qyPD6oa2LBcbTaLztGxFlP2-fxgeY4wVtXs9dWamyhhUvt3O-wR7nP4vfZFB_EEXu9oQbRredjwap9dMUlQtrfcw_xKMLsjcyyeJ2Jrq5381GpOmVTgpqKoCo7deVttIb2p9e926TxoHbrIIvdad2tHSyxp9Gt66UkL9Ep9CC4t9jCEDQ6T5dugXqI4gyq_nj-kJ1FXb_vkg_-poXvG1YjAEOSnKW8d7w_XKQVoeG3_56mRih2MjmV29CCCZ-1k8jiAxoqv6h4lVxZ4ET4pUgQR5N7cHSGhGtuF2Jw1bDYcJBDoJW27vvbeV58T5tFnZoFSKGhVaSbe7CVLmZS-AniepbLA_IgXXmT6jtd3u_n1zyJHQ_QVcTHTUvNCi5zgVhRzCrx_AAoTCFAvMJZqXGgOcb02RTbzJ_xJzffB1dwCKF1gqONdY_el2xNtFqsawoTIwaA1ulZTjUdkhEiBMtA3qXfmJnpAFuL103B2Ty50nhgZNeHMB73nF0-k0zZI7p2J5-kr3MBy9W1mthr22VY0TcyyjLAYArFXpp4QAXPVDtlTmfQe-yV-QwDG8rc529_r-pwbLaloisMxFSSkvczl3QKgEOmzcxWBOfNlTPbyCOqJ1wVfDbx9j4AvhyhKK7xZUh9upYo3kvI20lsiDO3dJjb_BXEbsuk0e5LcFSvxuZUIVFonMnVzyk4QQ3vGgcoOFDweiVYsqf80msi1unIZy6OWlQa_sOPniq-8nSSKoo7I273WFQUJJdWsnHFMl0LEoB3siV07pE25qTQ3xfCbPOFbHWJDeH_-WnltEU9F1HCFvWPFMedUvAWPNffvbMGTa-vSzmqq8M1HQ00SknJZ2uoj7SnIYmN3UW1X5CX27BNJKfj8Fqns04T6rpc79ykK48aQ_3kxBUU9d3yiXH1wrKmi0hbUCcMTD-IBSnPSM09pqYLLRtt1tHJ-_DJWaJeGfVGlap63PaAItj_xXP6JMUpTmOJwHba6dqX8alFgYvqe43fax2b8jpBcnlXy5-ZS7jivq1FFAmM-pqgksrBN0wDuMJZl67CcjOs2NiEakNlkfNFKmM1ayi709hhI3wFo9-z0xoQ-jF7NXB7f1omXO_p1XEEaUS5ElElpWwEq19yEonrKyFG6xZFgDy_5kC7CcII1zm45GhNrRl-gw5roBQa4c7AZM1139HSIGe0krW3DELq2-B_OSJDOLc4HgI2RFq_VvgHw7P9ubXPAMBRv3OAMjRJq1xD-Me-Tp7gXjrAdLlxrshvNklPErsT1raQp_Y4gutTttsSag6uxY0cj84cZHFUuHdpXCDpoeLgk6zDhHfJKcuI2HjC0TInHk83_8n7VKMU9A4IMiV2EqO-Aywbk5lIVDIUztWetfNpxQ6g5h0rid2SWI-Vl515a8Oghp6ZLoB26TO17t7JXb-tgHnYRGCRvLqZ-8d_qNZzzMoOlDIsI3yWE0JKCoYOQGkI9a4hw_8zImg7Lo3EQJ6pL0Nl_RlzfE5PojQwyuAjugqMmZUH-p08KwIxst_x9KrMhLoU9FmxaYf4XDU4PmvsMH8rNuHK8Oh2inYvF9Jj-k6_lhxWtupwLS0tncSFerXyogsAMnEJyJXEesKaW_OYu7P0xMxr1xqgUym0EQEas2Wu1Y105JbBgzEDGRcoBYokzrRQEoMo6LHbZffa1cwEAqAUguKvn70CHYFSoNBwFteFgou7YjeCJAiQ3MvG6tlxrD4saBulXjZrwssV-d7JAik4qvwiFu--KTxY1ySb5Gc5sgZIKdWCNS8T715ggF9_FZbmGqEadrHeYJQTsdD2VIcBNOVRRnRBp4mmQoTbNIVQ4ZucpLKj1U6Lh4LzwpZdGapac17BxoQWrH0cFtqXCBBC-kr5P7_GEYnr7wxvvz79hMxFaZ4vigZsYuuxNt-EosSZfHBmt3UGhXX8V9fLfQf9gjtVi06yXkRm0tKCL8QQDFm1asnaVxQ-ON_ccbbXTr1yojylavUgtd9pOPj29K8bbmvhkuHhaO5Tlr0KDqTvvFqjaj35MqizPlHXfrYlKKGy8k_eCWCSu8Fvu7ffDTypSmzNwcqMLPq5jKdprbB9El_LGJDSeomfijDgV2mseZrRVv6WJ56CWp91BMSB7j0NWNhldeyrsUaG62yLLKdxVh58mrrXDDX95aow9bxP0GYZ1SUy0VoyLtI1yB8dohy-diVbBekLvS5TK9bHATylg06DG8S8Z9srSOBAEmdRVr6zMmK3V8sqjXfrwUW_yp7Tm3fvKG68jKTFMIWPI-TyB-_WQ80qiyrL8aqP6FKdmPXy9OMBX3pATQIlR1ZEX6YvvgviQIQanY0w4ryy-0u2-gdGfsB3fNi60h9YQY8i2jbwn4-vjSiunSpDy2KPADMDhIl_F0qIhRmnL69vDh5fOG4vpstxMtuNjlOUPjHFFvvxXJvEL3szXUawMQIpKE74InJFe0sv5VSdR8ljbm6jGMu0LJo4t6jYwJ-laHkA6b777qR3D8-N96hfNaMkg773VwY1Gbiim-y68PIRILJ2i9qVOb6rQ4URTDdxAJLM579M8lriGJqg&opi=122715837
+                        - link [ref=f114e24] [cursor=pointer]:
+                          - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXOIBo_d8Ma13xojjHkip_QWTxa00jrvMmPrh_IhQBC1bSD1xcgztNJ3pAKF0oTdmuTwmcAaWCVfv5EcmIcBCw1PF-TrLfqeQPbqVqflswuDwiAwdZXg1vzDYP4EhvJK-Rq_pteLfA8aPntHRv_kank4V--h9PtcuTSEKeqlIxbydaQLSUwVXqNYnHJe-rODd1-sqePEWVQgPRhf6sl2of5IYUva9h9vXn8_UT92V_b480moO7FxgiutdsIAons9mKV2XdrFkHRuDLIGG3RO6mxos4QK0lVsghBy5ckvg-eeQic-mpTCCe6d4bs6XEgfdcSCbDNZX_1617mSj8Lzc_Dk06PPYDof1DOuUwXR830mj_1YFWcUoR-mwG-lqvCyNP12C1boak_tYFmJOFccEs-U6ln7DGS7u5Eao06NIdl2UiJCZ73SkoHomLWVF6mMckdYn3f6_WNYESpaUIGjcZ-pwKKI0CGRZNu48se-7G9b-hHLgJ4WNNHyXAx942Iyzi7BWTzFds0QsTdQapakTkU3ARUjU9Ophcytaa7ixBjMD4V28ZPzG-1SmIV5x0Ob4ODQObVVDh2ut6THvN-KK0lzBXOXgFq6qyPD6oa2LBcbTaLztGxFlP2-fxgeY4wVtXs9dWamyhhUvt3O-wR7nP4vfZFB_EEXu9oQbRredjwap9dMUlQtrfcw_xKMLsjcyyeJ2Jrq5381GpOmVTgpqKoCo7deVttIb2p9e926TxoHbrIIvdad2tHSyxp9Gt66UkL9Ep9CC4t9jCEDQ6T5dugXqI4gyq_nj-kJ1FXb_vkg_-poXvG1YjAEOSnKW8d7w_XKQVoeG3_56mRih2MjmV29CCCZ-1k8jiAxoqv6h4lVxZ4ET4pUgQR5N7cHSGhGtuF2Jw1bDYcJBDoJW27vvbeV58T5tFnZoFSKGhVaSbe7CVLmZS-AniepbLA_IgXXmT6jtd3u_n1zyJHQ_QVcTHTUvNCi5zgVhRzCrx_AAoTCFAvMJZqXGgOcb02RTbzJ_xJzffB1dwCKF1gqONdY_el2xNtFqsawoTIwaA1ulZTjUdkhEiBMtA3qXfmJnpAFuL103B2Ty50nhgZNeHMB73nF0-k0zZI7p2J5-kr3MBy9W1mthr22VY0TcyyjLAYArFXpp4QAXPVDtlTmfQe-yV-QwDG8rc529_r-pwbLaloisMxFSSkvczl3QKgEOmzcxWBOfNlTPbyCOqJ1wVfDbx9j4AvhyhKK7xZUh9upYo3kvI20lsiDO3dJjb_BXEbsuk0e5LcFSvxuZUIVFonMnVzyk4QQ3vGgcoOFDweiVYsqf80msi1unIZy6OWlQa_sOPniq-8nSSKoo7I273WFQUJJdWsnHFMl0LEoB3siV07pE25qTQ3xfCbPOFbHWJDeH_-WnltEU9F1HCFvWPFMedUvAWPNffvbMGTa-vSzmqq8M1HQ00SknJZ2uoj7SnIYmN3UW1X5CX27BNJKfj8Fqns04T6rpc79ykK48aQ_3kxBUU9d3yiXH1wrKmi0hbUCcMTD-IBSnPSM09pqYLLRtt1tHJ-_DJWaJeGfVGlap63PaAItj_xXP6JMUpTmOJwHba6dqX8alFgYvqe43fax2b8jpBcnlXy5-ZS7jivq1FFAmM-pqgksrBN0wDuMJZl67CcjOs2NiEakNlkfNFKmM1ayi709hhI3wFo9-z0xoQ-jF7NXB7f1omXO_p1XEEaUS5ElElpWwEq19yEonrKyFG6xZFgDy_5kC7CcII1zm45GhNrRl-gw5roBQa4c7AZM1139HSIGe0krW3DELq2-B_OSJDOLc4HgI2RFq_VvgHw7P9ubXPAMBRv3OAMjRJq1xD-Me-Tp7gXjrAdLlxrshvNklPErsT1raQp_Y4gutTttsSag6uxY0cj84cZHFUuHdpXCDpoeLgk6zDhHfJKcuI2HjC0TInHk83_8n7VKMU9A4IMiV2EqO-Aywbk5lIVDIUztWetfNpxQ6g5h0rid2SWI-Vl515a8Oghp6ZLoB26TO17t7JXb-tgHnYRGCRvLqZ-8d_qNZzzMoOlDIsI3yWE0JKCoYOQGkI9a4hw_8zImg7Lo3EQJ6pL0Nl_RlzfE5PojQwyuAjugqMmZUH-p08KwIxst_x9KrMhLoU9FmxaYf4XDU4PmvsMH8rNuHK8Oh2inYvF9Jj-k6_lhxWtupwLS0tncSFerXyogsAMnEJyJXEesKaW_OYu7P0xMxr1xqgUym0EQEas2Wu1Y105JbBgzEDGRcoBYokzrRQEoMo6LHbZffa1cwEAqAUguKvn70CHYFSoNBwFteFgou7YjeCJAiQ3MvG6tlxrD4saBulXjZrwssV-d7JAik4qvwiFu--KTxY1ySb5Gc5sgZIKdWCNS8T715ggF9_FZbmGqEadrHeYJQTsdD2VIcBNOVRRnRBp4mmQoTbNIVQ4ZucpLKj1U6Lh4LzwpZdGapac17BxoQWrH0cFtqXCBBC-kr5P7_GEYnr7wxvvz79hMxFaZ4vigZsYuuxNt-EosSZfHBmt3UGhXX8V9fLfQf9gjtVi06yXkRm0tKCL8QQDFm1asnaVxQ-ON_ccbbXTr1yojylavUgtd9pOPj29K8bbmvhkuHhaO5Tlr0KDqTvvFqjaj35MqizPlHXfrYlKKGy8k_eCWCSu8Fvu7ffDTypSmzNwcqMLPq5jKdprbB9El_LGJDSeomfijDgV2mseZrRVv6WJ56CWp91BMSB7j0NWNhldeyrsUaG62yLLKdxVh58mrrXDDX95aow9bxP0GYZ1SUy0VoyLtI1yB8dohy-diVbBekLvS5TK9bHATylg06DG8S8Z9srSOBAEmdRVr6zMmK3V8sqjXfrwUW_yp7Tm3fvKG68jKTFMIWPI-TyB-_WQ80qiyrL8aqP6FKdmPXy9OMBX3pATQIlR1ZEX6YvvgviQIQanY0w4ryy-0u2-gdGfsB3fNi60h9YQY8i2jbwn4-vjSiunSpDy2KPADMDhIl_F0qIhRmnL69vDh5fOG4vpstxMtuNjlOUPjHFFvvxXJvEL3szXUawMQIpKE74InJFe0sv5VSdR8ljbm6jGMu0LJo4t6jYwJ-laHkA6b777qR3D8-N96hfNaMkg773VwY1Gbiim-y68PIRILJ2i9qVOb6rQ4URTDdxAJLM579M8lriGJqg&opi=122715837
+                      - generic [ref=f114e40]:
+                        - generic [ref=f114e45]: Ads by
+                        - generic [ref=f114e50]:
+                          - generic [ref=f114e51]: Send feedback
+                          - link [ref=f114e55] [cursor=pointer]:
+                            - /url: https://adssettings.google.com/whythisad?source=display&reasons=AXOIBo_d8Ma13xojjHkip_QWTxa00jrvMmPrh_IhQBC1bSD1xcgztNJ3pAKF0oTdmuTwmcAaWCVfv5EcmIcBCw1PF-TrLfqeQPbqVqflswuDwiAwdZXg1vzDYP4EhvJK-Rq_pteLfA8aPntHRv_kank4V--h9PtcuTSEKeqlIxbydaQLSUwVXqNYnHJe-rODd1-sqePEWVQgPRhf6sl2of5IYUva9h9vXn8_UT92V_b480moO7FxgiutdsIAons9mKV2XdrFkHRuDLIGG3RO6mxos4QK0lVsghBy5ckvg-eeQic-mpTCCe6d4bs6XEgfdcSCbDNZX_1617mSj8Lzc_Dk06PPYDof1DOuUwXR830mj_1YFWcUoR-mwG-lqvCyNP12C1boak_tYFmJOFccEs-U6ln7DGS7u5Eao06NIdl2UiJCZ73SkoHomLWVF6mMckdYn3f6_WNYESpaUIGjcZ-pwKKI0CGRZNu48se-7G9b-hHLgJ4WNNHyXAx942Iyzi7BWTzFds0QsTdQapakTkU3ARUjU9Ophcytaa7ixBjMD4V28ZPzG-1SmIV5x0Ob4ODQObVVDh2ut6THvN-KK0lzBXOXgFq6qyPD6oa2LBcbTaLztGxFlP2-fxgeY4wVtXs9dWamyhhUvt3O-wR7nP4vfZFB_EEXu9oQbRredjwap9dMUlQtrfcw_xKMLsjcyyeJ2Jrq5381GpOmVTgpqKoCo7deVttIb2p9e926TxoHbrIIvdad2tHSyxp9Gt66UkL9Ep9CC4t9jCEDQ6T5dugXqI4gyq_nj-kJ1FXb_vkg_-poXvG1YjAEOSnKW8d7w_XKQVoeG3_56mRih2MjmV29CCCZ-1k8jiAxoqv6h4lVxZ4ET4pUgQR5N7cHSGhGtuF2Jw1bDYcJBDoJW27vvbeV58T5tFnZoFSKGhVaSbe7CVLmZS-AniepbLA_IgXXmT6jtd3u_n1zyJHQ_QVcTHTUvNCi5zgVhRzCrx_AAoTCFAvMJZqXGgOcb02RTbzJ_xJzffB1dwCKF1gqONdY_el2xNtFqsawoTIwaA1ulZTjUdkhEiBMtA3qXfmJnpAFuL103B2Ty50nhgZNeHMB73nF0-k0zZI7p2J5-kr3MBy9W1mthr22VY0TcyyjLAYArFXpp4QAXPVDtlTmfQe-yV-QwDG8rc529_r-pwbLaloisMxFSSkvczl3QKgEOmzcxWBOfNlTPbyCOqJ1wVfDbx9j4AvhyhKK7xZUh9upYo3kvI20lsiDO3dJjb_BXEbsuk0e5LcFSvxuZUIVFonMnVzyk4QQ3vGgcoOFDweiVYsqf80msi1unIZy6OWlQa_sOPniq-8nSSKoo7I273WFQUJJdWsnHFMl0LEoB3siV07pE25qTQ3xfCbPOFbHWJDeH_-WnltEU9F1HCFvWPFMedUvAWPNffvbMGTa-vSzmqq8M1HQ00SknJZ2uoj7SnIYmN3UW1X5CX27BNJKfj8Fqns04T6rpc79ykK48aQ_3kxBUU9d3yiXH1wrKmi0hbUCcMTD-IBSnPSM09pqYLLRtt1tHJ-_DJWaJeGfVGlap63PaAItj_xXP6JMUpTmOJwHba6dqX8alFgYvqe43fax2b8jpBcnlXy5-ZS7jivq1FFAmM-pqgksrBN0wDuMJZl67CcjOs2NiEakNlkfNFKmM1ayi709hhI3wFo9-z0xoQ-jF7NXB7f1omXO_p1XEEaUS5ElElpWwEq19yEonrKyFG6xZFgDy_5kC7CcII1zm45GhNrRl-gw5roBQa4c7AZM1139HSIGe0krW3DELq2-B_OSJDOLc4HgI2RFq_VvgHw7P9ubXPAMBRv3OAMjRJq1xD-Me-Tp7gXjrAdLlxrshvNklPErsT1raQp_Y4gutTttsSag6uxY0cj84cZHFUuHdpXCDpoeLgk6zDhHfJKcuI2HjC0TInHk83_8n7VKMU9A4IMiV2EqO-Aywbk5lIVDIUztWetfNpxQ6g5h0rid2SWI-Vl515a8Oghp6ZLoB26TO17t7JXb-tgHnYRGCRvLqZ-8d_qNZzzMoOlDIsI3yWE0JKCoYOQGkI9a4hw_8zImg7Lo3EQJ6pL0Nl_RlzfE5PojQwyuAjugqMmZUH-p08KwIxst_x9KrMhLoU9FmxaYf4XDU4PmvsMH8rNuHK8Oh2inYvF9Jj-k6_lhxWtupwLS0tncSFerXyogsAMnEJyJXEesKaW_OYu7P0xMxr1xqgUym0EQEas2Wu1Y105JbBgzEDGRcoBYokzrRQEoMo6LHbZffa1cwEAqAUguKvn70CHYFSoNBwFteFgou7YjeCJAiQ3MvG6tlxrD4saBulXjZrwssV-d7JAik4qvwiFu--KTxY1ySb5Gc5sgZIKdWCNS8T715ggF9_FZbmGqEadrHeYJQTsdD2VIcBNOVRRnRBp4mmQoTbNIVQ4ZucpLKj1U6Lh4LzwpZdGapac17BxoQWrH0cFtqXCBBC-kr5P7_GEYnr7wxvvz79hMxFaZ4vigZsYuuxNt-EosSZfHBmt3UGhXX8V9fLfQf9gjtVi06yXkRm0tKCL8QQDFm1asnaVxQ-ON_ccbbXTr1yojylavUgtd9pOPj29K8bbmvhkuHhaO5Tlr0KDqTvvFqjaj35MqizPlHXfrYlKKGy8k_eCWCSu8Fvu7ffDTypSmzNwcqMLPq5jKdprbB9El_LGJDSeomfijDgV2mseZrRVv6WJ56CWp91BMSB7j0NWNhldeyrsUaG62yLLKdxVh58mrrXDDX95aow9bxP0GYZ1SUy0VoyLtI1yB8dohy-diVbBekLvS5TK9bHATylg06DG8S8Z9srSOBAEmdRVr6zMmK3V8sqjXfrwUW_yp7Tm3fvKG68jKTFMIWPI-TyB-_WQ80qiyrL8aqP6FKdmPXy9OMBX3pATQIlR1ZEX6YvvgviQIQanY0w4ryy-0u2-gdGfsB3fNi60h9YQY8i2jbwn4-vjSiunSpDy2KPADMDhIl_F0qIhRmnL69vDh5fOG4vpstxMtuNjlOUPjHFFvvxXJvEL3szXUawMQIpKE74InJFe0sv5VSdR8ljbm6jGMu0LJo4t6jYwJ-laHkA6b777qR3D8-N96hfNaMkg773VwY1Gbiim-y68PIRILJ2i9qVOb6rQ4URTDdxAJLM579M8lriGJqg&opi=122715837
+                            - generic [ref=f114e56]: Why this ad?
+                      - generic [ref=f114e59]:
+                        - generic [ref=f114e60] [cursor=pointer]: Ad was inappropriate
+                        - generic [ref=f114e63] [cursor=pointer]: Not interested in this ad
+                        - generic [ref=f114e66] [cursor=pointer]: Seen this ad multiple times
+                        - generic [ref=f114e69] [cursor=pointer]: Ad covered content
+                      - generic [ref=f114e72]: Thanks. Feedback improves Google ads
+                      - generic [ref=f114e78]: Ad closed by
+              - generic [ref=e973]:
+                - generic:
+                  - generic [ref=e974] [cursor=pointer]:
+                    - link [ref=e975]:
+                      - /url: https://www.channelnewsasia.com/watch/money-mind-2026/spinning-profits-5962856
+                      - img "Image for Taboola Advertising Unit" [ref=e977]
+                    - link [ref=e979]:
+                      - /url: https://www.channelnewsasia.com/watch/money-mind-2026/spinning-profits-5962856
+                      - generic [ref=e980]:
+                        - link "Would You Breed Tarantulas For Money? This Indonesian Did — And It Pays" [ref=e981]
+                        - link "CNA Money Mind in Taboola advertising section" [ref=e982]: CNA Money Mind
+                  - generic [ref=e983] [cursor=pointer]:
+                    - link [ref=e984]:
+                      - /url: https://find.srchvouchers.com/article/intelligence-platforms-essential-features-for-data-success
+                      - img "Image for Taboola Advertising Unit" [ref=e986]
+                    - link [ref=e988]:
+                      - /url: https://find.srchvouchers.com/article/intelligence-platforms-essential-features-for-data-success
+                      - generic [ref=e989]:
+                        - link "What To Look For In Business Intelligence Software" [ref=e990]
+                        - link "Analytics Platforms in Taboola advertising section" [ref=e991]: Analytics Platforms
+        - generic [ref=e577]:
+          - generic [ref=e580]:
+            - heading "Air Quality Index" [level=2] [ref=e581]
+            - generic [ref=e582]:
+              - img [ref=e584]:
+                - generic [ref=e587]: "547"
+              - generic [ref=e588]:
+                - heading "Severe" [level=2] [ref=e589]
+                - paragraph [ref=e590]: May cause respiratory impact for healthy people and serious health impacts for people with lung/heart disease. The health impacts may even be experienced during light physical activity.
+            - link "See details" [ref=e592] [cursor=pointer]:
+              - /url: /en-IN/forecast/air-quality/l/28.614,77.209
+            - button [ref=e593] [cursor=pointer]:
+              - paragraph [ref=e596]: Air Quality Index
+          - region "HealthAndActivities.healthAndActivities" [ref=e599]:
+            - heading "Health & Activities" [level=2] [ref=e600]
+            - link "Seasonal Allergies and Pollen Count Forecast No pollen detected in your area Chevron Right" [ref=e602] [cursor=pointer]:
+              - /url: /en-IN/forecast/allergy/l/7d67733d29d6a86f79bd6a172edd760e933c9f65987b7cc68362088d1e4afeec
+              - generic [ref=e610]:
+                - generic [ref=e611]: Seasonal Allergies and Pollen Count Forecast
+                - generic [ref=e612]: No pollen detected in your area
+              - img "Chevron Right" [ref=e613]
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - region "Advertisement"
+      - generic [ref=e622]:
+        - generic [ref=e623]:
+          - generic [ref=e624]:
+            - list [ref=e625]:
+              - listitem [ref=e626]:
+                - link [ref=e627] [cursor=pointer]:
+                  - /url: https://www.weathercompany.com/
+                  - img "The Weather Company" [ref=e628]
+              - listitem [ref=e629]:
+                - link [ref=e630] [cursor=pointer]:
+                  - /url: https://weather.com/
+                  - img "The Weather Channel" [ref=e631]
+              - listitem [ref=e632]:
+                - link [ref=e633] [cursor=pointer]:
+                  - /url: https://www.wunderground.com/
+                  - img "Weather Underground" [ref=e634]
+              - listitem [ref=e635]:
+                - link [ref=e636] [cursor=pointer]:
+                  - /url: https://weather.com/storm-radar
+                  - img "Storm Radar" [ref=e637]
+            - paragraph [ref=e638]:
+              - text: The Weather Channel is the world's most accurate forecaster according to ForecastWatch,
+              - link "Global and Regional Weather Forecast Accuracy Overview" [ref=e639] [cursor=pointer]:
+                - /url: https://forecastwatch.com/AccuracyOverview2021-2024
+              - text: ", 2021-2024, commissioned by The Weather Company."
+            - paragraph [ref=e640]: Weather Channel.
+          - generic [ref=e642]:
+            - generic [ref=e643]:
+              - paragraph [ref=e644]: Privacy & Legal
+              - list [ref=e645]:
+                - listitem [ref=e646]:
+                  - link "Terms of Use" [ref=e647] [cursor=pointer]:
+                    - /url: /en-IN/privacy/terms-of-use
+                    - paragraph [ref=e648]:
+                      - generic [ref=e649]: Terms of Use
+                - listitem [ref=e650]:
+                  - link "Privacy Policy" [ref=e651] [cursor=pointer]:
+                    - /url: /en-IN/privacy/privacy-policy
+                    - paragraph [ref=e652]:
+                      - generic [ref=e653]: Privacy Policy
+                - listitem [ref=e654]:
+                  - link "Data Rights" [ref=e655] [cursor=pointer]:
+                    - /url: /en-IN/data-rights
+                    - paragraph [ref=e656]:
+                      - generic [ref=e657]: Data Rights
+                - listitem [ref=e658]:
+                  - link "Privacy Settings" [ref=e659] [cursor=pointer]:
+                    - /url: /en-IN/privacy-settings
+                    - paragraph [ref=e660]:
+                      - generic [ref=e661]: Privacy Settings
+                - listitem [ref=e662]:
+                  - link "Data Vendors" [ref=e663] [cursor=pointer]:
+                    - /url: /en-IN/data-vendors
+                    - paragraph [ref=e664]:
+                      - generic [ref=e665]: Data Vendors
+                - listitem [ref=e666]:
+                  - link "AdChoices" [ref=e667] [cursor=pointer]:
+                    - /url: /en-US/services/ad-choices
+                    - paragraph [ref=e668]:
+                      - generic [ref=e669]: AdChoices
+                - listitem [ref=e670]:
+                  - link "Accessibility Statement" [ref=e671] [cursor=pointer]:
+                    - /url: /en-IN/accessibility-statement
+                    - paragraph [ref=e672]:
+                      - generic [ref=e673]: Accessibility Statement
+            - generic [ref=e674]:
+              - paragraph [ref=e676]: More
+              - list [ref=e677]:
+                - listitem [ref=e678]:
+                  - link "Feedback External Link" [ref=e679] [cursor=pointer]:
+                    - /url: //support.weather.com?language=en
+                    - paragraph [ref=e680]:
+                      - generic [ref=e681]: Feedback
+                    - img "External Link" [ref=e682]
+                - listitem [ref=e685]:
+                  - link "News Room External Link" [ref=e686] [cursor=pointer]:
+                    - /url: https://www.weathercompany.com/newsroom
+                    - paragraph [ref=e687]:
+                      - generic [ref=e688]: News Room
+                    - img "External Link" [ref=e689]
+                - listitem [ref=e692]:
+                  - link "Weather Data APIs External Link" [ref=e693] [cursor=pointer]:
+                    - /url: https://www.wunderground.com/weather/api
+                    - paragraph [ref=e694]:
+                      - generic [ref=e695]: Weather Data APIs
+                    - img "External Link" [ref=e696]
+                - listitem [ref=e699]:
+                  - link "Weather Data APIs External Link" [ref=e700] [cursor=pointer]:
+                    - /url: https://www.weathercompany.com/weather-data-apis/
+                    - paragraph [ref=e701]:
+                      - generic [ref=e702]: Weather Data APIs
+                    - img "External Link" [ref=e703]
+        - generic [ref=e707]:
+          - list [ref=e709]:
+            - listitem [ref=e710]:
+              - link [ref=e711] [cursor=pointer]:
+                - /url: https://www.facebook.com/TheWeatherChannel
+                - img "Facebook" [ref=e712]
+            - listitem [ref=e715]:
+              - link [ref=e716] [cursor=pointer]:
+                - /url: http://www.twitter.com/weatherchannel
+                - img "X" [ref=e717]
+            - listitem [ref=e719]:
+              - link [ref=e720] [cursor=pointer]:
+                - /url: http://instagram.com/weatherchannel
+                - img "Instagram" [ref=e721]
+            - listitem [ref=e725]:
+              - link [ref=e726] [cursor=pointer]:
+                - /url: http://www.youtube.com/user/TheWeatherChannel/
+                - img "Youtube" [ref=e727]
+          - paragraph [ref=e730]: © The Weather Company, LLC 2026
+          - list [ref=e732]:
+            - listitem [ref=e733]:
+              - link [ref=e734] [cursor=pointer]:
+                - /url: http://www.exploregeorgia.org/weather-and-travel-tips
+                - img "Explore Georgia" [ref=e735]
+            - listitem [ref=e736]:
+              - link [ref=e737] [cursor=pointer]:
+                - /url: https://www.essentialaccessibility.com/the-weather-channel?utm_source=theweatherchannelhomepage&utm_medium=iconlarge&utm_term=eachannelpage&utm_content=header&utm_campaign=theweatherchannel
+                - img "Essential Accessibility" [ref=e738]
+  - region "Notifications alt+T"
+  - alert [ref=e739]

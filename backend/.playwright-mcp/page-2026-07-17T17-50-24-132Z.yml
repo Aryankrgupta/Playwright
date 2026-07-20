@@ -1,0 +1,641 @@
+- generic [active] [ref=f3e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f3e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f3e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f3e8]:
+    - search [ref=f3e9]:
+      - generic [ref=f3e12]:
+        - link [ref=f3e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0QpYkNCAo
+          - img "Go to Google Home" [ref=f3e14]
+        - generic [ref=f3e19]:
+          - combobox "Search" [ref=f3e22]: latest AI news latest AI news
+          - generic [ref=f3e23]:
+            - button "Clear" [ref=f3e25] [cursor=pointer]
+            - generic [ref=f3e30]:
+              - button "Search by voice" [ref=f3e31] [cursor=pointer]
+              - button "Search by image" [ref=f3e34] [cursor=pointer]
+        - button "Search" [ref=f3e37] [cursor=pointer]
+    - generic [ref=f3e42]:
+      - button "Settings" [ref=f3e44] [cursor=pointer]
+      - button "Share" [ref=f3e50] [cursor=pointer]
+      - generic [ref=f3e56]:
+        - button "Google apps" [ref=f3e58] [cursor=pointer]
+        - link "Sign in" [ref=f3e63] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dlatest%2BAI%2Bnews%26sca_esv%3Dc9dcfb7559f67e19%26source%3Dhp%26ei%3DWGtaasXIH-CaseMPxrfNkAs%26iflsig%3DABILxe8AAAAAalp5aB5_c41vdY8jkiUcXm-W68Sp3bR0%26ved%3D0ahUKEwjF1N2Do9qVAxVgTWwGHcZbE7IQ4dUDCB4%26uact%3D5%26oq%3Dlatest%2BAI%2Bnews%26gs_lp%3DEgdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3c0gPUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE%26sclient%3Dgws-wiz%26sei%3DXGtaarmjFI2O4-EP9qDMiQY&ec=futura_srp_og_si_72236_p
+  - generic [ref=f3e65]:
+    - navigation [ref=f3e71]:
+      - generic [ref=f3e77]:
+        - list [ref=f3e78]:
+          - listitem [ref=f3e79]:
+            - link "AI Mode" [ref=f3e83] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&udm=50&source=hp&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q2J8OegQIERAD
+          - listitem [ref=f3e87]:
+            - link "All" [disabled] [ref=f3e88]
+          - listitem [ref=f3e91]:
+            - link "News" [ref=f3e92] [cursor=pointer]:
+              - /url: /search?sca_esv=c9dcfb7559f67e19&q=latest+AI+news&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&sa=X&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q0pQJegQIFxAB
+          - listitem [ref=f3e95]:
+            - link "Videos" [ref=f3e96] [cursor=pointer]:
+              - /url: /search?sca_esv=c9dcfb7559f67e19&udm=7&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&q=latest+AI+news&sa=X&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0QtKgLegQIFRAB
+          - listitem [ref=f3e99]:
+            - link "Images" [ref=f3e100] [cursor=pointer]:
+              - /url: /search?sca_esv=c9dcfb7559f67e19&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&q=latest+AI+news&sa=X&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0QtKgLegQIFhAB
+          - listitem [ref=f3e103]:
+            - link "Short videos" [ref=f3e104] [cursor=pointer]:
+              - /url: /search?sca_esv=c9dcfb7559f67e19&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&q=latest+AI+news&sa=X&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Qs6gLegQIFBAB
+          - listitem [ref=f3e107]:
+            - link "Forums" [ref=f3e108] [cursor=pointer]:
+              - /url: /search?sca_esv=c9dcfb7559f67e19&udm=18&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&q=latest+AI+news&sa=X&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Qs6gLegQIExAB
+          - listitem [ref=f3e111]:
+            - button [ref=f3e112] [cursor=pointer]:
+              - generic "More filters" [ref=f3e113]: More
+        - button "Tools" [ref=f3e120] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f3e127]
+    - generic [ref=f3e132]:
+      - generic [ref=f3e151]:
+        - generic [ref=f3e154]:
+          - generic [ref=f3e156]:
+            - heading "AI Overview" [level=2] [ref=f3e160]
+            - generic [ref=f3e162]:
+              - button "Change language to Hindi" [ref=f3e163] [cursor=pointer]:
+                - generic [ref=f3e164]: हिन्दी
+              - button "Listen" [ref=f3e167]
+            - button "About this result" [ref=f3e177]
+          - generic [ref=f3e202]:
+            - generic [ref=f3e205]:
+              - generic [ref=f3e206]:
+                - mark [ref=f3e207]: Chinese startup Moonshot launched the Kimi K3 model
+                - text: . It is the world's largest open-weight AI with 2.8 trillion parameters. Meanwhile, Google rolled out a series of updates, including Gemini 3.5 Flash featuring built-in computer use and the Gemma 4 12B model that runs locally on laptops.
+                - generic [ref=f3e209]:
+                  - link "blog.google (+1) – View related links" [ref=f3e210] [cursor=pointer]:
+                    - /url: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/
+                  - button "blog.google (+1) – View related links" [ref=f3e211] [cursor=pointer]:
+                    - generic [ref=f3e213]:
+                      - generic [ref=f3e214]: blog.google
+                      - generic [ref=f3e215]: "+1"
+              - heading "Top Industry Developments" [level=3] [ref=f3e220]
+              - heading "Global Models Close the Gap" [level=3] [ref=f3e222]
+              - generic [ref=f3e224]:
+                - generic [ref=f3e225]: The release of Kimi K3 has rattled Western tech markets, as its reasoning capabilities are reportedly rivaling frontier American systems
+                - text: . Additionally, MiniMax debuted its M3 multimodal model featuring a 1-million-token context window at the World Artificial Intelligence Conference (WAIC).
+                - generic [ref=f3e227]:
+                  - link [ref=f3e228] [cursor=pointer]:
+                    - /url: https://www.cnn.com/2026/07/17/investing/us-stocks-asia
+                  - button [ref=f3e229] [cursor=pointer]:
+                    - generic [ref=f3e231]:
+                      - generic [ref=f3e232]: CNN
+                      - generic [ref=f3e233]: "+2"
+              - heading [level=3] [ref=f3e239]: Google's Broad AI Ecosystem
+              - generic [ref=f3e241]:
+                - text: "Google's newest updates aim to make AI agents a natural daily partner. Key releases include:"
+                - generic [ref=f3e243]:
+                  - link [ref=f3e244] [cursor=pointer]:
+                    - /url: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/
+                  - button [ref=f3e245] [cursor=pointer]:
+                    - generic [ref=f3e246]: blog.google
+              - list [ref=f3e253]:
+                - listitem [ref=f3e255]:
+                  - generic [ref=f3e256]:
+                    - strong [ref=f3e257]: "Gemini 3.5 Flash:"
+                    - text: Features built-in computer use, allowing agents to act across desktop environments and browsers.
+                - listitem [ref=f3e259]:
+                  - generic [ref=f3e260]:
+                    - strong [ref=f3e261]: "Gemmy 4 12B:"
+                    - text: An open model enabling smart AI agents to run locally on your laptop with just 16GB of memory.
+                - listitem [ref=f3e263]:
+                  - generic [ref=f3e264]:
+                    - strong [ref=f3e265]: "Gemini Live Translate:"
+                    - text: Near-real-time, spoken-to-spoken translation for multilingual calls and meetings.
+                  - generic [ref=f3e267]:
+                    - link [ref=f3e268] [cursor=pointer]:
+                      - /url: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/
+                    - button [ref=f3e269] [cursor=pointer]:
+                      - generic [ref=f3e270]: blog.google
+              - heading [level=3] [ref=f3e278]: Enterprise Focus and Agentic Systems
+              - list [ref=f3e279]:
+                - listitem [ref=f3e281]:
+                  - generic [ref=f3e282]:
+                    - strong [ref=f3e283]: "OpenAI & Anthropic:"
+                    - text: Both major labs continue to push "agentic" systems. OpenAI is expanding its enterprise custom model initiatives, while Anthropic is localizing services for regions like India.
+                - listitem [ref=f3e285]:
+                  - generic [ref=f3e286]:
+                    - strong [ref=f3e287]: "Meta's AI Expansion:"
+                    - text: Meta added to its open-source library with the introduction of Muse Image, Muse Video, and Muse Spark.
+                  - generic [ref=f3e289]:
+                    - link [ref=f3e290] [cursor=pointer]:
+                      - /url: https://techcrunch.com/category/artificial-intelligence/
+                    - button [ref=f3e291] [cursor=pointer]:
+                      - generic [ref=f3e293]:
+                        - generic [ref=f3e294]: TechCrunch
+                        - generic [ref=f3e295]: "+3"
+              - generic [ref=f3e302]:
+                - generic [ref=f3e303]: "For a quick look at how global technology leaders are investing heavily in new AI capabilities:"
+                - generic [ref=f3e305]:
+                  - button [ref=f3e309] [cursor=pointer]:
+                    - generic [ref=f3e310]: 56s
+                  - link [ref=f3e326] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=ji4_U7XRPfw&t=279
+                    - generic [ref=f3e327]:
+                      - generic [ref=f3e328]: Chip stocks sell off hard, Xi Jinping's global AI pitch and ...
+                      - generic [ref=f3e329]:
+                        - generic [ref=f3e330]: 4.3K views
+                        - text: · 7 hours ago
+                      - generic [ref=f3e331]: YouTube · Reuters
+              - heading [level=3] [ref=f3e335]: Regulatory and Market Moves
+              - list [ref=f3e336]:
+                - listitem [ref=f3e338]:
+                  - generic [ref=f3e339]:
+                    - strong [ref=f3e340]: "Stock Market Impact:"
+                    - text: The rapid development of high-performing Chinese models briefly rattled US tech stocks, pulling down shares of companies like Nvidia and Alphabet.
+                  - generic [ref=f3e342]:
+                    - link [ref=f3e343] [cursor=pointer]:
+                      - /url: https://www.cnn.com/2026/07/17/investing/us-stocks-asia
+                    - button [ref=f3e344] [cursor=pointer]:
+                      - generic [ref=f3e345]: CNN
+                - listitem [ref=f3e353]:
+                  - generic [ref=f3e354]:
+                    - strong [ref=f3e355]: "Data Center Restrictions:"
+                    - text: In a move to balance the AI boom with infrastructure demands, New York became the first US state to impose a moratorium on data centers.
+                  - generic [ref=f3e357]:
+                    - link [ref=f3e358] [cursor=pointer]:
+                      - /url: https://www.reuters.com/technology/artificial-intelligence/
+                    - button [ref=f3e359] [cursor=pointer]:
+                      - generic [ref=f3e360]: Reuters
+              - generic [ref=f3e369]:
+                - text: Would you like to hear more about
+                - strong [ref=f3e370]: local AI developments in India
+                - text: ", or are you interested in specific tools for"
+                - strong [ref=f3e371]: coding
+                - text: ","
+                - strong [ref=f3e372]: video generation
+                - text: ", or"
+                - strong [ref=f3e373]: writing
+                - text: "?"
+            - generic [ref=f3e378]:
+              - list [ref=f3e380]:
+                - listitem [ref=f3e381]:
+                  - generic [ref=f3e382]:
+                    - link [ref=f3e383] [cursor=pointer]:
+                      - /url: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/
+                    - generic [ref=f3e384]:
+                      - generic [ref=f3e385]:
+                        - generic [ref=f3e388]: blog.google
+                        - button [ref=f3e394] [cursor=pointer]
+                      - generic [ref=f3e400]:
+                        - generic [ref=f3e401]: The latest AI news we announced in June 2026
+                        - generic [ref=f3e402]: 1 Jul 2026 — Google just released a bunch of new AI updates to make your devices and apps more helpful. You can now use smarter tools on your l...
+                - listitem [ref=f3e406]:
+                  - generic [ref=f3e407]:
+                    - link [ref=f3e408] [cursor=pointer]:
+                      - /url: https://www.reuters.com/technology/artificial-intelligence/
+                    - generic [ref=f3e409]:
+                      - generic [ref=f3e410]:
+                        - generic [ref=f3e413]: Reuters
+                        - button [ref=f3e419] [cursor=pointer]
+                      - generic [ref=f3e425]:
+                        - generic [ref=f3e426]: AI News | Latest Headlines and Developments | Reuters
+                        - generic [ref=f3e427]: Latest AI News * World New York becomes the first state to impose a data center moratorium 22 hours ago. * Legal. ... * Legal Wher...
+                - listitem [ref=f3e431]:
+                  - generic [ref=f3e432]:
+                    - link [ref=f3e433] [cursor=pointer]:
+                      - /url: https://techcrunch.com/category/artificial-intelligence/
+                    - generic [ref=f3e434]:
+                      - generic [ref=f3e435]:
+                        - generic [ref=f3e438]: TechCrunch
+                        - button [ref=f3e444] [cursor=pointer]
+                      - generic [ref=f3e450]:
+                        - generic [ref=f3e451]: AI News & Artificial Intelligence - TechCrunch
+                        - generic [ref=f3e452]: 16 Jul 2026 — AI * Patreon stops asking AI bots not to scrape — and starts blocking them. ... * Why the first GPU financiers are turning to infe...
+              - button [ref=f3e456] [cursor=pointer]:
+                - generic [ref=f3e457]: Show all
+        - button "Show more AI Overview" [ref=f3e461]:
+          - generic [ref=f3e462] [cursor=pointer]: Show more
+      - main [ref=f3e469]:
+        - generic [ref=f3e473]:
+          - generic [ref=f3e476]:
+            - heading "Web results" [level=2] [ref=f3e477]
+            - generic [ref=f3e478]:
+              - generic [ref=f3e481]:
+                - link "AI News | Latest News | Insights Powering AI-Driven Business ... AI News https://www.artificialintelligence-news.com" [ref=f3e483] [cursor=pointer]:
+                  - /url: https://www.artificialintelligence-news.com/
+                  - heading "AI News | Latest News | Insights Powering AI-Driven Business ..." [level=3] [ref=f3e484]
+                  - generic [ref=f3e490]:
+                    - generic [ref=f3e491]: AI News
+                    - generic [ref=f3e493]: https://www.artificialintelligence-news.com
+                - button "About this result" [ref=f3e497] [cursor=pointer]
+              - generic [ref=f3e504]:
+                - emphasis [ref=f3e505]: Health raises $700 million to expand AI body scans in the US
+                - text: . Bluesight build AI for hospital. AI blood test could reduce invasive womb cancer checks
+          - generic [ref=f3e509]:
+            - generic [ref=f3e512]:
+              - link "AI News | Latest Headlines and Developments Reuters https://www.reuters.com › artificial-intelligence" [ref=f3e514] [cursor=pointer]:
+                - /url: https://www.reuters.com/technology/artificial-intelligence/
+                - heading "AI News | Latest Headlines and Developments" [level=3] [ref=f3e515]
+                - generic [ref=f3e521]:
+                  - generic [ref=f3e522]: Reuters
+                  - generic [ref=f3e524]: https://www.reuters.com › artificial-intelligence
+              - button "About this result" [ref=f3e528] [cursor=pointer]
+            - generic [ref=f3e534]:
+              - generic [ref=f3e535]:
+                - text: Latest AI News ·
+                - emphasis [ref=f3e536]: China's Moonshot unveils world's largest open AI model
+                - text: ", closing in on US rivals 6 hours ago · WorldCategory Americans are angry about data ..."
+              - link "Read more" [ref=f3e537] [cursor=pointer]:
+                - /url: https://www.reuters.com/technology/artificial-intelligence/#:~:text=Latest%20AI%20News&text=China's%20Moonshot%20unveils%20world's%20largest,6%20hours%20ago&text=World,are%20angry%20about%20data%20centers.
+          - generic [ref=f3e541]:
+            - generic [ref=f3e543]:
+              - heading "Top stories" [level=2] [ref=f3e545]
+              - link [ref=f3e549] [cursor=pointer]:
+                - /url: https://accounts.google.com/ServiceLogin?ec=oo-seaport-srp-sp-11135&continue=https://www.google.com/search?q%3Dlatest%2BAI%2Bnews%26sca_esv%3Dc9dcfb7559f67e19%26source%3Dhp%26ei%3DWGtaasXIH-CaseMPxrfNkAs%26iflsig%3DABILxe8AAAAAalp5aB5_c41vdY8jkiUcXm-W68Sp3bR0%26ved%3D0ahUKEwjF1N2Do9qVAxVgTWwGHcZbE7IQ4dUDCB4%26uact%3D5%26oq%3Dlatest%2BAI%2Bnews%26gs_lp%3DEgdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3c0gPUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE%26sclient%3Dgws-wiz%26sei%3DXGtaarmjFI2O4-EP9qDMiQY%26ptid%3D11135%26ptt%3D8%26fpts%3D1784310620889
+            - generic [ref=f3e556]:
+              - generic [ref=f3e557]:
+                - link "CNN About this result Nasdaq drops 1% after China’s latest AI breakthrough rattles tech stocks 6 hours ago" [ref=f3e560] [cursor=pointer]:
+                  - /url: https://www.cnn.com/2026/07/17/investing/us-stocks-asia
+                  - generic [ref=f3e565]:
+                    - generic [ref=f3e567]:
+                      - generic [ref=f3e568]: CNN
+                      - button "About this result" [ref=f3e573]
+                    - heading "Nasdaq drops 1% after China’s latest AI breakthrough rattles tech stocks" [level=3] [ref=f3e576]
+                    - generic: 6 hours ago
+                - link "Seoul Economic Daily About this result Google Delays Latest AI Model by Months; Shares Fall 4.4% 16 hours ago" [ref=f3e582] [cursor=pointer]:
+                  - /url: https://en.sedaily.com/international/2026/07/17/google-delays-latest-ai-model-by-months-shares-fall-44
+                  - generic [ref=f3e587]:
+                    - generic [ref=f3e589]:
+                      - generic [ref=f3e590]: Seoul Economic Daily
+                      - button "About this result" [ref=f3e595]
+                    - heading "Google Delays Latest AI Model by Months; Shares Fall 4.4%" [level=3] [ref=f3e598]
+                    - generic: 16 hours ago
+              - generic [ref=f3e601]:
+                - link "blog.google About this result The latest AI news we announced in May 2026 1 month ago" [ref=f3e604] [cursor=pointer]:
+                  - /url: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/
+                  - generic [ref=f3e609]:
+                    - generic [ref=f3e611]:
+                      - generic [ref=f3e612]: blog.google
+                      - button "About this result" [ref=f3e617]
+                    - heading "The latest AI news we announced in May 2026" [level=3] [ref=f3e620]
+                    - generic: 1 month ago
+                - link "blog.google About this result The latest AI news we announced in June 2026 2 weeks ago" [ref=f3e625] [cursor=pointer]:
+                  - /url: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/
+                  - generic [ref=f3e630]:
+                    - generic [ref=f3e632]:
+                      - generic [ref=f3e633]: blog.google
+                      - button "About this result" [ref=f3e638]
+                    - heading "The latest AI news we announced in June 2026" [level=3] [ref=f3e641]
+                    - generic: 2 weeks ago
+            - link "More news" [ref=f3e644] [cursor=pointer]:
+              - /url: /search?sca_esv=c9dcfb7559f67e19&q=latest+AI+news&tbm=nws&source=univ&tbo=u&sa=X&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Qt8YBKAJ6BAgcEAU
+              - separator [ref=f3e645]
+          - generic [ref=f3e655]:
+            - heading "People also ask" [level=2] [ref=f3e657]
+            - generic [ref=f3e658]:
+              - button "Which new AI is launched recently?" [ref=f3e664] [cursor=pointer]
+              - button "What is the latest breakthrough in AI?" [ref=f3e678] [cursor=pointer]
+              - button "Which 3 jobs will survive AI?" [ref=f3e692] [cursor=pointer]
+              - button "What is the current AI situation?" [ref=f3e706] [cursor=pointer]
+          - generic [ref=f3e717]:
+            - generic [ref=f3e719]:
+              - heading "What people are saying" [level=2] [ref=f3e720]
+              - generic [ref=f3e723]: Trending posts and discussions
+            - generic [ref=f3e734]:
+              - list [ref=f3e736]:
+                - generic [ref=f3e737]:
+                  - listitem [ref=f3e738]:
+                    - generic [ref=f3e742]:
+                      - button "Google Just Dropped Its Biggest AI Update Of The Year. Play on Google. 8:55" [ref=f3e747] [cursor=pointer]:
+                        - generic [ref=f3e748]: 8:55
+                      - link "Google Just Dropped Its Biggest AI Update Of The Year 5.4K+ views · 1 day ago Nick Ponte YouTube" [ref=f3e762] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=fYR71wEMW90
+                        - generic [ref=f3e763]:
+                          - heading "Google Just Dropped Its Biggest AI Update Of The Year" [level=3] [ref=f3e765]
+                          - generic [ref=f3e766]: 5.4K+ views · 1 day ago
+                          - generic [ref=f3e776]:
+                            - generic [ref=f3e777]: Nick Ponte
+                            - generic [ref=f3e778]: YouTube
+                      - button "About this result" [ref=f3e782] [cursor=pointer]
+                  - listitem [ref=f3e787]:
+                    - generic [ref=f3e791]:
+                      - 'link "This guy literally canceled a date just to spend more time on Claude Fable 5. The AI recently got extended access for all paid plans, and weekly limits are now 50% higher through July 19, so he wanted to make the most of it. It’s wild how much people are adjusting their schedules for AI tools now. Follow us (👉 @artificialintelligenceee) for everything latest from the AI world. Source: phuctm97/X 4.5K+ likes · 2 days ago artificialintelligenceee Instagram" [ref=f3e792] [cursor=pointer]':
+                        - /url: https://www.instagram.com/p/DazPIv0mhn8/
+                        - generic [ref=f3e796]:
+                          - 'heading "This guy literally canceled a date just to spend more time on Claude Fable 5. The AI recently got extended access for all paid plans, and weekly limits are now 50% higher through July 19, so he wanted to make the most of it. It’s wild how much people are adjusting their schedules for AI tools now. Follow us (👉 @artificialintelligenceee) for everything latest from the AI world. Source: phuctm97/X" [level=3] [ref=f3e798]'
+                          - generic [ref=f3e799]: 4.5K+ likes · 2 days ago
+                          - generic [ref=f3e808]:
+                            - generic [ref=f3e809]: artificialintelligenceee
+                            - generic [ref=f3e810]: Instagram
+                      - button "About this result" [ref=f3e814] [cursor=pointer]
+                  - listitem [ref=f3e819]:
+                    - generic [ref=f3e823]:
+                      - link "Can AI companies just use the latest AI to make their AI just as good or better? Popular comment · Hallucinations enter the chat. 7 upvotes . 10+ comments · 3 hours ago r/NoStupidQuestions Reddit" [ref=f3e824] [cursor=pointer]:
+                        - /url: https://www.reddit.com/r/NoStupidQuestions/comments/1uz1hrs/can_ai_companies_just_use_the_latest_ai_to_make/
+                        - generic [ref=f3e825]:
+                          - heading "Can AI companies just use the latest AI to make their AI just as good or better?" [level=3] [ref=f3e827]
+                          - generic [ref=f3e828]:
+                            - generic [ref=f3e829]:
+                              - generic [ref=f3e830]: Popular comment · Hallucinations enter the chat.
+                              - generic [ref=f3e831]: 7 upvotes
+                            - generic [ref=f3e832]: .
+                          - generic [ref=f3e833]: 10+ comments · 3 hours ago
+                          - generic [ref=f3e842]:
+                            - generic [ref=f3e843]: r/NoStupidQuestions
+                            - generic [ref=f3e844]: Reddit
+                      - button "About this result" [ref=f3e848] [cursor=pointer]
+                  - listitem [ref=f3e853]:
+                    - generic [ref=f3e858]:
+                      - link [ref=f3e859] [cursor=pointer]:
+                        - /url: https://www.instagram.com/p/Da5bng1gDdZ/
+                        - generic [ref=f3e860]: 1:23
+                        - generic [ref=f3e869]:
+                          - heading [level=3] [ref=f3e871]
+                          - generic [ref=f3e872]: 830+ likes · 3 hours ago
+                          - generic [ref=f3e882]:
+                            - generic [ref=f3e883]: evolving.ai
+                            - generic [ref=f3e884]: Instagram
+                      - button "About this result" [ref=f3e888] [cursor=pointer]
+                  - listitem [ref=f3e893]:
+                    - generic [ref=f3e898]:
+                      - 'link "1:14 Chamath Palihapitiya says his company’s AI costs are rising much faster than the productivity gains they’re seeing. He shared that token spending is doubling roughly every 45 days, while productivity has improved by only about 5%. In his view, getting each additional improvement now requires much more AI usage than before. Chamath believes many companies will soon have to ask themselves if the rising cost of AI is actually giving them enough value to be worth it. 👉 Follow @uncover.ai to stay updated with the latest AI news — Media: All-In Podcast 450+ likes · 10 hours ago uncover.ai Instagram" [ref=f3e899] [cursor=pointer]':
+                        - /url: https://www.instagram.com/reel/Da2GgdwMFJH/
+                        - generic [ref=f3e900]: 1:14
+                        - generic [ref=f3e909]:
+                          - 'heading "Chamath Palihapitiya says his company’s AI costs are rising much faster than the productivity gains they’re seeing. He shared that token spending is doubling roughly every 45 days, while productivity has improved by only about 5%. In his view, getting each additional improvement now requires much more AI usage than before. Chamath believes many companies will soon have to ask themselves if the rising cost of AI is actually giving them enough value to be worth it. 👉 Follow @uncover.ai to stay updated with the latest AI news — Media: All-In Podcast" [level=3] [ref=f3e911]'
+                          - generic [ref=f3e912]: 450+ likes · 10 hours ago
+                          - generic [ref=f3e925]:
+                            - generic [ref=f3e926]: uncover.ai
+                            - generic [ref=f3e927]: Instagram
+                      - button "About this result" [ref=f3e931] [cursor=pointer]
+                  - listitem [ref=f3e936]:
+                    - generic [ref=f3e941]:
+                      - button "Why AI Data Centers Are Suddenly Everywhere In India. Play on Google. 20:57" [ref=f3e946] [cursor=pointer]:
+                        - generic [ref=f3e947]: 20:57
+                      - link "Why AI Data Centers Are Suddenly Everywhere In India 1.8L+ views · 2 days ago Aevy TV YouTube" [ref=f3e961] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=mvod11IL-Zc
+                        - generic [ref=f3e962]:
+                          - heading "Why AI Data Centers Are Suddenly Everywhere In India" [level=3] [ref=f3e964]
+                          - generic [ref=f3e965]: 1.8L+ views · 2 days ago
+                          - generic [ref=f3e978]:
+                            - generic [ref=f3e979]: Aevy TV
+                            - generic [ref=f3e980]: YouTube
+                      - button "About this result" [ref=f3e984] [cursor=pointer]
+                  - listitem [ref=f3e989]:
+                    - generic [ref=f3e994]:
+                      - link "Microsoft CEO Satya Nadella has criticised Anthropic's latest AI model, Claude Fable, calling it \"editorially controlled\" and questioning its frequent refusals to respond to user requests. Nadella argued that excessive safeguards limit creativity and practicality, as 2 reactions · 6 hours ago etnow Facebook" [ref=f3e995] [cursor=pointer]:
+                        - /url: https://www.facebook.com/etnow/posts/microsoft-ceo-satya-nadella-has-criticised-anthropics-latest-ai-model-claude-fab/1455399053285661/
+                        - generic [ref=f3e999]:
+                          - heading "Microsoft CEO Satya Nadella has criticised Anthropic's latest AI model, Claude Fable, calling it \"editorially controlled\" and questioning its frequent refusals to respond to user requests. Nadella argued that excessive safeguards limit creativity and practicality, as" [level=3] [ref=f3e1001]
+                          - generic [ref=f3e1002]: 2 reactions · 6 hours ago
+                          - generic [ref=f3e1014]:
+                            - generic [ref=f3e1015]: etnow
+                            - generic [ref=f3e1016]: Facebook
+                      - button "About this result" [ref=f3e1020] [cursor=pointer]
+                  - listitem [ref=f3e1025]:
+                    - generic [ref=f3e1030]:
+                      - link "Another Deepseek moment? China’s Moonshot AI has released its latest Kimi K3 model that surpassed Anthropic’s Claude Fable 5 model on Arena AI’s Frontend Code benchmark. The open-weight model scored 1,679, ahead of Claude Fable 5’s score of 1,631 and several other GPT and Claude models. The result shows K3 performed best on this specific community benchmark for frontend coding, but it does not prove the model is better across every task. Kimi K3 is not completely free for everyone. You need a paid Kimi Code plan to use it, and only higher-tier plans let you process much larger amounts of code or text at once. Chinese AI models are really giving the trillion-dollar tech companies competition by matching their performance while often costing much less to build 1K+ likes · 22 hours ago therundownai Instagram" [ref=f3e1031] [cursor=pointer]:
+                        - /url: https://www.instagram.com/p/Da3YbU3AvyK/
+                        - generic [ref=f3e1035]:
+                          - heading "Another Deepseek moment? China’s Moonshot AI has released its latest Kimi K3 model that surpassed Anthropic’s Claude Fable 5 model on Arena AI’s Frontend Code benchmark. The open-weight model scored 1,679, ahead of Claude Fable 5’s score of 1,631 and several other GPT and Claude models. The result shows K3 performed best on this specific community benchmark for frontend coding, but it does not prove the model is better across every task. Kimi K3 is not completely free for everyone. You need a paid Kimi Code plan to use it, and only higher-tier plans let you process much larger amounts of code or text at once. Chinese AI models are really giving the trillion-dollar tech companies competition by matching their performance while often costing much less to build" [level=3] [ref=f3e1037]
+                          - generic [ref=f3e1038]: 1K+ likes · 22 hours ago
+                          - generic [ref=f3e1050]:
+                            - generic [ref=f3e1051]: therundownai
+                            - generic [ref=f3e1052]: Instagram
+                      - button "About this result" [ref=f3e1056] [cursor=pointer]
+                  - listitem [ref=f3e1061]:
+                    - generic [ref=f3e1066]:
+                      - link "0:50 PARTNERED The biggest AI bottleneck isn't talent—it's chips. Neil Thompson explains why GPU shortages could continue for years as AI adoption accelerates across industries and governments. Catch this insightful conversation on the latest episode of Tech 7 reactions · 1 day ago mint.live Facebook" [ref=f3e1067] [cursor=pointer]:
+                        - /url: https://www.facebook.com/mint.live/videos/partneredthe-biggest-ai-bottleneck-isnt-talentits-chipsneil-thompson-explains-wh/1738297674053078/
+                        - generic [ref=f3e1068]: 0:50
+                        - generic [ref=f3e1077]:
+                          - heading "PARTNERED The biggest AI bottleneck isn't talent—it's chips. Neil Thompson explains why GPU shortages could continue for years as AI adoption accelerates across industries and governments. Catch this insightful conversation on the latest episode of Tech" [level=3] [ref=f3e1079]
+                          - generic [ref=f3e1080]: 7 reactions · 1 day ago
+                          - generic [ref=f3e1093]:
+                            - generic [ref=f3e1094]: mint.live
+                            - generic [ref=f3e1095]: Facebook
+                      - button "About this result" [ref=f3e1099] [cursor=pointer]
+                  - listitem [ref=f3e1104]:
+                    - generic [ref=f3e1109]:
+                      - button "Breaking down the latest AI trends with Dr. Chris Mattmann. Play on Google. 14:06" [ref=f3e1114] [cursor=pointer]:
+                        - generic [ref=f3e1115]: 14:06
+                      - link "Breaking down the latest AI trends with Dr. Chris Mattmann 180+ views · 2 days ago KTLA 5 YouTube" [ref=f3e1129] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=CUiOOY4fV2U
+                        - generic [ref=f3e1130]:
+                          - heading "Breaking down the latest AI trends with Dr. Chris Mattmann" [level=3] [ref=f3e1132]
+                          - generic [ref=f3e1133]: 180+ views · 2 days ago
+                          - generic [ref=f3e1146]:
+                            - generic [ref=f3e1147]: KTLA 5
+                            - generic [ref=f3e1148]: YouTube
+                      - button "About this result" [ref=f3e1152] [cursor=pointer]
+                  - listitem [ref=f3e1157]:
+                    - generic [ref=f3e1162]:
+                      - link "AI policy isn’t keeping up with market realities 3 days ago Gleb Tsipursky The Hill" [ref=f3e1163] [cursor=pointer]:
+                        - /url: https://thehill.com/opinion/technology/5965943-ai-adoption-speed-infrastructure/
+                        - generic [ref=f3e1167]:
+                          - heading "AI policy isn’t keeping up with market realities" [level=3] [ref=f3e1169]
+                          - generic [ref=f3e1170]: 3 days ago
+                          - generic [ref=f3e1179]:
+                            - generic [ref=f3e1180]: Gleb Tsipursky
+                            - generic [ref=f3e1181]: The Hill
+                      - button "About this result" [ref=f3e1185] [cursor=pointer]
+              - button [ref=f3e1190] [cursor=pointer]
+          - generic [ref=f3e1197]:
+            - heading "Web results" [level=2] [ref=f3e1198]
+            - generic [ref=f3e1199]:
+              - generic [ref=f3e1202]:
+                - link "Artificial Intelligence (AI) Reddit · r/artificial 13.1L+ followers" [ref=f3e1204] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/artificial/
+                  - heading "Artificial Intelligence (AI)" [level=3] [ref=f3e1205]
+                  - generic [ref=f3e1211]:
+                    - generic [ref=f3e1212]: Reddit · r/artificial
+                    - generic [ref=f3e1214]: 13.1L+ followers
+                - button "About this result" [ref=f3e1218] [cursor=pointer]
+              - generic [ref=f3e1225]:
+                - emphasis [ref=f3e1226]: Apple just sued OpenAI
+                - text: . Report Kimi K3 landed third on the Intelligence Index, ahead of Opus 4.8, Weights supposedly drop July 27. FCA Warns AI Could Transform ...
+          - generic [ref=f3e1230]:
+            - generic [ref=f3e1233]:
+              - link "Artificial Intelligence - Latest AI News and Analysis WSJ https://www.wsj.com › tech › ai" [ref=f3e1235] [cursor=pointer]:
+                - /url: https://www.wsj.com/tech/ai
+                - heading "Artificial Intelligence - Latest AI News and Analysis" [level=3] [ref=f3e1236]
+                - generic [ref=f3e1242]:
+                  - generic [ref=f3e1243]: WSJ
+                  - generic [ref=f3e1245]: https://www.wsj.com › tech › ai
+              - button "About this result" [ref=f3e1249] [cursor=pointer]
+            - generic [ref=f3e1256]:
+              - emphasis [ref=f3e1257]: The latest artificial intelligence news coverage
+              - text: focusing on the technology, tools and the companies building AI technology.
+          - generic [ref=f3e1261]:
+            - generic [ref=f3e1264]:
+              - link "AI News & Artificial Intelligence TechCrunch https://techcrunch.com › category › artificial-intelligence" [ref=f3e1266] [cursor=pointer]:
+                - /url: https://techcrunch.com/category/artificial-intelligence/
+                - heading "AI News & Artificial Intelligence" [level=3] [ref=f3e1267]
+                - generic [ref=f3e1273]:
+                  - generic [ref=f3e1274]: TechCrunch
+                  - generic [ref=f3e1276]: https://techcrunch.com › category › artificial-intelligence
+              - button "About this result" [ref=f3e1280] [cursor=pointer]
+            - generic [ref=f3e1287]:
+              - emphasis [ref=f3e1288]: AI News
+              - text: coverage on artificial intelligence and machine learning tech, the companies building them, and the ethical issues AI raises today.
+          - generic [ref=f3e1292]:
+            - generic [ref=f3e1295]:
+              - link "OpenAI News OpenAI https://openai.com › news" [ref=f3e1297] [cursor=pointer]:
+                - /url: https://openai.com/news/
+                - heading "OpenAI News" [level=3] [ref=f3e1298]
+                - generic [ref=f3e1304]:
+                  - generic [ref=f3e1305]: OpenAI
+                  - generic [ref=f3e1307]: https://openai.com › news
+              - button "About this result" [ref=f3e1311] [cursor=pointer]
+            - generic [ref=f3e1318]:
+              - text: Stay up to speed on the rapid advancement of AI technology.
+              - emphasis [ref=f3e1319]: GPT-5.6 is now the preferred model in Microsoft 365 Copilot
+              - text: . Latest Advancements GPT-5.6 GPT-5.5 ...
+          - generic [ref=f3e1323]:
+            - generic [ref=f3e1325]:
+              - heading "Videos" [level=2] [ref=f3e1326]
+              - button "About this result" [ref=f3e1327] [cursor=pointer]
+            - generic [ref=f3e1333]:
+              - generic [ref=f3e1340]:
+                - generic [ref=f3e1341]:
+                  - link [ref=f3e1343] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=MVVBrsGYrjo
+                    - 'heading "Weekly AI News: Latest LLM Models & New Scientific ... YouTube Codanics 5 hours ago" [level=3] [ref=f3e1344]':
+                      - generic [ref=f3e1345]: "Weekly AI News: Latest LLM Models & New Scientific ..."
+                      - generic [ref=f3e1349]:
+                        - generic [ref=f3e1350]:
+                          - text: YouTube
+                          - generic [ref=f3e1351]: · Codanics
+                        - generic [ref=f3e1352]: 5 hours ago
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · Codanics
+                      - button "About this result" [ref=f3e1353] [cursor=pointer]
+                - 'button "Weekly AI News: Latest LLM Models & New Scientific ... by Codanics on YouTube. Play on Google. 12:13" [ref=f3e1358] [cursor=pointer]':
+                  - generic [ref=f3e1359]: 12:13
+              - generic [ref=f3e1380]:
+                - generic [ref=f3e1381]:
+                  - link [ref=f3e1383] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=j1yjXyr94jc
+                    - 'heading "LIVE: Chinese President Xi Jinping Unveils China''s AI Vision ... YouTube DWS News 16 hours ago" [level=3] [ref=f3e1384]':
+                      - generic [ref=f3e1385]: "LIVE: Chinese President Xi Jinping Unveils China's AI Vision ..."
+                      - generic [ref=f3e1389]:
+                        - generic [ref=f3e1390]:
+                          - text: YouTube
+                          - generic [ref=f3e1391]: · DWS News
+                        - generic [ref=f3e1392]: 16 hours ago
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · DWS News
+                      - button "About this result" [ref=f3e1393] [cursor=pointer]
+                - 'button "LIVE: Chinese President Xi Jinping Unveils China''s AI Vision ... by DWS News on YouTube. Play on Google. 3:56:35" [ref=f3e1398] [cursor=pointer]':
+                  - generic [ref=f3e1399]: 3:56:35
+              - generic [ref=f3e1417]:
+                - generic [ref=f3e1418]:
+                  - link [ref=f3e1420] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=0Pbv5_7t1GQ
+                    - 'heading "BREAKING: Xi Jinping Delivers Keynote Speech at World AI ... YouTube DRM News 15 hours ago" [level=3] [ref=f3e1421]':
+                      - generic [ref=f3e1422]: "BREAKING: Xi Jinping Delivers Keynote Speech at World AI ..."
+                      - generic [ref=f3e1426]:
+                        - generic [ref=f3e1427]:
+                          - text: YouTube
+                          - generic [ref=f3e1428]: · DRM News
+                        - generic [ref=f3e1429]: 15 hours ago
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · DRM News
+                      - button "About this result" [ref=f3e1430] [cursor=pointer]
+                - 'button "BREAKING: Xi Jinping Delivers Keynote Speech at World AI ... by DRM News on YouTube. Play on Google. 19:05" [ref=f3e1435] [cursor=pointer]':
+                  - generic [ref=f3e1436]: 19:05
+            - link "View all videos" [ref=f3e1451] [cursor=pointer]:
+              - /url: /search?sca_esv=c9dcfb7559f67e19&udm=7&q=latest+AI+news&sa=X&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q8ccDKAJ6BAhFEAQ
+              - separator [ref=f3e1452]
+              - generic [ref=f3e1453]: View all
+        - generic [ref=f3e1459]:
+          - generic [ref=f3e1464]:
+            - heading "People also search for" [level=2] [ref=f3e1466]
+            - generic [ref=f3e1468]:
+              - generic [ref=f3e1469]:
+                - link "Latest AI news in India" [ref=f3e1473] [cursor=pointer]:
+                  - /url: /search?sca_esv=c9dcfb7559f67e19&q=Latest+AI+news+in+India&sa=X&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q1QJ6BAgmEAE
+                - link "Latest ai news reddit" [ref=f3e1487] [cursor=pointer]:
+                  - /url: /search?sca_esv=c9dcfb7559f67e19&q=Latest+ai+news+reddit&sa=X&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q1QJ6BAg-EAE
+                - link "AI news today live" [ref=f3e1501] [cursor=pointer]:
+                  - /url: /search?sca_esv=c9dcfb7559f67e19&q=AI+news+today+live&sa=X&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q1QJ6BAg8EAE
+                - link "Latest AI news for developers" [ref=f3e1515] [cursor=pointer]:
+                  - /url: /search?sca_esv=c9dcfb7559f67e19&q=Latest+AI+news+for+developers&sa=X&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q1QJ6BAg6EAE
+              - generic [ref=f3e1526]:
+                - link "Latest AI technology news" [ref=f3e1530] [cursor=pointer]:
+                  - /url: /search?sca_esv=c9dcfb7559f67e19&q=Latest+AI+technology+news&sa=X&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q1QJ6BAg5EAE
+                - link "Future of AI news" [ref=f3e1544] [cursor=pointer]:
+                  - /url: /search?sca_esv=c9dcfb7559f67e19&q=Future+of+AI+news&sa=X&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q1QJ6BAgyEAE
+                - link "Latest AI news Microsoft" [ref=f3e1558] [cursor=pointer]:
+                  - /url: /search?sca_esv=c9dcfb7559f67e19&q=Latest+AI+news+Microsoft&sa=X&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q1QJ6BAguEAE
+                - link "Latest AI newsletter" [ref=f3e1572] [cursor=pointer]:
+                  - /url: /search?sca_esv=c9dcfb7559f67e19&q=Latest+AI+newsletter&sa=X&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q1QJ6BAgsEAE
+          - navigation [ref=f3e1583]:
+            - heading "Page navigation" [level=1] [ref=f3e1584]
+            - text: "1"
+            - link "Page 2" [ref=f3e1587] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&ei=XGtaasP0Jf-O4-EP4vWm6QU&start=10&sa=N&sstk=AU9db-CeRn8aSdUwcoSTSq6JHfYyZEYOWwgdkfj00k1oQtkV3Rtm98DEKgwpzojysjJXXwg1hwE9q0pF3Leh4PUp56Ec2slEhkU7-g&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q8tMDegQIJBAE
+              - text: "2"
+            - link "Page 3" [ref=f3e1589] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&ei=XGtaasP0Jf-O4-EP4vWm6QU&start=20&sa=N&sstk=AU9db-CeRn8aSdUwcoSTSq6JHfYyZEYOWwgdkfj00k1oQtkV3Rtm98DEKgwpzojysjJXXwg1hwE9q0pF3Leh4PUp56Ec2slEhkU7-g&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q8tMDegQIJBAG
+              - text: "3"
+            - link "Page 4" [ref=f3e1591] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&ei=XGtaasP0Jf-O4-EP4vWm6QU&start=30&sa=N&sstk=AU9db-CeRn8aSdUwcoSTSq6JHfYyZEYOWwgdkfj00k1oQtkV3Rtm98DEKgwpzojysjJXXwg1hwE9q0pF3Leh4PUp56Ec2slEhkU7-g&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q8tMDegQIJBAI
+              - text: "4"
+            - link "Page 5" [ref=f3e1593] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&ei=XGtaasP0Jf-O4-EP4vWm6QU&start=40&sa=N&sstk=AU9db-CeRn8aSdUwcoSTSq6JHfYyZEYOWwgdkfj00k1oQtkV3Rtm98DEKgwpzojysjJXXwg1hwE9q0pF3Leh4PUp56Ec2slEhkU7-g&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q8tMDegQIJBAK
+              - text: "5"
+            - link "Page 6" [ref=f3e1595] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&ei=XGtaasP0Jf-O4-EP4vWm6QU&start=50&sa=N&sstk=AU9db-CeRn8aSdUwcoSTSq6JHfYyZEYOWwgdkfj00k1oQtkV3Rtm98DEKgwpzojysjJXXwg1hwE9q0pF3Leh4PUp56Ec2slEhkU7-g&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q8tMDegQIJBAM
+              - text: "6"
+            - link "Page 7" [ref=f3e1597] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&ei=XGtaasP0Jf-O4-EP4vWm6QU&start=60&sa=N&sstk=AU9db-CeRn8aSdUwcoSTSq6JHfYyZEYOWwgdkfj00k1oQtkV3Rtm98DEKgwpzojysjJXXwg1hwE9q0pF3Leh4PUp56Ec2slEhkU7-g&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q8tMDegQIJBAO
+              - text: "7"
+            - link "Page 8" [ref=f3e1599] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&ei=XGtaasP0Jf-O4-EP4vWm6QU&start=70&sa=N&sstk=AU9db-CeRn8aSdUwcoSTSq6JHfYyZEYOWwgdkfj00k1oQtkV3Rtm98DEKgwpzojysjJXXwg1hwE9q0pF3Leh4PUp56Ec2slEhkU7-g&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q8tMDegQIJBAQ
+              - text: "8"
+            - link "Page 9" [ref=f3e1601] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&ei=XGtaasP0Jf-O4-EP4vWm6QU&start=80&sa=N&sstk=AU9db-CeRn8aSdUwcoSTSq6JHfYyZEYOWwgdkfj00k1oQtkV3Rtm98DEKgwpzojysjJXXwg1hwE9q0pF3Leh4PUp56Ec2slEhkU7-g&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q8tMDegQIJBAS
+              - text: "9"
+            - link "Page 10" [ref=f3e1603] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&ei=XGtaasP0Jf-O4-EP4vWm6QU&start=90&sa=N&sstk=AU9db-CeRn8aSdUwcoSTSq6JHfYyZEYOWwgdkfj00k1oQtkV3Rtm98DEKgwpzojysjJXXwg1hwE9q0pF3Leh4PUp56Ec2slEhkU7-g&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q8tMDegQIJBAU
+              - text: "10"
+            - heading [level=2] [ref=f3e1605]:
+              - link "Next" [ref=f3e1606] [cursor=pointer]:
+                - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&ei=XGtaasP0Jf-O4-EP4vWm6QU&start=10&sa=N&sstk=AU9db-CeRn8aSdUwcoSTSq6JHfYyZEYOWwgdkfj00k1oQtkV3Rtm98DEKgwpzojysjJXXwg1hwE9q0pF3Leh4PUp56Ec2slEhkU7-g&ved=2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q8NMDegQIJBAW
+        - navigation
+    - contentinfo [ref=f3e1609]:
+      - heading "Footer links" [level=1] [ref=f3e1610]
+      - generic [ref=f3e1614]:
+        - generic [ref=f3e1616]:
+          - text: India
+          - generic [ref=f3e1618]:
+            - button "Patna, Bihar - From your IP address" [ref=f3e1620] [cursor=pointer]:
+              - generic [ref=f3e1621]: Patna, Bihar
+              - generic [ref=f3e1623]:
+                - text: "-"
+                - generic [ref=f3e1624]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=f3e1626] [cursor=pointer]
+        - generic [ref=f3e1629]:
+          - link "Help" [ref=f3e1630] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=f3e1631] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f3e1632] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f3e1633] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

@@ -1,0 +1,406 @@
+- generic [ref=f3e2]:
+  - banner [ref=f3e5]:
+    - navigation [ref=f3e6]:
+      - link [ref=f3e7] [cursor=pointer]:
+        - /url: /
+        - img "Y Combinator" [ref=f3e8]
+      - button "Open menu" [ref=f3e9] [cursor=pointer]
+  - generic [ref=f3e15]:
+    - generic [ref=f3e16]:
+      - generic [ref=f3e17]:
+        - link [ref=f3e18] [cursor=pointer]:
+          - /url: ""
+        - generic [ref=f3e19]:
+          - heading [level=2] [ref=f3e20]:
+            - link "Noora Health" [ref=f3e21] [cursor=pointer]:
+              - /url: /companies/noora-health
+          - paragraph [ref=f3e22]: Training patients and their families with health skills
+      - generic [ref=f3e23]:
+        - heading "Lead, Engineer" [level=1] [ref=f3e24]
+        - generic [ref=f3e25]:
+          - generic [ref=f3e26]: •
+          - generic [ref=f3e27]: Bengaluru, KA, IN / Bengaluru, Karnataka, IN
+        - generic [ref=f3e28]:
+          - generic [ref=f3e29]:
+            - strong [ref=f3e31]: Job type
+            - text: Full-time
+          - generic [ref=f3e32]:
+            - strong [ref=f3e34]: Role
+            - text: Engineering, Backend
+          - generic [ref=f3e35]:
+            - strong [ref=f3e37]: Experience
+            - text: 6+ years
+          - generic [ref=f3e38]:
+            - strong [ref=f3e40]: Visa
+            - text: US citizenship/visa not required
+          - generic [ref=f3e41]:
+            - strong [ref=f3e43]: Skills
+            - text: Amazon Web Services (AWS), Google Cloud, JavaScript, ML, MySQL, Python, Machine Learning, LLMs, RAG
+        - generic [ref=f3e46]:
+          - generic [ref=f3e47]: Apply to Noora Health and hundreds of other fast-growing YC startups with a single profile.
+          - link "Apply to role ›" [ref=f3e48] [cursor=pointer]:
+            - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D94543&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=585
+      - heading "About the role" [level=2] [ref=f3e49]
+      - generic [ref=f3e51]:
+        - paragraph [ref=f3e52]:
+          - strong [ref=f3e53]: WHO WE ARE
+        - paragraph [ref=f3e54]:
+          - text: Noora Health India Private Limited is a key partner in
+          - link "Noora Health’s" [ref=f3e55] [cursor=pointer]:
+            - /url: http://www.noorahealth.org/
+          - text: mission is to improve outcomes and strengthen health systems by equipping family caregivers with the skills they need to care for their loved ones. They develop content, technology platforms, new products, and strengthen other operational functions that support the scale and impact of Noora Health’s programs.
+        - paragraph [ref=f3e56]: "Founded in 2014, Noora Health turns hospital hallways and waiting rooms into classrooms by tapping into the most compassionate resources available for the patient’s care: their own family."
+        - paragraph [ref=f3e57]: With support from governments and partners in India, Bangladesh, Indonesia, and Nepal, Noora Health has trained more than 58 million caregivers and patients across 16,300+ facilities using their flagship caregiver education and training curriculum, the Care Companion Program (CCP).
+        - paragraph [ref=f3e58]: In a cohort of patients, the CCP reduced post-surgical cardiac complications by 71%, maternal complications by 12%, newborn complications by 16%, and newborn mortality by 18%.
+        - paragraph [ref=f3e59]:
+          - text: Noora Health is an
+          - link "Audacious Project Grantee" [ref=f3e60] [cursor=pointer]:
+            - /url: https://blog.ted.com/introducing-the-audacious-projects-new-cohort/
+          - text: and received the
+          - link "Skoll Foundation Award for Social Innovation" [ref=f3e61] [cursor=pointer]:
+            - /url: https://skoll.org/2022/04/04/skoll-foundation-announces-winners-of-the-2022-skoll-award-for-social-innovation/
+          - text: . To learn more, watch our
+          - link "TED Talk" [ref=f3e62] [cursor=pointer]:
+            - /url: https://www.ted.com/talks/edith_elliott_and_shahed_alam_the_most_powerful_untapped_resource_in_health_care
+          - text: ","
+          - link "Skoll feature" [ref=f3e63] [cursor=pointer]:
+            - /url: https://youtu.be/e7qvtubZ7XM
+          - text: ", or read about"
+          - link "our partnership" [ref=f3e64] [cursor=pointer]:
+            - /url: https://www.who.int/news/item/29-07-2025-who-and-noora-health-begin-collaboration-to-strengthen-support-for-family-caregivers
+          - text: with the World Health Organization.
+        - paragraph [ref=f3e65]:
+          - strong [ref=f3e66]: WHAT THE PLATFORMS & ENGINEERING TEAM DOES
+        - paragraph [ref=f3e67]: Our Platforms & Engineering team continuously innovates and builds new technology and products to improve health outcomes and save lives. We serve patients and family caregivers across India, Bangladesh, Indonesia, and Nepal throughout their caregiving journeys. We also build solutions for frontline healthcare workers and internal engineering systems that power our larger programmatic work.
+        - paragraph [ref=f3e68]:
+          - strong [ref=f3e69]: OUR CURRENT STACK
+        - paragraph [ref=f3e70]:
+          - text: Our backend runs on Python with PostgreSQL on Google Cloud. We deliver our interventions through Exotel,
+          - link "Turn.io" [ref=f3e71] [cursor=pointer]:
+            - /url: http://Turn.io
+          - text: ", RapidPro, other third-party tools, and a growing set of homegrown applications that connect us to caregivers and frontline workers. AI is a first-class part of how we build: we use coding assistants and agents in our day-to-day development, and we are actively building LLM-powered features into our products. We are a growing engineering team with emerging processes, and a meaningful part of this role is helping us refine them towards operational excellence without losing the velocity that a small team can offer."
+        - paragraph [ref=f3e72]:
+          - strong [ref=f3e73]: WHAT YOU WILL DO
+        - paragraph [ref=f3e74]: We are looking for a Lead Engineer who will own the delivery of specific products and run focused engineering pods. This is a hands-on technical role with people management responsibilities. You will spend a meaningful share of your time directly writing code, creating engineering designs, reviewing, debugging, while also setting direction for a small team, growing their craft, and running the operating rhythm that turns plans into shipped products. You will work closely with colleagues across product, design, medical, and data.
+        - list [ref=f3e75]:
+          - listitem [ref=f3e76]: Own end-to-end delivery for your individual and pods’ roadmap, from scoping and architecture through release and post-release support.
+          - listitem [ref=f3e77]: Set technical direction through engineering design reviews, ERDs, and clear written decision records, so engineers (and their AI tools) have a well-scoped spec to work with.
+          - listitem [ref=f3e78]: Build with AI as part of the product, not just around it. Identify where LLMs, retrieval, or agentic workflows genuinely improve caregiver and frontline-worker outcomes, and help ship those features.
+          - listitem [ref=f3e79]: Write production code on critical paths, lead complex backend or full-stack changes, and stay close enough to the codebase and the associated tooling to make credible technical calls.
+          - listitem [ref=f3e80]: "Drive resolution of operational gaps in your area: alerting, on-call, incident response, tech debt, and security and compliance hygiene"
+          - listitem [ref=f3e81]: "Stay close to how the craft is changing. Bring back what works from outside the team: new tools, new patterns, new ways of working and help us evolve our processes without losing the fundamentals."
+        - paragraph [ref=f3e82]:
+          - strong [ref=f3e83]: WHO ARE WE LOOKING FOR
+        - list [ref=f3e84]:
+          - listitem [ref=f3e85]:
+            - emphasis [ref=f3e86]: "A builder/tinkerer first:"
+            - text: You have shipped at least one production LLM-powered product end-to-end and have strong opinions about what makes these systems reliable, safe, and actually useful. You are most at home writing code, reading design docs, and debugging, and you have taken on people management because you have found it multiplies what a small team can ship.
+          - listitem [ref=f3e87]: 6–12 years of hands-on software engineering experience with a proven track record of shipping production systems end-to-end, ideally including at least one large project where you owned the architecture, the delivery plan, and the team running it.
+          - listitem [ref=f3e88]: "Hands-on experience building with LLMs: prompt design, RAG pipelines, agent frameworks, MCPs, and evals. You know how to instrument these systems for quality and post-deployment optimization. AI tools are also native to how you work now."
+          - listitem [ref=f3e89]: Strong backend engineering skills in Python (our primary backend language), JavaScript or similar, including API design, data modeling, and query optimization on relational databases.
+          - listitem [ref=f3e90]: Comfort working across the stack when needed, with enough familiarity with frontend, mobile, or data pipelines to make sound architectural decisions in a small team.
+          - listitem [ref=f3e91]: Working knowledge of cloud platforms such as Google Cloud or AWS, with experience deploying, monitoring, and operating production services.
+          - listitem [ref=f3e92]: Strong communication across formats. You document decisions, write clear and simple ERDs, and use writing to align teams rather than relying on meetings.
+          - listitem [ref=f3e93]: Comfortable with ambiguity, capable of making decisions with incomplete information, and willing to revisit decisions as facts change.
+          - listitem [ref=f3e94]: A Bachelor’s or Master’s degree in a related field or equivalent practical experience.
+        - paragraph [ref=f3e95]:
+          - strong [ref=f3e96]: WHAT WE VALUE
+        - paragraph [ref=f3e97]: We value diversity, equity, and inclusion, and we understand the value of developing a team with different perspectives, educational backgrounds, and life experiences. We prioritize diversity within our team, and we welcome candidates from all gender identities, castes, religious practices, sexual orientations, and abilities — among many others.
+        - paragraph [ref=f3e98]:
+          - strong [ref=f3e99]: We encourage people from all backgrounds to apply.
+        - paragraph [ref=f3e100]:
+          - strong [ref=f3e101]: HOW TO APPLY
+        - paragraph [ref=f3e102]:
+          - text: Please submit your application using
+          - link "this link" [ref=f3e103] [cursor=pointer]:
+            - /url: https://noorahealth.bamboohr.com/careers/140?source=aWQ9MzQ%3D
+          - strong [ref=f3e104]: .
+      - heading "About Noora Health" [level=2] [ref=f3e105]
+      - paragraph [ref=f3e107]: Noora Health trains patient families with high-impact health skills that improve outcomes and save lives. Our model provides basic yet vital care knowledge through trusted providers by creating a scalable program for caregiving education and training within the established healthcare system. This model expands the care umbrella to include those closest to the patient — their family and community. Noora Health has trained over 30 million caregivers and patients across over 12,400 healthcare facilities in India, Bangladesh, Indonesia, and Nepal. The program reduces cardiac surgery complications by 71%, newborn readmissions by 56%, and neonatal mortality by 18%. By 2028, Noora Health will expand to reach over 70 million caregivers and patients.
+    - generic [ref=f3e108]:
+      - generic [ref=f3e109]:
+        - link [ref=f3e111] [cursor=pointer]:
+          - /url: /companies/noora-health
+          - img "Noora Health" [ref=f3e112]
+        - link "Noora Health" [ref=f3e115] [cursor=pointer]:
+          - /url: /companies/noora-health
+        - generic [ref=f3e116]:
+          - generic [ref=f3e117]:
+            - generic [ref=f3e118]: "Founded:"
+            - generic [ref=f3e119]: "2014"
+          - generic [ref=f3e120]:
+            - generic [ref=f3e121]: "Batch:"
+            - generic [ref=f3e122]: W14
+          - generic [ref=f3e123]:
+            - generic [ref=f3e124]: "Team Size:"
+            - generic [ref=f3e125]: "500"
+          - generic [ref=f3e126]:
+            - generic [ref=f3e127]: "Status:"
+            - generic [ref=f3e128]: Active
+          - generic [ref=f3e130]:
+            - generic [ref=f3e131]: "Location:"
+            - generic [ref=f3e132]: Traverse City, MI
+          - generic [ref=f3e133]:
+            - link "Company website" [ref=f3e134] [cursor=pointer]:
+              - /url: http://noorahealth.org
+            - link "LinkedIn profile" [ref=f3e137] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/noora-health/
+            - link "X (Twitter) account" [ref=f3e139] [cursor=pointer]:
+              - /url: https://twitter.com/NooraHealth
+              - img "X (Twitter) logo" [ref=f3e140]
+            - link "Facebook profile" [ref=f3e141] [cursor=pointer]:
+              - /url: https://www.facebook.com/noorahealth/
+            - link "Crunchbase profile" [ref=f3e143] [cursor=pointer]:
+              - /url: https://www.crunchbase.com/organization/noora-health
+      - generic [ref=f3e145]: Founders
+      - generic [ref=f3e148]:
+        - img "Edith Elliott" [ref=f3e150]
+        - generic [ref=f3e151]:
+          - generic [ref=f3e152]:
+            - generic [ref=f3e153]: Edith Elliott
+            - generic [ref=f3e154]:
+              - link "Twitter account" [ref=f3e155] [cursor=pointer]:
+                - /url: https://twitter.com/NooraHealth
+                - img "Twitter account" [ref=f3e156]
+              - link "LinkedIn profile" [ref=f3e157] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/edith-elliott-633b7a37/
+          - generic [ref=f3e159]: CEO
+      - generic [ref=f3e160]:
+        - generic [ref=f3e161]: Similar Jobs
+        - generic [ref=f3e162]:
+          - generic [ref=f3e163]:
+            - img "Knowtex" [ref=f3e165]
+            - generic [ref=f3e166]:
+              - link "Knowtex" [ref=f3e167] [cursor=pointer]:
+                - /url: /companies/knowtex
+              - link "Software Engineer (Applications Engineering)" [ref=f3e169] [cursor=pointer]:
+                - /url: /companies/knowtex/jobs/ZYtj8QS-software-engineer-applications-engineering
+          - generic [ref=f3e170]:
+            - img "Cumulus Labs" [ref=f3e172]
+            - generic [ref=f3e173]:
+              - link "Cumulus Labs" [ref=f3e174] [cursor=pointer]:
+                - /url: /companies/cumulus-labs
+              - link "Founding Engineer — ML Platforms Engineer" [ref=f3e176] [cursor=pointer]:
+                - /url: /companies/cumulus-labs/jobs/xfY8M84-founding-engineer-ml-platforms-engineer
+          - generic [ref=f3e177]:
+            - img "KelAI" [ref=f3e179]
+            - generic [ref=f3e180]:
+              - link "KelAI" [ref=f3e181] [cursor=pointer]:
+                - /url: /companies/kelai
+              - link "Senior Infrastructure Engineer" [ref=f3e183] [cursor=pointer]:
+                - /url: /companies/kelai/jobs/Pposw25-senior-infrastructure-engineer
+          - generic [ref=f3e184]:
+            - img "Quindar" [ref=f3e186]
+            - generic [ref=f3e187]:
+              - link "Quindar" [ref=f3e188] [cursor=pointer]:
+                - /url: /companies/quindar
+              - link "Ground Systems Integration Engineer" [ref=f3e190] [cursor=pointer]:
+                - /url: /companies/quindar/jobs/StWdN7T-ground-systems-integration-engineer
+          - generic [ref=f3e191]:
+            - img "Axle" [ref=f3e193]
+            - generic [ref=f3e194]:
+              - link "Axle" [ref=f3e195] [cursor=pointer]:
+                - /url: /companies/axle
+              - link "Staff Engineer" [ref=f3e197] [cursor=pointer]:
+                - /url: /companies/axle/jobs/fsGXBTC-staff-engineer
+          - generic [ref=f3e198]:
+            - img "Simbie AI" [ref=f3e200]
+            - generic [ref=f3e201]:
+              - link "Simbie AI" [ref=f3e202] [cursor=pointer]:
+                - /url: /companies/simbie-ai
+              - link "Product Engineer / Senior Product Engineer" [ref=f3e204] [cursor=pointer]:
+                - /url: /companies/simbie-ai/jobs/DmsGSBf-product-engineer-senior-product-engineer
+          - generic [ref=f3e205]:
+            - img "Raven" [ref=f3e207]
+            - generic [ref=f3e208]:
+              - link "Raven" [ref=f3e209] [cursor=pointer]:
+                - /url: /companies/raven
+              - link "Software Engineer (Backend/AI)" [ref=f3e211] [cursor=pointer]:
+                - /url: /companies/raven/jobs/7OMJHg2-software-engineer-backend-ai
+          - generic [ref=f3e212]:
+            - img "Swif.ai" [ref=f3e214]
+            - generic [ref=f3e215]:
+              - link "Swif.ai" [ref=f3e216] [cursor=pointer]:
+                - /url: /companies/swif-ai
+              - link "Backend Developer (Scala/Java)" [ref=f3e218] [cursor=pointer]:
+                - /url: /companies/swif-ai/jobs/VoDI7UY-backend-developer-scala-java
+          - generic [ref=f3e219]:
+            - img "GoGoGrandparent" [ref=f3e221]
+            - generic [ref=f3e222]:
+              - link "GoGoGrandparent" [ref=f3e223] [cursor=pointer]:
+                - /url: /companies/gogograndparent
+              - link "Backend Engineer" [ref=f3e225] [cursor=pointer]:
+                - /url: /companies/gogograndparent/jobs/2vbzAw8-backend-engineer
+          - generic [ref=f3e226]:
+            - img "Closure" [ref=f3e228]
+            - generic [ref=f3e229]:
+              - link "Closure" [ref=f3e230] [cursor=pointer]:
+                - /url: /companies/closure
+              - link "Member of Technical Staff" [ref=f3e232] [cursor=pointer]:
+                - /url: /companies/closure/jobs/xUmCr0b-member-of-technical-staff
+          - generic [ref=f3e233]:
+            - img "OpenFunnel" [ref=f3e235]
+            - generic [ref=f3e236]:
+              - link "OpenFunnel" [ref=f3e237] [cursor=pointer]:
+                - /url: /companies/openfunnel
+              - link "Founding Engineer (AI + Backend)" [ref=f3e239] [cursor=pointer]:
+                - /url: /companies/openfunnel/jobs/j6hc4eQ-founding-engineer-ai-backend
+          - generic [ref=f3e240]:
+            - img "Aviator" [ref=f3e242]
+            - generic [ref=f3e243]:
+              - link "Aviator" [ref=f3e244] [cursor=pointer]:
+                - /url: /companies/aviator
+              - link "Senior Software engineer, Founding team" [ref=f3e246] [cursor=pointer]:
+                - /url: /companies/aviator/jobs/IrbbNyF-senior-software-engineer-founding-team
+          - generic [ref=f3e247]:
+            - img "Dime" [ref=f3e249]
+            - generic [ref=f3e250]:
+              - link "Dime" [ref=f3e251] [cursor=pointer]:
+                - /url: /companies/dime-2
+              - link "Forward Deployed Engineering Intern" [ref=f3e253] [cursor=pointer]:
+                - /url: /companies/dime-2/jobs/Gk8Z0s5-forward-deployed-engineering-intern
+          - generic [ref=f3e254]:
+            - img "Oneleet" [ref=f3e256]
+            - generic [ref=f3e257]:
+              - link "Oneleet" [ref=f3e258] [cursor=pointer]:
+                - /url: /companies/oneleet
+              - link "Senior Software Engineer (Backend)" [ref=f3e260] [cursor=pointer]:
+                - /url: /companies/oneleet/jobs/6WRWYIs-senior-software-engineer-backend
+          - generic [ref=f3e261]:
+            - img "ParadeDB" [ref=f3e263]
+            - generic [ref=f3e264]:
+              - link "ParadeDB" [ref=f3e265] [cursor=pointer]:
+                - /url: /companies/paradedb
+              - link "Database Engineer — Storage & Query Execution" [ref=f3e267] [cursor=pointer]:
+                - /url: /companies/paradedb/jobs/GCpYraM-database-engineer-storage-query-execution
+          - generic [ref=f3e268]:
+            - img "Pluto" [ref=f3e270]
+            - generic [ref=f3e271]:
+              - link "Pluto" [ref=f3e272] [cursor=pointer]:
+                - /url: /companies/pluto
+              - link "Senior Software Engineer - AI Infrastructure" [ref=f3e274] [cursor=pointer]:
+                - /url: /companies/pluto/jobs/oV6u4fY-senior-software-engineer-ai-infrastructure
+          - generic [ref=f3e275]:
+            - img "Candid Health" [ref=f3e277]
+            - generic [ref=f3e278]:
+              - link "Candid Health" [ref=f3e279] [cursor=pointer]:
+                - /url: /companies/candid-health
+              - link "Software Engineer, Infrastructure (staff level)" [ref=f3e281] [cursor=pointer]:
+                - /url: /companies/candid-health/jobs/STTIqcy-software-engineer-infrastructure-staff-level
+          - generic [ref=f3e282]:
+            - img "Spott" [ref=f3e284]
+            - generic [ref=f3e285]:
+              - link "Spott" [ref=f3e286] [cursor=pointer]:
+                - /url: /companies/spott
+              - link "Software Engineer Backend" [ref=f3e288] [cursor=pointer]:
+                - /url: /companies/spott/jobs/c78083s-software-engineer-backend
+          - generic [ref=f3e289]:
+            - img "Dedalus Labs" [ref=f3e291]
+            - generic [ref=f3e292]:
+              - link "Dedalus Labs" [ref=f3e293] [cursor=pointer]:
+                - /url: /companies/dedalus-labs
+              - link "Systems Engineer" [ref=f3e295] [cursor=pointer]:
+                - /url: /companies/dedalus-labs/jobs/WvZTUDw-systems-engineer
+          - generic [ref=f3e296]:
+            - img "OneChronos" [ref=f3e298]
+            - generic [ref=f3e299]:
+              - link "OneChronos" [ref=f3e300] [cursor=pointer]:
+                - /url: /companies/onechronos
+              - link "Technical Lead" [ref=f3e302] [cursor=pointer]:
+                - /url: /companies/onechronos/jobs/vzDNqOM-technical-lead
+  - contentinfo [ref=f3e303]:
+    - heading "Footer" [level=2] [ref=f3e304]
+    - generic [ref=f3e305]:
+      - generic [ref=f3e306]:
+        - generic [ref=f3e308]:
+          - link "Y Combinator Y Combinator" [ref=f3e309] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f3e310]: Y Combinator
+            - img "Y Combinator" [ref=f3e311]
+          - heading "Make something people want." [level=3] [ref=f3e312]
+        - generic [ref=f3e313]:
+          - generic [ref=f3e314]:
+            - heading "Programs" [level=3] [ref=f3e315]
+            - list [ref=f3e316]:
+              - listitem [ref=f3e317]:
+                - link "YC Program" [ref=f3e318] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f3e319]:
+                - link "Startup School" [ref=f3e320] [cursor=pointer]:
+                  - /url: https://startupschool.org
+              - listitem [ref=f3e321]:
+                - link "Work at a Startup" [ref=f3e322] [cursor=pointer]:
+                  - /url: /jobs
+              - listitem [ref=f3e323]:
+                - link "Co-Founder Matching" [ref=f3e324] [cursor=pointer]:
+                  - /url: /cofounder-matching
+          - generic [ref=f3e325]:
+            - heading "Resources" [level=3] [ref=f3e326]
+            - list [ref=f3e327]:
+              - listitem [ref=f3e328]:
+                - link "Startup Directory" [ref=f3e329] [cursor=pointer]:
+                  - /url: /companies
+              - listitem [ref=f3e330]:
+                - link "Startup Library" [ref=f3e331] [cursor=pointer]:
+                  - /url: /library
+              - listitem [ref=f3e332]:
+                - link "Investors" [ref=f3e333] [cursor=pointer]:
+                  - /url: /investors
+              - listitem [ref=f3e334]:
+                - link "Demo Day" [ref=f3e335] [cursor=pointer]:
+                  - /url: /demoday
+              - listitem [ref=f3e336]:
+                - link "Safe" [ref=f3e337] [cursor=pointer]:
+                  - /url: /documents
+              - listitem [ref=f3e338]:
+                - link "Hacker News" [ref=f3e339] [cursor=pointer]:
+                  - /url: https://news.ycombinator.com/
+              - listitem [ref=f3e340]:
+                - link "Launch YC" [ref=f3e341] [cursor=pointer]:
+                  - /url: /launches
+              - listitem [ref=f3e342]:
+                - link "YC Deals" [ref=f3e343] [cursor=pointer]:
+                  - /url: https://deals.ycombinator.com
+          - generic [ref=f3e344]:
+            - heading "Company" [level=3] [ref=f3e345]
+            - list [ref=f3e346]:
+              - listitem [ref=f3e347]:
+                - link "YC Blog" [ref=f3e348] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=f3e349]:
+                - link "Contact" [ref=f3e350] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=f3e351]:
+                - link "Press" [ref=f3e352] [cursor=pointer]:
+                  - /url: /press
+              - listitem [ref=f3e353]:
+                - link "People" [ref=f3e354] [cursor=pointer]:
+                  - /url: /people
+              - listitem [ref=f3e355]:
+                - link "Careers" [ref=f3e356] [cursor=pointer]:
+                  - /url: /software
+              - listitem [ref=f3e357]:
+                - link "Privacy Policy" [ref=f3e358] [cursor=pointer]:
+                  - /url: /legal#privacy
+              - listitem [ref=f3e359]:
+                - link "Notice at Collection" [ref=f3e360] [cursor=pointer]:
+                  - /url: /legal#notice-at-collection
+              - listitem [ref=f3e361]:
+                - link "Security" [ref=f3e362] [cursor=pointer]:
+                  - /url: /security
+              - listitem [ref=f3e363]:
+                - link "Terms of Use" [ref=f3e364] [cursor=pointer]:
+                  - /url: /legal#tou
+      - generic [ref=f3e365]:
+        - generic [ref=f3e366]:
+          - link "Twitter" [ref=f3e367] [cursor=pointer]:
+            - /url: https://twitter.com/ycombinator
+          - link "Facebook" [ref=f3e371] [cursor=pointer]:
+            - /url: https://www.facebook.com/YCombinator/
+          - link "Instagram" [ref=f3e375] [cursor=pointer]:
+            - /url: https://www.instagram.com/ycombinator
+          - link "LinkedIn" [ref=f3e379] [cursor=pointer]:
+            - /url: https://www.linkedin.com/school/y-combinator/
+          - link "Youtube" [ref=f3e383] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/ycombinator
+        - paragraph [ref=f3e387]: © 2026 Y Combinator

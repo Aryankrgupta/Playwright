@@ -1,0 +1,43 @@
+- generic [active] [ref=f3e1]:
+  - complementary [ref=f3e2]:
+    - button "Close menu" [ref=f3e3] [cursor=pointer]: ×
+    - link "All Items" [ref=f3e4] [cursor=pointer]:
+      - /url: ./inventory.html
+    - link "About" [ref=f3e5] [cursor=pointer]:
+      - /url: https://app.thetestingacademy.com/
+    - link "Logout" [ref=f3e6] [cursor=pointer]:
+      - /url: "#"
+    - link "Reset App State" [ref=f3e7] [cursor=pointer]:
+      - /url: "#"
+  - banner [ref=f3e8]:
+    - button "Open menu" [ref=f3e9] [cursor=pointer]
+    - generic [ref=f3e12]: TTACart
+    - link "Shopping cart" [ref=f3e13] [cursor=pointer]:
+      - /url: ./cart.html
+      - generic [ref=f3e18]: "1"
+  - generic [ref=f3e19]: "Checkout: Your Information"
+  - main [ref=f3e21]:
+    - generic [ref=f3e22]:
+      - generic [ref=f3e24]:
+        - textbox "First Name" [ref=f3e25]
+        - textbox "Last Name" [ref=f3e26]
+        - textbox "Zip/Postal Code" [ref=f3e27]
+      - generic [ref=f3e28]:
+        - link "Cancel" [ref=f3e29] [cursor=pointer]:
+          - /url: ./cart.html
+        - button "Continue" [ref=f3e32] [cursor=pointer]
+  - contentinfo [ref=f3e34]:
+    - generic [ref=f3e35]:
+      - link "Twitter" [ref=f3e36] [cursor=pointer]:
+        - /url: https://twitter.com/TheTestingAcad
+      - link "Facebook" [ref=f3e39] [cursor=pointer]:
+        - /url: https://facebook.com/
+      - link "LinkedIn" [ref=f3e42] [cursor=pointer]:
+        - /url: https://linkedin.com/
+    - generic [ref=f3e45]:
+      - text: (c) 2026 TTACart - The Testing Academy. All Rights Reserved.
+      - link "Terms of Service" [ref=f3e46] [cursor=pointer]:
+        - /url: https://app.thetestingacademy.com/
+      - text: "|"
+      - link "Privacy Policy" [ref=f3e47] [cursor=pointer]:
+        - /url: https://app.thetestingacademy.com/

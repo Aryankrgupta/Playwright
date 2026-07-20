@@ -1,0 +1,38 @@
+- generic [active] [ref=f5e1]:
+  - complementary [ref=f5e2]:
+    - button "Close menu" [ref=f5e3] [cursor=pointer]: ×
+    - link "All Items" [ref=f5e4] [cursor=pointer]:
+      - /url: ./inventory.html
+    - link "About" [ref=f5e5] [cursor=pointer]:
+      - /url: https://app.thetestingacademy.com/
+    - link "Logout" [ref=f5e6] [cursor=pointer]:
+      - /url: "#"
+    - link "Reset App State" [ref=f5e7] [cursor=pointer]:
+      - /url: "#"
+  - banner [ref=f5e8]:
+    - button "Open menu" [ref=f5e9] [cursor=pointer]
+    - generic [ref=f5e12]: TTACart
+    - link "Shopping cart" [ref=f5e13] [cursor=pointer]:
+      - /url: ./cart.html
+  - generic [ref=f5e18]: "Checkout: Complete!"
+  - main [ref=f5e20]:
+    - generic [ref=f5e22]:
+      - heading "Thank you for your order!" [level=2] [ref=f5e26]
+      - paragraph [ref=f5e27]: Your order has been dispatched, and will arrive just as fast as the TTA Express pony can get there!
+      - link "Back Home" [ref=f5e28] [cursor=pointer]:
+        - /url: ./inventory.html
+  - contentinfo [ref=f5e30]:
+    - generic [ref=f5e31]:
+      - link "Twitter" [ref=f5e32] [cursor=pointer]:
+        - /url: https://twitter.com/TheTestingAcad
+      - link "Facebook" [ref=f5e35] [cursor=pointer]:
+        - /url: https://facebook.com/
+      - link "LinkedIn" [ref=f5e38] [cursor=pointer]:
+        - /url: https://linkedin.com/
+    - generic [ref=f5e41]:
+      - text: (c) 2026 TTACart - The Testing Academy. All Rights Reserved.
+      - link "Terms of Service" [ref=f5e42] [cursor=pointer]:
+        - /url: https://app.thetestingacademy.com/
+      - text: "|"
+      - link "Privacy Policy" [ref=f5e43] [cursor=pointer]:
+        - /url: https://app.thetestingacademy.com/

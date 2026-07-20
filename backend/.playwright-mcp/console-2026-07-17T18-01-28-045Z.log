@@ -1,0 +1,12 @@
+[    2781ms] [INFO] [OPTIMIZELY] - INFO 2026-07-17T18:01:30.825Z ProjectConfigManager: Skipping JSON schema validation. @ https://static.files.bbci.co.uk/bbcdotcom/web/20260714-093448-684066af18-web-3.14.0-3/_next/static/chunks/023h3h0opw6ub.js:0
+[    2782ms] [INFO] [OPTIMIZELY] - INFO 2026-07-17T18:01:30.826Z Optimizely: Updated Optimizely config to revision 18 (project id 28346550223) @ https://static.files.bbci.co.uk/bbcdotcom/web/20260714-093448-684066af18-web-3.14.0-3/_next/static/chunks/023h3h0opw6ub.js:0
+[    3325ms] [LOG] Messaging without detection successfully executed. @ https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js:0
+[    3335ms] [LOG] interaction complete @ https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js:0
+[    4241ms] [LOG] setAdunits has been called, will set window.ozAdUnits now @ https://prebid.the-ozone-project.com/hw2/OZONEBBC4784/1500000107/current/adUnits.min.js:0
+[    4242ms] [LOG] window.ozAdUnits has been created. @ https://prebid.the-ozone-project.com/hw2/OZONEBBC4784/1500000107/current/adUnits.min.js:0
+[    4434ms] [WARNING] Permutive was not initialized. No consent to run on the page @ https://cdn.permutive.com/e488cdb0-e7cb-4d91-9648-60d437d8e491-web.js:0
+[    4498ms] [WARNING] [GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.
+https://goo.gle/gpt-message#201 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607140101/pubads_impl.js:18
+[    4699ms] [WARNING] [GPT] PubAdsService.getTargetingKeys is deprecated, use googletag.getConfig('targeting') instead.
+https://goo.gle/gpt-message#200 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607140101/pubads_impl.js:18
+[    8983ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0

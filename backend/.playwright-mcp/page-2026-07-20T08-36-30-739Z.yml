@@ -1,0 +1,378 @@
+- generic [active] [ref=f3e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f3e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f3e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f3e8]:
+    - search [ref=f3e9]:
+      - generic [ref=f3e12]:
+        - link [ref=f3e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQpYkNCAo
+          - img "Go to Google Home" [ref=f3e14]
+        - generic [ref=f3e15]:
+          - combobox "Search" [ref=f3e18]: latest car news latest car news
+          - generic [ref=f3e19]:
+            - button "Clear" [ref=f3e21] [cursor=pointer]
+            - generic [ref=f3e26]:
+              - button "Search by voice" [ref=f3e27] [cursor=pointer]
+              - button "Search by image" [ref=f3e30] [cursor=pointer]
+        - button "Search" [ref=f3e33] [cursor=pointer]
+    - generic [ref=f3e38]:
+      - button "Settings" [ref=f3e40] [cursor=pointer]
+      - button "Share" [ref=f3e46] [cursor=pointer]
+      - generic [ref=f3e52]:
+        - button "Google apps" [ref=f3e54] [cursor=pointer]
+        - link "Sign in" [ref=f3e59] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dlatest%2Bcar%2Bnews%26sca_esv%3D5999353cb99206ac%26source%3Dhp%26ei%3D-d1dauHXNPqZhvcP7b-3mQM%26iflsig%3DABILxe8AAAAAal3sCdUfEhG9eiArk50h4UAkEN3Q_3l1%26ved%3D0ahUKEwihuNfi7OCVAxX6jOEIHe3fLTMQ4dUDCDE%26uact%3D5%26oq%3Dlatest%2Bcar%2Bnews%26gs_lp%3DEgdnd3Mtd2l6Ig9sYXRlc3QgY2FyIG5ld3NIF1AAWABwAHgAkAEAmAEAoAEAqgEAuAEDyAEA-AEBmAIAoAIAmAMAkgcAoAcAsgcAuAcAwgcAyAcAgAgB%26sclient%3Dgws-wiz%26sei%3DCt5darSlIbGghvcPo4jjiQM&ec=futura_srp_og_si_72236_p
+  - generic [ref=f3e61]:
+    - navigation [ref=f3e67]:
+      - generic [ref=f3e73]:
+        - list [ref=f3e74]:
+          - listitem [ref=f3e75]:
+            - link "AI Mode" [ref=f3e78] [cursor=pointer]:
+              - /url: /search?q=latest+car+news&sca_esv=5999353cb99206ac&udm=50&source=hp&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ0Kuh3jfnRqiKzI7KrGsO-a7vPN0oJUPXgT9BPYDfgnNyZgeXjHMCv7f4G7IWNhEcBymWd3y405wiGXyaJgFL02sgiMqc_LWyr5Yarg5nPNY1V75oRROiEDhqSsEo-nVcABq7FRQ0GlBl73sav0gKLPfg--5b4C5QOT9VuwwB8FbrJjtBQ&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQ2J8OegQIDBAD
+          - listitem [ref=f3e82]:
+            - link "All" [disabled] [ref=f3e83]
+          - listitem [ref=f3e86]:
+            - link "News" [ref=f3e87] [cursor=pointer]:
+              - /url: /search?sca_esv=5999353cb99206ac&q=latest+car+news&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ0Kuh3jfnRqiKzI7KrGsO-a7vPN0oJUPXgT9BPYDfgnNyZgeXjHMCv7f4G7IWNhEcBymWd3y405wiGXyaJgFL02sgiMqc_LWyr5Yarg5nPNY1V75oRROiEDhqSsEo-nVcABq7FRQ0GlBl73sav0gKLPfg--5b4C5QOT9VuwwB8FbrJjtBQ&sa=X&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQ0pQJegQIJxAB
+          - listitem [ref=f3e90]:
+            - link "Images" [ref=f3e91] [cursor=pointer]:
+              - /url: /search?sca_esv=5999353cb99206ac&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ0Kuh3jfnRqiKzI7KrGsO-a7vPN0oJUPXgT9BPYDfgnNyZgeXjHMCv7f4G7IWNhEcBymWd3y405wiGXyaJgFL02sgiMqc_LWyr5Yarg5nPNY1V75oRROiEDhqSsEo-nVcABq7FRQ0GlBl73sav0gKLPfg--5b4C5QOT9VuwwB8FbrJjtBQ&q=latest+car+news&sa=X&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQtKgLegQIIxAB
+          - listitem [ref=f3e94]:
+            - link "Videos" [ref=f3e95] [cursor=pointer]:
+              - /url: /search?sca_esv=5999353cb99206ac&udm=7&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ0Kuh3jfnRqiKzI7KrGsO-a7vPN0oJUPXgT9BPYDfgnNyZgeXjHMCv7f4G7IWNhEcBymWd3y405wiGXyaJgFL02sgiMqc_LWyr5Yarg5nPNY1V75oRROiEDhqSsEo-nVcABq7FRQ0GlBl73sav0gKLPfg--5b4C5QOT9VuwwB8FbrJjtBQ&q=latest+car+news&sa=X&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQtKgLegQIJBAB
+          - listitem [ref=f3e98]:
+            - link "Shopping" [ref=f3e99] [cursor=pointer]:
+              - /url: /search?sca_esv=5999353cb99206ac&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ0Kuh3jfnRqiKzI7KrGsO-a7vPN0oJUPXgT9BPYDfgnNyZgeXjHMCv7f4G7IWNhEcBymWd3y405wiGXyaJgFL02sgiMqc_LWyr5Yarg5nPNY1V75oRROiEDhqSsEo-nVcABq7FRQ0GlBl73sav0gKLPfg--5b4C5QOT9VuwwB8FbrJjtBQ&q=latest+car+news&ved=1t:220175&ictx=111
+          - listitem [ref=f3e102]:
+            - link "Short videos" [ref=f3e103] [cursor=pointer]:
+              - /url: /search?sca_esv=5999353cb99206ac&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ0Kuh3jfnRqiKzI7KrGsO-a7vPN0oJUPXgT9BPYDfgnNyZgeXjHMCv7f4G7IWNhEcBymWd3y405wiGXyaJgFL02sgiMqc_LWyr5Yarg5nPNY1V75oRROiEDhqSsEo-nVcABq7FRQ0GlBl73sav0gKLPfg--5b4C5QOT9VuwwB8FbrJjtBQ&q=latest+car+news&sa=X&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQs6gLegQIGxAB
+          - listitem [ref=f3e106]:
+            - button [ref=f3e107] [cursor=pointer]:
+              - generic "More filters" [ref=f3e108]: More
+        - button "Tools" [ref=f3e115] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f3e122]
+    - main [ref=f3e128]:
+      - generic [ref=f3e132]:
+        - generic [ref=f3e135]:
+          - heading "Web results" [level=2] [ref=f3e136]
+          - generic [ref=f3e137]:
+            - generic [ref=f3e140]:
+              - link "RushLane - Latest Cars News, Bikes News, Electric Vehicles ... RushLane https://www.rushlane.com" [ref=f3e142] [cursor=pointer]:
+                - /url: https://www.rushlane.com/
+                - heading "RushLane - Latest Cars News, Bikes News, Electric Vehicles ..." [level=3] [ref=f3e143]
+                - generic [ref=f3e149]:
+                  - generic [ref=f3e150]: RushLane
+                  - generic [ref=f3e152]: https://www.rushlane.com
+              - button "About this result" [ref=f3e156] [cursor=pointer]
+            - generic [ref=f3e162]:
+              - generic [ref=f3e163]:
+                - text: TOP STORIES ·
+                - emphasis [ref=f3e164]: New Tata Avinya Electric SUV Spied Ahead Of Launch In 2027
+                - text: · Toyota Sales Breakup June 2026 – Hyryder, Hycross, Glanza, Crysta, Fortuner, Taisor ...
+              - link "Read more" [ref=f3e165] [cursor=pointer]:
+                - /url: https://www.rushlane.com/#:~:text=Car%20News&text=New%20Tata%20Avinya%20Electric%20SUV,Ahead%20Of%20Launch%20In%202027&text=Toyota%20Sales%20Breakup%20June%202026,Hycross%2C%20Glanza%2C%20Crysta%2C%20Fortuner%2C%20Taisor
+        - generic [ref=f3e169]:
+          - generic [ref=f3e172]:
+            - 'link "Autocar India: Latest Car News & Reviews - Upcoming Bikes ... Autocar India https://www.autocarindia.com" [ref=f3e174] [cursor=pointer]':
+              - /url: https://www.autocarindia.com/
+              - 'heading "Autocar India: Latest Car News & Reviews - Upcoming Bikes ..." [level=3] [ref=f3e175]'
+              - generic [ref=f3e181]:
+                - generic [ref=f3e182]: Autocar India
+                - generic [ref=f3e184]: https://www.autocarindia.com
+            - button "About this result" [ref=f3e188] [cursor=pointer]
+          - generic [ref=f3e194]:
+            - generic [ref=f3e195]:
+              - text: Latest News & Stories ·
+              - emphasis [ref=f3e196]: Hyundai Bayon-based SUV to offer petrol and CNG engine options
+              - text: · Vinfast patents Viper e-scooter and new electric motorcycle in India.
+            - link "Read more" [ref=f3e197] [cursor=pointer]:
+              - /url: https://www.autocarindia.com/#:~:text=Latest%20News%20%26%20Stories&text=Hyundai%20Bayon%2Dbased%20SUV%20to%20offer&text=Vinfast%20patents%20Viper%20e%2Dscooter%20and
+        - generic [ref=f3e198]:
+          - generic [ref=f3e206]:
+            - heading "Automotive News" [level=2] [ref=f3e209]
+            - generic [ref=f3e210]:
+              - generic [ref=f3e211]: Newspaper
+              - button [ref=f3e219] [cursor=pointer]:
+                - img "More options for Automotive News" [ref=f3e220]
+          - group "Featured results" [ref=f3e227]:
+            - generic [ref=f3e235]:
+              - generic [ref=f3e236]: Automotive News is a weekly newspaper established in 1925, written for the automotive industry, predominantly for individuals corresponding with automobile manufacturers and automotive suppliers. It is based in Detroit and owned by Crain Communications Inc. Globally, there are more than 55 editors and reporters.
+              - generic [ref=f3e237]:
+                - link "Wikipedia" [ref=f3e240] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Automotive_News
+                - button "More Description" [ref=f3e243] [cursor=pointer]:
+                  - generic [ref=f3e244]: More
+                  - generic [ref=f3e245]: Description
+          - generic [ref=f3e251]:
+            - generic [ref=f3e254]:
+              - link "Car News, Auto News India CarWale https://www.carwale.com › news" [ref=f3e256] [cursor=pointer]:
+                - /url: https://www.carwale.com/news/
+                - heading "Car News, Auto News India" [level=3] [ref=f3e257]
+                - generic [ref=f3e263]:
+                  - generic [ref=f3e264]: CarWale
+                  - generic [ref=f3e266]: https://www.carwale.com › news
+              - button "About this result" [ref=f3e270] [cursor=pointer]
+            - generic [ref=f3e276]:
+              - generic [ref=f3e277]:
+                - emphasis [ref=f3e278]: Read car news of all models in India
+                - text: . All latest cars have a number of news about its launch, updates, specs, comparisons and more. Read More.
+              - link "Read more" [ref=f3e279] [cursor=pointer]:
+                - /url: https://www.carwale.com/news/#:~:text=Read%20car%20news%20of%20all,Read%20More
+        - generic [ref=f3e280]:
+          - generic [ref=f3e292]:
+            - generic [ref=f3e296]:
+              - generic [ref=f3e297]: Owner
+              - link "Crain Communications" [ref=f3e300] [cursor=pointer]:
+                - /url: /search?sca_esv=5999353cb99206ac&q=Crain+Communications&si=APenkKlisoOXLiCMwraINHtdqOQii4CK9kOlkQc8Apn-pS60yb0WGAkzXYrDpaUg3WdQHspt2Djgt2ZM5PJzmuRY0LvCPzSNo3F3pSNwEJS6EO8bkI6KCjZTFHeX2FY5sItnmLulik7rFg1J6wTdoFeLaCAcB_YuJA1diXnqn6vF6RjLw2wh3reL9YlpZrYgdD3oaQuqov4jqILUuJW9iSddCHSLOdftSw%3D%3D&sa=X&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQmxN6BAgQEAI
+            - generic [ref=f3e304]:
+              - generic [ref=f3e305]: Publisher
+              - link "Crain Communications" [ref=f3e308] [cursor=pointer]:
+                - /url: /search?sca_esv=5999353cb99206ac&q=Crain+Communications&si=APenkKlisoOXLiCMwraINHtdqOQii4CK9kOlkQc8Apn-pS60yb0WGAkzXYrDpaUg3WdQHspt2Djgt2ZM5PJzmuRY0LvCPzSNo3F3pSNwEJS6EO8bkI6KCjZTFHeX2FY5sItnmLulik7rFg1J6wTdoFeLaCAcB_YuJA1diXnqn6vF6RjLw2wh3reL9YlpZrYgdD3oaQuqov4jqILUuJW9iSddCHSLOdftSw%3D%3D&sa=X&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQmxN6BAgTEAI
+          - generic [ref=f3e311]:
+            - generic [ref=f3e314]:
+              - link "Latest Car News in India | Prices | Launch Dates | Scoops Team-BHP https://www.team-bhp.com › news" [ref=f3e316] [cursor=pointer]:
+                - /url: https://www.team-bhp.com/news
+                - heading "Latest Car News in India | Prices | Launch Dates | Scoops" [level=3] [ref=f3e317]
+                - generic [ref=f3e323]:
+                  - generic [ref=f3e324]: Team-BHP
+                  - generic [ref=f3e326]: https://www.team-bhp.com › news
+              - button "About this result" [ref=f3e330] [cursor=pointer]
+            - generic [ref=f3e336]:
+              - generic [ref=f3e337]:
+                - generic [ref=f3e338]: 21 minutes ago
+                - text: —
+              - generic [ref=f3e339]:
+                - emphasis [ref=f3e340]: Trusted reporting on the latest happenings in the Indian Car industry
+                - text: . View ✓ Spy shots ✓ Launch dates ✓ Prices ✓ Pictures ✓ Sales figures ✓ Recalls of ...
+        - generic [ref=f3e344]:
+          - generic [ref=f3e346]:
+            - heading "What people are saying" [level=2] [ref=f3e347]
+            - generic [ref=f3e350]: Trending posts and discussions
+          - generic [ref=f3e361]:
+            - list [ref=f3e363]:
+              - generic [ref=f3e364]:
+                - listitem [ref=f3e365]:
+                  - generic [ref=f3e369]:
+                    - 'link "1:16 Car enthusiasts fear the joy of motoring is being lost, as the traditional gearbox faces near-extinction on the road. Jordan Lamont has more: https://bit.ly/4wTcT1L 1 reaction · 34 minutes ago theaustralian Facebook" [ref=f3e370] [cursor=pointer]':
+                      - /url: https://www.facebook.com/theaustralian/posts/car-enthusiasts-fear-the-joy-of-motoring-is-being-lost-as-the-traditional-gearbo/1470240591807469/
+                      - generic [ref=f3e371]: 1:16
+                      - generic [ref=f3e380]:
+                        - 'heading "Car enthusiasts fear the joy of motoring is being lost, as the traditional gearbox faces near-extinction on the road. Jordan Lamont has more: https://bit.ly/4wTcT1L" [level=3] [ref=f3e382]'
+                        - generic [ref=f3e383]: 1 reaction · 34 minutes ago
+                        - generic [ref=f3e396]:
+                          - generic [ref=f3e397]: theaustralian
+                          - generic [ref=f3e398]: Facebook
+                    - button "About this result" [ref=f3e402] [cursor=pointer]
+                - listitem [ref=f3e407]:
+                  - generic [ref=f3e411]:
+                    - 'link "New Nissan Tekton! Drove it from Chandigarh to Leh across unforgiving terrains for close to 700 km. The variant we drove is powered by the T280 engine and 6-speed Wet DCT. This is a 1.3L Turbo Petrol engine with 163 PS and 280 Nm (segment''s best) Our review will be live soon. Stay tuned! . . . . . #NissanIndia #nissantekton #nissan #tekton #rushlane 1.2K+ likes · 22 hours ago rushlane Instagram" [ref=f3e412] [cursor=pointer]':
+                      - /url: https://www.instagram.com/p/Da-M6k0iRwe/
+                      - generic [ref=f3e416]:
+                        - 'heading "New Nissan Tekton! Drove it from Chandigarh to Leh across unforgiving terrains for close to 700 km. The variant we drove is powered by the T280 engine and 6-speed Wet DCT. This is a 1.3L Turbo Petrol engine with 163 PS and 280 Nm (segment''s best) Our review will be live soon. Stay tuned! . . . . . #NissanIndia #nissantekton #nissan #tekton #rushlane" [level=3] [ref=f3e418]'
+                        - generic [ref=f3e419]: 1.2K+ likes · 22 hours ago
+                        - generic [ref=f3e431]:
+                          - generic [ref=f3e432]: rushlane
+                          - generic [ref=f3e433]: Instagram
+                    - button "About this result" [ref=f3e437] [cursor=pointer]
+                - listitem [ref=f3e442]:
+                  - generic [ref=f3e447]:
+                    - button "Toyota is giving Honda, Nissan, Mazda a CHOICE. Play on Google. 18:38" [ref=f3e452] [cursor=pointer]:
+                      - generic [ref=f3e453]: 18:38
+                    - link "Toyota is giving Honda, Nissan, Mazda a CHOICE 30.1K+ views · 2 days ago Kirk Kreifels YouTube" [ref=f3e464] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=SFrf7dXE4pc
+                      - generic [ref=f3e465]:
+                        - heading "Toyota is giving Honda, Nissan, Mazda a CHOICE" [level=3] [ref=f3e467]
+                        - generic [ref=f3e468]: 30.1K+ views · 2 days ago
+                        - generic [ref=f3e481]:
+                          - generic [ref=f3e482]: Kirk Kreifels
+                          - generic [ref=f3e483]: YouTube
+                    - button "About this result" [ref=f3e487] [cursor=pointer]
+                - listitem [ref=f3e492]:
+                  - generic [ref=f3e497]:
+                    - 'link "Honda has confirmed the Prologue is being discontinued at the end of the 2026 model year — just two years after it arrived in 2024. With 82,448 units sold, it wasn''t a flop, so what really killed it? The full story is a wild read. #Honda #Prologue #SUV #CarNews #AutoNews 40+ likes · 2 days ago carbuzz Instagram" [ref=f3e498] [cursor=pointer]':
+                      - /url: https://www.instagram.com/p/Da6E819ICF9/
+                      - generic [ref=f3e502]:
+                        - 'heading "Honda has confirmed the Prologue is being discontinued at the end of the 2026 model year — just two years after it arrived in 2024. With 82,448 units sold, it wasn''t a flop, so what really killed it? The full story is a wild read. #Honda #Prologue #SUV #CarNews #AutoNews" [level=3] [ref=f3e504]'
+                        - generic [ref=f3e505]: 40+ likes · 2 days ago
+                        - generic [ref=f3e517]:
+                          - generic [ref=f3e518]: carbuzz
+                          - generic [ref=f3e519]: Instagram
+                    - button "About this result" [ref=f3e523] [cursor=pointer]
+                - listitem [ref=f3e528]:
+                  - generic [ref=f3e533]:
+                    - link "0:35 Quick look at the Ferrari Amalfi Spider!👀 What are your thoughts on the new entry-level Ferrari convertible? [ferrari, amalfi spider, car news, sports car, evo India] 210+ likes · 2 days ago evoindia Instagram" [ref=f3e534] [cursor=pointer]:
+                      - /url: https://www.instagram.com/reel/Da5S8c3soya/
+                      - generic [ref=f3e535]: 0:35
+                      - generic [ref=f3e544]:
+                        - heading "Quick look at the Ferrari Amalfi Spider!👀 What are your thoughts on the new entry-level Ferrari convertible? [ferrari, amalfi spider, car news, sports car, evo India]" [level=3] [ref=f3e546]
+                        - generic [ref=f3e547]: 210+ likes · 2 days ago
+                        - generic [ref=f3e560]:
+                          - generic [ref=f3e561]: evoindia
+                          - generic [ref=f3e562]: Instagram
+                    - button "About this result" [ref=f3e566] [cursor=pointer]
+                - listitem [ref=f3e571]:
+                  - generic [ref=f3e576]:
+                    - link "We’ve driven the Denza Z - and it had us gripped 2 days ago Matthew MacConnell Select Car Leasing" [ref=f3e577] [cursor=pointer]:
+                      - /url: https://www.selectcarleasing.co.uk/news/article/denza-z-first-drive-review
+                      - generic [ref=f3e581]:
+                        - heading "We’ve driven the Denza Z - and it had us gripped" [level=3] [ref=f3e583]
+                        - generic [ref=f3e584]: 2 days ago
+                        - generic [ref=f3e593]:
+                          - generic [ref=f3e594]: Matthew MacConnell
+                          - generic [ref=f3e595]: Select Car Leasing
+                    - button "About this result" [ref=f3e599] [cursor=pointer]
+            - button [ref=f3e604] [cursor=pointer]
+        - generic [ref=f3e611]:
+          - heading "Web results" [level=2] [ref=f3e612]
+          - generic [ref=f3e613]:
+            - generic [ref=f3e616]:
+              - link "Car News India - Latest Auto News, Car Launches & Reviews CarDekho https://www.cardekho.com › New Cars" [ref=f3e618] [cursor=pointer]:
+                - /url: https://www.cardekho.com/india-car-news.htm
+                - heading "Car News India - Latest Auto News, Car Launches & Reviews" [level=3] [ref=f3e619]
+                - generic [ref=f3e625]:
+                  - generic [ref=f3e626]: CarDekho
+                  - generic [ref=f3e628]: https://www.cardekho.com › New Cars
+              - button "About this result" [ref=f3e632] [cursor=pointer]
+            - generic [ref=f3e638]:
+              - generic [ref=f3e639]:
+                - generic [ref=f3e640]: 5 hours ago
+                - text: —
+              - generic [ref=f3e641]:
+                - emphasis [ref=f3e642]: Read Latest Auto News from the Indian Automotive Industry
+                - text: ", covering New Car Launches, Events, Reviews, Interviews &amp; more. Volvo EX90 Launch Confirmed In ..."
+        - generic [ref=f3e646]:
+          - generic [ref=f3e649]:
+            - link "CarLelo - New Car Launches, Reviews & Latest Car News in ... CarLelo https://www.carlelo.com" [ref=f3e651] [cursor=pointer]:
+              - /url: https://www.carlelo.com/
+              - heading "CarLelo - New Car Launches, Reviews & Latest Car News in ..." [level=3] [ref=f3e652]
+              - generic [ref=f3e658]:
+                - generic [ref=f3e659]: CarLelo
+                - generic [ref=f3e661]: https://www.carlelo.com
+            - button "About this result" [ref=f3e665] [cursor=pointer]
+          - generic [ref=f3e671]:
+            - generic [ref=f3e672]:
+              - generic [ref=f3e673]: 1 hour ago
+              - text: —
+            - generic [ref=f3e674]:
+              - emphasis [ref=f3e675]: Tata Sierra Launching Soon in India
+              - text: · Skoda Octavia RS iV Expected Price and Launch date - CarLelo · Nissan Tekton Expected Price and Launch date - CarLelo ...
+            - link "Read more" [ref=f3e676] [cursor=pointer]:
+              - /url: https://www.carlelo.com/#:~:text=New%20Cars&text=New%20Cars&text=New%20Cars
+        - generic [ref=f3e680]:
+          - generic [ref=f3e683]:
+            - link "Gaadiwaadi.com - Latest Car & Bike News Gaadiwaadi.com https://gaadiwaadi.com" [ref=f3e685] [cursor=pointer]:
+              - /url: https://gaadiwaadi.com/
+              - heading "Gaadiwaadi.com - Latest Car & Bike News" [level=3] [ref=f3e686]
+              - generic [ref=f3e692]:
+                - generic [ref=f3e693]: Gaadiwaadi.com
+                - generic [ref=f3e695]: https://gaadiwaadi.com
+            - button "About this result" [ref=f3e699] [cursor=pointer]
+          - generic [ref=f3e705]:
+            - generic [ref=f3e706]:
+              - generic [ref=f3e707]: 3 hours ago
+              - text: —
+            - generic [ref=f3e708]:
+              - emphasis [ref=f3e709]: GaadiWaadi.com
+              - text: is India's no.1 source for latest automotive news with boot loads of scoops, reviews and trivia written by motoring experts and enthusiasts.
+        - generic [ref=f3e716]:
+          - link "Indian Auto Blog Indian Auto Blog https://indianautosblog.com" [ref=f3e718] [cursor=pointer]:
+            - /url: https://indianautosblog.com/
+            - heading "Indian Auto Blog" [level=3] [ref=f3e719]
+            - generic [ref=f3e725]:
+              - generic [ref=f3e726]: Indian Auto Blog
+              - generic [ref=f3e728]: https://indianautosblog.com
+          - button "About this result" [ref=f3e732] [cursor=pointer]
+        - generic [ref=f3e740]:
+          - generic [ref=f3e743]:
+            - 'link "New Cars & Bikes: Prices, Reviews, Launches & Comparisons ... HT Auto https://auto.hindustantimes.com" [ref=f3e745] [cursor=pointer]':
+              - /url: https://auto.hindustantimes.com/
+              - 'heading "New Cars & Bikes: Prices, Reviews, Launches & Comparisons ..." [level=3] [ref=f3e746]'
+              - generic [ref=f3e752]:
+                - generic [ref=f3e753]: HT Auto
+                - generic [ref=f3e755]: https://auto.hindustantimes.com
+            - button "About this result" [ref=f3e759] [cursor=pointer]
+          - generic [ref=f3e766]:
+            - text: Find your new car or bike on HT Auto.
+            - emphasis [ref=f3e767]: Explore on-road prices, news
+            - text: ", compare specs, mileage, and variants. Your trusted destination for all new and upcoming ..."
+      - generic [ref=f3e769]:
+        - generic [ref=f3e774]:
+          - heading "People also search for" [level=2] [ref=f3e776]
+          - generic [ref=f3e778]:
+            - generic [ref=f3e779]:
+              - link "Car News India upcoming cars" [ref=f3e783] [cursor=pointer]:
+                - /url: /search?sca_esv=5999353cb99206ac&q=Car+News+India+upcoming+cars&sa=X&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQ1QJ6BAg-EAE
+              - link "Latest Auto News in India Today" [ref=f3e797] [cursor=pointer]:
+                - /url: /search?sca_esv=5999353cb99206ac&q=Latest+Auto+News+in+India+Today&sa=X&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQ1QJ6BAhDEAE
+              - link "All car news" [ref=f3e811] [cursor=pointer]:
+                - /url: /search?sca_esv=5999353cb99206ac&q=All+car+news&sa=X&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQ1QJ6BAhCEAE
+              - link "Car news Tata" [ref=f3e825] [cursor=pointer]:
+                - /url: /search?sca_esv=5999353cb99206ac&q=Car+news+Tata&sa=X&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQ1QJ6BAhBEAE
+            - generic [ref=f3e836]:
+              - link "Top car news" [ref=f3e840] [cursor=pointer]:
+                - /url: /search?sca_esv=5999353cb99206ac&q=Top+car+news&sa=X&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQ1QJ6BAhAEAE
+              - link "Indian latest car news" [ref=f3e854] [cursor=pointer]:
+                - /url: /search?sca_esv=5999353cb99206ac&q=Indian+latest+car+news&sa=X&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQ1QJ6BAg_EAE
+              - link "Car news India price" [ref=f3e868] [cursor=pointer]:
+                - /url: /search?sca_esv=5999353cb99206ac&q=Car+news+India+price&sa=X&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQ1QJ6BAg9EAE
+              - link "International car news" [ref=f3e882] [cursor=pointer]:
+                - /url: /search?sca_esv=5999353cb99206ac&q=International+car+news&sa=X&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQ1QJ6BAg8EAE
+        - navigation [ref=f3e893]:
+          - heading "Page navigation" [level=1] [ref=f3e894]
+          - text: "1"
+          - link "Page 2" [ref=f3e897] [cursor=pointer]:
+            - /url: /search?q=latest+car+news&sca_esv=5999353cb99206ac&ei=Ct5daueSN5qyhvcP7N2OkAM&start=10&sa=N&sstk=AU9db-BZLTYCdU1Z_SWsgo3mi5AOs8mGkDhy7MSrP8pUsGy3BxIVVj7U4F2uoh9Pg9m5xlz5p3717nwj2MHWYxsWKWRzZupVHSJ3Xw&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQ8tMDegQIOhAE
+            - text: "2"
+          - link "Page 3" [ref=f3e899] [cursor=pointer]:
+            - /url: /search?q=latest+car+news&sca_esv=5999353cb99206ac&ei=Ct5daueSN5qyhvcP7N2OkAM&start=20&sa=N&sstk=AU9db-BZLTYCdU1Z_SWsgo3mi5AOs8mGkDhy7MSrP8pUsGy3BxIVVj7U4F2uoh9Pg9m5xlz5p3717nwj2MHWYxsWKWRzZupVHSJ3Xw&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQ8tMDegQIOhAG
+            - text: "3"
+          - link "Page 4" [ref=f3e901] [cursor=pointer]:
+            - /url: /search?q=latest+car+news&sca_esv=5999353cb99206ac&ei=Ct5daueSN5qyhvcP7N2OkAM&start=30&sa=N&sstk=AU9db-BZLTYCdU1Z_SWsgo3mi5AOs8mGkDhy7MSrP8pUsGy3BxIVVj7U4F2uoh9Pg9m5xlz5p3717nwj2MHWYxsWKWRzZupVHSJ3Xw&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQ8tMDegQIOhAI
+            - text: "4"
+          - link "Page 5" [ref=f3e903] [cursor=pointer]:
+            - /url: /search?q=latest+car+news&sca_esv=5999353cb99206ac&ei=Ct5daueSN5qyhvcP7N2OkAM&start=40&sa=N&sstk=AU9db-BZLTYCdU1Z_SWsgo3mi5AOs8mGkDhy7MSrP8pUsGy3BxIVVj7U4F2uoh9Pg9m5xlz5p3717nwj2MHWYxsWKWRzZupVHSJ3Xw&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQ8tMDegQIOhAK
+            - text: "5"
+          - link "Page 6" [ref=f3e905] [cursor=pointer]:
+            - /url: /search?q=latest+car+news&sca_esv=5999353cb99206ac&ei=Ct5daueSN5qyhvcP7N2OkAM&start=50&sa=N&sstk=AU9db-BZLTYCdU1Z_SWsgo3mi5AOs8mGkDhy7MSrP8pUsGy3BxIVVj7U4F2uoh9Pg9m5xlz5p3717nwj2MHWYxsWKWRzZupVHSJ3Xw&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQ8tMDegQIOhAM
+            - text: "6"
+          - link "Page 7" [ref=f3e907] [cursor=pointer]:
+            - /url: /search?q=latest+car+news&sca_esv=5999353cb99206ac&ei=Ct5daueSN5qyhvcP7N2OkAM&start=60&sa=N&sstk=AU9db-BZLTYCdU1Z_SWsgo3mi5AOs8mGkDhy7MSrP8pUsGy3BxIVVj7U4F2uoh9Pg9m5xlz5p3717nwj2MHWYxsWKWRzZupVHSJ3Xw&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQ8tMDegQIOhAO
+            - text: "7"
+          - link "Page 8" [ref=f3e909] [cursor=pointer]:
+            - /url: /search?q=latest+car+news&sca_esv=5999353cb99206ac&ei=Ct5daueSN5qyhvcP7N2OkAM&start=70&sa=N&sstk=AU9db-BZLTYCdU1Z_SWsgo3mi5AOs8mGkDhy7MSrP8pUsGy3BxIVVj7U4F2uoh9Pg9m5xlz5p3717nwj2MHWYxsWKWRzZupVHSJ3Xw&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQ8tMDegQIOhAQ
+            - text: "8"
+          - link "Page 9" [ref=f3e911] [cursor=pointer]:
+            - /url: /search?q=latest+car+news&sca_esv=5999353cb99206ac&ei=Ct5daueSN5qyhvcP7N2OkAM&start=80&sa=N&sstk=AU9db-BZLTYCdU1Z_SWsgo3mi5AOs8mGkDhy7MSrP8pUsGy3BxIVVj7U4F2uoh9Pg9m5xlz5p3717nwj2MHWYxsWKWRzZupVHSJ3Xw&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQ8tMDegQIOhAS
+            - text: "9"
+          - link "Page 10" [ref=f3e913] [cursor=pointer]:
+            - /url: /search?q=latest+car+news&sca_esv=5999353cb99206ac&ei=Ct5daueSN5qyhvcP7N2OkAM&start=90&sa=N&sstk=AU9db-BZLTYCdU1Z_SWsgo3mi5AOs8mGkDhy7MSrP8pUsGy3BxIVVj7U4F2uoh9Pg9m5xlz5p3717nwj2MHWYxsWKWRzZupVHSJ3Xw&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQ8tMDegQIOhAU
+            - text: "10"
+          - heading [level=2] [ref=f3e915]:
+            - link "Next" [ref=f3e916] [cursor=pointer]:
+              - /url: /search?q=latest+car+news&sca_esv=5999353cb99206ac&ei=Ct5daueSN5qyhvcP7N2OkAM&start=10&sa=N&sstk=AU9db-BZLTYCdU1Z_SWsgo3mi5AOs8mGkDhy7MSrP8pUsGy3BxIVVj7U4F2uoh9Pg9m5xlz5p3717nwj2MHWYxsWKWRzZupVHSJ3Xw&ved=2ahUKEwjnv-fq7OCVAxUameEIHeyuAzIQ8NMDegQIOhAW
+      - navigation
+    - contentinfo [ref=f3e921]:
+      - heading "Footer links" [level=1] [ref=f3e922]
+      - generic [ref=f3e926]:
+        - generic [ref=f3e928]:
+          - text: India
+          - generic [ref=f3e930]:
+            - button "Patna, Bihar - From your IP address" [ref=f3e932] [cursor=pointer]:
+              - generic [ref=f3e933]: Patna, Bihar
+              - generic [ref=f3e935]:
+                - text: "-"
+                - generic [ref=f3e936]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=f3e938] [cursor=pointer]
+        - generic [ref=f3e941]:
+          - link "Help" [ref=f3e942] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=f3e943] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f3e944] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f3e945] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

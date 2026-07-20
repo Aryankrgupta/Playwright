@@ -1,0 +1,269 @@
+- generic [active] [ref=f2e1]:
+  - banner [ref=f2e2]:
+    - generic [ref=f2e3]:
+      - link "Google News" [ref=f2e7] [cursor=pointer]:
+        - /url: ./?hl=en-IN&gl=IN&ceid=IN%3Aen
+        - generic [ref=f2e9]: News
+      - generic [ref=f2e10]:
+        - search [ref=f2e12]:
+          - combobox "Search for topics, locations & sources" [ref=f2e19]
+          - button "Advanced search" [ref=f2e20] [cursor=pointer]:
+            - generic [ref=f2e21]:
+              - generic "Advanced search" [ref=f2e22]
+              - tooltip [ref=f2e25]: Advanced search
+          - button "Search" [ref=f2e26] [cursor=pointer]
+        - generic [ref=f2e30]:
+          - generic [ref=f2e35]:
+            - button "Help" [ref=f2e36] [cursor=pointer]
+            - tooltip [ref=f2e40]: Help
+          - generic [ref=f2e45]:
+            - button "Settings" [ref=f2e46] [cursor=pointer]
+            - tooltip [ref=f2e51]: Settings
+      - generic [ref=f2e53]:
+        - button "Google apps" [ref=f2e57] [cursor=pointer]
+        - link "Sign in" [ref=f2e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://news.google.com/home?hl%3Den-IN%26gl%3DIN%26ceid%3DIN:en&followup=https://news.google.com/home?hl%3Den-IN%26gl%3DIN%26ceid%3DIN:en&hl=en-IN&ec=GAZAqgM
+    - navigation [ref=f2e64]:
+      - tablist [ref=f2e65]:
+        - tab [selected] [ref=f2e66] [cursor=pointer]:
+          - tab "Home" [selected] [ref=f2e67]
+        - tab [ref=f2e68] [cursor=pointer]:
+          - tab "For you" [ref=f2e69]
+        - tab [ref=f2e70] [cursor=pointer]:
+          - tab "Following" [ref=f2e71]
+        - tab [ref=f2e72] [cursor=pointer]:
+          - tab "News Showcase" [ref=f2e73]
+        - tab [ref=f2e76] [cursor=pointer]:
+          - tab "India" [ref=f2e77]
+        - tab [ref=f2e78] [cursor=pointer]:
+          - tab "World" [ref=f2e79]
+        - tab [ref=f2e80] [cursor=pointer]:
+          - tab "Local" [ref=f2e81]
+        - tab [ref=f2e82] [cursor=pointer]:
+          - tab "Business" [ref=f2e83]
+        - tab [ref=f2e84] [cursor=pointer]:
+          - tab "Technology" [ref=f2e85]
+      - generic [ref=f2e89]:
+        - button "More" [ref=f2e90] [cursor=pointer]
+        - tooltip [ref=f2e94]: More
+  - main [ref=f2e99]:
+    - generic [ref=f2e102]:
+      - generic [ref=f2e103]:
+        - generic [ref=f2e104]:
+          - heading "Your briefing" [level=1] [ref=f2e105]
+          - paragraph [ref=f2e106]: Saturday, 18 July
+        - generic [ref=f2e109]:
+          - generic [ref=f2e110]:
+            - generic [ref=f2e111]:
+              - generic [ref=f2e112]: Today
+              - generic [ref=f2e114]:
+                - generic [ref=f2e115]: 28°
+                - generic [ref=f2e116]: 26°
+            - generic [ref=f2e117]:
+              - generic [ref=f2e118]: Sun
+              - generic [ref=f2e120]:
+                - generic [ref=f2e121]: 31°
+                - generic [ref=f2e122]: 26°
+            - generic [ref=f2e123]:
+              - generic [ref=f2e124]: Mon
+              - generic [ref=f2e126]:
+                - generic [ref=f2e127]: 31°
+                - generic [ref=f2e128]: 26°
+            - generic [ref=f2e129]:
+              - generic [ref=f2e130]: Tue
+              - generic [ref=f2e132]:
+                - generic [ref=f2e133]: 29°
+                - generic [ref=f2e134]: 25°
+          - generic [ref=f2e135]:
+            - button "Expand to view forecast" [ref=f2e136] [cursor=pointer]
+            - generic "Your local weather, 26°C, rain" [ref=f2e139]:
+              - img "rain" [ref=f2e140]
+              - generic [ref=f2e154]:
+                - generic [ref=f2e155]:
+                  - generic [ref=f2e156]: Your local weather
+                  - button "Use precise location" [ref=f2e157] [cursor=pointer]
+                - generic [ref=f2e160]: 26°C
+                - link "Google Weather" [ref=f2e161] [cursor=pointer]:
+                  - /url: https://support.google.com/websearch/answer/13687874
+      - generic [ref=f2e163]:
+        - heading [level=3] [ref=f2e166]:
+          - link "Top stories" [ref=f2e167] [cursor=pointer]:
+            - /url: ./topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRFZxYUdjU0JXVnVMVWRDR2dKSlRpZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+        - generic [ref=f2e173]:
+          - link "Sonam Wangchuk forcibly taken from Jantar Mantar protest site" [ref=f2e175] [cursor=pointer]:
+            - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o2bXFyR0VSR1hXNks3clhvRTV5Z0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - text: Sonam Wangchuk forcibly taken from Jantar Mantar protest site chevron_right
+          - generic [ref=f2e176]:
+            - generic [ref=f2e177]:
+              - link [ref=f2e179] [cursor=pointer]:
+                - /url: ./read/CBMi9wFBVV95cUxOR3hLS1pHN1ZvQW1KTDZnaG1KUDlpR3ctdnBwdHBxb1lwRWFIN2doSFpXOFgzVVNicmhPMWdwcXh5TXE1R2N3OUxmVVpWRmpBS21zVkZHOEVESTZzOFpVeW8yRl9iSUwxR0gzZmo3VFIxbE90Rnc0M0ZLd2RwWWtYOGR4eDRqdXRuUlMxenR2WnhGQTBUY3hUR2NLRm9mNnlLdjlGU0V6bVZEZHZmN0JPdW41dlRhZTJKY1Q3U2VqMmZiZ3dVemxadWloU3hHTWo4WTdyMDYzNmRaa1c4Z1NQRlQ4bUhtNXlyWE5Id1phbldpRm9uTUYw?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - figure [ref=f2e180]
+              - generic [ref=f2e181]:
+                - generic [ref=f2e182]: The Hindu
+                - generic [ref=f2e188]:
+                  - generic:
+                    - 'button "More - Sonam Wangchuk hunger strike LIVE: CJP''s Dipke says Delhi Police planning overnight ''crackdown'' on Jantar Mantar protest, calls for night vigil" [ref=f2e189] [cursor=pointer]'
+                    - tooltip [ref=f2e193]: More
+              - 'link "Sonam Wangchuk hunger strike LIVE: CJP''s Dipke says Delhi Police planning overnight ''crackdown'' on Jantar Mantar protest, calls for night vigil - The Hindu - 2 hours ago" [ref=f2e194] [cursor=pointer]':
+                - /url: ./read/CBMi9wFBVV95cUxOR3hLS1pHN1ZvQW1KTDZnaG1KUDlpR3ctdnBwdHBxb1lwRWFIN2doSFpXOFgzVVNicmhPMWdwcXh5TXE1R2N3OUxmVVpWRmpBS21zVkZHOEVESTZzOFpVeW8yRl9iSUwxR0gzZmo3VFIxbE90Rnc0M0ZLd2RwWWtYOGR4eDRqdXRuUlMxenR2WnhGQTBUY3hUR2NLRm9mNnlLdjlGU0V6bVZEZHZmN0JPdW41dlRhZTJKY1Q3U2VqMmZiZ3dVemxadWloU3hHTWo4WTdyMDYzNmRaa1c4Z1NQRlQ4bUhtNXlyWE5Id1phbldpRm9uTUYw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "Sonam Wangchuk hunger strike LIVE: CJP's Dipke says Delhi Police planning overnight 'crackdown' on Jantar Mantar protest, calls for night vigil"
+              - time [ref=f2e196]: 2 hours ago
+            - generic [ref=f2e197]:
+              - generic [ref=f2e198]:
+                - link [ref=f2e200] [cursor=pointer]:
+                  - /url: ./read/CBMi7gFBVV95cUxNTThyVmRkN2dqT2dOaG1meXNRckViR2QtZWItX3N0ZG9jV1NwaUt3d1ViaHJPOWhNc2FEdnhtTGk0VUdsTVpGSDBLNml4ejFNOGd5bzZYTXd0OFVEaUczSmktQk5XZngza2FMYVpteGZGVkFjZlk4NzJEcmZIN1Z2MGNzaVcwZm0xMXFYTmhDQjVPVFBsRUd3Uklnbmp6ZE83X082TERsRW1DeVFyaGNKMVE4eFd1MFNlalIxN2JpaHZQMXpLUnI4Wmd0SVgwb09HbWhZbHFZa001Ym1SeEJnNU42QUI3Zk1oVTdOTF9n?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f2e201]:
+                  - generic [ref=f2e202]: The Times of India
+                  - generic [ref=f2e208]:
+                    - generic:
+                      - 'button "More - ''Happened so fast that ... '': Protestors recount how police took away Sonam Wangchuk in 5 minutes" [ref=f2e209] [cursor=pointer]'
+                      - tooltip [ref=f2e213]: More
+                - 'link "''Happened so fast that ... '': Protestors recount how police took away Sonam Wangchuk in 5 minutes - The Times of India - 2 hours ago" [ref=f2e214] [cursor=pointer]':
+                  - /url: ./read/CBMi7gFBVV95cUxNTThyVmRkN2dqT2dOaG1meXNRckViR2QtZWItX3N0ZG9jV1NwaUt3d1ViaHJPOWhNc2FEdnhtTGk0VUdsTVpGSDBLNml4ejFNOGd5bzZYTXd0OFVEaUczSmktQk5XZngza2FMYVpteGZGVkFjZlk4NzJEcmZIN1Z2MGNzaVcwZm0xMXFYTmhDQjVPVFBsRUd3Uklnbmp6ZE83X082TERsRW1DeVFyaGNKMVE4eFd1MFNlalIxN2JpaHZQMXpLUnI4Wmd0SVgwb09HbWhZbHFZa001Ym1SeEJnNU42QUI3Zk1oVTdOTF9n?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: "'Happened so fast that ... ': Protestors recount how police took away Sonam Wangchuk in 5 minutes"
+                - time [ref=f2e216]: 2 hours ago
+              - generic [ref=f2e217]:
+                - link [ref=f2e219] [cursor=pointer]:
+                  - /url: ./read/CBMi4wFBVV95cUxQbDltN0pQdzhJRzVXQm9pYnljVGJ4OTBfOUlRcGlCNzFRaWVNSWZxd05YZ0NZQ0otTlFjQzNZbE5qMjhlQTJOakVzWk51X09XN3ZrYmJJMTRGcmltOXFNaE0zZldYLXhPSVNZZWVvUjZVemZxdFUwdDg0OW1UWkNfRUdNVEdLcHh2WlVwXzBPVTVhLWloRkFVNE0zUjdFRUVXU1p0WEM4MHlUeFZDenJSQ3pQdFpMbE15WmdLSHczMHVyeXVsVUs1RkFQWGM4ZDZ6cXR3WkQycmplWDlhdTA5WExaQdIB6gFBVV95cUxNY1dXSlFyejdkZk9ON0JIZzFGalZVLWVzdGxTLTNKU0IxZXRTSGJqRW9WanlYQTl2cUVFVEZPVWFJeVkxc1R3OGdqYlZIS2RWSU1nVUt6cE0yamNibEtnOWhqSk5Oc2xGYWVZUlBpN0RpNXgwdEZpb0NMMGxaWUJnOWNyRFpLRHpuRDRyMER4N1REa3lXVGh6Yms4NGdwUjFDc3J5bFpfckNBWm1WNGpZcVRzajNYUlI5S2xzSzI3dm1uOWstaEhZY0VpUGx5aFlSSlBSNzJRM1c2Ykhlem9hN0lYWDVPMndOSWc?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f2e220]:
+                  - generic [ref=f2e221]: The Hindu
+                  - generic [ref=f2e227]:
+                    - generic:
+                      - 'button "More - ‘Govt. should not test his limits’: Anna Hazare urges Centre to hold talks with Sonam Wangchuk" [ref=f2e228] [cursor=pointer]'
+                      - tooltip [ref=f2e232]: More
+                - 'link "‘Govt. should not test his limits’: Anna Hazare urges Centre to hold talks with Sonam Wangchuk - The Hindu - 2 hours ago" [ref=f2e233] [cursor=pointer]':
+                  - /url: ./read/CBMi4wFBVV95cUxQbDltN0pQdzhJRzVXQm9pYnljVGJ4OTBfOUlRcGlCNzFRaWVNSWZxd05YZ0NZQ0otTlFjQzNZbE5qMjhlQTJOakVzWk51X09XN3ZrYmJJMTRGcmltOXFNaE0zZldYLXhPSVNZZWVvUjZVemZxdFUwdDg0OW1UWkNfRUdNVEdLcHh2WlVwXzBPVTVhLWloRkFVNE0zUjdFRUVXU1p0WEM4MHlUeFZDenJSQ3pQdFpMbE15WmdLSHczMHVyeXVsVUs1RkFQWGM4ZDZ6cXR3WkQycmplWDlhdTA5WExaQdIB6gFBVV95cUxNY1dXSlFyejdkZk9ON0JIZzFGalZVLWVzdGxTLTNKU0IxZXRTSGJqRW9WanlYQTl2cUVFVEZPVWFJeVkxc1R3OGdqYlZIS2RWSU1nVUt6cE0yamNibEtnOWhqSk5Oc2xGYWVZUlBpN0RpNXgwdEZpb0NMMGxaWUJnOWNyRFpLRHpuRDRyMER4N1REa3lXVGh6Yms4NGdwUjFDc3J5bFpfckNBWm1WNGpZcVRzajNYUlI5S2xzSzI3dm1uOWstaEhZY0VpUGx5aFlSSlBSNzJRM1c2Ykhlem9hN0lYWDVPMndOSWc?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: "‘Govt. should not test his limits’: Anna Hazare urges Centre to hold talks with Sonam Wangchuk"
+                - time [ref=f2e235]: 2 hours ago
+              - generic [ref=f2e236]:
+                - link [ref=f2e238] [cursor=pointer]:
+                  - /url: ./read/CBMiwgFBVV95cUxOVjJQYVV6WFJaMUducXhMc1BBTWdjU2puMkQ4SHNEZGs3SkVWQmhTQ09PY0duWDJhcWZrR2JCaUN0XzVjZjRuVEFwQnpmV2Ntd0hFSHZVbXhUOTV4U1NHNGlERFRBYUotaERVcnowMktJVEo2ZnB2aE9jNEFtU092MlJmWVZSTjZOTmtPaTlvTlpUZ3p4XzlsX2J3NkhQSGd5T21qcTVabFF4Vms2Q1pwWHlwLVlya0RnRVQySjRhQ1dLdw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f2e239]:
+                  - generic [ref=f2e240]: Deccan Herald
+                  - generic [ref=f2e246]:
+                    - generic:
+                      - button "More - Sonam Wangchuk's removal from Jantar Mantar a challenge and an opportunity for CJP" [ref=f2e247] [cursor=pointer]
+                      - tooltip [ref=f2e251]: More
+                - link "Sonam Wangchuk's removal from Jantar Mantar a challenge and an opportunity for CJP - Deccan Herald - 3 hours ago - By Shemin Joy" [ref=f2e252] [cursor=pointer]:
+                  - /url: ./read/CBMiwgFBVV95cUxOVjJQYVV6WFJaMUducXhMc1BBTWdjU2puMkQ4SHNEZGs3SkVWQmhTQ09PY0duWDJhcWZrR2JCaUN0XzVjZjRuVEFwQnpmV2Ntd0hFSHZVbXhUOTV4U1NHNGlERFRBYUotaERVcnowMktJVEo2ZnB2aE9jNEFtU092MlJmWVZSTjZOTmtPaTlvTlpUZ3p4XzlsX2J3NkhQSGd5T21qcTVabFF4Vms2Q1pwWHlwLVlya0RnRVQySjRhQ1dLdw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: Sonam Wangchuk's removal from Jantar Mantar a challenge and an opportunity for CJP
+                - generic [ref=f2e253]:
+                  - time [ref=f2e254]: 3 hours ago
+                  - separator [ref=f2e255]
+                  - generic [ref=f2e256]: By Shemin Joy
+          - link "See more headlines and perspectives - Sonam Wangchuk forcibly taken from Jantar Mantar protest site" [ref=f2e259] [cursor=pointer]:
+            - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o2bXFyR0VSR1hXNks3clhvRTV5Z0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f2e262]: See more headlines and perspectives
+        - generic [ref=f2e266]:
+          - link "Skyroot Aerospace launches Vikram-1 rocket into orbit" [ref=f2e268] [cursor=pointer]:
+            - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pzbUp2TUVSRlowREF5N0trZTVTZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - text: Skyroot Aerospace launches Vikram-1 rocket into orbit chevron_right
+          - generic [ref=f2e269]:
+            - generic [ref=f2e270]:
+              - link [ref=f2e272] [cursor=pointer]:
+                - /url: ./read/CBMitwFBVV95cUxPeVFXT1pFVGRJVWU4WEZ6NU9tMXJyemdndWhPUTJiQjBLeUZxYnNFeDl2dUd5aXZXbmV5ci1XUVhBUDZiNUNTUE9BXzJrTUZIdkg4YmdaRlhUVFkyUUMzX0lYZnNGSHBueE8yMDdJaG5nM2J2cWZYY2VDSEJlZV9NMUVJQlQ0RmF6aFdnRU1sUU5DMzRwS3lSckw3dS1idjkydmY5cEdUNTF5dGdLTjBjMkVzOEthcW_SAbwBQVVfeXFMTm1aRGJsWG1kNXZWUGVjMkI2RmFueG1veDRmNEhPdFR3dURBNmtfcmNIc2NOSmpGQU01MXhBLW41Mi1SZWZkYWZ1VFZfR1ZoUm84Y3NjYUVPUkljV25IanZCanY5NlZhekdXenlZS3BIMUMzTmtGUkRteTNJejhUU05LQlBDMHBWOEdkenVld1NnOXltb1YtaVpoV2FCTnRxeHczU090VmlWWTE1ZXhGZnVyQWxuME15UzJEQW0?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - figure [ref=f2e273]
+              - generic [ref=f2e274]:
+                - generic [ref=f2e275]: Al Jazeera
+                - generic [ref=f2e281]:
+                  - generic:
+                    - button "More - India achieves milestone with launch of first private-sector orbital rocket" [ref=f2e282] [cursor=pointer]
+                    - tooltip [ref=f2e286]: More
+              - link "India achieves milestone with launch of first private-sector orbital rocket - Al Jazeera - 4 hours ago" [ref=f2e287] [cursor=pointer]:
+                - /url: ./read/CBMitwFBVV95cUxPeVFXT1pFVGRJVWU4WEZ6NU9tMXJyemdndWhPUTJiQjBLeUZxYnNFeDl2dUd5aXZXbmV5ci1XUVhBUDZiNUNTUE9BXzJrTUZIdkg4YmdaRlhUVFkyUUMzX0lYZnNGSHBueE8yMDdJaG5nM2J2cWZYY2VDSEJlZV9NMUVJQlQ0RmF6aFdnRU1sUU5DMzRwS3lSckw3dS1idjkydmY5cEdUNTF5dGdLTjBjMkVzOEthcW_SAbwBQVVfeXFMTm1aRGJsWG1kNXZWUGVjMkI2RmFueG1veDRmNEhPdFR3dURBNmtfcmNIc2NOSmpGQU01MXhBLW41Mi1SZWZkYWZ1VFZfR1ZoUm84Y3NjYUVPUkljV25IanZCanY5NlZhekdXenlZS3BIMUMzTmtGUkRteTNJejhUU05LQlBDMHBWOEdkenVld1NnOXltb1YtaVpoV2FCTnRxeHczU090VmlWWTE1ZXhGZnVyQWxuME15UzJEQW0?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: India achieves milestone with launch of first private-sector orbital rocket
+              - time [ref=f2e289]: 4 hours ago
+            - generic [ref=f2e290]:
+              - generic [ref=f2e291]:
+                - link [ref=f2e293] [cursor=pointer]:
+                  - /url: ./read/CBMi1wFBVV95cUxNZkVjY212dmhCZURqY2ZSdklpN3lfdVpWQ00yWkRseDBLM3VuYURyZWhRVlI0UlNjMnhob3dlU3JQNzIzc040UWNQTi1ocEJfTDNRM3VoQWhXVjlhTmZkc2Y1NE5SaTJYNGd3M21pdVJKZ2hUdzl0VFlPMEZROUs5dWh3eTQxQ0F5bU53bmtiVE1abzlXSGRzYVdicWxsYzhrcjFqUDFkTjJTQVd4RUtEY2U0MUdLYUhkbnJnOXZlV2JqU2l1Q0s0bjQxU0JuLUNMNjRDUDRyWQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f2e294]:
+                  - generic [ref=f2e295]: NDTV
+                  - generic [ref=f2e301]:
+                    - generic:
+                      - button "More - 2 July 18s, 46 Years Apart, And Abdul Kalam Connections To Vikram-1 Launch" [ref=f2e302] [cursor=pointer]
+                      - tooltip [ref=f2e306]: More
+                - link "2 July 18s, 46 Years Apart, And Abdul Kalam Connections To Vikram-1 Launch - NDTV - 1 hour ago - By Pallav Bagla and Rohit Paul" [ref=f2e307] [cursor=pointer]:
+                  - /url: ./read/CBMi1wFBVV95cUxNZkVjY212dmhCZURqY2ZSdklpN3lfdVpWQ00yWkRseDBLM3VuYURyZWhRVlI0UlNjMnhob3dlU3JQNzIzc040UWNQTi1ocEJfTDNRM3VoQWhXVjlhTmZkc2Y1NE5SaTJYNGd3M21pdVJKZ2hUdzl0VFlPMEZROUs5dWh3eTQxQ0F5bU53bmtiVE1abzlXSGRzYVdicWxsYzhrcjFqUDFkTjJTQVd4RUtEY2U0MUdLYUhkbnJnOXZlV2JqU2l1Q0s0bjQxU0JuLUNMNjRDUDRyWQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: 2 July 18s, 46 Years Apart, And Abdul Kalam Connections To Vikram-1 Launch
+                - generic [ref=f2e308]:
+                  - time [ref=f2e309]: 1 hour ago
+                  - separator [ref=f2e310]
+                  - generic [ref=f2e311]: By Pallav Bagla and Rohit Paul
+              - generic [ref=f2e312]:
+                - link [ref=f2e314] [cursor=pointer]:
+                  - /url: ./read/CBMiwgFBVV95cUxPbEJzWVFLMzZISFU1SU9OaEZvTkp6cVFfbnhWcmJDZ2F6czc1UUxPMVk2Ym9KUzNxeGE1c3dvYW8zVmMzT1ZieFpjX3owOEV2UUFqbGtBbjMxMGx4bjhERk81bHZ3eUhkRVFoV1J5cmhrWk93ZFJKRkQ3SEwxVFg3dWxXV0t4aURVdGZDRmhITGJISzdsLUhIMFQ3WW9rTGduS3hiWTNzeWtzTTV3T0FHZWVBOVE0a3puVS16RmJFak96UQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f2e315]:
+                  - generic [ref=f2e316]: The Times of India
+                  - generic [ref=f2e322]:
+                    - generic:
+                      - button "More - How Skyroot gave India a private rocket to reach orbit" [ref=f2e323] [cursor=pointer]
+                      - tooltip [ref=f2e327]: More
+                - link "How Skyroot gave India a private rocket to reach orbit - The Times of India - 2 hours ago - By Chethan Kumar" [ref=f2e328] [cursor=pointer]:
+                  - /url: ./read/CBMiwgFBVV95cUxPbEJzWVFLMzZISFU1SU9OaEZvTkp6cVFfbnhWcmJDZ2F6czc1UUxPMVk2Ym9KUzNxeGE1c3dvYW8zVmMzT1ZieFpjX3owOEV2UUFqbGtBbjMxMGx4bjhERk81bHZ3eUhkRVFoV1J5cmhrWk93ZFJKRkQ3SEwxVFg3dWxXV0t4aURVdGZDRmhITGJISzdsLUhIMFQ3WW9rTGduS3hiWTNzeWtzTTV3T0FHZWVBOVE0a3puVS16RmJFak96UQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: How Skyroot gave India a private rocket to reach orbit
+                - generic [ref=f2e329]:
+                  - time [ref=f2e330]: 2 hours ago
+                  - separator [ref=f2e331]
+                  - generic [ref=f2e332]: By Chethan Kumar
+              - generic [ref=f2e333]:
+                - link [ref=f2e335] [cursor=pointer]:
+                  - /url: ./read/CBMizwFBVV95cUxPb2o5S3V0ODFKYkVza193TVp5LW5nVjZDbDhsUUVONVBQdE4xQThpR0RlVHRlZW8ySjRTQVA0bzB5a1h0YjdnTTNXQUY3dDAxNlF4REpSb1hzTG9zMUptVllNQUdPck1NTmVSM2dSbktpaXpMOHRmSWdfTnBXbTRESkNiX0RjY3laeTB6WE9aOVd6TS1QaEppa1FUTmFMNlhmY2RQTndJUGhLZW96UWRXVkpCRmxuVVdQX2E2SWFxSHllZll4Nlp1SVA1VjJqY00?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f2e336]:
+                  - generic [ref=f2e337]: The Economic Times
+                  - generic [ref=f2e343]:
+                    - generic:
+                      - button "More - Skyroot crashes an elite party with Vikram-1. Next comes a big prize" [ref=f2e344] [cursor=pointer]
+                      - tooltip [ref=f2e348]: More
+                - link "Skyroot crashes an elite party with Vikram-1. Next comes a big prize - The Economic Times - 6 hours ago" [ref=f2e349] [cursor=pointer]:
+                  - /url: ./read/CBMizwFBVV95cUxPb2o5S3V0ODFKYkVza193TVp5LW5nVjZDbDhsUUVONVBQdE4xQThpR0RlVHRlZW8ySjRTQVA0bzB5a1h0YjdnTTNXQUY3dDAxNlF4REpSb1hzTG9zMUptVllNQUdPck1NTmVSM2dSbktpaXpMOHRmSWdfTnBXbTRESkNiX0RjY3laeTB6WE9aOVd6TS1QaEppa1FUTmFMNlhmY2RQTndJUGhLZW96UWRXVkpCRmxuVVdQX2E2SWFxSHllZll4Nlp1SVA1VjJqY00?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: Skyroot crashes an elite party with Vikram-1. Next comes a big prize
+                - time [ref=f2e351]: 6 hours ago
+          - link "See more headlines and perspectives - Skyroot Aerospace launches Vikram-1 rocket into orbit" [ref=f2e354] [cursor=pointer]:
+            - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pzbUp2TUVSRlowREF5N0trZTVTZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f2e357]: See more headlines and perspectives
+        - generic [ref=f2e361]:
+          - generic [ref=f2e362]:
+            - link [ref=f2e364] [cursor=pointer]:
+              - /url: ./read/CBMitwFBVV95cUxNUVgwRnh4bGg5bXVrMEdSNXEydXpjb0dCTmQwQlV2MHlydHJTU05DcUxIbktrZW82aGUwZ2F4R2h6bkJXOEpFQy1DREthRVFySzUzNkpVMGNSdXdTMlVjVFR4ZTkyYlRqRTU4bEo1cHR1Y3RMSDJ0UV9Ed01tbnVZbUdyN29ZZWpqQU5VZDd3b3dkS0VlMVp5UUJSZHdPVUUzVjZGNmFHWUJOYWVFZDd0ekJnV293QTg?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f2e366]:
+              - generic [ref=f2e367]:
+                - generic [ref=f2e368]: Reuters
+                - generic [ref=f2e374]:
+                  - generic:
+                    - button "More - Iran hits Gulf states and Jordan after seventh night of US strikes" [ref=f2e375] [cursor=pointer]
+                    - tooltip [ref=f2e379]: More
+              - link "Iran hits Gulf states and Jordan after seventh night of US strikes - Reuters - 13 hours ago - By Jana Choukeir" [ref=f2e380] [cursor=pointer]:
+                - /url: ./read/CBMitwFBVV95cUxNUVgwRnh4bGg5bXVrMEdSNXEydXpjb0dCTmQwQlV2MHlydHJTU05DcUxIbktrZW82aGUwZ2F4R2h6bkJXOEpFQy1DREthRVFySzUzNkpVMGNSdXdTMlVjVFR4ZTkyYlRqRTU4bEo1cHR1Y3RMSDJ0UV9Ed01tbnVZbUdyN29ZZWpqQU5VZDd3b3dkS0VlMVp5UUJSZHdPVUUzVjZGNmFHWUJOYWVFZDd0ekJnV293QTg?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Iran hits Gulf states and Jordan after seventh night of US strikes
+            - figure [ref=f2e381]
+          - generic [ref=f2e382]:
+            - time [ref=f2e383]: 13 hours ago
+            - separator [ref=f2e384]
+            - generic [ref=f2e385]: By Jana Choukeir
+            - link "See more headlines and perspectives - Iran hits Gulf states and Jordan after seventh night of US strikes" [ref=f2e386] [cursor=pointer]:
+              - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lPcjRUUUVSR1BDWlJENHl0ZDVDZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - generic [ref=f2e389]: See more
+        - generic [ref=f2e393]:
+          - generic [ref=f2e394]:
+            - link [ref=f2e396] [cursor=pointer]:
+              - /url: ./read/CBMipgFBVV95cUxOZDhyMDZXNkxZY3IxWjRwUjdsNHlIamFDUjJFM21CMzhDLWZzX1lsLTNvQVcySmFtWXhpNEpCMFpyMDc3OEc3VDJxbU5YQzdFbkNQc2lhUE1BX2RXYmxZQ3ZwNy1mRjRSZ2R5VlVTTXRGa2V3ZnN3eHB2eXBlVVZxTUxGV0dpdzBweDNvRGpoQ2lWVFRKbGhKZkpDVHB2SmdNLVJZR0V30gGsAUFVX3lxTFBfc3pPOVZxQ3d2WDdBd0xrclVFVWYxNFZzeEtsUUN2TmQtbmFtamhvSndORmNUdENKQ2JsVjlQWTdhWGFmWnlXdGNha1RCVFI3ZnF5NFJ6UlA4UWNFN0VLU0JvN2o4MlNjcW12dGNwQlo4cjVNUmxORERVWS0yeDU3R0dLUTk4QkQyNmZfN2IxTXczLXNGRjZXOWNhTmRYNk5Yd0pOMjhQb3o1NGM?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f2e398]:
+              - generic [ref=f2e399]:
+                - generic [ref=f2e400]: The Hindu
+                - generic [ref=f2e406]:
+                  - generic:
+                    - button "More - CBSE declares class 10 second board exam results" [ref=f2e407] [cursor=pointer]
+                    - tooltip [ref=f2e411]: More
+              - link "CBSE declares class 10 second board exam results - The Hindu - 1 hour ago" [ref=f2e412] [cursor=pointer]:
+                - /url: ./read/CBMipgFBVV95cUxOZDhyMDZXNkxZY3IxWjRwUjdsNHlIamFDUjJFM21CMzhDLWZzX1lsLTNvQVcySmFtWXhpNEpCMFpyMDc3OEc3VDJxbU5YQzdFbkNQc2lhUE1BX2RXYmxZQ3ZwNy1mRjRSZ2R5VlVTTXRGa2V3ZnN3eHB2eXBlVVZxTUxGV0dpdzBweDNvRGpoQ2lWVFRKbGhKZkpDVHB2SmdNLVJZR0V30gGsAUFVX3lxTFBfc3pPOVZxQ3d2WDdBd0xrclVFVWYxNFZzeEtsUUN2TmQtbmFtamhvSndORmNUdENKQ2JsVjlQWTdhWGFmWnlXdGNha1RCVFI3ZnF5NFJ6UlA4UWNFN0VLU0JvN2o4MlNjcW12dGNwQlo4cjVNUmxORERVWS0yeDU3R0dLUTk4QkQyNmZfN2IxTXczLXNGRjZXOWNhTmRYNk5Yd0pOMjhQb3o1NGM?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: CBSE declares class 10 second board exam results
+            - figure [ref=f2e413]
+          - generic [ref=f2e414]:
+            - time [ref=f2e415]: 1 hour ago
+            - link "See more headlines and perspectives - CBSE declares class 10 second board exam results" [ref=f2e416] [cursor=pointer]:
+              - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o2Ml9iTEVSRVVYV281VzBkTklDZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - generic [ref=f2e419]: See more
+      - heading [level=3] [ref=f2e425]:
+        - link "Local news" [ref=f2e426] [cursor=pointer]:
+          - /url: ./topics/CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE?hl=en-IN&gl=IN&ceid=IN%3Aen

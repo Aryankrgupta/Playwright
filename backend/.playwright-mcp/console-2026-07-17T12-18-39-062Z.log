@@ -1,0 +1,12 @@
+[    2419ms] [INFO] [OPTIMIZELY] - INFO 2026-07-17T12:18:41.480Z ProjectConfigManager: Skipping JSON schema validation. @ https://static.files.bbci.co.uk/bbcdotcom/web/20260714-093448-684066af18-web-3.14.0-3/_next/static/chunks/023h3h0opw6ub.js:0
+[    2422ms] [INFO] [OPTIMIZELY] - INFO 2026-07-17T12:18:41.483Z Optimizely: Updated Optimizely config to revision 18 (project id 28346550223) @ https://static.files.bbci.co.uk/bbcdotcom/web/20260714-093448-684066af18-web-3.14.0-3/_next/static/chunks/023h3h0opw6ub.js:0
+[    3521ms] [LOG] Messaging without detection successfully executed. @ https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js:0
+[    3531ms] [LOG] interaction complete @ https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js:0
+[    3798ms] [LOG] setAdunits has been called, will set window.ozAdUnits now @ https://prebid.the-ozone-project.com/hw2/OZONEBBC4784/1500000107/current/adUnits.min.js:0
+[    3798ms] [LOG] window.ozAdUnits has been created. @ https://prebid.the-ozone-project.com/hw2/OZONEBBC4784/1500000107/current/adUnits.min.js:0
+[    4102ms] [WARNING] [GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.
+https://goo.gle/gpt-message#201 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607140101/pubads_impl.js:18
+[    4137ms] [WARNING] [GPT] PubAdsService.getTargetingKeys is deprecated, use googletag.getConfig('targeting') instead.
+https://goo.gle/gpt-message#200 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607140101/pubads_impl.js:18
+[    5231ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://scripts.webcontentassessor.com/scripts/64ca3dfd44dd68a629e2e51a27e7ccd960974b5961e4ca2897139d14bf10be8b:0
+[    6176ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0

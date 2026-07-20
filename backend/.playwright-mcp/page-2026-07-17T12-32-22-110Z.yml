@@ -1,0 +1,1553 @@
+- generic [ref=f8e2]:
+  - navigation "Shortcuts menu" [ref=f8e3]:
+    - heading "Skip to" [level=2] [ref=f8e4]
+    - list "Skip to" [ref=f8e5]:
+      - listitem [ref=f8e6]:
+        - link "main content" [ref=f8e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=f8e8]:
+        - link "About this item" [ref=f8e9] [cursor=pointer]:
+          - /url: "#featurebullets_feature_div"
+      - listitem [ref=f8e10]:
+        - link "Buying options" [ref=f8e11] [cursor=pointer]:
+          - /url: "#buybox"
+      - listitem [ref=f8e12]:
+        - link "Videos" [ref=f8e13] [cursor=pointer]:
+          - /url: "#va-related-videos-widget_feature_div"
+      - listitem [ref=f8e14]:
+        - link "Reviews" [ref=f8e15] [cursor=pointer]:
+          - /url: "#customerReviews"
+    - separator [ref=f8e16]
+    - heading "Keyboard shortcuts" [level=2] [ref=f8e17]
+    - list "Keyboard shortcuts" [ref=f8e18]:
+      - listitem [ref=f8e19]:
+        - link "Search, alt, forward slash" [ref=f8e20] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f8e21]:
+            - generic [ref=f8e22]: Search
+            - generic [ref=f8e23]:
+              - generic [ref=f8e24]: alt
+              - generic [ref=f8e25]: +
+              - generic [ref=f8e26]: /
+      - listitem [ref=f8e27]:
+        - link "Cart, shift, alt, c" [ref=f8e28] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f8e29]:
+            - generic [ref=f8e30]: Cart
+            - generic [ref=f8e31]:
+              - generic [ref=f8e32]: shift
+              - generic [ref=f8e33]: +
+              - generic [ref=f8e34]: alt
+              - generic [ref=f8e35]: +
+              - generic [ref=f8e36]: C
+      - listitem [ref=f8e37]:
+        - link "Home, shift, alt, h" [ref=f8e38] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f8e39]:
+            - generic [ref=f8e40]: Home
+            - generic [ref=f8e41]:
+              - generic [ref=f8e42]: shift
+              - generic [ref=f8e43]: +
+              - generic [ref=f8e44]: alt
+              - generic [ref=f8e45]: +
+              - generic [ref=f8e46]: H
+      - listitem [ref=f8e47]:
+        - link "Your orders, shift, alt, o" [ref=f8e48] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f8e49]:
+            - generic [ref=f8e50]: Orders
+            - generic [ref=f8e51]:
+              - generic [ref=f8e52]: shift
+              - generic [ref=f8e53]: +
+              - generic [ref=f8e54]: alt
+              - generic [ref=f8e55]: +
+              - generic [ref=f8e56]: O
+      - listitem [ref=f8e57]:
+        - button "Product summary, shift, alt, d" [ref=f8e58] [cursor=pointer]:
+          - generic [ref=f8e59]:
+            - generic [ref=f8e60]: Product summary
+            - generic [ref=f8e61]:
+              - generic [ref=f8e62]: shift
+              - generic [ref=f8e63]: +
+              - generic [ref=f8e64]: alt
+              - generic [ref=f8e65]: +
+              - generic [ref=f8e66]: D
+      - listitem [ref=f8e67]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=f8e68] [cursor=pointer]:
+          - generic [ref=f8e69]:
+            - generic [ref=f8e70]: Show/Hide shortcuts
+            - generic [ref=f8e71]:
+              - generic [ref=f8e72]: shift
+              - generic [ref=f8e73]: +
+              - generic [ref=f8e74]: alt
+              - generic [ref=f8e75]: +
+              - generic [ref=f8e76]: Z
+    - generic [ref=f8e77]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=f8e83]:
+    - navigation "Primary" [ref=f8e84]:
+      - generic [ref=f8e85]:
+        - generic [ref=f8e86]:
+          - link "Amazon" [ref=f8e88] [cursor=pointer]:
+            - /url: /ref=nav_logo
+          - button "Deliver to India" [ref=f8e91] [cursor=pointer]:
+            - generic [ref=f8e93]:
+              - generic [ref=f8e94]: Deliver to
+              - generic [ref=f8e95]: India
+        - search [ref=f8e98]:
+          - generic [ref=f8e101]:
+            - generic [ref=f8e102]: All
+            - combobox "Select the department you want to search in" [ref=f8e105] [cursor=pointer]:
+              - option "All Departments" [selected]
+              - option "Arts & Crafts"
+              - option "Automotive"
+              - option "Baby"
+              - option "Beauty & Personal Care"
+              - option "Books"
+              - option "Boys' Fashion"
+              - option "Computers"
+              - option "Deals"
+              - option "Digital Music"
+              - option "Electronics"
+              - option "Girls' Fashion"
+              - option "Health & Household"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Kindle Store"
+              - option "Luggage"
+              - option "Men's Fashion"
+              - option "Movies & TV"
+              - option "Music, CDs & Vinyl"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Software"
+              - option "Sports & Outdoors"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Video Games"
+              - option "Women's Fashion"
+          - searchbox "Search Amazon" [ref=f8e108]: wireless mouse
+          - generic [ref=f8e109]:
+            - generic "Go" [ref=f8e111] [cursor=pointer]:
+              - button "Go" [ref=f8e112]
+            - button [ref=f8e114]: Agent Search
+        - generic [ref=f8e116]:
+          - generic [ref=f8e117]:
+            - link "Choose a language for shopping in Amazon United States. The current selection is English (EN)." [ref=f8e118] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang_ais
+              - generic [ref=f8e121]:
+                - img "United States" [ref=f8e122]
+                - generic [ref=f8e123]: EN
+            - button "Expand to Change Language or Country" [ref=f8e124] [cursor=pointer]
+          - generic [ref=f8e125]:
+            - link "Hello, sign in Account & Lists" [ref=f8e126] [cursor=pointer]:
+              - /url: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2FLogitech-Wireless-Mouse-M185-Swift%2Fdp%2FB004YAVF8I%2Fref%3Dnav_ya_signin%3Fdib%3DeyJ2IjoiMSJ9.4IAsvBtAgtydnu_ltILQChhs30v61FcZ0XRMdF4eoNAgphEAdaiGtyfqovgPU6hSASYolCdI7z1Tx0_YvnpxSJmXoBCXI6tLu_9XqxRidR5C09Yk5-BUBxUFzMnNAXBq7_3G_zgeUzdmVx9pzDejC_pIteCSijkLAwBUkvbCvg4Hom1rwj0M8ymolaTU_o_Vw0BjW1PeWYBOBuMri4c_a15bfBI6EtWbCBMLNOzJtGo.jz_lKbW6oZzfFTm5e26y9aw6xhNkYNMPBwzUzN8XiJ8%26dib_tag%3Dse%26keywords%3Dwireless%2Bmouse%26qid%3D1784291475%26sr%3D8-2&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=f8e127]: Hello, sign in
+              - generic [ref=f8e129]: Account & Lists
+            - button "Expand Account and Lists" [ref=f8e130] [cursor=pointer]
+          - link "Returns & Orders" [ref=f8e131] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=f8e132]: Returns
+            - generic [ref=f8e133]: "& Orders"
+          - link "0 items in cart" [ref=f8e134] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=f8e135]: "0"
+      - alertdialog "International Shopping Transition Alert" [ref=f8e138]:
+        - generic [ref=f8e139]:
+          - generic [ref=f8e143]:
+            - text: We're showing you items that ship to
+            - strong [ref=f8e144]: India
+            - text: . To see items that ship to a different country, change your delivery address.
+          - generic [ref=f8e145]:
+            - generic [ref=f8e147] [cursor=pointer]:
+              - button "Dismiss" [ref=f8e148]
+              - generic [ref=f8e149]: Dismiss
+            - generic [ref=f8e151] [cursor=pointer]:
+              - button "Change Address" [ref=f8e152]
+              - generic [ref=f8e153]: Change Address
+      - generic [ref=f8e154]:
+        - button "Open All Categories Menu" [ref=f8e156] [cursor=pointer]:
+          - generic [ref=f8e158]: All
+        - list [ref=f8e162]:
+          - listitem [ref=f8e163]:
+            - link "Today's Deals" [ref=f8e165] [cursor=pointer]:
+              - /url: /gp/goldbox?ref_=nav_cs_gb
+          - listitem [ref=f8e166]:
+            - link "Prime Video" [ref=f8e168] [cursor=pointer]:
+              - /url: /Amazon-Video/b/?ie=UTF8&node=2858778011&ref_=nav_cs_prime_video
+          - listitem [ref=f8e169]:
+            - link "Gift Cards" [ref=f8e171] [cursor=pointer]:
+              - /url: /gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc
+          - listitem [ref=f8e172]:
+            - link "Sell" [ref=f8e174] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell
+          - listitem [ref=f8e175]:
+            - link "Registry" [ref=f8e177] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16115931011&ref_=nav_cs_registry
+          - listitem [ref=f8e178]:
+            - link "Customer Service" [ref=f8e180] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice
+          - link "Click to call our Disability Customer Support line, or reach us directly at 1-888-283-1678" [ref=f8e181] [cursor=pointer]:
+            - /url: /gp/help/customer/accessibility
+            - text: Disability Customer Support
+      - dialog [ref=f8e184]
+  - generic [ref=f8e186]:
+    - heading "Product summary presents key product information Keyboard shortcut shift + alt + D" [level=1] [ref=f8e188]:
+      - button [ref=f8e190] [cursor=pointer]
+      - separator [ref=f8e193]
+      - generic [ref=f8e194]:
+        - text: Keyboard shortcut
+        - generic [ref=f8e195]: shift + alt + D
+    - main [ref=f8e196]:
+      - generic [ref=f8e197]:
+        - generic [ref=f8e200]:
+          - iframe [ref=f8e201]:
+            - generic [ref=f9e10]:
+              - link "Sponsored ad. Click to learn more information." [ref=f9e11] [cursor=pointer]:
+                - /url: https://aax-events-cell01-cf.us-east.ono.axp.amazon-adsystem.com/x/c/RBcOGFKZhJ4b5LXcGmoc1gAAAAGfcBA00QEAAAH0AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICDtLdKs/clv1c_ek-wBXf2FcTW3uu7sCFvvRfsalpWFkGFT8cCDUSQ_bDSdsSPn0fTDBdJBZGhM0fnuSyXq9dL-NwqyiDf9WxobHt1X1uimlXFepj4dcegGdQVTyF6beu0Dk70IjnyoK_CusoQjw9yCu6L44rqA5XY-8WzYFyeiAXs9sPIqxdrTI8izIM2TjXhfZquSkDgwcrAxSSL5F1_xwKctSVN0xGVsgipSFPpZWeYkEPVvLwS-4iy52TEjEr9k9AGUr0txhruFW-KFgfIzvNndmu3u3ybSl5PrMevSfRdp9wLVI6fWna1maHPaULm58tI-NX0KsjGFRFlxvthChh36DsBU3klYkdE_IrzLMTozo9UK5VyQ8k9N-Na5lDXf5TKS0kfqVwzE8VKbaI8Dos5F9gJf1lf6mqDtziB3p4JPFYLOcNf_z4jZ9kn1sHCG55QC-Kjpauxntrzs9Tlu-jB0CVZp8Tqh3rIm9XPmUlnvutptrHGnaW3YHo_LtBSWzxGw3zrK8m53eg4KZvfvvX21hSfAXzaqPpJ3v5pMSEkVgWTxLe5RKtI9DFD82Yb_4U2gUyntrYcyo1i9L4fZ_-RSh1fH2quaBGQLtVL1o8-GxbJe48f16mnGlbdyd4hNMe5g1lLGap7BkHD2LCapYvumDOO2kRAmGsG2_tSRBBA9jO5osXHfWgVIK3E3-_oxMbjBwYpMnxwFA56ltSAh72Rtb5vSKmK85vzuhea6Ve0wUAh3BTsV0z1_uJj7T6kmI2mH6x8fGWmXCnKy5ThZgcOUx3vG9SmZx0x7RXqV_Wuq7UhIr5hU0Oim5zHPiuS2J-BTy5vZcFnW8FfvpyGVKitijm7pOGDrMIZhYlIQlmJU_l5j8e1I-0FPwZ-R0JBnIaaCYm-1Mh7yqHsdbCWPxjX93rAtl5E2oY9jK0CRiCiu049pGG6fMSy-WQIBOXjqEOldJsWWqV2O6cuQvYJpp9-Yx4Prll4OV_yIJX3-Ubt2-mWKkZ6nhorMmF3RJcBg8-MWQtNtD5otYiON5NeVUeA2ldFyubap2RgZThYrTtFUEWTIh42UkaJz6xqY6seI25mG1Xwa_BWgmk3cj49yYz0TRybkpezy2Ilw1l8vBZ1sgNaO5-qOcCWzEm9xlrhoYESwOW0ej4UK3gCQjk-RcwZ-cn9XllRvzWaC42usUsKjw-In8MnvFXc6jTA0PMyPhossaGOSafvZ37yVFZlLB34-04DtYUPvO5NCZ05S-tr_aX-mdeXGzHnz0QQAcZvKPqldQWz6Ge2uupIV5q6PY4GLr-RRsNqpJLdf6KpG9DcAlj4obAvtdMEP7SSc_D8auEjtPnj0rRmbDaCIv2BqtwA-1jA_PxwEqleSGjpmZNO3NPWj1fJ-ReAGd7wWXXgr0zoFt8lrmMOkuFucgCCtbTxJGY_2zQ/https://www.amazon.com/stores/page/EC4FC41F-1208-4153-9F16-A822D92B5188
+              - generic [ref=f9e12]:
+                - generic [ref=f9e13]: Comfort in Your Hand, Freedom at Your Fingertips.
+                - generic [ref=f9e16]:
+                  - img "Accessibility support for this content is in progress. We are working to provide an accessible version shortly." [ref=f9e18]
+                  - img "Accessibility support for this content is in progress. We are working to provide an accessible version shortly." [ref=f9e20]
+                - generic [ref=f9e22]:
+                  - generic [ref=f9e23]:
+                    - link "Sponsored ad. Click to learn more information." [ref=f9e24] [cursor=pointer]:
+                      - /url: https://aax-events-cell01-cf.us-east.ono.axp.amazon-adsystem.com/x/c/RBcOGFKZhJ4b5LXcGmoc1gAAAAGfcBA00QEAAAH0AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICDtLdKs/clv1c_ek-wBXf2FcTW3uu7sCFvvRfsalpWFkGFT8cCDUSQ_bDSdsSPn0fTDBdJBZGhM0fnuSyXq9dL-NwqyiDf9WxobHt1X1uimlXFepj4dcegGdQVTyF6beu0Dk70IjnyoK_CusoQjw9yCu6L44rqA5XY-8WzYFyeiAXs9sPIqxdrTI8izIM2TjXhfZquSkDgwcrAxSSL5F1_xwKctSVN0xGVsgipSFPpZWeYkEPVvLwS-4iy52TEjEr9k9AGUr0txhruFW-KFgfIzvNndmu3u3ybSl5PrMevSfRdp9wLVI6fWna1maHPaULm58tI-NX0KsjGFRFlxvthChh36DsBU3klYkdE_IrzLMTozo9UK5VyQ8k9N-Na5lDXf5TKS0kfqVwzE8VKbaI8Dos5F9gJf1lf6mqDtziB3p4JPFYLOcNf_z4jZ9kn1sHCG55QC-Kjpauxntrzs9Tlu-jB0CVZp8Tqh3rIm9XPmUlnvutptrHGnaW3YHo_LtBSWzxGw3zrK8m53eg4KZvfvvX21hSfAXzaqPpJ3v5pMSEkVgWTxLe5RKtI9DFD82Yb_4U2gUyntrYcyo1i9L4fZ_-RSh1fH2quaBGQLtVL1o8-GxbJe48f16mnGlbdyd4hNMe5g1lLGap7BkHD2LCapYvumDOO2kRAmGsG2_tSRBBA9jO5osXHfWgVIK3E3-_oxMbjBwYpMnxwFA56ltSAh72Rtb5vSKmK85vzuhea6Ve0wUAh3BTsV0z1_uJj7T6kmI2mH6x8fGWmXCnKy5ThZgcOUx3vG9SmZx0x7RXqV_Wuq7UhIr5hU0Oim5zHPiuS2J-BTy5vZcFnW8FfvpyGVKitijm7pOGDrMIZhYlIQlmJU_l5j8e1I-0FPwZ-R0JBnIaaCYm-1Mh7yqHsdbCWPxjX93rAtl5E2oY9jK0CRiCiu049pGG6fMSy-WQIBOXjqEOldJsWWqV2O6cuQvYJpp9-Yx4Prll4OV_yIJX3-Ubt2-mWKkZ6nhorMmF3RJcBg8-MWQtNtD5otYiON5NeVUeA2ldFyubap2RgZThYrTtFUEWTIh42UkaJz6xqY6seI25mG1Xwa_BWgmk3cj49yYz0TRybkpezy2Ilw1l8vBZ1sgNaO5-qOcCWzEm9xlrhoYESwOW0ej4UK3gCQjk-RcwZ-cn9XllRvzWaC42usUsKjw-In8MnvFXc6jTA0PMyPhossaGOSafvZ37yVFZlLB34-04DtYUPvO5NCZ05S-tr_aX-mdeXGzHnz0QQAcZvKPqldQWz6Ge2uupIV5q6PY4GLr-RRsNqpJLdf6KpG9DcAlj4obAvtdMEP7SSc_D8auEjtPnj0rRmbDaCIv2BqtwA-1jA_PxwEqleSGjpmZNO3NPWj1fJ-ReAGd7wWXXgr0zoFt8lrmMOkuFucgCCtbTxJGY_2zQ/https://www.amazon.com/dp/B0F5HPCLGB
+                    - generic [ref=f9e26]:
+                      - img "acer Wireless Mouse for Laptop, 2.4GHz Computer Mouse 3 Adjustable DPI Office Cordless USB Mice with USBA Receiver, 6 Buttons, 1600 DPI, Medium to Large Sized Hands Compatible with PC, Laptop, Desktop" [ref=f9e28]
+                      - img "acer Wireless Mouse for Laptop, 2.4GHz Computer Mouse 3 Adjustable DPI Office Cordless USB Mice with USBA Receiver, 6 Buttons, 1600 DPI, Medium to Large Sized Hands Compatible with PC, Laptop, Desktop" [ref=f9e30]
+                  - generic [ref=f9e31]:
+                    - link "Sponsored ad. Click to learn more information." [ref=f9e32] [cursor=pointer]:
+                      - /url: https://aax-events-cell01-cf.us-east.ono.axp.amazon-adsystem.com/x/c/RBcOGFKZhJ4b5LXcGmoc1gAAAAGfcBA00QEAAAH0AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICDtLdKs/clv1c_ek-wBXf2FcTW3uu7sCFvvRfsalpWFkGFT8cCDUSQ_bDSdsSPn0fTDBdJBZGhM0fnuSyXq9dL-NwqyiDf9WxobHt1X1uimlXFepj4dcegGdQVTyF6beu0Dk70IjnyoK_CusoQjw9yCu6L44rqA5XY-8WzYFyeiAXs9sPIqxdrTI8izIM2TjXhfZquSkDgwcrAxSSL5F1_xwKctSVN0xGVsgipSFPpZWeYkEPVvLwS-4iy52TEjEr9k9AGUr0txhruFW-KFgfIzvNndmu3u3ybSl5PrMevSfRdp9wLVI6fWna1maHPaULm58tI-NX0KsjGFRFlxvthChh36DsBU3klYkdE_IrzLMTozo9UK5VyQ8k9N-Na5lDXf5TKS0kfqVwzE8VKbaI8Dos5F9gJf1lf6mqDtziB3p4JPFYLOcNf_z4jZ9kn1sHCG55QC-Kjpauxntrzs9Tlu-jB0CVZp8Tqh3rIm9XPmUlnvutptrHGnaW3YHo_LtBSWzxGw3zrK8m53eg4KZvfvvX21hSfAXzaqPpJ3v5pMSEkVgWTxLe5RKtI9DFD82Yb_4U2gUyntrYcyo1i9L4fZ_-RSh1fH2quaBGQLtVL1o8-GxbJe48f16mnGlbdyd4hNMe5g1lLGap7BkHD2LCapYvumDOO2kRAmGsG2_tSRBBA9jO5osXHfWgVIK3E3-_oxMbjBwYpMnxwFA56ltSAh72Rtb5vSKmK85vzuhea6Ve0wUAh3BTsV0z1_uJj7T6kmI2mH6x8fGWmXCnKy5ThZgcOUx3vG9SmZx0x7RXqV_Wuq7UhIr5hU0Oim5zHPiuS2J-BTy5vZcFnW8FfvpyGVKitijm7pOGDrMIZhYlIQlmJU_l5j8e1I-0FPwZ-R0JBnIaaCYm-1Mh7yqHsdbCWPxjX93rAtl5E2oY9jK0CRiCiu049pGG6fMSy-WQIBOXjqEOldJsWWqV2O6cuQvYJpp9-Yx4Prll4OV_yIJX3-Ubt2-mWKkZ6nhorMmF3RJcBg8-MWQtNtD5otYiON5NeVUeA2ldFyubap2RgZThYrTtFUEWTIh42UkaJz6xqY6seI25mG1Xwa_BWgmk3cj49yYz0TRybkpezy2Ilw1l8vBZ1sgNaO5-qOcCWzEm9xlrhoYESwOW0ej4UK3gCQjk-RcwZ-cn9XllRvzWaC42usUsKjw-In8MnvFXc6jTA0PMyPhossaGOSafvZ37yVFZlLB34-04DtYUPvO5NCZ05S-tr_aX-mdeXGzHnz0QQAcZvKPqldQWz6Ge2uupIV5q6PY4GLr-RRsNqpJLdf6KpG9DcAlj4obAvtdMEP7SSc_D8auEjtPnj0rRmbDaCIv2BqtwA-1jA_PxwEqleSGjpmZNO3NPWj1fJ-ReAGd7wWXXgr0zoFt8lrmMOkuFucgCCtbTxJGY_2zQ/https://www.amazon.com/dp/B0GS5ZHY87
+                    - generic [ref=f9e34]:
+                      - img "acer Wireless Mouse for Laptop, 2.4GHz Computer Mouse 5 Adjustable DPI Office Cordless USB Mice with USBA Receiver, 6 Buttons, 4000 DPI, Medium to Large Sized Hands Compatible with PC, Laptop, Desktop" [ref=f9e36]
+                      - img "acer Wireless Mouse for Laptop, 2.4GHz Computer Mouse 5 Adjustable DPI Office Cordless USB Mice with USBA Receiver, 6 Buttons, 4000 DPI, Medium to Large Sized Hands Compatible with PC, Laptop, Desktop" [ref=f9e38]
+                  - generic [ref=f9e39]:
+                    - link "Sponsored ad. Click to learn more information." [ref=f9e40] [cursor=pointer]:
+                      - /url: https://aax-events-cell01-cf.us-east.ono.axp.amazon-adsystem.com/x/c/RBcOGFKZhJ4b5LXcGmoc1gAAAAGfcBA00QEAAAH0AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICDtLdKs/clv1c_ek-wBXf2FcTW3uu7sCFvvRfsalpWFkGFT8cCDUSQ_bDSdsSPn0fTDBdJBZGhM0fnuSyXq9dL-NwqyiDf9WxobHt1X1uimlXFepj4dcegGdQVTyF6beu0Dk70IjnyoK_CusoQjw9yCu6L44rqA5XY-8WzYFyeiAXs9sPIqxdrTI8izIM2TjXhfZquSkDgwcrAxSSL5F1_xwKctSVN0xGVsgipSFPpZWeYkEPVvLwS-4iy52TEjEr9k9AGUr0txhruFW-KFgfIzvNndmu3u3ybSl5PrMevSfRdp9wLVI6fWna1maHPaULm58tI-NX0KsjGFRFlxvthChh36DsBU3klYkdE_IrzLMTozo9UK5VyQ8k9N-Na5lDXf5TKS0kfqVwzE8VKbaI8Dos5F9gJf1lf6mqDtziB3p4JPFYLOcNf_z4jZ9kn1sHCG55QC-Kjpauxntrzs9Tlu-jB0CVZp8Tqh3rIm9XPmUlnvutptrHGnaW3YHo_LtBSWzxGw3zrK8m53eg4KZvfvvX21hSfAXzaqPpJ3v5pMSEkVgWTxLe5RKtI9DFD82Yb_4U2gUyntrYcyo1i9L4fZ_-RSh1fH2quaBGQLtVL1o8-GxbJe48f16mnGlbdyd4hNMe5g1lLGap7BkHD2LCapYvumDOO2kRAmGsG2_tSRBBA9jO5osXHfWgVIK3E3-_oxMbjBwYpMnxwFA56ltSAh72Rtb5vSKmK85vzuhea6Ve0wUAh3BTsV0z1_uJj7T6kmI2mH6x8fGWmXCnKy5ThZgcOUx3vG9SmZx0x7RXqV_Wuq7UhIr5hU0Oim5zHPiuS2J-BTy5vZcFnW8FfvpyGVKitijm7pOGDrMIZhYlIQlmJU_l5j8e1I-0FPwZ-R0JBnIaaCYm-1Mh7yqHsdbCWPxjX93rAtl5E2oY9jK0CRiCiu049pGG6fMSy-WQIBOXjqEOldJsWWqV2O6cuQvYJpp9-Yx4Prll4OV_yIJX3-Ubt2-mWKkZ6nhorMmF3RJcBg8-MWQtNtD5otYiON5NeVUeA2ldFyubap2RgZThYrTtFUEWTIh42UkaJz6xqY6seI25mG1Xwa_BWgmk3cj49yYz0TRybkpezy2Ilw1l8vBZ1sgNaO5-qOcCWzEm9xlrhoYESwOW0ej4UK3gCQjk-RcwZ-cn9XllRvzWaC42usUsKjw-In8MnvFXc6jTA0PMyPhossaGOSafvZ37yVFZlLB34-04DtYUPvO5NCZ05S-tr_aX-mdeXGzHnz0QQAcZvKPqldQWz6Ge2uupIV5q6PY4GLr-RRsNqpJLdf6KpG9DcAlj4obAvtdMEP7SSc_D8auEjtPnj0rRmbDaCIv2BqtwA-1jA_PxwEqleSGjpmZNO3NPWj1fJ-ReAGd7wWXXgr0zoFt8lrmMOkuFucgCCtbTxJGY_2zQ/https://www.amazon.com/dp/B0FL2GS25B
+                    - generic [ref=f9e42]:
+                      - img "Acer Ergonomic Mouse Wireless, Vertical Computer Mouse for Office, Ergo Mice Rechargeable for Medium to Large Sized Hands, 2.4GHz USB Receiver, 800/1200/1600 DPI, 6 Buttons for Laptop, PC and Desktop" [ref=f9e44]
+                      - img "Acer Ergonomic Mouse Wireless, Vertical Computer Mouse for Office, Ergo Mice Rechargeable for Medium to Large Sized Hands, 2.4GHz USB Receiver, 800/1200/1600 DPI, 6 Buttons for Laptop, PC and Desktop" [ref=f9e46]
+                - generic [ref=f9e49]:
+                  - img "Accessibility support for this content is in progress. We are working to provide an accessible version shortly." [ref=f9e51]
+                  - img "Accessibility support for this content is in progress. We are working to provide an accessible version shortly." [ref=f9e53]
+                - link "Shop acer Gadget" [ref=f9e55] [cursor=pointer]:
+                  - /url: https://aax-events-cell01-cf.us-east.ono.axp.amazon-adsystem.com/x/c/RBcOGFKZhJ4b5LXcGmoc1gAAAAGfcBA00QEAAAH0AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICDtLdKs/clv1c_ek-wBXf2FcTW3uu7sCFvvRfsalpWFkGFT8cCDUSQ_bDSdsSPn0fTDBdJBZGhM0fnuSyXq9dL-NwqyiDf9WxobHt1X1uimlXFepj4dcegGdQVTyF6beu0Dk70IjnyoK_CusoQjw9yCu6L44rqA5XY-8WzYFyeiAXs9sPIqxdrTI8izIM2TjXhfZquSkDgwcrAxSSL5F1_xwKctSVN0xGVsgipSFPpZWeYkEPVvLwS-4iy52TEjEr9k9AGUr0txhruFW-KFgfIzvNndmu3u3ybSl5PrMevSfRdp9wLVI6fWna1maHPaULm58tI-NX0KsjGFRFlxvthChh36DsBU3klYkdE_IrzLMTozo9UK5VyQ8k9N-Na5lDXf5TKS0kfqVwzE8VKbaI8Dos5F9gJf1lf6mqDtziB3p4JPFYLOcNf_z4jZ9kn1sHCG55QC-Kjpauxntrzs9Tlu-jB0CVZp8Tqh3rIm9XPmUlnvutptrHGnaW3YHo_LtBSWzxGw3zrK8m53eg4KZvfvvX21hSfAXzaqPpJ3v5pMSEkVgWTxLe5RKtI9DFD82Yb_4U2gUyntrYcyo1i9L4fZ_-RSh1fH2quaBGQLtVL1o8-GxbJe48f16mnGlbdyd4hNMe5g1lLGap7BkHD2LCapYvumDOO2kRAmGsG2_tSRBBA9jO5osXHfWgVIK3E3-_oxMbjBwYpMnxwFA56ltSAh72Rtb5vSKmK85vzuhea6Ve0wUAh3BTsV0z1_uJj7T6kmI2mH6x8fGWmXCnKy5ThZgcOUx3vG9SmZx0x7RXqV_Wuq7UhIr5hU0Oim5zHPiuS2J-BTy5vZcFnW8FfvpyGVKitijm7pOGDrMIZhYlIQlmJU_l5j8e1I-0FPwZ-R0JBnIaaCYm-1Mh7yqHsdbCWPxjX93rAtl5E2oY9jK0CRiCiu049pGG6fMSy-WQIBOXjqEOldJsWWqV2O6cuQvYJpp9-Yx4Prll4OV_yIJX3-Ubt2-mWKkZ6nhorMmF3RJcBg8-MWQtNtD5otYiON5NeVUeA2ldFyubap2RgZThYrTtFUEWTIh42UkaJz6xqY6seI25mG1Xwa_BWgmk3cj49yYz0TRybkpezy2Ilw1l8vBZ1sgNaO5-qOcCWzEm9xlrhoYESwOW0ej4UK3gCQjk-RcwZ-cn9XllRvzWaC42usUsKjw-In8MnvFXc6jTA0PMyPhossaGOSafvZ37yVFZlLB34-04DtYUPvO5NCZ05S-tr_aX-mdeXGzHnz0QQAcZvKPqldQWz6Ge2uupIV5q6PY4GLr-RRsNqpJLdf6KpG9DcAlj4obAvtdMEP7SSc_D8auEjtPnj0rRmbDaCIv2BqtwA-1jA_PxwEqleSGjpmZNO3NPWj1fJ-ReAGd7wWXXgr0zoFt8lrmMOkuFucgCCtbTxJGY_2zQ/https://www.amazon.com/stores/page/EC4FC41F-1208-4153-9F16-A822D92B5188
+          - button "Leave feedback on Sponsored ad" [ref=f8e203] [cursor=pointer]:
+            - generic [ref=f8e204]: Sponsored
+        - list [ref=f8e210]:
+          - listitem [ref=f8e211]:
+            - link "Electronics" [ref=f8e213] [cursor=pointer]:
+              - /url: /electronics-store/b/ref=dp_bc_1?ie=UTF8&node=172282
+          - listitem [ref=f8e214]: ›
+          - listitem [ref=f8e215]:
+            - link "Computers & Accessories" [ref=f8e217] [cursor=pointer]:
+              - /url: /computer-pc-hardware-accessories-add-ons/b/ref=dp_bc_2?ie=UTF8&node=541966
+          - listitem [ref=f8e218]: ›
+          - listitem [ref=f8e219]:
+            - link "Computer Accessories & Peripherals" [ref=f8e221] [cursor=pointer]:
+              - /url: /Computer-Accessories-Supplies/b/ref=dp_bc_3?ie=UTF8&node=172456
+          - listitem [ref=f8e222]: ›
+          - listitem [ref=f8e223]:
+            - link "Keyboards, Mice & Accessories" [ref=f8e225] [cursor=pointer]:
+              - /url: /Computer-Keyboards-Mice-Accessories/b/ref=dp_bc_4?ie=UTF8&node=11548956011
+          - listitem [ref=f8e226]: ›
+          - listitem [ref=f8e227]:
+            - link "Mice" [ref=f8e229] [cursor=pointer]:
+              - /url: /Mice-Keyboards-Computer-Add-Ons-Computers/b/ref=dp_bc_5?ie=UTF8&node=11036491
+      - generic [ref=f8e230]:
+        - generic [ref=f8e242]:
+          - generic [ref=f8e248]:
+            - generic [ref=f8e249]: INR1,345.55
+            - text: INR1,345.55
+          - generic [ref=f8e251]:
+            - generic [ref=f8e253]:
+              - generic [ref=f8e254]: This item cannot be shipped to your selected delivery location. Please choose a different delivery location.
+              - button "Deliver to India" [ref=f8e260] [cursor=pointer]
+            - generic [ref=f8e267]: In Stock
+            - generic [ref=f8e277]:
+              - generic [ref=f8e278]: "Quantity:"
+              - combobox "Quantity:" [ref=f8e279]:
+                - option "1" [selected]
+                - option "2"
+                - option "3"
+                - option "4"
+                - option "5"
+                - option "6"
+                - option "7"
+                - option "8"
+                - option "9"
+                - option "10"
+                - option "11"
+                - option "12"
+                - option "13"
+                - option "14"
+                - option "15"
+                - option "16"
+                - option "17"
+                - option "18"
+                - option "19"
+                - option "20"
+                - option "21"
+                - option "22"
+                - option "23"
+                - option "24"
+                - option "25"
+                - option "26"
+                - option "27"
+                - option "28"
+                - option "29"
+                - option "30"
+              - generic [ref=f8e280] [cursor=pointer]: Quantity:1
+            - generic [ref=f8e289]:
+              - button "Add to Cart" [disabled] [ref=f8e290] [cursor=pointer]
+              - generic [ref=f8e291]: Add to Cart
+            - generic [ref=f8e294]:
+              - group "Seller, shipping, and buying option details" [ref=f8e296]:
+                - generic [ref=f8e297]:
+                  - heading "Ships from" [level=4] [ref=f8e298]
+                  - generic [ref=f8e300]: Amazon
+                - generic [ref=f8e303]:
+                  - heading "Sold by" [level=4] [ref=f8e304]
+                  - link "Priority Sales Inc" [ref=f8e308] [cursor=pointer]:
+                    - /url: /gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=AOX6GUBE7Z4Q7&asin=B004YAVF8I&ref_=dp_merchant_link&isAmazonFulfilled=1
+                - generic [ref=f8e309]:
+                  - heading "Returns" [level=4] [ref=f8e310]
+                  - button "30-day refund / replacement" [ref=f8e314] [cursor=pointer]
+                - generic [ref=f8e318]:
+                  - heading "Payment" [level=4] [ref=f8e319]
+                  - button "Secure transaction" [ref=f8e323] [cursor=pointer]
+              - button "See more" [ref=f8e326] [cursor=pointer]
+          - generic [ref=f8e328]:
+            - separator [ref=f8e329]
+            - link "Add to List" [ref=f8e334] [cursor=pointer]:
+              - /url: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Faw%2Fd%2FB004YAVF8I&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&
+        - generic [ref=f8e336]:
+          - generic [ref=f8e338]:
+            - button [ref=f8e339]:
+              - button "Share" [ref=f8e340] [cursor=pointer]
+            - generic [ref=f8e343]:
+              - radiogroup "Image thumbnails" [ref=f8e345]:
+                - listitem [ref=f8e346]:
+                  - radio [ref=f8e351] [cursor=pointer]
+                - listitem [ref=f8e353]:
+                  - radio [ref=f8e358] [cursor=pointer]
+                - listitem [ref=f8e360]:
+                  - radio [ref=f8e365] [cursor=pointer]
+                - listitem [ref=f8e367]:
+                  - radio [checked] [ref=f8e372] [cursor=pointer]
+                - listitem [ref=f8e374]:
+                  - radio [ref=f8e379] [cursor=pointer]
+                - listitem [ref=f8e381]:
+                  - generic [ref=f8e385] [cursor=pointer]:
+                    - radio "5+" [ref=f8e386]
+                    - generic [ref=f8e387]: 5+
+                - listitem [ref=f8e389]:
+                  - generic [ref=f8e391]:
+                    - radio [ref=f8e394] [cursor=pointer]
+                    - generic [ref=f8e396]: 7 VIDEOS
+              - generic [ref=f8e397]:
+                - generic [ref=f8e399]:
+                  - list
+                  - list [ref=f8e400]:
+                    - listitem [ref=f8e401] [cursor=pointer]
+                    - text:           
+                - link "Click to see full view" [ref=f8e409] [cursor=pointer]:
+                  - /url: "#"
+            - text:           
+          - generic [ref=f8e411]:
+            - generic:
+              - button
+          - generic:
+            - link:
+              - generic:
+                - list
+        - generic [ref=f8e412]:
+          - generic [ref=f8e414]:
+            - link [ref=f8e417] [cursor=pointer]:
+              - /url: /stores/Logitech/page/01EFDE77-7D1A-41D7-9EEA-7C2FA22AB12F?lp_asin=B004YAVF8I&ref_=ast_bln&store_ref=bl_ast_dp_brandlogo_sto
+              - img "Logitech" [ref=f8e418]
+            - link "Visit the Logitech Store" [ref=f8e421] [cursor=pointer]:
+              - /url: /stores/Logitech/page/01EFDE77-7D1A-41D7-9EEA-7C2FA22AB12F?lp_asin=B004YAVF8I&ref_=ast_bln&store_ref=bl_ast_dp_brandlogo_sto
+          - heading "Logitech M185 Wireless Mouse, 2.4GHz with USB Mini Receiver, 12-Month Battery Life, 1000 DPI Optical Tracking, Ambidextrous, Compatible with PC, Mac, Laptop - Swift Grey" [level=1] [ref=f8e424]
+          - generic [ref=f8e426]:
+            - generic "4.5 out of 5 stars" [ref=f8e428]:
+              - button "4.5 out of 5 stars" [ref=f8e430] [cursor=pointer]: "4.5"
+            - link "42,950 Reviews" [ref=f8e435] [cursor=pointer]:
+              - /url: "#averageCustomerReviewsAnchor"
+              - text: (42,950)
+          - generic [ref=f8e436]: Overall Pick
+          - button "2 sustainability features" [ref=f8e444] [cursor=pointer]
+          - generic [ref=f8e445]: 10K+ bought in past month
+          - separator [ref=f8e449]
+          - table [ref=f8e454]:
+            - rowgroup [ref=f8e455]:
+              - row [ref=f8e456]:
+                - cell "List Price:" [ref=f8e457]
+                - cell "INR1,735.23 Learn more about Amazon pricing and savings" [ref=f8e458]:
+                  - generic [ref=f8e459]:
+                    - generic [ref=f8e460]: INR1,735.23
+                    - text: INR1,735.23
+                  - link [ref=f8e463] [cursor=pointer]:
+                    - /url: "#"
+                    - img "Learn more about Amazon pricing and savings" [ref=f8e464]
+              - row [ref=f8e465]:
+                - cell "Price:" [ref=f8e466]
+                - cell "INR1,345.55" [ref=f8e467]:
+                  - generic [ref=f8e468]:
+                    - generic [ref=f8e469]: INR1,345.55
+                    - text: INR1,345.55
+              - row [ref=f8e470]:
+                - cell "You Save:" [ref=f8e471]
+                - cell "INR389.68 (22%)" [ref=f8e472]:
+                  - generic [ref=f8e473]:
+                    - generic [ref=f8e474]:
+                      - generic [ref=f8e475]: INR389.68
+                      - text: INR389.68
+                    - text: (22%)
+          - generic [ref=f8e480]:
+            - generic [ref=f8e481]:
+              - generic "Selected Size is 1 Pack. Tap to collapse." [ref=f8e482] [cursor=pointer]: "Size: 1 Pack"
+              - generic "There are 3 options." [ref=f8e485]:
+                - group "Make a Size selection" [ref=f8e487]:
+                  - radiogroup [ref=f8e488]:
+                    - listitem [ref=f8e489]:
+                      - generic [ref=f8e492] [cursor=pointer]:
+                        - radio "1 Pack" [checked] [ref=f8e493]
+                        - generic [ref=f8e494]: 1 Pack
+                    - listitem [ref=f8e498]:
+                      - generic [ref=f8e501] [cursor=pointer]:
+                        - radio "4 Pack" [ref=f8e502]
+                        - generic [ref=f8e503]: 4 Pack
+                    - listitem [ref=f8e507]:
+                      - generic [ref=f8e510] [cursor=pointer]:
+                        - radio "One Size (Pack of 4)" [ref=f8e511]
+                        - generic [ref=f8e512]: One Size (Pack of 4)
+            - generic [ref=f8e516]:
+              - generic "Selected Style is USB Receiver. Tap to collapse." [ref=f8e517] [cursor=pointer]: "Style: USB Receiver"
+              - generic "There are 2 options." [ref=f8e520]:
+                - group "Make a Style selection" [ref=f8e522]:
+                  - radiogroup [ref=f8e523]:
+                    - listitem [ref=f8e524]:
+                      - generic [ref=f8e527] [cursor=pointer]:
+                        - radio "USB Receiver" [checked] [ref=f8e528]
+                        - generic [ref=f8e529]: USB Receiver
+                    - listitem [ref=f8e533]:
+                      - generic [ref=f8e536] [cursor=pointer]:
+                        - radio "Bluetooth" [ref=f8e537]
+                        - generic [ref=f8e538]: Bluetooth
+            - generic [ref=f8e542]:
+              - generic "Selected Color is Swift Grey. Tap to collapse." [ref=f8e543] [cursor=pointer]: "Color: Swift Grey"
+              - generic "There are 7 options." [ref=f8e546]:
+                - group "Make a Color selection" [ref=f8e548]:
+                  - radiogroup [ref=f8e549]:
+                    - listitem [ref=f8e550]:
+                      - generic [ref=f8e553] [cursor=pointer]:
+                        - radio "Swift Grey INR 1,345.55 with 22 percent savings INR1,345.55 INR1,735.23 INR1,735.23 In Stock" [checked] [ref=f8e554]
+                        - generic [ref=f8e555]:
+                          - separator [ref=f8e559]
+                          - generic [ref=f8e565]:
+                            - generic [ref=f8e566]:
+                              - generic [ref=f8e567]: INR 1,345.55 with 22 percent savings
+                              - generic [ref=f8e568]: INR1,345.55
+                            - generic [ref=f8e571]:
+                              - generic [ref=f8e572]: INR1,735.23
+                              - text: INR1,735.23
+                    - listitem [ref=f8e573]:
+                      - generic [ref=f8e576] [cursor=pointer]:
+                        - radio "Black INR 1,349.41 with 7 percent savings INR1,349.41 INR1,445.86 INR1,445.86" [ref=f8e577]
+                        - generic [ref=f8e578]:
+                          - separator [ref=f8e582]
+                          - generic [ref=f8e588]:
+                            - generic [ref=f8e589]:
+                              - generic [ref=f8e590]: INR 1,349.41 with 7 percent savings
+                              - generic [ref=f8e591]: INR1,349.41
+                            - generic [ref=f8e594]:
+                              - generic [ref=f8e595]: INR1,445.86
+                              - text: INR1,445.86
+                    - button "See 7 options with no featured offers" [ref=f8e596] [cursor=pointer]:
+                      - generic "See 7 options with no featured offers" [ref=f8e597]: See 5 options with no featured offers
+                  - navigation
+          - paragraph [ref=f8e604]: Customers usually keep this item.
+          - list [ref=f8e608]:
+            - rowgroup [ref=f8e609]:
+              - listitem [ref=f8e610]: Brand Logitech
+              - listitem [ref=f8e611]: Color Swift Grey
+              - listitem [ref=f8e612]: Connectivity Technology USB
+              - listitem [ref=f8e613]: Special Feature Wireless
+              - listitem [ref=f8e614]: Movement Detection Technology Optical
+          - generic [ref=f8e616]:
+            - separator [ref=f8e617]
+            - heading "About this item" [level=1] [ref=f8e618]
+            - list [ref=f8e619]:
+              - listitem [ref=f8e620]: "Compact Mouse: With a comfortable and contoured shape, this Logitech ambidextrous wireless mouse feels great in either right or left hand and is far superior to a touchpad"
+              - listitem [ref=f8e621]: "Durable and Reliable: This USB wireless mouse features a line-by-line scroll wheel, up to 1 year of battery life (2) thanks to a smart sleep mode function, and comes with the included AA battery"
+              - listitem [ref=f8e622]: "Universal Compatibility: Your Logitech mouse works with your Windows PC, Mac, or laptop, so no matter what type of computer you own today or buy tomorrow your mouse will be compatible"
+              - listitem [ref=f8e623]: "Plug and Play Simplicity: Just plug in the tiny nano USB receiver and start working in seconds with a strong, reliable connection to your wireless computer mouse up to 33 feet / 10 m (5)"
+              - listitem [ref=f8e624]: "Better than touchpad: Get more done by adding M185 to your laptop; according to a recent study, laptop users who chose this mouse over a touchpad were 50% more productive (3) and worked 30% faster (4)"
+              - listitem [ref=f8e625]: "Small and portable: The compact size and smooth cursor control make this mouse suitable for small to medium hands, tight workspaces or offices, and busy desktops"
+              - listitem [ref=f8e626]: The plastic parts in M185 include certified post consumer recycled plastic (77% for black and 49% for Charcoal/Grey, Black/Blue Glossy & Black/Red Glossy (6))
+            - button "Show more" [ref=f8e628] [cursor=pointer]
+            - generic [ref=f8e630]:
+              - text: ›
+              - link "See more product details" [ref=f8e631] [cursor=pointer]:
+                - /url: "#productDetails"
+          - link "Report an issue with this product or seller" [ref=f8e637] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=f8e640]:
+            - separator [ref=f8e641]
+            - heading "Check Compatibility" [level=1] [ref=f8e642]
+            - generic [ref=f8e649]:
+              - generic [ref=f8e650]: Choose your brand
+              - list [ref=f8e653]:
+                - listitem [ref=f8e654]:
+                  - button "Apple" [ref=f8e658] [cursor=pointer]
+                - listitem [ref=f8e661]:
+                  - button "SAMSUNG" [ref=f8e665] [cursor=pointer]
+                - listitem [ref=f8e668]:
+                  - button "Microsoft" [ref=f8e672] [cursor=pointer]
+                - listitem [ref=f8e675]:
+                  - button "Lenovo" [ref=f8e679] [cursor=pointer]
+                - listitem [ref=f8e682]:
+                  - button "Google" [ref=f8e686] [cursor=pointer]
+                - listitem [ref=f8e689]:
+                  - button "See all options" [ref=f8e693] [cursor=pointer]
+          - generic [ref=f8e697]:
+            - separator [ref=f8e698]
+            - generic [ref=f8e699]:
+              - heading "Competitively priced item" [level=4] [ref=f8e701]
+              - generic [ref=f8e703]:
+                - generic [ref=f8e704]: Amazon's
+                - generic [ref=f8e705]: Choice
+              - generic [ref=f8e708]:
+                - link [ref=f8e711] [cursor=pointer]:
+                  - /url: /dp/B01NADN0Q1/ref=vp_d_pb_cmt_lp_B004YAVF8I_pd?_encoding=UTF8&pf_rd_p=9e9b04e1-73cb-4a08-960e-38dc4f3bd2fa&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=HRMLO&pd_rd_i=B01NADN0Q1&pd_rd_w=zVq8c&content-id=amzn1.sym.9e9b04e1-73cb-4a08-960e-38dc4f3bd2fa&pd_rd_r=5fc768a6-dd21-4621-98d4-1b52b35406dd&psc=1
+                - generic [ref=f8e713]:
+                  - link "Amazon Basics 2.4 GHz Optical Wireless Mouse for Laptop and Computer, USB Nano Receiver, Red" [ref=f8e715] [cursor=pointer]:
+                    - /url: /dp/B01NADN0Q1/ref=vp_d_pb_cmt_lp_B004YAVF8I_pd?_encoding=UTF8&pf_rd_p=9e9b04e1-73cb-4a08-960e-38dc4f3bd2fa&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=HRMLO&pd_rd_i=B01NADN0Q1&pd_rd_w=zVq8c&content-id=amzn1.sym.9e9b04e1-73cb-4a08-960e-38dc4f3bd2fa&pd_rd_r=5fc768a6-dd21-4621-98d4-1b52b35406dd&psc=1
+                  - generic [ref=f8e716]:
+                    - generic [ref=f8e717]: 4.5 out of 5 stars
+                    - link "69332 ratings" [ref=f8e719] [cursor=pointer]:
+                      - /url: /product-reviews/B01NADN0Q1/ref=vp_d_pb_cmt_lp_B004YAVF8I_rv?_encoding=UTF8&pf_rd_p=9e9b04e1-73cb-4a08-960e-38dc4f3bd2fa&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=HRMLO&pd_rd_i=B01NADN0Q1&pd_rd_w=zVq8c&content-id=amzn1.sym.9e9b04e1-73cb-4a08-960e-38dc4f3bd2fa&pd_rd_r=5fc768a6-dd21-4621-98d4-1b52b35406dd?showViewpoints=1
+                      - text: (69332)
+                  - generic [ref=f8e720]: 1,214.37
+        - generic [ref=f8e723]:
+          - separator [ref=f8e724]
+          - generic [ref=f8e727]:
+            - iframe [ref=f8e728]:
+              - generic [ref=f10e9]:
+                - link "Sponsored ad. Logitech MX Keys S Wireless Keyboard, Low Profile, Fluid Precise Quiet Typing, Programmable Keys, Backlighting, Bluetooth, USB C Rechargeable, for Windows PC, Linux, Chrome, Mac - Graphite. Click to learn more about this product on Amazon." [ref=f10e10] [cursor=pointer]:
+                  - /url: https://aax-events-cell01-cf.us-east.ono.axp.amazon-adsystem.com/x/c/RE9dcoN3Qwcz5ZGJZ_gw_9EAAAGfcBA1nQEAAAH0BABvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBUJKc-/clv1c_ek-wBQH2FbbazjI3EEdR34LIqRpWsFzv-Qb-dlan_tCPg75UymoSUOu9uxSn5nzHeaxuEgKjfQ57agi2TZq4kiEO5V-LETQVXyereTfl28lHvUXS6-nnCRj8qhKuQp3yGPWwHsNXrY4D3nUxAOLGu9DQkMbiltbiqpDYX7UY2HfzyDgYfPNxaB9RaKV2Njo9EuQW4Fpjt5FqtbHtj1Ts9F0jt1yUKRfj_1vHRSFkqgBSc9b1tGNd80BkxzQNzFn-471b0kwXzAozETfrA3ltjqvu6eCewBwArA537FPLkn35d3_3mXZb2jVwQhuL9XaHd-iQJ6A0yaBAfO3H6xkMjbeIDy_mEthztP1KOGwxo_aFHp_-XLBnDAZqH34Kr8K9NA1ygTm9G6nZFDs8Yd2yk2BF4sHkjoWFSkG4u4cafQjhxB4m7glfuYjVg1miQ1KPnMj4ayQQAkZg-xSScedLmRamQ5OP7fu-RbVR6JtwXOSgBmxWHa-mIZ6XhEWXP9ZtlZ__MKOkvIXo1KXs35K_lLmeZRAQ_gtWeGrUa-Fd5vqsn3UdpF0_Xz-dYiNompiVExUPfPA6gBkLW15H6B3pwnNLiD12LwGsFtBIs80fZw1pgHYRPEN9ariNcmDmWR3HPzMoneP-V-jDnyfib6_vxXDD3bV5jLRfNHftTQ-PW3SWvGSIQiYubc7Tqumnu9sQm7PiZfY4vt0042g8XtVonjNjEQzJw-XvMOGB1YDRmvUzga1qCwJoA0geP9xMFFizI8wmKLI-XzntYJT7NZcSv3ENMagUOuuJC4dqCHA3Ql2FX9qZUuXB2W2Wx54D5JEidG_AO9yFq08Sa6MIDxGqJpL4h40ZWo8zJK00DIIJj3ZgzFtqDB3cJ3T2YikIA6_oStJPs9ZYCRJL1ulrcA0LgmcJtYNOzBfUwCw8ymsZ1myyixfWUuR9vFrMXIT0YT_YCqbSBGK465DcPEwnjeZiCG74IDFmIlKXiJkWsVB2nafF9Ew4_66SQBLYtLcwWd1Gha560CYcdk0nwysWiJsK31_KfcQ2gh23Xj_g5koSbGUZL8vmJB6k8ixbCsR5VP3kMEh63BRjlu1wn0F_2Iw6zq1JePqay7eWdIrY-RqLFuqyLlsJOskzhpKiWq64HbLVS5_d53Sh5aqlJK476Yy0cfevPQgzgOAaxPdAnLaFOllVzlJDiMvYjQ0qRNKQZOuggKZL827mDCyNzhZ026P90XtkYFlm-VCwQviWA4P7b5VT4b6ZYKBa4-BMUtCFI53DMefzBtdmNw5XCr1USEkEOOuEC1iaUwDAsOp5r2AgZXGDkkRbuN8T/https://www.amazon.com/dp/B0BKW3LB2B
+                - generic [ref=f10e11]:
+                  - region "Video Player" [ref=f10e14]:
+                    - application "Video player" [ref=f10e15]
+                    - link "Sponsored ad. Logitech MX Keys S Wireless Keyboard, Low Profile, Fluid Precise Quiet Typing, Programmable Keys, Backlighting, Bluetooth, USB C Rechargeable, for Windows PC, Linux, Chrome, Mac - Graphite. Click to learn more about this product on Amazon." [ref=f10e16] [cursor=pointer]:
+                      - /url: https://aax-events-cell01-cf.us-east.ono.axp.amazon-adsystem.com/x/c/RE9dcoN3Qwcz5ZGJZ_gw_9EAAAGfcBA1nQEAAAH0BABvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBUJKc-/clv1c_ek-wBQH2FbbazjI3EEdR34LIqRpWsFzv-Qb-dlan_tCPg75UymoSUOu9uxSn5nzHeaxuEgKjfQ57agi2TZq4kiEO5V-LETQVXyereTfl28lHvUXS6-nnCRj8qhKuQp3yGPWwHsNXrY4D3nUxAOLGu9DQkMbiltbiqpDYX7UY2HfzyDgYfPNxaB9RaKV2Njo9EuQW4Fpjt5FqtbHtj1Ts9F0jt1yUKRfj_1vHRSFkqgBSc9b1tGNd80BkxzQNzFn-471b0kwXzAozETfrA3ltjqvu6eCewBwArA537FPLkn35d3_3mXZb2jVwQhuL9XaHd-iQJ6A0yaBAfO3H6xkMjbeIDy_mEthztP1KOGwxo_aFHp_-XLBnDAZqH34Kr8K9NA1ygTm9G6nZFDs8Yd2yk2BF4sHkjoWFSkG4u4cafQjhxB4m7glfuYjVg1miQ1KPnMj4ayQQAkZg-xSScedLmRamQ5OP7fu-RbVR6JtwXOSgBmxWHa-mIZ6XhEWXP9ZtlZ__MKOkvIXo1KXs35K_lLmeZRAQ_gtWeGrUa-Fd5vqsn3UdpF0_Xz-dYiNompiVExUPfPA6gBkLW15H6B3pwnNLiD12LwGsFtBIs80fZw1pgHYRPEN9ariNcmDmWR3HPzMoneP-V-jDnyfib6_vxXDD3bV5jLRfNHftTQ-PW3SWvGSIQiYubc7Tqumnu9sQm7PiZfY4vt0042g8XtVonjNjEQzJw-XvMOGB1YDRmvUzga1qCwJoA0geP9xMFFizI8wmKLI-XzntYJT7NZcSv3ENMagUOuuJC4dqCHA3Ql2FX9qZUuXB2W2Wx54D5JEidG_AO9yFq08Sa6MIDxGqJpL4h40ZWo8zJK00DIIJj3ZgzFtqDB3cJ3T2YikIA6_oStJPs9ZYCRJL1ulrcA0LgmcJtYNOzBfUwCw8ymsZ1myyixfWUuR9vFrMXIT0YT_YCqbSBGK465DcPEwnjeZiCG74IDFmIlKXiJkWsVB2nafF9Ew4_66SQBLYtLcwWd1Gha560CYcdk0nwysWiJsK31_KfcQ2gh23Xj_g5koSbGUZL8vmJB6k8ixbCsR5VP3kMEh63BRjlu1wn0F_2Iw6zq1JePqay7eWdIrY-RqLFuqyLlsJOskzhpKiWq64HbLVS5_d53Sh5aqlJK476Yy0cfevPQgzgOAaxPdAnLaFOllVzlJDiMvYjQ0qRNKQZOuggKZL827mDCyNzhZ026P90XtkYFlm-VCwQviWA4P7b5VT4b6ZYKBa4-BMUtCFI53DMefzBtdmNw5XCr1USEkEOOuEC1iaUwDAsOp5r2AgZXGDkkRbuN8T/https://www.amazon.com/dp/B0BKW3LB2B
+                    - button "Play Video" [ref=f10e17] [cursor=pointer]: 
+                    - text:    
+                  - generic [ref=f10e20]:
+                    - img "Logitech MX Keys S Wireless Keyboard, Low Profile, Fluid Precise Quiet Typing, Programmable Keys, Backlighting, Bluetooth, USB C Rechargeable, for Windows PC, Linux, Chrome, Mac - Graphite" [ref=f10e22]
+                    - img "Logitech MX Keys S Wireless Keyboard, Low Profile, Fluid Precise Quiet Typing, Programmable Keys, Backlighting, Bluetooth, USB C Rechargeable, for Windows PC, Linux, Chrome, Mac - Graphite" [ref=f10e24]
+                  - generic [ref=f10e25]: Logitech MX Keys S Wireless Keyboard, Low Profile, Fluid Precise Quiet Typing, Programmable Keys, Backlighting, Bluetooth, USB C Rechargeable, for Windows PC, Linux, Chrome, Mac - Graphite
+                  - generic [ref=f10e28]:
+                    - generic [ref=f10e29]:
+                      - generic [ref=f10e30]: $
+                      - generic [ref=f10e31]: "124.99"
+                    - img "Prime" [ref=f10e32]
+            - button "Leave feedback on Sponsored ad" [ref=f8e730] [cursor=pointer]:
+              - generic [ref=f8e731]: Sponsored
+      - generic [ref=f8e736]:
+        - separator [ref=f8e737]
+        - group [ref=f8e740]:
+          - heading "Explore more from across the store" [level=2] [ref=f8e745]
+          - group [ref=f8e750]:
+            - list [ref=f8e751]:
+              - listitem [ref=f8e752]:
+                - generic [ref=f8e754]:
+                  - link [ref=f8e756] [cursor=pointer]:
+                    - /url: /Logitech-Wireless-Computer-Unifying-Receiver/dp/B087Z5WDJ2/ref=bmx_dp_d_sccl_1_1/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B087Z5WDJ2&psc=1
+                  - generic [ref=f8e759]:
+                    - link "Logitech M510 Wireless Mouse, 2.4 GHz with USB Unifying Receiver, 1000 DPI Laser-Grade Tracking, 7-Buttons, 24-Months Battery Life, PC/Mac/Laptop - Graphite" [ref=f8e760] [cursor=pointer]:
+                      - /url: /Logitech-Wireless-Computer-Unifying-Receiver/dp/B087Z5WDJ2/ref=bmx_dp_d_sccl_1_1/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B087Z5WDJ2&psc=1
+                    - link "4.6 out of 5 stars, 35,116 ratings" [ref=f8e765] [cursor=pointer]:
+                      - /url: /product-reviews/B087Z5WDJ2/ref=bmx_dp_d_sccl_1_1_cr/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B087Z5WDJ2
+                      - generic [ref=f8e766]: 4.6 out of 5 stars
+                      - text: 35,116
+                    - link "37 offers from INR 2,004.33" [ref=f8e769] [cursor=pointer]:
+                      - /url: /Logitech-Wireless-Computer-Unifying-Receiver/dp/B087Z5WDJ2/ref=bmx_dp_d_sccl_1_1/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B087Z5WDJ2&psc=1
+                      - generic [ref=f8e770]:
+                        - text: 37 offers from
+                        - generic [ref=f8e771]: INR 2,004.33
+              - listitem [ref=f8e772]:
+                - generic [ref=f8e774]:
+                  - link [ref=f8e776] [cursor=pointer]:
+                    - /url: /HP-X3000-Wireless-Mouse-Travel-Friendly/dp/B09Y8K2HJN/ref=bmx_dp_d_sccl_1_2/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B09Y8K2HJN&psc=1
+                  - generic [ref=f8e779]:
+                    - link "HP X3000 G3 Wireless Mouse - Black, 15-Month Battery, Side Grips for Control, Travel-Friendly, Blue LED, Powerful 1600 DPI Optical Sensor, Compatible with Wins PC/Laptop, Mac, Chromebook (683N7AA)" [ref=f8e780] [cursor=pointer]:
+                      - /url: /HP-X3000-Wireless-Mouse-Travel-Friendly/dp/B09Y8K2HJN/ref=bmx_dp_d_sccl_1_2/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B09Y8K2HJN&psc=1
+                    - link "4.5 out of 5 stars, 10,215 ratings" [ref=f8e785] [cursor=pointer]:
+                      - /url: /product-reviews/B09Y8K2HJN/ref=bmx_dp_d_sccl_1_2_cr/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B09Y8K2HJN
+                      - generic [ref=f8e786]: 4.5 out of 5 stars
+                      - text: 10,215
+                    - link "6 offers from INR 1,252.95" [ref=f8e789] [cursor=pointer]:
+                      - /url: /HP-X3000-Wireless-Mouse-Travel-Friendly/dp/B09Y8K2HJN/ref=bmx_dp_d_sccl_1_2/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B09Y8K2HJN&psc=1
+                      - generic [ref=f8e790]:
+                        - text: 6 offers from
+                        - generic [ref=f8e791]: INR 1,252.95
+              - listitem [ref=f8e792]:
+                - generic [ref=f8e794]:
+                  - link [ref=f8e796] [cursor=pointer]:
+                    - /url: /MROCO-Comfortable-Mouse-Non-Slip-Waterproof/dp/B07B7LBPNZ/ref=bmx_dp_d_sccl_1_3/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B07B7LBPNZ&psc=1
+                  - generic [ref=f8e799]:
+                    - link "MROCO Essential Office & Gaming Mouse Pad, 30% Larger, 8.5” x 11” in, Black | Anti-Fray Stitched Edges, Premium Textured Surface, Non-Slip Rubber Base, Water and Stain Resistant Protection" [ref=f8e800] [cursor=pointer]:
+                      - /url: /MROCO-Comfortable-Mouse-Non-Slip-Waterproof/dp/B07B7LBPNZ/ref=bmx_dp_d_sccl_1_3/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B07B7LBPNZ&psc=1
+                    - link "4.7 out of 5 stars, 32,340 ratings" [ref=f8e805] [cursor=pointer]:
+                      - /url: /product-reviews/B07B7LBPNZ/ref=bmx_dp_d_sccl_1_3_cr/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B07B7LBPNZ
+                      - generic [ref=f8e806]: 4.7 out of 5 stars
+                      - text: 32,340
+                    - link "INR384.86" [ref=f8e811] [cursor=pointer]:
+                      - /url: /MROCO-Comfortable-Mouse-Non-Slip-Waterproof/dp/B07B7LBPNZ/ref=bmx_dp_d_sccl_1_3/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B07B7LBPNZ&psc=1
+                      - generic [ref=f8e813]:
+                        - generic [ref=f8e814]: INR384.86
+                        - generic [ref=f8e815]:
+                          - text: INR
+                          - generic [ref=f8e816]: "384."
+                          - text: "86"
+                    - text: FREE Shipping by Amazon
+                  - button "1 sustainability feature" [ref=f8e820] [cursor=pointer]
+              - listitem [ref=f8e823]:
+                - generic [ref=f8e825]:
+                  - link [ref=f8e827] [cursor=pointer]:
+                    - /url: /Amazon-Basics-Square-Rubberized-Standard/dp/B06X3W3YQD/ref=bmx_dp_d_sccl_1_4/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B06X3W3YQD&psc=1
+                  - generic [ref=f8e830]:
+                    - link "Amazon Basics Square Mouse Pad, Cloth with Rubberized Base, Standard, Black, 12.4L x 10.6W inches" [ref=f8e831] [cursor=pointer]:
+                      - /url: /Amazon-Basics-Square-Rubberized-Standard/dp/B06X3W3YQD/ref=bmx_dp_d_sccl_1_4/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B06X3W3YQD&psc=1
+                    - link "4.6 out of 5 stars, 65,253 ratings" [ref=f8e836] [cursor=pointer]:
+                      - /url: /product-reviews/B06X3W3YQD/ref=bmx_dp_d_sccl_1_4_cr/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B06X3W3YQD
+                      - generic [ref=f8e837]: 4.6 out of 5 stars
+                      - text: 65,253
+                    - link "INR867.13" [ref=f8e842] [cursor=pointer]:
+                      - /url: /Amazon-Basics-Square-Rubberized-Standard/dp/B06X3W3YQD/ref=bmx_dp_d_sccl_1_4/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B06X3W3YQD&psc=1
+                      - generic [ref=f8e844]:
+                        - generic [ref=f8e845]: INR867.13
+                        - generic [ref=f8e846]:
+                          - text: INR
+                          - generic [ref=f8e847]: "867."
+                          - text: "13"
+                    - text: INR 946.22 shipping
+              - listitem [ref=f8e848]:
+                - generic [ref=f8e850]:
+                  - link [ref=f8e852] [cursor=pointer]:
+                    - /url: /Dapesuom-Non-Slip-Waterproof-Wireless-Black/dp/B097BZG8TB/ref=bmx_dp_d_sccl_1_5/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B097BZG8TB&psc=1
+                  - generic [ref=f8e855]:
+                    - link "Dapesuom Small Mouse Pad, 6 x 8 Inch Thick Rubber Premium-Textured Non-Slip Portable & Washable Mini Mouse Mat for Women Men Wireless Laptops Keyboard Tray Gaming Work Computer Office Travel, Black" [ref=f8e856] [cursor=pointer]:
+                      - /url: /Dapesuom-Non-Slip-Waterproof-Wireless-Black/dp/B097BZG8TB/ref=bmx_dp_d_sccl_1_5/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B097BZG8TB&psc=1
+                    - link "4.6 out of 5 stars, 3,496 ratings" [ref=f8e861] [cursor=pointer]:
+                      - /url: /product-reviews/B097BZG8TB/ref=bmx_dp_d_sccl_1_5_cr/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B097BZG8TB
+                      - generic [ref=f8e862]: 4.6 out of 5 stars
+                      - text: 3,496
+                    - link "INR481.31" [ref=f8e867] [cursor=pointer]:
+                      - /url: /Dapesuom-Non-Slip-Waterproof-Wireless-Black/dp/B097BZG8TB/ref=bmx_dp_d_sccl_1_5/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B097BZG8TB&psc=1
+                      - generic [ref=f8e869]:
+                        - generic [ref=f8e870]: INR481.31
+                        - generic [ref=f8e871]:
+                          - text: INR
+                          - generic [ref=f8e872]: "481."
+                          - text: "31"
+                    - text: FREE Shipping by Amazon
+              - listitem [ref=f8e873]:
+                - generic [ref=f8e875]:
+                  - link [ref=f8e877] [cursor=pointer]:
+                    - /url: /Lacdo-Protective-Pavilion-ThinkPad-Vivobook/dp/B0CTDKB2S9/ref=bmx_dp_d_sccl_1_6/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B0CTDKB2S9&psc=1
+                  - generic [ref=f8e880]:
+                    - link "Lacdo 360° Protective 16 Inch Laptop Sleeve Case for 16 Inch HP Lenovo ASUS Acer Dell Laptop/HP Pavilion Envy/Lenovo ThinkPad IdeaPad/Acer Swift/ASUS Vivobook/Dell Computer Bag, Black" [ref=f8e881] [cursor=pointer]:
+                      - /url: /Lacdo-Protective-Pavilion-ThinkPad-Vivobook/dp/B0CTDKB2S9/ref=bmx_dp_d_sccl_1_6/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B0CTDKB2S9&psc=1
+                    - link "4.7 out of 5 stars, 27,208 ratings" [ref=f8e886] [cursor=pointer]:
+                      - /url: /product-reviews/B0CTDKB2S9/ref=bmx_dp_d_sccl_1_6_cr/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B0CTDKB2S9
+                      - generic [ref=f8e887]: 4.7 out of 5 stars
+                      - text: 27,208
+                    - link "7 offers from INR 1,696.64" [ref=f8e890] [cursor=pointer]:
+                      - /url: /Lacdo-Protective-Pavilion-ThinkPad-Vivobook/dp/B0CTDKB2S9/ref=bmx_dp_d_sccl_1_6/133-3309600-6424437?pd_rd_w=iVWBZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B0CTDKB2S9&psc=1
+                      - generic [ref=f8e891]:
+                        - text: 7 offers from
+                        - generic [ref=f8e892]: INR 1,696.64
+      - generic [ref=f8e897]:
+        - separator [ref=f8e898]
+        - group [ref=f8e901]:
+          - heading "Customers who viewed this item also viewed" [level=2] [ref=f8e906]
+          - group [ref=f8e911]:
+            - list [ref=f8e912]:
+              - listitem [ref=f8e913]:
+                - generic [ref=f8e915]:
+                  - link [ref=f8e917] [cursor=pointer]:
+                    - /url: /Logitech-Wireless-Computer-Unifying-Receiver/dp/B087Z5WDJ2/ref=pd_sbs_d_sccl_2_1/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B087Z5WDJ2&psc=1
+                  - generic [ref=f8e920]:
+                    - link "Logitech M510 Wireless Mouse, 2.4 GHz with USB Unifying Receiver, 1000 DPI Laser-Grade Tracking, 7-Buttons, 24-Months Battery Life, PC/Mac/Laptop - Graphite" [ref=f8e921] [cursor=pointer]:
+                      - /url: /Logitech-Wireless-Computer-Unifying-Receiver/dp/B087Z5WDJ2/ref=pd_sbs_d_sccl_2_1/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B087Z5WDJ2&psc=1
+                    - link "4.6 out of 5 stars, 35,116 ratings" [ref=f8e926] [cursor=pointer]:
+                      - /url: /product-reviews/B087Z5WDJ2/ref=pd_sbs_d_sccl_2_1_cr/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B087Z5WDJ2
+                      - generic [ref=f8e927]: 4.6 out of 5 stars
+                      - text: 35,116
+                    - link "37 offers from INR 2,004.33" [ref=f8e930] [cursor=pointer]:
+                      - /url: /Logitech-Wireless-Computer-Unifying-Receiver/dp/B087Z5WDJ2/ref=pd_sbs_d_sccl_2_1/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B087Z5WDJ2&psc=1
+                      - generic [ref=f8e931]:
+                        - text: 37 offers from
+                        - generic [ref=f8e932]: INR 2,004.33
+              - listitem [ref=f8e933]:
+                - generic [ref=f8e935]:
+                  - link [ref=f8e937] [cursor=pointer]:
+                    - /url: /Amazon-Basics-Wireless-Multi-Device-Compatibility/dp/B005EJH6Z4/ref=pd_sbs_d_sccl_2_2/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B005EJH6Z4&psc=1
+                  - generic [ref=f8e940]:
+                    - link "Amazon Basics 2.4 GHz Wireless Optical Computer Mouse with USB Nano Receiver, Portable, No Wires, Smooth Tracking, Multi-Device Compatibility, Black" [ref=f8e941] [cursor=pointer]:
+                      - /url: /Amazon-Basics-Wireless-Multi-Device-Compatibility/dp/B005EJH6Z4/ref=pd_sbs_d_sccl_2_2/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B005EJH6Z4&psc=1
+                    - link "4.5 out of 5 stars, 69,332 ratings" [ref=f8e946] [cursor=pointer]:
+                      - /url: /product-reviews/B005EJH6Z4/ref=pd_sbs_d_sccl_2_2_cr/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B005EJH6Z4
+                      - generic [ref=f8e947]: 4.5 out of 5 stars
+                      - text: 69,332
+                    - link "7 offers from INR 843.02" [ref=f8e950] [cursor=pointer]:
+                      - /url: /Amazon-Basics-Wireless-Multi-Device-Compatibility/dp/B005EJH6Z4/ref=pd_sbs_d_sccl_2_2/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B005EJH6Z4&psc=1
+                      - generic [ref=f8e951]:
+                        - text: 7 offers from
+                        - generic [ref=f8e952]: INR 843.02
+              - listitem [ref=f8e953]:
+                - generic [ref=f8e955]:
+                  - link [ref=f8e957] [cursor=pointer]:
+                    - /url: /Logitech-Bluetooth-Wireless-Portable-Compatible/dp/B0D9N7RY1D/ref=pd_sbs_d_sccl_2_3/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B0D9N7RY1D&psc=1
+                  - generic [ref=f8e960]:
+                    - link "Logitech M196 Bluetooth Wireless Mouse, Compact and Portable Mouse for Laptops, Tablets and More, 12-Month Battery, Smooth Tracking, Compatible with PC and Mac, Windows and macOS - Graphite" [ref=f8e961] [cursor=pointer]:
+                      - /url: /Logitech-Bluetooth-Wireless-Portable-Compatible/dp/B0D9N7RY1D/ref=pd_sbs_d_sccl_2_3/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B0D9N7RY1D&psc=1
+                    - link "4.5 out of 5 stars, 5,751 ratings" [ref=f8e966] [cursor=pointer]:
+                      - /url: /product-reviews/B0D9N7RY1D/ref=pd_sbs_d_sccl_2_3_cr/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B0D9N7RY1D
+                      - generic [ref=f8e967]: 4.5 out of 5 stars
+                      - text: 5,751
+                    - link "40 offers from INR 837.23" [ref=f8e970] [cursor=pointer]:
+                      - /url: /Logitech-Bluetooth-Wireless-Portable-Compatible/dp/B0D9N7RY1D/ref=pd_sbs_d_sccl_2_3/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B0D9N7RY1D&psc=1
+                      - generic [ref=f8e971]:
+                        - text: 40 offers from
+                        - generic [ref=f8e972]: INR 837.23
+              - listitem [ref=f8e973]:
+                - generic [ref=f8e975]:
+                  - link [ref=f8e977] [cursor=pointer]:
+                    - /url: /Logitech-M185-Wireless-Mouse-Refurbished/dp/B00DTOKEKK/ref=pd_sbs_d_sccl_2_4/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B00DTOKEKK&psc=1
+                  - generic [ref=f8e980]:
+                    - link "Logitech M185 Wireless Mouse - Gray (Renewed)" [ref=f8e981] [cursor=pointer]:
+                      - /url: /Logitech-M185-Wireless-Mouse-Refurbished/dp/B00DTOKEKK/ref=pd_sbs_d_sccl_2_4/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B00DTOKEKK&psc=1
+                    - link "4.6 out of 5 stars, 23 ratings" [ref=f8e986] [cursor=pointer]:
+                      - /url: /product-reviews/B00DTOKEKK/ref=pd_sbs_d_sccl_2_4_cr/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B00DTOKEKK
+                      - generic [ref=f8e987]: 4.6 out of 5 stars
+                      - text: "23"
+                    - link "2 offers from INR 963.59" [ref=f8e990] [cursor=pointer]:
+                      - /url: /Logitech-M185-Wireless-Mouse-Refurbished/dp/B00DTOKEKK/ref=pd_sbs_d_sccl_2_4/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B00DTOKEKK&psc=1
+                      - generic [ref=f8e991]:
+                        - text: 2 offers from
+                        - generic [ref=f8e992]: INR 963.59
+              - listitem [ref=f8e993]:
+                - generic [ref=f8e995]:
+                  - link [ref=f8e997] [cursor=pointer]:
+                    - /url: /HP-X3000-Wireless-Mouse-Travel-Friendly/dp/B09Y8K2HJN/ref=pd_sbs_d_sccl_2_5/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B09Y8K2HJN&psc=1
+                  - generic [ref=f8e1000]:
+                    - link "HP X3000 G3 Wireless Mouse - Black, 15-Month Battery, Side Grips for Control, Travel-Friendly, Blue LED, Powerful 1600 DPI Optical Sensor, Compatible with Wins PC/Laptop, Mac, Chromebook (683N7AA)" [ref=f8e1001] [cursor=pointer]:
+                      - /url: /HP-X3000-Wireless-Mouse-Travel-Friendly/dp/B09Y8K2HJN/ref=pd_sbs_d_sccl_2_5/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B09Y8K2HJN&psc=1
+                    - link "4.5 out of 5 stars, 10,215 ratings" [ref=f8e1006] [cursor=pointer]:
+                      - /url: /product-reviews/B09Y8K2HJN/ref=pd_sbs_d_sccl_2_5_cr/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B09Y8K2HJN
+                      - generic [ref=f8e1007]: 4.5 out of 5 stars
+                      - text: 10,215
+                    - link "6 offers from INR 1,252.95" [ref=f8e1010] [cursor=pointer]:
+                      - /url: /HP-X3000-Wireless-Mouse-Travel-Friendly/dp/B09Y8K2HJN/ref=pd_sbs_d_sccl_2_5/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B09Y8K2HJN&psc=1
+                      - generic [ref=f8e1011]:
+                        - text: 6 offers from
+                        - generic [ref=f8e1012]: INR 1,252.95
+              - listitem [ref=f8e1013]:
+                - generic [ref=f8e1015]:
+                  - link [ref=f8e1017] [cursor=pointer]:
+                    - /url: /acer-Wireless-Computer-Adjustable-Compatible/dp/B0F5HPCLGB/ref=pd_sbs_d_sccl_2_6/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B0F5HPCLGB&psc=1
+                  - generic [ref=f8e1020]:
+                    - link "acer Wireless Mouse for Laptop, 2.4GHz Computer Mouse 3 Adjustable DPI Office Cordless USB Mice with USBA Receiver, 6 Buttons, 1600 DPI, Medium to Large Sized Hands Compatible with PC, Laptop, Desktop" [ref=f8e1021] [cursor=pointer]:
+                      - /url: /acer-Wireless-Computer-Adjustable-Compatible/dp/B0F5HPCLGB/ref=pd_sbs_d_sccl_2_6/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B0F5HPCLGB&psc=1
+                    - link "4.4 out of 5 stars, 6,215 ratings" [ref=f8e1026] [cursor=pointer]:
+                      - /url: /product-reviews/B0F5HPCLGB/ref=pd_sbs_d_sccl_2_6_cr/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B0F5HPCLGB
+                      - generic [ref=f8e1027]: 4.4 out of 5 stars
+                      - text: 6,215
+                    - link "4 offers from INR 1,235.59" [ref=f8e1030] [cursor=pointer]:
+                      - /url: /acer-Wireless-Computer-Adjustable-Compatible/dp/B0F5HPCLGB/ref=pd_sbs_d_sccl_2_6/133-3309600-6424437?pd_rd_w=BK1Kd&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pd_rd_i=B0F5HPCLGB&psc=1
+                      - generic [ref=f8e1031]:
+                        - text: 4 offers from
+                        - generic [ref=f8e1032]: INR 1,235.59
+                  - button "1 sustainability feature" [ref=f8e1036] [cursor=pointer]
+      - generic [ref=f8e1039]:
+        - generic [ref=f8e1041]:
+          - separator [ref=f8e1042]
+          - heading "Focus on sustainability" [level=2] [ref=f8e1043]
+          - generic [ref=f8e1046]:
+            - img "we design technology with your future in mind, because big change starts with people." [ref=f8e1050]
+            - generic [ref=f8e1053]:
+              - img "icon" [ref=f8e1055]
+              - generic [ref=f8e1056]:
+                - heading "RECYCLED PLASTICS" [level=3] [ref=f8e1057]
+                - paragraph [ref=f8e1058]: The plastic parts in M185 include certified post consumer recycled plastic — 77% for Black and 49% for Charcoal/Grey, Black/Blue Glossy & Black/Red Glossy* — to give a second life to end-of-life plastic from old consumer electronics and help reduce our carbon footprint.
+                - paragraph [ref=f8e1059]: "*Excludes receiver and printed wiring assembly (PWA) plastics, and packaging"
+            - generic [ref=f8e1062]:
+              - img "icon 2" [ref=f8e1064]
+              - generic [ref=f8e1065]:
+                - heading "CARBON CLARITY" [level=3] [ref=f8e1066]
+                - paragraph [ref=f8e1067]: We believe carbon is the new calorie - everyone should know what they're consuming. The carbon footprint of this product is 3.97 kg CO2e. We're working hard to reduce it by rethinking the way we design.
+        - generic:
+          - navigation:
+            - navigation "Navigate within the product detail page":
+              - navigation "Back to top jump link":
+                - generic: Top
+              - navigation "About this item widget jump link":
+                - generic: About this item
+              - navigation "Similar widget jump link":
+                - generic: Similar
+              - navigation "Product information widget jump link":
+                - generic: Product information
+              - navigation "From the brand widget jump link":
+                - generic: From the Brand
+              - navigation "Customer reviews widget jump link":
+                - generic: Reviews
+            - navigation "Back to top Image jump link":
+              - img "Logitech M185 Wireless Mouse, 2.4GHz with USB Mini Receiver, 12-Month Battery Life, 1000 DPI Optical Tracking, Ambidextrous, Compatible with PC, Mac, Laptop - Swift Grey"
+            - navigation "Back to top title jump link":
+              - generic: Logitech M185 Wireless Mouse, 2.4GHz with USB Mini Receiver, 12-Month Battery Life, 1000 DPI Optical Tracking, Ambidextrous, Compatible with PC, Mac, Laptop - Swift Grey
+        - generic [ref=f8e1069]:
+          - separator [ref=f8e1070]
+          - heading "From the manufacturer" [level=2] [ref=f8e1071]
+          - generic [ref=f8e1074]:
+            - img "m185 wireless mouse" [ref=f8e1079]
+            - generic [ref=f8e1082]:
+              - region "Featured content carousel" [ref=f8e1083]:
+                - list [ref=f8e1088]:
+                  - listitem [ref=f8e1089]:
+                    - generic [ref=f8e1090]:
+                      - img "m185 wireless mouse" [ref=f8e1092]
+                      - generic [ref=f8e1096]:
+                        - heading "COMFORTABLE SHAPE, COMPACT DESIGN" [level=1] [ref=f8e1098]
+                        - paragraph [ref=f8e1100]: The comfortable, contoured shape of M185 follows the natural curve of both left- and right-handed users. Compact and wireless, the mouse fits easily with a laptop in a bag—so you can take it anywhere.
+                  - listitem [ref=f8e1101]:
+                    - generic [ref=f8e1102]:
+                      - img "m185 wireless mouse" [ref=f8e1104]
+                      - generic [ref=f8e1108]:
+                        - heading "ENJOY THE WORLD OF WIRELESS" [level=1] [ref=f8e1110]
+                        - paragraph [ref=f8e1112]: M185 is ready when you are. Simply plug the receiver into a USB port on your device to start working in seconds. The small size and smooth cursor control make it great for tight workspaces.
+              - tablist "tablist-section" [ref=f8e1116]:
+                - listitem [ref=f8e1117]:
+                  - tab "slide-1" [selected] [ref=f8e1118] [cursor=pointer]
+                - listitem [ref=f8e1119]:
+                  - tab "slide-2" [ref=f8e1120] [cursor=pointer]
+            - generic [ref=f8e1123]:
+              - generic [ref=f8e1124]:
+                - img "m185 wireless mouse" [ref=f8e1126]
+                - heading "EASY NAVIGATION, PRECISE CONTROL" [level=1] [ref=f8e1128]
+                - paragraph [ref=f8e1130]: M185 provides a controlled line-by-line scrolling experience for easier navigation. The optical sensor allows you to track with smooth and accurate cursor control on almost any surface.
+              - generic [ref=f8e1131]:
+                - img "m185 wireless mouse" [ref=f8e1133]
+                - heading "QUALITY YOU CAN COUNT ON" [level=1] [ref=f8e1135]
+                - paragraph [ref=f8e1137]: Enjoy the high quality and reliability of M185, the world's best-selling mouse. M185 works up to 12 months without changing batteries thanks to the on/off switch button and auto-sleep power-saving mode.
+            - generic [ref=f8e1140]:
+              - generic [ref=f8e1141]:
+                - img "m185 wireless mouse" [ref=f8e1143]
+                - heading "COMPLETE TASKS FASTER" [level=1] [ref=f8e1145]
+                - paragraph [ref=f8e1147]: Get more done by adding M185 to your laptop. According to a recent study, laptop users who chose this mouse over a touchpad were 50% more productive and worked 30% faster.
+              - generic [ref=f8e1148]:
+                - img "m185 wireless mouse" [ref=f8e1150]
+                - heading "PLUG & PLAY SIMPLICITY" [level=1] [ref=f8e1152]
+                - paragraph [ref=f8e1154]: M185 is compatible with Windows, macOS, Chrome OS and Linux and works instantly when you plug the USB receiver into your device. The receiver provides a reliable connection within up to 10 meters.
+            - generic [ref=f8e1157]:
+              - img "m185 wireless mouse" [ref=f8e1159]
+              - generic [ref=f8e1163]:
+                - heading "COMPACT OR FULL-SIZE" [level=1] [ref=f8e1164]
+                - paragraph [ref=f8e1166]: Choose the right size for you. M185 is contoured for mid or smaller hands, easily fits with a laptop in a bag. For a larger, comfortable design that fits with your home office setup, check out M190.
+            - generic [ref=f8e1169]:
+              - region "Featured content carousel" [ref=f8e1170]:
+                - list [ref=f8e1175]:
+                  - listitem [ref=f8e1176]:
+                    - generic [ref=f8e1177]:
+                      - img "m185 wireless mouse" [ref=f8e1179]
+                      - generic [ref=f8e1183]:
+                        - heading "ESSENTIAL TOOLS. BETTER WORK." [level=1] [ref=f8e1185]
+                        - paragraph [ref=f8e1187]: Complete your setup with the right keyboard, mouse, headset, and webcam for better typing and navigation, plus superior audio and video—so you can conquer just about any task from home.
+                  - listitem [ref=f8e1188]:
+                    - generic [ref=f8e1189]:
+                      - img "k270 keyboard and mouse wireless combo" [ref=f8e1191]
+                      - generic [ref=f8e1195]:
+                        - heading "LOGITECH MK270 WIRELESS COMBO" [level=1] [ref=f8e1197]
+                        - paragraph [ref=f8e1199]: MK270 Wireless Combo featuring the mouse M185 brings together the convenience and comfort of a full-sized keyboard with a sculpted, compact mouse.
+                        - 'link "Learn more about the product: LOGITECH MK270 WIRELESS COMBO" [ref=f8e1203] [cursor=pointer]':
+                          - /url: /dp/B079JLY5M5?ref=emc_p_m_13_b
+                          - text: Learn more
+                  - listitem [ref=f8e1204]:
+                    - generic [ref=f8e1205]:
+                      - img "c270 webcam" [ref=f8e1207]
+                      - generic [ref=f8e1211]:
+                        - heading "LOGITECH C270 HD WEBCAM" [level=1] [ref=f8e1213]
+                        - paragraph [ref=f8e1215]: Sharp, smooth video calling with a camera you can attach to your screen or shelf.
+                        - 'link "Learn more about the product: LOGITECH C270 HD WEBCAM" [ref=f8e1219] [cursor=pointer]':
+                          - /url: /dp/B004FHO5Y6?ref=emc_p_m_13_b
+                          - text: Learn more
+                  - listitem [ref=f8e1220]:
+                    - generic [ref=f8e1221]:
+                      - img "H390 headset" [ref=f8e1223]
+                      - generic [ref=f8e1227]:
+                        - heading "LOGITECH WIRELESS HEADSET H390" [level=1] [ref=f8e1229]
+                        - paragraph [ref=f8e1231]: Experience clear internet calls with simple plug-and-play USB-A connection and a noise-cancelling mic.
+                        - 'link "Learn more about the product: LOGITECH WIRELESS HEADSET H390" [ref=f8e1235] [cursor=pointer]':
+                          - /url: /dp/B000UXZQ42?ref=emc_p_m_13_b
+                          - text: Learn more
+              - tablist "tablist-section" [ref=f8e1239]:
+                - listitem [ref=f8e1240]:
+                  - tab "slide-1" [selected] [ref=f8e1241] [cursor=pointer]
+                - listitem [ref=f8e1242]:
+                  - tab "slide-2" [ref=f8e1243] [cursor=pointer]
+                - listitem [ref=f8e1244]:
+                  - tab "slide-3" [ref=f8e1245] [cursor=pointer]
+                - listitem [ref=f8e1246]:
+                  - tab "slide-4" [ref=f8e1247] [cursor=pointer]
+        - generic [ref=f8e1249]:
+          - separator [ref=f8e1250]
+          - generic [ref=f8e1251]:
+            - generic [ref=f8e1252]:
+              - heading "Sustainability features" [level=2] [ref=f8e1255]
+              - paragraph [ref=f8e1257]: This product has sustainability features recognized by trusted certifications.
+            - generic [ref=f8e1259]:
+              - generic [ref=f8e1260]:
+                - generic [ref=f8e1261]: Safer chemicals
+                - paragraph [ref=f8e1263]: Made with chemicals safer for human health and the environment.
+                - generic [ref=f8e1264]: As certified by
+                - button "ECOLOGO" [ref=f8e1267] [cursor=pointer]
+              - generic [ref=f8e1270]:
+                - generic [ref=f8e1271]: Manufacturing practices
+                - paragraph [ref=f8e1273]: Manufactured using processes that reduce the risk of negative environmental impact.
+                - generic [ref=f8e1274]: As certified by
+                - button "ECOLOGO" [ref=f8e1277] [cursor=pointer]
+            - link "Climate Pledge Friendly Discover more products with sustainability features. Learn more" [ref=f8e1281] [cursor=pointer]:
+              - /url: /climatepledgefriendly
+              - generic [ref=f8e1282]:
+                - heading [level=3] [ref=f8e1283]:
+                  - img "Climate Pledge Friendly" [ref=f8e1284]
+                - generic [ref=f8e1285]:
+                  - generic [ref=f8e1286]: Discover more products with sustainability features.
+                  - text: Learn more
+        - generic [ref=f8e1290]:
+          - heading "Product guides and documents" [level=2] [ref=f8e1291]
+          - link "User Guide (PDF)" [ref=f8e1293] [cursor=pointer]:
+            - /url: https://m.media-amazon.com/images/I/A1tMF3yVBQS.pdf
+        - generic [ref=f8e1299]:
+          - heading "Product Videos" [level=2] [ref=f8e1301]
+          - generic [ref=f8e1306]:
+            - region "Video Player" [ref=f8e1307]:
+              - application [ref=f8e1308]
+              - generic [ref=f8e1309]:
+                - button "Play" [ref=f8e1310] [cursor=pointer]
+                - slider "Progress Bar" [ref=f8e1313] [cursor=pointer]: .
+                - generic [ref=f8e1314]: "-0:00"
+                - button "Mute" [ref=f8e1315] [cursor=pointer]
+            - generic [ref=f8e1318]:
+              - link [ref=f8e1319] [cursor=pointer]:
+                - /url: /shop/influencer-e09b1368
+              - generic [ref=f8e1320]:
+                - generic [ref=f8e1321]:
+                  - link "Tomi & Ro Reviews" [ref=f8e1322] [cursor=pointer]:
+                    - /url: /shop/influencer-e09b1368
+                  - link "Click to go to amazon influencer info page" [ref=f8e1324] [cursor=pointer]:
+                    - /url: /shop/info
+                    - text: Earns commissions
+                - generic [ref=f8e1325]: How quiet is the Logitech M220 vs. M170
+            - button "Play" [ref=f8e1326] [cursor=pointer]
+        - generic [ref=f8e1398]:
+          - separator [ref=f8e1399]
+          - generic [ref=f8e1401]:
+            - heading "Product information" [level=1] [ref=f8e1402]
+            - generic [ref=f8e1406]:
+              - generic [ref=f8e1407]:
+                - generic [ref=f8e1409]:
+                  - button [ref=f8e1412] [cursor=pointer]:
+                    - heading "Features & Specs" [level=5] [ref=f8e1414]
+                  - button [ref=f8e1417] [cursor=pointer]:
+                    - heading "Style" [level=5] [ref=f8e1419]
+                  - button [ref=f8e1422] [cursor=pointer]:
+                    - heading "Measurements" [level=5] [ref=f8e1424]
+                - generic [ref=f8e1425]:
+                  - generic [ref=f8e1427]:
+                    - heading "Warranty & Support" [level=3] [ref=f8e1428]
+                    - generic [ref=f8e1429]:
+                      - text: "Amazon.com Return Policy:"
+                      - generic [ref=f8e1430]:
+                        - text: "Amazon.com Voluntary 30-Day Return Guarantee: You can return many items you have purchased within 30 days following delivery of the item to you. Our Voluntary 30-Day Return Guarantee does not affect your legal right of withdrawal in any way. You can find out more about the exceptions and conditions"
+                        - link "here" [ref=f8e1431] [cursor=pointer]:
+                          - /url: /gp/help/customer/display.html/ref=orc_hp_s_retpol?ie=UTF8&nodeId=201819200
+                        - text: .
+                    - generic [ref=f8e1432]:
+                      - strong [ref=f8e1433]: "Product Warranty:"
+                      - text: For warranty information about this product, please
+                      - link "click here" [ref=f8e1434] [cursor=pointer]:
+                        - /url: /gp/feature.html/ref=dp_warranty_request_3P?docId=1002406021
+                  - generic [ref=f8e1436]:
+                    - heading "Feedback" [level=3] [ref=f8e1437]
+                    - generic [ref=f8e1442]:
+                      - text: Would you like to
+                      - button "tell us about a lower price?" [ref=f8e1444] [cursor=pointer]
+              - generic [ref=f8e1448]:
+                - button [ref=f8e1451] [cursor=pointer]:
+                  - heading "Item details" [level=5] [ref=f8e1453]
+                - button [ref=f8e1456] [cursor=pointer]:
+                  - heading "Materials & Care" [level=5] [ref=f8e1458]
+        - generic [ref=f8e1461]:
+          - heading "Product Description" [level=2] [ref=f8e1464]
+          - paragraph [ref=f8e1466]: "Logitech Wireless Mouse M185. A simple, reliable mouse with plug-and-play wireless, a 1-year battery life and 3-year limited hardware warranty.(Battery life may vary based on user and computing conditions.) System Requirements: Windows Vista Windows 7 Windows 8 Windows 10|Mac OS X 10.5 or later|Chrome OS|Linux kernel 2.6+|USB port."
+      - generic [ref=f8e1469]:
+        - separator [ref=f8e1470]
+        - generic [ref=f8e1474]:
+          - heading "WARNING:" [level=4] [ref=f8e1475]
+          - generic [ref=f8e1477]: CHOKING HAZARD -- Small parts. Not for children under 3 yrs.
+      - generic [ref=f8e1480]:
+        - separator [ref=f8e1481]
+        - generic [ref=f8e1482]:
+          - heading "Safety and product resources" [level=2] [ref=f8e1483]
+          - generic [ref=f8e1486]:
+            - heading "Safety documents" [level=3] [ref=f8e1487]
+            - link "User Guide (PDF)" [ref=f8e1492] [cursor=pointer]:
+              - /url: javascript:void(0)
+      - generic [ref=f8e1494]:
+        - separator [ref=f8e1495]
+        - heading "What's in the box" [level=2] [ref=f8e1496]
+        - listitem [ref=f8e1498]: Computer Peripherals^Mice^Computer Mice^
+      - generic [ref=f8e1500]:
+        - separator [ref=f8e1501]
+        - generic [ref=f8e1502]:
+          - 'heading "Top Brand: Logitech" [level=2] [ref=f8e1503]'
+          - generic [ref=f8e1504]:
+            - generic [ref=f8e1507]:
+              - generic [ref=f8e1508]: Highly Rated
+              - generic [ref=f8e1509]: 100K+ customers rate items from this brand highly
+            - generic [ref=f8e1512]:
+              - generic [ref=f8e1513]: Trending
+              - generic [ref=f8e1514]: 100K+ orders for this brand in past 3 months
+            - generic [ref=f8e1517]:
+              - generic [ref=f8e1518]: Low Returns
+              - generic [ref=f8e1519]: Customers usually keep items from this brand
+      - generic [ref=f8e1523]:
+        - heading "Important information" [level=2] [ref=f8e1524]
+        - generic [ref=f8e1525]:
+          - heading "Legal Disclaimer" [level=4] [ref=f8e1526]
+          - paragraph
+          - paragraph [ref=f8e1527]: "Return policy: - All purchases* are returnable if (UNOPENED) within 14 days. Shipping costs are not refundable. Upon returning merchandise you will incur the full shipping amount even if you originally had free shipping or paid a promotional shipping price. A minimum 15% restocking fee will be applied to any (OPENED) merchandise that is not defective. All opened merchandise must be returned in the original manufacturer's box with the UPC intact and the product serial number must match the serial number on the manufacturer box and the one we provide by email or amazon message at the moment we ship it to you."
+          - paragraph
+      - group [ref=f8e1532]:
+        - heading "Similar brands on Amazon" [level=2] [ref=f8e1535]
+        - button "Leave feedback on Sponsored ad" [ref=f8e1540] [cursor=pointer]: Sponsored
+        - group [ref=f8e1545]:
+          - list [ref=f8e1546]:
+            - listitem [ref=f8e1547]:
+              - generic [ref=f8e1552]:
+                - generic [ref=f8e1556]:
+                  - link "Sponsored video, click to navigate to featured page." [ref=f8e1557] [cursor=pointer]:
+                    - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JOQLyEqP1fMmU7AHVhJQYFYAAAGfcBA07wEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICD1EpeO/clv1c_ek-wxfHXLcTWDVVAWi4kasJ9BF4_6vJrlLG00--ZHQ9NsuQUyn16bphIXUSeX4UtSizXbHUan89Q_WeujBUUsUQ9MzH4poA8WK0DX7tM3Ubnq7Hzae98EDe3Alh1pFwlf-hheIUy5sjRXDcx_5LD2WNCkbXclF_SosRD73YqzZI1iQtcmZqffpNgwlc2ZDGqUtzyQdhlFh3MzbSdhWjD9LcJeN09FkS8lcFaxPw-EMXBcEg6ixTFZ75dS585SYfmxP_izrhER8Iq8Z4786IMsVdzqzew6fRwpfWdCX9_W_60NT89TVkyS0_uShHgP4R1EKhbNA24_mri92Uo0ScTDw1x1z8BOso_XEMpiXmUENCGl9MA47gjtHTYQLicoT81avfy5b2qdGww93hb1OyJgQu2tWP8bWaj4V6zF_Cy5wMAtmiVSdhr-kgdIrdzvxJMG7QsrMbiquwT_Km6NnV2gmQSQoS6xoH6Ke_xXjdHBAh17HDx8qq_jJ9h39uFUKmvPnSTTap0aiyBWy3fLBA1JAPf3-zhLBwgoCDH5jdxkSu1nAhLNAAYEt65lvJQ-pMsIPG9Gae4lj1mq7gyQcFgtO8-aPxyV8MuA54jfGrqPx_Y_bW1dEQ53rk-L-lV2kDscTxaRYFh7hE6oF9HjCeVtzSm8qSRpRcxR0pC-Mo6g-ayghwsUroPdJIizB7-mLEBaf_iXnhTNM0WCDVak7TO-L3UKRh_Hjw-lNv9E2XlJv8zo9AKisdTPkcm5kdoTIkRyQfzAFLKYDMeHOSYnqyxoi3haslkvSYUvyBwrIFhLdq_1mb4bAOiqDHiteg6iXcn3bv1pFHsT6DKBGTAjnrduZgho572vBxcSXl5s16VIFJ-c9hq9s7V39e9XHCgQHkjbrKigzyv1Gf18T1qvYyZEZUrZS-h-7CtqE1lbyaqGJdpI0HUcb7NnMvIs-t8lBa-RLSqYtWwIKaQd2ROocyAnmScL5IR7oiKGz03wPgUT5kwLohD99RJKrfKir8Ztz3iA6Eyo_b4JvDtwX5sL2Aj_Pdhk6m5AOB7R39TWgWGDqBjYpP_YGGTccEw8uWmOrz7Hq7IBIS_GnOXQ6mqNuAkIQBg2kEqe4n72grI7TygXAqpfbGbEQCX5jQOngySZvQNtWw6VMgVT0MW7SDUAWVNhyC7NrRUJIk4hjmzNKZyzd7ilirE26IR0XWJ4pjkaCTXz6POuUXFPX_X5o3EsxHHjo0_4iMcWX62PTS9xZLVdNnfLylNhKadUlFsDX-CPs2YLOXsttwWEq3f2xsGaWnIiG7kKD6kqozJ92O1mHO3vHRfeul2rSlBDYzY2lFKiqxEdAOV7LffyWIHOLhj5eL29vdunGWJlN8TjcO3QPF-uPM3ehNUTa2LamrYdZbVShNiNHGa_cVCFOWITksPGik-2z6ycw9TsiNYOxVb5kGDn7exICuM_pHjYy8O-qK_1dDyoNr41po5oMOlcc_5Fxwu9oYyD_CwD1mXcQd5XXfN7DyPHExHa3kUBIlfp7SF9Gy1uimEWL261AmozRs4V9TjwPvtBl57g8VHzXsYqZNFV4zno6V5sapqs7EAyVA2aottXQ/https://www.amazon.com/dp/B001DHECXA/?_encoding=UTF8&pd_rd_i=B001DHECXA&pd_rd_i=B001DHECXA&ref_=sbx_be_s_sparkle_ssd_vid&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                  - button "Play Sponsored Video" [ref=f8e1561] [cursor=pointer]
+                - generic [ref=f8e1580]:
+                  - link [ref=f8e1583] [cursor=pointer]:
+                    - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JOQLyEqP1fMmU7AHVhJQYFYAAAGfcBA07wEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICD1EpeO/clv1c_ek-wxfHXLcTWDVVAWi4kasJ9BF4_6vJrlLG00--ZHQ9NsuQUyn16bphIXUSeX4UtSizXbHUan89Q_WeujBUUsUQ9MzH4poA8WK0DX7tM3Ubnq7Hzae98EDe3Alh1pFwlf-hheIUy5sjRXDcx_5LD2WNCkbXclF_SosRD73YqzZI1iQtcmZqffpNgwlc2ZDGqUtzyQdhlFh3MzbSdhWjD9LcJeN09FkS8lcFaxPw-EMXBcEg6ixTFZ75dS585SYfmxP_izrhER8Iq8Z4786IMsVdzqzew6fRwpfWdCX9_W_60NT89TVkyS0_uShHgP4R1EKhbNA24_mri92Uo0ScTDw1x1z8BOso_XEMpiXmUENCGl9MA47gjtHTYQLicoT81avfy5b2qdGww93hb1OyJgQu2tWP8bWaj4V6zF_Cy5wMAtmiVSdhr-kgdIrdzvxJMG7QsrMbiquwT_Km6NnV2gmQSQoS6xoH6Ke_xXjdHBAh17HDx8qq_jJ9h39uFUKmvPnSTTap0aiyBWy3fLBA1JAPf3-zhLBwgoCDH5jdxkSu1nAhLNAAYEt65lvJQ-pMsIPG9Gae4lj1mq7gyQcFgtO8-aPxyV8MuA54jfGrqPx_Y_bW1dEQ53rk-L-lV2kDscTxaRYFh7hE6oF9HjCeVtzSm8qSRpRcxR0pC-Mo6g-ayghwsUroPdJIizB7-mLEBaf_iXnhTNM0WCDVak7TO-L3UKRh_Hjw-lNv9E2XlJv8zo9AKisdTPkcm5kdoTIkRyQfzAFLKYDMeHOSYnqyxoi3haslkvSYUvyBwrIFhLdq_1mb4bAOiqDHiteg6iXcn3bv1pFHsT6DKBGTAjnrduZgho572vBxcSXl5s16VIFJ-c9hq9s7V39e9XHCgQHkjbrKigzyv1Gf18T1qvYyZEZUrZS-h-7CtqE1lbyaqGJdpI0HUcb7NnMvIs-t8lBa-RLSqYtWwIKaQd2ROocyAnmScL5IR7oiKGz03wPgUT5kwLohD99RJKrfKir8Ztz3iA6Eyo_b4JvDtwX5sL2Aj_Pdhk6m5AOB7R39TWgWGDqBjYpP_YGGTccEw8uWmOrz7Hq7IBIS_GnOXQ6mqNuAkIQBg2kEqe4n72grI7TygXAqpfbGbEQCX5jQOngySZvQNtWw6VMgVT0MW7SDUAWVNhyC7NrRUJIk4hjmzNKZyzd7ilirE26IR0XWJ4pjkaCTXz6POuUXFPX_X5o3EsxHHjo0_4iMcWX62PTS9xZLVdNnfLylNhKadUlFsDX-CPs2YLOXsttwWEq3f2xsGaWnIiG7kKD6kqozJ92O1mHO3vHRfeul2rSlBDYzY2lFKiqxEdAOV7LffyWIHOLhj5eL29vdunGWJlN8TjcO3QPF-uPM3ehNUTa2LamrYdZbVShNiNHGa_cVCFOWITksPGik-2z6ycw9TsiNYOxVb5kGDn7exICuM_pHjYy8O-qK_1dDyoNr41po5oMOlcc_5Fxwu9oYyD_CwD1mXcQd5XXfN7DyPHExHa3kUBIlfp7SF9Gy1uimEWL261AmozRs4V9TjwPvtBl57g8VHzXsYqZNFV4zno6V5sapqs7EAyVA2aottXQ/https://www.amazon.com/dp/B001DHECXA/?_encoding=UTF8&pd_rd_i=B001DHECXA&pd_rd_i=B001DHECXA&ref_=sbx_be_s_sparkle_ssd_img&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                    - img "TECKNET Wireless Mouse, 2.4G USB Computer Mouse with 6-Level Adjustable 4800 DPI, Silent Quiet Click，30 Months Battery, Ergonomic Grips, 6 Buttons Portable for PC, Chromebook, Mac - Grey" [ref=f8e1585]
+                  - generic [ref=f8e1587]:
+                    - link [ref=f8e1588] [cursor=pointer]:
+                      - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JOQLyEqP1fMmU7AHVhJQYFYAAAGfcBA07wEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICD1EpeO/clv1c_ek-wxfHXLcTWDVVAWi4kasJ9BF4_6vJrlLG00--ZHQ9NsuQUyn16bphIXUSeX4UtSizXbHUan89Q_WeujBUUsUQ9MzH4poA8WK0DX7tM3Ubnq7Hzae98EDe3Alh1pFwlf-hheIUy5sjRXDcx_5LD2WNCkbXclF_SosRD73YqzZI1iQtcmZqffpNgwlc2ZDGqUtzyQdhlFh3MzbSdhWjD9LcJeN09FkS8lcFaxPw-EMXBcEg6ixTFZ75dS585SYfmxP_izrhER8Iq8Z4786IMsVdzqzew6fRwpfWdCX9_W_60NT89TVkyS0_uShHgP4R1EKhbNA24_mri92Uo0ScTDw1x1z8BOso_XEMpiXmUENCGl9MA47gjtHTYQLicoT81avfy5b2qdGww93hb1OyJgQu2tWP8bWaj4V6zF_Cy5wMAtmiVSdhr-kgdIrdzvxJMG7QsrMbiquwT_Km6NnV2gmQSQoS6xoH6Ke_xXjdHBAh17HDx8qq_jJ9h39uFUKmvPnSTTap0aiyBWy3fLBA1JAPf3-zhLBwgoCDH5jdxkSu1nAhLNAAYEt65lvJQ-pMsIPG9Gae4lj1mq7gyQcFgtO8-aPxyV8MuA54jfGrqPx_Y_bW1dEQ53rk-L-lV2kDscTxaRYFh7hE6oF9HjCeVtzSm8qSRpRcxR0pC-Mo6g-ayghwsUroPdJIizB7-mLEBaf_iXnhTNM0WCDVak7TO-L3UKRh_Hjw-lNv9E2XlJv8zo9AKisdTPkcm5kdoTIkRyQfzAFLKYDMeHOSYnqyxoi3haslkvSYUvyBwrIFhLdq_1mb4bAOiqDHiteg6iXcn3bv1pFHsT6DKBGTAjnrduZgho572vBxcSXl5s16VIFJ-c9hq9s7V39e9XHCgQHkjbrKigzyv1Gf18T1qvYyZEZUrZS-h-7CtqE1lbyaqGJdpI0HUcb7NnMvIs-t8lBa-RLSqYtWwIKaQd2ROocyAnmScL5IR7oiKGz03wPgUT5kwLohD99RJKrfKir8Ztz3iA6Eyo_b4JvDtwX5sL2Aj_Pdhk6m5AOB7R39TWgWGDqBjYpP_YGGTccEw8uWmOrz7Hq7IBIS_GnOXQ6mqNuAkIQBg2kEqe4n72grI7TygXAqpfbGbEQCX5jQOngySZvQNtWw6VMgVT0MW7SDUAWVNhyC7NrRUJIk4hjmzNKZyzd7ilirE26IR0XWJ4pjkaCTXz6POuUXFPX_X5o3EsxHHjo0_4iMcWX62PTS9xZLVdNnfLylNhKadUlFsDX-CPs2YLOXsttwWEq3f2xsGaWnIiG7kKD6kqozJ92O1mHO3vHRfeul2rSlBDYzY2lFKiqxEdAOV7LffyWIHOLhj5eL29vdunGWJlN8TjcO3QPF-uPM3ehNUTa2LamrYdZbVShNiNHGa_cVCFOWITksPGik-2z6ycw9TsiNYOxVb5kGDn7exICuM_pHjYy8O-qK_1dDyoNr41po5oMOlcc_5Fxwu9oYyD_CwD1mXcQd5XXfN7DyPHExHa3kUBIlfp7SF9Gy1uimEWL261AmozRs4V9TjwPvtBl57g8VHzXsYqZNFV4zno6V5sapqs7EAyVA2aottXQ/https://www.amazon.com/dp/B001DHECXA/?_encoding=UTF8&pd_rd_i=B001DHECXA&pd_rd_i=B001DHECXA&ref_=sbx_be_s_sparkle_ssd_bkg&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                    - generic [ref=f8e1589]:
+                      - link [ref=f8e1590] [cursor=pointer]:
+                        - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JOQLyEqP1fMmU7AHVhJQYFYAAAGfcBA07wEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICD1EpeO/clv1c_ek-wxfHXLcTWDVVAWi4kasJ9BF4_6vJrlLG00--ZHQ9NsuQUyn16bphIXUSeX4UtSizXbHUan89Q_WeujBUUsUQ9MzH4poA8WK0DX7tM3Ubnq7Hzae98EDe3Alh1pFwlf-hheIUy5sjRXDcx_5LD2WNCkbXclF_SosRD73YqzZI1iQtcmZqffpNgwlc2ZDGqUtzyQdhlFh3MzbSdhWjD9LcJeN09FkS8lcFaxPw-EMXBcEg6ixTFZ75dS585SYfmxP_izrhER8Iq8Z4786IMsVdzqzew6fRwpfWdCX9_W_60NT89TVkyS0_uShHgP4R1EKhbNA24_mri92Uo0ScTDw1x1z8BOso_XEMpiXmUENCGl9MA47gjtHTYQLicoT81avfy5b2qdGww93hb1OyJgQu2tWP8bWaj4V6zF_Cy5wMAtmiVSdhr-kgdIrdzvxJMG7QsrMbiquwT_Km6NnV2gmQSQoS6xoH6Ke_xXjdHBAh17HDx8qq_jJ9h39uFUKmvPnSTTap0aiyBWy3fLBA1JAPf3-zhLBwgoCDH5jdxkSu1nAhLNAAYEt65lvJQ-pMsIPG9Gae4lj1mq7gyQcFgtO8-aPxyV8MuA54jfGrqPx_Y_bW1dEQ53rk-L-lV2kDscTxaRYFh7hE6oF9HjCeVtzSm8qSRpRcxR0pC-Mo6g-ayghwsUroPdJIizB7-mLEBaf_iXnhTNM0WCDVak7TO-L3UKRh_Hjw-lNv9E2XlJv8zo9AKisdTPkcm5kdoTIkRyQfzAFLKYDMeHOSYnqyxoi3haslkvSYUvyBwrIFhLdq_1mb4bAOiqDHiteg6iXcn3bv1pFHsT6DKBGTAjnrduZgho572vBxcSXl5s16VIFJ-c9hq9s7V39e9XHCgQHkjbrKigzyv1Gf18T1qvYyZEZUrZS-h-7CtqE1lbyaqGJdpI0HUcb7NnMvIs-t8lBa-RLSqYtWwIKaQd2ROocyAnmScL5IR7oiKGz03wPgUT5kwLohD99RJKrfKir8Ztz3iA6Eyo_b4JvDtwX5sL2Aj_Pdhk6m5AOB7R39TWgWGDqBjYpP_YGGTccEw8uWmOrz7Hq7IBIS_GnOXQ6mqNuAkIQBg2kEqe4n72grI7TygXAqpfbGbEQCX5jQOngySZvQNtWw6VMgVT0MW7SDUAWVNhyC7NrRUJIk4hjmzNKZyzd7ilirE26IR0XWJ4pjkaCTXz6POuUXFPX_X5o3EsxHHjo0_4iMcWX62PTS9xZLVdNnfLylNhKadUlFsDX-CPs2YLOXsttwWEq3f2xsGaWnIiG7kKD6kqozJ92O1mHO3vHRfeul2rSlBDYzY2lFKiqxEdAOV7LffyWIHOLhj5eL29vdunGWJlN8TjcO3QPF-uPM3ehNUTa2LamrYdZbVShNiNHGa_cVCFOWITksPGik-2z6ycw9TsiNYOxVb5kGDn7exICuM_pHjYy8O-qK_1dDyoNr41po5oMOlcc_5Fxwu9oYyD_CwD1mXcQd5XXfN7DyPHExHa3kUBIlfp7SF9Gy1uimEWL261AmozRs4V9TjwPvtBl57g8VHzXsYqZNFV4zno6V5sapqs7EAyVA2aottXQ/https://www.amazon.com/dp/B001DHECXA/?_encoding=UTF8&pd_rd_i=B001DHECXA&pd_rd_i=B001DHECXA&ref_=sbx_be_s_sparkle_ssd_bkg&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                      - link "TECKNET Wireless Mouse, 2.4G USB Computer Mouse with 6-Level Adjustable 4800 DPI, Silent Quiet Click，30 Months Battery, Ergonomic Grips, 6 Buttons Portable for PC, Chromebook, Mac - Grey" [ref=f8e1591] [cursor=pointer]:
+                        - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JOQLyEqP1fMmU7AHVhJQYFYAAAGfcBA07wEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICD1EpeO/clv1c_ek-wxfHXLcTWDVVAWi4kasJ9BF4_6vJrlLG00--ZHQ9NsuQUyn16bphIXUSeX4UtSizXbHUan89Q_WeujBUUsUQ9MzH4poA8WK0DX7tM3Ubnq7Hzae98EDe3Alh1pFwlf-hheIUy5sjRXDcx_5LD2WNCkbXclF_SosRD73YqzZI1iQtcmZqffpNgwlc2ZDGqUtzyQdhlFh3MzbSdhWjD9LcJeN09FkS8lcFaxPw-EMXBcEg6ixTFZ75dS585SYfmxP_izrhER8Iq8Z4786IMsVdzqzew6fRwpfWdCX9_W_60NT89TVkyS0_uShHgP4R1EKhbNA24_mri92Uo0ScTDw1x1z8BOso_XEMpiXmUENCGl9MA47gjtHTYQLicoT81avfy5b2qdGww93hb1OyJgQu2tWP8bWaj4V6zF_Cy5wMAtmiVSdhr-kgdIrdzvxJMG7QsrMbiquwT_Km6NnV2gmQSQoS6xoH6Ke_xXjdHBAh17HDx8qq_jJ9h39uFUKmvPnSTTap0aiyBWy3fLBA1JAPf3-zhLBwgoCDH5jdxkSu1nAhLNAAYEt65lvJQ-pMsIPG9Gae4lj1mq7gyQcFgtO8-aPxyV8MuA54jfGrqPx_Y_bW1dEQ53rk-L-lV2kDscTxaRYFh7hE6oF9HjCeVtzSm8qSRpRcxR0pC-Mo6g-ayghwsUroPdJIizB7-mLEBaf_iXnhTNM0WCDVak7TO-L3UKRh_Hjw-lNv9E2XlJv8zo9AKisdTPkcm5kdoTIkRyQfzAFLKYDMeHOSYnqyxoi3haslkvSYUvyBwrIFhLdq_1mb4bAOiqDHiteg6iXcn3bv1pFHsT6DKBGTAjnrduZgho572vBxcSXl5s16VIFJ-c9hq9s7V39e9XHCgQHkjbrKigzyv1Gf18T1qvYyZEZUrZS-h-7CtqE1lbyaqGJdpI0HUcb7NnMvIs-t8lBa-RLSqYtWwIKaQd2ROocyAnmScL5IR7oiKGz03wPgUT5kwLohD99RJKrfKir8Ztz3iA6Eyo_b4JvDtwX5sL2Aj_Pdhk6m5AOB7R39TWgWGDqBjYpP_YGGTccEw8uWmOrz7Hq7IBIS_GnOXQ6mqNuAkIQBg2kEqe4n72grI7TygXAqpfbGbEQCX5jQOngySZvQNtWw6VMgVT0MW7SDUAWVNhyC7NrRUJIk4hjmzNKZyzd7ilirE26IR0XWJ4pjkaCTXz6POuUXFPX_X5o3EsxHHjo0_4iMcWX62PTS9xZLVdNnfLylNhKadUlFsDX-CPs2YLOXsttwWEq3f2xsGaWnIiG7kKD6kqozJ92O1mHO3vHRfeul2rSlBDYzY2lFKiqxEdAOV7LffyWIHOLhj5eL29vdunGWJlN8TjcO3QPF-uPM3ehNUTa2LamrYdZbVShNiNHGa_cVCFOWITksPGik-2z6ycw9TsiNYOxVb5kGDn7exICuM_pHjYy8O-qK_1dDyoNr41po5oMOlcc_5Fxwu9oYyD_CwD1mXcQd5XXfN7DyPHExHa3kUBIlfp7SF9Gy1uimEWL261AmozRs4V9TjwPvtBl57g8VHzXsYqZNFV4zno6V5sapqs7EAyVA2aottXQ/https://www.amazon.com/dp/B001DHECXA/?_encoding=UTF8&pd_rd_i=B001DHECXA&pd_rd_i=B001DHECXA&ref_=sbx_be_s_sparkle_ssd_tt&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                    - link "Rated 4.4 out of 5 stars from 50,065 reviews" [ref=f8e1593] [cursor=pointer]:
+                      - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JOQLyEqP1fMmU7AHVhJQYFYAAAGfcBA07wEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICD1EpeO/clv1c_ek-wxfHXLcTWDVVAWi4kasJ9BF4_6vJrlLG00--ZHQ9NsuQUyn16bphIXUSeX4UtSizXbHUan89Q_WeujBUUsUQ9MzH4poA8WK0DX7tM3Ubnq7Hzae98EDe3Alh1pFwlf-hheIUy5sjRXDcx_5LD2WNCkbXclF_SosRD73YqzZI1iQtcmZqffpNgwlc2ZDGqUtzyQdhlFh3MzbSdhWjD9LcJeN09FkS8lcFaxPw-EMXBcEg6ixTFZ75dS585SYfmxP_izrhER8Iq8Z4786IMsVdzqzew6fRwpfWdCX9_W_60NT89TVkyS0_uShHgP4R1EKhbNA24_mri92Uo0ScTDw1x1z8BOso_XEMpiXmUENCGl9MA47gjtHTYQLicoT81avfy5b2qdGww93hb1OyJgQu2tWP8bWaj4V6zF_Cy5wMAtmiVSdhr-kgdIrdzvxJMG7QsrMbiquwT_Km6NnV2gmQSQoS6xoH6Ke_xXjdHBAh17HDx8qq_jJ9h39uFUKmvPnSTTap0aiyBWy3fLBA1JAPf3-zhLBwgoCDH5jdxkSu1nAhLNAAYEt65lvJQ-pMsIPG9Gae4lj1mq7gyQcFgtO8-aPxyV8MuA54jfGrqPx_Y_bW1dEQ53rk-L-lV2kDscTxaRYFh7hE6oF9HjCeVtzSm8qSRpRcxR0pC-Mo6g-ayghwsUroPdJIizB7-mLEBaf_iXnhTNM0WCDVak7TO-L3UKRh_Hjw-lNv9E2XlJv8zo9AKisdTPkcm5kdoTIkRyQfzAFLKYDMeHOSYnqyxoi3haslkvSYUvyBwrIFhLdq_1mb4bAOiqDHiteg6iXcn3bv1pFHsT6DKBGTAjnrduZgho572vBxcSXl5s16VIFJ-c9hq9s7V39e9XHCgQHkjbrKigzyv1Gf18T1qvYyZEZUrZS-h-7CtqE1lbyaqGJdpI0HUcb7NnMvIs-t8lBa-RLSqYtWwIKaQd2ROocyAnmScL5IR7oiKGz03wPgUT5kwLohD99RJKrfKir8Ztz3iA6Eyo_b4JvDtwX5sL2Aj_Pdhk6m5AOB7R39TWgWGDqBjYpP_YGGTccEw8uWmOrz7Hq7IBIS_GnOXQ6mqNuAkIQBg2kEqe4n72grI7TygXAqpfbGbEQCX5jQOngySZvQNtWw6VMgVT0MW7SDUAWVNhyC7NrRUJIk4hjmzNKZyzd7ilirE26IR0XWJ4pjkaCTXz6POuUXFPX_X5o3EsxHHjo0_4iMcWX62PTS9xZLVdNnfLylNhKadUlFsDX-CPs2YLOXsttwWEq3f2xsGaWnIiG7kKD6kqozJ92O1mHO3vHRfeul2rSlBDYzY2lFKiqxEdAOV7LffyWIHOLhj5eL29vdunGWJlN8TjcO3QPF-uPM3ehNUTa2LamrYdZbVShNiNHGa_cVCFOWITksPGik-2z6ycw9TsiNYOxVb5kGDn7exICuM_pHjYy8O-qK_1dDyoNr41po5oMOlcc_5Fxwu9oYyD_CwD1mXcQd5XXfN7DyPHExHa3kUBIlfp7SF9Gy1uimEWL261AmozRs4V9TjwPvtBl57g8VHzXsYqZNFV4zno6V5sapqs7EAyVA2aottXQ/https://www.amazon.com/dp/B001DHECXA/?_encoding=UTF8&pd_rd_i=B001DHECXA&pd_rd_i=B001DHECXA&ref_=sbx_be_s_sparkle_ssd_rev&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                      - text: "4.4"
+                      - generic [ref=f8e1594]: 4.4 out of 5 stars
+                      - text: 50,065
+            - listitem [ref=f8e1596]:
+              - generic [ref=f8e1601]:
+                - generic [ref=f8e1605]:
+                  - link "Sponsored video, click to navigate to featured page." [ref=f8e1606] [cursor=pointer]:
+                    - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JCXdo1DKOZGUcJ6mhdeVCaUAAAGfcBA08AEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDy7LTF/clv1c_ek-wxQfWFbbaTPHXD5vyn6IoCfBDnjoPnMHmo4knngHfz6uPzHej8UcJZAkIgX4VSywLBgnnVogFvO1reupo_gJ44AlCaFCCPrjkDmjn0o81ipJsrJb7I3PoQ_p2gCZZ3_xdOdTystrpw1VQ5hzBCWnKaJ2dnG3akjfQTLSr-Lx_MQPNjD6g8exNQh1UnD9ZcX0U9mij_2eIUC18tUxaV8DfEE0VLt_2fvIratIx4fEtF_OyiBp5k7QWQtUWlCbBBYVAP-Q0cTg1NGVFt_dq4iutg9l-16LHYhxIgKr2DlbwrwmlT-brQRhxDM3VB4nefxMAJypKbyfpyD0rOTJFBJf0HdJT3X2YIVdkADbINiCNXF_pUNJZXarq0Vdn4nEOZCPEMOUMsxCIJp0rKpAjv4DuXmurS44V5y4pAYzKysb8zxKUGnW0GwVAFtCPID7gA3crhFxeyIYYeYuzr7nbqBERg787tGDnshext1liKPgrNx2OBts7Zm3F8fB7h1djTsghAuObpVYyoqi4UjfnxXLXouE4V-Bw0RA3x7Qwf5_BkQzITDzLY2Wpq_kRLo1TupUL3OvRSTESkd5NemzpRfUKZHsa8es1W0F-Xzaqk8AWIr6P8pI9zj1FXMZIMlLmbnxyljwrVVVZr1HX7d5weHkjLa4XxZN0T1Egqk0cA2RLkgyaVVrwWibj2epFTJMtkf5Ppubb5XZLxCWGz4yYu9hovFMFDNfSo6ErQ3u44UDfetHubBhusLny0ex0SNPWnIfFow7SJEV4t8EirgzqMnxKsr3Y_oc2nBiaD7bURTesKGvipD5t4zw3Pyg3dcA9OAJiF1b1xazKj4QJldSfzrMXM18XrUK4buyPNHYAhG8XwVaN83eMcAfOD6MgVFilixmdbp-BGANOQgglnhyqqehgGV6WGVmkHHCsFWPjXSG77kwCYbEeuivPC7ipR_3PRkutMuhsEYScdE0xZacweIJqYXIoHtAPaQwWF3dwNiWo2zDBBW1PqvctnsonU23UIZsU6LGawa9eWgh-elqSjk4YzDufWtfjj2nOBed61twfN_cHepCczxZHgY9SCAqlw7KsmOmxcyIL52RxMRgtldChAgEOX1fPlNGsoIWyUm4YmwKqUH7iFZmY8Mfar-_E6O_30XxdDp_4dtgrS8C91eUFjQkI1okhB7woNpnL-PTK-p0u8psbRJNH8N01Lle9W0rKIC0FguUN8EuoPTZdw7Rzf4aTOaMcKG0NwowJ5NTGiOX2MMqKB9mmkXklMYF99YIF5ouszxiSCGBI-2aP0cLxVPOLX3X-2ywoLr_alRsg_rVu2hbx-jLMvNQpCWrCSeVjmMG9Ymtvx1-MyvErpO6dkhHi0w9SWgoEemLtqh85c9x45aVhLoQEDpNUl4QE422IUx7JFc46muAJLyiF2S2Mv1Y5PLTKGwQ2TB0z8N7QSzMqDp5i6BAg-qL7Y0w20DLvk_Yt3C2XqQn7IBJdvUtDMH-J3Ef3XgqLlNdbEQ0FrCbsn3g3LsPvM1qArIcR8Q5QO_rOnMukp0zz76xBckjVpaYU/https://www.amazon.com/dp/B098S48QWM/?_encoding=UTF8&pd_rd_i=B098S48QWM&pd_rd_i=B098S48QWM&ref_=sbx_be_s_sparkle_ssd_vid&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                  - button "Play Sponsored Video" [ref=f8e1610] [cursor=pointer]
+                - generic [ref=f8e1629]:
+                  - link [ref=f8e1632] [cursor=pointer]:
+                    - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JCXdo1DKOZGUcJ6mhdeVCaUAAAGfcBA08AEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDy7LTF/clv1c_ek-wxQfWFbbaTPHXD5vyn6IoCfBDnjoPnMHmo4knngHfz6uPzHej8UcJZAkIgX4VSywLBgnnVogFvO1reupo_gJ44AlCaFCCPrjkDmjn0o81ipJsrJb7I3PoQ_p2gCZZ3_xdOdTystrpw1VQ5hzBCWnKaJ2dnG3akjfQTLSr-Lx_MQPNjD6g8exNQh1UnD9ZcX0U9mij_2eIUC18tUxaV8DfEE0VLt_2fvIratIx4fEtF_OyiBp5k7QWQtUWlCbBBYVAP-Q0cTg1NGVFt_dq4iutg9l-16LHYhxIgKr2DlbwrwmlT-brQRhxDM3VB4nefxMAJypKbyfpyD0rOTJFBJf0HdJT3X2YIVdkADbINiCNXF_pUNJZXarq0Vdn4nEOZCPEMOUMsxCIJp0rKpAjv4DuXmurS44V5y4pAYzKysb8zxKUGnW0GwVAFtCPID7gA3crhFxeyIYYeYuzr7nbqBERg787tGDnshext1liKPgrNx2OBts7Zm3F8fB7h1djTsghAuObpVYyoqi4UjfnxXLXouE4V-Bw0RA3x7Qwf5_BkQzITDzLY2Wpq_kRLo1TupUL3OvRSTESkd5NemzpRfUKZHsa8es1W0F-Xzaqk8AWIr6P8pI9zj1FXMZIMlLmbnxyljwrVVVZr1HX7d5weHkjLa4XxZN0T1Egqk0cA2RLkgyaVVrwWibj2epFTJMtkf5Ppubb5XZLxCWGz4yYu9hovFMFDNfSo6ErQ3u44UDfetHubBhusLny0ex0SNPWnIfFow7SJEV4t8EirgzqMnxKsr3Y_oc2nBiaD7bURTesKGvipD5t4zw3Pyg3dcA9OAJiF1b1xazKj4QJldSfzrMXM18XrUK4buyPNHYAhG8XwVaN83eMcAfOD6MgVFilixmdbp-BGANOQgglnhyqqehgGV6WGVmkHHCsFWPjXSG77kwCYbEeuivPC7ipR_3PRkutMuhsEYScdE0xZacweIJqYXIoHtAPaQwWF3dwNiWo2zDBBW1PqvctnsonU23UIZsU6LGawa9eWgh-elqSjk4YzDufWtfjj2nOBed61twfN_cHepCczxZHgY9SCAqlw7KsmOmxcyIL52RxMRgtldChAgEOX1fPlNGsoIWyUm4YmwKqUH7iFZmY8Mfar-_E6O_30XxdDp_4dtgrS8C91eUFjQkI1okhB7woNpnL-PTK-p0u8psbRJNH8N01Lle9W0rKIC0FguUN8EuoPTZdw7Rzf4aTOaMcKG0NwowJ5NTGiOX2MMqKB9mmkXklMYF99YIF5ouszxiSCGBI-2aP0cLxVPOLX3X-2ywoLr_alRsg_rVu2hbx-jLMvNQpCWrCSeVjmMG9Ymtvx1-MyvErpO6dkhHi0w9SWgoEemLtqh85c9x45aVhLoQEDpNUl4QE422IUx7JFc46muAJLyiF2S2Mv1Y5PLTKGwQ2TB0z8N7QSzMqDp5i6BAg-qL7Y0w20DLvk_Yt3C2XqQn7IBJdvUtDMH-J3Ef3XgqLlNdbEQ0FrCbsn3g3LsPvM1qArIcR8Q5QO_rOnMukp0zz76xBckjVpaYU/https://www.amazon.com/dp/B098S48QWM/?_encoding=UTF8&pd_rd_i=B098S48QWM&pd_rd_i=B098S48QWM&ref_=sbx_be_s_sparkle_ssd_img&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                    - img "VssoPlor Wireless Mouse, 2.4G Slim Portable Computer Laptop Mouse with Nano Receiver Quiet Silent Optical Mice for Notebook, PC, Laptop, Computer-Black and Gold" [ref=f8e1634]
+                  - generic [ref=f8e1636]:
+                    - link [ref=f8e1637] [cursor=pointer]:
+                      - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JCXdo1DKOZGUcJ6mhdeVCaUAAAGfcBA08AEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDy7LTF/clv1c_ek-wxQfWFbbaTPHXD5vyn6IoCfBDnjoPnMHmo4knngHfz6uPzHej8UcJZAkIgX4VSywLBgnnVogFvO1reupo_gJ44AlCaFCCPrjkDmjn0o81ipJsrJb7I3PoQ_p2gCZZ3_xdOdTystrpw1VQ5hzBCWnKaJ2dnG3akjfQTLSr-Lx_MQPNjD6g8exNQh1UnD9ZcX0U9mij_2eIUC18tUxaV8DfEE0VLt_2fvIratIx4fEtF_OyiBp5k7QWQtUWlCbBBYVAP-Q0cTg1NGVFt_dq4iutg9l-16LHYhxIgKr2DlbwrwmlT-brQRhxDM3VB4nefxMAJypKbyfpyD0rOTJFBJf0HdJT3X2YIVdkADbINiCNXF_pUNJZXarq0Vdn4nEOZCPEMOUMsxCIJp0rKpAjv4DuXmurS44V5y4pAYzKysb8zxKUGnW0GwVAFtCPID7gA3crhFxeyIYYeYuzr7nbqBERg787tGDnshext1liKPgrNx2OBts7Zm3F8fB7h1djTsghAuObpVYyoqi4UjfnxXLXouE4V-Bw0RA3x7Qwf5_BkQzITDzLY2Wpq_kRLo1TupUL3OvRSTESkd5NemzpRfUKZHsa8es1W0F-Xzaqk8AWIr6P8pI9zj1FXMZIMlLmbnxyljwrVVVZr1HX7d5weHkjLa4XxZN0T1Egqk0cA2RLkgyaVVrwWibj2epFTJMtkf5Ppubb5XZLxCWGz4yYu9hovFMFDNfSo6ErQ3u44UDfetHubBhusLny0ex0SNPWnIfFow7SJEV4t8EirgzqMnxKsr3Y_oc2nBiaD7bURTesKGvipD5t4zw3Pyg3dcA9OAJiF1b1xazKj4QJldSfzrMXM18XrUK4buyPNHYAhG8XwVaN83eMcAfOD6MgVFilixmdbp-BGANOQgglnhyqqehgGV6WGVmkHHCsFWPjXSG77kwCYbEeuivPC7ipR_3PRkutMuhsEYScdE0xZacweIJqYXIoHtAPaQwWF3dwNiWo2zDBBW1PqvctnsonU23UIZsU6LGawa9eWgh-elqSjk4YzDufWtfjj2nOBed61twfN_cHepCczxZHgY9SCAqlw7KsmOmxcyIL52RxMRgtldChAgEOX1fPlNGsoIWyUm4YmwKqUH7iFZmY8Mfar-_E6O_30XxdDp_4dtgrS8C91eUFjQkI1okhB7woNpnL-PTK-p0u8psbRJNH8N01Lle9W0rKIC0FguUN8EuoPTZdw7Rzf4aTOaMcKG0NwowJ5NTGiOX2MMqKB9mmkXklMYF99YIF5ouszxiSCGBI-2aP0cLxVPOLX3X-2ywoLr_alRsg_rVu2hbx-jLMvNQpCWrCSeVjmMG9Ymtvx1-MyvErpO6dkhHi0w9SWgoEemLtqh85c9x45aVhLoQEDpNUl4QE422IUx7JFc46muAJLyiF2S2Mv1Y5PLTKGwQ2TB0z8N7QSzMqDp5i6BAg-qL7Y0w20DLvk_Yt3C2XqQn7IBJdvUtDMH-J3Ef3XgqLlNdbEQ0FrCbsn3g3LsPvM1qArIcR8Q5QO_rOnMukp0zz76xBckjVpaYU/https://www.amazon.com/dp/B098S48QWM/?_encoding=UTF8&pd_rd_i=B098S48QWM&pd_rd_i=B098S48QWM&ref_=sbx_be_s_sparkle_ssd_bkg&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                    - generic [ref=f8e1638]:
+                      - link [ref=f8e1639] [cursor=pointer]:
+                        - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JCXdo1DKOZGUcJ6mhdeVCaUAAAGfcBA08AEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDy7LTF/clv1c_ek-wxQfWFbbaTPHXD5vyn6IoCfBDnjoPnMHmo4knngHfz6uPzHej8UcJZAkIgX4VSywLBgnnVogFvO1reupo_gJ44AlCaFCCPrjkDmjn0o81ipJsrJb7I3PoQ_p2gCZZ3_xdOdTystrpw1VQ5hzBCWnKaJ2dnG3akjfQTLSr-Lx_MQPNjD6g8exNQh1UnD9ZcX0U9mij_2eIUC18tUxaV8DfEE0VLt_2fvIratIx4fEtF_OyiBp5k7QWQtUWlCbBBYVAP-Q0cTg1NGVFt_dq4iutg9l-16LHYhxIgKr2DlbwrwmlT-brQRhxDM3VB4nefxMAJypKbyfpyD0rOTJFBJf0HdJT3X2YIVdkADbINiCNXF_pUNJZXarq0Vdn4nEOZCPEMOUMsxCIJp0rKpAjv4DuXmurS44V5y4pAYzKysb8zxKUGnW0GwVAFtCPID7gA3crhFxeyIYYeYuzr7nbqBERg787tGDnshext1liKPgrNx2OBts7Zm3F8fB7h1djTsghAuObpVYyoqi4UjfnxXLXouE4V-Bw0RA3x7Qwf5_BkQzITDzLY2Wpq_kRLo1TupUL3OvRSTESkd5NemzpRfUKZHsa8es1W0F-Xzaqk8AWIr6P8pI9zj1FXMZIMlLmbnxyljwrVVVZr1HX7d5weHkjLa4XxZN0T1Egqk0cA2RLkgyaVVrwWibj2epFTJMtkf5Ppubb5XZLxCWGz4yYu9hovFMFDNfSo6ErQ3u44UDfetHubBhusLny0ex0SNPWnIfFow7SJEV4t8EirgzqMnxKsr3Y_oc2nBiaD7bURTesKGvipD5t4zw3Pyg3dcA9OAJiF1b1xazKj4QJldSfzrMXM18XrUK4buyPNHYAhG8XwVaN83eMcAfOD6MgVFilixmdbp-BGANOQgglnhyqqehgGV6WGVmkHHCsFWPjXSG77kwCYbEeuivPC7ipR_3PRkutMuhsEYScdE0xZacweIJqYXIoHtAPaQwWF3dwNiWo2zDBBW1PqvctnsonU23UIZsU6LGawa9eWgh-elqSjk4YzDufWtfjj2nOBed61twfN_cHepCczxZHgY9SCAqlw7KsmOmxcyIL52RxMRgtldChAgEOX1fPlNGsoIWyUm4YmwKqUH7iFZmY8Mfar-_E6O_30XxdDp_4dtgrS8C91eUFjQkI1okhB7woNpnL-PTK-p0u8psbRJNH8N01Lle9W0rKIC0FguUN8EuoPTZdw7Rzf4aTOaMcKG0NwowJ5NTGiOX2MMqKB9mmkXklMYF99YIF5ouszxiSCGBI-2aP0cLxVPOLX3X-2ywoLr_alRsg_rVu2hbx-jLMvNQpCWrCSeVjmMG9Ymtvx1-MyvErpO6dkhHi0w9SWgoEemLtqh85c9x45aVhLoQEDpNUl4QE422IUx7JFc46muAJLyiF2S2Mv1Y5PLTKGwQ2TB0z8N7QSzMqDp5i6BAg-qL7Y0w20DLvk_Yt3C2XqQn7IBJdvUtDMH-J3Ef3XgqLlNdbEQ0FrCbsn3g3LsPvM1qArIcR8Q5QO_rOnMukp0zz76xBckjVpaYU/https://www.amazon.com/dp/B098S48QWM/?_encoding=UTF8&pd_rd_i=B098S48QWM&pd_rd_i=B098S48QWM&ref_=sbx_be_s_sparkle_ssd_bkg&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                      - link "VssoPlor Wireless Mouse, 2.4G Slim Portable Computer Laptop Mouse with Nano Receiver Quiet Silent Optical Mice for Notebook, PC, Laptop, Computer-Black and Gold" [ref=f8e1640] [cursor=pointer]:
+                        - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JCXdo1DKOZGUcJ6mhdeVCaUAAAGfcBA08AEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDy7LTF/clv1c_ek-wxQfWFbbaTPHXD5vyn6IoCfBDnjoPnMHmo4knngHfz6uPzHej8UcJZAkIgX4VSywLBgnnVogFvO1reupo_gJ44AlCaFCCPrjkDmjn0o81ipJsrJb7I3PoQ_p2gCZZ3_xdOdTystrpw1VQ5hzBCWnKaJ2dnG3akjfQTLSr-Lx_MQPNjD6g8exNQh1UnD9ZcX0U9mij_2eIUC18tUxaV8DfEE0VLt_2fvIratIx4fEtF_OyiBp5k7QWQtUWlCbBBYVAP-Q0cTg1NGVFt_dq4iutg9l-16LHYhxIgKr2DlbwrwmlT-brQRhxDM3VB4nefxMAJypKbyfpyD0rOTJFBJf0HdJT3X2YIVdkADbINiCNXF_pUNJZXarq0Vdn4nEOZCPEMOUMsxCIJp0rKpAjv4DuXmurS44V5y4pAYzKysb8zxKUGnW0GwVAFtCPID7gA3crhFxeyIYYeYuzr7nbqBERg787tGDnshext1liKPgrNx2OBts7Zm3F8fB7h1djTsghAuObpVYyoqi4UjfnxXLXouE4V-Bw0RA3x7Qwf5_BkQzITDzLY2Wpq_kRLo1TupUL3OvRSTESkd5NemzpRfUKZHsa8es1W0F-Xzaqk8AWIr6P8pI9zj1FXMZIMlLmbnxyljwrVVVZr1HX7d5weHkjLa4XxZN0T1Egqk0cA2RLkgyaVVrwWibj2epFTJMtkf5Ppubb5XZLxCWGz4yYu9hovFMFDNfSo6ErQ3u44UDfetHubBhusLny0ex0SNPWnIfFow7SJEV4t8EirgzqMnxKsr3Y_oc2nBiaD7bURTesKGvipD5t4zw3Pyg3dcA9OAJiF1b1xazKj4QJldSfzrMXM18XrUK4buyPNHYAhG8XwVaN83eMcAfOD6MgVFilixmdbp-BGANOQgglnhyqqehgGV6WGVmkHHCsFWPjXSG77kwCYbEeuivPC7ipR_3PRkutMuhsEYScdE0xZacweIJqYXIoHtAPaQwWF3dwNiWo2zDBBW1PqvctnsonU23UIZsU6LGawa9eWgh-elqSjk4YzDufWtfjj2nOBed61twfN_cHepCczxZHgY9SCAqlw7KsmOmxcyIL52RxMRgtldChAgEOX1fPlNGsoIWyUm4YmwKqUH7iFZmY8Mfar-_E6O_30XxdDp_4dtgrS8C91eUFjQkI1okhB7woNpnL-PTK-p0u8psbRJNH8N01Lle9W0rKIC0FguUN8EuoPTZdw7Rzf4aTOaMcKG0NwowJ5NTGiOX2MMqKB9mmkXklMYF99YIF5ouszxiSCGBI-2aP0cLxVPOLX3X-2ywoLr_alRsg_rVu2hbx-jLMvNQpCWrCSeVjmMG9Ymtvx1-MyvErpO6dkhHi0w9SWgoEemLtqh85c9x45aVhLoQEDpNUl4QE422IUx7JFc46muAJLyiF2S2Mv1Y5PLTKGwQ2TB0z8N7QSzMqDp5i6BAg-qL7Y0w20DLvk_Yt3C2XqQn7IBJdvUtDMH-J3Ef3XgqLlNdbEQ0FrCbsn3g3LsPvM1qArIcR8Q5QO_rOnMukp0zz76xBckjVpaYU/https://www.amazon.com/dp/B098S48QWM/?_encoding=UTF8&pd_rd_i=B098S48QWM&pd_rd_i=B098S48QWM&ref_=sbx_be_s_sparkle_ssd_tt&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                    - link "Rated 4.5 out of 5 stars from 28,907 reviews" [ref=f8e1642] [cursor=pointer]:
+                      - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JCXdo1DKOZGUcJ6mhdeVCaUAAAGfcBA08AEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDy7LTF/clv1c_ek-wxQfWFbbaTPHXD5vyn6IoCfBDnjoPnMHmo4knngHfz6uPzHej8UcJZAkIgX4VSywLBgnnVogFvO1reupo_gJ44AlCaFCCPrjkDmjn0o81ipJsrJb7I3PoQ_p2gCZZ3_xdOdTystrpw1VQ5hzBCWnKaJ2dnG3akjfQTLSr-Lx_MQPNjD6g8exNQh1UnD9ZcX0U9mij_2eIUC18tUxaV8DfEE0VLt_2fvIratIx4fEtF_OyiBp5k7QWQtUWlCbBBYVAP-Q0cTg1NGVFt_dq4iutg9l-16LHYhxIgKr2DlbwrwmlT-brQRhxDM3VB4nefxMAJypKbyfpyD0rOTJFBJf0HdJT3X2YIVdkADbINiCNXF_pUNJZXarq0Vdn4nEOZCPEMOUMsxCIJp0rKpAjv4DuXmurS44V5y4pAYzKysb8zxKUGnW0GwVAFtCPID7gA3crhFxeyIYYeYuzr7nbqBERg787tGDnshext1liKPgrNx2OBts7Zm3F8fB7h1djTsghAuObpVYyoqi4UjfnxXLXouE4V-Bw0RA3x7Qwf5_BkQzITDzLY2Wpq_kRLo1TupUL3OvRSTESkd5NemzpRfUKZHsa8es1W0F-Xzaqk8AWIr6P8pI9zj1FXMZIMlLmbnxyljwrVVVZr1HX7d5weHkjLa4XxZN0T1Egqk0cA2RLkgyaVVrwWibj2epFTJMtkf5Ppubb5XZLxCWGz4yYu9hovFMFDNfSo6ErQ3u44UDfetHubBhusLny0ex0SNPWnIfFow7SJEV4t8EirgzqMnxKsr3Y_oc2nBiaD7bURTesKGvipD5t4zw3Pyg3dcA9OAJiF1b1xazKj4QJldSfzrMXM18XrUK4buyPNHYAhG8XwVaN83eMcAfOD6MgVFilixmdbp-BGANOQgglnhyqqehgGV6WGVmkHHCsFWPjXSG77kwCYbEeuivPC7ipR_3PRkutMuhsEYScdE0xZacweIJqYXIoHtAPaQwWF3dwNiWo2zDBBW1PqvctnsonU23UIZsU6LGawa9eWgh-elqSjk4YzDufWtfjj2nOBed61twfN_cHepCczxZHgY9SCAqlw7KsmOmxcyIL52RxMRgtldChAgEOX1fPlNGsoIWyUm4YmwKqUH7iFZmY8Mfar-_E6O_30XxdDp_4dtgrS8C91eUFjQkI1okhB7woNpnL-PTK-p0u8psbRJNH8N01Lle9W0rKIC0FguUN8EuoPTZdw7Rzf4aTOaMcKG0NwowJ5NTGiOX2MMqKB9mmkXklMYF99YIF5ouszxiSCGBI-2aP0cLxVPOLX3X-2ywoLr_alRsg_rVu2hbx-jLMvNQpCWrCSeVjmMG9Ymtvx1-MyvErpO6dkhHi0w9SWgoEemLtqh85c9x45aVhLoQEDpNUl4QE422IUx7JFc46muAJLyiF2S2Mv1Y5PLTKGwQ2TB0z8N7QSzMqDp5i6BAg-qL7Y0w20DLvk_Yt3C2XqQn7IBJdvUtDMH-J3Ef3XgqLlNdbEQ0FrCbsn3g3LsPvM1qArIcR8Q5QO_rOnMukp0zz76xBckjVpaYU/https://www.amazon.com/dp/B098S48QWM/?_encoding=UTF8&pd_rd_i=B098S48QWM&pd_rd_i=B098S48QWM&ref_=sbx_be_s_sparkle_ssd_rev&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                      - text: "4.5"
+                      - generic [ref=f8e1643]: 4.5 out of 5 stars
+                      - text: 28,907
+                    - link "INR962.62" [ref=f8e1646] [cursor=pointer]:
+                      - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JCXdo1DKOZGUcJ6mhdeVCaUAAAGfcBA08AEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDy7LTF/clv1c_ek-wxQfWFbbaTPHXD5vyn6IoCfBDnjoPnMHmo4knngHfz6uPzHej8UcJZAkIgX4VSywLBgnnVogFvO1reupo_gJ44AlCaFCCPrjkDmjn0o81ipJsrJb7I3PoQ_p2gCZZ3_xdOdTystrpw1VQ5hzBCWnKaJ2dnG3akjfQTLSr-Lx_MQPNjD6g8exNQh1UnD9ZcX0U9mij_2eIUC18tUxaV8DfEE0VLt_2fvIratIx4fEtF_OyiBp5k7QWQtUWlCbBBYVAP-Q0cTg1NGVFt_dq4iutg9l-16LHYhxIgKr2DlbwrwmlT-brQRhxDM3VB4nefxMAJypKbyfpyD0rOTJFBJf0HdJT3X2YIVdkADbINiCNXF_pUNJZXarq0Vdn4nEOZCPEMOUMsxCIJp0rKpAjv4DuXmurS44V5y4pAYzKysb8zxKUGnW0GwVAFtCPID7gA3crhFxeyIYYeYuzr7nbqBERg787tGDnshext1liKPgrNx2OBts7Zm3F8fB7h1djTsghAuObpVYyoqi4UjfnxXLXouE4V-Bw0RA3x7Qwf5_BkQzITDzLY2Wpq_kRLo1TupUL3OvRSTESkd5NemzpRfUKZHsa8es1W0F-Xzaqk8AWIr6P8pI9zj1FXMZIMlLmbnxyljwrVVVZr1HX7d5weHkjLa4XxZN0T1Egqk0cA2RLkgyaVVrwWibj2epFTJMtkf5Ppubb5XZLxCWGz4yYu9hovFMFDNfSo6ErQ3u44UDfetHubBhusLny0ex0SNPWnIfFow7SJEV4t8EirgzqMnxKsr3Y_oc2nBiaD7bURTesKGvipD5t4zw3Pyg3dcA9OAJiF1b1xazKj4QJldSfzrMXM18XrUK4buyPNHYAhG8XwVaN83eMcAfOD6MgVFilixmdbp-BGANOQgglnhyqqehgGV6WGVmkHHCsFWPjXSG77kwCYbEeuivPC7ipR_3PRkutMuhsEYScdE0xZacweIJqYXIoHtAPaQwWF3dwNiWo2zDBBW1PqvctnsonU23UIZsU6LGawa9eWgh-elqSjk4YzDufWtfjj2nOBed61twfN_cHepCczxZHgY9SCAqlw7KsmOmxcyIL52RxMRgtldChAgEOX1fPlNGsoIWyUm4YmwKqUH7iFZmY8Mfar-_E6O_30XxdDp_4dtgrS8C91eUFjQkI1okhB7woNpnL-PTK-p0u8psbRJNH8N01Lle9W0rKIC0FguUN8EuoPTZdw7Rzf4aTOaMcKG0NwowJ5NTGiOX2MMqKB9mmkXklMYF99YIF5ouszxiSCGBI-2aP0cLxVPOLX3X-2ywoLr_alRsg_rVu2hbx-jLMvNQpCWrCSeVjmMG9Ymtvx1-MyvErpO6dkhHi0w9SWgoEemLtqh85c9x45aVhLoQEDpNUl4QE422IUx7JFc46muAJLyiF2S2Mv1Y5PLTKGwQ2TB0z8N7QSzMqDp5i6BAg-qL7Y0w20DLvk_Yt3C2XqQn7IBJdvUtDMH-J3Ef3XgqLlNdbEQ0FrCbsn3g3LsPvM1qArIcR8Q5QO_rOnMukp0zz76xBckjVpaYU/https://www.amazon.com/dp/B098S48QWM/?_encoding=UTF8&pd_rd_i=B098S48QWM&pd_rd_i=B098S48QWM&ref_=sbx_be_s_sparkle_ssd_pce&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                      - generic [ref=f8e1647]:
+                        - generic [ref=f8e1648]: INR962.62
+                        - generic [ref=f8e1649]:
+                          - text: INR
+                          - generic [ref=f8e1650]: "962."
+                          - text: "62"
+            - listitem [ref=f8e1651]:
+              - generic [ref=f8e1656]:
+                - generic [ref=f8e1660]:
+                  - link "Sponsored video, click to navigate to featured page." [ref=f8e1661] [cursor=pointer]:
+                    - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JKWuQeYd61oeSqHkE4qwsR0AAAGfcBA08QEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICA0N6ME/clv1c_ek-wxQfWLcTaTBVEai7mSw7J7ZERJ3AcrikZSy_1uw8PZ7xz9bjbQtdSgLvgjI4_Y11Dj00o6Q0e166cgSLWWJmN2Wb5U9Dt_vlwLXD6nK1eq5GKMo4bYdSKoHt1rsrhdzuKtBn8Jh1uTeCxNI338NpAuV2asvVqkcfAxAWulMa-WmYLUijp_W3PnIMOUyfGBvUze9tC1wbE3VRddi6A92Y9MxZ7HWqCoKzHnOFNAczEcISUcwZCU2yFsQIK7U2PcP7ka4W_S-1j-fo9ZVErZqc2JH1pzfLdg0U0R0kcypaYd5_VXeXzTVMokyuCApYBcvDXktOK36QZW5dz32f-F6iIM2hbxzg3seQ0dC3Xyj_EzhVbCL2-rfS1_IX1eZR9rMZhVoyR5yzS0KH1gR9D4Tcm6npY6Vbc5zm4ApLWOAVbC3_cofPackxiQwtRcUoe6qofG2wwJ0ObGPpBSZPT2366itcafMVFOV3JveU6wimrtPEzcB5pcd9k3X_tfEWRU2Ozwu3m2zOHqk-fK6C6OkeMBj38k0woSSHs1V0Rq9qN3Ltb8p427RMGqyPv13duDhGiTkY7zSI8TiPj-27VGNtHEXwAp-NsMXXdjxj7XQ4AaZKcHX6V3GxII9VIoFcFxBnFhTYD5gaA-JyC4M9Dp4IRRaQsveO_AUEqtO8dlO8N9OpbOTmhheOp5RK0UQfui93av-HnLoTPy08G6jKLIw9ROJxGRTvGJBsNB_MUcFztU-rN_36-29xhtTmUwpGU39A2tSwUxarEVvwE7RXKznvkcI4J5mXzgTZyh5--nmt4zKfN_UxV1plRm9I_jB0wgbgFd6SsUSc38kHyXpxdNIp9YYcQ4eSIk-c-NRX9EgPqoyGKGnDMsr3MHmKRenNl7IpmPlhvuDTsZpSaMH0td9LcJ4GXxmbLZpk-PRq_KCI-75m6pItvqzEUMiCrhgIRcoQfhBD3GBXsJUOMiR1SfYF0TymeStcU8nFUrdwklVLjKGOj7iYKgsn1n-DAIzfP-KnOCzZTNUfT9VADLgVmc6p89M3D5RiBJ6NBgce5-JmRGe0HHLLHWOhpkCIRpJ8krxnIhKcUeNTVVJCAx-4QB4LkGx0vQWW3AfcbWD86hQ1Zv7gxwy90na9IZ6GG5V7zr3DdM7zS58c5EKxkV_zGNUk20JLvDw41MgqjEWrdRMUyAFGaR_Y1IVOasgkomcM8g3a2QJDOe2X85ha9DQnZw45dCxFHyW6GdPrvD8k_sDEAbV0CJwsj2zk75yWlDNcTwFdo8Crf_SZ4yTw3yTpq9pyqyIIcaQ2ylD4KIaP54g8hk3DhT0pEoD2753qU5-VfZos9A8RKW8phZMPluSksSTycO319fg7raTWVf_4hQsX_857d8_D6Afnx4u-iCRckxX-oUlvV2lXnJSjUgG6Gd2xINctJwDji7y104sFTHYRELN3n4FZDAqescINCxhYxzNCfGJCtMKqLrjC56Asxzv0c8c2diFgDdd6aBxaI9BjWh67X_OoCYIakEmxrAY35FHuIA29O7PD-k57typ0AHRvgFL5LlNaXovVRzmvv5FbrkGzbMGEzOhrIv8YYfZ3PTo_rwhQ/https://www.amazon.com/dp/B0FC2GH8Z4/?_encoding=UTF8&pd_rd_i=B0FC2GH8Z4&pd_rd_i=B0FC2GH8Z4&ref_=sbx_be_s_sparkle_ssd_vid&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                  - button "Play Sponsored Video" [ref=f8e1665] [cursor=pointer]
+                - generic [ref=f8e1684]:
+                  - link [ref=f8e1687] [cursor=pointer]:
+                    - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JKWuQeYd61oeSqHkE4qwsR0AAAGfcBA08QEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICA0N6ME/clv1c_ek-wxQfWLcTaTBVEai7mSw7J7ZERJ3AcrikZSy_1uw8PZ7xz9bjbQtdSgLvgjI4_Y11Dj00o6Q0e166cgSLWWJmN2Wb5U9Dt_vlwLXD6nK1eq5GKMo4bYdSKoHt1rsrhdzuKtBn8Jh1uTeCxNI338NpAuV2asvVqkcfAxAWulMa-WmYLUijp_W3PnIMOUyfGBvUze9tC1wbE3VRddi6A92Y9MxZ7HWqCoKzHnOFNAczEcISUcwZCU2yFsQIK7U2PcP7ka4W_S-1j-fo9ZVErZqc2JH1pzfLdg0U0R0kcypaYd5_VXeXzTVMokyuCApYBcvDXktOK36QZW5dz32f-F6iIM2hbxzg3seQ0dC3Xyj_EzhVbCL2-rfS1_IX1eZR9rMZhVoyR5yzS0KH1gR9D4Tcm6npY6Vbc5zm4ApLWOAVbC3_cofPackxiQwtRcUoe6qofG2wwJ0ObGPpBSZPT2366itcafMVFOV3JveU6wimrtPEzcB5pcd9k3X_tfEWRU2Ozwu3m2zOHqk-fK6C6OkeMBj38k0woSSHs1V0Rq9qN3Ltb8p427RMGqyPv13duDhGiTkY7zSI8TiPj-27VGNtHEXwAp-NsMXXdjxj7XQ4AaZKcHX6V3GxII9VIoFcFxBnFhTYD5gaA-JyC4M9Dp4IRRaQsveO_AUEqtO8dlO8N9OpbOTmhheOp5RK0UQfui93av-HnLoTPy08G6jKLIw9ROJxGRTvGJBsNB_MUcFztU-rN_36-29xhtTmUwpGU39A2tSwUxarEVvwE7RXKznvkcI4J5mXzgTZyh5--nmt4zKfN_UxV1plRm9I_jB0wgbgFd6SsUSc38kHyXpxdNIp9YYcQ4eSIk-c-NRX9EgPqoyGKGnDMsr3MHmKRenNl7IpmPlhvuDTsZpSaMH0td9LcJ4GXxmbLZpk-PRq_KCI-75m6pItvqzEUMiCrhgIRcoQfhBD3GBXsJUOMiR1SfYF0TymeStcU8nFUrdwklVLjKGOj7iYKgsn1n-DAIzfP-KnOCzZTNUfT9VADLgVmc6p89M3D5RiBJ6NBgce5-JmRGe0HHLLHWOhpkCIRpJ8krxnIhKcUeNTVVJCAx-4QB4LkGx0vQWW3AfcbWD86hQ1Zv7gxwy90na9IZ6GG5V7zr3DdM7zS58c5EKxkV_zGNUk20JLvDw41MgqjEWrdRMUyAFGaR_Y1IVOasgkomcM8g3a2QJDOe2X85ha9DQnZw45dCxFHyW6GdPrvD8k_sDEAbV0CJwsj2zk75yWlDNcTwFdo8Crf_SZ4yTw3yTpq9pyqyIIcaQ2ylD4KIaP54g8hk3DhT0pEoD2753qU5-VfZos9A8RKW8phZMPluSksSTycO319fg7raTWVf_4hQsX_857d8_D6Afnx4u-iCRckxX-oUlvV2lXnJSjUgG6Gd2xINctJwDji7y104sFTHYRELN3n4FZDAqescINCxhYxzNCfGJCtMKqLrjC56Asxzv0c8c2diFgDdd6aBxaI9BjWh67X_OoCYIakEmxrAY35FHuIA29O7PD-k57typ0AHRvgFL5LlNaXovVRzmvv5FbrkGzbMGEzOhrIv8YYfZ3PTo_rwhQ/https://www.amazon.com/dp/B0FC2GH8Z4/?_encoding=UTF8&pd_rd_i=B0FC2GH8Z4&pd_rd_i=B0FC2GH8Z4&ref_=sbx_be_s_sparkle_ssd_img&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                    - img "wegear USB Wireless Mouse for Laptop PC Mac, 2.4GHz Cordless Mouse with 6 Buttons, 5-Level Adjustable 4000 DPI, Ergonomic Portable Optical Computer Mice, 24-Month Battery Life -Black" [ref=f8e1689]
+                  - generic [ref=f8e1691]:
+                    - link [ref=f8e1692] [cursor=pointer]:
+                      - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JKWuQeYd61oeSqHkE4qwsR0AAAGfcBA08QEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICA0N6ME/clv1c_ek-wxQfWLcTaTBVEai7mSw7J7ZERJ3AcrikZSy_1uw8PZ7xz9bjbQtdSgLvgjI4_Y11Dj00o6Q0e166cgSLWWJmN2Wb5U9Dt_vlwLXD6nK1eq5GKMo4bYdSKoHt1rsrhdzuKtBn8Jh1uTeCxNI338NpAuV2asvVqkcfAxAWulMa-WmYLUijp_W3PnIMOUyfGBvUze9tC1wbE3VRddi6A92Y9MxZ7HWqCoKzHnOFNAczEcISUcwZCU2yFsQIK7U2PcP7ka4W_S-1j-fo9ZVErZqc2JH1pzfLdg0U0R0kcypaYd5_VXeXzTVMokyuCApYBcvDXktOK36QZW5dz32f-F6iIM2hbxzg3seQ0dC3Xyj_EzhVbCL2-rfS1_IX1eZR9rMZhVoyR5yzS0KH1gR9D4Tcm6npY6Vbc5zm4ApLWOAVbC3_cofPackxiQwtRcUoe6qofG2wwJ0ObGPpBSZPT2366itcafMVFOV3JveU6wimrtPEzcB5pcd9k3X_tfEWRU2Ozwu3m2zOHqk-fK6C6OkeMBj38k0woSSHs1V0Rq9qN3Ltb8p427RMGqyPv13duDhGiTkY7zSI8TiPj-27VGNtHEXwAp-NsMXXdjxj7XQ4AaZKcHX6V3GxII9VIoFcFxBnFhTYD5gaA-JyC4M9Dp4IRRaQsveO_AUEqtO8dlO8N9OpbOTmhheOp5RK0UQfui93av-HnLoTPy08G6jKLIw9ROJxGRTvGJBsNB_MUcFztU-rN_36-29xhtTmUwpGU39A2tSwUxarEVvwE7RXKznvkcI4J5mXzgTZyh5--nmt4zKfN_UxV1plRm9I_jB0wgbgFd6SsUSc38kHyXpxdNIp9YYcQ4eSIk-c-NRX9EgPqoyGKGnDMsr3MHmKRenNl7IpmPlhvuDTsZpSaMH0td9LcJ4GXxmbLZpk-PRq_KCI-75m6pItvqzEUMiCrhgIRcoQfhBD3GBXsJUOMiR1SfYF0TymeStcU8nFUrdwklVLjKGOj7iYKgsn1n-DAIzfP-KnOCzZTNUfT9VADLgVmc6p89M3D5RiBJ6NBgce5-JmRGe0HHLLHWOhpkCIRpJ8krxnIhKcUeNTVVJCAx-4QB4LkGx0vQWW3AfcbWD86hQ1Zv7gxwy90na9IZ6GG5V7zr3DdM7zS58c5EKxkV_zGNUk20JLvDw41MgqjEWrdRMUyAFGaR_Y1IVOasgkomcM8g3a2QJDOe2X85ha9DQnZw45dCxFHyW6GdPrvD8k_sDEAbV0CJwsj2zk75yWlDNcTwFdo8Crf_SZ4yTw3yTpq9pyqyIIcaQ2ylD4KIaP54g8hk3DhT0pEoD2753qU5-VfZos9A8RKW8phZMPluSksSTycO319fg7raTWVf_4hQsX_857d8_D6Afnx4u-iCRckxX-oUlvV2lXnJSjUgG6Gd2xINctJwDji7y104sFTHYRELN3n4FZDAqescINCxhYxzNCfGJCtMKqLrjC56Asxzv0c8c2diFgDdd6aBxaI9BjWh67X_OoCYIakEmxrAY35FHuIA29O7PD-k57typ0AHRvgFL5LlNaXovVRzmvv5FbrkGzbMGEzOhrIv8YYfZ3PTo_rwhQ/https://www.amazon.com/dp/B0FC2GH8Z4/?_encoding=UTF8&pd_rd_i=B0FC2GH8Z4&pd_rd_i=B0FC2GH8Z4&ref_=sbx_be_s_sparkle_ssd_bkg&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                    - generic [ref=f8e1693]:
+                      - link [ref=f8e1694] [cursor=pointer]:
+                        - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JKWuQeYd61oeSqHkE4qwsR0AAAGfcBA08QEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICA0N6ME/clv1c_ek-wxQfWLcTaTBVEai7mSw7J7ZERJ3AcrikZSy_1uw8PZ7xz9bjbQtdSgLvgjI4_Y11Dj00o6Q0e166cgSLWWJmN2Wb5U9Dt_vlwLXD6nK1eq5GKMo4bYdSKoHt1rsrhdzuKtBn8Jh1uTeCxNI338NpAuV2asvVqkcfAxAWulMa-WmYLUijp_W3PnIMOUyfGBvUze9tC1wbE3VRddi6A92Y9MxZ7HWqCoKzHnOFNAczEcISUcwZCU2yFsQIK7U2PcP7ka4W_S-1j-fo9ZVErZqc2JH1pzfLdg0U0R0kcypaYd5_VXeXzTVMokyuCApYBcvDXktOK36QZW5dz32f-F6iIM2hbxzg3seQ0dC3Xyj_EzhVbCL2-rfS1_IX1eZR9rMZhVoyR5yzS0KH1gR9D4Tcm6npY6Vbc5zm4ApLWOAVbC3_cofPackxiQwtRcUoe6qofG2wwJ0ObGPpBSZPT2366itcafMVFOV3JveU6wimrtPEzcB5pcd9k3X_tfEWRU2Ozwu3m2zOHqk-fK6C6OkeMBj38k0woSSHs1V0Rq9qN3Ltb8p427RMGqyPv13duDhGiTkY7zSI8TiPj-27VGNtHEXwAp-NsMXXdjxj7XQ4AaZKcHX6V3GxII9VIoFcFxBnFhTYD5gaA-JyC4M9Dp4IRRaQsveO_AUEqtO8dlO8N9OpbOTmhheOp5RK0UQfui93av-HnLoTPy08G6jKLIw9ROJxGRTvGJBsNB_MUcFztU-rN_36-29xhtTmUwpGU39A2tSwUxarEVvwE7RXKznvkcI4J5mXzgTZyh5--nmt4zKfN_UxV1plRm9I_jB0wgbgFd6SsUSc38kHyXpxdNIp9YYcQ4eSIk-c-NRX9EgPqoyGKGnDMsr3MHmKRenNl7IpmPlhvuDTsZpSaMH0td9LcJ4GXxmbLZpk-PRq_KCI-75m6pItvqzEUMiCrhgIRcoQfhBD3GBXsJUOMiR1SfYF0TymeStcU8nFUrdwklVLjKGOj7iYKgsn1n-DAIzfP-KnOCzZTNUfT9VADLgVmc6p89M3D5RiBJ6NBgce5-JmRGe0HHLLHWOhpkCIRpJ8krxnIhKcUeNTVVJCAx-4QB4LkGx0vQWW3AfcbWD86hQ1Zv7gxwy90na9IZ6GG5V7zr3DdM7zS58c5EKxkV_zGNUk20JLvDw41MgqjEWrdRMUyAFGaR_Y1IVOasgkomcM8g3a2QJDOe2X85ha9DQnZw45dCxFHyW6GdPrvD8k_sDEAbV0CJwsj2zk75yWlDNcTwFdo8Crf_SZ4yTw3yTpq9pyqyIIcaQ2ylD4KIaP54g8hk3DhT0pEoD2753qU5-VfZos9A8RKW8phZMPluSksSTycO319fg7raTWVf_4hQsX_857d8_D6Afnx4u-iCRckxX-oUlvV2lXnJSjUgG6Gd2xINctJwDji7y104sFTHYRELN3n4FZDAqescINCxhYxzNCfGJCtMKqLrjC56Asxzv0c8c2diFgDdd6aBxaI9BjWh67X_OoCYIakEmxrAY35FHuIA29O7PD-k57typ0AHRvgFL5LlNaXovVRzmvv5FbrkGzbMGEzOhrIv8YYfZ3PTo_rwhQ/https://www.amazon.com/dp/B0FC2GH8Z4/?_encoding=UTF8&pd_rd_i=B0FC2GH8Z4&pd_rd_i=B0FC2GH8Z4&ref_=sbx_be_s_sparkle_ssd_bkg&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                      - link "wegear USB Wireless Mouse for Laptop PC Mac, 2.4GHz Cordless Mouse with 6 Buttons, 5-Level Adjustable 4000 DPI, Ergonomic Portable Optical Computer Mice, 24-Month Battery Life -Black" [ref=f8e1695] [cursor=pointer]:
+                        - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JKWuQeYd61oeSqHkE4qwsR0AAAGfcBA08QEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICA0N6ME/clv1c_ek-wxQfWLcTaTBVEai7mSw7J7ZERJ3AcrikZSy_1uw8PZ7xz9bjbQtdSgLvgjI4_Y11Dj00o6Q0e166cgSLWWJmN2Wb5U9Dt_vlwLXD6nK1eq5GKMo4bYdSKoHt1rsrhdzuKtBn8Jh1uTeCxNI338NpAuV2asvVqkcfAxAWulMa-WmYLUijp_W3PnIMOUyfGBvUze9tC1wbE3VRddi6A92Y9MxZ7HWqCoKzHnOFNAczEcISUcwZCU2yFsQIK7U2PcP7ka4W_S-1j-fo9ZVErZqc2JH1pzfLdg0U0R0kcypaYd5_VXeXzTVMokyuCApYBcvDXktOK36QZW5dz32f-F6iIM2hbxzg3seQ0dC3Xyj_EzhVbCL2-rfS1_IX1eZR9rMZhVoyR5yzS0KH1gR9D4Tcm6npY6Vbc5zm4ApLWOAVbC3_cofPackxiQwtRcUoe6qofG2wwJ0ObGPpBSZPT2366itcafMVFOV3JveU6wimrtPEzcB5pcd9k3X_tfEWRU2Ozwu3m2zOHqk-fK6C6OkeMBj38k0woSSHs1V0Rq9qN3Ltb8p427RMGqyPv13duDhGiTkY7zSI8TiPj-27VGNtHEXwAp-NsMXXdjxj7XQ4AaZKcHX6V3GxII9VIoFcFxBnFhTYD5gaA-JyC4M9Dp4IRRaQsveO_AUEqtO8dlO8N9OpbOTmhheOp5RK0UQfui93av-HnLoTPy08G6jKLIw9ROJxGRTvGJBsNB_MUcFztU-rN_36-29xhtTmUwpGU39A2tSwUxarEVvwE7RXKznvkcI4J5mXzgTZyh5--nmt4zKfN_UxV1plRm9I_jB0wgbgFd6SsUSc38kHyXpxdNIp9YYcQ4eSIk-c-NRX9EgPqoyGKGnDMsr3MHmKRenNl7IpmPlhvuDTsZpSaMH0td9LcJ4GXxmbLZpk-PRq_KCI-75m6pItvqzEUMiCrhgIRcoQfhBD3GBXsJUOMiR1SfYF0TymeStcU8nFUrdwklVLjKGOj7iYKgsn1n-DAIzfP-KnOCzZTNUfT9VADLgVmc6p89M3D5RiBJ6NBgce5-JmRGe0HHLLHWOhpkCIRpJ8krxnIhKcUeNTVVJCAx-4QB4LkGx0vQWW3AfcbWD86hQ1Zv7gxwy90na9IZ6GG5V7zr3DdM7zS58c5EKxkV_zGNUk20JLvDw41MgqjEWrdRMUyAFGaR_Y1IVOasgkomcM8g3a2QJDOe2X85ha9DQnZw45dCxFHyW6GdPrvD8k_sDEAbV0CJwsj2zk75yWlDNcTwFdo8Crf_SZ4yTw3yTpq9pyqyIIcaQ2ylD4KIaP54g8hk3DhT0pEoD2753qU5-VfZos9A8RKW8phZMPluSksSTycO319fg7raTWVf_4hQsX_857d8_D6Afnx4u-iCRckxX-oUlvV2lXnJSjUgG6Gd2xINctJwDji7y104sFTHYRELN3n4FZDAqescINCxhYxzNCfGJCtMKqLrjC56Asxzv0c8c2diFgDdd6aBxaI9BjWh67X_OoCYIakEmxrAY35FHuIA29O7PD-k57typ0AHRvgFL5LlNaXovVRzmvv5FbrkGzbMGEzOhrIv8YYfZ3PTo_rwhQ/https://www.amazon.com/dp/B0FC2GH8Z4/?_encoding=UTF8&pd_rd_i=B0FC2GH8Z4&pd_rd_i=B0FC2GH8Z4&ref_=sbx_be_s_sparkle_ssd_tt&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                    - link "Rated 4.6 out of 5 stars from 520 reviews" [ref=f8e1697] [cursor=pointer]:
+                      - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JKWuQeYd61oeSqHkE4qwsR0AAAGfcBA08QEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICA0N6ME/clv1c_ek-wxQfWLcTaTBVEai7mSw7J7ZERJ3AcrikZSy_1uw8PZ7xz9bjbQtdSgLvgjI4_Y11Dj00o6Q0e166cgSLWWJmN2Wb5U9Dt_vlwLXD6nK1eq5GKMo4bYdSKoHt1rsrhdzuKtBn8Jh1uTeCxNI338NpAuV2asvVqkcfAxAWulMa-WmYLUijp_W3PnIMOUyfGBvUze9tC1wbE3VRddi6A92Y9MxZ7HWqCoKzHnOFNAczEcISUcwZCU2yFsQIK7U2PcP7ka4W_S-1j-fo9ZVErZqc2JH1pzfLdg0U0R0kcypaYd5_VXeXzTVMokyuCApYBcvDXktOK36QZW5dz32f-F6iIM2hbxzg3seQ0dC3Xyj_EzhVbCL2-rfS1_IX1eZR9rMZhVoyR5yzS0KH1gR9D4Tcm6npY6Vbc5zm4ApLWOAVbC3_cofPackxiQwtRcUoe6qofG2wwJ0ObGPpBSZPT2366itcafMVFOV3JveU6wimrtPEzcB5pcd9k3X_tfEWRU2Ozwu3m2zOHqk-fK6C6OkeMBj38k0woSSHs1V0Rq9qN3Ltb8p427RMGqyPv13duDhGiTkY7zSI8TiPj-27VGNtHEXwAp-NsMXXdjxj7XQ4AaZKcHX6V3GxII9VIoFcFxBnFhTYD5gaA-JyC4M9Dp4IRRaQsveO_AUEqtO8dlO8N9OpbOTmhheOp5RK0UQfui93av-HnLoTPy08G6jKLIw9ROJxGRTvGJBsNB_MUcFztU-rN_36-29xhtTmUwpGU39A2tSwUxarEVvwE7RXKznvkcI4J5mXzgTZyh5--nmt4zKfN_UxV1plRm9I_jB0wgbgFd6SsUSc38kHyXpxdNIp9YYcQ4eSIk-c-NRX9EgPqoyGKGnDMsr3MHmKRenNl7IpmPlhvuDTsZpSaMH0td9LcJ4GXxmbLZpk-PRq_KCI-75m6pItvqzEUMiCrhgIRcoQfhBD3GBXsJUOMiR1SfYF0TymeStcU8nFUrdwklVLjKGOj7iYKgsn1n-DAIzfP-KnOCzZTNUfT9VADLgVmc6p89M3D5RiBJ6NBgce5-JmRGe0HHLLHWOhpkCIRpJ8krxnIhKcUeNTVVJCAx-4QB4LkGx0vQWW3AfcbWD86hQ1Zv7gxwy90na9IZ6GG5V7zr3DdM7zS58c5EKxkV_zGNUk20JLvDw41MgqjEWrdRMUyAFGaR_Y1IVOasgkomcM8g3a2QJDOe2X85ha9DQnZw45dCxFHyW6GdPrvD8k_sDEAbV0CJwsj2zk75yWlDNcTwFdo8Crf_SZ4yTw3yTpq9pyqyIIcaQ2ylD4KIaP54g8hk3DhT0pEoD2753qU5-VfZos9A8RKW8phZMPluSksSTycO319fg7raTWVf_4hQsX_857d8_D6Afnx4u-iCRckxX-oUlvV2lXnJSjUgG6Gd2xINctJwDji7y104sFTHYRELN3n4FZDAqescINCxhYxzNCfGJCtMKqLrjC56Asxzv0c8c2diFgDdd6aBxaI9BjWh67X_OoCYIakEmxrAY35FHuIA29O7PD-k57typ0AHRvgFL5LlNaXovVRzmvv5FbrkGzbMGEzOhrIv8YYfZ3PTo_rwhQ/https://www.amazon.com/dp/B0FC2GH8Z4/?_encoding=UTF8&pd_rd_i=B0FC2GH8Z4&pd_rd_i=B0FC2GH8Z4&ref_=sbx_be_s_sparkle_ssd_rev&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                      - text: "4.6"
+                      - generic [ref=f8e1698]: 4.6 out of 5 stars
+                      - text: "520"
+                    - 'link "INR963.59 List: INR1,252.95" [ref=f8e1701] [cursor=pointer]':
+                      - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JKWuQeYd61oeSqHkE4qwsR0AAAGfcBA08QEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICA0N6ME/clv1c_ek-wxQfWLcTaTBVEai7mSw7J7ZERJ3AcrikZSy_1uw8PZ7xz9bjbQtdSgLvgjI4_Y11Dj00o6Q0e166cgSLWWJmN2Wb5U9Dt_vlwLXD6nK1eq5GKMo4bYdSKoHt1rsrhdzuKtBn8Jh1uTeCxNI338NpAuV2asvVqkcfAxAWulMa-WmYLUijp_W3PnIMOUyfGBvUze9tC1wbE3VRddi6A92Y9MxZ7HWqCoKzHnOFNAczEcISUcwZCU2yFsQIK7U2PcP7ka4W_S-1j-fo9ZVErZqc2JH1pzfLdg0U0R0kcypaYd5_VXeXzTVMokyuCApYBcvDXktOK36QZW5dz32f-F6iIM2hbxzg3seQ0dC3Xyj_EzhVbCL2-rfS1_IX1eZR9rMZhVoyR5yzS0KH1gR9D4Tcm6npY6Vbc5zm4ApLWOAVbC3_cofPackxiQwtRcUoe6qofG2wwJ0ObGPpBSZPT2366itcafMVFOV3JveU6wimrtPEzcB5pcd9k3X_tfEWRU2Ozwu3m2zOHqk-fK6C6OkeMBj38k0woSSHs1V0Rq9qN3Ltb8p427RMGqyPv13duDhGiTkY7zSI8TiPj-27VGNtHEXwAp-NsMXXdjxj7XQ4AaZKcHX6V3GxII9VIoFcFxBnFhTYD5gaA-JyC4M9Dp4IRRaQsveO_AUEqtO8dlO8N9OpbOTmhheOp5RK0UQfui93av-HnLoTPy08G6jKLIw9ROJxGRTvGJBsNB_MUcFztU-rN_36-29xhtTmUwpGU39A2tSwUxarEVvwE7RXKznvkcI4J5mXzgTZyh5--nmt4zKfN_UxV1plRm9I_jB0wgbgFd6SsUSc38kHyXpxdNIp9YYcQ4eSIk-c-NRX9EgPqoyGKGnDMsr3MHmKRenNl7IpmPlhvuDTsZpSaMH0td9LcJ4GXxmbLZpk-PRq_KCI-75m6pItvqzEUMiCrhgIRcoQfhBD3GBXsJUOMiR1SfYF0TymeStcU8nFUrdwklVLjKGOj7iYKgsn1n-DAIzfP-KnOCzZTNUfT9VADLgVmc6p89M3D5RiBJ6NBgce5-JmRGe0HHLLHWOhpkCIRpJ8krxnIhKcUeNTVVJCAx-4QB4LkGx0vQWW3AfcbWD86hQ1Zv7gxwy90na9IZ6GG5V7zr3DdM7zS58c5EKxkV_zGNUk20JLvDw41MgqjEWrdRMUyAFGaR_Y1IVOasgkomcM8g3a2QJDOe2X85ha9DQnZw45dCxFHyW6GdPrvD8k_sDEAbV0CJwsj2zk75yWlDNcTwFdo8Crf_SZ4yTw3yTpq9pyqyIIcaQ2ylD4KIaP54g8hk3DhT0pEoD2753qU5-VfZos9A8RKW8phZMPluSksSTycO319fg7raTWVf_4hQsX_857d8_D6Afnx4u-iCRckxX-oUlvV2lXnJSjUgG6Gd2xINctJwDji7y104sFTHYRELN3n4FZDAqescINCxhYxzNCfGJCtMKqLrjC56Asxzv0c8c2diFgDdd6aBxaI9BjWh67X_OoCYIakEmxrAY35FHuIA29O7PD-k57typ0AHRvgFL5LlNaXovVRzmvv5FbrkGzbMGEzOhrIv8YYfZ3PTo_rwhQ/https://www.amazon.com/dp/B0FC2GH8Z4/?_encoding=UTF8&pd_rd_i=B0FC2GH8Z4&pd_rd_i=B0FC2GH8Z4&ref_=sbx_be_s_sparkle_ssd_pce&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                      - generic [ref=f8e1702]:
+                        - generic [ref=f8e1703]: INR963.59
+                        - generic [ref=f8e1704]:
+                          - text: INR
+                          - generic [ref=f8e1705]: "963."
+                          - text: "59"
+                      - text: "List:"
+                      - generic [ref=f8e1706]:
+                        - generic [ref=f8e1707]: INR1,252.95
+                        - text: INR1,252.95
+            - listitem [ref=f8e1708]:
+              - generic [ref=f8e1713]:
+                - generic [ref=f8e1717]:
+                  - link "Sponsored video, click to navigate to featured page." [ref=f8e1718] [cursor=pointer]:
+                    - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JGXeDmLoTcVyu8c6ohgWETQAAAGfcBA08gEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICB9fzk5/clv1c_ek-wxQfWLcTaTBVEai7mSw7J7ZERJ3AcrinxWe_1uw8Ph8xz9bjbQtdScKU1GyNAXlPYKQSwdZGPnTLc637mIo6qvkK59T4Qa5MHKkLl9MA7jyHn6ex8ADe2Apl0pFwFPxC_6ZJ-KwDE01g34KyM3KOCkbXclF_SosSDb3cuyZI1iQvcmn6rVSbKaiMTRqqalZYs1JejLWaIUeHwgVvqklrWWH6XJO8WhH6CaWzSO1UZdKepZ9-6ZjExv5lq_29Hyqce09BqkxZfKpLRT1g8sVdyqyt0qPzyheWVk2R6W_42JT8_TRkiS0_7v8QJV9EUcAFVQKvcy9CR2uBX63xvaPeHB2QZy5cyg0KE4e7LQtRPyZBiDcf3B2efYM7F0GKppeLR3JMwQnmkwUHGexzRGbyzafGrnC7VgWi_d9lmcUYNYucp4NtaMotjnHxFcZd3xZCVWHw1YDyTGJfgwwo04ej3fc1Vgu8xaKNLqmciPnjboHUzoImk2P5gdcWarM4Z9CSNq2bFNgn-wRKz049g2e29REI3qxAF1YfOidHeaXDTFKGsb3ptcXcT31n6I2VsJgSg-l8x-DeHBGtL36vUEA3B2UufuGXUerN0lWyA3R9ph0NDaOSQjRmWoOeXvE-uSWFLicw4x_Ue7X6FfweS8tsphw52x6hDyaLXdaeuXrWyWgt5Tz4pOc0YQD_ymLFtPylCWKGEInia1TRqDkH7XwUU4lUgGsjhl-FjK65UJTOJwejVI02esAc0Kl66mnVOYfrbVl4MW2X1gt0WYeBYCSYV385SOzXEAyK68bi7Wy6j5VDUimzehhw_-JYwW_qezC7_DpYCdZ5kv2jhuf6Wpp_LJcZ3BRy5Vy1BuZerk7Q4Hps2g8IlH6qBmNfmsA03JKkKR0Nnu-4MBrUe0hFy5hL-5qftuM4DQaYJJ11oBq2KJQm5vYDxA6wcaGfRBJvRQ2w1ZLaXB7v4n04W6BH1l5cbqUrdqe1QbfHDP_dxcRX7ayEzQYS3V2CHzpfZfY2q8hL7VdkREeUBpxXnN9BpiEvvM1Szbwm2wsaZg2fUfuxGDZREmKx-qpHTw2Udmn8m5OpqOPsqXOQskQqQvDFyJ7nTtuyCNJojbRULhbsWzYk5StIE3gq0ajU2lqYfebNKjEeGyCOd8RQcp53bo9JfzWetdvzHqtI69zxJ-0s0pJ0G9NzESRcujpA9mIC0w5ATqYMAiJA1HP0ZmyV0Rh-r_szdQzjV4SaJ-8Ve7kgy2bCZSzascSbeEruL5kdlDR_LdAyQ1hot6-ihAhY7WSGxCznYPX-ncSTGl7pTpEhDnpgsT0MLHbYY7nvZNkgHK4hQ4_hIC-XU0Ie741tO2MICMalETI5sMQxTkAvc6gczHUvIoymfjqh2Q0S_3fGJASzDKNa0Da4QANthjFhqttWvfR4uCy9K4qS0p3k1LzqnJ3i-NlcD_1lutd34unYbhED1BZTp5wXl3JpLod6eUht9fB7NwY1U3Vaxf3g4y2haHWWn-MkxA32W41sLvyjEGHRFCRmj0IxGancq1xk-wIsCp-90Bk9N832mbH0Yatsf-WE_aSWjjG-WZO0fqtXZzFwL/https://www.amazon.com/dp/B015NBTAOW/?_encoding=UTF8&pd_rd_i=B015NBTAOW&pd_rd_i=B015NBTAOW&ref_=sbx_be_s_sparkle_ssd_vid&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                  - button "Play Sponsored Video" [ref=f8e1722] [cursor=pointer]
+                - generic [ref=f8e1741]:
+                  - link [ref=f8e1744] [cursor=pointer]:
+                    - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JGXeDmLoTcVyu8c6ohgWETQAAAGfcBA08gEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICB9fzk5/clv1c_ek-wxQfWLcTaTBVEai7mSw7J7ZERJ3AcrinxWe_1uw8Ph8xz9bjbQtdScKU1GyNAXlPYKQSwdZGPnTLc637mIo6qvkK59T4Qa5MHKkLl9MA7jyHn6ex8ADe2Apl0pFwFPxC_6ZJ-KwDE01g34KyM3KOCkbXclF_SosSDb3cuyZI1iQvcmn6rVSbKaiMTRqqalZYs1JejLWaIUeHwgVvqklrWWH6XJO8WhH6CaWzSO1UZdKepZ9-6ZjExv5lq_29Hyqce09BqkxZfKpLRT1g8sVdyqyt0qPzyheWVk2R6W_42JT8_TRkiS0_7v8QJV9EUcAFVQKvcy9CR2uBX63xvaPeHB2QZy5cyg0KE4e7LQtRPyZBiDcf3B2efYM7F0GKppeLR3JMwQnmkwUHGexzRGbyzafGrnC7VgWi_d9lmcUYNYucp4NtaMotjnHxFcZd3xZCVWHw1YDyTGJfgwwo04ej3fc1Vgu8xaKNLqmciPnjboHUzoImk2P5gdcWarM4Z9CSNq2bFNgn-wRKz049g2e29REI3qxAF1YfOidHeaXDTFKGsb3ptcXcT31n6I2VsJgSg-l8x-DeHBGtL36vUEA3B2UufuGXUerN0lWyA3R9ph0NDaOSQjRmWoOeXvE-uSWFLicw4x_Ue7X6FfweS8tsphw52x6hDyaLXdaeuXrWyWgt5Tz4pOc0YQD_ymLFtPylCWKGEInia1TRqDkH7XwUU4lUgGsjhl-FjK65UJTOJwejVI02esAc0Kl66mnVOYfrbVl4MW2X1gt0WYeBYCSYV385SOzXEAyK68bi7Wy6j5VDUimzehhw_-JYwW_qezC7_DpYCdZ5kv2jhuf6Wpp_LJcZ3BRy5Vy1BuZerk7Q4Hps2g8IlH6qBmNfmsA03JKkKR0Nnu-4MBrUe0hFy5hL-5qftuM4DQaYJJ11oBq2KJQm5vYDxA6wcaGfRBJvRQ2w1ZLaXB7v4n04W6BH1l5cbqUrdqe1QbfHDP_dxcRX7ayEzQYS3V2CHzpfZfY2q8hL7VdkREeUBpxXnN9BpiEvvM1Szbwm2wsaZg2fUfuxGDZREmKx-qpHTw2Udmn8m5OpqOPsqXOQskQqQvDFyJ7nTtuyCNJojbRULhbsWzYk5StIE3gq0ajU2lqYfebNKjEeGyCOd8RQcp53bo9JfzWetdvzHqtI69zxJ-0s0pJ0G9NzESRcujpA9mIC0w5ATqYMAiJA1HP0ZmyV0Rh-r_szdQzjV4SaJ-8Ve7kgy2bCZSzascSbeEruL5kdlDR_LdAyQ1hot6-ihAhY7WSGxCznYPX-ncSTGl7pTpEhDnpgsT0MLHbYY7nvZNkgHK4hQ4_hIC-XU0Ie741tO2MICMalETI5sMQxTkAvc6gczHUvIoymfjqh2Q0S_3fGJASzDKNa0Da4QANthjFhqttWvfR4uCy9K4qS0p3k1LzqnJ3i-NlcD_1lutd34unYbhED1BZTp5wXl3JpLod6eUht9fB7NwY1U3Vaxf3g4y2haHWWn-MkxA32W41sLvyjEGHRFCRmj0IxGancq1xk-wIsCp-90Bk9N832mbH0Yatsf-WE_aSWjjG-WZO0fqtXZzFwL/https://www.amazon.com/dp/B015NBTAOW/?_encoding=UTF8&pd_rd_i=B015NBTAOW&pd_rd_i=B015NBTAOW&ref_=sbx_be_s_sparkle_ssd_img&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                    - img "TECKNET Wireless Mouse, 2.4G Ergonomic Optical Mouse, Computer Mouse for Laptop, PC, Computer, Chromebook, Notebook, 6 Buttons, 24 Months Battery Life, 2600 DPI, 5 Adjustment Levels - Purple" [ref=f8e1746]
+                  - generic [ref=f8e1748]:
+                    - link [ref=f8e1749] [cursor=pointer]:
+                      - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JGXeDmLoTcVyu8c6ohgWETQAAAGfcBA08gEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICB9fzk5/clv1c_ek-wxQfWLcTaTBVEai7mSw7J7ZERJ3AcrinxWe_1uw8Ph8xz9bjbQtdScKU1GyNAXlPYKQSwdZGPnTLc637mIo6qvkK59T4Qa5MHKkLl9MA7jyHn6ex8ADe2Apl0pFwFPxC_6ZJ-KwDE01g34KyM3KOCkbXclF_SosSDb3cuyZI1iQvcmn6rVSbKaiMTRqqalZYs1JejLWaIUeHwgVvqklrWWH6XJO8WhH6CaWzSO1UZdKepZ9-6ZjExv5lq_29Hyqce09BqkxZfKpLRT1g8sVdyqyt0qPzyheWVk2R6W_42JT8_TRkiS0_7v8QJV9EUcAFVQKvcy9CR2uBX63xvaPeHB2QZy5cyg0KE4e7LQtRPyZBiDcf3B2efYM7F0GKppeLR3JMwQnmkwUHGexzRGbyzafGrnC7VgWi_d9lmcUYNYucp4NtaMotjnHxFcZd3xZCVWHw1YDyTGJfgwwo04ej3fc1Vgu8xaKNLqmciPnjboHUzoImk2P5gdcWarM4Z9CSNq2bFNgn-wRKz049g2e29REI3qxAF1YfOidHeaXDTFKGsb3ptcXcT31n6I2VsJgSg-l8x-DeHBGtL36vUEA3B2UufuGXUerN0lWyA3R9ph0NDaOSQjRmWoOeXvE-uSWFLicw4x_Ue7X6FfweS8tsphw52x6hDyaLXdaeuXrWyWgt5Tz4pOc0YQD_ymLFtPylCWKGEInia1TRqDkH7XwUU4lUgGsjhl-FjK65UJTOJwejVI02esAc0Kl66mnVOYfrbVl4MW2X1gt0WYeBYCSYV385SOzXEAyK68bi7Wy6j5VDUimzehhw_-JYwW_qezC7_DpYCdZ5kv2jhuf6Wpp_LJcZ3BRy5Vy1BuZerk7Q4Hps2g8IlH6qBmNfmsA03JKkKR0Nnu-4MBrUe0hFy5hL-5qftuM4DQaYJJ11oBq2KJQm5vYDxA6wcaGfRBJvRQ2w1ZLaXB7v4n04W6BH1l5cbqUrdqe1QbfHDP_dxcRX7ayEzQYS3V2CHzpfZfY2q8hL7VdkREeUBpxXnN9BpiEvvM1Szbwm2wsaZg2fUfuxGDZREmKx-qpHTw2Udmn8m5OpqOPsqXOQskQqQvDFyJ7nTtuyCNJojbRULhbsWzYk5StIE3gq0ajU2lqYfebNKjEeGyCOd8RQcp53bo9JfzWetdvzHqtI69zxJ-0s0pJ0G9NzESRcujpA9mIC0w5ATqYMAiJA1HP0ZmyV0Rh-r_szdQzjV4SaJ-8Ve7kgy2bCZSzascSbeEruL5kdlDR_LdAyQ1hot6-ihAhY7WSGxCznYPX-ncSTGl7pTpEhDnpgsT0MLHbYY7nvZNkgHK4hQ4_hIC-XU0Ie741tO2MICMalETI5sMQxTkAvc6gczHUvIoymfjqh2Q0S_3fGJASzDKNa0Da4QANthjFhqttWvfR4uCy9K4qS0p3k1LzqnJ3i-NlcD_1lutd34unYbhED1BZTp5wXl3JpLod6eUht9fB7NwY1U3Vaxf3g4y2haHWWn-MkxA32W41sLvyjEGHRFCRmj0IxGancq1xk-wIsCp-90Bk9N832mbH0Yatsf-WE_aSWjjG-WZO0fqtXZzFwL/https://www.amazon.com/dp/B015NBTAOW/?_encoding=UTF8&pd_rd_i=B015NBTAOW&pd_rd_i=B015NBTAOW&ref_=sbx_be_s_sparkle_ssd_bkg&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                    - generic [ref=f8e1750]:
+                      - link [ref=f8e1751] [cursor=pointer]:
+                        - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JGXeDmLoTcVyu8c6ohgWETQAAAGfcBA08gEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICB9fzk5/clv1c_ek-wxQfWLcTaTBVEai7mSw7J7ZERJ3AcrinxWe_1uw8Ph8xz9bjbQtdScKU1GyNAXlPYKQSwdZGPnTLc637mIo6qvkK59T4Qa5MHKkLl9MA7jyHn6ex8ADe2Apl0pFwFPxC_6ZJ-KwDE01g34KyM3KOCkbXclF_SosSDb3cuyZI1iQvcmn6rVSbKaiMTRqqalZYs1JejLWaIUeHwgVvqklrWWH6XJO8WhH6CaWzSO1UZdKepZ9-6ZjExv5lq_29Hyqce09BqkxZfKpLRT1g8sVdyqyt0qPzyheWVk2R6W_42JT8_TRkiS0_7v8QJV9EUcAFVQKvcy9CR2uBX63xvaPeHB2QZy5cyg0KE4e7LQtRPyZBiDcf3B2efYM7F0GKppeLR3JMwQnmkwUHGexzRGbyzafGrnC7VgWi_d9lmcUYNYucp4NtaMotjnHxFcZd3xZCVWHw1YDyTGJfgwwo04ej3fc1Vgu8xaKNLqmciPnjboHUzoImk2P5gdcWarM4Z9CSNq2bFNgn-wRKz049g2e29REI3qxAF1YfOidHeaXDTFKGsb3ptcXcT31n6I2VsJgSg-l8x-DeHBGtL36vUEA3B2UufuGXUerN0lWyA3R9ph0NDaOSQjRmWoOeXvE-uSWFLicw4x_Ue7X6FfweS8tsphw52x6hDyaLXdaeuXrWyWgt5Tz4pOc0YQD_ymLFtPylCWKGEInia1TRqDkH7XwUU4lUgGsjhl-FjK65UJTOJwejVI02esAc0Kl66mnVOYfrbVl4MW2X1gt0WYeBYCSYV385SOzXEAyK68bi7Wy6j5VDUimzehhw_-JYwW_qezC7_DpYCdZ5kv2jhuf6Wpp_LJcZ3BRy5Vy1BuZerk7Q4Hps2g8IlH6qBmNfmsA03JKkKR0Nnu-4MBrUe0hFy5hL-5qftuM4DQaYJJ11oBq2KJQm5vYDxA6wcaGfRBJvRQ2w1ZLaXB7v4n04W6BH1l5cbqUrdqe1QbfHDP_dxcRX7ayEzQYS3V2CHzpfZfY2q8hL7VdkREeUBpxXnN9BpiEvvM1Szbwm2wsaZg2fUfuxGDZREmKx-qpHTw2Udmn8m5OpqOPsqXOQskQqQvDFyJ7nTtuyCNJojbRULhbsWzYk5StIE3gq0ajU2lqYfebNKjEeGyCOd8RQcp53bo9JfzWetdvzHqtI69zxJ-0s0pJ0G9NzESRcujpA9mIC0w5ATqYMAiJA1HP0ZmyV0Rh-r_szdQzjV4SaJ-8Ve7kgy2bCZSzascSbeEruL5kdlDR_LdAyQ1hot6-ihAhY7WSGxCznYPX-ncSTGl7pTpEhDnpgsT0MLHbYY7nvZNkgHK4hQ4_hIC-XU0Ie741tO2MICMalETI5sMQxTkAvc6gczHUvIoymfjqh2Q0S_3fGJASzDKNa0Da4QANthjFhqttWvfR4uCy9K4qS0p3k1LzqnJ3i-NlcD_1lutd34unYbhED1BZTp5wXl3JpLod6eUht9fB7NwY1U3Vaxf3g4y2haHWWn-MkxA32W41sLvyjEGHRFCRmj0IxGancq1xk-wIsCp-90Bk9N832mbH0Yatsf-WE_aSWjjG-WZO0fqtXZzFwL/https://www.amazon.com/dp/B015NBTAOW/?_encoding=UTF8&pd_rd_i=B015NBTAOW&pd_rd_i=B015NBTAOW&ref_=sbx_be_s_sparkle_ssd_bkg&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                      - link "TECKNET Wireless Mouse, 2.4G Ergonomic Optical Mouse, Computer Mouse for Laptop, PC, Computer, Chromebook, Notebook, 6 Buttons, 24 Months Battery Life, 2600 DPI, 5 Adjustment Levels - Purple" [ref=f8e1752] [cursor=pointer]:
+                        - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JGXeDmLoTcVyu8c6ohgWETQAAAGfcBA08gEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICB9fzk5/clv1c_ek-wxQfWLcTaTBVEai7mSw7J7ZERJ3AcrinxWe_1uw8Ph8xz9bjbQtdScKU1GyNAXlPYKQSwdZGPnTLc637mIo6qvkK59T4Qa5MHKkLl9MA7jyHn6ex8ADe2Apl0pFwFPxC_6ZJ-KwDE01g34KyM3KOCkbXclF_SosSDb3cuyZI1iQvcmn6rVSbKaiMTRqqalZYs1JejLWaIUeHwgVvqklrWWH6XJO8WhH6CaWzSO1UZdKepZ9-6ZjExv5lq_29Hyqce09BqkxZfKpLRT1g8sVdyqyt0qPzyheWVk2R6W_42JT8_TRkiS0_7v8QJV9EUcAFVQKvcy9CR2uBX63xvaPeHB2QZy5cyg0KE4e7LQtRPyZBiDcf3B2efYM7F0GKppeLR3JMwQnmkwUHGexzRGbyzafGrnC7VgWi_d9lmcUYNYucp4NtaMotjnHxFcZd3xZCVWHw1YDyTGJfgwwo04ej3fc1Vgu8xaKNLqmciPnjboHUzoImk2P5gdcWarM4Z9CSNq2bFNgn-wRKz049g2e29REI3qxAF1YfOidHeaXDTFKGsb3ptcXcT31n6I2VsJgSg-l8x-DeHBGtL36vUEA3B2UufuGXUerN0lWyA3R9ph0NDaOSQjRmWoOeXvE-uSWFLicw4x_Ue7X6FfweS8tsphw52x6hDyaLXdaeuXrWyWgt5Tz4pOc0YQD_ymLFtPylCWKGEInia1TRqDkH7XwUU4lUgGsjhl-FjK65UJTOJwejVI02esAc0Kl66mnVOYfrbVl4MW2X1gt0WYeBYCSYV385SOzXEAyK68bi7Wy6j5VDUimzehhw_-JYwW_qezC7_DpYCdZ5kv2jhuf6Wpp_LJcZ3BRy5Vy1BuZerk7Q4Hps2g8IlH6qBmNfmsA03JKkKR0Nnu-4MBrUe0hFy5hL-5qftuM4DQaYJJ11oBq2KJQm5vYDxA6wcaGfRBJvRQ2w1ZLaXB7v4n04W6BH1l5cbqUrdqe1QbfHDP_dxcRX7ayEzQYS3V2CHzpfZfY2q8hL7VdkREeUBpxXnN9BpiEvvM1Szbwm2wsaZg2fUfuxGDZREmKx-qpHTw2Udmn8m5OpqOPsqXOQskQqQvDFyJ7nTtuyCNJojbRULhbsWzYk5StIE3gq0ajU2lqYfebNKjEeGyCOd8RQcp53bo9JfzWetdvzHqtI69zxJ-0s0pJ0G9NzESRcujpA9mIC0w5ATqYMAiJA1HP0ZmyV0Rh-r_szdQzjV4SaJ-8Ve7kgy2bCZSzascSbeEruL5kdlDR_LdAyQ1hot6-ihAhY7WSGxCznYPX-ncSTGl7pTpEhDnpgsT0MLHbYY7nvZNkgHK4hQ4_hIC-XU0Ie741tO2MICMalETI5sMQxTkAvc6gczHUvIoymfjqh2Q0S_3fGJASzDKNa0Da4QANthjFhqttWvfR4uCy9K4qS0p3k1LzqnJ3i-NlcD_1lutd34unYbhED1BZTp5wXl3JpLod6eUht9fB7NwY1U3Vaxf3g4y2haHWWn-MkxA32W41sLvyjEGHRFCRmj0IxGancq1xk-wIsCp-90Bk9N832mbH0Yatsf-WE_aSWjjG-WZO0fqtXZzFwL/https://www.amazon.com/dp/B015NBTAOW/?_encoding=UTF8&pd_rd_i=B015NBTAOW&pd_rd_i=B015NBTAOW&ref_=sbx_be_s_sparkle_ssd_tt&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                    - link "Rated 4.5 out of 5 stars from 78,552 reviews" [ref=f8e1754] [cursor=pointer]:
+                      - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JGXeDmLoTcVyu8c6ohgWETQAAAGfcBA08gEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICB9fzk5/clv1c_ek-wxQfWLcTaTBVEai7mSw7J7ZERJ3AcrinxWe_1uw8Ph8xz9bjbQtdScKU1GyNAXlPYKQSwdZGPnTLc637mIo6qvkK59T4Qa5MHKkLl9MA7jyHn6ex8ADe2Apl0pFwFPxC_6ZJ-KwDE01g34KyM3KOCkbXclF_SosSDb3cuyZI1iQvcmn6rVSbKaiMTRqqalZYs1JejLWaIUeHwgVvqklrWWH6XJO8WhH6CaWzSO1UZdKepZ9-6ZjExv5lq_29Hyqce09BqkxZfKpLRT1g8sVdyqyt0qPzyheWVk2R6W_42JT8_TRkiS0_7v8QJV9EUcAFVQKvcy9CR2uBX63xvaPeHB2QZy5cyg0KE4e7LQtRPyZBiDcf3B2efYM7F0GKppeLR3JMwQnmkwUHGexzRGbyzafGrnC7VgWi_d9lmcUYNYucp4NtaMotjnHxFcZd3xZCVWHw1YDyTGJfgwwo04ej3fc1Vgu8xaKNLqmciPnjboHUzoImk2P5gdcWarM4Z9CSNq2bFNgn-wRKz049g2e29REI3qxAF1YfOidHeaXDTFKGsb3ptcXcT31n6I2VsJgSg-l8x-DeHBGtL36vUEA3B2UufuGXUerN0lWyA3R9ph0NDaOSQjRmWoOeXvE-uSWFLicw4x_Ue7X6FfweS8tsphw52x6hDyaLXdaeuXrWyWgt5Tz4pOc0YQD_ymLFtPylCWKGEInia1TRqDkH7XwUU4lUgGsjhl-FjK65UJTOJwejVI02esAc0Kl66mnVOYfrbVl4MW2X1gt0WYeBYCSYV385SOzXEAyK68bi7Wy6j5VDUimzehhw_-JYwW_qezC7_DpYCdZ5kv2jhuf6Wpp_LJcZ3BRy5Vy1BuZerk7Q4Hps2g8IlH6qBmNfmsA03JKkKR0Nnu-4MBrUe0hFy5hL-5qftuM4DQaYJJ11oBq2KJQm5vYDxA6wcaGfRBJvRQ2w1ZLaXB7v4n04W6BH1l5cbqUrdqe1QbfHDP_dxcRX7ayEzQYS3V2CHzpfZfY2q8hL7VdkREeUBpxXnN9BpiEvvM1Szbwm2wsaZg2fUfuxGDZREmKx-qpHTw2Udmn8m5OpqOPsqXOQskQqQvDFyJ7nTtuyCNJojbRULhbsWzYk5StIE3gq0ajU2lqYfebNKjEeGyCOd8RQcp53bo9JfzWetdvzHqtI69zxJ-0s0pJ0G9NzESRcujpA9mIC0w5ATqYMAiJA1HP0ZmyV0Rh-r_szdQzjV4SaJ-8Ve7kgy2bCZSzascSbeEruL5kdlDR_LdAyQ1hot6-ihAhY7WSGxCznYPX-ncSTGl7pTpEhDnpgsT0MLHbYY7nvZNkgHK4hQ4_hIC-XU0Ie741tO2MICMalETI5sMQxTkAvc6gczHUvIoymfjqh2Q0S_3fGJASzDKNa0Da4QANthjFhqttWvfR4uCy9K4qS0p3k1LzqnJ3i-NlcD_1lutd34unYbhED1BZTp5wXl3JpLod6eUht9fB7NwY1U3Vaxf3g4y2haHWWn-MkxA32W41sLvyjEGHRFCRmj0IxGancq1xk-wIsCp-90Bk9N832mbH0Yatsf-WE_aSWjjG-WZO0fqtXZzFwL/https://www.amazon.com/dp/B015NBTAOW/?_encoding=UTF8&pd_rd_i=B015NBTAOW&pd_rd_i=B015NBTAOW&ref_=sbx_be_s_sparkle_ssd_rev&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                      - text: "4.5"
+                      - generic [ref=f8e1755]: 4.5 out of 5 stars
+                      - text: 78,552
+                    - 'link "INR963.59 List: INR1,542.32" [ref=f8e1758] [cursor=pointer]':
+                      - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JGXeDmLoTcVyu8c6ohgWETQAAAGfcBA08gEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICB9fzk5/clv1c_ek-wxQfWLcTaTBVEai7mSw7J7ZERJ3AcrinxWe_1uw8Ph8xz9bjbQtdScKU1GyNAXlPYKQSwdZGPnTLc637mIo6qvkK59T4Qa5MHKkLl9MA7jyHn6ex8ADe2Apl0pFwFPxC_6ZJ-KwDE01g34KyM3KOCkbXclF_SosSDb3cuyZI1iQvcmn6rVSbKaiMTRqqalZYs1JejLWaIUeHwgVvqklrWWH6XJO8WhH6CaWzSO1UZdKepZ9-6ZjExv5lq_29Hyqce09BqkxZfKpLRT1g8sVdyqyt0qPzyheWVk2R6W_42JT8_TRkiS0_7v8QJV9EUcAFVQKvcy9CR2uBX63xvaPeHB2QZy5cyg0KE4e7LQtRPyZBiDcf3B2efYM7F0GKppeLR3JMwQnmkwUHGexzRGbyzafGrnC7VgWi_d9lmcUYNYucp4NtaMotjnHxFcZd3xZCVWHw1YDyTGJfgwwo04ej3fc1Vgu8xaKNLqmciPnjboHUzoImk2P5gdcWarM4Z9CSNq2bFNgn-wRKz049g2e29REI3qxAF1YfOidHeaXDTFKGsb3ptcXcT31n6I2VsJgSg-l8x-DeHBGtL36vUEA3B2UufuGXUerN0lWyA3R9ph0NDaOSQjRmWoOeXvE-uSWFLicw4x_Ue7X6FfweS8tsphw52x6hDyaLXdaeuXrWyWgt5Tz4pOc0YQD_ymLFtPylCWKGEInia1TRqDkH7XwUU4lUgGsjhl-FjK65UJTOJwejVI02esAc0Kl66mnVOYfrbVl4MW2X1gt0WYeBYCSYV385SOzXEAyK68bi7Wy6j5VDUimzehhw_-JYwW_qezC7_DpYCdZ5kv2jhuf6Wpp_LJcZ3BRy5Vy1BuZerk7Q4Hps2g8IlH6qBmNfmsA03JKkKR0Nnu-4MBrUe0hFy5hL-5qftuM4DQaYJJ11oBq2KJQm5vYDxA6wcaGfRBJvRQ2w1ZLaXB7v4n04W6BH1l5cbqUrdqe1QbfHDP_dxcRX7ayEzQYS3V2CHzpfZfY2q8hL7VdkREeUBpxXnN9BpiEvvM1Szbwm2wsaZg2fUfuxGDZREmKx-qpHTw2Udmn8m5OpqOPsqXOQskQqQvDFyJ7nTtuyCNJojbRULhbsWzYk5StIE3gq0ajU2lqYfebNKjEeGyCOd8RQcp53bo9JfzWetdvzHqtI69zxJ-0s0pJ0G9NzESRcujpA9mIC0w5ATqYMAiJA1HP0ZmyV0Rh-r_szdQzjV4SaJ-8Ve7kgy2bCZSzascSbeEruL5kdlDR_LdAyQ1hot6-ihAhY7WSGxCznYPX-ncSTGl7pTpEhDnpgsT0MLHbYY7nvZNkgHK4hQ4_hIC-XU0Ie741tO2MICMalETI5sMQxTkAvc6gczHUvIoymfjqh2Q0S_3fGJASzDKNa0Da4QANthjFhqttWvfR4uCy9K4qS0p3k1LzqnJ3i-NlcD_1lutd34unYbhED1BZTp5wXl3JpLod6eUht9fB7NwY1U3Vaxf3g4y2haHWWn-MkxA32W41sLvyjEGHRFCRmj0IxGancq1xk-wIsCp-90Bk9N832mbH0Yatsf-WE_aSWjjG-WZO0fqtXZzFwL/https://www.amazon.com/dp/B015NBTAOW/?_encoding=UTF8&pd_rd_i=B015NBTAOW&pd_rd_i=B015NBTAOW&ref_=sbx_be_s_sparkle_ssd_pce&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                      - generic [ref=f8e1759]:
+                        - generic [ref=f8e1760]: INR963.59
+                        - generic [ref=f8e1761]:
+                          - text: INR
+                          - generic [ref=f8e1762]: "963."
+                          - text: "59"
+                      - text: "List:"
+                      - generic [ref=f8e1763]:
+                        - generic [ref=f8e1764]: INR1,542.32
+                        - text: INR1,542.32
+            - listitem [ref=f8e1765]:
+              - generic [ref=f8e1770]:
+                - generic [ref=f8e1774]:
+                  - link "Sponsored video, click to navigate to featured page." [ref=f8e1775] [cursor=pointer]:
+                    - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JGhLMsOuJOs8NDqww57P7oYAAAGfcBA08gEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICBbjoIl/clv1c_ek-YBfHXLcTWXlRhtwlAiFwLMKlTuQp95ZI4R73rjclUPBUd9rTd8lt2wPuHKKh_A0SLPeNZE0D4EUE4DJHf38UMP8Jl8HKT8mwsq5NexO3zkzDvKc2XYVHZo_5g-trhN5V1Jwrvjc0iT9ZfZyxBiInyyJ2dkFFaErTQjHev1oMH6Qtd7agH5nm5qr5ekV_CzY6h8SzYv0SIUO5uvk2w6tw5DQuvlN-_7GymAhcjpVEi-7jRlqJDjdZgyl73E2FiCCKY-LW5SRBPYKowhyPHqcSt_KFUvjnx45CKFyF8WDnICuBzKfCPVn7PsOI3hI60CAwgnfm7gjyg0yaWwFqy8Au0G2LrrRTJwZ5M9xmpO0Aj9C5iW_ppB4svpJpsuAPEsNl1I-g5q6GZdqnr1AjJj4-KsVPkbSSD5R-tF-R_cz1SgdW1TVtb8mgViaBzvwpIzr8tjIG4TKewiHqPnsK_K79IqfZP_mrEGRq5EEu-aPsMPo5Fh4nl5a9BNbV8HAMED-Ad6Nl0N0ZZJ79wCbkYWcBoTJSIgbtLkmb9W29hkai1XDZH9AAQcl66l3JTe6MoYvE8hqgSU276TupGzzOS2cStEikdf0VtDJbGwes8gYqL5jN-4hIBQz_glteNFH6CscTG7PZJRk5ALdW855XrkfK4VCU_gSlhjIg6Qt9nYL0xFYDd7I5CbFZuQduubTXHNnrAn8WZ24PIB5H2lhL7AivfnIujPTWDBeULUwzMRy3vyO2327dBsO8L3cjKS6eYVEQOKQIlDwo3A0ndvDfqZi_J21OjRIUg1Y1SPGFDjni11CoqwTD1lIUSrAL8-hkz0Olehggpb09soaZfnprWArxU_4BD2VvuuCKrx7yNYUdp9Wl2I0T4PVjalJ5TyiisIDDM2ybDEDQs1-T5F_SVTaD6ph4gD-XbxDtuWIS7biPzVTRZTp0cp6uohmH2YHth4KaP17zXjSZFa28UiAlY9KTSssik1uzSGPYm0UVYRsRtNsKtASuSqtL0BxZkbMd_tAf7QkfExnyimZtsfP-4LrabgIkSCep6_fCNZ8u71XggwjTrxrdiKRJkn0bqmCfjuBIQWekQklsj1b01UpJGo02nckwJN9tBkbI1sZKdmUzXHerKFGqpjr4CGPDeb8gT2lzBkk2PNk0bW48YPU3YXL-6PLupSTqOvXctG2_KNx-OtKE8ihUlYk-lD50znCcaD835OQ55ULn8RJwnl5C0iQaQhvK2DEslj5mDZyU2KOdAs7xs3JeZWRcvwpTOyVzJqpHEXSiZgTwHlLzyysJIm0ehTaIOrXxQfnI729A8jX11OGKBr3w362rNs-n7dvsAOAfAFiubcLTXwysKDyYVjk69z1AG7SZsyRCwL2nygJHh5GX2pT2ImqFWVWiN6zzuJNPDdIjlYmqXZ3C-48u0Zn9rmQzqHPf3BvEMBGzXQAH4qrtYttIyeVf2Lvn2eq-pzA2gvoH15TNytGjE-N2D624iyCW97MnCLEP2lwYWv-iw9aYiEwOMcaXS2oouNFFdDZlHcx5c6UcfK5SUS73xWLGrlPYMS56sQhJlhQI/https://www.amazon.com/dp/B07WCW1PB3/?_encoding=UTF8&pd_rd_i=B07WCW1PB3&pd_rd_i=B07WCW1PB3&ref_=sbx_be_s_sparkle_ssd_vid&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                  - button "Play Sponsored Video" [ref=f8e1779] [cursor=pointer]
+                - generic [ref=f8e1798]:
+                  - link [ref=f8e1801] [cursor=pointer]:
+                    - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JGhLMsOuJOs8NDqww57P7oYAAAGfcBA08gEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICBbjoIl/clv1c_ek-YBfHXLcTWXlRhtwlAiFwLMKlTuQp95ZI4R73rjclUPBUd9rTd8lt2wPuHKKh_A0SLPeNZE0D4EUE4DJHf38UMP8Jl8HKT8mwsq5NexO3zkzDvKc2XYVHZo_5g-trhN5V1Jwrvjc0iT9ZfZyxBiInyyJ2dkFFaErTQjHev1oMH6Qtd7agH5nm5qr5ekV_CzY6h8SzYv0SIUO5uvk2w6tw5DQuvlN-_7GymAhcjpVEi-7jRlqJDjdZgyl73E2FiCCKY-LW5SRBPYKowhyPHqcSt_KFUvjnx45CKFyF8WDnICuBzKfCPVn7PsOI3hI60CAwgnfm7gjyg0yaWwFqy8Au0G2LrrRTJwZ5M9xmpO0Aj9C5iW_ppB4svpJpsuAPEsNl1I-g5q6GZdqnr1AjJj4-KsVPkbSSD5R-tF-R_cz1SgdW1TVtb8mgViaBzvwpIzr8tjIG4TKewiHqPnsK_K79IqfZP_mrEGRq5EEu-aPsMPo5Fh4nl5a9BNbV8HAMED-Ad6Nl0N0ZZJ79wCbkYWcBoTJSIgbtLkmb9W29hkai1XDZH9AAQcl66l3JTe6MoYvE8hqgSU276TupGzzOS2cStEikdf0VtDJbGwes8gYqL5jN-4hIBQz_glteNFH6CscTG7PZJRk5ALdW855XrkfK4VCU_gSlhjIg6Qt9nYL0xFYDd7I5CbFZuQduubTXHNnrAn8WZ24PIB5H2lhL7AivfnIujPTWDBeULUwzMRy3vyO2327dBsO8L3cjKS6eYVEQOKQIlDwo3A0ndvDfqZi_J21OjRIUg1Y1SPGFDjni11CoqwTD1lIUSrAL8-hkz0Olehggpb09soaZfnprWArxU_4BD2VvuuCKrx7yNYUdp9Wl2I0T4PVjalJ5TyiisIDDM2ybDEDQs1-T5F_SVTaD6ph4gD-XbxDtuWIS7biPzVTRZTp0cp6uohmH2YHth4KaP17zXjSZFa28UiAlY9KTSssik1uzSGPYm0UVYRsRtNsKtASuSqtL0BxZkbMd_tAf7QkfExnyimZtsfP-4LrabgIkSCep6_fCNZ8u71XggwjTrxrdiKRJkn0bqmCfjuBIQWekQklsj1b01UpJGo02nckwJN9tBkbI1sZKdmUzXHerKFGqpjr4CGPDeb8gT2lzBkk2PNk0bW48YPU3YXL-6PLupSTqOvXctG2_KNx-OtKE8ihUlYk-lD50znCcaD835OQ55ULn8RJwnl5C0iQaQhvK2DEslj5mDZyU2KOdAs7xs3JeZWRcvwpTOyVzJqpHEXSiZgTwHlLzyysJIm0ehTaIOrXxQfnI729A8jX11OGKBr3w362rNs-n7dvsAOAfAFiubcLTXwysKDyYVjk69z1AG7SZsyRCwL2nygJHh5GX2pT2ImqFWVWiN6zzuJNPDdIjlYmqXZ3C-48u0Zn9rmQzqHPf3BvEMBGzXQAH4qrtYttIyeVf2Lvn2eq-pzA2gvoH15TNytGjE-N2D624iyCW97MnCLEP2lwYWv-iw9aYiEwOMcaXS2oouNFFdDZlHcx5c6UcfK5SUS73xWLGrlPYMS56sQhJlhQI/https://www.amazon.com/dp/B07WCW1PB3/?_encoding=UTF8&pd_rd_i=B07WCW1PB3&pd_rd_i=B07WCW1PB3&ref_=sbx_be_s_sparkle_ssd_img&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                    - img "memzuoix 2.4G Wireless Mouse, 1400 DPI Mobile Optical Cordless Mouse with USB Receiver, Portable Computer Mice for Laptop, PC, Desktop, MacBook, 5 Buttons, Red" [ref=f8e1803]
+                  - generic [ref=f8e1805]:
+                    - link [ref=f8e1806] [cursor=pointer]:
+                      - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JGhLMsOuJOs8NDqww57P7oYAAAGfcBA08gEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICBbjoIl/clv1c_ek-YBfHXLcTWXlRhtwlAiFwLMKlTuQp95ZI4R73rjclUPBUd9rTd8lt2wPuHKKh_A0SLPeNZE0D4EUE4DJHf38UMP8Jl8HKT8mwsq5NexO3zkzDvKc2XYVHZo_5g-trhN5V1Jwrvjc0iT9ZfZyxBiInyyJ2dkFFaErTQjHev1oMH6Qtd7agH5nm5qr5ekV_CzY6h8SzYv0SIUO5uvk2w6tw5DQuvlN-_7GymAhcjpVEi-7jRlqJDjdZgyl73E2FiCCKY-LW5SRBPYKowhyPHqcSt_KFUvjnx45CKFyF8WDnICuBzKfCPVn7PsOI3hI60CAwgnfm7gjyg0yaWwFqy8Au0G2LrrRTJwZ5M9xmpO0Aj9C5iW_ppB4svpJpsuAPEsNl1I-g5q6GZdqnr1AjJj4-KsVPkbSSD5R-tF-R_cz1SgdW1TVtb8mgViaBzvwpIzr8tjIG4TKewiHqPnsK_K79IqfZP_mrEGRq5EEu-aPsMPo5Fh4nl5a9BNbV8HAMED-Ad6Nl0N0ZZJ79wCbkYWcBoTJSIgbtLkmb9W29hkai1XDZH9AAQcl66l3JTe6MoYvE8hqgSU276TupGzzOS2cStEikdf0VtDJbGwes8gYqL5jN-4hIBQz_glteNFH6CscTG7PZJRk5ALdW855XrkfK4VCU_gSlhjIg6Qt9nYL0xFYDd7I5CbFZuQduubTXHNnrAn8WZ24PIB5H2lhL7AivfnIujPTWDBeULUwzMRy3vyO2327dBsO8L3cjKS6eYVEQOKQIlDwo3A0ndvDfqZi_J21OjRIUg1Y1SPGFDjni11CoqwTD1lIUSrAL8-hkz0Olehggpb09soaZfnprWArxU_4BD2VvuuCKrx7yNYUdp9Wl2I0T4PVjalJ5TyiisIDDM2ybDEDQs1-T5F_SVTaD6ph4gD-XbxDtuWIS7biPzVTRZTp0cp6uohmH2YHth4KaP17zXjSZFa28UiAlY9KTSssik1uzSGPYm0UVYRsRtNsKtASuSqtL0BxZkbMd_tAf7QkfExnyimZtsfP-4LrabgIkSCep6_fCNZ8u71XggwjTrxrdiKRJkn0bqmCfjuBIQWekQklsj1b01UpJGo02nckwJN9tBkbI1sZKdmUzXHerKFGqpjr4CGPDeb8gT2lzBkk2PNk0bW48YPU3YXL-6PLupSTqOvXctG2_KNx-OtKE8ihUlYk-lD50znCcaD835OQ55ULn8RJwnl5C0iQaQhvK2DEslj5mDZyU2KOdAs7xs3JeZWRcvwpTOyVzJqpHEXSiZgTwHlLzyysJIm0ehTaIOrXxQfnI729A8jX11OGKBr3w362rNs-n7dvsAOAfAFiubcLTXwysKDyYVjk69z1AG7SZsyRCwL2nygJHh5GX2pT2ImqFWVWiN6zzuJNPDdIjlYmqXZ3C-48u0Zn9rmQzqHPf3BvEMBGzXQAH4qrtYttIyeVf2Lvn2eq-pzA2gvoH15TNytGjE-N2D624iyCW97MnCLEP2lwYWv-iw9aYiEwOMcaXS2oouNFFdDZlHcx5c6UcfK5SUS73xWLGrlPYMS56sQhJlhQI/https://www.amazon.com/dp/B07WCW1PB3/?_encoding=UTF8&pd_rd_i=B07WCW1PB3&pd_rd_i=B07WCW1PB3&ref_=sbx_be_s_sparkle_ssd_bkg&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                    - generic [ref=f8e1807]:
+                      - link [ref=f8e1808] [cursor=pointer]:
+                        - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JGhLMsOuJOs8NDqww57P7oYAAAGfcBA08gEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICBbjoIl/clv1c_ek-YBfHXLcTWXlRhtwlAiFwLMKlTuQp95ZI4R73rjclUPBUd9rTd8lt2wPuHKKh_A0SLPeNZE0D4EUE4DJHf38UMP8Jl8HKT8mwsq5NexO3zkzDvKc2XYVHZo_5g-trhN5V1Jwrvjc0iT9ZfZyxBiInyyJ2dkFFaErTQjHev1oMH6Qtd7agH5nm5qr5ekV_CzY6h8SzYv0SIUO5uvk2w6tw5DQuvlN-_7GymAhcjpVEi-7jRlqJDjdZgyl73E2FiCCKY-LW5SRBPYKowhyPHqcSt_KFUvjnx45CKFyF8WDnICuBzKfCPVn7PsOI3hI60CAwgnfm7gjyg0yaWwFqy8Au0G2LrrRTJwZ5M9xmpO0Aj9C5iW_ppB4svpJpsuAPEsNl1I-g5q6GZdqnr1AjJj4-KsVPkbSSD5R-tF-R_cz1SgdW1TVtb8mgViaBzvwpIzr8tjIG4TKewiHqPnsK_K79IqfZP_mrEGRq5EEu-aPsMPo5Fh4nl5a9BNbV8HAMED-Ad6Nl0N0ZZJ79wCbkYWcBoTJSIgbtLkmb9W29hkai1XDZH9AAQcl66l3JTe6MoYvE8hqgSU276TupGzzOS2cStEikdf0VtDJbGwes8gYqL5jN-4hIBQz_glteNFH6CscTG7PZJRk5ALdW855XrkfK4VCU_gSlhjIg6Qt9nYL0xFYDd7I5CbFZuQduubTXHNnrAn8WZ24PIB5H2lhL7AivfnIujPTWDBeULUwzMRy3vyO2327dBsO8L3cjKS6eYVEQOKQIlDwo3A0ndvDfqZi_J21OjRIUg1Y1SPGFDjni11CoqwTD1lIUSrAL8-hkz0Olehggpb09soaZfnprWArxU_4BD2VvuuCKrx7yNYUdp9Wl2I0T4PVjalJ5TyiisIDDM2ybDEDQs1-T5F_SVTaD6ph4gD-XbxDtuWIS7biPzVTRZTp0cp6uohmH2YHth4KaP17zXjSZFa28UiAlY9KTSssik1uzSGPYm0UVYRsRtNsKtASuSqtL0BxZkbMd_tAf7QkfExnyimZtsfP-4LrabgIkSCep6_fCNZ8u71XggwjTrxrdiKRJkn0bqmCfjuBIQWekQklsj1b01UpJGo02nckwJN9tBkbI1sZKdmUzXHerKFGqpjr4CGPDeb8gT2lzBkk2PNk0bW48YPU3YXL-6PLupSTqOvXctG2_KNx-OtKE8ihUlYk-lD50znCcaD835OQ55ULn8RJwnl5C0iQaQhvK2DEslj5mDZyU2KOdAs7xs3JeZWRcvwpTOyVzJqpHEXSiZgTwHlLzyysJIm0ehTaIOrXxQfnI729A8jX11OGKBr3w362rNs-n7dvsAOAfAFiubcLTXwysKDyYVjk69z1AG7SZsyRCwL2nygJHh5GX2pT2ImqFWVWiN6zzuJNPDdIjlYmqXZ3C-48u0Zn9rmQzqHPf3BvEMBGzXQAH4qrtYttIyeVf2Lvn2eq-pzA2gvoH15TNytGjE-N2D624iyCW97MnCLEP2lwYWv-iw9aYiEwOMcaXS2oouNFFdDZlHcx5c6UcfK5SUS73xWLGrlPYMS56sQhJlhQI/https://www.amazon.com/dp/B07WCW1PB3/?_encoding=UTF8&pd_rd_i=B07WCW1PB3&pd_rd_i=B07WCW1PB3&ref_=sbx_be_s_sparkle_ssd_bkg&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                      - link "memzuoix 2.4G Wireless Mouse, 1400 DPI Mobile Optical Cordless Mouse with USB Receiver, Portable Computer Mice for Laptop, PC, Desktop, MacBook, 5 Buttons, Red" [ref=f8e1809] [cursor=pointer]:
+                        - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JGhLMsOuJOs8NDqww57P7oYAAAGfcBA08gEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICBbjoIl/clv1c_ek-YBfHXLcTWXlRhtwlAiFwLMKlTuQp95ZI4R73rjclUPBUd9rTd8lt2wPuHKKh_A0SLPeNZE0D4EUE4DJHf38UMP8Jl8HKT8mwsq5NexO3zkzDvKc2XYVHZo_5g-trhN5V1Jwrvjc0iT9ZfZyxBiInyyJ2dkFFaErTQjHev1oMH6Qtd7agH5nm5qr5ekV_CzY6h8SzYv0SIUO5uvk2w6tw5DQuvlN-_7GymAhcjpVEi-7jRlqJDjdZgyl73E2FiCCKY-LW5SRBPYKowhyPHqcSt_KFUvjnx45CKFyF8WDnICuBzKfCPVn7PsOI3hI60CAwgnfm7gjyg0yaWwFqy8Au0G2LrrRTJwZ5M9xmpO0Aj9C5iW_ppB4svpJpsuAPEsNl1I-g5q6GZdqnr1AjJj4-KsVPkbSSD5R-tF-R_cz1SgdW1TVtb8mgViaBzvwpIzr8tjIG4TKewiHqPnsK_K79IqfZP_mrEGRq5EEu-aPsMPo5Fh4nl5a9BNbV8HAMED-Ad6Nl0N0ZZJ79wCbkYWcBoTJSIgbtLkmb9W29hkai1XDZH9AAQcl66l3JTe6MoYvE8hqgSU276TupGzzOS2cStEikdf0VtDJbGwes8gYqL5jN-4hIBQz_glteNFH6CscTG7PZJRk5ALdW855XrkfK4VCU_gSlhjIg6Qt9nYL0xFYDd7I5CbFZuQduubTXHNnrAn8WZ24PIB5H2lhL7AivfnIujPTWDBeULUwzMRy3vyO2327dBsO8L3cjKS6eYVEQOKQIlDwo3A0ndvDfqZi_J21OjRIUg1Y1SPGFDjni11CoqwTD1lIUSrAL8-hkz0Olehggpb09soaZfnprWArxU_4BD2VvuuCKrx7yNYUdp9Wl2I0T4PVjalJ5TyiisIDDM2ybDEDQs1-T5F_SVTaD6ph4gD-XbxDtuWIS7biPzVTRZTp0cp6uohmH2YHth4KaP17zXjSZFa28UiAlY9KTSssik1uzSGPYm0UVYRsRtNsKtASuSqtL0BxZkbMd_tAf7QkfExnyimZtsfP-4LrabgIkSCep6_fCNZ8u71XggwjTrxrdiKRJkn0bqmCfjuBIQWekQklsj1b01UpJGo02nckwJN9tBkbI1sZKdmUzXHerKFGqpjr4CGPDeb8gT2lzBkk2PNk0bW48YPU3YXL-6PLupSTqOvXctG2_KNx-OtKE8ihUlYk-lD50znCcaD835OQ55ULn8RJwnl5C0iQaQhvK2DEslj5mDZyU2KOdAs7xs3JeZWRcvwpTOyVzJqpHEXSiZgTwHlLzyysJIm0ehTaIOrXxQfnI729A8jX11OGKBr3w362rNs-n7dvsAOAfAFiubcLTXwysKDyYVjk69z1AG7SZsyRCwL2nygJHh5GX2pT2ImqFWVWiN6zzuJNPDdIjlYmqXZ3C-48u0Zn9rmQzqHPf3BvEMBGzXQAH4qrtYttIyeVf2Lvn2eq-pzA2gvoH15TNytGjE-N2D624iyCW97MnCLEP2lwYWv-iw9aYiEwOMcaXS2oouNFFdDZlHcx5c6UcfK5SUS73xWLGrlPYMS56sQhJlhQI/https://www.amazon.com/dp/B07WCW1PB3/?_encoding=UTF8&pd_rd_i=B07WCW1PB3&pd_rd_i=B07WCW1PB3&ref_=sbx_be_s_sparkle_ssd_tt&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                    - link "Rated 4.5 out of 5 stars from 17,829 reviews" [ref=f8e1811] [cursor=pointer]:
+                      - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JGhLMsOuJOs8NDqww57P7oYAAAGfcBA08gEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICBbjoIl/clv1c_ek-YBfHXLcTWXlRhtwlAiFwLMKlTuQp95ZI4R73rjclUPBUd9rTd8lt2wPuHKKh_A0SLPeNZE0D4EUE4DJHf38UMP8Jl8HKT8mwsq5NexO3zkzDvKc2XYVHZo_5g-trhN5V1Jwrvjc0iT9ZfZyxBiInyyJ2dkFFaErTQjHev1oMH6Qtd7agH5nm5qr5ekV_CzY6h8SzYv0SIUO5uvk2w6tw5DQuvlN-_7GymAhcjpVEi-7jRlqJDjdZgyl73E2FiCCKY-LW5SRBPYKowhyPHqcSt_KFUvjnx45CKFyF8WDnICuBzKfCPVn7PsOI3hI60CAwgnfm7gjyg0yaWwFqy8Au0G2LrrRTJwZ5M9xmpO0Aj9C5iW_ppB4svpJpsuAPEsNl1I-g5q6GZdqnr1AjJj4-KsVPkbSSD5R-tF-R_cz1SgdW1TVtb8mgViaBzvwpIzr8tjIG4TKewiHqPnsK_K79IqfZP_mrEGRq5EEu-aPsMPo5Fh4nl5a9BNbV8HAMED-Ad6Nl0N0ZZJ79wCbkYWcBoTJSIgbtLkmb9W29hkai1XDZH9AAQcl66l3JTe6MoYvE8hqgSU276TupGzzOS2cStEikdf0VtDJbGwes8gYqL5jN-4hIBQz_glteNFH6CscTG7PZJRk5ALdW855XrkfK4VCU_gSlhjIg6Qt9nYL0xFYDd7I5CbFZuQduubTXHNnrAn8WZ24PIB5H2lhL7AivfnIujPTWDBeULUwzMRy3vyO2327dBsO8L3cjKS6eYVEQOKQIlDwo3A0ndvDfqZi_J21OjRIUg1Y1SPGFDjni11CoqwTD1lIUSrAL8-hkz0Olehggpb09soaZfnprWArxU_4BD2VvuuCKrx7yNYUdp9Wl2I0T4PVjalJ5TyiisIDDM2ybDEDQs1-T5F_SVTaD6ph4gD-XbxDtuWIS7biPzVTRZTp0cp6uohmH2YHth4KaP17zXjSZFa28UiAlY9KTSssik1uzSGPYm0UVYRsRtNsKtASuSqtL0BxZkbMd_tAf7QkfExnyimZtsfP-4LrabgIkSCep6_fCNZ8u71XggwjTrxrdiKRJkn0bqmCfjuBIQWekQklsj1b01UpJGo02nckwJN9tBkbI1sZKdmUzXHerKFGqpjr4CGPDeb8gT2lzBkk2PNk0bW48YPU3YXL-6PLupSTqOvXctG2_KNx-OtKE8ihUlYk-lD50znCcaD835OQ55ULn8RJwnl5C0iQaQhvK2DEslj5mDZyU2KOdAs7xs3JeZWRcvwpTOyVzJqpHEXSiZgTwHlLzyysJIm0ehTaIOrXxQfnI729A8jX11OGKBr3w362rNs-n7dvsAOAfAFiubcLTXwysKDyYVjk69z1AG7SZsyRCwL2nygJHh5GX2pT2ImqFWVWiN6zzuJNPDdIjlYmqXZ3C-48u0Zn9rmQzqHPf3BvEMBGzXQAH4qrtYttIyeVf2Lvn2eq-pzA2gvoH15TNytGjE-N2D624iyCW97MnCLEP2lwYWv-iw9aYiEwOMcaXS2oouNFFdDZlHcx5c6UcfK5SUS73xWLGrlPYMS56sQhJlhQI/https://www.amazon.com/dp/B07WCW1PB3/?_encoding=UTF8&pd_rd_i=B07WCW1PB3&pd_rd_i=B07WCW1PB3&ref_=sbx_be_s_sparkle_ssd_rev&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                      - text: "4.5"
+                      - generic [ref=f8e1812]: 4.5 out of 5 stars
+                      - text: 17,829
+                    - link "INR1,156.50" [ref=f8e1815] [cursor=pointer]:
+                      - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JGhLMsOuJOs8NDqww57P7oYAAAGfcBA08gEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICBbjoIl/clv1c_ek-YBfHXLcTWXlRhtwlAiFwLMKlTuQp95ZI4R73rjclUPBUd9rTd8lt2wPuHKKh_A0SLPeNZE0D4EUE4DJHf38UMP8Jl8HKT8mwsq5NexO3zkzDvKc2XYVHZo_5g-trhN5V1Jwrvjc0iT9ZfZyxBiInyyJ2dkFFaErTQjHev1oMH6Qtd7agH5nm5qr5ekV_CzY6h8SzYv0SIUO5uvk2w6tw5DQuvlN-_7GymAhcjpVEi-7jRlqJDjdZgyl73E2FiCCKY-LW5SRBPYKowhyPHqcSt_KFUvjnx45CKFyF8WDnICuBzKfCPVn7PsOI3hI60CAwgnfm7gjyg0yaWwFqy8Au0G2LrrRTJwZ5M9xmpO0Aj9C5iW_ppB4svpJpsuAPEsNl1I-g5q6GZdqnr1AjJj4-KsVPkbSSD5R-tF-R_cz1SgdW1TVtb8mgViaBzvwpIzr8tjIG4TKewiHqPnsK_K79IqfZP_mrEGRq5EEu-aPsMPo5Fh4nl5a9BNbV8HAMED-Ad6Nl0N0ZZJ79wCbkYWcBoTJSIgbtLkmb9W29hkai1XDZH9AAQcl66l3JTe6MoYvE8hqgSU276TupGzzOS2cStEikdf0VtDJbGwes8gYqL5jN-4hIBQz_glteNFH6CscTG7PZJRk5ALdW855XrkfK4VCU_gSlhjIg6Qt9nYL0xFYDd7I5CbFZuQduubTXHNnrAn8WZ24PIB5H2lhL7AivfnIujPTWDBeULUwzMRy3vyO2327dBsO8L3cjKS6eYVEQOKQIlDwo3A0ndvDfqZi_J21OjRIUg1Y1SPGFDjni11CoqwTD1lIUSrAL8-hkz0Olehggpb09soaZfnprWArxU_4BD2VvuuCKrx7yNYUdp9Wl2I0T4PVjalJ5TyiisIDDM2ybDEDQs1-T5F_SVTaD6ph4gD-XbxDtuWIS7biPzVTRZTp0cp6uohmH2YHth4KaP17zXjSZFa28UiAlY9KTSssik1uzSGPYm0UVYRsRtNsKtASuSqtL0BxZkbMd_tAf7QkfExnyimZtsfP-4LrabgIkSCep6_fCNZ8u71XggwjTrxrdiKRJkn0bqmCfjuBIQWekQklsj1b01UpJGo02nckwJN9tBkbI1sZKdmUzXHerKFGqpjr4CGPDeb8gT2lzBkk2PNk0bW48YPU3YXL-6PLupSTqOvXctG2_KNx-OtKE8ihUlYk-lD50znCcaD835OQ55ULn8RJwnl5C0iQaQhvK2DEslj5mDZyU2KOdAs7xs3JeZWRcvwpTOyVzJqpHEXSiZgTwHlLzyysJIm0ehTaIOrXxQfnI729A8jX11OGKBr3w362rNs-n7dvsAOAfAFiubcLTXwysKDyYVjk69z1AG7SZsyRCwL2nygJHh5GX2pT2ImqFWVWiN6zzuJNPDdIjlYmqXZ3C-48u0Zn9rmQzqHPf3BvEMBGzXQAH4qrtYttIyeVf2Lvn2eq-pzA2gvoH15TNytGjE-N2D624iyCW97MnCLEP2lwYWv-iw9aYiEwOMcaXS2oouNFFdDZlHcx5c6UcfK5SUS73xWLGrlPYMS56sQhJlhQI/https://www.amazon.com/dp/B07WCW1PB3/?_encoding=UTF8&pd_rd_i=B07WCW1PB3&pd_rd_i=B07WCW1PB3&ref_=sbx_be_s_sparkle_ssd_pce&pd_rd_w=6STrs&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2HNCKXJ68PQZ0PFTA85F&pd_rd_wg=p9d3q&pd_rd_w=6STrs&pd_rd_r=bf6a7ecc-1650-42a2-add3-dddcc590834e
+                      - generic [ref=f8e1816]:
+                        - generic [ref=f8e1817]: INR1,156.50
+                        - generic [ref=f8e1818]:
+                          - text: INR
+                          - generic [ref=f8e1819]: 1,156.
+                          - text: "50"
+      - generic "Top reviews" [ref=f8e1822]:
+        - separator [ref=f8e1823]
+        - generic [ref=f8e1825]:
+          - generic [ref=f8e1826]:
+            - generic [ref=f8e1831]:
+              - heading "Customer reviews" [level=2] [ref=f8e1833]
+              - generic [ref=f8e1835]:
+                - generic [ref=f8e1837]:
+                  - generic [ref=f8e1838]: 4.5 out of 5 stars
+                  - generic [ref=f8e1841]: 4.5 out of 5
+                - generic [ref=f8e1844]: 42,950 global ratings
+              - list [ref=f8e1849]:
+                - listitem [ref=f8e1850]:
+                  - link "78 percent of reviews have 5 stars" [ref=f8e1853] [cursor=pointer]:
+                    - /url: /portal/customer-reviews/B004YAVF8I/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=f8e1854]: 5 star
+                    - progressbar [ref=f8e1856]
+                    - generic [ref=f8e1857]: 78%
+                - listitem [ref=f8e1858]:
+                  - link "11 percent of reviews have 4 stars" [ref=f8e1861] [cursor=pointer]:
+                    - /url: /portal/customer-reviews/B004YAVF8I/ref=acr_dp_hist_4?ie=UTF8&filterByStar=four_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=f8e1862]: 4 star
+                    - progressbar [ref=f8e1864]
+                    - generic [ref=f8e1865]: 11%
+                - listitem [ref=f8e1866]:
+                  - link "4 percent of reviews have 3 stars" [ref=f8e1869] [cursor=pointer]:
+                    - /url: /portal/customer-reviews/B004YAVF8I/ref=acr_dp_hist_3?ie=UTF8&filterByStar=three_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=f8e1870]: 3 star
+                    - progressbar [ref=f8e1872]
+                    - generic [ref=f8e1873]: 4%
+                - listitem [ref=f8e1874]:
+                  - link "1 percent of reviews have 2 stars" [ref=f8e1877] [cursor=pointer]:
+                    - /url: /portal/customer-reviews/B004YAVF8I/ref=acr_dp_hist_2?ie=UTF8&filterByStar=two_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=f8e1878]: 2 star
+                    - progressbar [ref=f8e1880]
+                    - generic [ref=f8e1881]: 1%
+                - listitem [ref=f8e1882]:
+                  - link "6 percent of reviews have 1 stars" [ref=f8e1885] [cursor=pointer]:
+                    - /url: /portal/customer-reviews/B004YAVF8I/ref=acr_dp_hist_1?ie=UTF8&filterByStar=one_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=f8e1886]: 1 star
+                    - progressbar [ref=f8e1888]
+                    - generic [ref=f8e1889]: 6%
+              - button "How customer reviews and ratings work" [ref=f8e1894] [cursor=pointer]
+            - separator [ref=f8e1896]
+            - separator [ref=f8e1897]
+          - generic [ref=f8e1901]:
+            - generic [ref=f8e1905]:
+              - heading "Customers say" [level=3] [ref=f8e1906]
+              - generic [ref=f8e1907]: Customers find the wireless mouse works well right out of the box and appreciate its quality and value for money. The mouse is easy to use with a simple plug-and-play setup, and customers like its ergonomic design that feels good under the hand. While some customers report great battery life, others mention receiving units without batteries. The size receives mixed feedback, with some finding it a good full-size mouse while others consider it too small. The reliability is concerning, with multiple customers reporting that the mouse stopped working after two months of use.
+              - generic [ref=f8e1909]:
+                - generic [ref=f8e1910]:
+                  - generic [ref=f8e1911]: AI Generated from the text of customer reviews
+                  - generic [ref=f8e1913]: Generated from the text of customer reviews
+                - heading "Select to learn more" [level=4] [ref=f8e1914]
+                - tablist "Select to learn more" [ref=f8e1915]:
+                  - generic [ref=f8e1916]:
+                    - tab "Positive aspect, functionality, 2245 mentions" [ref=f8e1920]:
+                      - button "Functionality(2.2K)" [ref=f8e1921] [cursor=pointer]
+                    - tab "Positive aspect, quality, 1587 mentions" [ref=f8e1930]:
+                      - button "Quality(1.5K)" [ref=f8e1931] [cursor=pointer]
+                    - tab "Positive aspect, value for money, 835 mentions" [ref=f8e1940]:
+                      - button "Value for money(835)" [ref=f8e1941] [cursor=pointer]
+                    - tab "Positive aspect, ease of use, 651 mentions" [ref=f8e1950]:
+                      - button "Ease of use(651)" [ref=f8e1951] [cursor=pointer]
+                    - tab "Positive aspect, ergonomics, 341 mentions" [ref=f8e1960]:
+                      - button "Ergonomics(341)" [ref=f8e1961] [cursor=pointer]
+                    - tab "Mixed aspect, size, 581 mentions" [ref=f8e1970]:
+                      - button "Size(581)" [ref=f8e1971] [cursor=pointer]
+                    - tab "Mixed aspect, battery life, 472 mentions" [ref=f8e1980]:
+                      - button "Battery life(472)" [ref=f8e1981] [cursor=pointer]
+                    - tab "Negative aspect, reliability, 602 mentions" [ref=f8e1990]:
+                      - button "Reliability(602)" [ref=f8e1991] [cursor=pointer]
+            - generic [ref=f8e2003]:
+              - text: Customer reviews require account verification.
+              - link "Sign in" [ref=f8e2004] [cursor=pointer]:
+                - /url: https://www.amazon.com/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fdp%2FB004YAVF8I%2Fref%3Dcm_cr_dp_d_signin%23cr-top-reviews-card&openid.assoc_handle=usflex
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=f8e2009]:
+    - button "Back to top" [ref=f8e2010] [cursor=pointer]
+    - generic [ref=f8e2012]:
+      - generic [ref=f8e2013]:
+        - heading "Get to Know Us" [level=6] [ref=f8e2014]
+        - list [ref=f8e2015]:
+          - listitem [ref=f8e2016]:
+            - link "Careers" [ref=f8e2017] [cursor=pointer]:
+              - /url: https://www.amazon.jobs
+          - listitem [ref=f8e2018]:
+            - link "Blog" [ref=f8e2019] [cursor=pointer]:
+              - /url: https://blog.aboutamazon.com/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=f8e2020]:
+            - link "About Amazon" [ref=f8e2021] [cursor=pointer]:
+              - /url: https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=f8e2022]:
+            - link "Investor Relations" [ref=f8e2023] [cursor=pointer]:
+              - /url: https://www.amazon.com/ir
+          - listitem [ref=f8e2024]:
+            - link "Amazon Devices" [ref=f8e2025] [cursor=pointer]:
+              - /url: /gp/browse.html?node=2102313011&ref_=footer_devices
+          - listitem [ref=f8e2026]:
+            - link "Amazon Science" [ref=f8e2027] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=f8e2029]:
+        - heading "Make Money with Us" [level=6] [ref=f8e2030]
+        - list [ref=f8e2031]:
+          - listitem [ref=f8e2032]:
+            - link "Sell products on Amazon" [ref=f8e2033] [cursor=pointer]:
+              - /url: https://services.amazon.com/sell.html?ld=AZFSSOA&ref_=footer_soa
+          - listitem [ref=f8e2034]:
+            - link "Sell on Amazon Business" [ref=f8e2035] [cursor=pointer]:
+              - /url: https://services.amazon.com/amazon-business.html?ld=usb2bunifooter&ref_=footer_b2b
+          - listitem [ref=f8e2036]:
+            - link "Sell apps on Amazon" [ref=f8e2037] [cursor=pointer]:
+              - /url: https://developer.amazon.com
+          - listitem [ref=f8e2038]:
+            - link "Become an Affiliate" [ref=f8e2039] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.com/
+          - listitem [ref=f8e2040]:
+            - link "Advertise Your Products" [ref=f8e2041] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/?ref=ext_amzn_ftr
+          - listitem [ref=f8e2042]:
+            - link "Self-Publish with Us" [ref=f8e2043] [cursor=pointer]:
+              - /url: /gp/seller-account/mm-summary-page.html?ld=AZFooterSelfPublish&topic=200260520&ref_=footer_publishing
+          - listitem [ref=f8e2044]:
+            - link "Host an Amazon Hub" [ref=f8e2045] [cursor=pointer]:
+              - /url: https://go.thehub-amazon.com/amazon-hub-locker
+          - listitem [ref=f8e2046]:
+            - text: ›
+            - link "See More Make Money with Us" [ref=f8e2047] [cursor=pointer]:
+              - /url: /b/?node=18190131011&ld=AZUSSOA-seemore&ref_=footer_seemore
+      - generic [ref=f8e2049]:
+        - heading "Amazon Payment Products" [level=6] [ref=f8e2050]
+        - list [ref=f8e2051]:
+          - listitem [ref=f8e2052]:
+            - link "Amazon Business Card" [ref=f8e2053] [cursor=pointer]:
+              - /url: /dp/B07984JN3L?plattr=ACOMFO&ie=UTF-8
+          - listitem [ref=f8e2054]:
+            - link "Shop with Points" [ref=f8e2055] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16218619011&ref_=footer_swp
+          - listitem [ref=f8e2056]:
+            - link "Reload Your Balance" [ref=f8e2057] [cursor=pointer]:
+              - /url: /dp/B0CHTVMXZJ?th=1?ref_=footer_reload_us
+          - listitem [ref=f8e2058]:
+            - link "Amazon Currency Converter" [ref=f8e2059] [cursor=pointer]:
+              - /url: /gp/browse.html?node=388305011&ref_=footer_tfx
+      - generic [ref=f8e2061]:
+        - heading "Let Us Help You" [level=6] [ref=f8e2062]
+        - list [ref=f8e2063]:
+          - listitem [ref=f8e2064]:
+            - link "Amazon and COVID-19" [ref=f8e2065] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&ref_=footer_covid
+          - listitem [ref=f8e2066]:
+            - link "Your Account" [ref=f8e2067] [cursor=pointer]:
+              - /url: https://www.amazon.com/gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=f8e2068]:
+            - link "Your Orders" [ref=f8e2069] [cursor=pointer]:
+              - /url: https://www.amazon.com/gp/css/order-history?ref_=footer_yo
+          - listitem [ref=f8e2070]:
+            - link "Shipping Rates & Policies" [ref=f8e2071] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=468520&ref_=footer_shiprates
+          - listitem [ref=f8e2072]:
+            - link "Returns & Replacements" [ref=f8e2073] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=f8e2074]:
+            - link "Manage Your Content and Devices" [ref=f8e2075] [cursor=pointer]:
+              - /url: /gp/digital/fiona/manage?ref_=footer_myk
+          - listitem [ref=f8e2076]:
+            - link "Help" [ref=f8e2077] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+    - generic [ref=f8e2079]:
+      - link "Amazon US Home" [ref=f8e2082] [cursor=pointer]:
+        - /url: /?ref_=footer_logo
+      - generic [ref=f8e2085]:
+        - generic [ref=f8e2086]:
+          - link "Choose a language for shopping. Current selection is English." [ref=f8e2087] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=f8e2089]: English
+          - button "Expand to Change Language or Country" [ref=f8e2090] [cursor=pointer]
+        - link "₹ INR - Indian Rupee" [ref=f8e2091] [cursor=pointer]:
+          - /url: /customer-preferences/edit?ie=UTF8&ref_=footer_cop&preferencesReturnUrl=%2FLogitech-Wireless-Mouse-M185-Swift%2Fdp%2FB004YAVF8I%2Fref%3Dsr_1_2
+          - generic [ref=f8e2092]: ₹
+          - generic [ref=f8e2093]: INR - Indian Rupee
+        - button "Choose a country/region for shopping. The current selection is United States." [ref=f8e2094] [cursor=pointer]:
+          - generic [ref=f8e2096]: United States
+    - navigation "More on Amazon" [ref=f8e2097]:
+      - generic "More on Amazon" [ref=f8e2098]:
+        - list [ref=f8e2099]:
+          - listitem [ref=f8e2100]:
+            - link [ref=f8e2101] [cursor=pointer]:
+              - /url: https://music.amazon.com?ref=dm_aff_amz_com
+              - heading "Amazon Music" [level=5] [ref=f8e2102]
+              - generic [ref=f8e2103]: Stream millionsof songs
+          - listitem [ref=f8e2104]
+          - listitem [ref=f8e2105]:
+            - link [ref=f8e2106] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/?ref=footer_advtsing_amzn_com
+              - heading "Amazon Ads" [level=5] [ref=f8e2107]
+              - generic [ref=f8e2108]: Reach customerswherever theyspend their time
+          - listitem [ref=f8e2109]
+          - listitem [ref=f8e2110]:
+            - link [ref=f8e2111] [cursor=pointer]:
+              - /url: https://www.6pm.com
+              - heading "6pm" [level=5] [ref=f8e2112]
+              - generic [ref=f8e2113]: Score dealson fashion brands
+          - listitem [ref=f8e2114]
+          - listitem [ref=f8e2115]:
+            - link [ref=f8e2116] [cursor=pointer]:
+              - /url: https://www.abebooks.com
+              - heading "AbeBooks" [level=5] [ref=f8e2117]
+              - generic [ref=f8e2118]: Books, art& collectibles
+          - listitem [ref=f8e2119]
+          - listitem [ref=f8e2120]:
+            - link [ref=f8e2121] [cursor=pointer]:
+              - /url: https://www.acx.com/
+              - heading "ACX" [level=5] [ref=f8e2122]
+              - generic [ref=f8e2123]: Audiobook PublishingMade Easy
+          - listitem [ref=f8e2124]
+          - listitem [ref=f8e2125]:
+            - link "Sell on Amazon Start a Selling Account" [ref=f8e2126] [cursor=pointer]:
+              - /url: https://sell.amazon.com/?ld=AZUSSOA-footer-aff&ref_=footer_sell
+              - heading "Sell on Amazon" [level=5] [ref=f8e2127]
+              - generic [ref=f8e2128]: Start a Selling Account
+          - listitem [ref=f8e2129]
+          - listitem [ref=f8e2130]:
+            - link [ref=f8e2131] [cursor=pointer]:
+              - /url: https://www.veeqo.com/?utm_source=amazon&utm_medium=website&utm_campaign=footer
+              - heading "Veeqo" [level=5] [ref=f8e2132]
+              - generic [ref=f8e2133]: Shipping SoftwareInventory Management
+        - list [ref=f8e2134]:
+          - listitem [ref=f8e2135]:
+            - link [ref=f8e2136] [cursor=pointer]:
+              - /url: /business?ref_=footer_retail_b2b
+              - heading "Amazon Business" [level=5] [ref=f8e2137]
+              - generic [ref=f8e2138]: Everything ForYour Business
+          - listitem [ref=f8e2139]
+          - listitem [ref=f8e2140]:
+            - link [ref=f8e2141] [cursor=pointer]:
+              - /url: /gp/browse.html?node=20338496011&ref_=footer_amazonglobal
+              - heading "AmazonGlobal" [level=5] [ref=f8e2142]
+              - generic [ref=f8e2143]: Ship OrdersInternationally
+          - listitem [ref=f8e2144]
+          - listitem [ref=f8e2145]:
+            - link [ref=f8e2146] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=f8e2147]
+              - generic [ref=f8e2148]: Scalable CloudComputing Services
+          - listitem [ref=f8e2149]
+          - listitem [ref=f8e2150]:
+            - link [ref=f8e2151] [cursor=pointer]:
+              - /url: https://www.audible.com
+              - heading "Audible" [level=5] [ref=f8e2152]
+              - generic [ref=f8e2153]: Listen to Books & OriginalAudio Performances
+          - listitem [ref=f8e2154]
+          - listitem [ref=f8e2155]:
+            - link [ref=f8e2156] [cursor=pointer]:
+              - /url: https://www.boxofficemojo.com/?ref_=amzn_nav_ftr
+              - heading "Box Office Mojo" [level=5] [ref=f8e2157]
+              - generic [ref=f8e2158]: Find MovieBox Office Data
+          - listitem [ref=f8e2159]
+          - listitem [ref=f8e2160]:
+            - link [ref=f8e2161] [cursor=pointer]:
+              - /url: https://www.goodreads.com
+              - heading "Goodreads" [level=5] [ref=f8e2162]
+              - generic [ref=f8e2163]: Book reviews& recommendations
+          - listitem [ref=f8e2164]
+          - listitem [ref=f8e2165]:
+            - link [ref=f8e2166] [cursor=pointer]:
+              - /url: https://www.imdb.com
+              - heading "IMDb" [level=5] [ref=f8e2167]
+              - generic [ref=f8e2168]: Movies, TV& Celebrities
+        - list [ref=f8e2169]:
+          - listitem [ref=f8e2170]:
+            - link [ref=f8e2171] [cursor=pointer]:
+              - /url: https://pro.imdb.com?ref_=amzn_nav_ftr
+              - heading "IMDbPro" [level=5] [ref=f8e2172]
+              - generic [ref=f8e2173]: Get Info EntertainmentProfessionals Need
+          - listitem [ref=f8e2174]
+          - listitem [ref=f8e2175]:
+            - link [ref=f8e2176] [cursor=pointer]:
+              - /url: https://kdp.amazon.com
+              - heading "Kindle Direct Publishing" [level=5] [ref=f8e2177]
+              - generic [ref=f8e2178]: Indie Digital & Print PublishingMade Easy
+          - listitem [ref=f8e2179]
+          - listitem [ref=f8e2180]:
+            - link [ref=f8e2181] [cursor=pointer]:
+              - /url: https://videodirect.amazon.com/home/landing
+              - heading "Prime Video Direct" [level=5] [ref=f8e2182]
+              - generic [ref=f8e2183]: Video DistributionMade Easy
+          - listitem [ref=f8e2184]
+          - listitem [ref=f8e2185]:
+            - link [ref=f8e2186] [cursor=pointer]:
+              - /url: https://www.shopbop.com
+              - heading "Shopbop" [level=5] [ref=f8e2187]
+              - generic [ref=f8e2188]: DesignerFashion Brands
+          - listitem [ref=f8e2189]
+          - listitem [ref=f8e2190]:
+            - link [ref=f8e2191] [cursor=pointer]:
+              - /url: https://www.woot.com/
+              - heading "Woot!" [level=5] [ref=f8e2192]
+              - generic [ref=f8e2193]: Deals and Shenanigans
+          - listitem [ref=f8e2194]
+          - listitem [ref=f8e2195]:
+            - link [ref=f8e2196] [cursor=pointer]:
+              - /url: https://www.zappos.com
+              - heading "Zappos" [level=5] [ref=f8e2197]
+              - generic [ref=f8e2198]: Shoes &Clothing
+          - listitem [ref=f8e2199]
+          - listitem [ref=f8e2200]:
+            - link [ref=f8e2201] [cursor=pointer]:
+              - /url: https://ring.com
+              - heading "Ring" [level=5] [ref=f8e2202]
+              - generic [ref=f8e2203]: Smart HomeSecurity Systems
+        - list [ref=f8e2204]:
+          - listitem [ref=f8e2205]
+          - listitem [ref=f8e2206]
+          - listitem [ref=f8e2207]:
+            - link [ref=f8e2208] [cursor=pointer]:
+              - /url: https://eero.com/
+              - heading "eero WiFi" [level=5] [ref=f8e2209]
+              - generic [ref=f8e2210]: Stream 4K Videoin Every Room
+          - listitem [ref=f8e2211]
+          - listitem [ref=f8e2212]:
+            - link [ref=f8e2213] [cursor=pointer]:
+              - /url: https://blinkforhome.com/?ref=nav_footer
+              - heading "Blink" [level=5] [ref=f8e2214]
+              - generic [ref=f8e2215]: Smart Securityfor Every Home
+          - listitem [ref=f8e2216]
+          - listitem [ref=f8e2217]:
+            - link [ref=f8e2218] [cursor=pointer]:
+              - /url: https://shop.ring.com/pages/neighbors-app
+              - heading "Neighbors App" [level=5] [ref=f8e2219]
+              - generic [ref=f8e2220]: Real-Time Crime& Safety Alerts
+          - listitem [ref=f8e2221]
+          - listitem [ref=f8e2222]:
+            - link "PillPack Pharmacy Simplified" [ref=f8e2223] [cursor=pointer]:
+              - /url: https://www.pillpack.com
+              - heading "PillPack" [level=5] [ref=f8e2224]
+              - generic [ref=f8e2225]: Pharmacy Simplified
+          - listitem [ref=f8e2226]
+          - listitem [ref=f8e2227]
+          - listitem [ref=f8e2228]
+          - listitem [ref=f8e2229]
+    - generic [ref=f8e2230]:
+      - list [ref=f8e2231]:
+        - listitem [ref=f8e2232]:
+          - link "Conditions of Use" [ref=f8e2233] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=508088&ref_=footer_cou
+        - listitem [ref=f8e2234]:
+          - link "Privacy Notice" [ref=f8e2235] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ&ref_=footer_privacy
+        - listitem [ref=f8e2236]:
+          - link "Consumer Health Data Privacy Disclosure" [ref=f8e2237] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?ie=UTF8&nodeId=TnACMrGVghHocjL8KB&ref_=footer_consumer_health_data_privacy
+        - listitem [ref=f8e2238]:
+          - link "Your Ads Privacy Choices" [ref=f8e2239] [cursor=pointer]:
+            - /url: /privacyprefs?ref_=footer_iba
+        - listitem [ref=f8e2240]
+      - generic [ref=f8e2242]: © 1996-2026, Amazon.com, Inc. or its affiliates

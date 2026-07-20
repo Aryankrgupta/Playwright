@@ -1,0 +1,421 @@
+- generic [active] [ref=f12e1]:
+  - generic [ref=f12e2]:
+    - navigation [ref=f12e3]:
+      - generic "Open navigation drawer" [ref=f12e5] [cursor=pointer]
+      - link "Home" [ref=f12e8] [cursor=pointer]:
+        - /url: /?ref_=chtbo_nv_home
+      - search [ref=f12e18]:
+        - generic "All" [ref=f12e22] [cursor=pointer]
+        - generic [ref=f12e26]:
+          - combobox [ref=f12e27]:
+            - textbox "Search IMDb" [ref=f12e28]
+            - listbox
+          - status [ref=f12e29]: 8 suggestions available
+        - button "Submit search" [ref=f12e30] [cursor=pointer]
+      - generic [ref=f12e34]:
+        - link "Sign in" [ref=f12e35] [cursor=pointer]:
+          - /url: /registration/signin/?u=%2Fchart%2Fboxoffice%2F&ref_=chtbo_nv_generic_lgin
+        - generic [ref=f12e40]:
+          - generic [ref=f12e41]:
+            - link "Sign in" [ref=f12e43] [cursor=pointer]:
+              - /url: /registration/signin/?u=%2Fchart%2Fboxoffice%2F&ref_=chtbo_nv_signup_cm_btn
+            - button "Close" [ref=f12e45] [cursor=pointer]
+          - generic [ref=f12e48]:
+            - text: New customer?
+            - link "Create account" [ref=f12e49] [cursor=pointer]:
+              - /url: /registration/signin/?u=%2Fchart%2Fboxoffice%2F&ref_=chtbo_nv_generic_lgin
+      - link "Use app" [ref=f12e50] [cursor=pointer]:
+        - /url: https://slyb.app.link/vtz1COZnXAb?$canonical_url=https://www.imdb.com/
+      - status
+    - status
+    - main [ref=f12e52]:
+      - iframe [ref=f12e53]:
+        
+      - generic [ref=f12e61]:
+        - generic [ref=f12e63]:
+          - generic [ref=f12e64]:
+            - generic [ref=f12e65]: IMDb Charts
+            - generic [ref=f12e66]:
+              - generic [ref=f12e67]: Share
+              - button "Share on social media" [ref=f12e68] [cursor=pointer]
+          - generic [ref=f12e71]:
+            - heading "Top box office (US)" [level=1] [ref=f12e73]
+            - generic [ref=f12e74]: Weekend of July 10-12
+        - generic [ref=f12e75]:
+          - generic [ref=f12e76]:
+            - generic [ref=f12e78]:
+              - progressbar "0 OF 10 WATCHED" [ref=f12e79]
+              - generic [ref=f12e81]:
+                - generic [ref=f12e82]: 0 OF 10 WATCHED
+                - generic [ref=f12e83]: 0%
+            - generic [ref=f12e84]:
+              - generic [ref=f12e85]: 10 Titles
+              - generic [ref=f12e87]:
+                - button "Detailed view" [ref=f12e88] [cursor=pointer]
+                - button "Grid view" [ref=f12e90] [cursor=pointer]
+                - 'button "Selected: Compact view" [ref=f12e92] [cursor=pointer]'
+            - generic [ref=f12e98]:
+              - group [ref=f12e100]:
+                - img "Dwayne Johnson and Catherine Laga'aia in Moana (2026)" [ref=f12e102]
+                - button "Add to Watchlist" [ref=f12e103] [cursor=pointer]
+                - link "View title page for Moana" [ref=f12e108] [cursor=pointer]:
+                  - /url: /title/tt27419466/?ref_=chtbo_i_1
+              - generic [ref=f12e110]:
+                - link [ref=f12e113] [cursor=pointer]:
+                  - /url: /title/tt27419466/?ref_=chtbo_t_1
+                  - heading "Moana" [level=4] [ref=f12e114]
+                - list [ref=f12e115]:
+                  - listitem [ref=f12e116]:
+                    - generic [ref=f12e117]: "Weekend Gross:"
+                    - text: $43M
+                  - listitem [ref=f12e118]:
+                    - generic [ref=f12e119]: "Total Gross:"
+                    - text: $59M
+                  - listitem [ref=f12e120]:
+                    - generic [ref=f12e121]: "Weeks Released:"
+                    - text: "1"
+                - generic [ref=f12e122]:
+                  - generic [ref=f12e123]:
+                    - 'generic "IMDb rating: 5.7" [ref=f12e124]':
+                      - generic [ref=f12e126]: "5.7"
+                      - generic [ref=f12e127]: (6.9K)
+                    - button "Rate Moana" [ref=f12e128] [cursor=pointer]:
+                      - generic [ref=f12e129]: Rate
+                  - button "Mark Moana as watched" [ref=f12e132] [cursor=pointer]:
+                    - generic [ref=f12e135]: Mark as watched
+              - button "See more information about Moana" [ref=f12e137] [cursor=pointer]
+            - generic [ref=f12e143]:
+              - group [ref=f12e145]:
+                - img "Pierre Coffin in Minions & Monsters (2026)" [ref=f12e147]
+                - button "Add to Watchlist" [ref=f12e148] [cursor=pointer]
+                - link "View title page for Minions & Monsters" [ref=f12e153] [cursor=pointer]:
+                  - /url: /title/tt32890033/?ref_=chtbo_i_2
+              - generic [ref=f12e155]:
+                - link [ref=f12e158] [cursor=pointer]:
+                  - /url: /title/tt32890033/?ref_=chtbo_t_2
+                  - heading "Minions & Monsters" [level=4] [ref=f12e159]
+                - list [ref=f12e160]:
+                  - listitem [ref=f12e161]:
+                    - generic [ref=f12e162]: "Weekend Gross:"
+                    - text: $21M
+                  - listitem [ref=f12e163]:
+                    - generic [ref=f12e164]: "Total Gross:"
+                    - text: $120M
+                  - listitem [ref=f12e165]:
+                    - generic [ref=f12e166]: "Weeks Released:"
+                    - text: "2"
+                - generic [ref=f12e167]:
+                  - generic [ref=f12e168]:
+                    - 'generic "IMDb rating: 6.5" [ref=f12e169]':
+                      - generic [ref=f12e171]: "6.5"
+                      - generic [ref=f12e172]: (13K)
+                    - button "Rate Minions & Monsters" [ref=f12e173] [cursor=pointer]:
+                      - generic [ref=f12e174]: Rate
+                  - button "Mark Minions & Monsters as watched" [ref=f12e177] [cursor=pointer]:
+                    - generic [ref=f12e180]: Mark as watched
+              - button "See more information about Minions & Monsters" [ref=f12e182] [cursor=pointer]
+            - generic [ref=f12e188]:
+              - group [ref=f12e190]:
+                - img "Tom Hanks, Joan Cusack, Tim Allen, John Ratzenberger, Conan O'Brien, Jeff Bergman, Blake Clark, Tony Hale, Craig Robinson, Shelby Rabara, Greta Lee, and Melissa Villaseñor in Toy Story 5 (2026)" [ref=f12e192]
+                - button "Add to Watchlist" [ref=f12e193] [cursor=pointer]
+                - link "View title page for Toy Story 5" [ref=f12e198] [cursor=pointer]:
+                  - /url: /title/tt29355505/?ref_=chtbo_i_3
+              - generic [ref=f12e200]:
+                - link [ref=f12e203] [cursor=pointer]:
+                  - /url: /title/tt29355505/?ref_=chtbo_t_3
+                  - heading "Toy Story 5" [level=4] [ref=f12e204]
+                - list [ref=f12e205]:
+                  - listitem [ref=f12e206]:
+                    - generic [ref=f12e207]: "Weekend Gross:"
+                    - text: $19M
+                  - listitem [ref=f12e208]:
+                    - generic [ref=f12e209]: "Total Gross:"
+                    - text: $413M
+                  - listitem [ref=f12e210]:
+                    - generic [ref=f12e211]: "Weeks Released:"
+                    - text: "4"
+                - generic [ref=f12e212]:
+                  - generic [ref=f12e213]:
+                    - 'generic "IMDb rating: 7.5" [ref=f12e214]':
+                      - generic [ref=f12e216]: "7.5"
+                      - generic [ref=f12e217]: (49K)
+                    - button "Rate Toy Story 5" [ref=f12e218] [cursor=pointer]:
+                      - generic [ref=f12e219]: Rate
+                  - button "Mark Toy Story 5 as watched" [ref=f12e222] [cursor=pointer]:
+                    - generic [ref=f12e225]: Mark as watched
+              - button "See more information about Toy Story 5" [ref=f12e227] [cursor=pointer]
+            - generic [ref=f12e233]:
+              - group [ref=f12e235]:
+                - img "Evil Dead Burn (2026)" [ref=f12e237]
+                - button "Add to Watchlist" [ref=f12e238] [cursor=pointer]
+                - link "View title page for Evil Dead Burn" [ref=f12e243] [cursor=pointer]:
+                  - /url: /title/tt31170389/?ref_=chtbo_i_4
+              - generic [ref=f12e245]:
+                - link [ref=f12e248] [cursor=pointer]:
+                  - /url: /title/tt31170389/?ref_=chtbo_t_4
+                  - heading "Evil Dead Burn" [level=4] [ref=f12e249]
+                - list [ref=f12e250]:
+                  - listitem [ref=f12e251]:
+                    - generic [ref=f12e252]: "Weekend Gross:"
+                    - text: $14M
+                  - listitem [ref=f12e253]:
+                    - generic [ref=f12e254]: "Total Gross:"
+                    - text: $18M
+                  - listitem [ref=f12e255]:
+                    - generic [ref=f12e256]: "Weeks Released:"
+                    - text: "1"
+                - generic [ref=f12e257]:
+                  - generic [ref=f12e258]:
+                    - 'generic "IMDb rating: 6.7" [ref=f12e259]':
+                      - generic [ref=f12e261]: "6.7"
+                      - generic [ref=f12e262]: (14K)
+                    - button "Rate Evil Dead Burn" [ref=f12e263] [cursor=pointer]:
+                      - generic [ref=f12e264]: Rate
+                  - button "Mark Evil Dead Burn as watched" [ref=f12e267] [cursor=pointer]:
+                    - generic [ref=f12e270]: Mark as watched
+              - button "See more information about Evil Dead Burn" [ref=f12e272] [cursor=pointer]
+            - generic [ref=f12e278]:
+              - group [ref=f12e280]:
+                - img "Young Washington (2026)" [ref=f12e282]
+                - button "Add to Watchlist" [ref=f12e283] [cursor=pointer]
+                - link "View title page for Young Washington" [ref=f12e288] [cursor=pointer]:
+                  - /url: /title/tt32104007/?ref_=chtbo_i_5
+              - generic [ref=f12e290]:
+                - link [ref=f12e293] [cursor=pointer]:
+                  - /url: /title/tt32104007/?ref_=chtbo_t_5
+                  - heading "Young Washington" [level=4] [ref=f12e294]
+                - list [ref=f12e295]:
+                  - listitem [ref=f12e296]:
+                    - generic [ref=f12e297]: "Weekend Gross:"
+                    - text: $6.9M
+                  - listitem [ref=f12e298]:
+                    - generic [ref=f12e299]: "Total Gross:"
+                    - text: $37M
+                  - listitem [ref=f12e300]:
+                    - generic [ref=f12e301]: "Weeks Released:"
+                    - text: "2"
+                - generic [ref=f12e302]:
+                  - generic [ref=f12e303]:
+                    - 'generic "IMDb rating: 7.5" [ref=f12e304]':
+                      - generic [ref=f12e306]: "7.5"
+                      - generic [ref=f12e307]: (7.7K)
+                    - button "Rate Young Washington" [ref=f12e308] [cursor=pointer]:
+                      - generic [ref=f12e309]: Rate
+                  - button "Mark Young Washington as watched" [ref=f12e312] [cursor=pointer]:
+                    - generic [ref=f12e315]: Mark as watched
+              - button "See more information about Young Washington" [ref=f12e317] [cursor=pointer]
+            - generic [ref=f12e323]:
+              - group [ref=f12e325]:
+                - img "Michael Johnston and Inde Navarrette in Obsession (2025)" [ref=f12e327]
+                - button "Add to Watchlist" [ref=f12e328] [cursor=pointer]
+                - link "View title page for Obsession" [ref=f12e333] [cursor=pointer]:
+                  - /url: /title/tt37287335/?ref_=chtbo_i_6
+              - generic [ref=f12e335]:
+                - link [ref=f12e338] [cursor=pointer]:
+                  - /url: /title/tt37287335/?ref_=chtbo_t_6
+                  - heading "Obsession" [level=4] [ref=f12e339]
+                - list [ref=f12e340]:
+                  - listitem [ref=f12e341]:
+                    - generic [ref=f12e342]: "Weekend Gross:"
+                    - text: $3.8M
+                  - listitem [ref=f12e343]:
+                    - generic [ref=f12e344]: "Total Gross:"
+                    - text: $255M
+                  - listitem [ref=f12e345]:
+                    - generic [ref=f12e346]: "Weeks Released:"
+                    - text: "9"
+                - generic [ref=f12e347]:
+                  - generic [ref=f12e348]:
+                    - 'generic "IMDb rating: 7.9" [ref=f12e349]':
+                      - generic [ref=f12e351]: "7.9"
+                      - generic [ref=f12e352]: (222K)
+                    - button "Rate Obsession" [ref=f12e353] [cursor=pointer]:
+                      - generic [ref=f12e354]: Rate
+                  - button "Mark Obsession as watched" [ref=f12e357] [cursor=pointer]:
+                    - generic [ref=f12e360]: Mark as watched
+              - button "See more information about Obsession" [ref=f12e362] [cursor=pointer]
+            - generic [ref=f12e368]:
+              - group [ref=f12e370]:
+                - img "Milly Alcock in Supergirl (2026)" [ref=f12e372]
+                - button "Add to Watchlist" [ref=f12e373] [cursor=pointer]
+                - link "View title page for Supergirl" [ref=f12e378] [cursor=pointer]:
+                  - /url: /title/tt8814476/?ref_=chtbo_i_7
+              - generic [ref=f12e380]:
+                - link [ref=f12e383] [cursor=pointer]:
+                  - /url: /title/tt8814476/?ref_=chtbo_t_7
+                  - heading "Supergirl" [level=4] [ref=f12e384]
+                - list [ref=f12e385]:
+                  - listitem [ref=f12e386]:
+                    - generic [ref=f12e387]: "Weekend Gross:"
+                    - text: $3.8M
+                  - listitem [ref=f12e388]:
+                    - generic [ref=f12e389]: "Total Gross:"
+                    - text: $68M
+                  - listitem [ref=f12e390]:
+                    - generic [ref=f12e391]: "Weeks Released:"
+                    - text: "3"
+                - generic [ref=f12e392]:
+                  - generic [ref=f12e393]:
+                    - 'generic "IMDb rating: 6.1" [ref=f12e394]':
+                      - generic [ref=f12e396]: "6.1"
+                      - generic [ref=f12e397]: (50K)
+                    - button "Rate Supergirl" [ref=f12e398] [cursor=pointer]:
+                      - generic [ref=f12e399]: Rate
+                  - button "Mark Supergirl as watched" [ref=f12e402] [cursor=pointer]:
+                    - generic [ref=f12e405]: Mark as watched
+              - button "See more information about Supergirl" [ref=f12e407] [cursor=pointer]
+            - generic [ref=f12e413]:
+              - group [ref=f12e415]:
+                - img "Disclosure Day (2026)" [ref=f12e417]
+                - button "Add to Watchlist" [ref=f12e418] [cursor=pointer]
+                - link "View title page for Disclosure Day" [ref=f12e423] [cursor=pointer]:
+                  - /url: /title/tt15047880/?ref_=chtbo_i_8
+              - generic [ref=f12e425]:
+                - link [ref=f12e428] [cursor=pointer]:
+                  - /url: /title/tt15047880/?ref_=chtbo_t_8
+                  - heading "Disclosure Day" [level=4] [ref=f12e429]
+                - list [ref=f12e430]:
+                  - listitem [ref=f12e431]:
+                    - generic [ref=f12e432]: "Weekend Gross:"
+                    - text: $3.4M
+                  - listitem [ref=f12e433]:
+                    - generic [ref=f12e434]: "Total Gross:"
+                    - text: $113M
+                  - listitem [ref=f12e435]:
+                    - generic [ref=f12e436]: "Weeks Released:"
+                    - text: "5"
+                - generic [ref=f12e437]:
+                  - generic [ref=f12e438]:
+                    - 'generic "IMDb rating: 6.7" [ref=f12e439]':
+                      - generic [ref=f12e441]: "6.7"
+                      - generic [ref=f12e442]: (82K)
+                    - button "Rate Disclosure Day" [ref=f12e443] [cursor=pointer]:
+                      - generic [ref=f12e444]: Rate
+                  - button "Mark Disclosure Day as watched" [ref=f12e447] [cursor=pointer]:
+                    - generic [ref=f12e450]: Mark as watched
+              - button "See more information about Disclosure Day" [ref=f12e452] [cursor=pointer]
+            - generic [ref=f12e458]:
+              - group [ref=f12e460]:
+                - img "Renate Reinsve in Backrooms (2026)" [ref=f12e462]
+                - button "Add to Watchlist" [ref=f12e463] [cursor=pointer]
+                - link "View title page for Backrooms" [ref=f12e468] [cursor=pointer]:
+                  - /url: /title/tt26657236/?ref_=chtbo_i_9
+              - generic [ref=f12e470]:
+                - link [ref=f12e473] [cursor=pointer]:
+                  - /url: /title/tt26657236/?ref_=chtbo_t_9
+                  - heading "Backrooms" [level=4] [ref=f12e474]
+                - list [ref=f12e475]:
+                  - listitem [ref=f12e476]:
+                    - generic [ref=f12e477]: "Weekend Gross:"
+                    - text: $1.5M
+                  - listitem [ref=f12e478]:
+                    - generic [ref=f12e479]: "Total Gross:"
+                    - text: $194M
+                  - listitem [ref=f12e480]:
+                    - generic [ref=f12e481]: "Weeks Released:"
+                    - text: "7"
+                - generic [ref=f12e482]:
+                  - generic [ref=f12e483]:
+                    - 'generic "IMDb rating: 7.0" [ref=f12e484]':
+                      - generic [ref=f12e486]: "7.0"
+                      - generic [ref=f12e487]: (117K)
+                    - button "Rate Backrooms" [ref=f12e488] [cursor=pointer]:
+                      - generic [ref=f12e489]: Rate
+                  - button "Mark Backrooms as watched" [ref=f12e492] [cursor=pointer]:
+                    - generic [ref=f12e495]: Mark as watched
+              - button "See more information about Backrooms" [ref=f12e497] [cursor=pointer]
+            - generic [ref=f12e503]:
+              - group [ref=f12e505]:
+                - img "Jon Hamm, Sabrina Impacciatore, Thomas Lennon, Joe Lo Truglio, Ken Marino, Fred Melamed, John Slattery, Mather Zickel, Miles Gutierrez-Riley, Ben Wang, Michael Cassidy, Zoey Deutch, and Tobie Windham in Gail Daughtry and the Celebrity Sex Pass (2026)" [ref=f12e507]
+                - button "Add to Watchlist" [ref=f12e508] [cursor=pointer]
+                - link "View title page for Gail Daughtry and the Celebrity Sex Pass" [ref=f12e513] [cursor=pointer]:
+                  - /url: /title/tt36834010/?ref_=chtbo_i_10
+              - generic [ref=f12e515]:
+                - link [ref=f12e518] [cursor=pointer]:
+                  - /url: /title/tt36834010/?ref_=chtbo_t_10
+                  - heading "Gail Daughtry and the Celebrity Sex Pass" [level=4] [ref=f12e519]
+                - list [ref=f12e520]:
+                  - listitem [ref=f12e521]:
+                    - generic [ref=f12e522]: "Weekend Gross:"
+                    - text: $899K
+                  - listitem [ref=f12e523]:
+                    - generic [ref=f12e524]: "Total Gross:"
+                    - text: $899K
+                  - listitem [ref=f12e525]:
+                    - generic [ref=f12e526]: "Weeks Released:"
+                    - text: "1"
+                - generic [ref=f12e527]:
+                  - generic [ref=f12e528]:
+                    - 'generic "IMDb rating: 6.8" [ref=f12e529]':
+                      - generic [ref=f12e531]: "6.8"
+                      - generic [ref=f12e532]: (1.1K)
+                    - button "Rate Gail Daughtry and the Celebrity Sex Pass" [ref=f12e533] [cursor=pointer]:
+                      - generic [ref=f12e534]: Rate
+                  - button "Mark Gail Daughtry and the Celebrity Sex Pass as watched" [ref=f12e537] [cursor=pointer]:
+                    - generic [ref=f12e540]: Mark as watched
+              - button "See more information about Gail Daughtry and the Celebrity Sex Pass" [ref=f12e542] [cursor=pointer]
+            - generic [ref=f12e545]:
+              - text: Reported by
+              - link "Box Office Mojo" [ref=f12e546] [cursor=pointer]:
+                - /url: https://www.boxofficemojo.com/?ref_=chtbo
+              - text: © 2026
+            - link "See more box office results at BoxOfficeMojo.com" [ref=f12e547] [cursor=pointer]:
+              - /url: https://www.boxofficemojo.com/daily/chart/?ref_=chtbo
+          - generic [ref=f12e554]:
+            - heading "Chart insights" [level=3] [ref=f12e558]
+            - heading "More to explore" [level=3] [ref=f12e562]
+    - generic [ref=f12e564]:
+      - generic [ref=f12e567]:
+        - heading "Recently viewed" [level=3] [ref=f12e570]
+        - generic [ref=f12e571]: You have no recently viewed pages
+      - complementary "Bottom Sponsored Advertisement":
+        - button "Close advertisement" [ref=f12e577] [cursor=pointer]
+    - contentinfo [ref=f12e584]:
+      - link "Get the IMDb app" [ref=f12e586] [cursor=pointer]:
+        - /url: https://slyb.app.link/SKdyQ6A449
+      - link "Sign in for more access" [ref=f12e589] [cursor=pointer]:
+        - /url: /registration/signin/?u=%2Fchart%2Fboxoffice%2F&ref_=chtbo_ftr_reg
+      - generic [ref=f12e591]:
+        - generic [ref=f12e592]:
+          - link "TikTok" [ref=f12e593] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@imdb
+          - link "Instagram" [ref=f12e595] [cursor=pointer]:
+            - /url: https://instagram.com/imdb
+          - link "Twitter" [ref=f12e598] [cursor=pointer]:
+            - /url: https://twitter.com/imdb
+          - link "YouTube" [ref=f12e600] [cursor=pointer]:
+            - /url: https://youtube.com/imdb/
+          - link "Facebook" [ref=f12e602] [cursor=pointer]:
+            - /url: https://facebook.com/imdb
+        - generic [ref=f12e604]:
+          - link "Help" [ref=f12e605] [cursor=pointer]:
+            - /url: https://help.imdb.com/imdb
+          - link "Site Index" [ref=f12e607] [cursor=pointer]:
+            - /url: https://help.imdb.com/article/imdb/general-information/imdb-site-index/GNCX7BHNSPBTFALQ#so
+          - link "IMDbPro" [ref=f12e609] [cursor=pointer]:
+            - /url: https://pro.imdb.com?ref_=cons_tf_pro&rf=cons_tf_pro
+          - link "Box Office Mojo" [ref=f12e611] [cursor=pointer]:
+            - /url: https://www.boxofficemojo.com
+          - link "License IMDb Data" [ref=f12e613] [cursor=pointer]:
+            - /url: https://developer.imdb.com/
+        - generic [ref=f12e615]:
+          - link "Press Room" [ref=f12e616] [cursor=pointer]:
+            - /url: /pressroom/?ref_=chtbo_ftr
+          - link "Advertising" [ref=f12e617] [cursor=pointer]:
+            - /url: https://advertising.amazon.com/resources/ad-specs/imdb/
+          - link "Jobs" [ref=f12e619] [cursor=pointer]:
+            - /url: https://www.amazon.jobs/en/teams/imdb
+          - link "Conditions of Use" [ref=f12e621] [cursor=pointer]:
+            - /url: /conditions/?ref_=chtbo_ftr
+          - link "Privacy Policy" [ref=f12e622] [cursor=pointer]:
+            - /url: /privacy/?ref_=chtbo_ftr
+          - generic [ref=f12e623]:
+            - link "Your Ads Privacy Choices" [ref=f12e624] [cursor=pointer]:
+              - /url: /privacy/redirect/?ref_=chtbo_ftr
+            - link "Your Ads Privacy Choices" [ref=f12e637] [cursor=pointer]:
+              - /url: /privacy/redirect/?ref_=chtbo_ftr
+      - img "IMDb, an Amazon company" [ref=f12e639]
+      - paragraph [ref=f12e675]: © 1990-2026 by IMDb.com, Inc.
+    - button "Back to top" [ref=f12e676] [cursor=pointer]
+    - status
+  - alert [ref=f12e680]

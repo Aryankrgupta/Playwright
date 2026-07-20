@@ -1,0 +1,672 @@
+- table [ref=e3]:
+  - rowgroup [ref=e4]:
+    - row [ref=e5]:
+      - cell [ref=e6]:
+        - table [ref=e7]:
+          - rowgroup [ref=e8]:
+            - row [ref=e9]:
+              - cell [ref=e10]:
+                - link [ref=e11] [cursor=pointer]:
+                  - /url: https://news.ycombinator.com
+              - cell [ref=e13]:
+                - generic [ref=e14]:
+                  - link "Hacker News" [ref=e16] [cursor=pointer]:
+                    - /url: news
+                  - link "new" [ref=e17] [cursor=pointer]:
+                    - /url: newest
+                  - text: "|"
+                  - link "past" [ref=e18] [cursor=pointer]:
+                    - /url: front
+                  - text: "|"
+                  - link "comments" [ref=e19] [cursor=pointer]:
+                    - /url: newcomments
+                  - text: "|"
+                  - link "ask" [ref=e21] [cursor=pointer]:
+                    - /url: ask
+                  - text: "|"
+                  - link "show" [ref=e22] [cursor=pointer]:
+                    - /url: show
+                  - text: "|"
+                  - link "jobs" [ref=e23] [cursor=pointer]:
+                    - /url: jobs
+                  - text: "|"
+                  - link "submit" [ref=e24] [cursor=pointer]:
+                    - /url: submit
+              - cell [ref=e25]:
+                - link "login" [ref=e27] [cursor=pointer]:
+                  - /url: login?goto=ask
+    - row [ref=e28]
+    - row [ref=e29]:
+      - cell [ref=e30]:
+        - table [ref=e31]:
+          - rowgroup [ref=e32]:
+            - row [ref=e33]:
+              - cell "1." [ref=e34]
+              - cell [ref=e35]:
+                - link "upvote" [ref=e37] [cursor=pointer]:
+                  - /url: vote?id=48945681&how=up&goto=ask
+              - cell [ref=e39]:
+                - 'link "Ask HN: Any AWS billing issues known? Amazon forecast of 3 billion dollars" [ref=e41] [cursor=pointer]':
+                  - /url: item?id=48945681
+            - row [ref=e42]:
+              - cell [ref=e43]
+              - cell [ref=e44]:
+                - generic [ref=e45]:
+                  - text: 25 points by
+                  - link "mstolpm" [ref=e46] [cursor=pointer]:
+                    - /url: user?id=mstolpm
+                  - generic "2026-07-17T10:45:21 1784285121" [ref=e47]:
+                    - link "1 hour ago" [ref=e48] [cursor=pointer]:
+                      - /url: item?id=48945681
+                  - text: "|"
+                  - link "13 comments" [ref=e49] [cursor=pointer]:
+                    - /url: item?id=48945681
+            - row [ref=e50]
+            - row [ref=e51]:
+              - cell "2." [ref=e52]
+              - cell [ref=e53]:
+                - link "upvote" [ref=e55] [cursor=pointer]:
+                  - /url: vote?id=48945125&how=up&goto=ask
+              - cell [ref=e57]:
+                - 'link "Ask HN: Do you say please and thank you to your LLMs?" [ref=e59] [cursor=pointer]':
+                  - /url: item?id=48945125
+            - row [ref=e60]:
+              - cell [ref=e61]
+              - cell [ref=e62]:
+                - generic [ref=e63]:
+                  - text: 11 points by
+                  - link "healthworker" [ref=e64] [cursor=pointer]:
+                    - /url: user?id=healthworker
+                  - generic "2026-07-17T09:27:41 1784280461" [ref=e65]:
+                    - link "2 hours ago" [ref=e66] [cursor=pointer]:
+                      - /url: item?id=48945125
+                  - text: "|"
+                  - link "29 comments" [ref=e67] [cursor=pointer]:
+                    - /url: item?id=48945125
+            - row [ref=e68]
+            - row [ref=e69]:
+              - cell "3." [ref=e70]
+              - cell [ref=e71]:
+                - link "upvote" [ref=e73] [cursor=pointer]:
+                  - /url: vote?id=48945502&how=up&goto=ask
+              - cell [ref=e75]:
+                - 'link "Ask HN: What are you working on(2026)?" [ref=e77] [cursor=pointer]':
+                  - /url: item?id=48945502
+            - row [ref=e78]:
+              - cell [ref=e79]
+              - cell [ref=e80]:
+                - generic [ref=e81]:
+                  - text: 3 points by
+                  - link "adithyaharish" [ref=e82] [cursor=pointer]:
+                    - /url: user?id=adithyaharish
+                  - generic "2026-07-17T10:21:35 1784283695" [ref=e83]:
+                    - link "1 hour ago" [ref=e84] [cursor=pointer]:
+                      - /url: item?id=48945502
+                  - text: "|"
+                  - link "4 comments" [ref=e85] [cursor=pointer]:
+                    - /url: item?id=48945502
+            - row [ref=e86]
+            - row [ref=e87]:
+              - cell "4." [ref=e88]
+              - cell [ref=e89]:
+                - link "upvote" [ref=e91] [cursor=pointer]:
+                  - /url: vote?id=48945606&how=up&goto=ask
+              - cell [ref=e93]:
+                - link "Just got an AWS billing alert projecting my monthly cost at $140B" [ref=e95] [cursor=pointer]:
+                  - /url: item?id=48945606
+            - row [ref=e96]:
+              - cell [ref=e97]
+              - cell [ref=e98]:
+                - generic [ref=e99]:
+                  - text: 70 points by
+                  - link "mirzap" [ref=e100] [cursor=pointer]:
+                    - /url: user?id=mirzap
+                  - generic "2026-07-17T10:35:06 1784284506" [ref=e101]:
+                    - link "1 hour ago" [ref=e102] [cursor=pointer]:
+                      - /url: item?id=48945606
+                  - text: "|"
+                  - link "44 comments" [ref=e103] [cursor=pointer]:
+                    - /url: item?id=48945606
+            - row [ref=e104]
+            - row [ref=e105]:
+              - cell "5." [ref=e106]
+              - cell [ref=e107]:
+                - link "upvote" [ref=e109] [cursor=pointer]:
+                  - /url: vote?id=48884984&how=up&goto=ask
+              - cell [ref=e111]:
+                - 'link "Ask HN: What Are You Working On? (July 2026)" [ref=e113] [cursor=pointer]':
+                  - /url: item?id=48884984
+            - row [ref=e114]:
+              - cell [ref=e115]
+              - cell [ref=e116]:
+                - generic [ref=e117]:
+                  - text: 284 points by
+                  - link "david927" [ref=e118] [cursor=pointer]:
+                    - /url: user?id=david927
+                  - generic "2026-07-12T21:26:41 1783891601" [ref=e119]:
+                    - link "4 days ago" [ref=e120] [cursor=pointer]:
+                      - /url: item?id=48884984
+                  - text: "|"
+                  - link "1102 comments" [ref=e121] [cursor=pointer]:
+                    - /url: item?id=48884984
+            - row [ref=e122]
+            - row [ref=e123]:
+              - cell "6." [ref=e124]
+              - cell [ref=e125]:
+                - link "upvote" [ref=e127] [cursor=pointer]:
+                  - /url: vote?id=48943622&how=up&goto=ask
+              - cell [ref=e129]:
+                - 'link "Ask HN: I feel like I''ve lost my identity due to AI" [ref=e131] [cursor=pointer]':
+                  - /url: item?id=48943622
+            - row [ref=e132]:
+              - cell [ref=e133]
+              - cell [ref=e134]:
+                - generic [ref=e135]:
+                  - text: 7 points by
+                  - link "im-not-enjoying" [ref=e136] [cursor=pointer]:
+                    - /url: user?id=im-not-enjoying
+                  - generic "2026-07-17T05:28:54 1784266134" [ref=e137]:
+                    - link "6 hours ago" [ref=e138] [cursor=pointer]:
+                      - /url: item?id=48943622
+                  - text: "|"
+                  - link "3 comments" [ref=e139] [cursor=pointer]:
+                    - /url: item?id=48943622
+            - row [ref=e140]
+            - row [ref=e141]:
+              - cell "7." [ref=e142]
+              - cell [ref=e143]:
+                - link "upvote" [ref=e145] [cursor=pointer]:
+                  - /url: vote?id=48920698&how=up&goto=ask
+              - cell [ref=e147]:
+                - 'link "Ask HN: Is it just me, or is software buggier across the board?" [ref=e149] [cursor=pointer]':
+                  - /url: item?id=48920698
+            - row [ref=e150]:
+              - cell [ref=e151]
+              - cell [ref=e152]:
+                - generic [ref=e153]:
+                  - text: 127 points by
+                  - link "kadhirvelm" [ref=e154] [cursor=pointer]:
+                    - /url: user?id=kadhirvelm
+                  - generic "2026-07-15T13:41:01 1784122861" [ref=e155]:
+                    - link "1 day ago" [ref=e156] [cursor=pointer]:
+                      - /url: item?id=48920698
+                  - text: "|"
+                  - link "106 comments" [ref=e157] [cursor=pointer]:
+                    - /url: item?id=48920698
+            - row [ref=e158]
+            - row [ref=e159]:
+              - cell "8." [ref=e160]
+              - cell [ref=e161]:
+                - link "upvote" [ref=e163] [cursor=pointer]:
+                  - /url: vote?id=48940723&how=up&goto=ask
+              - cell [ref=e165]:
+                - 'link "Ask HN: Who gets credits on big math questions solved by LLMs?" [ref=e167] [cursor=pointer]':
+                  - /url: item?id=48940723
+            - row [ref=e168]:
+              - cell [ref=e169]
+              - cell [ref=e170]:
+                - generic [ref=e171]:
+                  - text: 9 points by
+                  - link "silentmafia" [ref=e172] [cursor=pointer]:
+                    - /url: user?id=silentmafia
+                  - generic "2026-07-16T21:48:18 1784238498" [ref=e173]:
+                    - link "14 hours ago" [ref=e174] [cursor=pointer]:
+                      - /url: item?id=48940723
+                  - text: "|"
+                  - link "5 comments" [ref=e175] [cursor=pointer]:
+                    - /url: item?id=48940723
+            - row [ref=e176]
+            - row [ref=e177]:
+              - cell "9." [ref=e178]
+              - cell [ref=e179]:
+                - link "upvote" [ref=e181] [cursor=pointer]:
+                  - /url: vote?id=48939630&how=up&goto=ask
+              - cell [ref=e183]:
+                - link "How do you guys keep up with AI news?" [ref=e185] [cursor=pointer]:
+                  - /url: item?id=48939630
+            - row [ref=e186]:
+              - cell [ref=e187]
+              - cell [ref=e188]:
+                - generic [ref=e189]:
+                  - text: 9 points by
+                  - link "anirudhc2005" [ref=e190] [cursor=pointer]:
+                    - /url: user?id=anirudhc2005
+                  - generic "2026-07-16T20:14:58 1784232898" [ref=e191]:
+                    - link "16 hours ago" [ref=e192] [cursor=pointer]:
+                      - /url: item?id=48939630
+                  - text: "|"
+                  - link "11 comments" [ref=e193] [cursor=pointer]:
+                    - /url: item?id=48939630
+            - row [ref=e194]
+            - row [ref=e195]:
+              - cell "10." [ref=e196]
+              - cell [ref=e197]:
+                - link "upvote" [ref=e199] [cursor=pointer]:
+                  - /url: vote?id=48942957&how=up&goto=ask
+              - cell [ref=e201]:
+                - link "Router ARP/NAT contradict after reload. Client ghost or firmware bug?" [ref=e203] [cursor=pointer]:
+                  - /url: item?id=48942957
+            - row [ref=e204]:
+              - cell [ref=e205]
+              - cell [ref=e206]:
+                - generic [ref=e207]:
+                  - text: 2 points by
+                  - link "asdem" [ref=e208] [cursor=pointer]:
+                    - /url: user?id=asdem
+                  - generic "2026-07-17T03:06:09 1784257569" [ref=e209]:
+                    - link "9 hours ago" [ref=e210] [cursor=pointer]:
+                      - /url: item?id=48942957
+                  - text: "|"
+                  - link "discuss" [ref=e211] [cursor=pointer]:
+                    - /url: item?id=48942957
+            - row [ref=e212]
+            - row [ref=e213]:
+              - cell "11." [ref=e214]
+              - cell [ref=e215]:
+                - link "upvote" [ref=e217] [cursor=pointer]:
+                  - /url: vote?id=48886741&how=up&goto=ask
+              - cell [ref=e219]:
+                - 'link "Ask HN: Add flag for AI-generated articles" [ref=e221] [cursor=pointer]':
+                  - /url: item?id=48886741
+            - row [ref=e222]:
+              - cell [ref=e223]
+              - cell [ref=e224]:
+                - generic [ref=e225]:
+                  - text: 1087 points by
+                  - link "levkk" [ref=e226] [cursor=pointer]:
+                    - /url: user?id=levkk
+                  - generic "2026-07-13T01:24:20 1783905860" [ref=e227]:
+                    - link "4 days ago" [ref=e228] [cursor=pointer]:
+                      - /url: item?id=48886741
+                  - text: "|"
+                  - link "456 comments" [ref=e229] [cursor=pointer]:
+                    - /url: item?id=48886741
+            - row [ref=e230]
+            - row [ref=e231]:
+              - cell "12." [ref=e232]
+              - cell [ref=e233]:
+                - link "upvote" [ref=e235] [cursor=pointer]:
+                  - /url: vote?id=48942096&how=up&goto=ask
+              - cell [ref=e237]:
+                - 'link "Ask HN: I built it and nobody came. What got you your first users?" [ref=e239] [cursor=pointer]':
+                  - /url: item?id=48942096
+            - row [ref=e240]:
+              - cell [ref=e241]
+              - cell [ref=e242]:
+                - generic [ref=e243]:
+                  - text: 6 points by
+                  - link "deadcatfound" [ref=e244] [cursor=pointer]:
+                    - /url: user?id=deadcatfound
+                  - generic "2026-07-17T00:38:35 1784248715" [ref=e245]:
+                    - link "11 hours ago" [ref=e246] [cursor=pointer]:
+                      - /url: item?id=48942096
+                  - text: "|"
+                  - link "7 comments" [ref=e247] [cursor=pointer]:
+                    - /url: item?id=48942096
+            - row [ref=e248]
+            - row [ref=e249]:
+              - cell "13." [ref=e250]
+              - cell [ref=e251]:
+                - link "upvote" [ref=e253] [cursor=pointer]:
+                  - /url: vote?id=48945241&how=up&goto=ask
+              - cell [ref=e255]:
+                - 'link "AWS: Inaccurate Estimated Billing Data - $1.7 BILLION" [ref=e257] [cursor=pointer]':
+                  - /url: item?id=48945241
+            - row [ref=e258]:
+              - cell [ref=e259]
+              - cell [ref=e260]:
+                - generic [ref=e261]:
+                  - text: 41 points by
+                  - link "nprateem" [ref=e262] [cursor=pointer]:
+                    - /url: user?id=nprateem
+                  - generic "2026-07-17T09:42:05 1784281325" [ref=e263]:
+                    - link "2 hours ago" [ref=e264] [cursor=pointer]:
+                      - /url: item?id=48945241
+                  - text: "|"
+                  - link "53 comments" [ref=e265] [cursor=pointer]:
+                    - /url: item?id=48945241
+            - row [ref=e266]
+            - row [ref=e267]:
+              - cell "14." [ref=e268]
+              - cell [ref=e269]:
+                - link "upvote" [ref=e271] [cursor=pointer]:
+                  - /url: vote?id=48934898&how=up&goto=ask
+              - cell [ref=e273]:
+                - 'link "Ask HN: How do you manage too many open tabs?" [ref=e275] [cursor=pointer]':
+                  - /url: item?id=48934898
+            - row [ref=e276]:
+              - cell [ref=e277]
+              - cell [ref=e278]:
+                - generic [ref=e279]:
+                  - text: 8 points by
+                  - link "NarcisMirandes" [ref=e280] [cursor=pointer]:
+                    - /url: user?id=NarcisMirandes
+                  - generic "2026-07-16T14:14:17 1784211257" [ref=e281]:
+                    - link "22 hours ago" [ref=e282] [cursor=pointer]:
+                      - /url: item?id=48934898
+                  - text: "|"
+                  - link "28 comments" [ref=e283] [cursor=pointer]:
+                    - /url: item?id=48934898
+            - row [ref=e284]
+            - row [ref=e285]:
+              - cell "15." [ref=e286]
+              - cell [ref=e287]:
+                - link "upvote" [ref=e289] [cursor=pointer]:
+                  - /url: vote?id=48934154&how=up&goto=ask
+              - cell [ref=e291]:
+                - 'link "Ask HN: As LLMs progress, how do you stay sharp and productive?" [ref=e293] [cursor=pointer]':
+                  - /url: item?id=48934154
+            - row [ref=e294]:
+              - cell [ref=e295]
+              - cell [ref=e296]:
+                - generic [ref=e297]:
+                  - text: 7 points by
+                  - link "spiresofagartha" [ref=e298] [cursor=pointer]:
+                    - /url: user?id=spiresofagartha
+                  - generic "2026-07-16T13:19:15 1784207955" [ref=e299]:
+                    - link "22 hours ago" [ref=e300] [cursor=pointer]:
+                      - /url: item?id=48934154
+                  - text: "|"
+                  - link "8 comments" [ref=e301] [cursor=pointer]:
+                    - /url: item?id=48934154
+            - row [ref=e302]
+            - row [ref=e303]:
+              - cell "16." [ref=e304]
+              - cell [ref=e305]:
+                - link "upvote" [ref=e307] [cursor=pointer]:
+                  - /url: vote?id=48925128&how=up&goto=ask
+              - cell [ref=e309]:
+                - 'link "Ask HN: Are AWS Certs worth getting for experienced Devs?" [ref=e311] [cursor=pointer]':
+                  - /url: item?id=48925128
+            - row [ref=e312]:
+              - cell [ref=e313]
+              - cell [ref=e314]:
+                - generic [ref=e315]:
+                  - text: 10 points by
+                  - link "Gold-Ask-lx" [ref=e316] [cursor=pointer]:
+                    - /url: user?id=Gold-Ask-lx
+                  - generic "2026-07-15T18:30:53 1784140253" [ref=e317]:
+                    - link "1 day ago" [ref=e318] [cursor=pointer]:
+                      - /url: item?id=48925128
+                  - text: "|"
+                  - link "16 comments" [ref=e319] [cursor=pointer]:
+                    - /url: item?id=48925128
+            - row [ref=e320]
+            - row [ref=e321]:
+              - cell "17." [ref=e322]
+              - cell [ref=e323]:
+                - link "upvote" [ref=e325] [cursor=pointer]:
+                  - /url: vote?id=48896372&how=up&goto=ask
+              - cell [ref=e327]:
+                - 'link "Ask HN: Should I do a CS masters at Cambridge or start as a new grad at Amazon?" [ref=e329] [cursor=pointer]':
+                  - /url: item?id=48896372
+            - row [ref=e330]:
+              - cell [ref=e331]
+              - cell [ref=e332]:
+                - generic [ref=e333]:
+                  - text: 28 points by
+                  - link "sspehr" [ref=e334] [cursor=pointer]:
+                    - /url: user?id=sspehr
+                  - generic "2026-07-13T18:00:53 1783965653" [ref=e335]:
+                    - link "3 days ago" [ref=e336] [cursor=pointer]:
+                      - /url: item?id=48896372
+                  - text: "|"
+                  - link "93 comments" [ref=e337] [cursor=pointer]:
+                    - /url: item?id=48896372
+            - row [ref=e338]
+            - row [ref=e339]:
+              - cell "18." [ref=e340]
+              - cell [ref=e341]:
+                - link "upvote" [ref=e343] [cursor=pointer]:
+                  - /url: vote?id=48937781&how=up&goto=ask
+              - cell [ref=e345]:
+                - link "Why people chasing after useless token saving plugins and ignoring real solution" [ref=e347] [cursor=pointer]:
+                  - /url: item?id=48937781
+            - row [ref=e348]:
+              - cell [ref=e349]
+              - cell [ref=e350]:
+                - generic [ref=e351]:
+                  - text: 2 points by
+                  - link "yohji1984" [ref=e352] [cursor=pointer]:
+                    - /url: user?id=yohji1984
+                  - generic "2026-07-16T17:46:52 1784224012" [ref=e353]:
+                    - link "18 hours ago" [ref=e354] [cursor=pointer]:
+                      - /url: item?id=48937781
+                  - text: "|"
+                  - link "discuss" [ref=e355] [cursor=pointer]:
+                    - /url: item?id=48937781
+            - row [ref=e356]
+            - row [ref=e357]:
+              - cell "19." [ref=e358]
+              - cell [ref=e359]:
+                - link "upvote" [ref=e361] [cursor=pointer]:
+                  - /url: vote?id=48936790&how=up&goto=ask
+              - cell [ref=e363]:
+                - 'link "Ask HN: Are we there yet? Can I create a human analogue using AI?" [ref=e365] [cursor=pointer]':
+                  - /url: item?id=48936790
+            - row [ref=e366]:
+              - cell [ref=e367]
+              - cell [ref=e368]:
+                - generic [ref=e369]:
+                  - text: 2 points by
+                  - link "JoeAltmaier" [ref=e370] [cursor=pointer]:
+                    - /url: user?id=JoeAltmaier
+                  - generic "2026-07-16T16:35:07 1784219707" [ref=e371]:
+                    - link "19 hours ago" [ref=e372] [cursor=pointer]:
+                      - /url: item?id=48936790
+                  - text: "|"
+                  - link "4 comments" [ref=e373] [cursor=pointer]:
+                    - /url: item?id=48936790
+            - row [ref=e374]
+            - row [ref=e375]:
+              - cell "20." [ref=e376]
+              - cell [ref=e377]:
+                - link "upvote" [ref=e379] [cursor=pointer]:
+                  - /url: vote?id=48931604&how=up&goto=ask
+              - cell [ref=e381]:
+                - 'link "Thinking: Alternate Distribution for Filmmakers" [ref=e383] [cursor=pointer]':
+                  - /url: item?id=48931604
+            - row [ref=e384]:
+              - cell [ref=e385]
+              - cell [ref=e386]:
+                - generic [ref=e387]:
+                  - text: 3 points by
+                  - link "phaedrus044" [ref=e388] [cursor=pointer]:
+                    - /url: user?id=phaedrus044
+                  - generic "2026-07-16T08:06:28 1784189188" [ref=e389]:
+                    - link "1 day ago" [ref=e390] [cursor=pointer]:
+                      - /url: item?id=48931604
+                  - text: "|"
+                  - link "1 comment" [ref=e391] [cursor=pointer]:
+                    - /url: item?id=48931604
+            - row [ref=e392]
+            - row [ref=e393]:
+              - cell "21." [ref=e394]
+              - cell [ref=e395]:
+                - link "upvote" [ref=e397] [cursor=pointer]:
+                  - /url: vote?id=48936123&how=up&goto=ask
+              - cell [ref=e399]:
+                - 'link "Ask HN: Best meeting transcription daemon for macOS?" [ref=e401] [cursor=pointer]':
+                  - /url: item?id=48936123
+            - row [ref=e402]:
+              - cell [ref=e403]
+              - cell [ref=e404]:
+                - generic [ref=e405]:
+                  - text: 4 points by
+                  - link "tomelliot" [ref=e406] [cursor=pointer]:
+                    - /url: user?id=tomelliot
+                  - generic "2026-07-16T15:44:53 1784216693" [ref=e407]:
+                    - link "20 hours ago" [ref=e408] [cursor=pointer]:
+                      - /url: item?id=48936123
+                  - text: "|"
+                  - link "3 comments" [ref=e409] [cursor=pointer]:
+                    - /url: item?id=48936123
+            - row [ref=e410]
+            - row [ref=e411]:
+              - cell "22." [ref=e412]
+              - cell [ref=e413]:
+                - link "upvote" [ref=e415] [cursor=pointer]:
+                  - /url: vote?id=48934733&how=up&goto=ask
+              - cell [ref=e417]:
+                - 'link "Ask HN: Assistive Tech Ideas for Dementia" [ref=e419] [cursor=pointer]':
+                  - /url: item?id=48934733
+            - row [ref=e420]:
+              - cell [ref=e421]
+              - cell [ref=e422]:
+                - generic [ref=e423]:
+                  - text: 5 points by
+                  - link "thanksd" [ref=e424] [cursor=pointer]:
+                    - /url: user?id=thanksd
+                  - generic "2026-07-16T14:01:41 1784210501" [ref=e425]:
+                    - link "22 hours ago" [ref=e426] [cursor=pointer]:
+                      - /url: item?id=48934733
+                  - text: "|"
+                  - link "2 comments" [ref=e427] [cursor=pointer]:
+                    - /url: item?id=48934733
+            - row [ref=e428]
+            - row [ref=e429]:
+              - cell "23." [ref=e430]
+              - cell [ref=e431]:
+                - link "upvote" [ref=e433] [cursor=pointer]:
+                  - /url: vote?id=48933167&how=up&goto=ask
+              - cell [ref=e435]:
+                - link "Help me be accountable with my time" [ref=e437] [cursor=pointer]:
+                  - /url: item?id=48933167
+            - row [ref=e438]:
+              - cell [ref=e439]
+              - cell [ref=e440]:
+                - generic [ref=e441]:
+                  - text: 4 points by
+                  - link "atomiomi" [ref=e442] [cursor=pointer]:
+                    - /url: user?id=atomiomi
+                  - generic "2026-07-16T11:41:00 1784202060" [ref=e443]:
+                    - link "1 day ago" [ref=e444] [cursor=pointer]:
+                      - /url: item?id=48933167
+                  - text: "|"
+                  - link "10 comments" [ref=e445] [cursor=pointer]:
+                    - /url: item?id=48933167
+            - row [ref=e446]
+            - row [ref=e447]:
+              - cell "24." [ref=e448]
+              - cell [ref=e449]:
+                - link "upvote" [ref=e451] [cursor=pointer]:
+                  - /url: vote?id=48933107&how=up&goto=ask
+              - cell [ref=e453]:
+                - 'link "Ask HN: How about a \"Merge Stories\" feature?" [ref=e455] [cursor=pointer]':
+                  - /url: item?id=48933107
+            - row [ref=e456]:
+              - cell [ref=e457]
+              - cell [ref=e458]:
+                - generic [ref=e459]:
+                  - text: 3 points by
+                  - link "RetroTechie" [ref=e460] [cursor=pointer]:
+                    - /url: user?id=RetroTechie
+                  - generic "2026-07-16T11:32:47 1784201567" [ref=e461]:
+                    - link "1 day ago" [ref=e462] [cursor=pointer]:
+                      - /url: item?id=48933107
+                  - text: "|"
+                  - link "2 comments" [ref=e463] [cursor=pointer]:
+                    - /url: item?id=48933107
+            - row [ref=e464]
+            - row [ref=e465]:
+              - cell "25." [ref=e466]
+              - cell [ref=e467]:
+                - link "upvote" [ref=e469] [cursor=pointer]:
+                  - /url: vote?id=48932993&how=up&goto=ask
+              - cell [ref=e471]:
+                - 'link "Ask HN: What are you using for authn/authz and payments?" [ref=e473] [cursor=pointer]':
+                  - /url: item?id=48932993
+            - row [ref=e474]:
+              - cell [ref=e475]
+              - cell [ref=e476]:
+                - generic [ref=e477]:
+                  - text: 3 points by
+                  - link "jftuga" [ref=e478] [cursor=pointer]:
+                    - /url: user?id=jftuga
+                  - generic "2026-07-16T11:19:14 1784200754" [ref=e479]:
+                    - link "1 day ago" [ref=e480] [cursor=pointer]:
+                      - /url: item?id=48932993
+                  - text: "|"
+                  - link "4 comments" [ref=e481] [cursor=pointer]:
+                    - /url: item?id=48932993
+            - row [ref=e482]
+            - row [ref=e483]:
+              - cell "26." [ref=e484]
+              - cell [ref=e485]:
+                - link "upvote" [ref=e487] [cursor=pointer]:
+                  - /url: vote?id=48932546&how=up&goto=ask
+              - cell [ref=e489]:
+                - 'link "Ask HN: Are there any startups looking for a developer on contract base?" [ref=e491] [cursor=pointer]':
+                  - /url: item?id=48932546
+            - row [ref=e492]:
+              - cell [ref=e493]
+              - cell [ref=e494]:
+                - generic [ref=e495]:
+                  - text: 2 points by
+                  - link "need_a_work23" [ref=e496] [cursor=pointer]:
+                    - /url: user?id=need_a_work23
+                  - generic "2026-07-16T10:14:38 1784196878" [ref=e497]:
+                    - link "1 day ago" [ref=e498] [cursor=pointer]:
+                      - /url: item?id=48932546
+                  - text: "|"
+                  - link "1 comment" [ref=e499] [cursor=pointer]:
+                    - /url: item?id=48932546
+            - row [ref=e500]
+            - row [ref=e501]:
+              - cell "27." [ref=e502]
+              - cell [ref=e503]:
+                - link "upvote" [ref=e505] [cursor=pointer]:
+                  - /url: vote?id=48932541&how=up&goto=ask
+              - cell [ref=e507]:
+                - link "OTPme Testers Wanted" [ref=e509] [cursor=pointer]:
+                  - /url: item?id=48932541
+            - row [ref=e510]:
+              - cell [ref=e511]
+              - cell [ref=e512]:
+                - generic [ref=e513]:
+                  - text: 4 points by
+                  - link "otpme" [ref=e514] [cursor=pointer]:
+                    - /url: user?id=otpme
+                  - generic "2026-07-16T10:14:14 1784196854" [ref=e515]:
+                    - link "1 day ago" [ref=e516] [cursor=pointer]:
+                      - /url: item?id=48932541
+                  - text: "|"
+                  - link "discuss" [ref=e517] [cursor=pointer]:
+                    - /url: item?id=48932541
+            - row [ref=e518]
+    - row [ref=e519]:
+      - cell [ref=e520]:
+        - table [ref=e521]:
+          - rowgroup [ref=e522]:
+            - row [ref=e523]:
+              - cell [ref=e524]
+        - link "Consider applying for YC's Fall 2026 batch! Applications are open till July 27." [ref=e526] [cursor=pointer]:
+          - /url: https://www.ycombinator.com/apply/
+        - generic [ref=e527]:
+          - generic [ref=e528]:
+            - link "Guidelines" [ref=e529] [cursor=pointer]:
+              - /url: newsguidelines.html
+            - text: "|"
+            - link "FAQ" [ref=e530] [cursor=pointer]:
+              - /url: newsfaq.html
+            - text: "|"
+            - link "Lists" [ref=e531] [cursor=pointer]:
+              - /url: lists
+            - text: "|"
+            - link "API" [ref=e532] [cursor=pointer]:
+              - /url: https://github.com/HackerNews/API
+            - text: "|"
+            - link "Security" [ref=e533] [cursor=pointer]:
+              - /url: security.html
+            - text: "|"
+            - link "Legal" [ref=e534] [cursor=pointer]:
+              - /url: https://www.ycombinator.com/legal/
+            - text: "|"
+            - link "Apply to YC" [ref=e535] [cursor=pointer]:
+              - /url: https://www.ycombinator.com/apply/
+            - text: "|"
+            - link "Contact" [ref=e536] [cursor=pointer]:
+              - /url: mailto:hn@ycombinator.com
+          - generic [ref=e537]:
+            - text: "Search:"
+            - textbox [ref=e538]

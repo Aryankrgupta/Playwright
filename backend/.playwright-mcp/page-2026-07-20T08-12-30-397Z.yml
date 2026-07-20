@@ -1,0 +1,602 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Online Quality Survey" [ref=e2]:
+    - iframe [ref=e3]:
+      
+  - generic [ref=e5]:
+    - link "Skip to content" [ref=e6] [cursor=pointer]:
+      - /url: "#bbc-main"
+    - banner [ref=e8]:
+      - generic [ref=e9]:
+        - button "Open menu" [ref=e11] [cursor=pointer]
+        - link "British Broadcasting Corporation" [ref=e20] [cursor=pointer]:
+          - /url: /
+          - img "British Broadcasting Corporation" [ref=e21]
+        - generic [ref=e24]:
+          - link [ref=e26] [cursor=pointer]:
+            - /url: https://session.bbc.com/session?action=register&userOrigin=BBCS_BBC&ptrt=https%3A%2F%2Fwww.bbc.com%2Fnews
+            - button "Register" [ref=e27]
+          - link [ref=e30] [cursor=pointer]:
+            - /url: https://session.bbc.com/session?userOrigin=BBCS_BBC&ptrt=https%3A%2F%2Fwww.bbc.com%2Fnews
+            - button "Sign In" [ref=e31]
+    - navigation
+    - main [ref=e33]:
+      - article [ref=e34]:
+        - heading [level=1] [ref=e41]:
+          - img "News" [ref=e42]
+        - generic [ref=e46]:
+          - generic [ref=e49]:
+            - link [ref=e53] [cursor=pointer]:
+              - /url: https://www.bbc.com/news/live/cgrkv8e8l9qt
+              - img "Andy Burnham, a white man with dark hair and glasses, in a blue suit and red tie." [ref=e55]
+            - link "LIVE Andy Burnham to become UK prime minister and pledge political stability in No 10 speech Keir Starmer will give a final address from Downing Street this morning, before formally resigning at Buckingham Palace." [ref=e59] [cursor=pointer]:
+              - /url: https://www.bbc.com/news/live/cgrkv8e8l9qt
+              - generic [ref=e60]:
+                - generic [ref=e62]:
+                  - generic [ref=e63]: LIVE
+                  - heading "Andy Burnham to become UK prime minister and pledge political stability in No 10 speech" [level=2] [ref=e68]
+                - paragraph [ref=e69]: Keir Starmer will give a final address from Downing Street this morning, before formally resigning at Buckingham Palace.
+          - generic [ref=e72]:
+            - link "Lamine Yamal Victory for football? Spain beat Argentina to win World Cup Spain triumphed with an extra-time goal in a battle of endurance. 8 hrs ago World Cup" [ref=e76] [cursor=pointer]:
+              - /url: /sport/football/articles/cdx8veqllw7o
+              - generic [ref=e77]:
+                - img "Lamine Yamal" [ref=e81]
+                - generic [ref=e82]:
+                  - heading "Victory for football? Spain beat Argentina to win World Cup" [level=2] [ref=e85]
+                  - paragraph [ref=e86]: Spain triumphed with an extra-time goal in a battle of endurance.
+                  - generic [ref=e87]:
+                    - generic [ref=e88]: 8 hrs ago
+                    - generic: World Cup
+            - 'link "‘Everyone''s afraid to die’: Struggle to recruit soldiers in Ukraine turns violent Aggression against recruitment officers has become increasingly threatening, police say. 8 hrs ago Europe" [ref=e93] [cursor=pointer]':
+              - /url: /news/articles/cr7k5ngde3vo
+              - generic [ref=e95]:
+                - 'heading "‘Everyone''s afraid to die’: Struggle to recruit soldiers in Ukraine turns violent" [level=2] [ref=e98]'
+                - paragraph [ref=e99]: Aggression against recruitment officers has become increasingly threatening, police say.
+                - generic [ref=e100]:
+                  - generic [ref=e101]: 8 hrs ago
+                  - generic: Europe
+            - link "Norway opens new memorial for victims of 2011 massacre The artwork in the capital Oslo was unveiled on Sunday ahead of the 15th anniversary of the attack. 7 hrs ago Europe" [ref=e106] [cursor=pointer]:
+              - /url: /news/articles/c07r9m22gyyo
+              - generic [ref=e108]:
+                - heading "Norway opens new memorial for victims of 2011 massacre" [level=2] [ref=e111]
+                - paragraph [ref=e112]: The artwork in the capital Oslo was unveiled on Sunday ahead of the 15th anniversary of the attack.
+                - generic [ref=e113]:
+                  - generic [ref=e114]: 7 hrs ago
+                  - generic: Europe
+          - generic [ref=e117]:
+            - link "A protester at the CJP march at Jantar Mantar LIVE Thousands of 'cockroach' protesters march towards India's parliament The Delhi police, however, has said the protesters don't have permission for the march." [ref=e121] [cursor=pointer]:
+              - /url: https://www.bbc.com/news/live/c8rnddx2j46t
+              - generic [ref=e122]:
+                - img "A protester at the CJP march at Jantar Mantar" [ref=e126]
+                - generic [ref=e127]:
+                  - generic [ref=e129]:
+                    - generic [ref=e130]: LIVE
+                    - heading "Thousands of 'cockroach' protesters march towards India's parliament" [level=2] [ref=e135]
+                  - paragraph [ref=e136]: The Delhi police, however, has said the protesters don't have permission for the march.
+            - link "Rodri holds the World Cup trophy aloft as his Spain teammates celebrate with him LIVE Spain beat Argentina to win second World Cup - reaction All the reaction from the 2026 Fifa World Cup as Spain win the tournament for the second time, beating Argentina 1-0." [ref=e141] [cursor=pointer]:
+              - /url: https://www.bbc.com/sport/football/live/cvg857kz8q9t
+              - generic [ref=e142]:
+                - img "Rodri holds the World Cup trophy aloft as his Spain teammates celebrate with him" [ref=e146]
+                - generic [ref=e147]:
+                  - generic [ref=e149]:
+                    - generic [ref=e150]: LIVE
+                    - heading "Spain beat Argentina to win second World Cup - reaction" [level=2] [ref=e155]
+                  - paragraph [ref=e156]: All the reaction from the 2026 Fifa World Cup as Spain win the tournament for the second time, beating Argentina 1-0.
+            - link "Wang Jibing in an orange polo shirt smiling at the camera Food delivery rider wins China's top literary prize Wang Jibing is among blue-collar Chinese workers gaining wider attention for their literary works. 4 hrs ago Asia" [ref=e161] [cursor=pointer]:
+              - /url: /news/articles/c5ydr3xd0kvo
+              - generic [ref=e162]:
+                - img "Wang Jibing in an orange polo shirt smiling at the camera" [ref=e166]
+                - generic [ref=e167]:
+                  - heading "Food delivery rider wins China's top literary prize" [level=2] [ref=e170]
+                  - paragraph [ref=e171]: Wang Jibing is among blue-collar Chinese workers gaining wider attention for their literary works.
+                  - generic [ref=e172]:
+                    - generic [ref=e173]: 4 hrs ago
+                    - generic: Asia
+            - link "A US F-35 fighter on an aircraft carrier with a night sky Trump says US strikes hit Iran in 'honour' of American soldiers killed Iran responded with attacks in Syria and Jordan, as two ships reportedly exploded in the Strait of Hormuz. 2 hrs ago Middle East" [ref=e178] [cursor=pointer]:
+              - /url: /news/articles/cly52xzjd3qo
+              - generic [ref=e179]:
+                - img "A US F-35 fighter on an aircraft carrier with a night sky" [ref=e183]
+                - generic [ref=e184]:
+                  - heading "Trump says US strikes hit Iran in 'honour' of American soldiers killed" [level=2] [ref=e187]
+                  - paragraph [ref=e188]: Iran responded with attacks in Syria and Jordan, as two ships reportedly exploded in the Strait of Hormuz.
+                  - generic [ref=e189]:
+                    - generic [ref=e190]: 2 hrs ago
+                    - generic: Middle East
+        - generic [ref=e194]:
+          - link [ref=e197] [cursor=pointer]:
+            - /url: /news/articles/c2el7xpnzrpo
+            - heading "Russia launches major ballistic missile attack on Ukrainian cities" [level=2] [ref=e201]
+          - link [ref=e204] [cursor=pointer]:
+            - /url: /news/articles/cwymly9yd33o
+            - heading "Tate brothers arrested in US as further UK charges take total to 59" [level=2] [ref=e208]
+          - link [ref=e211] [cursor=pointer]:
+            - /url: /news/articles/c5ywxp2d826o
+            - heading "The 1975's Matty Healy marries model Gabbriette Bechtel in Los Angeles" [level=2] [ref=e215]
+          - link [ref=e218] [cursor=pointer]:
+            - /url: /news/articles/c4gw9n1kx9do
+            - heading "Test that found source of US explosive diarrhoea outbreak was false positive, health officials say" [level=2] [ref=e222]
+          - link [ref=e225] [cursor=pointer]:
+            - /url: /news/videos/cq89veggnvqo
+            - 'heading "Watch: Torrential rain hits New York and New Jersey triggering flash floods" [level=2] [ref=e232]'
+        - generic [ref=e234]:
+          - generic [ref=e235]:
+            - separator [ref=e237]
+            - heading "World Cup 2026" [level=2] [ref=e240]
+          - generic [ref=e241]:
+            - link [ref=e244] [cursor=pointer]:
+              - /url: /sport/football/articles/c4gjx7nvk4go
+              - generic [ref=e245]:
+                - img "Donald Trump and Rodri" [ref=e249]
+                - generic [ref=e250]:
+                  - heading "Trump, Bieber and Shakira - a World Cup final like never before" [level=2] [ref=e253]
+                  - paragraph [ref=e254]: The 2026 World Cup final may not linger long in the memory for what happened on the pitch but it will for all that surrounded it, with an appearance by President Trump, the longest half-time in football and songs by a host of stars.
+            - link [ref=e257] [cursor=pointer]:
+              - /url: /sport/football/articles/c0m7zx38v43o
+              - generic [ref=e258]:
+                - img "Spain teenager Lamine Yamal embraces Argentina's 39-year-old great at the end of the World Cup Final." [ref=e262]
+                - generic [ref=e263]:
+                  - heading "Lamine Yamal 'completes football' at 19 as Argentina betray Messi" [level=2] [ref=e266]
+                  - paragraph [ref=e267]: Spain's Lamine Yamal takes the glory of World Cup victory as the great Lionel Messi's evening ends in tears.
+            - link [ref=e270] [cursor=pointer]:
+              - /url: /news/videos/czxqr9rl9r0o
+              - generic [ref=e271]:
+                - img "A female dressed in red and glasses smiling next to a young man in white and blue." [ref=e275]
+                - generic [ref=e280]:
+                  - heading "Spanish and Argentinian fans react outside World Cup final" [level=2] [ref=e283]
+                  - paragraph [ref=e284]: Ecstatic Spanish spectators and disappointed Argentine fans spoke to the BBC after the World Cup final on Sunday.
+            - link [ref=e287] [cursor=pointer]:
+              - /url: /sport/football/articles/c39elvrye40o
+              - generic [ref=e288]:
+                - generic [ref=e291]:
+                  - img "image unavailable" [ref=e292]
+                  - img "Spain boss Luis de la Fuente and his players celebrate with the World Cup trophy" [ref=e293]
+                - generic [ref=e294]:
+                  - heading "Sixteen titles in five years - why Spain are a dominant force" [level=2] [ref=e297]
+                  - paragraph [ref=e298]: We look at what's behind Spain's dominance after they become the first nation to be men's and women's World Cup champions at the same time.
+        - generic [ref=e300]:
+          - generic [ref=e304]:
+            - separator [ref=e306]
+            - heading "More to explore" [level=2] [ref=e309]
+          - generic [ref=e311]:
+            - generic [ref=e314]:
+              - link [ref=e318] [cursor=pointer]:
+                - /url: /news/articles/cp8r850e7z1o
+                - generic [ref=e319]:
+                  - img "image unavailable" [ref=e320]
+                  - img "Closeup of a finished Ganpati idol" [ref=e321]
+              - link "India's Ganesh idol makers count the cost of devastating floods Weeks before the Ganesh Chaturthi festival, floods washed away months of work for idol makers in Maharashtra. 1 day ago Asia" [ref=e325] [cursor=pointer]:
+                - /url: /news/articles/cp8r850e7z1o
+                - generic [ref=e326]:
+                  - heading "India's Ganesh idol makers count the cost of devastating floods" [level=2] [ref=e329]
+                  - paragraph [ref=e330]: Weeks before the Ganesh Chaturthi festival, floods washed away months of work for idol makers in Maharashtra.
+                  - generic [ref=e331]:
+                    - generic [ref=e332]: 1 day ago
+                    - generic: Asia
+            - generic [ref=e335]:
+              - link "image unavailable Coca farmer Perea standing among his plants. Behind him are green sheets hanging up in front of a building. This farmer wanted to quit the cocaine industry - he couldn't Colombians who grow cocaine's raw material bemoan a lack of support to help them switch crops. 9 hrs ago Latin America" [ref=e339] [cursor=pointer]:
+                - /url: /news/articles/c0kyml1zxz4o
+                - generic [ref=e340]:
+                  - generic [ref=e343]:
+                    - img "image unavailable" [ref=e344]
+                    - img "Coca farmer Perea standing among his plants. Behind him are green sheets hanging up in front of a building." [ref=e345]
+                  - generic [ref=e346]:
+                    - heading "This farmer wanted to quit the cocaine industry - he couldn't" [level=2] [ref=e349]
+                    - paragraph [ref=e350]: Colombians who grow cocaine's raw material bemoan a lack of support to help them switch crops.
+                    - generic [ref=e351]:
+                      - generic [ref=e352]: 9 hrs ago
+                      - generic: Latin America
+              - link "Russians turn to cash, putting more strain on slowing wartime economy Russians have been hit by mobile internet shutdowns and more businesses are seeking to dodge tax after more than four years of war with Ukraine. 1 day ago Europe" [ref=e357] [cursor=pointer]:
+                - /url: /news/articles/cglj255jk8ko
+                - generic [ref=e359]:
+                  - heading "Russians turn to cash, putting more strain on slowing wartime economy" [level=2] [ref=e362]
+                  - paragraph [ref=e363]: Russians have been hit by mobile internet shutdowns and more businesses are seeking to dodge tax after more than four years of war with Ukraine.
+                  - generic [ref=e364]:
+                    - generic [ref=e365]: 1 day ago
+                    - generic: Europe
+              - link "Can Burnham's casual style survive contact with No 10? When Burnham becomes PM, he'll find it harder to wear the wardrobe that's central to his political brand. 1 day ago Politics" [ref=e370] [cursor=pointer]:
+                - /url: /news/articles/cvgq2qr9gxdo
+                - generic [ref=e372]:
+                  - heading "Can Burnham's casual style survive contact with No 10?" [level=2] [ref=e375]
+                  - paragraph [ref=e376]: When Burnham becomes PM, he'll find it harder to wear the wardrobe that's central to his political brand.
+                  - generic [ref=e377]:
+                    - generic [ref=e378]: 1 day ago
+                    - generic: Politics
+            - link "image unavailable A designed image showing a woman (face not shown) wearing an Oura ring and looking at health stats on her phone; on the left is a larger image of the ring. It's set against a background of blue, purple and red circles. My fitness tracker knew I was pregnant before I did Ravika is one of hundreds of women who are noticing early pregnancy signs through the data on their fitness trackers. 9 hrs ago Health" [ref=e383] [cursor=pointer]:
+              - /url: /news/articles/cr474z1qyn6o
+              - generic [ref=e384]:
+                - generic [ref=e387]:
+                  - img "image unavailable" [ref=e388]
+                  - img "A designed image showing a woman (face not shown) wearing an Oura ring and looking at health stats on her phone; on the left is a larger image of the ring. It's set against a background of blue, purple and red circles." [ref=e389]
+                - generic [ref=e390]:
+                  - heading "My fitness tracker knew I was pregnant before I did" [level=2] [ref=e393]
+                  - paragraph [ref=e394]: Ravika is one of hundreds of women who are noticing early pregnancy signs through the data on their fitness trackers.
+                  - generic [ref=e395]:
+                    - generic [ref=e396]: 9 hrs ago
+                    - generic: Health
+            - link "image unavailable A red clock showing grey whirring hands, on the upper left there is a red logo which reads BBC InDepth in white lettering The hidden cost of the night shift and how to sleep it off More than three million people in the UK work night shifts, which can greatly impact their health. What can be done to help them? 1 day ago BBC InDepth" [ref=e401] [cursor=pointer]:
+              - /url: /news/articles/cp9errxl97go
+              - generic [ref=e402]:
+                - generic [ref=e405]:
+                  - img "image unavailable" [ref=e406]
+                  - img "A red clock showing grey whirring hands, on the upper left there is a red logo which reads BBC InDepth in white lettering" [ref=e407]
+                - generic [ref=e408]:
+                  - heading "The hidden cost of the night shift and how to sleep it off" [level=2] [ref=e411]
+                  - paragraph [ref=e412]: More than three million people in the UK work night shifts, which can greatly impact their health. What can be done to help them?
+                  - generic [ref=e413]:
+                    - generic [ref=e414]: 1 day ago
+                    - generic: BBC InDepth
+            - link "image unavailable An aqua-blue river runs through a valley surrounded by pine trees and rocky mountains How a TV show transformed one rugged US city into a playground for the wealthy Rents in Bozeman, Montana have skyrocketed as wealthy out-of-towners flock to the city to experience the American West. 1 day ago US & Canada" [ref=e419] [cursor=pointer]:
+              - /url: /news/articles/ckg92d8d40yo
+              - generic [ref=e420]:
+                - generic [ref=e423]:
+                  - img "image unavailable" [ref=e424]
+                  - img "An aqua-blue river runs through a valley surrounded by pine trees and rocky mountains" [ref=e425]
+                - generic [ref=e426]:
+                  - heading "How a TV show transformed one rugged US city into a playground for the wealthy" [level=2] [ref=e429]
+                  - paragraph [ref=e430]: Rents in Bozeman, Montana have skyrocketed as wealthy out-of-towners flock to the city to experience the American West.
+                  - generic [ref=e431]:
+                    - generic [ref=e432]: 1 day ago
+                    - generic: US & Canada
+        - generic [ref=e435]:
+          - generic [ref=e436]:
+            - separator [ref=e438]
+            - heading "Most watched" [level=2] [ref=e441]
+          - generic [ref=e442]:
+            - link "1 Moment fans in Madrid celebrate World Cup win" [ref=e445] [cursor=pointer]:
+              - /url: /news/videos/cgr701xrg14o
+              - generic [ref=e446]:
+                - generic [ref=e447]: "1"
+                - heading "Moment fans in Madrid celebrate World Cup win" [level=2] [ref=e453]
+            - link "2 Spanish and Argentinian fans react outside World Cup final" [ref=e456] [cursor=pointer]:
+              - /url: /news/videos/czxqr9rl9r0o
+              - generic [ref=e457]:
+                - generic [ref=e458]: "2"
+                - heading "Spanish and Argentinian fans react outside World Cup final" [level=2] [ref=e464]
+            - 'link "3 Watch: Torrential rain hits New York and New Jersey triggering flash floods" [ref=e467] [cursor=pointer]':
+              - /url: /news/videos/cq89veggnvqo
+              - generic [ref=e468]:
+                - generic [ref=e469]: "3"
+                - 'heading "Watch: Torrential rain hits New York and New Jersey triggering flash floods" [level=2] [ref=e475]'
+            - link "4 Giant sinkhole appears on Sunset Boulevard from burst water pipe" [ref=e478] [cursor=pointer]:
+              - /url: /news/videos/c0rd81wxgylo
+              - generic [ref=e479]:
+                - generic [ref=e480]: "4"
+                - heading "Giant sinkhole appears on Sunset Boulevard from burst water pipe" [level=2] [ref=e486]
+            - link "5 Celebrations as Gibraltar-Spain border fence removed" [ref=e489] [cursor=pointer]:
+              - /url: /news/videos/cpd3d0d6zqzo
+              - generic [ref=e490]:
+                - generic [ref=e491]: "5"
+                - heading "Celebrations as Gibraltar-Spain border fence removed" [level=2] [ref=e497]
+        - generic [ref=e499]:
+          - generic [ref=e503]:
+            - separator [ref=e505]
+            - heading "Also in news" [level=2] [ref=e508]
+          - generic [ref=e510]:
+            - generic [ref=e513]:
+              - link [ref=e517] [cursor=pointer]:
+                - /url: /news/articles/cm2gm99nrm7o
+                - generic [ref=e518]:
+                  - img "image unavailable" [ref=e519]
+                  - 'img "Guyana''s rescue boats take part in a search and rescue operation after a ferry capsized near Iron Punt. Photo: 19 July 2026" [ref=e520]'
+              - link "Ferry carrying 133 passengers and crew sinks off Guyana coast Fifteen children are among 67 people rescued, officials say, with dozens still missing. 14 hrs ago Latin America" [ref=e524] [cursor=pointer]:
+                - /url: /news/articles/cm2gm99nrm7o
+                - generic [ref=e525]:
+                  - heading "Ferry carrying 133 passengers and crew sinks off Guyana coast" [level=2] [ref=e528]
+                  - paragraph [ref=e529]: Fifteen children are among 67 people rescued, officials say, with dozens still missing.
+                  - generic [ref=e530]:
+                    - generic [ref=e531]: 14 hrs ago
+                    - generic: Latin America
+            - generic [ref=e534]:
+              - link "image unavailable A line of fire on a hillside Fire crews battle blaze on Arthur’s Seat in Edinburgh A huge plume of smoke could be seen from as far away as Fife on Sunday evening. 20 mins ago Edinburgh, Fife & East" [ref=e538] [cursor=pointer]:
+                - /url: /news/articles/cr59mqnm081o
+                - generic [ref=e539]:
+                  - generic [ref=e542]:
+                    - img "image unavailable" [ref=e543]
+                    - img "A line of fire on a hillside" [ref=e544]
+                  - generic [ref=e545]:
+                    - heading "Fire crews battle blaze on Arthur’s Seat in Edinburgh" [level=2] [ref=e548]
+                    - paragraph [ref=e549]: A huge plume of smoke could be seen from as far away as Fife on Sunday evening.
+                    - generic [ref=e550]:
+                      - generic [ref=e551]: 20 mins ago
+                      - generic: Edinburgh, Fife & East
+              - link "Neighbours actor Terence Donovan dies aged 90 His son, actor Jason Donovan, posted to social media that his father died on Saturday night peacefully in Melbourne, Australia 24 hrs ago Australia" [ref=e556] [cursor=pointer]:
+                - /url: /news/articles/crmrznw82j4o
+                - generic [ref=e558]:
+                  - heading "Neighbours actor Terence Donovan dies aged 90" [level=2] [ref=e561]
+                  - paragraph [ref=e562]: His son, actor Jason Donovan, posted to social media that his father died on Saturday night peacefully in Melbourne, Australia
+                  - generic [ref=e563]:
+                    - generic [ref=e564]: 24 hrs ago
+                    - generic: Australia
+              - link "Grandmother, 82, wins law change so she can enjoy Happy Hour at care home Anita Le Brun, the face of a campaign to allow for alcohol to be served at care homes without a licence, is celebrating its success. 19 hrs ago US & Canada" [ref=e569] [cursor=pointer]:
+                - /url: /news/articles/c70gz5y2xpxo
+                - generic [ref=e571]:
+                  - heading "Grandmother, 82, wins law change so she can enjoy Happy Hour at care home" [level=2] [ref=e574]
+                  - paragraph [ref=e575]: Anita Le Brun, the face of a campaign to allow for alcohol to be served at care homes without a licence, is celebrating its success.
+                  - generic [ref=e576]:
+                    - generic [ref=e577]: 19 hrs ago
+                    - generic: US & Canada
+            - link "image unavailable Luis Manuel Otero Alcántara speaks to journalists at Miami airport. Cuban dissident Luis Manuel Otero Alcántara goes into exile in US He was arrested in 2021 during Cuba's largest anti-government protests in decades and spent five years ⁠in prison. 1 day ago Latin America" [ref=e582] [cursor=pointer]:
+              - /url: /news/articles/cx2k77p2r1xo
+              - generic [ref=e583]:
+                - generic [ref=e586]:
+                  - img "image unavailable" [ref=e587]
+                  - img "Luis Manuel Otero Alcántara speaks to journalists at Miami airport." [ref=e588]
+                - generic [ref=e589]:
+                  - heading "Cuban dissident Luis Manuel Otero Alcántara goes into exile in US" [level=2] [ref=e592]
+                  - paragraph [ref=e593]: He was arrested in 2021 during Cuba's largest anti-government protests in decades and spent five years ⁠in prison.
+                  - generic [ref=e594]:
+                    - generic [ref=e595]: 1 day ago
+                    - generic: Latin America
+            - link "image unavailable Runners set off from the snowy starting line in full thermal gear and goggles Marathon runners compete on drifting sea ice at North Pole Organisers say 23 runners from seven countries took part in races at the Arctic's geographic North Pole. 18 hrs ago Science & Environment" [ref=e600] [cursor=pointer]:
+              - /url: /news/videos/c9q9lw5rql4o
+              - generic [ref=e601]:
+                - generic [ref=e604]:
+                  - img "image unavailable" [ref=e605]
+                  - img "Runners set off from the snowy starting line in full thermal gear and goggles" [ref=e606]
+                - generic [ref=e611]:
+                  - heading "Marathon runners compete on drifting sea ice at North Pole" [level=2] [ref=e614]
+                  - paragraph [ref=e615]: Organisers say 23 runners from seven countries took part in races at the Arctic's geographic North Pole.
+                  - generic [ref=e616]:
+                    - generic [ref=e617]: 18 hrs ago
+                    - generic: Science & Environment
+            - link "image unavailable JD Vance and his wife Usha Vance disembark from an aircraft and smile at each other JD Vance announces birth of baby boy with wife Usha The couple welcomed their fourth child, Alec Neel Vance, on Sunday morning. 9 hrs ago" [ref=e622] [cursor=pointer]:
+              - /url: /news/articles/cj63kngxpxpo
+              - generic [ref=e623]:
+                - generic [ref=e626]:
+                  - img "image unavailable" [ref=e627]
+                  - img "JD Vance and his wife Usha Vance disembark from an aircraft and smile at each other" [ref=e628]
+                - generic [ref=e629]:
+                  - heading "JD Vance announces birth of baby boy with wife Usha" [level=2] [ref=e632]
+                  - paragraph [ref=e633]: The couple welcomed their fourth child, Alec Neel Vance, on Sunday morning.
+                  - generic [ref=e634]: 9 hrs ago
+        - generic [ref=e637]:
+          - generic [ref=e638]:
+            - separator [ref=e640]
+            - heading "Most read" [level=2] [ref=e643]
+          - generic [ref=e644]:
+            - link "1 US soldier killed and one injured after Iranian attack in Iraq" [ref=e647] [cursor=pointer]:
+              - /url: /news/articles/cgk417jp83po
+              - generic [ref=e648]:
+                - generic [ref=e649]: "1"
+                - heading "US soldier killed and one injured after Iranian attack in Iraq" [level=2] [ref=e652]
+            - link "2 Grandmother, 82, wins law change so she can enjoy Happy Hour at care home" [ref=e655] [cursor=pointer]:
+              - /url: /news/articles/c70gz5y2xpxo
+              - generic [ref=e656]:
+                - generic [ref=e657]: "2"
+                - heading "Grandmother, 82, wins law change so she can enjoy Happy Hour at care home" [level=2] [ref=e660]
+            - link "3 India's cockroach protesters set to march to parliament" [ref=e663] [cursor=pointer]:
+              - /url: /news/articles/c0l58lw089no
+              - generic [ref=e664]:
+                - generic [ref=e665]: "3"
+                - heading "India's cockroach protesters set to march to parliament" [level=2] [ref=e668]
+            - link "4 Trump says US strikes hit Iran in 'honour' of American soldiers killed" [ref=e671] [cursor=pointer]:
+              - /url: /news/articles/cly52xzjd3qo
+              - generic [ref=e672]:
+                - generic [ref=e673]: "4"
+                - heading "Trump says US strikes hit Iran in 'honour' of American soldiers killed" [level=2] [ref=e676]
+            - link "5 Food delivery rider wins China's top literary prize" [ref=e679] [cursor=pointer]:
+              - /url: /news/articles/c5ydr3xd0kvo
+              - generic [ref=e680]:
+                - generic [ref=e681]: "5"
+                - heading "Food delivery rider wins China's top literary prize" [level=2] [ref=e684]
+            - 'link "6 ‘Everyone''s afraid to die’: Struggle to recruit soldiers in Ukraine turns violent" [ref=e687] [cursor=pointer]':
+              - /url: /news/articles/cr7k5ngde3vo
+              - generic [ref=e688]:
+                - generic [ref=e689]: "6"
+                - 'heading "‘Everyone''s afraid to die’: Struggle to recruit soldiers in Ukraine turns violent" [level=2] [ref=e692]'
+            - link "7 Shakira, Madonna, Justin Bieber and BTS perform at colourful World Cup half-time show" [ref=e695] [cursor=pointer]:
+              - /url: /news/articles/clyxjl0wkl7o
+              - generic [ref=e696]:
+                - generic [ref=e697]: "7"
+                - heading "Shakira, Madonna, Justin Bieber and BTS perform at colourful World Cup half-time show" [level=2] [ref=e700]
+            - link "8 Tate brothers arrested in US as further UK charges take total to 59" [ref=e703] [cursor=pointer]:
+              - /url: /news/articles/cwymly9yd33o
+              - generic [ref=e704]:
+                - generic [ref=e705]: "8"
+                - heading "Tate brothers arrested in US as further UK charges take total to 59" [level=2] [ref=e708]
+            - link "9 Fire crews battle blaze on Arthur’s Seat in Edinburgh" [ref=e711] [cursor=pointer]:
+              - /url: /news/articles/cr59mqnm081o
+              - generic [ref=e712]:
+                - generic [ref=e713]: "9"
+                - heading "Fire crews battle blaze on Arthur’s Seat in Edinburgh" [level=2] [ref=e716]
+            - link "10 The 1975's Matty Healy marries model Gabbriette Bechtel in Los Angeles" [ref=e719] [cursor=pointer]:
+              - /url: /news/articles/c5ywxp2d826o
+              - generic [ref=e720]:
+                - generic [ref=e721]: "10"
+                - heading "The 1975's Matty Healy marries model Gabbriette Bechtel in Los Angeles" [level=2] [ref=e724]
+        - generic [ref=e726]:
+          - generic [ref=e730]:
+            - separator [ref=e732]
+            - heading "Sport" [level=2] [ref=e735]
+          - generic [ref=e737]:
+            - generic [ref=e740]:
+              - link [ref=e744] [cursor=pointer]:
+                - /url: /sport/football/articles/cdew76g9d1zo
+                - generic [ref=e745]:
+                  - img "image unavailable" [ref=e746]
+                  - img "Lionel Scaloni" [ref=e747]
+              - link "Scaloni leaves news conference in tears talking about his future Argentina manager Lionel Scaloni leaves his post-match news conference after Sunday's World Cup final defeat by Spain in tears. 8 hrs ago World Cup" [ref=e751] [cursor=pointer]:
+                - /url: /sport/football/articles/cdew76g9d1zo
+                - generic [ref=e752]:
+                  - heading "Scaloni leaves news conference in tears talking about his future" [level=2] [ref=e755]
+                  - paragraph [ref=e756]: Argentina manager Lionel Scaloni leaves his post-match news conference after Sunday's World Cup final defeat by Spain in tears.
+                  - generic [ref=e757]:
+                    - generic [ref=e758]: 8 hrs ago
+                    - generic: World Cup
+            - generic [ref=e761]:
+              - link "image unavailable Ryan Fox How Fox kept cool at baked Birkdale to win The Open Ryan Fox wins the Open Championship - his first major title - with his final putt on a record-breaking weekend at Royal Birkdale. 14 hrs ago Golf" [ref=e765] [cursor=pointer]:
+                - /url: /sport/golf/articles/c89nv0v1e22o
+                - generic [ref=e766]:
+                  - generic [ref=e769]:
+                    - img "image unavailable" [ref=e770]
+                    - img "Ryan Fox" [ref=e771]
+                  - generic [ref=e772]:
+                    - heading "How Fox kept cool at baked Birkdale to win The Open" [level=2] [ref=e775]
+                    - paragraph [ref=e776]: Ryan Fox wins the Open Championship - his first major title - with his final putt on a record-breaking weekend at Royal Birkdale.
+                    - generic [ref=e777]:
+                      - generic [ref=e778]: 14 hrs ago
+                      - generic: Golf
+              - link "Evenepoel criticises 'inhuman' night doping tests as Vingegaard crashes out Remco Evenepoel criticises \"inhuman\" middle-of-the night doping tests at the Tour de France after winning stage 15, while two-time champion Jonas Vingegaard crashes out. 12 hrs ago Cycling" [ref=e783] [cursor=pointer]:
+                - /url: /sport/cycling/articles/c0jl84wp50wo
+                - generic [ref=e785]:
+                  - heading "Evenepoel criticises 'inhuman' night doping tests as Vingegaard crashes out" [level=2] [ref=e788]
+                  - paragraph [ref=e789]: Remco Evenepoel criticises "inhuman" middle-of-the night doping tests at the Tour de France after winning stage 15, while two-time champion Jonas Vingegaard crashes out.
+                  - generic [ref=e790]:
+                    - generic [ref=e791]: 12 hrs ago
+                    - generic: Cycling
+              - link "Argentina coach accuses England of lack of respect Argentina heach coach Felipe Contepomi walks out of his news conference after the 31-24 defeat by England in the Nations Championship. 22 hrs ago England" [ref=e796] [cursor=pointer]:
+                - /url: /sport/rugby-union/articles/cn4nvx0zxzqo
+                - generic [ref=e798]:
+                  - heading "Argentina coach accuses England of lack of respect" [level=2] [ref=e801]
+                  - paragraph [ref=e802]: Argentina heach coach Felipe Contepomi walks out of his news conference after the 31-24 defeat by England in the Nations Championship.
+                  - generic [ref=e803]:
+                    - generic [ref=e804]: 22 hrs ago
+                    - generic: England
+            - link "image unavailable England opener Ben Duckett raises his helmet and bat to celebrate hitting a century England seal series with record Lord's ODI total England hit the highest one-day international total at Lord's to beat India by 27 runs and seal a thrilling 2-1 series victory. 13 hrs ago Cricket" [ref=e809] [cursor=pointer]:
+              - /url: /sport/cricket/articles/cglj4n91744o
+              - generic [ref=e810]:
+                - generic [ref=e813]:
+                  - img "image unavailable" [ref=e814]
+                  - img "England opener Ben Duckett raises his helmet and bat to celebrate hitting a century" [ref=e815]
+                - generic [ref=e816]:
+                  - heading "England seal series with record Lord's ODI total" [level=2] [ref=e819]
+                  - paragraph [ref=e820]: England hit the highest one-day international total at Lord's to beat India by 27 runs and seal a thrilling 2-1 series victory.
+                  - generic [ref=e821]:
+                    - generic [ref=e822]: 13 hrs ago
+                    - generic: Cricket
+            - link "image unavailable Lionel Messi and Lamine Yamal Who made the difference for Spain? World Cup final player ratings BBC Sport journalist Neil Johnston rates the players after the World Cup final between Spain and Argentina. 9 hrs ago World Cup" [ref=e827] [cursor=pointer]:
+              - /url: /sport/football/articles/cvgjgp7656xo
+              - generic [ref=e828]:
+                - generic [ref=e831]:
+                  - img "image unavailable" [ref=e832]
+                  - img "Lionel Messi and Lamine Yamal" [ref=e833]
+                - generic [ref=e834]:
+                  - heading "Who made the difference for Spain? World Cup final player ratings" [level=2] [ref=e837]
+                  - paragraph [ref=e838]: BBC Sport journalist Neil Johnston rates the players after the World Cup final between Spain and Argentina.
+                  - generic [ref=e839]:
+                    - generic [ref=e840]: 9 hrs ago
+                    - generic: World Cup
+            - link "image unavailable A view of the rear of the Mercedes of George Russell as it spins out of the race, after colliding with Ferrari's Lewis Hamilton on the first lap of the Belgian Grand Prix Russell 'numb to disappointment' after bitter blow to title hopes George Russell crashing out at Spa and falling 50 points behind team-mate Kimi Antonelli is a bitter blow to the Briton, writes Andrew Benson. 13 hrs ago Formula 1" [ref=e845] [cursor=pointer]:
+              - /url: /sport/formula1/articles/clyvg82xlpdo
+              - generic [ref=e846]:
+                - generic [ref=e849]:
+                  - img "image unavailable" [ref=e850]
+                  - img "A view of the rear of the Mercedes of George Russell as it spins out of the race, after colliding with Ferrari's Lewis Hamilton on the first lap of the Belgian Grand Prix" [ref=e851]
+                - generic [ref=e852]:
+                  - heading "Russell 'numb to disappointment' after bitter blow to title hopes" [level=2] [ref=e855]
+                  - paragraph [ref=e856]: George Russell crashing out at Spa and falling 50 points behind team-mate Kimi Antonelli is a bitter blow to the Briton, writes Andrew Benson.
+                  - generic [ref=e857]:
+                    - generic [ref=e858]: 13 hrs ago
+                    - generic: Formula 1
+    - separator [ref=e860]
+    - contentinfo [ref=e861]:
+      - link "British Broadcasting Corporation" [ref=e864] [cursor=pointer]:
+        - /url: /
+        - img "British Broadcasting Corporation" [ref=e865]
+      - navigation "Footer navigation" [ref=e868]:
+        - list [ref=e869]:
+          - listitem [ref=e870]:
+            - link "Home" [ref=e872] [cursor=pointer]:
+              - /url: https://www.bbc.com/
+          - listitem [ref=e873]:
+            - link "News" [ref=e875] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=e876]:
+            - link "Football 2026" [ref=e878] [cursor=pointer]:
+              - /url: /sport/football/world-cup
+          - listitem [ref=e879]:
+            - link "Business" [ref=e881] [cursor=pointer]:
+              - /url: /business
+          - listitem [ref=e882]:
+            - link "Technology" [ref=e884] [cursor=pointer]:
+              - /url: /technology
+          - listitem [ref=e885]:
+            - link "Health" [ref=e887] [cursor=pointer]:
+              - /url: /health
+          - listitem [ref=e888]:
+            - link "Culture" [ref=e890] [cursor=pointer]:
+              - /url: /culture
+          - listitem [ref=e891]:
+            - link "Arts" [ref=e893] [cursor=pointer]:
+              - /url: /arts
+          - listitem [ref=e894]:
+            - link "Travel" [ref=e896] [cursor=pointer]:
+              - /url: /travel
+          - listitem [ref=e897]:
+            - link "Earth" [ref=e899] [cursor=pointer]:
+              - /url: /future-planet
+          - listitem [ref=e900]:
+            - link "Sport" [ref=e902] [cursor=pointer]:
+              - /url: /sport
+          - listitem [ref=e903]:
+            - link "Audio" [ref=e905] [cursor=pointer]:
+              - /url: /audio
+          - listitem [ref=e906]:
+            - link "Video" [ref=e908] [cursor=pointer]:
+              - /url: /video
+          - listitem [ref=e909]:
+            - link "Live" [ref=e911] [cursor=pointer]:
+              - /url: /live
+          - listitem [ref=e912]:
+            - link "Weather" [ref=e914] [cursor=pointer]:
+              - /url: https://www.bbc.com/weather
+          - listitem [ref=e915]:
+            - link "BBC Shop" [ref=e917] [cursor=pointer]:
+              - /url: https://shop.bbc.com/
+          - listitem [ref=e918]:
+            - link "BritBox" [ref=e920] [cursor=pointer]:
+              - /url: https://www.britbox.com/?utm_source=bbc.com&utm_medium=referral&utm_campaign=footer
+      - button [ref=e923] [cursor=pointer]
+      - generic [ref=e927]:
+        - generic [ref=e928]: "Follow BBC on:"
+        - generic [ref=e929]:
+          - button "Follow BBC on x" [ref=e930]
+          - button "Follow BBC on facebook" [ref=e933]
+          - button "Follow BBC on instagram" [ref=e936]
+          - button "Follow BBC on tiktok" [ref=e939]
+          - button "Follow BBC on linkedin" [ref=e942]
+          - button "Follow BBC on youtube" [ref=e945]
+      - navigation [ref=e949]:
+        - list [ref=e950]:
+          - listitem [ref=e951]:
+            - link "Terms of Use" [ref=e953] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/terms-of-use
+          - listitem [ref=e954]:
+            - link "Subscription Terms" [ref=e956] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/subscription-terms
+          - listitem [ref=e957]:
+            - link "About the BBC" [ref=e959] [cursor=pointer]:
+              - /url: https://www.bbc.co.uk/aboutthebbc
+          - listitem [ref=e960]:
+            - link "Privacy Policy" [ref=e962] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/privacy-policy
+          - listitem [ref=e963]:
+            - link "Cookies" [ref=e965] [cursor=pointer]:
+              - /url: https://www.bbc.com/usingthebbc/cookies/
+          - listitem [ref=e966]:
+            - link "Accessibility Help" [ref=e968] [cursor=pointer]:
+              - /url: https://www.bbc.co.uk/accessibility/
+          - listitem [ref=e969]:
+            - link "Contact the BBC" [ref=e971] [cursor=pointer]:
+              - /url: https://www.bbc.co.uk/contact
+          - listitem [ref=e972]:
+            - link "Advertise with us" [ref=e974] [cursor=pointer]:
+              - /url: https://advertising.bbcstudios.com/
+          - listitem [ref=e975]:
+            - link "Do not share or sell my info" [ref=e977] [cursor=pointer]:
+              - /url: https://www.bbc.com/usingthebbc/cookies/how-can-i-change-my-bbc-cookie-settings/
+          - listitem [ref=e978]:
+            - link "BBC.com Help & FAQs" [ref=e980] [cursor=pointer]:
+              - /url: https://help.bbc.com/hc/
+          - listitem [ref=e981]:
+            - link "Content Index" [ref=e983] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/content-index
+          - listitem [ref=e984]:
+            - link "Set Preferred Source" [ref=e986] [cursor=pointer]:
+              - /url: https://www.bbc.com/future/article/20260128-how-to-make-google-put-trusted-sources-up-top-when-you-search
+      - generic [ref=e987]:
+        - paragraph [ref=e988]:
+          - text: Copyright 2026 BBC. All rights reserved. The BBC is not responsible for the content of external sites.
+          - link "Read about our approach to external linking." [ref=e989] [cursor=pointer]:
+            - /url: https://www.bbc.com/editorialguidelines/guidance/links-and-feeds
+        - paragraph [ref=e990]
+  - alert [ref=e991]

@@ -1,0 +1,67 @@
+[    2175ms] [INFO] Helios: confiant disable  @ :5
+[    2175ms] [INFO] Helios: helios disable  @ :5
+[    2285ms] [ERROR] %cAY background: linear-gradient(-152deg,#6937ea,#377fea 65%);border-radius: 3px;color: white;padding: 1px 5px Missing required modules: prebidServerBidAdapter, s2sTesting @ :5
+[    2517ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rQ (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:105197)
+    at rZ (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:106565)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:200572
+    at sm (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:205739)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196989)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:191814
+    at se (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:191915)
+    at sW (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:218479)
+    at MessagePort.O (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:66637)
+[    2820ms] [WARNING] Identity value for 'email' is falsy (). This value will be removed from the request. @ :5
+[    2879ms] [WARNING] [GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.
+https://goo.gle/gpt-message#170 @ :5
+[    2880ms] [INFO] Helios: Process special slot  WX_Hidden @ :5
+[    2881ms] [INFO] Helios: Process special slot  MW_Interstitial @ :5
+[    2886ms] [WARNING] [GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171 @ :5
+[    2940ms] [ERROR] p: MISSING_MESSAGE: HealthAndActivities.healthAndActivities (en-IN)
+    at c (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8277)
+    at m (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8464)
+    at f (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8923)
+    at d (https://weather.com/_next/static/chunks/2rqgnaba-_iax.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:5:208629)
+    at oy (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:121829)
+    at i0 (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:142086)
+    at ls (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:153688)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196928)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196773
+    at sf (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196781) @ :5
+[    3200ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.weather.com/v3/alerts/headlines?format=json&language=en-IN&apiKey=71f92ea9dd2f4790b92ea9dd2f779061&geocode=28.614%2C77.209:0
+[    3555ms] [WARNING] adgb - not initialized. @ :5
+[    3585ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ :5
+[    3695ms] [ERROR] Provider's accounts list is empty. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[    4127ms] [WARNING] Placements With no Content: Below Content Thumbnails - today | Lazy Injected 1 @ :5
+[    4128ms] [WARNING] Placements With no Content: Below Content Thumbnails - today | Lazy Injected 1 @ :5
+[    7775ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ :5
+[    8238ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://match.prod.bidr.io/cookie-sync/see:0
+[    8760ms] [ERROR] Failed to load resource: the server responded with a status of 424 (Failed Dependency) @ https://t.adx.opera.com/pub/sync?pubid=pub10101531197440&gdpr=1&gdpr_consent=:0
+[   10774ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://cs.nex8.net/cs/openx:0
+[   13635ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.weather.com/v3/alerts/headlines?format=json&language=en-IN&apiKey=71f92ea9dd2f4790b92ea9dd2f779061&geocode=28.614%2C77.209:0
+[   10774ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://cs.nex8.net/cs/openx:0
+[   20506ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://dps.jp.cinarra.com/pxd?PLATFORM_ID=1&USER_ID=41332d44-8683-81f3-d048-fb8b9b04cf5b:0
+[   20549ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://match.rundsp.com/redirect?ex=openx:0
+[   28772ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.weather.com/v3/alerts/headlines?format=json&language=en-IN&apiKey=71f92ea9dd2f4790b92ea9dd2f779061&geocode=28.614%2C77.209:0
+[   46740ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[   48121ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://csync.loopme.me/?redirect=https%3A%2F%2Fid5-sync.com%2Fc%2F464%2F821%2F0%2F8.gif%3Fpuid%3D%7Bdevice_id%7D%26gdpr%3D0%26gdpr_consent%3D:0
+[   49207ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.weather.com/v3/alerts/headlines?format=json&language=en-IN&apiKey=71f92ea9dd2f4790b92ea9dd2f779061&geocode=28.614%2C77.209:0
+[   52273ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[   56718ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[   67648ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[   76752ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[   86717ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[   97057ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  107090ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  116752ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  124310ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.weather.com/v3/alerts/headlines?format=json&language=en-IN&apiKey=71f92ea9dd2f4790b92ea9dd2f779061&geocode=28.614%2C77.209:0
+[  127375ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  138401ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  146732ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  157153ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  167103ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  170256ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  176860ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  187124ms] [WARNING] The resource https://weather.com/_next/static/chunks/16yf-fk_5dxil.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0

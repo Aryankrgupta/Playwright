@@ -1,0 +1,596 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#bbc-main"
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - button "Open menu" [ref=e9] [cursor=pointer]
+        - link "British Broadcasting Corporation" [ref=e18] [cursor=pointer]:
+          - /url: /
+          - img "British Broadcasting Corporation" [ref=e19]
+        - generic [ref=e22]:
+          - link [ref=e24] [cursor=pointer]:
+            - /url: https://session.bbc.com/session?action=register&userOrigin=BBCS_BBC&ptrt=https%3A%2F%2Fwww.bbc.com%2Fnews
+            - button "Register" [ref=e25]
+          - link [ref=e28] [cursor=pointer]:
+            - /url: https://session.bbc.com/session?userOrigin=BBCS_BBC&ptrt=https%3A%2F%2Fwww.bbc.com%2Fnews
+            - button "Sign In" [ref=e29]
+    - navigation
+    - main [ref=e31]:
+      - article [ref=e32]:
+        - heading [level=1] [ref=e39]:
+          - img "News" [ref=e40]
+        - generic [ref=e44]:
+          - generic [ref=e47]:
+            - link [ref=e51] [cursor=pointer]:
+              - /url: /news/articles/c5y300l2zvno
+              - img "Andy Burnham" [ref=e53]
+            - link "Burnham says he is 'finalising' cabinet ahead of becoming UK PM on Monday The new Labour leader says his government will deliver the biggest change in British politics for 40 years. 2 hrs ago Politics" [ref=e57] [cursor=pointer]:
+              - /url: /news/articles/c5y300l2zvno
+              - generic [ref=e58]:
+                - heading "Burnham says he is 'finalising' cabinet ahead of becoming UK PM on Monday" [level=2] [ref=e61]
+                - paragraph [ref=e62]: The new Labour leader says his government will deliver the biggest change in British politics for 40 years.
+                - generic [ref=e63]:
+                  - generic [ref=e64]: 2 hrs ago
+                  - generic: Politics
+          - generic [ref=e67]:
+            - link "Andy Burnham looks to the left of frame while wearing a suit and shirt and surrounded by cameras and reporters, as he arrives at Millbank on 2 July A very quick guide to Andy Burnham He is set to replace Sir Keir Starmer as the UK's PM on Monday after winning Labour's leadership race. 4 hrs ago Politics" [ref=e71] [cursor=pointer]:
+              - /url: /news/articles/clyv9qe6wj7o
+              - generic [ref=e72]:
+                - img "Andy Burnham looks to the left of frame while wearing a suit and shirt and surrounded by cameras and reporters, as he arrives at Millbank on 2 July" [ref=e76]
+                - generic [ref=e77]:
+                  - heading "A very quick guide to Andy Burnham" [level=2] [ref=e80]
+                  - paragraph [ref=e81]: He is set to replace Sir Keir Starmer as the UK's PM on Monday after winning Labour's leadership race.
+                  - generic [ref=e82]:
+                    - generic [ref=e83]: 4 hrs ago
+                    - generic: Politics
+            - link "First atmosphere found on Earth-like planet in habitable zone of distant star Researchers have found an Earth-like, rocky planet orbiting within the habitable zone of a distant star with an atmosphere. 5 hrs ago Science & Environment" [ref=e88] [cursor=pointer]:
+              - /url: /news/articles/cy4kdd1e0ejo
+              - generic [ref=e90]:
+                - heading "First atmosphere found on Earth-like planet in habitable zone of distant star" [level=2] [ref=e93]
+                - paragraph [ref=e94]: Researchers have found an Earth-like, rocky planet orbiting within the habitable zone of a distant star with an atmosphere.
+                - generic [ref=e95]:
+                  - generic [ref=e96]: 5 hrs ago
+                  - generic: Science & Environment
+            - link "Trump alleges China meddled in 2020 election and questions voting security ahead of midterms China said Trump's claims were fabricated and US Democrats said he was paving the way to undermine November's elections. 6 hrs ago US & Canada" [ref=e101] [cursor=pointer]:
+              - /url: /news/articles/cx2k9wvv5wyo
+              - generic [ref=e103]:
+                - heading "Trump alleges China meddled in 2020 election and questions voting security ahead of midterms" [level=2] [ref=e106]
+                - paragraph [ref=e107]: China said Trump's claims were fabricated and US Democrats said he was paving the way to undermine November's elections.
+                - generic [ref=e108]:
+                  - generic [ref=e109]: 6 hrs ago
+                  - generic: US & Canada
+          - generic [ref=e112]:
+            - link "Man walks in front of fencing and US Capitol amid thick haze, wearing face mask LIVE Dangerous wildfire smoke blankets large parts of Canada and the US Thick pollution has made the air stretching from Winnipeg to the southern US unhealthy to breathe and officials are encouraging people to stay indoors." [ref=e116] [cursor=pointer]:
+              - /url: https://www.bbc.com/news/live/cd9w8xk75ndt
+              - generic [ref=e117]:
+                - img "Man walks in front of fencing and US Capitol amid thick haze, wearing face mask" [ref=e121]
+                - generic [ref=e122]:
+                  - generic [ref=e124]:
+                    - generic [ref=e125]: LIVE
+                    - heading "Dangerous wildfire smoke blankets large parts of Canada and the US" [level=2] [ref=e130]
+                  - paragraph [ref=e131]: Thick pollution has made the air stretching from Winnipeg to the southern US unhealthy to breathe and officials are encouraging people to stay indoors.
+            - link "A damaged portion of the bridge in the aftermath of the overnight strike in Bandar Khamir, Hormozgan province. The image shows a portion of the bridge collapsed with rubble surrounding it, it is positioned diagonally with a damaged car Iran accuses US of hitting civilian infrastructure The US military says its attacks were intended to \"further degrade Iranian military capabilities\". 3 hrs ago World" [ref=e136] [cursor=pointer]:
+              - /url: /news/articles/c151gdjwd10o
+              - generic [ref=e137]:
+                - img "A damaged portion of the bridge in the aftermath of the overnight strike in Bandar Khamir, Hormozgan province. The image shows a portion of the bridge collapsed with rubble surrounding it, it is positioned diagonally with a damaged car" [ref=e141]
+                - generic [ref=e142]:
+                  - heading "Iran accuses US of hitting civilian infrastructure" [level=2] [ref=e145]
+                  - paragraph [ref=e146]: The US military says its attacks were intended to "further degrade Iranian military capabilities".
+                  - generic [ref=e147]:
+                    - generic [ref=e148]: 3 hrs ago
+                    - generic: World
+            - link "Bayeux Tapestry Donning protective kit for a first glance at the Bayeux Tapestry The 70m-long 11th Century embroidery is to go on display at the British Museum, after it arrived in from France last week. 3 hrs ago Culture" [ref=e153] [cursor=pointer]:
+              - /url: /news/videos/cpq8z9p92q1o
+              - generic [ref=e154]:
+                - img "Bayeux Tapestry" [ref=e158]
+                - generic [ref=e163]:
+                  - heading "Donning protective kit for a first glance at the Bayeux Tapestry" [level=2] [ref=e166]
+                  - paragraph [ref=e167]: The 70m-long 11th Century embroidery is to go on display at the British Museum, after it arrived in from France last week.
+                  - generic [ref=e168]:
+                    - generic [ref=e169]: 3 hrs ago
+                    - generic: Culture
+            - link "Sir Garfield Sobers West Indies legend Sobers dies aged 89 Legendary former West Indies all-rounder Sir Garfield Sobers, regarded as one of the greatest cricketers of all time, dies aged 89. 2 hrs ago Cricket" [ref=e174] [cursor=pointer]:
+              - /url: /sport/cricket/articles/cq6d421ezjdo
+              - generic [ref=e175]:
+                - img "Sir Garfield Sobers" [ref=e179]
+                - generic [ref=e180]:
+                  - heading "West Indies legend Sobers dies aged 89" [level=2] [ref=e183]
+                  - paragraph [ref=e184]: Legendary former West Indies all-rounder Sir Garfield Sobers, regarded as one of the greatest cricketers of all time, dies aged 89.
+                  - generic [ref=e185]:
+                    - generic [ref=e186]: 2 hrs ago
+                    - generic: Cricket
+        - generic [ref=e190]:
+          - link [ref=e193] [cursor=pointer]:
+            - /url: /news/articles/c0m70zremezo
+            - heading "Oscar-winning actress Brenda Fricker dies at 81" [level=2] [ref=e197]
+          - link [ref=e200] [cursor=pointer]:
+            - /url: /news/articles/cwyjv3815yxo
+            - heading "Magnitude 7.3 earthquake quake strikes off Mexico coast" [level=2] [ref=e204]
+          - link [ref=e207] [cursor=pointer]:
+            - /url: /news/articles/cq56ed827peo
+            - heading "German politician faces calls to resign over surrogacy child" [level=2] [ref=e211]
+          - link [ref=e214] [cursor=pointer]:
+            - /url: /news/articles/cy07rz79zg9o
+            - heading "Japan relaxes royal succession rules - but ban on female emperors remains" [level=2] [ref=e218]
+          - link [ref=e221] [cursor=pointer]:
+            - /url: /news/videos/c36d1n6g3x9o
+            - heading "Bodycam footage shows airlift of girl stranded by Texas floods" [level=2] [ref=e228]
+        - generic [ref=e230]:
+          - generic [ref=e231]:
+            - separator [ref=e233]
+            - heading "World Cup 2026" [level=2] [ref=e236]
+          - generic [ref=e237]:
+            - link [ref=e240] [cursor=pointer]:
+              - /url: /news/articles/cgrkek8lrzvo
+              - generic [ref=e241]:
+                - img "A composite image of Sir David Beckham, a Scotland fan, and Fifa President Gianni Infantino" [ref=e245]
+                - generic [ref=e246]:
+                  - heading "The financial winners and losers from the World Cup" [level=2] [ref=e249]
+                  - paragraph [ref=e250]: Big bucks are being made from the 2026 tournament off the field, but who is raking in the most, and who is losing out?
+            - link [ref=e253] [cursor=pointer]:
+              - /url: /sport/football/articles/c5yd5kv1e5ko
+              - generic [ref=e254]:
+                - img "General view inside the stadium the Miami Stadium" [ref=e258]
+                - generic [ref=e259]:
+                  - heading "Thousands of tickets still available for England v France" [level=2] [ref=e262]
+                  - paragraph [ref=e263]: Around 7,000 tickets are still listed on Fifa's ticket sites for Saturday's World Cup bronze medal match between England and France.
+            - link [ref=e266] [cursor=pointer]:
+              - /url: /news/videos/c1w1nqwxgexo
+              - generic [ref=e267]:
+                - img "Smoke from Canadian wildfires shrouds MetLife Stadium, host of the 2026 FIFA World Cup final, as hazy orange skies reduce visibility over a busy highway in New Jersey." [ref=e271]
+                - generic [ref=e276]:
+                  - heading "Timelapse shows World Cup final stadium nearly vanish in smoky haze" [level=2] [ref=e279]
+                  - paragraph [ref=e280]: MetLife stadium in New Jersey, where the World Cup final will be held, was shrouded in haze caused by hundreds of wildfires in Canada.
+            - link [ref=e283] [cursor=pointer]:
+              - /url: /sport/football/articles/cgmk7mnnyjeo
+              - generic [ref=e284]:
+                - img "Gold ring for World Cup winners" [ref=e288]
+                - generic [ref=e289]:
+                  - heading "World Cup rings for winners as Trump attendance confirmed" [level=2] [ref=e292]
+                  - paragraph [ref=e293]: Donald Trump will present the trophy to the World Cup final winners on Sunday, and rings will be presented to the victorious side.
+        - generic [ref=e295]:
+          - generic [ref=e299]:
+            - separator [ref=e301]
+            - heading "More to explore" [level=2] [ref=e304]
+          - generic [ref=e306]:
+            - generic [ref=e309]:
+              - link [ref=e313] [cursor=pointer]:
+                - /url: /news/articles/cpv3eky4w2do
+                - generic [ref=e314]:
+                  - img "image unavailable" [ref=e315]
+                  - img "A bored young woman stares out of the window. She is sat in a library, using a laptop" [ref=e316]
+              - link "What type of procrastinator are you - and how to fix it now (not later) The nine types of stalling that researchers say can reveal something deeper about us and why it's not always bad. 7 hrs ago Health" [ref=e320] [cursor=pointer]:
+                - /url: /news/articles/cpv3eky4w2do
+                - generic [ref=e321]:
+                  - heading "What type of procrastinator are you - and how to fix it now (not later)" [level=2] [ref=e324]
+                  - paragraph [ref=e325]: The nine types of stalling that researchers say can reveal something deeper about us and why it's not always bad.
+                  - generic [ref=e326]:
+                    - generic [ref=e327]: 7 hrs ago
+                    - generic: Health
+            - generic [ref=e330]:
+              - link "image unavailable Duncan Scott mural Is Glasgow ready for the Commonwealth Games - and does the city care? Glasgow will welcome athletes against a backdrop of roadworks and refurbishments - but organisers stress the city is ready. 13 hrs ago Glasgow & West Scotland" [ref=e334] [cursor=pointer]:
+                - /url: /news/articles/cdx70xxrr1qo
+                - generic [ref=e335]:
+                  - generic [ref=e338]:
+                    - img "image unavailable" [ref=e339]
+                    - img "Duncan Scott mural" [ref=e340]
+                  - generic [ref=e341]:
+                    - heading "Is Glasgow ready for the Commonwealth Games - and does the city care?" [level=2] [ref=e344]
+                    - paragraph [ref=e345]: Glasgow will welcome athletes against a backdrop of roadworks and refurbishments - but organisers stress the city is ready.
+                    - generic [ref=e346]:
+                      - generic [ref=e347]: 13 hrs ago
+                      - generic: Glasgow & West Scotland
+              - link "What to know about the Canadian and US wildfires and their impact Wildfires in Ontario have blanketed US and Canadian cities with dangerous smoke. 1 day ago US & Canada" [ref=e352] [cursor=pointer]:
+                - /url: /news/articles/c5ywdl9ne3yo
+                - generic [ref=e354]:
+                  - heading "What to know about the Canadian and US wildfires and their impact" [level=2] [ref=e357]
+                  - paragraph [ref=e358]: Wildfires in Ontario have blanketed US and Canadian cities with dangerous smoke.
+                  - generic [ref=e359]:
+                    - generic [ref=e360]: 1 day ago
+                    - generic: US & Canada
+              - link "Why has British Steel been nationalised? The UK's only remaining plant making virgin steel has been taken into public ownership after years of uncertainty over its future. 8 hrs ago Business" [ref=e365] [cursor=pointer]:
+                - /url: /news/articles/c5y66y40kgpo
+                - generic [ref=e367]:
+                  - heading "Why has British Steel been nationalised?" [level=2] [ref=e370]
+                  - paragraph [ref=e371]: The UK's only remaining plant making virgin steel has been taken into public ownership after years of uncertainty over its future.
+                  - generic [ref=e372]:
+                    - generic [ref=e373]: 8 hrs ago
+                    - generic: Business
+            - 'link "image unavailable Fossil of a Tyrannosaurus rex''s skull and ribcage, against a pale grey sky Weekly quiz: What name did scientists give this $50m dinosaur? How much attention did you pay to what happened in the world over the past seven days? 1 day ago US & Canada" [ref=e378] [cursor=pointer]':
+              - /url: /news/articles/cqlx34vg4y5o
+              - generic [ref=e379]:
+                - generic [ref=e382]:
+                  - img "image unavailable" [ref=e383]
+                  - img "Fossil of a Tyrannosaurus rex's skull and ribcage, against a pale grey sky" [ref=e384]
+                - generic [ref=e385]:
+                  - 'heading "Weekly quiz: What name did scientists give this $50m dinosaur?" [level=2] [ref=e388]'
+                  - paragraph [ref=e389]: How much attention did you pay to what happened in the world over the past seven days?
+                  - generic [ref=e390]:
+                    - generic [ref=e391]: 1 day ago
+                    - generic: US & Canada
+            - link "image unavailable Two boats carrying lots of people float in a sea against a setting sun More than 500 Rohingya vanished at sea - what happened? Two boats carrying an estimated 530 Rohingyas have disappeared since leaving Myanmar on 29 June. 15 hrs ago Asia" [ref=e396] [cursor=pointer]:
+              - /url: /news/articles/cr59n096mrmo
+              - generic [ref=e397]:
+                - generic [ref=e400]:
+                  - img "image unavailable" [ref=e401]
+                  - img "Two boats carrying lots of people float in a sea against a setting sun" [ref=e402]
+                - generic [ref=e403]:
+                  - heading "More than 500 Rohingya vanished at sea - what happened?" [level=2] [ref=e406]
+                  - paragraph [ref=e407]: Two boats carrying an estimated 530 Rohingyas have disappeared since leaving Myanmar on 29 June.
+                  - generic [ref=e408]:
+                    - generic [ref=e409]: 15 hrs ago
+                    - generic: Asia
+            - link "image unavailable Man and woman wearing sunglasses smiling in front of a waterfall I wouldn't marry him until he paid off his debt, now I'm in charge of our money Sarah and her husband have shared one account for 25 years, but she says managing it falls to her. 19 hrs ago Business" [ref=e414] [cursor=pointer]:
+              - /url: /news/articles/c5yz4wnz6jdo
+              - generic [ref=e415]:
+                - generic [ref=e418]:
+                  - img "image unavailable" [ref=e419]
+                  - img "Man and woman wearing sunglasses smiling in front of a waterfall" [ref=e420]
+                - generic [ref=e421]:
+                  - heading "I wouldn't marry him until he paid off his debt, now I'm in charge of our money" [level=2] [ref=e424]
+                  - paragraph [ref=e425]: Sarah and her husband have shared one account for 25 years, but she says managing it falls to her.
+                  - generic [ref=e426]:
+                    - generic [ref=e427]: 19 hrs ago
+                    - generic: Business
+        - generic [ref=e430]:
+          - generic [ref=e431]:
+            - separator [ref=e433]
+            - heading "Most watched" [level=2] [ref=e436]
+          - generic [ref=e437]:
+            - link "1 Timelapse shows World Cup final stadium nearly vanish in smoky haze" [ref=e440] [cursor=pointer]:
+              - /url: /news/videos/c1w1nqwxgexo
+              - generic [ref=e441]:
+                - generic [ref=e442]: "1"
+                - heading "Timelapse shows World Cup final stadium nearly vanish in smoky haze" [level=2] [ref=e448]
+            - link "2 Donning protective kit for a first glance at the Bayeux Tapestry" [ref=e451] [cursor=pointer]:
+              - /url: /news/videos/cpq8z9p92q1o
+              - generic [ref=e452]:
+                - generic [ref=e453]: "2"
+                - heading "Donning protective kit for a first glance at the Bayeux Tapestry" [level=2] [ref=e459]
+            - link "3 How testosterone testing will work in Hegseth's military" [ref=e462] [cursor=pointer]:
+              - /url: /news/videos/cy746z15ej3o
+              - generic [ref=e463]:
+                - generic [ref=e464]: "3"
+                - heading "How testosterone testing will work in Hegseth's military" [level=2] [ref=e470]
+            - link "4 Drone images show major Cairngorms wildfire" [ref=e473] [cursor=pointer]:
+              - /url: /news/videos/c79gn1408p5o
+              - generic [ref=e474]:
+                - generic [ref=e475]: "4"
+                - heading "Drone images show major Cairngorms wildfire" [level=2] [ref=e481]
+            - link "5 Bodycam footage shows airlift of girl stranded by Texas floods" [ref=e484] [cursor=pointer]:
+              - /url: /news/videos/c36d1n6g3x9o
+              - generic [ref=e485]:
+                - generic [ref=e486]: "5"
+                - heading "Bodycam footage shows airlift of girl stranded by Texas floods" [level=2] [ref=e492]
+        - generic [ref=e494]:
+          - generic [ref=e498]:
+            - separator [ref=e500]
+            - heading "Also in news" [level=2] [ref=e503]
+          - generic [ref=e505]:
+            - generic [ref=e508]:
+              - link [ref=e512] [cursor=pointer]:
+                - /url: /news/articles/cly5wyynv9zo
+                - generic [ref=e513]:
+                  - img "image unavailable" [ref=e514]
+                  - img "US President Donald Trump speaks to supporters from The Ellipse near the White House on January 6, 2021, in Washington, DC" [ref=e515]
+              - link "Trump drops BBC's commercial arm from Panorama lawsuit, but main case remains The US president removes BBC Studios from his defamation lawsuit over a controversial documentary. 6 hrs ago Culture" [ref=e519] [cursor=pointer]:
+                - /url: /news/articles/cly5wyynv9zo
+                - generic [ref=e520]:
+                  - heading "Trump drops BBC's commercial arm from Panorama lawsuit, but main case remains" [level=2] [ref=e523]
+                  - paragraph [ref=e524]: The US president removes BBC Studios from his defamation lawsuit over a controversial documentary.
+                  - generic [ref=e525]:
+                    - generic [ref=e526]: 6 hrs ago
+                    - generic: Culture
+            - generic [ref=e529]:
+              - link "image unavailable The image shows a clinical setting with medical equipment visible in the background, including a monitor displaying vital signs. In the foreground, a healthcare professional wearing a white coat and a stethoscope is seated next to another adult man. The healthcare professional is pointing to a tablet screen that displays a simplified anatomical illustration highlighting the prostate in orange. The second individual is looking toward the tablet, seated closely and facing the healthcare professional. The environment appears clean and well-lit, with light-coloured walls and organised medical devices. Targeted prostate cancer treatment cuts risk of side effects, UK study suggests An NHS trial over 10 years followed nearly 3,500 men who received focal therapy, a less invasive treatment. 18 hrs ago Health" [ref=e533] [cursor=pointer]:
+                - /url: /news/articles/cwyq3lnndvxo
+                - generic [ref=e534]:
+                  - generic [ref=e537]:
+                    - img "image unavailable" [ref=e538]
+                    - img "The image shows a clinical setting with medical equipment visible in the background, including a monitor displaying vital signs. In the foreground, a healthcare professional wearing a white coat and a stethoscope is seated next to another adult man. The healthcare professional is pointing to a tablet screen that displays a simplified anatomical illustration highlighting the prostate in orange. The second individual is looking toward the tablet, seated closely and facing the healthcare professional. The environment appears clean and well-lit, with light-coloured walls and organised medical devices." [ref=e539]
+                  - generic [ref=e540]:
+                    - heading "Targeted prostate cancer treatment cuts risk of side effects, UK study suggests" [level=2] [ref=e543]
+                    - paragraph [ref=e544]: An NHS trial over 10 years followed nearly 3,500 men who received focal therapy, a less invasive treatment.
+                    - generic [ref=e545]:
+                      - generic [ref=e546]: 18 hrs ago
+                      - generic: Health
+              - link "New photograph marks Queen's 79th birthday Queen Camilla is marking her birthday with a renewed commitment to supporting children's literacy. 8 hrs ago UK" [ref=e551] [cursor=pointer]:
+                - /url: /news/articles/cgk47yjv4pmo
+                - generic [ref=e553]:
+                  - heading "New photograph marks Queen's 79th birthday" [level=2] [ref=e556]
+                  - paragraph [ref=e557]: Queen Camilla is marking her birthday with a renewed commitment to supporting children's literacy.
+                  - generic [ref=e558]:
+                    - generic [ref=e559]: 8 hrs ago
+                    - generic: UK
+              - link "Philippines condemns monkey video on Chinese media as racist The AI video on China Daily showed a monkey in Philippine garments singing its claims to the South China Sea. 15 hrs ago Asia" [ref=e564] [cursor=pointer]:
+                - /url: /news/articles/cj632307934o
+                - generic [ref=e566]:
+                  - heading "Philippines condemns monkey video on Chinese media as racist" [level=2] [ref=e569]
+                  - paragraph [ref=e570]: The AI video on China Daily showed a monkey in Philippine garments singing its claims to the South China Sea.
+                  - generic [ref=e571]:
+                    - generic [ref=e572]: 15 hrs ago
+                    - generic: Asia
+            - link "image unavailable Close up images of two smiling young women with hair in pony tails. Australia 'deeply frustrated' over Laos methanol poisoning charges Media reports say Laos will press charges of up to one year in jail against those allegedly responsible. 15 hrs ago World" [ref=e577] [cursor=pointer]:
+              - /url: /news/articles/cy5d4z343wlo
+              - generic [ref=e578]:
+                - generic [ref=e581]:
+                  - img "image unavailable" [ref=e582]
+                  - img "Close up images of two smiling young women with hair in pony tails." [ref=e583]
+                - generic [ref=e584]:
+                  - heading "Australia 'deeply frustrated' over Laos methanol poisoning charges" [level=2] [ref=e587]
+                  - paragraph [ref=e588]: Media reports say Laos will press charges of up to one year in jail against those allegedly responsible.
+                  - generic [ref=e589]:
+                    - generic [ref=e590]: 15 hrs ago
+                    - generic: World
+            - link "image unavailable A close of Camilla Alhassan with short natural hair Ghana TikToker jailed after sharing false news about the president Camilla Alhassan alleged without evidence the president had conducted a ritual to help win an election. 7 hrs ago Africa" [ref=e595] [cursor=pointer]:
+              - /url: /news/articles/c171g7w058zo
+              - generic [ref=e596]:
+                - generic [ref=e599]:
+                  - img "image unavailable" [ref=e600]
+                  - img "A close of Camilla Alhassan with short natural hair" [ref=e601]
+                - generic [ref=e602]:
+                  - heading "Ghana TikToker jailed after sharing false news about the president" [level=2] [ref=e605]
+                  - paragraph [ref=e606]: Camilla Alhassan alleged without evidence the president had conducted a ritual to help win an election.
+                  - generic [ref=e607]:
+                    - generic [ref=e608]: 7 hrs ago
+                    - generic: Africa
+            - link "image unavailable Michael Kratsios, director of the White House Office of Science and Technology Policy, from left, US President Donald Trump, Howard Lutnick, US commerce secretary, and Chris Wright, US energy secretary, during an executive order signing in the Oval Office of the White House in Washington, DC, US, on Monday, June 22, 2026. Trump Media to sell instant access to 'market-moving' social posts Trump Media is launching a fast, paid feed to its most influential posts for Wall Street traders. 10 hrs ago US & Canada" [ref=e613] [cursor=pointer]:
+              - /url: /news/articles/c79gw4lj89eo
+              - generic [ref=e614]:
+                - generic [ref=e617]:
+                  - img "image unavailable" [ref=e618]
+                  - img "Michael Kratsios, director of the White House Office of Science and Technology Policy, from left, US President Donald Trump, Howard Lutnick, US commerce secretary, and Chris Wright, US energy secretary, during an executive order signing in the Oval Office of the White House in Washington, DC, US, on Monday, June 22, 2026." [ref=e619]
+                - generic [ref=e620]:
+                  - heading "Trump Media to sell instant access to 'market-moving' social posts" [level=2] [ref=e623]
+                  - paragraph [ref=e624]: Trump Media is launching a fast, paid feed to its most influential posts for Wall Street traders.
+                  - generic [ref=e625]:
+                    - generic [ref=e626]: 10 hrs ago
+                    - generic: US & Canada
+        - generic [ref=e629]:
+          - generic [ref=e630]:
+            - separator [ref=e632]
+            - heading "Most read" [level=2] [ref=e635]
+          - generic [ref=e636]:
+            - link "1 Iran accuses US of hitting civilian infrastructure" [ref=e639] [cursor=pointer]:
+              - /url: /news/articles/c151gdjwd10o
+              - generic [ref=e640]:
+                - generic [ref=e641]: "1"
+                - heading "Iran accuses US of hitting civilian infrastructure" [level=2] [ref=e644]
+            - link "2 The financial winners and losers from the World Cup" [ref=e647] [cursor=pointer]:
+              - /url: /news/articles/cgrkek8lrzvo
+              - generic [ref=e648]:
+                - generic [ref=e649]: "2"
+                - heading "The financial winners and losers from the World Cup" [level=2] [ref=e652]
+            - link "3 Oscar-winning actress Brenda Fricker dies at 81" [ref=e655] [cursor=pointer]:
+              - /url: /news/articles/c0m70zremezo
+              - generic [ref=e656]:
+                - generic [ref=e657]: "3"
+                - heading "Oscar-winning actress Brenda Fricker dies at 81" [level=2] [ref=e660]
+            - link "4 A very quick guide to Andy Burnham" [ref=e663] [cursor=pointer]:
+              - /url: /news/articles/clyv9qe6wj7o
+              - generic [ref=e664]:
+                - generic [ref=e665]: "4"
+                - heading "A very quick guide to Andy Burnham" [level=2] [ref=e668]
+            - link "5 Japan relaxes royal succession rules - but ban on female emperors remains" [ref=e671] [cursor=pointer]:
+              - /url: /news/articles/cy07rz79zg9o
+              - generic [ref=e672]:
+                - generic [ref=e673]: "5"
+                - heading "Japan relaxes royal succession rules - but ban on female emperors remains" [level=2] [ref=e676]
+            - link "6 Trump alleges China meddled in 2020 election and questions voting security ahead of midterms" [ref=e679] [cursor=pointer]:
+              - /url: /news/articles/cx2k9wvv5wyo
+              - generic [ref=e680]:
+                - generic [ref=e681]: "6"
+                - heading "Trump alleges China meddled in 2020 election and questions voting security ahead of midterms" [level=2] [ref=e684]
+            - link "7 One man's hunger strike changed India's map. Can it still change politics?" [ref=e687] [cursor=pointer]:
+              - /url: /news/articles/cn4d4eq9n8do
+              - generic [ref=e688]:
+                - generic [ref=e689]: "7"
+                - heading "One man's hunger strike changed India's map. Can it still change politics?" [level=2] [ref=e692]
+            - link "8 I wouldn't marry him until he paid off his debt, now I'm in charge of our money" [ref=e695] [cursor=pointer]:
+              - /url: /news/articles/c5yz4wnz6jdo
+              - generic [ref=e696]:
+                - generic [ref=e697]: "8"
+                - heading "I wouldn't marry him until he paid off his debt, now I'm in charge of our money" [level=2] [ref=e700]
+            - link "9 Mother of Henry Nowak killer jailed for removing knife from murder scene" [ref=e703] [cursor=pointer]:
+              - /url: /news/articles/c1w1nnzgg2no
+              - generic [ref=e704]:
+                - generic [ref=e705]: "9"
+                - heading "Mother of Henry Nowak killer jailed for removing knife from murder scene" [level=2] [ref=e708]
+            - link "10 First atmosphere found on Earth-like planet in habitable zone of distant star" [ref=e711] [cursor=pointer]:
+              - /url: /news/articles/cy4kdd1e0ejo
+              - generic [ref=e712]:
+                - generic [ref=e713]: "10"
+                - heading "First atmosphere found on Earth-like planet in habitable zone of distant star" [level=2] [ref=e716]
+        - generic [ref=e718]:
+          - generic [ref=e722]:
+            - separator [ref=e724]
+            - heading "Sport" [level=2] [ref=e727]
+          - generic [ref=e729]:
+            - generic [ref=e732]:
+              - link [ref=e736] [cursor=pointer]:
+                - /url: /sport/cricket/articles/cq6d421ezjdo
+                - img "Sir Garfield Sobers" [ref=e738]
+              - link "West Indies legend Sobers dies aged 89 Legendary former West Indies all-rounder Sir Garfield Sobers, regarded as one of the greatest cricketers of all time, dies aged 89. 2 hrs ago Cricket" [ref=e742] [cursor=pointer]:
+                - /url: /sport/cricket/articles/cq6d421ezjdo
+                - generic [ref=e743]:
+                  - heading "West Indies legend Sobers dies aged 89" [level=2] [ref=e746]
+                  - paragraph [ref=e747]: Legendary former West Indies all-rounder Sir Garfield Sobers, regarded as one of the greatest cricketers of all time, dies aged 89.
+                  - generic [ref=e748]:
+                    - generic [ref=e749]: 2 hrs ago
+                    - generic: Cricket
+            - generic [ref=e752]:
+              - 'link "image unavailable Scottie Scheffler LIVE The Open round two: Scheffler and Fleetwood climbing, MacIntyre and Fitzpatrick in mix Follow live text updates, scores and BBC Radio 5 Live commentary of day two at the 154th Open at Royal Birkdale." [ref=e756] [cursor=pointer]':
+                - /url: https://www.bbc.com/sport/golf/live/cly0lkzqg20t
+                - generic [ref=e757]:
+                  - generic [ref=e760]:
+                    - img "image unavailable" [ref=e761]
+                    - img "Scottie Scheffler" [ref=e762]
+                  - generic [ref=e763]:
+                    - generic [ref=e765]:
+                      - generic [ref=e766]: LIVE
+                      - 'heading "The Open round two: Scheffler and Fleetwood climbing, MacIntyre and Fitzpatrick in mix" [level=2] [ref=e771]'
+                    - paragraph [ref=e772]: Follow live text updates, scores and BBC Radio 5 Live commentary of day two at the 154th Open at Royal Birkdale.
+              - link "Five reasons for England to be cheerful despite World Cup exit Despite the heartbreak of a World Cup semi-final loss, there are plenty of reasons to be optimistic about England's footballing future. 4 hrs ago England Men" [ref=e777] [cursor=pointer]:
+                - /url: /sport/football/articles/clyxllv7lmpo
+                - generic [ref=e779]:
+                  - heading "Five reasons for England to be cheerful despite World Cup exit" [level=2] [ref=e782]
+                  - paragraph [ref=e783]: Despite the heartbreak of a World Cup semi-final loss, there are plenty of reasons to be optimistic about England's footballing future.
+                  - generic [ref=e784]:
+                    - generic [ref=e785]: 4 hrs ago
+                    - generic: England Men
+              - link "'Chaos v calm' - Sutton's World Cup final and third-place predictions BBC Sport's football expert Chris Sutton makes his prediction for Spain against Argentina in the World Cup final, and the bronze final between France and England. 1 hr ago" [ref=e790] [cursor=pointer]:
+                - /url: /sport/football/articles/c4g3zrgxkzdo
+                - generic [ref=e792]:
+                  - heading "'Chaos v calm' - Sutton's World Cup final and third-place predictions" [level=2] [ref=e795]
+                  - paragraph [ref=e796]: BBC Sport's football expert Chris Sutton makes his prediction for Spain against Argentina in the World Cup final, and the bronze final between France and England.
+                  - generic [ref=e797]: 1 hr ago
+            - link "image unavailable Spain's Mikel Merino celebrates after scoring against Portugal in the last 16 Keep calm and carry on - Spain trust team identity to deliver World Cup Former Spain captain Cesar Azpilicueta explains why Luis de la Fuente's side have confidence in the collective as they prepare for Sunday's World Cup final against Argentina. 3 hrs ago World Cup" [ref=e802] [cursor=pointer]:
+              - /url: /sport/football/articles/czxedvre7ryo
+              - generic [ref=e803]:
+                - generic [ref=e806]:
+                  - img "image unavailable" [ref=e807]
+                  - img "Spain's Mikel Merino celebrates after scoring against Portugal in the last 16" [ref=e808]
+                - generic [ref=e809]:
+                  - heading "Keep calm and carry on - Spain trust team identity to deliver World Cup" [level=2] [ref=e812]
+                  - paragraph [ref=e813]: Former Spain captain Cesar Azpilicueta explains why Luis de la Fuente's side have confidence in the collective as they prepare for Sunday's World Cup final against Argentina.
+                  - generic [ref=e814]:
+                    - generic [ref=e815]: 3 hrs ago
+                    - generic: World Cup
+            - link "image unavailable Lucas Herbert bends over in disappointment after missing his par putt on the 18th at Royal Birkdale Two record-equalling 62s at The Open - and two different reactions Australia's Lucas Herbert and Sam Burns of the United States both shoot eight-under 62s to equal the lowest rounds in men's major history. 3 hrs ago Golf" [ref=e820] [cursor=pointer]:
+              - /url: /sport/golf/articles/ckg3n04n0v0o
+              - generic [ref=e821]:
+                - generic [ref=e824]:
+                  - img "image unavailable" [ref=e825]
+                  - img "Lucas Herbert bends over in disappointment after missing his par putt on the 18th at Royal Birkdale" [ref=e826]
+                - generic [ref=e827]:
+                  - heading "Two record-equalling 62s at The Open - and two different reactions" [level=2] [ref=e830]
+                  - paragraph [ref=e831]: Australia's Lucas Herbert and Sam Burns of the United States both shoot eight-under 62s to equal the lowest rounds in men's major history.
+                  - generic [ref=e832]:
+                    - generic [ref=e833]: 3 hrs ago
+                    - generic: Golf
+            - link "image unavailable Kimi Antonelli Antonelli tops FP2 as Gasly crashes heavily at Spa Alpine's Pierre causes a red flag with a heavy crash in Friday practice at the Belgian Grand Prix as Mercedes' Kimi Antonelli set out his stall for the weekend with fastest time. 5 hrs ago Formula 1" [ref=e838] [cursor=pointer]:
+              - /url: /sport/formula1/articles/cm2g9z3pr3yo
+              - generic [ref=e839]:
+                - generic [ref=e842]:
+                  - img "image unavailable" [ref=e843]
+                  - img "Kimi Antonelli" [ref=e844]
+                - generic [ref=e845]:
+                  - heading "Antonelli tops FP2 as Gasly crashes heavily at Spa" [level=2] [ref=e848]
+                  - paragraph [ref=e849]: Alpine's Pierre causes a red flag with a heavy crash in Friday practice at the Belgian Grand Prix as Mercedes' Kimi Antonelli set out his stall for the weekend with fastest time.
+                  - generic [ref=e850]:
+                    - generic [ref=e851]: 5 hrs ago
+                    - generic: Formula 1
+    - separator [ref=e853]
+    - contentinfo [ref=e854]:
+      - link "British Broadcasting Corporation" [ref=e857] [cursor=pointer]:
+        - /url: /
+        - img "British Broadcasting Corporation" [ref=e858]
+      - navigation "Footer navigation" [ref=e861]:
+        - list [ref=e862]:
+          - listitem [ref=e863]:
+            - link "Home" [ref=e865] [cursor=pointer]:
+              - /url: https://www.bbc.com/
+          - listitem [ref=e866]:
+            - link "News" [ref=e868] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=e869]:
+            - link "Football 2026" [ref=e871] [cursor=pointer]:
+              - /url: /sport/football/world-cup
+          - listitem [ref=e872]:
+            - link "Business" [ref=e874] [cursor=pointer]:
+              - /url: /business
+          - listitem [ref=e875]:
+            - link "Technology" [ref=e877] [cursor=pointer]:
+              - /url: /technology
+          - listitem [ref=e878]:
+            - link "Health" [ref=e880] [cursor=pointer]:
+              - /url: /health
+          - listitem [ref=e881]:
+            - link "Culture" [ref=e883] [cursor=pointer]:
+              - /url: /culture
+          - listitem [ref=e884]:
+            - link "Arts" [ref=e886] [cursor=pointer]:
+              - /url: /arts
+          - listitem [ref=e887]:
+            - link "Travel" [ref=e889] [cursor=pointer]:
+              - /url: /travel
+          - listitem [ref=e890]:
+            - link "Earth" [ref=e892] [cursor=pointer]:
+              - /url: /future-planet
+          - listitem [ref=e893]:
+            - link "Sport" [ref=e895] [cursor=pointer]:
+              - /url: /sport
+          - listitem [ref=e896]:
+            - link "Audio" [ref=e898] [cursor=pointer]:
+              - /url: /audio
+          - listitem [ref=e899]:
+            - link "Video" [ref=e901] [cursor=pointer]:
+              - /url: /video
+          - listitem [ref=e902]:
+            - link "Live" [ref=e904] [cursor=pointer]:
+              - /url: /live
+          - listitem [ref=e905]:
+            - link "Weather" [ref=e907] [cursor=pointer]:
+              - /url: https://www.bbc.com/weather
+          - listitem [ref=e908]:
+            - link "BBC Shop" [ref=e910] [cursor=pointer]:
+              - /url: https://shop.bbc.com/
+          - listitem [ref=e911]:
+            - link "BritBox" [ref=e913] [cursor=pointer]:
+              - /url: https://www.britbox.com/?utm_source=bbc.com&utm_medium=referral&utm_campaign=footer
+      - button [ref=e916] [cursor=pointer]
+      - generic [ref=e920]:
+        - generic [ref=e921]: "Follow BBC on:"
+        - generic [ref=e922]:
+          - button "Follow BBC on x" [ref=e923]
+          - button "Follow BBC on facebook" [ref=e926]
+          - button "Follow BBC on instagram" [ref=e929]
+          - button "Follow BBC on tiktok" [ref=e932]
+          - button "Follow BBC on linkedin" [ref=e935]
+          - button "Follow BBC on youtube" [ref=e938]
+      - navigation [ref=e942]:
+        - list [ref=e943]:
+          - listitem [ref=e944]:
+            - link "Terms of Use" [ref=e946] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/terms-of-use
+          - listitem [ref=e947]:
+            - link "Subscription Terms" [ref=e949] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/subscription-terms
+          - listitem [ref=e950]:
+            - link "About the BBC" [ref=e952] [cursor=pointer]:
+              - /url: https://www.bbc.co.uk/aboutthebbc
+          - listitem [ref=e953]:
+            - link "Privacy Policy" [ref=e955] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/privacy-policy
+          - listitem [ref=e956]:
+            - link "Cookies" [ref=e958] [cursor=pointer]:
+              - /url: https://www.bbc.com/usingthebbc/cookies/
+          - listitem [ref=e959]:
+            - link "Accessibility Help" [ref=e961] [cursor=pointer]:
+              - /url: https://www.bbc.co.uk/accessibility/
+          - listitem [ref=e962]:
+            - link "Contact the BBC" [ref=e964] [cursor=pointer]:
+              - /url: https://www.bbc.co.uk/contact
+          - listitem [ref=e965]:
+            - link "Advertise with us" [ref=e967] [cursor=pointer]:
+              - /url: https://advertising.bbcstudios.com/
+          - listitem [ref=e968]:
+            - link "Do not share or sell my info" [ref=e970] [cursor=pointer]:
+              - /url: https://www.bbc.com/usingthebbc/cookies/how-can-i-change-my-bbc-cookie-settings/
+          - listitem [ref=e971]:
+            - link "BBC.com Help & FAQs" [ref=e973] [cursor=pointer]:
+              - /url: https://help.bbc.com/hc/
+          - listitem [ref=e974]:
+            - link "Content Index" [ref=e976] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/content-index
+          - listitem [ref=e977]:
+            - link "Set Preferred Source" [ref=e979] [cursor=pointer]:
+              - /url: https://www.bbc.com/future/article/20260128-how-to-make-google-put-trusted-sources-up-top-when-you-search
+      - generic [ref=e980]:
+        - paragraph [ref=e981]:
+          - text: Copyright 2026 BBC. All rights reserved. The BBC is not responsible for the content of external sites.
+          - link "Read about our approach to external linking." [ref=e982] [cursor=pointer]:
+            - /url: https://www.bbc.com/editorialguidelines/guidance/links-and-feeds
+        - paragraph [ref=e983]
+  - alert [ref=e984]

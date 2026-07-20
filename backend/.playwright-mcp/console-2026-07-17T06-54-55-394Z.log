@@ -1,0 +1,2 @@
+[   10199ms] [ERROR] Failed to load resource: the server responded with a status of 520 () @ https://api.allorigins.win/raw?url=https://www.reddit.com/r/programming/top/.json?limit=1&t=day:0
+[   10875ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://api.allorigins.win/favicon.ico:0

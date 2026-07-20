@@ -1,0 +1,236 @@
+- generic [ref=f103e1]:
+  - banner [ref=f103e2]:
+    - link "Skip to main content" [ref=f103e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=f103e4]:
+      - link "Stack Overflow Home" [ref=f103e5] [cursor=pointer]:
+        - /url: https://stackoverflow.com
+      - button "Products" [ref=f103e8] [cursor=pointer]
+      - search [ref=f103e10]:
+        - combobox "Search" [ref=f103e12]
+      - navigation "Topbar" [ref=f103e13]:
+        - list [ref=f103e14]:
+          - listitem [ref=f103e15]:
+            - link "Help Center and other resources" [ref=f103e16] [cursor=pointer]:
+              - /url: /help
+          - listitem [ref=f103e19]:
+            - link "Site switcher" [ref=f103e20] [cursor=pointer]:
+              - /url: https://stackexchange.com
+          - listitem
+          - listitem
+          - listitem [ref=f103e23]:
+            - link "Log in" [ref=f103e24] [cursor=pointer]:
+              - /url: https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2fnocaptcha
+          - listitem [ref=f103e25]:
+            - link "Sign up" [ref=f103e26] [cursor=pointer]:
+              - /url: https://stackoverflow.com/users/signup?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2fnocaptcha
+  - generic [ref=f103e28]:
+    - generic [ref=f103e29]:
+      - text: The 2026 Annual Developer Survey is live—
+      - link "take the Survey today!" [ref=f103e30] [cursor=pointer]:
+        - /url: https://take.survey.stackoverflow.co/jfe/form/SV_4GHunpL3IfJ3rRc?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=dev-survey-2026&utm_content=announcement-banner
+    - link "dismiss" [ref=f103e31] [cursor=pointer]:
+      - /url: "#"
+  - generic [ref=f103e34]:
+    - navigation "Primary" [ref=f103e37]:
+      - list [ref=f103e38]:
+        - listitem [ref=f103e39]:
+          - list [ref=f103e40]:
+            - listitem [ref=f103e41]:
+              - link "Home" [ref=f103e42] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f103e47]:
+              - link "Questions" [ref=f103e48] [cursor=pointer]:
+                - /url: /questions
+            - listitem [ref=f103e53]:
+              - link "AI Assist" [ref=f103e54] [cursor=pointer]:
+                - /url: https://stackoverflow.com/ai-assist
+            - listitem [ref=f103e60]:
+              - link "Tags" [ref=f103e61] [cursor=pointer]:
+                - /url: /tags
+            - listitem [ref=f103e67]
+            - listitem [ref=f103e68]:
+              - link "Stack Overflow for Agents" [ref=f103e69] [cursor=pointer]:
+                - /url: http://agents.stackoverflow.com
+            - listitem [ref=f103e75]
+            - listitem [ref=f103e76]:
+              - link "Challenges" [ref=f103e77] [cursor=pointer]:
+                - /url: /beta/challenges
+            - listitem [ref=f103e82]:
+              - link "Chat" [expanded] [ref=f103e83] [cursor=pointer]:
+                - /url: https://chat.stackoverflow.com/?tab=explore
+            - listitem [ref=f103e92]:
+              - link "Articles" [ref=f103e93] [cursor=pointer]:
+                - /url: https://stackoverflow.blog/contributed?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=so-blog&utm_content=experiment-articles
+            - listitem [ref=f103e99]:
+              - link "Users" [ref=f103e100] [cursor=pointer]:
+                - /url: /users
+            - listitem [ref=f103e105]
+            - listitem [ref=f103e106]:
+              - link "Companies" [ref=f103e107] [cursor=pointer]:
+                - /url: https://stackoverflow.com/jobs/companies?so_medium=stackoverflow&so_source=SiteNav
+            - listitem [ref=f103e112]:
+              - button "Collectives" [ref=f103e114] [cursor=pointer]
+            - listitem [ref=f103e119]:
+              - paragraph [ref=f103e120]:
+                - text: Communities for your favorite technologies.
+                - link "Explore all Collectives" [ref=f103e121] [cursor=pointer]:
+                  - /url: /collectives-all
+        - listitem [ref=f103e122]:
+          - generic [ref=f103e123]: Stack Internal
+          - generic [ref=f103e124]:
+            - paragraph [ref=f103e139]:
+              - text: Stack Overflow for Teams is now called
+              - strong [ref=f103e140]: Stack Internal
+              - text: . Bring the best of human thought and AI automation together at your work.
+            - link "Try for free" [ref=f103e141] [cursor=pointer]:
+              - /url: https://stackoverflowteams.com/teams/create/free/?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=side-bar&utm_content=explore-teams
+            - link "Learn more" [ref=f103e142] [cursor=pointer]:
+              - /url: https://stackoverflow.co/internal/?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=side-bar&utm_content=explore-teams
+    - generic [ref=f103e145]:
+      - img "The Humans Are Dead by the Flight of the Conchords" [ref=f103e147]
+      - generic [ref=f103e148]:
+        - heading "Human verification" [level=1] [ref=f103e149]
+        - generic [ref=f103e150]:
+          - paragraph [ref=f103e151]: Are you a human being? We apologize for the confusion, but we can't quite tell if you're a person or a script. Please don't take this personally. Bots and scripts can be remarkably lifelike these days!
+          - paragraph [ref=f103e152]:
+            - text: Check the
+            - link "CAPTCHA" [ref=f103e153] [cursor=pointer]:
+              - /url: http://en.wikipedia.org/wiki/Captcha
+            - text: box, and we'll be out of your way.
+        - generic [ref=f103e154]:
+          - iframe [ref=f103e158]:
+            - generic [ref=f105e2]:
+              - generic [ref=f105e3]:
+                - checkbox "I'm not a robot" [ref=f105e7]
+                - generic [ref=f105e9]: I'm not a robot
+              - generic [ref=f105e12]: reCAPTCHA
+          - generic:
+            - generic:
+              - paragraph
+  - contentinfo [ref=f103e159]:
+    - generic [ref=f103e160]:
+      - link "Stack Overflow" [ref=f103e162] [cursor=pointer]:
+        - /url: https://stackoverflow.com
+      - navigation "Footer" [ref=f103e165]:
+        - generic [ref=f103e166]:
+          - heading [level=5] [ref=f103e167]:
+            - link "Stack Overflow" [ref=f103e168] [cursor=pointer]:
+              - /url: https://stackoverflow.com
+          - list [ref=f103e169]:
+            - listitem [ref=f103e170]:
+              - link "Questions" [ref=f103e171] [cursor=pointer]:
+                - /url: /questions
+            - listitem [ref=f103e172]:
+              - link "Help" [ref=f103e173] [cursor=pointer]:
+                - /url: /help
+            - listitem [ref=f103e174]:
+              - link "Chat" [ref=f103e175] [cursor=pointer]:
+                - /url: https://chat.stackoverflow.com/?tab=explore
+        - generic [ref=f103e176]:
+          - heading [level=5] [ref=f103e177]:
+            - link "Business" [ref=f103e178] [cursor=pointer]:
+              - /url: https://stackoverflow.co/
+          - list [ref=f103e179]:
+            - listitem [ref=f103e180]:
+              - link "Stack Internal" [ref=f103e181] [cursor=pointer]:
+                - /url: https://stackoverflow.co/internal/?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=footer&utm_content=teams
+            - listitem [ref=f103e182]:
+              - link "Stack Data Licensing" [ref=f103e183] [cursor=pointer]:
+                - /url: https://stackoverflow.co/data-licensing/?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=footer&utm_content=data-licensing
+            - listitem [ref=f103e184]:
+              - link "Stack Ads" [ref=f103e185] [cursor=pointer]:
+                - /url: https://stackoverflow.co/advertising/?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=footer&utm_content=advertising
+        - generic [ref=f103e186]:
+          - heading [level=5] [ref=f103e187]:
+            - link "Company" [ref=f103e188] [cursor=pointer]:
+              - /url: https://stackoverflow.co/
+          - list [ref=f103e189]:
+            - listitem [ref=f103e190]:
+              - link "About" [ref=f103e191] [cursor=pointer]:
+                - /url: https://stackoverflow.co/
+            - listitem [ref=f103e192]:
+              - link "Press" [ref=f103e193] [cursor=pointer]:
+                - /url: https://stackoverflow.co/company/press/
+            - listitem [ref=f103e194]:
+              - link "Work Here" [ref=f103e195] [cursor=pointer]:
+                - /url: https://stackoverflow.co/company/work-here/
+            - listitem [ref=f103e196]:
+              - link "Legal" [ref=f103e197] [cursor=pointer]:
+                - /url: https://stackoverflow.com/legal
+            - listitem [ref=f103e198]:
+              - link "Privacy Policy" [ref=f103e199] [cursor=pointer]:
+                - /url: https://stackoverflow.com/legal/privacy-policy
+            - listitem [ref=f103e200]:
+              - link "Terms of Service" [ref=f103e201] [cursor=pointer]:
+                - /url: https://stackoverflow.com/legal/terms-of-service/public
+            - listitem [ref=f103e202]:
+              - link "Contact Us" [ref=f103e203] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=f103e204]:
+              - button "Cookie Settings" [ref=f103e205] [cursor=pointer]
+            - listitem [ref=f103e206]:
+              - link "Cookie Policy" [ref=f103e207] [cursor=pointer]:
+                - /url: https://policies.stackoverflow.co/stack-overflow/cookie-policy
+        - generic [ref=f103e209]:
+          - heading [level=5] [ref=f103e210]:
+            - link "Stack Exchange Network" [ref=f103e211] [cursor=pointer]:
+              - /url: https://stackexchange.com
+          - list [ref=f103e212]:
+            - listitem [ref=f103e213]:
+              - link "Technology" [ref=f103e214] [cursor=pointer]:
+                - /url: https://stackexchange.com/sites#technology
+            - listitem [ref=f103e215]:
+              - link "Culture & recreation" [ref=f103e216] [cursor=pointer]:
+                - /url: https://stackexchange.com/sites#culturerecreation
+            - listitem [ref=f103e217]:
+              - link "Life & arts" [ref=f103e218] [cursor=pointer]:
+                - /url: https://stackexchange.com/sites#lifearts
+            - listitem [ref=f103e219]:
+              - link "Science" [ref=f103e220] [cursor=pointer]:
+                - /url: https://stackexchange.com/sites#science
+            - listitem [ref=f103e221]:
+              - link "Professional" [ref=f103e222] [cursor=pointer]:
+                - /url: https://stackexchange.com/sites#professional
+            - listitem [ref=f103e223]:
+              - link "Business" [ref=f103e224] [cursor=pointer]:
+                - /url: https://stackexchange.com/sites#business
+            - listitem [ref=f103e225]:
+              - link "API" [ref=f103e226] [cursor=pointer]:
+                - /url: https://api.stackexchange.com/
+            - listitem [ref=f103e227]:
+              - link "Data" [ref=f103e228] [cursor=pointer]:
+                - /url: https://data.stackexchange.com/
+      - generic [ref=f103e229]:
+        - list [ref=f103e230]:
+          - listitem [ref=f103e231]:
+            - link "Blog" [ref=f103e232] [cursor=pointer]:
+              - /url: https://stackoverflow.blog?blb=1
+          - listitem [ref=f103e233]:
+            - link "Facebook" [ref=f103e234] [cursor=pointer]:
+              - /url: https://www.facebook.com/officialstackoverflow/
+          - listitem [ref=f103e235]:
+            - link "Twitter" [ref=f103e236] [cursor=pointer]:
+              - /url: https://twitter.com/stackoverflow
+          - listitem [ref=f103e237]:
+            - link "LinkedIn" [ref=f103e238] [cursor=pointer]:
+              - /url: https://linkedin.com/company/stack-overflow
+          - listitem [ref=f103e239]:
+            - link "Instagram" [ref=f103e240] [cursor=pointer]:
+              - /url: https://www.instagram.com/thestackoverflow
+        - paragraph [ref=f103e241]:
+          - text: Site design / logo © 2026 Stack Exchange Inc; user contributions licensed under
+          - link "CC BY-SA" [ref=f103e242] [cursor=pointer]:
+            - /url: https://stackoverflow.com/help/licensing
+          - text: . rev 2026.7.15.44335
+  - dialog "Privacy" [ref=f103e244]:
+    - generic [ref=f103e245]:
+      - generic [ref=f103e247]:
+        - text: By continuing to use this website, you agree Stack Exchange can store cookies on your device and disclose information in accordance with our
+        - link "Cookie Policy" [ref=f103e248] [cursor=pointer]:
+          - /url: https://policies.stackoverflow.co/stack-overflow/cookie-policy/
+        - text: . By exiting this window, default cookies will be accepted. To reject cookies, select an option from below.
+      - generic [ref=f103e250]:
+        - button "Necessary cookies only" [ref=f103e252] [cursor=pointer]
+        - button "Customize settings, Opens the preference center dialog" [ref=f103e253] [cursor=pointer]: Customize settings
+      - button "Close" [ref=f103e255] [cursor=pointer]

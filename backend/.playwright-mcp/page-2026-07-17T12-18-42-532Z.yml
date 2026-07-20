@@ -1,0 +1,595 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#bbc-main"
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - button "Open menu" [ref=e8] [cursor=pointer]
+        - link "British Broadcasting Corporation" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img "British Broadcasting Corporation" [ref=e18]
+        - generic [ref=e21]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: https://session.bbc.com/session?action=register&userOrigin=BBCS_BBC&ptrt=https%3A%2F%2Fwww.bbc.com%2Fnews
+            - button "Register" [ref=e24]
+          - link [ref=e27] [cursor=pointer]:
+            - /url: https://session.bbc.com/session?userOrigin=BBCS_BBC&ptrt=https%3A%2F%2Fwww.bbc.com%2Fnews
+            - button "Sign In" [ref=e28]
+    - navigation
+    - main [ref=e30]:
+      - article [ref=e31]:
+        - heading [level=1] [ref=e36]:
+          - img "News" [ref=e37]
+        - generic [ref=e41]:
+          - generic [ref=e44]:
+            - link [ref=e48] [cursor=pointer]:
+              - /url: /news/articles/c151gdjwd10o
+              - img "A damaged portion of the bridge in the aftermath of the overnight strike in Bandar Khamir, Hormozgan province. The image shows a portion of the bridge collapsed with rubble surrounding it, it is positioned diagonally with a damaged car" [ref=e50]
+            - link "Iran accuses US of hitting civilian infrastructure The US military says its attacks were intended to \"further degrade Iranian military capabilities\". 1 hr ago World" [ref=e54] [cursor=pointer]:
+              - /url: /news/articles/c151gdjwd10o
+              - generic [ref=e55]:
+                - heading "Iran accuses US of hitting civilian infrastructure" [level=2] [ref=e58]
+                - paragraph [ref=e59]: The US military says its attacks were intended to "further degrade Iranian military capabilities".
+                - generic [ref=e60]:
+                  - generic [ref=e61]: 1 hr ago
+                  - generic: World
+          - generic [ref=e64]:
+            - link "Donald Trump speaking at a podium on 16 July Trump alleges China meddled in 2020 election and questions voting security ahead of midterms China said Trump's claims were fabricated and US Democrats said he was paving the way to undermine November's elections. 42 mins ago" [ref=e68] [cursor=pointer]:
+              - /url: /news/articles/cx2k9wvv5wyo
+              - generic [ref=e69]:
+                - img "Donald Trump speaking at a podium on 16 July" [ref=e73]
+                - generic [ref=e74]:
+                  - heading "Trump alleges China meddled in 2020 election and questions voting security ahead of midterms" [level=2] [ref=e77]
+                  - paragraph [ref=e78]: China said Trump's claims were fabricated and US Democrats said he was paving the way to undermine November's elections.
+                  - generic [ref=e79]: 42 mins ago
+            - link "LIVE Andy Burnham says 'I am ready' in first speech as Labour leader The Makerfield MP thanks Keir Starmer \"for his service\" and says he is yet to decide who will be in his cabinet when he becomes PM on Monday." [ref=e84] [cursor=pointer]:
+              - /url: https://www.bbc.com/news/live/clywy2n7g4dt
+              - generic [ref=e86]:
+                - generic [ref=e88]:
+                  - generic [ref=e89]: LIVE
+                  - heading "Andy Burnham says 'I am ready' in first speech as Labour leader" [level=2] [ref=e94]
+                - paragraph [ref=e95]: The Makerfield MP thanks Keir Starmer "for his service" and says he is yet to decide who will be in his cabinet when he becomes PM on Monday.
+            - link "A very quick guide to Andy Burnham He is set to replace Sir Keir Starmer as the UK's PM on Monday after winning Labour's leadership race. 6 hrs ago Politics" [ref=e100] [cursor=pointer]:
+              - /url: /news/articles/clyv9qe6wj7o
+              - generic [ref=e102]:
+                - heading "A very quick guide to Andy Burnham" [level=2] [ref=e105]
+                - paragraph [ref=e106]: He is set to replace Sir Keir Starmer as the UK's PM on Monday after winning Labour's leadership race.
+                - generic [ref=e107]:
+                  - generic [ref=e108]: 6 hrs ago
+                  - generic: Politics
+          - generic [ref=e111]:
+            - link "A composite image of Sir David Beckham, a Scotland fan, and Fifa President Gianni Infantino The financial winners and losers from the World Cup Big bucks are being made from the 2026 tournament off the field, but who is raking in the most, and who is losing out? 42 mins ago Business" [ref=e115] [cursor=pointer]:
+              - /url: /news/articles/cgrkek8lrzvo
+              - generic [ref=e116]:
+                - img "A composite image of Sir David Beckham, a Scotland fan, and Fifa President Gianni Infantino" [ref=e120]
+                - generic [ref=e121]:
+                  - heading "The financial winners and losers from the World Cup" [level=2] [ref=e124]
+                  - paragraph [ref=e125]: Big bucks are being made from the 2026 tournament off the field, but who is raking in the most, and who is losing out?
+                  - generic [ref=e126]:
+                    - generic [ref=e127]: 42 mins ago
+                    - generic: Business
+            - link "Japan's Princess Aiko attends the New Year's appearance by the Japanese imperial family at the Imperial Palace Japan relaxes royal succession rules - but ban on female emperors remains The law now allows the adoption of male distant relatives aged over 15 back into the imperial family. 7 hrs ago Asia" [ref=e132] [cursor=pointer]:
+              - /url: /news/articles/cy07rz79zg9o
+              - generic [ref=e133]:
+                - img "Japan's Princess Aiko attends the New Year's appearance by the Japanese imperial family at the Imperial Palace" [ref=e137]
+                - generic [ref=e138]:
+                  - heading "Japan relaxes royal succession rules - but ban on female emperors remains" [level=2] [ref=e141]
+                  - paragraph [ref=e142]: The law now allows the adoption of male distant relatives aged over 15 back into the imperial family.
+                  - generic [ref=e143]:
+                    - generic [ref=e144]: 7 hrs ago
+                    - generic: Asia
+            - link "Two boats carrying lots of people float in a sea against a setting sun More than 500 Rohingya vanished at sea - what happened? Two boats carrying an estimated 530 Rohingyas have disappeared since leaving Myanmar on 29 June. 9 hrs ago Asia" [ref=e149] [cursor=pointer]:
+              - /url: /news/articles/cr59n096mrmo
+              - generic [ref=e150]:
+                - img "Two boats carrying lots of people float in a sea against a setting sun" [ref=e154]
+                - generic [ref=e155]:
+                  - heading "More than 500 Rohingya vanished at sea - what happened?" [level=2] [ref=e158]
+                  - paragraph [ref=e159]: Two boats carrying an estimated 530 Rohingyas have disappeared since leaving Myanmar on 29 June.
+                  - generic [ref=e160]:
+                    - generic [ref=e161]: 9 hrs ago
+                    - generic: Asia
+            - 'link ": Climate activist Sonam Wangchuk continues his indefinite hunger strike during an ongoing protest at Jantar Mantar on July 13, 2026 in New Delhi, India. The demonstration, led by the Cockroach Janta Party (CJP), demands the resignation of Union Education Minister Dharmendra Pradhan over alleged irregularities in competitive examinations, as concerns grow over Wangchuk''s deteriorating health after more than two weeks of fasting. (Photo by Sanchit Khanna/Hindustan Times via Getty Images) One man''s hunger strike changed India''s map. Can it still change politics? Why hunger strikes still shape Indian politics, from Gandhi to Sonam Wangchuk. 14 hrs ago Asia" [ref=e166] [cursor=pointer]':
+              - /url: /news/articles/cn4d4eq9n8do
+              - generic [ref=e167]:
+                - 'img ": Climate activist Sonam Wangchuk continues his indefinite hunger strike during an ongoing protest at Jantar Mantar on July 13, 2026 in New Delhi, India. The demonstration, led by the Cockroach Janta Party (CJP), demands the resignation of Union Education Minister Dharmendra Pradhan over alleged irregularities in competitive examinations, as concerns grow over Wangchuk''s deteriorating health after more than two weeks of fasting. (Photo by Sanchit Khanna/Hindustan Times via Getty Images)" [ref=e171]'
+                - generic [ref=e172]:
+                  - heading "One man's hunger strike changed India's map. Can it still change politics?" [level=2] [ref=e175]
+                  - paragraph [ref=e176]: Why hunger strikes still shape Indian politics, from Gandhi to Sonam Wangchuk.
+                  - generic [ref=e177]:
+                    - generic [ref=e178]: 14 hrs ago
+                    - generic: Asia
+        - generic [ref=e182]:
+          - link [ref=e185] [cursor=pointer]:
+            - /url: /news/articles/cjd4kvxpd3do
+            - heading "China hits out at British Steel nationalisation" [level=2] [ref=e189]
+          - link [ref=e192] [cursor=pointer]:
+            - /url: /news/articles/c0m7n427xd8o
+            - heading "Canada fires prompt US air quality alerts as smoke blankets major cities" [level=2] [ref=e196]
+          - link [ref=e199] [cursor=pointer]:
+            - /url: /news/articles/cwyq3lnndvxo
+            - heading "Targeted prostate cancer treatment cuts risk of side effects, UK study suggests" [level=2] [ref=e203]
+          - link [ref=e206] [cursor=pointer]:
+            - /url: /news/articles/c79gw4lj89eo
+            - heading "Trump Media to sell instant access to 'market-moving' social posts" [level=2] [ref=e210]
+          - link [ref=e213] [cursor=pointer]:
+            - /url: /news/videos/c36d1n6g3x9o
+            - heading "Bodycam footage shows airlift of girl stranded by Texas floods" [level=2] [ref=e220]
+        - generic [ref=e222]:
+          - generic [ref=e223]:
+            - separator [ref=e225]
+            - heading "World Cup 2026" [level=2] [ref=e228]
+          - generic [ref=e229]:
+            - link [ref=e232] [cursor=pointer]:
+              - /url: /sport/football/articles/c5yd5kv1e5ko
+              - generic [ref=e233]:
+                - img "General view inside the stadium the Miami Stadium" [ref=e237]
+                - generic [ref=e238]:
+                  - heading "Thousands of tickets still available for England v France" [level=2] [ref=e241]
+                  - paragraph [ref=e242]: Around 7,000 tickets are still listed on Fifa's ticket sites for Saturday's World Cup bronze medal match between England and France.
+            - link [ref=e245] [cursor=pointer]:
+              - /url: /sport/football/articles/cgmk7mnnyjeo
+              - generic [ref=e246]:
+                - img "Gold ring for World Cup winners" [ref=e250]
+                - generic [ref=e251]:
+                  - heading "World Cup rings for winners as Trump attendance confirmed" [level=2] [ref=e254]
+                  - paragraph [ref=e255]: Donald Trump will present the trophy to the World Cup final winners on Sunday, and rings will be presented to the victorious side.
+            - link [ref=e258] [cursor=pointer]:
+              - /url: /sport/football/articles/c9w0jen8x90o
+              - generic [ref=e259]:
+                - img "Haze in Manhattan" [ref=e263]
+                - generic [ref=e264]:
+                  - heading "New York issues air quality alert days before World Cup final" [level=2] [ref=e267]
+                  - paragraph [ref=e268]: Officials in New York and New Jersey issue an air quality health alert because of wildfire smoke just days before the World Cup final.
+            - link [ref=e271] [cursor=pointer]:
+              - /url: /sport/football/articles/cvgv52dne1mo
+              - generic [ref=e272]:
+                - img "England captain Harry Kane" [ref=e276]
+                - generic [ref=e277]:
+                  - heading "England missing final piece of jigsaw - Kane" [level=2] [ref=e280]
+                  - paragraph [ref=e281]: England captain Harry Kane says the team are "missing that final piece of the jigsaw" and need to "find a way to get better" following defeat to Argentina.
+        - generic [ref=e283]:
+          - generic [ref=e287]:
+            - separator [ref=e289]
+            - heading "More to explore" [level=2] [ref=e292]
+          - generic [ref=e294]:
+            - generic [ref=e297]:
+              - link [ref=e301] [cursor=pointer]:
+                - /url: /news/articles/c86262j7j75o
+                - generic [ref=e302]:
+                  - img "image unavailable" [ref=e303]
+                  - img "Outdoor air conditioning units are pictured on a building" [ref=e304]
+              - link "As heatwaves strike, Europeans turn to Chinese air-conditioners Chinese brands are meeting surging air-conditioner demand in Europe, a region with typically low ownership rates. 14 hrs ago World" [ref=e308] [cursor=pointer]:
+                - /url: /news/articles/c86262j7j75o
+                - generic [ref=e309]:
+                  - heading "As heatwaves strike, Europeans turn to Chinese air-conditioners" [level=2] [ref=e312]
+                  - paragraph [ref=e313]: Chinese brands are meeting surging air-conditioner demand in Europe, a region with typically low ownership rates.
+                  - generic [ref=e314]:
+                    - generic [ref=e315]: 14 hrs ago
+                    - generic: World
+            - generic [ref=e318]:
+              - link "image unavailable A photo of Nahathai in front of a bouquet at her funeral He escaped the Bangkok bar inferno - but his girlfriend and three bandmates didn't Athipat Wichan tells BBC Thai he regrets bringing his girlfriend Nahathai into his indie band Thotsakan. 14 hrs ago Asia" [ref=e322] [cursor=pointer]:
+                - /url: /news/articles/c1k13zj914mo
+                - generic [ref=e323]:
+                  - generic [ref=e326]:
+                    - img "image unavailable" [ref=e327]
+                    - img "A photo of Nahathai in front of a bouquet at her funeral" [ref=e328]
+                  - generic [ref=e329]:
+                    - heading "He escaped the Bangkok bar inferno - but his girlfriend and three bandmates didn't" [level=2] [ref=e332]
+                    - paragraph [ref=e333]: Athipat Wichan tells BBC Thai he regrets bringing his girlfriend Nahathai into his indie band Thotsakan.
+                    - generic [ref=e334]:
+                      - generic [ref=e335]: 14 hrs ago
+                      - generic: Asia
+              - 'link "Weekly quiz: What name did scientists give this $50m dinosaur? How much attention did you pay to what happened in the world over the past seven days? 20 hrs ago US & Canada" [ref=e340] [cursor=pointer]':
+                - /url: /news/articles/cqlx34vg4y5o
+                - generic [ref=e342]:
+                  - 'heading "Weekly quiz: What name did scientists give this $50m dinosaur?" [level=2] [ref=e345]'
+                  - paragraph [ref=e346]: How much attention did you pay to what happened in the world over the past seven days?
+                  - generic [ref=e347]:
+                    - generic [ref=e348]: 20 hrs ago
+                    - generic: US & Canada
+              - link "Burnham's 'Manchesterism' got him to No 10 - but will it work for the UK? Economics editor Faisal Islam examines whether the north-west city can be a template for the entire country. 7 hrs ago BBC InDepth" [ref=e353] [cursor=pointer]:
+                - /url: /news/articles/clyl3z2xld8o
+                - generic [ref=e355]:
+                  - heading "Burnham's 'Manchesterism' got him to No 10 - but will it work for the UK?" [level=2] [ref=e358]
+                  - paragraph [ref=e359]: Economics editor Faisal Islam examines whether the north-west city can be a template for the entire country.
+                  - generic [ref=e360]:
+                    - generic [ref=e361]: 7 hrs ago
+                    - generic: BBC InDepth
+            - link "image unavailable Cockroach Janta Party (CJP) founder Abhijeet Dipke (R) watches as doctors check activist Sonam Wangchuk's vital signs during his hunger strike in New Delhi on July 15, 2026, demanding the resignation of India's Education Minister Dharmendra Pradhan over alleged examination irregularities. Indian activist on fast for 20 days refuses to end hunger strike Sonam Wangchuk has urged people to join the protest march to parliament on 20 July. 7 hrs ago Asia" [ref=e366] [cursor=pointer]:
+              - /url: /news/articles/c5yrpn4zgx3o
+              - generic [ref=e367]:
+                - generic [ref=e370]:
+                  - img "image unavailable" [ref=e371]
+                  - img "Cockroach Janta Party (CJP) founder Abhijeet Dipke (R) watches as doctors check activist Sonam Wangchuk's vital signs during his hunger strike in New Delhi on July 15, 2026, demanding the resignation of India's Education Minister Dharmendra Pradhan over alleged examination irregularities." [ref=e372]
+                - generic [ref=e373]:
+                  - heading "Indian activist on fast for 20 days refuses to end hunger strike" [level=2] [ref=e376]
+                  - paragraph [ref=e377]: Sonam Wangchuk has urged people to join the protest march to parliament on 20 July.
+                  - generic [ref=e378]:
+                    - generic [ref=e379]: 7 hrs ago
+                    - generic: Asia
+            - link "image unavailable Man and woman wearing sunglasses smiling in front of a waterfall I wouldn't marry him until he paid off his debt, now I'm in charge of our money Sarah and her husband have shared one account for 25 years, but she says managing it falls to her. 13 hrs ago Business" [ref=e384] [cursor=pointer]:
+              - /url: /news/articles/c5yz4wnz6jdo
+              - generic [ref=e385]:
+                - generic [ref=e388]:
+                  - img "image unavailable" [ref=e389]
+                  - img "Man and woman wearing sunglasses smiling in front of a waterfall" [ref=e390]
+                - generic [ref=e391]:
+                  - heading "I wouldn't marry him until he paid off his debt, now I'm in charge of our money" [level=2] [ref=e394]
+                  - paragraph [ref=e395]: Sarah and her husband have shared one account for 25 years, but she says managing it falls to her.
+                  - generic [ref=e396]:
+                    - generic [ref=e397]: 13 hrs ago
+                    - generic: Business
+            - link "image unavailable People walk on a crossing in a road downtown Toronto. There are buildings in the background and sky is orange from smoke. What to know about the Canadian and US wildfires and their impact Wildfires in Ontario have blanketed US and Canadian cities with dangerous smoke. 20 hrs ago US & Canada" [ref=e402] [cursor=pointer]:
+              - /url: /news/articles/c5ywdl9ne3yo
+              - generic [ref=e403]:
+                - generic [ref=e406]:
+                  - img "image unavailable" [ref=e407]
+                  - img "People walk on a crossing in a road downtown Toronto. There are buildings in the background and sky is orange from smoke." [ref=e408]
+                - generic [ref=e409]:
+                  - heading "What to know about the Canadian and US wildfires and their impact" [level=2] [ref=e412]
+                  - paragraph [ref=e413]: Wildfires in Ontario have blanketed US and Canadian cities with dangerous smoke.
+                  - generic [ref=e414]:
+                    - generic [ref=e415]: 20 hrs ago
+                    - generic: US & Canada
+        - generic [ref=e418]:
+          - generic [ref=e419]:
+            - separator [ref=e421]
+            - heading "Most watched" [level=2] [ref=e424]
+          - generic [ref=e425]:
+            - 'link "1 ‘You can taste the smoke’: New Yorkers on air quality as fires burn across Canada" [ref=e428] [cursor=pointer]':
+              - /url: /news/videos/cglj277xne5o
+              - generic [ref=e429]:
+                - generic [ref=e430]: "1"
+                - 'heading "‘You can taste the smoke’: New Yorkers on air quality as fires burn across Canada" [level=2] [ref=e436]'
+            - link "2 How testosterone testing will work in Hegseth's military" [ref=e439] [cursor=pointer]:
+              - /url: /news/videos/cy746z15ej3o
+              - generic [ref=e440]:
+                - generic [ref=e441]: "2"
+                - heading "How testosterone testing will work in Hegseth's military" [level=2] [ref=e447]
+            - link "3 Bodycam footage shows airlift of girl stranded by Texas floods" [ref=e450] [cursor=pointer]:
+              - /url: /news/videos/c36d1n6g3x9o
+              - generic [ref=e451]:
+                - generic [ref=e452]: "3"
+                - heading "Bodycam footage shows airlift of girl stranded by Texas floods" [level=2] [ref=e458]
+            - 'link "4 White House: Staffer accused of placing bets on Trump speeches put on unpaid leave" [ref=e461] [cursor=pointer]':
+              - /url: /news/videos/c5ydkx390pdo
+              - generic [ref=e462]:
+                - generic [ref=e463]: "4"
+                - 'heading "White House: Staffer accused of placing bets on Trump speeches put on unpaid leave" [level=2] [ref=e469]'
+            - 'link "5 Watch: Residents flee massive Canadian wildfire by boat" [ref=e472] [cursor=pointer]':
+              - /url: /news/videos/cvg038egjm1o
+              - generic [ref=e473]:
+                - generic [ref=e474]: "5"
+                - 'heading "Watch: Residents flee massive Canadian wildfire by boat" [level=2] [ref=e480]'
+        - generic [ref=e482]:
+          - generic [ref=e486]:
+            - separator [ref=e488]
+            - heading "Also in news" [level=2] [ref=e491]
+          - generic [ref=e493]:
+            - generic [ref=e496]:
+              - link [ref=e500] [cursor=pointer]:
+                - /url: /news/articles/cy5d4z343wlo
+                - generic [ref=e501]:
+                  - img "image unavailable" [ref=e502]
+                  - img "Close up images of two smiling young women with hair in pony tails." [ref=e503]
+              - link "Australia 'deeply frustrated' over Laos methanol poisoning charges Media reports say Laos will press charges of up to one year in jail against those allegedly responsible. 9 hrs ago World" [ref=e507] [cursor=pointer]:
+                - /url: /news/articles/cy5d4z343wlo
+                - generic [ref=e508]:
+                  - heading "Australia 'deeply frustrated' over Laos methanol poisoning charges" [level=2] [ref=e511]
+                  - paragraph [ref=e512]: Media reports say Laos will press charges of up to one year in jail against those allegedly responsible.
+                  - generic [ref=e513]:
+                    - generic [ref=e514]: 9 hrs ago
+                    - generic: World
+            - generic [ref=e517]:
+              - link "image unavailable Rohan Dennis competing at the 106th Giro d'Italia in 2023. Olympic cyclist admits to driving despite ban after crash that killed wife Rohan Dennis pleaded guilty to driving while disqualified after police pulled him over last month. 7 hrs ago Australia" [ref=e521] [cursor=pointer]:
+                - /url: /news/articles/c62q3ywep1ro
+                - generic [ref=e522]:
+                  - generic [ref=e525]:
+                    - img "image unavailable" [ref=e526]
+                    - img "Rohan Dennis competing at the 106th Giro d'Italia in 2023." [ref=e527]
+                  - generic [ref=e528]:
+                    - heading "Olympic cyclist admits to driving despite ban after crash that killed wife" [level=2] [ref=e531]
+                    - paragraph [ref=e532]: Rohan Dennis pleaded guilty to driving while disqualified after police pulled him over last month.
+                    - generic [ref=e533]:
+                      - generic [ref=e534]: 7 hrs ago
+                      - generic: Australia
+              - link "Bonnie Tyler funeral plans announced as fans invited to line the streets Bonnie Tyler's coffin will be brought to her Mumbles home, with fans invited to \"pay their respects\". 2 hrs ago Wales" [ref=e539] [cursor=pointer]:
+                - /url: /news/articles/cwyelj4zxn7o
+                - generic [ref=e541]:
+                  - heading "Bonnie Tyler funeral plans announced as fans invited to line the streets" [level=2] [ref=e544]
+                  - paragraph [ref=e545]: Bonnie Tyler's coffin will be brought to her Mumbles home, with fans invited to "pay their respects".
+                  - generic [ref=e546]:
+                    - generic [ref=e547]: 2 hrs ago
+                    - generic: Wales
+              - link "School bus crash kills at least 20 pupils in Uganda Dozens others, including school staff, were injured in the crash, suspected to have been caused by a mechanical fault. 2 hrs ago Africa" [ref=e552] [cursor=pointer]:
+                - /url: /news/articles/c151gegwqv1o
+                - generic [ref=e554]:
+                  - heading "School bus crash kills at least 20 pupils in Uganda" [level=2] [ref=e557]
+                  - paragraph [ref=e558]: Dozens others, including school staff, were injured in the crash, suspected to have been caused by a mechanical fault.
+                  - generic [ref=e559]:
+                    - generic [ref=e560]: 2 hrs ago
+                    - generic: Africa
+            - link "image unavailable A proester in Manila, wearing a hat, eyeglasses and face mask carrying a blue sign with the words China out of West Philippine Sea in bold black font Philippines condemns monkey video on Chinese media as racist The AI video on China Daily showed a monkey in Philippine garments singing its claims to the South China Sea. 10 hrs ago Asia" [ref=e565] [cursor=pointer]:
+              - /url: /news/articles/cj632307934o
+              - generic [ref=e566]:
+                - generic [ref=e569]:
+                  - img "image unavailable" [ref=e570]
+                  - img "A proester in Manila, wearing a hat, eyeglasses and face mask carrying a blue sign with the words China out of West Philippine Sea in bold black font" [ref=e571]
+                - generic [ref=e572]:
+                  - heading "Philippines condemns monkey video on Chinese media as racist" [level=2] [ref=e575]
+                  - paragraph [ref=e576]: The AI video on China Daily showed a monkey in Philippine garments singing its claims to the South China Sea.
+                  - generic [ref=e577]:
+                    - generic [ref=e578]: 10 hrs ago
+                    - generic: Asia
+            - link "image unavailable Two women in sunglasses fan themselves, with blue sky and sunshine overhead, while visiting London Zoo on 9 July. Longest dry spell in 30 years for parts of England as heatwave hits two-week mark All UK nations have experienced recent heatwave conditions but in southern England, the heatwave has now continued for 14 days 21 mins ago" [ref=e583] [cursor=pointer]:
+              - /url: https://www.bbc.com/weather/articles/ckg4gqlye02o
+              - generic [ref=e584]:
+                - generic [ref=e587]:
+                  - img "image unavailable" [ref=e588]
+                  - img "Two women in sunglasses fan themselves, with blue sky and sunshine overhead, while visiting London Zoo on 9 July." [ref=e589]
+                - generic [ref=e590]:
+                  - heading "Longest dry spell in 30 years for parts of England as heatwave hits two-week mark" [level=2] [ref=e593]
+                  - paragraph [ref=e594]: All UK nations have experienced recent heatwave conditions but in southern England, the heatwave has now continued for 14 days
+                  - generic [ref=e595]: 21 mins ago
+            - link "image unavailable A picture of Queen Camilla in a blue dress New photograph marks Queen's 79th birthday Queen Camilla is marking her birthday with a renewed commitment to supporting children's literacy. 3 hrs ago UK" [ref=e600] [cursor=pointer]:
+              - /url: /news/articles/cgk47yjv4pmo
+              - generic [ref=e601]:
+                - generic [ref=e604]:
+                  - img "image unavailable" [ref=e605]
+                  - img "A picture of Queen Camilla in a blue dress" [ref=e606]
+                - generic [ref=e607]:
+                  - heading "New photograph marks Queen's 79th birthday" [level=2] [ref=e610]
+                  - paragraph [ref=e611]: Queen Camilla is marking her birthday with a renewed commitment to supporting children's literacy.
+                  - generic [ref=e612]:
+                    - generic [ref=e613]: 3 hrs ago
+                    - generic: UK
+        - generic [ref=e616]:
+          - generic [ref=e617]:
+            - separator [ref=e619]
+            - heading "Most read" [level=2] [ref=e622]
+          - generic [ref=e623]:
+            - link "1 Iran accuses US of hitting civilian infrastructure" [ref=e626] [cursor=pointer]:
+              - /url: /news/articles/c151gdjwd10o
+              - generic [ref=e627]:
+                - generic [ref=e628]: "1"
+                - heading "Iran accuses US of hitting civilian infrastructure" [level=2] [ref=e631]
+            - link "2 The financial winners and losers from the World Cup" [ref=e634] [cursor=pointer]:
+              - /url: /news/articles/cgrkek8lrzvo
+              - generic [ref=e635]:
+                - generic [ref=e636]: "2"
+                - heading "The financial winners and losers from the World Cup" [level=2] [ref=e639]
+            - link "3 Japan relaxes royal succession rules - but ban on female emperors remains" [ref=e642] [cursor=pointer]:
+              - /url: /news/articles/cy07rz79zg9o
+              - generic [ref=e643]:
+                - generic [ref=e644]: "3"
+                - heading "Japan relaxes royal succession rules - but ban on female emperors remains" [level=2] [ref=e647]
+            - link "4 Trump alleges China meddled in 2020 election and questions voting security ahead of midterms" [ref=e650] [cursor=pointer]:
+              - /url: /news/articles/cx2k9wvv5wyo
+              - generic [ref=e651]:
+                - generic [ref=e652]: "4"
+                - heading "Trump alleges China meddled in 2020 election and questions voting security ahead of midterms" [level=2] [ref=e655]
+            - link "5 China hits out at British Steel nationalisation" [ref=e658] [cursor=pointer]:
+              - /url: /news/articles/cjd4kvxpd3do
+              - generic [ref=e659]:
+                - generic [ref=e660]: "5"
+                - heading "China hits out at British Steel nationalisation" [level=2] [ref=e663]
+            - link "6 I wouldn't marry him until he paid off his debt, now I'm in charge of our money" [ref=e666] [cursor=pointer]:
+              - /url: /news/articles/c5yz4wnz6jdo
+              - generic [ref=e667]:
+                - generic [ref=e668]: "6"
+                - heading "I wouldn't marry him until he paid off his debt, now I'm in charge of our money" [level=2] [ref=e671]
+            - link "7 More than 500 Rohingya vanished at sea - what happened?" [ref=e674] [cursor=pointer]:
+              - /url: /news/articles/cr59n096mrmo
+              - generic [ref=e675]:
+                - generic [ref=e676]: "7"
+                - heading "More than 500 Rohingya vanished at sea - what happened?" [level=2] [ref=e679]
+            - link "8 Canada fires prompt US air quality alerts as smoke blankets major cities" [ref=e682] [cursor=pointer]:
+              - /url: /news/articles/c0m7n427xd8o
+              - generic [ref=e683]:
+                - generic [ref=e684]: "8"
+                - heading "Canada fires prompt US air quality alerts as smoke blankets major cities" [level=2] [ref=e687]
+            - link "9 One man's hunger strike changed India's map. Can it still change politics?" [ref=e690] [cursor=pointer]:
+              - /url: /news/articles/cn4d4eq9n8do
+              - generic [ref=e691]:
+                - generic [ref=e692]: "9"
+                - heading "One man's hunger strike changed India's map. Can it still change politics?" [level=2] [ref=e695]
+            - link "10 A very quick guide to Andy Burnham" [ref=e698] [cursor=pointer]:
+              - /url: /news/articles/clyv9qe6wj7o
+              - generic [ref=e699]:
+                - generic [ref=e700]: "10"
+                - heading "A very quick guide to Andy Burnham" [level=2] [ref=e703]
+        - generic [ref=e705]:
+          - generic [ref=e709]:
+            - separator [ref=e711]
+            - heading "Sport" [level=2] [ref=e714]
+          - generic [ref=e716]:
+            - generic [ref=e719]:
+              - link [ref=e723] [cursor=pointer]:
+                - /url: /sport/football/articles/c8xnl908y28o
+                - generic [ref=e724]:
+                  - img "image unavailable" [ref=e725]
+                  - img "England manager Thomas Tuchel" [ref=e726]
+              - link "Tuchel did not deliver, but his time with England is not up - Shearer Former England captain Alan Shearer says Three Lions boss Thomas Tuchel will not be fazed by criticism he has faced over the World Cup semi-final defeat. 1 hr ago England Men" [ref=e730] [cursor=pointer]:
+                - /url: /sport/football/articles/c8xnl908y28o
+                - generic [ref=e731]:
+                  - heading "Tuchel did not deliver, but his time with England is not up - Shearer" [level=2] [ref=e734]
+                  - paragraph [ref=e735]: Former England captain Alan Shearer says Three Lions boss Thomas Tuchel will not be fazed by criticism he has faced over the World Cup semi-final defeat.
+                  - generic [ref=e736]:
+                    - generic [ref=e737]: 1 hr ago
+                    - generic: England Men
+            - generic [ref=e740]:
+              - 'link "image unavailable Lucas Herbert LIVE The Open round two: Herbert seeks tournament record, Morikawa in pursuit Follow live text updates, scores and BBC Radio 5 Live commentary of day two at the 154th Open." [ref=e744] [cursor=pointer]':
+                - /url: https://www.bbc.com/sport/golf/live/cly0lkzqg20t
+                - generic [ref=e745]:
+                  - generic [ref=e748]:
+                    - img "image unavailable" [ref=e749]
+                    - img "Lucas Herbert" [ref=e750]
+                  - generic [ref=e751]:
+                    - generic [ref=e753]:
+                      - generic [ref=e754]: LIVE
+                      - 'heading "The Open round two: Herbert seeks tournament record, Morikawa in pursuit" [level=2] [ref=e759]'
+                    - paragraph [ref=e760]: Follow live text updates, scores and BBC Radio 5 Live commentary of day two at the 154th Open.
+              - link "World Cup rings for winners as Trump attendance confirmed Donald Trump will present the trophy to the World Cup final winners on Sunday, and rings will be presented to the victorious side. 4 hrs ago World Cup" [ref=e765] [cursor=pointer]:
+                - /url: /sport/football/articles/cgmk7mnnyjeo
+                - generic [ref=e767]:
+                  - heading "World Cup rings for winners as Trump attendance confirmed" [level=2] [ref=e770]
+                  - paragraph [ref=e771]: Donald Trump will present the trophy to the World Cup final winners on Sunday, and rings will be presented to the victorious side.
+                  - generic [ref=e772]:
+                    - generic [ref=e773]: 4 hrs ago
+                    - generic: World Cup
+              - link "West Ham captain Bowen to stay at club West Ham United captain Jarrod Bowen will stay at the club for the forthcoming season in the Championship. 1 hr ago West Ham" [ref=e778] [cursor=pointer]:
+                - /url: /sport/football/articles/cz64ww3j2yxo
+                - generic [ref=e780]:
+                  - heading "West Ham captain Bowen to stay at club" [level=2] [ref=e783]
+                  - paragraph [ref=e784]: West Ham United captain Jarrod Bowen will stay at the club for the forthcoming season in the Championship.
+                  - generic [ref=e785]:
+                    - generic [ref=e786]: 1 hr ago
+                    - generic: West Ham
+            - 'link "image unavailable Max Verstappen LIVE Belgian Grand Prix: Verstappen quickest so far in first practice at Spa Follow live text updates and listen to Sports Extra 2 commentary of first practice at the Belgian Grand Prix." [ref=e791] [cursor=pointer]':
+              - /url: https://www.bbc.com/sport/formula1/live/cj409qd058pt
+              - generic [ref=e792]:
+                - generic [ref=e795]:
+                  - img "image unavailable" [ref=e796]
+                  - img "Max Verstappen" [ref=e797]
+                - generic [ref=e798]:
+                  - generic [ref=e800]:
+                    - generic [ref=e801]: LIVE
+                    - 'heading "Belgian Grand Prix: Verstappen quickest so far in first practice at Spa" [level=2] [ref=e806]'
+                  - paragraph [ref=e807]: Follow live text updates and listen to Sports Extra 2 commentary of first practice at the Belgian Grand Prix.
+            - link "image unavailable General view inside the stadium the Miami Stadium Thousands of tickets still available for England v France Around 7,000 tickets are still listed on Fifa's ticket sites for Saturday's World Cup bronze medal match between England and France. 3 hrs ago England Men" [ref=e812] [cursor=pointer]:
+              - /url: /sport/football/articles/c5yd5kv1e5ko
+              - generic [ref=e813]:
+                - generic [ref=e816]:
+                  - img "image unavailable" [ref=e817]
+                  - img "General view inside the stadium the Miami Stadium" [ref=e818]
+                - generic [ref=e819]:
+                  - heading "Thousands of tickets still available for England v France" [level=2] [ref=e822]
+                  - paragraph [ref=e823]: Around 7,000 tickets are still listed on Fifa's ticket sites for Saturday's World Cup bronze medal match between England and France.
+                  - generic [ref=e824]:
+                    - generic [ref=e825]: 3 hrs ago
+                    - generic: England Men
+            - link "image unavailable Pele, Bobby Moore, Lionel Messi Pele at the Azteca? England in '66? Ranking the best World Cup finals Pele and Brazil at the Azteca in 1970? Lionel Messi's first World Cup? England winning it on home soil in 1966? BBC Sport attempts to rank the best finals. 24 mins ago England Men" [ref=e830] [cursor=pointer]:
+              - /url: /sport/football/articles/cgjx946py51o
+              - generic [ref=e831]:
+                - generic [ref=e834]:
+                  - img "image unavailable" [ref=e835]
+                  - img "Pele, Bobby Moore, Lionel Messi" [ref=e836]
+                - generic [ref=e837]:
+                  - heading "Pele at the Azteca? England in '66? Ranking the best World Cup finals" [level=2] [ref=e840]
+                  - paragraph [ref=e841]: Pele and Brazil at the Azteca in 1970? Lionel Messi's first World Cup? England winning it on home soil in 1966? BBC Sport attempts to rank the best finals.
+                  - generic [ref=e842]:
+                    - generic [ref=e843]: 24 mins ago
+                    - generic: England Men
+    - separator [ref=e845]
+    - contentinfo [ref=e846]:
+      - link "British Broadcasting Corporation" [ref=e849] [cursor=pointer]:
+        - /url: /
+        - img "British Broadcasting Corporation" [ref=e850]
+      - navigation "Footer navigation" [ref=e853]:
+        - list [ref=e854]:
+          - listitem [ref=e855]:
+            - link "Home" [ref=e857] [cursor=pointer]:
+              - /url: https://www.bbc.com/
+          - listitem [ref=e858]:
+            - link "News" [ref=e860] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=e861]:
+            - link "Football 2026" [ref=e863] [cursor=pointer]:
+              - /url: /sport/football/world-cup
+          - listitem [ref=e864]:
+            - link "Business" [ref=e866] [cursor=pointer]:
+              - /url: /business
+          - listitem [ref=e867]:
+            - link "Technology" [ref=e869] [cursor=pointer]:
+              - /url: /technology
+          - listitem [ref=e870]:
+            - link "Health" [ref=e872] [cursor=pointer]:
+              - /url: /health
+          - listitem [ref=e873]:
+            - link "Culture" [ref=e875] [cursor=pointer]:
+              - /url: /culture
+          - listitem [ref=e876]:
+            - link "Arts" [ref=e878] [cursor=pointer]:
+              - /url: /arts
+          - listitem [ref=e879]:
+            - link "Travel" [ref=e881] [cursor=pointer]:
+              - /url: /travel
+          - listitem [ref=e882]:
+            - link "Earth" [ref=e884] [cursor=pointer]:
+              - /url: /future-planet
+          - listitem [ref=e885]:
+            - link "Sport" [ref=e887] [cursor=pointer]:
+              - /url: /sport
+          - listitem [ref=e888]:
+            - link "Audio" [ref=e890] [cursor=pointer]:
+              - /url: /audio
+          - listitem [ref=e891]:
+            - link "Video" [ref=e893] [cursor=pointer]:
+              - /url: /video
+          - listitem [ref=e894]:
+            - link "Live" [ref=e896] [cursor=pointer]:
+              - /url: /live
+          - listitem [ref=e897]:
+            - link "Weather" [ref=e899] [cursor=pointer]:
+              - /url: https://www.bbc.com/weather
+          - listitem [ref=e900]:
+            - link "BBC Shop" [ref=e902] [cursor=pointer]:
+              - /url: https://shop.bbc.com/
+          - listitem [ref=e903]:
+            - link "BritBox" [ref=e905] [cursor=pointer]:
+              - /url: https://www.britbox.com/?utm_source=bbc.com&utm_medium=referral&utm_campaign=footer
+      - button [ref=e908] [cursor=pointer]
+      - generic [ref=e912]:
+        - generic [ref=e913]: "Follow BBC on:"
+        - generic [ref=e914]:
+          - button "Follow BBC on x" [ref=e915]
+          - button "Follow BBC on facebook" [ref=e918]
+          - button "Follow BBC on instagram" [ref=e921]
+          - button "Follow BBC on tiktok" [ref=e924]
+          - button "Follow BBC on linkedin" [ref=e927]
+          - button "Follow BBC on youtube" [ref=e930]
+      - navigation [ref=e934]:
+        - list [ref=e935]:
+          - listitem [ref=e936]:
+            - link "Terms of Use" [ref=e938] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/terms-of-use
+          - listitem [ref=e939]:
+            - link "Subscription Terms" [ref=e941] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/subscription-terms
+          - listitem [ref=e942]:
+            - link "About the BBC" [ref=e944] [cursor=pointer]:
+              - /url: https://www.bbc.co.uk/aboutthebbc
+          - listitem [ref=e945]:
+            - link "Privacy Policy" [ref=e947] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/privacy-policy
+          - listitem [ref=e948]:
+            - link "Cookies" [ref=e950] [cursor=pointer]:
+              - /url: https://www.bbc.com/usingthebbc/cookies/
+          - listitem [ref=e951]:
+            - link "Accessibility Help" [ref=e953] [cursor=pointer]:
+              - /url: https://www.bbc.co.uk/accessibility/
+          - listitem [ref=e954]:
+            - link "Contact the BBC" [ref=e956] [cursor=pointer]:
+              - /url: https://www.bbc.co.uk/contact
+          - listitem [ref=e957]:
+            - link "Advertise with us" [ref=e959] [cursor=pointer]:
+              - /url: https://advertising.bbcstudios.com/
+          - listitem [ref=e960]:
+            - link "Do not share or sell my info" [ref=e962] [cursor=pointer]:
+              - /url: https://www.bbc.com/usingthebbc/cookies/how-can-i-change-my-bbc-cookie-settings/
+          - listitem [ref=e963]:
+            - link "BBC.com Help & FAQs" [ref=e965] [cursor=pointer]:
+              - /url: https://help.bbc.com/hc/
+          - listitem [ref=e966]:
+            - link "Content Index" [ref=e968] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/content-index
+          - listitem [ref=e969]:
+            - link "Set Preferred Source" [ref=e971] [cursor=pointer]:
+              - /url: https://www.bbc.com/future/article/20260128-how-to-make-google-put-trusted-sources-up-top-when-you-search
+      - generic [ref=e972]:
+        - paragraph [ref=e973]:
+          - text: Copyright 2026 BBC. All rights reserved. The BBC is not responsible for the content of external sites.
+          - link "Read about our approach to external linking." [ref=e974] [cursor=pointer]:
+            - /url: https://www.bbc.com/editorialguidelines/guidance/links-and-feeds
+        - paragraph [ref=e975]
+  - alert [ref=e976]

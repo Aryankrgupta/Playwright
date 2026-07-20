@@ -1,0 +1,1847 @@
+- generic [active] [ref=f6e1]:
+  - generic [ref=f6e2]:
+    - navigation [ref=f6e3]:
+      - generic "Open navigation drawer" [ref=f6e5] [cursor=pointer]
+      - link "Home" [ref=f6e8] [cursor=pointer]:
+        - /url: /?ref_=chttp_nv_home
+      - search [ref=f6e18]:
+        - generic "All" [ref=f6e22] [cursor=pointer]
+        - generic [ref=f6e26]:
+          - combobox [ref=f6e27]:
+            - textbox "Search IMDb" [ref=f6e28]
+            - listbox
+          - status [ref=f6e29]: 8 suggestions available
+        - button "Submit search" [ref=f6e30] [cursor=pointer]
+      - generic [ref=f6e34]:
+        - link "Sign in" [ref=f6e35] [cursor=pointer]:
+          - /url: /registration/signin/?u=%2Fchart%2Ftop%2F&ref_=chttp_nv_generic_lgin
+        - generic [ref=f6e40]:
+          - generic [ref=f6e41]:
+            - link "Sign in" [ref=f6e43] [cursor=pointer]:
+              - /url: /registration/signin/?u=%2Fchart%2Ftop%2F&ref_=chttp_nv_signup_cm_btn
+            - button "Close" [ref=f6e45] [cursor=pointer]
+          - generic [ref=f6e48]:
+            - text: New customer?
+            - link "Create account" [ref=f6e49] [cursor=pointer]:
+              - /url: /registration/signin/?u=%2Fchart%2Ftop%2F&ref_=chttp_nv_generic_lgin
+      - link "Use app" [ref=f6e50] [cursor=pointer]:
+        - /url: https://slyb.app.link/vtz1COZnXAb?$canonical_url=https://www.imdb.com/
+      - status
+    - status
+    - main [ref=f6e52]:
+      - iframe [ref=f6e53]:
+        
+      - generic [ref=f6e61]:
+        - generic [ref=f6e63]:
+          - generic [ref=f6e64]:
+            - generic [ref=f6e65]: IMDb Charts
+            - generic [ref=f6e66]:
+              - generic [ref=f6e67]: Share
+              - button "Share on social media" [ref=f6e68] [cursor=pointer]
+          - generic [ref=f6e71]:
+            - heading "IMDb Top 250 movies" [level=1] [ref=f6e73]
+            - generic [ref=f6e74]: As rated by regular IMDb voters.
+        - generic [ref=f6e75]:
+          - generic [ref=f6e76]:
+            - generic [ref=f6e78]:
+              - progressbar "0 OF 250 WATCHED" [ref=f6e79]
+              - generic [ref=f6e81]:
+                - generic [ref=f6e82]: 0 OF 250 WATCHED
+                - generic [ref=f6e83]: 0%
+            - generic [ref=f6e84]:
+              - generic [ref=f6e85]: 250 Titles
+              - generic [ref=f6e87]:
+                - button "Detailed view" [ref=f6e88] [cursor=pointer]
+                - button "Grid view" [ref=f6e90] [cursor=pointer]
+                - 'button "Selected: Compact view" [ref=f6e92] [cursor=pointer]'
+            - button "Open filter prompt" [ref=f6e98] [cursor=pointer]
+            - generic [ref=f6e101]:
+              - generic [ref=f6e104] [cursor=pointer]:
+                - generic [ref=f6e105]: Ranking
+                - combobox "Sort by" [ref=f6e108]:
+                  - option "Ranking" [selected]
+                  - option "IMDb rating"
+                  - option "Release date"
+                  - option "Number of ratings"
+                  - option "Alphabetical"
+                  - option "Popularity"
+                  - option "Runtime"
+              - button "Ascending sort order" [ref=f6e109] [cursor=pointer]
+            - generic [ref=f6e116]:
+              - group [ref=f6e118]:
+                - img "Tim Robbins in The Shawshank Redemption (1994)" [ref=f6e120]
+                - button "Add to Watchlist" [ref=f6e121] [cursor=pointer]
+                - link "View title page for The Shawshank Redemption" [ref=f6e126] [cursor=pointer]:
+                  - /url: /title/tt0111161/?ref_=chttp_i_1
+              - generic [ref=f6e128]:
+                - text: "#1"
+                - link [ref=f6e131] [cursor=pointer]:
+                  - /url: /title/tt0111161/?ref_=chttp_t_1
+                  - heading "The Shawshank Redemption" [level=4] [ref=f6e132]
+                - generic [ref=f6e133]: 1994 2h 22m R
+                - generic [ref=f6e134]:
+                  - generic [ref=f6e135]:
+                    - 'generic "IMDb rating: 9.3" [ref=f6e136]':
+                      - generic [ref=f6e138]: "9.3"
+                      - generic [ref=f6e139]: (3.2M)
+                    - button "Rate The Shawshank Redemption" [ref=f6e140] [cursor=pointer]:
+                      - generic [ref=f6e141]: Rate
+                  - button "Mark The Shawshank Redemption as watched" [ref=f6e144] [cursor=pointer]:
+                    - generic [ref=f6e147]: Mark as watched
+              - button "See more information about The Shawshank Redemption" [ref=f6e149] [cursor=pointer]
+            - generic [ref=f6e155]:
+              - group [ref=f6e157]:
+                - img "Marlon Brando in The Godfather (1972)" [ref=f6e159]
+                - button "Add to Watchlist" [ref=f6e160] [cursor=pointer]
+                - link "View title page for The Godfather" [ref=f6e165] [cursor=pointer]:
+                  - /url: /title/tt0068646/?ref_=chttp_i_2
+              - generic [ref=f6e167]:
+                - text: "#2"
+                - link [ref=f6e170] [cursor=pointer]:
+                  - /url: /title/tt0068646/?ref_=chttp_t_2
+                  - heading "The Godfather" [level=4] [ref=f6e171]
+                - generic [ref=f6e172]: 1972 2h 55m R
+                - generic [ref=f6e173]:
+                  - generic [ref=f6e174]:
+                    - 'generic "IMDb rating: 9.2" [ref=f6e175]':
+                      - generic [ref=f6e177]: "9.2"
+                      - generic [ref=f6e178]: (2.2M)
+                    - button "Rate The Godfather" [ref=f6e179] [cursor=pointer]:
+                      - generic [ref=f6e180]: Rate
+                  - button "Mark The Godfather as watched" [ref=f6e183] [cursor=pointer]:
+                    - generic [ref=f6e186]: Mark as watched
+              - button "See more information about The Godfather" [ref=f6e188] [cursor=pointer]
+            - generic [ref=f6e194]:
+              - group [ref=f6e196]:
+                - img "Christian Bale in The Dark Knight (2008)" [ref=f6e198]
+                - button "Add to Watchlist" [ref=f6e199] [cursor=pointer]
+                - link "View title page for The Dark Knight" [ref=f6e204] [cursor=pointer]:
+                  - /url: /title/tt0468569/?ref_=chttp_i_3
+              - generic [ref=f6e206]:
+                - text: "#3"
+                - link [ref=f6e209] [cursor=pointer]:
+                  - /url: /title/tt0468569/?ref_=chttp_t_3
+                  - heading "The Dark Knight" [level=4] [ref=f6e210]
+                - generic [ref=f6e211]: 2008 2h 32m PG-13
+                - generic [ref=f6e212]:
+                  - generic [ref=f6e213]:
+                    - 'generic "IMDb rating: 9.1" [ref=f6e214]':
+                      - generic [ref=f6e216]: "9.1"
+                      - generic [ref=f6e217]: (3.2M)
+                    - button "Rate The Dark Knight" [ref=f6e218] [cursor=pointer]:
+                      - generic [ref=f6e219]: Rate
+                  - button "Mark The Dark Knight as watched" [ref=f6e222] [cursor=pointer]:
+                    - generic [ref=f6e225]: Mark as watched
+              - button "See more information about The Dark Knight" [ref=f6e227] [cursor=pointer]
+            - generic [ref=f6e233]:
+              - group [ref=f6e235]:
+                - img "Al Pacino in The Godfather Part II (1974)" [ref=f6e237]
+                - button "Add to Watchlist" [ref=f6e238] [cursor=pointer]
+                - link "View title page for The Godfather Part II" [ref=f6e243] [cursor=pointer]:
+                  - /url: /title/tt0071562/?ref_=chttp_i_4
+              - generic [ref=f6e245]:
+                - text: "#4"
+                - link [ref=f6e248] [cursor=pointer]:
+                  - /url: /title/tt0071562/?ref_=chttp_t_4
+                  - heading "The Godfather Part II" [level=4] [ref=f6e249]
+                - generic [ref=f6e250]: 1974 3h 22m R
+                - generic [ref=f6e251]:
+                  - generic [ref=f6e252]:
+                    - 'generic "IMDb rating: 9.0" [ref=f6e253]':
+                      - generic [ref=f6e255]: "9.0"
+                      - generic [ref=f6e256]: (1.5M)
+                    - button "Rate The Godfather Part II" [ref=f6e257] [cursor=pointer]:
+                      - generic [ref=f6e258]: Rate
+                  - button "Mark The Godfather Part II as watched" [ref=f6e261] [cursor=pointer]:
+                    - generic [ref=f6e264]: Mark as watched
+              - button "See more information about The Godfather Part II" [ref=f6e266] [cursor=pointer]
+            - generic [ref=f6e272]:
+              - group [ref=f6e274]:
+                - img "Henry Fonda, Martin Balsam, Jack Klugman, Lee J. Cobb, Ed Begley, Edward Binns, John Fiedler, E.G. Marshall, Joseph Sweeney, George Voskovec, Jack Warden, and Robert Webber in 12 Angry Men (1957)" [ref=f6e276]
+                - button "Add to Watchlist" [ref=f6e277] [cursor=pointer]
+                - link "View title page for 12 Angry Men" [ref=f6e282] [cursor=pointer]:
+                  - /url: /title/tt0050083/?ref_=chttp_i_5
+              - generic [ref=f6e284]:
+                - text: "#5"
+                - link [ref=f6e287] [cursor=pointer]:
+                  - /url: /title/tt0050083/?ref_=chttp_t_5
+                  - heading "12 Angry Men" [level=4] [ref=f6e288]
+                - generic [ref=f6e289]: 1957 1h 36m Approved
+                - generic [ref=f6e290]:
+                  - generic [ref=f6e291]:
+                    - 'generic "IMDb rating: 9.0" [ref=f6e292]':
+                      - generic [ref=f6e294]: "9.0"
+                      - generic [ref=f6e295]: (992K)
+                    - button "Rate 12 Angry Men" [ref=f6e296] [cursor=pointer]:
+                      - generic [ref=f6e297]: Rate
+                  - button "Mark 12 Angry Men as watched" [ref=f6e300] [cursor=pointer]:
+                    - generic [ref=f6e303]: Mark as watched
+              - button "See more information about 12 Angry Men" [ref=f6e305] [cursor=pointer]
+            - generic [ref=f6e311]:
+              - group [ref=f6e313]:
+                - 'img "Liv Tyler, Sean Astin, Elijah Wood, Viggo Mortensen, Ian McKellen, and Andy Serkis in The Lord of the Rings: The Return of the King (2003)" [ref=f6e315]'
+                - button "Add to Watchlist" [ref=f6e316] [cursor=pointer]
+                - 'link "View title page for The Lord of the Rings: The Return of the King" [ref=f6e321] [cursor=pointer]':
+                  - /url: /title/tt0167260/?ref_=chttp_i_6
+              - generic [ref=f6e323]:
+                - text: "#6"
+                - link [ref=f6e326] [cursor=pointer]:
+                  - /url: /title/tt0167260/?ref_=chttp_t_6
+                  - 'heading "The Lord of the Rings: The Return of the King" [level=4] [ref=f6e327]'
+                - generic [ref=f6e328]: 2003 3h 21m PG-13
+                - generic [ref=f6e329]:
+                  - generic [ref=f6e330]:
+                    - 'generic "IMDb rating: 9.0" [ref=f6e331]':
+                      - generic [ref=f6e333]: "9.0"
+                      - generic [ref=f6e334]: (2.2M)
+                    - 'button "Rate The Lord of the Rings: The Return of the King" [ref=f6e335] [cursor=pointer]':
+                      - generic [ref=f6e336]: Rate
+                  - 'button "Mark The Lord of the Rings: The Return of the King as watched" [ref=f6e339] [cursor=pointer]':
+                    - generic [ref=f6e342]: Mark as watched
+              - 'button "See more information about The Lord of the Rings: The Return of the King" [ref=f6e344] [cursor=pointer]'
+            - generic [ref=f6e350]:
+              - group [ref=f6e352]:
+                - img "Schindler's List (1993)" [ref=f6e354]
+                - button "Add to Watchlist" [ref=f6e355] [cursor=pointer]
+                - link "View title page for Schindler's List" [ref=f6e360] [cursor=pointer]:
+                  - /url: /title/tt0108052/?ref_=chttp_i_7
+              - generic [ref=f6e362]:
+                - text: "#7"
+                - link [ref=f6e365] [cursor=pointer]:
+                  - /url: /title/tt0108052/?ref_=chttp_t_7
+                  - heading "Schindler's List" [level=4] [ref=f6e366]
+                - generic [ref=f6e367]: 1993 3h 15m R
+                - generic [ref=f6e368]:
+                  - generic [ref=f6e369]:
+                    - 'generic "IMDb rating: 9.0" [ref=f6e370]':
+                      - generic [ref=f6e372]: "9.0"
+                      - generic [ref=f6e373]: (1.6M)
+                    - button "Rate Schindler's List" [ref=f6e374] [cursor=pointer]:
+                      - generic [ref=f6e375]: Rate
+                  - button "Mark Schindler's List as watched" [ref=f6e378] [cursor=pointer]:
+                    - generic [ref=f6e381]: Mark as watched
+              - button "See more information about Schindler's List" [ref=f6e383] [cursor=pointer]
+            - generic [ref=f6e389]:
+              - group [ref=f6e391]:
+                - 'img "Liv Tyler, Sean Astin, Sean Bean, Elijah Wood, Cate Blanchett, Viggo Mortensen, Ian McKellen, Orlando Bloom, Billy Boyd, Dominic Monaghan, and John Rhys-Davies in The Lord of the Rings: The Fellowship of the Ring (2001)" [ref=f6e393]'
+                - button "Add to Watchlist" [ref=f6e394] [cursor=pointer]
+                - 'link "View title page for The Lord of the Rings: The Fellowship of the Ring" [ref=f6e399] [cursor=pointer]':
+                  - /url: /title/tt0120737/?ref_=chttp_i_8
+              - generic [ref=f6e401]:
+                - text: "#8"
+                - link [ref=f6e404] [cursor=pointer]:
+                  - /url: /title/tt0120737/?ref_=chttp_t_8
+                  - 'heading "The Lord of the Rings: The Fellowship of the Ring" [level=4] [ref=f6e405]'
+                - generic [ref=f6e406]: 2001 2h 58m PG-13
+                - generic [ref=f6e407]:
+                  - generic [ref=f6e408]:
+                    - 'generic "IMDb rating: 8.9" [ref=f6e409]':
+                      - generic [ref=f6e411]: "8.9"
+                      - generic [ref=f6e412]: (2.2M)
+                    - 'button "Rate The Lord of the Rings: The Fellowship of the Ring" [ref=f6e413] [cursor=pointer]':
+                      - generic [ref=f6e414]: Rate
+                  - 'button "Mark The Lord of the Rings: The Fellowship of the Ring as watched" [ref=f6e417] [cursor=pointer]':
+                    - generic [ref=f6e420]: Mark as watched
+              - 'button "See more information about The Lord of the Rings: The Fellowship of the Ring" [ref=f6e422] [cursor=pointer]'
+            - generic [ref=f6e428]:
+              - group [ref=f6e430]:
+                - img "Uma Thurman in Pulp Fiction (1994)" [ref=f6e432]
+                - button "Add to Watchlist" [ref=f6e433] [cursor=pointer]
+                - link "View title page for Pulp Fiction" [ref=f6e438] [cursor=pointer]:
+                  - /url: /title/tt0110912/?ref_=chttp_i_9
+              - generic [ref=f6e440]:
+                - text: "#9"
+                - link [ref=f6e443] [cursor=pointer]:
+                  - /url: /title/tt0110912/?ref_=chttp_t_9
+                  - heading "Pulp Fiction" [level=4] [ref=f6e444]
+                - generic [ref=f6e445]: 1994 2h 34m R
+                - generic [ref=f6e446]:
+                  - generic [ref=f6e447]:
+                    - 'generic "IMDb rating: 8.8" [ref=f6e448]':
+                      - generic [ref=f6e450]: "8.8"
+                      - generic [ref=f6e451]: (2.4M)
+                    - button "Rate Pulp Fiction" [ref=f6e452] [cursor=pointer]:
+                      - generic [ref=f6e453]: Rate
+                  - button "Mark Pulp Fiction as watched" [ref=f6e456] [cursor=pointer]:
+                    - generic [ref=f6e459]: Mark as watched
+              - button "See more information about Pulp Fiction" [ref=f6e461] [cursor=pointer]
+            - generic [ref=f6e467]:
+              - group [ref=f6e469]:
+                - img "The Good, the Bad and the Ugly (1966)" [ref=f6e471]
+                - button "Add to Watchlist" [ref=f6e472] [cursor=pointer]
+                - link "View title page for The Good, the Bad and the Ugly" [ref=f6e477] [cursor=pointer]:
+                  - /url: /title/tt0060196/?ref_=chttp_i_10
+              - generic [ref=f6e479]:
+                - text: "#10"
+                - link [ref=f6e482] [cursor=pointer]:
+                  - /url: /title/tt0060196/?ref_=chttp_t_10
+                  - heading "The Good, the Bad and the Ugly" [level=4] [ref=f6e483]
+                - generic [ref=f6e484]: 1966 2h 58m R
+                - generic [ref=f6e485]:
+                  - generic [ref=f6e486]:
+                    - 'generic "IMDb rating: 8.8" [ref=f6e487]':
+                      - generic [ref=f6e489]: "8.8"
+                      - generic [ref=f6e490]: (894K)
+                    - button "Rate The Good, the Bad and the Ugly" [ref=f6e491] [cursor=pointer]:
+                      - generic [ref=f6e492]: Rate
+                  - button "Mark The Good, the Bad and the Ugly as watched" [ref=f6e495] [cursor=pointer]:
+                    - generic [ref=f6e498]: Mark as watched
+              - button "See more information about The Good, the Bad and the Ugly" [ref=f6e500] [cursor=pointer]
+            - generic [ref=f6e506]:
+              - group [ref=f6e508]:
+                - 'img "Liv Tyler, Sean Astin, Christopher Lee, Elijah Wood, Viggo Mortensen, Miranda Otto, Ian McKellen, Orlando Bloom, John Rhys-Davies, and Andy Serkis in The Lord of the Rings: The Two Towers (2002)" [ref=f6e510]'
+                - button "Add to Watchlist" [ref=f6e511] [cursor=pointer]
+                - 'link "View title page for The Lord of the Rings: The Two Towers" [ref=f6e516] [cursor=pointer]':
+                  - /url: /title/tt0167261/?ref_=chttp_i_11
+              - generic [ref=f6e518]:
+                - text: "#11"
+                - link [ref=f6e521] [cursor=pointer]:
+                  - /url: /title/tt0167261/?ref_=chttp_t_11
+                  - 'heading "The Lord of the Rings: The Two Towers" [level=4] [ref=f6e522]'
+                - generic [ref=f6e523]: 2002 2h 59m PG-13
+                - generic [ref=f6e524]:
+                  - generic [ref=f6e525]:
+                    - 'generic "IMDb rating: 8.8" [ref=f6e526]':
+                      - generic [ref=f6e528]: "8.8"
+                      - generic [ref=f6e529]: (2M)
+                    - 'button "Rate The Lord of the Rings: The Two Towers" [ref=f6e530] [cursor=pointer]':
+                      - generic [ref=f6e531]: Rate
+                  - 'button "Mark The Lord of the Rings: The Two Towers as watched" [ref=f6e534] [cursor=pointer]':
+                    - generic [ref=f6e537]: Mark as watched
+              - 'button "See more information about The Lord of the Rings: The Two Towers" [ref=f6e539] [cursor=pointer]'
+            - generic [ref=f6e545]:
+              - group [ref=f6e547]:
+                - img "Tom Hanks in Forrest Gump (1994)" [ref=f6e549]
+                - button "Add to Watchlist" [ref=f6e550] [cursor=pointer]
+                - link "View title page for Forrest Gump" [ref=f6e555] [cursor=pointer]:
+                  - /url: /title/tt0109830/?ref_=chttp_i_12
+              - generic [ref=f6e557]:
+                - text: "#12"
+                - link [ref=f6e560] [cursor=pointer]:
+                  - /url: /title/tt0109830/?ref_=chttp_t_12
+                  - heading "Forrest Gump" [level=4] [ref=f6e561]
+                - generic [ref=f6e562]: 1994 2h 22m PG-13
+                - generic [ref=f6e563]:
+                  - generic [ref=f6e564]:
+                    - 'generic "IMDb rating: 8.8" [ref=f6e565]':
+                      - generic [ref=f6e567]: "8.8"
+                      - generic [ref=f6e568]: (2.5M)
+                    - button "Rate Forrest Gump" [ref=f6e569] [cursor=pointer]:
+                      - generic [ref=f6e570]: Rate
+                  - button "Mark Forrest Gump as watched" [ref=f6e573] [cursor=pointer]:
+                    - generic [ref=f6e576]: Mark as watched
+              - button "See more information about Forrest Gump" [ref=f6e578] [cursor=pointer]
+            - generic [ref=f6e584]:
+              - group [ref=f6e586]:
+                - img "Brad Pitt and Edward Norton in Fight Club (1999)" [ref=f6e588]
+                - button "Add to Watchlist" [ref=f6e589] [cursor=pointer]
+                - link "View title page for Fight Club" [ref=f6e594] [cursor=pointer]:
+                  - /url: /title/tt0137523/?ref_=chttp_i_13
+              - generic [ref=f6e596]:
+                - text: "#13"
+                - link [ref=f6e599] [cursor=pointer]:
+                  - /url: /title/tt0137523/?ref_=chttp_t_13
+                  - heading "Fight Club" [level=4] [ref=f6e600]
+                - generic [ref=f6e601]: 1999 2h 19m R
+                - generic [ref=f6e602]:
+                  - generic [ref=f6e603]:
+                    - 'generic "IMDb rating: 8.8" [ref=f6e604]':
+                      - generic [ref=f6e606]: "8.8"
+                      - generic [ref=f6e607]: (2.6M)
+                    - button "Rate Fight Club" [ref=f6e608] [cursor=pointer]:
+                      - generic [ref=f6e609]: Rate
+                  - button "Mark Fight Club as watched" [ref=f6e612] [cursor=pointer]:
+                    - generic [ref=f6e615]: Mark as watched
+              - button "See more information about Fight Club" [ref=f6e617] [cursor=pointer]
+            - generic [ref=f6e623]:
+              - group [ref=f6e625]:
+                - generic [ref=f6e626]:
+                  - img "Leonardo DiCaprio, Joseph Gordon-Levitt, Tom Hardy, Elliot Page, Ken Watanabe, and Dileep Rao in Inception (2010)"
+                - button "Add to Watchlist" [ref=f6e627] [cursor=pointer]
+                - link "View title page for Inception" [ref=f6e632] [cursor=pointer]:
+                  - /url: /title/tt1375666/?ref_=chttp_i_14
+              - generic [ref=f6e634]:
+                - text: "#14"
+                - link [ref=f6e637] [cursor=pointer]:
+                  - /url: /title/tt1375666/?ref_=chttp_t_14
+                  - heading "Inception" [level=4] [ref=f6e638]
+                - generic [ref=f6e639]: 2010 2h 28m PG-13
+                - generic [ref=f6e640]:
+                  - generic [ref=f6e641]:
+                    - 'generic "IMDb rating: 8.8" [ref=f6e642]':
+                      - generic [ref=f6e644]: "8.8"
+                      - generic [ref=f6e645]: (2.8M)
+                    - button "Rate Inception" [ref=f6e646] [cursor=pointer]:
+                      - generic [ref=f6e647]: Rate
+                  - button "Mark Inception as watched" [ref=f6e650] [cursor=pointer]:
+                    - generic [ref=f6e653]: Mark as watched
+              - button "See more information about Inception" [ref=f6e655] [cursor=pointer]
+            - generic [ref=f6e661]:
+              - group [ref=f6e663]:
+                - generic [ref=f6e664]:
+                  - 'img "Harrison Ford, Anthony Daniels, Carrie Fisher, Mark Hamill, James Earl Jones, David Prowse, Kenny Baker, and Peter Mayhew in Star Wars: Episode V - The Empire Strikes Back (1980)"'
+                - button "Add to Watchlist" [ref=f6e665] [cursor=pointer]
+                - 'link "View title page for Star Wars: Episode V - The Empire Strikes Back" [ref=f6e670] [cursor=pointer]':
+                  - /url: /title/tt0080684/?ref_=chttp_i_15
+              - generic [ref=f6e672]:
+                - text: "#15"
+                - link [ref=f6e675] [cursor=pointer]:
+                  - /url: /title/tt0080684/?ref_=chttp_t_15
+                  - 'heading "Star Wars: Episode V - The Empire Strikes Back" [level=4] [ref=f6e676]'
+                - generic [ref=f6e677]: 1980 2h 4m PG
+                - generic [ref=f6e678]:
+                  - generic [ref=f6e679]:
+                    - 'generic "IMDb rating: 8.7" [ref=f6e680]':
+                      - generic [ref=f6e682]: "8.7"
+                      - generic [ref=f6e683]: (1.5M)
+                    - 'button "Rate Star Wars: Episode V - The Empire Strikes Back" [ref=f6e684] [cursor=pointer]':
+                      - generic [ref=f6e685]: Rate
+                  - 'button "Mark Star Wars: Episode V - The Empire Strikes Back as watched" [ref=f6e688] [cursor=pointer]':
+                    - generic [ref=f6e691]: Mark as watched
+              - 'button "See more information about Star Wars: Episode V - The Empire Strikes Back" [ref=f6e693] [cursor=pointer]'
+            - generic [ref=f6e699]:
+              - group [ref=f6e701]:
+                - generic [ref=f6e702]:
+                  - img "Keanu Reeves, Laurence Fishburne, Joe Pantoliano, and Carrie-Anne Moss in The Matrix (1999)"
+                - button "Add to Watchlist" [ref=f6e703] [cursor=pointer]
+                - link "View title page for The Matrix" [ref=f6e708] [cursor=pointer]:
+                  - /url: /title/tt0133093/?ref_=chttp_i_16
+              - generic [ref=f6e710]:
+                - text: "#16"
+                - link [ref=f6e713] [cursor=pointer]:
+                  - /url: /title/tt0133093/?ref_=chttp_t_16
+                  - heading "The Matrix" [level=4] [ref=f6e714]
+                - generic [ref=f6e715]: 1999 2h 16m R
+                - generic [ref=f6e716]:
+                  - generic [ref=f6e717]:
+                    - 'generic "IMDb rating: 8.7" [ref=f6e718]':
+                      - generic [ref=f6e720]: "8.7"
+                      - generic [ref=f6e721]: (2.3M)
+                    - button "Rate The Matrix" [ref=f6e722] [cursor=pointer]:
+                      - generic [ref=f6e723]: Rate
+                  - button "Mark The Matrix as watched" [ref=f6e726] [cursor=pointer]:
+                    - generic [ref=f6e729]: Mark as watched
+              - button "See more information about The Matrix" [ref=f6e731] [cursor=pointer]
+            - generic [ref=f6e737]:
+              - group [ref=f6e739]:
+                - generic [ref=f6e740]:
+                  - img "Matthew McConaughey in Interstellar (2014)"
+                - button "Add to Watchlist" [ref=f6e741] [cursor=pointer]
+                - link "View title page for Interstellar" [ref=f6e746] [cursor=pointer]:
+                  - /url: /title/tt0816692/?ref_=chttp_i_17
+              - generic [ref=f6e748]:
+                - text: "#17"
+                - link [ref=f6e751] [cursor=pointer]:
+                  - /url: /title/tt0816692/?ref_=chttp_t_17
+                  - heading "Interstellar" [level=4] [ref=f6e752]
+                - generic [ref=f6e753]: 2014 2h 49m PG-13
+                - generic [ref=f6e754]:
+                  - generic [ref=f6e755]:
+                    - 'generic "IMDb rating: 8.7" [ref=f6e756]':
+                      - generic [ref=f6e758]: "8.7"
+                      - generic [ref=f6e759]: (2.6M)
+                    - button "Rate Interstellar" [ref=f6e760] [cursor=pointer]:
+                      - generic [ref=f6e761]: Rate
+                  - button "Mark Interstellar as watched" [ref=f6e764] [cursor=pointer]:
+                    - generic [ref=f6e767]: Mark as watched
+              - button "See more information about Interstellar" [ref=f6e769] [cursor=pointer]
+            - generic [ref=f6e775]:
+              - group [ref=f6e777]:
+                - generic [ref=f6e778]:
+                  - img "Robert De Niro, Ray Liotta, and Joe Pesci in GoodFellas (1990)"
+                - button "Add to Watchlist" [ref=f6e779] [cursor=pointer]
+                - link "View title page for GoodFellas" [ref=f6e784] [cursor=pointer]:
+                  - /url: /title/tt0099685/?ref_=chttp_i_18
+              - generic [ref=f6e786]:
+                - text: "#18"
+                - link [ref=f6e789] [cursor=pointer]:
+                  - /url: /title/tt0099685/?ref_=chttp_t_18
+                  - heading "GoodFellas" [level=4] [ref=f6e790]
+                - generic [ref=f6e791]: 1990 2h 25m R
+                - generic [ref=f6e792]:
+                  - generic [ref=f6e793]:
+                    - 'generic "IMDb rating: 8.7" [ref=f6e794]':
+                      - generic [ref=f6e796]: "8.7"
+                      - generic [ref=f6e797]: (1.4M)
+                    - button "Rate GoodFellas" [ref=f6e798] [cursor=pointer]:
+                      - generic [ref=f6e799]: Rate
+                  - button "Mark GoodFellas as watched" [ref=f6e802] [cursor=pointer]:
+                    - generic [ref=f6e805]: Mark as watched
+              - button "See more information about GoodFellas" [ref=f6e807] [cursor=pointer]
+            - generic [ref=f6e813]:
+              - group [ref=f6e815]:
+                - generic [ref=f6e816]:
+                  - img "Jack Nicholson in One Flew Over the Cuckoo's Nest (1975)"
+                - button "Add to Watchlist" [ref=f6e817] [cursor=pointer]
+                - link "View title page for One Flew Over the Cuckoo's Nest" [ref=f6e822] [cursor=pointer]:
+                  - /url: /title/tt0073486/?ref_=chttp_i_19
+              - generic [ref=f6e824]:
+                - text: "#19"
+                - link [ref=f6e827] [cursor=pointer]:
+                  - /url: /title/tt0073486/?ref_=chttp_t_19
+                  - heading "One Flew Over the Cuckoo's Nest" [level=4] [ref=f6e828]
+                - generic [ref=f6e829]: 1975 2h 13m R
+                - generic [ref=f6e830]:
+                  - generic [ref=f6e831]:
+                    - 'generic "IMDb rating: 8.6" [ref=f6e832]':
+                      - generic [ref=f6e834]: "8.6"
+                      - generic [ref=f6e835]: (1.2M)
+                    - button "Rate One Flew Over the Cuckoo's Nest" [ref=f6e836] [cursor=pointer]:
+                      - generic [ref=f6e837]: Rate
+                  - button "Mark One Flew Over the Cuckoo's Nest as watched" [ref=f6e840] [cursor=pointer]:
+                    - generic [ref=f6e843]: Mark as watched
+              - button "See more information about One Flew Over the Cuckoo's Nest" [ref=f6e845] [cursor=pointer]
+            - generic [ref=f6e851]:
+              - group [ref=f6e853]:
+                - generic [ref=f6e854]:
+                  - img "Brad Pitt and Morgan Freeman in Seven (1995)"
+                - button "Add to Watchlist" [ref=f6e855] [cursor=pointer]
+                - link "View title page for Seven" [ref=f6e860] [cursor=pointer]:
+                  - /url: /title/tt0114369/?ref_=chttp_i_20
+              - generic [ref=f6e862]:
+                - text: "#20"
+                - link [ref=f6e865] [cursor=pointer]:
+                  - /url: /title/tt0114369/?ref_=chttp_t_20
+                  - heading "Seven" [level=4] [ref=f6e866]
+                - generic [ref=f6e867]: 1995 2h 7m R
+                - generic [ref=f6e868]:
+                  - generic [ref=f6e869]:
+                    - 'generic "IMDb rating: 8.6" [ref=f6e870]':
+                      - generic [ref=f6e872]: "8.6"
+                      - generic [ref=f6e873]: (2M)
+                    - button "Rate Seven" [ref=f6e874] [cursor=pointer]:
+                      - generic [ref=f6e875]: Rate
+                  - button "Mark Seven as watched" [ref=f6e878] [cursor=pointer]:
+                    - generic [ref=f6e881]: Mark as watched
+              - button "See more information about Seven" [ref=f6e883] [cursor=pointer]
+            - generic [ref=f6e889]:
+              - group [ref=f6e891]:
+                - generic [ref=f6e892]:
+                  - img "James Stewart and Donna Reed in It's a Wonderful Life (1946)"
+                - button "Add to Watchlist" [ref=f6e893] [cursor=pointer]
+                - link "View title page for It's a Wonderful Life" [ref=f6e898] [cursor=pointer]:
+                  - /url: /title/tt0038650/?ref_=chttp_i_21
+              - generic [ref=f6e900]:
+                - text: "#21"
+                - link [ref=f6e903] [cursor=pointer]:
+                  - /url: /title/tt0038650/?ref_=chttp_t_21
+                  - heading "It's a Wonderful Life" [level=4] [ref=f6e904]
+                - generic [ref=f6e905]: 1946 2h 10m PG
+                - generic [ref=f6e906]:
+                  - generic [ref=f6e907]:
+                    - 'generic "IMDb rating: 8.6" [ref=f6e908]':
+                      - generic [ref=f6e910]: "8.6"
+                      - generic [ref=f6e911]: (556K)
+                    - button "Rate It's a Wonderful Life" [ref=f6e912] [cursor=pointer]:
+                      - generic [ref=f6e913]: Rate
+                  - button "Mark It's a Wonderful Life as watched" [ref=f6e916] [cursor=pointer]:
+                    - generic [ref=f6e919]: Mark as watched
+              - button "See more information about It's a Wonderful Life" [ref=f6e921] [cursor=pointer]
+            - generic [ref=f6e927]:
+              - group [ref=f6e929]:
+                - generic [ref=f6e930]:
+                  - img "Jodie Foster in The Silence of the Lambs (1991)"
+                - button "Add to Watchlist" [ref=f6e931] [cursor=pointer]
+                - link "View title page for The Silence of the Lambs" [ref=f6e936] [cursor=pointer]:
+                  - /url: /title/tt0102926/?ref_=chttp_i_22
+              - generic [ref=f6e938]:
+                - text: "#22"
+                - link [ref=f6e941] [cursor=pointer]:
+                  - /url: /title/tt0102926/?ref_=chttp_t_22
+                  - heading "The Silence of the Lambs" [level=4] [ref=f6e942]
+                - generic [ref=f6e943]: 1991 1h 58m R
+                - generic [ref=f6e944]:
+                  - generic [ref=f6e945]:
+                    - 'generic "IMDb rating: 8.6" [ref=f6e946]':
+                      - generic [ref=f6e948]: "8.6"
+                      - generic [ref=f6e949]: (1.7M)
+                    - button "Rate The Silence of the Lambs" [ref=f6e950] [cursor=pointer]:
+                      - generic [ref=f6e951]: Rate
+                  - button "Mark The Silence of the Lambs as watched" [ref=f6e954] [cursor=pointer]:
+                    - generic [ref=f6e957]: Mark as watched
+              - button "See more information about The Silence of the Lambs" [ref=f6e959] [cursor=pointer]
+            - generic [ref=f6e965]:
+              - group [ref=f6e967]:
+                - generic [ref=f6e968]:
+                  - img "Tom Hanks, Matt Damon, Tom Sizemore, and Edward Burns in Saving Private Ryan (1998)"
+                - button "Add to Watchlist" [ref=f6e969] [cursor=pointer]
+                - link "View title page for Saving Private Ryan" [ref=f6e974] [cursor=pointer]:
+                  - /url: /title/tt0120815/?ref_=chttp_i_23
+              - generic [ref=f6e976]:
+                - text: "#23"
+                - link [ref=f6e979] [cursor=pointer]:
+                  - /url: /title/tt0120815/?ref_=chttp_t_23
+                  - heading "Saving Private Ryan" [level=4] [ref=f6e980]
+                - generic [ref=f6e981]: 1998 2h 49m R
+                - generic [ref=f6e982]:
+                  - generic [ref=f6e983]:
+                    - 'generic "IMDb rating: 8.6" [ref=f6e984]':
+                      - generic [ref=f6e986]: "8.6"
+                      - generic [ref=f6e987]: (1.6M)
+                    - button "Rate Saving Private Ryan" [ref=f6e988] [cursor=pointer]:
+                      - generic [ref=f6e989]: Rate
+                  - button "Mark Saving Private Ryan as watched" [ref=f6e992] [cursor=pointer]:
+                    - generic [ref=f6e995]: Mark as watched
+              - button "See more information about Saving Private Ryan" [ref=f6e997] [cursor=pointer]
+            - generic [ref=f6e1003]:
+              - group [ref=f6e1005]:
+                - generic [ref=f6e1006]:
+                  - img "Toshirō Mifune, Minoru Chiaki, Yoshio Inaba, Daisuke Katō, Isao Kimura, Seiji Miyaguchi, Takashi Shimura, and Keiko Tsushima in Seven Samurai (1954)"
+                - button "Add to Watchlist" [ref=f6e1007] [cursor=pointer]
+                - link "View title page for Seven Samurai" [ref=f6e1012] [cursor=pointer]:
+                  - /url: /title/tt0047478/?ref_=chttp_i_24
+              - generic [ref=f6e1014]:
+                - text: "#24"
+                - link [ref=f6e1017] [cursor=pointer]:
+                  - /url: /title/tt0047478/?ref_=chttp_t_24
+                  - heading "Seven Samurai" [level=4] [ref=f6e1018]
+                - generic [ref=f6e1019]: 1954 3h 27m Not Rated
+                - generic [ref=f6e1020]:
+                  - generic [ref=f6e1021]:
+                    - 'generic "IMDb rating: 8.6" [ref=f6e1022]':
+                      - generic [ref=f6e1024]: "8.6"
+                      - generic [ref=f6e1025]: (403K)
+                    - button "Rate Seven Samurai" [ref=f6e1026] [cursor=pointer]:
+                      - generic [ref=f6e1027]: Rate
+                  - button "Mark Seven Samurai as watched" [ref=f6e1030] [cursor=pointer]:
+                    - generic [ref=f6e1033]: Mark as watched
+              - button "See more information about Seven Samurai" [ref=f6e1035] [cursor=pointer]
+            - generic [ref=f6e1041]:
+              - group [ref=f6e1043]:
+                - generic [ref=f6e1044]:
+                  - img "Movie Poster"
+                - button "Add to Watchlist" [ref=f6e1045] [cursor=pointer]
+                - link "View title page for The Green Mile" [ref=f6e1050] [cursor=pointer]:
+                  - /url: /title/tt0120689/?ref_=chttp_i_25
+              - generic [ref=f6e1052]:
+                - text: "#25"
+                - link [ref=f6e1055] [cursor=pointer]:
+                  - /url: /title/tt0120689/?ref_=chttp_t_25
+                  - heading "The Green Mile" [level=4] [ref=f6e1056]
+                - generic [ref=f6e1057]: 1999 3h 9m R
+                - generic [ref=f6e1058]:
+                  - generic [ref=f6e1059]:
+                    - 'generic "IMDb rating: 8.6" [ref=f6e1060]':
+                      - generic [ref=f6e1062]: "8.6"
+                      - generic [ref=f6e1063]: (1.6M)
+                    - button "Rate The Green Mile" [ref=f6e1064] [cursor=pointer]:
+                      - generic [ref=f6e1065]: Rate
+                  - button "Mark The Green Mile as watched" [ref=f6e1068] [cursor=pointer]:
+                    - generic [ref=f6e1071]: Mark as watched
+              - button "See more information about The Green Mile" [ref=f6e1073] [cursor=pointer]
+            - generic [ref=f6e1079]:
+              - group [ref=f6e1081]:
+                - generic [ref=f6e1082]:
+                  - img "Alice Braga, Leandro Firmino, Alexandre Rodrigues, Inhabitants of Belo Vale Boa Morte and Cidade de Congonhas, and Paige Ellens in City of God (2002)"
+                - button "Add to Watchlist" [ref=f6e1083] [cursor=pointer]
+                - link "View title page for City of God" [ref=f6e1088] [cursor=pointer]:
+                  - /url: /title/tt0317248/?ref_=chttp_i_26
+              - generic [ref=f6e1090]:
+                - text: "#26"
+                - link [ref=f6e1093] [cursor=pointer]:
+                  - /url: /title/tt0317248/?ref_=chttp_t_26
+                  - heading "City of God" [level=4] [ref=f6e1094]
+                - generic [ref=f6e1095]: 2002 2h 10m R
+                - generic [ref=f6e1096]:
+                  - generic [ref=f6e1097]:
+                    - 'generic "IMDb rating: 8.6" [ref=f6e1098]':
+                      - generic [ref=f6e1100]: "8.6"
+                      - generic [ref=f6e1101]: (875K)
+                    - button "Rate City of God" [ref=f6e1102] [cursor=pointer]:
+                      - generic [ref=f6e1103]: Rate
+                  - button "Mark City of God as watched" [ref=f6e1106] [cursor=pointer]:
+                    - generic [ref=f6e1109]: Mark as watched
+              - button "See more information about City of God" [ref=f6e1111] [cursor=pointer]
+            - generic [ref=f6e1117]:
+              - group [ref=f6e1119]:
+                - generic [ref=f6e1120]:
+                  - img "Roberto Benigni, Nicoletta Braschi, and Giorgio Cantarini in Life Is Beautiful (1997)"
+                - button "Add to Watchlist" [ref=f6e1121] [cursor=pointer]
+                - link "View title page for Life Is Beautiful" [ref=f6e1126] [cursor=pointer]:
+                  - /url: /title/tt0118799/?ref_=chttp_i_27
+              - generic [ref=f6e1128]:
+                - text: "#27"
+                - link [ref=f6e1131] [cursor=pointer]:
+                  - /url: /title/tt0118799/?ref_=chttp_t_27
+                  - heading "Life Is Beautiful" [level=4] [ref=f6e1132]
+                - generic [ref=f6e1133]: 1997 1h 56m PG-13
+                - generic [ref=f6e1134]:
+                  - generic [ref=f6e1135]:
+                    - 'generic "IMDb rating: 8.6" [ref=f6e1136]':
+                      - generic [ref=f6e1138]: "8.6"
+                      - generic [ref=f6e1139]: (817K)
+                    - button "Rate Life Is Beautiful" [ref=f6e1140] [cursor=pointer]:
+                      - generic [ref=f6e1141]: Rate
+                  - button "Mark Life Is Beautiful as watched" [ref=f6e1144] [cursor=pointer]:
+                    - generic [ref=f6e1147]: Mark as watched
+              - button "See more information about Life Is Beautiful" [ref=f6e1149] [cursor=pointer]
+            - generic [ref=f6e1155]:
+              - group [ref=f6e1157]:
+                - generic [ref=f6e1158]:
+                  - 'img "Arnold Schwarzenegger and John Pantellas in Terminator 2: Judgment Day (1991)"'
+                - button "Add to Watchlist" [ref=f6e1159] [cursor=pointer]
+                - 'link "View title page for Terminator 2: Judgment Day" [ref=f6e1164] [cursor=pointer]':
+                  - /url: /title/tt0103064/?ref_=chttp_i_28
+              - generic [ref=f6e1166]:
+                - text: "#28"
+                - link [ref=f6e1169] [cursor=pointer]:
+                  - /url: /title/tt0103064/?ref_=chttp_t_28
+                  - 'heading "Terminator 2: Judgment Day" [level=4] [ref=f6e1170]'
+                - generic [ref=f6e1171]: 1991 2h 17m R
+                - generic [ref=f6e1172]:
+                  - generic [ref=f6e1173]:
+                    - 'generic "IMDb rating: 8.6" [ref=f6e1174]':
+                      - generic [ref=f6e1176]: "8.6"
+                      - generic [ref=f6e1177]: (1.3M)
+                    - 'button "Rate Terminator 2: Judgment Day" [ref=f6e1178] [cursor=pointer]':
+                      - generic [ref=f6e1179]: Rate
+                  - 'button "Mark Terminator 2: Judgment Day as watched" [ref=f6e1182] [cursor=pointer]':
+                    - generic [ref=f6e1185]: Mark as watched
+              - 'button "See more information about Terminator 2: Judgment Day" [ref=f6e1187] [cursor=pointer]'
+            - generic [ref=f6e1193]:
+              - group [ref=f6e1195]:
+                - generic [ref=f6e1196]:
+                  - img "Michael J. Fox in Back to the Future (1985)"
+                - button "Add to Watchlist" [ref=f6e1197] [cursor=pointer]
+                - link "View title page for Back to the Future" [ref=f6e1202] [cursor=pointer]:
+                  - /url: /title/tt0088763/?ref_=chttp_i_29
+              - generic [ref=f6e1204]:
+                - text: "#29"
+                - link [ref=f6e1207] [cursor=pointer]:
+                  - /url: /title/tt0088763/?ref_=chttp_t_29
+                  - heading "Back to the Future" [level=4] [ref=f6e1208]
+                - generic [ref=f6e1209]: 1985 1h 56m PG
+                - generic [ref=f6e1210]:
+                  - generic [ref=f6e1211]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e1212]':
+                      - generic [ref=f6e1214]: "8.5"
+                      - generic [ref=f6e1215]: (1.5M)
+                    - button "Rate Back to the Future" [ref=f6e1216] [cursor=pointer]:
+                      - generic [ref=f6e1217]: Rate
+                  - button "Mark Back to the Future as watched" [ref=f6e1220] [cursor=pointer]:
+                    - generic [ref=f6e1223]: Mark as watched
+              - button "See more information about Back to the Future" [ref=f6e1225] [cursor=pointer]
+            - generic [ref=f6e1231]:
+              - group [ref=f6e1233]:
+                - generic [ref=f6e1234]:
+                  - 'img "Anthony Daniels, Carrie Fisher, Mark Hamill, James Earl Jones, David Prowse, and Kenny Baker in Star Wars: Episode IV - A New Hope (1977)"'
+                - button "Add to Watchlist" [ref=f6e1235] [cursor=pointer]
+                - 'link "View title page for Star Wars: Episode IV - A New Hope" [ref=f6e1240] [cursor=pointer]':
+                  - /url: /title/tt0076759/?ref_=chttp_i_30
+              - generic [ref=f6e1242]:
+                - text: "#30"
+                - link [ref=f6e1245] [cursor=pointer]:
+                  - /url: /title/tt0076759/?ref_=chttp_t_30
+                  - 'heading "Star Wars: Episode IV - A New Hope" [level=4] [ref=f6e1246]'
+                - generic [ref=f6e1247]: 1977 2h 1m PG
+                - generic [ref=f6e1248]:
+                  - generic [ref=f6e1249]:
+                    - 'generic "IMDb rating: 8.6" [ref=f6e1250]':
+                      - generic [ref=f6e1252]: "8.6"
+                      - generic [ref=f6e1253]: (1.6M)
+                    - 'button "Rate Star Wars: Episode IV - A New Hope" [ref=f6e1254] [cursor=pointer]':
+                      - generic [ref=f6e1255]: Rate
+                  - 'button "Mark Star Wars: Episode IV - A New Hope as watched" [ref=f6e1258] [cursor=pointer]':
+                    - generic [ref=f6e1261]: Mark as watched
+              - 'button "See more information about Star Wars: Episode IV - A New Hope" [ref=f6e1263] [cursor=pointer]'
+            - generic [ref=f6e1269]:
+              - group [ref=f6e1271]:
+                - generic [ref=f6e1272]:
+                  - 'img "Uma Thurman in Kill Bill: The Whole Bloody Affair (2004)"'
+                - button "Add to Watchlist" [ref=f6e1273] [cursor=pointer]
+                - 'link "View title page for Kill Bill: The Whole Bloody Affair" [ref=f6e1278] [cursor=pointer]':
+                  - /url: /title/tt6019206/?ref_=chttp_i_31
+              - generic [ref=f6e1280]:
+                - text: "#31"
+                - link [ref=f6e1283] [cursor=pointer]:
+                  - /url: /title/tt6019206/?ref_=chttp_t_31
+                  - 'heading "Kill Bill: The Whole Bloody Affair" [level=4] [ref=f6e1284]'
+                - generic [ref=f6e1285]: 2004 4h 13m Unrated
+                - generic [ref=f6e1286]:
+                  - generic [ref=f6e1287]:
+                    - 'generic "IMDb rating: 8.7" [ref=f6e1288]':
+                      - generic [ref=f6e1290]: "8.7"
+                      - generic [ref=f6e1291]: (48K)
+                    - 'button "Rate Kill Bill: The Whole Bloody Affair" [ref=f6e1292] [cursor=pointer]':
+                      - generic [ref=f6e1293]: Rate
+                  - 'button "Mark Kill Bill: The Whole Bloody Affair as watched" [ref=f6e1296] [cursor=pointer]':
+                    - generic [ref=f6e1299]: Mark as watched
+              - 'button "See more information about Kill Bill: The Whole Bloody Affair" [ref=f6e1301] [cursor=pointer]'
+            - generic [ref=f6e1307]:
+              - group [ref=f6e1309]:
+                - generic [ref=f6e1310]:
+                  - img "Spirited Away (2001)"
+                - button "Add to Watchlist" [ref=f6e1311] [cursor=pointer]
+                - link "View title page for Spirited Away" [ref=f6e1316] [cursor=pointer]:
+                  - /url: /title/tt0245429/?ref_=chttp_i_32
+              - generic [ref=f6e1318]:
+                - text: "#32"
+                - link [ref=f6e1321] [cursor=pointer]:
+                  - /url: /title/tt0245429/?ref_=chttp_t_32
+                  - heading "Spirited Away" [level=4] [ref=f6e1322]
+                - generic [ref=f6e1323]: 2001 2h 4m PG
+                - generic [ref=f6e1324]:
+                  - generic [ref=f6e1325]:
+                    - 'generic "IMDb rating: 8.6" [ref=f6e1326]':
+                      - generic [ref=f6e1328]: "8.6"
+                      - generic [ref=f6e1329]: (975K)
+                    - button "Rate Spirited Away" [ref=f6e1330] [cursor=pointer]:
+                      - generic [ref=f6e1331]: Rate
+                  - button "Mark Spirited Away as watched" [ref=f6e1334] [cursor=pointer]:
+                    - generic [ref=f6e1337]: Mark as watched
+              - button "See more information about Spirited Away" [ref=f6e1339] [cursor=pointer]
+            - generic [ref=f6e1345]:
+              - group [ref=f6e1347]:
+                - generic [ref=f6e1348]:
+                  - img "Russell Crowe in Gladiator (2000)"
+                - button "Add to Watchlist" [ref=f6e1349] [cursor=pointer]
+                - link "View title page for Gladiator" [ref=f6e1354] [cursor=pointer]:
+                  - /url: /title/tt0172495/?ref_=chttp_i_33
+              - generic [ref=f6e1356]:
+                - text: "#33"
+                - link [ref=f6e1359] [cursor=pointer]:
+                  - /url: /title/tt0172495/?ref_=chttp_t_33
+                  - heading "Gladiator" [level=4] [ref=f6e1360]
+                - generic [ref=f6e1361]: 2000 2h 35m R
+                - generic [ref=f6e1362]:
+                  - generic [ref=f6e1363]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e1364]':
+                      - generic [ref=f6e1366]: "8.5"
+                      - generic [ref=f6e1367]: (1.9M)
+                    - button "Rate Gladiator" [ref=f6e1368] [cursor=pointer]:
+                      - generic [ref=f6e1369]: Rate
+                  - button "Mark Gladiator as watched" [ref=f6e1372] [cursor=pointer]:
+                    - generic [ref=f6e1375]: Mark as watched
+              - button "See more information about Gladiator" [ref=f6e1377] [cursor=pointer]
+            - generic [ref=f6e1383]:
+              - group [ref=f6e1385]:
+                - generic [ref=f6e1386]:
+                  - img "Adrien Brody in The Pianist (2002)"
+                - button "Add to Watchlist" [ref=f6e1387] [cursor=pointer]
+                - link "View title page for The Pianist" [ref=f6e1392] [cursor=pointer]:
+                  - /url: /title/tt0253474/?ref_=chttp_i_34
+              - generic [ref=f6e1394]:
+                - text: "#34"
+                - link [ref=f6e1397] [cursor=pointer]:
+                  - /url: /title/tt0253474/?ref_=chttp_t_34
+                  - heading "The Pianist" [level=4] [ref=f6e1398]
+                - generic [ref=f6e1399]: 2002 2h 30m R
+                - generic [ref=f6e1400]:
+                  - generic [ref=f6e1401]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e1402]':
+                      - generic [ref=f6e1404]: "8.5"
+                      - generic [ref=f6e1405]: (1M)
+                    - button "Rate The Pianist" [ref=f6e1406] [cursor=pointer]:
+                      - generic [ref=f6e1407]: Rate
+                  - button "Mark The Pianist as watched" [ref=f6e1410] [cursor=pointer]:
+                    - generic [ref=f6e1413]: Mark as watched
+              - button "See more information about The Pianist" [ref=f6e1415] [cursor=pointer]
+            - generic [ref=f6e1421]:
+              - group [ref=f6e1423]:
+                - generic [ref=f6e1424]:
+                  - img "Song Kang-ho, Jung Ik-han, Jung Hyun-jun, Lee Joo-hyung, Lee Ji-hye, Lee Sun-kyun, Cho Yeo-jeong, Park Myeong-hoon, Park Keun-rok, Jang Hye-jin, Lee Jeong-eun, Choi Woo-sik, Park Seo-joon, Park So-dam, and Jung Ji-so in Parasite (2019)"
+                - button "Add to Watchlist" [ref=f6e1425] [cursor=pointer]
+                - link "View title page for Parasite" [ref=f6e1430] [cursor=pointer]:
+                  - /url: /title/tt6751668/?ref_=chttp_i_35
+              - generic [ref=f6e1432]:
+                - text: "#35"
+                - link [ref=f6e1435] [cursor=pointer]:
+                  - /url: /title/tt6751668/?ref_=chttp_t_35
+                  - heading "Parasite" [level=4] [ref=f6e1436]
+                - generic [ref=f6e1437]: 2019 2h 12m R
+                - generic [ref=f6e1438]:
+                  - generic [ref=f6e1439]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e1440]':
+                      - generic [ref=f6e1442]: "8.5"
+                      - generic [ref=f6e1443]: (1.2M)
+                    - button "Rate Parasite" [ref=f6e1444] [cursor=pointer]:
+                      - generic [ref=f6e1445]: Rate
+                  - button "Mark Parasite as watched" [ref=f6e1448] [cursor=pointer]:
+                    - generic [ref=f6e1451]: Mark as watched
+              - button "See more information about Parasite" [ref=f6e1453] [cursor=pointer]
+            - generic [ref=f6e1459]:
+              - group [ref=f6e1461]:
+                - generic [ref=f6e1462]:
+                  - img "Corinne Orr, Ayano Shiraishi, Tsutomu Tatsumi, J. Robert Spencer, Emily Neves, and Adam Gibbs in Grave of the Fireflies (1988)"
+                - button "Add to Watchlist" [ref=f6e1463] [cursor=pointer]
+                - link "View title page for Grave of the Fireflies" [ref=f6e1468] [cursor=pointer]:
+                  - /url: /title/tt0095327/?ref_=chttp_i_36
+              - generic [ref=f6e1470]:
+                - text: "#36"
+                - link [ref=f6e1473] [cursor=pointer]:
+                  - /url: /title/tt0095327/?ref_=chttp_t_36
+                  - heading "Grave of the Fireflies" [level=4] [ref=f6e1474]
+                - generic [ref=f6e1475]: 1988 1h 28m Not Rated
+                - generic [ref=f6e1476]:
+                  - generic [ref=f6e1477]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e1478]':
+                      - generic [ref=f6e1480]: "8.5"
+                      - generic [ref=f6e1481]: (390K)
+                    - button "Rate Grave of the Fireflies" [ref=f6e1482] [cursor=pointer]:
+                      - generic [ref=f6e1483]: Rate
+                  - button "Mark Grave of the Fireflies as watched" [ref=f6e1486] [cursor=pointer]:
+                    - generic [ref=f6e1489]: Mark as watched
+              - button "See more information about Grave of the Fireflies" [ref=f6e1491] [cursor=pointer]
+            - generic [ref=f6e1497]:
+              - group [ref=f6e1499]:
+                - generic [ref=f6e1500]:
+                  - img "Anthony Perkins, John Gavin, Janet Leigh, and Heather Dawn May in Psycho (1960)"
+                - button "Add to Watchlist" [ref=f6e1501] [cursor=pointer]
+                - link "View title page for Psycho" [ref=f6e1506] [cursor=pointer]:
+                  - /url: /title/tt0054215/?ref_=chttp_i_37
+              - generic [ref=f6e1508]:
+                - text: "#37"
+                - link [ref=f6e1511] [cursor=pointer]:
+                  - /url: /title/tt0054215/?ref_=chttp_t_37
+                  - heading "Psycho" [level=4] [ref=f6e1512]
+                - generic [ref=f6e1513]: 1960 1h 49m R
+                - generic [ref=f6e1514]:
+                  - generic [ref=f6e1515]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e1516]':
+                      - generic [ref=f6e1518]: "8.5"
+                      - generic [ref=f6e1519]: (789K)
+                    - button "Rate Psycho" [ref=f6e1520] [cursor=pointer]:
+                      - generic [ref=f6e1521]: Rate
+                  - button "Mark Psycho as watched" [ref=f6e1524] [cursor=pointer]:
+                    - generic [ref=f6e1527]: Mark as watched
+              - button "See more information about Psycho" [ref=f6e1529] [cursor=pointer]
+            - generic [ref=f6e1535]:
+              - group [ref=f6e1537]:
+                - generic [ref=f6e1538]:
+                  - img "Harakiri (1962)"
+                - button "Add to Watchlist" [ref=f6e1539] [cursor=pointer]
+                - link "View title page for Harakiri" [ref=f6e1544] [cursor=pointer]:
+                  - /url: /title/tt0056058/?ref_=chttp_i_38
+              - generic [ref=f6e1546]:
+                - text: "#38"
+                - link [ref=f6e1549] [cursor=pointer]:
+                  - /url: /title/tt0056058/?ref_=chttp_t_38
+                  - heading "Harakiri" [level=4] [ref=f6e1550]
+                - generic [ref=f6e1551]: 1962 2h 13m Not Rated
+                - generic [ref=f6e1552]:
+                  - generic [ref=f6e1553]:
+                    - 'generic "IMDb rating: 8.6" [ref=f6e1554]':
+                      - generic [ref=f6e1556]: "8.6"
+                      - generic [ref=f6e1557]: (92K)
+                    - button "Rate Harakiri" [ref=f6e1558] [cursor=pointer]:
+                      - generic [ref=f6e1559]: Rate
+                  - button "Mark Harakiri as watched" [ref=f6e1562] [cursor=pointer]:
+                    - generic [ref=f6e1565]: Mark as watched
+              - button "See more information about Harakiri" [ref=f6e1567] [cursor=pointer]
+            - generic [ref=f6e1573]:
+              - group [ref=f6e1575]:
+                - generic [ref=f6e1576]:
+                  - img "Matthew Broderick and James Earl Jones in The Lion King (1994)"
+                - button "Add to Watchlist" [ref=f6e1577] [cursor=pointer]
+                - link "View title page for The Lion King" [ref=f6e1582] [cursor=pointer]:
+                  - /url: /title/tt0110357/?ref_=chttp_i_39
+              - generic [ref=f6e1584]:
+                - text: "#39"
+                - link [ref=f6e1587] [cursor=pointer]:
+                  - /url: /title/tt0110357/?ref_=chttp_t_39
+                  - heading "The Lion King" [level=4] [ref=f6e1588]
+                - generic [ref=f6e1589]: 1994 1h 28m G
+                - generic [ref=f6e1590]:
+                  - generic [ref=f6e1591]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e1592]':
+                      - generic [ref=f6e1594]: "8.5"
+                      - generic [ref=f6e1595]: (1.3M)
+                    - button "Rate The Lion King" [ref=f6e1596] [cursor=pointer]:
+                      - generic [ref=f6e1597]: Rate
+                  - button "Mark The Lion King as watched" [ref=f6e1600] [cursor=pointer]:
+                    - generic [ref=f6e1603]: Mark as watched
+              - button "See more information about The Lion King" [ref=f6e1605] [cursor=pointer]
+            - generic [ref=f6e1611]:
+              - group [ref=f6e1613]:
+                - generic [ref=f6e1614]:
+                  - img "Leonardo DiCaprio, Jack Nicholson, and Matt Damon in The Departed (2006)"
+                - button "Add to Watchlist" [ref=f6e1615] [cursor=pointer]
+                - link "View title page for The Departed" [ref=f6e1620] [cursor=pointer]:
+                  - /url: /title/tt0407887/?ref_=chttp_i_40
+              - generic [ref=f6e1622]:
+                - text: "#40"
+                - link [ref=f6e1625] [cursor=pointer]:
+                  - /url: /title/tt0407887/?ref_=chttp_t_40
+                  - heading "The Departed" [level=4] [ref=f6e1626]
+                - generic [ref=f6e1627]: 2006 2h 31m R
+                - generic [ref=f6e1628]:
+                  - generic [ref=f6e1629]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e1630]':
+                      - generic [ref=f6e1632]: "8.5"
+                      - generic [ref=f6e1633]: (1.6M)
+                    - button "Rate The Departed" [ref=f6e1634] [cursor=pointer]:
+                      - generic [ref=f6e1635]: Rate
+                  - button "Mark The Departed as watched" [ref=f6e1638] [cursor=pointer]:
+                    - generic [ref=f6e1641]: Mark as watched
+              - button "See more information about The Departed" [ref=f6e1643] [cursor=pointer]
+            - generic [ref=f6e1649]:
+              - group [ref=f6e1651]:
+                - generic [ref=f6e1652]:
+                  - img "Miles Teller in Whiplash (2014)"
+                - button "Add to Watchlist" [ref=f6e1653] [cursor=pointer]
+                - link "View title page for Whiplash" [ref=f6e1658] [cursor=pointer]:
+                  - /url: /title/tt2582802/?ref_=chttp_i_41
+              - generic [ref=f6e1660]:
+                - text: "#41"
+                - link [ref=f6e1663] [cursor=pointer]:
+                  - /url: /title/tt2582802/?ref_=chttp_t_41
+                  - heading "Whiplash" [level=4] [ref=f6e1664]
+                - generic [ref=f6e1665]: 2014 1h 46m R
+                - generic [ref=f6e1666]:
+                  - generic [ref=f6e1667]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e1668]':
+                      - generic [ref=f6e1670]: "8.5"
+                      - generic [ref=f6e1671]: (1.2M)
+                    - button "Rate Whiplash" [ref=f6e1672] [cursor=pointer]:
+                      - generic [ref=f6e1673]: Rate
+                  - button "Mark Whiplash as watched" [ref=f6e1676] [cursor=pointer]:
+                    - generic [ref=f6e1679]: Mark as watched
+              - button "See more information about Whiplash" [ref=f6e1681] [cursor=pointer]
+            - generic [ref=f6e1687]:
+              - group [ref=f6e1689]:
+                - generic [ref=f6e1690]:
+                  - img "The Prestige (2006)"
+                - button "Add to Watchlist" [ref=f6e1691] [cursor=pointer]
+                - link "View title page for The Prestige" [ref=f6e1696] [cursor=pointer]:
+                  - /url: /title/tt0482571/?ref_=chttp_i_42
+              - generic [ref=f6e1698]:
+                - text: "#42"
+                - link [ref=f6e1701] [cursor=pointer]:
+                  - /url: /title/tt0482571/?ref_=chttp_t_42
+                  - heading "The Prestige" [level=4] [ref=f6e1702]
+                - generic [ref=f6e1703]: 2006 2h 10m PG-13
+                - generic [ref=f6e1704]:
+                  - generic [ref=f6e1705]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e1706]':
+                      - generic [ref=f6e1708]: "8.5"
+                      - generic [ref=f6e1709]: (1.6M)
+                    - button "Rate The Prestige" [ref=f6e1710] [cursor=pointer]:
+                      - generic [ref=f6e1711]: Rate
+                  - button "Mark The Prestige as watched" [ref=f6e1714] [cursor=pointer]:
+                    - generic [ref=f6e1717]: Mark as watched
+              - button "See more information about The Prestige" [ref=f6e1719] [cursor=pointer]
+            - generic [ref=f6e1725]:
+              - group [ref=f6e1727]:
+                - generic [ref=f6e1728]:
+                  - img "Edward Norton in American History X (1998)"
+                - button "Add to Watchlist" [ref=f6e1729] [cursor=pointer]
+                - link "View title page for American History X" [ref=f6e1734] [cursor=pointer]:
+                  - /url: /title/tt0120586/?ref_=chttp_i_43
+              - generic [ref=f6e1736]:
+                - text: "#43"
+                - link [ref=f6e1739] [cursor=pointer]:
+                  - /url: /title/tt0120586/?ref_=chttp_t_43
+                  - heading "American History X" [level=4] [ref=f6e1740]
+                - generic [ref=f6e1741]: 1998 1h 59m R
+                - generic [ref=f6e1742]:
+                  - generic [ref=f6e1743]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e1744]':
+                      - generic [ref=f6e1746]: "8.5"
+                      - generic [ref=f6e1747]: (1.3M)
+                    - button "Rate American History X" [ref=f6e1748] [cursor=pointer]:
+                      - generic [ref=f6e1749]: Rate
+                  - button "Mark American History X as watched" [ref=f6e1752] [cursor=pointer]:
+                    - generic [ref=f6e1755]: Mark as watched
+              - button "See more information about American History X" [ref=f6e1757] [cursor=pointer]
+            - generic [ref=f6e1763]:
+              - group [ref=f6e1765]:
+                - generic [ref=f6e1766]:
+                  - 'img "Natalie Portman and Jean Reno in Léon: The Professional (1994)"'
+                - button "Add to Watchlist" [ref=f6e1767] [cursor=pointer]
+                - 'link "View title page for Léon: The Professional" [ref=f6e1772] [cursor=pointer]':
+                  - /url: /title/tt0110413/?ref_=chttp_i_44
+              - generic [ref=f6e1774]:
+                - text: "#44"
+                - link [ref=f6e1777] [cursor=pointer]:
+                  - /url: /title/tt0110413/?ref_=chttp_t_44
+                  - 'heading "Léon: The Professional" [level=4] [ref=f6e1778]'
+                - generic [ref=f6e1779]: 1994 1h 50m R
+                - generic [ref=f6e1780]:
+                  - generic [ref=f6e1781]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e1782]':
+                      - generic [ref=f6e1784]: "8.5"
+                      - generic [ref=f6e1785]: (1.4M)
+                    - 'button "Rate Léon: The Professional" [ref=f6e1786] [cursor=pointer]':
+                      - generic [ref=f6e1787]: Rate
+                  - 'button "Mark Léon: The Professional as watched" [ref=f6e1790] [cursor=pointer]':
+                    - generic [ref=f6e1793]: Mark as watched
+              - 'button "See more information about Léon: The Professional" [ref=f6e1795] [cursor=pointer]'
+            - generic [ref=f6e1801]:
+              - group [ref=f6e1803]:
+                - generic [ref=f6e1804]:
+                  - 'img "Tobey Maguire, Elizabeth Perkins, Josh Keaton, Ziggy Marley, Jason Schwartzman, Rachel Dratch, Taran Killam, Yuri Lowenthal, Peggy Lu, Cliff Robertson, J.K. Simmons, Peter Sohn, Luna Lauren Velez, Shea Whigham, Mahershala Ali, Kathryn Hahn, Lorraine Velez, Oscar Isaac, Jorma Taccone, Andy Samberg, Andrew Garfield, Nic Novicki, Jake Johnson, Donald Glover, Daniel Kaluuya, Greta Lee, Hailee Steinfeld, Brian Tyree Henry, Atsuko Okatsuka, Melissa Sturm, Nicole Delaney, Amandla Stenberg, Karan Soni, Shameik Moore, Jack Quaid, Kimiko Glenn, Issa Rae, Sofia Barclay, Nina Lentini, Danielle Perez, Jharrel Jerome, Ayo Edebiri, and Metro Boomin in Spider-Man: Across the Spider-Verse (2023)"'
+                - button "Add to Watchlist" [ref=f6e1805] [cursor=pointer]
+                - 'link "View title page for Spider-Man: Across the Spider-Verse" [ref=f6e1810] [cursor=pointer]':
+                  - /url: /title/tt9362722/?ref_=chttp_i_45
+              - generic [ref=f6e1812]:
+                - text: "#45"
+                - link [ref=f6e1815] [cursor=pointer]:
+                  - /url: /title/tt9362722/?ref_=chttp_t_45
+                  - 'heading "Spider-Man: Across the Spider-Verse" [level=4] [ref=f6e1816]'
+                - generic [ref=f6e1817]: 2023 2h 20m PG
+                - generic [ref=f6e1818]:
+                  - generic [ref=f6e1819]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e1820]':
+                      - generic [ref=f6e1822]: "8.5"
+                      - generic [ref=f6e1823]: (535K)
+                    - 'button "Rate Spider-Man: Across the Spider-Verse" [ref=f6e1824] [cursor=pointer]':
+                      - generic [ref=f6e1825]: Rate
+                  - 'button "Mark Spider-Man: Across the Spider-Verse as watched" [ref=f6e1828] [cursor=pointer]':
+                    - generic [ref=f6e1831]: Mark as watched
+              - 'button "See more information about Spider-Man: Across the Spider-Verse" [ref=f6e1833] [cursor=pointer]'
+            - generic [ref=f6e1839]:
+              - group [ref=f6e1841]:
+                - generic [ref=f6e1842]:
+                  - img "Salvatore Cascio, Marco Leonardi, Agnese Nano, and Philippe Noiret in Cinema Paradiso (1988)"
+                - button "Add to Watchlist" [ref=f6e1843] [cursor=pointer]
+                - link "View title page for Cinema Paradiso" [ref=f6e1848] [cursor=pointer]:
+                  - /url: /title/tt0095765/?ref_=chttp_i_46
+              - generic [ref=f6e1850]:
+                - text: "#46"
+                - link [ref=f6e1853] [cursor=pointer]:
+                  - /url: /title/tt0095765/?ref_=chttp_t_46
+                  - heading "Cinema Paradiso" [level=4] [ref=f6e1854]
+                - generic [ref=f6e1855]: 1988 2h 54m PG
+                - generic [ref=f6e1856]:
+                  - generic [ref=f6e1857]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e1858]':
+                      - generic [ref=f6e1860]: "8.5"
+                      - generic [ref=f6e1861]: (318K)
+                    - button "Rate Cinema Paradiso" [ref=f6e1862] [cursor=pointer]:
+                      - generic [ref=f6e1863]: Rate
+                  - button "Mark Cinema Paradiso as watched" [ref=f6e1866] [cursor=pointer]:
+                    - generic [ref=f6e1869]: Mark as watched
+              - button "See more information about Cinema Paradiso" [ref=f6e1871] [cursor=pointer]
+            - generic [ref=f6e1877]:
+              - group [ref=f6e1879]:
+                - generic [ref=f6e1880]:
+                  - img "Ingrid Bergman, Humphrey Bogart, Peter Lorre, Claude Rains, Sydney Greenstreet, Paul Henreid, and Conrad Veidt in Casablanca (1942)"
+                - button "Add to Watchlist" [ref=f6e1881] [cursor=pointer]
+                - link "View title page for Casablanca" [ref=f6e1886] [cursor=pointer]:
+                  - /url: /title/tt0034583/?ref_=chttp_i_47
+              - generic [ref=f6e1888]:
+                - text: "#47"
+                - link [ref=f6e1891] [cursor=pointer]:
+                  - /url: /title/tt0034583/?ref_=chttp_t_47
+                  - heading "Casablanca" [level=4] [ref=f6e1892]
+                - generic [ref=f6e1893]: 1942 1h 42m PG
+                - generic [ref=f6e1894]:
+                  - generic [ref=f6e1895]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e1896]':
+                      - generic [ref=f6e1898]: "8.5"
+                      - generic [ref=f6e1899]: (657K)
+                    - button "Rate Casablanca" [ref=f6e1900] [cursor=pointer]:
+                      - generic [ref=f6e1901]: Rate
+                  - button "Mark Casablanca as watched" [ref=f6e1904] [cursor=pointer]:
+                    - generic [ref=f6e1907]: Mark as watched
+              - button "See more information about Casablanca" [ref=f6e1909] [cursor=pointer]
+            - generic [ref=f6e1915]:
+              - group [ref=f6e1917]:
+                - generic [ref=f6e1918]:
+                  - img "François Cluzet and Omar Sy in The Intouchables (2011)"
+                - button "Add to Watchlist" [ref=f6e1919] [cursor=pointer]
+                - link "View title page for The Intouchables" [ref=f6e1924] [cursor=pointer]:
+                  - /url: /title/tt1675434/?ref_=chttp_i_48
+              - generic [ref=f6e1926]:
+                - text: "#48"
+                - link [ref=f6e1929] [cursor=pointer]:
+                  - /url: /title/tt1675434/?ref_=chttp_t_48
+                  - heading "The Intouchables" [level=4] [ref=f6e1930]
+                - generic [ref=f6e1931]: 2011 1h 52m R
+                - generic [ref=f6e1932]:
+                  - generic [ref=f6e1933]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e1934]':
+                      - generic [ref=f6e1936]: "8.5"
+                      - generic [ref=f6e1937]: (1M)
+                    - button "Rate The Intouchables" [ref=f6e1938] [cursor=pointer]:
+                      - generic [ref=f6e1939]: Rate
+                  - button "Mark The Intouchables as watched" [ref=f6e1942] [cursor=pointer]:
+                    - generic [ref=f6e1945]: Mark as watched
+              - button "See more information about The Intouchables" [ref=f6e1947] [cursor=pointer]
+            - generic [ref=f6e1953]:
+              - group [ref=f6e1955]:
+                - generic [ref=f6e1956]:
+                  - img "Kevin Spacey, Stephen Baldwin, Gabriel Byrne, Benicio Del Toro, and Kevin Pollak in The Usual Suspects (1995)"
+                - button "Add to Watchlist" [ref=f6e1957] [cursor=pointer]
+                - link "View title page for The Usual Suspects" [ref=f6e1962] [cursor=pointer]:
+                  - /url: /title/tt0114814/?ref_=chttp_i_49
+              - generic [ref=f6e1964]:
+                - text: "#49"
+                - link [ref=f6e1967] [cursor=pointer]:
+                  - /url: /title/tt0114814/?ref_=chttp_t_49
+                  - heading "The Usual Suspects" [level=4] [ref=f6e1968]
+                - generic [ref=f6e1969]: 1995 1h 46m R
+                - generic [ref=f6e1970]:
+                  - generic [ref=f6e1971]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e1972]':
+                      - generic [ref=f6e1974]: "8.5"
+                      - generic [ref=f6e1975]: (1.2M)
+                    - button "Rate The Usual Suspects" [ref=f6e1976] [cursor=pointer]:
+                      - generic [ref=f6e1977]: Rate
+                  - button "Mark The Usual Suspects as watched" [ref=f6e1980] [cursor=pointer]:
+                    - generic [ref=f6e1983]: Mark as watched
+              - button "See more information about The Usual Suspects" [ref=f6e1985] [cursor=pointer]
+            - generic [ref=f6e1991]:
+              - group [ref=f6e1993]:
+                - generic [ref=f6e1994]:
+                  - img "Leonardo DiCaprio, Jamie Foxx, and Christoph Waltz in Django Unchained (2012)"
+                - button "Add to Watchlist" [ref=f6e1995] [cursor=pointer]
+                - link "View title page for Django Unchained" [ref=f6e2000] [cursor=pointer]:
+                  - /url: /title/tt1853728/?ref_=chttp_i_50
+              - generic [ref=f6e2002]:
+                - text: "#50"
+                - link [ref=f6e2005] [cursor=pointer]:
+                  - /url: /title/tt1853728/?ref_=chttp_t_50
+                  - heading "Django Unchained" [level=4] [ref=f6e2006]
+                - generic [ref=f6e2007]: 2012 2h 45m R
+                - generic [ref=f6e2008]:
+                  - generic [ref=f6e2009]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e2010]':
+                      - generic [ref=f6e2012]: "8.5"
+                      - generic [ref=f6e2013]: (1.9M)
+                    - button "Rate Django Unchained" [ref=f6e2014] [cursor=pointer]:
+                      - generic [ref=f6e2015]: Rate
+                  - button "Mark Django Unchained as watched" [ref=f6e2018] [cursor=pointer]:
+                    - generic [ref=f6e2021]: Mark as watched
+              - button "See more information about Django Unchained" [ref=f6e2023] [cursor=pointer]
+            - generic [ref=f6e2029]:
+              - group [ref=f6e2031]:
+                - generic [ref=f6e2032]:
+                  - img "Alien (1979)"
+                - button "Add to Watchlist" [ref=f6e2033] [cursor=pointer]
+                - link "View title page for Alien" [ref=f6e2038] [cursor=pointer]:
+                  - /url: /title/tt0078748/?ref_=chttp_i_51
+              - generic [ref=f6e2040]:
+                - text: "#51"
+                - link [ref=f6e2043] [cursor=pointer]:
+                  - /url: /title/tt0078748/?ref_=chttp_t_51
+                  - heading "Alien" [level=4] [ref=f6e2044]
+                - generic [ref=f6e2045]: 1979 1h 57m R
+                - generic [ref=f6e2046]:
+                  - generic [ref=f6e2047]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2048]':
+                      - generic [ref=f6e2050]: "8.4"
+                      - generic [ref=f6e2051]: (1.1M)
+                    - button "Rate Alien" [ref=f6e2052] [cursor=pointer]:
+                      - generic [ref=f6e2053]: Rate
+                  - button "Mark Alien as watched" [ref=f6e2056] [cursor=pointer]:
+                    - generic [ref=f6e2059]: Mark as watched
+              - button "See more information about Alien" [ref=f6e2061] [cursor=pointer]
+            - generic [ref=f6e2067]:
+              - group [ref=f6e2069]:
+                - generic [ref=f6e2070]:
+                  - img "Grace Kelly, James Stewart, Georgine Darcy, Judith Evelyn, and Harry Landers in Rear Window (1954)"
+                - button "Add to Watchlist" [ref=f6e2071] [cursor=pointer]
+                - link "View title page for Rear Window" [ref=f6e2076] [cursor=pointer]:
+                  - /url: /title/tt0047396/?ref_=chttp_i_52
+              - generic [ref=f6e2078]:
+                - text: "#52"
+                - link [ref=f6e2081] [cursor=pointer]:
+                  - /url: /title/tt0047396/?ref_=chttp_t_52
+                  - heading "Rear Window" [level=4] [ref=f6e2082]
+                - generic [ref=f6e2083]: 1954 1h 52m PG
+                - generic [ref=f6e2084]:
+                  - generic [ref=f6e2085]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2086]':
+                      - generic [ref=f6e2088]: "8.4"
+                      - generic [ref=f6e2089]: (571K)
+                    - button "Rate Rear Window" [ref=f6e2090] [cursor=pointer]:
+                      - generic [ref=f6e2091]: Rate
+                  - button "Mark Rear Window as watched" [ref=f6e2094] [cursor=pointer]:
+                    - generic [ref=f6e2097]: Mark as watched
+              - button "See more information about Rear Window" [ref=f6e2099] [cursor=pointer]
+            - generic [ref=f6e2105]:
+              - group [ref=f6e2107]:
+                - generic [ref=f6e2108]:
+                  - img "Charles Chaplin in Modern Times (1936)"
+                - button "Add to Watchlist" [ref=f6e2109] [cursor=pointer]
+                - link "View title page for Modern Times" [ref=f6e2114] [cursor=pointer]:
+                  - /url: /title/tt0027977/?ref_=chttp_i_53
+              - generic [ref=f6e2116]:
+                - text: "#53"
+                - link [ref=f6e2119] [cursor=pointer]:
+                  - /url: /title/tt0027977/?ref_=chttp_t_53
+                  - heading "Modern Times" [level=4] [ref=f6e2120]
+                - generic [ref=f6e2121]: 1936 1h 27m G
+                - generic [ref=f6e2122]:
+                  - generic [ref=f6e2123]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e2124]':
+                      - generic [ref=f6e2126]: "8.5"
+                      - generic [ref=f6e2127]: (286K)
+                    - button "Rate Modern Times" [ref=f6e2128] [cursor=pointer]:
+                      - generic [ref=f6e2129]: Rate
+                  - button "Mark Modern Times as watched" [ref=f6e2132] [cursor=pointer]:
+                    - generic [ref=f6e2135]: Mark as watched
+              - button "See more information about Modern Times" [ref=f6e2137] [cursor=pointer]
+            - generic [ref=f6e2143]:
+              - group [ref=f6e2145]:
+                - generic [ref=f6e2146]:
+                  - img "Once Upon a Time in the West (1968)"
+                - button "Add to Watchlist" [ref=f6e2147] [cursor=pointer]
+                - link "View title page for Once Upon a Time in the West" [ref=f6e2152] [cursor=pointer]:
+                  - /url: /title/tt0064116/?ref_=chttp_i_54
+              - generic [ref=f6e2154]:
+                - text: "#54"
+                - link [ref=f6e2157] [cursor=pointer]:
+                  - /url: /title/tt0064116/?ref_=chttp_t_54
+                  - heading "Once Upon a Time in the West" [level=4] [ref=f6e2158]
+                - generic [ref=f6e2159]: 1968 2h 25m PG-13
+                - generic [ref=f6e2160]:
+                  - generic [ref=f6e2161]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e2162]':
+                      - generic [ref=f6e2164]: "8.5"
+                      - generic [ref=f6e2165]: (386K)
+                    - button "Rate Once Upon a Time in the West" [ref=f6e2166] [cursor=pointer]:
+                      - generic [ref=f6e2167]: Rate
+                  - button "Mark Once Upon a Time in the West as watched" [ref=f6e2170] [cursor=pointer]:
+                    - generic [ref=f6e2173]: Mark as watched
+              - button "See more information about Once Upon a Time in the West" [ref=f6e2175] [cursor=pointer]
+            - generic [ref=f6e2181]:
+              - group [ref=f6e2183]:
+                - generic [ref=f6e2184]:
+                  - img "Charles Chaplin in City Lights (1931)"
+                - button "Add to Watchlist" [ref=f6e2185] [cursor=pointer]
+                - link "View title page for City Lights" [ref=f6e2190] [cursor=pointer]:
+                  - /url: /title/tt0021749/?ref_=chttp_i_55
+              - generic [ref=f6e2192]:
+                - text: "#55"
+                - link [ref=f6e2195] [cursor=pointer]:
+                  - /url: /title/tt0021749/?ref_=chttp_t_55
+                  - heading "City Lights" [level=4] [ref=f6e2196]
+                - generic [ref=f6e2197]: 1931 1h 27m G
+                - generic [ref=f6e2198]:
+                  - generic [ref=f6e2199]:
+                    - 'generic "IMDb rating: 8.5" [ref=f6e2200]':
+                      - generic [ref=f6e2202]: "8.5"
+                      - generic [ref=f6e2203]: (217K)
+                    - button "Rate City Lights" [ref=f6e2204] [cursor=pointer]:
+                      - generic [ref=f6e2205]: Rate
+                  - button "Mark City Lights as watched" [ref=f6e2208] [cursor=pointer]:
+                    - generic [ref=f6e2211]: Mark as watched
+              - button "See more information about City Lights" [ref=f6e2213] [cursor=pointer]
+            - generic [ref=f6e2219]:
+              - group [ref=f6e2221]:
+                - generic [ref=f6e2222]:
+                  - img "WALL·E (2008)"
+                - button "Add to Watchlist" [ref=f6e2223] [cursor=pointer]
+                - link "View title page for WALL·E" [ref=f6e2228] [cursor=pointer]:
+                  - /url: /title/tt0910970/?ref_=chttp_i_56
+              - generic [ref=f6e2230]:
+                - text: "#56"
+                - link [ref=f6e2233] [cursor=pointer]:
+                  - /url: /title/tt0910970/?ref_=chttp_t_56
+                  - heading "WALL·E" [level=4] [ref=f6e2234]
+                - generic [ref=f6e2235]: 2008 1h 38m G
+                - generic [ref=f6e2236]:
+                  - generic [ref=f6e2237]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2238]':
+                      - generic [ref=f6e2240]: "8.4"
+                      - generic [ref=f6e2241]: (1.3M)
+                    - button "Rate WALL·E" [ref=f6e2242] [cursor=pointer]:
+                      - generic [ref=f6e2243]: Rate
+                  - button "Mark WALL·E as watched" [ref=f6e2246] [cursor=pointer]:
+                    - generic [ref=f6e2249]: Mark as watched
+              - button "See more information about WALL·E" [ref=f6e2251] [cursor=pointer]
+            - generic [ref=f6e2257]:
+              - group [ref=f6e2259]:
+                - generic [ref=f6e2260]:
+                  - img "Marlon Brando and Martin Sheen in Apocalypse Now (1979)"
+                - button "Add to Watchlist" [ref=f6e2261] [cursor=pointer]
+                - link "View title page for Apocalypse Now" [ref=f6e2266] [cursor=pointer]:
+                  - /url: /title/tt0078788/?ref_=chttp_i_57
+              - generic [ref=f6e2268]:
+                - text: "#57"
+                - link [ref=f6e2271] [cursor=pointer]:
+                  - /url: /title/tt0078788/?ref_=chttp_t_57
+                  - heading "Apocalypse Now" [level=4] [ref=f6e2272]
+                - generic [ref=f6e2273]: 1979 2h 27m R
+                - generic [ref=f6e2274]:
+                  - generic [ref=f6e2275]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2276]':
+                      - generic [ref=f6e2278]: "8.4"
+                      - generic [ref=f6e2279]: (774K)
+                    - button "Rate Apocalypse Now" [ref=f6e2280] [cursor=pointer]:
+                      - generic [ref=f6e2281]: Rate
+                  - button "Mark Apocalypse Now as watched" [ref=f6e2284] [cursor=pointer]:
+                    - generic [ref=f6e2287]: Mark as watched
+              - button "See more information about Apocalypse Now" [ref=f6e2289] [cursor=pointer]
+            - generic [ref=f6e2295]:
+              - group [ref=f6e2297]:
+                - generic [ref=f6e2298]:
+                  - img "Memento (2000)"
+                - button "Add to Watchlist" [ref=f6e2299] [cursor=pointer]
+                - link "View title page for Memento" [ref=f6e2304] [cursor=pointer]:
+                  - /url: /title/tt0209144/?ref_=chttp_i_58
+              - generic [ref=f6e2306]:
+                - text: "#58"
+                - link [ref=f6e2309] [cursor=pointer]:
+                  - /url: /title/tt0209144/?ref_=chttp_t_58
+                  - heading "Memento" [level=4] [ref=f6e2310]
+                - generic [ref=f6e2311]: 2000 1h 53m R
+                - generic [ref=f6e2312]:
+                  - generic [ref=f6e2313]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2314]':
+                      - generic [ref=f6e2316]: "8.4"
+                      - generic [ref=f6e2317]: (1.4M)
+                    - button "Rate Memento" [ref=f6e2318] [cursor=pointer]:
+                      - generic [ref=f6e2319]: Rate
+                  - button "Mark Memento as watched" [ref=f6e2322] [cursor=pointer]:
+                    - generic [ref=f6e2325]: Mark as watched
+              - button "See more information about Memento" [ref=f6e2327] [cursor=pointer]
+            - generic [ref=f6e2333]:
+              - group [ref=f6e2335]:
+                - generic [ref=f6e2336]:
+                  - 'img "Don Cheadle, Robert Downey Jr., Josh Brolin, Vin Diesel, Paul Bettany, Bradley Cooper, Chris Evans, Scarlett Johansson, Elizabeth Olsen, Chris Pratt, Mark Ruffalo, Zoe Saldaña, Benedict Wong, Anthony Mackie, Chris Hemsworth, Dave Bautista, Benedict Cumberbatch, Chadwick Boseman, Sebastian Stan, Danai Gurira, Karen Gillan, Pom Klementieff, Letitia Wright, and Tom Holland in Avengers: Infinity War (2018)"'
+                - button "Add to Watchlist" [ref=f6e2337] [cursor=pointer]
+                - 'link "View title page for Avengers: Infinity War" [ref=f6e2342] [cursor=pointer]':
+                  - /url: /title/tt4154756/?ref_=chttp_i_59
+              - generic [ref=f6e2344]:
+                - text: "#59"
+                - link [ref=f6e2347] [cursor=pointer]:
+                  - /url: /title/tt4154756/?ref_=chttp_t_59
+                  - 'heading "Avengers: Infinity War" [level=4] [ref=f6e2348]'
+                - generic [ref=f6e2349]: 2018 2h 29m PG-13
+                - generic [ref=f6e2350]:
+                  - generic [ref=f6e2351]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2352]':
+                      - generic [ref=f6e2354]: "8.4"
+                      - generic [ref=f6e2355]: (1.4M)
+                    - 'button "Rate Avengers: Infinity War" [ref=f6e2356] [cursor=pointer]':
+                      - generic [ref=f6e2357]: Rate
+                  - 'button "Mark Avengers: Infinity War as watched" [ref=f6e2360] [cursor=pointer]':
+                    - generic [ref=f6e2363]: Mark as watched
+              - 'button "See more information about Avengers: Infinity War" [ref=f6e2365] [cursor=pointer]'
+            - generic [ref=f6e2371]:
+              - group [ref=f6e2373]:
+                - generic [ref=f6e2374]:
+                  - 'img "Javier Bardem, Josh Brolin, Stellan Skarsgård, Rebecca Ferguson, Dave Bautista, Austin Butler, Timothée Chalamet, Zendaya, Florence Pugh, and Souheila Yacoub in Dune: Part Two (2024)"'
+                - button "Add to Watchlist" [ref=f6e2375] [cursor=pointer]
+                - 'link "View title page for Dune: Part Two" [ref=f6e2380] [cursor=pointer]':
+                  - /url: /title/tt15239678/?ref_=chttp_i_60
+              - generic [ref=f6e2382]:
+                - text: "#60"
+                - link [ref=f6e2385] [cursor=pointer]:
+                  - /url: /title/tt15239678/?ref_=chttp_t_60
+                  - 'heading "Dune: Part Two" [level=4] [ref=f6e2386]'
+                - generic [ref=f6e2387]: 2024 2h 46m PG-13
+                - generic [ref=f6e2388]:
+                  - generic [ref=f6e2389]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2390]':
+                      - generic [ref=f6e2392]: "8.4"
+                      - generic [ref=f6e2393]: (774K)
+                    - 'button "Rate Dune: Part Two" [ref=f6e2394] [cursor=pointer]':
+                      - generic [ref=f6e2395]: Rate
+                  - 'button "Mark Dune: Part Two as watched" [ref=f6e2398] [cursor=pointer]':
+                    - generic [ref=f6e2401]: Mark as watched
+              - 'button "See more information about Dune: Part Two" [ref=f6e2403] [cursor=pointer]'
+            - generic [ref=f6e2409]:
+              - group [ref=f6e2411]:
+                - generic [ref=f6e2412]:
+                  - img "Harrison Ford, Karen Allen, Paul Freeman, Wolf Kahler, Ronald Lacey, and Terry Richards in Raiders of the Lost Ark (1981)"
+                - button "Add to Watchlist" [ref=f6e2413] [cursor=pointer]
+                - link "View title page for Raiders of the Lost Ark" [ref=f6e2418] [cursor=pointer]:
+                  - /url: /title/tt0082971/?ref_=chttp_i_61
+              - generic [ref=f6e2420]:
+                - text: "#61"
+                - link [ref=f6e2423] [cursor=pointer]:
+                  - /url: /title/tt0082971/?ref_=chttp_t_61
+                  - heading "Raiders of the Lost Ark" [level=4] [ref=f6e2424]
+                - generic [ref=f6e2425]: 1981 1h 55m PG
+                - generic [ref=f6e2426]:
+                  - generic [ref=f6e2427]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2428]':
+                      - generic [ref=f6e2430]: "8.4"
+                      - generic [ref=f6e2431]: (1.1M)
+                    - button "Rate Raiders of the Lost Ark" [ref=f6e2432] [cursor=pointer]:
+                      - generic [ref=f6e2433]: Rate
+                  - button "Mark Raiders of the Lost Ark as watched" [ref=f6e2436] [cursor=pointer]:
+                    - generic [ref=f6e2439]: Mark as watched
+              - button "See more information about Raiders of the Lost Ark" [ref=f6e2441] [cursor=pointer]
+            - generic [ref=f6e2447]:
+              - group [ref=f6e2449]:
+                - generic [ref=f6e2450]:
+                  - 'img "Spider-Man: Into the Spider-Verse (2018)"'
+                - button "Add to Watchlist" [ref=f6e2451] [cursor=pointer]
+                - 'link "View title page for Spider-Man: Into the Spider-Verse" [ref=f6e2456] [cursor=pointer]':
+                  - /url: /title/tt4633694/?ref_=chttp_i_62
+              - generic [ref=f6e2458]:
+                - text: "#62"
+                - link [ref=f6e2461] [cursor=pointer]:
+                  - /url: /title/tt4633694/?ref_=chttp_t_62
+                  - 'heading "Spider-Man: Into the Spider-Verse" [level=4] [ref=f6e2462]'
+                - generic [ref=f6e2463]: 2018 1h 57m PG
+                - generic [ref=f6e2464]:
+                  - generic [ref=f6e2465]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2466]':
+                      - generic [ref=f6e2468]: "8.4"
+                      - generic [ref=f6e2469]: (799K)
+                    - 'button "Rate Spider-Man: Into the Spider-Verse" [ref=f6e2470] [cursor=pointer]':
+                      - generic [ref=f6e2471]: Rate
+                  - 'button "Mark Spider-Man: Into the Spider-Verse as watched" [ref=f6e2474] [cursor=pointer]':
+                    - generic [ref=f6e2477]: Mark as watched
+              - 'button "See more information about Spider-Man: Into the Spider-Verse" [ref=f6e2479] [cursor=pointer]'
+            - generic [ref=f6e2485]:
+              - group [ref=f6e2487]:
+                - generic [ref=f6e2488]:
+                  - img "Martina Gedeck, Sebastian Koch, and Ulrich Mühe in The Lives of Others (2006)"
+                - button "Add to Watchlist" [ref=f6e2489] [cursor=pointer]
+                - link "View title page for The Lives of Others" [ref=f6e2494] [cursor=pointer]:
+                  - /url: /title/tt0405094/?ref_=chttp_i_63
+              - generic [ref=f6e2496]:
+                - text: "#63"
+                - link [ref=f6e2499] [cursor=pointer]:
+                  - /url: /title/tt0405094/?ref_=chttp_t_63
+                  - heading "The Lives of Others" [level=4] [ref=f6e2500]
+                - generic [ref=f6e2501]: 2006 2h 17m R
+                - generic [ref=f6e2502]:
+                  - generic [ref=f6e2503]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2504]':
+                      - generic [ref=f6e2506]: "8.4"
+                      - generic [ref=f6e2507]: (445K)
+                    - button "Rate The Lives of Others" [ref=f6e2508] [cursor=pointer]:
+                      - generic [ref=f6e2509]: Rate
+                  - button "Mark The Lives of Others as watched" [ref=f6e2512] [cursor=pointer]:
+                    - generic [ref=f6e2515]: Mark as watched
+              - button "See more information about The Lives of Others" [ref=f6e2517] [cursor=pointer]
+            - generic [ref=f6e2523]:
+              - group [ref=f6e2525]:
+                - generic [ref=f6e2526]:
+                  - img "William Holden, Nancy Olson, and Gloria Swanson in Sunset Boulevard (1950)"
+                - button "Add to Watchlist" [ref=f6e2527] [cursor=pointer]
+                - link "View title page for Sunset Boulevard" [ref=f6e2532] [cursor=pointer]:
+                  - /url: /title/tt0043014/?ref_=chttp_i_64
+              - generic [ref=f6e2534]:
+                - text: "#64"
+                - link [ref=f6e2537] [cursor=pointer]:
+                  - /url: /title/tt0043014/?ref_=chttp_t_64
+                  - heading "Sunset Boulevard" [level=4] [ref=f6e2538]
+                - generic [ref=f6e2539]: 1950 1h 50m Approved
+                - generic [ref=f6e2540]:
+                  - generic [ref=f6e2541]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2542]':
+                      - generic [ref=f6e2544]: "8.4"
+                      - generic [ref=f6e2545]: (262K)
+                    - button "Rate Sunset Boulevard" [ref=f6e2546] [cursor=pointer]:
+                      - generic [ref=f6e2547]: Rate
+                  - button "Mark Sunset Boulevard as watched" [ref=f6e2550] [cursor=pointer]:
+                    - generic [ref=f6e2553]: Mark as watched
+              - button "See more information about Sunset Boulevard" [ref=f6e2555] [cursor=pointer]
+            - generic [ref=f6e2561]:
+              - group [ref=f6e2563]:
+                - generic [ref=f6e2564]:
+                  - img "Witness for the Prosecution (1957)"
+                - button "Add to Watchlist" [ref=f6e2565] [cursor=pointer]
+                - link "View title page for Witness for the Prosecution" [ref=f6e2570] [cursor=pointer]:
+                  - /url: /title/tt0051201/?ref_=chttp_i_65
+              - generic [ref=f6e2572]:
+                - text: "#65"
+                - link [ref=f6e2575] [cursor=pointer]:
+                  - /url: /title/tt0051201/?ref_=chttp_t_65
+                  - heading "Witness for the Prosecution" [level=4] [ref=f6e2576]
+                - generic [ref=f6e2577]: 1957 1h 56m Approved
+                - generic [ref=f6e2578]:
+                  - generic [ref=f6e2579]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2580]':
+                      - generic [ref=f6e2582]: "8.4"
+                      - generic [ref=f6e2583]: (163K)
+                    - button "Rate Witness for the Prosecution" [ref=f6e2584] [cursor=pointer]:
+                      - generic [ref=f6e2585]: Rate
+                  - button "Mark Witness for the Prosecution as watched" [ref=f6e2588] [cursor=pointer]:
+                    - generic [ref=f6e2591]: Mark as watched
+              - button "See more information about Witness for the Prosecution" [ref=f6e2593] [cursor=pointer]
+            - generic [ref=f6e2599]:
+              - group [ref=f6e2601]:
+                - generic [ref=f6e2602]:
+                  - img "Kirk Douglas in Paths of Glory (1957)"
+                - button "Add to Watchlist" [ref=f6e2603] [cursor=pointer]
+                - link "View title page for Paths of Glory" [ref=f6e2608] [cursor=pointer]:
+                  - /url: /title/tt0050825/?ref_=chttp_i_66
+              - generic [ref=f6e2610]:
+                - text: "#66"
+                - link [ref=f6e2613] [cursor=pointer]:
+                  - /url: /title/tt0050825/?ref_=chttp_t_66
+                  - heading "Paths of Glory" [level=4] [ref=f6e2614]
+                - generic [ref=f6e2615]: 1957 1h 28m Approved
+                - generic [ref=f6e2616]:
+                  - generic [ref=f6e2617]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2618]':
+                      - generic [ref=f6e2620]: "8.4"
+                      - generic [ref=f6e2621]: (240K)
+                    - button "Rate Paths of Glory" [ref=f6e2622] [cursor=pointer]:
+                      - generic [ref=f6e2623]: Rate
+                  - button "Mark Paths of Glory as watched" [ref=f6e2626] [cursor=pointer]:
+                    - generic [ref=f6e2629]: Mark as watched
+              - button "See more information about Paths of Glory" [ref=f6e2631] [cursor=pointer]
+            - generic [ref=f6e2637]:
+              - group [ref=f6e2639]:
+                - generic [ref=f6e2640]:
+                  - img "The Shining (1980)"
+                - button "Add to Watchlist" [ref=f6e2641] [cursor=pointer]
+                - link "View title page for The Shining" [ref=f6e2646] [cursor=pointer]:
+                  - /url: /title/tt0081505/?ref_=chttp_i_67
+              - generic [ref=f6e2648]:
+                - text: "#67"
+                - link [ref=f6e2651] [cursor=pointer]:
+                  - /url: /title/tt0081505/?ref_=chttp_t_67
+                  - heading "The Shining" [level=4] [ref=f6e2652]
+                - generic [ref=f6e2653]: 1980 2h 26m R
+                - generic [ref=f6e2654]:
+                  - generic [ref=f6e2655]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2656]':
+                      - generic [ref=f6e2658]: "8.4"
+                      - generic [ref=f6e2659]: (1.2M)
+                    - button "Rate The Shining" [ref=f6e2660] [cursor=pointer]:
+                      - generic [ref=f6e2661]: Rate
+                  - button "Mark The Shining as watched" [ref=f6e2664] [cursor=pointer]:
+                    - generic [ref=f6e2667]: Mark as watched
+              - button "See more information about The Shining" [ref=f6e2669] [cursor=pointer]
+            - generic [ref=f6e2675]:
+              - group [ref=f6e2677]:
+                - generic [ref=f6e2678]:
+                  - img "Charles Chaplin and Paulette Goddard in The Great Dictator (1940)"
+                - button "Add to Watchlist" [ref=f6e2679] [cursor=pointer]
+                - link "View title page for The Great Dictator" [ref=f6e2684] [cursor=pointer]:
+                  - /url: /title/tt0032553/?ref_=chttp_i_68
+              - generic [ref=f6e2686]:
+                - text: "#68"
+                - link [ref=f6e2689] [cursor=pointer]:
+                  - /url: /title/tt0032553/?ref_=chttp_t_68
+                  - heading "The Great Dictator" [level=4] [ref=f6e2690]
+                - generic [ref=f6e2691]: 1940 2h 5m G
+                - generic [ref=f6e2692]:
+                  - generic [ref=f6e2693]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2694]':
+                      - generic [ref=f6e2696]: "8.4"
+                      - generic [ref=f6e2697]: (259K)
+                    - button "Rate The Great Dictator" [ref=f6e2698] [cursor=pointer]:
+                      - generic [ref=f6e2699]: Rate
+                  - button "Mark The Great Dictator as watched" [ref=f6e2702] [cursor=pointer]:
+                    - generic [ref=f6e2705]: Mark as watched
+              - button "See more information about The Great Dictator" [ref=f6e2707] [cursor=pointer]
+            - generic [ref=f6e2713]:
+              - group [ref=f6e2715]:
+                - generic [ref=f6e2716]:
+                  - img "Brad Pitt, Til Schweiger, Daniel Brühl, Mélanie Laurent, Eli Roth, Christoph Waltz, and Diane Kruger in Inglourious Basterds (2009)"
+                - button "Add to Watchlist" [ref=f6e2717] [cursor=pointer]
+                - link "View title page for Inglourious Basterds" [ref=f6e2722] [cursor=pointer]:
+                  - /url: /title/tt0361748/?ref_=chttp_i_69
+              - generic [ref=f6e2724]:
+                - text: "#69"
+                - link [ref=f6e2727] [cursor=pointer]:
+                  - /url: /title/tt0361748/?ref_=chttp_t_69
+                  - heading "Inglourious Basterds" [level=4] [ref=f6e2728]
+                - generic [ref=f6e2729]: 2009 2h 33m R
+                - generic [ref=f6e2730]:
+                  - generic [ref=f6e2731]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2732]':
+                      - generic [ref=f6e2734]: "8.4"
+                      - generic [ref=f6e2735]: (1.8M)
+                    - button "Rate Inglourious Basterds" [ref=f6e2736] [cursor=pointer]:
+                      - generic [ref=f6e2737]: Rate
+                  - button "Mark Inglourious Basterds as watched" [ref=f6e2740] [cursor=pointer]:
+                    - generic [ref=f6e2743]: Mark as watched
+              - button "See more information about Inglourious Basterds" [ref=f6e2745] [cursor=pointer]
+            - generic [ref=f6e2751]:
+              - group [ref=f6e2753]:
+                - generic [ref=f6e2754]:
+                  - img "Sigourney Weaver and Carrie Henn in Aliens (1986)"
+                - button "Add to Watchlist" [ref=f6e2755] [cursor=pointer]
+                - link "View title page for Aliens" [ref=f6e2760] [cursor=pointer]:
+                  - /url: /title/tt0090605/?ref_=chttp_i_70
+              - generic [ref=f6e2762]:
+                - text: "#70"
+                - link [ref=f6e2765] [cursor=pointer]:
+                  - /url: /title/tt0090605/?ref_=chttp_t_70
+                  - heading "Aliens" [level=4] [ref=f6e2766]
+                - generic [ref=f6e2767]: 1986 2h 17m R
+                - generic [ref=f6e2768]:
+                  - generic [ref=f6e2769]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2770]':
+                      - generic [ref=f6e2772]: "8.4"
+                      - generic [ref=f6e2773]: (843K)
+                    - button "Rate Aliens" [ref=f6e2774] [cursor=pointer]:
+                      - generic [ref=f6e2775]: Rate
+                  - button "Mark Aliens as watched" [ref=f6e2778] [cursor=pointer]:
+                    - generic [ref=f6e2781]: Mark as watched
+              - button "See more information about Aliens" [ref=f6e2783] [cursor=pointer]
+            - generic [ref=f6e2789]:
+              - group [ref=f6e2791]:
+                - generic [ref=f6e2792]:
+                  - img "Vikrant Massey in 12th Fail (2023)"
+                - button "Add to Watchlist" [ref=f6e2793] [cursor=pointer]
+                - link "View title page for 12th Fail" [ref=f6e2798] [cursor=pointer]:
+                  - /url: /title/tt23849204/?ref_=chttp_i_71
+              - generic [ref=f6e2800]:
+                - text: "#71"
+                - link [ref=f6e2803] [cursor=pointer]:
+                  - /url: /title/tt23849204/?ref_=chttp_t_71
+                  - heading "12th Fail" [level=4] [ref=f6e2804]
+                - generic [ref=f6e2805]: 2023 2h 27m
+                - generic [ref=f6e2806]:
+                  - generic [ref=f6e2807]:
+                    - 'generic "IMDb rating: 8.7" [ref=f6e2808]':
+                      - generic [ref=f6e2810]: "8.7"
+                      - generic [ref=f6e2811]: (174K)
+                    - button "Rate 12th Fail" [ref=f6e2812] [cursor=pointer]:
+                      - generic [ref=f6e2813]: Rate
+                  - button "Mark 12th Fail as watched" [ref=f6e2816] [cursor=pointer]:
+                    - generic [ref=f6e2819]: Mark as watched
+              - button "See more information about 12th Fail" [ref=f6e2821] [cursor=pointer]
+            - generic [ref=f6e2827]:
+              - group [ref=f6e2829]:
+                - generic [ref=f6e2830]:
+                  - img "Toshirō Mifune, Kenjirō Ishiyama, Kyōko Kagawa, Tatsuya Mihashi, and Tatsuya Nakadai in High and Low (1963)"
+                - button "Add to Watchlist" [ref=f6e2831] [cursor=pointer]
+                - link "View title page for High and Low" [ref=f6e2836] [cursor=pointer]:
+                  - /url: /title/tt0057565/?ref_=chttp_i_72
+              - generic [ref=f6e2838]:
+                - text: "#72"
+                - link [ref=f6e2841] [cursor=pointer]:
+                  - /url: /title/tt0057565/?ref_=chttp_t_72
+                  - heading "High and Low" [level=4] [ref=f6e2842]
+                - generic [ref=f6e2843]: 1963 2h 23m Not Rated
+                - generic [ref=f6e2844]:
+                  - generic [ref=f6e2845]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2846]':
+                      - generic [ref=f6e2848]: "8.4"
+                      - generic [ref=f6e2849]: (73K)
+                    - button "Rate High and Low" [ref=f6e2850] [cursor=pointer]:
+                      - generic [ref=f6e2851]: Rate
+                  - button "Mark High and Low as watched" [ref=f6e2854] [cursor=pointer]:
+                    - generic [ref=f6e2857]: Mark as watched
+              - button "See more information about High and Low" [ref=f6e2859] [cursor=pointer]
+            - generic [ref=f6e2865]:
+              - group [ref=f6e2867]:
+                - generic [ref=f6e2868]:
+                  - 'img "Don Cheadle, Robert Downey Jr., Josh Brolin, Bradley Cooper, Chris Evans, Scarlett Johansson, Brie Larson, Jeremy Renner, Paul Rudd, Mark Ruffalo, Chris Hemsworth, Danai Gurira, and Karen Gillan in Avengers: Endgame (2019)"'
+                - button "Add to Watchlist" [ref=f6e2869] [cursor=pointer]
+                - 'link "View title page for Avengers: Endgame" [ref=f6e2874] [cursor=pointer]':
+                  - /url: /title/tt4154796/?ref_=chttp_i_73
+              - generic [ref=f6e2876]:
+                - text: "#73"
+                - link [ref=f6e2879] [cursor=pointer]:
+                  - /url: /title/tt4154796/?ref_=chttp_t_73
+                  - 'heading "Avengers: Endgame" [level=4] [ref=f6e2880]'
+                - generic [ref=f6e2881]: 2019 3h 1m PG-13
+                - generic [ref=f6e2882]:
+                  - generic [ref=f6e2883]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2884]':
+                      - generic [ref=f6e2886]: "8.4"
+                      - generic [ref=f6e2887]: (1.5M)
+                    - 'button "Rate Avengers: Endgame" [ref=f6e2888] [cursor=pointer]':
+                      - generic [ref=f6e2889]: Rate
+                  - 'button "Mark Avengers: Endgame as watched" [ref=f6e2892] [cursor=pointer]':
+                    - generic [ref=f6e2895]: Mark as watched
+              - 'button "See more information about Avengers: Endgame" [ref=f6e2897] [cursor=pointer]'
+            - generic [ref=f6e2903]:
+              - group [ref=f6e2905]:
+                - generic [ref=f6e2906]:
+                  - img "Robin Williams and Matt Damon in Good Will Hunting (1997)"
+                - button "Add to Watchlist" [ref=f6e2907] [cursor=pointer]
+                - link "View title page for Good Will Hunting" [ref=f6e2912] [cursor=pointer]:
+                  - /url: /title/tt0119217/?ref_=chttp_i_74
+              - generic [ref=f6e2914]:
+                - text: "#74"
+                - link [ref=f6e2917] [cursor=pointer]:
+                  - /url: /title/tt0119217/?ref_=chttp_t_74
+                  - heading "Good Will Hunting" [level=4] [ref=f6e2918]
+                - generic [ref=f6e2919]: 1997 2h 6m R
+                - generic [ref=f6e2920]:
+                  - generic [ref=f6e2921]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2922]':
+                      - generic [ref=f6e2924]: "8.4"
+                      - generic [ref=f6e2925]: (1.2M)
+                    - button "Rate Good Will Hunting" [ref=f6e2926] [cursor=pointer]:
+                      - generic [ref=f6e2927]: Rate
+                  - button "Mark Good Will Hunting as watched" [ref=f6e2930] [cursor=pointer]:
+                    - generic [ref=f6e2933]: Mark as watched
+              - button "See more information about Good Will Hunting" [ref=f6e2935] [cursor=pointer]
+            - generic [ref=f6e2941]:
+              - group [ref=f6e2943]:
+                - generic [ref=f6e2944]:
+                  - img "Alfonso Arau, Benjamin Bratt, Alanna Ubach, Gael García Bernal, Dyana Ortelli, Herbert Siguenza, and Anthony Gonzalez in Coco (2017)"
+                - button "Add to Watchlist" [ref=f6e2945] [cursor=pointer]
+                - link "View title page for Coco" [ref=f6e2950] [cursor=pointer]:
+                  - /url: /title/tt2380307/?ref_=chttp_i_75
+              - generic [ref=f6e2952]:
+                - text: "#75"
+                - link [ref=f6e2955] [cursor=pointer]:
+                  - /url: /title/tt2380307/?ref_=chttp_t_75
+                  - heading "Coco" [level=4] [ref=f6e2956]
+                - generic [ref=f6e2957]: 2017 1h 45m PG
+                - generic [ref=f6e2958]:
+                  - generic [ref=f6e2959]:
+                    - 'generic "IMDb rating: 8.4" [ref=f6e2960]':
+                      - generic [ref=f6e2962]: "8.4"
+                      - generic [ref=f6e2963]: (716K)
+                    - button "Rate Coco" [ref=f6e2964] [cursor=pointer]:
+                      - generic [ref=f6e2965]: Rate
+                  - button "Mark Coco as watched" [ref=f6e2968] [cursor=pointer]:
+                    - generic [ref=f6e2971]: Mark as watched
+              - button "See more information about Coco" [ref=f6e2973] [cursor=pointer]
+            - generic [ref=f6e2976]:
+              - paragraph [ref=f6e2977]: The top rated movie list only includes feature films.
+              - list [ref=f6e2978]:
+                - listitem [ref=f6e2979]: Shorts, TV movies, and documentaries are not included
+                - listitem [ref=f6e2980]: The list is ranked by a formula which includes the number of ratings each movie received from users, and value of ratings received from regular users
+                - listitem [ref=f6e2981]: To be included on the list, a movie must receive ratings from at least 25000 users
+              - link "Learn more about how list ranking is determined." [ref=f6e2982] [cursor=pointer]:
+                - /url: https://help.imdb.com/article/imdb/featured-content/why-doesn-t-a-title-with-the-average-user-vote-of-9-4-appear-in-your-top-250-movies-or-tv-list/GTU67Q5QQ8W53RJT?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=1a264172-ae11-42e4-8ef7-7fed1973bb8f&pf_rd_r=YBZT6MRVGM65WJJZPKR8&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=cons_chttp_learnmore
+          - generic [ref=f6e2988]:
+            - heading "Chart insights" [level=3] [ref=f6e2992]
+            - heading "More to explore" [level=3] [ref=f6e2996]
+    - generic [ref=f6e2998]:
+      - generic [ref=f6e3001]:
+        - heading "Recently viewed" [level=3] [ref=f6e3004]
+        - generic [ref=f6e3005]: You have no recently viewed pages
+      - complementary "Bottom Sponsored Advertisement":
+        - button "Close advertisement" [ref=f6e3011] [cursor=pointer]
+    - contentinfo [ref=f6e3018]:
+      - link "Get the IMDb app" [ref=f6e3020] [cursor=pointer]:
+        - /url: https://slyb.app.link/SKdyQ6A449
+      - link "Sign in for more access" [ref=f6e3023] [cursor=pointer]:
+        - /url: /registration/signin/?u=%2Fchart%2Ftop%2F&ref_=chttp_ftr_reg
+      - generic [ref=f6e3025]:
+        - generic [ref=f6e3026]:
+          - link "TikTok" [ref=f6e3027] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@imdb
+          - link "Instagram" [ref=f6e3029] [cursor=pointer]:
+            - /url: https://instagram.com/imdb
+          - link "Twitter" [ref=f6e3032] [cursor=pointer]:
+            - /url: https://twitter.com/imdb
+          - link "YouTube" [ref=f6e3034] [cursor=pointer]:
+            - /url: https://youtube.com/imdb/
+          - link "Facebook" [ref=f6e3036] [cursor=pointer]:
+            - /url: https://facebook.com/imdb
+        - generic [ref=f6e3038]:
+          - link "Help" [ref=f6e3039] [cursor=pointer]:
+            - /url: https://help.imdb.com/imdb
+          - link "Site Index" [ref=f6e3041] [cursor=pointer]:
+            - /url: https://help.imdb.com/article/imdb/general-information/imdb-site-index/GNCX7BHNSPBTFALQ#so
+          - link "IMDbPro" [ref=f6e3043] [cursor=pointer]:
+            - /url: https://pro.imdb.com?ref_=cons_tf_pro&rf=cons_tf_pro
+          - link "Box Office Mojo" [ref=f6e3045] [cursor=pointer]:
+            - /url: https://www.boxofficemojo.com
+          - link "License IMDb Data" [ref=f6e3047] [cursor=pointer]:
+            - /url: https://developer.imdb.com/
+        - generic [ref=f6e3049]:
+          - link "Press Room" [ref=f6e3050] [cursor=pointer]:
+            - /url: /pressroom/?ref_=chttp_ftr
+          - link "Advertising" [ref=f6e3051] [cursor=pointer]:
+            - /url: https://advertising.amazon.com/resources/ad-specs/imdb/
+          - link "Jobs" [ref=f6e3053] [cursor=pointer]:
+            - /url: https://www.amazon.jobs/en/teams/imdb
+          - link "Conditions of Use" [ref=f6e3055] [cursor=pointer]:
+            - /url: /conditions/?ref_=chttp_ftr
+          - link "Privacy Policy" [ref=f6e3056] [cursor=pointer]:
+            - /url: /privacy/?ref_=chttp_ftr
+          - generic [ref=f6e3057]:
+            - link "Your Ads Privacy Choices" [ref=f6e3058] [cursor=pointer]:
+              - /url: /privacy/redirect/?ref_=chttp_ftr
+            - link "Your Ads Privacy Choices" [ref=f6e3071] [cursor=pointer]:
+              - /url: /privacy/redirect/?ref_=chttp_ftr
+      - img "IMDb, an Amazon company" [ref=f6e3073]
+      - paragraph [ref=f6e3109]: © 1990-2026 by IMDb.com, Inc.
+    - button "Back to top" [ref=f6e3110] [cursor=pointer]
+    - status
+  - alert [ref=f6e3114]

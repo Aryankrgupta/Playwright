@@ -1,0 +1,192 @@
+- generic [active] [ref=f11e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f11e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f11e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f11e6]:
+    - search [ref=f11e7]:
+      - generic [ref=f11e10]:
+        - link [ref=f11e11] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwj-poeio9qVAxXVplYBHUVBD0QQpYkNCAk
+          - img "Go to Google Home" [ref=f11e12]
+        - generic [ref=f11e17]:
+          - combobox "Search" [ref=f11e20]: latest AI news latest AI news
+          - generic [ref=f11e21]:
+            - button "Clear" [ref=f11e23] [cursor=pointer]
+            - button "Search by voice" [ref=f11e29] [cursor=pointer]
+        - button "Google Search" [ref=f11e32] [cursor=pointer]
+    - generic [ref=f11e37]:
+      - button "Settings" [ref=f11e39] [cursor=pointer]
+      - generic [ref=f11e45]:
+        - button "Google apps" [ref=f11e47] [cursor=pointer]
+        - link "Sign in" [ref=f11e52] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fsca_esv%3Dc9dcfb7559f67e19%26q%3Dlatest%2BAI%2Bnews%26tbm%3Dnws%26source%3Dlnms%26fbs%3DABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw%26sa%3DX%26ved%3D2ahUKEwjDktiFo9qVAxV_xzgGHeK6KV0Q0pQJegQIFxAB%26biw%3D929%26bih%3D917%26dpr%3D1&ec=futura_srp_og_si_72236_p
+  - generic [ref=f11e54]:
+    - navigation [ref=f11e60]:
+      - generic [ref=f11e66]:
+        - list [ref=f11e67]:
+          - listitem [ref=f11e68]:
+            - link "AI Mode" [ref=f11e71] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sa=X&sca_esv=c9dcfb7559f67e19&biw=929&bih=917&udm=50&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&aep=1&ntc=1&cs=0&ved=2ahUKEwj-poeio9qVAxXVplYBHUVBD0QQ2J8OegQIAxAD
+          - listitem [ref=f11e75]:
+            - link "All" [ref=f11e76] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&biw=929&bih=917&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&sa=X&ved=2ahUKEwj-poeio9qVAxXVplYBHUVBD0QQ0pQJegQIAxAF
+          - listitem [ref=f11e79]:
+            - link "News" [disabled] [ref=f11e80]
+          - listitem [ref=f11e83]:
+            - link "Videos" [ref=f11e84] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sa=X&sca_esv=c9dcfb7559f67e19&biw=929&bih=917&udm=7&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&ved=2ahUKEwj-poeio9qVAxXVplYBHUVBD0QQtKgLegQIAxAJ
+          - listitem [ref=f11e87]:
+            - link "Images" [ref=f11e88] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sa=X&sca_esv=c9dcfb7559f67e19&biw=929&bih=917&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&ved=2ahUKEwj-poeio9qVAxXVplYBHUVBD0QQtKgLegQIAxAL
+          - listitem [ref=f11e91]:
+            - link "Short videos" [ref=f11e92] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sa=X&sca_esv=c9dcfb7559f67e19&biw=929&bih=917&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&ved=2ahUKEwj-poeio9qVAxXVplYBHUVBD0QQs6gLegQIAxAN
+          - listitem [ref=f11e95]:
+            - link "Forums" [ref=f11e96] [cursor=pointer]:
+              - /url: /search?q=latest+AI+news&sa=X&sca_esv=c9dcfb7559f67e19&biw=929&bih=917&udm=18&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ-WwsgSXs3G1Acf3uFzybY10s1hrAwRiNmX-q6YMPsVr2QkqZioRMQKZF9UUINOoBZnwaQLELmD_6kQBvGF_aMyM45UK547PlPXI2XBn76pwCTfnXoLWW5KsqIlXak61-R3HGYRQyQhFAS-XrgtyBhbmVS3MHZ5RvmLD6wKUxomjmuovHw&ved=2ahUKEwj-poeio9qVAxXVplYBHUVBD0QQs6gLegQIAxAP
+          - listitem [ref=f11e99]:
+            - button [ref=f11e100] [cursor=pointer]:
+              - generic "More filters" [ref=f11e101]: More
+        - button "Tools" [ref=f11e108] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f11e115]
+    - navigation
+    - main [ref=f11e121]:
+      - generic [ref=f11e127]:
+        - link "CNN Nasdaq drops 1% after China’s latest AI breakthrough rattles tech stocks Stocks in Asia and the United States fell Friday after technological advances announced by a Chinese artificial intelligence company... . 6 hours ago" [ref=f11e131] [cursor=pointer]:
+          - /url: https://www.cnn.com/2026/07/17/investing/us-stocks-asia
+          - generic [ref=f11e136]:
+            - generic [ref=f11e137]: CNN
+            - heading "Nasdaq drops 1% after China’s latest AI breakthrough rattles tech stocks" [level=3] [ref=f11e141]
+            - generic [ref=f11e142]: Stocks in Asia and the United States fell Friday after technological advances announced by a Chinese artificial intelligence company...
+            - generic [ref=f11e143]: .
+            - generic: 6 hours ago
+        - link "blog.google The latest AI news we announced in June 2026 Discover the June Pixel Drop. We rolled out new features and Gemini upgrades designed to make your device more creative and secure. This update... . 2 weeks ago" [ref=f11e148] [cursor=pointer]:
+          - /url: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/
+          - generic [ref=f11e153]:
+            - generic [ref=f11e154]: blog.google
+            - heading "The latest AI news we announced in June 2026" [level=3] [ref=f11e158]
+            - generic [ref=f11e159]: Discover the June Pixel Drop. We rolled out new features and Gemini upgrades designed to make your device more creative and secure. This update...
+            - generic [ref=f11e160]: .
+            - generic: 2 weeks ago
+        - link "News On AIR Finance Minister Nirmala Sitharaman, IT Minister Ashwini Vaishnaw chair meeting on AI-linked risks in banking sector Union Finance Minister Nirmala Sitharaman and Electronics and IT Minister Ashwini Vaishnaw chaired a high-level meeting with Scheduled... . 1 day ago" [ref=f11e165] [cursor=pointer]:
+          - /url: https://newsonair.gov.in/finance-minister-nirmala-sitharaman-it-minister-ashwini-vaishnaw-chair-meeting-on-ai-linked-risks-in-banking-sector/
+          - generic [ref=f11e170]:
+            - generic [ref=f11e171]: News On AIR
+            - heading "Finance Minister Nirmala Sitharaman, IT Minister Ashwini Vaishnaw chair meeting on AI-linked risks in banking sector" [level=3] [ref=f11e175]
+            - generic [ref=f11e176]: Union Finance Minister Nirmala Sitharaman and Electronics and IT Minister Ashwini Vaishnaw chaired a high-level meeting with Scheduled...
+            - generic [ref=f11e177]: .
+            - generic: 1 day ago
+        - link "Simply Wall Street Latest News In AI Chips - Palomino Expands AI Market Reach with Vega Links Acquisition Palomino Laboratories has signed a binding Letter of Intent to acquire Vega Links Inc., aiming to transform itself into a comprehensive AI... . 7 hours ago" [ref=f11e182] [cursor=pointer]:
+          - /url: https://simplywall.st/stocks/us/semiconductors/nasdaq-nvda/nvidia/news/latest-news-in-ai-chips-palomino-expands-ai-market-reach-wit
+          - generic [ref=f11e187]:
+            - generic [ref=f11e188]: Simply Wall Street
+            - heading "Latest News In AI Chips - Palomino Expands AI Market Reach with Vega Links Acquisition" [level=3] [ref=f11e192]
+            - generic [ref=f11e193]: Palomino Laboratories has signed a binding Letter of Intent to acquire Vega Links Inc., aiming to transform itself into a comprehensive AI...
+            - generic [ref=f11e194]: .
+            - generic: 7 hours ago
+        - 'link "UN News AI explained: Why the world needs to act now Just a few years ago, it could answer questions or generate text. Today, it can write computer code, analyse vast amounts of data,... . 2 weeks ago" [ref=f11e199] [cursor=pointer]':
+          - /url: https://news.un.org/en/story/2026/07/1167848
+          - generic [ref=f11e204]:
+            - generic [ref=f11e205]: UN News
+            - 'heading "AI explained: Why the world needs to act now" [level=3] [ref=f11e209]'
+            - generic [ref=f11e210]: Just a few years ago, it could answer questions or generate text. Today, it can write computer code, analyse vast amounts of data,...
+            - generic [ref=f11e211]: .
+            - generic: 2 weeks ago
+        - 'link "Fox News IBM sends AI warning, Jamie Dimon urges calm over workforce fears: Newsletter Stay up to date on the latest AI technology advancements and learn about the challenges and opportunities AI presents. By Fox News Staff Fox... . 1 hour ago" [ref=f11e216] [cursor=pointer]':
+          - /url: https://www.foxnews.com/tech/ai-newsletter-ibm-ai-warning-sends-shockwave
+          - generic [ref=f11e221]:
+            - generic [ref=f11e222]: Fox News
+            - 'heading "IBM sends AI warning, Jamie Dimon urges calm over workforce fears: Newsletter" [level=3] [ref=f11e226]'
+            - generic [ref=f11e227]: Stay up to date on the latest AI technology advancements and learn about the challenges and opportunities AI presents. By Fox News Staff Fox...
+            - generic [ref=f11e228]: .
+            - generic: 1 hour ago
+        - 'link "www.marketscreener.com Latest news from Tatton Investment Management: AI froth coming off The summer lull has arrived early. Broad stock indices, bonds and even oil prices have bounced up and down over the last two weeks without... . 2 hours ago" [ref=f11e233] [cursor=pointer]':
+          - /url: https://www.marketscreener.com/news/latest-news-from-tatton-investment-management-ai-froth-coming-off-ce7f51dadb80f32d
+          - generic [ref=f11e238]:
+            - generic [ref=f11e239]: www.marketscreener.com
+            - 'heading "Latest news from Tatton Investment Management: AI froth coming off" [level=3] [ref=f11e243]'
+            - generic [ref=f11e244]: The summer lull has arrived early. Broad stock indices, bonds and even oil prices have bounced up and down over the last two weeks without...
+            - generic [ref=f11e245]: .
+            - generic: 2 hours ago
+        - link "The Verge All the latest updates on AI data centers Stay posted on major developments and controversies surrounding AI data centers and their impact on power grids and communities. . 2 days ago" [ref=f11e250] [cursor=pointer]:
+          - /url: https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy
+          - generic [ref=f11e255]:
+            - generic [ref=f11e256]: The Verge
+            - heading "All the latest updates on AI data centers" [level=3] [ref=f11e260]
+            - generic [ref=f11e261]: Stay posted on major developments and controversies surrounding AI data centers and their impact on power grids and communities.
+            - generic [ref=f11e262]: .
+            - generic: 2 days ago
+        - 'link "ETEnterpriseai.com Apple’s latest AI tools fuel fresh innovation plans among Indian app makers: Report Making AI Work: Apple unveils advanced AI, design, and developer tools aimed at enhancing user experiences and productivity, with a focus on... . 3 weeks ago" [ref=f11e267] [cursor=pointer]':
+          - /url: https://enterpriseai.economictimes.indiatimes.com/news/industry/apples-ai-innovations-spark-excitement-among-indian-app-developers/131906086
+          - generic [ref=f11e272]:
+            - generic [ref=f11e273]: ETEnterpriseai.com
+            - 'heading "Apple’s latest AI tools fuel fresh innovation plans among Indian app makers: Report" [level=3] [ref=f11e277]'
+            - generic [ref=f11e278]: "Making AI Work: Apple unveils advanced AI, design, and developer tools aimed at enhancing user experiences and productivity, with a focus on..."
+            - generic [ref=f11e279]: .
+            - generic: 3 weeks ago
+        - link "Kashmir Life Has AI Governance Reached a Turning Point? by Michael Froman. Follow Us OnG-News | Whatsapp. A US ban on advanced AI models exposes regulatory gaps, national security concerns,... . 3 weeks ago" [ref=f11e284] [cursor=pointer]:
+          - /url: https://kashmirlife.net/has-ai-governance-reached-a-turning-point-441169/
+          - generic [ref=f11e289]:
+            - generic [ref=f11e290]: Kashmir Life
+            - heading "Has AI Governance Reached a Turning Point?" [level=3] [ref=f11e294]
+            - generic [ref=f11e295]: by Michael Froman. Follow Us OnG-News | Whatsapp. A US ban on advanced AI models exposes regulatory gaps, national security concerns,...
+            - generic [ref=f11e296]: .
+            - generic: 3 weeks ago
+      - navigation [ref=f11e300]:
+        - heading "Page navigation" [level=1] [ref=f11e301]
+        - text: "1"
+        - link "Page 2" [ref=f11e304] [cursor=pointer]:
+          - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&biw=929&bih=917&tbm=nws&ei=mGtaav76BtXN2roPxYK9oAQ&start=10&sa=N&ved=2ahUKEwj-poeio9qVAxXVplYBHUVBD0QQ8tMDegQIHRAE
+          - text: "2"
+        - link "Page 3" [ref=f11e306] [cursor=pointer]:
+          - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&biw=929&bih=917&tbm=nws&ei=mGtaav76BtXN2roPxYK9oAQ&start=20&sa=N&ved=2ahUKEwj-poeio9qVAxXVplYBHUVBD0QQ8tMDegQIHRAG
+          - text: "3"
+        - link "Page 4" [ref=f11e308] [cursor=pointer]:
+          - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&biw=929&bih=917&tbm=nws&ei=mGtaav76BtXN2roPxYK9oAQ&start=30&sa=N&ved=2ahUKEwj-poeio9qVAxXVplYBHUVBD0QQ8tMDegQIHRAI
+          - text: "4"
+        - link "Page 5" [ref=f11e310] [cursor=pointer]:
+          - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&biw=929&bih=917&tbm=nws&ei=mGtaav76BtXN2roPxYK9oAQ&start=40&sa=N&ved=2ahUKEwj-poeio9qVAxXVplYBHUVBD0QQ8tMDegQIHRAK
+          - text: "5"
+        - link "Page 6" [ref=f11e312] [cursor=pointer]:
+          - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&biw=929&bih=917&tbm=nws&ei=mGtaav76BtXN2roPxYK9oAQ&start=50&sa=N&ved=2ahUKEwj-poeio9qVAxXVplYBHUVBD0QQ8tMDegQIHRAM
+          - text: "6"
+        - link "Page 7" [ref=f11e314] [cursor=pointer]:
+          - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&biw=929&bih=917&tbm=nws&ei=mGtaav76BtXN2roPxYK9oAQ&start=60&sa=N&ved=2ahUKEwj-poeio9qVAxXVplYBHUVBD0QQ8tMDegQIHRAO
+          - text: "7"
+        - link "Page 8" [ref=f11e316] [cursor=pointer]:
+          - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&biw=929&bih=917&tbm=nws&ei=mGtaav76BtXN2roPxYK9oAQ&start=70&sa=N&ved=2ahUKEwj-poeio9qVAxXVplYBHUVBD0QQ8tMDegQIHRAQ
+          - text: "8"
+        - link "Page 9" [ref=f11e318] [cursor=pointer]:
+          - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&biw=929&bih=917&tbm=nws&ei=mGtaav76BtXN2roPxYK9oAQ&start=80&sa=N&ved=2ahUKEwj-poeio9qVAxXVplYBHUVBD0QQ8tMDegQIHRAS
+          - text: "9"
+        - link "Page 10" [ref=f11e320] [cursor=pointer]:
+          - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&biw=929&bih=917&tbm=nws&ei=mGtaav76BtXN2roPxYK9oAQ&start=90&sa=N&ved=2ahUKEwj-poeio9qVAxXVplYBHUVBD0QQ8tMDegQIHRAU
+          - text: "10"
+        - heading [level=2] [ref=f11e322]:
+          - link "Next" [ref=f11e323] [cursor=pointer]:
+            - /url: /search?q=latest+AI+news&sca_esv=c9dcfb7559f67e19&biw=929&bih=917&tbm=nws&ei=mGtaav76BtXN2roPxYK9oAQ&start=10&sa=N&ved=2ahUKEwj-poeio9qVAxXVplYBHUVBD0QQ8NMDegQIHRAW
+      - navigation
+    - contentinfo [ref=f11e326]:
+      - heading "Footer links" [level=1] [ref=f11e327]
+      - generic [ref=f11e331]:
+        - generic [ref=f11e333]:
+          - text: India
+          - generic [ref=f11e335]:
+            - button "Patna Rural, Bihar - Based on your past activity" [ref=f11e337] [cursor=pointer]:
+              - generic [ref=f11e338]: Patna Rural, Bihar
+              - generic [ref=f11e340]:
+                - text: "-"
+                - generic [ref=f11e341]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=f11e343] [cursor=pointer]
+        - generic [ref=f11e346]:
+          - link "Help" [ref=f11e347] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=f11e348] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f11e349] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f11e350] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1
