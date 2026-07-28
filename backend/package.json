@@ -10,12 +10,17 @@
     "postinstall": "npx playwright install --with-deps chromium"
   },
   "dependencies": {
-  "@modelcontextprotocol/sdk": "^1.6.0",
-  "@playwright/mcp": "^0.0.78",
-  "cors": "^2.8.5",
-  "dotenv": "^16.4.5",
-  "express": "^4.21.1",
-  "openai": "^4.77.0"
+    "@modelcontextprotocol/sdk": "^1.6.0",
+    "@playwright/mcp": "^0.0.78",
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "google-search-cli": "github:web-agent-master/google-search",
+    "openai": "^4.77.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "recaptcha-solver": "^0.3.0"
   },
   "engines": {
     "node": ">=20"

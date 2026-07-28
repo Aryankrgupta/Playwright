@@ -1,0 +1,607 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Online Quality Survey" [ref=e2]:
+    - iframe [ref=e3]:
+      
+  - generic [ref=e5]:
+    - link "Skip to content" [ref=e6] [cursor=pointer]:
+      - /url: "#bbc-main"
+    - banner [ref=e8]:
+      - generic [ref=e9]:
+        - button "Open menu" [ref=e11] [cursor=pointer]
+        - link "British Broadcasting Corporation" [ref=e20] [cursor=pointer]:
+          - /url: /
+          - img "British Broadcasting Corporation" [ref=e21]
+        - generic [ref=e24]:
+          - link [ref=e26] [cursor=pointer]:
+            - /url: https://session.bbc.com/session?action=register&userOrigin=BBCS_BBC&ptrt=https%3A%2F%2Fwww.bbc.com%2Fnews
+            - button "Register" [ref=e27]
+          - link [ref=e30] [cursor=pointer]:
+            - /url: https://session.bbc.com/session?userOrigin=BBCS_BBC&ptrt=https%3A%2F%2Fwww.bbc.com%2Fnews
+            - button "Sign In" [ref=e31]
+    - navigation
+    - main [ref=e33]:
+      - article [ref=e34]:
+        - heading [level=1] [ref=e41]:
+          - img "News" [ref=e42]
+        - generic [ref=e46]:
+          - generic [ref=e49]:
+            - link [ref=e53] [cursor=pointer]:
+              - /url: /news/articles/cg4dzq3x3e1o
+              - img "U.S. President Donald Trump speaks with Canada's Prime Minister Mark Carney at a meeting of the North Atlantic Council (NAC) during the NATO leaders' summit in Ankara, Turkey, July 8, 2026." [ref=e55]
+            - link "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks The duties mark a major escalation in trade tensions between the North American neighbours. 37 mins ago Business" [ref=e59] [cursor=pointer]:
+              - /url: /news/articles/cg4dzq3x3e1o
+              - generic [ref=e60]:
+                - heading "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks" [level=2] [ref=e63]
+                - paragraph [ref=e64]: The duties mark a major escalation in trade tensions between the North American neighbours.
+                - generic [ref=e65]:
+                  - generic [ref=e66]: 37 mins ago
+                  - generic: Business
+          - generic [ref=e69]:
+            - link "US service members aboard the USS Boxer amphibious assault ship watch a US fighter jet in flight. File photo US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers The US says the attacks were aimed at degrading Iran's capabilities to attack ships in the Strait of Hormuz. 2 hrs ago World" [ref=e73] [cursor=pointer]:
+              - /url: /news/articles/cx25wg2x26do
+              - generic [ref=e74]:
+                - img "US service members aboard the USS Boxer amphibious assault ship watch a US fighter jet in flight. File photo" [ref=e78]
+                - generic [ref=e79]:
+                  - heading "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers" [level=2] [ref=e82]
+                  - paragraph [ref=e83]: The US says the attacks were aimed at degrading Iran's capabilities to attack ships in the Strait of Hormuz.
+                  - generic [ref=e84]:
+                    - generic [ref=e85]: 2 hrs ago
+                    - generic: World
+            - link "Video appears to show confrontation between Chinese and Philippine navy vessels A member of the Chinese Coast Guard appears to strike someone using a wooden baton on a Philippine Navy vessel, according to the Philippine Armed Forces. 4 hrs ago" [ref=e90] [cursor=pointer]:
+              - /url: /news/videos/c9w0l50wegzo
+              - generic [ref=e92]:
+                - heading "Video appears to show confrontation between Chinese and Philippine navy vessels" [level=2] [ref=e98]
+                - paragraph [ref=e99]: A member of the Chinese Coast Guard appears to strike someone using a wooden baton on a Philippine Navy vessel, according to the Philippine Armed Forces.
+                - generic [ref=e100]: 4 hrs ago
+            - link "The 20-somethings betting big on tech stocks The BBC hears from people about the risks and rewards of investing in technology shares. 10 hrs ago Business" [ref=e105] [cursor=pointer]:
+              - /url: /news/articles/c20yz9v1llro
+              - generic [ref=e107]:
+                - heading "The 20-somethings betting big on tech stocks" [level=2] [ref=e110]
+                - paragraph [ref=e111]: The BBC hears from people about the risks and rewards of investing in technology shares.
+                - generic [ref=e112]:
+                  - generic [ref=e113]: 10 hrs ago
+                  - generic: Business
+          - generic [ref=e116]:
+            - link "Close-Up of Mother Holding Newborn Baby in Living Room LIVE Nineteen found guilty of trafficking babies in Indonesia and Singapore The baby trafficking ring illegally bought infants and sold them for adoption, a court has found." [ref=e120] [cursor=pointer]:
+              - /url: https://www.bbc.com/news/live/c330d4ee4znt
+              - generic [ref=e121]:
+                - img "Close-Up of Mother Holding Newborn Baby in Living Room" [ref=e125]
+                - generic [ref=e126]:
+                  - generic [ref=e128]:
+                    - generic [ref=e129]: LIVE
+                    - heading "Nineteen found guilty of trafficking babies in Indonesia and Singapore" [level=2] [ref=e134]
+                  - paragraph [ref=e135]: The baby trafficking ring illegally bought infants and sold them for adoption, a court has found.
+            - link "Split screen of BBC reporters Tessa Wong and Astudestra Ajengrastri in offices A baby trafficking ring has been convicted - but what now for the babies? Nineteen people in Indonesia have been convicted for trafficking at least 34 babies, but the biggest question wasn’t answered in court - what happens to the children now? 2 hrs ago Asia" [ref=e140] [cursor=pointer]:
+              - /url: /news/videos/c3w0exe7g62o
+              - generic [ref=e141]:
+                - img "Split screen of BBC reporters Tessa Wong and Astudestra Ajengrastri in offices" [ref=e145]
+                - generic [ref=e150]:
+                  - heading "A baby trafficking ring has been convicted - but what now for the babies?" [level=2] [ref=e153]
+                  - paragraph [ref=e154]: Nineteen people in Indonesia have been convicted for trafficking at least 34 babies, but the biggest question wasn’t answered in court - what happens to the children now?
+                  - generic [ref=e155]:
+                    - generic [ref=e156]: 2 hrs ago
+                    - generic: Asia
+            - link "A young by with dark hair smiles at the camera 'If only people knew what a tick could do' - the deadly meat allergy caused by tick bites Mammalian meat allergy is a growing problem along Australia's east coast - and it's caused by tick bites. 14 hrs ago Australia" [ref=e161] [cursor=pointer]:
+              - /url: /news/articles/cj6g03567edo
+              - generic [ref=e162]:
+                - img "A young by with dark hair smiles at the camera" [ref=e166]
+                - generic [ref=e167]:
+                  - heading "'If only people knew what a tick could do' - the deadly meat allergy caused by tick bites" [level=2] [ref=e170]
+                  - paragraph [ref=e171]: Mammalian meat allergy is a growing problem along Australia's east coast - and it's caused by tick bites.
+                  - generic [ref=e172]:
+                    - generic [ref=e173]: 14 hrs ago
+                    - generic: Australia
+            - link "Burnham outside No 10 LIVE Burnham to remove VAT from household electricity bills in first major policy announcement as PM The rate will be cut from 5% to 0% in October. On Monday, the new prime minister pledged to provide \"breathing space\" for people struggling with the cost of living." [ref=e178] [cursor=pointer]:
+              - /url: https://www.bbc.com/news/live/cgrkv8e8l9qt
+              - generic [ref=e179]:
+                - img "Burnham outside No 10" [ref=e183]
+                - generic [ref=e184]:
+                  - generic [ref=e186]:
+                    - generic [ref=e187]: LIVE
+                    - heading "Burnham to remove VAT from household electricity bills in first major policy announcement as PM" [level=2] [ref=e192]
+                  - paragraph [ref=e193]: The rate will be cut from 5% to 0% in October. On Monday, the new prime minister pledged to provide "breathing space" for people struggling with the cost of living.
+        - generic [ref=e197]:
+          - link [ref=e200] [cursor=pointer]:
+            - /url: /news/videos/c0l5gg5ye5ro
+            - heading "BBC reveals official report into deadly military jet crash at school" [level=2] [ref=e207]
+          - link [ref=e210] [cursor=pointer]:
+            - /url: /news/articles/cj03rr03008o
+            - heading "At least 20 dead and more than 100 missing in Afghan floods" [level=2] [ref=e214]
+          - link [ref=e217] [cursor=pointer]:
+            - /url: /sport/football/articles/clyxjk0z5y7o
+            - heading "Fifa opens investigation into Argentina post-final trouble" [level=2] [ref=e221]
+          - link [ref=e224] [cursor=pointer]:
+            - /url: /news/videos/c78g69nddgeo
+            - 'heading "Watch: Spain World Cup champions receive royal welcome in Madrid" [level=2] [ref=e231]'
+          - link [ref=e234] [cursor=pointer]:
+            - /url: /news/articles/cm2gm99nrm7o
+            - heading "At least 27 dead and 83 missing after passenger ferry capsizes off Guyana" [level=2] [ref=e238]
+        - generic [ref=e240]:
+          - generic [ref=e241]:
+            - separator [ref=e243]
+            - heading "UK's new prime minister" [level=2] [ref=e246]
+          - generic [ref=e247]:
+            - link [ref=e250] [cursor=pointer]:
+              - /url: /news/articles/c24mnnnd18do
+              - generic [ref=e251]:
+                - img "Newly appointed Chancellor of the Exchequer John Healey leaves 10 Downing Street on 20 July 2026, wearing a red tie and black jacket." [ref=e255]
+                - generic [ref=e256]:
+                  - 'heading "Chris Mason: New chancellor faces tough spending choices" [level=2] [ref=e259]'
+                  - paragraph [ref=e260]: The appointment of John Healey is particularly fascinating, writes BBC political editor Chris Mason.
+            - link [ref=e263] [cursor=pointer]:
+              - /url: /news/articles/ckg4we9g58do
+              - generic [ref=e264]:
+                - img "John Healey, Andy Burnham and Shabana Mahmood" [ref=e268]
+                - generic [ref=e269]:
+                  - heading "Who's in Andy Burnham's cabinet?" [level=2] [ref=e272]
+                  - paragraph [ref=e273]: An in-depth look at which Labour MPs have been appointed to cabinet roles by new Prime Minister Andy Burnham
+            - link [ref=e276] [cursor=pointer]:
+              - /url: /news/articles/c17y7r9yv1ro
+              - generic [ref=e277]:
+                - img "Union jack flags in the background with an image of Evan Davis on the right" [ref=e281]
+                - generic [ref=e282]:
+                  - heading "Why Andy Burnham will find it so tricky to unite Britain" [level=2] [ref=e285]
+                  - paragraph [ref=e286]: Is there any common ground left?
+        - generic [ref=e288]:
+          - generic [ref=e292]:
+            - separator [ref=e294]
+            - heading "More to explore" [level=2] [ref=e297]
+          - generic [ref=e299]:
+            - generic [ref=e302]:
+              - link [ref=e306] [cursor=pointer]:
+                - /url: /news/videos/c0qvdywj97ko
+                - generic [ref=e307]:
+                  - img "image unavailable" [ref=e308]
+                  - img "BBC's Azadeh Moshiri at protest site" [ref=e309]
+              - 'link "From hundreds to thousands: How India''s ''cockroach'' protest movement has grown BBC''s Azadeh Moshiri reports as thousands attempt to march to India''s parliament in support of the Cockroach Janta Party''s demand for education reforms. 23 hrs ago Asia" [ref=e317] [cursor=pointer]':
+                - /url: /news/videos/c0qvdywj97ko
+                - generic [ref=e318]:
+                  - 'heading "From hundreds to thousands: How India''s ''cockroach'' protest movement has grown" [level=2] [ref=e321]'
+                  - paragraph [ref=e322]: BBC's Azadeh Moshiri reports as thousands attempt to march to India's parliament in support of the Cockroach Janta Party's demand for education reforms.
+                  - generic [ref=e323]:
+                    - generic [ref=e324]: 23 hrs ago
+                    - generic: Asia
+            - generic [ref=e327]:
+              - link "image unavailable Security force personnel wield batons against demonstrators at a protest site during a planned march by supporters of India's Cockroach Janta Party towards parliament on the opening day of its monsoon session, demanding the resignation of Education Minister Dharmendra Pradhan over exam paper leaks near Jantar Mantar, New Delhi, India, July 20, 2026. Why are thousands of people protesting in Delhi? Thousands of mostly young people tried to march on India's parliament to demand changes to how the education system is run. 19 hrs ago Asia" [ref=e331] [cursor=pointer]:
+                - /url: /news/articles/cedj9j911p8o
+                - generic [ref=e332]:
+                  - generic [ref=e335]:
+                    - img "image unavailable" [ref=e336]
+                    - img "Security force personnel wield batons against demonstrators at a protest site during a planned march by supporters of India's Cockroach Janta Party towards parliament on the opening day of its monsoon session, demanding the resignation of Education Minister Dharmendra Pradhan over exam paper leaks near Jantar Mantar, New Delhi, India, July 20, 2026." [ref=e337]
+                  - generic [ref=e338]:
+                    - heading "Why are thousands of people protesting in Delhi?" [level=2] [ref=e341]
+                    - paragraph [ref=e342]: Thousands of mostly young people tried to march on India's parliament to demand changes to how the education system is run.
+                    - generic [ref=e343]:
+                      - generic [ref=e344]: 19 hrs ago
+                      - generic: Asia
+              - link "My fitness tracker knew I was pregnant before I did Ravika is one of hundreds of women who are noticing early pregnancy signs through the data on their fitness trackers. 1 day ago Health" [ref=e349] [cursor=pointer]:
+                - /url: /news/articles/cr474z1qyn6o
+                - generic [ref=e351]:
+                  - heading "My fitness tracker knew I was pregnant before I did" [level=2] [ref=e354]
+                  - paragraph [ref=e355]: Ravika is one of hundreds of women who are noticing early pregnancy signs through the data on their fitness trackers.
+                  - generic [ref=e356]:
+                    - generic [ref=e357]: 1 day ago
+                    - generic: Health
+              - 'link "‘All I think about is her’: Families demand answers as Nigeria''s boat disasters keep happening Hundreds of lives are lost each year in Nigeria as a result of boat accidents yet nothing seems to change. 15 hrs ago Africa" [ref=e362] [cursor=pointer]':
+                - /url: /news/articles/c309vzn676go
+                - generic [ref=e364]:
+                  - 'heading "‘All I think about is her’: Families demand answers as Nigeria''s boat disasters keep happening" [level=2] [ref=e367]'
+                  - paragraph [ref=e368]: Hundreds of lives are lost each year in Nigeria as a result of boat accidents yet nothing seems to change.
+                  - generic [ref=e369]:
+                    - generic [ref=e370]: 15 hrs ago
+                    - generic: Africa
+            - link "image unavailable Tristan (left) and Andrew Tate speaking to members of the media in March 2025. Will the Tate brothers be extradited from the US to the UK? Andrew and Tristan Tate are set to face extradition proceedings in the US as British prosecutors issued 38 new charges against the brothers. 8 hrs ago US & Canada" [ref=e375] [cursor=pointer]:
+              - /url: /news/articles/cjej0j0lzkno
+              - generic [ref=e376]:
+                - generic [ref=e379]:
+                  - img "image unavailable" [ref=e380]
+                  - img "Tristan (left) and Andrew Tate speaking to members of the media in March 2025." [ref=e381]
+                - generic [ref=e382]:
+                  - heading "Will the Tate brothers be extradited from the US to the UK?" [level=2] [ref=e385]
+                  - paragraph [ref=e386]: Andrew and Tristan Tate are set to face extradition proceedings in the US as British prosecutors issued 38 new charges against the brothers.
+                  - generic [ref=e387]:
+                    - generic [ref=e388]: 8 hrs ago
+                    - generic: US & Canada
+            - link [ref=e393] [cursor=pointer]:
+              - /url: https://www.bbc.co.uk/news/resources/idt-59f97f17-4336-44e6-9cd5-b320e12c3d97
+              - generic [ref=e394]:
+                - generic [ref=e397]:
+                  - img "image unavailable" [ref=e398]
+                  - img "Yamal and his brother fist bump" [ref=e399]
+                - generic [ref=e400]:
+                  - 'heading "In pictures: World Cup moments that stunned, shocked and melted hearts" [level=2] [ref=e403]'
+                  - paragraph [ref=e404]: From incredible goals and devastating misses to a certain little brother, World Cup 2026 produced many memorable moments.
+            - 'link "image unavailable Kevin Keegan posing for a photo inside St James'' Park, with the Newcastle United lettering on the East Stand behind him Kevin Keegan: From superstar footballer to elite manager Keegan, who has died aged 75, was one of football''s most charismatic and influential figures in a career of many chapters. 17 hrs ago England Men" [ref=e409] [cursor=pointer]':
+              - /url: /sport/football/articles/c20z4d87vp3o
+              - generic [ref=e410]:
+                - generic [ref=e413]:
+                  - img "image unavailable" [ref=e414]
+                  - img "Kevin Keegan posing for a photo inside St James' Park, with the Newcastle United lettering on the East Stand behind him" [ref=e415]
+                - generic [ref=e416]:
+                  - 'heading "Kevin Keegan: From superstar footballer to elite manager" [level=2] [ref=e419]'
+                  - paragraph [ref=e420]: Keegan, who has died aged 75, was one of football's most charismatic and influential figures in a career of many chapters.
+                  - generic [ref=e421]:
+                    - generic [ref=e422]: 17 hrs ago
+                    - generic: England Men
+        - generic [ref=e425]:
+          - generic [ref=e426]:
+            - separator [ref=e428]
+            - heading "World Cup 2026" [level=2] [ref=e431]
+          - generic [ref=e432]:
+            - link [ref=e435] [cursor=pointer]:
+              - /url: /sport/football/articles/cly7ley50g9o
+              - generic [ref=e436]:
+                - generic [ref=e439]:
+                  - img "image unavailable" [ref=e440]
+                  - img "FIFA president Gianni Infantino holds the FIFA World Cup trophy" [ref=e441]
+                - generic [ref=e442]:
+                  - heading "Could Infantino really push through a 64-team World Cup?" [level=2] [ref=e445]
+                  - paragraph [ref=e446]: If we have learned one thing from Gianni Infantino's Fifa tenure, it is that more is better. That could mean 64 teams at the World Cup.
+            - link [ref=e449] [cursor=pointer]:
+              - /url: /sport/football/articles/cdxd1pq4nrko
+              - generic [ref=e450]:
+                - generic [ref=e453]:
+                  - img "image unavailable" [ref=e454]
+                  - img "Jude Bellingham, Vozinha, Kylian Mbappe and Lionel Messi" [ref=e455]
+                - generic [ref=e456]:
+                  - heading "Best goal, best player, best fans - BBC reporters' World Cup awards" [level=2] [ref=e459]
+                  - paragraph [ref=e460]: BBC Sport reporters pick their best moments of the tournament - and you can vote for yours.
+            - link [ref=e463] [cursor=pointer]:
+              - /url: /sport/football/articles/cwyq1ew4830o
+              - generic [ref=e464]:
+                - generic [ref=e467]:
+                  - img "image unavailable" [ref=e468]
+                  - img "Jude Bellingham and David Beckham" [ref=e469]
+                - generic [ref=e470]:
+                  - heading "Why Beckham was face of World Cup in the US" [level=2] [ref=e473]
+                  - paragraph [ref=e474]: After arriving in Los Angeles 19 years ago promising to grow the game, David Beckham is still helping sell football to America.
+        - generic [ref=e477]:
+          - generic [ref=e478]:
+            - separator [ref=e480]
+            - heading "Most watched" [level=2] [ref=e483]
+          - generic [ref=e484]:
+            - link "1 BBC reveals official report into deadly military jet crash at school" [ref=e487] [cursor=pointer]:
+              - /url: /news/videos/c0l5gg5ye5ro
+              - generic [ref=e488]:
+                - generic [ref=e489]: "1"
+                - heading "BBC reveals official report into deadly military jet crash at school" [level=2] [ref=e495]
+            - link "2 Misleading posts about Trump at World Cup final viewed by millions" [ref=e498] [cursor=pointer]:
+              - /url: /news/videos/cn5n4rxyz3wo
+              - generic [ref=e499]:
+                - generic [ref=e500]: "2"
+                - heading "Misleading posts about Trump at World Cup final viewed by millions" [level=2] [ref=e506]
+            - 'link "3 Trump and Burnham: Can the two leaders work together?" [ref=e509] [cursor=pointer]':
+              - /url: /news/videos/cqx78j77ej2o
+              - generic [ref=e510]:
+                - generic [ref=e511]: "3"
+                - 'heading "Trump and Burnham: Can the two leaders work together?" [level=2] [ref=e517]'
+            - link "4 A baby trafficking ring has been convicted - but what now for the babies?" [ref=e520] [cursor=pointer]:
+              - /url: /news/videos/c3w0exe7g62o
+              - generic [ref=e521]:
+                - generic [ref=e522]: "4"
+                - heading "A baby trafficking ring has been convicted - but what now for the babies?" [level=2] [ref=e528]
+            - link "5 Video appears to show confrontation between Chinese and Philippine navy vessels" [ref=e531] [cursor=pointer]:
+              - /url: /news/videos/c9w0l50wegzo
+              - generic [ref=e532]:
+                - generic [ref=e533]: "5"
+                - heading "Video appears to show confrontation between Chinese and Philippine navy vessels" [level=2] [ref=e539]
+        - generic [ref=e540]:
+          - generic [ref=e544]:
+            - separator [ref=e546]
+            - heading "Also in news" [level=2] [ref=e549]
+          - generic [ref=e551]:
+            - generic [ref=e554]:
+              - link [ref=e558] [cursor=pointer]:
+                - /url: /news/articles/cvg9w9dxd7lo
+                - generic [ref=e559]:
+                  - img "image unavailable" [ref=e560]
+                  - img "Activists and supporters of the Cockroach Janta Party (CJP) take part in a protest demanding the resignation of India's Education Minister Dharmendra Pradhan over alleged NEET examination irregularities in New Delhi on July 20, 2026" [ref=e561]
+              - link "Police block thousands of 'cockroach' protesters marching on India's parliament Some protesters demanding education reforms said they were injured in clashes with police who banned the march. 15 hrs ago Asia" [ref=e565] [cursor=pointer]:
+                - /url: /news/articles/cvg9w9dxd7lo
+                - generic [ref=e566]:
+                  - heading "Police block thousands of 'cockroach' protesters marching on India's parliament" [level=2] [ref=e569]
+                  - paragraph [ref=e570]: Some protesters demanding education reforms said they were injured in clashes with police who banned the march.
+                  - generic [ref=e571]:
+                    - generic [ref=e572]: 15 hrs ago
+                    - generic: Asia
+            - generic [ref=e575]:
+              - link "image unavailable Zambada, in a blue golf shirt, is helped off a small plane while being taken into custody in July 2024 Notorious drug cartel leader Ismael Zambada sentenced to life in US prison Known as \"El Mayo\", the co-founder the Sinaloa Cartel was also ordered to pay $15bn after he admitted to sending vast amounts of drugs to the US. 11 hrs ago World" [ref=e579] [cursor=pointer]:
+                - /url: /news/articles/ce3q1d1ed5do
+                - generic [ref=e580]:
+                  - generic [ref=e583]:
+                    - img "image unavailable" [ref=e584]
+                    - img "Zambada, in a blue golf shirt, is helped off a small plane while being taken into custody in July 2024" [ref=e585]
+                  - generic [ref=e586]:
+                    - heading "Notorious drug cartel leader Ismael Zambada sentenced to life in US prison" [level=2] [ref=e589]
+                    - paragraph [ref=e590]: Known as "El Mayo", the co-founder the Sinaloa Cartel was also ordered to pay $15bn after he admitted to sending vast amounts of drugs to the US.
+                    - generic [ref=e591]:
+                      - generic [ref=e592]: 11 hrs ago
+                      - generic: World
+              - link "image unavailable NOAA satellite image of the tropical depression that became Bertha Tropical Storm Bertha threatens US Gulf coast Storm surges up to 4ft are possible along parts of the Louisiana and Mississippi coasts, officials say. 5 hrs ago US & Canada" [ref=e597] [cursor=pointer]:
+                - /url: /news/articles/cqjxzzdrl4lo
+                - generic [ref=e598]:
+                  - generic [ref=e601]:
+                    - img "image unavailable" [ref=e602]
+                    - img "NOAA satellite image of the tropical depression that became Bertha" [ref=e603]
+                  - generic [ref=e604]:
+                    - heading "Tropical Storm Bertha threatens US Gulf coast" [level=2] [ref=e607]
+                    - paragraph [ref=e608]: Storm surges up to 4ft are possible along parts of the Louisiana and Mississippi coasts, officials say.
+                    - generic [ref=e609]:
+                      - generic [ref=e610]: 5 hrs ago
+                      - generic: US & Canada
+            - link "image unavailable In an aerial view, the Paramount logo is displayed on a water tower at the Paramount Studios lot on July 13, 2026 in Los Angeles, California. Merger deal between Paramount and Warner Bros paused by judge US court temporarily stops Paramount and Warner Bros merging after 12 states launched legal action. 12 hrs ago US & Canada" [ref=e615] [cursor=pointer]:
+              - /url: /news/articles/c5ywxy41vg6o
+              - generic [ref=e616]:
+                - generic [ref=e619]:
+                  - img "image unavailable" [ref=e620]
+                  - img "In an aerial view, the Paramount logo is displayed on a water tower at the Paramount Studios lot on July 13, 2026 in Los Angeles, California." [ref=e621]
+                - generic [ref=e622]:
+                  - heading "Merger deal between Paramount and Warner Bros paused by judge" [level=2] [ref=e625]
+                  - paragraph [ref=e626]: US court temporarily stops Paramount and Warner Bros merging after 12 states launched legal action.
+                  - generic [ref=e627]:
+                    - generic [ref=e628]: 12 hrs ago
+                    - generic: US & Canada
+            - link "image unavailable A burning merchant ship Ten killed as Russian attacks on merchant ships in Black Sea intensify Russian strikes on the Odesa region have killed 28 people in July alone, local authorities say. 16 hrs ago Europe" [ref=e633] [cursor=pointer]:
+              - /url: /news/articles/c4gvpv3ewv2o
+              - generic [ref=e634]:
+                - generic [ref=e637]:
+                  - img "image unavailable" [ref=e638]
+                  - img "A burning merchant ship" [ref=e639]
+                - generic [ref=e640]:
+                  - heading "Ten killed as Russian attacks on merchant ships in Black Sea intensify" [level=2] [ref=e643]
+                  - paragraph [ref=e644]: Russian strikes on the Odesa region have killed 28 people in July alone, local authorities say.
+                  - generic [ref=e645]:
+                    - generic [ref=e646]: 16 hrs ago
+                    - generic: Europe
+        - generic [ref=e650]:
+          - generic [ref=e651]:
+            - separator [ref=e653]
+            - heading "Most read" [level=2] [ref=e656]
+          - generic [ref=e657]:
+            - link "1 Why are thousands of people protesting in Delhi?" [ref=e660] [cursor=pointer]:
+              - /url: /news/articles/cedj9j911p8o
+              - generic [ref=e661]:
+                - generic [ref=e662]: "1"
+                - heading "Why are thousands of people protesting in Delhi?" [level=2] [ref=e665]
+            - link "2 US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers" [ref=e668] [cursor=pointer]:
+              - /url: /news/articles/cx25wg2x26do
+              - generic [ref=e669]:
+                - generic [ref=e670]: "2"
+                - heading "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers" [level=2] [ref=e673]
+            - link "3 Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks" [ref=e676] [cursor=pointer]:
+              - /url: /news/articles/cg4dzq3x3e1o
+              - generic [ref=e677]:
+                - generic [ref=e678]: "3"
+                - heading "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks" [level=2] [ref=e681]
+            - link "4 Who's in Andy Burnham's cabinet?" [ref=e684] [cursor=pointer]:
+              - /url: /news/articles/ckg4we9g58do
+              - generic [ref=e685]:
+                - generic [ref=e686]: "4"
+                - heading "Who's in Andy Burnham's cabinet?" [level=2] [ref=e689]
+            - link "5 Police block thousands of 'cockroach' protesters marching on India's parliament" [ref=e692] [cursor=pointer]:
+              - /url: /news/articles/cvg9w9dxd7lo
+              - generic [ref=e693]:
+                - generic [ref=e694]: "5"
+                - heading "Police block thousands of 'cockroach' protesters marching on India's parliament" [level=2] [ref=e697]
+            - link "6 'If only people knew what a tick could do' - the deadly meat allergy caused by tick bites" [ref=e700] [cursor=pointer]:
+              - /url: /news/articles/cj6g03567edo
+              - generic [ref=e701]:
+                - generic [ref=e702]: "6"
+                - heading "'If only people knew what a tick could do' - the deadly meat allergy caused by tick bites" [level=2] [ref=e705]
+            - link "7 Rare identical quadruplets born in Australia" [ref=e708] [cursor=pointer]:
+              - /url: /news/articles/cx2jnj3428lo
+              - generic [ref=e709]:
+                - generic [ref=e710]: "7"
+                - heading "Rare identical quadruplets born in Australia" [level=2] [ref=e713]
+            - link "8 Grandmother, 82, wins law change so she can enjoy Happy Hour at care home" [ref=e716] [cursor=pointer]:
+              - /url: /news/articles/c70gz5y2xpxo
+              - generic [ref=e717]:
+                - generic [ref=e718]: "8"
+                - heading "Grandmother, 82, wins law change so she can enjoy Happy Hour at care home" [level=2] [ref=e721]
+            - link "9 The hunger-striking engineer demanding education reforms in India" [ref=e724] [cursor=pointer]:
+              - /url: /news/articles/cq562x2zlw4o
+              - generic [ref=e725]:
+                - generic [ref=e726]: "9"
+                - heading "The hunger-striking engineer demanding education reforms in India" [level=2] [ref=e729]
+            - link "10 The 20-somethings betting big on tech stocks" [ref=e732] [cursor=pointer]:
+              - /url: /news/articles/c20yz9v1llro
+              - generic [ref=e733]:
+                - generic [ref=e734]: "10"
+                - heading "The 20-somethings betting big on tech stocks" [level=2] [ref=e737]
+        - generic [ref=e738]:
+          - generic [ref=e742]:
+            - separator [ref=e744]
+            - heading "Sport" [level=2] [ref=e747]
+          - generic [ref=e749]:
+            - generic [ref=e752]:
+              - link [ref=e756] [cursor=pointer]:
+                - /url: /sport/football/articles/clyxjk0z5y7o
+                - generic [ref=e757]:
+                  - img "image unavailable" [ref=e758]
+                  - img "Argentina's head coach Lionel Scaloni tries to intervene as Argentina's Leandro Paredes clashes with Spain defender Eric Garcia" [ref=e759]
+              - link "Fifa opens investigation into Argentina post-final trouble - what happens next? Argentina will face an investigation into the ugly scenes at the end of the World Cup final, Fifa has confirmed. 12 hrs ago World Cup" [ref=e763] [cursor=pointer]:
+                - /url: /sport/football/articles/clyxjk0z5y7o
+                - generic [ref=e764]:
+                  - heading "Fifa opens investigation into Argentina post-final trouble - what happens next?" [level=2] [ref=e767]
+                  - paragraph [ref=e768]: Argentina will face an investigation into the ugly scenes at the end of the World Cup final, Fifa has confirmed.
+                  - generic [ref=e769]:
+                    - generic [ref=e770]: 12 hrs ago
+                    - generic: World Cup
+            - generic [ref=e773]:
+              - link "image unavailable Pep Guardiola sat in the dugout at Etihad Stadium during his time in charge of Manchester City Guardiola in reported talks with Italy - would England come calling? Former Manchester City manager Pep Guardiola, a fluent Italian speaker, is a contender for the vacant Italy head coach job. 14 hrs ago England Men" [ref=e777] [cursor=pointer]:
+                - /url: /sport/football/articles/c20dn5j0lj0o
+                - generic [ref=e778]:
+                  - generic [ref=e781]:
+                    - img "image unavailable" [ref=e782]
+                    - img "Pep Guardiola sat in the dugout at Etihad Stadium during his time in charge of Manchester City" [ref=e783]
+                  - generic [ref=e784]:
+                    - heading "Guardiola in reported talks with Italy - would England come calling?" [level=2] [ref=e787]
+                    - paragraph [ref=e788]: Former Manchester City manager Pep Guardiola, a fluent Italian speaker, is a contender for the vacant Italy head coach job.
+                    - generic [ref=e789]:
+                      - generic [ref=e790]: 14 hrs ago
+                      - generic: England Men
+              - link "Gifted, charismatic and passionate amid highs and lows - Keegan obituary The positivity and vibrancy Kevin Keegan brought made him a cherished figure within the game, writes chief football writer Phil McNulty. 17 hrs ago England Men" [ref=e795] [cursor=pointer]:
+                - /url: /sport/football/articles/c20z4d87vp3o
+                - generic [ref=e797]:
+                  - heading "Gifted, charismatic and passionate amid highs and lows - Keegan obituary" [level=2] [ref=e800]
+                  - paragraph [ref=e801]: The positivity and vibrancy Kevin Keegan brought made him a cherished figure within the game, writes chief football writer Phil McNulty.
+                  - generic [ref=e802]:
+                    - generic [ref=e803]: 17 hrs ago
+                    - generic: England Men
+              - 'link "Cricket quiz: Can you name all eight teams in The Hundred? The sixth staging of The Hundred starts on Tuesday, 21 July, which makes now the perfect time to refresh your knowledge. 2 hrs ago The Hundred" [ref=e808] [cursor=pointer]':
+                - /url: /sport/cricket/articles/c93457zxnk5o
+                - generic [ref=e810]:
+                  - 'heading "Cricket quiz: Can you name all eight teams in The Hundred?" [level=2] [ref=e813]'
+                  - paragraph [ref=e814]: The sixth staging of The Hundred starts on Tuesday, 21 July, which makes now the perfect time to refresh your knowledge.
+                  - generic [ref=e815]:
+                    - generic [ref=e816]: 2 hrs ago
+                    - generic: The Hundred
+            - link "image unavailable Lewis Hamilton takes off his sunglasses at the Belgian Grand Prix Why was Hamilton penalised but not Leclerc? - F1 Q&A BBC Sport F1 correspondent Andrew Benson answers your latest questions before the Hungarian Grand Prix. 48 mins ago Formula 1" [ref=e821] [cursor=pointer]:
+              - /url: /sport/formula1/articles/cn4n21ye3w2o
+              - generic [ref=e822]:
+                - generic [ref=e825]:
+                  - img "image unavailable" [ref=e826]
+                  - img "Lewis Hamilton takes off his sunglasses at the Belgian Grand Prix" [ref=e827]
+                - generic [ref=e828]:
+                  - heading "Why was Hamilton penalised but not Leclerc? - F1 Q&A" [level=2] [ref=e831]
+                  - paragraph [ref=e832]: BBC Sport F1 correspondent Andrew Benson answers your latest questions before the Hungarian Grand Prix.
+                  - generic [ref=e833]:
+                    - generic [ref=e834]: 48 mins ago
+                    - generic: Formula 1
+            - 'link "image unavailable Spain bus parade after winning the World Cup Gallery: Spain celebrate World Cup triumph in Madrid Thousands of fans take to the streets of Madrid as the Spain squad enjoy a bus parade after winning the World Cup. 10 hrs ago World Cup" [ref=e839] [cursor=pointer]':
+              - /url: /sport/football/articles/cgje79d6q64o
+              - generic [ref=e840]:
+                - generic [ref=e843]:
+                  - img "image unavailable" [ref=e844]
+                  - img "Spain bus parade after winning the World Cup" [ref=e845]
+                - generic [ref=e846]:
+                  - 'heading "Gallery: Spain celebrate World Cup triumph in Madrid" [level=2] [ref=e849]'
+                  - paragraph [ref=e850]: Thousands of fans take to the streets of Madrid as the Spain squad enjoy a bus parade after winning the World Cup.
+                  - generic [ref=e851]:
+                    - generic [ref=e852]: 10 hrs ago
+                    - generic: World Cup
+            - link "image unavailable Officers from the Police Intellectual Property Crime Unit sorting through boxes of counterfeit football strips which they have seized as part of a crackdown on fakes throughout the world cup. Fake kits worth £18m seized by UK police over safety concerns Counterfeit football shirts worth over £18m were seized in the UK during the course of the World Cup because of safety concerns, with the Fire Service warning the outfits can be a danger to those who wear them. 3 hrs ago World Cup" [ref=e857] [cursor=pointer]:
+              - /url: /sport/football/articles/c0rdgrkx552o
+              - generic [ref=e858]:
+                - generic [ref=e861]:
+                  - img "image unavailable" [ref=e862]
+                  - img "Officers from the Police Intellectual Property Crime Unit sorting through boxes of counterfeit football strips which they have seized as part of a crackdown on fakes throughout the world cup." [ref=e863]
+                - generic [ref=e864]:
+                  - heading "Fake kits worth £18m seized by UK police over safety concerns" [level=2] [ref=e867]
+                  - paragraph [ref=e868]: Counterfeit football shirts worth over £18m were seized in the UK during the course of the World Cup because of safety concerns, with the Fire Service warning the outfits can be a danger to those who wear them.
+                  - generic [ref=e869]:
+                    - generic [ref=e870]: 3 hrs ago
+                    - generic: World Cup
+    - separator [ref=e873]
+    - contentinfo [ref=e874]:
+      - link "British Broadcasting Corporation" [ref=e877] [cursor=pointer]:
+        - /url: /
+        - img "British Broadcasting Corporation" [ref=e878]
+      - navigation "Footer navigation" [ref=e881]:
+        - list [ref=e882]:
+          - listitem [ref=e883]:
+            - link "Home" [ref=e885] [cursor=pointer]:
+              - /url: https://www.bbc.com/
+          - listitem [ref=e886]:
+            - link "News" [ref=e888] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=e889]:
+            - link "Football 2026" [ref=e891] [cursor=pointer]:
+              - /url: /sport/football/world-cup
+          - listitem [ref=e892]:
+            - link "Business" [ref=e894] [cursor=pointer]:
+              - /url: /business
+          - listitem [ref=e895]:
+            - link "Technology" [ref=e897] [cursor=pointer]:
+              - /url: /technology
+          - listitem [ref=e898]:
+            - link "Health" [ref=e900] [cursor=pointer]:
+              - /url: /health
+          - listitem [ref=e901]:
+            - link "Culture" [ref=e903] [cursor=pointer]:
+              - /url: /culture
+          - listitem [ref=e904]:
+            - link "Arts" [ref=e906] [cursor=pointer]:
+              - /url: /arts
+          - listitem [ref=e907]:
+            - link "Travel" [ref=e909] [cursor=pointer]:
+              - /url: /travel
+          - listitem [ref=e910]:
+            - link "Earth" [ref=e912] [cursor=pointer]:
+              - /url: /future-planet
+          - listitem [ref=e913]:
+            - link "Sport" [ref=e915] [cursor=pointer]:
+              - /url: /sport
+          - listitem [ref=e916]:
+            - link "Audio" [ref=e918] [cursor=pointer]:
+              - /url: /audio
+          - listitem [ref=e919]:
+            - link "Video" [ref=e921] [cursor=pointer]:
+              - /url: /video
+          - listitem [ref=e922]:
+            - link "Live" [ref=e924] [cursor=pointer]:
+              - /url: /live
+          - listitem [ref=e925]:
+            - link "Weather" [ref=e927] [cursor=pointer]:
+              - /url: https://www.bbc.com/weather
+          - listitem [ref=e928]:
+            - link "BBC Shop" [ref=e930] [cursor=pointer]:
+              - /url: https://shop.bbc.com/
+          - listitem [ref=e931]:
+            - link "BritBox" [ref=e933] [cursor=pointer]:
+              - /url: https://www.britbox.com/?utm_source=bbc.com&utm_medium=referral&utm_campaign=footer
+      - button [ref=e936] [cursor=pointer]
+      - generic [ref=e940]:
+        - generic [ref=e941]: "Follow BBC on:"
+        - generic [ref=e942]:
+          - button "Follow BBC on x" [ref=e943]
+          - button "Follow BBC on facebook" [ref=e946]
+          - button "Follow BBC on instagram" [ref=e949]
+          - button "Follow BBC on tiktok" [ref=e952]
+          - button "Follow BBC on linkedin" [ref=e955]
+          - button "Follow BBC on youtube" [ref=e958]
+      - navigation [ref=e962]:
+        - list [ref=e963]:
+          - listitem [ref=e964]:
+            - link "Terms of Use" [ref=e966] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/terms-of-use
+          - listitem [ref=e967]:
+            - link "Subscription Terms" [ref=e969] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/subscription-terms
+          - listitem [ref=e970]:
+            - link "About the BBC" [ref=e972] [cursor=pointer]:
+              - /url: https://www.bbc.co.uk/aboutthebbc
+          - listitem [ref=e973]:
+            - link "Privacy Policy" [ref=e975] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/privacy-policy
+          - listitem [ref=e976]:
+            - link "Cookies" [ref=e978] [cursor=pointer]:
+              - /url: https://www.bbc.com/usingthebbc/cookies/
+          - listitem [ref=e979]:
+            - link "Accessibility Help" [ref=e981] [cursor=pointer]:
+              - /url: https://www.bbc.co.uk/accessibility/
+          - listitem [ref=e982]:
+            - link "Contact the BBC" [ref=e984] [cursor=pointer]:
+              - /url: https://www.bbc.co.uk/contact
+          - listitem [ref=e985]:
+            - link "Advertise with us" [ref=e987] [cursor=pointer]:
+              - /url: https://advertising.bbcstudios.com/
+          - listitem [ref=e988]:
+            - link "Do not share or sell my info" [ref=e990] [cursor=pointer]:
+              - /url: https://www.bbc.com/usingthebbc/cookies/how-can-i-change-my-bbc-cookie-settings/
+          - listitem [ref=e991]:
+            - link "BBC.com Help & FAQs" [ref=e993] [cursor=pointer]:
+              - /url: https://help.bbc.com/hc/
+          - listitem [ref=e994]:
+            - link "Content Index" [ref=e996] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/content-index
+          - listitem [ref=e997]:
+            - link "Set Preferred Source" [ref=e999] [cursor=pointer]:
+              - /url: https://www.bbc.com/future/article/20260128-how-to-make-google-put-trusted-sources-up-top-when-you-search
+      - generic [ref=e1000]:
+        - paragraph [ref=e1001]:
+          - text: Copyright 2026 BBC. All rights reserved. The BBC is not responsible for the content of external sites.
+          - link "Read about our approach to external linking." [ref=e1002] [cursor=pointer]:
+            - /url: https://www.bbc.com/editorialguidelines/guidance/links-and-feeds
+        - paragraph [ref=e1003]
+  - alert [ref=e1004]

@@ -1,0 +1,10 @@
+- generic [ref=f3e2]:
+  - separator [ref=f3e3]
+  - iframe [ref=f3e8]:
+    
+  - separator [ref=f3e9]
+  - generic [ref=f3e10]:
+    - text: About this page Our systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot.
+    - link "Why did this happen?" [ref=f3e11] [cursor=pointer]:
+      - /url: "#"
+    - generic [ref=f3e12]: "IP address: 2409:40e5:1017:8664:1466:f87f:375a:5e8dTime: 2026-07-27T14:03:12ZURL: https://www.google.com/search?q=latest+AI+news&sca_esv=e34115c41044c7f2&source=hp&ei=q2RnarbNOKz00PEPj9PzcQ&iflsig=ABILxe8AAAAAamdyu4iTmIt2CH9nn4bZ-b1upt_ye9BG&ved=0ahUKEwj2zoG_gvOVAxUsOjQIHY_pPA4Q4dUDCA4&uact=5&oq=latest+AI+news&gs_lp=Egdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3czIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIwkZQAFgAcAB4AJABAJgBwQGgAcEBqgEDMC4xuAEDyAEA-AEBmAIBoALtAZgDAJIHAzItMaAH9QSyBwMyLTG4B-0BwgcDNC0xyAckgAgB&sclient=gws-wiz&sei=H2VnauDoN5_vseMP1bHG8A8"

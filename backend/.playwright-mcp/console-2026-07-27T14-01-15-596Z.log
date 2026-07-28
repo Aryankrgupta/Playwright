@@ -1,0 +1,68 @@
+[      28ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[     585ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[     588ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  116430ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  116432ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  116458ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at eval (eval at <anonymous> (https://www.google.com/search?q=latest+AI+news&sca_esv=e34115c41044c7f2&source=hp&ei=q2RnarbNOKz00PEPj9PzcQ&iflsig=ABILxe8AAAAAamdyu4iTmIt2CH9nn4bZ-b1upt_ye9BG&ved=0ahUKEwj2zoG_gvOVAxUsOjQIHY_pPA4Q4dUDCA4&uact=5&oq=latest+AI+news&gs_lp=Egdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3czIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIwkZQAFgAcAB4AJABAJgBwQGgAcEBqgEDMC4xuAEDyAEA-AEBmAIBoALtAZgDAJIHAzItMaAH9QSyBwMyLTG4B-0BwgcDNC0xyAckgAgB&sclient=gws-wiz:2:451), <anonymous>:771:22778)
+    at Y$ (eval at <anonymous> (https://www.google.com/search?q=latest+AI+news&sca_esv=e34115c41044c7f2&source=hp&ei=q2RnarbNOKz00PEPj9PzcQ&iflsig=ABILxe8AAAAAamdyu4iTmIt2CH9nn4bZ-b1upt_ye9BG&ved=0ahUKEwj2zoG_gvOVAxUsOjQIHY_pPA4Q4dUDCA4&uact=5&oq=latest+AI+news&gs_lp=Egdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3czIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIwkZQAFgAcAB4AJABAJgBwQGgAcEBqgEDMC4xuAEDyAEA-AEBmAIBoALtAZgDAJIHAzItMaAH9QSyBwMyLTG4B-0BwgcDNC0xyAckgAgB&sclient=gws-wiz:2:451), <anonymous>:771:40144)
+    at D.eval [as h] (eval at <anonymous> (https://www.google.com/search?q=latest+AI+news&sca_esv=e34115c41044c7f2&source=hp&ei=q2RnarbNOKz00PEPj9PzcQ&iflsig=ABILxe8AAAAAamdyu4iTmIt2CH9nn4bZ-b1upt_ye9BG&ved=0ahUKEwj2zoG_gvOVAxUsOjQIHY_pPA4Q4dUDCA4&uact=5&oq=latest+AI+news&gs_lp=Egdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3czIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIwkZQAFgAcAB4AJABAJgBwQGgAcEBqgEDMC4xuAEDyAEA-AEBmAIBoALtAZgDAJIHAzItMaAH9QSyBwMyLTG4B-0BwgcDNC0xyAckgAgB&sclient=gws-wiz:2:451), <anonymous>:771:56895)
+    at uH (eval at <anonymous> (https://www.google.com/search?q=latest+AI+news&sca_esv=e34115c41044c7f2&source=hp&ei=q2RnarbNOKz00PEPj9PzcQ&iflsig=ABILxe8AAAAAamdyu4iTmIt2CH9nn4bZ-b1upt_ye9BG&ved=0ahUKEwj2zoG_gvOVAxUsOjQIHY_pPA4Q4dUDCA4&uact=5&oq=latest+AI+news&gs_lp=Egdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3czIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIwkZQAFgAcAB4AJABAJgBwQGgAcEBqgEDMC4xuAEDyAEA-AEBmAIBoALtAZgDAJIHAzItMaAH9QSyBwMyLTG4B-0BwgcDNC0xyAckgAgB&sclient=gws-wiz:2:451), <anonymous>:771:27340)
+    at da (eval at <anonymous> (https://www.google.com/search?q=latest+AI+news&sca_esv=e34115c41044c7f2&source=hp&ei=q2RnarbNOKz00PEPj9PzcQ&iflsig=ABILxe8AAAAAamdyu4iTmIt2CH9nn4bZ-b1upt_ye9BG&ved=0ahUKEwj2zoG_gvOVAxUsOjQIHY_pPA4Q4dUDCA4&uact=5&oq=latest+AI+news&gs_lp=Egdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3czIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIwkZQAFgAcAB4AJABAJgBwQGgAcEBqgEDMC4xuAEDyAEA-AEBmAIBoALtAZgDAJIHAzItMaAH9QSyBwMyLTG4B-0BwgcDNC0xyAckgAgB&sclient=gws-wiz:2:451), <anonymous>:771:4396)
+    at A (eval at <anonymous> (https://www.google.com/search?q=latest+AI+news&sca_esv=e34115c41044c7f2&source=hp&ei=q2RnarbNOKz00PEPj9PzcQ&iflsig=ABILxe8AAAAAamdyu4iTmIt2CH9nn4bZ-b1upt_ye9BG&ved=0ahUKEwj2zoG_gvOVAxUsOjQIHY_pPA4Q4dUDCA4&uact=5&oq=latest+AI+news&gs_lp=Egdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3czIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIwkZQAFgAcAB4AJABAJgBwQGgAcEBqgEDMC4xuAEDyAEA-AEBmAIBoALtAZgDAJIHAzItMaAH9QSyBwMyLTG4B-0BwgcDNC0xyAckgAgB&sclient=gws-wiz:2:451), <anonymous>:771:14442)
+[  116459ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at eval (eval at <anonymous> (https://www.google.com/search?q=latest+AI+news&sca_esv=e34115c41044c7f2&source=hp&ei=q2RnarbNOKz00PEPj9PzcQ&iflsig=ABILxe8AAAAAamdyu4iTmIt2CH9nn4bZ-b1upt_ye9BG&ved=0ahUKEwj2zoG_gvOVAxUsOjQIHY_pPA4Q4dUDCA4&uact=5&oq=latest+AI+news&gs_lp=Egdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3czIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIwkZQAFgAcAB4AJABAJgBwQGgAcEBqgEDMC4xuAEDyAEA-AEBmAIBoALtAZgDAJIHAzItMaAH9QSyBwMyLTG4B-0BwgcDNC0xyAckgAgB&sclient=gws-wiz:2:451), <anonymous>:771:22778)
+    at Y$ (eval at <anonymous> (https://www.google.com/search?q=latest+AI+news&sca_esv=e34115c41044c7f2&source=hp&ei=q2RnarbNOKz00PEPj9PzcQ&iflsig=ABILxe8AAAAAamdyu4iTmIt2CH9nn4bZ-b1upt_ye9BG&ved=0ahUKEwj2zoG_gvOVAxUsOjQIHY_pPA4Q4dUDCA4&uact=5&oq=latest+AI+news&gs_lp=Egdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3czIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIwkZQAFgAcAB4AJABAJgBwQGgAcEBqgEDMC4xuAEDyAEA-AEBmAIBoALtAZgDAJIHAzItMaAH9QSyBwMyLTG4B-0BwgcDNC0xyAckgAgB&sclient=gws-wiz:2:451), <anonymous>:771:40144)
+    at D.eval [as h] (eval at <anonymous> (https://www.google.com/search?q=latest+AI+news&sca_esv=e34115c41044c7f2&source=hp&ei=q2RnarbNOKz00PEPj9PzcQ&iflsig=ABILxe8AAAAAamdyu4iTmIt2CH9nn4bZ-b1upt_ye9BG&ved=0ahUKEwj2zoG_gvOVAxUsOjQIHY_pPA4Q4dUDCA4&uact=5&oq=latest+AI+news&gs_lp=Egdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3czIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIwkZQAFgAcAB4AJABAJgBwQGgAcEBqgEDMC4xuAEDyAEA-AEBmAIBoALtAZgDAJIHAzItMaAH9QSyBwMyLTG4B-0BwgcDNC0xyAckgAgB&sclient=gws-wiz:2:451), <anonymous>:771:56895)
+    at uH (eval at <anonymous> (https://www.google.com/search?q=latest+AI+news&sca_esv=e34115c41044c7f2&source=hp&ei=q2RnarbNOKz00PEPj9PzcQ&iflsig=ABILxe8AAAAAamdyu4iTmIt2CH9nn4bZ-b1upt_ye9BG&ved=0ahUKEwj2zoG_gvOVAxUsOjQIHY_pPA4Q4dUDCA4&uact=5&oq=latest+AI+news&gs_lp=Egdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3czIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIwkZQAFgAcAB4AJABAJgBwQGgAcEBqgEDMC4xuAEDyAEA-AEBmAIBoALtAZgDAJIHAzItMaAH9QSyBwMyLTG4B-0BwgcDNC0xyAckgAgB&sclient=gws-wiz:2:451), <anonymous>:771:27340)
+    at da (eval at <anonymous> (https://www.google.com/search?q=latest+AI+news&sca_esv=e34115c41044c7f2&source=hp&ei=q2RnarbNOKz00PEPj9PzcQ&iflsig=ABILxe8AAAAAamdyu4iTmIt2CH9nn4bZ-b1upt_ye9BG&ved=0ahUKEwj2zoG_gvOVAxUsOjQIHY_pPA4Q4dUDCA4&uact=5&oq=latest+AI+news&gs_lp=Egdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3czIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIwkZQAFgAcAB4AJABAJgBwQGgAcEBqgEDMC4xuAEDyAEA-AEBmAIBoALtAZgDAJIHAzItMaAH9QSyBwMyLTG4B-0BwgcDNC0xyAckgAgB&sclient=gws-wiz:2:451), <anonymous>:771:4396)
+    at A (eval at <anonymous> (https://www.google.com/search?q=latest+AI+news&sca_esv=e34115c41044c7f2&source=hp&ei=q2RnarbNOKz00PEPj9PzcQ&iflsig=ABILxe8AAAAAamdyu4iTmIt2CH9nn4bZ-b1upt_ye9BG&ved=0ahUKEwj2zoG_gvOVAxUsOjQIHY_pPA4Q4dUDCA4&uact=5&oq=latest+AI+news&gs_lp=Egdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3czIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIwkZQAFgAcAB4AJABAJgBwQGgAcEBqgEDMC4xuAEDyAEA-AEBmAIBoALtAZgDAJIHAzItMaAH9QSyBwMyLTG4B-0BwgcDNC0xyAckgAgB&sclient=gws-wiz:2:451), <anonymous>:771:14442)
+[  117143ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dlatest%2BAI%2Bnews%26sca_esv%3De34115c41044c7f2%26source%3Dhp%26ei%3Dq2RnarbNOKz00PEPj9PzcQ%26iflsig%3DABILxe8AAAAAamdyu4iTmIt2CH9nn4bZ-b1upt_ye9BG%26ved%3D0ahUKEwj2zoG_gvOVAxUsOjQIHY_pPA4Q4dUDCA4%26uact%3D5%26oq%3Dlatest%2BAI%2Bnews%26gs_lp%3DEgdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3czIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIwkZQAFgAcAB4AJABAJgBwQGgAcEBqgEDMC4xuAEDyAEA-AEBmAIBoALtAZgDAJIHAzItMaAH9QSyBwMyLTG4B-0BwgcDNC0xyAckgAgB%26sclient%3Dgws-wiz%26sei%3DH2VnauDoN5_vseMP1bHG8A8&q=EhAkCUDlEBeGZBRm-H83Wl6NGKDKndMGIjCBgiITqgZXK4OfeMwMpZq_9RlcZQeoZ5kSTm1_v8ohxoXhKZrsvZCbh8o9FAYW65QyAVJaAUM:0
+[  117170ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  117170ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  118219ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  118219ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7

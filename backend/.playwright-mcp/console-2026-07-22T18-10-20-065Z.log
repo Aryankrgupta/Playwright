@@ -1,0 +1,86 @@
+[      29ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7
+[     459ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7
+[     461ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7
+[     463ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7
+[     466ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7
+[    2211ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7
+[    2218ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7
+[    2223ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7
+[    2224ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7
+[    8590ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7
+[    8605ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7
+[    8617ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7
+[    8626ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7
+[    8974ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7
+[    8988ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7
+[    9000ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7
+[    9007ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7
+[   10210ms] [ERROR] Loading the image 'https://match.adsrvr.org/track/cmf/generic?ttd_pid=stickyads&ttd_tpi=1&gdpr=0&gdpr_consent=' violates the following Content Security Policy directive: "default-src 'self' s.amazon-adsystem.com aax-eu.amazon-adsystem.com aax-fe.amazon-adsystem.com fonts.gstatic.com *.firefox.etp doubleclick.net *.stickyadstv.com *.g.doubleclick.net fout.jp ninthdecimal.com *.postrelease.com *.yahoo.com *.adnxs.com exelator.com richaudience.com *.presage.io samplicio.us *.rubiconproject.com semasio.net cm.g.doubleclick.net *.samba.tv presage.io yahoo.com *.loopme.me *.amazon-adsystem.com yahoo.net gumgum.com *.imdb.com google.com amazon-adsystem.com *.samplicio.us *.smartadserver.com loopme.me zeotap.com *.mediarithmics.com taboola.com *.bidswitch.net *.thisisdax.com *.fwmrm.net *.yahoo.net adscale.de *.ninthdecimal.com *.zeotap.com *.adscale.de fwmrm.net demdex.net *.scorecardresearch.com agkn.com *.kargo.com connatix.com *.dmxleo.com *.casalemedia.com bidswitch.net dmxleo.com imdb.com *.gumgum.com *.demdex.net *.ispot.tv *.google.com *.exelator.com *.pubmatic.com kargo.com scorecardresearch.com *.3lift.com thisisdax.com postrelease.com *.doubleclick.net stickyadstv.com yieldmo.com *.mookie1.com ispot.tv *.connatix.com *.agkn.com samba.tv pubmatic.com smartadserver.com s.amazon-adsystem.com/ecm3 *.match.360yield.com *.richaudience.com *.fout.jp casalemedia.com rubiconproject.com openx.net adnxs.com mookie1.com match.360yield.com *.taboola.com *.openx.net *.semasio.net *.yieldmo.com". Note that 'img-src' was not explicitly set, so 'default-src' is used as a fallback. The action has been blocked. @ https://s.amazon-adsystem.com/v3/pr?exlist=n-xr-HMT_n-id-HMT_n-nt-HMT_ns_n-eq-HMT3_n-ix-HMT_bsw_n-y-HMT_n-cx-HMT_n-dm2-HMT_n-dx-HMT2_n-zeotap-4_fw_imdb_n-fo-HMT_n-lucid_n-st-HMT1_n-samba.tv_n-rb-HMT3_n-fw-HMT1_n-og-HMT_adelphic_adb_mp_n-mediarithmics_g_n-comscr.com_n-lm-HMT3_ox_n-tl-HMT_n-semasio-ecm_n-kg-HMT_n-gg-HMT2_an_n-pm-HMT_n-g-hmt_nsln_nd_n-ispot_n-stroer-HMT_n-ym-HMT_n-ox-hmt_n-ex1-HMT_tbl&fv=1.0&a=cm&dmt=1&gdpr_consent=&ex-pl-n-g-hmt=4Q0iTRi8SAiz7AIP-N4_TQ&gdpr=0&ep=ETVFDuSdmoS4STn4TfjyEZ6WZhmaaKdXhSq9bMGnCKVvU4S1Z1xJGI9SvG05t-JhKpphtzPm0-xse8Pz2LIrIAHPIWDvrUCUfnh_2Gj9B3cmYdYkZwmLAomHHlhkaX64fpFyjtEk1-smRgXg4u0MVV-DBE6hgRZDPQXSWAy38H423cdSfszhXMCqY8HvTXWmmigwXC06JadZiYQH2f3OsFlpdZmqQUuVj49VcTFSucWhfruqMu4nomON7CNysQVix3vmItohyzAO01E-hKjZ82ko35jphtIkOxI-t8fAWaSYJBAO-7d2yHTQiMhfuEUM1ie4eujNbv_RWKTD12F8vZMlwM060WWXSp-wxnxpbpajWiyVtvT295VZ69GkpQrEZiROj06qTYN6ar8pMyByQt8tsyAoAdYuM4SN_Io9lpYUXM_o9gUfzdxwLM4RvpCKHij3vjA18RR8yHWHboO890mUmVaVwgshtoZn55hJOTFQJi7DDIDR3vpgIkjyKLjHUbb6ZdVvwXiN8SdeUHxEVl2FN7byf-oPogsHBCrbnHjiTCGivFTvw0q6d2EsVbT_0aeMK5H1e8RZG2eQ84BRuna_0nlTnrnt9NfTkV0YoAr9kpDOxBESd02TIK3driHRvIkj_wjX_z8wGvK3-Qh2WE2WBV79QEVqIxhJ2UtV_rQNfFGZfQ_uNJ2FCWpSKXLWz-yMlFRewhkUUn54DXVofQ6kn1f-84mfYwazITkOr3GVDJ-fYsudSfvJrVX6UbctSThuVggDmINv6DQGlRHcKfPGymEME7cF1HAPevho8PvNGm66zAWxUuU-EIOK0tdl4BHwzdRUNq7UCPnC_sOK6JOi9TPnQYheQHbe1LW_Yh6R5gZeGDHwZmYO-8H5CeYuCGCSFDJloyY0uOLcstLhTQSbAztWFmcR-LMRgK7kjdwjr_7DoOQ7yy2glQ2ZCh6ULJyBieRt7wkNU1ezxnt4wHczbO3Son_Hr-bRm0IbOrYOvvEBBTD1uTQmjLOxCzGF5BkMDzW48LKGZeOqE5S3FFunz__PkWtV-G9lJ4F07tUWEHOx0ZCAfgAYRxvFPTtMQHbP7jZAxcKd6OrT918iFuj3mt2PAkWsrqDX_s3TRJ7K7WKzWhyu5ruLmcf4ePSDSm-EJIfrEVOL0IjXiLSkIIHu20zBKOJh3tLT8eiqjiZhv9_IU5xsCp2fl6bAGYmmmKaSF68wlb9MrMIZT__cZ2ZcpLAe_8eYRPx-V6ODe0j2ns3r1xYIjTimQ8v6ZdbrHhgkpDTlWQh2cS3oqUTPUwnuhf5HAO4QKKTOFk01gKNBEynW6SVBVlBJmh2gz9GmIwB5FaiaQEZaz4c2a7Caq3KWOkQn6GnXpkEf8ppe_sCgMjZZQW6K7TqlE3jwaRGm3QdEgGJMo5qV4umUbB27jVTim4kATn9AOUtzUzaDVJRwq6i5kZYuyaicn5hSRnvh:0

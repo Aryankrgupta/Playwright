@@ -1,0 +1,854 @@
+- generic [active] [ref=f1e1]:
+  - link "Jump to content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - navigation "Site" [ref=f1e6]:
+        - generic "Main menu" [ref=f1e7]:
+          - button "Main menu" [ref=f1e8] [cursor=pointer]
+      - link [ref=f1e12] [cursor=pointer]:
+        - /url: /wiki/Main_Page
+        - generic [ref=f1e13]:
+          - img "Wikipedia" [ref=f1e14]
+          - img "The Free Encyclopedia" [ref=f1e15]
+    - generic [ref=f1e16]:
+      - search [ref=f1e17]:
+        - link "Search" [ref=f1e18] [cursor=pointer]:
+          - /url: /wiki/Special:Search
+      - navigation "Personal tools" [ref=f1e21]:
+        - generic [ref=f1e22]:
+          - navigation "Appearance" [ref=f1e23]:
+            - generic "Change the appearance of the page's font size, width, and color" [ref=f1e24]:
+              - button "Appearance" [ref=f1e25] [cursor=pointer]
+              - generic [ref=f1e26]: Appearance
+          - list [ref=f1e31]:
+            - listitem [ref=f1e32]:
+              - link "Donate" [ref=f1e33] [cursor=pointer]:
+                - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+            - listitem [ref=f1e34]:
+              - link "Create account" [ref=f1e35] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/w/index.php?title=Special%3ACreateAccount&returnto=Playwright+%28software%29&experiments%5B0%5D=we-1-8-account-creation-no-desktop-benefits%3Acontrol
+            - listitem [ref=f1e36]:
+              - link "Log in" [ref=f1e37] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/w/index.php?title=Special%3AUserLogin&returnto=Playwright+%28software%29&experiments%5B0%5D=we-1-8-account-creation-no-desktop-benefits%3Acontrol
+  - generic [ref=f1e39]:
+    - main [ref=f1e41]:
+      - generic [ref=f1e42]:
+        - navigation "Contents" [ref=f1e43]:
+          - generic "Table of Contents" [ref=f1e44]:
+            - button "Toggle the table of contents" [ref=f1e45] [cursor=pointer]
+            - generic [ref=f1e46]: Toggle the table of contents
+        - heading "Playwright (software)" [level=1] [ref=f1e49]
+        - generic [ref=f1e51]:
+          - button "2 languages" [ref=f1e52] [cursor=pointer]
+          - generic [ref=f1e53]: 2 languages
+      - generic [ref=f1e57]:
+        - navigation "Namespaces" [ref=f1e59]:
+          - list [ref=f1e62]:
+            - listitem [ref=f1e63]:
+              - link "Article" [ref=f1e64] [cursor=pointer]:
+                - /url: /wiki/Playwright_(software)
+            - listitem [ref=f1e66]:
+              - link "Talk" [ref=f1e67] [cursor=pointer]:
+                - /url: /wiki/Talk:Playwright_(software)
+        - generic [ref=f1e69]:
+          - navigation "Views" [ref=f1e70]:
+            - list [ref=f1e73]:
+              - listitem [ref=f1e74]:
+                - link "Read" [ref=f1e75] [cursor=pointer]:
+                  - /url: /wiki/Playwright_(software)
+              - listitem [ref=f1e77]:
+                - link "Edit" [ref=f1e78] [cursor=pointer]:
+                  - /url: /w/index.php?title=Playwright_(software)&action=edit
+              - listitem [ref=f1e80]:
+                - link "View history" [ref=f1e81] [cursor=pointer]:
+                  - /url: /w/index.php?title=Playwright_(software)&action=history
+          - navigation "Page tools" [ref=f1e83]:
+            - generic [ref=f1e84]:
+              - button "Tools" [ref=f1e85] [cursor=pointer]
+              - generic [ref=f1e86]: Tools
+      - generic "Playwright (software)" [ref=f1e89]:
+        - generic [ref=f1e90]: From Wikipedia, the free encyclopedia
+        - generic [ref=f1e93]:
+          - generic [ref=f1e94]:
+            - table [ref=f1e95]:
+              - rowgroup [ref=f1e96]:
+                - row [ref=f1e97]:
+                  - columnheader "Playwright" [ref=f1e98]
+                - row [ref=f1e99]:
+                  - cell [ref=f1e100]:
+                    - link [ref=f1e102] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/File:Playwright_Logo.svg
+                - row [ref=f1e104]:
+                  - rowheader [ref=f1e105]:
+                    - link "Developer" [ref=f1e106] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Programmer
+                  - cell [ref=f1e107]:
+                    - link "Microsoft" [ref=f1e108] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Microsoft
+                - row [ref=f1e109]:
+                  - rowheader "Release" [ref=f1e110]
+                  - cell "January 31, 2020; 6 years ago [1]" [ref=f1e111]:
+                    - text: January 31, 2020
+                    - generic [ref=f1e112]: ; 6 years ago
+                    - superscript [ref=f1e113]:
+                      - link "[1]" [ref=f1e114] [cursor=pointer]:
+                        - /url: "#cite_note-1"
+                - row [ref=f1e115]:
+                  - rowheader [ref=f1e116]:
+                    - link "Stable release" [ref=f1e117] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Software_release_life_cycle
+                  - cell "1.61.1[2] Edit this on Wikidata / 23 June 2026; 25 days ago" [ref=f1e118]:
+                    - generic [ref=f1e119]:
+                      - text: 1.61.1
+                      - superscript [ref=f1e120]:
+                        - link "[2]" [ref=f1e121] [cursor=pointer]:
+                          - /url: "#cite_note-wikidata-7eb6da064a77447eaf3043cd0f2c6bfd1cc8916c-v20-2"
+                      - link [ref=f1e123] [cursor=pointer]:
+                        - /url: https://www.wikidata.org/wiki/Q123162820?uselang=en#P348
+                        - img "Edit this on Wikidata" [ref=f1e124]
+                      - text: / 23 June 2026
+                      - generic [ref=f1e125]: ; 25 days ago
+                - row [ref=f1e126]:
+                  - rowheader "Written in" [ref=f1e127]
+                  - cell [ref=f1e128]:
+                    - link "TypeScript" [ref=f1e129] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/TypeScript
+                - row [ref=f1e130]:
+                  - rowheader [ref=f1e131]:
+                    - link "Operating system" [ref=f1e132] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Operating_system
+                  - cell [ref=f1e133]:
+                    - link "Microsoft Windows" [ref=f1e134] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Microsoft_Windows
+                    - text: ","
+                    - link "macOS" [ref=f1e135] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/MacOS
+                    - text: ","
+                    - link "Linux" [ref=f1e136] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Linux
+                - row [ref=f1e137]:
+                  - rowheader [ref=f1e138]:
+                    - link "Type" [ref=f1e139] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Software_categories#Categorization_approaches
+                  - cell [ref=f1e140]:
+                    - link "Software testing" [ref=f1e141] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Software_testing
+                    - link "framework" [ref=f1e142] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Software_framework
+                    - text: for
+                    - link "web applications" [ref=f1e143] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Web_application
+                - row [ref=f1e144]:
+                  - rowheader [ref=f1e145]:
+                    - link "License" [ref=f1e146] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Software_license
+                  - cell [ref=f1e147]:
+                    - link "Apache License 2.0" [ref=f1e148] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Apache_License_2.0
+                - row [ref=f1e149]:
+                  - rowheader "Website" [ref=f1e150]
+                  - cell [ref=f1e151]:
+                    - link "playwright.dev" [ref=f1e153] [cursor=pointer]:
+                      - /url: https://playwright.dev/
+                - row [ref=f1e154]:
+                  - rowheader [ref=f1e155]:
+                    - link "Repository" [ref=f1e156] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Repository_(version_control)
+                  - cell [ref=f1e157]:
+                    - link "github.com/microsoft/playwright" [ref=f1e159] [cursor=pointer]:
+                      - /url: https://github.com/microsoft/playwright
+            - paragraph [ref=f1e160]:
+              - text: Playwright is an
+              - link "open-source" [ref=f1e161] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Open-source
+              - text: automation library for browser testing and
+              - link "web scraping" [ref=f1e162] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Web_scraping
+              - superscript [ref=f1e163]:
+                - link "[3]" [ref=f1e164] [cursor=pointer]:
+                  - /url: "#cite_note-3"
+              - text: developed by
+              - link "Microsoft" [ref=f1e165] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Microsoft
+              - superscript [ref=f1e166]:
+                - link "[4]" [ref=f1e167] [cursor=pointer]:
+                  - /url: "#cite_note-4"
+              - superscript [ref=f1e168]:
+                - link "[5]" [ref=f1e169] [cursor=pointer]:
+                  - /url: "#cite_note-5"
+              - text: and launched on 31 January 2020, which has since become popular among
+              - link "programmers" [ref=f1e170] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Programmer
+              - text: and
+              - link "web developers" [ref=f1e171] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Web_developer
+              - text: .
+            - paragraph [ref=f1e172]:
+              - text: Playwright provides the ability to automate browser tasks in
+              - link "Chromium" [ref=f1e173] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Chromium_(web_browser)
+              - text: ","
+              - link "Firefox" [ref=f1e174] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Firefox
+              - text: ", and"
+              - link "WebKit" [ref=f1e175] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/WebKit
+              - text: with a single API.
+              - superscript [ref=f1e176]:
+                - link "[6]" [ref=f1e177] [cursor=pointer]:
+                  - /url: "#cite_note-6"
+              - text: It can also operate against branded browsers such as
+              - link "Google Chrome" [ref=f1e178] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Google_Chrome
+              - text: and
+              - link "Microsoft Edge" [ref=f1e179] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Microsoft_Edge
+              - text: available on the host machine, although these browsers are not installed by default. The current Playwright version supports Stable, Beta, Dev, and Canary channels of Google Chrome and Microsoft Edge.
+              - superscript [ref=f1e180]:
+                - link "[7]" [ref=f1e181] [cursor=pointer]:
+                  - /url: "#cite_note-7"
+              - text: This allows developers to create reliable end-to-end tests that are capable of running in non-headless mode, as well as in headless mode for automation.
+            - paragraph [ref=f1e182]:
+              - text: Playwright supports programming languages like
+              - link "JavaScript" [ref=f1e183] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/JavaScript
+              - text: ","
+              - link "Python" [ref=f1e184] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Python_(programming_language)
+              - text: ","
+              - link "C#" [ref=f1e185] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
+              - text: and
+              - link "Java" [ref=f1e186] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Java_(software_platform)
+              - text: ", though its main API was originally written in"
+              - link "Node.js" [ref=f1e187] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Node.js
+              - text: . It supports all modern web features including network interception and multiple browser contexts and provides automatic waiting, which reduces the flakiness of tests.
+          - region [ref=f1e188]:
+            - generic [ref=f1e189]:
+              - heading "@playwright/test" [level=2] [ref=f1e190]
+              - generic [ref=f1e191]:
+                - link "edit":
+                  - /url: /w/index.php?title=Playwright_(software)&action=edit&section=1
+            - paragraph [ref=f1e192]:
+              - text: "@playwright/test is a test runner with Jest-like assertions"
+              - superscript [ref=f1e193]:
+                - link "[8]" [ref=f1e194] [cursor=pointer]:
+                  - /url: "#cite_note-8"
+              - text: developed and maintained by the Playwright team that is built on top of the Playwright API. This test runner is tightly integrated with Playwright and is specifically designed for end-to-end testing.
+              - superscript [ref=f1e195]:
+                - link "[9]" [ref=f1e196] [cursor=pointer]:
+                  - /url: "#cite_note-9"
+              - text: It has capabilities like browser-specific tests, parallel test execution,
+              - superscript [ref=f1e197]:
+                - link "[10]" [ref=f1e198] [cursor=pointer]:
+                  - /url: "#cite_note-10"
+              - text: rich browser context options, snapshot testing, automatic retries and many more.
+          - region [ref=f1e199]:
+            - generic [ref=f1e200]:
+              - heading "History" [level=2] [ref=f1e201]
+              - generic [ref=f1e202]:
+                - link "edit":
+                  - /url: /w/index.php?title=Playwright_(software)&action=edit&section=2
+            - paragraph [ref=f1e203]:
+              - text: Playwright was announced by Microsoft in January 2020.
+              - superscript [ref=f1e204]:
+                - link "[11]" [ref=f1e205] [cursor=pointer]:
+                  - /url: "#cite_note-11"
+              - text: It was developed to address the need for a unified API for cross-browser testing and to overcome limitations in existing tools like
+              - link "Puppeteer" [ref=f1e206] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Puppeteer_(software)
+              - text: ","
+              - link "Cypress" [ref=f1e207] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Cypress_(software)
+              - text: and
+              - link "Selenium" [ref=f1e208] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Selenium_(software)
+              - text: . A team of engineers, including those who had previously worked on Puppeteer at
+              - link "Google" [ref=f1e209] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Google
+              - text: ", contributed to its development."
+              - superscript [ref=f1e210]:
+                - link "[12]" [ref=f1e211] [cursor=pointer]:
+                  - /url: "#cite_note-12"
+              - text: Playwright introduced features like automatic waits, multi-browser support, and network interception, making it a powerful tool for modern web testing. Since its inception, it has been actively maintained and has seen rapid growth and adoption in the web testing community.
+              - superscript [ref=f1e212]:
+                - link "[13]" [ref=f1e213] [cursor=pointer]:
+                  - /url: "#cite_note-13"
+            - paragraph [ref=f1e214]: The @playwright/test runner was released later as part of an effort to provide a more comprehensive solution for browser-based testing. Its development was largely based on the need to have a specialized runner that can leverage the full potential of the Playwright API and make end-to-end testing more robust and straightforward.
+          - region [ref=f1e215]:
+            - generic [ref=f1e216]:
+              - heading "Usage and examples" [level=2] [ref=f1e217]
+              - generic [ref=f1e218]:
+                - link "edit":
+                  - /url: /w/index.php?title=Playwright_(software)&action=edit&section=3
+            - paragraph [ref=f1e219]: "Playwright is primarily used for automating browser tasks, which can range from simple page navigation and content scraping to more complex operations like automated form submissions, user interactions and more. For instance, a simple JavaScript code snippet using Playwright might look like:"
+            - generic [ref=f1e220]: "const { chromium } = require('playwright'); (async () => { const browser = await chromium.launch(); const page = await browser.newPage(); await page.goto('https://example.com'); await page.screenshot({ path: 'example.png' }); await browser.close(); })();"
+            - paragraph [ref=f1e222]:
+              - text: In this example, Playwright is used to open a Chromium browser, navigate to
+              - code [ref=f1e223]:
+                - link "https://example.com" [ref=f1e224] [cursor=pointer]:
+                  - /url: https://example.com
+              - text: ", take a screenshot and save it as"
+              - code [ref=f1e225]: example.png
+              - text: .
+            - paragraph [ref=f1e226]: "@playwright/test further extends these capabilities by providing a test runner that allows developers to write and organize their tests in a more structured and scalable manner. An example test using @playwright/test might look like:"
+            - generic [ref=f1e227]: "const { test } = require('@playwright/test'); test('basic test', async ({ page }) => { await page.goto('https://example.com'); await expect(page).toHaveTitle('Example Domain'); });"
+            - paragraph [ref=f1e229]:
+              - text: In this example, a test is written to navigate to
+              - code [ref=f1e230]:
+                - link "https://example.com" [ref=f1e231] [cursor=pointer]:
+                  - /url: https://example.com
+              - text: and check that the title of the page is "Example Domain".
+              - superscript [ref=f1e232]:
+                - link "[14]" [ref=f1e233] [cursor=pointer]:
+                  - /url: "#cite_note-14"
+            - region [ref=f1e234]:
+              - generic [ref=f1e235]:
+                - heading "Configuration" [level=3] [ref=f1e236]
+                - generic [ref=f1e237]:
+                  - link "edit":
+                    - /url: /w/index.php?title=Playwright_(software)&action=edit&section=4
+              - paragraph [ref=f1e238]: "Playwright tests can be customized using a configuration file (playwright.config.js) that supports various options including:"
+              - list [ref=f1e239]:
+                - listitem [ref=f1e240]: Test timeout settings
+                - listitem [ref=f1e241]: Retry attempts for failed tests
+                - listitem [ref=f1e242]: Screenshot and video capture settings
+                - listitem [ref=f1e243]: Headless mode configuration
+                - listitem [ref=f1e244]: Test parallelization options
+              - paragraph [ref=f1e245]: "An example configuration might look like:"
+              - generic [ref=f1e246]: "module.exports = { testDir: './tests', timeout: 30000, retries: 2, use: { headless: true, screenshot: 'only-on-failure', video: 'retain-on-failure', }, };"
+            - region [ref=f1e248]:
+              - generic [ref=f1e249]:
+                - heading "Debugging features" [level=3] [ref=f1e250]
+                - generic [ref=f1e251]:
+                  - link "edit":
+                    - /url: /w/index.php?title=Playwright_(software)&action=edit&section=5
+              - paragraph [ref=f1e252]: "Playwright includes built-in debugging capabilities such as:"
+              - list [ref=f1e253]:
+                - listitem [ref=f1e254]: Screenshots captured on test failures
+                - listitem [ref=f1e255]: Video recording of test runs
+                - listitem [ref=f1e256]: Trace viewer for detailed step-by-step analysis
+                - listitem [ref=f1e257]: Debug mode with browser inspector
+                - listitem [ref=f1e258]:
+                  - text: Console logs and network request monitoring
+                  - superscript [ref=f1e259]:
+                    - link "[15]" [ref=f1e260] [cursor=pointer]:
+                      - /url: "#cite_note-15"
+            - region [ref=f1e261]:
+              - generic [ref=f1e262]:
+                - heading "Reporters" [level=3] [ref=f1e263]
+                - generic [ref=f1e264]:
+                  - link "edit":
+                    - /url: /w/index.php?title=Playwright_(software)&action=edit&section=6
+              - paragraph [ref=f1e265]: Reporters in Playwright define how test results are captured, aggregated, and surfaced after execution. They turn raw test events into structured output such as logs, files, dashboards, or external integrations, enabling teams to analyze trends, spot regressions, and debug failures more effectively.
+              - paragraph [ref=f1e266]: By centralizing errors, timings, traces, screenshots, and metadata, reporters make it easier to understand why tests failed, not just that they failed.
+              - paragraph [ref=f1e267]:
+                - text: Playwright includes built-in reporters
+                - superscript [ref=f1e268]:
+                  - link "[16]" [ref=f1e269] [cursor=pointer]:
+                    - /url: "#cite_note-16"
+                - text: and exposes a reporter API
+                - superscript [ref=f1e270]:
+                  - link "[17]" [ref=f1e271] [cursor=pointer]:
+                    - /url: "#cite_note-17"
+                - text: that supports both open-source and commercial implementations, which are listed below.
+              - list [ref=f1e272]:
+                - listitem [ref=f1e273]:
+                  - link "Monocart Reporter" [ref=f1e274] [cursor=pointer]:
+                    - /url: https://github.com/cenfun/monocart-reporter
+                - listitem [ref=f1e275]:
+                  - link "Currents" [ref=f1e276] [cursor=pointer]:
+                    - /url: https://currents.dev/
+                - listitem [ref=f1e277]:
+                  - link "ReportPortal" [ref=f1e278] [cursor=pointer]:
+                    - /url: https://reportportal.io/
+                - listitem [ref=f1e279]:
+                  - link "Allure Report" [ref=f1e280] [cursor=pointer]:
+                    - /url: https://allurereport.org/
+            - region [ref=f1e281]:
+              - generic [ref=f1e282]:
+                - heading "Usage Trends" [level=3] [ref=f1e283]
+                - generic [ref=f1e284]:
+                  - link "edit":
+                    - /url: /w/index.php?title=Playwright_(software)&action=edit&section=7
+              - paragraph [ref=f1e285]:
+                - text: As of 2025, Playwright is reported to have over 75,000 GitHub stars, more than 20 million NPM
+                - superscript [ref=f1e286]:
+                  - link "[18]" [ref=f1e287] [cursor=pointer]:
+                    - /url: "#cite_note-18"
+                - text: all‑time downloads, and over 11,000 Stack Overflow questions. It has been described as experiencing the fastest growth in community adoption, GitHub stars, and modern usage among major web testing frameworks.
+              - table [ref=f1e288]:
+                - caption [ref=f1e289]: Data Insights (Playwright 2025)
+                - rowgroup [ref=f1e290]:
+                  - row [ref=f1e291]:
+                    - columnheader "Tool" [ref=f1e292]
+                    - columnheader "GitHubStars" [ref=f1e293]
+                    - columnheader "NPM All Time Downloads" [ref=f1e294]
+                    - columnheader "StackOverflow Qs" [ref=f1e295]
+                    - columnheader "First Released" [ref=f1e296]
+                    - columnheader "Update Pace" [ref=f1e297]
+                  - row [ref=f1e298]:
+                    - cell "Playwright" [ref=f1e299]
+                    - cell "75,000+" [ref=f1e300]
+                    - cell "20M+" [ref=f1e301]
+                    - cell "11,000+" [ref=f1e302]
+                    - cell "2020" [ref=f1e303]
+                    - cell "Rapid, innovative" [ref=f1e304]
+          - region [ref=f1e305]:
+            - generic [ref=f1e306]:
+              - heading "References" [level=2] [ref=f1e307]
+              - generic [ref=f1e308]:
+                - link "edit":
+                  - /url: /w/index.php?title=Playwright_(software)&action=edit&section=8
+            - list [ref=f1e311]:
+              - listitem [ref=f1e312]:
+                - link "Jump up" [ref=f1e314] [cursor=pointer]:
+                  - /url: "#cite_ref-1"
+                  - text: ^
+                - generic [ref=f1e315]:
+                  - generic [ref=f1e316]:
+                    - link "\"v0.10.0 release\"" [ref=f1e317] [cursor=pointer]:
+                      - /url: https://github.com/microsoft/playwright/releases/tag/v0.10.0
+                    - text: .
+                    - link "GitHub" [ref=f1e319] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/GitHub
+                    - generic [ref=f1e320]: . Retrieved 1 June 2022
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=GitHub&rft.atitle=v0.10.0+release&rft_id=https%3A%2F%2Fgithub.com%2Fmicrosoft%2Fplaywright%2Freleases%2Ftag%2Fv0.10.0&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e321]:
+                - link "Jump up" [ref=f1e323] [cursor=pointer]:
+                  - /url: "#cite_ref-wikidata-7eb6da064a77447eaf3043cd0f2c6bfd1cc8916c-v20_2-0"
+                  - text: ^
+                - generic [ref=f1e324]:
+                  - generic [ref=f1e325]:
+                    - link "\"Release 1.61.1\"" [ref=f1e326] [cursor=pointer]:
+                      - /url: https://github.com/microsoft/playwright/releases/tag/v1.61.1
+                    - text: . 23 June 2026
+                    - generic [ref=f1e327]: . Retrieved 24 June 2026
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Release+1.61.1&rft.date=2026-06-23&rft_id=https%3A%2F%2Fgithub.com%2Fmicrosoft%2Fplaywright%2Freleases%2Ftag%2Fv1.61.1&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e328]:
+                - link "Jump up" [ref=f1e330] [cursor=pointer]:
+                  - /url: "#cite_ref-3"
+                  - text: ^
+                - generic [ref=f1e331]:
+                  - generic [ref=f1e332]: Bansal, Mudit; Dar, Muhammad Ameen; Bhat, Moshin Manzoor; Sharma, Tushar; Uniyar, Rishita (2023). "Data Ingestion and Processing using Playwright". TechRxiv.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.jtitle=TechRxiv&rft.atitle=Data+Ingestion+and+Processing+using+Playwright&rft.date=2023&rft.aulast=Bansal&rft.aufirst=Mudit&rft.au=Dar%2C+Muhammad+Ameen&rft.au=Bhat%2C+Moshin+Manzoor&rft.au=Sharma%2C+Tushar&rft.au=Uniyar%2C+Rishita&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e333]:
+                - link "Jump up" [ref=f1e335] [cursor=pointer]:
+                  - /url: "#cite_ref-4"
+                  - text: ^
+                - generic [ref=f1e336]:
+                  - generic [ref=f1e337]:
+                    - text: Yegulalp, Serdar (30 September 2020).
+                    - link "\"Microsoft's Playwright simplifies tests for Python web apps\"" [ref=f1e338] [cursor=pointer]:
+                      - /url: https://www.infoworld.com/article/2260489/microsofts-playwright-simplifies-tests-for-python-web-apps.html
+                    - text: .
+                    - link "InfoWorld" [ref=f1e340] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/InfoWorld
+                    - text: . IDG Communications
+                    - generic [ref=f1e341]: . Retrieved 2 July 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=InfoWorld&rft.atitle=Microsoft%27s+Playwright+simplifies+tests+for+Python+web+apps&rft.date=2020-09-30&rft.aulast=Yegulalp&rft.aufirst=Serdar&rft_id=https%3A%2F%2Fwww.infoworld.com%2Farticle%2F2260489%2Fmicrosofts-playwright-simplifies-tests-for-python-web-apps.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e342]:
+                - link "Jump up" [ref=f1e344] [cursor=pointer]:
+                  - /url: "#cite_ref-5"
+                  - text: ^
+                - generic [ref=f1e345]:
+                  - generic [ref=f1e346]:
+                    - text: Tung, Liam (1 October 2020).
+                    - 'link "\"Microsoft: Playwright for Python language lets you test web apps in all major browsers\"" [ref=f1e347] [cursor=pointer]':
+                      - /url: https://www.zdnet.com/article/microsoft-playwright-for-python-language-lets-you-test-web-apps-in-all-major-browsers/
+                    - text: .
+                    - link "ZDNET" [ref=f1e349] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/ZDNET
+                    - generic [ref=f1e350]: . Retrieved 2 July 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=ZDNET&rft.atitle=Microsoft%3A+Playwright+for+Python+language+lets+you+test+web+apps+in+all+major+browsers&rft.date=2020-10-01&rft.aulast=Tung&rft.aufirst=Liam&rft_id=https%3A%2F%2Fwww.zdnet.com%2Farticle%2Fmicrosoft-playwright-for-python-language-lets-you-test-web-apps-in-all-major-browsers%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e351]:
+                - link "Jump up" [ref=f1e353] [cursor=pointer]:
+                  - /url: "#cite_ref-6"
+                  - text: ^
+                - generic [ref=f1e354]:
+                  - generic [ref=f1e355]:
+                    - text: Judis, Stefan (22 October 2022).
+                    - link "\"Playwright, a Time-Saving End-to-End Testing Framework\"" [ref=f1e356] [cursor=pointer]:
+                      - /url: https://thenewstack.io/playwright-a-time-saving-end-to-end-testing-framework/
+                    - text: . The New Stack
+                    - generic [ref=f1e357]: . Retrieved 2 July 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=The+New+Stack&rft.atitle=Playwright%2C+a+Time-Saving+End-to-End+Testing+Framework&rft.date=2022-10-22&rft.aulast=Judis&rft.aufirst=Stefan&rft_id=https%3A%2F%2Fthenewstack.io%2Fplaywright-a-time-saving-end-to-end-testing-framework%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e358]:
+                - link "Jump up" [ref=f1e360] [cursor=pointer]:
+                  - /url: "#cite_ref-7"
+                  - text: ^
+                - generic [ref=f1e361]:
+                  - generic [ref=f1e362]:
+                    - link "\"Supported browsers\"" [ref=f1e363] [cursor=pointer]:
+                      - /url: https://playwright.dev/docs/browsers
+                    - text: . Playwright Documentation. Microsoft
+                    - generic [ref=f1e364]: . Retrieved 20 January 2026
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Playwright+Documentation&rft.atitle=Supported+browsers&rft_id=https%3A%2F%2Fplaywright.dev%2Fdocs%2Fbrowsers&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e365]:
+                - link "Jump up" [ref=f1e367] [cursor=pointer]:
+                  - /url: "#cite_ref-8"
+                  - text: ^
+                - generic [ref=f1e368]:
+                  - generic [ref=f1e369]:
+                    - link "\"Assertions\"" [ref=f1e370] [cursor=pointer]:
+                      - /url: https://playwright.dev/docs/test-assertions
+                    - text: . Playwright.
+                    - link "Microsoft" [ref=f1e371] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Microsoft
+                    - generic [ref=f1e372]: . Retrieved 1 June 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Playwright&rft.atitle=Assertions&rft_id=https%3A%2F%2Fplaywright.dev%2Fdocs%2Ftest-assertions&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e373]:
+                - link "Jump up" [ref=f1e375] [cursor=pointer]:
+                  - /url: "#cite_ref-9"
+                  - text: ^
+                - generic [ref=f1e376]:
+                  - generic [ref=f1e377]:
+                    - link "\"Library\"" [ref=f1e378] [cursor=pointer]:
+                      - /url: https://playwright.dev/docs/library#:~:text=Under%20most%20circumstances%2C%20for%20end,playwright%20(Playwright%20Library)%20directly
+                    - text: . Playwright.
+                    - link "Microsoft" [ref=f1e379] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Microsoft
+                    - generic [ref=f1e380]: . Retrieved 1 June 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Playwright&rft.atitle=Library&rft_id=https%3A%2F%2Fplaywright.dev%2Fdocs%2Flibrary%23%3A~%3Atext%3DUnder%2520most%2520circumstances%252C%2520for%2520end%2Cplaywright%2520%28Playwright%2520Library%29%2520directly&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e381]:
+                - link "Jump up" [ref=f1e383] [cursor=pointer]:
+                  - /url: "#cite_ref-10"
+                  - text: ^
+                - generic [ref=f1e384]:
+                  - generic [ref=f1e385]:
+                    - link "\"Parallelism and sharding\"" [ref=f1e386] [cursor=pointer]:
+                      - /url: https://playwright.dev/docs/test-parallel
+                    - text: . Playwright.
+                    - link "Microsoft" [ref=f1e387] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Microsoft
+                    - generic [ref=f1e388]: . Retrieved 1 June 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Playwright&rft.atitle=Parallelism+and+sharding&rft_id=https%3A%2F%2Fplaywright.dev%2Fdocs%2Ftest-parallel&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e389]:
+                - link "Jump up" [ref=f1e391] [cursor=pointer]:
+                  - /url: "#cite_ref-11"
+                  - text: ^
+                - generic [ref=f1e392]:
+                  - generic [ref=f1e393]:
+                    - text: Attam, Arjun (30 September 2020).
+                    - 'link "\"Announcing Playwright for Python: Reliable end-to-end testing for the web\"" [ref=f1e394] [cursor=pointer]':
+                      - /url: https://devblogs.microsoft.com/python/announcing-playwright-for-python-reliable-end-to-end-testing-for-the-web/
+                    - text: . Microsoft DevBlogs.
+                    - link "Microsoft" [ref=f1e395] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Microsoft
+                    - generic [ref=f1e396]: . Retrieved 2 July 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Microsoft+DevBlogs&rft.atitle=Announcing+Playwright+for+Python%3A+Reliable+end-to-end+testing+for+the+web&rft.date=2020-09-30&rft.aulast=Attam&rft.aufirst=Arjun&rft_id=https%3A%2F%2Fdevblogs.microsoft.com%2Fpython%2Fannouncing-playwright-for-python-reliable-end-to-end-testing-for-the-web%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e397]:
+                - link "Jump up" [ref=f1e399] [cursor=pointer]:
+                  - /url: "#cite_ref-12"
+                  - text: ^
+                - generic [ref=f1e400]:
+                  - generic [ref=f1e401]:
+                    - text: Schiemann, Dylan (30 January 2020).
+                    - link "\"Microsoft Announces Playwright Alternative to Puppeteer\"" [ref=f1e402] [cursor=pointer]:
+                      - /url: https://www.infoq.com/news/2020/01/playwright-browser-automation/
+                    - text: .
+                    - link "InfoQ" [ref=f1e404] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/InfoQ
+                    - text: . C4Media
+                    - generic [ref=f1e405]: . Retrieved 2 July 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=InfoQ&rft.atitle=Microsoft+Announces+Playwright+Alternative+to+Puppeteer&rft.date=2020-01-30&rft.aulast=Schiemann&rft.aufirst=Dylan&rft_id=https%3A%2F%2Fwww.infoq.com%2Fnews%2F2020%2F01%2Fplaywright-browser-automation%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e406]:
+                - link "Jump up" [ref=f1e408] [cursor=pointer]:
+                  - /url: "#cite_ref-13"
+                  - text: ^
+                - generic [ref=f1e409]:
+                  - generic [ref=f1e410]:
+                    - text: Gagan, Luc (1 July 2023).
+                    - link "\"A Comparative Analysis of Playwright Adoption vs Cypress and Selenium\"" [ref=f1e411] [cursor=pointer]:
+                      - /url: https://ray.run/blog/the-rapid-adoption-of-playwright-test-in-software-qa#:~:text=it's%20worth%20noting%20that%20playwright's%20github%20stars%20have%20been%20growing%20at%20a%20faster%20rate%20than%20cypress%20and%20selenium
+                    - text: . Rayrun
+                    - generic [ref=f1e412]: . Retrieved 2 July 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Rayrun&rft.atitle=A+Comparative+Analysis+of+Playwright+Adoption+vs+Cypress+and+Selenium&rft.date=2023-07-01&rft.aulast=Gagan&rft.aufirst=Luc&rft_id=https%3A%2F%2Fray.run%2Fblog%2Fthe-rapid-adoption-of-playwright-test-in-software-qa%23%3A~%3Atext%3Dit%27s%2520worth%2520noting%2520that%2520playwright%27s%2520github%2520stars%2520have%2520been%2520growing%2520at%2520a%2520faster%2520rate%2520than%2520cypress%2520and%2520selenium&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e413]:
+                - link "Jump up" [ref=f1e415] [cursor=pointer]:
+                  - /url: "#cite_ref-14"
+                  - text: ^
+                - generic [ref=f1e416]:
+                  - generic [ref=f1e417]:
+                    - link "\"toHaveTitle assertion\"" [ref=f1e418] [cursor=pointer]:
+                      - /url: https://playwright.dev/docs/api/class-pageassertions#page-assertions-to-have-title
+                    - text: . Playwright.
+                    - link "Microsoft" [ref=f1e419] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Microsoft
+                    - generic [ref=f1e420]: . Retrieved 1 June 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Playwright&rft.atitle=toHaveTitle+assertion&rft_id=https%3A%2F%2Fplaywright.dev%2Fdocs%2Fapi%2Fclass-pageassertions%23page-assertions-to-have-title&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e421]:
+                - link "Jump up" [ref=f1e423] [cursor=pointer]:
+                  - /url: "#cite_ref-15"
+                  - text: ^
+                - generic [ref=f1e424]:
+                  - generic [ref=f1e425]:
+                    - link "\"How to Use Playwright for End-to-End Testing\"" [ref=f1e426] [cursor=pointer]:
+                      - /url: https://www.roundproxies.com/blog/how-to-use-playwright/
+                    - text: . roundproxies.com. 6 January 2025
+                    - generic [ref=f1e427]: . Retrieved 6 February 2025
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=roundproxies.com&rft.atitle=How+to+Use+Playwright+for+End-to-End+Testing&rft.date=2025-01-06&rft_id=https%3A%2F%2Fwww.roundproxies.com%2Fblog%2Fhow-to-use-playwright%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e428]:
+                - link "Jump up" [ref=f1e430] [cursor=pointer]:
+                  - /url: "#cite_ref-16"
+                  - text: ^
+                - generic [ref=f1e431]:
+                  - generic [ref=f1e432]:
+                    - link "\"Playwright Reporter API\"" [ref=f1e433] [cursor=pointer]:
+                      - /url: https://playwright.dev/docs/test-reporters#built-in-reporters
+                    - text: . playwright.dev. 14 January 2026
+                    - generic [ref=f1e434]: . Retrieved 14 January 2026
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=playwright.dev&rft.atitle=Playwright+Reporter+API&rft.date=2026-01-14&rft_id=https%3A%2F%2Fplaywright.dev%2Fdocs%2Ftest-reporters%23built-in-reporters&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e435]:
+                - link "Jump up" [ref=f1e437] [cursor=pointer]:
+                  - /url: "#cite_ref-17"
+                  - text: ^
+                - generic [ref=f1e438]:
+                  - generic [ref=f1e439]:
+                    - link "\"Playwright Reporter API\"" [ref=f1e440] [cursor=pointer]:
+                      - /url: https://playwright.dev/docs/api/class-reporter
+                    - text: . playwright.dev. 14 January 2026
+                    - generic [ref=f1e441]: . Retrieved 14 January 2026
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=playwright.dev&rft.atitle=Playwright+Reporter+API&rft.date=2026-01-14&rft_id=https%3A%2F%2Fplaywright.dev%2Fdocs%2Fapi%2Fclass-reporter&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e442]:
+                - link "Jump up" [ref=f1e444] [cursor=pointer]:
+                  - /url: "#cite_ref-18"
+                  - text: ^
+                - generic [ref=f1e445]:
+                  - generic [ref=f1e446]:
+                    - 'link "\"Playwright vs Selenium vs Cypress: Best 2025 Comparison\"" [ref=f1e447] [cursor=pointer]':
+                      - /url: https://thinksys.com/qa-testing/playwright-vs-selenium-vs-cypress/
+                    - text: . ThinkSys
+                    - generic [ref=f1e448]: . Retrieved 2025-08-06
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=ThinkSys&rft.atitle=Playwright+vs+Selenium+vs+Cypress%3A+Best+2025+Comparison&rft_id=https%3A%2F%2Fthinksys.com%2Fqa-testing%2Fplaywright-vs-selenium-vs-cypress%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+          - region [ref=f1e449]:
+            - generic [ref=f1e450]:
+              - heading "Further reading" [level=2] [ref=f1e451]
+              - generic [ref=f1e452]:
+                - link "edit":
+                  - /url: /w/index.php?title=Playwright_(software)&action=edit&section=9
+            - list [ref=f1e453]:
+              - listitem [ref=f1e454]:
+                - generic [ref=f1e455]:
+                  - text: "Kinsbruner, Eran (2022). A Frontend Web Developer's Guide to Testing: Explore leading web test automation frameworks and their future driven by low-code and AI."
+                  - link "Packt Publishing" [ref=f1e456] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Packt_Publishing
+                  - text: .
+                  - link "ISBN" [ref=f1e457] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/ISBN_(identifier)
+                  - link "978-1803238319" [ref=f1e458] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Special:BookSources/978-1803238319
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=A+Frontend+Web+Developer%27s+Guide+to+Testing%3A+Explore+leading+web+test+automation+frameworks+and+their+future+driven+by+low-code+and+AI&rft.pub=Packt+Publishing&rft.date=2022&rft.isbn=978-1803238319&rft.aulast=Kinsbruner&rft.aufirst=Eran&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e459]:
+                - generic [ref=f1e460]:
+                  - text: "Irvine, Daniel (2023). Svelte with Test-Driven Development: Advance your skills and write effective automated tests with Vitest, Playwright, and Cucumber.js."
+                  - link "Packt Publishing" [ref=f1e461] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Packt_Publishing
+                  - text: .
+                  - link "ISBN" [ref=f1e462] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/ISBN_(identifier)
+                  - link "978-1837638338" [ref=f1e463] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Special:BookSources/978-1837638338
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=Svelte+with+Test-Driven+Development%3A+Advance+your+skills+and+write+effective+automated+tests+with+Vitest%2C+Playwright%2C+and+Cucumber.js&rft.pub=Packt+Publishing&rft.date=2023&rft.isbn=978-1837638338&rft.aulast=Irvine&rft.aufirst=Daniel&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+          - region [ref=f1e464]:
+            - generic [ref=f1e465]:
+              - heading "External links" [level=2] [ref=f1e466]
+              - generic [ref=f1e467]:
+                - link "edit":
+                  - /url: /w/index.php?title=Playwright_(software)&action=edit&section=10
+            - list [ref=f1e468]:
+              - listitem [ref=f1e469]:
+                - link "Official website" [ref=f1e472] [cursor=pointer]:
+                  - /url: https://playwright.dev/
+              - listitem [ref=f1e473]:
+                - link "playwright" [ref=f1e474] [cursor=pointer]:
+                  - /url: https://github.com/microsoft/playwright
+                - text: "on"
+                - link "GitHub" [ref=f1e475] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/GitHub
+            - navigation [ref=f1e476]:
+              - table [ref=f1e477]:
+                - rowgroup [ref=f1e478]:
+                  - row [ref=f1e479]:
+                    - columnheader "[show] v · t · e Microsoft development tools" [ref=f1e480]:
+                      - button "[show]" [ref=f1e481] [cursor=pointer]
+                      - list [ref=f1e483]:
+                        - listitem [ref=f1e484]:
+                          - link "v" [ref=f1e485] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Template:Microsoft_development_tools
+                          - text: ·
+                        - listitem [ref=f1e486]:
+                          - link "t" [ref=f1e487] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Template_talk:Microsoft_development_tools
+                          - text: ·
+                        - listitem [ref=f1e488]:
+                          - link "e" [ref=f1e489] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Special:EditPage/Template:Microsoft_development_tools
+                      - generic [ref=f1e490]: Microsoft development tools
+                  - row: · · · · · · · · · · · · () · · · · () · · · · · ( · · · · )
+                  - row: · · ( · · · ) · · ( · · · ) · · · · · · · · ( · ) · ( · ) · · · · · · · · · · ·
+                  - row: · · · () · · · · ( · · · · · ) · () · · · · · · · · ( · ) · ·
+                  - row: · · · · · · · · ·
+                  - row: · ·
+                  - row: · · · · ·
+                  - row: · · · · · · () · ·
+                  - row
+            - navigation [ref=f1e491]:
+              - table [ref=f1e492]:
+                - rowgroup [ref=f1e493]:
+                  - row [ref=f1e494]:
+                    - columnheader [ref=f1e495]:
+                      - button "[show]" [ref=f1e496] [cursor=pointer]
+                      - list [ref=f1e498]:
+                        - listitem [ref=f1e499]:
+                          - link "v" [ref=f1e500] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Template:Microsoft_FOSS
+                          - text: ·
+                        - listitem [ref=f1e501]:
+                          - link "t" [ref=f1e502] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Template_talk:Microsoft_FOSS
+                          - text: ·
+                        - listitem [ref=f1e503]:
+                          - link "e" [ref=f1e504] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Special:EditPage/Template:Microsoft_FOSS
+                      - generic [ref=f1e505]:
+                        - link "Microsoft" [ref=f1e506] [cursor=pointer]:
+                          - /url: https://en.wikipedia.org/wiki/Microsoft
+                        - link "free and open-source software (FOSS)" [ref=f1e507] [cursor=pointer]:
+                          - /url: https://en.wikipedia.org/wiki/Free_and_open-source_software
+                  - row: ·
+                  - row: · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ( · ) · · · · · · · · · · · · · · · · · · · · · · · ·
+                  - row: ·
+                  - row: ·
+                  - row: · · · · ·
+                  - row
+            - navigation "Portals" [ref=f1e508]:
+              - generic [ref=f1e509]:
+                - link "Portal" [ref=f1e510] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals
+                - text: ":"
+              - list [ref=f1e511]:
+                - listitem [ref=f1e512]:
+                  - link "Free and open-source software" [ref=f1e516] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software
+        - generic [ref=f1e518]:
+          - link "Categories" [ref=f1e519] [cursor=pointer]:
+            - /url: /wiki/Help:Category
+          - text: ":"
+          - list [ref=f1e520]:
+            - listitem [ref=f1e521]:
+              - link "Graphical user interface testing" [ref=f1e522] [cursor=pointer]:
+                - /url: /wiki/Category:Graphical_user_interface_testing
+            - listitem [ref=f1e523]:
+              - link "Free software testing tools" [ref=f1e524] [cursor=pointer]:
+                - /url: /wiki/Category:Free_software_testing_tools
+            - listitem [ref=f1e525]:
+              - link "Software using the Apache license" [ref=f1e526] [cursor=pointer]:
+                - /url: /wiki/Category:Software_using_the_Apache_license
+            - listitem [ref=f1e527]:
+              - link "Microsoft free software" [ref=f1e528] [cursor=pointer]:
+                - /url: /wiki/Category:Microsoft_free_software
+            - listitem [ref=f1e529]:
+              - link "2020 software" [ref=f1e530] [cursor=pointer]:
+                - /url: /wiki/Category:2020_software
+            - listitem [ref=f1e531]:
+              - link "Cross-platform free software" [ref=f1e532] [cursor=pointer]:
+                - /url: /wiki/Category:Cross-platform_free_software
+            - listitem [ref=f1e533]:
+              - link "Free software for Linux" [ref=f1e534] [cursor=pointer]:
+                - /url: /wiki/Category:Free_software_for_Linux
+            - listitem [ref=f1e535]:
+              - link "Free software for Windows" [ref=f1e536] [cursor=pointer]:
+                - /url: /wiki/Category:Free_software_for_Windows
+            - listitem [ref=f1e537]:
+              - link "Free software for macOS" [ref=f1e538] [cursor=pointer]:
+                - /url: /wiki/Category:Free_software_for_macOS
+            - listitem [ref=f1e539]:
+              - link "Free software programmed in TypeScript" [ref=f1e540] [cursor=pointer]:
+                - /url: /wiki/Category:Free_software_programmed_in_TypeScript
+    - contentinfo [ref=f1e542]:
+      - list [ref=f1e543]:
+        - listitem [ref=f1e544]: This page was last edited on 7 June 2026, at 16:51 (UTC).
+        - listitem [ref=f1e545]:
+          - text: Page was rendered with
+          - link "Parsoid" [ref=f1e546] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid
+          - text: .
+        - listitem [ref=f1e547]:
+          - text: Text is available under the
+          - link "Creative Commons Attribution-ShareAlike 4.0 License" [ref=f1e548] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+          - text: ; additional terms may apply. By using this site, you agree to the
+          - link "Terms of Use" [ref=f1e549] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+          - text: and
+          - link "Privacy Policy" [ref=f1e550] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+          - text: . Wikipedia® is a registered trademark of the
+          - link "Wikimedia Foundation, Inc." [ref=f1e551] [cursor=pointer]:
+            - /url: https://wikimediafoundation.org/
+          - text: ", a non-profit organization."
+      - list:
+        - listitem [ref=f1e552]:
+          - link "Privacy policy" [ref=f1e553] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=f1e554]:
+          - link "About Wikipedia" [ref=f1e555] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:About
+        - listitem [ref=f1e556]:
+          - link "Disclaimers" [ref=f1e557] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:General_disclaimer
+        - listitem [ref=f1e558]:
+          - link "Contact Wikipedia" [ref=f1e559] [cursor=pointer]:
+            - /url: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+        - listitem [ref=f1e560]:
+          - link "Legal & safety contacts" [ref=f1e561] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+        - listitem [ref=f1e562]:
+          - link "Code of Conduct" [ref=f1e563] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=f1e564]:
+          - link "Developers" [ref=f1e565] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=f1e566]:
+          - link "Statistics" [ref=f1e567] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/en.wikipedia.org
+        - listitem [ref=f1e568]:
+          - link "Cookie statement" [ref=f1e569] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=f1e570]:
+          - link "Mobile view" [ref=f1e571] [cursor=pointer]:
+            - /url: //en.wikipedia.org/w/index.php?title=Playwright_(software)&mobileaction=toggle_view_mobile
+      - list [ref=f1e572]:
+        - listitem [ref=f1e573]:
+          - link [ref=f1e574] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=f1e576]
+        - listitem [ref=f1e577]:
+          - link [ref=f1e578] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=f1e580]
+  - generic [ref=f1e581]:
+    - list

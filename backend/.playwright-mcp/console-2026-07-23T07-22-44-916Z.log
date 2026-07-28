@@ -1,0 +1,6 @@
+[    1627ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:22:12
+    at <anonymous>:32:5
+    at <anonymous>:33:7
+[    3512ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://sannysoft.com/favicon.ico:0

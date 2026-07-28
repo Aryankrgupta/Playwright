@@ -1,0 +1,28 @@
+[    2224ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:40:5
+    at <anonymous>:41:7
+[   13449ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://bookface-static.ycombinator.com/vite/assets/sentry-Ca0bquLB.js:13
+[   18887ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:40:5
+    at <anonymous>:41:7
+[   18889ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:40:5
+    at <anonymous>:41:7
+[   18345ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.googleapis.com/maps/api/js?key=AIzaSyC0BuJ43Ncbmuro17vVxWJWrOzzAPZ0rQE&libraries=places&language=en:2586
+[   23316ms] [LOG] [FloatingWidget] continue legacy widget flow @ https://bookface-static.ycombinator.com/vite/assets/sentry-Ca0bquLB.js:13
+[   26132ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:40:5
+    at <anonymous>:41:7
+[   26138ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:40:5
+    at <anonymous>:41:7

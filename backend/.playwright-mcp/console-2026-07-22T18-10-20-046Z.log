@@ -1,0 +1,10 @@
+[       2ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7
+[       6ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7

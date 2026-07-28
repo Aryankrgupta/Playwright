@@ -1,0 +1,80 @@
+[     272ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[     303ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at eval (eval at <anonymous> (https://www.google.com/search?q=news:2:473), <anonymous>:3845:38177)
+    at Md (eval at <anonymous> (https://www.google.com/search?q=news:2:473), <anonymous>:3845:39305)
+    at l.eval [as W] (eval at <anonymous> (https://www.google.com/search?q=news:2:473), <anonymous>:3845:59719)
+    at SC (eval at <anonymous> (https://www.google.com/search?q=news:2:473), <anonymous>:3845:28693)
+    at x4 (eval at <anonymous> (https://www.google.com/search?q=news:2:473), <anonymous>:3845:18839)
+    at ss (eval at <anonymous> (https://www.google.com/search?q=news:2:473), <anonymous>:3845:17369)
+[    1073ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dnews%26sei%3DVKRjar-VMOe4nesP3fag2Q0&q=EhAkCUDlEayogQjBKdwolexuGNXIjtMGIjBMDDlUIZEMKqVUIq-E9JwIRlTayfoQW8LgNpt_1FfFkC3_3F1GYjxulyRnR19irO8yAVJaAUM:0
+[    1079ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    1136ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    1305ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdLLIMbAAAAAIl-KLj9p1ePhM-4LCCDbjtJLqRO&co=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbTo0NDM.&hl=en&v=A7KpaEASfhDcK0nXxgQEyyYv&size=normal&s=zj9OirkkX-Y8QF6wVVPx63GG97SQ6naZSprc-ypHxRQeDjz9h9wha0DEIxDOGDODGyLCutqxOwT8R6GGwqhtTsXf-iy5E1BxoYSX-7Lt2xKLn3OEwAtH_kN2_dfhNjk2XrWrOSaRvLw9V2B3mkq6fMNEanlZ7QvxqUKVM_5aIh5x8Z2PU4Lt2M3kdQFuoFNRbLksOp06kcn6PxUJddB0erCi-x7KzQRd7h8TPJbjVWMbV0xEjlt3BZXXKjbiERyfG3MBf-MytG2e0xHba0PpbjwSfkeGjiI&anchor-ms=20000&execute-ms=30000&cb=hoi96vigoytk:0
+[    1427ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:371:62)
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:374:399)
+    at aN.M (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:118:303)
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:233:151)
+    at B.next (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:799:238)
+    at https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:133:18
+[    1430ms] ReferenceError: solveSimpleChallenge is not defined
+    at onload (https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dnews%26sei%3DVKRjar-VMOe4nesP3fag2Q0&q=EhAkCUDlEayogQjBKdwolexuGNXIjtMGIjBMDDlUIZEMKqVUIq-E9JwIRlTayfoQW8LgNpt_1FfFkC3_3F1GYjxulyRnR19irO8yAVJaAUM:4:316)
+[    1764ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:371:62)
+    at https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:1205:43
+    at https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:1261:125
+    at https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:764:104
+    at https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:250:328
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:120:110)
+[    1792ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at xy.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:821:387)
+    at xy.K.R.<computed>.ab (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:1658:488)
+    at xy.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:536:82)
+    at xy.K.R.<computed>.F.FX (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:1655:237)
+    at https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:430:184
+    at Pb (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:943:79)
+[    2356ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://www.google.com/recaptcha/enterprise/bframe?hl=en&v=A7KpaEASfhDcK0nXxgQEyyYv&k=6LdLLIMbAAAAAIl-KLj9p1ePhM-4LCCDbjtJLqRO&bft=0dAFcWeA4gVhn5qBcagB3smqV6PyfH0hRFWifY8ill07w2kUBNtyK1TKzwILU-B4GUJD6hEXnj07mZvgM1yp0LBYH7j3IVnhhgqQ:0
+[    2357ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    2573ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at xy.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:821:387)
+    at xy.K.R.<computed>.ab (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:1658:488)
+    at xy.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:536:82)
+    at xy.K.R.<computed>.F.FX (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:1655:237)
+    at https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:430:184
+    at Pb (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:943:79)

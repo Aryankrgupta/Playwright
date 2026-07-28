@@ -1,0 +1,5 @@
+[       5ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:22:12
+    at <anonymous>:32:5
+    at <anonymous>:33:7

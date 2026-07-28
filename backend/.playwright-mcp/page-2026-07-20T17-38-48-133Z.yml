@@ -1,0 +1,2082 @@
+- generic [active] [ref=f1e1]:
+  - link "Jump to content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - navigation "Site" [ref=f1e6]:
+        - generic "Main menu" [ref=f1e7]:
+          - button "Main menu" [ref=f1e8] [cursor=pointer]
+      - link [ref=f1e12] [cursor=pointer]:
+        - /url: /wiki/Main_Page
+        - generic [ref=f1e13]:
+          - img "Wikipedia" [ref=f1e14]
+          - img "The Free Encyclopedia" [ref=f1e15]
+    - generic [ref=f1e16]:
+      - search [ref=f1e17]:
+        - link "Search" [ref=f1e18] [cursor=pointer]:
+          - /url: /wiki/Special:Search
+      - navigation "Personal tools" [ref=f1e21]:
+        - list [ref=f1e25]:
+          - listitem [ref=f1e26]:
+            - link "Donate" [ref=f1e27] [cursor=pointer]:
+              - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+          - listitem [ref=f1e28]:
+            - link "Create account" [ref=f1e29] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:CreateAccount&returnto=Playwright+%28software%29
+          - listitem [ref=f1e30]:
+            - link "Log in" [ref=f1e31] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:UserLogin&returnto=Playwright+%28software%29
+  - generic [ref=f1e33]:
+    - main [ref=f1e35]:
+      - generic [ref=f1e36]:
+        - navigation "Contents" [ref=f1e37]:
+          - generic "Table of Contents" [ref=f1e38]:
+            - button "Toggle the table of contents" [ref=f1e39] [cursor=pointer]
+            - generic [ref=f1e40]: Toggle the table of contents
+        - heading "Playwright (software)" [level=1] [ref=f1e43]
+        - generic [ref=f1e45]:
+          - button "2 languages" [ref=f1e46] [cursor=pointer]
+          - generic [ref=f1e47]: 2 languages
+      - generic [ref=f1e51]:
+        - navigation "Namespaces" [ref=f1e53]:
+          - list [ref=f1e56]:
+            - listitem [ref=f1e57]:
+              - link "Article" [ref=f1e58] [cursor=pointer]:
+                - /url: /wiki/Playwright_(software)
+            - listitem [ref=f1e60]:
+              - link "Talk" [ref=f1e61] [cursor=pointer]:
+                - /url: /wiki/Talk:Playwright_(software)
+        - generic [ref=f1e63]:
+          - navigation "Views" [ref=f1e64]:
+            - list [ref=f1e67]:
+              - listitem [ref=f1e68]:
+                - link "Read" [ref=f1e69] [cursor=pointer]:
+                  - /url: /wiki/Playwright_(software)
+              - listitem [ref=f1e71]:
+                - link "Edit" [ref=f1e72] [cursor=pointer]:
+                  - /url: /w/index.php?title=Playwright_(software)&action=edit
+              - listitem [ref=f1e74]:
+                - link "View history" [ref=f1e75] [cursor=pointer]:
+                  - /url: /w/index.php?title=Playwright_(software)&action=history
+          - navigation "Page tools" [ref=f1e77]:
+            - generic [ref=f1e78]:
+              - button "Tools" [ref=f1e79] [cursor=pointer]
+              - generic [ref=f1e80]: Tools
+      - generic "Playwright (software)" [ref=f1e83]:
+        - generic [ref=f1e84]: From Wikipedia, the free encyclopedia
+        - generic [ref=f1e87]:
+          - generic [ref=f1e88]:
+            - table [ref=f1e89]:
+              - rowgroup [ref=f1e90]:
+                - row [ref=f1e91]:
+                  - columnheader "Playwright" [ref=f1e92]
+                - row [ref=f1e93]:
+                  - cell [ref=f1e94]:
+                    - link [ref=f1e96] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/File:Playwright_Logo.svg
+                - row [ref=f1e98]:
+                  - rowheader [ref=f1e99]:
+                    - link "Developer" [ref=f1e100] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Programmer
+                  - cell [ref=f1e101]:
+                    - link "Microsoft" [ref=f1e102] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Microsoft
+                - row [ref=f1e103]:
+                  - rowheader "Release" [ref=f1e104]
+                  - cell "January 31, 2020; 6 years ago [1]" [ref=f1e105]:
+                    - text: January 31, 2020
+                    - generic [ref=f1e106]: ; 6 years ago
+                    - superscript [ref=f1e107]:
+                      - link "[1]" [ref=f1e108] [cursor=pointer]:
+                        - /url: "#cite_note-1"
+                - row [ref=f1e110]:
+                  - rowheader [ref=f1e111]:
+                    - link "Stable release" [ref=f1e112] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Software_release_life_cycle
+                  - cell "1.61.1[2] Edit this on Wikidata / 23 June 2026; 25 days ago" [ref=f1e113]:
+                    - generic [ref=f1e114]:
+                      - text: 1.61.1
+                      - superscript [ref=f1e115]:
+                        - link "[2]" [ref=f1e116] [cursor=pointer]:
+                          - /url: "#cite_note-wikidata-7eb6da064a77447eaf3043cd0f2c6bfd1cc8916c-v20-2"
+                      - link [ref=f1e119] [cursor=pointer]:
+                        - /url: https://www.wikidata.org/wiki/Q123162820?uselang=en#P348
+                        - img "Edit this on Wikidata" [ref=f1e120]
+                      - text: / 23 June 2026
+                      - generic [ref=f1e121]: ; 25 days ago
+                - row [ref=f1e122]:
+                  - rowheader "Written in" [ref=f1e123]
+                  - cell [ref=f1e124]:
+                    - link "TypeScript" [ref=f1e125] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/TypeScript
+                - row [ref=f1e126]:
+                  - rowheader [ref=f1e127]:
+                    - link "Operating system" [ref=f1e128] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Operating_system
+                  - cell [ref=f1e129]:
+                    - link "Microsoft Windows" [ref=f1e130] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Microsoft_Windows
+                    - text: ","
+                    - link "macOS" [ref=f1e131] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/MacOS
+                    - text: ","
+                    - link "Linux" [ref=f1e132] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Linux
+                - row [ref=f1e133]:
+                  - rowheader [ref=f1e134]:
+                    - link "Type" [ref=f1e135] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Software_categories#Categorization_approaches
+                  - cell [ref=f1e136]:
+                    - link "Software testing" [ref=f1e137] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Software_testing
+                    - link "framework" [ref=f1e138] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Software_framework
+                    - text: for
+                    - link "web applications" [ref=f1e139] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Web_application
+                - row [ref=f1e140]:
+                  - rowheader [ref=f1e141]:
+                    - link "License" [ref=f1e142] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Software_license
+                  - cell [ref=f1e143]:
+                    - link "Apache License 2.0" [ref=f1e144] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Apache_License_2.0
+                - row [ref=f1e145]:
+                  - rowheader "Website" [ref=f1e146]
+                  - cell [ref=f1e147]:
+                    - link "playwright.dev" [ref=f1e149] [cursor=pointer]:
+                      - /url: https://playwright.dev/
+                - row [ref=f1e150]:
+                  - rowheader [ref=f1e151]:
+                    - link "Repository" [ref=f1e152] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Repository_(version_control)
+                  - cell [ref=f1e153]:
+                    - link "github.com/microsoft/playwright" [ref=f1e155] [cursor=pointer]:
+                      - /url: https://github.com/microsoft/playwright
+            - paragraph [ref=f1e156]:
+              - text: Playwright is an
+              - link "open-source" [ref=f1e157] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Open-source
+              - text: automation library for browser testing and
+              - link "web scraping" [ref=f1e158] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Web_scraping
+              - superscript [ref=f1e159]:
+                - link "[3]" [ref=f1e160] [cursor=pointer]:
+                  - /url: "#cite_note-3"
+              - text: developed by
+              - link "Microsoft" [ref=f1e162] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Microsoft
+              - superscript [ref=f1e163]:
+                - link "[4]" [ref=f1e164] [cursor=pointer]:
+                  - /url: "#cite_note-4"
+              - superscript [ref=f1e166]:
+                - link "[5]" [ref=f1e167] [cursor=pointer]:
+                  - /url: "#cite_note-5"
+              - text: and launched on 31 January 2020, which has since become popular among
+              - link "programmers" [ref=f1e169] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Programmer
+              - text: and
+              - link "web developers" [ref=f1e170] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Web_developer
+              - text: .
+            - paragraph [ref=f1e171]:
+              - text: Playwright provides the ability to automate browser tasks in
+              - link "Chromium" [ref=f1e172] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Chromium_(web_browser)
+              - text: ","
+              - link "Firefox" [ref=f1e173] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Firefox
+              - text: ", and"
+              - link "WebKit" [ref=f1e174] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/WebKit
+              - text: with a single API.
+              - superscript [ref=f1e175]:
+                - link "[6]" [ref=f1e176] [cursor=pointer]:
+                  - /url: "#cite_note-6"
+              - text: It can also operate against branded browsers such as
+              - link "Google Chrome" [ref=f1e178] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Google_Chrome
+              - text: and
+              - link "Microsoft Edge" [ref=f1e179] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Microsoft_Edge
+              - text: available on the host machine, although these browsers are not installed by default. The current Playwright version supports Stable, Beta, Dev, and Canary channels of Google Chrome and Microsoft Edge.
+              - superscript [ref=f1e180]:
+                - link "[7]" [ref=f1e181] [cursor=pointer]:
+                  - /url: "#cite_note-7"
+              - text: This allows developers to create reliable end-to-end tests that are capable of running in non-headless mode, as well as in headless mode for automation.
+            - paragraph [ref=f1e183]:
+              - text: Playwright supports programming languages like
+              - link "JavaScript" [ref=f1e184] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/JavaScript
+              - text: ","
+              - link "Python" [ref=f1e185] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Python_(programming_language)
+              - text: ","
+              - link "C#" [ref=f1e186] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
+              - text: and
+              - link "Java" [ref=f1e187] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Java_(software_platform)
+              - text: ", though its main API was originally written in"
+              - link "Node.js" [ref=f1e188] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Node.js
+              - text: . It supports all modern web features including network interception and multiple browser contexts and provides automatic waiting, which reduces the flakiness of tests.
+          - region [ref=f1e189]:
+            - generic [ref=f1e190]:
+              - heading "@playwright/test" [level=2] [ref=f1e191]
+              - generic [ref=f1e192]:
+                - link "edit":
+                  - /url: /w/index.php?title=Playwright_(software)&action=edit&section=1
+            - paragraph [ref=f1e193]:
+              - text: "@playwright/test is a test runner with Jest-like assertions"
+              - superscript [ref=f1e194]:
+                - link "[8]" [ref=f1e195] [cursor=pointer]:
+                  - /url: "#cite_note-8"
+              - text: developed and maintained by the Playwright team that is built on top of the Playwright API. This test runner is tightly integrated with Playwright and is specifically designed for end-to-end testing.
+              - superscript [ref=f1e197]:
+                - link "[9]" [ref=f1e198] [cursor=pointer]:
+                  - /url: "#cite_note-9"
+              - text: It has capabilities like browser-specific tests, parallel test execution,
+              - superscript [ref=f1e200]:
+                - link "[10]" [ref=f1e201] [cursor=pointer]:
+                  - /url: "#cite_note-10"
+              - text: rich browser context options, snapshot testing, automatic retries and many more.
+          - region [ref=f1e203]:
+            - generic [ref=f1e204]:
+              - heading "History" [level=2] [ref=f1e205]
+              - generic [ref=f1e206]:
+                - link "edit":
+                  - /url: /w/index.php?title=Playwright_(software)&action=edit&section=2
+            - paragraph [ref=f1e207]:
+              - text: Playwright was announced by Microsoft in January 2020.
+              - superscript [ref=f1e208]:
+                - link "[11]" [ref=f1e209] [cursor=pointer]:
+                  - /url: "#cite_note-11"
+              - text: It was developed to address the need for a unified API for cross-browser testing and to overcome limitations in existing tools like
+              - link "Puppeteer" [ref=f1e211] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Puppeteer_(software)
+              - text: ","
+              - link "Cypress" [ref=f1e212] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Cypress_(software)
+              - text: and
+              - link "Selenium" [ref=f1e213] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Selenium_(software)
+              - text: . A team of engineers, including those who had previously worked on Puppeteer at
+              - link "Google" [ref=f1e214] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Google
+              - text: ", contributed to its development."
+              - superscript [ref=f1e215]:
+                - link "[12]" [ref=f1e216] [cursor=pointer]:
+                  - /url: "#cite_note-12"
+              - text: Playwright introduced features like automatic waits, multi-browser support, and network interception, making it a powerful tool for modern web testing. Since its inception, it has been actively maintained and has seen rapid growth and adoption in the web testing community.
+              - superscript [ref=f1e218]:
+                - link "[13]" [ref=f1e219] [cursor=pointer]:
+                  - /url: "#cite_note-13"
+            - paragraph [ref=f1e221]: The @playwright/test runner was released later as part of an effort to provide a more comprehensive solution for browser-based testing. Its development was largely based on the need to have a specialized runner that can leverage the full potential of the Playwright API and make end-to-end testing more robust and straightforward.
+          - region [ref=f1e222]:
+            - generic [ref=f1e223]:
+              - heading "Usage and examples" [level=2] [ref=f1e224]
+              - generic [ref=f1e225]:
+                - link "edit":
+                  - /url: /w/index.php?title=Playwright_(software)&action=edit&section=3
+            - paragraph [ref=f1e226]: "Playwright is primarily used for automating browser tasks, which can range from simple page navigation and content scraping to more complex operations like automated form submissions, user interactions and more. For instance, a simple JavaScript code snippet using Playwright might look like:"
+            - generic [ref=f1e227]: "const { chromium } = require('playwright'); (async () => { const browser = await chromium.launch(); const page = await browser.newPage(); await page.goto('https://example.com'); await page.screenshot({ path: 'example.png' }); await browser.close(); })();"
+            - paragraph [ref=f1e229]:
+              - text: In this example, Playwright is used to open a Chromium browser, navigate to
+              - code [ref=f1e230]:
+                - link "https://example.com" [ref=f1e231] [cursor=pointer]:
+                  - /url: https://example.com
+              - text: ", take a screenshot and save it as"
+              - code [ref=f1e232]: example.png
+              - text: .
+            - paragraph [ref=f1e233]: "@playwright/test further extends these capabilities by providing a test runner that allows developers to write and organize their tests in a more structured and scalable manner. An example test using @playwright/test might look like:"
+            - generic [ref=f1e234]: "const { test } = require('@playwright/test'); test('basic test', async ({ page }) => { await page.goto('https://example.com'); await expect(page).toHaveTitle('Example Domain'); });"
+            - paragraph [ref=f1e236]:
+              - text: In this example, a test is written to navigate to
+              - code [ref=f1e237]:
+                - link "https://example.com" [ref=f1e238] [cursor=pointer]:
+                  - /url: https://example.com
+              - text: and check that the title of the page is "Example Domain".
+              - superscript [ref=f1e239]:
+                - link "[14]" [ref=f1e240] [cursor=pointer]:
+                  - /url: "#cite_note-14"
+            - region [ref=f1e242]:
+              - generic [ref=f1e243]:
+                - heading "Configuration" [level=3] [ref=f1e244]
+                - generic [ref=f1e245]:
+                  - link "edit":
+                    - /url: /w/index.php?title=Playwright_(software)&action=edit&section=4
+              - paragraph [ref=f1e246]: "Playwright tests can be customized using a configuration file (playwright.config.js) that supports various options including:"
+              - list [ref=f1e247]:
+                - listitem [ref=f1e248]: Test timeout settings
+                - listitem [ref=f1e249]: Retry attempts for failed tests
+                - listitem [ref=f1e250]: Screenshot and video capture settings
+                - listitem [ref=f1e251]: Headless mode configuration
+                - listitem [ref=f1e252]: Test parallelization options
+              - paragraph [ref=f1e253]: "An example configuration might look like:"
+              - generic [ref=f1e254]: "module.exports = { testDir: './tests', timeout: 30000, retries: 2, use: { headless: true, screenshot: 'only-on-failure', video: 'retain-on-failure', }, };"
+            - region [ref=f1e256]:
+              - generic [ref=f1e257]:
+                - heading "Debugging features" [level=3] [ref=f1e258]
+                - generic [ref=f1e259]:
+                  - link "edit":
+                    - /url: /w/index.php?title=Playwright_(software)&action=edit&section=5
+              - paragraph [ref=f1e260]: "Playwright includes built-in debugging capabilities such as:"
+              - list [ref=f1e261]:
+                - listitem [ref=f1e262]: Screenshots captured on test failures
+                - listitem [ref=f1e263]: Video recording of test runs
+                - listitem [ref=f1e264]: Trace viewer for detailed step-by-step analysis
+                - listitem [ref=f1e265]: Debug mode with browser inspector
+                - listitem [ref=f1e266]:
+                  - text: Console logs and network request monitoring
+                  - superscript [ref=f1e267]:
+                    - link "[15]" [ref=f1e268] [cursor=pointer]:
+                      - /url: "#cite_note-15"
+            - region [ref=f1e270]:
+              - generic [ref=f1e271]:
+                - heading "Reporters" [level=3] [ref=f1e272]
+                - generic [ref=f1e273]:
+                  - link "edit":
+                    - /url: /w/index.php?title=Playwright_(software)&action=edit&section=6
+              - paragraph [ref=f1e274]: Reporters in Playwright define how test results are captured, aggregated, and surfaced after execution. They turn raw test events into structured output such as logs, files, dashboards, or external integrations, enabling teams to analyze trends, spot regressions, and debug failures more effectively.
+              - paragraph [ref=f1e275]: By centralizing errors, timings, traces, screenshots, and metadata, reporters make it easier to understand why tests failed, not just that they failed.
+              - paragraph [ref=f1e276]:
+                - text: Playwright includes built-in reporters
+                - superscript [ref=f1e277]:
+                  - link "[16]" [ref=f1e278] [cursor=pointer]:
+                    - /url: "#cite_note-16"
+                - text: and exposes a reporter API
+                - superscript [ref=f1e280]:
+                  - link "[17]" [ref=f1e281] [cursor=pointer]:
+                    - /url: "#cite_note-17"
+                - text: that supports both open-source and commercial implementations, which are listed below.
+              - list [ref=f1e283]:
+                - listitem [ref=f1e284]:
+                  - link "Monocart Reporter" [ref=f1e285] [cursor=pointer]:
+                    - /url: https://github.com/cenfun/monocart-reporter
+                - listitem [ref=f1e286]:
+                  - link "Currents" [ref=f1e287] [cursor=pointer]:
+                    - /url: https://currents.dev/
+                - listitem [ref=f1e288]:
+                  - link "ReportPortal" [ref=f1e289] [cursor=pointer]:
+                    - /url: https://reportportal.io/
+                - listitem [ref=f1e290]:
+                  - link "Allure Report" [ref=f1e291] [cursor=pointer]:
+                    - /url: https://allurereport.org/
+            - region [ref=f1e292]:
+              - generic [ref=f1e293]:
+                - heading "Usage Trends" [level=3] [ref=f1e294]
+                - generic [ref=f1e295]:
+                  - link "edit":
+                    - /url: /w/index.php?title=Playwright_(software)&action=edit&section=7
+              - paragraph [ref=f1e296]:
+                - text: As of 2025, Playwright is reported to have over 75,000 GitHub stars, more than 20 million NPM
+                - superscript [ref=f1e297]:
+                  - link "[18]" [ref=f1e298] [cursor=pointer]:
+                    - /url: "#cite_note-18"
+                - text: all‑time downloads, and over 11,000 Stack Overflow questions. It has been described as experiencing the fastest growth in community adoption, GitHub stars, and modern usage among major web testing frameworks.
+              - table [ref=f1e300]:
+                - caption [ref=f1e301]: Data Insights (Playwright 2025)
+                - rowgroup [ref=f1e302]:
+                  - row [ref=f1e303]:
+                    - columnheader "Tool" [ref=f1e304]
+                    - columnheader "GitHubStars" [ref=f1e305]
+                    - columnheader "NPM All Time Downloads" [ref=f1e306]
+                    - columnheader "StackOverflow Qs" [ref=f1e307]
+                    - columnheader "First Released" [ref=f1e308]
+                    - columnheader "Update Pace" [ref=f1e309]
+                  - row [ref=f1e310]:
+                    - cell "Playwright" [ref=f1e311]
+                    - cell "75,000+" [ref=f1e312]
+                    - cell "20M+" [ref=f1e313]
+                    - cell "11,000+" [ref=f1e314]
+                    - cell "2020" [ref=f1e315]
+                    - cell "Rapid, innovative" [ref=f1e316]
+          - region [ref=f1e317]:
+            - generic [ref=f1e318]:
+              - heading "References" [level=2] [ref=f1e319]
+              - generic [ref=f1e320]:
+                - link "edit":
+                  - /url: /w/index.php?title=Playwright_(software)&action=edit&section=8
+            - list [ref=f1e323]:
+              - listitem [ref=f1e324]:
+                - link "^" [ref=f1e326] [cursor=pointer]:
+                  - /url: "#cite_ref-1"
+                - generic [ref=f1e327]:
+                  - generic [ref=f1e328]:
+                    - link "\"v0.10.0 release\"" [ref=f1e329] [cursor=pointer]:
+                      - /url: https://github.com/microsoft/playwright/releases/tag/v0.10.0
+                    - text: .
+                    - link "GitHub" [ref=f1e331] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/GitHub
+                    - generic [ref=f1e332]: . Retrieved 1 June 2022
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=GitHub&rft.atitle=v0.10.0+release&rft_id=https%3A%2F%2Fgithub.com%2Fmicrosoft%2Fplaywright%2Freleases%2Ftag%2Fv0.10.0&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e333]:
+                - link "^" [ref=f1e335] [cursor=pointer]:
+                  - /url: "#cite_ref-wikidata-7eb6da064a77447eaf3043cd0f2c6bfd1cc8916c-v20_2-0"
+                - generic [ref=f1e336]:
+                  - generic [ref=f1e337]:
+                    - link "\"Release 1.61.1\"" [ref=f1e338] [cursor=pointer]:
+                      - /url: https://github.com/microsoft/playwright/releases/tag/v1.61.1
+                    - text: . 23 June 2026
+                    - generic [ref=f1e339]: . Retrieved 24 June 2026
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Release+1.61.1&rft.date=2026-06-23&rft_id=https%3A%2F%2Fgithub.com%2Fmicrosoft%2Fplaywright%2Freleases%2Ftag%2Fv1.61.1&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e340]:
+                - link "^" [ref=f1e342] [cursor=pointer]:
+                  - /url: "#cite_ref-3"
+                - generic [ref=f1e343]:
+                  - generic [ref=f1e344]: Bansal, Mudit; Dar, Muhammad Ameen; Bhat, Moshin Manzoor; Sharma, Tushar; Uniyar, Rishita (2023). "Data Ingestion and Processing using Playwright". TechRxiv.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.jtitle=TechRxiv&rft.atitle=Data+Ingestion+and+Processing+using+Playwright&rft.date=2023&rft.aulast=Bansal&rft.aufirst=Mudit&rft.au=Dar%2C+Muhammad+Ameen&rft.au=Bhat%2C+Moshin+Manzoor&rft.au=Sharma%2C+Tushar&rft.au=Uniyar%2C+Rishita&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e345]:
+                - link "^" [ref=f1e347] [cursor=pointer]:
+                  - /url: "#cite_ref-4"
+                - generic [ref=f1e348]:
+                  - generic [ref=f1e349]:
+                    - text: Yegulalp, Serdar (30 September 2020).
+                    - link "\"Microsoft's Playwright simplifies tests for Python web apps\"" [ref=f1e350] [cursor=pointer]:
+                      - /url: https://www.infoworld.com/article/2260489/microsofts-playwright-simplifies-tests-for-python-web-apps.html
+                    - text: .
+                    - link "InfoWorld" [ref=f1e352] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/InfoWorld
+                    - text: . IDG Communications
+                    - generic [ref=f1e353]: . Retrieved 2 July 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=InfoWorld&rft.atitle=Microsoft%27s+Playwright+simplifies+tests+for+Python+web+apps&rft.date=2020-09-30&rft.aulast=Yegulalp&rft.aufirst=Serdar&rft_id=https%3A%2F%2Fwww.infoworld.com%2Farticle%2F2260489%2Fmicrosofts-playwright-simplifies-tests-for-python-web-apps.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e354]:
+                - link "^" [ref=f1e356] [cursor=pointer]:
+                  - /url: "#cite_ref-5"
+                - generic [ref=f1e357]:
+                  - generic [ref=f1e358]:
+                    - text: Tung, Liam (1 October 2020).
+                    - 'link "\"Microsoft: Playwright for Python language lets you test web apps in all major browsers\"" [ref=f1e359] [cursor=pointer]':
+                      - /url: https://www.zdnet.com/article/microsoft-playwright-for-python-language-lets-you-test-web-apps-in-all-major-browsers/
+                    - text: .
+                    - link "ZDNET" [ref=f1e361] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/ZDNET
+                    - generic [ref=f1e362]: . Retrieved 2 July 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=ZDNET&rft.atitle=Microsoft%3A+Playwright+for+Python+language+lets+you+test+web+apps+in+all+major+browsers&rft.date=2020-10-01&rft.aulast=Tung&rft.aufirst=Liam&rft_id=https%3A%2F%2Fwww.zdnet.com%2Farticle%2Fmicrosoft-playwright-for-python-language-lets-you-test-web-apps-in-all-major-browsers%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e363]:
+                - link "^" [ref=f1e365] [cursor=pointer]:
+                  - /url: "#cite_ref-6"
+                - generic [ref=f1e366]:
+                  - generic [ref=f1e367]:
+                    - text: Judis, Stefan (22 October 2022).
+                    - link "\"Playwright, a Time-Saving End-to-End Testing Framework\"" [ref=f1e368] [cursor=pointer]:
+                      - /url: https://thenewstack.io/playwright-a-time-saving-end-to-end-testing-framework/
+                    - text: . The New Stack
+                    - generic [ref=f1e369]: . Retrieved 2 July 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=The+New+Stack&rft.atitle=Playwright%2C+a+Time-Saving+End-to-End+Testing+Framework&rft.date=2022-10-22&rft.aulast=Judis&rft.aufirst=Stefan&rft_id=https%3A%2F%2Fthenewstack.io%2Fplaywright-a-time-saving-end-to-end-testing-framework%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e370]:
+                - link "^" [ref=f1e372] [cursor=pointer]:
+                  - /url: "#cite_ref-7"
+                - generic [ref=f1e373]:
+                  - generic [ref=f1e374]:
+                    - link "\"Supported browsers\"" [ref=f1e375] [cursor=pointer]:
+                      - /url: https://playwright.dev/docs/browsers
+                    - text: . Playwright Documentation. Microsoft
+                    - generic [ref=f1e376]: . Retrieved 20 January 2026
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Playwright+Documentation&rft.atitle=Supported+browsers&rft_id=https%3A%2F%2Fplaywright.dev%2Fdocs%2Fbrowsers&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e377]:
+                - link "^" [ref=f1e379] [cursor=pointer]:
+                  - /url: "#cite_ref-8"
+                - generic [ref=f1e380]:
+                  - generic [ref=f1e381]:
+                    - link "\"Assertions\"" [ref=f1e382] [cursor=pointer]:
+                      - /url: https://playwright.dev/docs/test-assertions
+                    - text: . Playwright.
+                    - link "Microsoft" [ref=f1e383] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Microsoft
+                    - generic [ref=f1e384]: . Retrieved 1 June 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Playwright&rft.atitle=Assertions&rft_id=https%3A%2F%2Fplaywright.dev%2Fdocs%2Ftest-assertions&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e385]:
+                - link "^" [ref=f1e387] [cursor=pointer]:
+                  - /url: "#cite_ref-9"
+                - generic [ref=f1e388]:
+                  - generic [ref=f1e389]:
+                    - link "\"Library\"" [ref=f1e390] [cursor=pointer]:
+                      - /url: https://playwright.dev/docs/library#:~:text=Under%20most%20circumstances%2C%20for%20end,playwright%20(Playwright%20Library)%20directly
+                    - text: . Playwright.
+                    - link "Microsoft" [ref=f1e391] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Microsoft
+                    - generic [ref=f1e392]: . Retrieved 1 June 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Playwright&rft.atitle=Library&rft_id=https%3A%2F%2Fplaywright.dev%2Fdocs%2Flibrary%23%3A~%3Atext%3DUnder%2520most%2520circumstances%252C%2520for%2520end%2Cplaywright%2520%28Playwright%2520Library%29%2520directly&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e393]:
+                - link "^" [ref=f1e395] [cursor=pointer]:
+                  - /url: "#cite_ref-10"
+                - generic [ref=f1e396]:
+                  - generic [ref=f1e397]:
+                    - link "\"Parallelism and sharding\"" [ref=f1e398] [cursor=pointer]:
+                      - /url: https://playwright.dev/docs/test-parallel
+                    - text: . Playwright.
+                    - link "Microsoft" [ref=f1e399] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Microsoft
+                    - generic [ref=f1e400]: . Retrieved 1 June 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Playwright&rft.atitle=Parallelism+and+sharding&rft_id=https%3A%2F%2Fplaywright.dev%2Fdocs%2Ftest-parallel&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e401]:
+                - link "^" [ref=f1e403] [cursor=pointer]:
+                  - /url: "#cite_ref-11"
+                - generic [ref=f1e404]:
+                  - generic [ref=f1e405]:
+                    - text: Attam, Arjun (30 September 2020).
+                    - 'link "\"Announcing Playwright for Python: Reliable end-to-end testing for the web\"" [ref=f1e406] [cursor=pointer]':
+                      - /url: https://devblogs.microsoft.com/python/announcing-playwright-for-python-reliable-end-to-end-testing-for-the-web/
+                    - text: . Microsoft DevBlogs.
+                    - link "Microsoft" [ref=f1e407] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Microsoft
+                    - generic [ref=f1e408]: . Retrieved 2 July 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Microsoft+DevBlogs&rft.atitle=Announcing+Playwright+for+Python%3A+Reliable+end-to-end+testing+for+the+web&rft.date=2020-09-30&rft.aulast=Attam&rft.aufirst=Arjun&rft_id=https%3A%2F%2Fdevblogs.microsoft.com%2Fpython%2Fannouncing-playwright-for-python-reliable-end-to-end-testing-for-the-web%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e409]:
+                - link "^" [ref=f1e411] [cursor=pointer]:
+                  - /url: "#cite_ref-12"
+                - generic [ref=f1e412]:
+                  - generic [ref=f1e413]:
+                    - text: Schiemann, Dylan (30 January 2020).
+                    - link "\"Microsoft Announces Playwright Alternative to Puppeteer\"" [ref=f1e414] [cursor=pointer]:
+                      - /url: https://www.infoq.com/news/2020/01/playwright-browser-automation/
+                    - text: .
+                    - link "InfoQ" [ref=f1e416] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/InfoQ
+                    - text: . C4Media
+                    - generic [ref=f1e417]: . Retrieved 2 July 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=InfoQ&rft.atitle=Microsoft+Announces+Playwright+Alternative+to+Puppeteer&rft.date=2020-01-30&rft.aulast=Schiemann&rft.aufirst=Dylan&rft_id=https%3A%2F%2Fwww.infoq.com%2Fnews%2F2020%2F01%2Fplaywright-browser-automation%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e418]:
+                - link "^" [ref=f1e420] [cursor=pointer]:
+                  - /url: "#cite_ref-13"
+                - generic [ref=f1e421]:
+                  - generic [ref=f1e422]:
+                    - text: Gagan, Luc (1 July 2023).
+                    - link "\"A Comparative Analysis of Playwright Adoption vs Cypress and Selenium\"" [ref=f1e423] [cursor=pointer]:
+                      - /url: https://ray.run/blog/the-rapid-adoption-of-playwright-test-in-software-qa#:~:text=it's%20worth%20noting%20that%20playwright's%20github%20stars%20have%20been%20growing%20at%20a%20faster%20rate%20than%20cypress%20and%20selenium
+                    - text: . Rayrun
+                    - generic [ref=f1e424]: . Retrieved 2 July 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Rayrun&rft.atitle=A+Comparative+Analysis+of+Playwright+Adoption+vs+Cypress+and+Selenium&rft.date=2023-07-01&rft.aulast=Gagan&rft.aufirst=Luc&rft_id=https%3A%2F%2Fray.run%2Fblog%2Fthe-rapid-adoption-of-playwright-test-in-software-qa%23%3A~%3Atext%3Dit%27s%2520worth%2520noting%2520that%2520playwright%27s%2520github%2520stars%2520have%2520been%2520growing%2520at%2520a%2520faster%2520rate%2520than%2520cypress%2520and%2520selenium&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e425]:
+                - link "^" [ref=f1e427] [cursor=pointer]:
+                  - /url: "#cite_ref-14"
+                - generic [ref=f1e428]:
+                  - generic [ref=f1e429]:
+                    - link "\"toHaveTitle assertion\"" [ref=f1e430] [cursor=pointer]:
+                      - /url: https://playwright.dev/docs/api/class-pageassertions#page-assertions-to-have-title
+                    - text: . Playwright.
+                    - link "Microsoft" [ref=f1e431] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Microsoft
+                    - generic [ref=f1e432]: . Retrieved 1 June 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Playwright&rft.atitle=toHaveTitle+assertion&rft_id=https%3A%2F%2Fplaywright.dev%2Fdocs%2Fapi%2Fclass-pageassertions%23page-assertions-to-have-title&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e433]:
+                - link "^" [ref=f1e435] [cursor=pointer]:
+                  - /url: "#cite_ref-15"
+                - generic [ref=f1e436]:
+                  - generic [ref=f1e437]:
+                    - link "\"How to Use Playwright for End-to-End Testing\"" [ref=f1e438] [cursor=pointer]:
+                      - /url: https://www.roundproxies.com/blog/how-to-use-playwright/
+                    - text: . roundproxies.com. 6 January 2025
+                    - generic [ref=f1e439]: . Retrieved 6 February 2025
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=roundproxies.com&rft.atitle=How+to+Use+Playwright+for+End-to-End+Testing&rft.date=2025-01-06&rft_id=https%3A%2F%2Fwww.roundproxies.com%2Fblog%2Fhow-to-use-playwright%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e440]:
+                - link "^" [ref=f1e442] [cursor=pointer]:
+                  - /url: "#cite_ref-16"
+                - generic [ref=f1e443]:
+                  - generic [ref=f1e444]:
+                    - link "\"Playwright Reporter API\"" [ref=f1e445] [cursor=pointer]:
+                      - /url: https://playwright.dev/docs/test-reporters#built-in-reporters
+                    - text: . playwright.dev. 14 January 2026
+                    - generic [ref=f1e446]: . Retrieved 14 January 2026
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=playwright.dev&rft.atitle=Playwright+Reporter+API&rft.date=2026-01-14&rft_id=https%3A%2F%2Fplaywright.dev%2Fdocs%2Ftest-reporters%23built-in-reporters&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e447]:
+                - link "^" [ref=f1e449] [cursor=pointer]:
+                  - /url: "#cite_ref-17"
+                - generic [ref=f1e450]:
+                  - generic [ref=f1e451]:
+                    - link "\"Playwright Reporter API\"" [ref=f1e452] [cursor=pointer]:
+                      - /url: https://playwright.dev/docs/api/class-reporter
+                    - text: . playwright.dev. 14 January 2026
+                    - generic [ref=f1e453]: . Retrieved 14 January 2026
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=playwright.dev&rft.atitle=Playwright+Reporter+API&rft.date=2026-01-14&rft_id=https%3A%2F%2Fplaywright.dev%2Fdocs%2Fapi%2Fclass-reporter&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e454]:
+                - link "^" [ref=f1e456] [cursor=pointer]:
+                  - /url: "#cite_ref-18"
+                - generic [ref=f1e457]:
+                  - generic [ref=f1e458]:
+                    - 'link "\"Playwright vs Selenium vs Cypress: Best 2025 Comparison\"" [ref=f1e459] [cursor=pointer]':
+                      - /url: https://thinksys.com/qa-testing/playwright-vs-selenium-vs-cypress/
+                    - text: . ThinkSys
+                    - generic [ref=f1e460]: . Retrieved 2025-08-06
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=ThinkSys&rft.atitle=Playwright+vs+Selenium+vs+Cypress%3A+Best+2025+Comparison&rft_id=https%3A%2F%2Fthinksys.com%2Fqa-testing%2Fplaywright-vs-selenium-vs-cypress%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+          - region [ref=f1e461]:
+            - generic [ref=f1e462]:
+              - heading "Further reading" [level=2] [ref=f1e463]
+              - generic [ref=f1e464]:
+                - link "edit":
+                  - /url: /w/index.php?title=Playwright_(software)&action=edit&section=9
+            - list [ref=f1e465]:
+              - listitem [ref=f1e466]:
+                - generic [ref=f1e467]:
+                  - text: "Kinsbruner, Eran (2022). A Frontend Web Developer's Guide to Testing: Explore leading web test automation frameworks and their future driven by low-code and AI."
+                  - link "Packt Publishing" [ref=f1e468] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Packt_Publishing
+                  - text: .
+                  - link "ISBN" [ref=f1e469] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/ISBN_(identifier)
+                  - link "978-1803238319" [ref=f1e470] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Special:BookSources/978-1803238319
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=A+Frontend+Web+Developer%27s+Guide+to+Testing%3A+Explore+leading+web+test+automation+frameworks+and+their+future+driven+by+low-code+and+AI&rft.pub=Packt+Publishing&rft.date=2022&rft.isbn=978-1803238319&rft.aulast=Kinsbruner&rft.aufirst=Eran&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+              - listitem [ref=f1e471]:
+                - generic [ref=f1e472]:
+                  - text: "Irvine, Daniel (2023). Svelte with Test-Driven Development: Advance your skills and write effective automated tests with Vitest, Playwright, and Cucumber.js."
+                  - link "Packt Publishing" [ref=f1e473] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Packt_Publishing
+                  - text: .
+                  - link "ISBN" [ref=f1e474] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/ISBN_(identifier)
+                  - link "978-1837638338" [ref=f1e475] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Special:BookSources/978-1837638338
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=Svelte+with+Test-Driven+Development%3A+Advance+your+skills+and+write+effective+automated+tests+with+Vitest%2C+Playwright%2C+and+Cucumber.js&rft.pub=Packt+Publishing&rft.date=2023&rft.isbn=978-1837638338&rft.aulast=Irvine&rft.aufirst=Daniel&rfr_id=info%3Asid%2Fen.wikipedia.org%3APlaywright+%28software%29"
+          - region [ref=f1e476]:
+            - generic [ref=f1e477]:
+              - heading "External links" [level=2] [ref=f1e478]
+              - generic [ref=f1e479]:
+                - link "edit":
+                  - /url: /w/index.php?title=Playwright_(software)&action=edit&section=10
+            - list [ref=f1e480]:
+              - listitem [ref=f1e481]:
+                - link "Official website" [ref=f1e484] [cursor=pointer]:
+                  - /url: https://playwright.dev/
+              - listitem [ref=f1e485]:
+                - link "playwright" [ref=f1e486] [cursor=pointer]:
+                  - /url: https://github.com/microsoft/playwright
+                - text: "on"
+                - link "GitHub" [ref=f1e487] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/GitHub
+            - navigation [ref=f1e488]:
+              - table [ref=f1e489]:
+                - rowgroup [ref=f1e490]:
+                  - row [ref=f1e491]:
+                    - columnheader "[hide] v · t · e Microsoft development tools" [ref=f1e492]:
+                      - text: "[hide]"
+                      - list [ref=f1e494]:
+                        - listitem [ref=f1e495]:
+                          - link "v" [ref=f1e496] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Template:Microsoft_development_tools
+                          - text: ·
+                        - listitem [ref=f1e497]:
+                          - link "t" [ref=f1e498] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Template_talk:Microsoft_development_tools
+                          - text: ·
+                        - listitem [ref=f1e499]:
+                          - link "e" [ref=f1e500] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Special:EditPage/Template:Microsoft_development_tools
+                      - generic [ref=f1e501]: Microsoft development tools
+                  - row [ref=f1e502]:
+                    - rowheader "Development environments" [ref=f1e503]: Developmentenvironments
+                    - cell [ref=f1e504]:
+                      - table [ref=f1e505]:
+                        - rowgroup [ref=f1e506]:
+                          - row [ref=f1e507]:
+                            - rowheader [ref=f1e508]:
+                              - link "Visual Studio" [ref=f1e509] [cursor=pointer]:
+                                - /url: https://en.wikipedia.org/wiki/Microsoft_Visual_Studio
+                            - cell [ref=f1e510]:
+                              - list [ref=f1e512]:
+                                - listitem [ref=f1e513]:
+                                  - link "Code" [ref=f1e514] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Visual_Studio_Code
+                                  - text: ·
+                                - listitem [ref=f1e515]:
+                                  - link "Express" [ref=f1e516] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express
+                                  - text: ·
+                                - listitem [ref=f1e517]:
+                                  - link "Team System Profiler" [ref=f1e518] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/VSTS_Profiler
+                                  - text: ·
+                                - listitem [ref=f1e519]:
+                                  - link "Tools for Applications" [ref=f1e520] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Visual_Studio_Tools_for_Applications
+                                  - text: ·
+                                - listitem [ref=f1e521]:
+                                  - link "Tools for Office" [ref=f1e522] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Visual_Studio_Tools_for_Office
+                          - row [ref=f1e523]:
+                            - rowheader "Others" [ref=f1e524]
+                            - cell [ref=f1e525]:
+                              - list [ref=f1e527]:
+                                - listitem [ref=f1e528]:
+                                  - link "Blend" [ref=f1e529] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_Blend
+                                  - text: ·
+                                - listitem [ref=f1e530]:
+                                  - link "Expression Web" [ref=f1e531] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_Expression_Web
+                                  - text: ·
+                                - listitem [ref=f1e532]:
+                                  - link "FxCop" [ref=f1e533] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/FxCop
+                                  - text: ·
+                                - listitem [ref=f1e534]:
+                                  - link "GW-BASIC" [ref=f1e535] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/GW-BASIC
+                                  - text: ·
+                                - listitem [ref=f1e536]:
+                                  - link "MACRO-80" [ref=f1e537] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_MACRO-80
+                                  - text: ·
+                                - listitem [ref=f1e538]:
+                                  - link "Macro Assembler" [ref=f1e539] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_Macro_Assembler
+                                  - text: ·
+                                - listitem [ref=f1e540]:
+                                  - link "MSBuild" [ref=f1e541] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/MSBuild
+                                  - text: ·
+                                - listitem [ref=f1e542]:
+                                  - link "Pascal" [ref=f1e543] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_Pascal
+                                  - text: ·
+                                - listitem [ref=f1e544]:
+                                  - link "QuickBASIC" [ref=f1e545] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/QuickBASIC
+                                  - list [ref=f1e546]:
+                                    - listitem [ref=f1e547]:
+                                      - text: (
+                                      - link "QBasic" [ref=f1e548] [cursor=pointer]:
+                                        - /url: https://en.wikipedia.org/wiki/QBasic
+                                      - text: )
+                                  - text: ·
+                                - listitem [ref=f1e549]:
+                                  - link "QuickC" [ref=f1e550] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/QuickC
+                                  - text: ·
+                                - listitem [ref=f1e551]:
+                                  - link "Robotics Developer Studio" [ref=f1e552] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_Robotics_Developer_Studio
+                                  - text: ·
+                                - listitem [ref=f1e553]:
+                                  - link "Roslyn" [ref=f1e554] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Roslyn_(compiler)
+                                  - text: ·
+                                - listitem [ref=f1e555]:
+                                  - link "SharePoint Designer" [ref=f1e556] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_SharePoint_Designer
+                                  - list [ref=f1e557]:
+                                    - listitem [ref=f1e558]:
+                                      - text: (
+                                      - link "FrontPage" [ref=f1e559] [cursor=pointer]:
+                                        - /url: https://en.wikipedia.org/wiki/Microsoft_FrontPage
+                                      - text: )
+                                  - text: ·
+                                - listitem [ref=f1e560]:
+                                  - link "Small Basic" [ref=f1e561] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_Small_Basic
+                                  - text: ·
+                                - listitem [ref=f1e562]:
+                                  - link "WebMatrix" [ref=f1e563] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_WebMatrix
+                                  - text: ·
+                                - listitem [ref=f1e564]:
+                                  - link "Windows App SDK" [ref=f1e565] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_App_SDK
+                                  - text: ·
+                                - listitem [ref=f1e566]:
+                                  - link "Windows App Studio" [ref=f1e567] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_App_Studio
+                                  - text: ·
+                                - listitem [ref=f1e568]:
+                                  - link "Windows SDK" [ref=f1e569] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_Windows_SDK
+                                  - list [ref=f1e570]:
+                                    - listitem [ref=f1e571]:
+                                      - text: (
+                                      - link "CLR Profiler" [ref=f1e572] [cursor=pointer]:
+                                        - /url: https://en.wikipedia.org/wiki/CLR_Profiler
+                                      - text: ·
+                                    - listitem [ref=f1e573]:
+                                      - link "ILAsm" [ref=f1e574] [cursor=pointer]:
+                                        - /url: https://en.wikipedia.org/wiki/ILAsm
+                                      - text: ·
+                                    - listitem [ref=f1e575]:
+                                      - link "Native Image Generator" [ref=f1e576] [cursor=pointer]:
+                                        - /url: https://en.wikipedia.org/wiki/Native_Image_Generator
+                                      - text: ·
+                                    - listitem [ref=f1e577]:
+                                      - link "WinDiff" [ref=f1e578] [cursor=pointer]:
+                                        - /url: https://en.wikipedia.org/wiki/WinDiff
+                                      - text: ·
+                                    - listitem [ref=f1e579]:
+                                      - link "XAMLPad" [ref=f1e580] [cursor=pointer]:
+                                        - /url: https://en.wikipedia.org/wiki/XAMLPad
+                                      - text: )
+                  - row [ref=f1e581]:
+                    - rowheader "Languages" [ref=f1e582]
+                    - cell [ref=f1e583]:
+                      - list [ref=f1e585]:
+                        - listitem [ref=f1e586]:
+                          - link "Dynamics AX" [ref=f1e587] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Microsoft_Dynamics_AX
+                          - text: ·
+                        - listitem [ref=f1e588]:
+                          - link "BASIC" [ref=f1e589] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Microsoft_BASIC
+                          - text: ·
+                        - listitem [ref=f1e590]:
+                          - text: Visual Basic
+                          - list [ref=f1e591]:
+                            - listitem [ref=f1e592]:
+                              - text: (
+                              - link "legacy" [ref=f1e593] [cursor=pointer]:
+                                - /url: https://en.wikipedia.org/wiki/Visual_Basic_(classic)
+                              - text: ·
+                            - listitem [ref=f1e594]:
+                              - link "VB.NET" [ref=f1e595] [cursor=pointer]:
+                                - /url: https://en.wikipedia.org/wiki/Visual_Basic_.NET
+                              - text: ·
+                            - listitem [ref=f1e596]:
+                              - link "VBA" [ref=f1e597] [cursor=pointer]:
+                                - /url: https://en.wikipedia.org/wiki/Visual_Basic_for_Applications
+                              - text: ·
+                            - listitem [ref=f1e598]:
+                              - link "VBScript" [ref=f1e599] [cursor=pointer]:
+                                - /url: https://en.wikipedia.org/wiki/VBScript
+                              - text: )
+                          - text: ·
+                        - listitem [ref=f1e600]:
+                          - link "Bosque" [ref=f1e601] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Bosque_(programming_language)
+                          - text: ·
+                        - listitem [ref=f1e602]:
+                          - link "Visual C++" [ref=f1e603] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Microsoft_Visual_C++
+                          - list [ref=f1e604]:
+                            - listitem [ref=f1e605]:
+                              - text: (
+                              - link "C++/CX" [ref=f1e606] [cursor=pointer]:
+                                - /url: https://en.wikipedia.org/wiki/C++/CX
+                              - text: ·
+                            - listitem [ref=f1e607]:
+                              - link "C++/CLI" [ref=f1e608] [cursor=pointer]:
+                                - /url: https://en.wikipedia.org/wiki/C++/CLI
+                              - text: ·
+                            - listitem [ref=f1e609]:
+                              - link "Managed C++" [ref=f1e610] [cursor=pointer]:
+                                - /url: https://en.wikipedia.org/wiki/Managed_Extensions_for_C++
+                              - text: ·
+                            - listitem [ref=f1e611]:
+                              - link "C++/WinRT" [ref=f1e612] [cursor=pointer]:
+                                - /url: https://en.wikipedia.org/wiki/C++/WinRT
+                              - text: )
+                          - text: ·
+                        - listitem [ref=f1e613]:
+                          - link "C#" [ref=f1e614] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
+                          - text: ·
+                        - listitem [ref=f1e615]:
+                          - link "C/AL" [ref=f1e616] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/C/AL
+                          - text: ·
+                        - listitem [ref=f1e617]:
+                          - link "Dafny" [ref=f1e618] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Dafny
+                          - text: ·
+                        - listitem [ref=f1e619]:
+                          - link "Dexterity" [ref=f1e620] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Dexterity_(programming_language)
+                          - text: ·
+                        - listitem [ref=f1e621]:
+                          - link "F#" [ref=f1e622] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/F_Sharp_(programming_language)
+                          - text: ·
+                        - listitem [ref=f1e623]:
+                          - link "F*" [ref=f1e624] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/F*_(programming_language)
+                          - text: ·
+                        - listitem [ref=f1e625]:
+                          - link "Visual FoxPro" [ref=f1e626] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Visual_FoxPro
+                          - text: ·
+                        - listitem [ref=f1e627]:
+                          - link "Java" [ref=f1e628] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Java_(programming_language)
+                          - list [ref=f1e629]:
+                            - listitem [ref=f1e630]:
+                              - text: (
+                              - link "J++" [ref=f1e631] [cursor=pointer]:
+                                - /url: https://en.wikipedia.org/wiki/Visual_J++
+                              - text: ·
+                            - listitem [ref=f1e632]:
+                              - link "J#" [ref=f1e633] [cursor=pointer]:
+                                - /url: https://en.wikipedia.org/wiki/Visual_J_Sharp
+                              - text: )
+                          - text: ·
+                        - listitem [ref=f1e634]:
+                          - link "JavaScript" [ref=f1e635] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/JavaScript
+                          - list [ref=f1e636]:
+                            - listitem [ref=f1e637]:
+                              - text: (
+                              - link "TypeScript" [ref=f1e638] [cursor=pointer]:
+                                - /url: https://en.wikipedia.org/wiki/TypeScript
+                              - text: ·
+                            - listitem [ref=f1e639]:
+                              - link "JScript" [ref=f1e640] [cursor=pointer]:
+                                - /url: https://en.wikipedia.org/wiki/JScript
+                              - text: )
+                          - text: ·
+                        - listitem [ref=f1e641]:
+                          - link "IronPython" [ref=f1e642] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/IronPython
+                          - text: ·
+                        - listitem [ref=f1e643]:
+                          - link "IronRuby" [ref=f1e644] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/IronRuby
+                          - text: ·
+                        - listitem [ref=f1e645]:
+                          - link "Lean" [ref=f1e646] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Lean_(proof_assistant)
+                          - text: ·
+                        - listitem [ref=f1e647]:
+                          - link "P" [ref=f1e648] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/P_(programming_language)
+                          - text: ·
+                        - listitem [ref=f1e649]:
+                          - link "Power Fx" [ref=f1e650] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Microsoft_Power_Fx
+                          - text: ·
+                        - listitem [ref=f1e651]:
+                          - link "PowerShell" [ref=f1e652] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/PowerShell
+                          - text: ·
+                        - listitem [ref=f1e653]:
+                          - link "Project Verona" [ref=f1e654] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Project_Verona
+                          - text: ·
+                        - listitem [ref=f1e655]:
+                          - link "Q#" [ref=f1e656] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Q_Sharp
+                          - text: ·
+                        - listitem [ref=f1e657]:
+                          - link "Small Basic" [ref=f1e658] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Microsoft_Small_Basic
+                          - text: ·
+                        - listitem [ref=f1e659]:
+                          - link "VPL" [ref=f1e660] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Microsoft_Visual_Programming_Language
+                          - text: ·
+                        - listitem [ref=f1e661]:
+                          - link "XAML" [ref=f1e662] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Extensible_Application_Markup_Language
+                  - row [ref=f1e663]:
+                    - rowheader "APIs and frameworks" [ref=f1e664]: APIs andframeworks
+                    - cell [ref=f1e665]:
+                      - table [ref=f1e666]:
+                        - rowgroup [ref=f1e667]:
+                          - row [ref=f1e668]:
+                            - rowheader "Native" [ref=f1e669]
+                            - cell [ref=f1e670]:
+                              - list [ref=f1e672]:
+                                - listitem [ref=f1e673]:
+                                  - link "Windows API" [ref=f1e674] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_API
+                                  - text: ·
+                                - listitem [ref=f1e675]:
+                                  - link "Silverlight" [ref=f1e676] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_Silverlight
+                                  - text: ·
+                                - listitem [ref=f1e677]:
+                                  - link "XNA" [ref=f1e678] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_XNA
+                                  - text: ·
+                                - listitem [ref=f1e679]:
+                                  - link "DirectX" [ref=f1e680] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/DirectX
+                                  - list [ref=f1e681]:
+                                    - listitem [ref=f1e682]:
+                                      - text: (
+                                      - link "Managed DirectX" [ref=f1e683] [cursor=pointer]:
+                                        - /url: https://en.wikipedia.org/wiki/Managed_DirectX
+                                      - text: )
+                                  - text: ·
+                                - listitem [ref=f1e684]:
+                                  - link "UWP" [ref=f1e685] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Universal_Windows_Platform
+                                  - text: ·
+                                - listitem [ref=f1e686]:
+                                  - link "Xbox Development Kit" [ref=f1e687] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Xbox_Development_Kit
+                                  - text: ·
+                                - listitem [ref=f1e688]:
+                                  - link "Windows Installer" [ref=f1e689] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_Installer
+                                  - text: ·
+                                - listitem [ref=f1e690]:
+                                  - link "WinUI" [ref=f1e691] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/WinUI
+                          - row [ref=f1e692]:
+                            - rowheader [ref=f1e693]:
+                              - link ".NET" [ref=f1e694] [cursor=pointer]:
+                                - /url: https://en.wikipedia.org/wiki/.NET
+                            - cell [ref=f1e695]:
+                              - list [ref=f1e697]:
+                                - listitem [ref=f1e698]:
+                                  - link "ASP.NET" [ref=f1e699] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/ASP.NET
+                                  - list [ref=f1e700]:
+                                    - listitem [ref=f1e701]:
+                                      - text: (
+                                      - link "Core" [ref=f1e702] [cursor=pointer]:
+                                        - /url: https://en.wikipedia.org/wiki/ASP.NET_Core
+                                      - text: ·
+                                    - listitem [ref=f1e703]:
+                                      - link "AJAX" [ref=f1e704] [cursor=pointer]:
+                                        - /url: https://en.wikipedia.org/wiki/ASP.NET_AJAX
+                                      - text: ·
+                                    - listitem [ref=f1e705]:
+                                      - link "Dynamic Data" [ref=f1e706] [cursor=pointer]:
+                                        - /url: https://en.wikipedia.org/wiki/ASP.NET_Dynamic_Data
+                                      - text: ·
+                                    - listitem [ref=f1e707]:
+                                      - link "MVC" [ref=f1e708] [cursor=pointer]:
+                                        - /url: https://en.wikipedia.org/wiki/ASP.NET_MVC
+                                      - text: ·
+                                    - listitem [ref=f1e709]:
+                                      - link "Razor" [ref=f1e710] [cursor=pointer]:
+                                        - /url: https://en.wikipedia.org/wiki/ASP.NET_Razor
+                                      - text: ·
+                                    - listitem [ref=f1e711]:
+                                      - link "Web Forms" [ref=f1e712] [cursor=pointer]:
+                                        - /url: https://en.wikipedia.org/wiki/ASP.NET_Web_Forms
+                                      - text: )
+                                  - text: ·
+                                - listitem [ref=f1e713]:
+                                  - link "ADO.NET" [ref=f1e714] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/ADO.NET
+                                  - list [ref=f1e715]:
+                                    - listitem [ref=f1e716]:
+                                      - text: (
+                                      - link "Entity Framework" [ref=f1e717] [cursor=pointer]:
+                                        - /url: https://en.wikipedia.org/wiki/Entity_Framework
+                                      - text: )
+                                  - text: ·
+                                - listitem [ref=f1e718]:
+                                  - link "MAUI" [ref=f1e719] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/.NET_MAUI
+                                  - text: ·
+                                - listitem [ref=f1e720]:
+                                  - link "CardSpace" [ref=f1e721] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_CardSpace
+                                  - text: ·
+                                - listitem [ref=f1e722]:
+                                  - link "Communication Foundation" [ref=f1e723] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_Communication_Foundation
+                                  - text: ·
+                                - listitem [ref=f1e724]:
+                                  - link "Identity Foundation" [ref=f1e725] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_Identity_Foundation
+                                  - text: ·
+                                - listitem [ref=f1e726]:
+                                  - link "LINQ" [ref=f1e727] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Language_Integrated_Query
+                                  - text: ·
+                                - listitem [ref=f1e728]:
+                                  - link "Presentation Foundation" [ref=f1e729] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_Presentation_Foundation
+                                  - text: ·
+                                - listitem [ref=f1e730]:
+                                  - link "Workflow Foundation" [ref=f1e731] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_Workflow_Foundation
+                          - row [ref=f1e732]:
+                            - rowheader [ref=f1e733]:
+                              - link "Device drivers" [ref=f1e734] [cursor=pointer]:
+                                - /url: https://en.wikipedia.org/wiki/Device_driver
+                            - cell [ref=f1e735]:
+                              - list [ref=f1e737]:
+                                - listitem [ref=f1e738]:
+                                  - link "WDK" [ref=f1e739] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_Driver_Kit
+                                  - text: ·
+                                - listitem [ref=f1e740]:
+                                  - link "WDF" [ref=f1e741] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_Driver_Frameworks
+                                  - list [ref=f1e742]:
+                                    - listitem [ref=f1e743]:
+                                      - text: (
+                                      - link "KMDF" [ref=f1e744] [cursor=pointer]:
+                                        - /url: https://en.wikipedia.org/wiki/Kernel-Mode_Driver_Framework
+                                      - text: ·
+                                    - listitem [ref=f1e745]:
+                                      - link "UMDF" [ref=f1e746] [cursor=pointer]:
+                                        - /url: https://en.wikipedia.org/wiki/User-Mode_Driver_Framework
+                                      - text: )
+                                  - text: ·
+                                - listitem [ref=f1e747]:
+                                  - link "Windows HLK" [ref=f1e748] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_Hardware_Lab_Kit
+                                  - text: ·
+                                - listitem [ref=f1e749]:
+                                  - link "WDM" [ref=f1e750] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_Driver_Model
+                  - row [ref=f1e751]:
+                    - rowheader "Database" [ref=f1e752]
+                    - cell [ref=f1e753]:
+                      - table [ref=f1e754]:
+                        - rowgroup [ref=f1e755]:
+                          - row [ref=f1e756]:
+                            - rowheader [ref=f1e757]:
+                              - link "SQL Server" [ref=f1e758] [cursor=pointer]:
+                                - /url: https://en.wikipedia.org/wiki/Microsoft_SQL_Server
+                            - cell [ref=f1e759]:
+                              - list [ref=f1e761]:
+                                - listitem [ref=f1e762]:
+                                  - link "Express" [ref=f1e763] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/SQL_Server_Express
+                                  - text: ·
+                                - listitem [ref=f1e764]:
+                                  - link "Compact" [ref=f1e765] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/SQL_Server_Compact
+                                  - text: ·
+                                - listitem [ref=f1e766]:
+                                  - link "Management Studio" [ref=f1e767] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/SQL_Server_Management_Studio
+                                  - text: ·
+                                - listitem [ref=f1e768]:
+                                  - link "MSDE" [ref=f1e769] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/MSDE
+                          - row [ref=f1e770]:
+                            - rowheader "SQL services" [ref=f1e771]
+                            - cell [ref=f1e772]:
+                              - list [ref=f1e774]:
+                                - listitem [ref=f1e775]:
+                                  - link "Analysis" [ref=f1e776] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_Analysis_Services
+                                  - text: ·
+                                - listitem [ref=f1e777]:
+                                  - link "Reporting" [ref=f1e778] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/SQL_Server_Reporting_Services
+                                  - text: ·
+                                - listitem [ref=f1e779]:
+                                  - link "Integration" [ref=f1e780] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/SQL_Server_Integration_Services
+                                  - text: ·
+                                - listitem [ref=f1e781]:
+                                  - link "Notification" [ref=f1e782] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/SQL_Server_Notification_Services
+                          - row [ref=f1e783]:
+                            - rowheader "Other" [ref=f1e784]
+                            - cell [ref=f1e785]:
+                              - list [ref=f1e787]:
+                                - listitem [ref=f1e788]:
+                                  - link "Visual FoxPro" [ref=f1e789] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Visual_FoxPro
+                                  - text: ·
+                                - listitem [ref=f1e790]:
+                                  - link "Microsoft Access" [ref=f1e791] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_Access
+                                  - text: ·
+                                - listitem [ref=f1e792]:
+                                  - link "Access Database Engine" [ref=f1e793] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Access_Database_Engine
+                                  - text: ·
+                                - listitem [ref=f1e794]:
+                                  - link "Extensible Storage Engine" [ref=f1e795] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Extensible_Storage_Engine
+                  - row [ref=f1e796]:
+                    - rowheader "Source control" [ref=f1e797]
+                    - cell [ref=f1e798]:
+                      - list [ref=f1e800]:
+                        - listitem [ref=f1e801]:
+                          - link "Delta" [ref=f1e802] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Microsoft_Delta
+                          - text: ·
+                        - listitem [ref=f1e803]:
+                          - link "Visual SourceSafe" [ref=f1e804] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Microsoft_Visual_SourceSafe
+                          - text: ·
+                        - listitem [ref=f1e805]:
+                          - link "Team Foundation Version Control" [ref=f1e806] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Azure_DevOps_Server#TFVC
+                  - row [ref=f1e807]:
+                    - rowheader "Testing and debugging" [ref=f1e808]: Testing anddebugging
+                    - cell [ref=f1e809]:
+                      - list [ref=f1e811]:
+                        - listitem [ref=f1e812]:
+                          - link "CodeView" [ref=f1e813] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/CodeView
+                          - text: ·
+                        - listitem [ref=f1e814]:
+                          - link "OneFuzz" [ref=f1e815] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/OneFuzz
+                          - text: ·
+                        - listitem [ref=f1e816]:
+                          - link "Playwright" [ref=f1e817] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Playwright_(software)
+                          - text: ·
+                        - listitem [ref=f1e818]:
+                          - link "Script Debugger" [ref=f1e819] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Microsoft_Script_Debugger
+                          - text: ·
+                        - listitem [ref=f1e820]:
+                          - link "WinDbg" [ref=f1e821] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/WinDbg
+                          - text: ·
+                        - listitem [ref=f1e822]:
+                          - link "xUnit.net" [ref=f1e823] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/XUnit.net
+                  - row [ref=f1e824]:
+                    - rowheader "Delivery" [ref=f1e825]
+                    - cell [ref=f1e826]:
+                      - list [ref=f1e828]:
+                        - listitem [ref=f1e829]:
+                          - link "Active Setup" [ref=f1e830] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Active_Setup
+                          - text: ·
+                        - listitem [ref=f1e831]:
+                          - link "ClickOnce" [ref=f1e832] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/ClickOnce
+                          - text: ·
+                        - listitem [ref=f1e833]:
+                          - link "npm" [ref=f1e834] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Npm_(software)
+                          - text: ·
+                        - listitem [ref=f1e835]:
+                          - link "NuGet" [ref=f1e836] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/NuGet
+                          - text: ·
+                        - listitem [ref=f1e837]:
+                          - link "vcpkg" [ref=f1e838] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Vcpkg
+                          - text: ·
+                        - listitem [ref=f1e839]:
+                          - link "Web Platform Installer" [ref=f1e840] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Web_Platform_Installer
+                          - text: ·
+                        - listitem [ref=f1e841]:
+                          - link "Windows Installer" [ref=f1e842] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Windows_Installer
+                          - list [ref=f1e843]:
+                            - listitem [ref=f1e844]:
+                              - text: (
+                              - link "WiX" [ref=f1e845] [cursor=pointer]:
+                                - /url: https://en.wikipedia.org/wiki/WiX
+                              - text: )
+                          - text: ·
+                        - listitem [ref=f1e846]:
+                          - link "Windows Package Manager" [ref=f1e847] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Windows_Package_Manager
+                          - text: ·
+                        - listitem [ref=f1e848]:
+                          - link "Microsoft Store" [ref=f1e849] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Microsoft_Store
+                  - row [ref=f1e850]:
+                    - cell "Category Category" [ref=f1e851]:
+                      - generic [ref=f1e852]:
+                        - generic "Category" [ref=f1e854]
+                        - link "Category" [ref=f1e855] [cursor=pointer]:
+                          - /url: https://en.wikipedia.org/wiki/Category:Microsoft_development_tools
+            - navigation [ref=f1e856]:
+              - table [ref=f1e857]:
+                - rowgroup [ref=f1e858]:
+                  - row [ref=f1e859]:
+                    - columnheader [ref=f1e860]:
+                      - text: "[hide]"
+                      - list [ref=f1e862]:
+                        - listitem [ref=f1e863]:
+                          - link "v" [ref=f1e864] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Template:Microsoft_FOSS
+                          - text: ·
+                        - listitem [ref=f1e865]:
+                          - link "t" [ref=f1e866] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Template_talk:Microsoft_FOSS
+                          - text: ·
+                        - listitem [ref=f1e867]:
+                          - link "e" [ref=f1e868] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Special:EditPage/Template:Microsoft_FOSS
+                      - generic [ref=f1e869]:
+                        - link "Microsoft" [ref=f1e870] [cursor=pointer]:
+                          - /url: https://en.wikipedia.org/wiki/Microsoft
+                        - link "free and open-source software (FOSS)" [ref=f1e871] [cursor=pointer]:
+                          - /url: https://en.wikipedia.org/wiki/Free_and_open-source_software
+                  - row [ref=f1e872]:
+                    - rowheader "Overview" [ref=f1e873]
+                    - cell [ref=f1e874]:
+                      - list [ref=f1e876]:
+                        - listitem [ref=f1e877]:
+                          - link "Microsoft and open source" [ref=f1e878] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Microsoft_and_open_source
+                          - text: ·
+                        - listitem [ref=f1e879]:
+                          - link "Shared Source Initiative" [ref=f1e880] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Shared_Source_Initiative
+                  - row [ref=f1e881]:
+                    - rowheader "Software" [ref=f1e882]
+                    - cell [ref=f1e883]:
+                      - table [ref=f1e884]:
+                        - rowgroup [ref=f1e885]:
+                          - row [ref=f1e886]:
+                            - rowheader "Applications" [ref=f1e887]
+                            - cell [ref=f1e888]:
+                              - list [ref=f1e890]:
+                                - listitem [ref=f1e891]:
+                                  - link "3D Movie Maker" [ref=f1e892] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/3D_Movie_Maker
+                                  - text: ·
+                                - listitem [ref=f1e893]:
+                                  - link "Atom" [ref=f1e894] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Atom_(text_editor)
+                                  - text: ·
+                                - listitem [ref=f1e895]:
+                                  - link "Conference XP" [ref=f1e896] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Conference_XP
+                                  - text: ·
+                                - listitem [ref=f1e897]:
+                                  - link "Family.Show" [ref=f1e898] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Family.Show
+                                  - text: ·
+                                - listitem [ref=f1e899]:
+                                  - link "File Manager" [ref=f1e900] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/File_Manager_(Windows)
+                                  - text: ·
+                                - listitem [ref=f1e901]:
+                                  - link "Open Live Writer" [ref=f1e902] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Open_Live_Writer
+                                  - text: ·
+                                - listitem [ref=f1e903]:
+                                  - link "Microsoft Comic Chat" [ref=f1e904] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_Comic_Chat
+                                  - text: ·
+                                - listitem [ref=f1e905]:
+                                  - link "Microsoft Edit" [ref=f1e906] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_Edit
+                                  - text: ·
+                                - listitem [ref=f1e907]:
+                                  - link "Microsoft PowerToys" [ref=f1e908] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_PowerToys
+                                  - text: ·
+                                - listitem [ref=f1e909]:
+                                  - link "Terminal" [ref=f1e910] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_Terminal
+                                  - text: ·
+                                - listitem [ref=f1e911]:
+                                  - link "Windows Calculator" [ref=f1e912] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_Calculator
+                                  - text: ·
+                                - listitem [ref=f1e913]:
+                                  - link "Windows Console" [ref=f1e914] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_Console
+                                  - text: ·
+                                - listitem [ref=f1e915]:
+                                  - link "Windows Package Manager" [ref=f1e916] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_Package_Manager
+                                  - text: ·
+                                - listitem [ref=f1e917]:
+                                  - link "WorldWide Telescope" [ref=f1e918] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/WorldWide_Telescope
+                                  - text: ·
+                                - listitem [ref=f1e919]:
+                                  - link "XML Notepad" [ref=f1e920] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/XML_Notepad
+                          - row [ref=f1e921]:
+                            - rowheader "Video games" [ref=f1e922]
+                            - cell [ref=f1e923]:
+                              - list [ref=f1e925]:
+                                - listitem [ref=f1e926]:
+                                  - link "Allegiance" [ref=f1e927] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Allegiance_(video_game)
+                                  - text: ·
+                                - listitem [ref=f1e928]:
+                                  - link "Zork" [ref=f1e929] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Zork
+                          - row [ref=f1e930]:
+                            - rowheader "Programming languages" [ref=f1e931]: Programminglanguages
+                            - cell [ref=f1e932]:
+                              - list [ref=f1e934]:
+                                - listitem [ref=f1e935]:
+                                  - link "Bosque" [ref=f1e936] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Bosque_(programming_language)
+                                  - text: ·
+                                - listitem [ref=f1e937]:
+                                  - link "C#" [ref=f1e938] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
+                                  - text: ·
+                                - listitem [ref=f1e939]:
+                                  - link "Dafny" [ref=f1e940] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Dafny
+                                  - text: ·
+                                - listitem [ref=f1e941]:
+                                  - link "F#" [ref=f1e942] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/F_Sharp_(programming_language)
+                                  - text: ·
+                                - listitem [ref=f1e943]:
+                                  - link "F*" [ref=f1e944] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/F*_(programming_language)
+                                  - text: ·
+                                - listitem [ref=f1e945]:
+                                  - link "GW-BASIC" [ref=f1e946] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/GW-BASIC
+                                  - text: ·
+                                - listitem [ref=f1e947]:
+                                  - link "IronPython" [ref=f1e948] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/IronPython
+                                  - text: ·
+                                - listitem [ref=f1e949]:
+                                  - link "IronRuby" [ref=f1e950] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/IronRuby
+                                  - text: ·
+                                - listitem [ref=f1e951]:
+                                  - link "Lean" [ref=f1e952] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Lean_(proof_assistant)
+                                  - text: ·
+                                - listitem [ref=f1e953]:
+                                  - link "P" [ref=f1e954] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/P_(programming_language)
+                                  - text: ·
+                                - listitem [ref=f1e955]:
+                                  - link "Power Fx" [ref=f1e956] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_Power_Fx
+                                  - text: ·
+                                - listitem [ref=f1e957]:
+                                  - link "PowerShell" [ref=f1e958] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/PowerShell
+                                  - text: ·
+                                - listitem [ref=f1e959]:
+                                  - link "Project Verona" [ref=f1e960] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Project_Verona
+                                  - text: ·
+                                - listitem [ref=f1e961]:
+                                  - link "Q#" [ref=f1e962] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Q_Sharp
+                                  - text: ·
+                                - listitem [ref=f1e963]:
+                                  - link "Small Basic Online" [ref=f1e964] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_Small_Basic
+                                  - text: ·
+                                - listitem [ref=f1e965]:
+                                  - link "TypeScript" [ref=f1e966] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/TypeScript
+                                  - text: ·
+                                - listitem [ref=f1e967]:
+                                  - link "Visual Basic" [ref=f1e968] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Visual_Basic_.NET
+                          - row [ref=f1e969]:
+                            - rowheader "Frameworks, development tools" [ref=f1e970]: Frameworks,development tools
+                            - cell [ref=f1e971]:
+                              - list [ref=f1e973]:
+                                - listitem [ref=f1e974]:
+                                  - link ".NET" [ref=f1e975] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/.NET
+                                  - text: ·
+                                - listitem [ref=f1e976]:
+                                  - link ".NET Framework" [ref=f1e977] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/.NET_Framework
+                                  - text: ·
+                                - listitem [ref=f1e978]:
+                                  - link ".NET Gadgeteer" [ref=f1e979] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/.NET_Gadgeteer
+                                  - text: ·
+                                - listitem [ref=f1e980]:
+                                  - link ".NET MAUI" [ref=f1e981] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/.NET_MAUI
+                                  - text: ·
+                                - listitem [ref=f1e982]:
+                                  - link ".NET Micro Framework" [ref=f1e983] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/.NET_Micro_Framework
+                                  - text: ·
+                                - listitem [ref=f1e984]:
+                                  - link "AirSim" [ref=f1e985] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/AirSim
+                                  - text: ·
+                                - listitem [ref=f1e986]:
+                                  - link "ASP.NET" [ref=f1e987] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/ASP.NET
+                                  - text: ·
+                                - listitem [ref=f1e988]:
+                                  - link "ASP.NET AJAX" [ref=f1e989] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/ASP.NET_AJAX
+                                  - text: ·
+                                - listitem [ref=f1e990]:
+                                  - link "ASP.NET Core" [ref=f1e991] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/ASP.NET_Core
+                                  - text: ·
+                                - listitem [ref=f1e992]:
+                                  - link "ASP.NET MVC" [ref=f1e993] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/ASP.NET_MVC
+                                  - text: ·
+                                - listitem [ref=f1e994]:
+                                  - link "ASP.NET Razor" [ref=f1e995] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/ASP.NET_Razor
+                                  - text: ·
+                                - listitem [ref=f1e996]:
+                                  - link "ASP.NET Web Forms" [ref=f1e997] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/ASP.NET_Web_Forms
+                                  - text: ·
+                                - listitem [ref=f1e998]:
+                                  - link "Avalonia" [ref=f1e999] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Avalonia_(software_framework)
+                                  - text: ·
+                                - listitem [ref=f1e1000]:
+                                  - link "Babylon.js" [ref=f1e1001] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Babylon.js
+                                  - text: ·
+                                - listitem [ref=f1e1002]:
+                                  - link "BitFunnel" [ref=f1e1003] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/BitFunnel
+                                  - text: ·
+                                - listitem [ref=f1e1004]:
+                                  - link "Blazor" [ref=f1e1005] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Blazor
+                                  - text: ·
+                                - listitem [ref=f1e1006]:
+                                  - link "C++/WinRT" [ref=f1e1007] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/C++/WinRT
+                                  - text: ·
+                                - listitem [ref=f1e1008]:
+                                  - link "CCF" [ref=f1e1009] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Confidential_Consortium_Framework
+                                  - text: ·
+                                - listitem [ref=f1e1010]:
+                                  - link "ChakraCore" [ref=f1e1011] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Chakra_(JavaScript_engine)
+                                  - text: ·
+                                - listitem [ref=f1e1012]:
+                                  - link "CLR Profiler" [ref=f1e1013] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/CLR_Profiler
+                                  - text: ·
+                                - listitem [ref=f1e1014]:
+                                  - link "Dapr" [ref=f1e1015] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Dapr
+                                  - text: ·
+                                - listitem [ref=f1e1016]:
+                                  - link "DeepSpeed" [ref=f1e1017] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/DeepSpeed
+                                  - text: ·
+                                - listitem [ref=f1e1018]:
+                                  - link "DiskSpd" [ref=f1e1019] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/DiskSpd
+                                  - text: ·
+                                - listitem [ref=f1e1020]:
+                                  - link "Dryad" [ref=f1e1021] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Dryad_(programming)
+                                  - text: ·
+                                - listitem [ref=f1e1022]:
+                                  - link "Dynamic Language Runtime" [ref=f1e1023] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Dynamic_Language_Runtime
+                                  - text: ·
+                                - listitem [ref=f1e1024]:
+                                  - link "eBPF on Windows" [ref=f1e1025] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/EBPF_on_Windows
+                                  - text: ·
+                                - listitem [ref=f1e1026]:
+                                  - link "Electron" [ref=f1e1027] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Electron_(software_framework)
+                                  - text: ·
+                                - listitem [ref=f1e1028]:
+                                  - link "Entity Framework" [ref=f1e1029] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Entity_Framework
+                                  - text: ·
+                                - listitem [ref=f1e1030]:
+                                  - link "Fluent Design System" [ref=f1e1031] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Fluent_Design_System
+                                  - text: ·
+                                - listitem [ref=f1e1032]:
+                                  - link "Fluid Framework" [ref=f1e1033] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Fluid_Framework
+                                  - text: ·
+                                - listitem [ref=f1e1034]:
+                                  - link "Infer.NET" [ref=f1e1035] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Infer.NET
+                                  - text: ·
+                                - listitem [ref=f1e1036]:
+                                  - link "LightGBM" [ref=f1e1037] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/LightGBM
+                                  - text: ·
+                                - listitem [ref=f1e1038]:
+                                  - link "Managed Extensibility Framework" [ref=f1e1039] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Managed_Extensibility_Framework
+                                  - text: ·
+                                - listitem [ref=f1e1040]:
+                                  - link "Microsoft Automatic Graph Layout" [ref=f1e1041] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_Automatic_Graph_Layout
+                                  - text: ·
+                                - listitem [ref=f1e1042]:
+                                  - link "Microsoft C++ Standard Library" [ref=f1e1043] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_C++_Standard_Library
+                                  - text: ·
+                                - listitem [ref=f1e1044]:
+                                  - link "Microsoft Cognitive Toolkit" [ref=f1e1045] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_Cognitive_Toolkit
+                                  - text: ·
+                                - listitem [ref=f1e1046]:
+                                  - link "Microsoft Design Language" [ref=f1e1047] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Metro_(design_language)
+                                  - text: ·
+                                - listitem [ref=f1e1048]:
+                                  - link "Microsoft Detours" [ref=f1e1049] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_Detours
+                                  - text: ·
+                                - listitem [ref=f1e1050]:
+                                  - link "Microsoft Enterprise Library" [ref=f1e1051] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_Enterprise_Library
+                                  - text: ·
+                                - listitem [ref=f1e1052]:
+                                  - link "Microsoft SEAL" [ref=f1e1053] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Microsoft_SEAL
+                                  - text: ·
+                                - listitem [ref=f1e1054]:
+                                  - link "mimalloc" [ref=f1e1055] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Mimalloc
+                                  - text: ·
+                                - listitem [ref=f1e1056]:
+                                  - link "Mixed Reality Toolkit" [ref=f1e1057] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Mixed_Reality_Toolkit
+                                  - text: ·
+                                - listitem [ref=f1e1058]:
+                                  - link "ML.NET" [ref=f1e1059] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/ML.NET
+                                  - text: ·
+                                - listitem [ref=f1e1060]:
+                                  - link "mod_mono" [ref=f1e1061] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Mod_mono
+                                  - text: ·
+                                - listitem [ref=f1e1062]:
+                                  - link "Mono" [ref=f1e1063] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Mono_(software)
+                                  - text: ·
+                                - listitem [ref=f1e1064]:
+                                  - link "MonoDevelop" [ref=f1e1065] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/MonoDevelop
+                                  - text: ·
+                                - listitem [ref=f1e1066]:
+                                  - link "MSBuild" [ref=f1e1067] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/MSBuild
+                                  - text: ·
+                                - listitem [ref=f1e1068]:
+                                  - link "MsQuic" [ref=f1e1069] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/MsQuic
+                                  - text: ·
+                                - listitem [ref=f1e1070]:
+                                  - link "Neural Network Intelligence" [ref=f1e1071] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Neural_Network_Intelligence
+                                  - text: ·
+                                - listitem [ref=f1e1072]:
+                                  - link "npm" [ref=f1e1073] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Npm
+                                  - text: ·
+                                - listitem [ref=f1e1074]:
+                                  - link "NuGet" [ref=f1e1075] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/NuGet
+                                  - text: ·
+                                - listitem [ref=f1e1076]:
+                                  - link "OneFuzz" [ref=f1e1077] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/OneFuzz
+                                  - text: ·
+                                - listitem [ref=f1e1078]:
+                                  - link "Open Management Infrastructure" [ref=f1e1079] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Open_Management_Infrastructure
+                                  - text: ·
+                                - listitem [ref=f1e1080]:
+                                  - link "Open Neural Network Exchange" [ref=f1e1081] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Open_Neural_Network_Exchange
+                                  - text: ·
+                                - listitem [ref=f1e1082]:
+                                  - link "Open Service Mesh" [ref=f1e1083] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Open_Service_Mesh
+                                  - text: ·
+                                - listitem [ref=f1e1084]:
+                                  - link "Open XML SDK" [ref=f1e1085] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Open_XML_SDK
+                                  - text: ·
+                                - listitem [ref=f1e1086]:
+                                  - link "Orleans" [ref=f1e1087] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Orleans_(software_framework)
+                                  - text: ·
+                                - listitem [ref=f1e1088]:
+                                  - link "Playwright" [ref=f1e1089] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Playwright_(software)
+                                  - text: ·
+                                - listitem [ref=f1e1090]:
+                                  - link "ProcDump" [ref=f1e1091] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/ProcDump
+                                  - text: ·
+                                - listitem [ref=f1e1092]:
+                                  - link "ProcMon" [ref=f1e1093] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Process_Monitor
+                                  - text: ·
+                                - listitem [ref=f1e1094]:
+                                  - link "Python Tools for Visual Studio" [ref=f1e1095] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Python_Tools_for_Visual_Studio
+                                  - text: ·
+                                - listitem [ref=f1e1096]:
+                                  - link "R Tools for Visual Studio" [ref=f1e1097] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/R_Tools_for_Visual_Studio
+                                  - text: ·
+                                - listitem [ref=f1e1098]:
+                                  - link "RecursiveExtractor" [ref=f1e1099] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/RecursiveExtractor
+                                  - text: ·
+                                - listitem [ref=f1e1100]:
+                                  - link "Roslyn" [ref=f1e1101] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Roslyn_(compiler)
+                                  - text: ·
+                                - listitem [ref=f1e1102]:
+                                  - link "Sandcastle" [ref=f1e1103] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Sandcastle_(software)
+                                  - text: ·
+                                - listitem [ref=f1e1104]:
+                                  - link "SignalR" [ref=f1e1105] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/SignalR
+                                  - text: ·
+                                - listitem [ref=f1e1106]:
+                                  - link "StyleCop" [ref=f1e1107] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/StyleCop
+                                  - text: ·
+                                - listitem [ref=f1e1108]:
+                                  - link "SVNBridge" [ref=f1e1109] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/SVNBridge
+                                  - text: ·
+                                - listitem [ref=f1e1110]:
+                                  - link "T2 Temporal Prover" [ref=f1e1111] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/T2_Temporal_Prover
+                                  - text: ·
+                                - listitem [ref=f1e1112]:
+                                  - link "Text Template Transformation Toolkit" [ref=f1e1113] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Text_Template_Transformation_Toolkit
+                                  - text: ·
+                                - listitem [ref=f1e1114]:
+                                  - link "TLA+ Toolbox" [ref=f1e1115] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/TLA+_Toolbox
+                                  - text: ·
+                                - listitem [ref=f1e1116]:
+                                  - link "U-Prove" [ref=f1e1117] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/U-Prove
+                                  - text: ·
+                                - listitem [ref=f1e1118]:
+                                  - link "vcpkg" [ref=f1e1119] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Vcpkg
+                                  - text: ·
+                                - listitem [ref=f1e1120]:
+                                  - link "Virtual File System for Git" [ref=f1e1121] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Virtual_File_System_for_Git
+                                  - text: ·
+                                - listitem [ref=f1e1122]:
+                                  - link "Voldemort" [ref=f1e1123] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Voldemort_(distributed_data_store)
+                                  - text: ·
+                                - listitem [ref=f1e1124]:
+                                  - link "VoTT" [ref=f1e1125] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/VoTT
+                                  - text: ·
+                                - listitem [ref=f1e1126]:
+                                  - link "Vowpal Wabbit" [ref=f1e1127] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Vowpal_Wabbit
+                                  - text: ·
+                                - listitem [ref=f1e1128]:
+                                  - link "Windows App SDK" [ref=f1e1129] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_App_SDK
+                                  - text: ·
+                                - listitem [ref=f1e1130]:
+                                  - link "Windows Communication Foundation" [ref=f1e1131] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_Communication_Foundation
+                                  - text: ·
+                                - listitem [ref=f1e1132]:
+                                  - link "Windows Driver Frameworks" [ref=f1e1133] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_Driver_Frameworks
+                                  - list [ref=f1e1134]:
+                                    - listitem [ref=f1e1135]:
+                                      - text: (
+                                      - link "KMDF" [ref=f1e1136] [cursor=pointer]:
+                                        - /url: https://en.wikipedia.org/wiki/Kernel-Mode_Driver_Framework
+                                      - text: ·
+                                    - listitem [ref=f1e1137]:
+                                      - link "UMDF" [ref=f1e1138] [cursor=pointer]:
+                                        - /url: https://en.wikipedia.org/wiki/User-Mode_Driver_Framework
+                                      - text: )
+                                  - text: ·
+                                - listitem [ref=f1e1139]:
+                                  - link "Windows Forms" [ref=f1e1140] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_Forms
+                                  - text: ·
+                                - listitem [ref=f1e1141]:
+                                  - link "Windows Presentation Foundation" [ref=f1e1142] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_Presentation_Foundation
+                                  - text: ·
+                                - listitem [ref=f1e1143]:
+                                  - link "Windows Template Library" [ref=f1e1144] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_Template_Library
+                                  - text: ·
+                                - listitem [ref=f1e1145]:
+                                  - link "Windows UI Library" [ref=f1e1146] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_UI_Library
+                                  - text: ·
+                                - listitem [ref=f1e1147]:
+                                  - link "WinJS" [ref=f1e1148] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/WinJS
+                                  - text: ·
+                                - listitem [ref=f1e1149]:
+                                  - link "WinObjC" [ref=f1e1150] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/WinObjC
+                                  - text: ·
+                                - listitem [ref=f1e1151]:
+                                  - link "WiX" [ref=f1e1152] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/WiX
+                                  - text: ·
+                                - listitem [ref=f1e1153]:
+                                  - link "XDP for Windows" [ref=f1e1154] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/XDP_for_Windows
+                                  - text: ·
+                                - listitem [ref=f1e1155]:
+                                  - link "XSP" [ref=f1e1156] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/XSP_(software)
+                                  - text: ·
+                                - listitem [ref=f1e1157]:
+                                  - link "xUnit.net" [ref=f1e1158] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/XUnit.net
+                                  - text: ·
+                                - listitem [ref=f1e1159]:
+                                  - link "Z3 Theorem Prover" [ref=f1e1160] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Z3_Theorem_Prover
+                          - row [ref=f1e1161]:
+                            - rowheader "Operating systems" [ref=f1e1162]
+                            - cell [ref=f1e1163]:
+                              - list [ref=f1e1165]:
+                                - listitem [ref=f1e1166]:
+                                  - link "MS-DOS" [ref=f1e1167] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/MS-DOS
+                                  - text: (v1.25, v2.0 & v4.0) ·
+                                - listitem [ref=f1e1168]:
+                                  - link "Barrelfish" [ref=f1e1169] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Barrelfish_(operating_system)
+                                  - text: ·
+                                - listitem [ref=f1e1170]:
+                                  - link "SONiC" [ref=f1e1171] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/SONiC_(operating_system)
+                                  - text: ·
+                                - listitem [ref=f1e1172]:
+                                  - link "Azure Linux" [ref=f1e1173] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Azure_Linux
+                          - row [ref=f1e1174]:
+                            - rowheader "Other" [ref=f1e1175]
+                            - cell [ref=f1e1176]:
+                              - list [ref=f1e1178]:
+                                - listitem [ref=f1e1179]:
+                                  - link "ChronoZoom" [ref=f1e1180] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/ChronoZoom
+                                  - text: ·
+                                - listitem [ref=f1e1181]:
+                                  - link "Extensible Storage Engine" [ref=f1e1182] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Extensible_Storage_Engine
+                                  - text: ·
+                                - listitem [ref=f1e1183]:
+                                  - link "FlexWiki" [ref=f1e1184] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/FlexWiki
+                                  - text: ·
+                                - listitem [ref=f1e1185]:
+                                  - link "FourQ" [ref=f1e1186] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/FourQ
+                                  - text: ·
+                                - listitem [ref=f1e1187]:
+                                  - link "Gollum" [ref=f1e1188] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Gollum_(software)
+                                  - text: ·
+                                - listitem [ref=f1e1189]:
+                                  - link "Project Mu" [ref=f1e1190] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Project_Mu
+                                  - text: ·
+                                - listitem [ref=f1e1191]:
+                                  - link "ReactiveX" [ref=f1e1192] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/ReactiveX
+                                  - text: ·
+                                - listitem [ref=f1e1193]:
+                                  - link "SILK" [ref=f1e1194] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/SILK
+                                  - text: ·
+                                - listitem [ref=f1e1195]:
+                                  - link "TLAPS" [ref=f1e1196] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/TLAPS
+                                  - text: ·
+                                - listitem [ref=f1e1197]:
+                                  - link "TPM 2.0 Reference Implementation" [ref=f1e1198] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/TPM_2.0_Reference_Implementation
+                                  - text: ·
+                                - listitem [ref=f1e1199]:
+                                  - link "Windows Subsystem for Linux" [ref=f1e1200] [cursor=pointer]:
+                                    - /url: https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux
+                  - row [ref=f1e1201]:
+                    - rowheader [ref=f1e1202]:
+                      - link "Licenses" [ref=f1e1203] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/wiki/Open-source_license
+                    - cell [ref=f1e1204]:
+                      - list [ref=f1e1206]:
+                        - listitem [ref=f1e1207]:
+                          - link "Microsoft Public License" [ref=f1e1208] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Microsoft_Public_License
+                          - text: ·
+                        - listitem [ref=f1e1209]:
+                          - link "Microsoft Reciprocal License" [ref=f1e1210] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Microsoft_Reciprocal_License
+                  - row [ref=f1e1211]:
+                    - rowheader [ref=f1e1212]:
+                      - link "Forges" [ref=f1e1213] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/wiki/Forge_(software)
+                    - cell [ref=f1e1214]:
+                      - list [ref=f1e1216]:
+                        - listitem [ref=f1e1217]:
+                          - link "CodePlex" [ref=f1e1218] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/CodePlex
+                          - text: ·
+                        - listitem [ref=f1e1219]:
+                          - link "GitHub" [ref=f1e1220] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/GitHub
+                  - row [ref=f1e1221]:
+                    - rowheader "Related" [ref=f1e1222]
+                    - cell [ref=f1e1223]:
+                      - list [ref=f1e1225]:
+                        - listitem [ref=f1e1226]:
+                          - link ".NET Foundation" [ref=f1e1227] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/.NET_Foundation
+                          - text: ·
+                        - listitem [ref=f1e1228]:
+                          - link "F# Software Foundation" [ref=f1e1229] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/F_Sharp_Software_Foundation
+                          - text: ·
+                        - listitem [ref=f1e1230]:
+                          - link "Microsoft Open Specification Promise" [ref=f1e1231] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Microsoft_Open_Specification_Promise
+                          - text: ·
+                        - listitem [ref=f1e1232]:
+                          - link "Open Letter to Hobbyists" [ref=f1e1233] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Open_Letter_to_Hobbyists
+                          - text: ·
+                        - listitem [ref=f1e1234]:
+                          - link "Open Source Security Foundation" [ref=f1e1235] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Open_Source_Security_Foundation
+                          - text: ·
+                        - listitem [ref=f1e1236]:
+                          - link "Outercurve Foundation" [ref=f1e1237] [cursor=pointer]:
+                            - /url: https://en.wikipedia.org/wiki/Outercurve_Foundation
+                  - row [ref=f1e1238]:
+                    - cell "Category Category" [ref=f1e1239]:
+                      - generic [ref=f1e1240]:
+                        - generic "Category" [ref=f1e1242]
+                        - link "Category" [ref=f1e1243] [cursor=pointer]:
+                          - /url: https://en.wikipedia.org/wiki/Category:Microsoft_free_software
+            - navigation "Portals" [ref=f1e1244]:
+              - generic [ref=f1e1245]:
+                - link "Portal" [ref=f1e1246] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals
+                - text: ":"
+              - list [ref=f1e1247]:
+                - listitem [ref=f1e1248]:
+                  - link "Free and open-source software" [ref=f1e1252] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software
+        - generic [ref=f1e1254]:
+          - link "Categories" [ref=f1e1255] [cursor=pointer]:
+            - /url: /wiki/Help:Category
+          - text: ":"
+          - list [ref=f1e1256]:
+            - listitem [ref=f1e1257]:
+              - link "Graphical user interface testing" [ref=f1e1258] [cursor=pointer]:
+                - /url: /wiki/Category:Graphical_user_interface_testing
+            - listitem [ref=f1e1259]:
+              - link "Free software testing tools" [ref=f1e1260] [cursor=pointer]:
+                - /url: /wiki/Category:Free_software_testing_tools
+            - listitem [ref=f1e1261]:
+              - link "Software using the Apache license" [ref=f1e1262] [cursor=pointer]:
+                - /url: /wiki/Category:Software_using_the_Apache_license
+            - listitem [ref=f1e1263]:
+              - link "Microsoft free software" [ref=f1e1264] [cursor=pointer]:
+                - /url: /wiki/Category:Microsoft_free_software
+            - listitem [ref=f1e1265]:
+              - link "2020 software" [ref=f1e1266] [cursor=pointer]:
+                - /url: /wiki/Category:2020_software
+            - listitem [ref=f1e1267]:
+              - link "Cross-platform free software" [ref=f1e1268] [cursor=pointer]:
+                - /url: /wiki/Category:Cross-platform_free_software
+            - listitem [ref=f1e1269]:
+              - link "Free software for Linux" [ref=f1e1270] [cursor=pointer]:
+                - /url: /wiki/Category:Free_software_for_Linux
+            - listitem [ref=f1e1271]:
+              - link "Free software for Windows" [ref=f1e1272] [cursor=pointer]:
+                - /url: /wiki/Category:Free_software_for_Windows
+            - listitem [ref=f1e1273]:
+              - link "Free software for macOS" [ref=f1e1274] [cursor=pointer]:
+                - /url: /wiki/Category:Free_software_for_macOS
+            - listitem [ref=f1e1275]:
+              - link "Free software programmed in TypeScript" [ref=f1e1276] [cursor=pointer]:
+                - /url: /wiki/Category:Free_software_programmed_in_TypeScript
+    - contentinfo [ref=f1e1278]:
+      - list [ref=f1e1279]:
+        - listitem [ref=f1e1280]: This page was last edited on 7 June 2026, at 16:51 (UTC).
+        - listitem [ref=f1e1281]:
+          - text: Page was rendered with
+          - link "Parsoid" [ref=f1e1282] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid
+          - text: .
+        - listitem [ref=f1e1283]:
+          - text: Text is available under the
+          - link "Creative Commons Attribution-ShareAlike 4.0 License" [ref=f1e1284] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+          - text: ; additional terms may apply. By using this site, you agree to the
+          - link "Terms of Use" [ref=f1e1285] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+          - text: and
+          - link "Privacy Policy" [ref=f1e1286] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+          - text: . Wikipedia® is a registered trademark of the
+          - link "Wikimedia Foundation, Inc." [ref=f1e1287] [cursor=pointer]:
+            - /url: https://wikimediafoundation.org/
+          - text: ", a non-profit organization."
+      - list:
+        - listitem [ref=f1e1288]:
+          - link "Privacy policy" [ref=f1e1289] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=f1e1290]:
+          - link "About Wikipedia" [ref=f1e1291] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:About
+        - listitem [ref=f1e1292]:
+          - link "Disclaimers" [ref=f1e1293] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:General_disclaimer
+        - listitem [ref=f1e1294]:
+          - link "Contact Wikipedia" [ref=f1e1295] [cursor=pointer]:
+            - /url: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+        - listitem [ref=f1e1296]:
+          - link "Legal & safety contacts" [ref=f1e1297] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+        - listitem [ref=f1e1298]:
+          - link "Code of Conduct" [ref=f1e1299] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=f1e1300]:
+          - link "Developers" [ref=f1e1301] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=f1e1302]:
+          - link "Statistics" [ref=f1e1303] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/en.wikipedia.org
+        - listitem [ref=f1e1304]:
+          - link "Cookie statement" [ref=f1e1305] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=f1e1306]:
+          - link "Mobile view" [ref=f1e1307] [cursor=pointer]:
+            - /url: //en.wikipedia.org/w/index.php?title=Playwright_(software)&mobileaction=toggle_view_mobile
+      - list [ref=f1e1308]:
+        - listitem [ref=f1e1309]:
+          - link [ref=f1e1310] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=f1e1312]
+        - listitem [ref=f1e1313]:
+          - link [ref=f1e1314] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=f1e1316]

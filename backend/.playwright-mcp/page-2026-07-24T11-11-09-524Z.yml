@@ -1,0 +1,860 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - banner [ref=f1e5]:
+      - navigation [ref=f1e6]:
+        - link [ref=f1e7] [cursor=pointer]:
+          - /url: /
+          - img "Y Combinator" [ref=f1e8]
+        - button "Open menu" [ref=f1e9] [cursor=pointer]
+    - generic [ref=f1e15]:
+      - generic [ref=f1e16]:
+        - heading "Find the best startup jobs, curated by YC" [level=1] [ref=f1e17]
+        - list [ref=f1e18]:
+          - listitem [ref=f1e19]: Apply to thousands of startup jobs with a single profile.
+          - listitem [ref=f1e20]: Let YC founders contact you or browse companies privately.
+          - listitem [ref=f1e21]: Find the next Airbnb, Instacart or Coinbase — only YC companies.
+      - generic [ref=f1e22]:
+        - link "Find a job ›" [ref=f1e23] [cursor=pointer]:
+          - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication&defaults%5BsignUpActive%5D=true
+        - generic [ref=f1e24]:
+          - text: Already work at a YC startup?
+          - link "Browse privately" [ref=f1e25] [cursor=pointer]:
+            - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication&defaults%5BsignUpActive%5D=true
+    - generic [ref=f1e27]:
+      - generic [ref=f1e28]:
+        - heading "Software Engineer jobs added recently" [level=2] [ref=f1e29]
+        - list [ref=f1e30]:
+          - listitem [ref=f1e31]:
+            - link "Design & UI/UX" [ref=f1e32] [cursor=pointer]:
+              - /url: /jobs/role/designer
+          - listitem [ref=f1e33]:
+            - link "Product" [ref=f1e34] [cursor=pointer]:
+              - /url: /jobs/role/product-manager
+          - listitem [ref=f1e35]:
+            - link "Recruiting & HR" [ref=f1e36] [cursor=pointer]:
+              - /url: /jobs/role/recruiting-hr
+          - listitem [ref=f1e37]:
+            - link "Sales" [ref=f1e38] [cursor=pointer]:
+              - /url: /jobs/role/sales-manager
+          - listitem [ref=f1e39]:
+            - link "Science" [ref=f1e40] [cursor=pointer]:
+              - /url: /jobs/role/science
+      - list [ref=f1e42]:
+        - listitem [ref=f1e43]:
+          - generic [ref=f1e44]:
+            - generic [ref=f1e45]:
+              - link [ref=f1e47] [cursor=pointer]:
+                - /url: /companies/truss
+              - generic [ref=f1e48]:
+                - link "Truss (S21)•Banking for construction(10 days ago)" [ref=f1e49] [cursor=pointer]:
+                  - /url: /companies/truss
+                  - generic [ref=f1e50]: Truss (S21)
+                  - text: •Banking for construction
+                  - generic [ref=f1e51]: (10 days ago)
+                - link "Senior Full-Stack & DevOps Engineer" [ref=f1e52] [cursor=pointer]:
+                  - /url: /companies/truss/jobs/rMqvcnc-senior-full-stack-devops-engineer
+                - generic [ref=f1e53]:
+                  - generic [ref=f1e54]: Full-time
+                  - generic [ref=f1e55]: •
+                  - generic [ref=f1e56]: Engineering
+                  - generic [ref=f1e57]: •
+                  - generic [ref=f1e58]: Devops
+                  - generic [ref=f1e59]: •
+                  - generic [ref=f1e60]: $150K - $250K
+                  - generic [ref=f1e61]: •
+                  - generic [ref=f1e62]: San Francisco, CA, US
+            - link "Apply" [ref=f1e64] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D92608&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=24347
+        - listitem [ref=f1e65]:
+          - generic [ref=f1e66]:
+            - generic [ref=f1e67]:
+              - link [ref=f1e69] [cursor=pointer]:
+                - /url: /companies/seal-2
+              - generic [ref=f1e70]:
+                - link "Seal (S20)•All-in-one workspace for companies making regulated products(13 days ago)" [ref=f1e71] [cursor=pointer]:
+                  - /url: /companies/seal-2
+                  - generic [ref=f1e72]: Seal (S20)
+                  - text: •All-in-one workspace for companies making regulated products
+                  - generic [ref=f1e73]: (13 days ago)
+                - link "Founding Product Engineer" [ref=f1e74] [cursor=pointer]:
+                  - /url: /companies/seal-2/jobs/n4byaPm-founding-product-engineer
+                - generic [ref=f1e75]:
+                  - generic [ref=f1e76]: Full-time
+                  - generic [ref=f1e77]: •
+                  - generic [ref=f1e78]: Engineering
+                  - generic [ref=f1e79]: •
+                  - generic [ref=f1e80]: Full stack
+                  - generic [ref=f1e81]: •
+                  - generic [ref=f1e82]: £50K - £120K GBP
+                  - generic [ref=f1e83]: •
+                  - generic [ref=f1e84]: England, GB
+            - link "Apply" [ref=f1e86] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D70576&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=21909
+        - listitem [ref=f1e87]:
+          - generic [ref=f1e88]:
+            - generic [ref=f1e89]:
+              - link [ref=f1e91] [cursor=pointer]:
+                - /url: /companies/confido
+              - generic [ref=f1e92]:
+                - link "Confido (S21)•AI-enabled financial automation and intelligence for CPG Brands(1 day ago)" [ref=f1e93] [cursor=pointer]:
+                  - /url: /companies/confido
+                  - generic [ref=f1e94]: Confido (S21)
+                  - text: •AI-enabled financial automation and intelligence for CPG Brands
+                  - generic [ref=f1e95]: (1 day ago)
+                - link "Senior Software Engineer" [active] [ref=f1e96] [cursor=pointer]:
+                  - /url: /companies/confido/jobs/J6DgVvC-senior-software-engineer
+                - generic [ref=f1e97]:
+                  - generic [ref=f1e98]: Full-time
+                  - generic [ref=f1e99]: •
+                  - generic [ref=f1e100]: Engineering
+                  - generic [ref=f1e101]: •
+                  - generic [ref=f1e102]: Full stack
+                  - generic [ref=f1e103]: •
+                  - generic [ref=f1e104]: $210K - $280K
+                  - generic [ref=f1e105]: •
+                  - generic [ref=f1e106]: NYC Office
+            - link "Apply" [ref=f1e108] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D93168&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=24064
+        - listitem [ref=f1e109]:
+          - generic [ref=f1e110]:
+            - generic [ref=f1e111]:
+              - link [ref=f1e113] [cursor=pointer]:
+                - /url: /companies/authologic
+              - generic [ref=f1e114]:
+                - link "Authologic (W21)•Stripe for online identity verification(3 days ago)" [ref=f1e115] [cursor=pointer]:
+                  - /url: /companies/authologic
+                  - generic [ref=f1e116]: Authologic (W21)
+                  - text: •Stripe for online identity verification
+                  - generic [ref=f1e117]: (3 days ago)
+                - link "Senior Frontend Engineer" [ref=f1e118] [cursor=pointer]:
+                  - /url: /companies/authologic/jobs/Qque3dk-senior-frontend-engineer
+                - generic [ref=f1e119]:
+                  - generic [ref=f1e120]: Full-time
+                  - generic [ref=f1e121]: •
+                  - generic [ref=f1e122]: Engineering
+                  - generic [ref=f1e123]: •
+                  - generic [ref=f1e124]: Frontend
+                  - generic [ref=f1e125]: •
+                  - generic [ref=f1e126]: $57.5K - $71.5K
+                  - generic [ref=f1e127]: •
+                  - generic [ref=f1e128]: Warsaw, Masovian Voivodeship, PL / Remote
+            - link "Apply" [ref=f1e130] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D99773&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=23531
+        - listitem [ref=f1e131]:
+          - generic [ref=f1e132]:
+            - generic [ref=f1e133]:
+              - link [ref=f1e135] [cursor=pointer]:
+                - /url: /companies/oneleet
+              - generic [ref=f1e136]:
+                - link "Oneleet (S22)•YC's most popular security compliance platform (SOC 2, ISO 27001,…(3 days ago)" [ref=f1e137] [cursor=pointer]:
+                  - /url: /companies/oneleet
+                  - generic [ref=f1e138]: Oneleet (S22)
+                  - text: •YC's most popular security compliance platform (SOC 2, ISO 27001,…
+                  - generic [ref=f1e139]: (3 days ago)
+                - link "Backend Engineer" [ref=f1e140] [cursor=pointer]:
+                  - /url: /companies/oneleet/jobs/iKvs4cd-backend-engineer
+                - generic [ref=f1e141]:
+                  - generic [ref=f1e142]: Full-time
+                  - generic [ref=f1e143]: •
+                  - generic [ref=f1e144]: Engineering
+                  - generic [ref=f1e145]: •
+                  - generic [ref=f1e146]: Full stack
+                  - generic [ref=f1e147]: •
+                  - generic [ref=f1e148]: $120K - $180K
+                  - generic [ref=f1e149]: •
+                  - generic [ref=f1e150]: Remote (US)
+            - link "Apply" [ref=f1e152] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D97505&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=27162
+        - listitem [ref=f1e153]:
+          - generic [ref=f1e154]:
+            - generic [ref=f1e155]:
+              - link [ref=f1e157] [cursor=pointer]:
+                - /url: /companies/porter
+              - generic [ref=f1e158]:
+                - link "Porter (S20)•Easiest way to deploy on AWS/GCP/Azure(about 23 hours ago)" [ref=f1e159] [cursor=pointer]:
+                  - /url: /companies/porter
+                  - generic [ref=f1e160]: Porter (S20)
+                  - text: •Easiest way to deploy on AWS/GCP/Azure
+                  - generic [ref=f1e161]: (about 23 hours ago)
+                - link "Full Stack Engineer" [ref=f1e162] [cursor=pointer]:
+                  - /url: /companies/porter/jobs/6QhplSz-full-stack-engineer
+                - generic [ref=f1e163]:
+                  - generic [ref=f1e164]: Full-time
+                  - generic [ref=f1e165]: •
+                  - generic [ref=f1e166]: Engineering
+                  - generic [ref=f1e167]: •
+                  - generic [ref=f1e168]: Full stack
+                  - generic [ref=f1e169]: •
+                  - generic [ref=f1e170]: $100K - $200K
+                  - generic [ref=f1e171]: •
+                  - generic [ref=f1e172]: New York City
+            - link "Apply" [ref=f1e174] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D43716&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=13091
+        - listitem [ref=f1e175]:
+          - generic [ref=f1e176]:
+            - generic [ref=f1e177]:
+              - link [ref=f1e179] [cursor=pointer]:
+                - /url: /companies/method-financial
+              - generic [ref=f1e180]:
+                - link "Method Financial (S19)•Financial connectivity API for consumer liabilities(about 14 hours ago)" [ref=f1e181] [cursor=pointer]:
+                  - /url: /companies/method-financial
+                  - generic [ref=f1e182]: Method Financial (S19)
+                  - text: •Financial connectivity API for consumer liabilities
+                  - generic [ref=f1e183]: (about 14 hours ago)
+                - link "Senior Software Engineer" [ref=f1e184] [cursor=pointer]:
+                  - /url: /companies/method-financial/jobs/XQmFunZ-senior-software-engineer
+                - generic [ref=f1e185]:
+                  - generic [ref=f1e186]: Full-time
+                  - generic [ref=f1e187]: •
+                  - generic [ref=f1e188]: Engineering
+                  - generic [ref=f1e189]: •
+                  - generic [ref=f1e190]: Full stack
+                  - generic [ref=f1e191]: •
+                  - generic [ref=f1e192]: $185K - $225K
+                  - generic [ref=f1e193]: •
+                  - generic [ref=f1e194]: New York, NY, US / Austin, TX, US / Washington, DC, US
+            - link "Apply" [ref=f1e196] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D80177&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=12545
+        - listitem [ref=f1e197]:
+          - generic [ref=f1e198]:
+            - generic [ref=f1e199]:
+              - link [ref=f1e201] [cursor=pointer]:
+                - /url: /companies/diligent
+              - generic [ref=f1e202]:
+                - link "Diligent (S23)•AI agents for fintech risk and compliance operations(14 days ago)" [ref=f1e203] [cursor=pointer]:
+                  - /url: /companies/diligent
+                  - generic [ref=f1e204]: Diligent (S23)
+                  - text: •AI agents for fintech risk and compliance operations
+                  - generic [ref=f1e205]: (14 days ago)
+                - link "Founding ML engineer" [ref=f1e206] [cursor=pointer]:
+                  - /url: /companies/diligent/jobs/qq2XJ61-founding-ml-engineer
+                - generic [ref=f1e207]:
+                  - generic [ref=f1e208]: Full-time
+                  - generic [ref=f1e209]: •
+                  - generic [ref=f1e210]: Engineering
+                  - generic [ref=f1e211]: •
+                  - generic [ref=f1e212]: Machine learning
+                  - generic [ref=f1e213]: •
+                  - generic [ref=f1e214]: £75K - £90K GBP
+                  - generic [ref=f1e215]: •
+                  - generic [ref=f1e216]: London, England, GB
+            - link "Apply" [ref=f1e218] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D85419&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=28805
+        - listitem [ref=f1e219]:
+          - generic [ref=f1e220]:
+            - generic [ref=f1e221]:
+              - link [ref=f1e223] [cursor=pointer]:
+                - /url: /companies/athelas
+              - generic [ref=f1e224]:
+                - link "Athelas (S16)•Extensible, Integrated Technology that Simplifies Health Systems(8 days ago)" [ref=f1e225] [cursor=pointer]:
+                  - /url: /companies/athelas
+                  - generic [ref=f1e226]: Athelas (S16)
+                  - text: •Extensible, Integrated Technology that Simplifies Health Systems
+                  - generic [ref=f1e227]: (8 days ago)
+                - link "Senior Software Engineer - Ambient" [ref=f1e228] [cursor=pointer]:
+                  - /url: /companies/athelas/jobs/UNc0m9E-senior-software-engineer-ambient
+                - generic [ref=f1e229]:
+                  - generic [ref=f1e230]: Full-time
+                  - generic [ref=f1e231]: •
+                  - generic [ref=f1e232]: Engineering
+                  - generic [ref=f1e233]: •
+                  - generic [ref=f1e234]: Backend
+                  - generic [ref=f1e235]: •
+                  - generic [ref=f1e236]: $170K - $230K
+                  - generic [ref=f1e237]: •
+                  - generic [ref=f1e238]: Mountain View, CA, US / San Francisco, CA, US / New York, NY, US / Los Angeles, CA, US
+            - link "Apply" [ref=f1e240] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D95058&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=1272
+        - listitem [ref=f1e241]:
+          - generic [ref=f1e242]:
+            - generic [ref=f1e243]:
+              - link [ref=f1e245] [cursor=pointer]:
+                - /url: /companies/laylo
+              - generic [ref=f1e246]:
+                - link "Laylo (S20)•The CRM powering iconic musicians and events(about 17 hours ago)" [ref=f1e247] [cursor=pointer]:
+                  - /url: /companies/laylo
+                  - generic [ref=f1e248]: Laylo (S20)
+                  - text: •The CRM powering iconic musicians and events
+                  - generic [ref=f1e249]: (about 17 hours ago)
+                - link "Senior Fullstack Engineer" [ref=f1e250] [cursor=pointer]:
+                  - /url: /companies/laylo/jobs/ZVMFWsc-senior-fullstack-engineer
+                - generic [ref=f1e251]:
+                  - generic [ref=f1e252]: Full-time
+                  - generic [ref=f1e253]: •
+                  - generic [ref=f1e254]: Engineering
+                  - generic [ref=f1e255]: •
+                  - generic [ref=f1e256]: Full stack
+                  - generic [ref=f1e257]: •
+                  - generic [ref=f1e258]: $150 - $180K
+                  - generic [ref=f1e259]: •
+                  - generic [ref=f1e260]: Los Angeles, CA, US / CA, US / Remote (Los Angeles, CA, US; CA, US)
+            - link "Apply" [ref=f1e262] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D43636&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=22082
+        - listitem [ref=f1e263]:
+          - generic [ref=f1e264]:
+            - generic [ref=f1e265]:
+              - link [ref=f1e267] [cursor=pointer]:
+                - /url: /companies/proof-of-human
+              - generic [ref=f1e268]:
+                - link "Proof of Human (S23)•continuous human verification without CAPTCHAs or user friction(5 days ago)" [ref=f1e269] [cursor=pointer]:
+                  - /url: /companies/proof-of-human
+                  - generic [ref=f1e270]: Proof of Human (S23)
+                  - text: •continuous human verification without CAPTCHAs or user friction
+                  - generic [ref=f1e271]: (5 days ago)
+                - link "Member of Technical Staff" [ref=f1e272] [cursor=pointer]:
+                  - /url: /companies/proof-of-human/jobs/ZTZHEbb-member-of-technical-staff
+                - generic [ref=f1e273]:
+                  - generic [ref=f1e274]: Full-time
+                  - generic [ref=f1e275]: •
+                  - generic [ref=f1e276]: Engineering
+                  - generic [ref=f1e277]: •
+                  - generic [ref=f1e278]: Full stack
+                  - generic [ref=f1e279]: •
+                  - generic [ref=f1e280]: $120K - $150K
+                  - generic [ref=f1e281]: •
+                  - generic [ref=f1e282]: San Francisco, CA, US
+            - link "Apply" [ref=f1e284] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D76838&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=29005
+        - listitem [ref=f1e285]:
+          - generic [ref=f1e286]:
+            - generic [ref=f1e287]:
+              - link [ref=f1e289] [cursor=pointer]:
+                - /url: /companies/yn
+              - generic [ref=f1e290]:
+                - link "Y/n (S23)•Play your story(11 days ago)" [ref=f1e291] [cursor=pointer]:
+                  - /url: /companies/yn
+                  - generic [ref=f1e292]: Y/n (S23)
+                  - text: •Play your story
+                  - generic [ref=f1e293]: (11 days ago)
+                - link "Software Engineer" [ref=f1e294] [cursor=pointer]:
+                  - /url: /companies/yn/jobs/vBQxHHP-software-engineer
+                - generic [ref=f1e295]:
+                  - generic [ref=f1e296]: Full-time
+                  - generic [ref=f1e297]: •
+                  - generic [ref=f1e298]: Engineering
+                  - generic [ref=f1e299]: •
+                  - generic [ref=f1e300]: Full stack
+                  - generic [ref=f1e301]: •
+                  - generic [ref=f1e302]: $120K - $300K
+                  - generic [ref=f1e303]: •
+                  - generic [ref=f1e304]: San Francisco, CA, US / Remote (DE; GB; US; SE; FR; CH; AT)
+            - link "Apply" [ref=f1e306] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D97403&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=28486
+        - listitem [ref=f1e307]:
+          - generic [ref=f1e308]:
+            - generic [ref=f1e309]:
+              - link [ref=f1e311] [cursor=pointer]:
+                - /url: /companies/numeral
+              - generic [ref=f1e312]:
+                - link "Numeral (W23)•The AI-native sales tax solution.(3 days ago)" [ref=f1e313] [cursor=pointer]:
+                  - /url: /companies/numeral
+                  - generic [ref=f1e314]: Numeral (W23)
+                  - text: •The AI-native sales tax solution.
+                  - generic [ref=f1e315]: (3 days ago)
+                - link "Software Engineer (AI)" [ref=f1e316] [cursor=pointer]:
+                  - /url: /companies/numeral/jobs/eCDVy2N-software-engineer-ai
+                - generic [ref=f1e317]:
+                  - generic [ref=f1e318]: Full-time
+                  - generic [ref=f1e319]: •
+                  - generic [ref=f1e320]: Engineering
+                  - generic [ref=f1e321]: •
+                  - generic [ref=f1e322]: Full stack
+                  - generic [ref=f1e323]: •
+                  - generic [ref=f1e324]: $175K - $300K
+                  - generic [ref=f1e325]: •
+                  - generic [ref=f1e326]: New York, NY, US / Remote
+            - link "Apply" [ref=f1e328] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D89677&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=27735
+        - listitem [ref=f1e329]:
+          - generic [ref=f1e330]:
+            - generic [ref=f1e331]:
+              - link [ref=f1e333] [cursor=pointer]:
+                - /url: /companies/aiprise
+              - generic [ref=f1e334]:
+                - link "AiPrise (S22)•AI-powered Global Compliance Platform(2 days ago)" [ref=f1e335] [cursor=pointer]:
+                  - /url: /companies/aiprise
+                  - generic [ref=f1e336]: AiPrise (S22)
+                  - text: •AI-powered Global Compliance Platform
+                  - generic [ref=f1e337]: (2 days ago)
+                - link "Staff Software Engineer" [ref=f1e338] [cursor=pointer]:
+                  - /url: /companies/aiprise/jobs/Uz2e9zi-staff-software-engineer
+                - generic [ref=f1e339]:
+                  - generic [ref=f1e340]: Full-time
+                  - generic [ref=f1e341]: •
+                  - generic [ref=f1e342]: Engineering
+                  - generic [ref=f1e343]: •
+                  - generic [ref=f1e344]: Backend
+                  - generic [ref=f1e345]: •
+                  - generic [ref=f1e346]: ₹4.5M - ₹6M INR
+                  - generic [ref=f1e347]: •
+                  - generic [ref=f1e348]: IN / Bengaluru, KA, IN / Bengaluru, Karnataka, IN / Remote (IN; Bengaluru, KA, IN; Bengaluru, Karnataka, IN)
+            - link "Apply" [ref=f1e350] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D60471&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=27086
+        - listitem [ref=f1e351]:
+          - generic [ref=f1e352]:
+            - generic [ref=f1e353]:
+              - link [ref=f1e355] [cursor=pointer]:
+                - /url: /companies/alex-com
+              - generic [ref=f1e356]:
+                - link "Alex (W24)•Your AI recruiter for interviewing and identifying the best talent(3 days ago)" [ref=f1e357] [cursor=pointer]:
+                  - /url: /companies/alex-com
+                  - generic [ref=f1e358]: Alex (W24)
+                  - text: •Your AI recruiter for interviewing and identifying the best talent
+                  - generic [ref=f1e359]: (3 days ago)
+                - link "Full-Stack Software Engineer" [ref=f1e360] [cursor=pointer]:
+                  - /url: /companies/alex-com/jobs/esLxCUN-full-stack-software-engineer
+                - generic [ref=f1e361]:
+                  - generic [ref=f1e362]: Full-time
+                  - generic [ref=f1e363]: •
+                  - generic [ref=f1e364]: Engineering
+                  - generic [ref=f1e365]: •
+                  - generic [ref=f1e366]: Full stack
+                  - generic [ref=f1e367]: •
+                  - generic [ref=f1e368]: $100K - $250K
+                  - generic [ref=f1e369]: •
+                  - generic [ref=f1e370]: San Francisco
+            - link "Apply" [ref=f1e372] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D94632&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=29263
+        - listitem [ref=f1e373]:
+          - generic [ref=f1e374]:
+            - generic [ref=f1e375]:
+              - link [ref=f1e377] [cursor=pointer]:
+                - /url: /companies/medplum
+              - generic [ref=f1e378]:
+                - link "Medplum (S22)•API first electronic health record (EHR) that is open source(2 days ago)" [ref=f1e379] [cursor=pointer]:
+                  - /url: /companies/medplum
+                  - generic [ref=f1e380]: Medplum (S22)
+                  - text: •API first electronic health record (EHR) that is open source
+                  - generic [ref=f1e381]: (2 days ago)
+                - link "Forward Deployed Engineer" [ref=f1e382] [cursor=pointer]:
+                  - /url: /companies/medplum/jobs/uXnVfEt-forward-deployed-engineer
+                - generic [ref=f1e383]:
+                  - generic [ref=f1e384]: Full-time
+                  - generic [ref=f1e385]: •
+                  - generic [ref=f1e386]: Engineering
+                  - generic [ref=f1e387]: •
+                  - generic [ref=f1e388]: Full stack
+                  - generic [ref=f1e389]: •
+                  - generic [ref=f1e390]: $120K - $200K
+                  - generic [ref=f1e391]: •
+                  - generic [ref=f1e392]: San Francisco, CA, US
+            - link "Apply" [ref=f1e394] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D66885&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=26413
+        - listitem [ref=f1e395]:
+          - generic [ref=f1e396]:
+            - generic [ref=f1e397]:
+              - link [ref=f1e399] [cursor=pointer]:
+                - /url: /companies/clearline
+              - generic [ref=f1e400]:
+                - link "Clearline (S22)•AI operating system for car dealerships to capture missed revenue(about 17 hours ago)" [ref=f1e401] [cursor=pointer]:
+                  - /url: /companies/clearline
+                  - generic [ref=f1e402]: Clearline (S22)
+                  - text: •AI operating system for car dealerships to capture missed revenue
+                  - generic [ref=f1e403]: (about 17 hours ago)
+                - link "Software Engineering Intern/Co-op - 2026 Fall" [ref=f1e404] [cursor=pointer]:
+                  - /url: /companies/clearline/jobs/0ruk2ym-software-engineering-intern-co-op-2026-fall
+                - generic [ref=f1e405]:
+                  - generic [ref=f1e406]: Internship
+                  - generic [ref=f1e407]: •
+                  - generic [ref=f1e408]: Engineering
+                  - generic [ref=f1e409]: •
+                  - generic [ref=f1e410]: Full stack
+                  - generic [ref=f1e411]: •
+                  - generic [ref=f1e412]: $60K - $80K CAD
+                  - generic [ref=f1e413]: •
+                  - generic [ref=f1e414]: Kitchener, ON, CA / Kitchener, Ontario, CA / Waterloo, ON, CA / Waterloo, Ontario, CA / Toronto, ON, CA / Toronto, Ontario, CA
+            - link "Apply" [ref=f1e416] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D100073&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=27172
+        - listitem [ref=f1e417]:
+          - generic [ref=f1e418]:
+            - generic [ref=f1e419]:
+              - link [ref=f1e421] [cursor=pointer]:
+                - /url: /companies/onshore
+              - generic [ref=f1e422]:
+                - link "Onshore (W23)•AI for corporate tax(3 days ago)" [ref=f1e423] [cursor=pointer]:
+                  - /url: /companies/onshore
+                  - generic [ref=f1e424]: Onshore (W23)
+                  - text: •AI for corporate tax
+                  - generic [ref=f1e425]: (3 days ago)
+                - link "Software Engineer II" [ref=f1e426] [cursor=pointer]:
+                  - /url: /companies/onshore/jobs/zubi0Yj-software-engineer-ii
+                - generic [ref=f1e427]:
+                  - generic [ref=f1e428]: Full-time
+                  - generic [ref=f1e429]: •
+                  - generic [ref=f1e430]: Engineering
+                  - generic [ref=f1e431]: •
+                  - generic [ref=f1e432]: Full stack
+                  - generic [ref=f1e433]: •
+                  - generic [ref=f1e434]: $155K - $170K
+                  - generic [ref=f1e435]: •
+                  - generic [ref=f1e436]: New York, NY, US
+            - link "Apply" [ref=f1e438] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D95150&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=27949
+        - listitem [ref=f1e439]:
+          - generic [ref=f1e440]:
+            - generic [ref=f1e441]:
+              - link [ref=f1e443] [cursor=pointer]:
+                - /url: /companies/readily
+              - generic [ref=f1e444]:
+                - link "Readily (S23)•AI Compliance Platform for Healthcare Organizations(14 days ago)" [ref=f1e445] [cursor=pointer]:
+                  - /url: /companies/readily
+                  - generic [ref=f1e446]: Readily (S23)
+                  - text: •AI Compliance Platform for Healthcare Organizations
+                  - generic [ref=f1e447]: (14 days ago)
+                - link "🚀 Head of AI Engineering" [ref=f1e448] [cursor=pointer]:
+                  - /url: /companies/readily/jobs/qdzFUU6-head-of-ai-engineering
+                - generic [ref=f1e449]:
+                  - generic [ref=f1e450]: Full-time
+                  - generic [ref=f1e451]: •
+                  - generic [ref=f1e452]: Engineering
+                  - generic [ref=f1e453]: •
+                  - generic [ref=f1e454]: Engineering manager
+                  - generic [ref=f1e455]: •
+                  - generic [ref=f1e456]: $180K - $300K
+                  - generic [ref=f1e457]: •
+                  - generic [ref=f1e458]: San Francisco, CA, US
+            - link "Apply" [ref=f1e460] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D97631&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=28809
+        - listitem [ref=f1e461]:
+          - generic [ref=f1e462]:
+            - generic [ref=f1e463]:
+              - link [ref=f1e465] [cursor=pointer]:
+                - /url: /companies/vooma
+              - generic [ref=f1e466]:
+                - link "Vooma (W23)•Automation platform for logistics(10 days ago)" [ref=f1e467] [cursor=pointer]:
+                  - /url: /companies/vooma
+                  - generic [ref=f1e468]: Vooma (W23)
+                  - text: •Automation platform for logistics
+                  - generic [ref=f1e469]: (10 days ago)
+                - link "Forward Deployed Engineer" [ref=f1e470] [cursor=pointer]:
+                  - /url: /companies/vooma/jobs/Fc1pqyd-forward-deployed-engineer
+                - generic [ref=f1e471]:
+                  - generic [ref=f1e472]: Full-time
+                  - generic [ref=f1e473]: •
+                  - generic [ref=f1e474]: Engineering
+                  - generic [ref=f1e475]: •
+                  - generic [ref=f1e476]: Full stack
+                  - generic [ref=f1e477]: •
+                  - generic [ref=f1e478]: $100K - $200K
+                  - generic [ref=f1e479]: •
+                  - generic [ref=f1e480]: San Francisco, CA, US
+            - link "Apply" [ref=f1e482] [cursor=pointer]:
+              - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D76938&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=27827
+      - link "See more jobs ›" [ref=f1e484] [cursor=pointer]:
+        - /url: https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication&defaults%5BsignUpActive%5D=true
+    - generic [ref=f1e490]:
+      - listbox "slider" [ref=f1e491]:
+        - generic [ref=f1e493]:
+          - option "slide" [selected] [ref=f1e494]:
+            - generic "/library/K0-sam-altman-on-how-to-pick-which-startup-to-work-at?carousel=How to Get a Job at a Startup" [ref=f1e497]:
+              - generic [ref=f1e498]:
+                - img "Sam Altman on how to pick which startup to work at" [ref=f1e499]
+                - generic [ref=f1e500]: 14:46
+              - generic [ref=f1e505]:
+                - generic [ref=f1e506]: Sam Altman on how to pick which startup to work at
+                - generic [ref=f1e507]:
+                  - generic [ref=f1e508]: 2,645 views
+                  - generic "Sep 21, 2023" [ref=f1e511]: Over 1 year ago
+          - option "slide" [selected] [ref=f1e512]:
+            - generic "/library/Ei-yc-startup-job-guide?carousel=How to Get a Job at a Startup" [ref=f1e515]:
+              - generic [ref=f1e517]:
+                - generic [ref=f1e518]: YC Startup Job Guide
+                - generic [ref=f1e519]: Paige Omura
+                - generic [ref=f1e520]: We put together this guide to help job seekers find the startups that are most interesting, ask the right questions before joining, and increase their chances of landing their dream job.
+              - generic [ref=f1e521]:
+                - generic [ref=f1e522]: YC Startup Job Guide
+                - generic "May 31, 2022" [ref=f1e524]: Over 1 year ago
+          - option "slide" [selected] [ref=f1e525]:
+            - generic "/library/5n-why-you-should-or-should-not-work-at-a-startup?carousel=How to Get a Job at a Startup" [ref=f1e528]:
+              - generic [ref=f1e529]:
+                - img "Why you should or should not work at a startup" [ref=f1e530]
+                - generic [ref=f1e531]: 15:33
+              - generic [ref=f1e536]:
+                - generic [ref=f1e537]: Why you should or should not work at a startup
+                - generic [ref=f1e538]:
+                  - generic [ref=f1e539]: 135K views
+                  - generic "Nov 2, 2018" [ref=f1e542]: Over 1 year ago
+          - option "slide" [ref=f1e543]:
+            - generic "/library/9t-how-to-choose-a-startup-to-join?carousel=How to Get a Job at a Startup" [ref=f1e546]:
+              - generic [ref=f1e547]:
+                - img "How to choose a startup to join" [ref=f1e548]
+                - generic [ref=f1e549]: 4:58
+              - generic [ref=f1e554]:
+                - generic [ref=f1e555]: How to choose a startup to join
+                - generic [ref=f1e556]:
+                  - generic [ref=f1e557]: 9,967 views
+                  - generic "Feb 8, 2021" [ref=f1e560]: Over 1 year ago
+          - option "slide" [ref=f1e561]:
+            - generic "/library/4l-advice-for-job-seekers-on-resumes-and-reaching-out?carousel=How to Get a Job at a Startup" [ref=f1e564]:
+              - generic [ref=f1e566]:
+                - generic [ref=f1e567]: Advice for job seekers on resumes and reaching out
+                - generic [ref=f1e568]: Ryan Choi
+                - generic [ref=f1e569]: To help job seekers, YC's Ryan Choi spends a lot of time doing 1-1s and resume reviews. Here are his most common pieces of advice for those on the job search.
+              - generic [ref=f1e570]:
+                - generic [ref=f1e571]: Advice for job seekers on resumes and reaching out
+                - generic "Jun 9, 2020" [ref=f1e573]: Over 1 year ago
+          - option "slide" [ref=f1e574]:
+            - generic "/library/K1-different-startup-stages-and-what-they-mean-for-you?carousel=How to Get a Job at a Startup" [ref=f1e577]:
+              - generic [ref=f1e578]:
+                - img "Different startup stages and what they mean for you" [ref=f1e579]
+                - generic [ref=f1e580]: 45:49
+              - generic [ref=f1e585]:
+                - generic [ref=f1e586]: Different startup stages and what they mean for you
+                - generic [ref=f1e587]:
+                  - generic [ref=f1e588]: 16K views
+                  - generic "Aug 11, 2022" [ref=f1e591]: Over 1 year ago
+          - option "slide" [ref=f1e592]:
+            - generic "/library/Ih-dalton-michael-why-you-should-leave-your-faang-job?carousel=How to Get a Job at a Startup" [ref=f1e595]:
+              - generic [ref=f1e596]:
+                - 'img "Dalton & Michael: Why you should leave your FAANG job" [ref=f1e597]'
+                - generic [ref=f1e598]: 19:45
+              - generic [ref=f1e603]:
+                - generic [ref=f1e604]: "Dalton & Michael: Why you should leave your FAANG job"
+                - generic [ref=f1e605]:
+                  - generic [ref=f1e606]: 280K views
+                  - generic "Apr 20, 2022" [ref=f1e609]: Over 1 year ago
+          - option "slide" [ref=f1e610]:
+            - generic "/library/Jg-garry-s-channel-learn-earn-or-quit-my-job-career-advice?carousel=How to Get a Job at a Startup" [ref=f1e613]:
+              - generic [ref=f1e614]:
+                - 'img "Garry''s Channel: LEARN, EARN or QUIT | My job/career advice" [ref=f1e615]'
+                - generic [ref=f1e616]: 13:57
+              - generic [ref=f1e621]:
+                - generic [ref=f1e622]: "Garry's Channel: LEARN, EARN or QUIT | My job/career advice"
+                - generic [ref=f1e623]:
+                  - generic [ref=f1e624]: 370K views
+                  - generic "Apr 7, 2021" [ref=f1e627]: Over 1 year ago
+      - button "next"
+    - generic [ref=f1e633]:
+      - generic [ref=f1e634]:
+        - heading "Work at a Startup" [level=3] [ref=f1e635]
+        - list [ref=f1e636]:
+          - listitem [ref=f1e637]:
+            - link "Jobs" [ref=f1e638] [cursor=pointer]:
+              - /url: https://www.workatastartup.com/jobs
+          - listitem [ref=f1e639]:
+            - link "Internships" [ref=f1e640] [cursor=pointer]:
+              - /url: https://www.workatastartup.com/internships
+          - listitem [ref=f1e641]:
+            - link "Events" [ref=f1e642] [cursor=pointer]:
+              - /url: https://www.workatastartup.com/events
+          - listitem [ref=f1e643]:
+            - link "How it works" [ref=f1e644] [cursor=pointer]:
+              - /url: https://www.workatastartup.com/about
+          - listitem [ref=f1e645]:
+            - link "Sign In" [ref=f1e646] [cursor=pointer]:
+              - /url: https://www.workatastartup.com/application
+      - generic [ref=f1e647]:
+        - heading "Jobs by Role" [level=3] [ref=f1e648]
+        - list [ref=f1e649]:
+          - listitem [ref=f1e650]:
+            - link "Software Engineer Jobs" [ref=f1e651] [cursor=pointer]:
+              - /url: /jobs/role/software-engineer
+          - listitem [ref=f1e652]:
+            - link "Design & UI/UX Jobs" [ref=f1e653] [cursor=pointer]:
+              - /url: /jobs/role/designer
+          - listitem [ref=f1e654]:
+            - link "Product Manager Jobs" [ref=f1e655] [cursor=pointer]:
+              - /url: /jobs/role/product-manager
+          - listitem [ref=f1e656]:
+            - link "Recruiting & HR Jobs" [ref=f1e657] [cursor=pointer]:
+              - /url: /jobs/role/recruiting-hr
+          - listitem [ref=f1e658]:
+            - link "Sales Jobs" [ref=f1e659] [cursor=pointer]:
+              - /url: /jobs/role/sales-manager
+          - listitem [ref=f1e660]:
+            - link "Marketing Jobs" [ref=f1e661] [cursor=pointer]:
+              - /url: /jobs/role/marketing
+          - listitem [ref=f1e662]:
+            - link "Support & Success Jobs" [ref=f1e663] [cursor=pointer]:
+              - /url: /jobs/role/support
+          - listitem [ref=f1e664]:
+            - link "Operations Jobs" [ref=f1e665] [cursor=pointer]:
+              - /url: /jobs/role/operations
+          - listitem [ref=f1e666]:
+            - link "Science Jobs" [ref=f1e667] [cursor=pointer]:
+              - /url: /jobs/role/science
+      - generic [ref=f1e668]:
+        - heading "Jobs by Location" [level=3] [ref=f1e669]
+        - list [ref=f1e670]:
+          - listitem [ref=f1e671]:
+            - link "Jobs in San Francisco" [ref=f1e672] [cursor=pointer]:
+              - /url: /jobs/location/san-francisco
+          - listitem [ref=f1e673]:
+            - link "Jobs in New York" [ref=f1e674] [cursor=pointer]:
+              - /url: /jobs/location/new-york
+          - listitem [ref=f1e675]:
+            - link "Jobs in Los Angeles" [ref=f1e676] [cursor=pointer]:
+              - /url: /jobs/location/los-angeles
+          - listitem [ref=f1e677]:
+            - link "Jobs in Seattle" [ref=f1e678] [cursor=pointer]:
+              - /url: /jobs/location/seattle
+          - listitem [ref=f1e679]:
+            - link "Jobs in Austin" [ref=f1e680] [cursor=pointer]:
+              - /url: /jobs/location/austin
+          - listitem [ref=f1e681]:
+            - link "Jobs in Chicago" [ref=f1e682] [cursor=pointer]:
+              - /url: /jobs/location/chicago
+          - listitem [ref=f1e683]:
+            - link "Jobs in India" [ref=f1e684] [cursor=pointer]:
+              - /url: /jobs/location/india
+      - generic [ref=f1e685]:
+        - heading "Jobs by Role and Location" [level=3] [ref=f1e686]
+        - list [ref=f1e687]:
+          - listitem [ref=f1e688]:
+            - link "Software Engineer Jobs in San Francisco" [ref=f1e689] [cursor=pointer]:
+              - /url: /jobs/role/software-engineer/san-francisco
+          - listitem [ref=f1e690]:
+            - link "Recruiting Jobs in San Francisco" [ref=f1e691] [cursor=pointer]:
+              - /url: /jobs/role/recruiting-hr/san-francisco
+          - listitem [ref=f1e692]:
+            - link "Product Manager Jobs in San Francisco" [ref=f1e693] [cursor=pointer]:
+              - /url: /jobs/role/product-manager/san-francisco
+          - listitem [ref=f1e694]:
+            - link "Software Engineer Jobs in New York" [ref=f1e695] [cursor=pointer]:
+              - /url: /jobs/role/software-engineer/new-york
+          - listitem [ref=f1e696]:
+            - link "Recruiting Jobs in New York" [ref=f1e697] [cursor=pointer]:
+              - /url: /jobs/role/recruiting-hr/new-york
+          - listitem [ref=f1e698]:
+            - link "Product Manager Jobs in New York" [ref=f1e699] [cursor=pointer]:
+              - /url: /jobs/role/product-manager/new-york
+          - listitem [ref=f1e700]:
+            - link "Software Engineer Jobs in Los Angeles" [ref=f1e701] [cursor=pointer]:
+              - /url: /jobs/role/software-engineer/los-angeles
+          - listitem [ref=f1e702]:
+            - link "Recruiting Jobs in Los Angeles" [ref=f1e703] [cursor=pointer]:
+              - /url: /jobs/role/recruiting-hr/los-angeles
+          - listitem [ref=f1e704]:
+            - link "Product Manager Jobs in Los Angeles" [ref=f1e705] [cursor=pointer]:
+              - /url: /jobs/role/product-manager/los-angeles
+      - generic [ref=f1e706]:
+        - heading "Remote Jobs" [level=3] [ref=f1e707]
+        - list [ref=f1e708]:
+          - listitem [ref=f1e709]:
+            - link "Remote Software Engineer Jobs" [ref=f1e710] [cursor=pointer]:
+              - /url: /jobs/role/software-engineer/remote
+          - listitem [ref=f1e711]:
+            - link "Remote Design & UI/UX Jobs" [ref=f1e712] [cursor=pointer]:
+              - /url: /jobs/role/designer/remote
+          - listitem [ref=f1e713]:
+            - link "Remote Product Manager Jobs" [ref=f1e714] [cursor=pointer]:
+              - /url: /jobs/role/product-manager/remote
+          - listitem [ref=f1e715]:
+            - link "Remote Recruiting & HR Jobs" [ref=f1e716] [cursor=pointer]:
+              - /url: /jobs/role/recruiting-hr/remote
+          - listitem [ref=f1e717]:
+            - link "Remote Sales Jobs" [ref=f1e718] [cursor=pointer]:
+              - /url: /jobs/role/sales-manager/remote
+          - listitem [ref=f1e719]:
+            - link "Remote Marketing Jobs" [ref=f1e720] [cursor=pointer]:
+              - /url: /jobs/role/marketing/remote
+          - listitem [ref=f1e721]:
+            - link "Remote Support & Success Jobs" [ref=f1e722] [cursor=pointer]:
+              - /url: /jobs/role/support/remote
+          - listitem [ref=f1e723]:
+            - link "Remote Operations Jobs" [ref=f1e724] [cursor=pointer]:
+              - /url: /jobs/role/operations/remote
+          - listitem [ref=f1e725]:
+            - link "Remote Science Jobs" [ref=f1e726] [cursor=pointer]:
+              - /url: /jobs/role/science/remote
+    - contentinfo [ref=f1e727]:
+      - heading "Footer" [level=2] [ref=f1e728]
+      - generic [ref=f1e729]:
+        - generic [ref=f1e730]:
+          - generic [ref=f1e732]:
+            - link "Y Combinator Y Combinator" [ref=f1e733] [cursor=pointer]:
+              - /url: /
+              - generic [ref=f1e734]: Y Combinator
+              - img "Y Combinator" [ref=f1e735]
+            - heading "Make something people want." [level=3] [ref=f1e736]
+          - generic [ref=f1e737]:
+            - generic [ref=f1e738]:
+              - heading "Programs" [level=3] [ref=f1e739]
+              - list [ref=f1e740]:
+                - listitem [ref=f1e741]:
+                  - link "YC Program" [ref=f1e742] [cursor=pointer]:
+                    - /url: /about
+                - listitem [ref=f1e743]:
+                  - link "Startup School" [ref=f1e744] [cursor=pointer]:
+                    - /url: https://startupschool.org
+                - listitem [ref=f1e745]:
+                  - link "Work at a Startup" [ref=f1e746] [cursor=pointer]:
+                    - /url: /jobs
+                - listitem [ref=f1e747]:
+                  - link "Co-Founder Matching" [ref=f1e748] [cursor=pointer]:
+                    - /url: /cofounder-matching
+            - generic [ref=f1e749]:
+              - heading "Resources" [level=3] [ref=f1e750]
+              - list [ref=f1e751]:
+                - listitem [ref=f1e752]:
+                  - link "Startup Directory" [ref=f1e753] [cursor=pointer]:
+                    - /url: /companies
+                - listitem [ref=f1e754]:
+                  - link "Startup Library" [ref=f1e755] [cursor=pointer]:
+                    - /url: /library
+                - listitem [ref=f1e756]:
+                  - link "Investors" [ref=f1e757] [cursor=pointer]:
+                    - /url: /investors
+                - listitem [ref=f1e758]:
+                  - link "Demo Day" [ref=f1e759] [cursor=pointer]:
+                    - /url: /demoday
+                - listitem [ref=f1e760]:
+                  - link "Safe" [ref=f1e761] [cursor=pointer]:
+                    - /url: /documents
+                - listitem [ref=f1e762]:
+                  - link "Hacker News" [ref=f1e763] [cursor=pointer]:
+                    - /url: https://news.ycombinator.com/
+                - listitem [ref=f1e764]:
+                  - link "Launch YC" [ref=f1e765] [cursor=pointer]:
+                    - /url: /launches
+                - listitem [ref=f1e766]:
+                  - link "YC Deals" [ref=f1e767] [cursor=pointer]:
+                    - /url: https://deals.ycombinator.com
+            - generic [ref=f1e768]:
+              - heading "Company" [level=3] [ref=f1e769]
+              - list [ref=f1e770]:
+                - listitem [ref=f1e771]:
+                  - link "YC Blog" [ref=f1e772] [cursor=pointer]:
+                    - /url: /blog
+                - listitem [ref=f1e773]:
+                  - link "Contact" [ref=f1e774] [cursor=pointer]:
+                    - /url: /contact
+                - listitem [ref=f1e775]:
+                  - link "Press" [ref=f1e776] [cursor=pointer]:
+                    - /url: /press
+                - listitem [ref=f1e777]:
+                  - link "People" [ref=f1e778] [cursor=pointer]:
+                    - /url: /people
+                - listitem [ref=f1e779]:
+                  - link "Careers" [ref=f1e780] [cursor=pointer]:
+                    - /url: /software
+                - listitem [ref=f1e781]:
+                  - link "Privacy Policy" [ref=f1e782] [cursor=pointer]:
+                    - /url: /legal#privacy
+                - listitem [ref=f1e783]:
+                  - link "Notice at Collection" [ref=f1e784] [cursor=pointer]:
+                    - /url: /legal#notice-at-collection
+                - listitem [ref=f1e785]:
+                  - link "Security" [ref=f1e786] [cursor=pointer]:
+                    - /url: /security
+                - listitem [ref=f1e787]:
+                  - link "Terms of Use" [ref=f1e788] [cursor=pointer]:
+                    - /url: /legal#tou
+        - generic [ref=f1e789]:
+          - generic [ref=f1e790]:
+            - link "Twitter" [ref=f1e791] [cursor=pointer]:
+              - /url: https://twitter.com/ycombinator
+            - link "Facebook" [ref=f1e795] [cursor=pointer]:
+              - /url: https://www.facebook.com/YCombinator/
+            - link "Instagram" [ref=f1e799] [cursor=pointer]:
+              - /url: https://www.instagram.com/ycombinator
+            - link "LinkedIn" [ref=f1e803] [cursor=pointer]:
+              - /url: https://www.linkedin.com/school/y-combinator/
+            - link "Youtube" [ref=f1e807] [cursor=pointer]:
+              - /url: https://www.youtube.com/c/ycombinator
+          - paragraph [ref=f1e811]: © 2026 Y Combinator
+  - group "Tolstoy bubble widget" [ref=f1e812]:
+    - generic "Open Tolstoy" [ref=f1e813]:
+      - generic "Open Tolstoy widget" [ref=f1e814] [cursor=pointer]:
+        - button "Close Tolstoy widget" [ref=f1e816]: "1"
+        - 'generic "Tolstoy video preview : Video Interactive"'

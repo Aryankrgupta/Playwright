@@ -1,0 +1,5 @@
+[     445ms] TypeError: Failed to execute 'sendBeacon' on 'Navigator': 1 argument required, but only 0 present.
+    at https://bot.sannysoft.com/:157:40
+[     446ms] TypeError: Failed to execute 'getUserMedia' on 'Navigator': 3 arguments required, but only 0 present.
+    at https://bot.sannysoft.com/:205:40
+[     890ms] [ERROR] WebSocket connection to 'wss://bot.sannysoft.com/itsgonnafail' failed: Error during WebSocket handshake: Unexpected response code: 404 @ https://bot.sannysoft.com/fpCollect.min.js:272

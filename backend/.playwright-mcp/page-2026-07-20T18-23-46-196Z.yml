@@ -1,0 +1,1314 @@
+- generic [active] [ref=f1e1]:
+  - link "Jump to content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - navigation "Site" [ref=f1e6]:
+        - generic "Main menu" [ref=f1e7]:
+          - button "Main menu" [ref=f1e8]
+          - generic [ref=f1e12]:
+            - generic [ref=f1e13]:
+              - generic [ref=f1e14]: Main menu
+              - button "Move Main menu to sidebar" [ref=f1e15]: move to sidebar
+              - button "Hide Main menu" [ref=f1e16]: hide
+            - generic [ref=f1e17]:
+              - generic [ref=f1e18]: Navigation
+              - list [ref=f1e20]:
+                - listitem [ref=f1e21]:
+                  - link "Main page" [ref=f1e22] [cursor=pointer]:
+                    - /url: /wiki/Main_Page
+                - listitem [ref=f1e23]:
+                  - link "Contents" [ref=f1e24] [cursor=pointer]:
+                    - /url: /wiki/Wikipedia:Contents
+                - listitem [ref=f1e25]:
+                  - link "Current events" [ref=f1e26] [cursor=pointer]:
+                    - /url: /wiki/Portal:Current_events
+                - listitem [ref=f1e27]:
+                  - link "Random article" [ref=f1e28] [cursor=pointer]:
+                    - /url: /wiki/Special:Random
+                - listitem [ref=f1e29]:
+                  - link "About Wikipedia" [ref=f1e30] [cursor=pointer]:
+                    - /url: /wiki/Wikipedia:About
+                - listitem [ref=f1e31]:
+                  - link "Contact us" [ref=f1e32] [cursor=pointer]:
+                    - /url: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+            - generic [ref=f1e33]:
+              - generic [ref=f1e34]: Contribute
+              - list [ref=f1e36]:
+                - listitem [ref=f1e37]:
+                  - link "Help" [ref=f1e38] [cursor=pointer]:
+                    - /url: /wiki/Help:Contents
+                - listitem [ref=f1e39]:
+                  - link "Learn to edit" [ref=f1e40] [cursor=pointer]:
+                    - /url: /wiki/Help:Introduction
+                - listitem [ref=f1e41]:
+                  - link "Community portal" [ref=f1e42] [cursor=pointer]:
+                    - /url: /wiki/Wikipedia:Community_portal
+                - listitem [ref=f1e43]:
+                  - link "Recent changes" [ref=f1e44] [cursor=pointer]:
+                    - /url: /wiki/Special:RecentChanges
+                - listitem [ref=f1e45]:
+                  - link "Upload file" [ref=f1e46] [cursor=pointer]:
+                    - /url: /wiki/Wikipedia:File_upload_wizard
+                - listitem [ref=f1e47]:
+                  - link "Special pages" [ref=f1e48] [cursor=pointer]:
+                    - /url: /wiki/Special:SpecialPages
+      - link [ref=f1e49] [cursor=pointer]:
+        - /url: /wiki/Main_Page
+        - generic [ref=f1e51]:
+          - img "Wikipedia" [ref=f1e52]
+          - img "The Free Encyclopedia" [ref=f1e53]
+    - generic [ref=f1e54]:
+      - search [ref=f1e55]:
+        - link "Search" [ref=f1e56] [cursor=pointer]:
+          - /url: /wiki/Special:Search
+        - generic [ref=f1e59]:
+          - searchbox "Search Wikipedia" [ref=f1e62]
+          - button "Search" [ref=f1e63]
+      - navigation "Personal tools" [ref=f1e64]:
+        - generic [ref=f1e65]:
+          - generic:
+            - generic:
+              - list
+          - generic:
+            - generic:
+              - list
+          - navigation "Appearance" [ref=f1e66]:
+            - generic "Change the appearance of the page's font size, width, and color" [ref=f1e67]:
+              - button "Appearance" [ref=f1e68]
+              - generic [ref=f1e69]: Appearance
+          - generic:
+            - generic:
+              - list
+          - list [ref=f1e72]:
+            - listitem [ref=f1e73]:
+              - link "Donate" [ref=f1e74] [cursor=pointer]:
+                - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+            - listitem [ref=f1e75]:
+              - link "Create account" [ref=f1e76] [cursor=pointer]:
+                - /url: /w/index.php?title=Special:CreateAccount&returnto=TypeScript
+            - listitem [ref=f1e77]:
+              - link "Log in" [ref=f1e78] [cursor=pointer]:
+                - /url: /w/index.php?title=Special:UserLogin&returnto=TypeScript
+        - generic "Log in and more options" [ref=f1e79]:
+          - button "Personal tools" [ref=f1e80]
+          - generic [ref=f1e81]: Personal tools
+          - generic "User menu" [ref=f1e83]:
+            - list [ref=f1e85]:
+              - listitem [ref=f1e86]:
+                - link "Donate" [ref=f1e87] [cursor=pointer]:
+                  - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+              - listitem [ref=f1e88]:
+                - link "Create account" [ref=f1e89] [cursor=pointer]:
+                  - /url: /w/index.php?title=Special:CreateAccount&returnto=TypeScript
+              - listitem [ref=f1e90]:
+                - link "Log in" [ref=f1e91] [cursor=pointer]:
+                  - /url: /w/index.php?title=Special:UserLogin&returnto=TypeScript
+  - generic [ref=f1e93]:
+    - generic [ref=f1e94]:
+      - generic:
+        - generic:
+          - navigation "Site"
+      - navigation "Contents" [ref=f1e96]:
+        - generic [ref=f1e98]:
+          - generic [ref=f1e99]:
+            - heading "Contents" [level=2] [ref=f1e100]
+            - button "Move Contents to sidebar" [ref=f1e101]: move to sidebar
+            - button "Hide Contents" [ref=f1e102]: hide
+          - list [ref=f1e103]:
+            - listitem [ref=f1e104]:
+              - link "(Top)" [ref=f1e105] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f1e107]:
+              - link "1 History" [ref=f1e108] [cursor=pointer]:
+                - /url: "#History"
+              - list
+            - listitem [ref=f1e110]:
+              - link "2 Design" [ref=f1e111] [cursor=pointer]:
+                - /url: "#Design"
+              - list
+            - listitem [ref=f1e113]:
+              - link "3 Features" [ref=f1e114] [cursor=pointer]:
+                - /url: "#Features"
+              - list
+            - listitem [ref=f1e116]:
+              - link "4 Compatibility with JavaScript" [ref=f1e117] [cursor=pointer]:
+                - /url: "#Compatibility_with_JavaScript"
+              - list
+            - listitem [ref=f1e119]:
+              - link "5 Development tools" [ref=f1e120] [cursor=pointer]:
+                - /url: "#Development_tools"
+              - button "Toggle Development tools subsection" [ref=f1e122]
+              - list [ref=f1e123]:
+                - listitem [ref=f1e124]:
+                  - link "5.1 Compiler" [ref=f1e125] [cursor=pointer]:
+                    - /url: "#Compiler"
+                  - list
+                - listitem [ref=f1e127]:
+                  - link "5.2 IDE and editor support" [ref=f1e128] [cursor=pointer]:
+                    - /url: "#IDE_and_editor_support"
+                  - list
+                - listitem [ref=f1e130]:
+                  - link "5.3 Integration with build automation tools" [ref=f1e131] [cursor=pointer]:
+                    - /url: "#Integration_with_build_automation_tools"
+                  - list
+                - listitem [ref=f1e133]:
+                  - link "5.4 Linting tools" [ref=f1e134] [cursor=pointer]:
+                    - /url: "#Linting_tools"
+                  - list
+            - listitem [ref=f1e136]:
+              - link "6 Release history" [ref=f1e137] [cursor=pointer]:
+                - /url: "#Release_history"
+              - list
+            - listitem [ref=f1e139]:
+              - link "7 See also" [ref=f1e140] [cursor=pointer]:
+                - /url: "#See_also"
+              - list
+            - listitem [ref=f1e142]:
+              - link "8 References" [ref=f1e143] [cursor=pointer]:
+                - /url: "#References"
+              - button "Toggle References subsection" [ref=f1e145]
+              - list [ref=f1e146]:
+                - listitem [ref=f1e147]:
+                  - link "8.1 Citations" [ref=f1e148] [cursor=pointer]:
+                    - /url: "#Citations"
+                  - list
+                - listitem [ref=f1e150]:
+                  - link "8.2 Sources" [ref=f1e151] [cursor=pointer]:
+                    - /url: "#Sources"
+                  - list
+            - listitem [ref=f1e153]:
+              - link "9 External links" [ref=f1e154] [cursor=pointer]:
+                - /url: "#External_links"
+              - list
+    - main [ref=f1e157]:
+      - generic [ref=f1e158]:
+        - navigation "Contents" [ref=f1e159]:
+          - generic "Table of Contents" [ref=f1e160]:
+            - button "Toggle the table of contents" [ref=f1e161]
+            - generic [ref=f1e162]: Toggle the table of contents
+        - heading "TypeScript" [level=1] [ref=f1e163]
+        - generic [ref=f1e165]:
+          - button "38 languages" [ref=f1e166]
+          - generic [ref=f1e167]: 38 languages
+          - generic [ref=f1e169]:
+            - list [ref=f1e170]:
+              - listitem [ref=f1e171]:
+                - link "العربية" [ref=f1e172] [cursor=pointer]:
+                  - /url: https://ar.wikipedia.org/wiki/%D8%AA%D8%A7%D9%8A%D8%A8_%D8%B3%D9%83%D8%B1%D9%8A%D8%A8%D8%AA
+              - listitem [ref=f1e173]:
+                - link "Azərbaycanca" [ref=f1e174] [cursor=pointer]:
+                  - /url: https://az.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e175]:
+                - link "Беларуская" [ref=f1e176] [cursor=pointer]:
+                  - /url: https://be.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e177]:
+                - link "বাংলা" [ref=f1e178] [cursor=pointer]:
+                  - /url: https://bn.wikipedia.org/wiki/%E0%A6%9F%E0%A6%BE%E0%A6%87%E0%A6%AA%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A7%8D%E0%A6%9F
+              - listitem [ref=f1e179]:
+                - link "کوردی" [ref=f1e180] [cursor=pointer]:
+                  - /url: https://ckb.wikipedia.org/wiki/%D8%AA%D8%A7%DB%8C%D9%BE%D8%B3%DA%A9%D8%B1%DB%8C%D9%BE%D8%AA
+              - listitem [ref=f1e181]:
+                - link "Čeština" [ref=f1e182] [cursor=pointer]:
+                  - /url: https://cs.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e183]:
+                - link "Dansk" [ref=f1e184] [cursor=pointer]:
+                  - /url: https://da.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e185]:
+                - link "Deutsch" [ref=f1e186] [cursor=pointer]:
+                  - /url: https://de.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e187]:
+                - link "Español" [ref=f1e188] [cursor=pointer]:
+                  - /url: https://es.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e189]:
+                - link "Eesti" [ref=f1e190] [cursor=pointer]:
+                  - /url: https://et.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e191]:
+                - link "فارسی" [ref=f1e192] [cursor=pointer]:
+                  - /url: https://fa.wikipedia.org/wiki/%D8%AA%D8%A7%DB%8C%D9%BE%E2%80%8C%D8%A7%D8%B3%DA%A9%D8%B1%DB%8C%D9%BE%D8%AA
+              - listitem [ref=f1e193]:
+                - link "Suomi" [ref=f1e194] [cursor=pointer]:
+                  - /url: https://fi.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e195]:
+                - link "Français" [ref=f1e196] [cursor=pointer]:
+                  - /url: https://fr.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e197]:
+                - link "עברית" [ref=f1e198] [cursor=pointer]:
+                  - /url: https://he.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e199]:
+                - link "Հայերեն" [ref=f1e200] [cursor=pointer]:
+                  - /url: https://hy.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e201]:
+                - link "Italiano" [ref=f1e202] [cursor=pointer]:
+                  - /url: https://it.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e203]:
+                - link "日本語" [ref=f1e204] [cursor=pointer]:
+                  - /url: https://ja.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e205]:
+                - link "Qaraqalpaqsha" [ref=f1e206] [cursor=pointer]:
+                  - /url: https://kaa.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e207]:
+                - link "Taqbaylit" [ref=f1e208] [cursor=pointer]:
+                  - /url: https://kab.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e209]:
+                - link "한국어" [ref=f1e210] [cursor=pointer]:
+                  - /url: https://ko.wikipedia.org/wiki/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8
+              - listitem [ref=f1e211]:
+                - link "Македонски" [ref=f1e212] [cursor=pointer]:
+                  - /url: https://mk.wikipedia.org/wiki/%D0%A2%D0%B0%D1%98%D0%BF%D0%A1%D0%BA%D1%80%D0%B8%D0%BF%D1%82
+              - listitem [ref=f1e213]:
+                - link "മലയാളം" [ref=f1e214] [cursor=pointer]:
+                  - /url: https://ml.wikipedia.org/wiki/%E0%B4%9F%E0%B5%88%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%8D%E0%B4%B8%E0%B5%8D%E0%B4%95%E0%B5%8D%E0%B4%B0%E0%B4%BF%E0%B4%AA%E0%B5%8D%E0%B4%B1%E0%B5%8D%E0%B4%B1%E0%B5%8D
+              - listitem [ref=f1e215]:
+                - link "Nederlands" [ref=f1e216] [cursor=pointer]:
+                  - /url: https://nl.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e217]:
+                - link "Norsk bokmål" [ref=f1e218] [cursor=pointer]:
+                  - /url: https://no.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e219]:
+                - link "Polski" [ref=f1e220] [cursor=pointer]:
+                  - /url: https://pl.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e221]:
+                - link "Português" [ref=f1e222] [cursor=pointer]:
+                  - /url: https://pt.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e223]:
+                - link "Română" [ref=f1e224] [cursor=pointer]:
+                  - /url: https://ro.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e225]:
+                - link "Русский" [ref=f1e226] [cursor=pointer]:
+                  - /url: https://ru.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e227]:
+                - link "Simple English" [ref=f1e228] [cursor=pointer]:
+                  - /url: https://simple.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e229]:
+                - link "Српски / srpski" [ref=f1e230] [cursor=pointer]:
+                  - /url: https://sr.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e231]:
+                - link "Svenska" [ref=f1e232] [cursor=pointer]:
+                  - /url: https://sv.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e233]:
+                - link "Kiswahili" [ref=f1e234] [cursor=pointer]:
+                  - /url: https://sw.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e235]:
+                - link "Türkçe" [ref=f1e236] [cursor=pointer]:
+                  - /url: https://tr.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e237]:
+                - link "Українська" [ref=f1e238] [cursor=pointer]:
+                  - /url: https://uk.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e239]:
+                - link "Tiếng Việt" [ref=f1e240] [cursor=pointer]:
+                  - /url: https://vi.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e241]:
+                - link "閩南語 / Bân-lâm-gí" [ref=f1e242] [cursor=pointer]:
+                  - /url: https://zh-min-nan.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e243]:
+                - link "粵語" [ref=f1e244] [cursor=pointer]:
+                  - /url: https://zh-yue.wikipedia.org/wiki/TypeScript
+              - listitem [ref=f1e245]:
+                - link "中文" [ref=f1e246] [cursor=pointer]:
+                  - /url: https://zh.wikipedia.org/wiki/TypeScript
+            - link "Edit links" [ref=f1e249] [cursor=pointer]:
+              - /url: https://www.wikidata.org/wiki/Special:EntityPage/Q978185#sitelinks-wikipedia
+      - generic [ref=f1e251]:
+        - navigation "Namespaces" [ref=f1e253]:
+          - list [ref=f1e256]:
+            - listitem [ref=f1e257]:
+              - link "Article" [ref=f1e258] [cursor=pointer]:
+                - /url: /wiki/TypeScript
+            - listitem [ref=f1e259]:
+              - link "Talk" [ref=f1e260] [cursor=pointer]:
+                - /url: /wiki/Talk:TypeScript
+          - generic [ref=f1e261]:
+            - button "Change language variant" [ref=f1e262]
+            - generic [ref=f1e263]: English
+            - generic:
+              - generic:
+                - generic:
+                  - list
+        - generic [ref=f1e264]:
+          - navigation "Views" [ref=f1e265]:
+            - list [ref=f1e268]:
+              - listitem [ref=f1e269]:
+                - link "Read" [ref=f1e270] [cursor=pointer]:
+                  - /url: /wiki/TypeScript
+              - listitem [ref=f1e271]:
+                - link "Edit" [ref=f1e272] [cursor=pointer]:
+                  - /url: /w/index.php?title=TypeScript&action=edit
+              - listitem [ref=f1e273]:
+                - link "View history" [ref=f1e274] [cursor=pointer]:
+                  - /url: /w/index.php?title=TypeScript&action=history
+          - navigation "Page tools" [ref=f1e275]:
+            - generic [ref=f1e276]:
+              - button "Tools" [ref=f1e277]
+              - generic [ref=f1e278]: Tools
+              - generic [ref=f1e281]:
+                - generic [ref=f1e282]:
+                  - generic [ref=f1e283]: Tools
+                  - button "Move Tools to sidebar" [ref=f1e284]: move to sidebar
+                  - button "Hide Tools" [ref=f1e285]: hide
+                - generic [ref=f1e286]:
+                  - generic [ref=f1e287]: Actions
+                  - list [ref=f1e289]:
+                    - listitem [ref=f1e290]:
+                      - link "Read" [ref=f1e291] [cursor=pointer]:
+                        - /url: /wiki/TypeScript
+                    - listitem [ref=f1e292]:
+                      - link "Edit" [ref=f1e293] [cursor=pointer]:
+                        - /url: /w/index.php?title=TypeScript&action=edit
+                    - listitem [ref=f1e294]:
+                      - link "View history" [ref=f1e295] [cursor=pointer]:
+                        - /url: /w/index.php?title=TypeScript&action=history
+                - generic [ref=f1e296]:
+                  - generic [ref=f1e297]: General
+                  - list [ref=f1e299]:
+                    - listitem [ref=f1e300]:
+                      - link "What links here" [ref=f1e301] [cursor=pointer]:
+                        - /url: /wiki/Special:WhatLinksHere/TypeScript
+                    - listitem [ref=f1e302]:
+                      - link "Related changes" [ref=f1e303] [cursor=pointer]:
+                        - /url: /wiki/Special:RecentChangesLinked/TypeScript
+                    - listitem [ref=f1e304]:
+                      - link "Upload file" [ref=f1e305] [cursor=pointer]:
+                        - /url: //en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard
+                    - listitem [ref=f1e306]:
+                      - link "Permanent link" [ref=f1e307] [cursor=pointer]:
+                        - /url: /w/index.php?title=TypeScript&oldid=1364141946
+                    - listitem [ref=f1e308]:
+                      - link "Page information" [ref=f1e309] [cursor=pointer]:
+                        - /url: /w/index.php?title=TypeScript&action=info
+                    - listitem [ref=f1e310]:
+                      - link "Cite this page" [ref=f1e311] [cursor=pointer]:
+                        - /url: /w/index.php?title=Special:CiteThisPage&page=TypeScript&id=1364141946&wpFormIdentifier=titleform
+                    - listitem [ref=f1e312]:
+                      - link "Get shortened URL" [ref=f1e313] [cursor=pointer]:
+                        - /url: /w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTypeScript
+                    - listitem [ref=f1e314]:
+                      - link "Switch to legacy parser" [ref=f1e315] [cursor=pointer]:
+                        - /url: /w/index.php?title=TypeScript&useparsoid=0
+                - generic [ref=f1e316]:
+                  - generic [ref=f1e317]: Print/export
+                  - list [ref=f1e319]:
+                    - listitem [ref=f1e320]:
+                      - link "Download as PDF" [ref=f1e321] [cursor=pointer]:
+                        - /url: /w/index.php?title=Special:DownloadAsPdf&page=TypeScript&action=show-download-screen
+                    - listitem [ref=f1e322]:
+                      - link "Printable version" [ref=f1e323] [cursor=pointer]:
+                        - /url: /w/index.php?title=TypeScript&printable=yes
+                - generic [ref=f1e324]:
+                  - generic [ref=f1e325]: In other projects
+                  - list [ref=f1e327]:
+                    - listitem [ref=f1e328]:
+                      - link "Abstract Wikipedia" [ref=f1e329] [cursor=pointer]:
+                        - /url: https://abstract.wikipedia.org/wiki/Q978185
+                    - listitem [ref=f1e330]:
+                      - link "Wikimedia Commons" [ref=f1e331] [cursor=pointer]:
+                        - /url: https://commons.wikimedia.org/wiki/Category:TypeScript
+                    - listitem [ref=f1e332]:
+                      - link "MediaWiki" [ref=f1e333] [cursor=pointer]:
+                        - /url: https://www.mediawiki.org/wiki/TypeScript
+                    - listitem [ref=f1e334]:
+                      - link "Wikidata item" [ref=f1e335] [cursor=pointer]:
+                        - /url: https://www.wikidata.org/wiki/Special:EntityPage/Q978185
+      - generic [ref=f1e337]:
+        - navigation "Page tools"
+        - navigation "Appearance" [ref=f1e338]:
+          - generic [ref=f1e341]:
+            - generic [ref=f1e342]: Appearance
+            - button "Move Appearance to sidebar" [ref=f1e343]: move to sidebar
+            - button "Hide Appearance" [ref=f1e344]: hide
+      - generic "TypeScript" [ref=f1e345]:
+        - generic [ref=f1e346]: From Wikipedia, the free encyclopedia
+        - generic [ref=f1e349]:
+          - generic [ref=f1e350]:
+            - note [ref=f1e351]:
+              - text: For the typed instance analogous to a handwritten document, see
+              - link "Manuscript" [ref=f1e352] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Manuscript
+              - text: .
+            - paragraph
+            - table [ref=f1e353]:
+              - rowgroup [ref=f1e354]:
+                - row [ref=f1e355]:
+                  - columnheader "TypeScript" [ref=f1e356]
+                - row [ref=f1e357]:
+                  - cell [ref=f1e358]:
+                    - link [ref=f1e360] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/File:Typescript.svg
+                - row [ref=f1e362]:
+                  - rowheader [ref=f1e363]:
+                    - link "Paradigm" [ref=f1e364] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Programming_paradigm
+                  - cell [ref=f1e365]:
+                    - link "Multi-paradigm" [ref=f1e366] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Multi-paradigm_programming_language
+                    - text: ":"
+                    - link "functional" [ref=f1e367] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Functional_programming
+                    - text: ","
+                    - link "generic" [ref=f1e368] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Generic_programming
+                    - text: ","
+                    - link "imperative" [ref=f1e369] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Imperative_programming
+                    - text: ","
+                    - link "object-oriented" [ref=f1e370] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Object-oriented_programming
+                - row [ref=f1e371]:
+                  - rowheader "Family" [ref=f1e372]
+                  - cell [ref=f1e373]:
+                    - link "ECMAScript" [ref=f1e374] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/ECMAScript
+                - row [ref=f1e375]:
+                  - rowheader [ref=f1e376]:
+                    - link "Designed by" [ref=f1e377] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Software_design
+                  - cell [ref=f1e378]:
+                    - link "Microsoft" [ref=f1e379] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Microsoft
+                    - text: ","
+                    - link "Anders Hejlsberg" [ref=f1e380] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Anders_Hejlsberg
+                    - text: ",Luke Hoban"
+                - row [ref=f1e381]:
+                  - rowheader [ref=f1e382]:
+                    - link "Developer" [ref=f1e383] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Software_developer
+                  - cell "Microsoft" [ref=f1e384]
+                - row [ref=f1e385]:
+                  - rowheader "First appeared" [ref=f1e386]
+                  - cell "1 October 2012; 13 years ago [1]" [ref=f1e387]:
+                    - text: 1 October 2012
+                    - generic [ref=f1e388]: ; 13 years ago
+                    - superscript [ref=f1e389]:
+                      - link "[1]" [ref=f1e390] [cursor=pointer]:
+                        - /url: "#cite_note-1"
+                - row [ref=f1e392]:
+                  - rowheader [ref=f1e393]:
+                    - link "Stable release" [ref=f1e394] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Software_release_life_cycle
+                  - cell "7.0.2[2] Edit this on Wikidata / 8 July 2026; 12 days ago [3]" [ref=f1e395]:
+                    - generic [ref=f1e396]:
+                      - text: 7.0.2
+                      - superscript [ref=f1e397]:
+                        - link "[2]" [ref=f1e398] [cursor=pointer]:
+                          - /url: "#cite_note-wikidata-332cde540f8bc9ce8dd8689ac728553ea544d045-v20-2"
+                      - link [ref=f1e401] [cursor=pointer]:
+                        - /url: https://www.wikidata.org/wiki/Q978185?uselang=en#P348
+                        - img "Edit this on Wikidata" [ref=f1e402]
+                      - text: / 8 July 2026
+                      - generic [ref=f1e403]: ; 12 days ago
+                      - superscript [ref=f1e404]:
+                        - link "[3]" [ref=f1e405] [cursor=pointer]:
+                          - /url: "#cite_note-3"
+                - row [ref=f1e407]:
+                  - rowheader [ref=f1e408]:
+                    - link "Typing discipline" [ref=f1e409] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Type_system
+                  - cell [ref=f1e410]:
+                    - link "Duck" [ref=f1e411] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Duck_typing
+                    - text: ","
+                    - link "gradual" [ref=f1e412] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Gradual_typing
+                    - text: ","
+                    - link "strong" [ref=f1e413] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Strong_and_weak_typing
+                    - text: ","
+                    - link "structural" [ref=f1e414] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Structural_type_system
+                    - superscript [ref=f1e415]:
+                      - link "[4]" [ref=f1e416] [cursor=pointer]:
+                        - /url: "#cite_note-4"
+                - row [ref=f1e418]:
+                  - rowheader [ref=f1e419]:
+                    - link "Scope" [ref=f1e420] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Scope_(computer_science)
+                  - cell [ref=f1e421]:
+                    - link "Lexical" [ref=f1e422] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Scope_(computer_science)
+                - row [ref=f1e423]:
+                  - rowheader [ref=f1e424]:
+                    - link "License" [ref=f1e425] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Software_license
+                  - cell [ref=f1e426]:
+                    - link "Apache 2.0" [ref=f1e427] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Apache_License_2.0
+                - row [ref=f1e428]:
+                  - rowheader [ref=f1e429]:
+                    - link "Filename extensions" [ref=f1e430] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Filename_extension
+                  - cell ".ts, .tsx, .mts, .cts" [ref=f1e431]
+                - row [ref=f1e432]:
+                  - rowheader "Website" [ref=f1e433]
+                  - cell [ref=f1e434]:
+                    - link "www.typescriptlang.org" [ref=f1e436] [cursor=pointer]:
+                      - /url: https://www.typescriptlang.org/
+                - row [ref=f1e437]:
+                  - columnheader "Influenced by" [ref=f1e438]
+                - row [ref=f1e439]:
+                  - cell [ref=f1e440]:
+                    - link "C#" [ref=f1e441] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
+                    - text: ","
+                    - link "F#" [ref=f1e442] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/F_Sharp_(programming_language)
+                    - text: ","
+                    - superscript [ref=f1e443]:
+                      - link "[5]" [ref=f1e444] [cursor=pointer]:
+                        - /url: "#cite_note-5"
+                    - link "Java" [ref=f1e446] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Java_(programming_language)
+                    - text: ","
+                    - link "JavaScript" [ref=f1e447] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/JavaScript
+                - row [ref=f1e448]:
+                  - columnheader "Influenced" [ref=f1e449]
+                - row [ref=f1e450]:
+                  - cell [ref=f1e451]:
+                    - link "AtScript" [ref=f1e452] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/AtScript
+                    - text: ","
+                    - link "AssemblyScript" [ref=f1e453] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/AssemblyScript
+                    - text: ","
+                    - link "ArkTS" [ref=f1e454] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/ArkTS
+            - paragraph [ref=f1e455]:
+              - text: TypeScript (TS) is a
+              - link "high-level" [ref=f1e456] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/High-level_programming_language
+              - link "programming language" [ref=f1e457] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Programming_language
+              - text: that adds
+              - link "static typing" [ref=f1e458] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Static_typing
+              - text: with optional type
+              - link "annotations" [ref=f1e459] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Annotation#Software_and_engineering
+              - text: to
+              - link "JavaScript" [ref=f1e460] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/JavaScript
+              - text: . It is designed for developing large applications. It
+              - link "transpiles" [ref=f1e461] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Source-to-source_compiler
+              - text: to JavaScript.
+              - superscript [ref=f1e462]:
+                - link "[6]" [ref=f1e463] [cursor=pointer]:
+                  - /url: "#cite_note-6"
+              - text: It is developed by
+              - link "Microsoft" [ref=f1e465] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Microsoft
+              - text: as
+              - link "free and open-source software" [ref=f1e466] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Free_and_open-source_software
+              - text: released under an
+              - link "Apache License 2.0" [ref=f1e467] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Apache_License_2.0
+              - text: .
+            - paragraph [ref=f1e468]:
+              - text: TypeScript may be used to develop JavaScript applications for both
+              - link "client-side" [ref=f1e469] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Client-side
+              - text: and
+              - link "server-side" [ref=f1e470] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Server-side
+              - text: execution (as with
+              - link "React.js" [ref=f1e471] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/React.js
+              - text: ","
+              - link "Node.js" [ref=f1e472] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Node.js
+              - text: ","
+              - link "Deno" [ref=f1e473] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Deno_(software)
+              - text: or
+              - link "Bun" [ref=f1e474] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Bun_(software)
+              - text: ). Multiple options are available for transpiling. The default TypeScript Compiler can be used,
+              - superscript [ref=f1e475]:
+                - link "[7]" [ref=f1e476] [cursor=pointer]:
+                  - /url: "#cite_note-7"
+              - text: or the
+              - link "Babel" [ref=f1e478] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Babel_(transcompiler)
+              - text: compiler can be invoked to convert TypeScript to JavaScript.
+            - paragraph [ref=f1e479]:
+              - text: TypeScript supports definition files that can contain type information of existing JavaScript
+              - link "libraries" [ref=f1e480] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Library_(computing)
+              - text: ", much like"
+              - link "C++" [ref=f1e481] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/C++
+              - link "header files" [ref=f1e482] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Include_directive#Header_file
+              - text: can describe the structure of existing
+              - link "object files" [ref=f1e483] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Object_file
+              - text: . This enables other programs to use the values defined in the files as if they were statically typed TypeScript entities. There are third-party header files for popular libraries such as
+              - link "jQuery" [ref=f1e484] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/JQuery
+              - text: ","
+              - link "MongoDB" [ref=f1e485] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/MongoDB
+              - text: ", and"
+              - link "D3.js" [ref=f1e486] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/D3.js
+              - text: . TypeScript headers for the
+              - link "Node.js" [ref=f1e487] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Node.js
+              - text: library modules are also available, allowing development of Node.js programs within TypeScript.
+              - superscript [ref=f1e488]:
+                - link "[8]" [ref=f1e489] [cursor=pointer]:
+                  - /url: "#cite_note-8"
+            - paragraph [ref=f1e491]:
+              - text: Before TypeScript 7.0, the TypeScript compiler was
+              - link "written in TypeScript" [ref=f1e492] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Self-hosting_(compilers)
+              - text: and
+              - link "compiled" [ref=f1e493] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Source-to-source_compiler
+              - text: to JavaScript. In TypeScript 7.0, it was rewritten in
+              - link "Go" [ref=f1e494] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Go_(programming_language)
+              - text: .
+              - superscript [ref=f1e495]:
+                - link "[9]" [ref=f1e496] [cursor=pointer]:
+                  - /url: "#cite_note-9"
+              - text: It is licensed under the
+              - link "Apache License 2.0" [ref=f1e498] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Apache_License_2.0
+              - text: .
+              - link "Anders Hejlsberg" [ref=f1e499] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Anders_Hejlsberg
+              - text: ", lead architect of"
+              - link "C#" [ref=f1e500] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
+              - text: and creator of
+              - link "Delphi" [ref=f1e501] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Delphi_(software)
+              - text: and
+              - link "Turbo Pascal" [ref=f1e502] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Turbo_Pascal
+              - text: ", has worked on developing TypeScript."
+              - superscript [ref=f1e503]:
+                - link "[10]" [ref=f1e504] [cursor=pointer]:
+                  - /url: "#cite_note-10"
+              - superscript [ref=f1e506]:
+                - link "[11]" [ref=f1e507] [cursor=pointer]:
+                  - /url: "#cite_note-11"
+              - superscript [ref=f1e509]:
+                - link "[12]" [ref=f1e510] [cursor=pointer]:
+                  - /url: "#cite_note-12"
+              - superscript [ref=f1e512]:
+                - link "[13]" [ref=f1e513] [cursor=pointer]:
+                  - /url: "#cite_note-13"
+          - region [ref=f1e515]:
+            - generic [ref=f1e516]:
+              - heading "History" [level=2] [ref=f1e517]
+              - generic [ref=f1e518]:
+                - text: "["
+                - link "edit" [ref=f1e519] [cursor=pointer]:
+                  - /url: /w/index.php?title=TypeScript&action=edit&section=1
+                - text: "]"
+            - paragraph [ref=f1e520]:
+              - text: TypeScript was released to the public in October 2012, with version 0.8, after two years of internal development at Microsoft.
+              - superscript [ref=f1e521]:
+                - link "[14]" [ref=f1e522] [cursor=pointer]:
+                  - /url: "#cite_note-14"
+              - superscript [ref=f1e524]:
+                - link "[15]" [ref=f1e525] [cursor=pointer]:
+                  - /url: "#cite_note-15"
+              - text: Soon after the initial public release,
+              - link "Miguel de Icaza" [ref=f1e527] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Miguel_de_Icaza
+              - text: praised the language, but criticized the lack of mature
+              - link "integrated development environment" [ref=f1e528] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Integrated_development_environment
+              - text: (IDE) support apart from
+              - link "Microsoft Visual Studio" [ref=f1e529] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Microsoft_Visual_Studio
+              - text: ", which was unavailable then on"
+              - link "Linux" [ref=f1e530] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Linux
+              - text: and
+              - link "macOS" [ref=f1e531] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/MacOS
+              - text: .
+              - superscript [ref=f1e532]:
+                - link "[16]" [ref=f1e533] [cursor=pointer]:
+                  - /url: "#cite_note-16"
+              - superscript [ref=f1e535]:
+                - link "[17]" [ref=f1e536] [cursor=pointer]:
+                  - /url: "#cite_note-17"
+              - text: As of April 2021 there is support in other IDEs and text editors, including
+              - link "Emacs" [ref=f1e538] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Emacs
+              - text: ","
+              - link "Vim" [ref=f1e539] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Vim_(text_editor)
+              - text: ","
+              - link "WebStorm" [ref=f1e540] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/JetBrains#WebStorm
+              - text: ","
+              - link "Atom" [ref=f1e541] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Atom_(text_editor)
+              - superscript [ref=f1e542]:
+                - link "[18]" [ref=f1e543] [cursor=pointer]:
+                  - /url: "#cite_note-18"
+              - text: and Microsoft's own
+              - link "Visual Studio Code" [ref=f1e545] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Visual_Studio_Code
+              - text: .
+              - superscript [ref=f1e546]:
+                - link "[19]" [ref=f1e547] [cursor=pointer]:
+                  - /url: "#cite_note-19"
+              - text: TypeScript 0.9, released in 2013, added support for
+              - link "generics" [ref=f1e549] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Generic_programming
+              - text: .
+              - superscript [ref=f1e550]:
+                - link "[20]" [ref=f1e551] [cursor=pointer]:
+                  - /url: "#cite_note-20"
+            - paragraph [ref=f1e553]:
+              - text: TypeScript 1.0 was released at Microsoft's
+              - link "Build" [ref=f1e554] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Build_(developer_conference)
+              - text: developer conference in 2014.
+              - superscript [ref=f1e555]:
+                - link "[21]" [ref=f1e556] [cursor=pointer]:
+                  - /url: "#cite_note-21"
+              - link "Visual Studio 2013" [ref=f1e558] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Visual_Studio_2013
+              - text: Update 2 provided built-in support for TypeScript.
+              - superscript [ref=f1e559]:
+                - link "[22]" [ref=f1e560] [cursor=pointer]:
+                  - /url: "#cite_note-22"
+              - text: Further improvement were made in July 2014, when the development team announced a new TypeScript compiler, asserted to have a five-fold performance increase. Simultaneously, the source code, which was initially hosted on
+              - link "CodePlex" [ref=f1e562] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/CodePlex
+              - text: ", was moved to"
+              - link "GitHub" [ref=f1e563] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/GitHub
+              - text: .
+              - superscript [ref=f1e564]:
+                - link "[23]" [ref=f1e565] [cursor=pointer]:
+                  - /url: "#cite_note-23"
+            - paragraph [ref=f1e567]:
+              - text: On 22 September 2016, TypeScript 2.0 was released, introducing several features, including the ability for programmers to optionally enforce
+              - link "null safety" [ref=f1e568] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Null_safety
+              - text: .
+              - superscript [ref=f1e569]:
+                - link "[24]" [ref=f1e570] [cursor=pointer]:
+                  - /url: "#cite_note-24"
+            - paragraph [ref=f1e572]:
+              - text: TypeScript 3.0 was released on 30 July 2018,
+              - superscript [ref=f1e573]:
+                - link "[25]" [ref=f1e574] [cursor=pointer]:
+                  - /url: "#cite_note-25"
+              - text: bringing many language additions like tuples in rest parameters and spread expressions, rest parameters with tuple types, generic rest parameters and so on.
+              - superscript [ref=f1e576]:
+                - link "[26]" [ref=f1e577] [cursor=pointer]:
+                  - /url: "#cite_note-26"
+            - paragraph [ref=f1e579]:
+              - text: TypeScript 4.0 was released on 20 August 2020.
+              - superscript [ref=f1e580]:
+                - link "[27]" [ref=f1e581] [cursor=pointer]:
+                  - /url: "#cite_note-:0-27"
+              - text: While 4.0 did not introduce any breaking changes, it added language features such as Custom
+              - link "JSX" [ref=f1e583] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/JSX_(JavaScript)
+              - text: Factories and Variadic Tuple Types.
+              - superscript [ref=f1e584]:
+                - link "[27]" [ref=f1e585] [cursor=pointer]:
+                  - /url: "#cite_note-:0-27"
+            - paragraph [ref=f1e587]:
+              - text: TypeScript 5.0 was released on 16 March 2023 and included support for decorators.
+              - superscript [ref=f1e588]:
+                - link "[28]" [ref=f1e589] [cursor=pointer]:
+                  - /url: "#cite_note-28"
+            - paragraph [ref=f1e591]:
+              - text: On March 11, 2025, Anders Hejlsberg announced on the TypeScript blog that the team is working on a
+              - link "Go" [ref=f1e592] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Go_(programming_language)
+              - text: port of the TypeScript compiler to be released as TypeScript version 7.0 later this year. It is expected to feature a 10x
+              - link "speedup" [ref=f1e593] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Speedup
+              - text: .
+              - superscript [ref=f1e594]:
+                - link "[29]" [ref=f1e595] [cursor=pointer]:
+                  - /url: "#cite_note-29"
+            - paragraph [ref=f1e597]:
+              - text: On December 2nd, 2025, Daniel Rosenwasser announced on the blog that TypeScript 6.0 will be the last release written in TypeScript itself, and TypeScript 7.0 will be the first Go-based release.
+              - superscript [ref=f1e598]:
+                - link "[30]" [ref=f1e599] [cursor=pointer]:
+                  - /url: "#cite_note-30"
+          - region [ref=f1e601]:
+            - generic [ref=f1e602]:
+              - heading "Design" [level=2] [ref=f1e603]
+              - generic [ref=f1e604]:
+                - text: "["
+                - link "edit" [ref=f1e605] [cursor=pointer]:
+                  - /url: /w/index.php?title=TypeScript&action=edit&section=2
+                - text: "]"
+            - paragraph [ref=f1e606]:
+              - text: TypeScript originated from the shortcomings of JavaScript for developing large-scale applications both at Microsoft and among their external customers.
+              - superscript [ref=f1e607]:
+                - link "[31]" [ref=f1e608] [cursor=pointer]:
+                  - /url: "#cite_note-31"
+              - text: Challenges with dealing with complex JavaScript code led to demand for custom tooling to ease developing of components in the language.
+              - superscript [ref=f1e610]:
+                - link "[32]" [ref=f1e611] [cursor=pointer]:
+                  - /url: "#cite_note-32"
+            - paragraph [ref=f1e613]:
+              - text: Developers sought a solution that would not break compatibility with the
+              - link "ECMAScript" [ref=f1e614] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/ECMAScript
+              - text: (ES) standard and its ecosystem, so a
+              - link "compiler" [ref=f1e615] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Compiler
+              - text: was developed to transform a superset of JavaScript with type annotations and classes (TypeScript files) back into vanilla ECMAScript 5 code. TypeScript classes were based on the then-proposed ECMAScript 6 class specification to make writing
+              - link "prototypal inheritance" [ref=f1e616] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Prototype-based_programming
+              - text: less verbose and error-prone, and type annotations enabled
+              - link "IntelliSense" [ref=f1e617] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Code_completion
+              - text: and improved tooling.
+          - region [ref=f1e618]:
+            - generic [ref=f1e619]:
+              - heading "Features" [level=2] [ref=f1e620]
+              - generic [ref=f1e621]:
+                - text: "["
+                - link "edit" [ref=f1e622] [cursor=pointer]:
+                  - /url: /w/index.php?title=TypeScript&action=edit&section=3
+                - text: "]"
+            - note [ref=f1e623]:
+              - text: "Main article:"
+              - link "JavaScript syntax § TypeScript-specific features" [ref=f1e624] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/JavaScript_syntax#TypeScript-specific_features
+            - paragraph [ref=f1e625]: "TypeScript adds the following syntax extensions to JavaScript:"
+            - list [ref=f1e626]:
+              - listitem [ref=f1e627]:
+                - link "Type signatures" [ref=f1e628] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Type_signature
+                - text: (annotations) and
+                - link "compile-time" [ref=f1e629] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Compile-time
+                - link "type checking" [ref=f1e630] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Type_checking
+              - listitem [ref=f1e631]:
+                - link "Type inference" [ref=f1e632] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Type_inference
+              - listitem [ref=f1e633]:
+                - link "Interfaces" [ref=f1e634] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Interface_(object-oriented_programming)
+              - listitem [ref=f1e635]:
+                - link "Enumerated types" [ref=f1e636] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Enumerated_type
+              - listitem [ref=f1e637]:
+                - link "Generics" [ref=f1e638] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Generic_programming
+              - listitem [ref=f1e639]:
+                - link "Namespaces" [ref=f1e640] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Namespace
+              - listitem [ref=f1e641]:
+                - link "Tuples" [ref=f1e642] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Tuple
+            - paragraph [ref=f1e643]:
+              - text: Syntactically, TypeScript is very similar to
+              - link "JScript .NET" [ref=f1e644] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/JScript_.NET
+              - text: ", another Microsoft implementation of the ECMA-262 language standard that added support for static typing and classical object-oriented language features such as classes, inheritance, interfaces, and namespaces. Other inspirations include"
+              - link "Java" [ref=f1e645] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Java_(programming_language)
+              - text: and
+              - link "C#" [ref=f1e646] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
+              - text: .
+          - region [ref=f1e647]:
+            - generic [ref=f1e648]:
+              - heading "Compatibility with JavaScript" [level=2] [ref=f1e649]
+              - generic [ref=f1e650]:
+                - text: "["
+                - link "edit" [ref=f1e651] [cursor=pointer]:
+                  - /url: /w/index.php?title=TypeScript&action=edit&section=4
+                - text: "]"
+            - note [ref=f1e652]:
+              - text: "Further information:"
+              - link "JavaScript" [ref=f1e653] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/JavaScript
+            - paragraph [ref=f1e654]: As TypeScript is simply a superset of JavaScript, existing JavaScript can be adapted to TypeScript and TypeScript program can seamlessly consume JavaScript. The compiler can target all ECMAScript versions 5 and above, transpiling modern features like classes and arrow functions to their older counterparts.
+            - paragraph [ref=f1e655]:
+              - text: With TypeScript, it is possible to use existing JavaScript code, incorporate popular JavaScript libraries, and call TypeScript-generated code from other JavaScript.
+              - superscript [ref=f1e656]:
+                - link "[33]" [ref=f1e657] [cursor=pointer]:
+                  - /url: "#cite_note-typescript-home-page-33"
+              - text: Type declarations for these libraries are usually provided with the source code but can be declared or installed separately if needed.
+          - region [ref=f1e659]:
+            - generic [ref=f1e660]:
+              - heading "Development tools" [level=2] [ref=f1e661]
+              - generic [ref=f1e662]:
+                - text: "["
+                - link "edit" [ref=f1e663] [cursor=pointer]:
+                  - /url: /w/index.php?title=TypeScript&action=edit&section=5
+                - text: "]"
+            - note [ref=f1e664]:
+              - text: "See also:"
+              - link "List of TypeScript software and tools" [ref=f1e665] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/List_of_TypeScript_software_and_tools
+            - region [ref=f1e666]:
+              - generic [ref=f1e667]:
+                - heading "Compiler" [level=3] [ref=f1e668]
+                - generic [ref=f1e669]:
+                  - text: "["
+                  - link "edit" [ref=f1e670] [cursor=pointer]:
+                    - /url: /w/index.php?title=TypeScript&action=edit&section=6
+                  - text: "]"
+              - paragraph [ref=f1e671]:
+                - text: The TypeScript compiler, named
+                - code [ref=f1e672]: tsc
+                - text: ", is"
+                - link "written in TypeScript" [ref=f1e673] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Self-hosting_(compilers)
+                - text: . As a result, it can be compiled into regular JavaScript and can then be executed in any JavaScript engine (e.g. a browser). The compiler package comes bundled with a script host that can execute the compiler. It is also available as a
+                - link "Node.js" [ref=f1e674] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Node.js
+                - text: package that uses Node.js as a host. The compiler is currently being ported to
+                - link "Go" [ref=f1e675] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Go_(programming_language)
+                - text: for version 7.
+                - superscript [ref=f1e676]:
+                  - link "[34]" [ref=f1e677] [cursor=pointer]:
+                    - /url: "#cite_note-34"
+              - paragraph [ref=f1e679]:
+                - text: The compiler can target a given edition of ECMAScript (such as
+                - link "ECMAScript 5" [ref=f1e680] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/ECMAScript_version_history
+                - text: for legacy browser compatibility), but by default compiles for the latest standards.
+            - region [ref=f1e681]:
+              - generic [ref=f1e682]:
+                - heading "IDE and editor support" [level=3] [ref=f1e683]
+                - generic [ref=f1e684]:
+                  - text: "["
+                  - link "edit" [ref=f1e685] [cursor=pointer]:
+                    - /url: /w/index.php?title=TypeScript&action=edit&section=7
+                  - text: "]"
+              - list [ref=f1e686]:
+                - listitem [ref=f1e687]:
+                  - link "Microsoft" [ref=f1e688] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Microsoft
+                  - text: provides a
+                  - link "plug-in" [ref=f1e689] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Plug-in_(computing)
+                  - text: for
+                  - link "Visual Studio" [ref=f1e690] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Visual_Studio
+                  - text: 2012 and
+                  - link "WebMatrix" [ref=f1e691] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Microsoft_WebMatrix
+                  - text: ", full integrated support in"
+                  - link "Visual Studio" [ref=f1e692] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Visual_Studio
+                  - text: 2013,
+                  - link "Visual Studio" [ref=f1e693] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Visual_Studio
+                  - text: 2015, and basic text editor support for
+                  - link "Emacs" [ref=f1e694] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Emacs
+                  - text: and
+                  - link "Vim" [ref=f1e695] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Vim_(text_editor)
+                  - text: .
+                  - superscript [ref=f1e696]:
+                    - link "[35]" [ref=f1e697] [cursor=pointer]:
+                      - /url: "#cite_note-blogs.msdn.com-35"
+                - listitem [ref=f1e699]:
+                  - link "Visual Studio Code" [ref=f1e700] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Visual_Studio_Code
+                  - text: supports TypeScript in addition to several other languages, and offers features like debugging and intelligent
+                  - link "code completion" [ref=f1e701] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Code_completion
+                  - text: .
+                - listitem [ref=f1e702]: alm.tools is an open source cloud IDE for TypeScript built using TypeScript, ReactJS and TypeStyle.
+                - listitem [ref=f1e703]:
+                  - link "JetBrains" [ref=f1e704] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/JetBrains
+                  - text: supports TypeScript with code completion, refactoring and debugging in its IDEs built on IntelliJ platform, such as
+                  - link "PhpStorm" [ref=f1e705] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/PhpStorm
+                  - text: 6,
+                  - link "WebStorm" [ref=f1e706] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/WebStorm
+                  - text: 6, and
+                  - link "IntelliJ IDEA" [ref=f1e707] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/IntelliJ_IDEA
+                  - text: ","
+                  - superscript [ref=f1e708]:
+                    - link "[36]" [ref=f1e709] [cursor=pointer]:
+                      - /url: "#cite_note-36"
+                  - text: as well as their Visual Studio Add-in and extension, ReSharper 8.1.
+                  - superscript [ref=f1e711]:
+                    - link "[37]" [ref=f1e712] [cursor=pointer]:
+                      - /url: "#cite_note-37"
+                  - superscript [ref=f1e714]:
+                    - link "[38]" [ref=f1e715] [cursor=pointer]:
+                      - /url: "#cite_note-38"
+                - listitem [ref=f1e717]:
+                  - link "Atom" [ref=f1e718] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Atom_(text_editor)
+                  - text: has a TypeScript plugin with support for code completion, navigation, formatting, and fast compilation.
+                  - superscript [ref=f1e719]:
+                    - link "[39]" [ref=f1e720] [cursor=pointer]:
+                      - /url: "#cite_note-39"
+                - listitem [ref=f1e722]:
+                  - text: The online
+                  - link "Cloud9 IDE" [ref=f1e723] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Cloud9_IDE
+                  - text: and
+                  - link "Codenvy" [ref=f1e724] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Codenvy
+                  - text: support TypeScript.
+                - listitem [ref=f1e725]:
+                  - text: A plugin is available for the
+                  - link "NetBeans" [ref=f1e726] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/NetBeans
+                  - text: IDE.
+                - listitem [ref=f1e727]:
+                  - text: A plugin is available for the
+                  - link "Eclipse IDE" [ref=f1e728] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Eclipse_(software)
+                  - text: (version Kepler)
+                - listitem [ref=f1e729]:
+                  - text: TypEcs is available for the
+                  - link "Eclipse IDE" [ref=f1e730] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Eclipse_(software)
+                  - text: .
+                - listitem [ref=f1e731]:
+                  - text: The Cross Platform Cloud IDE
+                  - link "Codeanywhere" [ref=f1e732] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Codeanywhere
+                  - text: supports TypeScript.
+                - listitem [ref=f1e733]:
+                  - text: Webclipse An Eclipse plugin designed to develop TypeScript and
+                  - link "Angular 2" [ref=f1e734] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Angular_(application_platform)
+                  - text: .
+                - listitem [ref=f1e735]: Angular IDE A standalone IDE available via npm to develop TypeScript and Angular 2 applications, with integrated terminal support.
+                - listitem [ref=f1e736]:
+                  - text: Tide – TypeScript Interactive Development Environment for
+                  - link "Emacs" [ref=f1e737] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Emacs
+                  - text: .
+            - region [ref=f1e738]:
+              - generic [ref=f1e739]:
+                - heading "Integration with build automation tools" [level=3] [ref=f1e740]
+                - generic [ref=f1e741]:
+                  - text: "["
+                  - link "edit" [ref=f1e742] [cursor=pointer]:
+                    - /url: /w/index.php?title=TypeScript&action=edit&section=8
+                  - text: "]"
+              - note [ref=f1e743]:
+                - text: "Further information:"
+                - link "Build automation" [ref=f1e744] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Build_automation
+              - paragraph [ref=f1e745]:
+                - text: Using
+                - link "plug-ins" [ref=f1e746] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Plug-in_(computing)
+                - text: ", TypeScript can be integrated with"
+                - link "build automation" [ref=f1e747] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Build_automation
+                - text: tools, including Grunt (grunt-ts
+                - superscript [ref=f1e748]:
+                  - link "[40]" [ref=f1e749] [cursor=pointer]:
+                    - /url: "#cite_note-40"
+                - text: ),
+                - link "Apache Maven" [ref=f1e751] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Apache_Maven
+                - text: (TypeScript Maven Plugin
+                - superscript [ref=f1e752]:
+                  - link "[41]" [ref=f1e753] [cursor=pointer]:
+                    - /url: "#cite_note-41"
+                - text: ), Gulp (gulp-typescript
+                - superscript [ref=f1e755]:
+                  - link "[42]" [ref=f1e756] [cursor=pointer]:
+                    - /url: "#cite_note-42"
+                - text: ) and
+                - link "Gradle" [ref=f1e758] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Gradle
+                - text: (TypeScript Gradle Plugin
+                - superscript [ref=f1e759]:
+                  - link "[43]" [ref=f1e760] [cursor=pointer]:
+                    - /url: "#cite_note-43"
+                - text: ).
+            - region [ref=f1e762]:
+              - generic [ref=f1e763]:
+                - heading "Linting tools" [level=3] [ref=f1e764]
+                - generic [ref=f1e765]:
+                  - text: "["
+                  - link "edit" [ref=f1e766] [cursor=pointer]:
+                    - /url: /w/index.php?title=TypeScript&action=edit&section=9
+                  - text: "]"
+              - paragraph [ref=f1e767]:
+                - link "ESLint" [ref=f1e768] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/ESLint
+                - text: ", a standard JavaScript linter, also provides support for TypeScript via the"
+                - code [ref=f1e769]: typescript-eslint
+                - text: plugin.
+                - superscript [ref=f1e770]:
+                  - link "[44]" [ref=f1e771] [cursor=pointer]:
+                    - /url: "#cite_note-44"
+          - region [ref=f1e773]:
+            - generic [ref=f1e774]:
+              - heading "Release history" [level=2] [ref=f1e775]
+              - generic [ref=f1e776]:
+                - text: "["
+                - link "edit" [ref=f1e777] [cursor=pointer]:
+                  - /url: /w/index.php?title=TypeScript&action=edit&section=10
+                - text: "]"
+            - link [ref=f1e780] [cursor=pointer]:
+              - /url: https://en.wikipedia.org/wiki/File:Question_book-new.svg
+              - img "icon" [ref=f1e781]
+            - generic [ref=f1e782]:
+              - text: This section
+              - generic [ref=f1e783]:
+                - text: needs
+                - link "more citations" [ref=f1e784] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Wikipedia:Verifiability
+              - text: .
+              - generic [ref=f1e785]:
+                - text: Please help
+                - link "improve this section" [ref=f1e786] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Special:EditPage/TypeScript
+                - text: by
+                - link "adding citations to reliable sources" [ref=f1e787] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Help:Referencing_for_beginners
+                - text: . Unsourced material may be challenged and
+                - link "removed" [ref=f1e788] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Wikipedia:Verifiability#Burden_of_evidence
+                - text: .
+              - generic [ref=f1e789]: (July 2025)
+              - generic [ref=f1e792]:
+                - text: (
+                - link "Learn how and when to remove this message" [ref=f1e794] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Help:Maintenance_template_removal
+                - text: )
+            - generic [ref=f1e795]:
+              - generic [ref=f1e796]: "Legend:"
+              - generic [ref=f1e798]: Unsupported
+              - generic [ref=f1e800]: Supported
+              - generic [ref=f1e802]: Latest version
+            - table [ref=f1e805]:
+              - rowgroup [ref=f1e806]:
+                - row [ref=f1e807]:
+                  - columnheader "Version number" [ref=f1e808]
+                  - columnheader "Release date" [ref=f1e809]
+                  - columnheader "Significant changes" [ref=f1e810]
+                - row [ref=f1e811]:
+                  - cell "0.8" [ref=f1e812]
+                  - cell "1 October 2012" [ref=f1e813]
+                  - cell [ref=f1e814]
+                - row [ref=f1e815]:
+                  - cell "0.9" [ref=f1e816]
+                  - cell "18 June 2013" [ref=f1e817]
+                  - cell [ref=f1e818]
+                - row [ref=f1e819]:
+                  - cell "1.0" [ref=f1e820]
+                  - cell "12 April 2014" [ref=f1e821]
+                  - cell [ref=f1e822]
+                - row [ref=f1e823]:
+                  - cell "1.1" [ref=f1e824]
+                  - cell "6 October 2014" [ref=f1e825]
+                  - cell "performance improvements" [ref=f1e826]
+                - row [ref=f1e827]:
+                  - cell "1.3" [ref=f1e828]
+                  - cell "12 November 2014" [ref=f1e829]
+                  - cell [ref=f1e830]:
+                    - code [ref=f1e831]: protected
+                    - text: modifier, tuple types
+                - row [ref=f1e832]:
+                  - cell "1.4" [ref=f1e833]
+                  - cell "20 January 2015" [ref=f1e834]
+                  - cell [ref=f1e835]:
+                    - link "union types" [ref=f1e836] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Union_type
+                    - text: ","
+                    - code [ref=f1e837]: let
+                    - text: and
+                    - code [ref=f1e838]: const
+                    - text: declarations, template strings, type guards, type aliases
+                - row [ref=f1e839]:
+                  - cell "1.5" [ref=f1e840]
+                  - cell "20 July 2015" [ref=f1e841]
+                  - cell [ref=f1e842]:
+                    - text: ES6 modules,
+                    - code [ref=f1e843]: namespace
+                    - text: keyword,
+                    - code [ref=f1e844]: for..of
+                    - text: support, decorators
+                - row [ref=f1e845]:
+                  - cell "1.6" [ref=f1e846]
+                  - cell "16 September 2015" [ref=f1e847]
+                  - cell [ref=f1e848]:
+                    - text: JSX support,
+                    - link "intersection types" [ref=f1e849] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Intersection_type
+                    - text: ", local type declarations,"
+                    - link "abstract classes" [ref=f1e850] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Abstract_class
+                    - text: and methods, user-defined type guard functions
+                - row [ref=f1e851]:
+                  - cell "1.7" [ref=f1e852]
+                  - cell "30 November 2015" [ref=f1e853]
+                  - cell [ref=f1e854]:
+                    - code [ref=f1e855]: async
+                    - text: and
+                    - code [ref=f1e856]: await
+                    - text: support,
+                - row [ref=f1e857]:
+                  - cell "1.8" [ref=f1e858]
+                  - cell "22 February 2016" [ref=f1e859]
+                  - cell [ref=f1e860]:
+                    - text: constraints generics, control flow analysis errors, string literal types,
+                    - code [ref=f1e861]: allowJs
+                - row [ref=f1e862]:
+                  - cell "2.0" [ref=f1e863]
+                  - cell "22 September 2016" [ref=f1e864]
+                  - cell [ref=f1e865]:
+                    - text: null- and undefined-aware types, control flow based type analysis, discriminated union types,
+                    - code [ref=f1e866]: never
+                    - text: type,
+                    - code [ref=f1e867]: readonly
+                    - text: keyword, type of
+                    - code [ref=f1e868]: this
+                    - text: for functions
+                - row [ref=f1e869]:
+                  - cell "2.1" [ref=f1e870]
+                  - cell "8 November 2016" [ref=f1e871]
+                  - cell [ref=f1e872]:
+                    - code [ref=f1e873]: keyof
+                    - text: and lookup types, mapped types, object spread and rest,
+                - row [ref=f1e874]:
+                  - cell "2.2" [ref=f1e875]
+                  - cell "22 February 2017" [ref=f1e876]
+                  - cell [ref=f1e877]:
+                    - text: mix-in classes,
+                    - code [ref=f1e878]: object
+                    - text: type,
+                - row [ref=f1e879]:
+                  - cell "2.3" [ref=f1e880]
+                  - cell "27 April 2017" [ref=f1e881]
+                  - cell [ref=f1e882]:
+                    - code [ref=f1e883]: async
+                    - text: iteration, generic parameter defaults, strict option
+                - row [ref=f1e884]:
+                  - cell "2.4" [ref=f1e885]
+                  - cell "27 June 2017" [ref=f1e886]
+                  - cell "dynamic import expressions, string enums, improved inference for generics, strict contravariance for callback parameters" [ref=f1e887]
+                - row [ref=f1e888]:
+                  - cell "2.5" [ref=f1e889]
+                  - cell "31 August 2017" [ref=f1e890]
+                  - cell "optional catch clause variables" [ref=f1e891]
+                - row [ref=f1e892]:
+                  - cell "2.6" [ref=f1e893]
+                  - cell [ref=f1e894]

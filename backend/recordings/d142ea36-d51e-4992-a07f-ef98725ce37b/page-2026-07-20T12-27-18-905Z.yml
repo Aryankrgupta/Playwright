@@ -1,0 +1,13 @@
+- generic [ref=e2]:
+  - heading "TTACart" [level=1] [ref=e3]
+  - generic [ref=e5]:
+    - textbox "Username" [ref=e7]
+    - textbox "Password" [ref=e9]
+    - button "Login" [ref=e10] [cursor=pointer]
+  - generic [ref=e11]:
+    - generic [ref=e12]:
+      - heading "Accepted usernames are:" [level=4] [ref=e13]
+      - paragraph [ref=e14]: standard_user locked_out_user problem_user performance_glitch_user error_user visual_user
+    - generic [ref=e15]:
+      - heading "Password for all users:" [level=4] [ref=e16]
+      - paragraph [ref=e17]: tta_secret

@@ -1,0 +1,102 @@
+- generic [ref=e5]:
+  - banner [ref=e6]:
+    - generic [ref=e7]:
+      - button [ref=e8] [cursor=pointer]
+      - link [ref=e14] [cursor=pointer]:
+        - /url: /
+      - button [ref=e17] [cursor=pointer]
+  - main [ref=e22]:
+    - generic [ref=e24]:
+      - link [ref=e25] [cursor=pointer]:
+        - /url: https://play.google.com/store/apps/details?id=com.amiunique.amiuniqueapp
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - heading "Install AmIUnique App" [level=4] [ref=e29]
+            - paragraph [ref=e30]: Be one of the participants in our research! We're investigating the potential of device fingerprinting on Android mobile devices and exploring how unique each device truly is. Help us by installing our app and scanning your device's fingerprint!
+          - generic [ref=e31]: Install AmIUnique
+      - generic [ref=e90]:
+        - generic [ref=e93]:
+          - heading "My browser fingerprint" [level=1] [ref=e94]
+          - heading "See your browser fingerprint properties" [level=3] [ref=e95]
+        - generic [ref=e98]:
+          - progressbar [ref=e99]
+          - generic [ref=e105]:
+            - heading "Are you unique ?" [level=3] [ref=e107]
+            - generic [ref=e108]:
+              - button [ref=e109] [cursor=pointer]
+              - link [ref=e114] [cursor=pointer]:
+                - /url: /fingerprint/history
+          - tablist [ref=e120]:
+            - generic [ref=e122]:
+              - tab "Today" [ref=e125] [cursor=pointer]
+              - tab "7 days" [ref=e126] [cursor=pointer]
+              - tab "15 days" [ref=e127] [cursor=pointer]
+              - tab "30 days" [ref=e128] [cursor=pointer]
+              - tab "90 days" [ref=e129] [cursor=pointer]
+              - tab "All time" [selected] [ref=e130] [cursor=pointer]
+          - alert [ref=e132]
+        - generic [ref=e168]:
+          - heading "HTTP headers attributes" [level=3] [ref=e170]
+          - generic [ref=e171]:
+            - textbox "Search for an attribute" [ref=e181]
+            - table [ref=e183]:
+              - rowgroup [ref=e188]:
+                - row [ref=e189]:
+                  - columnheader "Attribute" [ref=e190]
+                  - columnheader "Similarity ratio" [ref=e191]
+                  - columnheader "Value" [ref=e192]
+              - rowgroup:
+                - row:
+                  - columnheader:
+                    - progressbar [ref=e193]
+              - rowgroup [ref=e198]:
+                - row [ref=e199]:
+                  - cell [ref=e200]
+                  - cell [ref=e205]:
+                    - progressbar [ref=e206]
+                  - cell "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36" [ref=e209]
+                - row [ref=e210]:
+                  - cell [ref=e211]
+                  - cell [ref=e216]:
+                    - progressbar [ref=e217]
+                  - cell "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7" [ref=e220]
+                - row [ref=e221]:
+                  - cell [ref=e222]
+                  - cell [ref=e227]:
+                    - progressbar [ref=e228]
+                  - cell "gzip, deflate, br, zstd" [ref=e231]
+                - row [ref=e232]:
+                  - cell [ref=e233]
+                  - cell [ref=e238]:
+                    - progressbar [ref=e239]
+                  - cell "en-US,en;q=0.9" [ref=e242]
+                - row [ref=e243]:
+                  - cell [ref=e244]
+                  - cell [ref=e249]:
+                    - progressbar [ref=e250]
+                  - cell "1" [ref=e253]
+          - heading "Javascript attributes" [level=3] [ref=e255]
+          - generic [ref=e256]:
+            - textbox "Search for an attribute" [ref=e266]
+            - table [ref=e268]:
+              - rowgroup [ref=e273]:
+                - row [ref=e274]:
+                  - columnheader "Attribute" [ref=e275]
+                  - columnheader "Similarity ratio" [ref=e276]
+                  - columnheader "Value" [ref=e277]
+              - rowgroup:
+                - row:
+                  - columnheader:
+                    - progressbar [ref=e278]
+              - rowgroup [ref=e283]:
+                - row [ref=e284]:
+                  - cell "Loading items..." [ref=e285]
+  - generic [ref=e56]:
+    - link "Fingerprint" [ref=e57] [cursor=pointer]:
+      - /url: /fingerprint
+    - link "History" [ref=e63] [cursor=pointer]:
+      - /url: /fingerprint/history
+    - link "Statistics" [ref=e69] [cursor=pointer]:
+      - /url: /fingerprints-global-statistics
+    - link "FAQ ?" [ref=e75] [cursor=pointer]:
+      - /url: /faq

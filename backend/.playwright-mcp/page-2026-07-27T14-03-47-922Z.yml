@@ -1,0 +1,14 @@
+- generic [ref=f5e3]:
+  - generic [ref=f5e6]:
+    - heading "This site can’t be reached" [level=1] [ref=f5e7]
+    - paragraph [ref=f5e8]: "Check if there is a typo in duckduckgo.com{encodeuricomponent(originalquery)}."
+    - generic [ref=f5e9]:
+      - paragraph
+      - list [ref=f5e10]:
+        - listitem [ref=f5e11]:
+          - text: If spelling is correct,
+          - link "try running Windows Network Diagnostics" [ref=f5e12] [cursor=pointer]:
+            - /url: javascript:diagnoseErrors()
+          - text: .
+    - generic [ref=f5e13]: DNS_PROBE_FINISHED_NXDOMAIN
+  - button "Reload" [ref=f5e16] [cursor=pointer]

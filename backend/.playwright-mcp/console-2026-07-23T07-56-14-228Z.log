@@ -1,0 +1,1 @@
+[   30765ms] [ERROR] WebSocket connection to 'wss://amiunique.org/itsgonnafail' failed: Error during WebSocket handshake: Unexpected response code: 404 @ https://amiunique.org/_nuxt/5e0ca75.js:1

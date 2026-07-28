@@ -1,0 +1,2832 @@
+- generic [active] [ref=f1e1]:
+  - link "Jump to content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - navigation "Site" [ref=f1e6]:
+        - generic "Main menu" [ref=f1e7]:
+          - button "Main menu" [ref=f1e8] [cursor=pointer]
+      - link [ref=f1e12] [cursor=pointer]:
+        - /url: /wiki/Main_Page
+        - generic [ref=f1e13]:
+          - img "Wikipedia" [ref=f1e14]
+          - img "The Free Encyclopedia" [ref=f1e15]
+    - generic [ref=f1e16]:
+      - search [ref=f1e17]:
+        - link "Search" [ref=f1e18] [cursor=pointer]:
+          - /url: /wiki/Special:Search
+      - navigation "Personal tools" [ref=f1e21]:
+        - generic [ref=f1e22]:
+          - navigation "Appearance" [ref=f1e23]:
+            - generic "Change the appearance of the page's font size, width, and color" [ref=f1e24]:
+              - button "Appearance" [ref=f1e25] [cursor=pointer]
+              - generic [ref=f1e26]: Appearance
+          - list [ref=f1e31]:
+            - listitem [ref=f1e32]:
+              - link "Donate" [ref=f1e33] [cursor=pointer]:
+                - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+            - listitem [ref=f1e34]:
+              - link "Create account" [ref=f1e35] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/w/index.php?title=Special%3ACreateAccount&returnto=Node.js&experiments%5B0%5D=we-1-8-account-creation-no-desktop-benefits%3Aunsampled
+            - listitem [ref=f1e36]:
+              - link "Log in" [ref=f1e37] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/w/index.php?title=Special%3AUserLogin&returnto=Node.js&experiments%5B0%5D=we-1-8-account-creation-no-desktop-benefits%3Aunsampled
+  - generic [ref=f1e39]:
+    - main [ref=f1e41]:
+      - generic [ref=f1e42]:
+        - navigation "Contents" [ref=f1e43]:
+          - generic "Table of Contents" [ref=f1e44]:
+            - button "Toggle the table of contents" [ref=f1e45] [cursor=pointer]
+            - generic [ref=f1e46]: Toggle the table of contents
+        - heading "Node.js" [level=1] [ref=f1e49]
+        - generic [ref=f1e51]:
+          - button "51 languages" [ref=f1e52] [cursor=pointer]
+          - generic [ref=f1e53]: 51 languages
+      - generic [ref=f1e57]:
+        - navigation "Namespaces" [ref=f1e59]:
+          - list [ref=f1e62]:
+            - listitem [ref=f1e63]:
+              - link "Article" [ref=f1e64] [cursor=pointer]:
+                - /url: /wiki/Node.js
+            - listitem [ref=f1e66]:
+              - link "Talk" [ref=f1e67] [cursor=pointer]:
+                - /url: /wiki/Talk:Node.js
+        - generic [ref=f1e69]:
+          - navigation "Views" [ref=f1e70]:
+            - list [ref=f1e73]:
+              - listitem [ref=f1e74]:
+                - link "Read" [ref=f1e75] [cursor=pointer]:
+                  - /url: /wiki/Node.js
+              - listitem [ref=f1e77]:
+                - link "Edit" [ref=f1e78] [cursor=pointer]:
+                  - /url: /w/index.php?title=Node.js&action=edit
+              - listitem [ref=f1e80]:
+                - link "View history" [ref=f1e81] [cursor=pointer]:
+                  - /url: /w/index.php?title=Node.js&action=history
+          - navigation "Page tools" [ref=f1e83]:
+            - generic [ref=f1e84]:
+              - button "Tools" [ref=f1e85] [cursor=pointer]
+              - generic [ref=f1e86]: Tools
+      - generic "Node.js" [ref=f1e89]:
+        - generic [ref=f1e90]: From Wikipedia, the free encyclopedia
+        - generic [ref=f1e93]:
+          - generic [ref=f1e94]:
+            - table [ref=f1e95]:
+              - rowgroup [ref=f1e96]:
+                - row [ref=f1e97]:
+                  - columnheader "Node.js" [ref=f1e98]
+                - row [ref=f1e99]:
+                  - cell [ref=f1e100]:
+                    - link [ref=f1e104] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/File:Node.js_logo.svg
+                - row [ref=f1e106]:
+                  - rowheader [ref=f1e107]:
+                    - link "Original author" [ref=f1e108] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/Programmer
+                  - cell [ref=f1e109]:
+                    - link "Ryan Dahl" [ref=f1e110] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/Ryan_Dahl
+                - row [ref=f1e111]:
+                  - rowheader [ref=f1e112]:
+                    - link "Developer" [ref=f1e113] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/Programmer
+                  - cell [ref=f1e114]:
+                    - link "OpenJS Foundation" [ref=f1e115] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/OpenJS_Foundation
+                - row [ref=f1e116]:
+                  - rowheader "Release" [ref=f1e117]
+                  - cell "May 27, 2009; 17 years ago [1]" [ref=f1e118]:
+                    - text: May 27, 2009
+                    - generic [ref=f1e119]: ; 17 years ago
+                    - superscript [ref=f1e120]:
+                      - link "[1]" [ref=f1e121] [cursor=pointer]:
+                        - /url: "#cite_note-1"
+                - row [ref=f1e122]:
+                  - rowheader [ref=f1e123]:
+                    - link "Stable release" [ref=f1e124] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/Software_release_life_cycle
+                  - cell "26.3.0[2] Edit this on Wikidata / June 1, 2026; 45 days ago" [ref=f1e125]:
+                    - generic [ref=f1e126]:
+                      - text: 26.3.0
+                      - superscript [ref=f1e127]:
+                        - link "[2]" [ref=f1e128] [cursor=pointer]:
+                          - /url: "#cite_note-wikidata-667930c7f10c7d867571f15ff57089320c2c304b-v20-2"
+                      - link [ref=f1e130] [cursor=pointer]:
+                        - /url: https://www.wikidata.org/wiki/Q756100?uselang=en#P348
+                        - img "Edit this on Wikidata" [ref=f1e131]
+                      - text: / June 1, 2026
+                      - generic [ref=f1e132]: ; 45 days ago
+                - row [ref=f1e133]:
+                  - rowheader "Written in" [ref=f1e134]
+                  - cell [ref=f1e135]:
+                    - link "JavaScript" [ref=f1e136] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/JavaScript
+                    - text: ","
+                    - link "C++" [ref=f1e137] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/C++
+                    - text: ","
+                    - link "Python" [ref=f1e138] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/Python_(programming_language)
+                    - text: ","
+                    - link "C" [ref=f1e139] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/C_(programming_language)
+                - row [ref=f1e140]:
+                  - rowheader [ref=f1e141]:
+                    - link "Operating system" [ref=f1e142] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/Operating_system
+                  - cell [ref=f1e143]:
+                    - link "z/OS" [ref=f1e144] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/Z/OS
+                    - text: ","
+                    - link "Linux" [ref=f1e145] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/Linux
+                    - text: ","
+                    - link "macOS" [ref=f1e146] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/MacOS
+                    - text: ","
+                    - link "Microsoft Windows" [ref=f1e147] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/Microsoft_Windows
+                    - text: ","
+                    - link "SmartOS" [ref=f1e148] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/SmartOS
+                    - text: ","
+                    - link "FreeBSD" [ref=f1e149] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/FreeBSD
+                    - text: ","
+                    - link "OpenBSD" [ref=f1e150] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/OpenBSD
+                    - text: ","
+                    - link "IBM AIX" [ref=f1e151] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/IBM_AIX
+                    - superscript [ref=f1e152]:
+                      - link "[3]" [ref=f1e153] [cursor=pointer]:
+                        - /url: "#cite_note-supportedOS-3"
+                - row [ref=f1e154]:
+                  - rowheader [ref=f1e155]:
+                    - link "Type" [ref=f1e156] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/Software_categories#Categorization_approaches
+                  - cell [ref=f1e157]:
+                    - link "Runtime environment" [ref=f1e158] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/Runtime_system
+                - row [ref=f1e159]:
+                  - rowheader [ref=f1e160]:
+                    - link "License" [ref=f1e161] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/Software_license
+                  - cell [ref=f1e162]:
+                    - link "MIT License" [ref=f1e163] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/MIT_License
+                    - superscript [ref=f1e164]:
+                      - link "[4]" [ref=f1e165] [cursor=pointer]:
+                        - /url: "#cite_note-4"
+                    - superscript [ref=f1e166]:
+                      - link "[5]" [ref=f1e167] [cursor=pointer]:
+                        - /url: "#cite_note-5"
+                - row [ref=f1e168]:
+                  - rowheader "Website" [ref=f1e169]
+                  - cell [ref=f1e170]:
+                    - link "nodejs.org" [ref=f1e172] [cursor=pointer]:
+                      - /url: https://nodejs.org
+                - row [ref=f1e173]:
+                  - rowheader [ref=f1e174]:
+                    - link "Repository" [ref=f1e175] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/Repository_(version_control)
+                  - cell [ref=f1e176]:
+                    - list [ref=f1e178]:
+                      - listitem [ref=f1e179]:
+                        - link "github.com/nodejs/node" [ref=f1e181] [cursor=pointer]:
+                          - /url: https://github.com/nodejs/node
+                        - link [ref=f1e183] [cursor=pointer]:
+                          - /url: https://www.wikidata.org/wiki/Q756100#P1324
+                          - img "Edit this at Wikidata" [ref=f1e184]
+            - navigation [ref=f1e185]:
+              - rowgroup [ref=f1e186]:
+                - row [ref=f1e187]:
+                  - columnheader [ref=f1e188]:
+                    - link "Program execution" [ref=f1e189] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/Execution_(computing)
+                - row [ref=f1e190]:
+                  - columnheader "General concepts" [ref=f1e191]
+                - row [ref=f1e192]:
+                  - cell [ref=f1e193]:
+                    - list [ref=f1e194]:
+                      - listitem [ref=f1e195]:
+                        - link "Code" [ref=f1e196] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Computer_program
+                        - text: ·
+                      - listitem [ref=f1e197]:
+                        - link "Translation" [ref=f1e198] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Translator_(computing)
+                        - list [ref=f1e199]:
+                          - listitem [ref=f1e200]:
+                            - text: (
+                            - link "Compiler" [ref=f1e201] [cursor=pointer]:
+                              - /url: //en.wikipedia.org/wiki/Compiler
+                            - text: ·
+                          - listitem [ref=f1e202]:
+                            - link "Compile time" [ref=f1e203] [cursor=pointer]:
+                              - /url: //en.wikipedia.org/wiki/Compile_time
+                            - text: ·
+                          - listitem [ref=f1e204]:
+                            - link "Optimizing compiler" [ref=f1e205] [cursor=pointer]:
+                              - /url: //en.wikipedia.org/wiki/Optimizing_compiler
+                            - text: )
+                        - text: ·
+                      - listitem [ref=f1e206]:
+                        - link "Linking" [ref=f1e207] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Linker_(computing)
+                        - text: ·
+                      - listitem [ref=f1e208]:
+                        - link "Execution" [ref=f1e209] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Execution_(computing)
+                        - list [ref=f1e210]:
+                          - listitem [ref=f1e211]:
+                            - text: (
+                            - link "Runtime system" [ref=f1e212] [cursor=pointer]:
+                              - /url: //en.wikipedia.org/wiki/Runtime_system
+                            - text: ·
+                          - listitem [ref=f1e213]:
+                            - link "Executable" [ref=f1e214] [cursor=pointer]:
+                              - /url: //en.wikipedia.org/wiki/Executable
+                            - text: ·
+                          - listitem [ref=f1e215]:
+                            - link "Interpreter" [ref=f1e216] [cursor=pointer]:
+                              - /url: //en.wikipedia.org/wiki/Interpreter_(computing)
+                            - text: ·
+                          - listitem [ref=f1e217]:
+                            - link "Virtual machine" [ref=f1e218] [cursor=pointer]:
+                              - /url: //en.wikipedia.org/wiki/Virtual_machine
+                            - text: )
+                        - text: ·
+                      - listitem [ref=f1e219]:
+                        - link "Intermediate representation" [ref=f1e220] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Intermediate_representation
+                        - text: (IR)
+                - row [ref=f1e221]:
+                  - columnheader "Types of code" [ref=f1e222]
+                - row [ref=f1e223]:
+                  - cell [ref=f1e224]:
+                    - list [ref=f1e225]:
+                      - listitem [ref=f1e226]:
+                        - link "Source code" [ref=f1e227] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Source_code
+                        - text: ·
+                      - listitem [ref=f1e228]:
+                        - link "Object code" [ref=f1e229] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Object_code
+                        - text: ·
+                      - listitem [ref=f1e230]:
+                        - link "Bytecode" [ref=f1e231] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Bytecode
+                        - text: ·
+                      - listitem [ref=f1e232]:
+                        - link "Machine code" [ref=f1e233] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Machine_code
+                        - text: ·
+                      - listitem [ref=f1e234]:
+                        - link "Microcode" [ref=f1e235] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Microcode
+                - row [ref=f1e236]:
+                  - columnheader "Compilation strategies" [ref=f1e237]
+                - row [ref=f1e238]:
+                  - cell [ref=f1e239]:
+                    - list [ref=f1e240]:
+                      - listitem [ref=f1e241]:
+                        - link "Ahead-of-time" [ref=f1e242] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Ahead-of-time_compilation
+                        - text: (AOT) ·
+                      - listitem [ref=f1e243]:
+                        - link "Just-in-time" [ref=f1e244] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Just-in-time_compilation
+                        - text: (JIT)
+                        - list [ref=f1e245]:
+                          - listitem [ref=f1e246]:
+                            - text: (
+                            - link "Tracing just-in-time" [ref=f1e247] [cursor=pointer]:
+                              - /url: //en.wikipedia.org/wiki/Tracing_just-in-time_compilation
+                            - text: ·
+                          - listitem [ref=f1e248]:
+                            - link "Compile and go system" [ref=f1e249] [cursor=pointer]:
+                              - /url: //en.wikipedia.org/wiki/Compile_and_go_system
+                            - text: )
+                        - text: ·
+                      - listitem [ref=f1e250]:
+                        - link "Precompilation" [ref=f1e251] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Precompilation
+                        - text: ·
+                      - listitem [ref=f1e252]:
+                        - link "Transcompilation" [ref=f1e253] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Source-to-source_compiler
+                        - text: ·
+                      - listitem [ref=f1e254]:
+                        - link "Recompilation" [ref=f1e255] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Dynamic_recompilation
+                        - text: ·
+                      - listitem [ref=f1e256]:
+                        - link "Meta-tracing" [ref=f1e257] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Meta-tracing
+                - row [ref=f1e258]:
+                  - columnheader "Notable runtimes" [ref=f1e259]
+                - row [ref=f1e260]:
+                  - cell [ref=f1e261]:
+                    - list [ref=f1e262]:
+                      - listitem [ref=f1e263]:
+                        - link "Android Runtime" [ref=f1e264] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Android_Runtime
+                        - text: (ART) ·
+                      - listitem [ref=f1e265]:
+                        - link "BEAM" [ref=f1e266] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/BEAM_(Erlang_virtual_machine)
+                        - text: (Erlang) ·
+                      - listitem [ref=f1e267]:
+                        - link "Common Language Runtime" [ref=f1e268] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Common_Language_Runtime
+                        - text: (CLR) and
+                        - link "Mono" [ref=f1e269] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Mono_(software)#Code_Execution_Engine
+                        - text: ·
+                      - listitem [ref=f1e270]:
+                        - link "CPython" [ref=f1e271] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/CPython
+                        - text: and
+                        - link "PyPy" [ref=f1e272] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/PyPy
+                        - text: ·
+                      - listitem [ref=f1e273]:
+                        - link "crt0" [ref=f1e274] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Crt0
+                        - text: (
+                        - link "C" [ref=f1e275] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/C_(programming_language)
+                        - text: target-specific initializer) ·
+                      - listitem [ref=f1e276]:
+                        - link "Java virtual machine" [ref=f1e277] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Java_virtual_machine
+                        - text: (JVM) ·
+                      - listitem [ref=f1e278]:
+                        - link "LuaJIT" [ref=f1e279] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/LuaJIT
+                        - text: ·
+                      - listitem [ref=f1e280]:
+                        - link "Objective-C" [ref=f1e281] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Objective-C
+                        - text: and
+                        - link "Swift" [ref=f1e282] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Swift_(programming_language)
+                        - text: "'s ·"
+                      - listitem [ref=f1e283]:
+                        - link "V8" [ref=f1e284] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/V8_(JavaScript_engine)
+                        - text: and
+                        - link "Node.js" [ref=f1e285] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Node.js
+                        - text: ·
+                      - listitem [ref=f1e286]:
+                        - link "Zend Engine" [ref=f1e287] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Zend_Engine
+                        - text: (PHP)
+                - row [ref=f1e288]:
+                  - columnheader "Notable compilers & toolchains" [ref=f1e289]
+                - row [ref=f1e290]:
+                  - cell [ref=f1e291]:
+                    - list [ref=f1e292]:
+                      - listitem [ref=f1e293]:
+                        - link "GNU Compiler Collection" [ref=f1e294] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/GNU_Compiler_Collection
+                        - text: (GCC) ·
+                      - listitem [ref=f1e295]:
+                        - link "LLVM" [ref=f1e296] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/LLVM
+                        - text: and
+                        - link "Clang" [ref=f1e297] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Clang
+                        - text: ·
+                      - listitem [ref=f1e298]:
+                        - link "MSVC" [ref=f1e299] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Microsoft_Visual_C++
+                        - text: ·
+                      - listitem [ref=f1e300]:
+                        - link "Glasgow Haskell Compiler" [ref=f1e301] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Glasgow_Haskell_Compiler
+                        - text: (GHC)
+                - row [ref=f1e302]:
+                  - cell [ref=f1e303]:
+                    - list [ref=f1e305]:
+                      - listitem [ref=f1e306]:
+                        - link "v" [ref=f1e307] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Template:Program_execution
+                        - text: ·
+                      - listitem [ref=f1e308]:
+                        - link "t" [ref=f1e309] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Template_talk:Program_execution
+                        - text: ·
+                      - listitem [ref=f1e310]:
+                        - link "e" [ref=f1e311] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Special:EditPage/Template:Program_execution
+            - paragraph [ref=f1e312]:
+              - text: Node.js is a
+              - link "cross-platform" [ref=f1e313] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Cross-platform
+              - text: ","
+              - link "open-source" [ref=f1e314] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Open-source_software
+              - link "JavaScript" [ref=f1e315] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/JavaScript
+              - link "runtime environment" [ref=f1e316] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Runtime_environment
+              - text: that can run on
+              - link "Windows" [ref=f1e317] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Microsoft_Windows
+              - text: ","
+              - link "Linux" [ref=f1e318] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Linux
+              - text: ","
+              - link "Unix" [ref=f1e319] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Unix
+              - text: ","
+              - link "macOS" [ref=f1e320] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/MacOS
+              - text: ", and more. Node.js runs on the"
+              - link "V8" [ref=f1e321] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/V8_(JavaScript_engine)
+              - link "JavaScript engine" [ref=f1e322] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/JavaScript_engine
+              - text: ", and executes JavaScript code outside a"
+              - link "web browser" [ref=f1e323] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Web_browser
+              - text: . According to the Stack Overflow Developer Survey, Node.js is one of the most commonly used web technologies.
+              - superscript [ref=f1e324]:
+                - link "[6]" [ref=f1e325] [cursor=pointer]:
+                  - /url: "#cite_note-6"
+            - paragraph [ref=f1e326]:
+              - text: Node.js allows developers to use JavaScript for writing
+              - link "command line tools" [ref=f1e327] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Command-line_interface
+              - text: and
+              - link "server-side scripting" [ref=f1e328] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Server-side_scripting
+              - text: . Running Javascript on the server is commonly used to generate
+              - link "dynamic web page" [ref=f1e329] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Dynamic_web_page
+              - text: content before the page is sent to the user's web browser. Consequently, Node.js represents a "JavaScript everywhere"
+              - link "paradigm" [ref=f1e330] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Paradigm
+              - text: ","
+              - superscript [ref=f1e331]:
+                - link "[7]" [ref=f1e332] [cursor=pointer]:
+                  - /url: "#cite_note-7"
+              - text: unifying
+              - link "web-application" [ref=f1e333] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Web_application
+              - text: development around a single
+              - link "programming language" [ref=f1e334] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Programming_language
+              - text: ", as opposed to using different languages for the server- versus client-side programming."
+            - paragraph [ref=f1e335]:
+              - text: Node.js has an
+              - link "event-driven architecture" [ref=f1e336] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Event-driven_architecture
+              - text: capable of
+              - link "asynchronous I/O" [ref=f1e337] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Asynchronous_I/O
+              - text: . These design choices aim to optimize
+              - link "throughput" [ref=f1e338] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Throughput
+              - text: and
+              - link "scalability" [ref=f1e339] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Scalability
+              - text: in web applications with many input/output operations, as well as for
+              - link "real-time Web" [ref=f1e340] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Real-time_Web
+              - text: applications (e.g.,
+              - link "real-time communication" [ref=f1e341] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Real-time_communication
+              - text: programs and
+              - link "browser games" [ref=f1e342] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Browser_game
+              - text: ).
+              - superscript [ref=f1e343]:
+                - link "[8]" [ref=f1e344] [cursor=pointer]:
+                  - /url: "#cite_note-readwrite-8"
+            - paragraph [ref=f1e345]:
+              - text: The Node.js
+              - link "distributed development" [ref=f1e346] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Distributed_development
+              - text: project was previously governed by the Node.js Foundation,
+              - superscript [ref=f1e347]:
+                - link "[9]" [ref=f1e348] [cursor=pointer]:
+                  - /url: "#cite_note-9"
+              - text: and has now merged with the
+              - link "JS Foundation" [ref=f1e349] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/JS_Foundation
+              - text: to form the
+              - link "OpenJS Foundation" [ref=f1e350] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/OpenJS_Foundation
+              - text: . OpenJS Foundation is facilitated by the
+              - link "Linux Foundation" [ref=f1e351] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Linux_Foundation
+              - text: "'s Collaborative Projects program."
+              - superscript [ref=f1e352]:
+                - link "[10]" [ref=f1e353] [cursor=pointer]:
+                  - /url: "#cite_note-10"
+          - region [ref=f1e354]:
+            - generic [ref=f1e355]:
+              - heading "History" [level=2] [ref=f1e356]
+              - generic [ref=f1e357]:
+                - link "edit":
+                  - /url: /w/index.php?title=Node.js&action=edit&section=1
+            - figure "Ryan Dahl, creator of Node.js, in 2010" [ref=f1e358]:
+              - link [ref=f1e359] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/File:Ryan_Dahl.jpg
+            - figure "Rocket Turtle, the official mascot of Node.js since February 2024" [ref=f1e361]:
+              - link [ref=f1e362] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/File:Node.JS_Mascot.svg
+            - paragraph [ref=f1e365]:
+              - text: Node.js was initially written by
+              - link "Ryan Dahl" [ref=f1e366] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Ryan_Dahl
+              - text: in 2009,
+              - superscript [ref=f1e367]:
+                - link "[11]" [ref=f1e368] [cursor=pointer]:
+                  - /url: "#cite_note-training.com-11"
+              - text: about 13 years after the introduction of the first server-side JavaScript environment,
+              - link "Netscape" [ref=f1e369] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Netscape
+              - text: "'s LiveWire Pro Web."
+              - superscript [ref=f1e370]:
+                - link "[12]" [ref=f1e371] [cursor=pointer]:
+                  - /url: "#cite_note-12"
+              - text: The initial release supported only Linux and Mac OS X. Its development and maintenance was led by Dahl and later sponsored by
+              - link "Joyent" [ref=f1e372] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Joyent
+              - text: .
+              - superscript [ref=f1e373]:
+                - link "[13]" [ref=f1e374] [cursor=pointer]:
+                  - /url: "#cite_note-Google_Groups_post_by_Ryan_Dahl_about_Joyent-13"
+            - paragraph [ref=f1e375]:
+              - text: Dahl criticized the limited capability of
+              - link "Apache HTTP Server" [ref=f1e376] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Apache_HTTP_Server
+              - text: to handle many (10,000+) concurrent connections, as well as the dominant programming paradigm of sequential programming, in which applications could block entire processes or cause the creation of multiple execution stacks for simultaneous connections.
+              - superscript [ref=f1e377]:
+                - text: "["
+                - link "citation needed" [ref=f1e379] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Wikipedia:Citation_needed
+                - text: "]"
+            - paragraph [ref=f1e380]:
+              - text: Dahl demonstrated the project at the inaugural European JSConf on November 8, 2009.
+              - superscript [ref=f1e381]:
+                - link "[14]" [ref=f1e382] [cursor=pointer]:
+                  - /url: "#cite_note-b3-14"
+              - superscript [ref=f1e383]:
+                - link "[15]" [ref=f1e384] [cursor=pointer]:
+                  - /url: "#cite_note-15"
+              - superscript [ref=f1e385]:
+                - link "[16]" [ref=f1e386] [cursor=pointer]:
+                  - /url: "#cite_note-16"
+              - text: Node.js combined
+              - link "Google" [ref=f1e387] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Google
+              - text: "'s"
+              - link "V8" [ref=f1e388] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/V8_(JavaScript_engine)
+              - text: JavaScript engine, an
+              - link "event loop" [ref=f1e389] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Event_loop
+              - text: ", and a low-level"
+              - link "I/O" [ref=f1e390] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Input/output
+              - link "API" [ref=f1e391] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/API
+              - text: .
+              - superscript [ref=f1e392]:
+                - link "[17]" [ref=f1e393] [cursor=pointer]:
+                  - /url: "#cite_note-b1-17"
+            - paragraph [ref=f1e394]:
+              - text: In January 2010, a
+              - link "package manager" [ref=f1e395] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Package_manager
+              - text: was introduced for the Node.js environment called
+              - link "npm" [ref=f1e396] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Npm_(software)
+              - text: .
+              - superscript [ref=f1e397]:
+                - link "[18]" [ref=f1e398] [cursor=pointer]:
+                  - /url: "#cite_note-18"
+              - text: The package manager allows programmers to publish and share Node.js
+              - link "packages" [ref=f1e399] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Package_manager
+              - text: ", along with the accompanying source code, and is designed to simplify the installation, update and uninstallation of packages."
+              - superscript [ref=f1e400]:
+                - link "[17]" [ref=f1e401] [cursor=pointer]:
+                  - /url: "#cite_note-b1-17"
+            - paragraph [ref=f1e402]:
+              - text: In June 2011, Microsoft and Joyent implemented a native
+              - link "Windows" [ref=f1e403] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Microsoft_Windows
+              - text: version of Node.js.
+              - superscript [ref=f1e404]:
+                - link "[19]" [ref=f1e405] [cursor=pointer]:
+                  - /url: "#cite_note-19"
+              - text: The first Node.js build supporting Windows was released in July 2011.
+            - paragraph [ref=f1e406]:
+              - text: In January 2012, Dahl yielded management of the project to npm creator Isaac Schlueter.
+              - superscript [ref=f1e407]:
+                - link "[20]" [ref=f1e408] [cursor=pointer]:
+                  - /url: "#cite_note-20"
+              - text: In January 2014, Schlueter announced that Timothy J. Fontaine would lead the project.
+              - superscript [ref=f1e409]:
+                - link "[21]" [ref=f1e410] [cursor=pointer]:
+                  - /url: "#cite_note-21"
+            - paragraph [ref=f1e411]:
+              - text: In December 2014, Fedor Indutny created io.js, a
+              - link "fork" [ref=f1e412] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Fork_(software_development)
+              - text: of Node.js created because of dissatisfaction with Joyent's governance as an
+              - link "open-governance" [ref=f1e413] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Open_governance
+              - text: alternative with a separate technical committee. The goal was to enable a structure that would be more receptive to community input, including the updating of io.js with the latest Google V8 JavaScript engine releases, diverging from Node.js's approach at that time.
+              - superscript [ref=f1e414]:
+                - link "[22]" [ref=f1e415] [cursor=pointer]:
+                  - /url: "#cite_note-iwtw-22"
+            - paragraph [ref=f1e416]:
+              - text: The Node.js Foundation, formed to reconcile Node.js and io.js under a unified banner, was announced in February 2015.
+              - superscript [ref=f1e417]:
+                - link "[23]" [ref=f1e418] [cursor=pointer]:
+                  - /url: "#cite_note-23"
+              - text: The merger was realized in September 2015 with Node.js v0.12 and io.js v3.3 combining into Node v4.0.
+              - superscript [ref=f1e419]:
+                - link "[24]" [ref=f1e420] [cursor=pointer]:
+                  - /url: "#cite_note-24"
+              - text: This merge brought V8
+              - link "ES6" [ref=f1e421] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/ECMAScript#ES2015
+              - text: features into Node.js and started a long-term support release cycle.
+              - superscript [ref=f1e422]:
+                - link "[25]" [ref=f1e423] [cursor=pointer]:
+                  - /url: "#cite_note-25"
+              - text: By 2016, the io.js website recommended returning to Node.js and announced no further io.js releases, effectively ending the fork and solidifying the merger's success.
+              - superscript [ref=f1e424]:
+                - link "[26]" [ref=f1e425] [cursor=pointer]:
+                  - /url: "#cite_note-26"
+            - paragraph [ref=f1e426]:
+              - text: In 2019, the JS Foundation and Node.js Foundation merged to form the
+              - link "OpenJS Foundation" [ref=f1e427] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/OpenJS_Foundation
+              - text: .
+            - region [ref=f1e428]:
+              - generic [ref=f1e429]:
+                - heading "Branding" [level=3] [ref=f1e430]
+                - generic [ref=f1e431]:
+                  - link "edit":
+                    - /url: /w/index.php?title=Node.js&action=edit&section=2
+              - paragraph [ref=f1e432]:
+                - text: The Node.js logo features a green hexagon with overlapping bands to represent the cross-platform nature of the runtime.
+                - superscript [ref=f1e433]:
+                  - link "[27]" [ref=f1e434] [cursor=pointer]:
+                    - /url: "#cite_note-27"
+                - text: The Rocket Turtle was chosen as the official Node.js mascot in February 2024 following a design contest.
+                - superscript [ref=f1e435]:
+                  - link "[28]" [ref=f1e436] [cursor=pointer]:
+                    - /url: "#cite_note-28"
+          - region [ref=f1e437]:
+            - generic [ref=f1e438]:
+              - heading "Overview" [level=2] [ref=f1e439]
+              - generic [ref=f1e440]:
+                - link "edit":
+                  - /url: /w/index.php?title=Node.js&action=edit&section=3
+            - paragraph [ref=f1e441]:
+              - text: Node.js allows the creation of
+              - link "web servers" [ref=f1e442] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Web_server
+              - text: and networking tools using
+              - link "JavaScript" [ref=f1e443] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/JavaScript
+              - text: and a collection of "modules" that handle various core functionalities.
+              - superscript [ref=f1e444]:
+                - link "[14]" [ref=f1e445] [cursor=pointer]:
+                  - /url: "#cite_note-b3-14"
+              - superscript [ref=f1e446]:
+                - link "[17]" [ref=f1e447] [cursor=pointer]:
+                  - /url: "#cite_note-b1-17"
+              - superscript [ref=f1e448]:
+                - link "[29]" [ref=f1e449] [cursor=pointer]:
+                  - /url: "#cite_note-b2-29"
+              - superscript [ref=f1e450]:
+                - link "[30]" [ref=f1e451] [cursor=pointer]:
+                  - /url: "#cite_note-b4-30"
+              - superscript [ref=f1e452]:
+                - link "[31]" [ref=f1e453] [cursor=pointer]:
+                  - /url: "#cite_note-b5-31"
+              - superscript [ref=f1e454]:
+                - text: "["
+                - link "excessive citations" [ref=f1e456] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Wikipedia:Citing_sources#Bundling_citations
+                - text: "]"
+              - text: Modules are provided for
+              - link "file system" [ref=f1e457] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/File_system
+              - text: I/O, networking (
+              - link "DNS" [ref=f1e458] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Domain_Name_System
+              - text: ","
+              - link "HTTP" [ref=f1e459] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/HTTP
+              - text: ","
+              - link "TCP" [ref=f1e460] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Transmission_Control_Protocol
+              - text: ","
+              - link "TLS/SSL" [ref=f1e461] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Transport_Layer_Security
+              - text: or
+              - link "UDP" [ref=f1e462] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/User_Datagram_Protocol
+              - text: ),
+              - link "binary" [ref=f1e463] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Binary_file
+              - text: data (buffers),
+              - link "cryptography" [ref=f1e464] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Cryptography
+              - text: functions,
+              - link "data streams" [ref=f1e465] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Stream_(computing)
+              - text: and other core functions.
+              - superscript [ref=f1e466]:
+                - link "[17]" [ref=f1e467] [cursor=pointer]:
+                  - /url: "#cite_note-b1-17"
+              - superscript [ref=f1e468]:
+                - link "[30]" [ref=f1e469] [cursor=pointer]:
+                  - /url: "#cite_note-b4-30"
+              - superscript [ref=f1e470]:
+                - link "[32]" [ref=f1e471] [cursor=pointer]:
+                  - /url: "#cite_note-32"
+              - text: Node.js's modules use an API designed to reduce the complexity of writing server applications.
+              - superscript [ref=f1e472]:
+                - link "[17]" [ref=f1e473] [cursor=pointer]:
+                  - /url: "#cite_note-b1-17"
+              - superscript [ref=f1e474]:
+                - link "[30]" [ref=f1e475] [cursor=pointer]:
+                  - /url: "#cite_note-b4-30"
+            - paragraph [ref=f1e476]:
+              - text: Since version 22.6.0, Node.js natively supports both
+              - link "JavaScript" [ref=f1e477] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/JavaScript
+              - text: and
+              - link "TypeScript" [ref=f1e478] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/TypeScript
+              - text: ", allowing TypeScript files to be executed without a separate compilation step."
+              - superscript [ref=f1e479]:
+                - link "[33]" [ref=f1e480] [cursor=pointer]:
+                  - /url: "#cite_note-33"
+              - text: The TypeScript support was contributed by Node.js TSC member Marco Ippolito. In addition, many
+              - link "compile-to-JS" [ref=f1e481] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Source-to-source_compiler
+              - text: languages are available,
+              - superscript [ref=f1e482]:
+                - link "[34]" [ref=f1e483] [cursor=pointer]:
+                  - /url: "#cite_note-34"
+              - text: allowing Node.js applications to also be written in
+              - link "CoffeeScript" [ref=f1e484] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/CoffeeScript
+              - text: ","
+              - superscript [ref=f1e485]:
+                - link "[35]" [ref=f1e486] [cursor=pointer]:
+                  - /url: "#cite_note-b6-35"
+              - link "Dart" [ref=f1e487] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Dart_(programming_language)
+              - text: ","
+              - link "ClojureScript" [ref=f1e488] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/ClojureScript
+              - text: ", and others."
+            - paragraph [ref=f1e489]:
+              - text: Node.js is primarily used to build network programs such as web servers.
+              - superscript [ref=f1e490]:
+                - link "[29]" [ref=f1e491] [cursor=pointer]:
+                  - /url: "#cite_note-b2-29"
+              - text: The most significant difference between Node.js and
+              - link "PHP" [ref=f1e492] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/PHP
+              - text: is that most functions in PHP
+              - link "block" [ref=f1e493] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Asynchronous_I/O
+              - text: until completion (commands execute only after previous commands finish), while Node.js functions are
+              - link "non-blocking" [ref=f1e494] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Asynchronous_I/O
+              - text: (commands execute
+              - link "concurrently" [ref=f1e495] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Concurrent_computing
+              - text: and use
+              - link "callbacks" [ref=f1e496] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Callback_(computer_programming)
+              - text: to signal completion or failure).
+              - superscript [ref=f1e497]:
+                - link "[29]" [ref=f1e498] [cursor=pointer]:
+                  - /url: "#cite_note-b2-29"
+            - paragraph [ref=f1e499]:
+              - text: Node.js is officially supported by
+              - link "Linux" [ref=f1e500] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Linux
+              - text: ","
+              - link "macOS" [ref=f1e502] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/MacOS
+              - text: and
+              - link "Microsoft Windows" [ref=f1e503] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Microsoft_Windows
+              - text: 8.1 and Server 2012 (and later),
+              - superscript [ref=f1e504]:
+                - link "[3]" [ref=f1e505] [cursor=pointer]:
+                  - /url: "#cite_note-supportedOS-3"
+              - text: with Tier 2 support for
+              - link "SmartOS" [ref=f1e506] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/SmartOS
+              - text: and
+              - link "IBM AIX" [ref=f1e507] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/IBM_AIX
+              - text: and experimental support for
+              - link "FreeBSD" [ref=f1e508] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/FreeBSD
+              - text: .
+              - link "OpenBSD" [ref=f1e509] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/OpenBSD
+              - text: also works, and LTS versions are available for
+              - link "IBM i" [ref=f1e510] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/IBM_i
+              - text: (AS/400).
+              - superscript [ref=f1e511]:
+                - link "[36]" [ref=f1e512] [cursor=pointer]:
+                  - /url: "#cite_note-36"
+              - text: The source code may also be built on similar operating systems that are not officially supported, such as
+              - link "NonStop OS" [ref=f1e513] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/NonStop_OS
+              - superscript [ref=f1e514]:
+                - link "[37]" [ref=f1e515] [cursor=pointer]:
+                  - /url: "#cite_note-bomBora_-_Node.js_for_NonStop-37"
+              - text: and
+              - link "Unix" [ref=f1e516] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Unix
+              - text: servers.
+            - region [ref=f1e517]:
+              - generic [ref=f1e518]:
+                - heading "Platform architecture" [level=3] [ref=f1e519]
+                - generic [ref=f1e520]:
+                  - link "edit":
+                    - /url: /w/index.php?title=Node.js&action=edit&section=4
+              - paragraph [ref=f1e521]:
+                - text: Node.js enables development of fast web servers in JavaScript using
+                - link "event-driven programming" [ref=f1e522] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Event-driven_programming
+                - text: .
+                - superscript [ref=f1e523]:
+                  - link "[17]" [ref=f1e524] [cursor=pointer]:
+                    - /url: "#cite_note-b1-17"
+                - text: Developers can create scalable servers without using
+                - link "threading" [ref=f1e525] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Thread_(computing)
+                - text: by using a simplified model that uses
+                - link "callbacks" [ref=f1e526] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Callback_(computer_programming)
+                - text: to signal the completion of a task.
+                - superscript [ref=f1e527]:
+                  - link "[17]" [ref=f1e528] [cursor=pointer]:
+                    - /url: "#cite_note-b1-17"
+                - superscript [ref=f1e529]:
+                  - text: "["
+                  - link "page needed" [ref=f1e531] [cursor=pointer]:
+                    - /url: //en.wikipedia.org/wiki/Wikipedia:Citing_sources
+                    - generic "Event-driven programming generally doesn't rely on threads and is often more complex; unclear what was meant in the source. (November 2023)" [ref=f1e532]: page needed
+                  - text: "]"
+                - text: Node.js connects the ease of a scripting language (JavaScript) with the power of Unix network programming.
+                - superscript [ref=f1e533]:
+                  - link "[17]" [ref=f1e534] [cursor=pointer]:
+                    - /url: "#cite_note-b1-17"
+              - paragraph [ref=f1e535]:
+                - text: Node.js was built on top of Google's V8 JavaScript engine since it was open-sourced under the
+                - link "BSD license" [ref=f1e536] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/BSD_license
+                - text: ", and it contains comprehensive support for fundamental protocols such as"
+                - link "HTTP" [ref=f1e537] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/HTTP
+                - text: ","
+                - link "DNS" [ref=f1e538] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/DNS
+                - text: and
+                - link "TCP" [ref=f1e539] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Transmission_Control_Protocol
+                - text: .
+                - superscript [ref=f1e540]:
+                  - link "[14]" [ref=f1e541] [cursor=pointer]:
+                    - /url: "#cite_note-b3-14"
+                - text: JavaScript's existing popularity made Node.js accessible to the
+                - link "web-development community" [ref=f1e542] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Web_developer
+                - text: .
+                - superscript [ref=f1e543]:
+                  - link "[14]" [ref=f1e544] [cursor=pointer]:
+                    - /url: "#cite_note-b3-14"
+            - region [ref=f1e545]:
+              - generic [ref=f1e546]:
+                - heading "Industry support" [level=3] [ref=f1e547]
+                - generic [ref=f1e548]:
+                  - link "edit":
+                    - /url: /w/index.php?title=Node.js&action=edit&section=5
+              - paragraph [ref=f1e549]: There are thousands of open-source libraries for Node.js, most of which are hosted on the npm website. Multiple developer conferences and events are held that support the Node.js community, including NodeConf, Node Interactive, and Node Summit, as well as a number of regional events.
+              - paragraph [ref=f1e550]:
+                - text: The open-source community has developed
+                - link "web frameworks" [ref=f1e551] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Web_framework
+                - text: to accelerate the development of applications. Such frameworks include
+                - link "Express.js" [ref=f1e552] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Express.js
+                - text: ","
+                - link "Socket.IO" [ref=f1e553] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Socket.IO
+                - text: ","
+                - link "Sails.js" [ref=f1e554] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Sails.js
+                - text: ","
+                - link "Next.js" [ref=f1e555] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Next.js
+                - text: and
+                - link "Meteor" [ref=f1e556] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Meteor_(web_framework)
+                - text: .
+                - superscript [ref=f1e557]:
+                  - link "[17]" [ref=f1e558] [cursor=pointer]:
+                    - /url: "#cite_note-b1-17"
+                - superscript [ref=f1e559]:
+                  - link "[38]" [ref=f1e560] [cursor=pointer]:
+                    - /url: "#cite_note-b7-38"
+                - text: Various packages have also been created for interfacing with other languages or runtime environments such as
+                - link "Microsoft .NET" [ref=f1e561] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Microsoft_.NET
+                - text: .
+                - superscript [ref=f1e562]:
+                  - link "[39]" [ref=f1e563] [cursor=pointer]:
+                    - /url: "#cite_note-39"
+              - paragraph [ref=f1e564]:
+                - text: Modern desktop
+                - link "IDEs" [ref=f1e565] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Integrated_development_environment
+                - text: provide editing and debugging features specifically for Node.js applications. Such IDEs include
+                - link "Atom" [ref=f1e566] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Atom_(text_editor)
+                - text: ","
+                - link "Brackets" [ref=f1e567] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Brackets_(text_editor)
+                - text: ","
+                - link "JetBrains" [ref=f1e568] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/JetBrains_MPS
+                - link "WebStorm" [ref=f1e569] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/WebStorm
+                - text: ","
+                - superscript [ref=f1e570]:
+                  - link "[40]" [ref=f1e571] [cursor=pointer]:
+                    - /url: "#cite_note-40"
+                - superscript [ref=f1e572]:
+                  - link "[41]" [ref=f1e573] [cursor=pointer]:
+                    - /url: "#cite_note-41"
+                - link "Microsoft Visual Studio" [ref=f1e574] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Microsoft_Visual_Studio
+                - text: (with Node.js Tools for Visual Studio,
+                - superscript [ref=f1e575]:
+                  - link "[42]" [ref=f1e576] [cursor=pointer]:
+                    - /url: "#cite_note-42"
+                - text: or
+                - link "TypeScript" [ref=f1e577] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/TypeScript
+                - text: with Node definitions
+                - superscript [ref=f1e578]:
+                  - link "[43]" [ref=f1e579] [cursor=pointer]:
+                    - /url: "#cite_note-43"
+                - superscript [ref=f1e580]:
+                  - link "[44]" [ref=f1e581] [cursor=pointer]:
+                    - /url: "#cite_note-44"
+                - superscript [ref=f1e582]:
+                  - link "[45]" [ref=f1e583] [cursor=pointer]:
+                    - /url: "#cite_note-45"
+                - superscript [ref=f1e584]:
+                  - link "[46]" [ref=f1e585] [cursor=pointer]:
+                    - /url: "#cite_note-46"
+                - text: ),
+                - link "NetBeans" [ref=f1e586] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/NetBeans
+                - text: ","
+                - superscript [ref=f1e587]:
+                  - link "[47]" [ref=f1e588] [cursor=pointer]:
+                    - /url: "#cite_note-47"
+                - text: Nodeclipse Enide Studio
+                - superscript [ref=f1e589]:
+                  - link "[48]" [ref=f1e590] [cursor=pointer]:
+                    - /url: "#cite_note-48"
+                - text: (
+                - link "Eclipse" [ref=f1e591] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Eclipse_(software)
+                - text: "-based) and"
+                - link "Visual Studio Code" [ref=f1e592] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Visual_Studio_Code
+                - text: .
+                - superscript [ref=f1e593]:
+                  - link "[49]" [ref=f1e594] [cursor=pointer]:
+                    - /url: "#cite_note-49"
+                - superscript [ref=f1e595]:
+                  - link "[50]" [ref=f1e596] [cursor=pointer]:
+                    - /url: "#cite_note-50"
+                - text: Some
+                - link "online IDEs" [ref=f1e597] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Online_integrated_development_environment
+                - text: also support Node.js, such as
+                - link "Codeanywhere" [ref=f1e598] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Codeanywhere
+                - text: ","
+                - link "Eclipse Che" [ref=f1e599] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Eclipse_Che
+                - text: ","
+                - link "Cloud9 IDE" [ref=f1e600] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Cloud9_IDE
+                - text: and the visual flow editor in
+                - link "Node-RED" [ref=f1e601] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Node-RED
+                - text: .
+              - paragraph [ref=f1e602]:
+                - text: Node.js is supported across a number of cloud-hosting platforms such as
+                - link "Jelastic" [ref=f1e603] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Jelastic
+                - text: ","
+                - link "Google Cloud Platform" [ref=f1e604] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Google_Cloud_Platform
+                - text: ","
+                - link "AWS Elastic Beanstalk" [ref=f1e605] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/AWS_Elastic_Beanstalk
+                - text: ","
+                - link "Azure Web Apps" [ref=f1e606] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Azure_Web_Apps
+                - text: and
+                - link "Joyent" [ref=f1e607] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Joyent
+                - text: .
+          - region [ref=f1e608]:
+            - generic [ref=f1e609]:
+              - heading "Releases" [level=2] [ref=f1e610]
+              - generic [ref=f1e611]:
+                - link "edit":
+                  - /url: /w/index.php?title=Node.js&action=edit&section=6
+            - paragraph [ref=f1e612]:
+              - text: New major releases of Node.js are cut from the
+              - link "GitHub" [ref=f1e613] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/GitHub
+              - text: main branch every six months. Even-numbered versions are cut in April and odd-numbered versions are cut in October. When a new odd version is released, the previous even version undergoes transition to
+              - link "Long Term Support" [ref=f1e614] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Long-term_support
+              - text: (LTS), which gives that version 12 months of active support from the date it is designated LTS. After these 12 months expire, an LTS release receives an additional 18 months of maintenance support. An active version receives non-breaking backports of changes a few weeks after they land in the current release. A maintenance release receives only critical fixes and documentation updates.
+              - superscript [ref=f1e615]:
+                - link "[51]" [ref=f1e616] [cursor=pointer]:
+                  - /url: "#cite_note-Release-51"
+              - text: The LTS Working Group manages strategy and policy in collaboration with the Technical Steering Committee of the Node.js Foundation.
+            - table [ref=f1e617]:
+              - rowgroup [ref=f1e618]:
+                - row [ref=f1e619]:
+                  - columnheader [ref=f1e620] [cursor=pointer]:
+                    - text: Release
+                    - superscript [ref=f1e621]:
+                      - link "[52]" [ref=f1e622]:
+                        - /url: "#cite_note-52"
+                  - columnheader "Status" [ref=f1e623] [cursor=pointer]
+                  - columnheader "Code name" [ref=f1e624] [cursor=pointer]
+                  - columnheader "Release date" [ref=f1e625] [cursor=pointer]
+                  - columnheader "Maintenance end" [ref=f1e626] [cursor=pointer]
+              - rowgroup [ref=f1e627]:
+                - row [ref=f1e628]:
+                  - cell "0.10.x" [ref=f1e629]
+                  - cell "End-of-Life" [ref=f1e630]
+                  - cell [ref=f1e631]
+                  - cell "2013-03-11" [ref=f1e632]
+                  - cell "2016-10-31" [ref=f1e633]
+                - row [ref=f1e634]:
+                  - cell "0.12.x" [ref=f1e635]
+                  - cell "End-of-Life" [ref=f1e636]
+                  - cell [ref=f1e637]
+                  - cell "2015-02-06" [ref=f1e638]
+                  - cell "2016-12-31" [ref=f1e639]
+                - row [ref=f1e640]:
+                  - cell "4.x" [ref=f1e641]
+                  - cell "End-of-Life" [ref=f1e642]
+                  - cell [ref=f1e643]:
+                    - text: Argon
+                    - superscript [ref=f1e644]:
+                      - link "[51]" [ref=f1e645] [cursor=pointer]:
+                        - /url: "#cite_note-Release-51"
+                  - cell "2015-09-08" [ref=f1e646]
+                  - cell "2018-04-30" [ref=f1e647]
+                - row [ref=f1e648]:
+                  - cell "5.x" [ref=f1e649]
+                  - cell "End-of-Life" [ref=f1e650]
+                  - cell [ref=f1e651]
+                  - cell "2015-10-29" [ref=f1e652]
+                  - cell "2016-06-30" [ref=f1e653]
+                - row [ref=f1e654]:
+                  - cell "6.x" [ref=f1e655]
+                  - cell "End-of-Life" [ref=f1e656]
+                  - cell [ref=f1e657]:
+                    - text: Boron
+                    - superscript [ref=f1e658]:
+                      - link "[51]" [ref=f1e659] [cursor=pointer]:
+                        - /url: "#cite_note-Release-51"
+                  - cell "2016-04-26" [ref=f1e660]
+                  - cell "2019-04-30" [ref=f1e661]
+                - row [ref=f1e662]:
+                  - cell "7.x" [ref=f1e663]
+                  - cell "End-of-Life" [ref=f1e664]
+                  - cell [ref=f1e665]
+                  - cell "2016-10-25" [ref=f1e666]
+                  - cell "2017-06-30" [ref=f1e667]
+                - row [ref=f1e668]:
+                  - cell "8.x" [ref=f1e669]
+                  - cell "End-of-Life" [ref=f1e670]
+                  - cell [ref=f1e671]:
+                    - text: Carbon
+                    - superscript [ref=f1e672]:
+                      - link "[51]" [ref=f1e673] [cursor=pointer]:
+                        - /url: "#cite_note-Release-51"
+                  - cell "2017-05-30" [ref=f1e674]
+                  - cell "2019-12-31" [ref=f1e675]
+                - row [ref=f1e676]:
+                  - cell "9.x" [ref=f1e677]
+                  - cell "End-of-Life" [ref=f1e678]
+                  - cell [ref=f1e679]
+                  - cell "2017-10-01" [ref=f1e680]
+                  - cell "2018-06-30" [ref=f1e681]
+                - row [ref=f1e682]:
+                  - cell "10.x" [ref=f1e683]
+                  - cell "End-of-Life" [ref=f1e684]
+                  - cell [ref=f1e685]:
+                    - text: Dubnium
+                    - superscript [ref=f1e686]:
+                      - link "[51]" [ref=f1e687] [cursor=pointer]:
+                        - /url: "#cite_note-Release-51"
+                  - cell "2018-04-24" [ref=f1e688]
+                  - cell "2021-04-30" [ref=f1e689]
+                - row [ref=f1e690]:
+                  - cell "11.x" [ref=f1e691]
+                  - cell "End-of-Life" [ref=f1e692]
+                  - cell [ref=f1e693]
+                  - cell "2018-10-23" [ref=f1e694]
+                  - cell "2019-06-01" [ref=f1e695]
+                - row [ref=f1e696]:
+                  - cell "12.x" [ref=f1e697]
+                  - cell "End-of-Life" [ref=f1e698]
+                  - cell [ref=f1e699]:
+                    - text: Erbium
+                    - superscript [ref=f1e700]:
+                      - link "[51]" [ref=f1e701] [cursor=pointer]:
+                        - /url: "#cite_note-Release-51"
+                  - cell "2019-04-23" [ref=f1e702]
+                  - cell "2022-04-30" [ref=f1e703]
+                - row [ref=f1e704]:
+                  - cell "13.x" [ref=f1e705]
+                  - cell "End-of-Life" [ref=f1e706]
+                  - cell [ref=f1e707]
+                  - cell "2019-10-22" [ref=f1e708]
+                  - cell "2020-06-01" [ref=f1e709]
+                - row [ref=f1e710]:
+                  - cell "14.x" [ref=f1e711]
+                  - cell "End-of-Life" [ref=f1e712]
+                  - cell [ref=f1e713]:
+                    - text: Fermium
+                    - superscript [ref=f1e714]:
+                      - link "[51]" [ref=f1e715] [cursor=pointer]:
+                        - /url: "#cite_note-Release-51"
+                  - cell "2020-04-21" [ref=f1e716]
+                  - cell "2023-04-30" [ref=f1e717]
+                - row [ref=f1e718]:
+                  - cell "15.x" [ref=f1e719]
+                  - cell "End-of-Life" [ref=f1e720]
+                  - cell [ref=f1e721]
+                  - cell "2020-10-20" [ref=f1e722]
+                  - cell "2021-06-01" [ref=f1e723]
+                - row [ref=f1e724]:
+                  - cell "16.x" [ref=f1e725]
+                  - cell "End-of-Life" [ref=f1e726]
+                  - cell [ref=f1e727]:
+                    - text: Gallium
+                    - superscript [ref=f1e728]:
+                      - link "[51]" [ref=f1e729] [cursor=pointer]:
+                        - /url: "#cite_note-Release-51"
+                  - cell "2021-04-20" [ref=f1e730]
+                  - cell [ref=f1e731]:
+                    - text: 2023-09-11
+                    - superscript [ref=f1e732]:
+                      - link "[53]" [ref=f1e733] [cursor=pointer]:
+                        - /url: "#cite_note-53"
+                - row [ref=f1e734]:
+                  - cell "17.x" [ref=f1e735]
+                  - cell "End-of-Life" [ref=f1e736]
+                  - cell [ref=f1e737]
+                  - cell "2021-10-19" [ref=f1e738]
+                  - cell "2022-06-01" [ref=f1e739]
+                - row [ref=f1e740]:
+                  - cell "18.x" [ref=f1e741]
+                  - cell "End-of-Life" [ref=f1e742]
+                  - cell [ref=f1e743]:
+                    - text: Hydrogen
+                    - superscript [ref=f1e744]:
+                      - link "[51]" [ref=f1e745] [cursor=pointer]:
+                        - /url: "#cite_note-Release-51"
+                  - cell "2022-04-19" [ref=f1e746]
+                  - cell "2025-04-30" [ref=f1e747]
+                - row [ref=f1e748]:
+                  - cell "19.x" [ref=f1e749]
+                  - cell "End-of-Life" [ref=f1e750]
+                  - cell [ref=f1e751]
+                  - cell "2022-10-18" [ref=f1e752]
+                  - cell "2023-06-01" [ref=f1e753]
+                - row [ref=f1e754]:
+                  - cell "20.x" [ref=f1e755]
+                  - cell "End-of-Life" [ref=f1e756]
+                  - cell [ref=f1e757]:
+                    - text: Iron
+                    - superscript [ref=f1e758]:
+                      - link "[54]" [ref=f1e759] [cursor=pointer]:
+                        - /url: "#cite_note-Codenames-54"
+                  - cell "2023-04-18" [ref=f1e760]
+                  - cell "2026-04-30" [ref=f1e761]
+                - row [ref=f1e762]:
+                  - cell "21.x" [ref=f1e763]
+                  - cell "End-of-Life" [ref=f1e764]
+                  - cell [ref=f1e765]:
+                    - superscript [ref=f1e766]:
+                      - link "[51]" [ref=f1e767] [cursor=pointer]:
+                        - /url: "#cite_note-Release-51"
+                  - cell "2023-10-17" [ref=f1e768]
+                  - cell "2024-06-01" [ref=f1e769]
+                - row [ref=f1e770]:
+                  - cell "22.x" [ref=f1e771]
+                  - cell "Maintenance LTS" [ref=f1e772]
+                  - cell [ref=f1e773]:
+                    - text: Jod
+                    - superscript [ref=f1e774]:
+                      - link "[54]" [ref=f1e775] [cursor=pointer]:
+                        - /url: "#cite_note-Codenames-54"
+                    - superscript [ref=f1e776]:
+                      - link "[51]" [ref=f1e777] [cursor=pointer]:
+                        - /url: "#cite_note-Release-51"
+                  - cell "2024-04-24" [ref=f1e778]
+                  - cell "2027-04-30" [ref=f1e779]
+                - row [ref=f1e780]:
+                  - cell "23.x" [ref=f1e781]
+                  - cell "End-of-Life" [ref=f1e782]
+                  - cell [ref=f1e783]:
+                    - superscript [ref=f1e784]:
+                      - link "[51]" [ref=f1e785] [cursor=pointer]:
+                        - /url: "#cite_note-Release-51"
+                  - cell "2024-10-15" [ref=f1e786]
+                  - cell "2025-06-01" [ref=f1e787]
+                - row [ref=f1e788]:
+                  - cell "24.x" [ref=f1e789]
+                  - cell "Active LTS" [ref=f1e790]
+                  - cell [ref=f1e791]:
+                    - text: Krypton
+                    - superscript [ref=f1e792]:
+                      - link "[54]" [ref=f1e793] [cursor=pointer]:
+                        - /url: "#cite_note-Codenames-54"
+                  - cell "2025-04-22" [ref=f1e794]
+                  - cell "2028-04-30" [ref=f1e795]
+                - row [ref=f1e796]:
+                  - cell "25.x" [ref=f1e797]
+                  - cell "End-of-Life" [ref=f1e798]
+                  - cell [ref=f1e799]
+                  - cell [ref=f1e800]:
+                    - text: 2025-10-15
+                    - superscript [ref=f1e801]:
+                      - link "[55]" [ref=f1e802] [cursor=pointer]:
+                        - /url: "#cite_note-55"
+                  - cell "2026-06-01" [ref=f1e803]
+                - row [ref=f1e804]:
+                  - cell "26.x" [ref=f1e805]
+                  - cell "Current" [ref=f1e806]
+                  - cell [ref=f1e807]:
+                    - text: Lithium
+                    - superscript [ref=f1e808]:
+                      - link "[54]" [ref=f1e809] [cursor=pointer]:
+                        - /url: "#cite_note-Codenames-54"
+                  - cell [ref=f1e810]:
+                    - text: 2026-05-05
+                    - superscript [ref=f1e811]:
+                      - link "[56]" [ref=f1e812] [cursor=pointer]:
+                        - /url: "#cite_note-56"
+                  - cell "2029" [ref=f1e813]
+                - row [ref=f1e814]:
+                  - cell "28.x" [ref=f1e815]
+                  - cell "Planned" [ref=f1e816]
+                  - cell [ref=f1e817]:
+                    - text: Magnesium
+                    - superscript [ref=f1e818]:
+                      - link "[54]" [ref=f1e819] [cursor=pointer]:
+                        - /url: "#cite_note-Codenames-54"
+                  - cell "2027" [ref=f1e820]
+                  - cell "2030" [ref=f1e821]
+                - row [ref=f1e822]:
+                  - cell "30.x" [ref=f1e823]
+                  - cell "Planned" [ref=f1e824]
+                  - cell [ref=f1e825]:
+                    - text: Neon
+                    - superscript [ref=f1e826]:
+                      - link "[54]" [ref=f1e827] [cursor=pointer]:
+                        - /url: "#cite_note-Codenames-54"
+                  - cell "2028" [ref=f1e828]
+                  - cell "2031" [ref=f1e829]
+                - row [ref=f1e830]:
+                  - cell "32.x" [ref=f1e831]
+                  - cell "Planned" [ref=f1e832]
+                  - cell [ref=f1e833]:
+                    - text: Oxygen
+                    - superscript [ref=f1e834]:
+                      - link "[54]" [ref=f1e835] [cursor=pointer]:
+                        - /url: "#cite_note-Codenames-54"
+                  - cell "2029" [ref=f1e836]
+                  - cell "2032" [ref=f1e837]
+                - row [ref=f1e838]:
+                  - cell "34.x" [ref=f1e839]
+                  - cell "Planned" [ref=f1e840]
+                  - cell [ref=f1e841]:
+                    - text: Platinum
+                    - superscript [ref=f1e842]:
+                      - link "[54]" [ref=f1e843] [cursor=pointer]:
+                        - /url: "#cite_note-Codenames-54"
+                  - cell "2030" [ref=f1e844]
+                  - cell "2033" [ref=f1e845]
+                - row [ref=f1e846]:
+                  - 'cell "Legend: Unsupported Supported Latest version Preview version Future version" [ref=f1e847]':
+                    - generic [ref=f1e849]:
+                      - generic [ref=f1e850]: "Legend:"
+                      - generic [ref=f1e852]: Unsupported
+                      - generic [ref=f1e854]: Supported
+                      - generic [ref=f1e856]: Latest version
+                      - generic [ref=f1e859]: Preview version
+                      - generic [ref=f1e861]: Future version
+              - rowgroup
+          - region [ref=f1e863]:
+            - generic [ref=f1e864]:
+              - heading "Technical details" [level=2] [ref=f1e865]
+              - generic [ref=f1e866]:
+                - link "edit":
+                  - /url: /w/index.php?title=Node.js&action=edit&section=7
+            - paragraph [ref=f1e867]:
+              - text: Node.js is a JavaScript runtime environment that processes incoming requests in a loop, called the
+              - link "event loop" [ref=f1e868] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/Event_loop
+              - text: .
+            - region [ref=f1e869]:
+              - generic [ref=f1e870]:
+                - heading "Internals" [level=3] [ref=f1e871]
+                - generic [ref=f1e872]:
+                  - link "edit":
+                    - /url: /w/index.php?title=Node.js&action=edit&section=8
+              - paragraph [ref=f1e873]:
+                - text: Node.js uses
+                - link "libuv" [ref=f1e874] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Libuv
+                - text: under the hood to handle asynchronous events. Libuv is an abstraction layer for network and file system functionality on both Windows and
+                - link "POSIX" [ref=f1e875] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/POSIX
+                - text: "-based systems such as Linux,"
+                - link "macOS" [ref=f1e876] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/MacOS
+                - text: ", OSS on"
+                - link "NonStop" [ref=f1e877] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/NonStop_(server_computers)
+                - text: ", and Unix. Node.js relies on nghttp2 for HTTP support. As of version 20, Node.js uses the ada library which provides up-to-date"
+                - link "WHATWG" [ref=f1e878] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/WHATWG
+                - link "URL" [ref=f1e879] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/URL
+                - text: compliance. As of version 19.5, Node.js uses the simdutf library for fast Unicode validation and transcoding. As of version 21.3, Node.js uses the simdjson library for fast JSON parsing.
+            - region [ref=f1e880]:
+              - generic [ref=f1e881]:
+                - heading "Threading" [level=3] [ref=f1e882]
+                - generic [ref=f1e883]:
+                  - link "edit":
+                    - /url: /w/index.php?title=Node.js&action=edit&section=9
+              - paragraph [ref=f1e884]:
+                - text: Node.js operates on a
+                - link "single-thread" [ref=f1e885] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Single_threading
+                - link "event loop" [ref=f1e886] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Event_loop
+                - text: ", using"
+                - link "non-blocking I/O" [ref=f1e887] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Non-blocking_I/O
+                - text: calls, allowing it to support tens of thousands of concurrent connections without incurring the cost of thread
+                - link "context switching" [ref=f1e888] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Context_switch
+                - text: .
+                - superscript [ref=f1e889]:
+                  - link "[57]" [ref=f1e890] [cursor=pointer]:
+                    - /url: "#cite_note-57"
+                - text: The design of sharing a single thread among all the requests that use the
+                - link "observer pattern" [ref=f1e891] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Observer_pattern
+                - text: is intended for building highly concurrent applications, where any function performing I/O must use a
+                - link "callback" [ref=f1e892] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Callback_(computer_programming)
+                - text: . To accommodate the single-threaded event loop, Node.js uses the
+                - link "libuv" [ref=f1e893] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Libuv
+                - text: library—which, in turn, uses a fixed-sized thread pool that handles some of the non-blocking asynchronous I/O operations.
+                - superscript [ref=f1e894]:
+                  - link "[8]" [ref=f1e895] [cursor=pointer]:
+                    - /url: "#cite_note-readwrite-8"
+              - paragraph [ref=f1e896]: A thread pool handles the execution of parallel tasks in Node.js. The main thread function call posts tasks to the shared task queue, which threads in the thread pool pull and execute. Inherently non-blocking system functions such as networking translate to kernel-side non-blocking sockets, while inherently blocking system functions such as file I/O run in a blocking way on their own threads. When a thread in the thread pool completes a task, it informs the main thread of this, which in turn, wakes up and executes the registered callback.
+              - paragraph [ref=f1e897]:
+                - text: A downside of this single-threaded approach is that Node.js does not allow
+                - link "vertical scaling" [ref=f1e898] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Vertical_scaling
+                - text: by increasing the number of
+                - link "CPU cores" [ref=f1e899] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/CPU_core
+                - text: of the machine it is running on without using an additional module, such as cluster,
+                - superscript [ref=f1e900]:
+                  - link "[58]" [ref=f1e901] [cursor=pointer]:
+                    - /url: "#cite_note-node_cluster_module_doc-58"
+                - text: StrongLoop Process Manager,
+                - superscript [ref=f1e902]:
+                  - link "[59]" [ref=f1e903] [cursor=pointer]:
+                    - /url: "#cite_note-59"
+                - text: or pm2.
+                - superscript [ref=f1e904]:
+                  - link "[60]" [ref=f1e905] [cursor=pointer]:
+                    - /url: "#cite_note-60"
+                - text: However, developers can increase the default number of threads in the libuv thread pool. The server
+                - link "operating system (OS)" [ref=f1e906] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Operating_system
+                - text: is likely to distribute these threads across multiple cores.
+                - superscript [ref=f1e907]:
+                  - link "[61]" [ref=f1e908] [cursor=pointer]:
+                    - /url: "#cite_note-61"
+                - text: Another problem is that long-lasting computations and other CPU-bound tasks freeze the entire event-loop until completion.
+                - superscript [ref=f1e909]:
+                  - text: "["
+                  - link "citation needed" [ref=f1e911] [cursor=pointer]:
+                    - /url: //en.wikipedia.org/wiki/Wikipedia:Citation_needed
+                  - text: "]"
+            - region [ref=f1e912]:
+              - generic [ref=f1e913]:
+                - heading "V8" [level=3] [ref=f1e914]
+                - generic [ref=f1e915]:
+                  - link "edit":
+                    - /url: /w/index.php?title=Node.js&action=edit&section=10
+              - note [ref=f1e916]:
+                - text: "Main article:"
+                - link "V8 (JavaScript engine)" [ref=f1e917] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/V8_(JavaScript_engine)
+              - paragraph [ref=f1e918]:
+                - text: V8 is the JavaScript execution engine which was initially built for
+                - link "Google Chrome" [ref=f1e919] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Google_Chrome
+                - text: . It was then open-sourced by Google in 2008. Written in
+                - link "C++" [ref=f1e920] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/C++
+                - text: ", V8 compiles JavaScript source code to native machine code"
+                - link "at runtime" [ref=f1e921] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Just-in-time_compilation
+                - text: .
+                - superscript [ref=f1e922]:
+                  - link "[8]" [ref=f1e923] [cursor=pointer]:
+                    - /url: "#cite_note-readwrite-8"
+                - text: As of 2016, it also includes Ignition, a
+                - link "bytecode interpreter" [ref=f1e924] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Bytecode_interpreter
+                - text: .
+            - region [ref=f1e925]:
+              - generic [ref=f1e926]:
+                - heading "Package management" [level=3] [ref=f1e927]
+                - generic [ref=f1e928]:
+                  - link "edit":
+                    - /url: /w/index.php?title=Node.js&action=edit&section=11
+              - paragraph [ref=f1e929]:
+                - link "npm" [ref=f1e930] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Npm_(software)
+                - text: is the pre-installed package manager for the Node.js server platform. It installs Node.js programs from the npm registry, organizing the installation and management of third-party Node.js programs.
+            - region [ref=f1e931]:
+              - generic [ref=f1e932]:
+                - heading "Event loop" [level=3] [ref=f1e933]
+                - generic [ref=f1e934]:
+                  - link "edit":
+                    - /url: /w/index.php?title=Node.js&action=edit&section=12
+              - paragraph [ref=f1e935]:
+                - text: Node.js registers with the operating system so the OS notifies it of
+                - link "asynchronous I/O" [ref=f1e936] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Asynchronous_I/O
+                - text: events such as new connections. Within the Node.js runtime, events trigger callbacks and each connection is handled as a small
+                - link "heap allocation" [ref=f1e937] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Heap_allocation
+                - text: . Traditionally, relatively heavyweight OS processes or threads handled each connection. Node.js uses an event loop for concurrent I/O, instead of processes or threads.
+                - superscript [ref=f1e938]:
+                  - link "[62]" [ref=f1e939] [cursor=pointer]:
+                    - /url: "#cite_note-62"
+                - text: In contrast to other event-driven servers,
+                - superscript [ref=f1e940]:
+                  - text: "["
+                  - link "which?" [ref=f1e942] [cursor=pointer]:
+                    - /url: //en.wikipedia.org/wiki/Wikipedia:Avoid_weasel_words
+                  - text: "]"
+                - text: Node.js's event loop does not need to be called explicitly. Instead, callbacks are defined, and the server automatically enters the event loop at the end of the callback definition. Node.js exits the event loop when there are no further callbacks to be performed.
+            - region [ref=f1e943]:
+              - generic [ref=f1e944]:
+                - heading "WebAssembly" [level=3] [ref=f1e945]
+                - generic [ref=f1e946]:
+                  - link "edit":
+                    - /url: /w/index.php?title=Node.js&action=edit&section=13
+              - paragraph [ref=f1e947]:
+                - text: Node.js supports
+                - link "WebAssembly" [ref=f1e948] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/WebAssembly
+                - text: and as of Node 14 has experimental support of
+                - link "WASI" [ref=f1e949] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/WebAssembly#WASI
+                - text: ", the WebAssembly System Interface."
+            - region [ref=f1e950]:
+              - generic [ref=f1e951]:
+                - heading "Native bindings" [level=3] [ref=f1e952]
+                - generic [ref=f1e953]:
+                  - link "edit":
+                    - /url: /w/index.php?title=Node.js&action=edit&section=14
+              - note [ref=f1e954]:
+                - text: "See also:"
+                - link "Foreign function interface" [ref=f1e955] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Foreign_function_interface
+              - paragraph [ref=f1e956]:
+                - text: Node.js provides a way to create "add-ons" via a
+                - link "C" [ref=f1e957] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/C_(programming_language)
+                - text: "-based API called N-API, which can be used to produce loadable (importable)"
+                - code [ref=f1e958]: .node
+                - text: modules from source code written in C/C++.
+                - superscript [ref=f1e959]:
+                  - link "[63]" [ref=f1e960] [cursor=pointer]:
+                    - /url: "#cite_note-:1-63"
+                - text: The modules can be directly loaded into memory and executed from within JS environment as simple CommonJS modules. The implementation of the N-API relies on internal C/C++ Node.js and V8 objects requiring users
+                - link "to import" [ref=f1e961] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Language_binding
+                - text: (
+                - link "#include" [ref=f1e962] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Include_directive
+                - text: ) Node.js specific
+                - link "headers" [ref=f1e963] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Include_directive
+                - text: into their native source code.
+                - superscript [ref=f1e964]:
+                  - link "[63]" [ref=f1e965] [cursor=pointer]:
+                    - /url: "#cite_note-:1-63"
+              - paragraph [ref=f1e966]: As the Node.js API is subject to breaking changes at a binary level, modules have to be built and shipped against specific Node.js versions to work properly. To address the issue, third parties have introduced open-sourced С/С++ wrappers on top of the API that partially alleviate the problem. They simplify interfaces, but as a side effect they may also introduce complexity which maintainers have to deal with. Even though the core functionality of Node.js resides in a JavaScript built-in library, modules written in C++ can be used to enhance capabilities and to improve performance of applications.
+              - paragraph [ref=f1e967]:
+                - text: In order to produce such modules one needs to have an appropriate C++ compiler and necessary headers (the latter are typically shipped with Node.js itself), e.g.,
+                - link "gcc" [ref=f1e968] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/GNU_Compiler_Collection
+                - text: ","
+                - link "clang" [ref=f1e969] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Clang
+                - text: or
+                - link "MSVC++" [ref=f1e970] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Microsoft_Visual_C++
+                - text: .
+              - paragraph [ref=f1e971]:
+                - text: The N-API is similar to
+                - link "Java Native Interface" [ref=f1e972] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Java_Native_Interface
+                - text: .
+                - link "OpenHarmony" [ref=f1e973] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/OpenHarmony
+                - text: and
+                - link "ArkTS" [ref=f1e974] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/ArkTS
+                - text: also adopts N-API, with the internal implementation rewritten.
+                - superscript [ref=f1e975]:
+                  - link "[64]" [ref=f1e976] [cursor=pointer]:
+                    - /url: "#cite_note-mineharmony-64"
+          - region [ref=f1e977]:
+            - generic [ref=f1e978]:
+              - heading "Project governance" [level=2] [ref=f1e979]
+              - generic [ref=f1e980]:
+                - link "edit":
+                  - /url: /w/index.php?title=Node.js&action=edit&section=15
+            - note [ref=f1e981]:
+              - text: "Main article:"
+              - link "OpenJS Foundation" [ref=f1e982] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/OpenJS_Foundation
+            - paragraph [ref=f1e983]:
+              - text: In 2015, various branches of the greater Node.js community began working under the vendor-neutral Node.js Foundation. The stated purpose of the organization "is to enable widespread adoption and help accelerate development of Node.js and other related modules through an open governance model that encourages participation, technical contribution, and a framework for long-term stewardship by an ecosystem invested in Node.js' success."
+              - superscript [ref=f1e984]:
+                - link "[65]" [ref=f1e985] [cursor=pointer]:
+                  - /url: "#cite_note-65"
+            - paragraph [ref=f1e986]:
+              - text: The Node.js Foundation Technical Steering Committee (TSC) is the technical governing body of the Node.js Foundation. The TSC is responsible for the core Node.js repo as well as dependent and adjacent projects. Generally the TSC delegates the administration of these projects to working groups or committees.
+              - superscript [ref=f1e987]:
+                - link "[66]" [ref=f1e988] [cursor=pointer]:
+                  - /url: "#cite_note-66"
+              - text: The LTS group that manages long term supported releases is one such group. Other current groups include Website, Streams, Build, Diagnostics, i18n, Evangelism, Docker, Addon API, Benchmarking, Post-mortem, Intl, Documentation, and Testing.
+              - superscript [ref=f1e989]:
+                - link "[67]" [ref=f1e990] [cursor=pointer]:
+                  - /url: "#cite_note-67"
+            - paragraph [ref=f1e991]:
+              - text: In August 2017, a third of the TSC members resigned due to a dispute related to the project's code of conduct. They resigned after a vote failed to remove a member from the leadership group against whom multiple complaints had been filed.
+              - superscript [ref=f1e992]:
+                - link "[68]" [ref=f1e993] [cursor=pointer]:
+                  - /url: "#cite_note-68"
+            - table [ref=f1e994]:
+              - caption [ref=f1e995]:
+                - text: Current TSC Members
+                - superscript [ref=f1e996]:
+                  - link "[69]" [ref=f1e997] [cursor=pointer]:
+                    - /url: "#cite_note-69"
+              - rowgroup [ref=f1e998]:
+                - row [ref=f1e999]:
+                  - columnheader "Username" [ref=f1e1000]
+                  - columnheader "Full Name" [ref=f1e1001]
+                - row [ref=f1e1002]:
+                  - cell "aduh95" [ref=f1e1003]
+                  - cell "Antoine du Hamel" [ref=f1e1004]
+                - row [ref=f1e1005]:
+                  - cell "anonrig" [ref=f1e1006]
+                  - cell "Yagiz Nizipli" [ref=f1e1007]
+                - row [ref=f1e1008]:
+                  - cell "benjamingr" [ref=f1e1009]
+                  - cell "Benjamin Gruenbaum" [ref=f1e1010]
+                - row [ref=f1e1011]:
+                  - cell "BridgeAR" [ref=f1e1012]
+                  - cell "Ruben Bridgewater" [ref=f1e1013]
+                - row [ref=f1e1014]:
+                  - cell "gireeshpunathil" [ref=f1e1015]
+                  - cell "Gireesh Punathil" [ref=f1e1016]
+                - row [ref=f1e1017]:
+                  - cell "jasnell" [ref=f1e1018]
+                  - cell "James M Snell" [ref=f1e1019]
+                - row [ref=f1e1020]:
+                  - cell "joyeecheung" [ref=f1e1021]
+                  - cell "Joyee Cheung" [ref=f1e1022]
+                - row [ref=f1e1023]:
+                  - cell "legendecas" [ref=f1e1024]
+                  - cell "Chengzhong Wu" [ref=f1e1025]
+                - row [ref=f1e1026]:
+                  - cell "marco-ippolito" [ref=f1e1027]
+                  - cell "Marco Ippolito" [ref=f1e1028]
+                - row [ref=f1e1029]:
+                  - cell "mcollina" [ref=f1e1030]
+                  - cell "Matteo Collina" [ref=f1e1031]
+                - row [ref=f1e1032]:
+                  - cell "mhdawson" [ref=f1e1033]
+                  - cell "Michael Dawson" [ref=f1e1034]
+                - row [ref=f1e1035]:
+                  - cell "RafaelGSS" [ref=f1e1036]
+                  - cell "Rafael Gonzaga" [ref=f1e1037]
+                - row [ref=f1e1038]:
+                  - cell "richardlau" [ref=f1e1039]
+                  - cell "Richard Lau" [ref=f1e1040]
+                - row [ref=f1e1041]:
+                  - cell "ronag" [ref=f1e1042]
+                  - cell "Robert Nagy" [ref=f1e1043]
+                - row [ref=f1e1044]:
+                  - cell "ruyadorno" [ref=f1e1045]
+                  - cell "Ruy Adorno" [ref=f1e1046]
+                - row [ref=f1e1047]:
+                  - cell "ShogunPanda" [ref=f1e1048]
+                  - cell "Paolo Insogna" [ref=f1e1049]
+                - row [ref=f1e1050]:
+                  - cell "targos" [ref=f1e1051]
+                  - cell "Michaël Zasso" [ref=f1e1052]
+                - row [ref=f1e1053]:
+                  - cell "tniessen" [ref=f1e1054]
+                  - cell "Tobias Nießen" [ref=f1e1055]
+          - region [ref=f1e1056]:
+            - generic [ref=f1e1057]:
+              - heading "References" [level=2] [ref=f1e1058]
+              - generic [ref=f1e1059]:
+                - link "edit":
+                  - /url: /w/index.php?title=Node.js&action=edit&section=16
+            - list [ref=f1e1061]:
+              - listitem [ref=f1e1062]:
+                - link "Jump up" [ref=f1e1064] [cursor=pointer]:
+                  - /url: "#cite_ref-1"
+                  - text: ^
+                - generic [ref=f1e1065]:
+                  - generic [ref=f1e1066]:
+                    - link "\"node-v0.x-archive on GitHub\"" [ref=f1e1067] [cursor=pointer]:
+                      - /url: https://github.com/joyent/node/tags?after=v0.0.4
+                    - text: .
+                    - link "GitHub" [ref=f1e1069] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/GitHub
+                    - generic [ref=f1e1070]: . Retrieved 2 August 2014
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=GitHub&rft.atitle=node-v0.x-archive+on+GitHub&rft_id=https%3A%2F%2Fgithub.com%2Fjoyent%2Fnode%2Ftags%3Fafter%3Dv0.0.4&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1071]:
+                - link "Jump up" [ref=f1e1073] [cursor=pointer]:
+                  - /url: "#cite_ref-wikidata-667930c7f10c7d867571f15ff57089320c2c304b-v20_2-0"
+                  - text: ^
+                - generic [ref=f1e1074]:
+                  - generic [ref=f1e1075]:
+                    - link "\"Release 26.3.0\"" [ref=f1e1076] [cursor=pointer]:
+                      - /url: https://github.com/nodejs/node/releases/tag/v26.3.0
+                    - text: . 1 June 2026
+                    - generic [ref=f1e1077]: . Retrieved 1 June 2026
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Release+26.3.0&rft.date=2026-06-01&rft_id=https%3A%2F%2Fgithub.com%2Fnodejs%2Fnode%2Freleases%2Ftag%2Fv26.3.0&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1078]:
+                - generic [ref=f1e1079]:
+                  - text: ^
+                  - link "Jump up to:" [ref=f1e1080] [cursor=pointer]:
+                    - /url: "#cite_ref-supportedOS_3-0"
+                  - link [ref=f1e1082] [cursor=pointer]:
+                    - /url: "#cite_ref-supportedOS_3-1"
+                - generic [ref=f1e1083]:
+                  - generic [ref=f1e1084]:
+                    - link "\"nodejs/node\"" [ref=f1e1085] [cursor=pointer]:
+                      - /url: https://github.com/nodejs/node/blob/master/BUILDING.md
+                    - text: . GitHub. 13 April 2022.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=GitHub&rft.atitle=nodejs%2Fnode&rft.date=2022-04-13&rft_id=https%3A%2F%2Fgithub.com%2Fnodejs%2Fnode%2Fblob%2Fmaster%2FBUILDING.md&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1086]:
+                - link "Jump up" [ref=f1e1088] [cursor=pointer]:
+                  - /url: "#cite_ref-4"
+                  - text: ^
+                - generic [ref=f1e1089]:
+                  - generic [ref=f1e1090]:
+                    - link "\"node/LICENSE at master\"" [ref=f1e1091] [cursor=pointer]:
+                      - /url: https://github.com/nodejs/node/blob/master/LICENSE
+                    - text: . GitHub. Node.js Foundation. 17 September 2018
+                    - generic [ref=f1e1092]: . Retrieved 17 September 2018
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=GitHub&rft.atitle=node%2FLICENSE+at+master&rft.date=2018-09-17&rft_id=https%3A%2F%2Fgithub.com%2Fnodejs%2Fnode%2Fblob%2Fmaster%2FLICENSE&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1093]:
+                - link "Jump up" [ref=f1e1095] [cursor=pointer]:
+                  - /url: "#cite_ref-5"
+                  - text: ^
+                - generic [ref=f1e1096]:
+                  - generic [ref=f1e1097]:
+                    - link "\"The MIT License\"" [ref=f1e1098] [cursor=pointer]:
+                      - /url: https://opensource.org/licenses/MIT
+                    - text: . Open Source Initiative. 17 September 2018
+                    - generic [ref=f1e1099]: . Retrieved 17 September 2018
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Open+Source+Initiative&rft.atitle=The+MIT+License&rft.date=2018-09-17&rft_id=https%3A%2F%2Fopensource.org%2Flicenses%2FMIT&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1100]:
+                - link "Jump up" [ref=f1e1102] [cursor=pointer]:
+                  - /url: "#cite_ref-6"
+                  - text: ^
+                - generic [ref=f1e1103]:
+                  - generic [ref=f1e1104]:
+                    - link "\"Stack Overflow Developer Survey 2025\"" [ref=f1e1105] [cursor=pointer]:
+                      - /url: https://survey.stackoverflow.co/2025/technology#1-web-frameworks-and-technologies
+                    - text: . Stack Overflow
+                    - generic [ref=f1e1106]: . Retrieved 10 October 2025
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Stack+Overflow&rft.atitle=Stack+Overflow+Developer+Survey+2025&rft_id=https%3A%2F%2Fsurvey.stackoverflow.co%2F2025%2Ftechnology%231-web-frameworks-and-technologies&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1107]:
+                - link "Jump up" [ref=f1e1109] [cursor=pointer]:
+                  - /url: "#cite_ref-7"
+                  - text: ^
+                - generic [ref=f1e1110]:
+                  - generic [ref=f1e1111]:
+                    - text: gcuomo (24 October 2013).
+                    - link "\"JavaScript Everywhere and the Three Amigos (Into the wild BLUE yonder!)\"" [ref=f1e1112] [cursor=pointer]:
+                      - /url: https://web.archive.org/web/20131114212619/https://www.ibm.com/developerworks/community/blogs/gcuomo/entry/javascript_everywhere_and_the_three_amigos?lang=en
+                    - text: . www.ibm.com. Archived from
+                    - link "the original" [ref=f1e1113] [cursor=pointer]:
+                      - /url: https://www.ibm.com/developerworks/community/blogs/gcuomo/entry/javascript_everywhere_and_the_three_amigos?lang=en
+                    - text: on 14 November 2013
+                    - generic [ref=f1e1114]: . Retrieved 24 October 2013
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=www.ibm.com&rft.atitle=JavaScript+Everywhere+and+the+Three+Amigos+%28Into+the+wild+BLUE+yonder%21%29&rft.date=2013-10-24&rft.au=gcuomo&rft_id=https%3A%2F%2Fwww.ibm.com%2Fdeveloperworks%2Fcommunity%2Fblogs%2Fgcuomo%2Fentry%2Fjavascript_everywhere_and_the_three_amigos%3Flang%3Den&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1115]:
+                - generic [ref=f1e1116]:
+                  - text: ^
+                  - link "Jump up to:" [ref=f1e1117] [cursor=pointer]:
+                    - /url: "#cite_ref-readwrite_8-0"
+                  - link [ref=f1e1119] [cursor=pointer]:
+                    - /url: "#cite_ref-readwrite_8-1"
+                  - link [ref=f1e1120] [cursor=pointer]:
+                    - /url: "#cite_ref-readwrite_8-2"
+                - generic [ref=f1e1121]:
+                  - generic [ref=f1e1122]:
+                    - text: Laurent Orsini (7 November 2013).
+                    - link "\"What You Need To Know About Node.js\"" [ref=f1e1123] [cursor=pointer]:
+                      - /url: https://web.archive.org/web/20131111070804/http://readwrite.com/2013/11/07/what-you-need-to-know-about-nodejs
+                    - text: . readwrite.com. Archived from the original on 11 November 2013
+                    - generic [ref=f1e1124]: . Retrieved 6 February 2022
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=readwrite.com&rft.atitle=What+You+Need+To+Know+About+Node.js&rft.date=2013-11-07&rft.au=Laurent+Orsini&rft_id=http%3A%2F%2Freadwrite.com%2F2013%2F11%2F07%2Fwhat-you-need-to-know-about-nodejs&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1125]:
+                - link "Jump up" [ref=f1e1127] [cursor=pointer]:
+                  - /url: "#cite_ref-9"
+                  - text: ^
+                - generic [ref=f1e1128]:
+                  - generic [ref=f1e1129]:
+                    - link "\"Node.js Foundation - Node.js\"" [ref=f1e1130] [cursor=pointer]:
+                      - /url: https://nodejs.org/foundation/
+                    - text: . nodejs.org
+                    - generic [ref=f1e1131]: . Retrieved 4 July 2015
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=nodejs.org&rft.atitle=Node.js+Foundation+-+Node.js&rft_id=https%3A%2F%2Fnodejs.org%2Ffoundation%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1132]:
+                - link "Jump up" [ref=f1e1134] [cursor=pointer]:
+                  - /url: "#cite_ref-10"
+                  - text: ^
+                - generic [ref=f1e1135]:
+                  - generic [ref=f1e1136]:
+                    - link "\"Linux Foundation Collaborative Projects\"" [ref=f1e1137] [cursor=pointer]:
+                      - /url: https://collabprojects.linuxfoundation.org/
+                    - text: . linuxfoundation.org. 4 July 2015
+                    - generic [ref=f1e1138]: . Retrieved 4 July 2015
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=linuxfoundation.org&rft.atitle=Linux+Foundation+Collaborative+Projects&rft.date=2015-07-04&rft_id=https%3A%2F%2Fcollabprojects.linuxfoundation.org%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1139]:
+                - link "Jump up" [ref=f1e1141] [cursor=pointer]:
+                  - /url: "#cite_ref-training.com_11-0"
+                  - text: ^
+                - generic [ref=f1e1142]:
+                  - generic [ref=f1e1143]:
+                    - link "\"About Node.js, and why you should add Node.js to your skill set?\"" [ref=f1e1144] [cursor=pointer]:
+                      - /url: https://web.archive.org/web/20170401061100/http://blog.training.com/2016/09/about-nodejs-and-why-you-should-add.html
+                    - text: . Training.com. 11 September 2016. Archived from
+                    - link "the original" [ref=f1e1145] [cursor=pointer]:
+                      - /url: http://blog.training.com/2016/09/about-nodejs-and-why-you-should-add.html
+                    - text: on 1 April 2017
+                    - generic [ref=f1e1146]: . Retrieved 23 October 2016
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Training.com&rft.atitle=About+Node.js%2C+and+why+you+should+add+Node.js+to+your+skill+set%3F&rft.date=2016-09-11&rft_id=http%3A%2F%2Fblog.training.com%2F2016%2F09%2Fabout-nodejs-and-why-you-should-add.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1147]:
+                - link "Jump up" [ref=f1e1149] [cursor=pointer]:
+                  - /url: "#cite_ref-12"
+                  - text: ^
+                - generic [ref=f1e1150]:
+                  - generic [ref=f1e1151]:
+                    - text: Staff, CNET News (15 October 1996).
+                    - link "\"Netscape opens intranet attack\"" [ref=f1e1152] [cursor=pointer]:
+                      - /url: https://www.cnet.com/news/netscape-opens-intranet-attack/
+                    - text: . CNET
+                    - generic [ref=f1e1153]: . Retrieved 20 April 2017
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.jtitle=CNET&rft.atitle=Netscape+opens+intranet+attack&rft.date=1996-10-15&rft.aulast=Staff&rft.aufirst=CNET+News&rft_id=https%3A%2F%2Fwww.cnet.com%2Fnews%2Fnetscape-opens-intranet-attack%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1154]:
+                - link "Jump up" [ref=f1e1156] [cursor=pointer]:
+                  - /url: "#cite_ref-Google_Groups_post_by_Ryan_Dahl_about_Joyent_13-0"
+                  - text: ^
+                - generic [ref=f1e1157]:
+                  - generic [ref=f1e1158]:
+                    - text: Ryan Dahl (9 November 2010).
+                    - link "\"Joyent and Node\"" [ref=f1e1159] [cursor=pointer]:
+                      - /url: https://groups.google.com/forum/#!topic/nodejs/lWo0MbHZ6Tc
+                    - text: . Google Groups
+                    - generic [ref=f1e1160]: . Retrieved 5 February 2015
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Joyent+and+Node&rft.pub=Google+Groups&rft.date=2010-11-09&rft.au=Ryan+Dahl&rft_id=https%3A%2F%2Fgroups.google.com%2Fforum%2F%23%21topic%2Fnodejs%2FlWo0MbHZ6Tc&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1161]:
+                - generic [ref=f1e1162]:
+                  - text: ^
+                  - link "Jump up to:" [ref=f1e1163] [cursor=pointer]:
+                    - /url: "#cite_ref-b3_14-0"
+                  - link [ref=f1e1165] [cursor=pointer]:
+                    - /url: "#cite_ref-b3_14-1"
+                  - link [ref=f1e1166] [cursor=pointer]:
+                    - /url: "#cite_ref-b3_14-2"
+                  - link [ref=f1e1167] [cursor=pointer]:
+                    - /url: "#cite_ref-b3_14-3"
+                - generic [ref=f1e1168]:
+                  - link "Sams Teach Yourself Node.js in 24 Hours" [ref=f1e1169] [cursor=pointer]:
+                    - /url: https://books.google.com/books?id=KGt-FxUEj48C&dq=nodejs&pg=PT24
+                  - text: ", Sams Publishing, 05-Sep-2012"
+              - listitem [ref=f1e1170]:
+                - link "Jump up" [ref=f1e1172] [cursor=pointer]:
+                  - /url: "#cite_ref-15"
+                  - text: ^
+                - generic [ref=f1e1173]:
+                  - generic [ref=f1e1174]:
+                    - text: Ubl, Malte (9 September 2009).
+                    - link "\"JSConf.eu 2009, Berlin, Germany\"" [ref=f1e1175] [cursor=pointer]:
+                      - /url: https://www.jsconf.eu/2009/speaker/speakers_selected.html
+                    - text: . www.jsconf.eu
+                    - generic [ref=f1e1176]: . Retrieved 9 September 2009
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=www.jsconf.eu&rft.atitle=JSConf.eu+2009%2C+Berlin%2C+Germany&rft.date=2009-09-09&rft.aulast=Ubl&rft.aufirst=Malte&rft_id=https%3A%2F%2Fwww.jsconf.eu%2F2009%2Fspeaker%2Fspeakers_selected.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1177]:
+                - link "Jump up" [ref=f1e1179] [cursor=pointer]:
+                  - /url: "#cite_ref-16"
+                  - text: ^
+                - generic [ref=f1e1180]:
+                  - generic [ref=f1e1181]:
+                    - 'link "\"Ryan Dahl: Original Node.js presentation\"" [ref=f1e1182] [cursor=pointer]':
+                      - /url: https://www.youtube.com/watch?v=ztspvPYybIY
+                    - text: . 8 June 2012.
+                    - link "Archived" [ref=f1e1183] [cursor=pointer]:
+                      - /url: https://ghostarchive.org/varchive/youtube/20211215/ztspvPYybIY
+                    - text: from the original on 15 December 2021 – via www.youtube.com.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Ryan+Dahl%3A+Original+Node.js+presentation&rft.date=2012-06-08&rft_id=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DztspvPYybIY&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1184]:
+                - generic [ref=f1e1185]:
+                  - text: ^
+                  - link "Jump up to:" [ref=f1e1186] [cursor=pointer]:
+                    - /url: "#cite_ref-b1_17-0"
+                  - link [ref=f1e1188] [cursor=pointer]:
+                    - /url: "#cite_ref-b1_17-1"
+                  - link [ref=f1e1189] [cursor=pointer]:
+                    - /url: "#cite_ref-b1_17-2"
+                  - link [ref=f1e1190] [cursor=pointer]:
+                    - /url: "#cite_ref-b1_17-3"
+                  - link [ref=f1e1191] [cursor=pointer]:
+                    - /url: "#cite_ref-b1_17-4"
+                  - link [ref=f1e1192] [cursor=pointer]:
+                    - /url: "#cite_ref-b1_17-5"
+                  - link [ref=f1e1193] [cursor=pointer]:
+                    - /url: "#cite_ref-b1_17-6"
+                  - link [ref=f1e1194] [cursor=pointer]:
+                    - /url: "#cite_ref-b1_17-7"
+                  - link [ref=f1e1195] [cursor=pointer]:
+                    - /url: "#cite_ref-b1_17-8"
+                - generic [ref=f1e1196]:
+                  - 'link "Professional Node.js: Building JavaScript Based Scalable Software" [ref=f1e1197] [cursor=pointer]':
+                    - /url: https://books.google.com/books?id=ZH6bpbcrlvYC&q=nodejs
+                  - text: ", John Wiley & Sons, 01-Oct-2012"
+              - listitem [ref=f1e1198]:
+                - link "Jump up" [ref=f1e1200] [cursor=pointer]:
+                  - /url: "#cite_ref-18"
+                  - text: ^
+                - generic [ref=f1e1201]:
+                  - generic [ref=f1e1202]:
+                    - link "\"Earliest releases of npm\"" [ref=f1e1203] [cursor=pointer]:
+                      - /url: https://github.com/npm/npm/releases?after=v0.1.1
+                    - text: . GitHub
+                    - generic [ref=f1e1204]: . Retrieved 27 July 2016
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=GitHub&rft.atitle=Earliest+releases+of+npm&rft_id=https%3A%2F%2Fgithub.com%2Fnpm%2Fnpm%2Freleases%3Fafter%3Dv0.1.1&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1205]:
+                - link "Jump up" [ref=f1e1207] [cursor=pointer]:
+                  - /url: "#cite_ref-19"
+                  - text: ^
+                - generic [ref=f1e1208]:
+                  - generic [ref=f1e1209]:
+                    - text: Ryandahl (23 June 2011).
+                    - link "\"Porting Node to Windows With Microsoft's Help\"" [ref=f1e1210] [cursor=pointer]:
+                      - /url: https://nodejs.org/en/blog/uncategorized/porting-node-to-windows-with-microsofts-help/
+                    - text: . nodejs.org
+                    - generic [ref=f1e1211]: . Retrieved 17 April 2016
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=nodejs.org&rft.atitle=Porting+Node+to+Windows+With+Microsoft%27s+Help&rft.date=2011-06-23&rft.au=Ryandahl&rft_id=https%3A%2F%2Fnodejs.org%2Fen%2Fblog%2Funcategorized%2Fporting-node-to-windows-with-microsofts-help%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1212]:
+                - link "Jump up" [ref=f1e1214] [cursor=pointer]:
+                  - /url: "#cite_ref-20"
+                  - text: ^
+                - generic [ref=f1e1215]:
+                  - generic [ref=f1e1216]:
+                    - text: Dahl, Ryan.
+                    - link "\"New gatekeeper\"" [ref=f1e1217] [cursor=pointer]:
+                      - /url: https://groups.google.com/forum/#!topic/nodejs/hfajgpvGTLY
+                    - generic [ref=f1e1218]: . Retrieved 26 October 2013
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=New+gatekeeper&rft.aulast=Dahl&rft.aufirst=Ryan&rft_id=http%3A%2F%2Fgroups.google.com%2Fforum%2F%23%21topic%2Fnodejs%2FhfajgpvGTLY&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1219]:
+                - link "Jump up" [ref=f1e1221] [cursor=pointer]:
+                  - /url: "#cite_ref-21"
+                  - text: ^
+                - generic [ref=f1e1222]:
+                  - generic [ref=f1e1223]:
+                    - text: Schlueter, Isaac (15 January 2014).
+                    - link "\"The Next Phase of Node.js\"" [ref=f1e1224] [cursor=pointer]:
+                      - /url: https://nodejs.org/en/blog/uncategorized/tj-fontaine-new-node-lead/
+                    - generic [ref=f1e1225]: . Retrieved 21 January 2014
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=The+Next+Phase+of+Node.js&rft.date=2014-01-15&rft.aulast=Schlueter&rft.aufirst=Isaac&rft_id=https%3A%2F%2Fnodejs.org%2Fen%2Fblog%2Funcategorized%2Ftj-fontaine-new-node-lead%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1226]:
+                - link "Jump up" [ref=f1e1228] [cursor=pointer]:
+                  - /url: "#cite_ref-iwtw_22-0"
+                  - text: ^
+                - generic [ref=f1e1229]:
+                  - 'link "Q&A: Why io.js decided to fork Node.js" [ref=f1e1230] [cursor=pointer]':
+                    - /url: https://www.infoworld.com/article/2855057/application-development/why-iojs-decided-to-fork-nodejs.html
+                  - text: ","
+                  - link "InfoWorld" [ref=f1e1231] [cursor=pointer]:
+                    - /url: //en.wikipedia.org/wiki/InfoWorld
+                  - text: Tech Watch
+              - listitem [ref=f1e1232]:
+                - link "Jump up" [ref=f1e1234] [cursor=pointer]:
+                  - /url: "#cite_ref-23"
+                  - text: ^
+                - generic [ref=f1e1235]:
+                  - generic [ref=f1e1236]:
+                    - link "\"Node.js Foundation Advances Community Collaboration, Announces New Members and Ratified Technical Governance\"" [ref=f1e1237] [cursor=pointer]:
+                      - /url: https://web.archive.org/web/20150624075643/http://www.linuxfoundation.org/news-media/announcements/2015/06/nodejs-foundation-advances-community-collaboration-announces-new
+                    - text: . Archived from
+                    - link "the original" [ref=f1e1238] [cursor=pointer]:
+                      - /url: https://www.linuxfoundation.org/news-media/announcements/2015/06/nodejs-foundation-advances-community-collaboration-announces-new
+                    - text: on 24 June 2015
+                    - generic [ref=f1e1239]: . Retrieved 4 July 2015
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Node.js+Foundation+Advances+Community+Collaboration%2C+Announces+New+Members+and+Ratified+Technical+Governance&rft_id=https%3A%2F%2Fwww.linuxfoundation.org%2Fnews-media%2Fannouncements%2F2015%2F06%2Fnodejs-foundation-advances-community-collaboration-announces-new&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1240]:
+                - link "Jump up" [ref=f1e1242] [cursor=pointer]:
+                  - /url: "#cite_ref-24"
+                  - text: ^
+                - generic [ref=f1e1243]:
+                  - generic [ref=f1e1244]:
+                    - link "\"Node.js Foundation Combines Node.js and io.js Into Single Codebase in New Release\"" [ref=f1e1245] [cursor=pointer]:
+                      - /url: https://nodejs.org/en/blog/announcements/foundation-v4-announce/
+                    - text: . nodejs.org. 14 September 2015
+                    - generic [ref=f1e1246]: . Retrieved 28 January 2016
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=nodejs.org&rft.atitle=Node.js+Foundation+Combines+Node.js+and+io.js+Into+Single+Codebase+in+New+Release&rft.date=2015-09-14&rft_id=https%3A%2F%2Fnodejs.org%2Fen%2Fblog%2Fannouncements%2Ffoundation-v4-announce%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1247]:
+                - link "Jump up" [ref=f1e1249] [cursor=pointer]:
+                  - /url: "#cite_ref-25"
+                  - text: ^
+                - generic [ref=f1e1250]:
+                  - generic [ref=f1e1251]:
+                    - link "\"io.js and Node.js merge\"" [ref=f1e1252] [cursor=pointer]:
+                      - /url: https://medium.com/node-js-javascript/io-js-week-of-may-15th-9ada45bd8a28
+                    - text: . medium.com. 19 May 2015
+                    - generic [ref=f1e1253]: . Retrieved 27 June 2015
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=medium.com&rft.atitle=io.js+and+Node.js+merge&rft.date=2015-05-19&rft_id=https%3A%2F%2Fmedium.com%2Fnode-js-javascript%2Fio-js-week-of-may-15th-9ada45bd8a28&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1254]:
+                - link "Jump up" [ref=f1e1256] [cursor=pointer]:
+                  - /url: "#cite_ref-26"
+                  - text: ^
+                - generic [ref=f1e1257]:
+                  - link "Io.js, JavaScript I/O" [ref=f1e1258] [cursor=pointer]:
+                    - /url: https://iojs.org/en/
+                  - text: ", \"io.js has merged with the Node.js project again. There won't be any further io.js releases. All of the features in io.js are available in Node.js v4 and above.\""
+              - listitem [ref=f1e1259]:
+                - link "Jump up" [ref=f1e1261] [cursor=pointer]:
+                  - /url: "#cite_ref-27"
+                  - text: ^
+                - generic [ref=f1e1262]:
+                  - generic [ref=f1e1263]:
+                    - link "\"Brand Guide\"" [ref=f1e1264] [cursor=pointer]:
+                      - /url: https://nodejs.org/static/documents/foundation-visual-guidelines.pdf
+                    - text: (PDF). Node.js. OpenJS Foundation
+                    - generic [ref=f1e1265]: . Retrieved 22 March 2024
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Node.js&rft.atitle=Brand+Guide&rft_id=https%3A%2F%2Fnodejs.org%2Fstatic%2Fdocuments%2Ffoundation-visual-guidelines.pdf&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1266]:
+                - link "Jump up" [ref=f1e1268] [cursor=pointer]:
+                  - /url: "#cite_ref-28"
+                  - text: ^
+                - generic [ref=f1e1269]:
+                  - generic [ref=f1e1270]:
+                    - 'link "\"Node.JS on X: \"Meet Rocket Turtle there are many ways 👋\"\"" [ref=f1e1271] [cursor=pointer]':
+                      - /url: https://twitter.com/nodejs/status/1759953849849167878
+                    - generic [ref=f1e1273]: . Retrieved 22 March 2024
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Node.JS+on+X%3A+%22Meet+Rocket+Turtle+there+are+many+ways+%F0%9F%91%8B%22&rft_id=https%3A%2F%2Ftwitter.com%2Fnodejs%2Fstatus%2F1759953849849167878&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1274]:
+                - generic [ref=f1e1275]:
+                  - text: ^
+                  - link "Jump up to:" [ref=f1e1276] [cursor=pointer]:
+                    - /url: "#cite_ref-b2_29-0"
+                  - link [ref=f1e1278] [cursor=pointer]:
+                    - /url: "#cite_ref-b2_29-1"
+                  - link [ref=f1e1279] [cursor=pointer]:
+                    - /url: "#cite_ref-b2_29-2"
+                - generic [ref=f1e1280]:
+                  - link "Node.js for PHP Developers" [ref=f1e1281] [cursor=pointer]:
+                    - /url: https://books.google.com/books?id=KZQQAlhTOBgC&q=nodejs
+                  - text: ", O'Reilly Media, Inc., 2013"
+              - listitem [ref=f1e1282]:
+                - generic [ref=f1e1283]:
+                  - text: ^
+                  - link "Jump up to:" [ref=f1e1284] [cursor=pointer]:
+                    - /url: "#cite_ref-b4_30-0"
+                  - link [ref=f1e1286] [cursor=pointer]:
+                    - /url: "#cite_ref-b4_30-1"
+                  - link [ref=f1e1287] [cursor=pointer]:
+                    - /url: "#cite_ref-b4_30-2"
+                - generic [ref=f1e1288]:
+                  - link "Node.js Essentials" [ref=f1e1289] [cursor=pointer]:
+                    - /url: https://books.google.com/books?id=dPaoCwAAQBAJ&q=nodejs
+                  - text: ", Packt Publishing, 10-Nov-2015"
+              - listitem [ref=f1e1290]:
+                - link "Jump up" [ref=f1e1292] [cursor=pointer]:
+                  - /url: "#cite_ref-b5_31-0"
+                  - text: ^
+                - generic [ref=f1e1293]:
+                  - 'link "Smashing Node.js: JavaScript Everywhere" [ref=f1e1294] [cursor=pointer]':
+                    - /url: https://books.google.com/books?id=G1y_5kpmatUC&q=nodejs
+                  - text: ", John Wiley & Sons, 14-Aug-2012"
+              - listitem [ref=f1e1295]:
+                - link "Jump up" [ref=f1e1297] [cursor=pointer]:
+                  - /url: "#cite_ref-32"
+                  - text: ^
+                - generic [ref=f1e1298]:
+                  - link "Modules" [ref=f1e1299] [cursor=pointer]:
+                    - /url: https://nodejs.org/api/
+                  - text: ", Nodejs Website"
+              - listitem [ref=f1e1300]:
+                - link "Jump up" [ref=f1e1302] [cursor=pointer]:
+                  - /url: "#cite_ref-33"
+                  - text: ^
+                - generic [ref=f1e1303]:
+                  - generic [ref=f1e1304]:
+                    - link "\"Node v22.6.0 (Current) Release Notes\"" [ref=f1e1305] [cursor=pointer]:
+                      - /url: https://nodejs.org/en/blog/release/v22.6.0
+                    - text: . nodejs.org. 9 July 2024
+                    - generic [ref=f1e1306]: . Retrieved 13 October 2025
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=nodejs.org&rft.atitle=Node+v22.6.0+%28Current%29+Release+Notes&rft.date=2024-07-09&rft_id=https%3A%2F%2Fnodejs.org%2Fen%2Fblog%2Frelease%2Fv22.6.0&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1307]:
+                - link "Jump up" [ref=f1e1309] [cursor=pointer]:
+                  - /url: "#cite_ref-34"
+                  - text: ^
+                - generic [ref=f1e1310]:
+                  - generic [ref=f1e1311]:
+                    - link "\"List of languages that compile to JS\"" [ref=f1e1312] [cursor=pointer]:
+                      - /url: https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js
+                    - text: . GitHub.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=GitHub&rft.atitle=List+of+languages+that+compile+to+JS&rft_id=https%3A%2F%2Fgithub.com%2Fjashkenas%2Fcoffeescript%2Fwiki%2Flist-of-languages-that-compile-to-js&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1313]:
+                - link "Jump up" [ref=f1e1315] [cursor=pointer]:
+                  - /url: "#cite_ref-b6_35-0"
+                  - text: ^
+                - generic [ref=f1e1316]:
+                  - generic [ref=f1e1317]:
+                    - link "CoffeeScript on Node.js" [ref=f1e1318] [cursor=pointer]:
+                      - /url: https://books.google.com/books?id=Oda-MgEACAAJ&q=nodejs
+                    - text: . O'Reilly Media, Inc. 15 April 2013.
+                    - link "ISBN" [ref=f1e1319] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/ISBN_(identifier)
+                    - link "9781449316846" [ref=f1e1320] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/Special:BookSources/9781449316846
+                    - generic [ref=f1e1321]: . Retrieved 17 May 2015
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=CoffeeScript+on+Node.js&rft.pub=O%27Reilly+Media%2C+Inc.&rft.date=2013-04-15&rft.isbn=9781449316846&rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DOda-MgEACAAJ%26q%3Dnodejs&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1322]:
+                - link "Jump up" [ref=f1e1324] [cursor=pointer]:
+                  - /url: "#cite_ref-36"
+                  - text: ^
+                - generic [ref=f1e1325]:
+                  - generic [ref=f1e1326]:
+                    - text: Foundation, Node js.
+                    - link "\"Installing Node.js via package manager\"" [ref=f1e1327] [cursor=pointer]:
+                      - /url: https://nodejs.org/en/download/package-manager/
+                    - text: . Node.js
+                    - generic [ref=f1e1328]: . Retrieved 19 May 2019
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Node.js&rft.atitle=Installing+Node.js+via+package+manager&rft.aulast=Foundation&rft.aufirst=Node+js&rft_id=https%3A%2F%2Fnodejs.org%2Fen%2Fdownload%2Fpackage-manager%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1329]:
+                - link "Jump up" [ref=f1e1331] [cursor=pointer]:
+                  - /url: "#cite_ref-bomBora_-_Node.js_for_NonStop_37-0"
+                  - text: ^
+                - generic [ref=f1e1332]:
+                  - generic [ref=f1e1333]:
+                    - link "\"bomBora - Node.js for NonStop\"" [ref=f1e1334] [cursor=pointer]:
+                      - /url: https://web.archive.org/web/20180311040354/http://infrasoft.com.au/bomBora.html
+                    - text: . infrasoft.com.au. Infrasoft. Archived from
+                    - link "the original" [ref=f1e1335] [cursor=pointer]:
+                      - /url: http://infrasoft.com.au/bomBora.html
+                    - text: on 11 March 2018
+                    - generic [ref=f1e1336]: . Retrieved 14 August 2015
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=infrasoft.com.au&rft.atitle=bomBora+-+Node.js+for+NonStop&rft_id=http%3A%2F%2Finfrasoft.com.au%2FbomBora.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1337]:
+                - link "Jump up" [ref=f1e1339] [cursor=pointer]:
+                  - /url: "#cite_ref-b7_38-0"
+                  - text: ^
+                - generic [ref=f1e1340]:
+                  - 'link "Express.js Guide: The Comprehensive Book on Express.js" [ref=f1e1341] [cursor=pointer]':
+                    - /url: https://books.google.com/books?id=5eGRAwAAQBAJ&q=nodejs
+                  - text: ", Azat Mardan, 28-May-2014"
+              - listitem [ref=f1e1342]:
+                - link "Jump up" [ref=f1e1344] [cursor=pointer]:
+                  - /url: "#cite_ref-39"
+                  - text: ^
+                - generic [ref=f1e1345]:
+                  - link "Edge.js bridges the gap between Node.js and .NET" [ref=f1e1346] [cursor=pointer]:
+                    - /url: https://www.techrepublic.com/article/edge-js-bridges-the-gap-between-node-js-and-net/
+                  - text: ", TechRepublic, Tony Patton, 1 July 2014"
+              - listitem [ref=f1e1347]:
+                - link "Jump up" [ref=f1e1349] [cursor=pointer]:
+                  - /url: "#cite_ref-40"
+                  - text: ^
+                - generic [ref=f1e1350]:
+                  - link "Node.js" [ref=f1e1351] [cursor=pointer]:
+                    - /url: https://www.jetbrains.com/webstorm/help/node-js.html
+                  - text: ", WebStorm supports integration with the Node.js runtime environment, WebStorm Help"
+              - listitem [ref=f1e1352]:
+                - link "Jump up" [ref=f1e1354] [cursor=pointer]:
+                  - /url: "#cite_ref-41"
+                  - text: ^
+                - generic [ref=f1e1355]:
+                  - link "Running and Debugging Node.js" [ref=f1e1356] [cursor=pointer]:
+                    - /url: https://www.jetbrains.com/webstorm/help/running-and-debugging-node-js.html
+                  - text: ", WebStorm Help"
+              - listitem [ref=f1e1357]:
+                - link "Jump up" [ref=f1e1359] [cursor=pointer]:
+                  - /url: "#cite_ref-42"
+                  - text: ^
+                - generic [ref=f1e1360]:
+                  - generic [ref=f1e1361]:
+                    - link "\"Node.js Tools for Visual Studio\"" [ref=f1e1362] [cursor=pointer]:
+                      - /url: https://www.visualstudio.com/en-us/features/node-js-vs.aspx
+                    - text: . microsoft.com
+                    - generic [ref=f1e1363]: . Retrieved 1 February 2016
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=microsoft.com&rft.atitle=Node.js+Tools+for+Visual+Studio&rft_id=https%3A%2F%2Fwww.visualstudio.com%2Fen-us%2Ffeatures%2Fnode-js-vs.aspx&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1364]:
+                - link "Jump up" [ref=f1e1366] [cursor=pointer]:
+                  - /url: "#cite_ref-43"
+                  - text: ^
+                - generic [ref=f1e1367]:
+                  - link "soywiz/typescript-node-definitions TypeScript's typings for some popular node.js modules" [ref=f1e1368] [cursor=pointer]:
+                    - /url: https://github.com/soywiz/typescript-node-definitions
+                  - text: ", GitHub"
+              - listitem [ref=f1e1369]:
+                - link "Jump up" [ref=f1e1371] [cursor=pointer]:
+                  - /url: "#cite_ref-44"
+                  - text: ^
+                - generic [ref=f1e1372]:
+                  - link "DefinitelyTyped" [ref=f1e1373] [cursor=pointer]:
+                    - /url: https://github.com/DefinitelyTyped/DefinitelyTyped
+                  - text: ", GitHub"
+              - listitem [ref=f1e1374]:
+                - link "Jump up" [ref=f1e1376] [cursor=pointer]:
+                  - /url: "#cite_ref-45"
+                  - text: ^
+                - generic [ref=f1e1377]:
+                  - generic [ref=f1e1378]:
+                    - link "\"The repository for high quality TypeScript type definitions\"" [ref=f1e1379] [cursor=pointer]:
+                      - /url: https://web.archive.org/web/20160203083254/http://definitelytyped.org/
+                    - text: . definitelytyped.org. Archived from
+                    - link "the original" [ref=f1e1380] [cursor=pointer]:
+                      - /url: http://definitelytyped.org/
+                    - text: on 3 February 2016.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=definitelytyped.org&rft.atitle=The+repository+for+high+quality+TypeScript+type+definitions&rft_id=http%3A%2F%2Fdefinitelytyped.org%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1381]:
+                - link "Jump up" [ref=f1e1383] [cursor=pointer]:
+                  - /url: "#cite_ref-46"
+                  - text: ^
+                - generic [ref=f1e1384]:
+                  - link "ImageBoard, A Node.js + Express + MongoDB application built using TypeScript on the server" [ref=f1e1385] [cursor=pointer]:
+                    - /url: https://www.typescriptlang.org/Samples#ImageBoard
+                  - link "Archived" [ref=f1e1386] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20190518111659/http://www.typescriptlang.org/samples/#ImageBoard
+                  - text: 18 May 2019 at the
+                  - link "Wayback Machine" [ref=f1e1387] [cursor=pointer]:
+                    - /url: //en.wikipedia.org/wiki/Wayback_Machine
+                  - text: ", TypeScript Samples"
+              - listitem [ref=f1e1388]:
+                - link "Jump up" [ref=f1e1390] [cursor=pointer]:
+                  - /url: "#cite_ref-47"
+                  - text: ^
+                - generic [ref=f1e1391]:
+                  - generic [ref=f1e1392]:
+                    - text: Krill, Paul (10 November 2015).
+                    - link "\"Node.js takes center stage in NetBeans 8.1\"" [ref=f1e1393] [cursor=pointer]:
+                      - /url: http://www.infoworld.com/article/3003414/java/nodejs-takes-center-stage-in-netbeans-81.html
+                    - text: . infoworld.com.
+                    - link "InfoWorld" [ref=f1e1394] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/InfoWorld
+                    - generic [ref=f1e1395]: . Retrieved 10 November 2015
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=infoworld.com&rft.atitle=Node.js+takes+center+stage+in+NetBeans+8.1&rft.date=2015-11-10&rft.aulast=Krill&rft.aufirst=Paul&rft_id=http%3A%2F%2Fwww.infoworld.com%2Farticle%2F3003414%2Fjava%2Fnodejs-takes-center-stage-in-netbeans-81.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1396]:
+                - link "Jump up" [ref=f1e1398] [cursor=pointer]:
+                  - /url: "#cite_ref-48"
+                  - text: ^
+                - generic [ref=f1e1399]:
+                  - link "Nodeclipse, Enide -- Node.JS development in Eclipse" [ref=f1e1400] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20120508061750/http://www.nodeclipse.org/
+                  - text: ", Nodeclipse Website"
+              - listitem [ref=f1e1401]:
+                - link "Jump up" [ref=f1e1403] [cursor=pointer]:
+                  - /url: "#cite_ref-49"
+                  - text: ^
+                - generic [ref=f1e1404]:
+                  - link "Hello Visual Studio Code (with NodeJS)" [ref=f1e1405] [cursor=pointer]:
+                    - /url: https://channel9.msdn.com/Blogs/cloud-with-a-silver-lining/hello-visual-studio-code-nodejs
+                  - text: ", Channel 9, Microsoft"
+              - listitem [ref=f1e1406]:
+                - link "Jump up" [ref=f1e1408] [cursor=pointer]:
+                  - /url: "#cite_ref-50"
+                  - text: ^
+                - generic [ref=f1e1409]:
+                  - link "Node.js Applications with VS Code" [ref=f1e1410] [cursor=pointer]:
+                    - /url: https://code.visualstudio.com/Docs/runtimes/nodejs
+                  - text: ", Visual Studio Code"
+              - listitem [ref=f1e1411]:
+                - generic [ref=f1e1412]:
+                  - text: ^
+                  - link "Jump up to:" [ref=f1e1413] [cursor=pointer]:
+                    - /url: "#cite_ref-Release_51-0"
+                  - link [ref=f1e1415] [cursor=pointer]:
+                    - /url: "#cite_ref-Release_51-1"
+                  - link [ref=f1e1416] [cursor=pointer]:
+                    - /url: "#cite_ref-Release_51-2"
+                  - link [ref=f1e1417] [cursor=pointer]:
+                    - /url: "#cite_ref-Release_51-3"
+                  - link [ref=f1e1418] [cursor=pointer]:
+                    - /url: "#cite_ref-Release_51-4"
+                  - link [ref=f1e1419] [cursor=pointer]:
+                    - /url: "#cite_ref-Release_51-5"
+                  - link [ref=f1e1420] [cursor=pointer]:
+                    - /url: "#cite_ref-Release_51-6"
+                  - link [ref=f1e1421] [cursor=pointer]:
+                    - /url: "#cite_ref-Release_51-7"
+                  - link [ref=f1e1422] [cursor=pointer]:
+                    - /url: "#cite_ref-Release_51-8"
+                  - link [ref=f1e1423] [cursor=pointer]:
+                    - /url: "#cite_ref-Release_51-9"
+                  - link [ref=f1e1424] [cursor=pointer]:
+                    - /url: "#cite_ref-Release_51-10"
+                  - link [ref=f1e1425] [cursor=pointer]:
+                    - /url: "#cite_ref-Release_51-11"
+                - generic [ref=f1e1426]:
+                  - generic [ref=f1e1427]:
+                    - link "\"nodejs/Release\"" [ref=f1e1428] [cursor=pointer]:
+                      - /url: https://github.com/nodejs/Release
+                    - text: . GitHub
+                    - generic [ref=f1e1429]: . Retrieved 3 May 2018
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=GitHub&rft.atitle=nodejs%2FRelease&rft_id=https%3A%2F%2Fgithub.com%2Fnodejs%2FRelease&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1430]:
+                - link "Jump up" [ref=f1e1432] [cursor=pointer]:
+                  - /url: "#cite_ref-52"
+                  - text: ^
+                - generic [ref=f1e1433]:
+                  - generic [ref=f1e1434]:
+                    - link "\"Releases\"" [ref=f1e1435] [cursor=pointer]:
+                      - /url: https://nodejs.org/en/about/releases/
+                    - text: . Node.js. 23 August 2023.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Node.js&rft.atitle=Releases&rft.date=2023-08-23&rft_id=https%3A%2F%2Fnodejs.org%2Fen%2Fabout%2Freleases%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1436]:
+                - link "Jump up" [ref=f1e1438] [cursor=pointer]:
+                  - /url: "#cite_ref-53"
+                  - text: ^
+                - generic [ref=f1e1439]:
+                  - link "Bringing forward the End-of-Life Date for Node.js 16" [ref=f1e1440] [cursor=pointer]:
+                    - /url: https://nodejs.org/en/blog/announcements/nodejs16-eol/
+                  - text: ", Node.js Website"
+              - listitem [ref=f1e1441]:
+                - generic [ref=f1e1442]:
+                  - text: ^
+                  - link "Jump up to:" [ref=f1e1443] [cursor=pointer]:
+                    - /url: "#cite_ref-Codenames_54-0"
+                  - link [ref=f1e1445] [cursor=pointer]:
+                    - /url: "#cite_ref-Codenames_54-1"
+                  - link [ref=f1e1446] [cursor=pointer]:
+                    - /url: "#cite_ref-Codenames_54-2"
+                  - link [ref=f1e1447] [cursor=pointer]:
+                    - /url: "#cite_ref-Codenames_54-3"
+                  - link [ref=f1e1448] [cursor=pointer]:
+                    - /url: "#cite_ref-Codenames_54-4"
+                  - link [ref=f1e1449] [cursor=pointer]:
+                    - /url: "#cite_ref-Codenames_54-5"
+                  - link [ref=f1e1450] [cursor=pointer]:
+                    - /url: "#cite_ref-Codenames_54-6"
+                  - link [ref=f1e1451] [cursor=pointer]:
+                    - /url: "#cite_ref-Codenames_54-7"
+                - generic [ref=f1e1452]:
+                  - generic [ref=f1e1453]:
+                    - link "\"Node.JS CODENAMES.md\"" [ref=f1e1454] [cursor=pointer]:
+                      - /url: https://github.com/nodejs/Release/blob/main/CODENAMES.md
+                    - text: . GitHub
+                    - generic [ref=f1e1455]: . Retrieved 6 September 2023
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=GitHub&rft.atitle=Node.JS+CODENAMES.md&rft_id=https%3A%2F%2Fgithub.com%2Fnodejs%2FRelease%2Fblob%2Fmain%2FCODENAMES.md&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1456]:
+                - link "Jump up" [ref=f1e1458] [cursor=pointer]:
+                  - /url: "#cite_ref-55"
+                  - text: ^
+                - generic [ref=f1e1459]:
+                  - generic [ref=f1e1460]:
+                    - link "\"Node.js — Node.js v25.0.0 (Current)\"" [ref=f1e1461] [cursor=pointer]:
+                      - /url: https://nodejs.org/en/blog/release/v25.0.0
+                    - text: . nodejs.org
+                    - generic [ref=f1e1462]: . Retrieved 21 October 2025
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=nodejs.org&rft.atitle=Node.js+%E2%80%94+Node.js+v25.0.0+%28Current%29&rft_id=https%3A%2F%2Fnodejs.org%2Fen%2Fblog%2Frelease%2Fv25.0.0&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1463]:
+                - link "Jump up" [ref=f1e1465] [cursor=pointer]:
+                  - /url: "#cite_ref-56"
+                  - text: ^
+                - generic [ref=f1e1466]:
+                  - generic [ref=f1e1467]:
+                    - link "\"Node.js — Node.js v26.0.0 (Current)\"" [ref=f1e1468] [cursor=pointer]:
+                      - /url: https://nodejs.org/en/blog/release/v26.0.0
+                    - text: . nodejs.org
+                    - generic [ref=f1e1469]: . Retrieved 5 May 2026
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=nodejs.org&rft.atitle=Node.js+%E2%80%94+Node.js+v26.0.0+%28Current%29&rft_id=https%3A%2F%2Fnodejs.org%2Fen%2Fblog%2Frelease%2Fv26.0.0&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1470]:
+                - link "Jump up" [ref=f1e1472] [cursor=pointer]:
+                  - /url: "#cite_ref-57"
+                  - text: ^
+                - generic [ref=f1e1473]:
+                  - generic [ref=f1e1474]:
+                    - link "\"Node.js w/1M concurrent connections!\"" [ref=f1e1475] [cursor=pointer]:
+                      - /url: https://blog.caustik.com/2012/08/19/node-js-w1m-concurrent-connections/
+                    - text: . caustik's blog. 19 August 2012.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=caustik%27s+blog&rft.atitle=Node.js+w%2F1M+concurrent+connections%21&rft.date=2012-08-19&rft_id=https%3A%2F%2Fblog.caustik.com%2F2012%2F08%2F19%2Fnode-js-w1m-concurrent-connections%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1476]:
+                - link "Jump up" [ref=f1e1478] [cursor=pointer]:
+                  - /url: "#cite_ref-node_cluster_module_doc_58-0"
+                  - text: ^
+                - generic [ref=f1e1479]:
+                  - generic [ref=f1e1480]:
+                    - link "\"Node.js's cluster module\"" [ref=f1e1481] [cursor=pointer]:
+                      - /url: https://nodejs.org/api/cluster.html
+                    - text: . nodejs.org
+                    - generic [ref=f1e1482]: . Retrieved 19 October 2017
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=nodejs.org&rft.atitle=Node.js%27s+cluster+module&rft_id=https%3A%2F%2Fnodejs.org%2Fapi%2Fcluster.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1483]:
+                - link "Jump up" [ref=f1e1485] [cursor=pointer]:
+                  - /url: "#cite_ref-59"
+                  - text: ^
+                - generic [ref=f1e1486]:
+                  - generic [ref=f1e1487]:
+                    - link "\"StrongLoop Process Manager\"" [ref=f1e1488] [cursor=pointer]:
+                      - /url: https://strong-pm.io/
+                    - text: . strong-pm.io.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=strong-pm.io&rft.atitle=StrongLoop+Process+Manager&rft_id=https%3A%2F%2Fstrong-pm.io%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1489]:
+                - link "Jump up" [ref=f1e1491] [cursor=pointer]:
+                  - /url: "#cite_ref-60"
+                  - text: ^
+                - generic [ref=f1e1492]:
+                  - generic [ref=f1e1493]:
+                    - 'link "\"GitHub - Unitech/pm2: Production process manager for Node.js applications with a built-in load balancer\"" [ref=f1e1494] [cursor=pointer]':
+                      - /url: https://github.com/Unitech/pm2
+                    - text: . GitHub. 12 June 2021.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=GitHub&rft.atitle=GitHub+-+Unitech%2Fpm2%3A+Production+process+manager+for+Node.js+applications+with+a+built-in+load+balancer&rft.date=2021-06-12&rft_id=https%3A%2F%2Fgithub.com%2FUnitech%2Fpm2&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1495]:
+                - link "Jump up" [ref=f1e1497] [cursor=pointer]:
+                  - /url: "#cite_ref-61"
+                  - text: ^
+                - generic [ref=f1e1498]:
+                  - generic [ref=f1e1499]:
+                    - text: Aleksander Kasiuk (22 April 2015).
+                    - link "\"On problems with threads in node.js - Future Processing\"" [ref=f1e1500] [cursor=pointer]:
+                      - /url: https://www.future-processing.pl/blog/on-problems-with-threads-in-node-js/
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=On+problems+with+threads+in+node.js+-+Future+Processing&rft.date=2015-04-22&rft.au=Aleksander+Kasiuk&rft_id=https%3A%2F%2Fwww.future-processing.pl%2Fblog%2Fon-problems-with-threads-in-node-js%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1501]:
+                - link "Jump up" [ref=f1e1503] [cursor=pointer]:
+                  - /url: "#cite_ref-62"
+                  - text: ^
+                - generic [ref=f1e1504]:
+                  - link "About Node.js" [ref=f1e1505] [cursor=pointer]:
+                    - /url: https://nodejs.org/about/
+                  - text: ", Node.js Website"
+              - listitem [ref=f1e1506]:
+                - generic [ref=f1e1507]:
+                  - text: ^
+                  - link "Jump up to:" [ref=f1e1508] [cursor=pointer]:
+                    - /url: "#cite_ref-:1_63-0"
+                  - link [ref=f1e1510] [cursor=pointer]:
+                    - /url: "#cite_ref-:1_63-1"
+                - generic [ref=f1e1511]:
+                  - generic [ref=f1e1512]:
+                    - link "\"C++ addons | Node.js v14.12.0 Documentation\"" [ref=f1e1513] [cursor=pointer]:
+                      - /url: https://nodejs.org/api/addons.html
+                    - text: . nodejs.org
+                    - generic [ref=f1e1514]: . Retrieved 26 September 2020
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=nodejs.org&rft.atitle=C%2B%2B+addons+%7C+Node.js+v14.12.0+Documentation&rft_id=https%3A%2F%2Fnodejs.org%2Fapi%2Faddons.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1515]:
+                - link "Jump up" [ref=f1e1517] [cursor=pointer]:
+                  - /url: "#cite_ref-mineharmony_64-0"
+                  - text: ^
+                - generic [ref=f1e1518]:
+                  - generic [ref=f1e1519]:
+                    - text: 王嘉栋; 宋冰清; 王盛荣; 刘贺 (2025).
+                    - link "\"基于矿鸿操作系统的采煤机远程监控系统软件设计\"" [ref=f1e1520] [cursor=pointer]:
+                      - /url: https://doi.org/10.13436/j.mkjx.202504057
+                    - text: "[Software Design of a Remote Monitoring System for Shearers Based on MineHarmony OS]. Coal Mine Machinery (in Chinese). 46 (4): 216–218."
+                    - link "doi" [ref=f1e1521] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/Doi_(identifier)
+                    - text: ":"
+                    - link "10.13436/J.MKJX.202504057" [ref=f1e1522] [cursor=pointer]:
+                      - /url: https://doi.org/10.13436%2FJ.MKJX.202504057
+                    - text: .
+                    - link "ISSN" [ref=f1e1523] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/ISSN_(identifier)
+                    - link "1003-0794" [ref=f1e1524] [cursor=pointer]:
+                      - /url: https://search.worldcat.org/issn/1003-0794
+                    - text: .
+                    - link "Wikidata" [ref=f1e1525] [cursor=pointer]:
+                      - /url: //en.wikipedia.org/wiki/WDQ_(identifier)
+                    - link "Q139548468" [ref=f1e1526] [cursor=pointer]:
+                      - /url: https://www.wikidata.org/wiki/Q139548468
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.jtitle=Coal+Mine+Machinery&rft.atitle=%E5%9F%BA%E4%BA%8E%E7%9F%BF%E9%B8%BF%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E9%87%87%E7%85%A4%E6%9C%BA%E8%BF%9C%E7%A8%8B%E7%9B%91%E6%8E%A7%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1&rft.volume=46&rft.issue=4&rft.pages=216-218&rft.date=2025&rft_id=info%3Adoi%2F10.13436%2FJ.MKJX.202504057&rft.issn=1003-0794&rft.au=%E7%8E%8B%E5%98%89%E6%A0%8B&rft.au=%E5%AE%8B%E5%86%B0%E6%B8%85&rft.au=%E7%8E%8B%E7%9B%9B%E8%8D%A3&rft.au=%E5%88%98%E8%B4%BA&rft_id=https%3A%2F%2Fdoi.org%2F10.13436%2Fj.mkjx.202504057&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1527]:
+                - link "Jump up" [ref=f1e1529] [cursor=pointer]:
+                  - /url: "#cite_ref-65"
+                  - text: ^
+                - generic [ref=f1e1530]:
+                  - generic [ref=f1e1531]:
+                    - text: Foundation, Node.js.
+                    - link "\"Node.js Foundation | Node.js\"" [ref=f1e1532] [cursor=pointer]:
+                      - /url: https://nodejs.org/en/foundation/
+                    - text: . nodejs.org
+                    - generic [ref=f1e1533]: . Retrieved 8 March 2017
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=nodejs.org&rft.atitle=Node.js+Foundation+%7C+Node.js&rft.aulast=Foundation&rft.aufirst=Node.js&rft_id=https%3A%2F%2Fnodejs.org%2Fen%2Ffoundation%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1534]:
+                - link "Jump up" [ref=f1e1536] [cursor=pointer]:
+                  - /url: "#cite_ref-66"
+                  - text: ^
+                - generic [ref=f1e1537]:
+                  - generic [ref=f1e1538]:
+                    - link "\"nodejs/TSC\"" [ref=f1e1539] [cursor=pointer]:
+                      - /url: https://github.com/nodejs/TSC
+                    - text: . GitHub
+                    - generic [ref=f1e1540]: . Retrieved 8 March 2017
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=GitHub&rft.atitle=nodejs%2FTSC&rft_id=https%3A%2F%2Fgithub.com%2Fnodejs%2FTSC&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1541]:
+                - link "Jump up" [ref=f1e1543] [cursor=pointer]:
+                  - /url: "#cite_ref-67"
+                  - text: ^
+                - generic [ref=f1e1544]:
+                  - generic [ref=f1e1545]:
+                    - text: Foundation, Node.js.
+                    - link "\"Working Groups | Node.js\"" [ref=f1e1546] [cursor=pointer]:
+                      - /url: https://web.archive.org/web/20170227070535/https://nodejs.org/en/about/working-groups/
+                    - text: . nodejs.org. Archived from
+                    - link "the original" [ref=f1e1547] [cursor=pointer]:
+                      - /url: https://nodejs.org/en/about/working-groups/
+                    - text: on 27 February 2017
+                    - generic [ref=f1e1548]: . Retrieved 8 March 2017
+                    - text: .
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=nodejs.org&rft.atitle=Working+Groups+%7C+Node.js&rft.aulast=Foundation&rft.aufirst=Node.js&rft_id=https%3A%2F%2Fnodejs.org%2Fen%2Fabout%2Fworking-groups%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1549]:
+                - link "Jump up" [ref=f1e1551] [cursor=pointer]:
+                  - /url: "#cite_ref-68"
+                  - text: ^
+                - generic [ref=f1e1552]:
+                  - text: Whittaker, Zack,
+                  - link "After governance breakdown, Node.js leaders fight for its survival" [ref=f1e1554] [cursor=pointer]:
+                    - /url: https://www.zdnet.com/article/after-governance-breakdown-node-js-leaders-fight-for-its-survival/?loc=newsletter_large_thumb_related&ftag=TREc64629f&bhid=24465828771686428160302951310435/
+                  - text: ", ZDNet, 25 August 2017"
+              - listitem [ref=f1e1555]:
+                - link "Jump up" [ref=f1e1557] [cursor=pointer]:
+                  - /url: "#cite_ref-69"
+                  - text: ^
+                - generic [ref=f1e1558]:
+                  - generic [ref=f1e1559]:
+                    - link "\"tsc-voting-members\"" [ref=f1e1560] [cursor=pointer]:
+                      - /url: https://github.com/nodejs/node?tab=readme-ov-file#tsc-voting-members
+                    - text: . Github.com. 16 May 2024.
+                  - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=Github.com&rft.atitle=tsc-voting-members&rft.date=2024-05-16&rft_id=https%3A%2F%2Fgithub.com%2Fnodejs%2Fnode%3Ftab%3Dreadme-ov-file%23tsc-voting-members&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+          - region [ref=f1e1561]:
+            - generic [ref=f1e1562]:
+              - heading "Further reading" [level=2] [ref=f1e1563]
+              - generic [ref=f1e1564]:
+                - link "edit":
+                  - /url: /w/index.php?title=Node.js&action=edit&section=17
+            - list [ref=f1e1565]:
+              - listitem [ref=f1e1566]:
+                - generic [ref=f1e1567]:
+                  - text: Hughes-Croucher, Tom; Wilson, Mike (April 2012), Up and Running with Node.js,
+                  - link "O'Reilly Media" [ref=f1e1568] [cursor=pointer]:
+                    - /url: //en.wikipedia.org/wiki/O'Reilly_Media
+                  - text: ","
+                  - link "ISBN" [ref=f1e1569] [cursor=pointer]:
+                    - /url: //en.wikipedia.org/wiki/ISBN_(identifier)
+                  - link "978-1-4493-9858-3" [ref=f1e1570] [cursor=pointer]:
+                    - /url: //en.wikipedia.org/wiki/Special:BookSources/978-1-4493-9858-3
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=Up+and+Running+with+Node.js&rft.pub=O%27Reilly+Media&rft.date=2012-04&rft.isbn=978-1-4493-9858-3&rft.aulast=Hughes-Croucher&rft.aufirst=Tom&rft.au=Wilson%2C+Mike&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1571]:
+                - generic [ref=f1e1572]:
+                  - text: Ornbo, George (September 2012), Sams Teach Yourself Node.js in 24 Hours,
+                  - link "SAMS Publishing" [ref=f1e1573] [cursor=pointer]:
+                    - /url: //en.wikipedia.org/wiki/SAMS_Publishing
+                  - text: ","
+                  - link "ISBN" [ref=f1e1574] [cursor=pointer]:
+                    - /url: //en.wikipedia.org/wiki/ISBN_(identifier)
+                  - link "978-0-672-33595-2" [ref=f1e1575] [cursor=pointer]:
+                    - /url: //en.wikipedia.org/wiki/Special:BookSources/978-0-672-33595-2
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=Sams+Teach+Yourself+Node.js+in+24+Hours&rft.pub=SAMS+Publishing&rft.date=2012-09&rft.isbn=978-0-672-33595-2&rft.aulast=Ornbo&rft.aufirst=George&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1576]:
+                - generic [ref=f1e1577]:
+                  - text: Teixeira, Pedro (October 2012),
+                  - link "Professional Node.js" [ref=f1e1578] [cursor=pointer]:
+                    - /url: http://eu.wiley.com/WileyCDA/WileyTitle/productCd-1118185463,descCd-authorInfo.html
+                  - text: ","
+                  - link "John Wiley & Sons" [ref=f1e1579] [cursor=pointer]:
+                    - /url: //en.wikipedia.org/wiki/John_Wiley_&_Sons
+                  - text: ","
+                  - link "ISBN" [ref=f1e1580] [cursor=pointer]:
+                    - /url: //en.wikipedia.org/wiki/ISBN_(identifier)
+                  - link "978-1-118-22754-1" [ref=f1e1581] [cursor=pointer]:
+                    - /url: //en.wikipedia.org/wiki/Special:BookSources/978-1-118-22754-1
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=Professional+Node.js&rft.pub=John+Wiley+%26+Sons&rft.date=2012-10&rft.isbn=978-1-118-22754-1&rft.aulast=Teixeira&rft.aufirst=Pedro&rft_id=http%3A%2F%2Feu.wiley.com%2FWileyCDA%2FWileyTitle%2FproductCd-1118185463%2CdescCd-authorInfo.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1582]:
+                - generic [ref=f1e1583]:
+                  - link "Randal L. Schwartz" [ref=f1e1584] [cursor=pointer]:
+                    - /url: //en.wikipedia.org/wiki/Randal_L._Schwartz
+                  - text: and Aaron Newcomb (9 January 2013).
+                  - 'link "\"Episode 237: Node.js\"" [ref=f1e1585] [cursor=pointer]':
+                    - /url: https://twit.tv/show/floss-weekly/237
+                  - text: . twit.tv/show/floss-weekly (Podcast).
+                  - link "TWiT.tv" [ref=f1e1586] [cursor=pointer]:
+                    - /url: //en.wikipedia.org/wiki/TWiT.tv
+                  - text: . Event occurs at 1:08:13
+                  - generic [ref=f1e1587]: . Retrieved 9 January 2013
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Episode+237%3A+Node.js&rft.pub=TWiT.tv&rft.date=2013-01-09&rft.au=Randal+L.+Schwartz+and+Aaron+Newcomb&rft_id=https%3A%2F%2Ftwit.tv%2Fshow%2Ffloss-weekly%2F237&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+              - listitem [ref=f1e1588]:
+                - generic [ref=f1e1589]:
+                  - text: "Gackenheimer, Cory (October 2013), Node.js Recipes: A Problem-Solution Approach,"
+                  - link "Apress" [ref=f1e1590] [cursor=pointer]:
+                    - /url: //en.wikipedia.org/wiki/Apress
+                  - text: ","
+                  - link "ISBN" [ref=f1e1591] [cursor=pointer]:
+                    - /url: //en.wikipedia.org/wiki/ISBN_(identifier)
+                  - link "978-1-4302-6058-5" [ref=f1e1592] [cursor=pointer]:
+                    - /url: //en.wikipedia.org/wiki/Special:BookSources/978-1-4302-6058-5
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=Node.js+Recipes%3A+A+Problem-Solution+Approach&rft.pub=Apress&rft.date=2013-10&rft.isbn=978-1-4302-6058-5&rft.aulast=Gackenheimer&rft.aufirst=Cory&rfr_id=info%3Asid%2Fen.wikipedia.org%3ANode.js"
+          - region [ref=f1e1593]:
+            - generic [ref=f1e1594]:
+              - heading "External links" [level=2] [ref=f1e1595]
+              - generic [ref=f1e1596]:
+                - link "edit":
+                  - /url: /w/index.php?title=Node.js&action=edit&section=18
+            - generic [ref=f1e1598]:
+              - link [ref=f1e1601] [cursor=pointer]:
+                - /url: //en.wikipedia.org/wiki/File:Commons-logo.svg
+                - img "Wikimedia Commons logo" [ref=f1e1602]
+              - generic [ref=f1e1603]:
+                - text: Wikimedia Commons has media related to
+                - link "Node.js" [ref=f1e1605] [cursor=pointer]:
+                  - /url: https://commons.wikimedia.org/wiki/Category:Node.js
+                - text: .
+            - list [ref=f1e1606]:
+              - listitem [ref=f1e1607]:
+                - link "Official website" [ref=f1e1610] [cursor=pointer]:
+                  - /url: https://nodejs.org
+                - link [ref=f1e1612] [cursor=pointer]:
+                  - /url: https://www.wikidata.org/wiki/Q756100#P856
+                  - img "Edit this at Wikidata" [ref=f1e1613]
+            - navigation [ref=f1e1614]:
+              - table [ref=f1e1615]:
+                - rowgroup [ref=f1e1616]:
+                  - row [ref=f1e1617]:
+                    - columnheader [ref=f1e1618]:
+                      - button "[show]" [ref=f1e1619] [cursor=pointer]
+                      - list [ref=f1e1621]:
+                        - listitem [ref=f1e1622]:
+                          - link "v" [ref=f1e1623] [cursor=pointer]:
+                            - /url: //en.wikipedia.org/wiki/Template:NodeJs
+                          - text: ·
+                        - listitem [ref=f1e1624]:
+                          - link "t" [ref=f1e1625] [cursor=pointer]:
+                            - /url: //en.wikipedia.org/wiki/Template_talk:NodeJs
+                          - text: ·
+                        - listitem [ref=f1e1626]:
+                          - link "e" [ref=f1e1627] [cursor=pointer]:
+                            - /url: //en.wikipedia.org/wiki/Special:EditPage/Template:NodeJs
+                      - link "Node.js" [ref=f1e1629] [cursor=pointer]:
+                        - /url: //en.wikipedia.org/wiki/Node.js
+                  - row: · ·
+                  - row: · ·
+                  - row: ( · · ) · · · · · · · ·
+                  - row: · · ·
+                  - row: · · · · ( · · )
+            - navigation [ref=f1e1630]:
+              - table [ref=f1e1631]:
+                - rowgroup [ref=f1e1632]:
+                  - row [ref=f1e1633]:
+                    - columnheader [ref=f1e1634]:
+                      - button "[show]" [ref=f1e1635] [cursor=pointer]
+                      - list [ref=f1e1637]:
+                        - listitem [ref=f1e1638]:
+                          - link "v" [ref=f1e1639] [cursor=pointer]:
+                            - /url: //en.wikipedia.org/wiki/Template:JavaScript
+                          - text: ·
+                        - listitem [ref=f1e1640]:
+                          - link "t" [ref=f1e1641] [cursor=pointer]:
+                            - /url: //en.wikipedia.org/wiki/Template_talk:JavaScript
+                          - text: ·
+                        - listitem [ref=f1e1642]:
+                          - link "e" [ref=f1e1643] [cursor=pointer]:
+                            - /url: //en.wikipedia.org/wiki/Special:EditPage/Template:JavaScript
+                      - link "JavaScript" [ref=f1e1645] [cursor=pointer]:
+                        - /url: //en.wikipedia.org/wiki/JavaScript
+                  - row: · ·
+                  - row: · ·
+                  - row: · · · · · · · · · · · · · · · · ·
+                  - row: ·
+                  - row: · · ·
+                  - row
+                  - row: () · · ( · ) · · · () · · ·
+                  - row
+                  - row: ·
+                  - row: · · · · · () · · ·
+                  - row: · · ·
+                  - row: · · ·
+                  - row: · · · · ·
+                  - row: · ·
+                  - row: · · · ·
+                  - row: · ·
+            - navigation [ref=f1e1646]:
+              - table [ref=f1e1647]:
+                - rowgroup [ref=f1e1648]:
+                  - row [ref=f1e1649]:
+                    - columnheader [ref=f1e1650]:
+                      - button "[show]" [ref=f1e1651] [cursor=pointer]
+                      - generic [ref=f1e1652]:
+                        - link "Authority control databases" [ref=f1e1653] [cursor=pointer]:
+                          - /url: //en.wikipedia.org/wiki/Help:Authority_control
+                        - link [ref=f1e1655] [cursor=pointer]:
+                          - /url: https://www.wikidata.org/wiki/Q756100#identifiers
+                          - img "Edit this at Wikidata" [ref=f1e1656]
+                  - row: ·
+                  - row: · ·
+        - generic [ref=f1e1658]:
+          - link "Categories" [ref=f1e1659] [cursor=pointer]:
+            - /url: /wiki/Help:Category
+          - text: ":"
+          - list [ref=f1e1660]:
+            - listitem [ref=f1e1661]:
+              - link "2009 software" [ref=f1e1662] [cursor=pointer]:
+                - /url: /wiki/Category:2009_software
+            - listitem [ref=f1e1663]:
+              - link "Free software programmed in C++" [ref=f1e1664] [cursor=pointer]:
+                - /url: /wiki/Category:Free_software_programmed_in_C%2B%2B
+            - listitem [ref=f1e1665]:
+              - link "Free software programmed in JavaScript" [ref=f1e1666] [cursor=pointer]:
+                - /url: /wiki/Category:Free_software_programmed_in_JavaScript
+            - listitem [ref=f1e1667]:
+              - link "JavaScript libraries" [ref=f1e1668] [cursor=pointer]:
+                - /url: /wiki/Category:JavaScript_libraries
+            - listitem [ref=f1e1669]:
+              - link "Joyent" [ref=f1e1670] [cursor=pointer]:
+                - /url: /wiki/Category:Joyent
+            - listitem [ref=f1e1671]:
+              - link "Linux Foundation projects" [ref=f1e1672] [cursor=pointer]:
+                - /url: /wiki/Category:Linux_Foundation_projects
+            - listitem [ref=f1e1673]:
+              - link "Software using the MIT license" [ref=f1e1674] [cursor=pointer]:
+                - /url: /wiki/Category:Software_using_the_MIT_license
+            - listitem [ref=f1e1675]:
+              - link "Runtime systems" [ref=f1e1676] [cursor=pointer]:
+                - /url: /wiki/Category:Runtime_systems
+    - contentinfo [ref=f1e1678]:
+      - list [ref=f1e1679]:
+        - listitem [ref=f1e1680]: This page was last edited on 26 June 2026, at 13:41 (UTC).
+        - listitem [ref=f1e1681]:
+          - text: Page was rendered with
+          - link "Parsoid" [ref=f1e1682] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid
+          - text: .
+        - listitem [ref=f1e1683]:
+          - text: Text is available under the
+          - link "Creative Commons Attribution-ShareAlike 4.0 License" [ref=f1e1684] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+          - text: ; additional terms may apply. By using this site, you agree to the
+          - link "Terms of Use" [ref=f1e1685] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+          - text: and
+          - link "Privacy Policy" [ref=f1e1686] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+          - text: . Wikipedia® is a registered trademark of the
+          - link "Wikimedia Foundation, Inc." [ref=f1e1687] [cursor=pointer]:
+            - /url: https://wikimediafoundation.org/
+          - text: ", a non-profit organization."
+      - list:
+        - listitem [ref=f1e1688]:
+          - link "Privacy policy" [ref=f1e1689] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=f1e1690]:
+          - link "About Wikipedia" [ref=f1e1691] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:About
+        - listitem [ref=f1e1692]:
+          - link "Disclaimers" [ref=f1e1693] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:General_disclaimer
+        - listitem [ref=f1e1694]:
+          - link "Contact Wikipedia" [ref=f1e1695] [cursor=pointer]:
+            - /url: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+        - listitem [ref=f1e1696]:
+          - link "Legal & safety contacts" [ref=f1e1697] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+        - listitem [ref=f1e1698]:
+          - link "Code of Conduct" [ref=f1e1699] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=f1e1700]:
+          - link "Developers" [ref=f1e1701] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=f1e1702]:
+          - link "Statistics" [ref=f1e1703] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/en.wikipedia.org
+        - listitem [ref=f1e1704]:
+          - link "Cookie statement" [ref=f1e1705] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=f1e1706]:
+          - link "Mobile view" [ref=f1e1707] [cursor=pointer]:
+            - /url: //en.wikipedia.org/w/index.php?title=Node.js&mobileaction=toggle_view_mobile
+      - list [ref=f1e1708]:
+        - listitem [ref=f1e1709]:
+          - link [ref=f1e1710] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=f1e1712]
+        - listitem [ref=f1e1713]:
+          - link [ref=f1e1714] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=f1e1716]
+  - generic [ref=f1e1717]:
+    - list

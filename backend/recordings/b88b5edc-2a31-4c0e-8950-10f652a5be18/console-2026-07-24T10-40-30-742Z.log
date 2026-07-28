@@ -1,0 +1,51 @@
+[     440ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:40:5
+    at <anonymous>:41:7
+[     441ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:40:5
+    at <anonymous>:41:7
+[     688ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:40:5
+    at <anonymous>:41:7
+[     689ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:40:5
+    at <anonymous>:41:7
+[    2160ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:40:5
+    at <anonymous>:41:7
+[    2161ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:40:5
+    at <anonymous>:41:7
+[    8407ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:40:5
+    at <anonymous>:41:7
+[    8409ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:40:5
+    at <anonymous>:41:7
+[    8713ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:40:5
+    at <anonymous>:41:7
+[    8715ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:40:5
+    at <anonymous>:41:7
+[    9790ms] [ERROR] Loading the image 'https://match.adsrvr.org/track/cmf/generic?ttd_pid=stickyads&ttd_tpi=1&gdpr=0&gdpr_consent=' violates the following Content Security Policy directive: "default-src 'self' s.amazon-adsystem.com aax-eu.amazon-adsystem.com aax-fe.amazon-adsystem.com fonts.gstatic.com *.firefox.etp doubleclick.net *.stickyadstv.com *.g.doubleclick.net fout.jp ninthdecimal.com *.postrelease.com *.yahoo.com *.adnxs.com exelator.com richaudience.com *.presage.io samplicio.us *.rubiconproject.com semasio.net cm.g.doubleclick.net *.samba.tv presage.io yahoo.com *.loopme.me *.amazon-adsystem.com yahoo.net gumgum.com *.imdb.com google.com amazon-adsystem.com *.samplicio.us *.smartadserver.com loopme.me zeotap.com *.mediarithmics.com taboola.com *.bidswitch.net *.thisisdax.com *.fwmrm.net *.yahoo.net adscale.de *.ninthdecimal.com *.zeotap.com *.adscale.de fwmrm.net demdex.net *.scorecardresearch.com agkn.com *.kargo.com connatix.com *.dmxleo.com *.casalemedia.com bidswitch.net dmxleo.com imdb.com *.gumgum.com *.demdex.net *.ispot.tv *.google.com *.exelator.com *.pubmatic.com kargo.com scorecardresearch.com *.3lift.com thisisdax.com postrelease.com *.doubleclick.net stickyadstv.com yieldmo.com *.mookie1.com ispot.tv *.connatix.com *.agkn.com samba.tv pubmatic.com smartadserver.com s.amazon-adsystem.com/ecm3 *.match.360yield.com *.richaudience.com *.fout.jp casalemedia.com rubiconproject.com openx.net adnxs.com mookie1.com match.360yield.com *.taboola.com *.openx.net *.semasio.net *.yieldmo.com". Note that 'img-src' was not explicitly set, so 'default-src' is used as a fallback. The action has been blocked. @ https://s.amazon-adsystem.com/v3/pr?exlist=n-xr-HMT_n-id-HMT_n-nt-HMT_ns_n-eq-HMT3_n-ix-HMT_bsw_n-y-HMT_n-cx-HMT_n-dm2-HMT_n-dx-HMT2_n-zeotap-4_fw_imdb_n-fo-HMT_n-lucid_n-st-HMT1_n-samba.tv_n-rb-HMT3_n-fw-HMT1_n-og-HMT_adelphic_adb_mp_n-mediarithmics_g_n-comscr.com_n-lm-HMT3_ox_n-tl-HMT_n-semasio-ecm_n-kg-HMT_n-gg-HMT2_an_n-pm-HMT_n-g-hmt_nsln_nd_n-ispot_n-stroer-HMT_n-ym-HMT_n-ox-hmt_n-ex1-HMT_tbl&fv=1.0&a=cm&dmt=1&gdpr_consent=&ex-pl-n-g-hmt=RR0KXvQnSc604pSgzG04lQ&gdpr=0&ep=A8NshNTkv--4-heSKja7TbeRdWNFeaJLQm4oplNjCKTBirrE_D3fB-9vEp-35Xr2F4ny_6-iCNsZ991gGKlz2qV8qEeGXCM6v2yg7NPfZ6gmYdYkZwmLAomHHlhkaX64wDxG6onxmfI7T1YG52MiiZiFWJrMGZOpvmBGX3h70TvTYToGXVaF0bgwQpghLWqNUpYrsFzQW-0B3K6VdWftbFlpdZmqQUuVj49VcTFSucVOqRRJPUsk7Y8_C0u79DLY_hPbMWDkbzWw_Q0yxwy2uUV-_Ri5mgU5hwDSUv-yghfQJMQYh3vEZDbqIYT_LMMf8erXXNrwlCEkwHe0Czo-ofaiTlthVKusolsDIBY1zywHwgVFQP1grW_umnrU4bKmZiROj06qTYN6ar8pMyByQuXFMjVyLPc4ij8kgt_qc89ZTsFbCWmX_1c_1SjLjQJLhAhIepV2U28Zy36gcZ3W1-C1XaWslxWvGK1NXgQozyFQJi7DDIDR3vpgIkjyKLjHmx4ARWUa0BDa-kV9OClyd9tXsAxPD7U0Z9h5aoQS8IpDmwDsgZQN4Yq127fZaa4z0jhoLVhEaN3JMIQS2g_H8ydIh8kDXjxaH1iq9Z9242I1umezgxvs4Cl8QPoW8EJXLfBYuf7Lr9jlqfxsyCitDE2WBV79QEVqIxhJ2UtV_rTpuJ2em7P8YoSHLEdU7Vd5ITTYJ5IbE04oi25mGpivS02f85fh2np00hu6BvIBIFi-HyiDV9RBToCP2VEn7Qha5WQezSyge23R7YGgsu3CM5dswZKypamTyHQgQPQlhIalKpvziUScJtiOP-RD-Jp24BHwzdRUNq7UCPnC_sOK6NTFbNr79RcW_15pWp872Ksa4CnIltAypQ8YteFcaZCIQCiGrTYFEkgadXBqkXaOLEuFLvIlFLO7VhegUy_m73sjr_7DoOQ7yy2glQ2ZCh6UdaX4WVul1aqaGYhRNXTkuF-Jcpr9H831dL9Hz5uKzkEOvvEBBTD1uTQmjLOxCzGFMiS6LIa5r698r__0JyPz_i1gveyOtlIQ8wXzEbEl0MwNd8WPuM6LSloWfO8OuqxSFSer08rry5e-nNRcQio5LOj3mt2PAkWsrqDX_s3TRJ6FI25HvfDPaw8faqq2hzUFwVV6uWvsKIjOLvq9XIfZwwX9UsOQeexOBorV3vM-ixkPqDDzxBHtazMDw-ONAIlkA8xu4Q-QBmHvE9Ta2i4G-oKRsM72UiZN29ZnWe_dwOFPmyg91K37gW5uxTKtK-ahHhgkpDTlWQh2cS3oqUTPU1ImQU01NtY_FKqpMyTwmX2PYsH1T1mwNFK4a8a-A25esDDHzXySZmEoSEyACgYJxTDFNsguaSLSPWdyL1jx-t6CZ4YidjPk--8RA_7n1Tq-EWqruzWNbTTgmCK5q1Qu7TiziMWz5Parh2HdMA6JSitwq6i5kZYuyaicn5hSRnvh:0

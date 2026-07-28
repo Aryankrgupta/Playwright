@@ -1,0 +1,595 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - link "Skip to content" [ref=e6] [cursor=pointer]:
+      - /url: "#bbc-main"
+    - banner [ref=e8]:
+      - generic [ref=e9]:
+        - button "Open menu" [ref=e11] [cursor=pointer]
+        - link "British Broadcasting Corporation" [ref=e20] [cursor=pointer]:
+          - /url: /
+          - img "British Broadcasting Corporation" [ref=e21]
+        - generic [ref=e24]:
+          - link [ref=e26] [cursor=pointer]:
+            - /url: https://session.bbc.com/session?action=register&userOrigin=BBCS_BBC&ptrt=https%3A%2F%2Fwww.bbc.com%2Fnews
+            - button "Register" [ref=e27]
+          - link [ref=e30] [cursor=pointer]:
+            - /url: https://session.bbc.com/session?userOrigin=BBCS_BBC&ptrt=https%3A%2F%2Fwww.bbc.com%2Fnews
+            - button "Sign In" [ref=e31]
+    - navigation
+    - main [ref=e33]:
+      - article [ref=e34]:
+        - generic [ref=e37]:
+          - generic [ref=e973]: Advertisement
+          - iframe [ref=e977]:
+            - link [ref=f9e2] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjssb1jX2cT0xE0aUQoGrINHTjRxs3l8B4bxnuo5PfCHl8jY1mx2JgBpALuVbunUqDh7mfcB2JyidLCWrLjR-bF-dmPlQKtYaR-aSH54dF929vfuSUtEj-4iq-aIzVirH3ppwxGpz4iDED5YnFKX_xU4_vsl6csByl5MEb9nDqxiCX5gZQQLobgfuri1qOdWGJ5Et6JCyuXdgekBlMex-ZS63UIudJ7N0DeJmE8iI9IB6KTqhm9y8MwPuFaweOH22V3edda5px9NP6t8X_AdPjWaOR6k5824j9oki4mkImarXAPreOP_rm_H-Rza-C2Co39v-ba-2FbegX8-4FC0S-ytWwLLfjbyWp5xlyzGwncn03BD1rhYpAuZbhNcw0FO5ObJpzb5671X3PPXYUgy1GyT2gtDt7T95b5rEVsSADRLf87gtIbM&sai=AMfl-YQVgSUdIghjdO1bPLJfUkM534HaF7jY6fvEyC0jkJSHTCUyKUTGEG-TRrDqF0-OB-xKLpiyGLL_91M3UgYrwD8qoqiI4uvUvZYw69ExQV78B6w7Br7tEYpj0LGXRhNzx4e0380F2mqURIZMNbA6nFC__NrKrajTyBIiNTyvnEqBs3w7MkNiNvhMUvg143QJ0EkwY3z0SDkgEg4uCaq_D41wX3IQc5mKGtLrC_oftMhMa3nEoHjp9JlsPriR0iuXwmo_bcyJLUSqgi98yFCTcZV_0SMf-KC6PuFQTeCv7ygBUKHPmxdYJXAvwAfN5ZmcPtS1Jqt4TLNnSiEPle46AG3G5z9DA0UyMlW9ez1kxel8dhCDupZWGp4EhluXlIh5F2vJpGQ8oah_fWpYOUJk9DsIJXU39_eEh-Qhm3lI1pDHelD_&sig=Cg0ArKJSzOK1xDJAa3Ph&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://cloud.email.bbc.com/SignUp10_08%3F%26at_bbc_team%3D%26at_medium%3Ddisplay%26at_objective%3Dacquisition%26at_ptr_type%3D%26at_ptr_name%3Dbbc.com%26at_format%3Dbanner%26at_link_origin%3D%26at_campaign%3Dessentiallist%26at_campaign_id%3D%26at_adset_name%3D%26at_adset_id%3D%26at_creation%3D%26at_creative_id%3D%26at_campaign_type%3Downed
+        - heading [level=1] [ref=e41]:
+          - img "News" [ref=e42]
+        - generic [ref=e46]:
+          - generic [ref=e49]:
+            - link [ref=e53] [cursor=pointer]:
+              - /url: https://www.bbc.com/news/live/cgrkv8e8l9qt
+              - img "Burnham Healey" [ref=e55]
+            - link "LIVE John Healey appointed chancellor as Andy Burnham picks cabinet Healey, who replaces Rachel Reeves, resigned as Keir Starmer's defence secretary last month following a row over defence spending." [ref=e59] [cursor=pointer]:
+              - /url: https://www.bbc.com/news/live/cgrkv8e8l9qt
+              - generic [ref=e60]:
+                - generic [ref=e62]:
+                  - generic [ref=e63]: LIVE
+                  - heading "John Healey appointed chancellor as Andy Burnham picks cabinet" [level=2] [ref=e68]
+                - paragraph [ref=e69]: Healey, who replaces Rachel Reeves, resigned as Keir Starmer's defence secretary last month following a row over defence spending.
+          - generic [ref=e72]:
+            - link "Activists and supporters of the Cockroach Janta Party (CJP) take part in a protest demanding the resignation of India's Education Minister Dharmendra Pradhan over alleged NEET examination irregularities in New Delhi on July 20, 2026 Police block thousands of 'cockroach' protesters marching on India's parliament Some protesters demanding education reforms said they were injured in clashes with police who banned the march. 1 hr ago Asia" [ref=e76] [cursor=pointer]:
+              - /url: /news/articles/cvg9w9dxd7lo
+              - generic [ref=e77]:
+                - img "Activists and supporters of the Cockroach Janta Party (CJP) take part in a protest demanding the resignation of India's Education Minister Dharmendra Pradhan over alleged NEET examination irregularities in New Delhi on July 20, 2026" [ref=e81]
+                - generic [ref=e82]:
+                  - heading "Police block thousands of 'cockroach' protesters marching on India's parliament" [level=2] [ref=e85]
+                  - paragraph [ref=e86]: Some protesters demanding education reforms said they were injured in clashes with police who banned the march.
+                  - generic [ref=e87]:
+                    - generic [ref=e88]: 1 hr ago
+                    - generic: Asia
+            - link "Notorious drug cartel leader Ismael Zambada sentenced to life in US prison Known as \"El Mayo\", the co-founder the Sinaloa Cartel was also ordered to pay $15bn after he admitted to sending vast amounts of drugs to the US. 19 mins ago World" [ref=e93] [cursor=pointer]:
+              - /url: /news/articles/ce3q1d1ed5do
+              - generic [ref=e95]:
+                - heading "Notorious drug cartel leader Ismael Zambada sentenced to life in US prison" [level=2] [ref=e98]
+                - paragraph [ref=e99]: Known as "El Mayo", the co-founder the Sinaloa Cartel was also ordered to pay $15bn after he admitted to sending vast amounts of drugs to the US.
+                - generic [ref=e100]:
+                  - generic [ref=e101]: 19 mins ago
+                  - generic: World
+            - link "Food delivery rider wins China's top literary prize Wang Jibing is among blue-collar Chinese workers gaining wider attention for their literary works. 14 hrs ago Asia" [ref=e106] [cursor=pointer]:
+              - /url: /news/articles/c5ydr3xd0kvo
+              - generic [ref=e108]:
+                - heading "Food delivery rider wins China's top literary prize" [level=2] [ref=e111]
+                - paragraph [ref=e112]: Wang Jibing is among blue-collar Chinese workers gaining wider attention for their literary works.
+                - generic [ref=e113]:
+                  - generic [ref=e114]: 14 hrs ago
+                  - generic: Asia
+          - generic [ref=e117]:
+            - link "Security force personnel wield batons against demonstrators at a protest site during a planned march by supporters of India's Cockroach Janta Party towards parliament on the opening day of its monsoon session, demanding the resignation of Education Minister Dharmendra Pradhan over exam paper leaks near Jantar Mantar, New Delhi, India, July 20, 2026. Why are thousands of people protesting in Delhi? Thousands of mostly young people tried to march on India's parliament to demand changes to how the education system is run. 5 hrs ago Asia" [ref=e121] [cursor=pointer]:
+              - /url: /news/articles/cedj9j911p8o
+              - generic [ref=e122]:
+                - img "Security force personnel wield batons against demonstrators at a protest site during a planned march by supporters of India's Cockroach Janta Party towards parliament on the opening day of its monsoon session, demanding the resignation of Education Minister Dharmendra Pradhan over exam paper leaks near Jantar Mantar, New Delhi, India, July 20, 2026." [ref=e126]
+                - generic [ref=e127]:
+                  - heading "Why are thousands of people protesting in Delhi?" [level=2] [ref=e130]
+                  - paragraph [ref=e131]: Thousands of mostly young people tried to march on India's parliament to demand changes to how the education system is run.
+                  - generic [ref=e132]:
+                    - generic [ref=e133]: 5 hrs ago
+                    - generic: Asia
+            - 'link "Split screen image. Keir Starmer on the left, .Andy Burnham on the right, both while they''re speaking in front of number 10. Watch: Starmer resigns, Burnham becomes PM... the day so far Andy Burnham has become the UK''s prime minister after being appointed by the King at Buckingham Palace. 5 hrs ago Politics" [ref=e138] [cursor=pointer]':
+              - /url: /news/videos/cd0xgxgz135o
+              - generic [ref=e139]:
+                - img "Split screen image. Keir Starmer on the left, .Andy Burnham on the right, both while they're speaking in front of number 10." [ref=e143]
+                - generic [ref=e148]:
+                  - 'heading "Watch: Starmer resigns, Burnham becomes PM... the day so far" [level=2] [ref=e151]'
+                  - paragraph [ref=e152]: Andy Burnham has become the UK's prime minister after being appointed by the King at Buckingham Palace.
+                  - generic [ref=e153]:
+                    - generic [ref=e154]: 5 hrs ago
+                    - generic: Politics
+            - link "A burning merchant ship Ten killed as Russian attacks on merchant ships in Black Sea intensify Russian strikes on the Odesa region have killed 28 people in July alone, local authorities say. 2 hrs ago Europe" [ref=e159] [cursor=pointer]:
+              - /url: /news/articles/c4gvpv3ewv2o
+              - generic [ref=e160]:
+                - img "A burning merchant ship" [ref=e164]
+                - generic [ref=e165]:
+                  - heading "Ten killed as Russian attacks on merchant ships in Black Sea intensify" [level=2] [ref=e168]
+                  - paragraph [ref=e169]: Russian strikes on the Odesa region have killed 28 people in July alone, local authorities say.
+                  - generic [ref=e170]:
+                    - generic [ref=e171]: 2 hrs ago
+                    - generic: Europe
+            - link "Kevin Keegan Kevin Keegan, Liverpool footballer who managed England and Newcastle United, dies aged 75 The former England captain and manager revealed seven weeks ago that he had been diagnosed with stage four cancer. 3 hrs ago England Men" [ref=e176] [cursor=pointer]:
+              - /url: /sport/football/articles/c2lyl82n2e2o
+              - generic [ref=e177]:
+                - img "Kevin Keegan" [ref=e181]
+                - generic [ref=e182]:
+                  - heading "Kevin Keegan, Liverpool footballer who managed England and Newcastle United, dies aged 75" [level=2] [ref=e185]
+                  - paragraph [ref=e186]: The former England captain and manager revealed seven weeks ago that he had been diagnosed with stage four cancer.
+                  - generic [ref=e187]:
+                    - generic [ref=e188]: 3 hrs ago
+                    - generic: England Men
+        - generic [ref=e192]:
+          - link [ref=e195] [cursor=pointer]:
+            - /url: /news/articles/cx2jnj3428lo
+            - heading "Rare identical quadruplets born in Australia" [level=2] [ref=e199]
+          - link [ref=e202] [cursor=pointer]:
+            - /url: /news/articles/c89nvnklkpdo
+            - heading "Lamine Yamal celebrates World Cup win with little brother who charmed fans" [level=2] [ref=e206]
+          - link [ref=e209] [cursor=pointer]:
+            - /url: /news/articles/cr7k5ngde3vo
+            - 'heading "‘Everyone''s afraid to die’: Struggle to recruit soldiers in Ukraine turns violent" [level=2] [ref=e213]'
+          - link [ref=e216] [cursor=pointer]:
+            - /url: /news/articles/cm2gm99nrm7o
+            - heading "Scores feared dead after passenger ferry capsizes off Guyana" [level=2] [ref=e220]
+          - link [ref=e223] [cursor=pointer]:
+            - /url: /news/articles/cx25nzkyj50o
+            - heading "Hamas names Khalil al-Hayya as new overall leader" [level=2] [ref=e227]
+        - generic [ref=e229]:
+          - generic [ref=e230]:
+            - separator [ref=e232]
+            - heading "World Cup 2026" [level=2] [ref=e235]
+          - generic [ref=e236]:
+            - link [ref=e239] [cursor=pointer]:
+              - /url: https://www.bbc.co.uk/news/resources/idt-59f97f17-4336-44e6-9cd5-b320e12c3d97
+              - generic [ref=e240]:
+                - img "Yamal and his brother fist bump" [ref=e244]
+                - generic [ref=e245]:
+                  - 'heading "In pictures: World Cup moments that stunned, shocked and melted hearts" [level=2] [ref=e248]'
+                  - paragraph [ref=e249]: From incredible goals and devastating misses to a certain little brother, World Cup 2026 produced many memorable moments.
+            - link [ref=e252] [cursor=pointer]:
+              - /url: /sport/football/articles/cly7ley50g9o
+              - generic [ref=e253]:
+                - img "FIFA president Gianni Infantino holds the FIFA World Cup trophy" [ref=e257]
+                - generic [ref=e258]:
+                  - heading "Could Infantino really push through a 64-team World Cup?" [level=2] [ref=e261]
+                  - paragraph [ref=e262]: If we have learned one thing from Gianni Infantino's Fifa tenure, it is that more is better. That could mean 64 teams at the World Cup.
+            - link [ref=e265] [cursor=pointer]:
+              - /url: /sport/football/articles/cdxd1pq4nrko
+              - generic [ref=e266]:
+                - img "Jude Bellingham, Vozinha, Kylian Mbappe and Lionel Messi" [ref=e270]
+                - generic [ref=e271]:
+                  - heading "Best goal, best player, best fans - BBC reporters' World Cup awards" [level=2] [ref=e274]
+                  - paragraph [ref=e275]: BBC Sport reporters pick their best moments of the tournament - and you can vote for yours.
+            - link [ref=e278] [cursor=pointer]:
+              - /url: /sport/football/articles/cwyq1ew4830o
+              - generic [ref=e279]:
+                - img "Jude Bellingham and David Beckham" [ref=e283]
+                - generic [ref=e284]:
+                  - heading "Why Beckham was face of World Cup in the US" [level=2] [ref=e287]
+                  - paragraph [ref=e288]: After arriving in Los Angeles 19 years ago promising to grow the game, David Beckham is still helping sell football to America.
+        - generic [ref=e290]:
+          - generic [ref=e294]:
+            - separator [ref=e296]
+            - heading "More to explore" [level=2] [ref=e299]
+          - generic [ref=e301]:
+            - generic [ref=e304]:
+              - link [ref=e308] [cursor=pointer]:
+                - /url: /news/videos/c0qvdywj97ko
+                - generic [ref=e309]:
+                  - img "image unavailable" [ref=e310]
+                  - img "BBC's Azadeh Moshiri at protest site" [ref=e311]
+              - 'link "From hundreds to thousands: How India''s ''cockroach'' protest movement has grown BBC''s Azadeh Moshiri reports as thousands attempt to march to India''s parliament in support of the Cockroach Janta Party''s demand for education reforms. 9 hrs ago Asia" [ref=e319] [cursor=pointer]':
+                - /url: /news/videos/c0qvdywj97ko
+                - generic [ref=e320]:
+                  - 'heading "From hundreds to thousands: How India''s ''cockroach'' protest movement has grown" [level=2] [ref=e323]'
+                  - paragraph [ref=e324]: BBC's Azadeh Moshiri reports as thousands attempt to march to India's parliament in support of the Cockroach Janta Party's demand for education reforms.
+                  - generic [ref=e325]:
+                    - generic [ref=e326]: 9 hrs ago
+                    - generic: Asia
+            - generic [ref=e329]:
+              - link "image unavailable Tristan (left) and Andrew Tate speaking to members of the media in March 2025. Will the Tate brothers be extradited from the US to the UK? Andrew and Tristan Tate are set to face extradition proceedings in the US as British prosecutors issued 38 new charges against the brothers. 3 hrs ago US & Canada" [ref=e333] [cursor=pointer]:
+                - /url: /news/articles/cjej0j0lzkno
+                - generic [ref=e334]:
+                  - generic [ref=e337]:
+                    - img "image unavailable" [ref=e338]
+                    - img "Tristan (left) and Andrew Tate speaking to members of the media in March 2025." [ref=e339]
+                  - generic [ref=e340]:
+                    - heading "Will the Tate brothers be extradited from the US to the UK?" [level=2] [ref=e343]
+                    - paragraph [ref=e344]: Andrew and Tristan Tate are set to face extradition proceedings in the US as British prosecutors issued 38 new charges against the brothers.
+                    - generic [ref=e345]:
+                      - generic [ref=e346]: 3 hrs ago
+                      - generic: US & Canada
+              - 'link "‘All I think about is her’: Families demand answers as Nigeria''s boat disasters keep happening Hundreds of lives are lost each year in Nigeria as a result of boat accidents yet nothing seems to change. 25 mins ago Africa" [ref=e351] [cursor=pointer]':
+                - /url: /news/articles/c309vzn676go
+                - generic [ref=e353]:
+                  - 'heading "‘All I think about is her’: Families demand answers as Nigeria''s boat disasters keep happening" [level=2] [ref=e356]'
+                  - paragraph [ref=e357]: Hundreds of lives are lost each year in Nigeria as a result of boat accidents yet nothing seems to change.
+                  - generic [ref=e358]:
+                    - generic [ref=e359]: 25 mins ago
+                    - generic: Africa
+              - link "This farmer wanted to quit the cocaine industry - he couldn't Colombians who grow cocaine's raw material bemoan a lack of support to help them switch crops. 18 hrs ago Latin America" [ref=e364] [cursor=pointer]:
+                - /url: /news/articles/c0kyml1zxz4o
+                - generic [ref=e366]:
+                  - heading "This farmer wanted to quit the cocaine industry - he couldn't" [level=2] [ref=e369]
+                  - paragraph [ref=e370]: Colombians who grow cocaine's raw material bemoan a lack of support to help them switch crops.
+                  - generic [ref=e371]:
+                    - generic [ref=e372]: 18 hrs ago
+                    - generic: Latin America
+            - generic [ref=e375]:
+              - 'link "image unavailable Kevin Keegan posing for a photo inside St James'' Park, with the Newcastle United lettering on the East Stand behind him Kevin Keegan: From superstar footballer to elite manager Keegan, who has died aged 75, was one of football''s most charismatic and influential figures in a career of many chapters. 3 hrs ago England Men" [ref=e379] [cursor=pointer]':
+                - /url: /sport/football/articles/c20z4d87vp3o
+                - generic [ref=e380]:
+                  - generic [ref=e383]:
+                    - img "image unavailable" [ref=e384]
+                    - img "Kevin Keegan posing for a photo inside St James' Park, with the Newcastle United lettering on the East Stand behind him" [ref=e385]
+                  - generic [ref=e386]:
+                    - 'heading "Kevin Keegan: From superstar footballer to elite manager" [level=2] [ref=e389]'
+                    - paragraph [ref=e390]: Keegan, who has died aged 75, was one of football's most charismatic and influential figures in a career of many chapters.
+                    - generic [ref=e391]:
+                      - generic [ref=e392]: 3 hrs ago
+                      - generic: England Men
+              - link "image unavailable Closeup of a finished Ganpati idol India's Ganesh idol makers count the cost of devastating floods Weeks before the Ganesh Chaturthi festival, floods washed away months of work for idol makers in Maharashtra. 2 days ago Asia" [ref=e397] [cursor=pointer]:
+                - /url: /news/articles/cp8r850e7z1o
+                - generic [ref=e398]:
+                  - generic [ref=e401]:
+                    - img "image unavailable" [ref=e402]
+                    - img "Closeup of a finished Ganpati idol" [ref=e403]
+                  - generic [ref=e404]:
+                    - heading "India's Ganesh idol makers count the cost of devastating floods" [level=2] [ref=e407]
+                    - paragraph [ref=e408]: Weeks before the Ganesh Chaturthi festival, floods washed away months of work for idol makers in Maharashtra.
+                    - generic [ref=e409]:
+                      - generic [ref=e410]: 2 days ago
+                      - generic: Asia
+              - link "image unavailable Ravika sitting in a restaurant, pictured head and shoulders looking directly at the camera. She has her hair tied up and is wearing a black off-the-shoulder dress. My fitness tracker knew I was pregnant before I did Ravika is one of hundreds of women who are noticing early pregnancy signs through the data on their fitness trackers. 19 hrs ago Health" [ref=e415] [cursor=pointer]:
+                - /url: /news/articles/cr474z1qyn6o
+                - generic [ref=e416]:
+                  - generic [ref=e419]:
+                    - img "image unavailable" [ref=e420]
+                    - img "Ravika sitting in a restaurant, pictured head and shoulders looking directly at the camera. She has her hair tied up and is wearing a black off-the-shoulder dress." [ref=e421]
+                  - generic [ref=e422]:
+                    - heading "My fitness tracker knew I was pregnant before I did" [level=2] [ref=e425]
+                    - paragraph [ref=e426]: Ravika is one of hundreds of women who are noticing early pregnancy signs through the data on their fitness trackers.
+                    - generic [ref=e427]:
+                      - generic [ref=e428]: 19 hrs ago
+                      - generic: Health
+              - link "Security force personnel wield batons against demonstrators at a protest site during a planned march by supporters of India's Cockroach Janta Party towards parliament on the opening day of its monsoon session, demanding the resignation of Education Minister Dharmendra Pradhan over exam paper leaks near Jantar Mantar, New Delhi, India, July 20, 2026. Why are thousands of people protesting in Delhi? Thousands of mostly young people tried to march on India's parliament to demand changes to how the education system is run. 5 hrs ago Asia" [ref=e433] [cursor=pointer]:
+                - /url: /news/articles/cedj9j911p8o
+                - generic [ref=e434]:
+                  - img "Security force personnel wield batons against demonstrators at a protest site during a planned march by supporters of India's Cockroach Janta Party towards parliament on the opening day of its monsoon session, demanding the resignation of Education Minister Dharmendra Pradhan over exam paper leaks near Jantar Mantar, New Delhi, India, July 20, 2026." [ref=e438]
+                  - generic [ref=e439]:
+                    - heading "Why are thousands of people protesting in Delhi?" [level=2] [ref=e442]
+                    - paragraph [ref=e443]: Thousands of mostly young people tried to march on India's parliament to demand changes to how the education system is run.
+                    - generic [ref=e444]:
+                      - generic [ref=e445]: 5 hrs ago
+                      - generic: Asia
+        - generic [ref=e448]:
+          - generic [ref=e449]:
+            - separator [ref=e451]
+            - heading "Most watched" [level=2] [ref=e454]
+          - generic [ref=e455]:
+            - 'link "1 Watch: Starmer resigns, Burnham becomes PM... the day so far" [ref=e458] [cursor=pointer]':
+              - /url: /news/videos/cd0xgxgz135o
+              - generic [ref=e459]:
+                - generic [ref=e460]: "1"
+                - 'heading "Watch: Starmer resigns, Burnham becomes PM... the day so far" [level=2] [ref=e466]'
+            - 'link "2 From hundreds to thousands: How India''s ''cockroach'' protest movement has grown" [ref=e469] [cursor=pointer]':
+              - /url: /news/videos/c0qvdywj97ko
+              - generic [ref=e470]:
+                - generic [ref=e471]: "2"
+                - 'heading "From hundreds to thousands: How India''s ''cockroach'' protest movement has grown" [level=2] [ref=e477]'
+            - link "3 Moment fans in Madrid celebrate World Cup win" [ref=e480] [cursor=pointer]:
+              - /url: /news/videos/cgr701xrg14o
+              - generic [ref=e481]:
+                - generic [ref=e482]: "3"
+                - heading "Moment fans in Madrid celebrate World Cup win" [level=2] [ref=e488]
+            - 'link "4 Former porn star: ''I got death threats from IS''" [ref=e491] [cursor=pointer]':
+              - /url: /news/uk-england-norfolk-43850228
+              - generic [ref=e492]:
+                - generic [ref=e493]: "4"
+                - 'heading "Former porn star: ''I got death threats from IS''" [level=2] [ref=e499]'
+            - link "5 'A circuit-breaker moment' - Watch Andy Burnham's first speech as PM in full" [ref=e502] [cursor=pointer]:
+              - /url: /news/videos/c934q2kkkvxo
+              - generic [ref=e503]:
+                - generic [ref=e504]: "5"
+                - heading "'A circuit-breaker moment' - Watch Andy Burnham's first speech as PM in full" [level=2] [ref=e510]
+        - generic [ref=e512]:
+          - generic [ref=e516]:
+            - separator [ref=e518]
+            - heading "Also in news" [level=2] [ref=e521]
+          - generic [ref=e523]:
+            - generic [ref=e526]:
+              - link [ref=e530] [cursor=pointer]:
+                - /url: /news/articles/c4gyyx2zg59o
+                - generic [ref=e531]:
+                  - img "image unavailable" [ref=e532]
+                  - img "A groom dressed in a dark suit and a bride dressed in white walk hand in hand along a sunlit grassy path, surrounded by tall green trees. Bright sunlight filters through the leaves. A large green Channel 4 logo sits to the left." [ref=e533]
+              - link "Broadcasting regulator launches investigation into Married at First Sight UK In May, BBC Panorama revealed rape allegations from two women on the show, which the men involved deny. 4 hrs ago Culture" [ref=e537] [cursor=pointer]:
+                - /url: /news/articles/c4gyyx2zg59o
+                - generic [ref=e538]:
+                  - heading "Broadcasting regulator launches investigation into Married at First Sight UK" [level=2] [ref=e541]
+                  - paragraph [ref=e542]: In May, BBC Panorama revealed rape allegations from two women on the show, which the men involved deny.
+                  - generic [ref=e543]:
+                    - generic [ref=e544]: 4 hrs ago
+                    - generic: Culture
+            - generic [ref=e547]:
+              - link "image unavailable Power plant workers in action at a site in Nigeria. West Africa signs off $25bn mega gas-pipeline plan A 6,000km pipeline running along the Atlantic coast of 14 countries is to be built starting in 2028. 2 hrs ago World" [ref=e551] [cursor=pointer]:
+                - /url: /news/articles/cwyr5rpglngo
+                - generic [ref=e552]:
+                  - generic [ref=e555]:
+                    - img "image unavailable" [ref=e556]
+                    - img "Power plant workers in action at a site in Nigeria." [ref=e557]
+                  - generic [ref=e558]:
+                    - heading "West Africa signs off $25bn mega gas-pipeline plan" [level=2] [ref=e561]
+                    - paragraph [ref=e562]: A 6,000km pipeline running along the Atlantic coast of 14 countries is to be built starting in 2028.
+                    - generic [ref=e563]:
+                      - generic [ref=e564]: 2 hrs ago
+                      - generic: World
+              - link "image unavailable An iPhone open on the App Store page for the AliExpress app. AliExpress fined record €550m by EU for allowing sale of illegal goods The Chinese retailer allowed unsafe toys and counterfeit clothes to be sold on its site, says the EU. 2 hrs ago Europe" [ref=e569] [cursor=pointer]:
+                - /url: /news/articles/cp8714286dpo
+                - generic [ref=e570]:
+                  - generic [ref=e573]:
+                    - img "image unavailable" [ref=e574]
+                    - img "An iPhone open on the App Store page for the AliExpress app." [ref=e575]
+                  - generic [ref=e576]:
+                    - heading "AliExpress fined record €550m by EU for allowing sale of illegal goods" [level=2] [ref=e579]
+                    - paragraph [ref=e580]: The Chinese retailer allowed unsafe toys and counterfeit clothes to be sold on its site, says the EU.
+                    - generic [ref=e581]:
+                      - generic [ref=e582]: 2 hrs ago
+                      - generic: Europe
+            - link "image unavailable JD Vance and his wife Usha Vance disembark from an aircraft and smile at each other JD Vance says wife Usha and son 'happy and healthy' after birth of fourth child The couple welcomed their fourth child, Alec Neel Vance, on Sunday morning. 6 hrs ago US & Canada" [ref=e587] [cursor=pointer]:
+              - /url: /news/articles/cj63kngxpxpo
+              - generic [ref=e588]:
+                - generic [ref=e591]:
+                  - img "image unavailable" [ref=e592]
+                  - img "JD Vance and his wife Usha Vance disembark from an aircraft and smile at each other" [ref=e593]
+                - generic [ref=e594]:
+                  - heading "JD Vance says wife Usha and son 'happy and healthy' after birth of fourth child" [level=2] [ref=e597]
+                  - paragraph [ref=e598]: The couple welcomed their fourth child, Alec Neel Vance, on Sunday morning.
+                  - generic [ref=e599]:
+                    - generic [ref=e600]: 6 hrs ago
+                    - generic: US & Canada
+            - link "Wang Jibing in an orange polo shirt smiling at the camera Food delivery rider wins China's top literary prize Wang Jibing is among blue-collar Chinese workers gaining wider attention for their literary works. 14 hrs ago Asia" [ref=e605] [cursor=pointer]:
+              - /url: /news/articles/c5ydr3xd0kvo
+              - generic [ref=e606]:
+                - img "Wang Jibing in an orange polo shirt smiling at the camera" [ref=e610]
+                - generic [ref=e611]:
+                  - heading "Food delivery rider wins China's top literary prize" [level=2] [ref=e614]
+                  - paragraph [ref=e615]: Wang Jibing is among blue-collar Chinese workers gaining wider attention for their literary works.
+                  - generic [ref=e616]:
+                    - generic [ref=e617]: 14 hrs ago
+                    - generic: Asia
+        - generic [ref=e620]:
+          - generic [ref=e621]:
+            - separator [ref=e623]
+            - heading "Most read" [level=2] [ref=e626]
+          - generic [ref=e627]:
+            - link "1 Police block thousands of 'cockroach' protesters marching on India's parliament" [ref=e630] [cursor=pointer]:
+              - /url: /news/articles/cvg9w9dxd7lo
+              - generic [ref=e631]:
+                - generic [ref=e632]: "1"
+                - heading "Police block thousands of 'cockroach' protesters marching on India's parliament" [level=2] [ref=e635]
+            - link "2 Why are thousands of people protesting in Delhi?" [ref=e638] [cursor=pointer]:
+              - /url: /news/articles/cedj9j911p8o
+              - generic [ref=e639]:
+                - generic [ref=e640]: "2"
+                - heading "Why are thousands of people protesting in Delhi?" [level=2] [ref=e643]
+            - link "3 Ten killed as Russian attacks on merchant ships in Black Sea intensify" [ref=e646] [cursor=pointer]:
+              - /url: /news/articles/c4gvpv3ewv2o
+              - generic [ref=e647]:
+                - generic [ref=e648]: "3"
+                - heading "Ten killed as Russian attacks on merchant ships in Black Sea intensify" [level=2] [ref=e651]
+            - link "4 Lamine Yamal celebrates World Cup win with little brother who charmed fans" [ref=e654] [cursor=pointer]:
+              - /url: /news/articles/c89nvnklkpdo
+              - generic [ref=e655]:
+                - generic [ref=e656]: "4"
+                - heading "Lamine Yamal celebrates World Cup win with little brother who charmed fans" [level=2] [ref=e659]
+            - link "5 Rare identical quadruplets born in Australia" [ref=e662] [cursor=pointer]:
+              - /url: /news/articles/cx2jnj3428lo
+              - generic [ref=e663]:
+                - generic [ref=e664]: "5"
+                - heading "Rare identical quadruplets born in Australia" [level=2] [ref=e667]
+            - link "6 The hunger-striking engineer demanding education reforms in India" [ref=e670] [cursor=pointer]:
+              - /url: /news/articles/cq562x2zlw4o
+              - generic [ref=e671]:
+                - generic [ref=e672]: "6"
+                - heading "The hunger-striking engineer demanding education reforms in India" [level=2] [ref=e675]
+            - link "7 Notorious drug cartel leader Ismael Zambada sentenced to life in US prison" [ref=e678] [cursor=pointer]:
+              - /url: /news/articles/ce3q1d1ed5do
+              - generic [ref=e679]:
+                - generic [ref=e680]: "7"
+                - heading "Notorious drug cartel leader Ismael Zambada sentenced to life in US prison" [level=2] [ref=e683]
+            - link "8 India's cockroach protesters set to march to parliament" [ref=e686] [cursor=pointer]:
+              - /url: /news/articles/c0l58lw089no
+              - generic [ref=e687]:
+                - generic [ref=e688]: "8"
+                - heading "India's cockroach protesters set to march to parliament" [level=2] [ref=e691]
+            - link "9 My fitness tracker knew I was pregnant before I did" [ref=e694] [cursor=pointer]:
+              - /url: /news/articles/cr474z1qyn6o
+              - generic [ref=e695]:
+                - generic [ref=e696]: "9"
+                - heading "My fitness tracker knew I was pregnant before I did" [level=2] [ref=e699]
+            - link "10 JD Vance says wife Usha and son 'happy and healthy' after birth of fourth child" [ref=e702] [cursor=pointer]:
+              - /url: /news/articles/cj63kngxpxpo
+              - generic [ref=e703]:
+                - generic [ref=e704]: "10"
+                - heading "JD Vance says wife Usha and son 'happy and healthy' after birth of fourth child" [level=2] [ref=e707]
+        - generic [ref=e709]:
+          - generic [ref=e713]:
+            - separator [ref=e715]
+            - heading "Sport" [level=2] [ref=e718]
+          - generic [ref=e720]:
+            - generic [ref=e723]:
+              - link [ref=e727] [cursor=pointer]:
+                - /url: /sport/football/articles/c20z4d87vp3o
+                - generic [ref=e728]:
+                  - img "image unavailable" [ref=e729]
+                  - img "Kevin Keegan posing for a photo inside St James' Park, with the Newcastle United lettering on the East Stand behind him" [ref=e730]
+              - link "Gifted, charismatic and passionate amid highs and lows - Keegan obituary The positivity and vibrancy Kevin Keegan brought made him a cherished figure within the game, writes chief football writer Phil McNulty. 3 hrs ago England Men" [ref=e734] [cursor=pointer]:
+                - /url: /sport/football/articles/c20z4d87vp3o
+                - generic [ref=e735]:
+                  - heading "Gifted, charismatic and passionate amid highs and lows - Keegan obituary" [level=2] [ref=e738]
+                  - paragraph [ref=e739]: The positivity and vibrancy Kevin Keegan brought made him a cherished figure within the game, writes chief football writer Phil McNulty.
+                  - generic [ref=e740]:
+                    - generic [ref=e741]: 3 hrs ago
+                    - generic: England Men
+            - generic [ref=e744]:
+              - link "image unavailable Rodri kisses Golden Ball at World Cup Rodri's stock at all-time high as he adds to trophy collection Rodri cements status as one of the world's best midfielders after World Cup and Golden Ball triumphs. 2 hrs ago World Cup" [ref=e748] [cursor=pointer]:
+                - /url: /sport/football/articles/cj03j6yzq20o
+                - generic [ref=e749]:
+                  - generic [ref=e752]:
+                    - img "image unavailable" [ref=e753]
+                    - img "Rodri kisses Golden Ball at World Cup" [ref=e754]
+                  - generic [ref=e755]:
+                    - heading "Rodri's stock at all-time high as he adds to trophy collection" [level=2] [ref=e758]
+                    - paragraph [ref=e759]: Rodri cements status as one of the world's best midfielders after World Cup and Golden Ball triumphs.
+                    - generic [ref=e760]:
+                      - generic [ref=e761]: 2 hrs ago
+                      - generic: World Cup
+              - link "Are England finally improving in ODI cricket? After beating India 2-1, BBC Sport asks if England are finally building momentum one year out from the World Cup. 1 hr ago England" [ref=e766] [cursor=pointer]:
+                - /url: /sport/cricket/articles/cq5626gq3gdo
+                - generic [ref=e768]:
+                  - heading "Are England finally improving in ODI cricket?" [level=2] [ref=e771]
+                  - paragraph [ref=e772]: After beating India 2-1, BBC Sport asks if England are finally building momentum one year out from the World Cup.
+                  - generic [ref=e773]:
+                    - generic [ref=e774]: 1 hr ago
+                    - generic: England
+              - link "Thank you for making this a World Cup to remember on the BBC BBC Director of Sport Alex Kay-Jelski's message as BBC Sport delivers a record-breaking World Cup across TV, radio, online and social. 49 mins ago World Cup" [ref=e779] [cursor=pointer]:
+                - /url: /sport/articles/c1l1g3pjl3yo
+                - generic [ref=e781]:
+                  - heading "Thank you for making this a World Cup to remember on the BBC" [level=2] [ref=e784]
+                  - paragraph [ref=e785]: BBC Director of Sport Alex Kay-Jelski's message as BBC Sport delivers a record-breaking World Cup across TV, radio, online and social.
+                  - generic [ref=e786]:
+                    - generic [ref=e787]: 49 mins ago
+                    - generic: World Cup
+            - link "image unavailable Morgan Rogers stood with his hands on his hips before playing for England against France What will Rogers bring to Alonso's Chelsea? Chelsea's £117m move for Aston Villa forward Morgan Rogers is a genuine transfer window shock, but how did they do it and what does it mean for the rest of the squad? 3 hrs ago" [ref=e792] [cursor=pointer]:
+              - /url: /sport/football/articles/cy8enwn2xq4o
+              - generic [ref=e793]:
+                - generic [ref=e796]:
+                  - img "image unavailable" [ref=e797]
+                  - img "Morgan Rogers stood with his hands on his hips before playing for England against France" [ref=e798]
+                - generic [ref=e799]:
+                  - heading "What will Rogers bring to Alonso's Chelsea?" [level=2] [ref=e802]
+                  - paragraph [ref=e803]: Chelsea's £117m move for Aston Villa forward Morgan Rogers is a genuine transfer window shock, but how did they do it and what does it mean for the rest of the squad?
+                  - generic [ref=e804]: 3 hrs ago
+            - link "Kevin Keegan Newcastle, Liverpool and England legend Keegan dies Former England captain and manager Kevin Keegan dies at the age of 75, seven weeks after he revealed he had been diagnosed with stage four cancer. 3 hrs ago England Men" [ref=e809] [cursor=pointer]:
+              - /url: /sport/football/articles/c2lyl82n2e2o
+              - generic [ref=e810]:
+                - img "Kevin Keegan" [ref=e814]
+                - generic [ref=e815]:
+                  - heading "Newcastle, Liverpool and England legend Keegan dies" [level=2] [ref=e818]
+                  - paragraph [ref=e819]: Former England captain and manager Kevin Keegan dies at the age of 75, seven weeks after he revealed he had been diagnosed with stage four cancer.
+                  - generic [ref=e820]:
+                    - generic [ref=e821]: 3 hrs ago
+                    - generic: England Men
+            - link "image unavailable Argentina's head coach Lionel Scaloni tries to intervene as Argentina's Leandro Paredes clashes with Spain defender Eric Garcia Could Argentina face action after post-final trouble? Argentina are likely to face a Fifa investigation following the ugly scenes at the end of the World Cup final. 57 mins ago World Cup" [ref=e826] [cursor=pointer]:
+              - /url: /sport/football/articles/clyxjk0z5y7o
+              - generic [ref=e827]:
+                - generic [ref=e830]:
+                  - img "image unavailable" [ref=e831]
+                  - img "Argentina's head coach Lionel Scaloni tries to intervene as Argentina's Leandro Paredes clashes with Spain defender Eric Garcia" [ref=e832]
+                - generic [ref=e833]:
+                  - heading "Could Argentina face action after post-final trouble?" [level=2] [ref=e836]
+                  - paragraph [ref=e837]: Argentina are likely to face a Fifa investigation following the ugly scenes at the end of the World Cup final.
+                  - generic [ref=e838]:
+                    - generic [ref=e839]: 57 mins ago
+                    - generic: World Cup
+    - separator [ref=e841]
+    - contentinfo [ref=e842]:
+      - link "British Broadcasting Corporation" [ref=e845] [cursor=pointer]:
+        - /url: /
+        - img "British Broadcasting Corporation" [ref=e846]
+      - navigation "Footer navigation" [ref=e849]:
+        - list [ref=e850]:
+          - listitem [ref=e851]:
+            - link "Home" [ref=e853] [cursor=pointer]:
+              - /url: https://www.bbc.com/
+          - listitem [ref=e854]:
+            - link "News" [ref=e856] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=e857]:
+            - link "Football 2026" [ref=e859] [cursor=pointer]:
+              - /url: /sport/football/world-cup
+          - listitem [ref=e860]:
+            - link "Business" [ref=e862] [cursor=pointer]:
+              - /url: /business
+          - listitem [ref=e863]:
+            - link "Technology" [ref=e865] [cursor=pointer]:
+              - /url: /technology
+          - listitem [ref=e866]:
+            - link "Health" [ref=e868] [cursor=pointer]:
+              - /url: /health
+          - listitem [ref=e869]:
+            - link "Culture" [ref=e871] [cursor=pointer]:
+              - /url: /culture
+          - listitem [ref=e872]:
+            - link "Arts" [ref=e874] [cursor=pointer]:
+              - /url: /arts
+          - listitem [ref=e875]:
+            - link "Travel" [ref=e877] [cursor=pointer]:
+              - /url: /travel
+          - listitem [ref=e878]:
+            - link "Earth" [ref=e880] [cursor=pointer]:
+              - /url: /future-planet
+          - listitem [ref=e881]:
+            - link "Sport" [ref=e883] [cursor=pointer]:
+              - /url: /sport
+          - listitem [ref=e884]:
+            - link "Audio" [ref=e886] [cursor=pointer]:
+              - /url: /audio
+          - listitem [ref=e887]:
+            - link "Video" [ref=e889] [cursor=pointer]:
+              - /url: /video
+          - listitem [ref=e890]:
+            - link "Live" [ref=e892] [cursor=pointer]:
+              - /url: /live
+          - listitem [ref=e893]:
+            - link "Weather" [ref=e895] [cursor=pointer]:
+              - /url: https://www.bbc.com/weather
+          - listitem [ref=e896]:
+            - link "BBC Shop" [ref=e898] [cursor=pointer]:
+              - /url: https://shop.bbc.com/
+          - listitem [ref=e899]:
+            - link "BritBox" [ref=e901] [cursor=pointer]:
+              - /url: https://www.britbox.com/?utm_source=bbc.com&utm_medium=referral&utm_campaign=footer
+      - button [ref=e904] [cursor=pointer]
+      - generic [ref=e908]:
+        - generic [ref=e909]: "Follow BBC on:"
+        - generic [ref=e910]:
+          - button "Follow BBC on x" [ref=e911]
+          - button "Follow BBC on facebook" [ref=e914]
+          - button "Follow BBC on instagram" [ref=e917]
+          - button "Follow BBC on tiktok" [ref=e920]
+          - button "Follow BBC on linkedin" [ref=e923]
+          - button "Follow BBC on youtube" [ref=e926]
+      - navigation [ref=e930]:
+        - list [ref=e931]:
+          - listitem [ref=e932]:
+            - link "Terms of Use" [ref=e934] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/terms-of-use
+          - listitem [ref=e935]:
+            - link "Subscription Terms" [ref=e937] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/subscription-terms
+          - listitem [ref=e938]:
+            - link "About the BBC" [ref=e940] [cursor=pointer]:
+              - /url: https://www.bbc.co.uk/aboutthebbc
+          - listitem [ref=e941]:
+            - link "Privacy Policy" [ref=e943] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/privacy-policy
+          - listitem [ref=e944]:
+            - link "Cookies" [ref=e946] [cursor=pointer]:
+              - /url: https://www.bbc.com/usingthebbc/cookies/
+          - listitem [ref=e947]:
+            - link "Accessibility Help" [ref=e949] [cursor=pointer]:
+              - /url: https://www.bbc.co.uk/accessibility/
+          - listitem [ref=e950]:
+            - link "Contact the BBC" [ref=e952] [cursor=pointer]:
+              - /url: https://www.bbc.co.uk/contact
+          - listitem [ref=e953]:
+            - link "Advertise with us" [ref=e955] [cursor=pointer]:
+              - /url: https://advertising.bbcstudios.com/
+          - listitem [ref=e956]:
+            - link "Do not share or sell my info" [ref=e958] [cursor=pointer]:
+              - /url: https://www.bbc.com/usingthebbc/cookies/how-can-i-change-my-bbc-cookie-settings/
+          - listitem [ref=e959]:
+            - link "BBC.com Help & FAQs" [ref=e961] [cursor=pointer]:
+              - /url: https://help.bbc.com/hc/
+          - listitem [ref=e962]:
+            - link "Content Index" [ref=e964] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/content-index
+          - listitem [ref=e965]:
+            - link "Set Preferred Source" [ref=e967] [cursor=pointer]:
+              - /url: https://www.bbc.com/future/article/20260128-how-to-make-google-put-trusted-sources-up-top-when-you-search
+      - generic [ref=e968]:
+        - paragraph [ref=e969]:
+          - text: Copyright 2026 BBC. All rights reserved. The BBC is not responsible for the content of external sites.
+          - link "Read about our approach to external linking." [ref=e970] [cursor=pointer]:
+            - /url: https://www.bbc.com/editorialguidelines/guidance/links-and-feeds
+        - paragraph [ref=e971]
+  - alert [ref=e972]

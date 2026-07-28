@@ -1,0 +1,1933 @@
+- generic [active] [ref=f20e1]:
+  - banner [ref=f20e2]:
+    - generic [ref=f20e3]:
+      - link "Google News" [ref=f20e7] [cursor=pointer]:
+        - /url: ./?hl=en-IN&gl=IN&ceid=IN%3Aen
+        - generic [ref=f20e9]: News
+      - generic [ref=f20e10]:
+        - search [ref=f20e12]:
+          - generic [ref=f20e17]:
+            - combobox "Search for topics, locations & sources" [ref=f20e19]: latest AI news
+            - status
+          - button "Advanced search" [ref=f20e20] [cursor=pointer]:
+            - generic [ref=f20e21]:
+              - generic "Advanced search" [ref=f20e22]
+              - tooltip [ref=f20e25]: Advanced search
+          - button "Clear search" [ref=f20e1753] [cursor=pointer]
+          - button "Search" [ref=f20e26] [cursor=pointer]
+        - generic [ref=f20e30]:
+          - generic [ref=f20e35]:
+            - button "Help" [ref=f20e36] [cursor=pointer]
+            - tooltip [ref=f20e40]: Help
+          - generic [ref=f20e45]:
+            - button "Settings" [ref=f20e46] [cursor=pointer]
+            - tooltip [ref=f20e51]: Settings
+      - generic [ref=f20e53]:
+        - button "Google apps" [ref=f20e57] [cursor=pointer]
+        - link "Sign in" [ref=f20e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https%3A%2F%2Fnews.google.com%2Fsearch%3Fq%3Dlatest%2520AI%2520news%26hl%3Den-IN%26gl%3DIN%26ceid%3DIN%253Aen&followup=https%3A%2F%2Fnews.google.com%2Fsearch%3Fq%3Dlatest%2520AI%2520news%26hl%3Den-IN%26gl%3DIN%26ceid%3DIN%253Aen&hl=en-IN&ec=GAZAqgM
+    - navigation [ref=f20e64]:
+      - tablist [ref=f20e65]:
+        - tab [ref=f20e66] [cursor=pointer]:
+          - tab "Home" [ref=f20e67]
+        - tab [ref=f20e68] [cursor=pointer]:
+          - tab "For you" [ref=f20e69]
+        - tab [ref=f20e70] [cursor=pointer]:
+          - tab "Following" [ref=f20e71]
+        - tab [ref=f20e72] [cursor=pointer]:
+          - tab "News Showcase" [ref=f20e73]
+        - tab [ref=f20e76] [cursor=pointer]:
+          - tab "India" [ref=f20e77]
+        - tab [ref=f20e78] [cursor=pointer]:
+          - tab "World" [ref=f20e79]
+        - tab [ref=f20e80] [cursor=pointer]:
+          - tab "Local" [ref=f20e81]
+        - tab [ref=f20e82] [cursor=pointer]:
+          - tab "Business" [ref=f20e83]
+        - tab [ref=f20e84] [cursor=pointer]:
+          - tab "Technology" [ref=f20e85]
+      - generic [ref=f20e89]:
+        - button "More" [ref=f20e90] [cursor=pointer]
+        - tooltip [ref=f20e94]: More
+  - generic [ref=f20e1757]: Loading...
+  - main [ref=f20e1763]:
+    - generic [ref=f20e1765]:
+      - generic [ref=f20e1768]:
+        - generic [ref=f20e1769]:
+          - link [ref=f20e1771] [cursor=pointer]:
+            - /url: ./read/CBMiWkFVX3lxTE1EZFJnRzEzWG5aR0pVLTdCbjNtOXpLdmJiQVRxXzI1RVlJQzJycnc5V0p6V2RIb2VZZzM2VHNaUk9Ed1BlZ2haSmtHeFhUVlRtY1dFdlpKWHRBQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+          - generic [ref=f20e1773]:
+            - generic [ref=f20e1774]:
+              - generic [ref=f20e1775]: BBC
+              - generic [ref=f20e1781]:
+                - button [ref=f20e1782] [cursor=pointer]
+                - tooltip [ref=f20e1786]: More
+            - link [ref=f20e1787] [cursor=pointer]:
+              - /url: ./read/CBMiWkFVX3lxTE1EZFJnRzEzWG5aR0pVLTdCbjNtOXpLdmJiQVRxXzI1RVlJQzJycnc5V0p6V2RIb2VZZzM2VHNaUk9Ed1BlZ2haSmtHeFhUVlRtY1dFdlpKWHRBQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - text: US lawmakers push for AI 'kill switch' after OpenAI models go rogue
+          - figure [ref=f20e1788]
+        - generic [ref=f20e1789]:
+          - time [ref=f20e1790]: 15 hours ago
+          - separator [ref=f20e1791]
+          - generic [ref=f20e1792]: By Kali Hays
+      - generic [ref=f20e1793]:
+        - separator [ref=f20e1795]
+        - generic [ref=f20e1797]:
+          - generic [ref=f20e1798]:
+            - link [ref=f20e1800] [cursor=pointer]:
+              - /url: ./read/CBMiqgFBVV95cUxQRWN2dEZPRl94d2toQ0lLbnZnR3BqRV8tc3ZRdV9YX0FpODluVzNteEsxMG0tN0k3T0xjWUxRVjRWaWMxd1lVQ0Z2Mnk0Z3BjLWhjREdsTmdNNEYwdEh6UUtFVFhLVEhVUExNYXVSV0p4MmwzRWNaS3RaTDBqUXhzSEoyV3VwanZtX19HcDNkUWdNQnNpSXFfVUdPaHUzdXVGZVplRVpiUzZMdw?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e1802]:
+              - generic [ref=f20e1803]:
+                - generic [ref=f20e1804]: TechCrunch
+                - generic [ref=f20e1810]:
+                  - button [ref=f20e1811] [cursor=pointer]
+                  - tooltip [ref=f20e1815]: More
+              - link [ref=f20e1816] [cursor=pointer]:
+                - /url: ./read/CBMiqgFBVV95cUxQRWN2dEZPRl94d2toQ0lLbnZnR3BqRV8tc3ZRdV9YX0FpODluVzNteEsxMG0tN0k3T0xjWUxRVjRWaWMxd1lVQ0Z2Mnk0Z3BjLWhjREdsTmdNNEYwdEh6UUtFVFhLVEhVUExNYXVSV0p4MmwzRWNaS3RaTDBqUXhzSEoyV3VwanZtX19HcDNkUWdNQnNpSXFfVUdPaHUzdXVGZVplRVpiUzZMdw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Meta launched a new AI optimism ad set to a song about human extinction
+            - figure [ref=f20e1817]
+          - generic [ref=f20e1818]:
+            - time [ref=f20e1819]: 19 hours ago
+            - separator [ref=f20e1820]
+            - generic [ref=f20e1821]: By Amanda Silberling
+      - generic [ref=f20e1822]:
+        - separator [ref=f20e1824]
+        - generic [ref=f20e1826]:
+          - generic [ref=f20e1827]:
+            - link [ref=f20e1829] [cursor=pointer]:
+              - /url: ./read/CBMilgFBVV95cUxOTW1qT1BqbXVtbjdxcngwQTNzWDE4bUVLSVJjZlFrUVIwVGNIMDlUamo3MUx4aktiMGJuY3k3QkZ1YllySkRWOHF5Zm4teVBNSTNVOVNnT2dQaEF5V1lETG5LWUxVTkhtMGcwV1UzWUxPTW9SSEIwbmZqR0o0a0VJczhJNFcxYkZIdklQazlzLTVBMjhOTHc?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e1831]:
+              - generic [ref=f20e1832]:
+                - generic [ref=f20e1833]: TechCrunch
+                - generic [ref=f20e1839]:
+                  - button [ref=f20e1840] [cursor=pointer]
+                  - tooltip [ref=f20e1844]: More
+              - link [ref=f20e1845] [cursor=pointer]:
+                - /url: ./read/CBMilgFBVV95cUxOTW1qT1BqbXVtbjdxcngwQTNzWDE4bUVLSVJjZlFrUVIwVGNIMDlUamo3MUx4aktiMGJuY3k3QkZ1YllySkRWOHF5Zm4teVBNSTNVOVNnT2dQaEF5V1lETG5LWUxVTkhtMGcwV1UzWUxPTW9SSEIwbmZqR0o0a0VJczhJNFcxYkZIdklQazlzLTVBMjhOTHc?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: AMD takes on Nvidia with its Helios AI rack-scale system
+            - figure [ref=f20e1846]
+          - generic [ref=f20e1847]:
+            - time [ref=f20e1848]: 15 hours ago
+            - separator [ref=f20e1849]
+            - generic [ref=f20e1850]: By Lucas Ropek
+      - generic [ref=f20e1851]:
+        - separator [ref=f20e1853]
+        - generic [ref=f20e1855]:
+          - generic [ref=f20e1856]:
+            - link [ref=f20e1858] [cursor=pointer]:
+              - /url: ./read/CBMiugFBVV95cUxPeGZpcW1LVnVzRmZ6em94NWhlOXQwY2ltS1Uta3pacllhVDhLcUtVbDVmQUhhdFdnR0dXSGhVaVdFSWRzWFc5Q3I5ZmEwNmhTQ25JZVlBay01TFJVMUNMajZ3VDhFQjZZQ09oSWJDd3l6NXdadklpWTlpNkxNVFR5ZG9kSmFsdEp0UXI3TEdncm9uWEt6QTBOMlFraTZWUktDQ2dWUGNKX1R4ZzgxQ3JnQzRhS0V4SEVucFE?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e1860]:
+              - generic [ref=f20e1861]:
+                - generic [ref=f20e1862]: TechCrunch
+                - generic [ref=f20e1868]:
+                  - button [ref=f20e1869] [cursor=pointer]
+                  - tooltip [ref=f20e1873]: More
+              - link [ref=f20e1874] [cursor=pointer]:
+                - /url: ./read/CBMiugFBVV95cUxPeGZpcW1LVnVzRmZ6em94NWhlOXQwY2ltS1Uta3pacllhVDhLcUtVbDVmQUhhdFdnR0dXSGhVaVdFSWRzWFc5Q3I5ZmEwNmhTQ25JZVlBay01TFJVMUNMajZ3VDhFQjZZQ09oSWJDd3l6NXdadklpWTlpNkxNVFR5ZG9kSmFsdEp0UXI3TEdncm9uWEt6QTBOMlFraTZWUktDQ2dWUGNKX1R4ZzgxQ3JnQzRhS0V4SEVucFE?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors
+            - figure [ref=f20e1875]
+          - generic [ref=f20e1876]:
+            - time [ref=f20e1877]: 21 hours ago
+            - separator [ref=f20e1878]
+            - generic [ref=f20e1879]: By Julie Bort
+      - generic [ref=f20e1880]:
+        - separator [ref=f20e1882]
+        - generic [ref=f20e1884]:
+          - generic [ref=f20e1885]:
+            - link [ref=f20e1887] [cursor=pointer]:
+              - /url: ./read/CBMiqwFBVV95cUxNUHFVRUxscXpiN3FBbnQ1MXc0a0FtWmFSb0FmUnFTczJlVTRLZE9xbUtxOVp0bThDVHVpdGp4cXZjNUF0bktNanZhRnh2MkN6TGdRUFRkTlF5M3RKT2pUQ09JUXZvR3hIV0lobmJ3NlRkN245SUd5dlpiNE1xLUxMRkg4Ti1ReElLRk5XdUZnazhvZDN5UzE1c0ZZTW00US1UZUdRLTgtU1A0Mm8?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e1889]:
+              - generic [ref=f20e1890]:
+                - generic [ref=f20e1891]: TechCrunch
+                - generic [ref=f20e1897]:
+                  - button [ref=f20e1898] [cursor=pointer]
+                  - tooltip [ref=f20e1902]: More
+              - link [ref=f20e1903] [cursor=pointer]:
+                - /url: ./read/CBMiqwFBVV95cUxNUHFVRUxscXpiN3FBbnQ1MXc0a0FtWmFSb0FmUnFTczJlVTRLZE9xbUtxOVp0bThDVHVpdGp4cXZjNUF0bktNanZhRnh2MkN6TGdRUFRkTlF5M3RKT2pUQ09JUXZvR3hIV0lobmJ3NlRkN245SUd5dlpiNE1xLUxMRkg4Ti1ReElLRk5XdUZnazhvZDN5UzE1c0ZZTW00US1UZUdRLTgtU1A0Mm8?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Substack’s new tool tells you who’s been writing their newsletters with AI
+            - figure [ref=f20e1904]
+          - generic [ref=f20e1905]:
+            - time [ref=f20e1906]: 2 days ago
+            - separator [ref=f20e1907]
+            - generic [ref=f20e1908]: By Sarah Perez
+      - generic [ref=f20e1909]:
+        - separator [ref=f20e1911]
+        - generic [ref=f20e1913]:
+          - generic [ref=f20e1914]:
+            - link [ref=f20e1916] [cursor=pointer]:
+              - /url: ./read/CBMihgFBVV95cUxPWkFmWFhYdTlpX2EzUFZwZUZwcHQ5bnNyTlQ2ZF90dnNvWXJwWXExS1I5T09xOEtpOWxVZTZodGFqYmU2WVVzdzdLR2VodmE1YUdvbWg0TnNmUkRKakxUcjBtYUFjeDNVZlBpWmhwNGYwQVFsNUxFcXNvalVhbFBUVHNjVFhEQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e1918]:
+              - generic [ref=f20e1919]:
+                - generic [ref=f20e1920]: blog.google
+                - generic [ref=f20e1926]:
+                  - button [ref=f20e1927] [cursor=pointer]
+                  - tooltip [ref=f20e1931]: More
+              - link [ref=f20e1932] [cursor=pointer]:
+                - /url: ./read/CBMihgFBVV95cUxPWkFmWFhYdTlpX2EzUFZwZUZwcHQ5bnNyTlQ2ZF90dnNvWXJwWXExS1I5T09xOEtpOWxVZTZodGFqYmU2WVVzdzdLR2VodmE1YUdvbWg0TnNmUkRKakxUcjBtYUFjeDNVZlBpWmhwNGYwQVFsNUxFcXNvalVhbFBUVHNjVFhEQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: The latest AI news we announced in May 2026
+            - figure [ref=f20e1933]
+          - time [ref=f20e1935]: 5 Jun
+      - generic [ref=f20e1936]:
+        - separator [ref=f20e1938]
+        - generic [ref=f20e1940]:
+          - generic [ref=f20e1941]:
+            - link [ref=f20e1943] [cursor=pointer]:
+              - /url: ./read/CBMihwFBVV95cUxOSklUX3E0LWlteG0tQ3UycXBxQkdraXBVdDdEbVd4RzBtWXFuZTVkYWxXMUMzMm9vbHA0Q0Roa3JWd19ob1NCQUtIUUdBTlNoU0hMRmhSdU1pQU5yWU1zQmlVS2U5ay0zNkFxaGJjQUpwUGE0S1BCWVZHaFc3VjdQZmp6YjYyeUE?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e1945]:
+              - generic [ref=f20e1946]:
+                - generic [ref=f20e1947]: blog.google
+                - generic [ref=f20e1953]:
+                  - button [ref=f20e1954] [cursor=pointer]
+                  - tooltip [ref=f20e1958]: More
+              - link [ref=f20e1959] [cursor=pointer]:
+                - /url: ./read/CBMihwFBVV95cUxOSklUX3E0LWlteG0tQ3UycXBxQkdraXBVdDdEbVd4RzBtWXFuZTVkYWxXMUMzMm9vbHA0Q0Roa3JWd19ob1NCQUtIUUdBTlNoU0hMRmhSdU1pQU5yWU1zQmlVS2U5ay0zNkFxaGJjQUpwUGE0S1BCWVZHaFc3VjdQZmp6YjYyeUE?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: The latest AI news we announced in June 2026
+            - figure [ref=f20e1960]
+          - time [ref=f20e1962]: 23 days ago
+      - generic [ref=f20e1963]:
+        - separator [ref=f20e1965]
+        - generic [ref=f20e1967]:
+          - generic [ref=f20e1968]:
+            - link [ref=f20e1970] [cursor=pointer]:
+              - /url: ./read/CBMi6AFBVV95cUxQUVZtcmhvczZ2NTZaakcyY0lqbVowZVFLb0NmbXlsWFRYX3BHZi15dEsyYzBMRk1TaDNXTUt5V21YcDNpZkVURU15cS00cEUzeHZ1eC04dVRMRkV4MmlfR3ZJQjFWVXVVcE5tZDBjN19TM2ZHeU9MNHlkNHlJNHVZRzhXbmlsLWhESEkxMFNpeFZUUktGMXhQQU83OEwwaHFfTVU2aFREX2dTSE1wOUFOVV9jRkpZM0tFNk8yWllaLXNIM2VpYUt4QnhieXlSSGRNbndqb243ME14bGN4ZjFfczMxM2FyMnlu?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e1972]:
+              - generic [ref=f20e1973]:
+                - generic [ref=f20e1974]: TradingView
+                - generic [ref=f20e1980]:
+                  - button [ref=f20e1981] [cursor=pointer]
+                  - tooltip [ref=f20e1985]: More
+              - link [ref=f20e1986] [cursor=pointer]:
+                - /url: ./read/CBMi6AFBVV95cUxQUVZtcmhvczZ2NTZaakcyY0lqbVowZVFLb0NmbXlsWFRYX3BHZi15dEsyYzBMRk1TaDNXTUt5V21YcDNpZkVURU15cS00cEUzeHZ1eC04dVRMRkV4MmlfR3ZJQjFWVXVVcE5tZDBjN19TM2ZHeU9MNHlkNHlJNHVZRzhXbmlsLWhESEkxMFNpeFZUUktGMXhQQU83OEwwaHFfTVU2aFREX2dTSE1wOUFOVV9jRkpZM0tFNk8yWllaLXNIM2VpYUt4QnhieXlSSGRNbndqb243ME14bGN4ZjFfczMxM2FyMnlu?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Meta’s Latest AI Data Center Debt Raise Could Reportedly Cost More Than Its 2025 Record Deal
+            - figure [ref=f20e1987]
+          - time [ref=f20e1989]: 1 hour ago
+      - generic [ref=f20e1990]:
+        - separator [ref=f20e1992]
+        - generic [ref=f20e1994]:
+          - generic [ref=f20e1995]:
+            - link [ref=f20e1997] [cursor=pointer]:
+              - /url: ./read/CBMi1gFBVV95cUxPX21zZUlwN1JaQ2pPSXRYOTVlYU9xcEk5U2VJY0lsVnZzX0hFbHExaW5ielJqNUFQOXFoc0ZneUtidmZIYlFvNm1hNFp2Zl9MSVc1aFhUX0hDdGo4bW0tT0ZtX0pWbkIxeGhVeHJLY1JIZDc4V0tENzNMX2tFdFdPS0RJUFVMWjEtY1Z0TFUzSGkyNGpvVjhxWGVCR3FxZTk3WlVRMnRSS2pfTS1hODkzOFdrTkxVMjI3dEg3eTM2eHpLZEhUNHlwY1k5b19Qb2ZEUmExcUdn?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e1999]:
+              - generic [ref=f20e2000]:
+                - generic [ref=f20e2001]: Upstox
+                - generic [ref=f20e2007]:
+                  - button [ref=f20e2008] [cursor=pointer]
+                  - tooltip [ref=f20e2012]: More
+              - link [ref=f20e2013] [cursor=pointer]:
+                - /url: ./read/CBMi1gFBVV95cUxPX21zZUlwN1JaQ2pPSXRYOTVlYU9xcEk5U2VJY0lsVnZzX0hFbHExaW5ielJqNUFQOXFoc0ZneUtidmZIYlFvNm1hNFp2Zl9MSVc1aFhUX0hDdGo4bW0tT0ZtX0pWbkIxeGhVeHJLY1JIZDc4V0tENzNMX2tFdFdPS0RJUFVMWjEtY1Z0TFUzSGkyNGpvVjhxWGVCR3FxZTk3WlVRMnRSS2pfTS1hODkzOFdrTkxVMjI3dEg3eTM2eHpLZEhUNHlwY1k5b19Qb2ZEUmExcUdn?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: How AI is driving new deal wins and efficiency for Indian IT companies? Explained
+            - figure [ref=f20e2014]
+          - generic [ref=f20e2015]:
+            - time [ref=f20e2016]: 4 hours ago
+            - separator [ref=f20e2017]
+            - generic [ref=f20e2018]: By Rohan Takalkar
+      - generic [ref=f20e2019]:
+        - separator [ref=f20e2021]
+        - generic [ref=f20e2023]:
+          - generic [ref=f20e2024]:
+            - link [ref=f20e2026] [cursor=pointer]:
+              - /url: ./read/CBMiWkFVX3lxTE1iWFdWWk1rRjktUk5wZnBrNHBnd0xhU01XRmo1dTV0aHpGWmRDcTJhWndnUzV3R25aT2VjSHZxaWNzUUhWZF9MeVZnSkRZZUlJYXJrc3RBM2Vvdw?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2028]:
+              - generic [ref=f20e2029]:
+                - generic [ref=f20e2030]: BBC
+                - generic [ref=f20e2036]:
+                  - button [ref=f20e2037] [cursor=pointer]
+                  - tooltip [ref=f20e2041]: More
+              - link [ref=f20e2042] [cursor=pointer]:
+                - /url: ./read/CBMiWkFVX3lxTE1iWFdWWk1rRjktUk5wZnBrNHBnd0xhU01XRmo1dTV0aHpGWmRDcTJhWndnUzV3R25aT2VjSHZxaWNzUUhWZF9MeVZnSkRZZUlJYXJrc3RBM2Vvdw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: China's Moonshot AI stole from Anthropic, Trump tech adviser says
+            - figure [ref=f20e2043]
+          - generic [ref=f20e2044]:
+            - time [ref=f20e2045]: 12 hours ago
+            - separator [ref=f20e2046]
+            - generic [ref=f20e2047]: By Osmond Chia
+      - generic [ref=f20e2048]:
+        - separator [ref=f20e2050]
+        - generic [ref=f20e2052]:
+          - generic [ref=f20e2053]:
+            - link [ref=f20e2055] [cursor=pointer]:
+              - /url: ./read/CBMivAFBVV95cUxOX2JJUnlrYURCS05xbldzRC1LVVlCQ3ZtcG9XZXU1dU5NNWJxV1JzdG5FbjJ3bHdhZml2SkJFSks4cTQ3aGloV0Nsd01kRVZDZTdOMUNSWmwtS3g0M3dteWVNNDJ3VXJtbWZrSWV1Y01QRW9WVm96c1JFaU9ZeU5ZT3ZYNXZTQjhMZ2p6RHdLTlhHang4NEVuZ1Fyd3BvUENubjlSUEtIeTMwa1NReXJITjk2SmRuVWw4NG1LQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2057]:
+              - generic [ref=f20e2058]:
+                - generic [ref=f20e2059]: blog.google
+                - generic [ref=f20e2065]:
+                  - button [ref=f20e2066] [cursor=pointer]
+                  - tooltip [ref=f20e2070]: More
+              - link [ref=f20e2071] [cursor=pointer]:
+                - /url: ./read/CBMivAFBVV95cUxOX2JJUnlrYURCS05xbldzRC1LVVlCQ3ZtcG9XZXU1dU5NNWJxV1JzdG5FbjJ3bHdhZml2SkJFSks4cTQ3aGloV0Nsd01kRVZDZTdOMUNSWmwtS3g0M3dteWVNNDJ3VXJtbWZrSWV1Y01QRW9WVm96c1JFaU9ZeU5ZT3ZYNXZTQjhMZ2p6RHdLTlhHang4NEVuZ1Fyd3BvUENubjlSUEtIeTMwa1NReXJITjk2SmRuVWw4NG1LQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber
+            - figure [ref=f20e2072]
+          - generic [ref=f20e2073]:
+            - time [ref=f20e2074]: 3 days ago
+            - separator [ref=f20e2075]
+            - generic [ref=f20e2076]: By Tulsee Doshi
+      - generic [ref=f20e2077]:
+        - separator [ref=f20e2079]
+        - generic [ref=f20e2081]:
+          - generic [ref=f20e2082]:
+            - link [ref=f20e2084] [cursor=pointer]:
+              - /url: ./read/CBMihAFBVV95cUxNalk0WE9fd0ZZN1k0X01JUExrYTZ6U285ZVVCSEdyYVJxclR3WXNEaTVsLWRrSFBJU0NwSjYwQnlqUjJHMWFLWVVqR0lVam1YOUhteFdsbi1saWFIa0Y2UV9ybTdPUDZYMGdIVVhxWVVHNENwRVJtSFd5cm9WSzJYeEJpRGg?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2086]:
+              - generic [ref=f20e2087]:
+                - generic [ref=f20e2088]: Phys.org
+                - generic [ref=f20e2094]:
+                  - button [ref=f20e2095] [cursor=pointer]
+                  - tooltip [ref=f20e2099]: More
+              - link [ref=f20e2100] [cursor=pointer]:
+                - /url: ./read/CBMihAFBVV95cUxNalk0WE9fd0ZZN1k0X01JUExrYTZ6U285ZVVCSEdyYVJxclR3WXNEaTVsLWRrSFBJU0NwSjYwQnlqUjJHMWFLWVVqR0lVam1YOUhteFdsbi1saWFIa0Y2UV9ybTdPUDZYMGdIVVhxWVVHNENwRVJtSFd5cm9WSzJYeEJpRGg?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Researchers explore classroom applications of AI new learning platforms
+            - figure [ref=f20e2101]
+          - generic [ref=f20e2102]:
+            - time [ref=f20e2103]: 9 hours ago
+            - separator [ref=f20e2104]
+            - generic [ref=f20e2105]: By Andrew Zinin
+      - generic [ref=f20e2106]:
+        - separator [ref=f20e2108]
+        - generic [ref=f20e2110]:
+          - generic [ref=f20e2111]:
+            - link [ref=f20e2113] [cursor=pointer]:
+              - /url: ./read/CBMivwFBVV95cUxPMWhOWlpFSm02MHV0TldubE0xLXNaakU4TU5yaDlDYWxVcEx1THk0NTNJbkVZZnY3U2NqTEltbDBFWlVDcmtnbklaUVQwcWJLLWVZeXp4UERaeHFCVTJ2cWlIcnJtaDhvT2hfaGJGZWswcDYyTXR2T2tjNXUtdVpnd0xCS0RZX1ZNajlmZlByUUFicU1haHJWbUNEaUlLa1dCREJhQkJyUTRsN0tlRVYxQjhXTlZvMEdsMXc0cFB5cw?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2115]:
+              - generic [ref=f20e2116]:
+                - generic [ref=f20e2117]: TechTarget
+                - generic [ref=f20e2123]:
+                  - button [ref=f20e2124] [cursor=pointer]
+                  - tooltip [ref=f20e2128]: More
+              - link [ref=f20e2129] [cursor=pointer]:
+                - /url: ./read/CBMivwFBVV95cUxPMWhOWlpFSm02MHV0TldubE0xLXNaakU4TU5yaDlDYWxVcEx1THk0NTNJbkVZZnY3U2NqTEltbDBFWlVDcmtnbklaUVQwcWJLLWVZeXp4UERaeHFCVTJ2cWlIcnJtaDhvT2hfaGJGZWswcDYyTXR2T2tjNXUtdVpnd0xCS0RZX1ZNajlmZlByUUFicU1haHJWbUNEaUlLa1dCREJhQkJyUTRsN0tlRVYxQjhXTlZvMEdsMXc0cFB5cw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: New Oracle AI database targets cost, data residency concerns
+            - figure [ref=f20e2130]
+          - generic [ref=f20e2131]:
+            - time [ref=f20e2132]: 16 hours ago
+            - separator [ref=f20e2133]
+            - generic [ref=f20e2134]: By Eric Avidon
+      - generic [ref=f20e2135]:
+        - separator [ref=f20e2137]
+        - generic [ref=f20e2139]:
+          - generic [ref=f20e2140]:
+            - link [ref=f20e2142] [cursor=pointer]:
+              - /url: ./read/CBMi5AFBVV95cUxOQVVYX21ZZkZWTFNtLUZpb0hMMF9SaE90Rk51WHpqUk5qZlM3Y1BBLTZrSUtNVjJ1Y3haMVkwRHFRSzgxTGZWYWVxektwTUc5U0g1dU1tdVBkYUhjMjY1bk9zZm1fejBnWlZtUTdoVkxtRkFMOUFDZzNhT1ZtMlRKU3I4V1Zvc0hMWHhCSW9VX0VSV1hYX1ZzcFh1ZDBGc1RvWTlQcy03WkNyTGpvNzJMSk9FS1lZUENHT3AzN3oySWhFSHhNLTk0NjlYaldjSWlTRERmOFJNOWtwbEMxa2F3VHpXaUjSAeoBQVVfeXFMUHkwVDRDQk1WeDBYMnI4OEp6eUIyekRnbUxGc0NJSUN5WUxqTTlPZlN4eEJ4bXZhTmNwd1hoNE1ZM25neUxQSjB2TXFNY255YW1mTVlZX25oR3Bwa0JRbk1kbW0zTVFSNy05NzdkQ2kyTndvdGFVZkZjbnItR2dFNHRpWi1fSWEtVUstaFdwdTY3X293WGc0ajJOS0tiLTNMTDJ5RnN5VHRrXzlXUkpPQlBxUGJVWF9qTGdsTjJHM3ctdFdtWGwyQUplSUN5NUJxWVpUQ1Z4ZzdLUXExU1dHY0tSWE5RU3hGSzR3?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2144]:
+              - generic [ref=f20e2145]:
+                - generic [ref=f20e2146]: India Today
+                - generic [ref=f20e2152]:
+                  - button [ref=f20e2153] [cursor=pointer]
+                  - tooltip [ref=f20e2157]: More
+              - link [ref=f20e2158] [cursor=pointer]:
+                - /url: ./read/CBMi5AFBVV95cUxOQVVYX21ZZkZWTFNtLUZpb0hMMF9SaE90Rk51WHpqUk5qZlM3Y1BBLTZrSUtNVjJ1Y3haMVkwRHFRSzgxTGZWYWVxektwTUc5U0g1dU1tdVBkYUhjMjY1bk9zZm1fejBnWlZtUTdoVkxtRkFMOUFDZzNhT1ZtMlRKU3I4V1Zvc0hMWHhCSW9VX0VSV1hYX1ZzcFh1ZDBGc1RvWTlQcy03WkNyTGpvNzJMSk9FS1lZUENHT3AzN3oySWhFSHhNLTk0NjlYaldjSWlTRERmOFJNOWtwbEMxa2F3VHpXaUjSAeoBQVVfeXFMUHkwVDRDQk1WeDBYMnI4OEp6eUIyekRnbUxGc0NJSUN5WUxqTTlPZlN4eEJ4bXZhTmNwd1hoNE1ZM25neUxQSjB2TXFNY255YW1mTVlZX25oR3Bwa0JRbk1kbW0zTVFSNy05NzdkQ2kyTndvdGFVZkZjbnItR2dFNHRpWi1fSWEtVUstaFdwdTY3X293WGc0ajJOS0tiLTNMTDJ5RnN5VHRrXzlXUkpPQlBxUGJVWF9qTGdsTjJHM3ctdFdtWGwyQUplSUN5NUJxWVpUQ1Z4ZzdLUXExU1dHY0tSWE5RU3hGSzR3?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: IBM earnings disappoint, CEO Arvind Krishna reveals how much software AI can replace
+            - figure [ref=f20e2159]
+          - generic [ref=f20e2160]:
+            - time [ref=f20e2161]: 9 hours ago
+            - separator [ref=f20e2162]
+            - generic [ref=f20e2163]: By Armaan Agarwal
+      - generic [ref=f20e2164]:
+        - separator [ref=f20e2166]
+        - generic [ref=f20e2168]:
+          - generic [ref=f20e2169]:
+            - link [ref=f20e2171] [cursor=pointer]:
+              - /url: ./read/CBMifkFVX3lxTE5QM0NxYjlpZlBQVHNUaVZta3E1aGJ5LTZHcTg5bEU5T3JCbVdIc19BUk5pcFBlR0RNaDhoYVhGRm95TjVTMVZMLU9XOE1MeEhNQS02VGI3TDh6bWktZ2VoYU82eWFVcVJTM0NKbkUtWU83a2IzNUdvZFVCeDVzdw?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2173]:
+              - generic [ref=f20e2174]:
+                - generic [ref=f20e2175]: OpenAI
+                - generic [ref=f20e2181]:
+                  - button [ref=f20e2182] [cursor=pointer]
+                  - tooltip [ref=f20e2186]: More
+              - link [ref=f20e2187] [cursor=pointer]:
+                - /url: ./read/CBMifkFVX3lxTE5QM0NxYjlpZlBQVHNUaVZta3E1aGJ5LTZHcTg5bEU5T3JCbVdIc19BUk5pcFBlR0RNaDhoYVhGRm95TjVTMVZMLU9XOE1MeEhNQS02VGI3TDh6bWktZ2VoYU82eWFVcVJTM0NKbkUtWU83a2IzNUdvZFVCeDVzdw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: OpenAI and Hugging Face partner to address security incident during model evaluation
+            - figure [ref=f20e2188]
+          - time [ref=f20e2190]: 2 days ago
+      - generic [ref=f20e2191]:
+        - separator [ref=f20e2193]
+        - generic [ref=f20e2195]:
+          - generic [ref=f20e2196]:
+            - link [ref=f20e2198] [cursor=pointer]:
+              - /url: ./read/CBMitAFBVV95cUxQVGlfV0U5ZzhveHBVR2Zkb1VJUEUyY09QTkRMS1MzclBCenI2VHc1aVpHOHZ5ZGhWX3hXQ0FkRi1OeGVhWS1ibWJVSl90aV9PR3NaWkhrOGo0N2ZvYkNLOUdOWFBhOTBackkxY01hdEVUb0dZOWpKSXJqY1h2YnBic0hXMllMTl9UYWtQbm9OLWZYU1R0YW9UemU3X21tQ0RCZk5zZGpNMzFqZ0oxQzBzdUktX3Q?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2200]:
+              - generic [ref=f20e2201]:
+                - generic [ref=f20e2202]: Bloomberg.com
+                - generic [ref=f20e2208]:
+                  - button [ref=f20e2209] [cursor=pointer]
+                  - tooltip [ref=f20e2213]: More
+              - link [ref=f20e2214] [cursor=pointer]:
+                - /url: ./read/CBMitAFBVV95cUxQVGlfV0U5ZzhveHBVR2Zkb1VJUEUyY09QTkRMS1MzclBCenI2VHc1aVpHOHZ5ZGhWX3hXQ0FkRi1OeGVhWS1ibWJVSl90aV9PR3NaWkhrOGo0N2ZvYkNLOUdOWFBhOTBackkxY01hdEVUb0dZOWpKSXJqY1h2YnBic0hXMllMTl9UYWtQbm9OLWZYU1R0YW9UemU3X21tQ0RCZk5zZGpNMzFqZ0oxQzBzdUktX3Q?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: China’s Psibot Becomes Latest AI Startup to Hit $1 Billion Value
+            - figure [ref=f20e2215]
+          - generic [ref=f20e2216]:
+            - time [ref=f20e2217]: Yesterday
+            - separator [ref=f20e2218]
+            - generic [ref=f20e2219]: By Saritha Rai
+      - generic [ref=f20e2220]:
+        - separator [ref=f20e2222]
+        - generic [ref=f20e2224]:
+          - generic [ref=f20e2225]:
+            - link [ref=f20e2227] [cursor=pointer]:
+              - /url: ./read/CBMisAFBVV95cUxOakxNWVVjazF4WHRyVG9sWW40Ty1IdGtvTzhrOWRrU3d1dHg0bXVfeWRRVjhZZlNEY3N3c3ZOTWNlOVptRnVSRFFfb2NiNTVpR3BMRHNYU2J2WlNsMkpDX3ItU0RNR1Q4OHNhcGRrZWZBdkxtV1hqT0lUYTk4Tk5EZXBYWlU1c3dKTThKVy1zM29hXzRIc2c4V293WkJBeWRuMXZQNVJPcWtaUW5iY1J5R9IBuAFBVV95cUxPQjhDa2QtZ1FWS194Y09nWFRzekpKeW1pVkJvMjVBOHFLSjVwaV9PcnpYeEVfM1dKSXF3REpyNGFuaTd0cDhjVjlDQjR0UG5SUUI0RjlETEtTREpkbWxTdUloTGF1NXBFdFNHSEc4U2NFTW1vZmlZa2V1NW1ZVDA4c0hzSHpxT0JmZTBVQkNRYTVtSzFabG8tUEFtMmNMNWZmVFM5NHNLbmplUjBQWWd6amQyT05aQWE3?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2229]:
+              - generic [ref=f20e2230]:
+                - generic [ref=f20e2231]: NDTV
+                - generic [ref=f20e2237]:
+                  - button [ref=f20e2238] [cursor=pointer]
+                  - tooltip [ref=f20e2242]: More
+              - link [ref=f20e2243] [cursor=pointer]:
+                - /url: ./read/CBMisAFBVV95cUxOakxNWVVjazF4WHRyVG9sWW40Ty1IdGtvTzhrOWRrU3d1dHg0bXVfeWRRVjhZZlNEY3N3c3ZOTWNlOVptRnVSRFFfb2NiNTVpR3BMRHNYU2J2WlNsMkpDX3ItU0RNR1Q4OHNhcGRrZWZBdkxtV1hqT0lUYTk4Tk5EZXBYWlU1c3dKTThKVy1zM29hXzRIc2c4V293WkJBeWRuMXZQNVJPcWtaUW5iY1J5R9IBuAFBVV95cUxPQjhDa2QtZ1FWS194Y09nWFRzekpKeW1pVkJvMjVBOHFLSjVwaV9PcnpYeEVfM1dKSXF3REpyNGFuaTd0cDhjVjlDQjR0UG5SUUI0RjlETEtTREpkbWxTdUloTGF1NXBFdFNHSEc4U2NFTW1vZmlZa2V1NW1ZVDA4c0hzSHpxT0JmZTBVQkNRYTVtSzFabG8tUEFtMmNMNWZmVFM5NHNLbmplUjBQWWd6amQyT05aQWE3?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Amazon, Uber To Lay Off More Employees As AI Reshapes Tech Workforce
+            - figure [ref=f20e2244]
+          - generic [ref=f20e2245]:
+            - time [ref=f20e2246]: Yesterday
+            - separator [ref=f20e2247]
+            - generic [ref=f20e2248]: By Prateek Shukla
+      - generic [ref=f20e2249]:
+        - separator [ref=f20e2251]
+        - generic [ref=f20e2253]:
+          - generic [ref=f20e2254]:
+            - link [ref=f20e2256] [cursor=pointer]:
+              - /url: ./read/CBMihAFBVV95cUxQNUp3a19vcjhVQ3p1Mi1lS0lEOW1jRWZOcmJIZzJURVFsV1c3d2h3ZW1kVlNVa1VXbEhiWmZfNEJMbFpYc3lFREFJVTlnVmhGdWNfVmpCZXZ1NkpTaVc5UkFVSVQ3UHpFOFpPWDNmZTdjU004amxkcDBTNHlnSjFHRmlrRzI?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2258]:
+              - generic [ref=f20e2259]:
+                - generic [ref=f20e2260]: Financial Times
+                - generic [ref=f20e2266]:
+                  - button [ref=f20e2267] [cursor=pointer]
+                  - tooltip [ref=f20e2271]: More
+              - link [ref=f20e2272] [cursor=pointer]:
+                - /url: ./read/CBMihAFBVV95cUxQNUp3a19vcjhVQ3p1Mi1lS0lEOW1jRWZOcmJIZzJURVFsV1c3d2h3ZW1kVlNVa1VXbEhiWmZfNEJMbFpYc3lFREFJVTlnVmhGdWNfVmpCZXZ1NkpTaVc5UkFVSVQ3UHpFOFpPWDNmZTdjU004amxkcDBTNHlnSjFHRmlrRzI?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Intel posts fastest growth in 15 years as AI data centres demand fuels sales
+            - figure [ref=f20e2273]
+          - generic [ref=f20e2274]:
+            - time [ref=f20e2275]: 16 hours ago
+            - separator [ref=f20e2276]
+            - generic [ref=f20e2277]: By Michael Acton
+      - generic [ref=f20e2278]:
+        - separator [ref=f20e2280]
+        - generic [ref=f20e2282]:
+          - generic [ref=f20e2283]:
+            - link [ref=f20e2285] [cursor=pointer]:
+              - /url: ./read/CBMiywFBVV95cUxNSkdfaENBazRSaHNpMHdPNnJoM0c5a3ZSQVFzR1pVdTZJejJzd0hkQ2VzYWlOR3J3R3ItLWNLUnFPM3NpRENOeWExZjUyVXpuakdpQmxHUHItbjk2TmQzekZzOFczTm1qcmdPUXpfMW1ua0NwYjJXWnVMaHQ5NkwtdHpOLVlLdmtvcC1nMFlMWXFDc2p1NzV4MFFqQ2RiOXdKRVVmanFWWG1xTklJVU93TVRsWGp2X01kdVB2bmJhRkxiMndMOHY0NWJLb9IB0AFBVV95cUxQaDhoV2owc2o5d01uZndGY2VXa1ZFSzVjejJjTjhzVHBaT1Y3eHVyNlB1azAta080TXpuYkZydldocE1sMUU1V2FDb25ETk9rd3JDbGxEQTA3d001amJWSG0zUlQyZ29PaklURDVLNFMyMjQtTmhpazhGTzE5SHJrTk5fVWhDZFU2SkUwTFV4MEpiUnliLWQ0b1lHdF91YUNpek02VUxROXZlRjdIbWdONDhPVmFqMVhrRWJaM0pPTGhrdnpxWXJUZWJRc3VsOG5f?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2287]:
+              - generic [ref=f20e2288]:
+                - generic [ref=f20e2289]: simplywall.st
+                - generic [ref=f20e2295]:
+                  - button [ref=f20e2296] [cursor=pointer]
+                  - tooltip [ref=f20e2300]: More
+              - link [ref=f20e2301] [cursor=pointer]:
+                - /url: ./read/CBMiywFBVV95cUxNSkdfaENBazRSaHNpMHdPNnJoM0c5a3ZSQVFzR1pVdTZJejJzd0hkQ2VzYWlOR3J3R3ItLWNLUnFPM3NpRENOeWExZjUyVXpuakdpQmxHUHItbjk2TmQzekZzOFczTm1qcmdPUXpfMW1ua0NwYjJXWnVMaHQ5NkwtdHpOLVlLdmtvcC1nMFlMWXFDc2p1NzV4MFFqQ2RiOXdKRVVmanFWWG1xTklJVU93TVRsWGp2X01kdVB2bmJhRkxiMndMOHY0NWJLb9IB0AFBVV95cUxQaDhoV2owc2o5d01uZndGY2VXa1ZFSzVjejJjTjhzVHBaT1Y3eHVyNlB1azAta080TXpuYkZydldocE1sMUU1V2FDb25ETk9rd3JDbGxEQTA3d001amJWSG0zUlQyZ29PaklURDVLNFMyMjQtTmhpazhGTzE5SHJrTk5fVWhDZFU2SkUwTFV4MEpiUnliLWQ0b1lHdF91YUNpek02VUxROXZlRjdIbWdONDhPVmFqMVhrRWJaM0pPTGhrdnpxWXJUZWJRc3VsOG5f?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Latest News In AI Chips - AMD and Cerebras Team Up for AI Infrastructure Enhancement
+            - figure [ref=f20e2302]
+          - time [ref=f20e2304]: 58 minutes ago
+      - generic [ref=f20e2305]:
+        - separator [ref=f20e2307]
+        - generic [ref=f20e2309]:
+          - generic [ref=f20e2310]:
+            - link [ref=f20e2312] [cursor=pointer]:
+              - /url: ./read/CBMigwFBVV95cUxNV2lZYXNGZXdPOC1nMXl3UW04QXMzZGdJZWJlWUFGOV92ZVVSUEZVMU1HNUNoSjl2MnVFaF9Hdk1fMC1NN2NhZ1NHd3RJX0xsRDJnZ0JfbXBGN3NWLTlZSVlVSHFoQlo5eXhGNUV1M3RnY0otb184VHN0bGZhTWlpMVhBTQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2314]:
+              - generic [ref=f20e2315]:
+                - generic [ref=f20e2316]: CNN
+                - generic [ref=f20e2322]:
+                  - button [ref=f20e2323] [cursor=pointer]
+                  - tooltip [ref=f20e2327]: More
+              - link [ref=f20e2328] [cursor=pointer]:
+                - /url: ./read/CBMigwFBVV95cUxNV2lZYXNGZXdPOC1nMXl3UW04QXMzZGdJZWJlWUFGOV92ZVVSUEZVMU1HNUNoSjl2MnVFaF9Hdk1fMC1NN2NhZ1NHd3RJX0xsRDJnZ0JfbXBGN3NWLTlZSVlVSHFoQlo5eXhGNUV1M3RnY0otb184VHN0bGZhTWlpMVhBTQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: What is China’s Kimi K3 and why is the US so rattled by it?
+            - figure [ref=f20e2329]
+          - generic [ref=f20e2330]:
+            - time [ref=f20e2331]: 10 hours ago
+            - separator [ref=f20e2332]
+            - generic [ref=f20e2333]: By John Liu
+      - generic [ref=f20e2334]:
+        - separator [ref=f20e2336]
+        - generic [ref=f20e2338]:
+          - generic [ref=f20e2339]:
+            - link [ref=f20e2341] [cursor=pointer]:
+              - /url: ./read/CBMiX0FVX3lxTE9hTEJ4QjhoSjlNX3p2RGZiVmZZR2xremhJQkF1TExBWXZ5Q3BqQ040UTZaTGRoX0RHTUZqaDBKOUx3a2ZHOVRqOGJ2a0pzWkNjeWcwdFZXaVFpTGkyemg4?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2343]:
+              - generic [ref=f20e2344]:
+                - generic [ref=f20e2345]: PBS
+                - generic [ref=f20e2351]:
+                  - button [ref=f20e2352] [cursor=pointer]
+                  - tooltip [ref=f20e2356]: More
+              - link [ref=f20e2357] [cursor=pointer]:
+                - /url: ./read/CBMiX0FVX3lxTE9hTEJ4QjhoSjlNX3p2RGZiVmZZR2xremhJQkF1TExBWXZ5Q3BqQ040UTZaTGRoX0RHTUZqaDBKOUx3a2ZHOVRqOGJ2a0pzWkNjeWcwdFZXaVFpTGkyemg4?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: China's latest AI model threatens U.S. lead in tech race
+            - figure [ref=f20e2358]
+          - time [ref=f20e2360]: Yesterday
+      - generic [ref=f20e2361]:
+        - separator [ref=f20e2363]
+        - generic [ref=f20e2365]:
+          - generic [ref=f20e2366]:
+            - link [ref=f20e2368] [cursor=pointer]:
+              - /url: ./read/CBMivgFBVV95cUxQN0R3SFk4SWV4TGRubTZORVhxUVNUT3Z5WHRjSjVaWjVwTUJKbzhaM1oyT3ZZOXhnUWRmUVdiMm5wdkVpdmNucVdacWdKQU5zRWpCRU5YWTFxel9WWjR3endvLThwSEhBUlBVTkVFT2FZX2tkbXdxNGpLZS1MUFBLaDlpd3RzSE9SbnN0YWtpYUN2U0w2RUNVSVZ6bWJUVU9tYVlEd0dfQ0l4Q3BReVV4Vk5hRVJzYndSaVFPMDNn?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2370]:
+              - generic [ref=f20e2371]:
+                - generic [ref=f20e2372]: InfoWorld
+                - generic [ref=f20e2378]:
+                  - button [ref=f20e2379] [cursor=pointer]
+                  - tooltip [ref=f20e2383]: More
+              - link [ref=f20e2384] [cursor=pointer]:
+                - /url: ./read/CBMivgFBVV95cUxQN0R3SFk4SWV4TGRubTZORVhxUVNUT3Z5WHRjSjVaWjVwTUJKbzhaM1oyT3ZZOXhnUWRmUVdiMm5wdkVpdmNucVdacWdKQU5zRWpCRU5YWTFxel9WWjR3endvLThwSEhBUlBVTkVFT2FZX2tkbXdxNGpLZS1MUFBLaDlpd3RzSE9SbnN0YWtpYUN2U0w2RUNVSVZ6bWJUVU9tYVlEd0dfQ0l4Q3BReVV4Vk5hRVJzYndSaVFPMDNn?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Cisco’s AI shrinks haystacks to help security teams hunt needles
+            - figure [ref=f20e2385]
+          - generic [ref=f20e2386]:
+            - time [ref=f20e2387]: 2 days ago
+            - separator [ref=f20e2388]
+            - generic [ref=f20e2389]: By Shweta Sharma
+      - generic [ref=f20e2390]:
+        - separator [ref=f20e2392]
+        - generic [ref=f20e2394]:
+          - generic [ref=f20e2395]:
+            - link [ref=f20e2397] [cursor=pointer]:
+              - /url: ./read/CBMiWkFVX3lxTE9QVzVZQlgwd2o3MkNkSlZlVkVmVmFJU21GTTJOR1g4V3Bwb19TVEZiRUNGc3d5T0g4WkljemsybW5ma3dndEVULTJFZHp4VXFEZUdVdmo4b29VQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2399]:
+              - generic [ref=f20e2400]:
+                - generic [ref=f20e2401]: BBC
+                - generic [ref=f20e2407]:
+                  - button [ref=f20e2408] [cursor=pointer]
+                  - tooltip [ref=f20e2412]: More
+              - link [ref=f20e2413] [cursor=pointer]:
+                - /url: ./read/CBMiWkFVX3lxTE9QVzVZQlgwd2o3MkNkSlZlVkVmVmFJU21GTTJOR1g4V3Bwb19TVEZiRUNGc3d5T0g4WkljemsybW5ma3dndEVULTJFZHp4VXFEZUdVdmo4b29VQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Google and Tesla shares plunge as AI spending rattles markets
+            - figure [ref=f20e2414]
+          - generic [ref=f20e2415]:
+            - time [ref=f20e2416]: 15 hours ago
+            - separator [ref=f20e2417]
+            - generic [ref=f20e2418]: By Kali Hays
+      - generic [ref=f20e2419]:
+        - separator [ref=f20e2421]
+        - generic [ref=f20e2423]:
+          - generic [ref=f20e2424]:
+            - link [ref=f20e2426] [cursor=pointer]:
+              - /url: ./read/CBMikAFBVV95cUxOZkpKT0hTY0xtSDZVSjQ5TUNZQ1E1OHd0UWhIMERIemFsY3ljOGxmNDQ4ZDRhVWpzR3B0UFRENEZtZFVReU9HT0pXbDlfQ1AySWpOaVE3bjRRLVJrcnlwZXRVTllGV2x6LVZoVkFERFJsUVNVVDVpbW5MMkc2cnVBWkdYX1pLNEFKZlpZdzVENG4?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2428]:
+              - generic [ref=f20e2429]:
+                - generic [ref=f20e2430]: blog.google
+                - generic [ref=f20e2436]:
+                  - button [ref=f20e2437] [cursor=pointer]
+                  - tooltip [ref=f20e2441]: More
+              - link [ref=f20e2442] [cursor=pointer]:
+                - /url: ./read/CBMikAFBVV95cUxOZkpKT0hTY0xtSDZVSjQ5TUNZQ1E1OHd0UWhIMERIemFsY3ljOGxmNDQ4ZDRhVWpzR3B0UFRENEZtZFVReU9HT0pXbDlfQ1AySWpOaVE3bjRRLVJrcnlwZXRVTllGV2x6LVZoVkFERFJsUVNVVDVpbW5MMkc2cnVBWkdYX1pLNEFKZlpZdzVENG4?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Understanding the AI economy
+            - figure [ref=f20e2443]
+          - generic [ref=f20e2444]:
+            - time [ref=f20e2445]: Yesterday
+            - separator [ref=f20e2446]
+            - generic [ref=f20e2447]: By Zanna Iscenko
+      - generic [ref=f20e2448]:
+        - separator [ref=f20e2450]
+        - generic [ref=f20e2452]:
+          - generic [ref=f20e2453]:
+            - link [ref=f20e2455] [cursor=pointer]:
+              - /url: ./read/CBMijgFBVV95cUxNcUdvdmFHb1pYVURUWHFocGdtMVBwQThkSnk5LUtBSVlsZ0ZiQ3VMWUhjc2xLWUxvRzVNNjJlSHdXWVYtcTh5UmpMUHVpLWxFczVXTmxNVUVpZTRCdDhHU2JkS1dhcXV1aXZZTGxUVTkzYVNObDFPUnc4eWJSWlFydXY3bkE3Q0ZjY094M0Nn?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2457]:
+              - generic [ref=f20e2458]:
+                - generic [ref=f20e2459]: blog.google
+                - generic [ref=f20e2465]:
+                  - button [ref=f20e2466] [cursor=pointer]
+                  - tooltip [ref=f20e2470]: More
+              - link [ref=f20e2471] [cursor=pointer]:
+                - /url: ./read/CBMijgFBVV95cUxNcUdvdmFHb1pYVURUWHFocGdtMVBwQThkSnk5LUtBSVlsZ0ZiQ3VMWUhjc2xLWUxvRzVNNjJlSHdXWVYtcTh5UmpMUHVpLWxFczVXTmxNVUVpZTRCdDhHU2JkS1dhcXV1aXZZTGxUVTkzYVNObDFPUnc4eWJSWlFydXY3bkE3Q0ZjY094M0Nn?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "Q2 2026 earnings call: Remarks from our CEO"
+            - figure [ref=f20e2472]
+          - generic [ref=f20e2473]:
+            - time [ref=f20e2474]: Yesterday
+            - separator [ref=f20e2475]
+            - generic [ref=f20e2476]: By Sundar Pichai
+      - generic [ref=f20e2477]:
+        - separator [ref=f20e2479]
+        - generic [ref=f20e2481]:
+          - generic [ref=f20e2482]:
+            - link [ref=f20e2484] [cursor=pointer]:
+              - /url: ./read/CBMikwFBVV95cUxNSlcyZ0tfYVZmYkZmLW5RNUNFajJUVVhTNmM1ZVhRdVJEV1cxbXBJS2ZPX1BUSXpSTEFGdHRWakNtZ1VES1I0TzVoMndVV1NUT2dISE9vY3pydzFhanp4UDlOdl9qR3dZZzhvVTB6OXRZVmt5NVNJalNsLXlRT1UxRkF3anIxNzZVYWxETjNSSVpxZGM?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2486]:
+              - generic [ref=f20e2487]:
+                - generic [ref=f20e2488]: crn.com
+                - generic [ref=f20e2494]:
+                  - button [ref=f20e2495] [cursor=pointer]
+                  - tooltip [ref=f20e2499]: More
+              - link [ref=f20e2500] [cursor=pointer]:
+                - /url: ./read/CBMikwFBVV95cUxNSlcyZ0tfYVZmYkZmLW5RNUNFajJUVVhTNmM1ZVhRdVJEV1cxbXBJS2ZPX1BUSXpSTEFGdHRWakNtZ1VES1I0TzVoMndVV1NUT2dISE9vY3pydzFhanp4UDlOdl9qR3dZZzhvVTB6OXRZVmt5NVNJalNsLXlRT1UxRkF3anIxNzZVYWxETjNSSVpxZGM?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: The 10 Biggest Generative AI News Stories Of 2026 (So Far)
+            - figure [ref=f20e2501]
+          - time [ref=f20e2503]: 14 days ago
+      - generic [ref=f20e2504]:
+        - separator [ref=f20e2506]
+        - generic [ref=f20e2508]:
+          - generic [ref=f20e2509]:
+            - link [ref=f20e2511] [cursor=pointer]:
+              - /url: ./read/CBMijwFBVV95cUxQbXRmeEZiMTZYX09lWWM1YmlWOEQ4bW5Gb3lWX3pZX0JIb2Vxel9ORm82RHBiWG9EelpZa2ZDRWlyMEQ2blZoU3NhV0VGakZESnRvR0c5NTR0NUxXVkJTOF9ZY05OVWVEejRIRW5sVktpRFhRd2lrcU4yd19aN1lXU1J3d1JxUkNtbHNOZGEtdw?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2513]:
+              - generic [ref=f20e2514]:
+                - generic [ref=f20e2515]: blog.google
+                - generic [ref=f20e2521]:
+                  - button [ref=f20e2522] [cursor=pointer]
+                  - tooltip [ref=f20e2526]: More
+              - link [ref=f20e2527] [cursor=pointer]:
+                - /url: ./read/CBMijwFBVV95cUxQbXRmeEZiMTZYX09lWWM1YmlWOEQ4bW5Gb3lWX3pZX0JIb2Vxel9ORm82RHBiWG9EelpZa2ZDRWlyMEQ2blZoU3NhV0VGakZESnRvR0c5NTR0NUxXVkJTOF9ZY05OVWVEejRIRW5sVktpRFhRd2lrcU4yd19aN1lXU1J3d1JxUkNtbHNOZGEtdw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "Introducing selfie for sign-in: a new, easy way to access your Google Account"
+            - figure [ref=f20e2528]
+          - time [ref=f20e2530]: Yesterday
+      - generic [ref=f20e2531]:
+        - separator [ref=f20e2533]
+        - generic [ref=f20e2535]:
+          - generic [ref=f20e2536]:
+            - link [ref=f20e2538] [cursor=pointer]:
+              - /url: ./read/CBMifkFVX3lxTFBEVVNZZ3ZZRU1nNnd3dmtaOHRQby1aSnVNbXhITkFGQnBPS3BqalpNdHRSckthU20xZzNsellLdGhYVlBhOUlMSThzT05XVVpTdEw1Um5GeTlLQkxLZHk5WEtyNUFQR2xUUjNIcnd4VEY2TWNEMnp1dEpxc2wtZw?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2540]:
+              - generic [ref=f20e2541]:
+                - generic [ref=f20e2542]: Yahoo Finance Singapore
+                - generic [ref=f20e2548]:
+                  - button [ref=f20e2549] [cursor=pointer]
+                  - tooltip [ref=f20e2553]: More
+              - link [ref=f20e2554] [cursor=pointer]:
+                - /url: ./read/CBMifkFVX3lxTFBEVVNZZ3ZZRU1nNnd3dmtaOHRQby1aSnVNbXhITkFGQnBPS3BqalpNdHRSckthU20xZzNsellLdGhYVlBhOUlMSThzT05XVVpTdEw1Um5GeTlLQkxLZHk5WEtyNUFQR2xUUjNIcnd4VEY2TWNEMnp1dEpxc2wtZw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Latest News In AI Chips - AMD and Cerebras Team Up for AI Infrastructure Enhancement
+            - figure [ref=f20e2555]
+          - time [ref=f20e2557]: 37 minutes ago
+      - generic [ref=f20e2558]:
+        - separator [ref=f20e2560]
+        - generic [ref=f20e2562]:
+          - generic [ref=f20e2563]:
+            - link [ref=f20e2565] [cursor=pointer]:
+              - /url: ./read/CBMijwFBVV95cUxNVFZjUFR5WkswNjktWXpvZzNyWDlQUFkzU0VhT3dER21xR3MxUXU2WGl2X3pwMko5ajVKZm5tLTE4SlFwUW5uY21PeU9iR2cyUnR4THVldU1xcnZ5ZnRDMXRTQVctMHAxUHhCZlVkV19MSkZOQmVHY1VKU3k1N1lXTVk2MGxheUVqeV9wQ2dnRQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2567]:
+              - generic [ref=f20e2568]:
+                - generic [ref=f20e2569]: Bus-News
+                - generic [ref=f20e2575]:
+                  - button [ref=f20e2576] [cursor=pointer]
+                  - tooltip [ref=f20e2580]: More
+              - link [ref=f20e2581] [cursor=pointer]:
+                - /url: ./read/CBMijwFBVV95cUxNVFZjUFR5WkswNjktWXpvZzNyWDlQUFkzU0VhT3dER21xR3MxUXU2WGl2X3pwMko5ajVKZm5tLTE4SlFwUW5uY21PeU9iR2cyUnR4THVldU1xcnZ5ZnRDMXRTQVctMHAxUHhCZlVkV19MSkZOQmVHY1VKU3k1N1lXTVk2MGxheUVqeV9wQ2dnRQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Masats to Unveil AI-Powered Accessibility Solutions at FIAA 2026
+            - figure [ref=f20e2582]
+          - time [ref=f20e2584]: 22 hours ago
+      - generic [ref=f20e2585]:
+        - separator [ref=f20e2587]
+        - generic [ref=f20e2589]:
+          - generic [ref=f20e2590]:
+            - link [ref=f20e2592] [cursor=pointer]:
+              - /url: ./read/CBMiuwFBVV95cUxObnJ1SE04Y2xyZkFqaWMyRUNOUVhVYy1iaF9aZWtybGtLSDF2ZkhLYVQwcUVFdEFmblB3NDYwX0dsM3VnOUFjQ010VlU0bWFWYmU2bjQ2ZU94Q2ttTHBIZmw2Z3ZSQ3hFdll2UzVjbkFDc3kwZWJGXzdrTi05Z3pFcmc1QmJIMFItZTFobi1PTEl3SDhYQWVwdGMwUkhLb1BoVTl1b1VwSE5RMU4yb3oyWHFFbTJzWmNicU04?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2594]:
+              - generic [ref=f20e2595]:
+                - generic [ref=f20e2596]: CNBC
+                - generic [ref=f20e2602]:
+                  - button [ref=f20e2603] [cursor=pointer]
+                  - tooltip [ref=f20e2607]: More
+              - link [ref=f20e2608] [cursor=pointer]:
+                - /url: ./read/CBMiuwFBVV95cUxObnJ1SE04Y2xyZkFqaWMyRUNOUVhVYy1iaF9aZWtybGtLSDF2ZkhLYVQwcUVFdEFmblB3NDYwX0dsM3VnOUFjQ010VlU0bWFWYmU2bjQ2ZU94Q2ttTHBIZmw2Z3ZSQ3hFdll2UzVjbkFDc3kwZWJGXzdrTi05Z3pFcmc1QmJIMFItZTFobi1PTEl3SDhYQWVwdGMwUkhLb1BoVTl1b1VwSE5RMU4yb3oyWHFFbTJzWmNicU04?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Apple prepares a new way to buy iPhones. Plus, making sense of Google's new AI models
+            - figure [ref=f20e2609]
+          - generic [ref=f20e2610]:
+            - time [ref=f20e2611]: 2 days ago
+            - separator [ref=f20e2612]
+            - generic [ref=f20e2613]: By Jeff Marks and Zev Fima
+      - generic [ref=f20e2614]:
+        - separator [ref=f20e2616]
+        - generic [ref=f20e2618]:
+          - generic [ref=f20e2619]:
+            - link [ref=f20e2621] [cursor=pointer]:
+              - /url: ./read/CBMikgJBVV95cUxPTHZKazRtYlpvLThIUjhhdThZMkswNjNWaVlHeXc3VC1aZHBEaVNVbWRyTHFqVjFmVzF4Wk1jRzdEdUhvZzBoby10S1FpVTNUUWRZMDQxMzljZkloT1dxSjlXeHd1NGY3TWlfRGlpZmE4emxIbXNsbXVPTDctY3JVb2V5ZTB3eS1RY09zemxheU5zYXdxRjNPNG1yVF9LQWJkUlN4Q3cxZHh4UjVaekZUcTdHS1ZCYlNyLTR2Q3EwcFVPcDk3c0MxUU9zX2FLbXA1MlRVTTRNSF9RdjdGY1doTjFXWTZIMTFKVUF4emVvR0lYcUJ3Z2IwVm02WWxnZnBKb1FZWDZfQ3FIYjlCTThab1ln0gGXAkFVX3lxTE1GbHh6SVhGSXlWbkl3NVptcUJsOEJfcUIweEhNRFJuS3hNdDA3eFI1NTc5RndkNFNkX0FKSFFNNGNqTXY5dkpkdnowTVl4NXc2VzFDM21lU0lPS0JEMFpGOEVRZ21sVHRNNl9ERW5DcGpFMDdFem43R3hmZGkyX3k1MTZNU01FMHppSmd2c1FQd2ZxRmY2UGNkWXpkNjdveWE1cHMyOEx1VkZVV0x0Njlua0lCWktHMU9XOFc4X1lHR0FnekdXbXBkbUlPMHlpeVRlVWNVYTNDa05JR3JTRjBIakNheTlaSTFFS3oya1pWNERrSXpwRm9TanVSUVd6UkFHY0ZKeFdiaU03bjhGRkxGM2F5clZrRQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2623]:
+              - generic [ref=f20e2624]:
+                - generic [ref=f20e2625]: Hindustan Times
+                - generic [ref=f20e2631]:
+                  - button [ref=f20e2632] [cursor=pointer]
+                  - tooltip [ref=f20e2636]: More
+              - link [ref=f20e2637] [cursor=pointer]:
+                - /url: ./read/CBMikgJBVV95cUxPTHZKazRtYlpvLThIUjhhdThZMkswNjNWaVlHeXc3VC1aZHBEaVNVbWRyTHFqVjFmVzF4Wk1jRzdEdUhvZzBoby10S1FpVTNUUWRZMDQxMzljZkloT1dxSjlXeHd1NGY3TWlfRGlpZmE4emxIbXNsbXVPTDctY3JVb2V5ZTB3eS1RY09zemxheU5zYXdxRjNPNG1yVF9LQWJkUlN4Q3cxZHh4UjVaekZUcTdHS1ZCYlNyLTR2Q3EwcFVPcDk3c0MxUU9zX2FLbXA1MlRVTTRNSF9RdjdGY1doTjFXWTZIMTFKVUF4emVvR0lYcUJ3Z2IwVm02WWxnZnBKb1FZWDZfQ3FIYjlCTThab1ln0gGXAkFVX3lxTE1GbHh6SVhGSXlWbkl3NVptcUJsOEJfcUIweEhNRFJuS3hNdDA3eFI1NTc5RndkNFNkX0FKSFFNNGNqTXY5dkpkdnowTVl4NXc2VzFDM21lU0lPS0JEMFpGOEVRZ21sVHRNNl9ERW5DcGpFMDdFem43R3hmZGkyX3k1MTZNU01FMHppSmd2c1FQd2ZxRmY2UGNkWXpkNjdveWE1cHMyOEx1VkZVV0x0Njlua0lCWktHMU9XOFc4X1lHR0FnekdXbXBkbUlPMHlpeVRlVWNVYTNDa05JR3JTRjBIakNheTlaSTFFS3oya1pWNERrSXpwRm9TanVSUVd6UkFHY0ZKeFdiaU03bjhGRkxGM2F5clZrRQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Microsoft CEO Satya Nadella shares MAI AI strategy, says new models will cut costs and power Copilot, Outlook, Excel | Hindustan Times
+            - figure [ref=f20e2638]
+          - generic [ref=f20e2639]:
+            - time [ref=f20e2640]: 17 hours ago
+            - separator [ref=f20e2641]
+            - generic [ref=f20e2642]: By Durva More
+      - generic [ref=f20e2643]:
+        - separator [ref=f20e2645]
+        - generic [ref=f20e2647]:
+          - generic [ref=f20e2648]:
+            - link [ref=f20e2650] [cursor=pointer]:
+              - /url: ./read/CBMiowFBVV95cUxPNFdNa1BNRmlhUXJSUVg4NzN6TWNqT0VMT1p1SzhyRzRIQ3draVJhV21hek5JbVduaDNBWUxxYWwtWGk2el9feVZjcmFTN0JFZ2E2OWwzNEJlbEZVVk8zbkN1OHVFZVhuQ2E2WjdsS0doN1dza1ZCYWJkeXpZbDN6R25fUWRub2psMXJnR1FCS1dnWjdNUEJ6bFpjU1gtcnpqcjlj?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2652]:
+              - generic [ref=f20e2653]:
+                - generic [ref=f20e2654]: NBC News
+                - generic [ref=f20e2660]:
+                  - button [ref=f20e2661] [cursor=pointer]
+                  - tooltip [ref=f20e2665]: More
+              - link [ref=f20e2666] [cursor=pointer]:
+                - /url: ./read/CBMiowFBVV95cUxPNFdNa1BNRmlhUXJSUVg4NzN6TWNqT0VMT1p1SzhyRzRIQ3draVJhV21hek5JbVduaDNBWUxxYWwtWGk2el9feVZjcmFTN0JFZ2E2OWwzNEJlbEZVVk8zbkN1OHVFZVhuQ2E2WjdsS0doN1dza1ZCYWJkeXpZbDN6R25fUWRub2psMXJnR1FCS1dnWjdNUEJ6bFpjU1gtcnpqcjlj?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: New bill takes aim at Chinese AI companies accused of copying American tech
+            - figure [ref=f20e2667]
+          - generic [ref=f20e2668]:
+            - time [ref=f20e2669]: Yesterday
+            - separator [ref=f20e2670]
+            - generic [ref=f20e2671]: By David Ingram
+      - generic [ref=f20e2672]:
+        - separator [ref=f20e2674]
+        - generic [ref=f20e2676]:
+          - generic [ref=f20e2677]:
+            - link [ref=f20e2679] [cursor=pointer]:
+              - /url: ./read/CBMieEFVX3lxTE4yOTVkVVVLd08yczYtbFctX1Q4alNyZk1Hb1VkT0JYMkxfR05iRmpST1U3WDhsZkdhY1dtdlFuZkFHRFpRTVFYN2FnLVczQW10azQxVXBLb3BnZExVelRSbTgxeTBpTUV5RjVkZVR5M2RvYWxXeGhmZA?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2681]:
+              - generic [ref=f20e2682]:
+                - generic [ref=f20e2683]: Pluang
+                - generic [ref=f20e2689]:
+                  - button [ref=f20e2690] [cursor=pointer]
+                  - tooltip [ref=f20e2694]: More
+              - link [ref=f20e2695] [cursor=pointer]:
+                - /url: ./read/CBMieEFVX3lxTE4yOTVkVVVLd08yczYtbFctX1Q4alNyZk1Hb1VkT0JYMkxfR05iRmpST1U3WDhsZkdhY1dtdlFuZkFHRFpRTVFYN2FnLVczQW10azQxVXBLb3BnZExVelRSbTgxeTBpTUV5RjVkZVR5M2RvYWxXeGhmZA?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Mid-cap ETFs offer new AI growth opportunities beyond mega-cap tech giants.
+          - time [ref=f20e2697]: 13 hours ago
+      - generic [ref=f20e2698]:
+        - separator [ref=f20e2700]
+        - generic [ref=f20e2702]:
+          - generic [ref=f20e2703]:
+            - link [ref=f20e2705] [cursor=pointer]:
+              - /url: ./read/CBMid0FVX3lxTE1xSy1fQ0dfZkpLbjdTRThYMklVNlFrU2NRYVVET2RpMU81MTc4dDZQTlVMd2hWT0J0VW5Nb1lreHhnTWJlcHpQVzlTOFlqMzNBVGhXaU5PdkkyWUl3UmdmTkZzclB6aE1XT3VGRm15SUd6ai1LOUMw?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2707]:
+              - generic [ref=f20e2708]:
+                - generic [ref=f20e2709]: The New York Times
+                - generic [ref=f20e2715]:
+                  - button [ref=f20e2716] [cursor=pointer]
+                  - tooltip [ref=f20e2720]: More
+              - link [ref=f20e2721] [cursor=pointer]:
+                - /url: ./read/CBMid0FVX3lxTE1xSy1fQ0dfZkpLbjdTRThYMklVNlFrU2NRYVVET2RpMU81MTc4dDZQTlVMd2hWT0J0VW5Nb1lreHhnTWJlcHpQVzlTOFlqMzNBVGhXaU5PdkkyWUl3UmdmTkZzclB6aE1XT3VGRm15SUd6ai1LOUMw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: China Rewrites the ‘Soft Power’ Playbook for the A.I. Age
+            - figure [ref=f20e2722]
+          - generic [ref=f20e2723]:
+            - time [ref=f20e2724]: 21 hours ago
+            - separator [ref=f20e2725]
+            - generic [ref=f20e2726]: By Steve Lohr
+      - generic [ref=f20e2727]:
+        - separator [ref=f20e2729]
+        - generic [ref=f20e2731]:
+          - generic [ref=f20e2732]:
+            - link [ref=f20e2734] [cursor=pointer]:
+              - /url: ./read/CBMixwFBVV95cUxQNnp5T3h5d2kyaUhiQklpaXRycUJnMjUwU1J2czRsOFd1UGtoUDJsTGpkbmhyZWRKSHJwSkFJVDk4ekdTUlBEZEVTQWlBc3I4RXJpZzZNQ3l4ZTV0dFhIR3c4a1prNGRRZXY0bVZqTHZuYjgwdGQzNHlEaW1VMWVJSXdoYVNCWlU1cG55dDhDZEY3d3FPNnFfZGdOY3EwaEQwdzB6NkR2NHROSU94LTg3dmtXaWZrVXl3UEpZcFlBZUp2OW00dWUw0gHMAUFVX3lxTE1YbUQxWFJTaVRUX1NTTDZZbEp4cFpueS00UDBPM2JTdXd2QnFLU3RiZ2play1tUUpycTVEZ1JZX2JqbUJqbzRxX1R1alpVbWVoQ1J5UnlHaEpJMmVqdmEwbGpURVBSWmlPNDdyTkhEMG5BWlN0Smk5T2pZRkRlNnJLNG1naHc0Y3NiUXdFY08xMFhBbUh1SWJWNld3dU9uWmc0eVpkSHpSQXpFbEM5TXVFVHBWdEg5VVBpeVZoT1pZSndheTJ3a0FqMG9ZUA?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2736]:
+              - generic [ref=f20e2737]:
+                - generic [ref=f20e2738]: simplywall.st
+                - generic [ref=f20e2744]:
+                  - button [ref=f20e2745] [cursor=pointer]
+                  - tooltip [ref=f20e2749]: More
+              - link [ref=f20e2750] [cursor=pointer]:
+                - /url: ./read/CBMixwFBVV95cUxQNnp5T3h5d2kyaUhiQklpaXRycUJnMjUwU1J2czRsOFd1UGtoUDJsTGpkbmhyZWRKSHJwSkFJVDk4ekdTUlBEZEVTQWlBc3I4RXJpZzZNQ3l4ZTV0dFhIR3c4a1prNGRRZXY0bVZqTHZuYjgwdGQzNHlEaW1VMWVJSXdoYVNCWlU1cG55dDhDZEY3d3FPNnFfZGdOY3EwaEQwdzB6NkR2NHROSU94LTg3dmtXaWZrVXl3UEpZcFlBZUp2OW00dWUw0gHMAUFVX3lxTE1YbUQxWFJTaVRUX1NTTDZZbEp4cFpueS00UDBPM2JTdXd2QnFLU3RiZ2play1tUUpycTVEZ1JZX2JqbUJqbzRxX1R1alpVbWVoQ1J5UnlHaEpJMmVqdmEwbGpURVBSWmlPNDdyTkhEMG5BWlN0Smk5T2pZRkRlNnJLNG1naHc0Y3NiUXdFY08xMFhBbUh1SWJWNld3dU9uWmc0eVpkSHpSQXpFbEM5TXVFVHBWdEg5VVBpeVZoT1pZSndheTJ3a0FqMG9ZUA?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Is Arista’s AI Networking Surge and New Security Push Altering The Investment Case For Arista Networks (ANET)?
+            - figure [ref=f20e2751]
+          - time [ref=f20e2753]: 17 hours ago
+      - generic [ref=f20e2754]:
+        - separator [ref=f20e2756]
+        - generic [ref=f20e2758]:
+          - generic [ref=f20e2759]:
+            - link [ref=f20e2761] [cursor=pointer]:
+              - /url: ./read/CBMiygFBVV95cUxPbk1ScVhtQnlPSHI0Ti1uSktGak5IeTEzN1cwREowbGNJWlhGTEpVeW92Sl9vTEhKb0J0QjZGdE16bGlscHluRGt5VTRtMk8zbW5VQVJYZ0Q3VGNtMnQtemhhcFlrODB5RUhXNFh1dHc3cEdPZ0RuWVpfUC1ueFZBcmtlVEtvRFNIZHJIRUNfdkJ1cmFHaHhQS1ZIRnZGSEtWRUJxdXVOODZoX0hsLXZUeXFpV1dNZG5aWGZBaEJIMnZ3bzRKSE5QMWd30gHPAUFVX3lxTFA0TDhrUkstckZ3R2J5VzNsRVZSSFRWaW91X01OUlZYcUZQYU9LZUs4Q0MtVUx4X09ReE5aQ0tfLWx2dlRlelUycjZjdV9MRVRYMHFBbTR2LVh5Qm9lZFZXTDhxSGpuWFFWcnpfOXZPd2h0THh6aFpudWxZN2hCY2l4SlVxQmtHVVl3OFlrUG83V1JQZjNYLTRFaG9PSnRCaWl1bFVybHlkUTc3dVZBYXZLWEpPUFY1b2o1Ui1kUE5oM0lFbXVIeVhLYXZ5dF9tMA?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2763]:
+              - generic [ref=f20e2764]:
+                - generic [ref=f20e2765]: India Today
+                - generic [ref=f20e2771]:
+                  - button [ref=f20e2772] [cursor=pointer]
+                  - tooltip [ref=f20e2776]: More
+              - link [ref=f20e2777] [cursor=pointer]:
+                - /url: ./read/CBMiygFBVV95cUxPbk1ScVhtQnlPSHI0Ti1uSktGak5IeTEzN1cwREowbGNJWlhGTEpVeW92Sl9vTEhKb0J0QjZGdE16bGlscHluRGt5VTRtMk8zbW5VQVJYZ0Q3VGNtMnQtemhhcFlrODB5RUhXNFh1dHc3cEdPZ0RuWVpfUC1ueFZBcmtlVEtvRFNIZHJIRUNfdkJ1cmFHaHhQS1ZIRnZGSEtWRUJxdXVOODZoX0hsLXZUeXFpV1dNZG5aWGZBaEJIMnZ3bzRKSE5QMWd30gHPAUFVX3lxTFA0TDhrUkstckZ3R2J5VzNsRVZSSFRWaW91X01OUlZYcUZQYU9LZUs4Q0MtVUx4X09ReE5aQ0tfLWx2dlRlelUycjZjdV9MRVRYMHFBbTR2LVh5Qm9lZFZXTDhxSGpuWFFWcnpfOXZPd2h0THh6aFpudWxZN2hCY2l4SlVxQmtHVVl3OFlrUG83V1JQZjNYLTRFaG9PSnRCaWl1bFVybHlkUTc3dVZBYXZLWEpPUFY1b2o1Ui1kUE5oM0lFbXVIeVhLYXZ5dF9tMA?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Kanishka Narayan is new AI Minister in Britain, he was born in Bihar
+            - figure [ref=f20e2778]
+          - generic [ref=f20e2779]:
+            - time [ref=f20e2780]: 23 hours ago
+            - separator [ref=f20e2781]
+            - generic [ref=f20e2782]: By Ankita Garg
+      - generic [ref=f20e2783]:
+        - separator [ref=f20e2785]
+        - generic [ref=f20e2787]:
+          - generic [ref=f20e2788]:
+            - link [ref=f20e2790] [cursor=pointer]:
+              - /url: ./read/CBMihwFBVV95cUxQVVNuVzJkUVd5QmpCSmpFcVpjNXhPdDNLR1FtbFozNEZaY3RfWmN3SkFtNTV2dFJVTjROdWxOS3VoNDBJbWlNbTkwZHFqLUZZdVhSYzdKdmszUzl0b0xibThwem5QLXNKNlE0dDRMc3VmdlYzTVNrbzJ0SUJHUU5nS1dZdWpuVWM?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2792]:
+              - generic [ref=f20e2793]:
+                - generic [ref=f20e2794]: CNN
+                - generic [ref=f20e2800]:
+                  - button [ref=f20e2801] [cursor=pointer]
+                  - tooltip [ref=f20e2805]: More
+              - link [ref=f20e2806] [cursor=pointer]:
+                - /url: ./read/CBMihwFBVV95cUxQVVNuVzJkUVd5QmpCSmpFcVpjNXhPdDNLR1FtbFozNEZaY3RfWmN3SkFtNTV2dFJVTjROdWxOS3VoNDBJbWlNbTkwZHFqLUZZdVhSYzdKdmszUzl0b0xibThwem5QLXNKNlE0dDRMc3VmdlYzTVNrbzJ0SUJHUU5nS1dZdWpuVWM?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Tech titan’s ex-wife fails to win greater share of AI boom in decade-long ‘divorce of the century’
+            - figure [ref=f20e2807]
+          - generic [ref=f20e2808]:
+            - time [ref=f20e2809]: 6 hours ago
+            - separator [ref=f20e2810]
+            - generic [ref=f20e2811]: By Yoonjung Seo and Stephanie Yang
+      - generic [ref=f20e2812]:
+        - separator [ref=f20e2814]
+        - generic [ref=f20e2816]:
+          - generic [ref=f20e2817]:
+            - link [ref=f20e2819] [cursor=pointer]:
+              - /url: ./read/CBMipwFBVV95cUxOSWdyOEJlbnZyXzBZazFsMWFhR01malo3Nl9RZUdRUEt4MTVHWkhTcHVTUDFhT2hGcVdjUm1Oel91SGxMdTNaWG9pS0lNdWt1OWE0RkhKZGp1bmRnMW5rM2pDcUk3M1pkc2RLUGh0b09vNHZuTUZCZ2VfRk1HOVpQYkpSalFieGZJZVhIYVRSNW9SVGoySUV0eEVOUEpsOTlHaW1vOVpCUQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2821]:
+              - generic [ref=f20e2822]:
+                - generic [ref=f20e2823]: New Scientist
+                - generic [ref=f20e2829]:
+                  - button [ref=f20e2830] [cursor=pointer]
+                  - tooltip [ref=f20e2834]: More
+              - link [ref=f20e2835] [cursor=pointer]:
+                - /url: ./read/CBMipwFBVV95cUxOSWdyOEJlbnZyXzBZazFsMWFhR01malo3Nl9RZUdRUEt4MTVHWkhTcHVTUDFhT2hGcVdjUm1Oel91SGxMdTNaWG9pS0lNdWt1OWE0RkhKZGp1bmRnMW5rM2pDcUk3M1pkc2RLUGh0b09vNHZuTUZCZ2VfRk1HOVpQYkpSalFieGZJZVhIYVRSNW9SVGoySUV0eEVOUEpsOTlHaW1vOVpCUQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Extremely basic AI prompt cracks decades-old maths problem
+            - figure [ref=f20e2836]
+          - generic [ref=f20e2837]:
+            - time [ref=f20e2838]: 17 hours ago
+            - separator [ref=f20e2839]
+            - generic [ref=f20e2840]: By Matthew Sparkes
+      - generic [ref=f20e2841]:
+        - separator [ref=f20e2843]
+        - generic [ref=f20e2845]:
+          - generic [ref=f20e2846]:
+            - link [ref=f20e2848] [cursor=pointer]:
+              - /url: ./read/CBMi5wJBVV95cUxOalpRQkNtZjFObXk5SEsyN3o4ZG40LVNqbnFfekJUcjYtWWY4WWxBeUZDZ0lKM2hNTHVCVWR1SElrRDR2dHFoOFdpTGd2Nmgxcm9LNlJvMXowYkVmOWdGazVyc0QwQ21EZ3dhUXBYUGJtaW03bWgzbzBHZ2VGZWs4NF9qc0dIVTJnZVJQRVZuRG0zSjhXWmxlcXk5ZXFCVEQ1bVBUOUN0WUxaajlyTGdVdEhfY3FiSXQxcW5UeHM3V2VQTFlvZk9xX3BmZC1sQzhXTkxGbUxrU21BZXpPMVhxR3NtQW41NkRhZjh1Q21wN2ZJNHNrRllFVGpCQXY5WndJdlJZczktcHpXcF9ScHFzYVFnajZUc3BxNUVlb0VJSlYyWkZBRG5VVldDUEZLRFgxOUg3ZEQ2ZlRLaEpEeHNWQ2NYSEhwbkVReGR1Y1hsbE5seEY4aWN0NlZ4RFRLZHJoTExFOVNiOA?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2850]:
+              - generic [ref=f20e2851]:
+                - generic [ref=f20e2852]: KOMO
+                - generic [ref=f20e2858]:
+                  - button [ref=f20e2859] [cursor=pointer]
+                  - tooltip [ref=f20e2863]: More
+              - link [ref=f20e2864] [cursor=pointer]:
+                - /url: ./read/CBMi5wJBVV95cUxOalpRQkNtZjFObXk5SEsyN3o4ZG40LVNqbnFfekJUcjYtWWY4WWxBeUZDZ0lKM2hNTHVCVWR1SElrRDR2dHFoOFdpTGd2Nmgxcm9LNlJvMXowYkVmOWdGazVyc0QwQ21EZ3dhUXBYUGJtaW03bWgzbzBHZ2VGZWs4NF9qc0dIVTJnZVJQRVZuRG0zSjhXWmxlcXk5ZXFCVEQ1bVBUOUN0WUxaajlyTGdVdEhfY3FiSXQxcW5UeHM3V2VQTFlvZk9xX3BmZC1sQzhXTkxGbUxrU21BZXpPMVhxR3NtQW41NkRhZjh1Q21wN2ZJNHNrRllFVGpCQXY5WndJdlJZczktcHpXcF9ScHFzYVFnajZUc3BxNUVlb0VJSlYyWkZBRG5VVldDUEZLRFgxOUg3ZEQ2ZlRLaEpEeHNWQ2NYSEhwbkVReGR1Y1hsbE5seEY4aWN0NlZ4RFRLZHJoTExFOVNiOA?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Amazon confirms new AI-related layoffs focused on tech giant's own AI division
+            - figure [ref=f20e2865]
+          - time [ref=f20e2867]: 14 hours ago
+      - generic [ref=f20e2868]:
+        - separator [ref=f20e2870]
+        - generic [ref=f20e2872]:
+          - generic [ref=f20e2873]:
+            - link [ref=f20e2875] [cursor=pointer]:
+              - /url: ./read/CBMiakFVX3lxTFBlRHF5QzZsZ1lLeEVkdFNTcmxJcDNEUV9UVWlkY1lZSEpXREhaOGJpUFJVTV9IUFdsdWVyWTZtLTExNmNCalo1NHNIZExfZTBTX25JVnFnMnpaTHdwOEttSzh0TEpWa3oxdmc?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2877]:
+              - generic [ref=f20e2878]:
+                - generic [ref=f20e2879]: Axios
+                - generic [ref=f20e2885]:
+                  - button [ref=f20e2886] [cursor=pointer]
+                  - tooltip [ref=f20e2890]: More
+              - link [ref=f20e2891] [cursor=pointer]:
+                - /url: ./read/CBMiakFVX3lxTFBlRHF5QzZsZ1lLeEVkdFNTcmxJcDNEUV9UVWlkY1lZSEpXREhaOGJpUFJVTV9IUFdsdWVyWTZtLTExNmNCalo1NHNIZExfZTBTX25JVnFnMnpaTHdwOEttSzh0TEpWa3oxdmc?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: White House draws new AI line on China
+            - figure [ref=f20e2892]
+          - generic [ref=f20e2893]:
+            - time [ref=f20e2894]: 2 hours ago
+            - separator [ref=f20e2895]
+            - generic [ref=f20e2896]: By Maria Cristina Curi and Madison Mills
+      - generic [ref=f20e2897]:
+        - separator [ref=f20e2899]
+        - generic [ref=f20e2901]:
+          - generic [ref=f20e2902]:
+            - link [ref=f20e2904] [cursor=pointer]:
+              - /url: ./read/CBMiuwFBVV95cUxQLV9oUmpDenFUSW03Y19oMUREckI2bmlpWTF4RWJMWDJYVkNUN2xzSnFfNXVkNGJ5akdMU2U4a2FpdDAxQjFnaDVVaWhnd0E3N05UNTc3OW03eF9pUnVkcFJZbzJFb3hRRFZaSTE2WkpXM3U3OTlJa2VMalI3c0pVSnM3OExxX0oybWZfYk5ud3NnTXpBb1Q3dnY0RFhNY1V3ejJxZF9WQUNrdHFyYkp0b3hhUTB2Um9RSk5R0gG7AUFVX3lxTE5Nak9mcXJST09mQUpPT2NVdm0xdmVwNEMyWVN1LUdwX0xFYkZYS2k5Y1UxYndfRG41TTAyR29ySThlSlRvaFlLSFYyRzh6RHlmeGNxOHRCSnZiNGp6SDJXX0gxMXhoMnotQzZRTHpxYjFJSEd1dHVYMTJSUHNXRU1PM2lqUTdweFhBZnoxRVlXa29oME5DQ3l6YklBbFJoMHd1MjVBaDZfM3pkOTFFMDY0dkdPTVczUmpmd3M?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2906]:
+              - generic [ref=f20e2907]:
+                - generic [ref=f20e2908]: South China Morning Post
+                - generic [ref=f20e2914]:
+                  - button [ref=f20e2915] [cursor=pointer]
+                  - tooltip [ref=f20e2919]: More
+              - link [ref=f20e2920] [cursor=pointer]:
+                - /url: ./read/CBMiuwFBVV95cUxQLV9oUmpDenFUSW03Y19oMUREckI2bmlpWTF4RWJMWDJYVkNUN2xzSnFfNXVkNGJ5akdMU2U4a2FpdDAxQjFnaDVVaWhnd0E3N05UNTc3OW03eF9pUnVkcFJZbzJFb3hRRFZaSTE2WkpXM3U3OTlJa2VMalI3c0pVSnM3OExxX0oybWZfYk5ud3NnTXpBb1Q3dnY0RFhNY1V3ejJxZF9WQUNrdHFyYkp0b3hhUTB2Um9RSk5R0gG7AUFVX3lxTE5Nak9mcXJST09mQUpPT2NVdm0xdmVwNEMyWVN1LUdwX0xFYkZYS2k5Y1UxYndfRG41TTAyR29ySThlSlRvaFlLSFYyRzh6RHlmeGNxOHRCSnZiNGp6SDJXX0gxMXhoMnotQzZRTHpxYjFJSEd1dHVYMTJSUHNXRU1PM2lqUTdweFhBZnoxRVlXa29oME5DQ3l6YklBbFJoMHd1MjVBaDZfM3pkOTFFMDY0dkdPTVczUmpmd3M?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: More Americans think China is world leader in AI, new survey reveals
+            - figure [ref=f20e2921]
+          - generic [ref=f20e2922]:
+            - time [ref=f20e2923]: 12 hours ago
+            - separator [ref=f20e2924]
+            - generic [ref=f20e2925]: By Nayan Seth
+      - generic [ref=f20e2926]:
+        - separator [ref=f20e2928]
+        - generic [ref=f20e2930]:
+          - generic [ref=f20e2931]:
+            - link [ref=f20e2933] [cursor=pointer]:
+              - /url: ./read/CBMiywFBVV95cUxQSXZpV1Z6X1VUanJtRTczekJTdlhydXNCblVpMkVyUm1TaVNrRFFkLTAxQ29Wb095THViaDdoNTktSzFjRVN2OWZvRHd3Yi1NLUtqUF9Sd0VXcUFPR2dhdDItdmdzdXhRUUlGc2dqQmgtRWJhOXlXb01xUWpxXzhCNk5zZUxobzFhb1ZZMHZrSnlCRjhoRWRkYllka3JRSUxKNWVpSUNwTVFUTWU3SXFxTGNKeXI1ZVFxUExIU0ZtbkNuSUVTN1BuS0ZlMNIB0AFBVV95cUxQX0s5WGEtUENEU2x3UE9DSk5yV0hrcU9yTFVqdHhkNTNkUGdaV1ExeGsySTZqeng4S0tZb0hxcVNlclRONUJZWFl5ckNoUmRyMDkxNk1uN0gwX2FMVmpCMUdNZHNoeGhqWXlnVzlQWThhNF9FQWRvQjAyZWVnc09mNTlyM1VfZURTTm94OV9ZSE9HeVJ0MlhfckxTWGtsM1dTQVNuQUJhS0Z4bzRidVBCWFBSMENmZ2FMRkNhc2p5d1M2THFpQUc0ZzlXTXQ4d0dM?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2935]:
+              - generic [ref=f20e2936]:
+                - generic [ref=f20e2937]: simplywall.st
+                - generic [ref=f20e2943]:
+                  - button [ref=f20e2944] [cursor=pointer]
+                  - tooltip [ref=f20e2948]: More
+              - link [ref=f20e2949] [cursor=pointer]:
+                - /url: ./read/CBMiywFBVV95cUxQSXZpV1Z6X1VUanJtRTczekJTdlhydXNCblVpMkVyUm1TaVNrRFFkLTAxQ29Wb095THViaDdoNTktSzFjRVN2OWZvRHd3Yi1NLUtqUF9Sd0VXcUFPR2dhdDItdmdzdXhRUUlGc2dqQmgtRWJhOXlXb01xUWpxXzhCNk5zZUxobzFhb1ZZMHZrSnlCRjhoRWRkYllka3JRSUxKNWVpSUNwTVFUTWU3SXFxTGNKeXI1ZVFxUExIU0ZtbkNuSUVTN1BuS0ZlMNIB0AFBVV95cUxQX0s5WGEtUENEU2x3UE9DSk5yV0hrcU9yTFVqdHhkNTNkUGdaV1ExeGsySTZqeng4S0tZb0hxcVNlclRONUJZWFl5ckNoUmRyMDkxNk1uN0gwX2FMVmpCMUdNZHNoeGhqWXlnVzlQWThhNF9FQWRvQjAyZWVnc09mNTlyM1VfZURTTm94OV9ZSE9HeVJ0MlhfckxTWGtsM1dTQVNuQUJhS0Z4bzRidVBCWFBSMENmZ2FMRkNhc2p5d1M2THFpQUc0ZzlXTXQ4d0dM?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Zoom (ZM) Unveils New AI Sales Tools And Names APAC Chief
+            - figure [ref=f20e2950]
+          - time [ref=f20e2952]: Yesterday
+      - generic [ref=f20e2953]:
+        - separator [ref=f20e2955]
+        - generic [ref=f20e2957]:
+          - generic [ref=f20e2958]:
+            - link [ref=f20e2960] [cursor=pointer]:
+              - /url: ./read/CBMijgFBVV95cUxNdTE3WWdOWXdlZnRUaE1nQVBnOTNjVktOM2k5OUtLYlBneUZfV1drdHB3ckJ6U0htamplV1F6cjJvTE5qc3VvSjlERElZSTJUS2hYdnMzTmtRblg1UF9KUjFKLXJfN0xSck1xV2FFSG42d18xMkd5eWtRZUdsUS02aUZUVGx0a2RYaF9JaW53?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2962]:
+              - generic [ref=f20e2963]:
+                - generic [ref=f20e2964]: diagnosticimaging.com
+                - generic [ref=f20e2970]:
+                  - button [ref=f20e2971] [cursor=pointer]
+                  - tooltip [ref=f20e2975]: More
+              - link [ref=f20e2976] [cursor=pointer]:
+                - /url: ./read/CBMijgFBVV95cUxNdTE3WWdOWXdlZnRUaE1nQVBnOTNjVktOM2k5OUtLYlBneUZfV1drdHB3ckJ6U0htamplV1F6cjJvTE5qc3VvSjlERElZSTJUS2hYdnMzTmtRblg1UF9KUjFKLXJfN0xSck1xV2FFSG42d18xMkd5eWtRZUdsUS02aUZUVGx0a2RYaF9JaW53?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: HOPPR Unveils New AI Foundation Model for Chest CT
+            - figure [ref=f20e2977]
+          - generic [ref=f20e2978]:
+            - time [ref=f20e2979]: 20 hours ago
+            - separator [ref=f20e2980]
+            - generic [ref=f20e2981]: By Jeff Hall
+      - generic [ref=f20e2982]:
+        - separator [ref=f20e2984]
+        - generic [ref=f20e2986]:
+          - generic [ref=f20e2987]:
+            - link [ref=f20e2989] [cursor=pointer]:
+              - /url: ./read/CBMiogFBVV95cUxQclNKWnNQQUtTRFlQTmJHbnBKZlJwaHBZQVlORnhUZVlqSzdVWFBkU0xUejdPN3I5UHFQMVpSZUJwWTJFVTU4bjNrOExaMDFJN29Nc0NJc2l5d0ZMRXBMekRiNTZQa2NzZTE0Z2lxVWU1TXFReHNEUElJUG1oYkJiejZLV0E0VGUzLWh4dWIxNEJqaks4b3p1Y2RPTWZJSHdRQ1E?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e2991]:
+              - generic [ref=f20e2992]:
+                - generic [ref=f20e2993]: New Scientist
+                - generic [ref=f20e2999]:
+                  - button [ref=f20e3000] [cursor=pointer]
+                  - tooltip [ref=f20e3004]: More
+              - link [ref=f20e3005] [cursor=pointer]:
+                - /url: ./read/CBMiogFBVV95cUxQclNKWnNQQUtTRFlQTmJHbnBKZlJwaHBZQVlORnhUZVlqSzdVWFBkU0xUejdPN3I5UHFQMVpSZUJwWTJFVTU4bjNrOExaMDFJN29Nc0NJc2l5d0ZMRXBMekRiNTZQa2NzZTE0Z2lxVWU1TXFReHNEUElJUG1oYkJiejZLV0E0VGUzLWh4dWIxNEJqaks4b3p1Y2RPTWZJSHdRQ1E?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Open AI’s hacking agent went rogue. Should we be worried?
+            - figure [ref=f20e3006]
+          - generic [ref=f20e3007]:
+            - time [ref=f20e3008]: 2 days ago
+            - separator [ref=f20e3009]
+            - generic [ref=f20e3010]: By Matthew Sparkes
+      - generic [ref=f20e3011]:
+        - separator [ref=f20e3013]
+        - generic [ref=f20e3015]:
+          - generic [ref=f20e3016]:
+            - link [ref=f20e3018] [cursor=pointer]:
+              - /url: ./read/CBMingFBVV95cUxPdkhoWVA1Mkdoa05SSTlXd2E2MDJZcm9ENXpfdEpPc19fVzdLc3NPYXpZcm1lMU44UmFYNHJCWU5SWDBVMWQ4bzRGUF84aGVCMnFGa3VzdUJxSmNCTVBTamltODlFYml2Y2tUOUNzcUlKeFhlSkZHa0d2TU41a0tQdGZNaGNoR1B5UDY4Mm1PNFBLRmFZbjNTU1pSMHY5Zw?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3020]:
+              - generic [ref=f20e3021]:
+                - generic [ref=f20e3022]: Transparency Coalition
+                - generic [ref=f20e3028]:
+                  - button [ref=f20e3029] [cursor=pointer]
+                  - tooltip [ref=f20e3033]: More
+              - link [ref=f20e3034] [cursor=pointer]:
+                - /url: ./read/CBMingFBVV95cUxPdkhoWVA1Mkdoa05SSTlXd2E2MDJZcm9ENXpfdEpPc19fVzdLc3NPYXpZcm1lMU44UmFYNHJCWU5SWDBVMWQ4bzRGUF84aGVCMnFGa3VzdUJxSmNCTVBTamltODlFYml2Y2tUOUNzcUlKeFhlSkZHa0d2TU41a0tQdGZNaGNoR1B5UDY4Mm1PNFBLRmFZbjNTU1pSMHY5Zw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "TCAI Mid-Year AI Legislation Report: 84 new AI laws enacted in 27 states so far in 2026"
+            - figure [ref=f20e3035]
+          - generic [ref=f20e3036]:
+            - time [ref=f20e3037]: 3 days ago
+            - separator [ref=f20e3038]
+            - generic [ref=f20e3039]: By Bruce Barcott
+      - generic [ref=f20e3040]:
+        - separator [ref=f20e3042]
+        - generic [ref=f20e3044]:
+          - generic [ref=f20e3045]:
+            - link [ref=f20e3047] [cursor=pointer]:
+              - /url: ./read/CBMizAFBVV95cUxQN1RWWkhQOEtfcVpqcWtkZXBfTFFMN0xaZno1cmdyRGU3ODVuZ3YycHJGWmxReFd1RnFnZmpDZ3FxZTFUejRhQkN0N1c5UW9fNGVfWWJUOFFDZlhLMFpwUXdFN3d6TlpyWUlRT3pMOTBuOFJqa2ppbU5oUFNVQ1FQUi1LRTBla2lfVjlXczNfVFdZQzVWaF9ublFlZ0pPRlV4RXM0WU9WSGQyN3Y2azF2UXV5ZFMydW5CQVNuTE5KdmxKd2VXdy03ODgxYnM?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3049]:
+              - generic [ref=f20e3050]:
+                - generic [ref=f20e3051]: European Commission
+                - generic [ref=f20e3057]:
+                  - button [ref=f20e3058] [cursor=pointer]
+                  - tooltip [ref=f20e3062]: More
+              - link [ref=f20e3063] [cursor=pointer]:
+                - /url: ./read/CBMizAFBVV95cUxQN1RWWkhQOEtfcVpqcWtkZXBfTFFMN0xaZno1cmdyRGU3ODVuZ3YycHJGWmxReFd1RnFnZmpDZ3FxZTFUejRhQkN0N1c5UW9fNGVfWWJUOFFDZlhLMFpwUXdFN3d6TlpyWUlRT3pMOTBuOFJqa2ppbU5oUFNVQ1FQUi1LRTBla2lfVjlXczNfVFdZQzVWaF9ublFlZ0pPRlV4RXM0WU9WSGQyN3Y2azF2UXV5ZFMydW5CQVNuTE5KdmxKd2VXdy03ODgxYnM?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: New EU plan to address the risks and opportunities of advanced AI for cybersecurity
+            - figure [ref=f20e3064]
+          - time [ref=f20e3066]: 17 days ago
+      - generic [ref=f20e3067]:
+        - separator [ref=f20e3069]
+        - generic [ref=f20e3071]:
+          - generic [ref=f20e3072]:
+            - link [ref=f20e3074] [cursor=pointer]:
+              - /url: ./read/CBMikAFBVV95cUxOdVBiMDJ6bVBicG4yNHRjMFNTM01QWGx4Wmdpd3czNzFvQ2t4cE5UeTMzNGRUbW5pcEM4T1JNdGMzQTJibi0wR09qaFdvVENkZUF6a05hWDJ4ZVFNdjlIV3JoTjQtTzZEU2ZsRWx3cVNDaFZramotbWh2U3JzVmRCSlZjY0JCM0JhSUFLQlFNalU?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3076]:
+              - generic [ref=f20e3077]:
+                - generic [ref=f20e3078]: Politico
+                - generic [ref=f20e3084]:
+                  - button [ref=f20e3085] [cursor=pointer]
+                  - tooltip [ref=f20e3089]: More
+              - link [ref=f20e3090] [cursor=pointer]:
+                - /url: ./read/CBMikAFBVV95cUxOdVBiMDJ6bVBicG4yNHRjMFNTM01QWGx4Wmdpd3czNzFvQ2t4cE5UeTMzNGRUbW5pcEM4T1JNdGMzQTJibi0wR09qaFdvVENkZUF6a05hWDJ4ZVFNdjlIV3JoTjQtTzZEU2ZsRWx3cVNDaFZramotbWh2U3JzVmRCSlZjY0JCM0JhSUFLQlFNalU?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: OpenAI’s models broke free and launched a cyberattack. Congress wants new rules before it happens again.
+            - figure [ref=f20e3091]
+          - generic [ref=f20e3092]:
+            - time [ref=f20e3093]: Yesterday
+            - separator [ref=f20e3094]
+            - generic [ref=f20e3095]: By Dana Nickel, John Sakellariadis and Owen Dahlkamp
+      - generic [ref=f20e3096]:
+        - separator [ref=f20e3098]
+        - generic [ref=f20e3100]:
+          - generic [ref=f20e3101]:
+            - link [ref=f20e3103] [cursor=pointer]:
+              - /url: ./read/CBMiYEFVX3lxTE5CdEt3NEprTGVEM3RHOEZ2XzBKbi1GaGFTeUpkZjdvTEZ6N3VtN3BvUk9fNDZodldOZkx6NVFxTHd5cmwwNURRU0ZDQXRRV24zWmFyZVZtYlBTYVZKcGZHWg?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3105]:
+              - generic [ref=f20e3106]:
+                - generic [ref=f20e3107]: Phoronix
+                - generic [ref=f20e3113]:
+                  - button [ref=f20e3114] [cursor=pointer]
+                  - tooltip [ref=f20e3118]: More
+              - link [ref=f20e3119] [cursor=pointer]:
+                - /url: ./read/CBMiYEFVX3lxTE5CdEt3NEprTGVEM3RHOEZ2XzBKbi1GaGFTeUpkZjdvTEZ6N3VtN3BvUk9fNDZodldOZkx6NVFxTHd5cmwwNURRU0ZDQXRRV24zWmFyZVZtYlBTYVZKcGZHWg?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Ryzen AI Software 1.8 Released With New Model Support, More Optimizations
+            - figure [ref=f20e3120]
+          - generic [ref=f20e3121]:
+            - time [ref=f20e3122]: Yesterday
+            - separator [ref=f20e3123]
+            - generic [ref=f20e3124]: By Michael Larabel
+      - generic [ref=f20e3125]:
+        - separator [ref=f20e3127]
+        - generic [ref=f20e3129]:
+          - generic [ref=f20e3130]:
+            - link [ref=f20e3132] [cursor=pointer]:
+              - /url: ./read/CBMilgFBVV95cUxPZEFoRGs4RmIyb2U0c3ktNlBRdHJEcEVDQU4wTnpLOFQwcUJ0R0R1UmpJcDFzR3hpSjNfTFlCNk5aMVA5dlRPMGtDRTV2bk5TOHlJRVdWTlFTUWE1SHcwSTc5c3R3UHZGRTZsZVBTZ1RQbWRmRk5pcWdyTzJOOS14YnJlOTh0OUI4TlkyQ1l2OVo3NFRDeVE?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3134]:
+              - generic [ref=f20e3135]:
+                - generic [ref=f20e3136]: The Guardian
+                - generic [ref=f20e3142]:
+                  - button [ref=f20e3143] [cursor=pointer]
+                  - tooltip [ref=f20e3147]: More
+              - link [ref=f20e3148] [cursor=pointer]:
+                - /url: ./read/CBMilgFBVV95cUxPZEFoRGs4RmIyb2U0c3ktNlBRdHJEcEVDQU4wTnpLOFQwcUJ0R0R1UmpJcDFzR3hpSjNfTFlCNk5aMVA5dlRPMGtDRTV2bk5TOHlJRVdWTlFTUWE1SHcwSTc5c3R3UHZGRTZsZVBTZ1RQbWRmRk5pcWdyTzJOOS14YnJlOTh0OUI4TlkyQ1l2OVo3NFRDeVE?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Why are OpenAI and Anthropic cheering on regulation in Australia? The answer has global reach
+            - figure [ref=f20e3149]
+          - generic [ref=f20e3150]:
+            - time [ref=f20e3151]: Yesterday
+            - separator [ref=f20e3152]
+            - generic [ref=f20e3153]: By Luca Ittimani
+      - generic [ref=f20e3154]:
+        - separator [ref=f20e3156]
+        - generic [ref=f20e3158]:
+          - generic [ref=f20e3159]:
+            - link [ref=f20e3161] [cursor=pointer]:
+              - /url: ./read/CBMipgFBVV95cUxPM1RfRW5VNjJMWllaWE93ay1WSFBxQ1BGbEtMRldlVVlGSnJnZzQyT3dXcmNXSjFka0hJSWZrYW9hUEFsTzJDdk42OHJSZVJrNDZ6U1RnUVNiZmZ6R01CMDRFelJsYjFuNEozeE5mZUxzT2ZRd3dtVU5CM3Q2MFAweVVpWUNLWUZtdGZPc040UEREcXNRUVRYOWRBVWwxQnRQUDNmaktB?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3163]:
+              - generic [ref=f20e3164]:
+                - generic [ref=f20e3165]: CBS News
+                - generic [ref=f20e3171]:
+                  - button [ref=f20e3172] [cursor=pointer]
+                  - tooltip [ref=f20e3176]: More
+              - link [ref=f20e3177] [cursor=pointer]:
+                - /url: ./read/CBMipgFBVV95cUxPM1RfRW5VNjJMWllaWE93ay1WSFBxQ1BGbEtMRldlVVlGSnJnZzQyT3dXcmNXSjFka0hJSWZrYW9hUEFsTzJDdk42OHJSZVJrNDZ6U1RnUVNiZmZ6R01CMDRFelJsYjFuNEozeE5mZUxzT2ZRd3dtVU5CM3Q2MFAweVVpWUNLWUZtdGZPc040UEREcXNRUVRYOWRBVWwxQnRQUDNmaktB?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Broward Schools implements new AI technology for school bus safety
+            - figure [ref=f20e3178]
+          - time [ref=f20e3180]: 12 hours ago
+      - generic [ref=f20e3181]:
+        - separator [ref=f20e3183]
+        - generic [ref=f20e3185]:
+          - generic [ref=f20e3186]:
+            - link [ref=f20e3188] [cursor=pointer]:
+              - /url: ./read/CBMijAFBVV95cUxNSG55ZHJYMU5LRDI4TWFOSDd0NWZ2RXR5RjRidXdkR2VTOERvZ1J0SFdsdlU4X3RCR3c5M1JQMDM3WS1ZdkE3OERrQ3BlcnRXaU92ZEo2R0hGdElTeUs0T21jV3VfOGp2UHZwUzBxTzBRbjg4dXI5VVF1aXVVemZmZFlFcDViR1ZTeXdGetIBkgFBVV95cUxPUTQzMllTOEduR1l3UXFIbURzOFVQaFNLR3B4NWx1TFVVWE40Qm4tV1JaVVAxY3d1WTdsTEFtcl9DTUhGNjczT0xDYmRmejhSWHdrY2JPRG4ta2p1RkliRUdKR0hxRXo3SmNUQ0dLZzMyM1FZOFpMWk9nSEZ6SmhLYUdoUGFaT0I4eE9INGZvRTF0dw?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3190]:
+              - generic [ref=f20e3191]:
+                - generic [ref=f20e3192]: Fox Business
+                - generic [ref=f20e3198]:
+                  - button [ref=f20e3199] [cursor=pointer]
+                  - tooltip [ref=f20e3203]: More
+              - link [ref=f20e3204] [cursor=pointer]:
+                - /url: ./read/CBMijAFBVV95cUxNSG55ZHJYMU5LRDI4TWFOSDd0NWZ2RXR5RjRidXdkR2VTOERvZ1J0SFdsdlU4X3RCR3c5M1JQMDM3WS1ZdkE3OERrQ3BlcnRXaU92ZEo2R0hGdElTeUs0T21jV3VfOGp2UHZwUzBxTzBRbjg4dXI5VVF1aXVVemZmZFlFcDViR1ZTeXdGetIBkgFBVV95cUxPUTQzMllTOEduR1l3UXFIbURzOFVQaFNLR3B4NWx1TFVVWE40Qm4tV1JaVVAxY3d1WTdsTEFtcl9DTUhGNjczT0xDYmRmejhSWHdrY2JPRG4ta2p1RkliRUdKR0hxRXo3SmNUQ0dLZzMyM1FZOFpMWk9nSEZ6SmhLYUdoUGFaT0I4eE9INGZvRTF0dw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Zuckerberg says AI should empower people, not replace them, in new Meta vision
+            - figure [ref=f20e3205]
+          - generic [ref=f20e3206]:
+            - time [ref=f20e3207]: Yesterday
+            - separator [ref=f20e3208]
+            - generic [ref=f20e3209]: By Michael Sinkewicz
+      - generic [ref=f20e3210]:
+        - separator [ref=f20e3212]
+        - generic [ref=f20e3214]:
+          - generic [ref=f20e3215]:
+            - link [ref=f20e3217] [cursor=pointer]:
+              - /url: ./read/CBMihwFBVV95cUxNMzV4c2lBUWNhQkxfM0hjWGM0S0h6d1l2NG9uZHdkX1VwUU9pM2I1TUxpQkoyX1lLUnhEaFQ0Z0VCa3pXMG5FMkc1QkY1OG4wRFdJMkUtZHZEbW9meEhJcy1TTTY0TV9XZHh5S2V1dXpXTXNYNlV5T0VvblZ6WmZ3OUxYUHFGNm_SAYwBQVVfeXFMT29hMThOYVJpN3BpYkE4b3RicjV5T0FJNlhRc3lBbk5tMnAwYzFnTWREOFlmRmlid1R2c0V2VTYxZGlSbzlNRG1VUnIzelpxR1RuS2JyZWRCU3loT2U0YU5vb0lidzhzMmk1ZkhfU20weVp4WTg5ZVBBSmR2SnoxUFVYSXFrczhhbEVUM1c?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3219]:
+              - generic [ref=f20e3220]:
+                - generic [ref=f20e3221]: Fox News
+                - generic [ref=f20e3227]:
+                  - button [ref=f20e3228] [cursor=pointer]
+                  - tooltip [ref=f20e3232]: More
+              - link [ref=f20e3233] [cursor=pointer]:
+                - /url: ./read/CBMihwFBVV95cUxNMzV4c2lBUWNhQkxfM0hjWGM0S0h6d1l2NG9uZHdkX1VwUU9pM2I1TUxpQkoyX1lLUnhEaFQ0Z0VCa3pXMG5FMkc1QkY1OG4wRFdJMkUtZHZEbW9meEhJcy1TTTY0TV9XZHh5S2V1dXpXTXNYNlV5T0VvblZ6WmZ3OUxYUHFGNm_SAYwBQVVfeXFMT29hMThOYVJpN3BpYkE4b3RicjV5T0FJNlhRc3lBbk5tMnAwYzFnTWREOFlmRmlid1R2c0V2VTYxZGlSbzlNRG1VUnIzelpxR1RuS2JyZWRCU3loT2U0YU5vb0lidzhzMmk1ZkhfU20weVp4WTg5ZVBBSmR2SnoxUFVYSXFrczhhbEVUM1c?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Samsung Galaxy Z Fold8 lineup adds three choices
+            - figure [ref=f20e3234]
+          - time [ref=f20e3236]: 2 hours ago
+      - generic [ref=f20e3237]:
+        - separator [ref=f20e3239]
+        - generic [ref=f20e3241]:
+          - generic [ref=f20e3242]:
+            - link [ref=f20e3244] [cursor=pointer]:
+              - /url: ./read/CBMizgFBVV95cUxPMTIwWXBRV3hKc0FLVk12OGZUdndkenNlNU5wWXdFenFMQmZkQk9MLWhGYzJKRE1EcTJIZS1WU1lDc2tfMThtSWhUQ1dzSjB1U0xIX2ZRTW5ZVFVmRFBJNENsS0lmRW4zcGNEM3otdkpDemVYSjRnbWtCemRWOHFzN0l6LXJYYXpvVFE4VVZvZGJjZnNPel9vc2NtQ3JFak5ObWZ3aEtqS3F3VlNJRnc3UVliZ1VTNGtSZEZ1QTFRcmR4cmktOFdsUTZWRi1zZw?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3246]:
+              - generic [ref=f20e3247]:
+                - generic [ref=f20e3248]: UT Austin News
+                - generic [ref=f20e3254]:
+                  - button [ref=f20e3255] [cursor=pointer]
+                  - tooltip [ref=f20e3259]: More
+              - link [ref=f20e3260] [cursor=pointer]:
+                - /url: ./read/CBMizgFBVV95cUxPMTIwWXBRV3hKc0FLVk12OGZUdndkenNlNU5wWXdFenFMQmZkQk9MLWhGYzJKRE1EcTJIZS1WU1lDc2tfMThtSWhUQ1dzSjB1U0xIX2ZRTW5ZVFVmRFBJNENsS0lmRW4zcGNEM3otdkpDemVYSjRnbWtCemRWOHFzN0l6LXJYYXpvVFE4VVZvZGJjZnNPel9vc2NtQ3JFak5ObWZ3aEtqS3F3VlNJRnc3UVliZ1VTNGtSZEZ1QTFRcmR4cmktOFdsUTZWRi1zZw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Department of Energy's New AI-for-Science ‘Genesis Mission’ Awards Funding to 5 UT Research Projects
+            - figure [ref=f20e3261]
+          - time [ref=f20e3263]: 2 days ago
+      - generic [ref=f20e3264]:
+        - separator [ref=f20e3266]
+        - generic [ref=f20e3268]:
+          - generic [ref=f20e3269]:
+            - link [ref=f20e3271] [cursor=pointer]:
+              - /url: ./read/CBMijAFBVV95cUxPU2czdUNBOG10eGtxZ1RoU3NIYm53emthSHRtMG5SMEo5VjlyWUhuM3h4aFlDejI2aklXXzBzekN1SG5CRnpsVDZfcFFYTmVtVlltaElVMjJQX2dyaFRQS1BYNGdjbTBHcF8tb24zcXBPUWpVOVF6UjBjU2dYNEwzczRRRGZsM1R0aV94Ug?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3273]:
+              - generic [ref=f20e3274]:
+                - generic [ref=f20e3275]: IAPP
+                - generic [ref=f20e3281]:
+                  - button [ref=f20e3282] [cursor=pointer]
+                  - tooltip [ref=f20e3286]: More
+              - link [ref=f20e3287] [cursor=pointer]:
+                - /url: ./read/CBMijAFBVV95cUxPU2czdUNBOG10eGtxZ1RoU3NIYm53emthSHRtMG5SMEo5VjlyWUhuM3h4aFlDejI2aklXXzBzekN1SG5CRnpsVDZfcFFYTmVtVlltaElVMjJQX2dyaFRQS1BYNGdjbTBHcF8tb24zcXBPUWpVOVF6UjBjU2dYNEwzczRRRGZsM1R0aV94Ug?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "China's new AI rules: Ethics, AI agents and anthropomorphic AI"
+            - figure [ref=f20e3288]
+          - time [ref=f20e3290]: 16 days ago
+      - generic [ref=f20e3291]:
+        - separator [ref=f20e3293]
+        - generic [ref=f20e3295]:
+          - generic [ref=f20e3296]:
+            - link [ref=f20e3298] [cursor=pointer]:
+              - /url: ./read/CBMiuAFBVV95cUxQUy14Uk5nWUZzYjlCdDhPUXlfWTlSeDIzX2JnclQzeU9FbmRMV0xOc0owR3pGRU02R0tYODRsb3BYOFlKT3JWYUE1WFBZc2Y2bzl2MEQ5eUNxbGtYdVlNRXVibkVNNDBtSU1Oa0l3cFR4bXQ3cmpJYUNLUVJBQTExdi1sQWRDaE5fS2l4TGY0anJWcFpCUXNsNUJvMjVOUllicldGZUQwMkdZUDVaME85SHdsTXlsc2ta?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3300]:
+              - generic [ref=f20e3301]:
+                - generic [ref=f20e3302]: Awani International
+                - generic [ref=f20e3308]:
+                  - button [ref=f20e3309] [cursor=pointer]
+                  - tooltip [ref=f20e3313]: More
+              - link [ref=f20e3314] [cursor=pointer]:
+                - /url: ./read/CBMiuAFBVV95cUxQUy14Uk5nWUZzYjlCdDhPUXlfWTlSeDIzX2JnclQzeU9FbmRMV0xOc0owR3pGRU02R0tYODRsb3BYOFlKT3JWYUE1WFBZc2Y2bzl2MEQ5eUNxbGtYdVlNRXVibkVNNDBtSU1Oa0l3cFR4bXQ3cmpJYUNLUVJBQTExdi1sQWRDaE5fS2l4TGY0anJWcFpCUXNsNUJvMjVOUllicldGZUQwMkdZUDVaME85SHdsTXlsc2ta?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: US accuses China's Moonshot of stealing from Anthropic's Fable for latest AI model
+            - figure [ref=f20e3315]
+          - time [ref=f20e3317]: Yesterday
+      - generic [ref=f20e3318]:
+        - separator [ref=f20e3320]
+        - generic [ref=f20e3322]:
+          - generic [ref=f20e3323]:
+            - link [ref=f20e3325] [cursor=pointer]:
+              - /url: ./read/CBMiP0FVX3lxTE1ocVZvX1U2SU4zazFwWW5SbTZiaEhlX3FVcGh0Y2lSMXRhc1FyYnBpamVEOWtnLWctYlZjUlByOA?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3327]:
+              - generic [ref=f20e3328]:
+                - generic [ref=f20e3329]: X.ai
+                - generic [ref=f20e3335]:
+                  - button [ref=f20e3336] [cursor=pointer]
+                  - tooltip [ref=f20e3340]: More
+              - link [ref=f20e3341] [cursor=pointer]:
+                - /url: ./read/CBMiP0FVX3lxTE1ocVZvX1U2SU4zazFwWW5SbTZiaEhlX3FVcGh0Y2lSMXRhc1FyYnBpamVEOWtnLWctYlZjUlByOA?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Introducing Grok 4.5
+            - figure [ref=f20e3342]
+          - time [ref=f20e3344]: 8 days ago
+      - generic [ref=f20e3345]:
+        - separator [ref=f20e3347]
+        - generic [ref=f20e3349]:
+          - generic [ref=f20e3350]:
+            - link [ref=f20e3352] [cursor=pointer]:
+              - /url: ./read/CBMivwFBVV95cUxPSjNLOXREdDVhelRCVzVNbHNSRWRIVFljZkhFWU9rMnNValRveHZmUGstUjVhbm1QMEw4SzRfUTZoQXN3eEVYd2kzMFBkSG5sU0VzalotY0ZUU3FmY0hnN2ZVcTd6VWh3TDRZaUlIT1RRRFI3VW1rMW4tV1lyYW1yc09FWFNnR1lpTEM3VHBsY0l4dWdzS0FzTmVaVGdhcUw1TEg0U3hBSWZEYkdTMHV1MDU1cnZMNzRkTnhjc0RWQdIBxAFBVV95cUxPd1BGTWlqUjhiMFd3a2JlQXVBN3VPbndIZzIyckRuX2VhWkl1bXk5ME4tMmplWWVLMUpNYnQwQnFhYUdqMEM3akVDUHJNUjNILWZpYXhVLXhCTHRFYU16Y1ptVmlWbmI1T1QyVDFLUThFa1FKeGNGZXNBRll3dUs3MkZxN1plNmxKeVpjNzJhNzVkSDJ4VktmT1BBN0FQQTR1dXJoLXdkUjFOUGJodlJyUVQ1S1FhOXVxb0MwSXFid2tVcDlt?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3354]:
+              - generic [ref=f20e3355]:
+                - generic [ref=f20e3356]: The Edge Singapore
+                - generic [ref=f20e3362]:
+                  - button [ref=f20e3363] [cursor=pointer]
+                  - tooltip [ref=f20e3367]: More
+              - link [ref=f20e3368] [cursor=pointer]:
+                - /url: ./read/CBMivwFBVV95cUxPSjNLOXREdDVhelRCVzVNbHNSRWRIVFljZkhFWU9rMnNValRveHZmUGstUjVhbm1QMEw4SzRfUTZoQXN3eEVYd2kzMFBkSG5sU0VzalotY0ZUU3FmY0hnN2ZVcTd6VWh3TDRZaUlIT1RRRFI3VW1rMW4tV1lyYW1yc09FWFNnR1lpTEM3VHBsY0l4dWdzS0FzTmVaVGdhcUw1TEg0U3hBSWZEYkdTMHV1MDU1cnZMNzRkTnhjc0RWQdIBxAFBVV95cUxPd1BGTWlqUjhiMFd3a2JlQXVBN3VPbndIZzIyckRuX2VhWkl1bXk5ME4tMmplWWVLMUpNYnQwQnFhYUdqMEM3akVDUHJNUjNILWZpYXhVLXhCTHRFYU16Y1ptVmlWbmI1T1QyVDFLUThFa1FKeGNGZXNBRll3dUs3MkZxN1plNmxKeVpjNzJhNzVkSDJ4VktmT1BBN0FQQTR1dXJoLXdkUjFOUGJodlJyUVQ1S1FhOXVxb0MwSXFid2tVcDlt?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "Quicktakes: New SDRs, AI playbook for PDPA, Zhongji Innolight IPO, TSMC, 01.ai, EGP Energy"
+            - figure [ref=f20e3369]
+          - time [ref=f20e3371]: 6 hours ago
+      - generic [ref=f20e3372]:
+        - separator [ref=f20e3374]
+        - generic [ref=f20e3376]:
+          - generic [ref=f20e3377]:
+            - link [ref=f20e3379] [cursor=pointer]:
+              - /url: ./read/CBMitgFBVV95cUxOcFBmTVR5QURjS2wtWHJjN0h5dERQa0tJLWZkSmhNamtQaFhiX3J6YnhGZEhvY1J5WWtYTWFYWVRHSU16OVBneFhXNS1yQmEwY1oxUWhmOW4wdURhZF9ad2ZfWHVzOUJSWElORG9STzBZdTRJQXphNl91OUp1M3Q5b09FWkpLWThacHY4eHVrNXMzNjc2dVBnNTdieXdmMnd2Y3M0NkduQnpwRkZLWDVldDQyYUpmdw?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3381]:
+              - generic [ref=f20e3382]:
+                - generic [ref=f20e3383]: CBS News
+                - generic [ref=f20e3389]:
+                  - button [ref=f20e3390] [cursor=pointer]
+                  - tooltip [ref=f20e3394]: More
+              - link [ref=f20e3395] [cursor=pointer]:
+                - /url: ./read/CBMitgFBVV95cUxOcFBmTVR5QURjS2wtWHJjN0h5dERQa0tJLWZkSmhNamtQaFhiX3J6YnhGZEhvY1J5WWtYTWFYWVRHSU16OVBneFhXNS1yQmEwY1oxUWhmOW4wdURhZF9ad2ZfWHVzOUJSWElORG9STzBZdTRJQXphNl91OUp1M3Q5b09FWkpLWThacHY4eHVrNXMzNjc2dVBnNTdieXdmMnd2Y3M0NkduQnpwRkZLWDVldDQyYUpmdw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Trump talks plan to prevent ratepayers from shouldering costs of new AI data centers
+            - figure [ref=f20e3396]
+          - time [ref=f20e3398]: 17 hours ago
+      - generic [ref=f20e3399]:
+        - separator [ref=f20e3401]
+        - generic [ref=f20e3403]:
+          - generic [ref=f20e3404]:
+            - link [ref=f20e3406] [cursor=pointer]:
+              - /url: ./read/CBMisAFBVV95cUxPYThWTnB1S3NIQk9sS0FZSmxSb3BXd0NWaFpyeU9ncjZrSXhJdGRRTTByVmZFSzRHclRrZ19XUGkxVFZmQVRZZEtBNVVqUHlQdl83ZXd4bV9PMkJTbzI2ZXpjTlNkY2U0Q0V5ekpXcUJldl9fRWQ4QlZST3JRX2RxV0tBanVMWFl3R3hiRWU2WmpRUEFWVFVlTWg4OElfSGg2a1VVaWRmM29LNjdnaTlledIBtgFBVV95cUxQMGdZUVAtRmxwc3JLNzg3Z20yNHpZQVlFSXBIOWdHcHZtemNSaHFlUnE3SG5PQmVHUE5sUGlXYlNSMUhYZnkycFkxREM4ZDZ1a3h5dmlxSTRrc3phVXgzaGZ3TElRbFdGZGxOX2xJdjFFbEtEbmphS3hvS19BVDhpSllqYXYxcEtMaUptNnJrUUZ3Z2NuQkpqNG44NWx3b3lCWGE4VjlVaTdMLU4xNk5idXI4bmo4QQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3408]:
+              - generic [ref=f20e3409]:
+                - generic [ref=f20e3410]: livemint.com
+                - generic [ref=f20e3416]:
+                  - button [ref=f20e3417] [cursor=pointer]
+                  - tooltip [ref=f20e3421]: More
+              - link [ref=f20e3422] [cursor=pointer]:
+                - /url: ./read/CBMisAFBVV95cUxPYThWTnB1S3NIQk9sS0FZSmxSb3BXd0NWaFpyeU9ncjZrSXhJdGRRTTByVmZFSzRHclRrZ19XUGkxVFZmQVRZZEtBNVVqUHlQdl83ZXd4bV9PMkJTbzI2ZXpjTlNkY2U0Q0V5ekpXcUJldl9fRWQ4QlZST3JRX2RxV0tBanVMWFl3R3hiRWU2WmpRUEFWVFVlTWg4OElfSGg2a1VVaWRmM29LNjdnaTlledIBtgFBVV95cUxQMGdZUVAtRmxwc3JLNzg3Z20yNHpZQVlFSXBIOWdHcHZtemNSaHFlUnE3SG5PQmVHUE5sUGlXYlNSMUhYZnkycFkxREM4ZDZ1a3h5dmlxSTRrc3phVXgzaGZ3TElRbFdGZGxOX2xJdjFFbEtEbmphS3hvS19BVDhpSllqYXYxcEtMaUptNnJrUUZ3Z2NuQkpqNG44NWx3b3lCWGE4VjlVaTdMLU4xNk5idXI4bmo4QQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "AI News Tracker: Meta runs into anti-privacy controversy, while Google says AI can help Indian MSMEs"
+            - figure [ref=f20e3423]
+          - time [ref=f20e3425]: 12 days ago
+      - generic [ref=f20e3426]:
+        - separator [ref=f20e3428]
+        - generic [ref=f20e3430]:
+          - generic [ref=f20e3431]:
+            - link [ref=f20e3433] [cursor=pointer]:
+              - /url: ./read/CBMipwFBVV95cUxQV09kSnJjYVlQSUJVYUdfM0I3eF9iQnVOaDBLVFRVMnN6bnNnbWZManFpcEQ3ckNQSDhZRElyY3N0QThvTXdOU0lhejNLWmZGQmtjeDlOZUd0TkxBR01OQWJ0UWN6ZVZKcGY4Rk1kdkt0ejMxVE5sRW5DUno4UFpXSkZyWGE4emVQOTFwSGJOakNSOUJCQmZpMnhFb1plV09FMXVYRmVBNA?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3435]:
+              - generic [ref=f20e3436]:
+                - generic [ref=f20e3437]: PCMag
+                - generic [ref=f20e3443]:
+                  - button [ref=f20e3444] [cursor=pointer]
+                  - tooltip [ref=f20e3448]: More
+              - link [ref=f20e3449] [cursor=pointer]:
+                - /url: ./read/CBMipwFBVV95cUxQV09kSnJjYVlQSUJVYUdfM0I3eF9iQnVOaDBLVFRVMnN6bnNnbWZManFpcEQ3ckNQSDhZRElyY3N0QThvTXdOU0lhejNLWmZGQmtjeDlOZUd0TkxBR01OQWJ0UWN6ZVZKcGY4Rk1kdkt0ejMxVE5sRW5DUno4UFpXSkZyWGE4emVQOTFwSGJOakNSOUJCQmZpMnhFb1plV09FMXVYRmVBNA?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Samsung Health's New AI Chatbot Aims to Make Your Metrics Easier to Understand
+            - figure [ref=f20e3450]
+          - generic [ref=f20e3451]:
+            - time [ref=f20e3452]: Yesterday
+            - separator [ref=f20e3453]
+            - generic [ref=f20e3454]: By Jibin Joseph
+      - generic [ref=f20e3455]:
+        - separator [ref=f20e3457]
+        - generic [ref=f20e3459]:
+          - generic [ref=f20e3460]:
+            - link [ref=f20e3462] [cursor=pointer]:
+              - /url: ./read/CBMiugFBVV95cUxOTTFLRmNyeGV6MnhSc0NsZkVBTHpuRkpLZ2ZIdHFKMzdXTEN3NVFPVUNnQmhVYm52QVlkZXZNbGF4RW5LZ0h5Z2NTTU45aTdZTmJwRktNWVQtVnlKalIydUxnTHk4WFJ4am9NZXJCdkk2cVYwTXhhbk5yVHJZampDSVIteHFqUXhBYm9MdkpoMWdObmhiU0N3TDY4WTZ6ZFBhZWtBanNHa1ItbnVYMW5fVXkyU3hlbDl3Q3c?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3464]:
+              - generic [ref=f20e3465]:
+                - generic [ref=f20e3466]: AFR
+                - generic [ref=f20e3472]:
+                  - button [ref=f20e3473] [cursor=pointer]
+                  - tooltip [ref=f20e3477]: More
+              - link [ref=f20e3478] [cursor=pointer]:
+                - /url: ./read/CBMiugFBVV95cUxOTTFLRmNyeGV6MnhSc0NsZkVBTHpuRkpLZ2ZIdHFKMzdXTEN3NVFPVUNnQmhVYm52QVlkZXZNbGF4RW5LZ0h5Z2NTTU45aTdZTmJwRktNWVQtVnlKalIydUxnTHk4WFJ4am9NZXJCdkk2cVYwTXhhbk5yVHJZampDSVIteHFqUXhBYm9MdkpoMWdObmhiU0N3TDY4WTZ6ZFBhZWtBanNHa1ItbnVYMW5fVXkyU3hlbDl3Q3c?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "Chanticleer podcast: Macquarie’s new CEO, when good news is bad news and China’s AI shock"
+            - figure [ref=f20e3479]
+          - time [ref=f20e3481]: 4 hours ago
+      - generic [ref=f20e3482]:
+        - separator [ref=f20e3484]
+        - generic [ref=f20e3486]:
+          - generic [ref=f20e3487]:
+            - link [ref=f20e3489] [cursor=pointer]:
+              - /url: ./read/CBMirwFBVV95cUxQbEtldVdNbG9yc2pVeTR5clBkTzN0R1FCYTZrYkpQRjJtSmZ1V3NtcGNUOVYzYXpDWFlUMnJxUnJpMS1fRXpSdEJKTGxLQW0zYWI0akJ4c2RhUDhhWGNYMHIzdDktZWxhNlpEMFhaM3BrdzA0N3E4Y2txcTRnaWFQX0hZcTlRaUtidWxOb3VsekQxX1M4UjBNOWQtTHByTHgtM1FXM0VjNjA0dGtaVlpz?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3491]:
+              - generic [ref=f20e3492]:
+                - generic [ref=f20e3493]: IT Pro
+                - generic [ref=f20e3499]:
+                  - button [ref=f20e3500] [cursor=pointer]
+                  - tooltip [ref=f20e3504]: More
+              - link [ref=f20e3505] [cursor=pointer]:
+                - /url: ./read/CBMirwFBVV95cUxQbEtldVdNbG9yc2pVeTR5clBkTzN0R1FCYTZrYkpQRjJtSmZ1V3NtcGNUOVYzYXpDWFlUMnJxUnJpMS1fRXpSdEJKTGxLQW0zYWI0akJ4c2RhUDhhWGNYMHIzdDktZWxhNlpEMFhaM3BrdzA0N3E4Y2txcTRnaWFQX0hZcTlRaUtidWxOb3VsekQxX1M4UjBNOWQtTHByTHgtM1FXM0VjNjA0dGtaVlpz?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "AMD Advancing AI 2026: Helios on the rise, with launch of new Instinct GPUs"
+            - figure [ref=f20e3506]
+          - generic [ref=f20e3507]:
+            - time [ref=f20e3508]: 19 hours ago
+            - separator [ref=f20e3509]
+            - generic [ref=f20e3510]: By Jane Jane Mccallion
+      - generic [ref=f20e3511]:
+        - separator [ref=f20e3513]
+        - generic [ref=f20e3515]:
+          - generic [ref=f20e3516]:
+            - link [ref=f20e3518] [cursor=pointer]:
+              - /url: ./read/CBMiiAFBVV95cUxNbW5CZm90Ty1acERoV2F5RzRMYVoySzc2eTk3dThvZkRmR1RHOWt0WU9qN3BwZDVsRVJsS0lUMVZzUWZ5cmxaNGhKNDJFa29FYm9LYmg3VDFuQy1kRHkwbHRJRHFkcGxjOUptaXp5dTBVWXhaNXJZUTh1TUprZk1aeko4SWx5R2I5?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3520]:
+              - generic [ref=f20e3521]:
+                - generic [ref=f20e3522]: blog.google
+                - generic [ref=f20e3528]:
+                  - button [ref=f20e3529] [cursor=pointer]
+                  - tooltip [ref=f20e3533]: More
+              - link [ref=f20e3534] [cursor=pointer]:
+                - /url: ./read/CBMiiAFBVV95cUxNbW5CZm90Ty1acERoV2F5RzRMYVoySzc2eTk3dThvZkRmR1RHOWt0WU9qN3BwZDVsRVJsS0lUMVZzUWZ5cmxaNGhKNDJFa29FYm9LYmg3VDFuQy1kRHkwbHRJRHFkcGxjOUptaXp5dTBVWXhaNXJZUTh1TUprZk1aeko4SWx5R2I5?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: The latest AI news we announced in April 2026
+            - figure [ref=f20e3535]
+          - time [ref=f20e3537]: 4 May
+      - generic [ref=f20e3538]:
+        - separator [ref=f20e3540]
+        - generic [ref=f20e3542]:
+          - generic [ref=f20e3543]:
+            - link [ref=f20e3545] [cursor=pointer]:
+              - /url: ./read/CBMiwAFBVV95cUxQbWxGOU9aV2J4d3JiWUFTZjZrQ2p3Q25EajdVS0V1Rldyblh4MkJneDF0TzFLT3JSRUhXMWpRUHNia3NTNE9DaW1JNzdpYm9RblVaamFJRUlzNWtsRU1SMzZ3SmZKZ2VtM2Z2a1JnM1NqZmt1TVdNRGo4TzYxOW8xTU5zaHBvOVRaZlpPdXhBQ3o3S3RvR0xqbEdtaHFSVnZLazZseHdxelozdEwzSjNZQllvRGtMMUVzSzN3eWtPaUM?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3547]:
+              - generic [ref=f20e3548]:
+                - generic [ref=f20e3549]: Bloomberg.com
+                - generic [ref=f20e3555]:
+                  - button [ref=f20e3556] [cursor=pointer]
+                  - tooltip [ref=f20e3560]: More
+              - link [ref=f20e3561] [cursor=pointer]:
+                - /url: ./read/CBMiwAFBVV95cUxQbWxGOU9aV2J4d3JiWUFTZjZrQ2p3Q25EajdVS0V1Rldyblh4MkJneDF0TzFLT3JSRUhXMWpRUHNia3NTNE9DaW1JNzdpYm9RblVaamFJRUlzNWtsRU1SMzZ3SmZKZ2VtM2Z2a1JnM1NqZmt1TVdNRGo4TzYxOW8xTU5zaHBvOVRaZlpPdXhBQ3o3S3RvR0xqbEdtaHFSVnZLazZseHdxelozdEwzSjNZQllvRGtMMUVzSzN3eWtPaUM?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Apple Plans Overhaul of MacBooks, iMac in Push to Meet AI Demand
+            - figure [ref=f20e3562]
+          - generic [ref=f20e3563]:
+            - time [ref=f20e3564]: 2 days ago
+            - separator [ref=f20e3565]
+            - generic [ref=f20e3566]: By Mark Gurman
+      - generic [ref=f20e3567]:
+        - separator [ref=f20e3569]
+        - generic [ref=f20e3571]:
+          - generic [ref=f20e3572]:
+            - link [ref=f20e3574] [cursor=pointer]:
+              - /url: ./read/CBMiU0FVX3lxTE5xU284bGRZSUh1SG5tNVp1VWFhM29WUWxoa0FFVWlzSTBsaWN5VUMxdlBrcHFCS3BhWjVhdXI4TWFyWFNaaTJ2NWlxLXNrZy1GUmFr?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3576]:
+              - generic [ref=f20e3577]:
+                - generic [ref=f20e3578]: سانا
+                - generic [ref=f20e3584]:
+                  - button [ref=f20e3585] [cursor=pointer]
+                  - tooltip [ref=f20e3589]: More
+              - link [ref=f20e3590] [cursor=pointer]:
+                - /url: ./read/CBMiU0FVX3lxTE5xU284bGRZSUh1SG5tNVp1VWFhM29WUWxoa0FFVWlzSTBsaWN5VUMxdlBrcHFCS3BhWjVhdXI4TWFyWFNaaTJ2NWlxLXNrZy1GUmFr?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Samsung unveils three new AI-powered foldable smartphones
+            - figure [ref=f20e3591]
+          - time [ref=f20e3593]: 22 hours ago
+      - generic [ref=f20e3594]:
+        - separator [ref=f20e3596]
+        - generic [ref=f20e3598]:
+          - generic [ref=f20e3599]:
+            - link [ref=f20e3601] [cursor=pointer]:
+              - /url: ./read/CBMilgFBVV95cUxQVDJlbUZoRjFtY2JoTFJLbFBsdHRDUnpvclhGa01RZGg4a0NPazNWZUhzSWhaU3UwRGx6Y2I4VjJzZV93NTNibGpHN3ByNDQzRVZBZTRsdFpjaXpkOXpkbWpYdE1ybWptSjhndWpTTFViRTZLRGFpMUZuQ1JuYnRjR2hnRWE2czQ0bmdQMTZwV0E5Znp0eEE?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3603]:
+              - generic [ref=f20e3604]:
+                - generic [ref=f20e3605]: Samsung Global Newsroom
+                - generic [ref=f20e3611]:
+                  - button [ref=f20e3612] [cursor=pointer]
+                  - tooltip [ref=f20e3616]: More
+              - link [ref=f20e3617] [cursor=pointer]:
+                - /url: ./read/CBMilgFBVV95cUxQVDJlbUZoRjFtY2JoTFJLbFBsdHRDUnpvclhGa01RZGg4a0NPazNWZUhzSWhaU3UwRGx6Y2I4VjJzZV93NTNibGpHN3ByNDQzRVZBZTRsdFpjaXpkOXpkbWpYdE1ybWptSjhndWpTTFViRTZLRGFpMUZuQ1JuYnRjR2hnRWE2czQ0bmdQMTZwV0E5Znp0eEE?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "Coming Soon: A New AI-Powered Health Companion on Your Wrist"
+            - figure [ref=f20e3618]
+          - time [ref=f20e3620]: 10 days ago
+      - generic [ref=f20e3621]:
+        - separator [ref=f20e3623]
+        - generic [ref=f20e3625]:
+          - generic [ref=f20e3626]:
+            - link [ref=f20e3628] [cursor=pointer]:
+              - /url: ./read/CBMiswFBVV95cUxNV3dWTkVYeFZCMmRRcHZMa1BhSGU5dGxTM1VHQnhrV2NmSHJ5RmlGeHRBQmMxZmR0Zno4dmhyamh2NEIxZl9ZSnFtaEdXNDhOWUdWUVQyajk4Y3lpNml2YTA2WVJHRlhGZnJON3hncVpWSlREZ3YwbjFhNXBJYjdpQjJCSEhuVUY4UVZNMnhsOXZyQmdjR0tEM3dPRUdlMENVbV90clVhOFh6blljU05yUzRFTQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3630]:
+              - generic [ref=f20e3631]:
+                - generic [ref=f20e3632]: AP News
+                - generic [ref=f20e3638]:
+                  - button [ref=f20e3639] [cursor=pointer]
+                  - tooltip [ref=f20e3643]: More
+              - link [ref=f20e3644] [cursor=pointer]:
+                - /url: ./read/CBMiswFBVV95cUxNV3dWTkVYeFZCMmRRcHZMa1BhSGU5dGxTM1VHQnhrV2NmSHJ5RmlGeHRBQmMxZmR0Zno4dmhyamh2NEIxZl9ZSnFtaEdXNDhOWUdWUVQyajk4Y3lpNml2YTA2WVJHRlhGZnJON3hncVpWSlREZ3YwbjFhNXBJYjdpQjJCSEhuVUY4UVZNMnhsOXZyQmdjR0tEM3dPRUdlMENVbV90clVhOFh6blljU05yUzRFTQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Amid criticism, Meta reins in new AI tool that automatically accessed public Instagram images
+            - figure [ref=f20e3645]
+          - generic [ref=f20e3646]:
+            - time [ref=f20e3647]: 13 days ago
+            - separator [ref=f20e3648]
+            - generic [ref=f20e3649]: By Alex Veiga
+      - generic [ref=f20e3650]:
+        - separator [ref=f20e3652]
+        - generic [ref=f20e3654]:
+          - generic [ref=f20e3655]:
+            - link [ref=f20e3657] [cursor=pointer]:
+              - /url: ./read/CBMiswFBVV95cUxPVllZVDU1VkNKYWd4ZXc3ZldlNFlIdXR1clJCeS1RQVZCR1N3dl9yVXNIWFJ1UGFWc2MweVJGWnJEbk95dzUzZktFRjBKZXlDSGYzMV9QWmxvZExKaUFFVjRxaUlaUmRVT1VfdWplZWY4b3dHOFVHT25IeGgyYURhMDFIR0RlOF8zMzJwamhHTEhBSzVpcGhKZ1JVSW44aHkzZGhOQlJ2WGlQOGQtS1VhRGNSWQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3659]:
+              - generic [ref=f20e3660]:
+                - generic [ref=f20e3661]: Politico
+                - generic [ref=f20e3667]:
+                  - button [ref=f20e3668] [cursor=pointer]
+                  - tooltip [ref=f20e3672]: More
+              - link [ref=f20e3673] [cursor=pointer]:
+                - /url: ./read/CBMiswFBVV95cUxPVllZVDU1VkNKYWd4ZXc3ZldlNFlIdXR1clJCeS1RQVZCR1N3dl9yVXNIWFJ1UGFWc2MweVJGWnJEbk95dzUzZktFRjBKZXlDSGYzMV9QWmxvZExKaUFFVjRxaUlaUmRVT1VfdWplZWY4b3dHOFVHT25IeGgyYURhMDFIR0RlOF8zMzJwamhHTEhBSzVpcGhKZ1JVSW44aHkzZGhOQlJ2WGlQOGQtS1VhRGNSWQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: House AI ‘kill switch’ bill unveiled as OpenAI hack raises alarms
+            - figure [ref=f20e3674]
+          - generic [ref=f20e3675]:
+            - time [ref=f20e3676]: Yesterday
+            - separator [ref=f20e3677]
+            - generic [ref=f20e3678]: By Brendan Bordelon, Gabby Miller and Dana Nickel
+      - generic [ref=f20e3679]:
+        - separator [ref=f20e3681]
+        - generic [ref=f20e3683]:
+          - generic [ref=f20e3684]:
+            - link [ref=f20e3686] [cursor=pointer]:
+              - /url: ./read/CBMifEFVX3lxTFBZVmZrbmZEckpMNHB1bS1PQlV5dWVxMHlYcVdLUGdFUFgtcFRfT2FYVnZWSmFCZlpDVHd4TzV6MURmMDdfUEdrU0hFZERjQi1VM1VrOEZ0UEpsN1lLdWFiMURQT3g4VHNVZjJEckd1bi1BT2V2VFhPNnpJZVI?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3688]:
+              - generic [ref=f20e3689]:
+                - generic [ref=f20e3690]: CBC
+                - generic [ref=f20e3696]:
+                  - button [ref=f20e3697] [cursor=pointer]
+                  - tooltip [ref=f20e3701]: More
+              - link [ref=f20e3702] [cursor=pointer]:
+                - /url: ./read/CBMifEFVX3lxTFBZVmZrbmZEckpMNHB1bS1PQlV5dWVxMHlYcVdLUGdFUFgtcFRfT2FYVnZWSmFCZlpDVHd4TzV6MURmMDdfUEdrU0hFZERjQi1VM1VrOEZ0UEpsN1lLdWFiMURQT3g4VHNVZjJEckd1bi1BT2V2VFhPNnpJZVI?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: OpenAI model went rogue, hacked another company's system during testing
+            - figure [ref=f20e3703]
+          - generic [ref=f20e3704]:
+            - time [ref=f20e3705]: 2 days ago
+            - separator [ref=f20e3706]
+            - generic [ref=f20e3707]: By Raphael Satter
+      - generic [ref=f20e3708]:
+        - separator [ref=f20e3710]
+        - generic [ref=f20e3712]:
+          - generic [ref=f20e3713]:
+            - link [ref=f20e3715] [cursor=pointer]:
+              - /url: ./read/CBMi0AFBVV95cUxNMHhPZ0xyY0o5RlFIcG9kNjFKNmR6Ul96aTBzVW9UZ3JUa3V3YTBqS2dlNmI4R3VWa2VrMXNfbVo5aEpSZXM3UVB4RGNqQWhubUpCTUJ3MF9pSTh6TW1sQ3FRV2YzalVwUF9DMXc5SlBtVFp2VVhwT3hJdkl1UUR4WXFJdWc0a1h2QWxKYUtJZlUxd0N5Y25SMGtjSnV3am1XYWdiRDhsR0dDWTF0T1lzUjIwbGxvS1lVamU4T2ZHemRWZjliaF9GRXNyTlRLcWNZ0gHkAUFVX3lxTE9xbnpsRFkzbVI5MFVhbVhEdnJxZzNjTEJwdHpkQ0RXZW40WXgydF90aHVST2l6dzV0aW83RlNTVEpZY3pOWWFMaXlvSm5LUHZnMVc4WU1ndGxHTjJiQVFuNjQtVzBoQWVNSW8tdVRsNXEwa2RPN1RIMFotUnV2YzI1akl5Y1FRMkQwYnVPMXhpcWYzaFVWNHdVN1JYVUU4OVVVdlVEU1Z0elB3Zm4zLWZXdEpoYjgtSjJCOS12N0JTQTBtQ3FOcGxuZ2hVVGxLSHpxWDlLNnhkUWtkU2xSbGFoR2RxTA?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3717]:
+              - generic [ref=f20e3718]:
+                - generic [ref=f20e3719]: WFTV
+                - generic [ref=f20e3725]:
+                  - button [ref=f20e3726] [cursor=pointer]
+                  - tooltip [ref=f20e3730]: More
+              - link [ref=f20e3731] [cursor=pointer]:
+                - /url: ./read/CBMi0AFBVV95cUxNMHhPZ0xyY0o5RlFIcG9kNjFKNmR6Ul96aTBzVW9UZ3JUa3V3YTBqS2dlNmI4R3VWa2VrMXNfbVo5aEpSZXM3UVB4RGNqQWhubUpCTUJ3MF9pSTh6TW1sQ3FRV2YzalVwUF9DMXc5SlBtVFp2VVhwT3hJdkl1UUR4WXFJdWc0a1h2QWxKYUtJZlUxd0N5Y25SMGtjSnV3am1XYWdiRDhsR0dDWTF0T1lzUjIwbGxvS1lVamU4T2ZHemRWZjliaF9GRXNyTlRLcWNZ0gHkAUFVX3lxTE9xbnpsRFkzbVI5MFVhbVhEdnJxZzNjTEJwdHpkQ0RXZW40WXgydF90aHVST2l6dzV0aW83RlNTVEpZY3pOWWFMaXlvSm5LUHZnMVc4WU1ndGxHTjJiQVFuNjQtVzBoQWVNSW8tdVRsNXEwa2RPN1RIMFotUnV2YzI1akl5Y1FRMkQwYnVPMXhpcWYzaFVWNHdVN1JYVUU4OVVVdlVEU1Z0elB3Zm4zLWZXdEpoYjgtSjJCOS12N0JTQTBtQ3FOcGxuZ2hVVGxLSHpxWDlLNnhkUWtkU2xSbGFoR2RxTA?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: New AI rules could change how Central Florida students use chatbots in schools
+            - figure [ref=f20e3732]
+          - generic [ref=f20e3733]:
+            - time [ref=f20e3734]: 20 hours ago
+            - separator [ref=f20e3735]
+            - generic [ref=f20e3736]: By James Tutten
+      - generic [ref=f20e3737]:
+        - separator [ref=f20e3739]
+        - generic [ref=f20e3741]:
+          - generic [ref=f20e3742]:
+            - link [ref=f20e3744] [cursor=pointer]:
+              - /url: ./read/CBMikwJBVV95cUxOQnhwQ2Y5MENpZ0J3RjBNVDFIN0dLcG1MY2FDb1dmU1hZLWRQMnppTmUtODlWQmZyd1JHeGhoZUVRZ1o2TE1ZYzRKSkZtUzJvTGVIN0VWWHUwdmNuY2JVcDl0SklnUXZZeUZBc2pXamJGM192dWdKd3RPSFFELWF0MXMtVGdNQVdfWXFOX0p4QXhvT2EyMU1NWFgyS3N0dHVtazg0UjE4VFFhNmpYemtRazFjMTFlc1NrT0lONEVyNDFJYUNvQzhVaUJ3aUluQlZFV1AzYk1pRGVLS3BlOTA3SjRaUU4tMWxXZUp0RTNrazZ4eU9STTZNRndsOHQ5dXozM1BGdFZ4aWZEZV9VS2dxVUNtd9IBmAJBVV95cUxOdG1zRmFSQWQ4LWI0b2o2ZkVrbjlUTXItQ05MUzhJM3lmTUlCSHBDRzdHa003X0pLaVMtVFdtOG1meHdMTEk5ZGhTb3BRaWVSMnZ0c0ZJRGFBWnB2NnZvWkpNSjhMVDBERmVSLVhmWURGVWlPZ2lFaVZrTWFoampMNGdSLTZaWWloMzFsUDJlS0V3b3pvaS10aF9VN1dzRHlLb0hWeXJYeXZqeUFWY3VxbTVUcV9tNDloZ3BmYUhRdmYzVEhWT24xUDJKZ2VOa0xhdHdWeVd4VlRFYU45X3gtbDJGQTBTOEg2dFdhbUdaUkh0TmJMeHRrblgyMlBqbmUySHhEVEZ0VmQzd1VneHZwVThWRnExZVVE?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3746]:
+              - generic [ref=f20e3747]:
+                - generic [ref=f20e3748]: The Times of India
+                - generic [ref=f20e3754]:
+                  - button [ref=f20e3755] [cursor=pointer]
+                  - tooltip [ref=f20e3759]: More
+              - link [ref=f20e3760] [cursor=pointer]:
+                - /url: ./read/CBMikwJBVV95cUxOQnhwQ2Y5MENpZ0J3RjBNVDFIN0dLcG1MY2FDb1dmU1hZLWRQMnppTmUtODlWQmZyd1JHeGhoZUVRZ1o2TE1ZYzRKSkZtUzJvTGVIN0VWWHUwdmNuY2JVcDl0SklnUXZZeUZBc2pXamJGM192dWdKd3RPSFFELWF0MXMtVGdNQVdfWXFOX0p4QXhvT2EyMU1NWFgyS3N0dHVtazg0UjE4VFFhNmpYemtRazFjMTFlc1NrT0lONEVyNDFJYUNvQzhVaUJ3aUluQlZFV1AzYk1pRGVLS3BlOTA3SjRaUU4tMWxXZUp0RTNrazZ4eU9STTZNRndsOHQ5dXozM1BGdFZ4aWZEZV9VS2dxVUNtd9IBmAJBVV95cUxOdG1zRmFSQWQ4LWI0b2o2ZkVrbjlUTXItQ05MUzhJM3lmTUlCSHBDRzdHa003X0pLaVMtVFdtOG1meHdMTEk5ZGhTb3BRaWVSMnZ0c0ZJRGFBWnB2NnZvWkpNSjhMVDBERmVSLVhmWURGVWlPZ2lFaVZrTWFoampMNGdSLTZaWWloMzFsUDJlS0V3b3pvaS10aF9VN1dzRHlLb0hWeXJYeXZqeUFWY3VxbTVUcV9tNDloZ3BmYUhRdmYzVEhWT24xUDJKZ2VOa0xhdHdWeVd4VlRFYU45X3gtbDJGQTBTOEg2dFdhbUdaUkh0TmJMeHRrblgyMlBqbmUySHhEVEZ0VmQzd1VneHZwVThWRnExZVVE?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Hyperwrite CEO Matt Shumer says OpenAI’s latest AI model deleted all of his Mac’s file; shares screenshot
+            - figure [ref=f20e3761]
+          - time [ref=f20e3763]: 13 days ago
+      - generic [ref=f20e3764]:
+        - separator [ref=f20e3766]
+        - generic [ref=f20e3768]:
+          - generic [ref=f20e3769]:
+            - link [ref=f20e3771] [cursor=pointer]:
+              - /url: ./read/CBMicEFVX3lxTE9ZaGZQS2RfV05tSHU3dGRuRGFXNFd2UzNkYkJuR2tiSUg4X3RtT0UxV1VlTjNvSkZWcVUtU0NNUDJPVUo5WW5RMFR6Z055Y0dhZ1EyaG1SeGIxZlMtWFFmZTMyc2paYmxFLXE1TlBlaEg?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3773]:
+              - generic [ref=f20e3774]:
+                - generic [ref=f20e3775]: AI at Meta
+                - generic [ref=f20e3781]:
+                  - button [ref=f20e3782] [cursor=pointer]
+                  - tooltip [ref=f20e3786]: More
+              - link [ref=f20e3787] [cursor=pointer]:
+                - /url: ./read/CBMicEFVX3lxTE9ZaGZQS2RfV05tSHU3dGRuRGFXNFd2UzNkYkJuR2tiSUg4X3RtT0UxV1VlTjNvSkZWcVUtU0NNUDJPVUo5WW5RMFR6Z055Y0dhZ1EyaG1SeGIxZlMtWFFmZTMyc2paYmxFLXE1TlBlaEg?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Introducing Muse Spark 1.1
+            - figure [ref=f20e3788]
+          - time [ref=f20e3790]: 15 days ago
+      - generic [ref=f20e3791]:
+        - separator [ref=f20e3793]
+        - generic [ref=f20e3795]:
+          - generic [ref=f20e3796]:
+            - link [ref=f20e3798] [cursor=pointer]:
+              - /url: ./read/CBMihAFBVV95cUxQaEt3NDBPdVBpU2NkeHRJRXUtRWN3Y1paMDN1YmRMeHQyUV9EUFA2VW1va2Vyamdwa2dsakluYlE4cGRRbXQ3YXhPQ3BzOFRBdlpRc0VFRWNVbGZRNkxzOU5RZHhhdVVjM2VTN1JzUVR5eWRiU0hUOXdEeTY3OTNYYVRndnk?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3800]:
+              - generic [ref=f20e3801]:
+                - generic [ref=f20e3802]: The Hacker News
+                - generic [ref=f20e3808]:
+                  - button [ref=f20e3809] [cursor=pointer]
+                  - tooltip [ref=f20e3813]: More
+              - link [ref=f20e3814] [cursor=pointer]:
+                - /url: ./read/CBMihAFBVV95cUxQaEt3NDBPdVBpU2NkeHRJRXUtRWN3Y1paMDN1YmRMeHQyUV9EUFA2VW1va2Vyamdwa2dsakluYlE4cGRRbXQ3YXhPQ3BzOFRBdlpRc0VFRWNVbGZRNkxzOU5RZHhhdVVjM2VTN1JzUVR5eWRiU0hUOXdEeTY3OTNYYVRndnk?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images
+            - figure [ref=f20e3815]
+          - generic [ref=f20e3816]:
+            - time [ref=f20e3817]: 15 days ago
+            - separator [ref=f20e3818]
+            - generic [ref=f20e3819]: By Ravie Lakshmanan
+      - generic [ref=f20e3820]:
+        - separator [ref=f20e3822]
+        - generic [ref=f20e3824]:
+          - generic [ref=f20e3825]:
+            - link [ref=f20e3827] [cursor=pointer]:
+              - /url: ./read/CBMilgFBVV95cUxNRlRmc2pORlNUTHdteFl6TmtsUFdKWkktdkxWVU9Hbi0yd3d4YWtQd2xrc3loQTZ6N1U2N0JkVmQ3RC02M3hPZWhkOU9faG00TVdfbFBMQkxIbzNvd3dJOGVBNVRENFRtSVZxM3BUWjNDSElxQVFQa0E5WlB4WTlqQzdlNC0tYjNUUTluWWVadk5DTFFDbHc?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3829]:
+              - generic [ref=f20e3830]:
+                - generic [ref=f20e3831]: MIT News
+                - generic [ref=f20e3837]:
+                  - button [ref=f20e3838] [cursor=pointer]
+                  - tooltip [ref=f20e3842]: More
+              - link [ref=f20e3843] [cursor=pointer]:
+                - /url: ./read/CBMilgFBVV95cUxNRlRmc2pORlNUTHdteFl6TmtsUFdKWkktdkxWVU9Hbi0yd3d4YWtQd2xrc3loQTZ6N1U2N0JkVmQ3RC02M3hPZWhkOU9faG00TVdfbFBMQkxIbzNvd3dJOGVBNVRENFRtSVZxM3BUWjNDSElxQVFQa0E5WlB4WTlqQzdlNC0tYjNUUTluWWVadk5DTFFDbHc?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: New method aims to keep kids safe from illegal AI-generated content
+            - figure [ref=f20e3844]
+          - generic [ref=f20e3845]:
+            - time [ref=f20e3846]: 11 days ago
+            - separator [ref=f20e3847]
+            - generic [ref=f20e3848]: By Adam Zewe
+      - generic [ref=f20e3849]:
+        - separator [ref=f20e3851]
+        - generic [ref=f20e3853]:
+          - generic [ref=f20e3854]:
+            - link [ref=f20e3856] [cursor=pointer]:
+              - /url: ./read/CBMiV0FVX3lxTE9RV3R6a0JpOFUwWTdvSzkxQTNsTVdiUzJpVlNzb3ctR3ZsWXE3dWppZVA1UlRsVEpqdnl4SnJPZlhuT1BhMXdKRW9IaVJQcVJkbVZUV1JFNA?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3858]:
+              - generic [ref=f20e3859]:
+                - generic [ref=f20e3860]: UN News
+                - generic [ref=f20e3866]:
+                  - button [ref=f20e3867] [cursor=pointer]
+                  - tooltip [ref=f20e3871]: More
+              - link [ref=f20e3872] [cursor=pointer]:
+                - /url: ./read/CBMiV0FVX3lxTE9RV3R6a0JpOFUwWTdvSzkxQTNsTVdiUzJpVlNzb3ctR3ZsWXE3dWppZVA1UlRsVEpqdnl4SnJPZlhuT1BhMXdKRW9IaVJQcVJkbVZUV1JFNA?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: New coalition puts children’s rights at the centre of the AI age
+            - figure [ref=f20e3873]
+          - time [ref=f20e3875]: 17 days ago
+      - generic [ref=f20e3876]:
+        - separator [ref=f20e3878]
+        - generic [ref=f20e3880]:
+          - generic [ref=f20e3881]:
+            - link [ref=f20e3883] [cursor=pointer]:
+              - /url: ./read/CBMiWkFVX3lxTE9icGNGdklYbVF0d0EwY1lDX3ZVNEh1dkVZNkNoaEdZcTYtZXFmUW9QT29hdWxEbUxRZnp3OThNRldUM0pwTWE2eG9VTERaUXpHSGUyS2U5N1pwdw?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3885]:
+              - generic [ref=f20e3886]:
+                - generic [ref=f20e3887]: BBC
+                - generic [ref=f20e3893]:
+                  - button [ref=f20e3894] [cursor=pointer]
+                  - tooltip [ref=f20e3898]: More
+              - link [ref=f20e3899] [cursor=pointer]:
+                - /url: ./read/CBMiWkFVX3lxTE9icGNGdklYbVF0d0EwY1lDX3ZVNEh1dkVZNkNoaEdZcTYtZXFmUW9QT29hdWxEbUxRZnp3OThNRldUM0pwTWE2eG9VTERaUXpHSGUyS2U5N1pwdw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Outcry as Meta lets users make AI images from public Instagram profile pics
+            - figure [ref=f20e3900]
+          - generic [ref=f20e3901]:
+            - time [ref=f20e3902]: 16 days ago
+            - separator [ref=f20e3903]
+            - generic [ref=f20e3904]: By Laura Cress
+      - generic [ref=f20e3905]:
+        - separator [ref=f20e3907]
+        - generic [ref=f20e3909]:
+          - generic [ref=f20e3910]:
+            - link [ref=f20e3912] [cursor=pointer]:
+              - /url: ./read/CBMiWkFVX3lxTE9KUjhVS0NLS2IwTEdxVFJUWmUtal9UcEVjTGVOdlFUR1lhM1RJQl9tZUNpajlKV0tiQWx2Z3pSMVRQdWJNeThfZ1VQWUlqb3pIWUhja1JpUjRYUQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3914]:
+              - generic [ref=f20e3915]:
+                - generic [ref=f20e3916]: BBC
+                - generic [ref=f20e3922]:
+                  - button [ref=f20e3923] [cursor=pointer]
+                  - tooltip [ref=f20e3927]: More
+              - link [ref=f20e3928] [cursor=pointer]:
+                - /url: ./read/CBMiWkFVX3lxTE9KUjhVS0NLS2IwTEdxVFJUWmUtal9UcEVjTGVOdlFUR1lhM1RJQl9tZUNpajlKV0tiQWx2Z3pSMVRQdWJNeThfZ1VQWUlqb3pIWUhja1JpUjRYUQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "Artificial intelligence: Yann LeCun works on more flexible AI"
+            - figure [ref=f20e3929]
+          - time [ref=f20e3931]: 22 days ago
+      - generic [ref=f20e3932]:
+        - separator [ref=f20e3934]
+        - generic [ref=f20e3936]:
+          - generic [ref=f20e3937]:
+            - link [ref=f20e3939] [cursor=pointer]:
+              - /url: ./read/CBMie0FVX3lxTE5RZGh3eUJMQUR5NV9OVTRiaHAwX0ZKbTl5SGF5TUpDY0M5R1lQdVlvcGNZYTVSTkVHSUJYbUZUbWRGSWdWemZDd05NTWdkWUNZaWxqQ0I1N2M3NmZrdzhaOW5BLU5SVFllOFNVY0FiMlgtVzd1eVcxRmlCa9IBgAFBVV95cUxNTjRaZUUtZEd1UUFqR1NJOFVtLUc3OV9JMHhaaUYwSmZsUTNOS1E5bUFlYXR5R1RNVUVXOUtDdU53UVlDT0hnWktWeXUtdUdnTWtOLV9ZNHlBZ0VEMzRZRHh6UWFzUXFfVVFES1dVLTVZdm9hMlBBWDF3MDg3cHZidg?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3941]:
+              - generic [ref=f20e3942]:
+                - generic [ref=f20e3943]: CNBC
+                - generic [ref=f20e3949]:
+                  - button [ref=f20e3950] [cursor=pointer]
+                  - tooltip [ref=f20e3954]: More
+              - link [ref=f20e3955] [cursor=pointer]:
+                - /url: ./read/CBMie0FVX3lxTE5RZGh3eUJMQUR5NV9OVTRiaHAwX0ZKbTl5SGF5TUpDY0M5R1lQdVlvcGNZYTVSTkVHSUJYbUZUbWRGSWdWemZDd05NTWdkWUNZaWxqQ0I1N2M3NmZrdzhaOW5BLU5SVFllOFNVY0FiMlgtVzd1eVcxRmlCa9IBgAFBVV95cUxNTjRaZUUtZEd1UUFqR1NJOFVtLUc3OV9JMHhaaUYwSmZsUTNOS1E5bUFlYXR5R1RNVUVXOUtDdU53UVlDT0hnWktWeXUtdUdnTWtOLV9ZNHlBZ0VEMzRZRHh6UWFzUXFfVVFES1dVLTVZdm9hMlBBWDF3MDg3cHZidg?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: OpenAI's newest AI model is 54% more token efficient on agentic coding, Altman tells CNBC
+            - figure [ref=f20e3956]
+          - generic [ref=f20e3957]:
+            - time [ref=f20e3958]: 15 days ago
+            - separator [ref=f20e3959]
+            - generic [ref=f20e3960]: By Ashley Capoot
+      - generic [ref=f20e3961]:
+        - separator [ref=f20e3963]
+        - generic [ref=f20e3965]:
+          - generic [ref=f20e3966]:
+            - link [ref=f20e3968] [cursor=pointer]:
+              - /url: ./read/CBMic0FVX3lxTE9CNkVjdFdKWjN4T0xWTUdtU0YxZU8yUWFaMWpQV3ZpY093M0g5cmd2NXNzSXRGemNQMmZROC1FODZJVmYzOVRnYk9aSFdkdGZUZWNXREx4bmlMV2pOYWdCYVVzZDlSSEhuRS14R1h4QkhJME3SAXhBVV95cUxOSW9rd1hNVy05WW5zSlU5WVhNVi1YQUxvSnVjMm8wSVN1cmdJMVdDdDJyLVZCS2VsQWc3eEtmanNYbjNxTTBuQ0ZrbGsteXJ5WlQzUEZEUHBDMERiMFYzdGFSRERQc28yOTl4STdGU2NwcDJkY3B5SXI?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3970]:
+              - generic [ref=f20e3971]:
+                - generic [ref=f20e3972]: Meta Store
+                - generic [ref=f20e3978]:
+                  - button [ref=f20e3979] [cursor=pointer]
+                  - tooltip [ref=f20e3983]: More
+              - link [ref=f20e3984] [cursor=pointer]:
+                - /url: ./read/CBMic0FVX3lxTE9CNkVjdFdKWjN4T0xWTUdtU0YxZU8yUWFaMWpQV3ZpY093M0g5cmd2NXNzSXRGemNQMmZROC1FODZJVmYzOVRnYk9aSFdkdGZUZWNXREx4bmlMV2pOYWdCYVVzZDlSSEhuRS14R1h4QkhJME3SAXhBVV95cUxOSW9rd1hNVy05WW5zSlU5WVhNVi1YQUxvSnVjMm8wSVN1cmdJMVdDdDJyLVZCS2VsQWc3eEtmanNYbjNxTTBuQ0ZrbGsteXJ5WlQzUEZEUHBDMERiMFYzdGFSRERQc28yOTl4STdGU2NwcDJkY3B5SXI?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "Introducing Muse Image: Image Generation Built for Your World"
+            - figure [ref=f20e3985]
+          - time [ref=f20e3987]: 17 days ago
+      - generic [ref=f20e3988]:
+        - separator [ref=f20e3990]
+        - generic [ref=f20e3992]:
+          - generic [ref=f20e3993]:
+            - link [ref=f20e3995] [cursor=pointer]:
+              - /url: ./read/CBMiSEFVX3lxTE1pWmhBYnBfLXg2OGhrbmlYM2FobFBJanp6RHFiZ1lIa1BSSE1CTnNYSExtRW1USTFWbDloOUxIS3FKY2hXbm5ULQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e3997]:
+              - generic [ref=f20e3998]:
+                - generic [ref=f20e3999]: OpenAI
+                - generic [ref=f20e4005]:
+                  - button [ref=f20e4006] [cursor=pointer]
+                  - tooltip [ref=f20e4010]: More
+              - link [ref=f20e4011] [cursor=pointer]:
+                - /url: ./read/CBMiSEFVX3lxTE1pWmhBYnBfLXg2OGhrbmlYM2FobFBJanp6RHFiZ1lIa1BSSE1CTnNYSExtRW1USTFWbDloOUxIS3FKY2hXbm5ULQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "GPT-5.6: Frontier intelligence that scales with your ambition"
+          - time [ref=f20e4013]: 15 days ago
+      - generic [ref=f20e4014]:
+        - separator [ref=f20e4016]
+        - generic [ref=f20e4018]:
+          - generic [ref=f20e4019]:
+            - link [ref=f20e4021] [cursor=pointer]:
+              - /url: ./read/CBMirAFBVV95cUxPSEhvampTX1o2UVdtSDVlT2tPOWl6T0VkODNtUU9MUk5MUlpQX2JYV0lXdVlUMzR3RUZNZW9sNm9sYWc1WEVLUWdXamRiVmo4WlBzdDVYZUp6MVpOS2ZQMHg2NE9ITDl3U0hxMVpmRXN4Qm9uekQ1Tm11cnlNY1NMb0JTeEJUNXFmZU1UOTBiRXUtbk5TSG9EekJUc29pMzNndWFqWUZiZ2REM2Q1?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e4023]:
+              - generic [ref=f20e4024]:
+                - generic [ref=f20e4025]: CNA
+                - generic [ref=f20e4031]:
+                  - button [ref=f20e4032] [cursor=pointer]
+                  - tooltip [ref=f20e4036]: More
+              - link [ref=f20e4037] [cursor=pointer]:
+                - /url: ./read/CBMirAFBVV95cUxPSEhvampTX1o2UVdtSDVlT2tPOWl6T0VkODNtUU9MUk5MUlpQX2JYV0lXdVlUMzR3RUZNZW9sNm9sYWc1WEVLUWdXamRiVmo4WlBzdDVYZUp6MVpOS2ZQMHg2NE9ITDl3U0hxMVpmRXN4Qm9uekQ1Tm11cnlNY1NMb0JTeEJUNXFmZU1UOTBiRXUtbk5TSG9EekJUc29pMzNndWFqWUZiZ2REM2Q1?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Xi Jinping warns of ‘new historical injustice’ in AI. What does he mean - and can it be prevented?
+            - figure [ref=f20e4038]
+          - time [ref=f20e4040]: Yesterday
+      - generic [ref=f20e4041]:
+        - separator [ref=f20e4043]
+        - generic [ref=f20e4045]:
+          - generic [ref=f20e4046]:
+            - link [ref=f20e4048] [cursor=pointer]:
+              - /url: ./read/CBMikgFBVV95cUxNSURhX3FMdWtnTzItVmVORkhQbldIYkdDWmhlWTlkNUk5N0IwdE1ndVdoNl9nSlhCelo4dkVHb1E3aXB0SEFoUlU3cG84Nk5EeVN2RlBPdmt0Nzk0NnhsckowY1ZvNW5ZVkJNdWRLLVFZQ21BSVdGbzZpMmV5QXJiaHRaRFFIRnZKM3k1c2VKMkptUQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e4050]:
+              - generic [ref=f20e4051]:
+                - generic [ref=f20e4052]: AP News
+                - generic [ref=f20e4058]:
+                  - button [ref=f20e4059] [cursor=pointer]
+                  - tooltip [ref=f20e4063]: More
+              - link [ref=f20e4064] [cursor=pointer]:
+                - /url: ./read/CBMikgFBVV95cUxNSURhX3FMdWtnTzItVmVORkhQbldIYkdDWmhlWTlkNUk5N0IwdE1ndVdoNl9nSlhCelo4dkVHb1E3aXB0SEFoUlU3cG84Nk5EeVN2RlBPdmt0Nzk0NnhsckowY1ZvNW5ZVkJNdWRLLVFZQ21BSVdGbzZpMmV5QXJiaHRaRFFIRnZKM3k1c2VKMkptUQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Massive AI buildout poses latest inflation threat as consumers pay more for laptops and electricity
+            - figure [ref=f20e4065]
+          - generic [ref=f20e4066]:
+            - time [ref=f20e4067]: 11 days ago
+            - separator [ref=f20e4068]
+            - generic [ref=f20e4069]: By Christopher Rugaber
+      - generic [ref=f20e4070]:
+        - separator [ref=f20e4072]
+        - generic [ref=f20e4074]:
+          - generic [ref=f20e4075]:
+            - link [ref=f20e4077] [cursor=pointer]:
+              - /url: ./read/CBMiZkFVX3lxTE16aGRQd3BBT3JyLU13c0pvVDVXS2x5WU8xQ3dUVjE3NnVLOXhCWEw5eE94ZnBTZXRVSmVpUUNJbU0zUUVqZFVBOXE2eDRBREZ5MUtGSVBBZHhTZ2dWYnBxZ0hSY1FlUdIBa0FVX3lxTE9ZZWpjSW0xOFFlaDBha0FjLUhXWWktSWU2eUZDbVFsN3lYMTVLdll3UW1WdDFWLTdUYS1qQ0QxWmJDS0wySXJpTExiRFRpeXpCbm9tMnloblEwQXEyOE44VW1lV0lPeVJRVHVj?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e4079]:
+              - generic [ref=f20e4080]:
+                - generic [ref=f20e4081]: CNBC
+                - generic [ref=f20e4087]:
+                  - button [ref=f20e4088] [cursor=pointer]
+                  - tooltip [ref=f20e4092]: More
+              - link [ref=f20e4093] [cursor=pointer]:
+                - /url: ./read/CBMiZkFVX3lxTE16aGRQd3BBT3JyLU13c0pvVDVXS2x5WU8xQ3dUVjE3NnVLOXhCWEw5eE94ZnBTZXRVSmVpUUNJbU0zUUVqZFVBOXE2eDRBREZ5MUtGSVBBZHhTZ2dWYnBxZ0hSY1FlUdIBa0FVX3lxTE9ZZWpjSW0xOFFlaDBha0FjLUhXWWktSWU2eUZDbVFsN3lYMTVLdll3UW1WdDFWLTdUYS1qQ0QxWmJDS0wySXJpTExiRFRpeXpCbm9tMnloblEwQXEyOE44VW1lV0lPeVJRVHVj?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Meta enters AI image model race in bid to court advertisers and subscribers
+            - figure [ref=f20e4094]
+          - generic [ref=f20e4095]:
+            - time [ref=f20e4096]: 17 days ago
+            - separator [ref=f20e4097]
+            - generic [ref=f20e4098]: By Jonathan Vanian
+      - generic [ref=f20e4099]:
+        - separator [ref=f20e4101]
+        - generic [ref=f20e4103]:
+          - generic [ref=f20e4104]:
+            - link [ref=f20e4106] [cursor=pointer]:
+              - /url: ./read/CBMi4gFBVV95cUxPdlF6YnY4NGJON2x0V09sYjNYM01ReG1uNl9wWHBqZHlxUXNNc01LUDhWWkVPS2NscGxHYmlmNWpTM3p2bmVqRWtBbllqbkJtY01pU2xVQ3Q1WTFONXJmdHJwSjBPaXpvanVOV19UdXZUMUNEWU5fM1VJS2dLS3hRdW1TZjB3MlJBNzIwX0hQaThFT1ZaYlZJdXR5dmRqVzlzY3Rnc085ck9HTU12TDlLbVRzXzcxMlJHRXl0ZmFJc29NazN3cUttTTlMMnd0Q3BwVjQ4N0VTOFNlRV9pbXQ2YXZR?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e4108]:
+              - generic [ref=f20e4109]:
+                - generic [ref=f20e4110]: Microsoft Source
+                - generic [ref=f20e4116]:
+                  - button [ref=f20e4117] [cursor=pointer]
+                  - tooltip [ref=f20e4121]: More
+              - link [ref=f20e4122] [cursor=pointer]:
+                - /url: ./read/CBMi4gFBVV95cUxPdlF6YnY4NGJON2x0V09sYjNYM01ReG1uNl9wWHBqZHlxUXNNc01LUDhWWkVPS2NscGxHYmlmNWpTM3p2bmVqRWtBbllqbkJtY01pU2xVQ3Q1WTFONXJmdHJwSjBPaXpvanVOV19UdXZUMUNEWU5fM1VJS2dLS3hRdW1TZjB3MlJBNzIwX0hQaThFT1ZaYlZJdXR5dmRqVzlzY3Rnc085ck9HTU12TDlLbVRzXzcxMlJHRXl0ZmFJc29NazN3cUttTTlMMnd0Q3BwVjQ4N0VTOFNlRV9pbXQ2YXZR?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Microsoft’s New AI in Education Report highlights widespread adoption and increasing demand for support
+            - figure [ref=f20e4123]
+          - time [ref=f20e4125]: 24 Jun
+      - generic [ref=f20e4126]:
+        - separator [ref=f20e4128]
+        - generic [ref=f20e4130]:
+          - generic [ref=f20e4131]:
+            - link [ref=f20e4133] [cursor=pointer]:
+              - /url: ./read/CBMiaEFVX3lxTFBubDNLZi1QRnh6S0phS05SVmJVc2t6dFpZcXhpNFg2WnNhcnhhM1RfZlhZS3JPdDlvTU1XeTVRT201cUl2YUp6eHJaWnRZbHpCMGR5OVQtOUZyUlFITWpiZnplcU5BZmxr?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e4135]:
+              - generic [ref=f20e4136]:
+                - generic [ref=f20e4137]: SAP News Center
+                - generic [ref=f20e4143]:
+                  - button [ref=f20e4144] [cursor=pointer]
+                  - tooltip [ref=f20e4148]: More
+              - link [ref=f20e4149] [cursor=pointer]:
+                - /url: ./read/CBMiaEFVX3lxTFBubDNLZi1QRnh6S0phS05SVmJVc2t6dFpZcXhpNFg2WnNhcnhhM1RfZlhZS3JPdDlvTU1XeTVRT201cUl2YUp6eHJaWnRZbHpCMGR5OVQtOUZyUlFITWpiZnplcU5BZmxr?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: The Next Era of Business AI
+            - figure [ref=f20e4150]
+          - generic [ref=f20e4151]:
+            - time [ref=f20e4152]: 26 May
+            - separator [ref=f20e4153]
+            - generic [ref=f20e4154]: By Christian Klein
+      - generic [ref=f20e4155]:
+        - separator [ref=f20e4157]
+        - generic [ref=f20e4159]:
+          - generic [ref=f20e4160]:
+            - link [ref=f20e4162] [cursor=pointer]:
+              - /url: ./read/CBMipgFBVV95cUxNckxfTDRiTzRMVjl1OV96UDBGNlRJYzZGOUlrZzVEVXNwSE5WZU9ISHItN0swUFV5UWI0b2t3dFJDLTVYV21kNHBwamRiZWVVQ0tiZE50N3hFaVBubXJZU2NLdUpydV85aDRUeHViQ01YWGlIX0dEUkRTRC1WTi1zVkVyYkYyUEdYUlNuQVZ5SEFkUmxMbUNJNFk4QTcyUnNtQXg5MzNn0gGuAUFVX3lxTE9BZ1huYXpJZmk4MnR2SW8xUXBfaTJCbURDRHBhajNqaXJNWHdqQlpOenpzZXZUVEQ0MnNMbnhjaU1FWFlvM0xoYXZqTjN6RWZId29SbXY2NU9YNlpET0tmWVRoSlJRM2F3Wm5RaEJxZGJhalh6Q2pTTzM1Y2RUX1lMSEJWaHVhR2llTG44WHhhZjYyRkNBWlRWYkwtT0c3Uk9xZVdfV2dILXU1WktpUQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e4164]:
+              - generic [ref=f20e4165]:
+                - generic [ref=f20e4166]: NDTV
+                - generic [ref=f20e4172]:
+                  - button [ref=f20e4173] [cursor=pointer]
+                  - tooltip [ref=f20e4177]: More
+              - link [ref=f20e4178] [cursor=pointer]:
+                - /url: ./read/CBMipgFBVV95cUxNckxfTDRiTzRMVjl1OV96UDBGNlRJYzZGOUlrZzVEVXNwSE5WZU9ISHItN0swUFV5UWI0b2t3dFJDLTVYV21kNHBwamRiZWVVQ0tiZE50N3hFaVBubXJZU2NLdUpydV85aDRUeHViQ01YWGlIX0dEUkRTRC1WTi1zVkVyYkYyUEdYUlNuQVZ5SEFkUmxMbUNJNFk4QTcyUnNtQXg5MzNn0gGuAUFVX3lxTE9BZ1huYXpJZmk4MnR2SW8xUXBfaTJCbURDRHBhajNqaXJNWHdqQlpOenpzZXZUVEQ0MnNMbnhjaU1FWFlvM0xoYXZqTjN6RWZId29SbXY2NU9YNlpET0tmWVRoSlJRM2F3Wm5RaEJxZGJhalh6Q2pTTzM1Y2RUX1lMSEJWaHVhR2llTG44WHhhZjYyRkNBWlRWYkwtT0c3Uk9xZVdfV2dILXU1WktpUQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: China's New AI Cybersecurity Tool On Par With Anthropic's Mythos
+            - figure [ref=f20e4179]
+          - time [ref=f20e4181]: 28 Jun
+      - generic [ref=f20e4182]:
+        - separator [ref=f20e4184]
+        - generic [ref=f20e4186]:
+          - generic [ref=f20e4187]:
+            - link [ref=f20e4189] [cursor=pointer]:
+              - /url: ./read/CBMiekFVX3lxTFBtTjY2ZEpBMTNsVlhzMWpINEZiUmNUUWFxVktMOXg2dHM4QXotNzhIZjNhYkt0OUtoQW03UHZ5RHJNWG9zb2JPLVpjSWhoeEN4ZDJqOW8ybGdXUWplaWdGa0VZTlU0b0ZnaTdCbDNGOUFPZlQ2Ti0zUThB?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e4191]:
+              - generic [ref=f20e4192]:
+                - generic [ref=f20e4193]: Science News
+                - generic [ref=f20e4199]:
+                  - button [ref=f20e4200] [cursor=pointer]
+                  - tooltip [ref=f20e4204]: More
+              - link [ref=f20e4205] [cursor=pointer]:
+                - /url: ./read/CBMiekFVX3lxTFBtTjY2ZEpBMTNsVlhzMWpINEZiUmNUUWFxVktMOXg2dHM4QXotNzhIZjNhYkt0OUtoQW03UHZ5RHJNWG9zb2JPLVpjSWhoeEN4ZDJqOW8ybGdXUWplaWdGa0VZTlU0b0ZnaTdCbDNGOUFPZlQ2Ti0zUThB?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: How big a cybersecurity threat are the latest AI models, really?
+            - figure [ref=f20e4206]
+          - generic [ref=f20e4207]:
+            - time [ref=f20e4208]: 26 Jun
+            - separator [ref=f20e4209]
+            - generic [ref=f20e4210]: By Kathryn Hulick
+      - generic [ref=f20e4211]:
+        - separator [ref=f20e4213]
+        - generic [ref=f20e4215]:
+          - generic [ref=f20e4216]:
+            - link [ref=f20e4218] [cursor=pointer]:
+              - /url: ./read/CBMiywFBVV95cUxNZGZvTHJaYXNub21HSm5iRGlkbUZqb1NvNUZhalFEWS1naUdCZDNjSmpqaXVHYjIyQlhab0VWOWI4UHo0M3pPWS1FZnJSamsxZEZObGdZTXNFMU5mUFhNOGNXTzNfQllMb0dPakhVRXBldGZSdThfekNqMUJzc3V0b0pFQWFNS013cW5Db08tQlpuWWh5THNFejM3V01IdmQyeE01Wmcxa28wa0tRNDFXSVNmNl92T2oyMVNvMFNzU0dwak5qY3QzaUVXbw?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e4220]:
+              - generic [ref=f20e4221]:
+                - generic [ref=f20e4222]: News On AIR
+                - generic [ref=f20e4228]:
+                  - button [ref=f20e4229] [cursor=pointer]
+                  - tooltip [ref=f20e4233]: More
+              - link [ref=f20e4234] [cursor=pointer]:
+                - /url: ./read/CBMiywFBVV95cUxNZGZvTHJaYXNub21HSm5iRGlkbUZqb1NvNUZhalFEWS1naUdCZDNjSmpqaXVHYjIyQlhab0VWOWI4UHo0M3pPWS1FZnJSamsxZEZObGdZTXNFMU5mUFhNOGNXTzNfQllMb0dPakhVRXBldGZSdThfekNqMUJzc3V0b0pFQWFNS013cW5Db08tQlpuWWh5THNFejM3V01IdmQyeE01Wmcxa28wa0tRNDFXSVNmNl92T2oyMVNvMFNzU0dwak5qY3QzaUVXbw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Top world leaders to attend India-AI Impact Summit in New Delhi next week
+            - figure [ref=f20e4235]
+          - time [ref=f20e4237]: 27 May
+      - generic [ref=f20e4238]:
+        - separator [ref=f20e4240]
+        - generic [ref=f20e4242]:
+          - generic [ref=f20e4243]:
+            - link [ref=f20e4245] [cursor=pointer]:
+              - /url: ./read/CBMidEFVX3lxTE03empzODM5anNIUXFTRVhldXFMeGdSX1dzMHp3MFh6VUdWaUZHY1NZVENINFlHUGtxdUh3WF9TZm9Ea3V6cTBaQllENlVLX2lFc21RS0N6bm1wdi1jWVY3ZFVYZm1kM2JxYld0akpRLWhTTU5n?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e4247]:
+              - generic [ref=f20e4248]:
+                - generic [ref=f20e4249]: Phys.org
+                - generic [ref=f20e4255]:
+                  - button [ref=f20e4256] [cursor=pointer]
+                  - tooltip [ref=f20e4260]: More
+              - link [ref=f20e4261] [cursor=pointer]:
+                - /url: ./read/CBMidEFVX3lxTE03empzODM5anNIUXFTRVhldXFMeGdSX1dzMHp3MFh6VUdWaUZHY1NZVENINFlHUGtxdUh3WF9TZm9Ea3V6cTBaQllENlVLX2lFc21RS0N6bm1wdi1jWVY3ZFVYZm1kM2JxYld0akpRLWhTTU5n?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: AI identifies new particle models that may explain neutrinos' tiny mass
+            - figure [ref=f20e4262]
+          - generic [ref=f20e4263]:
+            - time [ref=f20e4264]: 15 days ago
+            - separator [ref=f20e4265]
+            - generic [ref=f20e4266]: By Lucas Van Wyk and Joel Van Wyk
+      - generic [ref=f20e4267]:
+        - separator [ref=f20e4269]
+        - generic [ref=f20e4271]:
+          - generic [ref=f20e4272]:
+            - link [ref=f20e4274] [cursor=pointer]:
+              - /url: ./read/CBMioAFBVV95cUxOa1dxU1JNM2gybUFmVWR1STVhX2VWVGVGWGhxMEdXX0RBR243dGIzaDBqR1NCS2VSX2Z6ZVFXa181QUZSeHB0SDNhM25wYzNzYk1iY1NObWs3bE5iNlZKdC1jMmFhaklWNHpLQlN6UU5UT01HalhfY0hRRWFzbVk1ZDVSR1V1X1VuMTBsMFlMb0c0eTdVcnU0bDQ1aFE3NTFw0gGmAUFVX3lxTE1nWm5QWUJiRDFLYkZVcEdjUjZJcHlyRXItanp5YUhRSkRIMjVIRFd4YW5uYmlkWjNaLW4yY3FjanBOV2ZlUDY0TjFBZkVaeXh2NzFSdzVoYUZGQlpGaGUzMWVYNHktMkVrRVJWakdxbExxUjRyMVd2VDh0bF9SeG11VTNHRXIwdWFzdmlaNGZ4TzB1RXYteTI0aWFVcmJRQkRMNFpSNEE?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e4276]:
+              - generic [ref=f20e4277]:
+                - generic [ref=f20e4278]: CNBC
+                - generic [ref=f20e4284]:
+                  - button [ref=f20e4285] [cursor=pointer]
+                  - tooltip [ref=f20e4289]: More
+              - link [ref=f20e4290] [cursor=pointer]:
+                - /url: ./read/CBMioAFBVV95cUxOa1dxU1JNM2gybUFmVWR1STVhX2VWVGVGWGhxMEdXX0RBR243dGIzaDBqR1NCS2VSX2Z6ZVFXa181QUZSeHB0SDNhM25wYzNzYk1iY1NObWs3bE5iNlZKdC1jMmFhaklWNHpLQlN6UU5UT01HalhfY0hRRWFzbVk1ZDVSR1V1X1VuMTBsMFlMb0c0eTdVcnU0bDQ1aFE3NTFw0gGmAUFVX3lxTE1nWm5QWUJiRDFLYkZVcEdjUjZJcHlyRXItanp5YUhRSkRIMjVIRFd4YW5uYmlkWjNaLW4yY3FjanBOV2ZlUDY0TjFBZkVaeXh2NzFSdzVoYUZGQlpGaGUzMWVYNHktMkVrRVJWakdxbExxUjRyMVd2VDh0bF9SeG11VTNHRXIwdWFzdmlaNGZ4TzB1RXYteTI0aWFVcmJRQkRMNFpSNEE?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Meta jumps into AI coding market in effort to chase Anthropic and OpenAI
+            - figure [ref=f20e4291]
+          - generic [ref=f20e4292]:
+            - time [ref=f20e4293]: 15 days ago
+            - separator [ref=f20e4294]
+            - generic [ref=f20e4295]: By Jonathan Vanian
+      - generic [ref=f20e4296]:
+        - separator [ref=f20e4298]
+        - generic [ref=f20e4300]:
+          - generic [ref=f20e4301]:
+            - link [ref=f20e4303] [cursor=pointer]:
+              - /url: ./read/CBMingFBVV95cUxPZ214U1Ftd1BTTXFPX0tmcENkenZxOGhqaHFjWkE3OXczR0U5S1pIaDVrNTlnaC1xVU95MlpMT3RVUjNmZExDRlpQUnJqZ1FHTWNQOHl6d0pPSWU5a3RVTkw4NzdhTVJWa0Qyb1FZTzJ3Y3p0SVA0X1JHYWpGbXYwV2RSTjJBQ1VzWlNRbU9TVTJ3UmdyNEcxT2NZNWJnZw?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e4305]:
+              - generic [ref=f20e4306]:
+                - generic [ref=f20e4307]: National Institute of Standards and Technology (.gov)
+                - generic [ref=f20e4313]:
+                  - button [ref=f20e4314] [cursor=pointer]
+                  - tooltip [ref=f20e4318]: More
+              - link [ref=f20e4319] [cursor=pointer]:
+                - /url: ./read/CBMingFBVV95cUxPZ214U1Ftd1BTTXFPX0tmcENkenZxOGhqaHFjWkE3OXczR0U5S1pIaDVrNTlnaC1xVU95MlpMT3RVUjNmZExDRlpQUnJqZ1FHTWNQOHl6d0pPSWU5a3RVTkw4NzdhTVJWa0Qyb1FZTzJ3Y3p0SVA0X1JHYWpGbXYwV2RSTjJBQ1VzWlNRbU9TVTJ3UmdyNEcxT2NZNWJnZw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: NIST Expands AI Consortium’s Scope, Calls for New Members
+            - figure [ref=f20e4320]
+          - generic [ref=f20e4321]:
+            - time [ref=f20e4322]: 29 May
+            - separator [ref=f20e4323]
+            - generic [ref=f20e4324]: By Chad Boutin
+      - generic [ref=f20e4325]:
+        - separator [ref=f20e4327]
+        - generic [ref=f20e4329]:
+          - generic [ref=f20e4330]:
+            - link [ref=f20e4332] [cursor=pointer]:
+              - /url: ./read/CBMiqwFBVV95cUxObDZISWFaLTZoMEFjMU94VzFxYmhGN0RSelctU3pvaVB5UG03UlloSm43QnZ3dURGekp5Z3dsdUhrUjJ5LUROWWNLdE1HeVJOYmI4UWQwdzVpaVoxYWtPY214dFVvM0R4N2pPMzNjV3N3Q0FUV3JiUl9VRXBwa0lNWkVvelpMMDl0Q0hOMGQ0Wk5MZjBEV3VCRmtSam1HbDRudXo4MEotV3lTem_SAbABQVVfeXFMTmVxUzkzSXlkQTVxOEFyeDNuTDQxV0ZVV05pRENKRXZrTmRLWnZET2pFbm15ZURsbm1ZbmpCMmdMZkdXNHZYYjN4ME1pWV9waGt5aDY4SHh4Nno5V0NfQmZsU2U3YzFtVUtIN2lOYmpvc1JueHpXWTVQRE1obC0yR1E4dlJXNm9INmhQVU5YYkJBM1gwTElpcW5YY1ZsM0lfaGdDbFdxMlFhNUNjTFJlYlA?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e4334]:
+              - generic [ref=f20e4335]:
+                - generic [ref=f20e4336]: CNBC
+                - generic [ref=f20e4342]:
+                  - button [ref=f20e4343] [cursor=pointer]
+                  - tooltip [ref=f20e4347]: More
+              - link [ref=f20e4348] [cursor=pointer]:
+                - /url: ./read/CBMiqwFBVV95cUxObDZISWFaLTZoMEFjMU94VzFxYmhGN0RSelctU3pvaVB5UG03UlloSm43QnZ3dURGekp5Z3dsdUhrUjJ5LUROWWNLdE1HeVJOYmI4UWQwdzVpaVoxYWtPY214dFVvM0R4N2pPMzNjV3N3Q0FUV3JiUl9VRXBwa0lNWkVvelpMMDl0Q0hOMGQ0Wk5MZjBEV3VCRmtSam1HbDRudXo4MEotV3lTem_SAbABQVVfeXFMTmVxUzkzSXlkQTVxOEFyeDNuTDQxV0ZVV05pRENKRXZrTmRLWnZET2pFbm15ZURsbm1ZbmpCMmdMZkdXNHZYYjN4ME1pWV9waGt5aDY4SHh4Nno5V0NfQmZsU2U3YzFtVUtIN2lOYmpvc1JueHpXWTVQRE1obC0yR1E4dlJXNm9INmhQVU5YYkJBM1gwTElpcW5YY1ZsM0lfaGdDbFdxMlFhNUNjTFJlYlA?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: OpenAI to publicly release GPT-5.6, rolls out conversational AI models
+            - figure [ref=f20e4349]
+          - generic [ref=f20e4350]:
+            - time [ref=f20e4351]: 16 days ago
+            - separator [ref=f20e4352]
+            - generic [ref=f20e4353]: By Ashley Capoot
+      - generic [ref=f20e4354]:
+        - separator [ref=f20e4356]
+        - generic [ref=f20e4358]:
+          - generic [ref=f20e4359]:
+            - link [ref=f20e4361] [cursor=pointer]:
+              - /url: ./read/CBMipgFBVV95cUxOTVNhOHl3LXBGbmVQVTNjdmJVbUZMdGlZcTgxNGRvaV9DeVJ0M1FiTjVvaG9RQnczbXR0LUtMWlZRY1Z5WFJDZ2VzZ2RqdjFVVnJoTWZHOVQ1MzhQOG9KMmZGM1h3OEZiZlRfcTg3Z2NKU0dIYm1pWFBQTDRaV2ZyaVhhN1RLc2JTN05XeEF1R1BEMUNWRFJyc3FnU0RuVWE5MFJkRHl3?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e4363]:
+              - generic [ref=f20e4364]:
+                - generic [ref=f20e4365]: DW.com
+                - generic [ref=f20e4371]:
+                  - button [ref=f20e4372] [cursor=pointer]
+                  - tooltip [ref=f20e4376]: More
+              - link [ref=f20e4377] [cursor=pointer]:
+                - /url: ./read/CBMipgFBVV95cUxOTVNhOHl3LXBGbmVQVTNjdmJVbUZMdGlZcTgxNGRvaV9DeVJ0M1FiTjVvaG9RQnczbXR0LUtMWlZRY1Z5WFJDZ2VzZ2RqdjFVVnJoTWZHOVQ1MzhQOG9KMmZGM1h3OEZiZlRfcTg3Z2NKU0dIYm1pWFBQTDRaV2ZyaVhhN1RLc2JTN05XeEF1R1BEMUNWRFJyc3FnU0RuVWE5MFJkRHl3?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "India news: Google starts work on largest AI hub outside US"
+            - figure [ref=f20e4378]
+          - generic [ref=f20e4379]:
+            - time [ref=f20e4380]: 28 Apr
+            - separator [ref=f20e4381]
+            - generic [ref=f20e4382]: By Shakeel Sobhan
+      - generic [ref=f20e4383]:
+        - separator [ref=f20e4385]
+        - generic [ref=f20e4387]:
+          - generic [ref=f20e4388]:
+            - link [ref=f20e4390] [cursor=pointer]:
+              - /url: ./read/CBMie0FVX3lxTE5kYWhpU0pHLVpwM0RlNzgxX1JGRlVaSmxPelVHcXJXQmFYZGszLUp4Nmw0SlRGbTBiUnR5emtEaURDXzBUUDBIWEI4Y0Q0SWZZdGNoeGxLNTZZS1BxUEdQcGduSFFlNjRTdVRxMDZiSVNtTWJSNHZfRWptNA?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e4392]:
+              - generic [ref=f20e4393]:
+                - generic [ref=f20e4394]: OpenAI
+                - generic [ref=f20e4400]:
+                  - button [ref=f20e4401] [cursor=pointer]
+                  - tooltip [ref=f20e4405]: More
+              - link [ref=f20e4406] [cursor=pointer]:
+                - /url: ./read/CBMie0FVX3lxTE5kYWhpU0pHLVpwM0RlNzgxX1JGRlVaSmxPelVHcXJXQmFYZGszLUp4Nmw0SlRGbTBiUnR5emtEaURDXzBUUDBIWEI4Y0Q0SWZZdGNoeGxLNTZZS1BxUEdQcGduSFFlNjRTdVRxMDZiSVNtTWJSNHZfRWptNA?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: GPT-5.6 is now the preferred model in Microsoft 365 Copilot
+            - figure [ref=f20e4407]
+          - time [ref=f20e4409]: 15 days ago
+      - generic [ref=f20e4410]:
+        - separator [ref=f20e4412]
+        - generic [ref=f20e4414]:
+          - generic [ref=f20e4415]:
+            - link [ref=f20e4417] [cursor=pointer]:
+              - /url: ./read/CBMif0FVX3lxTFBPRTRCdWtiQnhsdE1UX3RKN1didkFva3pRQ21FNElZd2c5cmZFeHZsem1KN3lSMmx3c3EzaHZVaXJnbWhRTFlZQ1dkT0FBVWhCSXVrMGNfWGxqb3dScElPTVdjU0JPQzdXSDBpSW55eGI3WGhjOHBvS21hQl80VDQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e4419]:
+              - generic [ref=f20e4420]:
+                - generic [ref=f20e4421]: blog.google
+                - generic [ref=f20e4427]:
+                  - button [ref=f20e4428] [cursor=pointer]
+                  - tooltip [ref=f20e4432]: More
+              - link [ref=f20e4433] [cursor=pointer]:
+                - /url: ./read/CBMif0FVX3lxTFBPRTRCdWtiQnhsdE1UX3RKN1didkFva3pRQ21FNElZd2c5cmZFeHZsem1KN3lSMmx3c3EzaHZVaXJnbWhRTFlZQ1dkT0FBVWhCSXVrMGNfWGxqb3dScElPTVdjU0JPQzdXSDBpSW55eGI3WGhjOHBvS21hQl80VDQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: A new era for AI Search
+            - figure [ref=f20e4434]
+          - generic [ref=f20e4435]:
+            - time [ref=f20e4436]: 19 May
+            - separator [ref=f20e4437]
+            - generic [ref=f20e4438]: By Elizabeth Anne Reid
+      - generic [ref=f20e4439]:
+        - separator [ref=f20e4441]
+        - generic [ref=f20e4443]:
+          - generic [ref=f20e4444]:
+            - link [ref=f20e4446] [cursor=pointer]:
+              - /url: ./read/CBMiiAFBVV95cUxPNzdaT3hReHZyb3lxSGNVSC1HenVSckNocHdrN3ZacW1vS3pPZ1VIOVlnQnBNWURMZTN3X0RDSGtVUzF4MGpCNDFzZERqS2FfcFRHNEppUUlqTkl1UDc1Njh6blJKYUNXTkRCQ0QxZXIyby1rRFZXOUNVSWhSUi1vX09wdV9lNE1W?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e4448]:
+              - generic [ref=f20e4449]:
+                - generic [ref=f20e4450]: blog.google
+                - generic [ref=f20e4456]:
+                  - button [ref=f20e4457] [cursor=pointer]
+                  - tooltip [ref=f20e4461]: More
+              - link [ref=f20e4462] [cursor=pointer]:
+                - /url: ./read/CBMiiAFBVV95cUxPNzdaT3hReHZyb3lxSGNVSC1HenVSckNocHdrN3ZacW1vS3pPZ1VIOVlnQnBNWURMZTN3X0RDSGtVUzF4MGpCNDFzZERqS2FfcFRHNEppUUlqTkl1UDc1Njh6blJKYUNXTkRCQ0QxZXIyby1rRFZXOUNVSWhSUi1vX09wdV9lNE1W?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: The latest AI news we announced in March 2026
+            - figure [ref=f20e4463]
+          - time [ref=f20e4465]: 1 Apr
+      - generic [ref=f20e4466]:
+        - separator [ref=f20e4468]
+        - generic [ref=f20e4470]:
+          - generic [ref=f20e4471]:
+            - link [ref=f20e4473] [cursor=pointer]:
+              - /url: ./read/CBMihAFBVV95cUxOZ1pBY1ktNW1CdHZyZExrN2dPMENvUjBMQ1JhbzBCS1d1NEdLbUN2ek55QXhLNThUT2hjb2h3bFd2MXJvaTh3QXMxVi1YUUcybFIwMGVMUk1IVzlEbG9GTkIyejNtM003Y204M2QzVlduWW5mY1A2QlhtWERvOWZtN2Z0Ml8?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e4475]:
+              - generic [ref=f20e4476]:
+                - generic [ref=f20e4477]: MIT News
+                - generic [ref=f20e4483]:
+                  - button [ref=f20e4484] [cursor=pointer]
+                  - tooltip [ref=f20e4488]: More
+              - link [ref=f20e4489] [cursor=pointer]:
+                - /url: ./read/CBMihAFBVV95cUxOZ1pBY1ktNW1CdHZyZExrN2dPMENvUjBMQ1JhbzBCS1d1NEdLbUN2ek55QXhLNThUT2hjb2h3bFd2MXJvaTh3QXMxVi1YUUcybFIwMGVMUk1IVzlEbG9GTkIyejNtM003Y204M2QzVlduWW5mY1A2QlhtWERvOWZtN2Z0Ml8?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: The consequences of relying on AI for accurate news
+            - figure [ref=f20e4490]
+          - generic [ref=f20e4491]:
+            - time [ref=f20e4492]: 9 Jun
+            - separator [ref=f20e4493]
+            - generic [ref=f20e4494]: By Adam Conner-Simons
+      - generic [ref=f20e4495]:
+        - separator [ref=f20e4497]
+        - generic [ref=f20e4499]:
+          - generic [ref=f20e4500]:
+            - link [ref=f20e4502] [cursor=pointer]:
+              - /url: ./read/CBMirgFBVV95cUxQekN6bWs1SGhfZTg5MEhSMzZRdmROT0tCRUdvVm9QYU9wR3NpeURFRmRiY2JCYUdoR1cybHVic0h2MnFIb2ZGSE5DM3JONEtwekFzcUJ2QnhsMjV3YjZYWmlxQ0dnYXN5NWZMdDExZm9RVnl6MDNEV25qLVQyaVN3S245WXN6WlFHR1NYYm14bS1JYUhmZFJaN244QWEyN1JIVHo1bUdNNG1OWEI3d2c?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e4504]:
+              - generic [ref=f20e4505]:
+                - generic [ref=f20e4506]: blog.google
+                - generic [ref=f20e4512]:
+                  - button [ref=f20e4513] [cursor=pointer]
+                  - tooltip [ref=f20e4517]: More
+              - link [ref=f20e4518] [cursor=pointer]:
+                - /url: ./read/CBMirgFBVV95cUxQekN6bWs1SGhfZTg5MEhSMzZRdmROT0tCRUdvVm9QYU9wR3NpeURFRmRiY2JCYUdoR1cybHVic0h2MnFIb2ZGSE5DM3JONEtwekFzcUJ2QnhsMjV3YjZYWmlxQ0dnYXN5NWZMdDExZm9RVnl6MDNEV25qLVQyaVN3S245WXN6WlFHR1NYYm14bS1JYUhmZFJaN244QWEyN1JIVHo1bUdNNG1OWEI3d2c?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Start building with Nano Banana 2 Lite and Gemini Omni Flash
+            - figure [ref=f20e4519]
+          - generic [ref=f20e4520]:
+            - time [ref=f20e4521]: 30 Jun
+            - separator [ref=f20e4522]
+            - generic [ref=f20e4523]: By Alisa Fortin
+      - generic [ref=f20e4524]:
+        - separator [ref=f20e4526]
+        - generic [ref=f20e4528]:
+          - generic [ref=f20e4529]:
+            - link [ref=f20e4531] [cursor=pointer]:
+              - /url: ./read/CBMi3AFBVV95cUxQV0Y0Z01sOE5mRHZnZFlUTkYxM2JReG8zNW5nWjZxcDRpMEhmOHl3TmdHMUZNX1hLT0d4VjRGZ2NKMk5JaDM2MkJ6emJKWHR5bXZKaFN0MVgtV042czVCb3RwTDhzOXhhR2FYSFZLUmtzZ05XQjlFUk5OUEtseU5SaF9tcGItZ19uVHJMUmttZGt0U0QxRC11SXRqUVJfN1FmNlZZQlV5a1AxRDQ3azZBLXZnRFZ4akI2V3AteVFSaTlFR3ExM1ZxYkVtLW1IclYwME5IMjN3b09DbjVp?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e4533]:
+              - generic [ref=f20e4534]:
+                - generic [ref=f20e4535]: Accenture
+                - generic [ref=f20e4541]:
+                  - button [ref=f20e4542] [cursor=pointer]
+                  - tooltip [ref=f20e4546]: More
+              - link [ref=f20e4547] [cursor=pointer]:
+                - /url: ./read/CBMi3AFBVV95cUxQV0Y0Z01sOE5mRHZnZFlUTkYxM2JReG8zNW5nWjZxcDRpMEhmOHl3TmdHMUZNX1hLT0d4VjRGZ2NKMk5JaDM2MkJ6emJKWHR5bXZKaFN0MVgtV042czVCb3RwTDhzOXhhR2FYSFZLUmtzZ05XQjlFUk5OUEtseU5SaF9tcGItZ19uVHJMUmttZGt0U0QxRC11SXRqUVJfN1FmNlZZQlV5a1AxRDQ3azZBLXZnRFZ4akI2V3AteVFSaTlFR3ExM1ZxYkVtLW1IclYwME5IMjN3b09DbjVp?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Accenture Launches Accenture Edge to Help Mid-Market Companies Harness AI and Reinvent How They Operate
+            - figure [ref=f20e4548]
+          - time [ref=f20e4550]: 23 Jun
+      - generic [ref=f20e4551]:
+        - separator [ref=f20e4553]
+        - generic [ref=f20e4555]:
+          - generic [ref=f20e4556]:
+            - link [ref=f20e4558] [cursor=pointer]:
+              - /url: ./read/CBMiX0FVX3lxTE9uQmgzMW5SUGNxN3VQLUJmU3YtcEhCVXpyUl9aOVRMVEFDZU94NGJyVS1yV1NUMGoyY2Fycm1iamhuNVBNUlFEQjd2djFiRGRXSmRiZW14akhXdS1XZlNB?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e4560]:
+              - generic [ref=f20e4561]:
+                - generic [ref=f20e4562]: Anthropic
+                - generic [ref=f20e4568]:
+                  - button [ref=f20e4569] [cursor=pointer]
+                  - tooltip [ref=f20e4573]: More
+              - link [ref=f20e4574] [cursor=pointer]:
+                - /url: ./read/CBMiX0FVX3lxTE9uQmgzMW5SUGNxN3VQLUJmU3YtcEhCVXpyUl9aOVRMVEFDZU94NGJyVS1yV1NUMGoyY2Fycm1iamhuNVBNUlFEQjd2djFiRGRXSmRiZW14akhXdS1XZlNB?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Introducing a way to reflect on how you use Claude
+            - figure [ref=f20e4575]
+          - time [ref=f20e4577]: 15 days ago
+    - complementary [ref=f20e4578]:
+      - generic [ref=f20e4580]:
+        - generic [ref=f20e4583]:
+          - heading [level=2] [ref=f20e4584]: latest AI news
+          - generic [ref=f20e4585]: Search results
+        - generic [ref=f20e4588]:
+          - button [ref=f20e4590]:
+            - generic [ref=f20e4596]: Save
+          - tooltip [ref=f20e4597]: Save this search

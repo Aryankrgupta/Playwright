@@ -1,0 +1,35 @@
+- generic [ref=f1e2]:
+  - navigation [ref=f1e3]:
+    - generic [ref=f1e8]:
+      - button "Google apps" [ref=f1e12] [cursor=pointer]
+      - link "Sign in" [ref=f1e16] [cursor=pointer]:
+        - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/imghp%3Fhl%3Den%26ogbl&ec=GAZAAg
+  - generic [ref=f1e18]:
+    - img "Google Images" [ref=f1e19]
+    - generic [ref=f1e20]: images
+  - search [ref=f1e22]:
+    - generic [ref=f1e24]:
+      - generic [ref=f1e26]:
+        - combobox "Search" [active] [ref=f1e33]
+        - generic [ref=f1e35]:
+          - button "Search by voice" [ref=f1e36] [cursor=pointer]
+          - button "Search by image" [ref=f1e39] [cursor=pointer]
+      - button "Google Search" [ref=f1e44] [cursor=pointer]
+  - contentinfo [ref=f1e47]:
+    - generic [ref=f1e48]: India
+    - generic [ref=f1e49]:
+      - generic [ref=f1e50]:
+        - link "About" [ref=f1e51] [cursor=pointer]:
+          - /url: https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1
+        - link "Advertising" [ref=f1e52] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en_in/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+        - link "Business" [ref=f1e53] [cursor=pointer]:
+          - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+        - link "How Search works" [ref=f1e54] [cursor=pointer]:
+          - /url: https://google.com/search/howsearchworks/?fg=1
+      - generic [ref=f1e55]:
+        - link "Privacy" [ref=f1e56] [cursor=pointer]:
+          - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+        - link "Terms" [ref=f1e57] [cursor=pointer]:
+          - /url: https://policies.google.com/terms?hl=en-IN&fg=1
+        - button "Settings" [ref=f1e61] [cursor=pointer]

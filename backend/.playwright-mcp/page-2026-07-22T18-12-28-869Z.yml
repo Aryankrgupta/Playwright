@@ -1,0 +1,1434 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - navigation [ref=f1e1644]:
+      - heading [level=2] [ref=f1e1645]: Skip to
+      - list [ref=f1e1646]:
+        - listitem [ref=f1e6]:
+          - link [ref=f1e1647] [cursor=pointer]:
+            - /url: "#skippedLink"
+            - text: Main content
+      - separator [ref=f1e8]
+      - heading [level=2] [ref=f1e1648]: Keyboard shortcuts
+      - list [ref=f1e1649]:
+        - listitem [ref=f1e11]:
+          - link [ref=f1e1650] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=f1e13]:
+              - generic [ref=f1e14]: Search
+              - generic [ref=f1e15]:
+                - generic [ref=f1e16]: alt
+                - generic [ref=f1e17]: +
+                - generic [ref=f1e18]: /
+        - listitem [ref=f1e19]:
+          - link [ref=f1e1651] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=f1e21]:
+              - generic [ref=f1e22]: Cart
+              - generic [ref=f1e23]:
+                - generic [ref=f1e24]: shift
+                - generic [ref=f1e25]: +
+                - generic [ref=f1e26]: alt
+                - generic [ref=f1e27]: +
+                - generic [ref=f1e28]: C
+        - listitem [ref=f1e29]:
+          - link [ref=f1e1652] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=f1e31]:
+              - generic [ref=f1e32]: Home
+              - generic [ref=f1e33]:
+                - generic [ref=f1e34]: shift
+                - generic [ref=f1e35]: +
+                - generic [ref=f1e36]: alt
+                - generic [ref=f1e37]: +
+                - generic [ref=f1e38]: H
+        - listitem [ref=f1e39]:
+          - link [ref=f1e1653] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=f1e41]:
+              - generic [ref=f1e42]: Orders
+              - generic [ref=f1e43]:
+                - generic [ref=f1e44]: shift
+                - generic [ref=f1e45]: +
+                - generic [ref=f1e46]: alt
+                - generic [ref=f1e47]: +
+                - generic [ref=f1e48]: O
+        - listitem [ref=f1e49]:
+          - button [ref=f1e1654] [cursor=pointer]:
+            - generic [ref=f1e51]:
+              - generic [ref=f1e52]: Show/Hide shortcuts
+              - generic [ref=f1e53]:
+                - generic [ref=f1e54]: shift
+                - generic [ref=f1e55]: +
+                - generic [ref=f1e56]: alt
+                - generic [ref=f1e57]: +
+                - generic [ref=f1e58]: Z
+      - generic [ref=f1e59]: To move between items, use your keyboard's up or down arrows.
+    - banner [ref=f1e65]:
+      - navigation [ref=f1e1655]:
+        - generic [ref=f1e67]:
+          - generic [ref=f1e68]:
+            - link [ref=f1e1656] [cursor=pointer]:
+              - /url: /ref=nav_logo
+            - button [ref=f1e1657] [cursor=pointer]:
+              - generic [ref=f1e75]:
+                - generic [ref=f1e76]: Deliver to
+                - generic [ref=f1e77]: India
+          - search [ref=f1e80]:
+            - generic [ref=f1e83]:
+              - generic [ref=f1e84]: All
+              - combobox [ref=f1e1658] [cursor=pointer]
+            - searchbox [ref=f1e1659]
+            - generic [ref=f1e91]:
+              - button [ref=f1e1661] [cursor=pointer]: Go
+              - button [ref=f1e96]: Agent Search
+          - generic [ref=f1e98]:
+            - generic [ref=f1e99]:
+              - link [ref=f1e1662] [cursor=pointer]:
+                - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang_ais
+                - generic [ref=f1e101]: EN
+              - button [ref=f1e1664] [cursor=pointer]
+            - generic [ref=f1e107]:
+              - link [ref=f1e1665] [cursor=pointer]:
+                - /url: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                - generic [ref=f1e109]: Hello, sign in
+                - generic [ref=f1e111]: Account & Lists
+              - button [ref=f1e1666] [cursor=pointer]
+            - link [ref=f1e1667] [cursor=pointer]:
+              - /url: /gp/css/order-history?ref_=nav_orders_first
+              - generic [ref=f1e114]: Returns
+              - generic [ref=f1e115]: "& Orders"
+            - link [ref=f1e1668] [cursor=pointer]:
+              - /url: /gp/cart/view.html?ref_=nav_cart
+              - generic [ref=f1e117]: "0"
+        - generic [ref=f1e120]:
+          - button [expanded] [ref=f1e1669] [cursor=pointer]:
+            - generic [ref=f1e124]: All
+          - list [ref=f1e128]:
+            - listitem [ref=f1e129]:
+              - link [ref=f1e1670] [cursor=pointer]:
+                - /url: /gp/goldbox?ref_=nav_cs_gb
+                - text: Today's Deals
+            - listitem [ref=f1e132]:
+              - link [ref=f1e1671] [cursor=pointer]:
+                - /url: /Amazon-Video/b/?ie=UTF8&node=2858778011&ref_=nav_cs_prime_video
+                - text: Prime Video
+            - listitem [ref=f1e135]:
+              - link [ref=f1e1672] [cursor=pointer]:
+                - /url: /gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc
+                - text: Gift Cards
+            - listitem [ref=f1e138]:
+              - link [ref=f1e1673] [cursor=pointer]:
+                - /url: /b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell
+                - text: Sell
+            - listitem [ref=f1e141]:
+              - link [ref=f1e1674] [cursor=pointer]:
+                - /url: /gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice
+                - text: Customer Service
+            - listitem [ref=f1e144]:
+              - link [ref=f1e1675] [cursor=pointer]:
+                - /url: /gp/browse.html?node=16115931011&ref_=nav_cs_registry
+                - text: Registry
+            - link [ref=f1e1676] [cursor=pointer]:
+              - /url: /gp/help/customer/accessibility
+              - text: Disability Customer Support
+    - main [ref=f1e151]:
+      - banner [ref=f1e153]:
+        - group [ref=f1e1677]:
+          - generic [ref=f1e156]:
+            - button [disabled] [ref=f1e1678] [cursor=pointer]:
+              - generic [ref=f1e159]: Previous slide
+            - group [ref=f1e162]:
+              - list [ref=f1e163]:
+                - listitem [ref=f1e164]:
+                  - link [ref=f1e1679] [cursor=pointer]:
+                    - /url: /b/?_encoding=UTF8&node=121171061011&pd_rd_w=qeFAI&content-id=amzn1.sym.4a4beafc-f047-4dd0-a3b4-484b6b0aff69&pf_rd_p=4a4beafc-f047-4dd0-a3b4-484b6b0aff69&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=3LYPN&pd_rd_r=00f1f700-ab85-4008-bdbb-2c85f690b21e&ref_=pd_hp_d_hero_unk
+            - button [ref=f1e1681] [cursor=pointer]:
+              - generic [ref=f1e172]: Next slide
+      - generic [ref=f1e174]:
+        - generic [ref=f1e176]:
+          - text: You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.
+          - link [ref=f1e1682] [cursor=pointer]:
+            - /url: https://www.amazon.com/r/?_encoding=UTF8&aid=Jb1bh6HBRX-p7CkTgHfWPg&dest=https%3A%2F%2Fwww.amazon.in%3Fref%3Daisgw_intl_stripe_in&pd_rd_w=dhAjR&content-id=amzn1.sym.5d022dd3-7374-4c36-972c-d2f317605745&pf_rd_p=5d022dd3-7374-4c36-972c-d2f317605745&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+            - text: Click here to go to amazon.in
+        - generic [ref=f1e178]:
+          - generic [ref=f1e180]:
+            - heading [level=2] [ref=f1e1683]: New home arrivals under $50
+            - generic [ref=f1e183]:
+              - generic [ref=f1e184]:
+                - link [ref=f1e1684] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=kitchen%20and%20dining&rh=p_36%3A-5000&s=date-desc-rank&pd_rd_w=e5RG6&content-id=amzn1.sym.679a99a5-333c-46b8-a493-b812dbdccbc0&pf_rd_p=679a99a5-333c-46b8-a493-b812dbdccbc0&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+                  - generic [ref=f1e189]: Kitchen & Dining
+                - link [ref=f1e1686] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=home%20improvement&i=tools&rh=n%3A228013%2Cp_36%3A-5000&dc=&ds=v1%3AU%2F9vxcfd6LLqNGLcdfGjetkk3KJGd0ZuNoxWMV3LcAk&pd_rd_w=e5RG6&content-id=amzn1.sym.679a99a5-333c-46b8-a493-b812dbdccbc0&pf_rd_p=679a99a5-333c-46b8-a493-b812dbdccbc0&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+                  - generic [ref=f1e195]: Home Improvement
+              - generic [ref=f1e197]:
+                - link [ref=f1e1688] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=home%20decor&rh=p_36%3A-5000&s=date-desc-rank&pd_rd_w=e5RG6&content-id=amzn1.sym.679a99a5-333c-46b8-a493-b812dbdccbc0&pf_rd_p=679a99a5-333c-46b8-a493-b812dbdccbc0&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+                  - generic [ref=f1e202]: Décor
+                - link [ref=f1e1690] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=bedding%20and%20bath&rh=p_36%3A-5000&s=date-desc-rank&pd_rd_w=e5RG6&content-id=amzn1.sym.679a99a5-333c-46b8-a493-b812dbdccbc0&pf_rd_p=679a99a5-333c-46b8-a493-b812dbdccbc0&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+                  - generic [ref=f1e208]: Bedding & Bath
+            - link [ref=f1e1692] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&k=home&i=garden&rh=n%3A1055398%2Cp_36%3A-5000&s=exact-aware-popularity-rank&dc=&pd_rd_w=e5RG6&content-id=amzn1.sym.679a99a5-333c-46b8-a493-b812dbdccbc0&pf_rd_p=679a99a5-333c-46b8-a493-b812dbdccbc0&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+              - generic [ref=f1e212]:
+                - generic [ref=f1e213]: Shop the latest from Home
+                - generic [ref=f1e214]: Shop the latest from Home
+          - generic [ref=f1e216]:
+            - heading [level=2] [ref=f1e1693]: Get your game on
+            - link [ref=f1e1694] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&k=gaming&pd_rd_w=79c2b&content-id=amzn1.sym.bd749ccd-05a5-46df-9094-58bcc6398482&pf_rd_p=bd749ccd-05a5-46df-9094-58bcc6398482&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+              - generic [ref=f1e224]:
+                - generic [ref=f1e225]: Shop gaming
+                - generic [ref=f1e226]: Shop gaming
+          - generic [ref=f1e228]:
+            - heading [level=2] [ref=f1e1696]: Must-haves for every student
+            - link [ref=f1e1697] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=121171061011&pd_rd_w=Yax2G&content-id=amzn1.sym.e29eb269-c557-47be-abb8-260c66a64468&pf_rd_p=e29eb269-c557-47be-abb8-260c66a64468&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+              - generic [ref=f1e236]:
+                - generic [ref=f1e237]: Shop Back to School
+                - generic [ref=f1e238]: Shop Back to School
+          - generic [ref=f1e240]:
+            - heading [level=2] [ref=f1e1699]: Must-have school supplies
+            - generic [ref=f1e243]:
+              - generic [ref=f1e244]:
+                - link [ref=f1e1700] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=backpack%20for%20kids&pd_rd_w=X9uGY&content-id=amzn1.sym.0a756ea7-0115-4102-86ad-9ef42571e0d7&pf_rd_p=0a756ea7-0115-4102-86ad-9ef42571e0d7&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+                  - generic [ref=f1e249]: Backpacks
+                - link [ref=f1e1702] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=electronics%20for%20college%20students&pd_rd_w=X9uGY&content-id=amzn1.sym.0a756ea7-0115-4102-86ad-9ef42571e0d7&pf_rd_p=0a756ea7-0115-4102-86ad-9ef42571e0d7&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+                  - generic [ref=f1e255]: Electronics
+              - generic [ref=f1e257]:
+                - link [ref=f1e1704] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=stationery&pd_rd_w=X9uGY&content-id=amzn1.sym.0a756ea7-0115-4102-86ad-9ef42571e0d7&pf_rd_p=0a756ea7-0115-4102-86ad-9ef42571e0d7&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+                  - generic [ref=f1e262]: Stationery
+                - link [ref=f1e1706] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=school%20kids%20clothes&pd_rd_w=X9uGY&content-id=amzn1.sym.0a756ea7-0115-4102-86ad-9ef42571e0d7&pf_rd_p=0a756ea7-0115-4102-86ad-9ef42571e0d7&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+                  - generic [ref=f1e268]: Fashion
+            - link [ref=f1e1708] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=121171061011&pd_rd_w=X9uGY&content-id=amzn1.sym.0a756ea7-0115-4102-86ad-9ef42571e0d7&pf_rd_p=0a756ea7-0115-4102-86ad-9ef42571e0d7&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+              - generic [ref=f1e272]:
+                - generic [ref=f1e273]: Shop Back to School
+                - generic [ref=f1e274]: Shop Back to School
+          - separator [ref=f1e275]
+          - generic [ref=f1e277]:
+            - heading [level=2] [ref=f1e1709]: Shop Fashion for less
+            - generic [ref=f1e280]:
+              - generic [ref=f1e281]:
+                - link [ref=f1e1710] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=Jeans&rh=n%3A1040660%2Cn%3A1048188%2Cp_36%3A-5000&dc=&ds=v1%3AZrh2YeJ%2Bmo6tc5p1QJD9idnCpBDTF2pKNTUbGqlhFKk&crid=1TZCO6ZC2HZVA&qid=1684823801&rnid=2941120011&sprefix=jeans%2Caps%2C155&ref=sr_nr_n_4&pd_rd_w=flq2b&content-id=amzn1.sym.1cb3993a-41fc-4a2a-b2ee-016e70298d9f&pf_rd_p=1cb3993a-41fc-4a2a-b2ee-016e70298d9f&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+                  - generic [ref=f1e286]: Jeans under $50
+                - link [ref=f1e1712] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=Tops&rh=p_36%3A-2500&crid=19AKO4YZK6ZPJ&qid=1684823853&rnid=2661611011&sprefix=tops%2Caps%2C250&ref=sr_nr_p_36_5&pd_rd_w=flq2b&content-id=amzn1.sym.1cb3993a-41fc-4a2a-b2ee-016e70298d9f&pf_rd_p=1cb3993a-41fc-4a2a-b2ee-016e70298d9f&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+                  - generic [ref=f1e292]: Tops under $25
+              - generic [ref=f1e294]:
+                - link [ref=f1e1714] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=Dresses&rh=p_36%3A-3000&crid=Y67PJX929LXO&qid=1684823891&rnid=2661611011&sprefix=dresses%2Caps%2C149&ref=sr_nr_p_36_5&pd_rd_w=flq2b&content-id=amzn1.sym.1cb3993a-41fc-4a2a-b2ee-016e70298d9f&pf_rd_p=1cb3993a-41fc-4a2a-b2ee-016e70298d9f&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+                  - generic [ref=f1e299]: Dresses under $30
+                - link [ref=f1e1716] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=Shoes&rh=p_36%3A-5000&crid=1QEZIUFPCL3YZ&qid=1684823927&rnid=2661611011&sprefix=shoes%2Caps%2C145&ref=sr_nr_p_36_5&pd_rd_w=flq2b&content-id=amzn1.sym.1cb3993a-41fc-4a2a-b2ee-016e70298d9f&pf_rd_p=1cb3993a-41fc-4a2a-b2ee-016e70298d9f&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+                  - generic [ref=f1e305]: Shoes under $50
+            - link [ref=f1e1718] [cursor=pointer]:
+              - /url: /gp/goldbox/?ie=UTF8&ref_=nav_cs_gb&deals-widget=%257B%2522version%2522%253A1%252C%2522viewIndex%2522%253A0%252C%2522presetId%2522%253A%252215E8DB96732AF8CA9C14916141BB1C4C%2522%252C%2522departments%2522%253A%255B%25227147440011%2522%252C%25227192394011%2522%252C%2522679337011%2522%252C%25226358543011%2522%255D%252C%2522sorting%2522%253A%2522FEATURED%2522%257D&pd_rd_w=flq2b&content-id=amzn1.sym.1cb3993a-41fc-4a2a-b2ee-016e70298d9f&pf_rd_p=1cb3993a-41fc-4a2a-b2ee-016e70298d9f&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f
+              - generic [ref=f1e309]:
+                - generic [ref=f1e310]: See all deals
+                - generic [ref=f1e311]: See all deals
+          - generic [ref=f1e313]:
+            - heading [level=2] [ref=f1e1719]:
+              - generic [ref=f1e316]:
+                - generic [ref=f1e317]: Top categories in Kitchen appliances
+                - generic [ref=f1e318]: Top categories in Kitchen appliances
+            - generic [ref=f1e319]:
+              - link [ref=f1e1720] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=cooker&pd_rd_w=28aCC&content-id=amzn1.sym.8158743a-e3ec-4239-b3a8-31bfee7d4a15&pf_rd_p=8158743a-e3ec-4239-b3a8-31bfee7d4a15&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+                - generic [ref=f1e326]:
+                  - generic [ref=f1e327]: Cooker
+                  - generic [ref=f1e328]: Cooker
+              - generic [ref=f1e329]:
+                - link [ref=f1e1722] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=coffee%20machine&pd_rd_w=28aCC&content-id=amzn1.sym.8158743a-e3ec-4239-b3a8-31bfee7d4a15&pf_rd_p=8158743a-e3ec-4239-b3a8-31bfee7d4a15&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+                  - generic [ref=f1e336]:
+                    - generic [ref=f1e337]: Coffee
+                    - generic [ref=f1e338]: Coffee
+                - link [ref=f1e1724] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=pots%20and%20pans&pd_rd_w=28aCC&content-id=amzn1.sym.8158743a-e3ec-4239-b3a8-31bfee7d4a15&pf_rd_p=8158743a-e3ec-4239-b3a8-31bfee7d4a15&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+                  - generic [ref=f1e345]:
+                    - generic [ref=f1e346]: Pots and Pans
+                    - generic [ref=f1e347]: Pots and…
+                - link [ref=f1e1726] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=kettle&pd_rd_w=28aCC&content-id=amzn1.sym.8158743a-e3ec-4239-b3a8-31bfee7d4a15&pf_rd_p=8158743a-e3ec-4239-b3a8-31bfee7d4a15&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+                  - generic [ref=f1e354]:
+                    - generic [ref=f1e355]: Kettles
+                    - generic [ref=f1e356]: Kettles
+            - link [ref=f1e1728] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&k=kitchen%20products&pd_rd_w=28aCC&content-id=amzn1.sym.8158743a-e3ec-4239-b3a8-31bfee7d4a15&pf_rd_p=8158743a-e3ec-4239-b3a8-31bfee7d4a15&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=U2LLB&pd_rd_r=768aaded-40c4-492b-8d66-ba140c58ef9f&ref_=pd_hp_d_atf_unk
+              - generic [ref=f1e359]:
+                - generic [ref=f1e360]: Explore all products in Kitchen
+                - generic [ref=f1e361]: Explore all products in Kitchen
+        - generic [ref=f1e363]:
+          - generic [ref=f1e366]:
+            - heading [level=2] [ref=f1e1729]: Best Sellers in Home & Kitchen
+            - generic [ref=f1e369]:
+              - list [ref=f1e371]:
+                - listitem [ref=f1e372]:
+                  - link [ref=f1e1730] [cursor=pointer]:
+                    - /url: /Queen-Size-Piece-Sheet-Set/dp/B01M16WBW1/?_encoding=UTF8&pd_rd_w=bSFEY&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                - listitem [ref=f1e376]:
+                  - link [ref=f1e1732] [cursor=pointer]:
+                    - /url: /Amazon-Basics-Microfiber-Lightweight-Wrinkle-free/dp/B0154ASID6/?_encoding=UTF8&pd_rd_w=bSFEY&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                - listitem [ref=f1e380]:
+                  - link [ref=f1e1734] [cursor=pointer]:
+                    - /url: /Owala-Insulated-Stainless-Steel-Push-Button-24-Ounce/dp/B085DTZQNZ/?_encoding=UTF8&pd_rd_w=bSFEY&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                - listitem [ref=f1e384]:
+                  - link [ref=f1e1736] [cursor=pointer]:
+                    - /url: /upsimples-Picture-Display-Pictures-Without/dp/B0BQR2BQYZ/?_encoding=UTF8&pd_rd_w=bSFEY&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                - listitem [ref=f1e388]:
+                  - link [ref=f1e1738] [cursor=pointer]:
+                    - /url: /Amazon-Basics-Non-Slip-Clothes-Hangers/dp/B00FXNABPI/?_encoding=UTF8&pd_rd_w=bSFEY&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                - listitem [ref=f1e392]:
+                  - link [ref=f1e1740] [cursor=pointer]:
+                    - /url: /BigFoot-Shower-Curtain-Liner-Compatible/dp/B08CRPWQHB/?_encoding=UTF8&pd_rd_w=bSFEY&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                - listitem [ref=f1e396]:
+                  - link [ref=f1e1742] [cursor=pointer]:
+                    - /url: /Portable-Handheld-PlayHot-Personal-Rechargeable/dp/B0D97YVVQ2/?_encoding=UTF8&pd_rd_w=bSFEY&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                - listitem [ref=f1e400]:
+                  - link [ref=f1e1744] [cursor=pointer]:
+                    - /url: /Comfortable-Handles-Durable-Clothes-Supplies/dp/B0DGF616XN/?_encoding=UTF8&pd_rd_w=bSFEY&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                - listitem [ref=f1e404]:
+                  - link [ref=f1e1746] [cursor=pointer]:
+                    - /url: /Honeywell-HT-900-TurboForce-Circulator-Black/dp/B001R1RXUG/?_encoding=UTF8&pd_rd_w=bSFEY&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                - listitem [ref=f1e408]:
+                  - link [ref=f1e1748] [cursor=pointer]:
+                    - /url: /AmazonBasics-Merv-Furnace-Air-Filter/dp/B088BZTYFP/?_encoding=UTF8&pd_rd_w=bSFEY&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                - listitem [ref=f1e412]:
+                  - link [ref=f1e1750] [cursor=pointer]:
+                    - /url: /DREO-Tower-Bedroom-Velocity-Speeds/dp/B09MKPDJRT/?_encoding=UTF8&pd_rd_w=bSFEY&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                - listitem [ref=f1e416]:
+                  - link [ref=f1e1752] [cursor=pointer]:
+                    - /url: /OLANLY-Bathroom-Absorbent-Chenille-Non-Slip/dp/B0CFGYFCYL/?_encoding=UTF8&pd_rd_w=bSFEY&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                - listitem [ref=f1e420]:
+                  - link [ref=f1e1754] [cursor=pointer]:
+                    - /url: /Utopia-Bedding-Throw-Pillows-Insert/dp/B01NBNDC1T/?_encoding=UTF8&pd_rd_w=bSFEY&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                - listitem [ref=f1e424]:
+                  - link [ref=f1e1756] [cursor=pointer]:
+                    - /url: /Queen-Size-Sheet-Set-Pillowcases/dp/B00NX0WXQI/?_encoding=UTF8&pd_rd_w=bSFEY&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                - listitem [ref=f1e428]:
+                  - link [ref=f1e1758] [cursor=pointer]:
+                    - /url: /Etekcity-Multifunction-Stainless-Batteries-Included/dp/B0113UZJE2/?_encoding=UTF8&pd_rd_w=bSFEY&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                - listitem [ref=f1e432]:
+                  - link [ref=f1e1760] [cursor=pointer]:
+                    - /url: /Zulay-Stronger-Titanium-Stand-Included/dp/B082314NFL/?_encoding=UTF8&pd_rd_w=bSFEY&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                - listitem [ref=f1e436]:
+                  - link [ref=f1e1762] [cursor=pointer]:
+                    - /url: /Utopia-Bedding-Zippered-Mattress-Encasement/dp/B00U6HREPQ/?_encoding=UTF8&pd_rd_w=bSFEY&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                - listitem [ref=f1e440]:
+                  - link [ref=f1e1764] [cursor=pointer]:
+                    - /url: /Chapin-1-Gallon-Pump-Sprayer-Garden/dp/B000E28UQU/?_encoding=UTF8&pd_rd_w=bSFEY&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                - listitem [ref=f1e444]:
+                  - link [ref=f1e1766] [cursor=pointer]:
+                    - /url: /LEVOIT-Purifiers-Freshener-Core-Mini/dp/B09GTRVJQM/?_encoding=UTF8&pd_rd_w=bSFEY&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+              - link [ref=f1e448] [cursor=pointer]:
+                - /url: "#"
+              - link [ref=f1e450] [cursor=pointer]:
+                - /url: "#"
+          - separator [ref=f1e453]
+          - generic [ref=f1e456]:
+            - heading [level=2] [ref=f1e1768]: Best Sellers in Computers & Accessories
+            - list [ref=f1e461]:
+              - listitem [ref=f1e462]:
+                - link [ref=f1e1769] [cursor=pointer]:
+                  - /url: /Ailun-Protector-Generation-Compatible-Sensitive/dp/B0BJPXXM7D/?_encoding=UTF8&pd_rd_w=mGeZv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_541966
+              - listitem [ref=f1e466]:
+                - link [ref=f1e1771] [cursor=pointer]:
+                  - /url: /JanSport-Classic-Mainstream-Student-Backpack/dp/B01A6BPAN4/?_encoding=UTF8&pd_rd_w=mGeZv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_541966
+              - listitem [ref=f1e470]:
+                - link [ref=f1e1773] [cursor=pointer]:
+                  - /url: /JanSport-Big-Student-Backpack-Black/dp/B07K74LDCH/?_encoding=UTF8&pd_rd_w=mGeZv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_541966
+              - listitem [ref=f1e474]:
+                - link [ref=f1e1775] [cursor=pointer]:
+                  - /url: /Miracase-iPhone-Case-Military-Grade-Black/dp/B0FY6G1RFK/?_encoding=UTF8&pd_rd_w=mGeZv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_541966
+              - listitem [ref=f1e478]:
+                - link [ref=f1e1777] [cursor=pointer]:
+                  - /url: /MoKo-Generation-Stand-Translucent-Support/dp/B0B8STRJYJ/?_encoding=UTF8&pd_rd_w=mGeZv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_541966
+              - listitem [ref=f1e482]:
+                - link [ref=f1e1779] [cursor=pointer]:
+                  - /url: /MOSISO-Polyester-Vertical-Repellent-Compatible/dp/B01N6M1Y9N/?_encoding=UTF8&pd_rd_w=mGeZv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_541966
+              - listitem [ref=f1e486]:
+                - link [ref=f1e1781] [cursor=pointer]:
+                  - /url: /ProCase-iPad-11th-10th-10-9/dp/B0BDKJFRX4/?_encoding=UTF8&pd_rd_w=mGeZv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_541966
+              - listitem [ref=f1e490]:
+                - link [ref=f1e1783] [cursor=pointer]:
+                  - /url: /ProCase-Generation-Stand-Protective-Black/dp/B07XY28FZG/?_encoding=UTF8&pd_rd_w=mGeZv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_541966
+              - listitem [ref=f1e494]:
+                - link [ref=f1e1785] [cursor=pointer]:
+                  - /url: /SPARIN-Compatible-iPad-10th-2022/dp/B0BKL7KD6Y/?_encoding=UTF8&pd_rd_w=mGeZv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_541966
+              - listitem [ref=f1e498]:
+                - link [ref=f1e1787] [cursor=pointer]:
+                  - /url: /Nelko-P21-Bluetooth-Templates-Organizing/dp/B0C3L93F2Q/?_encoding=UTF8&pd_rd_w=mGeZv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_541966
+              - listitem [ref=f1e502]:
+                - link [ref=f1e1789] [cursor=pointer]:
+                  - /url: /Anker-Display-MacBook-Thinkpad-Laptops/dp/B0BQLLB61B/?_encoding=UTF8&pd_rd_w=mGeZv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_541966
+              - listitem [ref=f1e506]:
+                - link [ref=f1e1791] [cursor=pointer]:
+                  - /url: /Phomemo-Bluetooth-Smartphone-Organization-Rechargeable/dp/B08HV3MPFD/?_encoding=UTF8&pd_rd_w=mGeZv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_541966
+              - listitem [ref=f1e510]:
+                - link [ref=f1e1793] [cursor=pointer]:
+                  - /url: /BAGSMART-College-Backpack-Quilted-Water-Resistant/dp/B0CT4HT3CM/?_encoding=UTF8&pd_rd_w=mGeZv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_541966
+              - listitem [ref=f1e514]:
+                - link [ref=f1e1795] [cursor=pointer]:
+                  - /url: /Mac-Book-Pro-Charger-Cable%EF%BC%887-2ft/dp/B0B1HJ666G/?_encoding=UTF8&pd_rd_w=mGeZv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_541966
+              - listitem [ref=f1e518]:
+                - link [ref=f1e1797] [cursor=pointer]:
+                  - /url: /LOVEVOOK-Backpack-Capacity-Computer-Waterproof/dp/B0FX2MQRXC/?_encoding=UTF8&pd_rd_w=mGeZv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_541966
+              - listitem [ref=f1e522]:
+                - link [ref=f1e1799] [cursor=pointer]:
+                  - /url: /iPhone-Charger-Fast-Charging-Certified/dp/B0CH9WTYYG/?_encoding=UTF8&pd_rd_w=mGeZv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_541966
+              - listitem [ref=f1e526]:
+                - link [ref=f1e1801] [cursor=pointer]:
+                  - /url: /Lamicall-Car-Headrest-Tablet-Holder/dp/B0BRRPP5KH/?_encoding=UTF8&pd_rd_w=mGeZv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_541966
+          - separator [ref=f1e531]
+          - generic [ref=f1e533]:
+            - heading [level=2] [ref=f1e1803]: Have more fun with family
+            - generic [ref=f1e536]:
+              - generic [ref=f1e537]:
+                - link [ref=f1e1804] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=outdoor%20play%20toys&pd_rd_w=6wYDz&content-id=amzn1.sym.b378ed84-9ce7-4534-ab5a-a5a362ea6b4e&pf_rd_p=b378ed84-9ce7-4534-ab5a-a5a362ea6b4e&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e542]: Outdoor Play Sets
+                - link [ref=f1e1806] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=learning%20toys&pd_rd_w=6wYDz&content-id=amzn1.sym.b378ed84-9ce7-4534-ab5a-a5a362ea6b4e&pf_rd_p=b378ed84-9ce7-4534-ab5a-a5a362ea6b4e&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e548]: Learning Toys
+              - generic [ref=f1e550]:
+                - link [ref=f1e1808] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=action%20figures&pd_rd_w=6wYDz&content-id=amzn1.sym.b378ed84-9ce7-4534-ab5a-a5a362ea6b4e&pf_rd_p=b378ed84-9ce7-4534-ab5a-a5a362ea6b4e&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e555]: Action Figures
+                - link [ref=f1e1810] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=Pretend%20Play%20Toys&pd_rd_w=6wYDz&content-id=amzn1.sym.b378ed84-9ce7-4534-ab5a-a5a362ea6b4e&pf_rd_p=b378ed84-9ce7-4534-ab5a-a5a362ea6b4e&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e561]: Pretend Play Toys
+            - link [ref=f1e1812] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&k=toys%20and%20games&pd_rd_w=6wYDz&content-id=amzn1.sym.b378ed84-9ce7-4534-ab5a-a5a362ea6b4e&pf_rd_p=b378ed84-9ce7-4534-ab5a-a5a362ea6b4e&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+              - generic [ref=f1e565]:
+                - generic [ref=f1e566]: See more
+                - generic [ref=f1e567]: See more
+          - generic [ref=f1e569]:
+            - heading [level=2] [ref=f1e1813]: Gear up to get fit
+            - generic [ref=f1e572]:
+              - generic [ref=f1e573]:
+                - link [ref=f1e1814] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=fitness%20clothing&pd_rd_w=SVhOv&content-id=amzn1.sym.3fdbc1ee-e2a3-48ef-a93a-bce40e980706&pf_rd_p=3fdbc1ee-e2a3-48ef-a93a-bce40e980706&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e578]: Clothing
+                - link [ref=f1e1816] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=fitness%20trackers&pd_rd_w=SVhOv&content-id=amzn1.sym.3fdbc1ee-e2a3-48ef-a93a-bce40e980706&pf_rd_p=3fdbc1ee-e2a3-48ef-a93a-bce40e980706&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e584]: Trackers
+              - generic [ref=f1e586]:
+                - link [ref=f1e1818] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=fitness%20equipment&pd_rd_w=SVhOv&content-id=amzn1.sym.3fdbc1ee-e2a3-48ef-a93a-bce40e980706&pf_rd_p=3fdbc1ee-e2a3-48ef-a93a-bce40e980706&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e591]: Equipment
+                - link [ref=f1e1820] [cursor=pointer]:
+                  - /url: /gp/goldbox/?ie=UTF8&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522departments%255C%2522%253A%255B%255C%25223375301%252F3407731%255C%2522%255D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522&pd_rd_w=SVhOv&content-id=amzn1.sym.3fdbc1ee-e2a3-48ef-a93a-bce40e980706&pf_rd_p=3fdbc1ee-e2a3-48ef-a93a-bce40e980706&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e597]: Deals
+            - link [ref=f1e1822] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&k=fitness%20gear&pd_rd_w=SVhOv&content-id=amzn1.sym.3fdbc1ee-e2a3-48ef-a93a-bce40e980706&pf_rd_p=3fdbc1ee-e2a3-48ef-a93a-bce40e980706&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+              - generic [ref=f1e601]:
+                - generic [ref=f1e602]: Discover more
+                - generic [ref=f1e603]: Discover more
+          - generic [ref=f1e605]:
+            - heading [level=2] [ref=f1e1823]: Most-loved travel essentials
+            - generic [ref=f1e608]:
+              - generic [ref=f1e609]:
+                - link [ref=f1e1824] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=travel%20backpack&pd_rd_w=KEMLe&content-id=amzn1.sym.1faf5a75-f10d-481a-9299-d0fe2e7649bd&pf_rd_p=1faf5a75-f10d-481a-9299-d0fe2e7649bd&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e614]: Backpacks
+                - link [ref=f1e1826] [cursor=pointer]:
+                  - /url: s/?_encoding=UTF8&k=suitcases&pd_rd_w=KEMLe&content-id=amzn1.sym.1faf5a75-f10d-481a-9299-d0fe2e7649bd&pf_rd_p=1faf5a75-f10d-481a-9299-d0fe2e7649bd&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e620]: Suitcases
+              - generic [ref=f1e622]:
+                - link [ref=f1e1828] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=travel%20accessories&pd_rd_w=KEMLe&content-id=amzn1.sym.1faf5a75-f10d-481a-9299-d0fe2e7649bd&pf_rd_p=1faf5a75-f10d-481a-9299-d0fe2e7649bd&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e627]: Accessories
+                - link [ref=f1e1830] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=handbags&pd_rd_w=KEMLe&content-id=amzn1.sym.1faf5a75-f10d-481a-9299-d0fe2e7649bd&pf_rd_p=1faf5a75-f10d-481a-9299-d0fe2e7649bd&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e633]: Handbags
+            - link [ref=f1e1832] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&k=travel&pd_rd_w=KEMLe&content-id=amzn1.sym.1faf5a75-f10d-481a-9299-d0fe2e7649bd&pf_rd_p=1faf5a75-f10d-481a-9299-d0fe2e7649bd&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+              - generic [ref=f1e637]:
+                - generic [ref=f1e638]: Discover more
+                - generic [ref=f1e639]: Discover more
+          - separator [ref=f1e640]
+          - generic [ref=f1e642]:
+            - heading [level=2] [ref=f1e1833]: Level up your gaming
+            - generic [ref=f1e645]:
+              - generic [ref=f1e646]:
+                - link [ref=f1e1834] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=pc%20gaming&pd_rd_w=QKT5N&content-id=amzn1.sym.f4dce7c3-dfcf-41bb-8922-50be98bf1e86&pf_rd_p=f4dce7c3-dfcf-41bb-8922-50be98bf1e86&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e651]: PC gaming
+                - link [ref=f1e1836] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=Xbox&pd_rd_w=QKT5N&content-id=amzn1.sym.f4dce7c3-dfcf-41bb-8922-50be98bf1e86&pf_rd_p=f4dce7c3-dfcf-41bb-8922-50be98bf1e86&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e657]: Xbox
+              - generic [ref=f1e659]:
+                - link [ref=f1e1838] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=Play%20Station&pd_rd_w=QKT5N&content-id=amzn1.sym.f4dce7c3-dfcf-41bb-8922-50be98bf1e86&pf_rd_p=f4dce7c3-dfcf-41bb-8922-50be98bf1e86&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e664]: PlayStation
+                - link [ref=f1e1840] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=Nintendo%20Switch&pd_rd_w=QKT5N&content-id=amzn1.sym.f4dce7c3-dfcf-41bb-8922-50be98bf1e86&pf_rd_p=f4dce7c3-dfcf-41bb-8922-50be98bf1e86&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e670]: Nintendo Switch
+            - link [ref=f1e1842] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=23508887011&pd_rd_w=QKT5N&content-id=amzn1.sym.f4dce7c3-dfcf-41bb-8922-50be98bf1e86&pf_rd_p=f4dce7c3-dfcf-41bb-8922-50be98bf1e86&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+              - generic [ref=f1e674]:
+                - generic [ref=f1e675]: Shop the latest in gaming
+                - generic [ref=f1e676]: Shop the latest in gaming
+          - generic [ref=f1e679]:
+            - heading [level=2] [ref=f1e1843]: Best Sellers in Kitchen & Dining
+            - list [ref=f1e684]:
+              - listitem [ref=f1e685]:
+                - link [ref=f1e1844] [cursor=pointer]:
+                  - /url: /Nespresso-Vertuoline-Seller-Assortment-Count/dp/B01N05APQY/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e689]:
+                - link [ref=f1e1846] [cursor=pointer]:
+                  - /url: /Bounty-Quick-Size-Paper-Towels-Family/dp/B079VP6DH5/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e693]:
+                - link [ref=f1e1848] [cursor=pointer]:
+                  - /url: /Owala-FreeSip-Insulated-Stainless-BPA-Free/dp/B0DR9GN2PM/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e697]:
+                - link [ref=f1e1850] [cursor=pointer]:
+                  - /url: /Amazon-Basics-Everyday-Plates-Disposable/dp/B0C2CY22B8/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e701]:
+                - link [ref=f1e1852] [cursor=pointer]:
+                  - /url: /Amazon-Basics-Ply-Paper-Towel/dp/B09BWFX1L6/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e705]:
+                - link [ref=f1e1854] [cursor=pointer]:
+                  - /url: /Brawny-Square-Regular-Absorbent-Durable/dp/B0DFHMZ922/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e709]:
+                - link [ref=f1e1856] [cursor=pointer]:
+                  - /url: /Sparkle%C2%AE-Size%C2%AE-Towels-Double-Regular/dp/B09NW92T8Q/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e713]:
+                - link [ref=f1e1858] [cursor=pointer]:
+                  - /url: /Bounty-Paper-Napkins-200-Count/dp/B000VCFB0G/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e717]:
+                - link [ref=f1e1860] [cursor=pointer]:
+                  - /url: /Nespresso-Capsules-Vertuo-Barista-Flavored/dp/B0BZJVFFNM/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e721]:
+                - link [ref=f1e1862] [cursor=pointer]:
+                  - /url: /Dixie-Stronger-Microwave-Safe-Soak-Proof-Resistant/dp/B099BWGZBP/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e725]:
+                - link [ref=f1e1864] [cursor=pointer]:
+                  - /url: /Twinings-Pure-Black-English-Breakfast/dp/B001GM60LE/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e729]:
+                - link [ref=f1e1866] [cursor=pointer]:
+                  - /url: /Viva-Signature-Towels-Double-Sheets/dp/B0DF9BGP8S/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e733]:
+                - link [ref=f1e1868] [cursor=pointer]:
+                  - /url: /Owala-FreeSip-Insulated-Stainless-Two-Way/dp/B0FK1MWXCW/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e737]:
+                - link [ref=f1e1870] [cursor=pointer]:
+                  - /url: /MedPride-Powder-Free-Nitrile-Gloves-Medium/dp/B00GS8W3T4/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e741]:
+                - link [ref=f1e1872] [cursor=pointer]:
+                  - /url: /Peets-Coffee-Dickasons-Complex-Layered/dp/B01N2KFHRS/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e745]:
+                - link [ref=f1e1874] [cursor=pointer]:
+                  - /url: /Bounty-Essentials-Select-Towels-Regular/dp/B0CV4GS3F2/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e749]:
+                - link [ref=f1e1876] [cursor=pointer]:
+                  - /url: /Amazon-Basics-Everyday-Plates-Disposable/dp/B0C2CZJ1TK/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e753]:
+                - link [ref=f1e1878] [cursor=pointer]:
+                  - /url: /Sparkle-Pick-Towels-Double-Sheets/dp/B09NW8CW6P/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e757]:
+                - link [ref=f1e1880] [cursor=pointer]:
+                  - /url: /Brita-Standard-Replacement-Pitchers-Dispensers/dp/B0000CF98Q/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e761]:
+                - link [ref=f1e1882] [cursor=pointer]:
+                  - /url: /Donut-Shop-Regular-Portion-24-Count/dp/B007TJGY6O/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e765]:
+                - link [ref=f1e1884] [cursor=pointer]:
+                  - /url: /Etekcity-Multifunction-Stainless-Batteries-Included/dp/B0113UZJE2/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e769]:
+                - link [ref=f1e1886] [cursor=pointer]:
+                  - /url: /Amazon-Basics-Disposable-BPA-Free-Everyday/dp/B0CLH1445W/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+              - listitem [ref=f1e773]:
+                - link [ref=f1e1888] [cursor=pointer]:
+                  - /url: /Zulay-Stronger-Titanium-Stand-Included/dp/B082314NFL/?_encoding=UTF8&pd_rd_w=z6Xf7&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_284507
+          - separator [ref=f1e778]
+          - generic [ref=f1e781]:
+            - heading [level=2] [ref=f1e1890]: Best Sellers in Books
+            - list [ref=f1e786]:
+              - listitem [ref=f1e787]:
+                - link [ref=f1e1891] [cursor=pointer]:
+                  - /url: /Theo-Golden-Novel-Allen-Levi/dp/1668236516/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e791]:
+                - link [ref=f1e1893] [cursor=pointer]:
+                  - /url: /Threshing-Wing-Claw-Collection-Empyrean/dp/168281808X/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e795]:
+                - link [ref=f1e1895] [cursor=pointer]:
+                  - /url: /Odyssey-Homer/dp/0393356256/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e799]:
+                - link [ref=f1e1897] [cursor=pointer]:
+                  - /url: /Killer-Isnt-Alice-Suspect-Mystery/dp/B0GQ2VXKY7/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e803]:
+                - link [ref=f1e1899] [cursor=pointer]:
+                  - /url: /Calamity-Club-Novel-Kathryn-Stockett/dp/1954118813/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e807]:
+                - link [ref=f1e1901] [cursor=pointer]:
+                  - /url: /Yesteryear-Novel-Caro-Claire-Burke/dp/059380421X/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e811]:
+                - link [ref=f1e1903] [cursor=pointer]:
+                  - /url: /Project-Hail-Mary-Andy-Weir/dp/0593135229/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e815]:
+                - link [ref=f1e1905] [cursor=pointer]:
+                  - /url: /Whistler-Novel-Ann-Patchett/dp/0063511630/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e819]:
+                - link [ref=f1e1907] [cursor=pointer]:
+                  - /url: /Odyssey-Homer/dp/0140268863/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e823]:
+                - link [ref=f1e1909] [cursor=pointer]:
+                  - /url: /Five-Star-Weekend-Elin-Hilderbrand/dp/0316259187/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e827]:
+                - link [ref=f1e1911] [cursor=pointer]:
+                  - /url: /Very-Hungry-Caterpillar-Eric-Carle/dp/0399226907/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e831]:
+                - link [ref=f1e1913] [cursor=pointer]:
+                  - /url: /Let-Them-Theory-Life-Changing-Millions/dp/1401971369/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e835]:
+                - link [ref=f1e1915] [cursor=pointer]:
+                  - /url: /Correspondent-Novel-Virginia-Evans/dp/0593798430/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e839]:
+                - link [ref=f1e1917] [cursor=pointer]:
+                  - /url: /Deal-Off-Campus-Elle-Kennedy/dp/1775293939/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e843]:
+                - link [ref=f1e1919] [cursor=pointer]:
+                  - /url: /Mistake-Off-Campus-Elle-Kennedy/dp/1775293947/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e847]:
+                - link [ref=f1e1921] [cursor=pointer]:
+                  - /url: /Rainbow-Fish-Marcus-Pfister/dp/1558585362/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e851]:
+                - link [ref=f1e1923] [cursor=pointer]:
+                  - /url: /Dungeon-Crawler-Carl-Matt-Dinniman/dp/059382024X/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e855]:
+                - link [ref=f1e1925] [cursor=pointer]:
+                  - /url: /Brown-Bear-What-You-See/dp/0805047905/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e859]:
+                - link [ref=f1e1927] [cursor=pointer]:
+                  - /url: /Dungeon-Anarchists-Cookbook-Crawler-Carl/dp/0593820282/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e863]:
+                - link [ref=f1e1929] [cursor=pointer]:
+                  - /url: /Psychology-Money-Timeless-lessons-happiness/dp/0857197681/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e867]:
+                - link [ref=f1e1931] [cursor=pointer]:
+                  - /url: /Score-Off-Campus-Elle-Kennedy/dp/1775293955/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e871]:
+                - link [ref=f1e1933] [cursor=pointer]:
+                  - /url: /Murdoku-Murder-Mystery-Logic-Puzzles/dp/1454961791/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e875]:
+                - link [ref=f1e1935] [cursor=pointer]:
+                  - /url: /I-Love-You-Moon-Back/dp/1589255518/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e879]:
+                - link [ref=f1e1937] [cursor=pointer]:
+                  - /url: /Theo-Golden-Novel-Allen-Levi/dp/1668236567/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e883]:
+                - link [ref=f1e1939] [cursor=pointer]:
+                  - /url: /Cozy-Cuties-Coloring-Adults-Spaces/dp/B0DQSHRG96/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e887]:
+                - link [ref=f1e1941] [cursor=pointer]:
+                  - /url: /My-First-Library-Boxset-Board/dp/9387779262/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e891]:
+                - link [ref=f1e1943] [cursor=pointer]:
+                  - /url: /Atomic-Habits-Proven-Build-Break/dp/0735211299/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e895]:
+                - link [ref=f1e1945] [cursor=pointer]:
+                  - /url: /See-Later-Alligator-Sally-Hopgood/dp/1510704841/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e899]:
+                - link [ref=f1e1947] [cursor=pointer]:
+                  - /url: /Dungeon-Crawler-Carl-Matt-Dinniman/dp/0593820258/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+              - listitem [ref=f1e903]:
+                - link [ref=f1e1949] [cursor=pointer]:
+                  - /url: /Goodnight-Moon-Margaret-Wise-Brown/dp/0694003611/?_encoding=UTF8&pd_rd_w=aYawK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_283155
+          - separator [ref=f1e908]
+          - generic [ref=f1e910]:
+            - heading [level=2] [ref=f1e1951]: Gaming merchandise
+            - generic [ref=f1e913]:
+              - generic [ref=f1e914]:
+                - link [ref=f1e1952] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=gaming%20apparel&ref=nb_sb_noss&pd_rd_w=D3g2f&content-id=amzn1.sym.09483392-9ac6-434a-a3d7-39d83662f54a&pf_rd_p=09483392-9ac6-434a-a3d7-39d83662f54a&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e919]: Apparel
+                - link [ref=f1e1954] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=gaming%20hats&ref=nb_sb_noss_2&pd_rd_w=D3g2f&content-id=amzn1.sym.09483392-9ac6-434a-a3d7-39d83662f54a&pf_rd_p=09483392-9ac6-434a-a3d7-39d83662f54a&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e925]: Hats
+              - generic [ref=f1e927]:
+                - link [ref=f1e1956] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=gaming%20action%20figures&i=toys-and-games-intl-ship&ref=nb_sb_noss_2&pd_rd_w=D3g2f&content-id=amzn1.sym.09483392-9ac6-434a-a3d7-39d83662f54a&pf_rd_p=09483392-9ac6-434a-a3d7-39d83662f54a&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e932]: Action figures
+                - link [ref=f1e1958] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=gaming%20mugs&i=kitchen-intl-ship&ref=nb_sb_noss&pd_rd_w=D3g2f&content-id=amzn1.sym.09483392-9ac6-434a-a3d7-39d83662f54a&pf_rd_p=09483392-9ac6-434a-a3d7-39d83662f54a&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e938]: Mugs
+            - link [ref=f1e1960] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=23508887011&pd_rd_w=D3g2f&content-id=amzn1.sym.09483392-9ac6-434a-a3d7-39d83662f54a&pf_rd_p=09483392-9ac6-434a-a3d7-39d83662f54a&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+              - generic [ref=f1e942]:
+                - generic [ref=f1e943]: See more
+                - generic [ref=f1e944]: See more
+          - generic [ref=f1e946]:
+            - heading [level=2] [ref=f1e1961]: Most-loved watches
+            - generic [ref=f1e949]:
+              - generic [ref=f1e950]:
+                - link [ref=f1e1962] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=women%20watch&pd_rd_w=PCSip&content-id=amzn1.sym.db94be39-53f1-4c79-89b2-88aa81be709e&pf_rd_p=db94be39-53f1-4c79-89b2-88aa81be709e&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e955]: Women
+                - link [ref=f1e1964] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=men%20watches&pd_rd_w=PCSip&content-id=amzn1.sym.db94be39-53f1-4c79-89b2-88aa81be709e&pf_rd_p=db94be39-53f1-4c79-89b2-88aa81be709e&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e961]: Men
+              - generic [ref=f1e963]:
+                - link [ref=f1e1966] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=girls%20watches&pd_rd_w=PCSip&content-id=amzn1.sym.db94be39-53f1-4c79-89b2-88aa81be709e&pf_rd_p=db94be39-53f1-4c79-89b2-88aa81be709e&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e968]: Girls
+                - link [ref=f1e1968] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=Boys%20watches&pd_rd_w=PCSip&content-id=amzn1.sym.db94be39-53f1-4c79-89b2-88aa81be709e&pf_rd_p=db94be39-53f1-4c79-89b2-88aa81be709e&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e974]: Boys
+            - link [ref=f1e1970] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&k=watches&pd_rd_w=PCSip&content-id=amzn1.sym.db94be39-53f1-4c79-89b2-88aa81be709e&pf_rd_p=db94be39-53f1-4c79-89b2-88aa81be709e&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+              - generic [ref=f1e978]:
+                - generic [ref=f1e979]: Discover more
+                - generic [ref=f1e980]: Discover more
+          - separator [ref=f1e981]
+          - generic [ref=f1e983]:
+            - heading [level=2] [ref=f1e1971]: Deals on top categories
+            - generic [ref=f1e986]:
+              - generic [ref=f1e987]:
+                - link [ref=f1e1972] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=good%20books&pd_rd_w=4NSET&content-id=amzn1.sym.8a64fefa-e450-4bbe-83a4-970ea696b46d&pf_rd_p=8a64fefa-e450-4bbe-83a4-970ea696b46d&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e992]: Books
+                - link [ref=f1e1974] [cursor=pointer]:
+                  - /url: s/?_encoding=UTF8&k=fashion&pd_rd_w=4NSET&content-id=amzn1.sym.8a64fefa-e450-4bbe-83a4-970ea696b46d&pf_rd_p=8a64fefa-e450-4bbe-83a4-970ea696b46d&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e998]: Fashion
+              - generic [ref=f1e1000]:
+                - link [ref=f1e1976] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=PCs&pd_rd_w=4NSET&content-id=amzn1.sym.8a64fefa-e450-4bbe-83a4-970ea696b46d&pf_rd_p=8a64fefa-e450-4bbe-83a4-970ea696b46d&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e1005]: PC
+                - link [ref=f1e1978] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=beauty&pd_rd_w=4NSET&content-id=amzn1.sym.8a64fefa-e450-4bbe-83a4-970ea696b46d&pf_rd_p=8a64fefa-e450-4bbe-83a4-970ea696b46d&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e1011]: Beauty
+            - link [ref=f1e1980] [cursor=pointer]:
+              - /url: /gp/goldbox/?ie=UTF8&pd_rd_w=4NSET&content-id=amzn1.sym.8a64fefa-e450-4bbe-83a4-970ea696b46d&pf_rd_p=8a64fefa-e450-4bbe-83a4-970ea696b46d&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+              - generic [ref=f1e1015]:
+                - generic [ref=f1e1016]: Discover more
+                - generic [ref=f1e1017]: Discover more
+          - generic [ref=f1e1019]:
+            - heading [level=2] [ref=f1e1981]: Level up your beauty routine
+            - generic [ref=f1e1022]:
+              - generic [ref=f1e1023]:
+                - link [ref=f1e1982] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=makeup&pd_rd_w=O95Kh&content-id=amzn1.sym.cfffd636-af52-48ff-a5dc-4f273c40ec67&pf_rd_p=cfffd636-af52-48ff-a5dc-4f273c40ec67&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e1028]: Makeup
+                - link [ref=f1e1984] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=makeup%20brushes&pd_rd_w=O95Kh&content-id=amzn1.sym.cfffd636-af52-48ff-a5dc-4f273c40ec67&pf_rd_p=cfffd636-af52-48ff-a5dc-4f273c40ec67&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e1034]: Brushes
+              - generic [ref=f1e1036]:
+                - link [ref=f1e1986] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=makeup%20sponge&pd_rd_w=O95Kh&content-id=amzn1.sym.cfffd636-af52-48ff-a5dc-4f273c40ec67&pf_rd_p=cfffd636-af52-48ff-a5dc-4f273c40ec67&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e1041]: Sponges
+                - link [ref=f1e1988] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=makeup%20mirror&pd_rd_w=O95Kh&content-id=amzn1.sym.cfffd636-af52-48ff-a5dc-4f273c40ec67&pf_rd_p=cfffd636-af52-48ff-a5dc-4f273c40ec67&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e1047]: Mirrors
+            - link [ref=f1e1990] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&k=beauty%20and%20personal%20care&pd_rd_w=O95Kh&content-id=amzn1.sym.cfffd636-af52-48ff-a5dc-4f273c40ec67&pf_rd_p=cfffd636-af52-48ff-a5dc-4f273c40ec67&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+              - generic [ref=f1e1051]:
+                - generic [ref=f1e1052]: See more
+                - generic [ref=f1e1053]: See more
+          - generic [ref=f1e1056]:
+            - heading [level=2] [ref=f1e1991]: International top sellers
+            - list [ref=f1e1061]:
+              - listitem [ref=f1e1062]:
+                - link [ref=f1e1992] [cursor=pointer]:
+                  - /url: /TEKTON-Drive-12-Point-Socket-SHD12225/dp/B07R9FLDNX/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1066]:
+                - link [ref=f1e1994] [cursor=pointer]:
+                  - /url: /Create-Wealth-Confidence-Stock-Market/dp/9371641711/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1070]:
+                - link [ref=f1e1996] [cursor=pointer]:
+                  - /url: /Cultures-that-BLOOM-Organization-Burnout/dp/B0GNL4639Y/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1074]:
+                - link [ref=f1e1998] [cursor=pointer]:
+                  - /url: /Million-Questions-Billion-Stars-Neighbourhood/dp/B0H7FHMJL2/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1078]:
+                - link [ref=f1e2000] [cursor=pointer]:
+                  - /url: /Blessing-House-Building-Marriages-Families/dp/B0H18BQL5T/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1082]:
+                - link [ref=f1e2002] [cursor=pointer]:
+                  - /url: /Childrens-Place-Boys-Cargo-Pants/dp/B074D7XK7Y/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1086]:
+                - link [ref=f1e2004] [cursor=pointer]:
+                  - /url: /Rapid-Capacity-Staples-16-Inch-90003/dp/B004E2KAZK/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1090]:
+                - link [ref=f1e2006] [cursor=pointer]:
+                  - /url: /Panchayati-Swaraj-Republics-Nixon-Fernando/dp/B0F1Z2BHWN/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1094]:
+                - link [ref=f1e2008] [cursor=pointer]:
+                  - /url: /Casio-Diver-Style-Resistant-Unidirectional-Screw-Lock/dp/B09GKXYPXR/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1098]:
+                - link [ref=f1e2010] [cursor=pointer]:
+                  - /url: /RETURN-ANCIENT-GLORIOUS-TRYST-Prosperity/dp/B0F52H62V9/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1102]:
+                - link [ref=f1e2012] [cursor=pointer]:
+                  - /url: /Why-We-Are-What-Architecture/dp/B0GZVW8S1D/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1106]:
+                - link [ref=f1e2014] [cursor=pointer]:
+                  - /url: /Learning-Resources-Robot-Activity-Pieces/dp/B01A5YMCH4/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1110]:
+                - link [ref=f1e2016] [cursor=pointer]:
+                  - /url: /Gospel-according-Pillar-Testament-Commentary/dp/0802837344/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1114]:
+                - link [ref=f1e2018] [cursor=pointer]:
+                  - /url: /Moisturizer-Hydrating-Moisturizing-Hypoallergenic-Non-Comedogenic/dp/B099N2SLT9/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1118]:
+                - link [ref=f1e2020] [cursor=pointer]:
+                  - /url: /COACH-Insight-L-I-G-N-Life-Handbook/dp/B0GJDY6B1P/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1122]:
+                - link [ref=f1e2022] [cursor=pointer]:
+                  - /url: /IGNITING-S-P-R-K-LIFE-Awakening/dp/B0GHDPC6NX/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1126]:
+                - link [ref=f1e2024] [cursor=pointer]:
+                  - /url: /Happiness-Right-Here-Reinvention-PlaybookTM/dp/B0GVZP5QVC/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1130]:
+                - link [ref=f1e2026] [cursor=pointer]:
+                  - /url: /Operating-Systems-Three-Easy-Pieces/dp/198508659X/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1134]:
+                - link [ref=f1e2028] [cursor=pointer]:
+                  - /url: /HUMAN-COMMUNITY-RIGHTS-Democracy-People/dp/B0F6XWRZXP/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1138]:
+                - link [ref=f1e2030] [cursor=pointer]:
+                  - /url: /Holy-Bible-Large-Print-Compact/dp/1432133012/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1142]:
+                - link [ref=f1e2032] [cursor=pointer]:
+                  - /url: /Jabra-Evolve-Wired-Headset-2025/dp/B0F76R9943/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1146]:
+                - link [ref=f1e2034] [cursor=pointer]:
+                  - /url: /Avery-Durable-White-Labels-Printers/dp/B0000AQNSQ/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1150]:
+                - link [ref=f1e2036] [cursor=pointer]:
+                  - /url: /Reiki-Level-Training-Manual-Adults/dp/1952940435/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1154]:
+                - link [ref=f1e2038] [cursor=pointer]:
+                  - /url: /Pentek-ECP5-10-Cellulose-Polyester-Cartridge/dp/B0031Q947A/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1158]:
+                - link [ref=f1e2040] [cursor=pointer]:
+                  - /url: /MidWwest-Homes-Pets-Snapy-Stainless/dp/B000MD3NLS/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1162]:
+                - link [ref=f1e2042] [cursor=pointer]:
+                  - /url: /Cetaphil-Restoraderm-Moisturizer-Soothing-Fragrance/dp/B0D3566Q99/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1166]:
+                - link [ref=f1e2044] [cursor=pointer]:
+                  - /url: /Redefining-Sustainability-Missing-Earth-Factor/dp/B0H4PQNS2D/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1170]:
+                - link [ref=f1e2046] [cursor=pointer]:
+                  - /url: /Sea-Sisters-Lost-Trident/dp/B0GKFN8K2Q/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1174]:
+                - link [ref=f1e2048] [cursor=pointer]:
+                  - /url: /Leave-Feed-Wellness-Workshop-Journal/dp/1734669187/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+              - listitem [ref=f1e1178]:
+                - link [ref=f1e2050] [cursor=pointer]:
+                  - /url: /Leave-Feed-Disconnect-James-Petrossi/dp/1734669160/?_encoding=UTF8&pd_rd_w=bQwiO&content-id=amzn1.sym.59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_p=59e06f17-139e-49a4-ada7-b8439f50bb02&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_exports_top_sellers_unrec
+          - separator [ref=f1e1183]
+          - generic [ref=f1e1186]:
+            - heading [level=2] [ref=f1e2052]: Best Sellers in Beauty & Personal Care
+            - list [ref=f1e1191]:
+              - listitem [ref=f1e1192]:
+                - link [ref=f1e2053] [cursor=pointer]:
+                  - /url: /Amazon-Basics-Cotton-Swabs-500ct/dp/B09541P9WH/?_encoding=UTF8&pd_rd_w=8QTLb&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+              - listitem [ref=f1e1196]:
+                - link [ref=f1e2055] [cursor=pointer]:
+                  - /url: /Mighty-Patch-Hydrocolloid-Absorbing-count/dp/B074PVTPBW/?_encoding=UTF8&pd_rd_w=8QTLb&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+              - listitem [ref=f1e1200]:
+                - link [ref=f1e2057] [cursor=pointer]:
+                  - /url: /Neutrogena-Cleansing-Towelettes-Waterproof-Alcohol-Free/dp/B00U2VQZDS/?_encoding=UTF8&pd_rd_w=8QTLb&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+              - listitem [ref=f1e1204]:
+                - link [ref=f1e2059] [cursor=pointer]:
+                  - /url: /Biodance-Bio-Collagen-Tightening-Hydrating-Molecular/dp/B0B2RM68G2/?_encoding=UTF8&pd_rd_w=8QTLb&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+              - listitem [ref=f1e1208]:
+                - link [ref=f1e2061] [cursor=pointer]:
+                  - /url: /Amazon-Basics-Cotton-Rounds-Count/dp/B09542G9ZN/?_encoding=UTF8&pd_rd_w=8QTLb&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+              - listitem [ref=f1e1212]:
+                - link [ref=f1e2063] [cursor=pointer]:
+                  - /url: /Clean-Skin-Club-Disposable-Sensitive/dp/B07PBXXNCY/?_encoding=UTF8&pd_rd_w=8QTLb&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+              - listitem [ref=f1e1216]:
+                - link [ref=f1e2065] [cursor=pointer]:
+                  - /url: /Maybelline-Volumizing-Buildable-Lengthening-Multiplying/dp/B08H3JPH74/?_encoding=UTF8&pd_rd_w=8QTLb&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+              - listitem [ref=f1e1220]:
+                - link [ref=f1e2067] [cursor=pointer]:
+                  - /url: /Amazon-Basics-Gentle-Liquid-Triclosan-free/dp/B09HHDHXWX/?_encoding=UTF8&pd_rd_w=8QTLb&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+              - listitem [ref=f1e1224]:
+                - link [ref=f1e2069] [cursor=pointer]:
+                  - /url: /Amazon-Basics-Magnesium-Sulfate-1-Pack/dp/B0BXTS6L35/?_encoding=UTF8&pd_rd_w=8QTLb&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+              - listitem [ref=f1e1228]:
+                - link [ref=f1e2071] [cursor=pointer]:
+                  - /url: /celimax-Tightening-Liposomized-Matryxyl-Minimizer/dp/B0DK4Y2YP3/?_encoding=UTF8&pd_rd_w=8QTLb&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+              - listitem [ref=f1e1232]:
+                - link [ref=f1e2073] [cursor=pointer]:
+                  - /url: /EltaMD-Acne-Prone-Mineral-Based-Dermatologist-Recommended/dp/B002MSN3QQ/?_encoding=UTF8&pd_rd_w=8QTLb&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+              - listitem [ref=f1e1236]:
+                - link [ref=f1e2075] [cursor=pointer]:
+                  - /url: /Native-Deodorant-without-Aluminum-Parabens/dp/B07GB3NVN1/?_encoding=UTF8&pd_rd_w=8QTLb&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+              - listitem [ref=f1e1240]:
+                - link [ref=f1e2077] [cursor=pointer]:
+                  - /url: /medicube-Collagen-Volufiline-Under-Eyes-Forehead/dp/B0GHMZXX8Y/?_encoding=UTF8&pd_rd_w=8QTLb&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+              - listitem [ref=f1e1244]:
+                - link [ref=f1e2079] [cursor=pointer]:
+                  - /url: /Roche-Posay-Toleriane-Double-Repair-Moisturizer/dp/B01N9SPQHQ/?_encoding=UTF8&pd_rd_w=8QTLb&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+              - listitem [ref=f1e1248]:
+                - link [ref=f1e2081] [cursor=pointer]:
+                  - /url: /ColorStay-Waterproof-Smudgeproof-Longwearing-Ultra-Fine/dp/B000H3I2JG/?_encoding=UTF8&pd_rd_w=8QTLb&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+              - listitem [ref=f1e1252]:
+                - link [ref=f1e2083] [cursor=pointer]:
+                  - /url: /Vanicream-Gentle-Cleanser-sensitive-Dispenser/dp/B00QY1XZ4W/?_encoding=UTF8&pd_rd_w=8QTLb&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+              - listitem [ref=f1e1256]:
+                - link [ref=f1e2085] [cursor=pointer]:
+                  - /url: /CeraVe-Hyaluronic-Ceramides-Niacinamide-Non-Drying/dp/B01N1LL62W/?_encoding=UTF8&pd_rd_w=8QTLb&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+          - separator [ref=f1e1261]
+          - generic [ref=f1e1263]:
+            - heading [level=2] [ref=f1e2087]: Level up your PC here
+            - generic [ref=f1e1266]:
+              - generic [ref=f1e1267]:
+                - link [ref=f1e2088] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=laptops&pd_rd_w=SL7s2&content-id=amzn1.sym.4d71698b-309b-46ab-ad93-6701581285d6&pf_rd_p=4d71698b-309b-46ab-ad93-6701581285d6&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e1272]: Laptops
+                - link [ref=f1e2090] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=PC%20computers&pd_rd_w=SL7s2&content-id=amzn1.sym.4d71698b-309b-46ab-ad93-6701581285d6&pf_rd_p=4d71698b-309b-46ab-ad93-6701581285d6&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e1278]: PCs
+              - generic [ref=f1e1280]:
+                - link [ref=f1e2092] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=hard%20drives&pd_rd_w=SL7s2&content-id=amzn1.sym.4d71698b-309b-46ab-ad93-6701581285d6&pf_rd_p=4d71698b-309b-46ab-ad93-6701581285d6&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e1285]: Hard Drives
+                - link [ref=f1e2094] [cursor=pointer]:
+                  - /url: /s/?_encoding=UTF8&k=computer%20monitors&pd_rd_w=SL7s2&content-id=amzn1.sym.4d71698b-309b-46ab-ad93-6701581285d6&pf_rd_p=4d71698b-309b-46ab-ad93-6701581285d6&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+                  - generic [ref=f1e1291]: Monitors
+            - link [ref=f1e2096] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&k=computers&pd_rd_w=SL7s2&content-id=amzn1.sym.4d71698b-309b-46ab-ad93-6701581285d6&pf_rd_p=4d71698b-309b-46ab-ad93-6701581285d6&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_unk
+              - generic [ref=f1e1295]:
+                - generic [ref=f1e1296]: Discover more
+                - generic [ref=f1e1297]: Discover more
+          - separator [ref=f1e1298]
+          - generic [ref=f1e1301]:
+            - heading [level=2] [ref=f1e2097]: Best Sellers in Sports & Outdoors
+            - list [ref=f1e1306]:
+              - listitem [ref=f1e1307]:
+                - link [ref=f1e2098] [cursor=pointer]:
+                  - /url: /AmazonBasics-Pound-Neoprene-Dumbbells-Weights/dp/B01LR5RG08/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1311]:
+                - link [ref=f1e2100] [cursor=pointer]:
+                  - /url: /Owala-FreeSip-Insulated-Stainless-Two-Way/dp/B0FK1CDVHB/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1315]:
+                - link [ref=f1e2102] [cursor=pointer]:
+                  - /url: /Fit-Fresh-Coolers-Reusable-Lasting/dp/B07CTXRKH8/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1319]:
+                - link [ref=f1e2104] [cursor=pointer]:
+                  - /url: /Zeerun-Reflective-Adjustable-Comfortable-10LBS-Black/dp/B0FG7WXNP3/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1323]:
+                - link [ref=f1e2106] [cursor=pointer]:
+                  - /url: /adidas-Unisex-Adult-Soccer-Indigo-Metallic/dp/B0DJWP8Y8T/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1327]:
+                - link [ref=f1e2108] [cursor=pointer]:
+                  - /url: /Rainleaf-Microfiber-Perfect-Travel-Camping/dp/B01K1TX77W/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1331]:
+                - link [ref=f1e2110] [cursor=pointer]:
+                  - /url: /Igloo-Maxcold-Reusable-Coolers-Freezer/dp/B0DQ2C24JL/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1335]:
+                - link [ref=f1e2112] [cursor=pointer]:
+                  - /url: /Callaway-Golf-Supersoft-Balls-White/dp/B0DHT5XZR1/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1339]:
+                - link [ref=f1e2114] [cursor=pointer]:
+                  - /url: /Sleeves-Baseball-Protectors-Toploaders-Collectible/dp/B0B7CJT5SP/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1343]:
+                - link [ref=f1e2116] [cursor=pointer]:
+                  - /url: /2026-Panini-World-Sticker-Collection/dp/B0G3Y89LW9/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1347]:
+                - link [ref=f1e2118] [cursor=pointer]:
+                  - /url: /Swimming-Waterproof-Earplugs-Reusable-Snorkeling/dp/B09ZTRP3SH/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1351]:
+                - link [ref=f1e2120] [cursor=pointer]:
+                  - /url: /Fit-Simplify-Resistance-Exercise-Instruction/dp/B01AVDVHTI/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1355]:
+                - link [ref=f1e2122] [cursor=pointer]:
+                  - /url: /Wekapo-Blanket-Compact-Lightweight-Durable/dp/B08X6VQBGJ/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1359]:
+                - link [ref=f1e2124] [cursor=pointer]:
+                  - /url: /Rantizon-Goggles-Swimming-Leaking-Glasses/dp/B0BTLXZ8FH/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1363]:
+                - link [ref=f1e2126] [cursor=pointer]:
+                  - /url: /AmazonBasics-Extra-Thick-Exercise-Carrying/dp/B01LP0U5X0/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1367]:
+                - link [ref=f1e2128] [cursor=pointer]:
+                  - /url: /Speedo-Unisex-Child-Goggles-Yarrow-Vermillion/dp/B0BR7JQH6W/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1371]:
+                - link [ref=f1e2130] [cursor=pointer]:
+                  - /url: /goodr-Polarized-Sunglasses-Non-Reflective-Protection/dp/B0H51TZRMM/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1375]:
+                - link [ref=f1e2132] [cursor=pointer]:
+                  - /url: /Gaiam-Essentials-Yoga-Block-Set/dp/B075W63K67/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1379]:
+                - link [ref=f1e2134] [cursor=pointer]:
+                  - /url: /Cooling-Breathable-Microfiber-Running-Activities/dp/B088P1NST3/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1383]:
+                - link [ref=f1e2136] [cursor=pointer]:
+                  - /url: /HydroJug-Sport-Stainless-Insulated-Dishwasher/dp/B0DGHBV6XS/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1387]:
+                - link [ref=f1e2138] [cursor=pointer]:
+                  - /url: /Reaction-Tackle-Blue-Camo-150yd/dp/B01N1HEY0M/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1391]:
+                - link [ref=f1e2140] [cursor=pointer]:
+                  - /url: /Intex-Elevated-Dura-Beam-Internal-Electric/dp/B0869HGSVL/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1395]:
+                - link [ref=f1e2142] [cursor=pointer]:
+                  - /url: /Tangle-Free-Jumping-Bearings-Adjustable-Handles/dp/B09DF9NWC7/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1399]:
+                - link [ref=f1e2144] [cursor=pointer]:
+                  - /url: /Wilson-Sporting-Goods-Championship-Tennis/dp/B001FZCVTM/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+              - listitem [ref=f1e1403]:
+                - link [ref=f1e2146] [cursor=pointer]:
+                  - /url: /Nalgene-Mouth-Water-Bottle-Black/dp/B0B9T4KCV7/?_encoding=UTF8&pd_rd_w=MbfTH&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4S0QJE6MN94B1WFNY7AA&pd_rd_wg=4PWYW&pd_rd_r=f10e8323-bf66-430f-9057-ec511662e50a&ref_=pd_hp_d_btf_crs_zg_bs_3375251
+    - generic [ref=f1e1408]:
+      - button [ref=f1e2148] [cursor=pointer]:
+        - generic [ref=f1e1410]: Back to top
+      - generic [ref=f1e1411]:
+        - generic [ref=f1e1412]:
+          - heading [level=6] [ref=f1e2149]: Get to Know Us
+          - list [ref=f1e1414]:
+            - listitem [ref=f1e1415]:
+              - link [ref=f1e2150] [cursor=pointer]:
+                - /url: https://www.amazon.jobs
+                - text: Careers
+            - listitem [ref=f1e1417]:
+              - link [ref=f1e2151] [cursor=pointer]:
+                - /url: https://blog.aboutamazon.com/?utm_source=gateway&utm_medium=footer
+                - text: Blog
+            - listitem [ref=f1e1419]:
+              - link [ref=f1e2152] [cursor=pointer]:
+                - /url: https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer
+                - text: About Amazon
+            - listitem [ref=f1e1421]:
+              - link [ref=f1e2153] [cursor=pointer]:
+                - /url: https://www.amazon.com/ir
+                - text: Investor Relations
+            - listitem [ref=f1e1423]:
+              - link [ref=f1e2154] [cursor=pointer]:
+                - /url: /gp/browse.html?node=2102313011&ref_=footer_devices
+                - text: Amazon Devices
+            - listitem [ref=f1e1425]:
+              - link [ref=f1e2155] [cursor=pointer]:
+                - /url: https://www.amazon.science
+                - text: Amazon Science
+        - generic [ref=f1e1428]:
+          - heading [level=6] [ref=f1e2156]: Make Money with Us
+          - list [ref=f1e1430]:
+            - listitem [ref=f1e1431]:
+              - link [ref=f1e2157] [cursor=pointer]:
+                - /url: https://services.amazon.com/sell.html?ld=AZFSSOA&ref_=footer_soa
+                - text: Sell products on Amazon
+            - listitem [ref=f1e1433]:
+              - link [ref=f1e2158] [cursor=pointer]:
+                - /url: https://services.amazon.com/amazon-business.html?ld=usb2bunifooter&ref_=footer_b2b
+                - text: Sell on Amazon Business
+            - listitem [ref=f1e1435]:
+              - link [ref=f1e2159] [cursor=pointer]:
+                - /url: https://developer.amazon.com
+                - text: Sell apps on Amazon
+            - listitem [ref=f1e1437]:
+              - link [ref=f1e2160] [cursor=pointer]:
+                - /url: https://affiliate-program.amazon.com/
+                - text: Become an Affiliate
+            - listitem [ref=f1e1439]:
+              - link [ref=f1e2161] [cursor=pointer]:
+                - /url: https://advertising.amazon.com/?ref=ext_amzn_ftr
+                - text: Advertise Your Products
+            - listitem [ref=f1e1441]:
+              - link [ref=f1e2162] [cursor=pointer]:
+                - /url: /gp/seller-account/mm-summary-page.html?ld=AZFooterSelfPublish&topic=200260520&ref_=footer_publishing
+                - text: Self-Publish with Us
+            - listitem [ref=f1e1443]:
+              - link [ref=f1e2163] [cursor=pointer]:
+                - /url: https://go.thehub-amazon.com/amazon-hub-locker
+                - text: Host an Amazon Hub
+            - listitem [ref=f1e1445]:
+              - text: ›
+              - link [ref=f1e2164] [cursor=pointer]:
+                - /url: /b/?node=18190131011&ld=AZUSSOA-seemore&ref_=footer_seemore
+                - text: See More Make Money with Us
+        - generic [ref=f1e1448]:
+          - heading [level=6] [ref=f1e2165]: Amazon Payment Products
+          - list [ref=f1e1450]:
+            - listitem [ref=f1e1451]:
+              - link [ref=f1e2166] [cursor=pointer]:
+                - /url: /dp/B07984JN3L?plattr=ACOMFO&ie=UTF-8
+                - text: Amazon Business Card
+            - listitem [ref=f1e1453]:
+              - link [ref=f1e2167] [cursor=pointer]:
+                - /url: /gp/browse.html?node=16218619011&ref_=footer_swp
+                - text: Shop with Points
+            - listitem [ref=f1e1455]:
+              - link [ref=f1e2168] [cursor=pointer]:
+                - /url: /dp/B0CHTVMXZJ?th=1?ref_=footer_reload_us
+                - text: Reload Your Balance
+            - listitem [ref=f1e1457]:
+              - link [ref=f1e2169] [cursor=pointer]:
+                - /url: /gp/browse.html?node=388305011&ref_=footer_tfx
+                - text: Amazon Currency Converter
+        - generic [ref=f1e1460]:
+          - heading [level=6] [ref=f1e2170]: Let Us Help You
+          - list [ref=f1e1462]:
+            - listitem [ref=f1e1463]:
+              - link [ref=f1e2171] [cursor=pointer]:
+                - /url: /gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&ref_=footer_covid
+                - text: Amazon and COVID-19
+            - listitem [ref=f1e1465]:
+              - link [ref=f1e2172] [cursor=pointer]:
+                - /url: https://www.amazon.com/gp/css/homepage.html?ref_=footer_ya
+                - text: Your Account
+            - listitem [ref=f1e1467]:
+              - link [ref=f1e2173] [cursor=pointer]:
+                - /url: https://www.amazon.com/gp/css/order-history?ref_=footer_yo
+                - text: Your Orders
+            - listitem [ref=f1e1469]:
+              - link [ref=f1e2174] [cursor=pointer]:
+                - /url: /gp/help/customer/display.html?nodeId=468520&ref_=footer_shiprates
+                - text: Shipping Rates & Policies
+            - listitem [ref=f1e1471]:
+              - link [ref=f1e2175] [cursor=pointer]:
+                - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+                - text: Returns & Replacements
+            - listitem [ref=f1e1473]:
+              - link [ref=f1e2176] [cursor=pointer]:
+                - /url: /gp/digital/fiona/manage?ref_=footer_myk
+                - text: Manage Your Content and Devices
+            - listitem [ref=f1e1475]:
+              - link [ref=f1e2177] [cursor=pointer]:
+                - /url: /gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+                - text: Help
+      - generic [ref=f1e1478]:
+        - link [ref=f1e2178] [cursor=pointer]:
+          - /url: /?ref_=footer_logo
+        - generic [ref=f1e1484]:
+          - generic [ref=f1e1485]:
+            - link [ref=f1e2179] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+              - generic [ref=f1e1488]: English
+            - button [ref=f1e2180] [cursor=pointer]
+          - link [ref=f1e2181] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&ref_=footer_cop&preferencesReturnUrl=%2F
+            - generic [ref=f1e1491]: ₹
+            - generic [ref=f1e1492]: INR - Indian Rupee
+          - button [ref=f1e2182] [cursor=pointer]:
+            - generic [ref=f1e1495]: United States
+      - navigation [ref=f1e2183]:
+        - generic [ref=f1e2184]:
+          - list [ref=f1e1498]:
+            - listitem [ref=f1e1499]:
+              - link [ref=f1e2185] [cursor=pointer]:
+                - /url: https://music.amazon.com?ref=dm_aff_amz_com
+                - heading [level=5] [ref=f1e2186]: Amazon Music
+                - generic [ref=f1e1502]: Stream millions of songs
+            - listitem [ref=f1e1503]
+            - listitem [ref=f1e1504]:
+              - link [ref=f1e2187] [cursor=pointer]:
+                - /url: https://advertising.amazon.com/?ref=footer_advtsing_amzn_com
+                - heading [level=5] [ref=f1e2188]: Amazon Ads
+                - generic [ref=f1e1507]: Reach customers wherever they spend their time
+            - listitem [ref=f1e1508]
+            - listitem [ref=f1e1509]:
+              - link [ref=f1e2189] [cursor=pointer]:
+                - /url: https://www.6pm.com
+                - heading [level=5] [ref=f1e2190]: 6pm
+                - generic [ref=f1e1512]: Score deals on fashion brands
+            - listitem [ref=f1e1513]
+            - listitem [ref=f1e1514]:
+              - link [ref=f1e2191] [cursor=pointer]:
+                - /url: https://www.abebooks.com
+                - heading [level=5] [ref=f1e2192]: AbeBooks
+                - generic [ref=f1e1517]: Books, art & collectibles
+            - listitem [ref=f1e1518]
+            - listitem [ref=f1e1519]:
+              - link [ref=f1e2193] [cursor=pointer]:
+                - /url: https://www.acx.com/
+                - heading [level=5] [ref=f1e2194]: ACX
+                - generic [ref=f1e1522]: Audiobook Publishing Made Easy
+            - listitem [ref=f1e1523]
+            - listitem [ref=f1e1524]:
+              - link [ref=f1e2195] [cursor=pointer]:
+                - /url: https://sell.amazon.com/?ld=AZUSSOA-footer-aff&ref_=footer_sell
+                - heading [level=5] [ref=f1e2196]: Sell on Amazon
+                - generic [ref=f1e1527]: Start a Selling Account
+            - listitem [ref=f1e1528]
+            - listitem [ref=f1e1529]:
+              - link [ref=f1e2197] [cursor=pointer]:
+                - /url: https://www.veeqo.com/?utm_source=amazon&utm_medium=website&utm_campaign=footer
+                - heading [level=5] [ref=f1e2198]: Veeqo
+                - generic [ref=f1e1532]: Shipping Software Inventory Management
+          - list [ref=f1e1533]:
+            - listitem [ref=f1e1534]:
+              - link [ref=f1e2199] [cursor=pointer]:
+                - /url: /business?ref_=footer_retail_b2b
+                - heading [level=5] [ref=f1e2200]: Amazon Business
+                - generic [ref=f1e1537]: Everything For Your Business
+            - listitem [ref=f1e1538]
+            - listitem [ref=f1e1539]:
+              - link [ref=f1e2201] [cursor=pointer]:
+                - /url: /gp/browse.html?node=20338496011&ref_=footer_amazonglobal
+                - heading [level=5] [ref=f1e2202]: AmazonGlobal
+                - generic [ref=f1e1542]: Ship Orders Internationally
+            - listitem [ref=f1e1543]
+            - listitem [ref=f1e1544]:
+              - link [ref=f1e2203] [cursor=pointer]:
+                - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=amazonfooter
+                - heading [level=5] [ref=f1e2204]: Amazon Web Services
+                - generic [ref=f1e1547]: Scalable Cloud Computing Services
+            - listitem [ref=f1e1548]
+            - listitem [ref=f1e1549]:
+              - link [ref=f1e2205] [cursor=pointer]:
+                - /url: https://www.audible.com
+                - heading [level=5] [ref=f1e2206]: Audible
+                - generic [ref=f1e1552]: Listen to Books & Original Audio Performances
+            - listitem [ref=f1e1553]
+            - listitem [ref=f1e1554]:
+              - link [ref=f1e2207] [cursor=pointer]:
+                - /url: https://www.boxofficemojo.com/?ref_=amzn_nav_ftr
+                - heading [level=5] [ref=f1e2208]: Box Office Mojo
+                - generic [ref=f1e1557]: Find Movie Box Office Data
+            - listitem [ref=f1e1558]
+            - listitem [ref=f1e1559]:
+              - link [ref=f1e2209] [cursor=pointer]:
+                - /url: https://www.goodreads.com
+                - heading [level=5] [ref=f1e2210]: Goodreads
+                - generic [ref=f1e1562]: Book reviews & recommendations
+            - listitem [ref=f1e1563]
+            - listitem [ref=f1e1564]:
+              - link [ref=f1e2211] [cursor=pointer]:
+                - /url: https://www.imdb.com
+                - heading [level=5] [ref=f1e2212]: IMDb
+                - generic [ref=f1e1567]: Movies, TV & Celebrities
+          - list [ref=f1e1568]:
+            - listitem [ref=f1e1569]:
+              - link [ref=f1e2213] [cursor=pointer]:
+                - /url: https://pro.imdb.com?ref_=amzn_nav_ftr
+                - heading [level=5] [ref=f1e2214]: IMDbPro
+                - generic [ref=f1e1572]: Get Info Entertainment Professionals Need
+            - listitem [ref=f1e1573]
+            - listitem [ref=f1e1574]:
+              - link [ref=f1e2215] [cursor=pointer]:
+                - /url: https://kdp.amazon.com
+                - heading [level=5] [ref=f1e2216]: Kindle Direct Publishing
+                - generic [ref=f1e1577]: Indie Digital & Print Publishing Made Easy
+            - listitem [ref=f1e1578]
+            - listitem [ref=f1e1579]:
+              - link [ref=f1e2217] [cursor=pointer]:
+                - /url: https://videodirect.amazon.com/home/landing
+                - heading [level=5] [ref=f1e2218]: Prime Video Direct
+                - generic [ref=f1e1582]: Video Distribution Made Easy
+            - listitem [ref=f1e1583]
+            - listitem [ref=f1e1584]:
+              - link [ref=f1e2219] [cursor=pointer]:
+                - /url: https://www.shopbop.com
+                - heading [level=5] [ref=f1e2220]: Shopbop
+                - generic [ref=f1e1587]: Designer Fashion Brands
+            - listitem [ref=f1e1588]
+            - listitem [ref=f1e1589]:
+              - link [ref=f1e2221] [cursor=pointer]:
+                - /url: https://www.woot.com/
+                - heading [level=5] [ref=f1e2222]: Woot!
+                - generic [ref=f1e1592]: Deals and Shenanigans
+            - listitem [ref=f1e1593]
+            - listitem [ref=f1e1594]:
+              - link [ref=f1e2223] [cursor=pointer]:
+                - /url: https://www.zappos.com
+                - heading [level=5] [ref=f1e2224]: Zappos
+                - generic [ref=f1e1597]: Shoes & Clothing
+            - listitem [ref=f1e1598]
+            - listitem [ref=f1e1599]:
+              - link [ref=f1e2225] [cursor=pointer]:
+                - /url: https://ring.com
+                - heading [level=5] [ref=f1e2226]: Ring
+                - generic [ref=f1e1602]: Smart Home Security Systems
+          - list [ref=f1e1603]:
+            - listitem [ref=f1e1604]
+            - listitem [ref=f1e1605]
+            - listitem [ref=f1e1606]:
+              - link [ref=f1e2227] [cursor=pointer]:
+                - /url: https://eero.com/
+                - heading [level=5] [ref=f1e2228]: eero WiFi
+                - generic [ref=f1e1609]: Stream 4K Video in Every Room
+            - listitem [ref=f1e1610]
+            - listitem [ref=f1e1611]:
+              - link [ref=f1e2229] [cursor=pointer]:
+                - /url: https://blinkforhome.com/?ref=nav_footer
+                - heading [level=5] [ref=f1e2230]: Blink
+                - generic [ref=f1e1614]: Smart Security for Every Home
+            - listitem [ref=f1e1615]
+            - listitem [ref=f1e1616]:
+              - link [ref=f1e2231] [cursor=pointer]:
+                - /url: https://shop.ring.com/pages/neighbors-app
+                - heading [level=5] [ref=f1e2232]: Neighbors App
+                - generic [ref=f1e1619]: Real-Time Crime & Safety Alerts
+            - listitem [ref=f1e1620]
+            - listitem [ref=f1e1621]:
+              - link [ref=f1e2233] [cursor=pointer]:
+                - /url: https://www.pillpack.com
+                - heading [level=5] [ref=f1e2234]: PillPack
+                - generic [ref=f1e1624]: Pharmacy Simplified
+            - listitem [ref=f1e1625]
+            - listitem [ref=f1e1626]
+            - listitem [ref=f1e1627]
+            - listitem [ref=f1e1628]
+      - generic [ref=f1e1629]:
+        - list [ref=f1e1630]:
+          - listitem [ref=f1e1631]:
+            - link [ref=f1e2235] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508088&ref_=footer_cou
+              - text: Conditions of Use
+          - listitem [ref=f1e1633]:
+            - link [ref=f1e2236] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ&ref_=footer_privacy
+              - text: Privacy Notice
+          - listitem [ref=f1e1635]:
+            - link [ref=f1e2237] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?ie=UTF8&nodeId=TnACMrGVghHocjL8KB&ref_=footer_consumer_health_data_privacy
+              - text: Consumer Health Data Privacy Disclosure
+          - listitem [ref=f1e1637]:
+            - link [ref=f1e2238] [cursor=pointer]:
+              - /url: /privacyprefs?ref_=footer_iba
+              - text: Your Ads Privacy Choices
+          - listitem [ref=f1e1639]
+        - generic [ref=f1e1641]: © 1996-2026, Amazon.com, Inc. or its affiliates
+    - iframe [ref=f1e1643]:
+      - iframe [ref=f2e2]:
+        
+  - generic: "Test: amzn-nv-flyout-healthy-choice"
+  - generic: "Test: nav-rufus-disc-txt"
+  - generic: "Test: a-truncate-cut"
+  - generic: "Test: sp-cc-wrapper"
+  - generic: "Test: .mo-wp"
+  - generic: "Test: .a-image-container"
+  - generic: "Test: sp-cc"
+  - generic: "Test: .amzn-box-inner"
+  - generic: "Test: .js-order-card"
+  - generic: "Test: pldn-deep-link"
+  - generic: "Test: add-to-cart-btn"
+  - generic: "Test: amzn-nav-app-banner-container"
+  - generic: "Test: .sparkle-container"
+  - dialog [ref=f1e2241]:
+    - generic [ref=f1e2242]: Browse all categories
+    - button "Close menu" [active] [ref=f1e2243] [cursor=pointer]
+    - link "Hello, sign in" [ref=f1e2244] [cursor=pointer]:
+      - /url: javascript:void(0)
+    - generic [ref=f1e2251]:
+      - region [ref=f1e2252]:
+        - heading "Digital Content & Devices" [level=2] [ref=f1e2253]
+        - list [ref=f1e2254]:
+          - listitem [ref=f1e2255]:
+            - button "Prime Video" [ref=f1e2256] [cursor=pointer]
+          - listitem [ref=f1e2259]:
+            - button "Amazon Music" [ref=f1e2260] [cursor=pointer]
+          - listitem [ref=f1e2263]:
+            - button "Kindle E-readers & Books" [ref=f1e2264] [cursor=pointer]
+          - listitem [ref=f1e2267]:
+            - button "Amazon Appstore" [ref=f1e2268] [cursor=pointer]
+      - region [ref=f1e2272]:
+        - heading "Shop by Department" [level=2] [ref=f1e2273]
+        - list [ref=f1e2274]:
+          - listitem [ref=f1e2275]:
+            - button "Electronics" [ref=f1e2276] [cursor=pointer]
+          - listitem [ref=f1e2279]:
+            - button "Computers" [ref=f1e2280] [cursor=pointer]
+          - listitem [ref=f1e2283]:
+            - button "Smart Home" [ref=f1e2284] [cursor=pointer]
+          - listitem [ref=f1e2287]:
+            - button "Arts & Crafts" [ref=f1e2288] [cursor=pointer]
+          - listitem [ref=f1e2292]:
+            - button [ref=f1e2293] [cursor=pointer]:
+              - generic [ref=f1e2294]: Automotive
+          - listitem [ref=f1e2296]:
+            - button [ref=f1e2297] [cursor=pointer]:
+              - generic [ref=f1e2298]: Baby
+          - listitem [ref=f1e2300]:
+            - button [ref=f1e2301] [cursor=pointer]:
+              - generic [ref=f1e2302]: Beauty and Personal Care
+          - listitem [ref=f1e2304]:
+            - button [ref=f1e2305] [cursor=pointer]:
+              - generic [ref=f1e2306]: Women's Fashion
+          - listitem [ref=f1e2308]:
+            - button [ref=f1e2309] [cursor=pointer]:
+              - generic [ref=f1e2310]: Men's Fashion
+          - listitem [ref=f1e2312]:
+            - button [ref=f1e2313] [cursor=pointer]:
+              - generic [ref=f1e2314]: Girls' Fashion
+          - listitem [ref=f1e2316]:
+            - button [ref=f1e2317] [cursor=pointer]:
+              - generic [ref=f1e2318]: Boys' Fashion
+          - listitem [ref=f1e2320]:
+            - button [ref=f1e2321] [cursor=pointer]:
+              - generic [ref=f1e2322]: Health and Household
+          - listitem [ref=f1e2324]:
+            - button [ref=f1e2325] [cursor=pointer]:
+              - generic [ref=f1e2326]: Home and Kitchen
+          - listitem [ref=f1e2328]:
+            - button [ref=f1e2329] [cursor=pointer]:
+              - generic [ref=f1e2330]: Industrial and Scientific
+          - listitem [ref=f1e2332]:
+            - button [ref=f1e2333] [cursor=pointer]:
+              - generic [ref=f1e2334]: Luggage
+          - listitem [ref=f1e2336]:
+            - button [ref=f1e2337] [cursor=pointer]:
+              - generic [ref=f1e2338]: Movies & Television
+          - listitem [ref=f1e2340]:
+            - button [ref=f1e2341] [cursor=pointer]:
+              - generic [ref=f1e2342]: Pet supplies
+          - listitem [ref=f1e2344]:
+            - button [ref=f1e2345] [cursor=pointer]:
+              - generic [ref=f1e2346]: Software
+          - listitem [ref=f1e2348]:
+            - button [ref=f1e2349] [cursor=pointer]:
+              - generic [ref=f1e2350]: Sports and Outdoors
+          - listitem [ref=f1e2352]:
+            - button [ref=f1e2353] [cursor=pointer]:
+              - generic [ref=f1e2354]: Tools & Home Improvement
+          - listitem [ref=f1e2356]:
+            - button [ref=f1e2357] [cursor=pointer]:
+              - generic [ref=f1e2358]: Toys and Games
+          - listitem [ref=f1e2360]:
+            - button [ref=f1e2361] [cursor=pointer]:
+              - generic [ref=f1e2362]: Video Games
+          - listitem [ref=f1e2364]:
+            - link "See all" [ref=f1e2365] [cursor=pointer]:
+              - /url: ""
+      - region [ref=f1e2369]:
+        - heading "Programs & Features" [level=2] [ref=f1e2370]
+        - list [ref=f1e2371]:
+          - listitem [ref=f1e2372]:
+            - button "Gift Cards" [ref=f1e2373] [cursor=pointer]
+          - listitem [ref=f1e2376]:
+            - link "Shop By Interest" [ref=f1e2377] [cursor=pointer]:
+              - /url: /finds?ref_=nav_em_allpf_foundit_d_0_1_1_31
+          - listitem [ref=f1e2378]:
+            - button "Amazon Live" [ref=f1e2379] [cursor=pointer]
+          - listitem [ref=f1e2382]:
+            - button "International Shopping" [ref=f1e2383] [cursor=pointer]
+          - listitem [ref=f1e2387]:
+            - link [ref=f1e2388] [cursor=pointer]:
+              - /url: /amsc?ref_=nav_em__amsc_hamburger_0_1_1_34
+              - text: Amazon Second Chance
+          - listitem [ref=f1e2389]:
+            - link "See all" [ref=f1e2390] [cursor=pointer]:
+              - /url: ""
+      - region [ref=f1e2394]:
+        - heading "Help & Settings" [level=2] [ref=f1e2395]
+        - list [ref=f1e2396]:
+          - listitem [ref=f1e2397]:
+            - link "Your Account" [ref=f1e2398] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=nav_em_ya_0_1_1_36
+          - listitem [ref=f1e2399]:
+            - link [ref=f1e2400] [cursor=pointer]:
+              - /url: /customer-preferences/edit/?preferencesReturnUrl=%2F&ref_=nav_em_mozart_0_1_1_37
+          - listitem [ref=f1e2403]:
+            - link [ref=f1e2404] [cursor=pointer]:
+              - /url: /customer-preferences/country/?ref_=nav_em_locale_0_1_1_38
+          - listitem [ref=f1e2407]:
+            - link "Customer Service" [ref=f1e2408] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=nav_em_cs_hm_0_1_1_39
+          - listitem [ref=f1e2409]:
+            - link "Sign in" [ref=f1e2410] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - link [ref=f1e2411] [cursor=pointer]:
+      - /url: javascript:void(0)
+      - generic [ref=f1e2412]: Back to top

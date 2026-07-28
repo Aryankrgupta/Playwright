@@ -1,0 +1,103 @@
+[   10713ms] [INFO] Helios: confiant disable  @ :5
+[   10713ms] [INFO] Helios: helios disable  @ :5
+[   10822ms] [ERROR] %cAY background: linear-gradient(-152deg,#6937ea,#377fea 65%);border-radius: 3px;color: white;padding: 1px 5px Missing required modules: prebidServerBidAdapter, s2sTesting @ :5
+[   11470ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rQ (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:105197)
+    at rZ (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:106565)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:200572
+    at sm (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:205739)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196989)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:191814
+    at se (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:191915)
+    at sW (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:218479)
+    at MessagePort.O (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:66637)
+[   14853ms] [WARNING] Identity value for 'email' is falsy (). This value will be removed from the request. @ :5
+[   15080ms] [ERROR] p: MISSING_MESSAGE: HealthAndActivities.healthAndActivities (en-IN)
+    at c (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8277)
+    at m (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8464)
+    at f (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8923)
+    at d (https://weather.com/_next/static/chunks/2rqgnaba-_iax.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:5:208629)
+    at oy (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:121829)
+    at i0 (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:142086)
+    at ls (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:153688)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196928)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196773
+    at sf (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196781) @ :5
+[   15083ms] [ERROR] p: MISSING_MESSAGE: HealthAndActivities.healthAndActivities (en-IN)
+    at c (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8277)
+    at m (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8464)
+    at f (https://weather.com/_next/static/chunks/1agbnwcbp22v4.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:3:8923)
+    at d (https://weather.com/_next/static/chunks/2rqgnaba-_iax.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:5:208629)
+    at oy (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:121829)
+    at i0 (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:142086)
+    at ls (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:153688)
+    at sd (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196928)
+    at https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196773
+    at sf (https://weather.com/_next/static/chunks/407047f5-9db8.js?dpl=dpl_6mvSuGWkee2HYUq1UG98CoqNj8xK:6:196781) @ :5
+[   15100ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.weather.com/v3/alerts/headlines?format=json&language=en-IN&apiKey=71f92ea9dd2f4790b92ea9dd2f779061&geocode=28.614%2C77.209:0
+[   16952ms] [WARNING] [GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.
+https://goo.gle/gpt-message#170 @ :5
+[   16954ms] [INFO] Helios: Process special slot  WX_Hidden @ :5
+[   16954ms] [INFO] Helios: Process special slot  MW_Interstitial @ :5
+[   16957ms] [WARNING] [GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171 @ :5
+[   17107ms] [ERROR] Provider's accounts list is empty. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[   18361ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ :5
+[   18851ms] [WARNING] adgb - not initialized. @ :5
+[   19471ms] [WARNING] Placements With no Content: Below Content Thumbnails - today | Lazy Injected 1 @ :5
+[   19473ms] [WARNING] Placements With no Content: Below Content Thumbnails - today | Lazy Injected 1 @ :5
+[   19875ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ :5
+[   26285ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.weather.com/v3/alerts/headlines?format=json&language=en-IN&apiKey=71f92ea9dd2f4790b92ea9dd2f779061&geocode=28.614%2C77.209:0
+[   35444ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[   36360ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[   38208ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   39490ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ad.turn.com/r/cs?pid=75&us_privacy=&gdpr=0&gdpr_consent=:0
+[   39964ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ap.lijit.com/pixel?gdpr=0&gdpr_consent=&us_privacy=&gpp=&gpp_sid=&redir=https%3A%2F%2Fs.seedtag.com%2Fcs%2Fcookiesync%2Fsovrn%3Fchanneluid%3D%24UID:0
+[   42861ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.weather.com/v3/alerts/headlines?format=json&language=en-IN&apiKey=71f92ea9dd2f4790b92ea9dd2f779061&geocode=28.614%2C77.209:0
+[   44950ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://cs.nex8.net/cs/openx:0
+[   45082ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://cs.nex8.net/cs/openx:0
+[   45798ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.targeting.unrulymedia.com/csync/RX-46807137-e5cd-48e4-96f1-2ef715523889-004?redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dr1%26google_push%3DAXcoOmQ6MNBeL35eBmCWxBoMBowDrkBpKx1oUoYM2FlLzASwHzpSS5AGSboFJqtZXWMq_6HninMNRe5CnZ45BTQYuqJ2t8odJtXqxMltegb3kcc8zNHjb90eS8NOok9QDqd2vbx0EJ_OjTt-HcWz-pREUXt6%26google_hm%3DBEaAcTflzUjklvEu9xVSOIk:0
+[   39964ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ap.lijit.com/pixel?gdpr=0&gdpr_consent=&us_privacy=&gpp=&gpp_sid=&redir=https%3A%2F%2Fs.seedtag.com%2Fcs%2Fcookiesync%2Fsovrn%3Fchanneluid%3D%24UID:0
+[   46631ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://match.prod.bidr.io/cookie-sync/see?_bee_ppp=1:0
+[   39964ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ap.lijit.com/pixel?gdpr=0&gdpr_consent=&us_privacy=&gpp=&gpp_sid=&redir=https%3A%2F%2Fs.seedtag.com%2Fcs%2Fcookiesync%2Fsovrn%3Fchanneluid%3D%24UID:0
+[   48888ms] [ERROR] Failed to load resource: the server responded with a status of 424 (Failed Dependency) @ https://t.adx.opera.com/pub/sync?pubid=pub10101531197440&gdpr=1&gdpr_consent=:0
+[   52172ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.1rx.io/usersync2/rmpssp?sub=onetaglimited&gdpr=1&gdpr_consent=${GDPR_CONSENT}&us_privacy=:0
+[   52172ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.1rx.io/usersync2/rmpssp?sub=taboola:0
+[   52832ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ad.turn.com/r/cs?pid=9&gdpr=0:0
+[   45798ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.targeting.unrulymedia.com/csync/RX-46807137-e5cd-48e4-96f1-2ef715523889-004?redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dr1%26google_push%3DAXcoOmQ6MNBeL35eBmCWxBoMBowDrkBpKx1oUoYM2FlLzASwHzpSS5AGSboFJqtZXWMq_6HninMNRe5CnZ45BTQYuqJ2t8odJtXqxMltegb3kcc8zNHjb90eS8NOok9QDqd2vbx0EJ_OjTt-HcWz-pREUXt6%26google_hm%3DBEaAcTflzUjklvEu9xVSOIk:0
+[   58005ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   61253ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[   62353ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://www.google.com/ads/measurement/l?ebcid=ALh7CaSKllXtfuX8LaHaSKGGrikAhOwdGDV45zV-J52oXUZK70zLUfycpFT0BaxXAHCMmjsA0ahSXVpSArqJg7RQgw0MoLGMjg:0
+[   62712ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[   64305ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ https://id5-sync.com/s/464/9.gif?puid=58399449-e990-43d2-88a6-ad0b7583b654-tuct1158ad93&gdpr=0&&callback=https%3A%2F%2Fsync.taboola.com%2Fsg%2Fid5-network%2F1%2Frtb-h%2F%3Ftaboola_hm%3D%7BID5UID%7D:0
+[   67953ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.weather.com/v3/alerts/headlines?format=json&language=en-IN&apiKey=71f92ea9dd2f4790b92ea9dd2f779061&geocode=28.614%2C77.209:0
+[   39964ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ap.lijit.com/pixel?gdpr=0&gdpr_consent=&us_privacy=&gpp=&gpp_sid=&redir=https%3A%2F%2Fs.seedtag.com%2Fcs%2Fcookiesync%2Fsovrn%3Fchanneluid%3D%24UID:0
+[   39964ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ap.lijit.com/pixel?gdpr=0&gdpr_consent=&us_privacy=&gpp=&gpp_sid=&redir=https%3A%2F%2Fs.seedtag.com%2Fcs%2Fcookiesync%2Fsovrn%3Fchanneluid%3D%24UID:0
+[   45798ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.targeting.unrulymedia.com/csync/RX-46807137-e5cd-48e4-96f1-2ef715523889-004?redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dr1%26google_push%3DAXcoOmQ6MNBeL35eBmCWxBoMBowDrkBpKx1oUoYM2FlLzASwHzpSS5AGSboFJqtZXWMq_6HninMNRe5CnZ45BTQYuqJ2t8odJtXqxMltegb3kcc8zNHjb90eS8NOok9QDqd2vbx0EJ_OjTt-HcWz-pREUXt6%26google_hm%3DBEaAcTflzUjklvEu9xVSOIk:0
+[   62353ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://www.google.com/ads/measurement/l?ebcid=ALh7CaSKllXtfuX8LaHaSKGGrikAhOwdGDV45zV-J52oXUZK70zLUfycpFT0BaxXAHCMmjsA0ahSXVpSArqJg7RQgw0MoLGMjg:0
+[   89861ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   90139ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[   90243ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[   45798ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.targeting.unrulymedia.com/csync/RX-46807137-e5cd-48e4-96f1-2ef715523889-004?redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dr1%26google_push%3DAXcoOmQ6MNBeL35eBmCWxBoMBowDrkBpKx1oUoYM2FlLzASwHzpSS5AGSboFJqtZXWMq_6HninMNRe5CnZ45BTQYuqJ2t8odJtXqxMltegb3kcc8zNHjb90eS8NOok9QDqd2vbx0EJ_OjTt-HcWz-pREUXt6%26google_hm%3DBEaAcTflzUjklvEu9xVSOIk:0
+[   62353ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://www.google.com/ads/measurement/l?ebcid=ALh7CaSKllXtfuX8LaHaSKGGrikAhOwdGDV45zV-J52oXUZK70zLUfycpFT0BaxXAHCMmjsA0ahSXVpSArqJg7RQgw0MoLGMjg:0
+[  121184ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  121606ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  121671ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  121904ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sync.search.spotxchange.com/partner?adv_id=7025&uid=CAESEGT3kvrMcs4UAkdTJUtQTzI&google_cver=1:0
+[  121904ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sync.search.spotxchange.com/partner?adv_id=7025&redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dspotxchange_dbm%26google_hm%3D%24SPOTX_BASE64_USER_ID:0
+[  138347ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.weather.com/v3/alerts/headlines?format=json&language=en-IN&apiKey=71f92ea9dd2f4790b92ea9dd2f779061&geocode=28.614%2C77.209:0
+[   45798ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.targeting.unrulymedia.com/csync/RX-46807137-e5cd-48e4-96f1-2ef715523889-004?redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dr1%26google_push%3DAXcoOmQ6MNBeL35eBmCWxBoMBowDrkBpKx1oUoYM2FlLzASwHzpSS5AGSboFJqtZXWMq_6HninMNRe5CnZ45BTQYuqJ2t8odJtXqxMltegb3kcc8zNHjb90eS8NOok9QDqd2vbx0EJ_OjTt-HcWz-pREUXt6%26google_hm%3DBEaAcTflzUjklvEu9xVSOIk:0
+[   62353ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://www.google.com/ads/measurement/l?ebcid=ALh7CaSKllXtfuX8LaHaSKGGrikAhOwdGDV45zV-J52oXUZK70zLUfycpFT0BaxXAHCMmjsA0ahSXVpSArqJg7RQgw0MoLGMjg:0
+[  152794ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  121904ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sync.search.spotxchange.com/partner?adv_id=7025&uid=CAESEGT3kvrMcs4UAkdTJUtQTzI&google_cver=1:0
+[  121904ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sync.search.spotxchange.com/partner?adv_id=7025&redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dspotxchange_dbm%26google_hm%3D%24SPOTX_BASE64_USER_ID:0
+[  153180ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  153196ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[   45798ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync.targeting.unrulymedia.com/csync/RX-46807137-e5cd-48e4-96f1-2ef715523889-004?redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dr1%26google_push%3DAXcoOmQ6MNBeL35eBmCWxBoMBowDrkBpKx1oUoYM2FlLzASwHzpSS5AGSboFJqtZXWMq_6HninMNRe5CnZ45BTQYuqJ2t8odJtXqxMltegb3kcc8zNHjb90eS8NOok9QDqd2vbx0EJ_OjTt-HcWz-pREUXt6%26google_hm%3DBEaAcTflzUjklvEu9xVSOIk:0
+[   62353ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://www.google.com/ads/measurement/l?ebcid=ALh7CaSKllXtfuX8LaHaSKGGrikAhOwdGDV45zV-J52oXUZK70zLUfycpFT0BaxXAHCMmjsA0ahSXVpSArqJg7RQgw0MoLGMjg:0
+[  187734ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[  121904ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sync.search.spotxchange.com/partner?adv_id=7025&uid=CAESEGT3kvrMcs4UAkdTJUtQTzI&google_cver=1:0
+[  121904ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sync.search.spotxchange.com/partner?adv_id=7025&redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dspotxchange_dbm%26google_hm%3D%24SPOTX_BASE64_USER_ID:0
+[  188639ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0
+[  189012ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://weather.com/en-IN/in/delhi/city/new-delhi/today?Goto=Redirected:0

@@ -1,0 +1,260 @@
+- generic [active] [ref=f20e1]:
+  - banner [ref=f20e2]:
+    - generic [ref=f20e3]:
+      - link "Google News" [ref=f20e7] [cursor=pointer]:
+        - /url: ./?hl=en-IN&gl=IN&ceid=IN%3Aen
+        - generic [ref=f20e9]: News
+      - generic [ref=f20e10]:
+        - search [ref=f20e12]:
+          - generic [ref=f20e17]:
+            - combobox "Search for topics, locations & sources" [ref=f20e19]
+            - status
+          - button [ref=f20e20] [cursor=pointer]:
+            - generic [ref=f20e21]:
+              - generic "Advanced search" [ref=f20e22]
+              - tooltip [ref=f20e25]: Advanced search
+          - button "Search" [ref=f20e26] [cursor=pointer]
+        - generic [ref=f20e30]:
+          - generic [ref=f20e35]:
+            - button "Help" [ref=f20e36] [cursor=pointer]
+            - tooltip [ref=f20e40]: Help
+          - generic [ref=f20e45]:
+            - button "Settings" [ref=f20e46] [cursor=pointer]
+            - tooltip [ref=f20e51]: Settings
+      - generic [ref=f20e53]:
+        - button "Google apps" [ref=f20e57] [cursor=pointer]
+        - link "Sign in" [ref=f20e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://news.google.com/home?hl%3Den-IN%26gl%3DIN%26ceid%3DIN:en&followup=https://news.google.com/home?hl%3Den-IN%26gl%3DIN%26ceid%3DIN:en&hl=en-IN&ec=GAZAqgM
+    - navigation [ref=f20e64]:
+      - tablist [ref=f20e65]:
+        - tab [selected] [ref=f20e66] [cursor=pointer]:
+          - tab "Home" [selected] [ref=f20e67]
+        - tab [ref=f20e68] [cursor=pointer]:
+          - tab "For you" [ref=f20e69]
+        - tab [ref=f20e70] [cursor=pointer]:
+          - tab "Following" [ref=f20e71]
+        - tab [ref=f20e72] [cursor=pointer]:
+          - tab "News Showcase" [ref=f20e73]
+        - tab [ref=f20e76] [cursor=pointer]:
+          - tab "India" [ref=f20e77]
+        - tab [ref=f20e78] [cursor=pointer]:
+          - tab "World" [ref=f20e79]
+        - tab [ref=f20e80] [cursor=pointer]:
+          - tab "Local" [ref=f20e81]
+        - tab [ref=f20e82] [cursor=pointer]:
+          - tab "Business" [ref=f20e83]
+        - tab [ref=f20e84] [cursor=pointer]:
+          - tab "Technology" [ref=f20e85]
+      - generic [ref=f20e89]:
+        - button "More" [ref=f20e90] [cursor=pointer]
+        - tooltip [ref=f20e94]: More
+  - main [ref=f20e99]:
+    - generic [ref=f20e102]:
+      - generic [ref=f20e103]:
+        - generic [ref=f20e104]:
+          - heading "Your briefing" [level=1] [ref=f20e105]
+          - paragraph [ref=f20e106]: Friday, 24 July
+        - generic [ref=f20e109]:
+          - generic [ref=f20e110]:
+            - generic [ref=f20e111]:
+              - generic [ref=f20e112]: Today
+              - generic [ref=f20e114]:
+                - generic [ref=f20e115]: 30°
+                - generic [ref=f20e116]: 26°
+            - generic [ref=f20e117]:
+              - generic [ref=f20e118]: Sat
+              - generic [ref=f20e120]:
+                - generic [ref=f20e121]: 32°
+                - generic [ref=f20e122]: 27°
+            - generic [ref=f20e123]:
+              - generic [ref=f20e124]: Sun
+              - generic [ref=f20e126]:
+                - generic [ref=f20e127]: 33°
+                - generic [ref=f20e128]: 27°
+            - generic [ref=f20e129]:
+              - generic [ref=f20e130]: Mon
+              - generic [ref=f20e132]:
+                - generic [ref=f20e133]: 33°
+                - generic [ref=f20e134]: 27°
+          - generic [ref=f20e135]:
+            - button "Expand to view forecast" [ref=f20e136] [cursor=pointer]
+            - generic "Your local weather, 28°C, rain" [ref=f20e139]:
+              - img "rain" [ref=f20e140]
+              - generic [ref=f20e141]:
+                - generic [ref=f20e142]:
+                  - generic [ref=f20e143]: Your local weather
+                  - button "Use precise location" [ref=f20e144] [cursor=pointer]
+                - generic [ref=f20e147]: 28°C
+                - link "Google Weather" [ref=f20e148] [cursor=pointer]:
+                  - /url: https://support.google.com/websearch/answer/13687874
+      - generic [ref=f20e150]:
+        - heading [level=3] [ref=f20e153]:
+          - link "Top stories" [ref=f20e154] [cursor=pointer]:
+            - /url: ./topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRFZxYUdjU0JXVnVMVWRDR2dKSlRpZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+        - generic [ref=f20e160]:
+          - generic [ref=f20e161]:
+            - generic [ref=f20e162]:
+              - link [ref=f20e164] [cursor=pointer]:
+                - /url: ./read/CBMiuwFBVV95cUxNUkVSMnBBQmNObHA3bUlsTUdIamdlNkJ4bDA2bGcxU3VYQW5La25LVEo1SUpndmpEUmZmQXlGazQ4TDFaVVc5akhhVlV4eURXTWYwbzZBbEFiemNQMVQxckF0Wm5zam4yLWYzelN2WGtMYnpOaFZLZHRwNVlvaWdHbXJKck05d1lfcl80Z2JZVHo4UUFTcTd4VUR2Q1hsMzZLa0pId1pTRlpzUV9OOFlES1BPUDQwWDRwd1Fv0gHAAUFVX3lxTE4wRlc2U2Z2c2pZUWI2Yi1DamdORUdmSmg1YkdqeEdmVzYyUklBa1J0MWphQ0Z2aUcyVmFSY0x6QVR1eUJSRHFSV2RjNnZjdW5oTmpEd1VEWUF5VjIxSl9la1poeE1XSWJSSkUxdUJjNENFOFlBZjdJdzdzc05uNEdVXzI4c3BLTGdLN3Z1QUFtVFdLbjJHd1ZQM0J3RWZaY0tnRlk5SGhmZnZxUnNTTnl6dGJxek5JZlIwRU1wWHlCQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - figure [ref=f20e165]
+              - generic [ref=f20e166]:
+                - generic [ref=f20e167]: Live Law
+                - generic [ref=f20e173]:
+                  - generic:
+                    - button "More - Bombay High Court Designates Two Special Courts In Aurangabad & Nagpur To Fast Track Paper Leak Cases" [ref=f20e174] [cursor=pointer]
+                    - tooltip [ref=f20e178]: More
+              - link "Bombay High Court Designates Two Special Courts In Aurangabad & Nagpur To Fast Track Paper Leak Cases - Live Law - 5 hours ago - By Narsi Benwal" [ref=f20e179] [cursor=pointer]:
+                - /url: ./read/CBMiuwFBVV95cUxNUkVSMnBBQmNObHA3bUlsTUdIamdlNkJ4bDA2bGcxU3VYQW5La25LVEo1SUpndmpEUmZmQXlGazQ4TDFaVVc5akhhVlV4eURXTWYwbzZBbEFiemNQMVQxckF0Wm5zam4yLWYzelN2WGtMYnpOaFZLZHRwNVlvaWdHbXJKck05d1lfcl80Z2JZVHo4UUFTcTd4VUR2Q1hsMzZLa0pId1pTRlpzUV9OOFlES1BPUDQwWDRwd1Fv0gHAAUFVX3lxTE4wRlc2U2Z2c2pZUWI2Yi1DamdORUdmSmg1YkdqeEdmVzYyUklBa1J0MWphQ0Z2aUcyVmFSY0x6QVR1eUJSRHFSV2RjNnZjdW5oTmpEd1VEWUF5VjIxSl9la1poeE1XSWJSSkUxdUJjNENFOFlBZjdJdzdzc05uNEdVXzI4c3BLTGdLN3Z1QUFtVFdLbjJHd1ZQM0J3RWZaY0tnRlk5SGhmZnZxUnNTTnl6dGJxek5JZlIwRU1wWHlCQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Bombay High Court Designates Two Special Courts In Aurangabad & Nagpur To Fast Track Paper Leak Cases
+              - generic [ref=f20e180]:
+                - time [ref=f20e181]: 5 hours ago
+                - separator [ref=f20e182]
+                - generic [ref=f20e183]: By Narsi Benwal
+            - generic [ref=f20e184]:
+              - generic [ref=f20e185]:
+                - link [ref=f20e187] [cursor=pointer]:
+                  - /url: ./read/CBMi4AFBVV95cUxOWlVkcFJnRDdKNXd5WjlOblVWbVM0NlllQUVId1djMEZGVTdhNDlpWm9fMmY5MFJ0VU5tRzI0RWQ5Vk5tZ3B1dDk4dU9HQlRIcGwtUTNDdWxJcnM5Q2RLcEhzZ2oyc25lQng0cWhlb1pYUTNXc202M2w1VVdKNjhDcEVEblNlUGxINTZEZF9zczY2cS1jc2xYUDcySVRNNzJLSW80MWwwbWxMelhXMldNSEhrTmlRdUx0eXhMclZlZXROWnhEVy14U041cnQ3a0xLUkc1NmljRGNKNGxOckZUbg?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e188]:
+                  - generic [ref=f20e189]: The Times of India
+                  - generic [ref=f20e195]:
+                    - generic:
+                      - 'button "More - Up to 10-year jail & Rs 10 crore fine: Cabinet clears tougher anti-paper leak bill" [ref=f20e196] [cursor=pointer]'
+                      - tooltip [ref=f20e200]: More
+                - 'link "Up to 10-year jail & Rs 10 crore fine: Cabinet clears tougher anti-paper leak bill - The Times of India - 1 hour ago" [ref=f20e201] [cursor=pointer]':
+                  - /url: ./read/CBMi4AFBVV95cUxOWlVkcFJnRDdKNXd5WjlOblVWbVM0NlllQUVId1djMEZGVTdhNDlpWm9fMmY5MFJ0VU5tRzI0RWQ5Vk5tZ3B1dDk4dU9HQlRIcGwtUTNDdWxJcnM5Q2RLcEhzZ2oyc25lQng0cWhlb1pYUTNXc202M2w1VVdKNjhDcEVEblNlUGxINTZEZF9zczY2cS1jc2xYUDcySVRNNzJLSW80MWwwbWxMelhXMldNSEhrTmlRdUx0eXhMclZlZXROWnhEVy14U041cnQ3a0xLUkc1NmljRGNKNGxOckZUbg?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: "Up to 10-year jail & Rs 10 crore fine: Cabinet clears tougher anti-paper leak bill"
+                - time [ref=f20e203]: 1 hour ago
+              - generic [ref=f20e204]:
+                - link [ref=f20e206] [cursor=pointer]:
+                  - /url: ./read/CBMi5gFBVV95cUxQbDk3djRiQkU4QVJQOGVVZmg2UGYyNXltV1o1eU14YlltbDU4V2NIZDh6LWxHWk9GNlZVVS1VSE5laERqT1YtbkNZWXhHQkFHQTBjQk5LSkRwVE5PLXlzRG1ybklIcWpGZHFxWXItajlRTWdlc0xMS2IyWnUtSlRVLVo4YUt1U3VfZmwwYVI4MnRVeEVwTHF5bTlNLU5sWmtUWXptZ1JwT0NaQUJ3TUlialQ0VU9XX2NMSmsyQmRhNDlfOHhRRmNZOF9na1ZhaGVZOWh4ZWMwYkdWU3U2RUlpdm1RbDJ3UdIB6wFBVV95cUxQb2JhRGxFNVEzRnZQNzA2RnJ2VGZ2MDRHOHZuUDNWZnVGTndTSUJmbk85T2lzZlRnSFo2eHQ4dnpSVmljRjFfM2p1VVdrYXdiTEp1OEpfMk1iS28tOWoyd0JSWmkwazVXYzV0eUtXS1ROWFlEWHFvRHM1SzNOb05kS2k4eVFOWWFKWEk0WmdZeTlrc1FmMU1waU9JTXM1dmxUcjllTGpKektQWXhSOVh1aXRscjdvVGVmWlVUVnBxZHJYVEMwVnlaN1pzcDFaQXdpcVhrN1NmcmVEMzRuNTV6UjZYM1hwaE5kTVpV?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e207]:
+                  - generic [ref=f20e208]: Telegraph India
+                  - generic [ref=f20e214]:
+                    - generic:
+                      - button "More - Dia Mirza questions PM Modi’s video message, Amol Palekar pens open letter to student protesters" [ref=f20e215] [cursor=pointer]
+                      - tooltip [ref=f20e219]: More
+                - link "Dia Mirza questions PM Modi’s video message, Amol Palekar pens open letter to student protesters - Telegraph India - 4 hours ago" [ref=f20e220] [cursor=pointer]:
+                  - /url: ./read/CBMi5gFBVV95cUxQbDk3djRiQkU4QVJQOGVVZmg2UGYyNXltV1o1eU14YlltbDU4V2NIZDh6LWxHWk9GNlZVVS1VSE5laERqT1YtbkNZWXhHQkFHQTBjQk5LSkRwVE5PLXlzRG1ybklIcWpGZHFxWXItajlRTWdlc0xMS2IyWnUtSlRVLVo4YUt1U3VfZmwwYVI4MnRVeEVwTHF5bTlNLU5sWmtUWXptZ1JwT0NaQUJ3TUlialQ0VU9XX2NMSmsyQmRhNDlfOHhRRmNZOF9na1ZhaGVZOWh4ZWMwYkdWU3U2RUlpdm1RbDJ3UdIB6wFBVV95cUxQb2JhRGxFNVEzRnZQNzA2RnJ2VGZ2MDRHOHZuUDNWZnVGTndTSUJmbk85T2lzZlRnSFo2eHQ4dnpSVmljRjFfM2p1VVdrYXdiTEp1OEpfMk1iS28tOWoyd0JSWmkwazVXYzV0eUtXS1ROWFlEWHFvRHM1SzNOb05kS2k4eVFOWWFKWEk0WmdZeTlrc1FmMU1waU9JTXM1dmxUcjllTGpKektQWXhSOVh1aXRscjdvVGVmWlVUVnBxZHJYVEMwVnlaN1pzcDFaQXdpcVhrN1NmcmVEMzRuNTV6UjZYM1hwaE5kTVpV?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: Dia Mirza questions PM Modi’s video message, Amol Palekar pens open letter to student protesters
+                - time [ref=f20e222]: 4 hours ago
+              - generic [ref=f20e223]:
+                - link [ref=f20e225] [cursor=pointer]:
+                  - /url: ./read/CBMiswFBVV95cUxNd0Y1ZHVZd1VyZjNxUUpKVW9hZjZKZWpIem5hUmNobGNjbmJKRWRCTndFMXliWkhyeGJjQ252T1o1RjNsajBVTGNSaDd2YlF4Mk01X3FNSTloOWZzcUVBZGN4T29UUDd1TEpTZ3Q2UERiUlYtaklfMnVHel9mXzgtWFRnVl9XYVgxVk9tMndqcmZaVFBwLVJwYkpROTZIMkI5LWlrNkxZVklrMEdjdXNmRlhyNNIBuAFBVV95cUxOWGZmYzFZT2s2aFpkS3Uwb2xTZHpqVjJsaGpGVXVqMnNyOHZMdXB3WVo0VUI0ZGpXUHVnM3VKeEpTYWYzOGdoWHF1elp3a2JCQkVjb0dMN1VvMlgyX3RMd19LaVRuMTh4T1ZIdmhDZ1QtM3B0VmJPLUNaUHo3NEljZ2tzcnhrNGFIOG5jbThoeTJSWGhKWlNXeFBPTURseVFCNGdsUU5yMzJPOGhWbVhKcEJpU2poWXFQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e226]:
+                  - generic [ref=f20e227]: ThePrint
+                  - generic [ref=f20e233]:
+                    - generic:
+                      - button "More - Union Cabinet approves draft Bill for stricter punishments in paper leak cases" [ref=f20e234] [cursor=pointer]
+                      - tooltip [ref=f20e238]: More
+                - link "Union Cabinet approves draft Bill for stricter punishments in paper leak cases - ThePrint - 10 hours ago" [ref=f20e239] [cursor=pointer]:
+                  - /url: ./read/CBMiswFBVV95cUxNd0Y1ZHVZd1VyZjNxUUpKVW9hZjZKZWpIem5hUmNobGNjbmJKRWRCTndFMXliWkhyeGJjQ252T1o1RjNsajBVTGNSaDd2YlF4Mk01X3FNSTloOWZzcUVBZGN4T29UUDd1TEpTZ3Q2UERiUlYtaklfMnVHel9mXzgtWFRnVl9XYVgxVk9tMndqcmZaVFBwLVJwYkpROTZIMkI5LWlrNkxZVklrMEdjdXNmRlhyNNIBuAFBVV95cUxOWGZmYzFZT2s2aFpkS3Uwb2xTZHpqVjJsaGpGVXVqMnNyOHZMdXB3WVo0VUI0ZGpXUHVnM3VKeEpTYWYzOGdoWHF1elp3a2JCQkVjb0dMN1VvMlgyX3RMd19LaVRuMTh4T1ZIdmhDZ1QtM3B0VmJPLUNaUHo3NEljZ2tzcnhrNGFIOG5jbThoeTJSWGhKWlNXeFBPTURseVFCNGdsUU5yMzJPOGhWbVhKcEJpU2poWXFQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: Union Cabinet approves draft Bill for stricter punishments in paper leak cases
+                - time [ref=f20e241]: 10 hours ago
+          - link "See more headlines and perspectives" [ref=f20e244] [cursor=pointer]:
+            - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lEdFBfU0VSSGhuT0dCWFNZQk15Z0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+        - generic [ref=f20e251]:
+          - generic [ref=f20e252]:
+            - generic [ref=f20e253]:
+              - link [ref=f20e255] [cursor=pointer]:
+                - /url: ./read/CBMiWkFVX3lxTE5MVk9qTzdOcmV3RmtoWUVxczFmOWtoRlhyQ1kxOTRmZmNqbEYtSXVmSzlJLWFqV21BVEZKU3hNRGc4UERoSUd4QkptUkYwVC1KdUxlLUJfWV9ndw?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - figure [ref=f20e256]
+              - generic [ref=f20e257]:
+                - generic [ref=f20e258]: BBC
+                - generic [ref=f20e264]:
+                  - generic:
+                    - 'button "More - Jantar Mantar protest: CJP representatives hold talks with government but stalemate continues" [ref=f20e265] [cursor=pointer]'
+                    - tooltip [ref=f20e269]: More
+              - 'link "Jantar Mantar protest: CJP representatives hold talks with government but stalemate continues - BBC - 1 hour ago - By Jaroslav Lukiv and Geeta Pandey" [ref=f20e270] [cursor=pointer]':
+                - /url: ./read/CBMiWkFVX3lxTE5MVk9qTzdOcmV3RmtoWUVxczFmOWtoRlhyQ1kxOTRmZmNqbEYtSXVmSzlJLWFqV21BVEZKU3hNRGc4UERoSUd4QkptUkYwVC1KdUxlLUJfWV9ndw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "Jantar Mantar protest: CJP representatives hold talks with government but stalemate continues"
+              - generic [ref=f20e271]:
+                - time [ref=f20e272]: 1 hour ago
+                - separator [ref=f20e273]
+                - generic [ref=f20e274]: By Jaroslav Lukiv and Geeta Pandey
+            - generic [ref=f20e275]:
+              - generic [ref=f20e276]:
+                - link [ref=f20e278] [cursor=pointer]:
+                  - /url: ./read/CBMi8wFBVV95cUxQaTNFMzdYMENoeVVlR2FyZHozZm4xdHpIUEp3LU5MWnlkMlVKQWkwVDlobFlRYzdhOFo5RmdMQmFBVkJXSTVTNzBiVkVZU2VYZUw4dFItMndSaEdnYWx5Y2xvbDA2N3dpZUFtWl8tQjhfejRMcXZxNkxSOUVHN0dYS3Qybm16cmNPcVQ0SlUwRFBOQThJbjFGTnRVdHlzSUE4dmp6TnJhSFZCdlV4bHJSMzRFZGd6eWtfN3dXenR0TXp1MDdFZE1DckVkYUx4WnQ2YzdSNHhQZDVTWnpLSkl3TFBPODdNaHFDTHNGTGZtWTdLRGc?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e279]:
+                  - generic [ref=f20e280]: The Times of India
+                  - generic [ref=f20e286]:
+                    - generic:
+                      - 'button "More - Govt ready on 2 demands, CJP adamant on Pradhan''s resignation: What happened in round 2 of talks" [ref=f20e287] [cursor=pointer]'
+                      - tooltip [ref=f20e291]: More
+                - 'link "Govt ready on 2 demands, CJP adamant on Pradhan''s resignation: What happened in round 2 of talks - The Times of India - 1 hour ago" [ref=f20e292] [cursor=pointer]':
+                  - /url: ./read/CBMi8wFBVV95cUxQaTNFMzdYMENoeVVlR2FyZHozZm4xdHpIUEp3LU5MWnlkMlVKQWkwVDlobFlRYzdhOFo5RmdMQmFBVkJXSTVTNzBiVkVZU2VYZUw4dFItMndSaEdnYWx5Y2xvbDA2N3dpZUFtWl8tQjhfejRMcXZxNkxSOUVHN0dYS3Qybm16cmNPcVQ0SlUwRFBOQThJbjFGTnRVdHlzSUE4dmp6TnJhSFZCdlV4bHJSMzRFZGd6eWtfN3dXenR0TXp1MDdFZE1DckVkYUx4WnQ2YzdSNHhQZDVTWnpLSkl3TFBPODdNaHFDTHNGTGZtWTdLRGc?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: "Govt ready on 2 demands, CJP adamant on Pradhan's resignation: What happened in round 2 of talks"
+                - time [ref=f20e294]: 1 hour ago
+              - generic [ref=f20e295]:
+                - link [ref=f20e297] [cursor=pointer]:
+                  - /url: ./read/CBMi1wFBVV95cUxNYi1Lc2d5bWhPSUY0Q0M1OW83OFExQnlPdXdINHAxTVFpZV8zUkZzUllBZVlJeldOUGViYm9mOW5yeUk1OFJGTUJCRGdxRG54V0VXd29NeGpybWt3Q05ScHdDXzV1Vlk5MzByaXBicTRXUlhwN1lqU1hsR082SkxONi1uSHZkRzUtQ2pvbFVtRXRRcEpvVllqUjFMdVN0X3JQdVN5SEh4bjd4Z2RrckJpSWZuYWdXRzAtajlpOHJySlhhNjZQU0RiNkZsMVVld01DNjQyR29hYw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e298]:
+                  - generic [ref=f20e299]: NDTV
+                  - generic [ref=f20e305]:
+                    - generic:
+                      - 'button "More - \"Dharmendra Pradhan Must Quit\": Abhijeet Dipke As CJP, Centre Hold Talks" [ref=f20e306] [cursor=pointer]'
+                      - tooltip [ref=f20e310]: More
+                - 'link "\"Dharmendra Pradhan Must Quit\": Abhijeet Dipke As CJP, Centre Hold Talks - NDTV - 4 hours ago - By Ashutosh Tripathi" [ref=f20e311] [cursor=pointer]':
+                  - /url: ./read/CBMi1wFBVV95cUxNYi1Lc2d5bWhPSUY0Q0M1OW83OFExQnlPdXdINHAxTVFpZV8zUkZzUllBZVlJeldOUGViYm9mOW5yeUk1OFJGTUJCRGdxRG54V0VXd29NeGpybWt3Q05ScHdDXzV1Vlk5MzByaXBicTRXUlhwN1lqU1hsR082SkxONi1uSHZkRzUtQ2pvbFVtRXRRcEpvVllqUjFMdVN0X3JQdVN5SEh4bjd4Z2RrckJpSWZuYWdXRzAtajlpOHJySlhhNjZQU0RiNkZsMVVld01DNjQyR29hYw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: "\"Dharmendra Pradhan Must Quit\": Abhijeet Dipke As CJP, Centre Hold Talks"
+                - generic [ref=f20e312]:
+                  - time [ref=f20e313]: 4 hours ago
+                  - separator [ref=f20e314]
+                  - generic [ref=f20e315]: By Ashutosh Tripathi
+              - generic [ref=f20e316]:
+                - link [ref=f20e318] [cursor=pointer]:
+                  - /url: ./read/CBMiqAFBVV95cUxNcjR4enQ1MS0tNENOSmhlQUpLZU8xVzlxVC1BcmRyUjRvY2xMd291Ti1BVEFIbVhWZXlYYjhsUGlNMVV3b1JKb0sxM1lrWHlOSERTLVFlQVRzSFJ5VE9ISmo2M2sweUdSYWhpT1FUaVR0Y1ZvaHNEaHBqckE2U0JQTC04WFh0dEVtTnBzNlB0TWs4UVJLUkUwMHFLQld1TXUwZFFTM04xYXk?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e319]:
+                  - generic [ref=f20e320]: News On AIR
+                  - generic [ref=f20e326]:
+                    - generic:
+                      - button "More - Second round of talks between CJP leaders and Union Ministers underway in Delhi" [ref=f20e327] [cursor=pointer]
+                      - tooltip [ref=f20e331]: More
+                - link "Second round of talks between CJP leaders and Union Ministers underway in Delhi - News On AIR - 3 hours ago" [ref=f20e332] [cursor=pointer]:
+                  - /url: ./read/CBMiqAFBVV95cUxNcjR4enQ1MS0tNENOSmhlQUpLZU8xVzlxVC1BcmRyUjRvY2xMd291Ti1BVEFIbVhWZXlYYjhsUGlNMVV3b1JKb0sxM1lrWHlOSERTLVFlQVRzSFJ5VE9ISmo2M2sweUdSYWhpT1FUaVR0Y1ZvaHNEaHBqckE2U0JQTC04WFh0dEVtTnBzNlB0TWs4UVJLUkUwMHFLQld1TXUwZFFTM04xYXk?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: Second round of talks between CJP leaders and Union Ministers underway in Delhi
+                - time [ref=f20e334]: 3 hours ago
+          - link "See more headlines and perspectives" [ref=f20e337] [cursor=pointer]:
+            - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lMNzd6VkVSRnM2X2F6QUYzd2JTZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+        - generic [ref=f20e344]:
+          - generic [ref=f20e345]:
+            - link [ref=f20e347] [cursor=pointer]:
+              - /url: ./read/CBMiswFBVV95cUxNbnZxbTdDVy11MW5SY1otelI1Q1hhSGlLZEdkRWhFcVp4YU1nNEFkd0pxb0tBbmR6cDhjMHVTYTByX1hhUHdJRkdBMWxCSGdabFNTMGlJQ3QxaWdCWUYyUXQ0aE1uT3dmS2haUTRrRHlFeFA5dUgtd3NKQm1qeXFoNk93Q0QwVURqNlh0R3RIcUZkWmpqSUN2bW1Sd2tvdndMaVJEb004Z3BaUkR2NFJ0WVI5b9IBuAFBVV95cUxNNjFhajRrbVVLWUFDNG8zVDc0R1hZWW5sRXlCVGpPUF9rczNIalBVbklJWThLTzNlVWZEdFN3Nmt3V2ktVFI0UGctN3BCVmZHLWNZWGgxbmtpcFJHUkk1VzRnZHF3SUxvY29RYmk1dUpNLURiOHc2WmZJdmRlaEdXcDV0N2owMEdNYmRMMWU0M3JFdjJBUUNLWGlHcnVJTGhBZXU3UVR5LTItODY1NzNjamVZeExvTUtZ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e349]:
+              - generic [ref=f20e350]:
+                - generic [ref=f20e351]: Telegraph India
+                - generic [ref=f20e357]:
+                  - generic:
+                    - 'button "More - No petition filed against police action on CJP protests, media reports ‘reckless’: CJI Surya Kant" [ref=f20e358] [cursor=pointer]'
+                    - tooltip [ref=f20e362]: More
+              - 'link "No petition filed against police action on CJP protests, media reports ‘reckless’: CJI Surya Kant - Telegraph India - 4 hours ago" [ref=f20e363] [cursor=pointer]':
+                - /url: ./read/CBMiswFBVV95cUxNbnZxbTdDVy11MW5SY1otelI1Q1hhSGlLZEdkRWhFcVp4YU1nNEFkd0pxb0tBbmR6cDhjMHVTYTByX1hhUHdJRkdBMWxCSGdabFNTMGlJQ3QxaWdCWUYyUXQ0aE1uT3dmS2haUTRrRHlFeFA5dUgtd3NKQm1qeXFoNk93Q0QwVURqNlh0R3RIcUZkWmpqSUN2bW1Sd2tvdndMaVJEb004Z3BaUkR2NFJ0WVI5b9IBuAFBVV95cUxNNjFhajRrbVVLWUFDNG8zVDc0R1hZWW5sRXlCVGpPUF9rczNIalBVbklJWThLTzNlVWZEdFN3Nmt3V2ktVFI0UGctN3BCVmZHLWNZWGgxbmtpcFJHUkk1VzRnZHF3SUxvY29RYmk1dUpNLURiOHc2WmZJdmRlaEdXcDV0N2owMEdNYmRMMWU0M3JFdjJBUUNLWGlHcnVJTGhBZXU3UVR5LTItODY1NzNjamVZeExvTUtZ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "No petition filed against police action on CJP protests, media reports ‘reckless’: CJI Surya Kant"
+          - generic [ref=f20e364]:
+            - time [ref=f20e365]: 4 hours ago
+            - 'link "See more headlines and perspectives - No petition filed against police action on CJP protests, media reports ‘reckless’: CJI Surya Kant" [ref=f20e366] [cursor=pointer]':
+              - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pGclByTkVSR044eUthbUg0WTFpZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - generic [ref=f20e369]: See more
+        - generic [ref=f20e373]:
+          - generic [ref=f20e374]:
+            - link [ref=f20e376] [cursor=pointer]:
+              - /url: ./read/CBMitAFBVV95cUxPRDFTT1dsSTQ1QU5raW4xeDkzZFJFa1lYX0JUeDV3UmV3eGVxQkwtdHBramk4VlVWSVlMc1d2VVMyeTEySThNOUY4WEI5VkJpV1pZU2gzWFBDQlZub0V0aHc3ZFQtcWFaWlJQTGU0WEE2MmlpYnBPa1loUlhYeUl0UVVtTHNUdWJtbng1UG9PZ2VZYjVuUGdnT3MyT1pzdWg2QkUtWjdLSWZydW1panJHX0xNc1_SAbsBQVVfeXFMT2habTkyUGxEMXpfUFNtMG1tSlZNZDRUNGl2akYtdnhmeG9odjhxeWZRNk4tclNvbG5qY2x1aWhTLUhCd0pUX2JMQXhBMVZoSXhLM083U0NqOHlXUUYxLVVnZ0pzdWlOUUFfUTltVnJIQTljUzRtb3J6VlkwTDRPam9jVW1hS1RoRXVxR0FOa1ZrSlVNUjQzZlY0cjhaS3FCQ0ZOb05JazlibnFCak1KOTdLanRWNENqcTRfOA?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e378]:
+              - generic [ref=f20e379]:
+                - generic [ref=f20e380]: The Hindu
+                - generic [ref=f20e386]:
+                  - generic:
+                    - 'button "More - CRPF ‘verifying’ reports of pellet guns used against protesters in Delhi: official" [ref=f20e387] [cursor=pointer]'
+                    - tooltip [ref=f20e391]: More
+              - 'link "CRPF ‘verifying’ reports of pellet guns used against protesters in Delhi: official - The Hindu - 5 hours ago" [ref=f20e392] [cursor=pointer]':
+                - /url: ./read/CBMitAFBVV95cUxPRDFTT1dsSTQ1QU5raW4xeDkzZFJFa1lYX0JUeDV3UmV3eGVxQkwtdHBramk4VlVWSVlMc1d2VVMyeTEySThNOUY4WEI5VkJpV1pZU2gzWFBDQlZub0V0aHc3ZFQtcWFaWlJQTGU0WEE2MmlpYnBPa1loUlhYeUl0UVVtTHNUdWJtbng1UG9PZ2VZYjVuUGdnT3MyT1pzdWg2QkUtWjdLSWZydW1panJHX0xNc1_SAbsBQVVfeXFMT2habTkyUGxEMXpfUFNtMG1tSlZNZDRUNGl2akYtdnhmeG9odjhxeWZRNk4tclNvbG5qY2x1aWhTLUhCd0pUX2JMQXhBMVZoSXhLM083U0NqOHlXUUYxLVVnZ0pzdWlOUUFfUTltVnJIQTljUzRtb3J6VlkwTDRPam9jVW1hS1RoRXVxR0FOa1ZrSlVNUjQzZlY0cjhaS3FCQ0ZOb05JazlibnFCak1KOTdLanRWNENqcTRfOA?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "CRPF ‘verifying’ reports of pellet guns used against protesters in Delhi: official"
+            - figure [ref=f20e393]
+          - generic [ref=f20e394]:
+            - time [ref=f20e395]: 5 hours ago
+            - 'link "See more headlines and perspectives - CRPF ‘verifying’ reports of pellet guns used against protesters in Delhi: official" [ref=f20e396] [cursor=pointer]':
+              - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2psbllyVUVSSG9nOWVaSHFVRHpTZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - generic [ref=f20e399]: See more
+      - heading [level=3] [ref=f20e405]:
+        - link "Local news" [ref=f20e406] [cursor=pointer]:
+          - /url: ./topics/CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE?hl=en-IN&gl=IN&ceid=IN%3Aen

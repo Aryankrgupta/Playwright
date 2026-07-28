@@ -1,0 +1,46 @@
+- generic [active] [ref=f2e1]:
+  - complementary [ref=f2e2]:
+    - button "Close menu" [ref=f2e3] [cursor=pointer]: ×
+    - link "All Items" [ref=f2e4] [cursor=pointer]:
+      - /url: ./inventory.html
+    - link "About" [ref=f2e5] [cursor=pointer]:
+      - /url: https://app.thetestingacademy.com/
+    - link "Logout" [ref=f2e6] [cursor=pointer]:
+      - /url: "#"
+    - link "Reset App State" [ref=f2e7] [cursor=pointer]:
+      - /url: "#"
+  - banner [ref=f2e8]:
+    - button "Open menu" [ref=f2e9] [cursor=pointer]
+    - generic [ref=f2e12]: TTACart
+    - link "Shopping cart" [ref=f2e13] [cursor=pointer]:
+      - /url: ./cart.html
+      - generic [ref=f2e18]: "1"
+  - generic [ref=f2e19]: Product Details
+  - main [ref=f2e21]:
+    - generic [ref=f2e23]:
+      - button "Back" [ref=f2e24] [cursor=pointer]
+      - generic [ref=f2e27]:
+        - img [ref=f2e29]:
+          - generic [ref=f2e31]: test.
+          - generic [ref=f2e32]: all()
+        - generic [ref=f2e33]:
+          - heading "Test.allTheThings() T-Shirt (Red)" [level=2] [ref=f2e34]
+          - paragraph [ref=f2e35]: This classic TTA t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+          - generic [ref=f2e36]:
+            - generic [ref=f2e37]: $15.99
+            - button "Remove" [ref=f2e38] [cursor=pointer]
+  - contentinfo [ref=f2e40]:
+    - generic [ref=f2e41]:
+      - link "Twitter" [ref=f2e42] [cursor=pointer]:
+        - /url: https://twitter.com/TheTestingAcad
+      - link "Facebook" [ref=f2e45] [cursor=pointer]:
+        - /url: https://facebook.com/
+      - link "LinkedIn" [ref=f2e48] [cursor=pointer]:
+        - /url: https://linkedin.com/
+    - generic [ref=f2e51]:
+      - text: (c) 2026 TTACart - The Testing Academy. All Rights Reserved.
+      - link "Terms of Service" [ref=f2e52] [cursor=pointer]:
+        - /url: https://app.thetestingacademy.com/
+      - text: "|"
+      - link "Privacy Policy" [ref=f2e53] [cursor=pointer]:
+        - /url: https://app.thetestingacademy.com/

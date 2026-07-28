@@ -1,0 +1,1159 @@
+- generic [ref=f20e1]:
+  - banner [ref=f20e2]:
+    - generic [ref=f20e3]:
+      - link "Google News" [ref=f20e7] [cursor=pointer]:
+        - /url: ./?hl=en-IN&gl=IN&ceid=IN%3Aen
+        - generic [ref=f20e9]: News
+      - generic [ref=f20e10]:
+        - search [ref=f20e12]:
+          - generic [ref=f20e17]:
+            - combobox "Search for topics, locations & sources" [expanded] [active] [ref=f20e19]
+            - status
+          - button "Advanced search" [ref=f20e20] [cursor=pointer]:
+            - generic [ref=f20e21]:
+              - generic "Advanced search" [ref=f20e22]
+              - tooltip [ref=f20e25]: Advanced search
+          - button "Search" [ref=f20e26] [cursor=pointer]
+        - generic [ref=f20e30]:
+          - generic [ref=f20e35]:
+            - button "Help" [ref=f20e36] [cursor=pointer]
+            - tooltip [ref=f20e40]: Help
+          - generic [ref=f20e45]:
+            - button "Settings" [ref=f20e46] [cursor=pointer]
+            - tooltip [ref=f20e51]: Settings
+      - generic [ref=f20e53]:
+        - button "Google apps" [ref=f20e57] [cursor=pointer]
+        - link "Sign in" [ref=f20e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://news.google.com/home?hl%3Den-IN%26gl%3DIN%26ceid%3DIN:en&followup=https://news.google.com/home?hl%3Den-IN%26gl%3DIN%26ceid%3DIN:en&hl=en-IN&ec=GAZAqgM
+    - navigation [ref=f20e64]:
+      - tablist [ref=f20e65]:
+        - tab [selected] [ref=f20e66] [cursor=pointer]:
+          - tab "Home" [selected] [ref=f20e67]
+        - tab [ref=f20e68] [cursor=pointer]:
+          - tab "For you" [ref=f20e69]
+        - tab [ref=f20e70] [cursor=pointer]:
+          - tab "Following" [ref=f20e71]
+        - tab [ref=f20e72] [cursor=pointer]:
+          - tab "News Showcase" [ref=f20e73]
+        - tab [ref=f20e76] [cursor=pointer]:
+          - tab "India" [ref=f20e77]
+        - tab [ref=f20e78] [cursor=pointer]:
+          - tab "World" [ref=f20e79]
+        - tab [ref=f20e80] [cursor=pointer]:
+          - tab "Local" [ref=f20e81]
+        - tab [ref=f20e82] [cursor=pointer]:
+          - tab "Business" [ref=f20e83]
+        - tab [ref=f20e84] [cursor=pointer]:
+          - tab "Technology" [ref=f20e85]
+      - generic [ref=f20e89]:
+        - button "More" [ref=f20e90] [cursor=pointer]
+        - tooltip [ref=f20e94]: More
+  - main [ref=f20e99]:
+    - generic [ref=f20e102]:
+      - generic [ref=f20e103]:
+        - generic [ref=f20e104]:
+          - heading "Your briefing" [level=1] [ref=f20e105]
+          - paragraph [ref=f20e106]: Friday, 24 July
+        - generic [ref=f20e109]:
+          - generic [ref=f20e110]:
+            - generic [ref=f20e111]:
+              - generic [ref=f20e112]: Today
+              - generic [ref=f20e114]:
+                - generic [ref=f20e115]: 30°
+                - generic [ref=f20e116]: 26°
+            - generic [ref=f20e117]:
+              - generic [ref=f20e118]: Sat
+              - generic [ref=f20e120]:
+                - generic [ref=f20e121]: 32°
+                - generic [ref=f20e122]: 27°
+            - generic [ref=f20e123]:
+              - generic [ref=f20e124]: Sun
+              - generic [ref=f20e126]:
+                - generic [ref=f20e127]: 33°
+                - generic [ref=f20e128]: 27°
+            - generic [ref=f20e129]:
+              - generic [ref=f20e130]: Mon
+              - generic [ref=f20e132]:
+                - generic [ref=f20e133]: 33°
+                - generic [ref=f20e134]: 27°
+          - generic [ref=f20e135]:
+            - button "Expand to view forecast" [ref=f20e136] [cursor=pointer]
+            - generic "Your local weather, 28°C, rain" [ref=f20e139]:
+              - img "rain" [ref=f20e140]
+              - generic [ref=f20e141]:
+                - generic [ref=f20e142]:
+                  - generic [ref=f20e143]: Your local weather
+                  - button "Use precise location" [ref=f20e144] [cursor=pointer]
+                - generic [ref=f20e147]: 28°C
+                - link "Google Weather" [ref=f20e148] [cursor=pointer]:
+                  - /url: https://support.google.com/websearch/answer/13687874
+      - generic [ref=f20e150]:
+        - heading [level=3] [ref=f20e153]:
+          - link "Top stories" [ref=f20e154] [cursor=pointer]:
+            - /url: ./topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRFZxYUdjU0JXVnVMVWRDR2dKSlRpZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+        - generic [ref=f20e160]:
+          - generic [ref=f20e161]:
+            - generic [ref=f20e162]:
+              - link [ref=f20e164] [cursor=pointer]:
+                - /url: ./read/CBMiuwFBVV95cUxNUkVSMnBBQmNObHA3bUlsTUdIamdlNkJ4bDA2bGcxU3VYQW5La25LVEo1SUpndmpEUmZmQXlGazQ4TDFaVVc5akhhVlV4eURXTWYwbzZBbEFiemNQMVQxckF0Wm5zam4yLWYzelN2WGtMYnpOaFZLZHRwNVlvaWdHbXJKck05d1lfcl80Z2JZVHo4UUFTcTd4VUR2Q1hsMzZLa0pId1pTRlpzUV9OOFlES1BPUDQwWDRwd1Fv0gHAAUFVX3lxTE4wRlc2U2Z2c2pZUWI2Yi1DamdORUdmSmg1YkdqeEdmVzYyUklBa1J0MWphQ0Z2aUcyVmFSY0x6QVR1eUJSRHFSV2RjNnZjdW5oTmpEd1VEWUF5VjIxSl9la1poeE1XSWJSSkUxdUJjNENFOFlBZjdJdzdzc05uNEdVXzI4c3BLTGdLN3Z1QUFtVFdLbjJHd1ZQM0J3RWZaY0tnRlk5SGhmZnZxUnNTTnl6dGJxek5JZlIwRU1wWHlCQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - figure [ref=f20e165]
+              - generic [ref=f20e166]:
+                - generic [ref=f20e167]: Live Law
+                - generic [ref=f20e173]:
+                  - generic:
+                    - button "More - Bombay High Court Designates Two Special Courts In Aurangabad & Nagpur To Fast Track Paper Leak Cases" [ref=f20e174] [cursor=pointer]
+                    - tooltip [ref=f20e178]: More
+              - link "Bombay High Court Designates Two Special Courts In Aurangabad & Nagpur To Fast Track Paper Leak Cases - Live Law - 5 hours ago - By Narsi Benwal" [ref=f20e179] [cursor=pointer]:
+                - /url: ./read/CBMiuwFBVV95cUxNUkVSMnBBQmNObHA3bUlsTUdIamdlNkJ4bDA2bGcxU3VYQW5La25LVEo1SUpndmpEUmZmQXlGazQ4TDFaVVc5akhhVlV4eURXTWYwbzZBbEFiemNQMVQxckF0Wm5zam4yLWYzelN2WGtMYnpOaFZLZHRwNVlvaWdHbXJKck05d1lfcl80Z2JZVHo4UUFTcTd4VUR2Q1hsMzZLa0pId1pTRlpzUV9OOFlES1BPUDQwWDRwd1Fv0gHAAUFVX3lxTE4wRlc2U2Z2c2pZUWI2Yi1DamdORUdmSmg1YkdqeEdmVzYyUklBa1J0MWphQ0Z2aUcyVmFSY0x6QVR1eUJSRHFSV2RjNnZjdW5oTmpEd1VEWUF5VjIxSl9la1poeE1XSWJSSkUxdUJjNENFOFlBZjdJdzdzc05uNEdVXzI4c3BLTGdLN3Z1QUFtVFdLbjJHd1ZQM0J3RWZaY0tnRlk5SGhmZnZxUnNTTnl6dGJxek5JZlIwRU1wWHlCQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Bombay High Court Designates Two Special Courts In Aurangabad & Nagpur To Fast Track Paper Leak Cases
+              - generic [ref=f20e180]:
+                - time [ref=f20e181]: 5 hours ago
+                - separator [ref=f20e182]
+                - generic [ref=f20e183]: By Narsi Benwal
+            - generic [ref=f20e184]:
+              - generic [ref=f20e185]:
+                - link [ref=f20e187] [cursor=pointer]:
+                  - /url: ./read/CBMi4AFBVV95cUxOWlVkcFJnRDdKNXd5WjlOblVWbVM0NlllQUVId1djMEZGVTdhNDlpWm9fMmY5MFJ0VU5tRzI0RWQ5Vk5tZ3B1dDk4dU9HQlRIcGwtUTNDdWxJcnM5Q2RLcEhzZ2oyc25lQng0cWhlb1pYUTNXc202M2w1VVdKNjhDcEVEblNlUGxINTZEZF9zczY2cS1jc2xYUDcySVRNNzJLSW80MWwwbWxMelhXMldNSEhrTmlRdUx0eXhMclZlZXROWnhEVy14U041cnQ3a0xLUkc1NmljRGNKNGxOckZUbg?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e188]:
+                  - generic [ref=f20e189]: The Times of India
+                  - generic [ref=f20e195]:
+                    - generic:
+                      - 'button "More - Up to 10-year jail & Rs 10 crore fine: Cabinet clears tougher anti-paper leak bill" [ref=f20e196] [cursor=pointer]'
+                      - tooltip [ref=f20e200]: More
+                - 'link "Up to 10-year jail & Rs 10 crore fine: Cabinet clears tougher anti-paper leak bill - The Times of India - 1 hour ago" [ref=f20e201] [cursor=pointer]':
+                  - /url: ./read/CBMi4AFBVV95cUxOWlVkcFJnRDdKNXd5WjlOblVWbVM0NlllQUVId1djMEZGVTdhNDlpWm9fMmY5MFJ0VU5tRzI0RWQ5Vk5tZ3B1dDk4dU9HQlRIcGwtUTNDdWxJcnM5Q2RLcEhzZ2oyc25lQng0cWhlb1pYUTNXc202M2w1VVdKNjhDcEVEblNlUGxINTZEZF9zczY2cS1jc2xYUDcySVRNNzJLSW80MWwwbWxMelhXMldNSEhrTmlRdUx0eXhMclZlZXROWnhEVy14U041cnQ3a0xLUkc1NmljRGNKNGxOckZUbg?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: "Up to 10-year jail & Rs 10 crore fine: Cabinet clears tougher anti-paper leak bill"
+                - time [ref=f20e203]: 1 hour ago
+              - generic [ref=f20e204]:
+                - link [ref=f20e206] [cursor=pointer]:
+                  - /url: ./read/CBMi5gFBVV95cUxQbDk3djRiQkU4QVJQOGVVZmg2UGYyNXltV1o1eU14YlltbDU4V2NIZDh6LWxHWk9GNlZVVS1VSE5laERqT1YtbkNZWXhHQkFHQTBjQk5LSkRwVE5PLXlzRG1ybklIcWpGZHFxWXItajlRTWdlc0xMS2IyWnUtSlRVLVo4YUt1U3VfZmwwYVI4MnRVeEVwTHF5bTlNLU5sWmtUWXptZ1JwT0NaQUJ3TUlialQ0VU9XX2NMSmsyQmRhNDlfOHhRRmNZOF9na1ZhaGVZOWh4ZWMwYkdWU3U2RUlpdm1RbDJ3UdIB6wFBVV95cUxQb2JhRGxFNVEzRnZQNzA2RnJ2VGZ2MDRHOHZuUDNWZnVGTndTSUJmbk85T2lzZlRnSFo2eHQ4dnpSVmljRjFfM2p1VVdrYXdiTEp1OEpfMk1iS28tOWoyd0JSWmkwazVXYzV0eUtXS1ROWFlEWHFvRHM1SzNOb05kS2k4eVFOWWFKWEk0WmdZeTlrc1FmMU1waU9JTXM1dmxUcjllTGpKektQWXhSOVh1aXRscjdvVGVmWlVUVnBxZHJYVEMwVnlaN1pzcDFaQXdpcVhrN1NmcmVEMzRuNTV6UjZYM1hwaE5kTVpV?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e207]:
+                  - generic [ref=f20e208]: Telegraph India
+                  - generic [ref=f20e214]:
+                    - generic:
+                      - button "More - Dia Mirza questions PM Modi’s video message, Amol Palekar pens open letter to student protesters" [ref=f20e215] [cursor=pointer]
+                      - tooltip [ref=f20e219]: More
+                - link "Dia Mirza questions PM Modi’s video message, Amol Palekar pens open letter to student protesters - Telegraph India - 4 hours ago" [ref=f20e220] [cursor=pointer]:
+                  - /url: ./read/CBMi5gFBVV95cUxQbDk3djRiQkU4QVJQOGVVZmg2UGYyNXltV1o1eU14YlltbDU4V2NIZDh6LWxHWk9GNlZVVS1VSE5laERqT1YtbkNZWXhHQkFHQTBjQk5LSkRwVE5PLXlzRG1ybklIcWpGZHFxWXItajlRTWdlc0xMS2IyWnUtSlRVLVo4YUt1U3VfZmwwYVI4MnRVeEVwTHF5bTlNLU5sWmtUWXptZ1JwT0NaQUJ3TUlialQ0VU9XX2NMSmsyQmRhNDlfOHhRRmNZOF9na1ZhaGVZOWh4ZWMwYkdWU3U2RUlpdm1RbDJ3UdIB6wFBVV95cUxQb2JhRGxFNVEzRnZQNzA2RnJ2VGZ2MDRHOHZuUDNWZnVGTndTSUJmbk85T2lzZlRnSFo2eHQ4dnpSVmljRjFfM2p1VVdrYXdiTEp1OEpfMk1iS28tOWoyd0JSWmkwazVXYzV0eUtXS1ROWFlEWHFvRHM1SzNOb05kS2k4eVFOWWFKWEk0WmdZeTlrc1FmMU1waU9JTXM1dmxUcjllTGpKektQWXhSOVh1aXRscjdvVGVmWlVUVnBxZHJYVEMwVnlaN1pzcDFaQXdpcVhrN1NmcmVEMzRuNTV6UjZYM1hwaE5kTVpV?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: Dia Mirza questions PM Modi’s video message, Amol Palekar pens open letter to student protesters
+                - time [ref=f20e222]: 4 hours ago
+              - generic [ref=f20e223]:
+                - link [ref=f20e225] [cursor=pointer]:
+                  - /url: ./read/CBMiswFBVV95cUxNd0Y1ZHVZd1VyZjNxUUpKVW9hZjZKZWpIem5hUmNobGNjbmJKRWRCTndFMXliWkhyeGJjQ252T1o1RjNsajBVTGNSaDd2YlF4Mk01X3FNSTloOWZzcUVBZGN4T29UUDd1TEpTZ3Q2UERiUlYtaklfMnVHel9mXzgtWFRnVl9XYVgxVk9tMndqcmZaVFBwLVJwYkpROTZIMkI5LWlrNkxZVklrMEdjdXNmRlhyNNIBuAFBVV95cUxOWGZmYzFZT2s2aFpkS3Uwb2xTZHpqVjJsaGpGVXVqMnNyOHZMdXB3WVo0VUI0ZGpXUHVnM3VKeEpTYWYzOGdoWHF1elp3a2JCQkVjb0dMN1VvMlgyX3RMd19LaVRuMTh4T1ZIdmhDZ1QtM3B0VmJPLUNaUHo3NEljZ2tzcnhrNGFIOG5jbThoeTJSWGhKWlNXeFBPTURseVFCNGdsUU5yMzJPOGhWbVhKcEJpU2poWXFQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e226]:
+                  - generic [ref=f20e227]: ThePrint
+                  - generic [ref=f20e233]:
+                    - generic:
+                      - button "More - Union Cabinet approves draft Bill for stricter punishments in paper leak cases" [ref=f20e234] [cursor=pointer]
+                      - tooltip [ref=f20e238]: More
+                - link "Union Cabinet approves draft Bill for stricter punishments in paper leak cases - ThePrint - 10 hours ago" [ref=f20e239] [cursor=pointer]:
+                  - /url: ./read/CBMiswFBVV95cUxNd0Y1ZHVZd1VyZjNxUUpKVW9hZjZKZWpIem5hUmNobGNjbmJKRWRCTndFMXliWkhyeGJjQ252T1o1RjNsajBVTGNSaDd2YlF4Mk01X3FNSTloOWZzcUVBZGN4T29UUDd1TEpTZ3Q2UERiUlYtaklfMnVHel9mXzgtWFRnVl9XYVgxVk9tMndqcmZaVFBwLVJwYkpROTZIMkI5LWlrNkxZVklrMEdjdXNmRlhyNNIBuAFBVV95cUxOWGZmYzFZT2s2aFpkS3Uwb2xTZHpqVjJsaGpGVXVqMnNyOHZMdXB3WVo0VUI0ZGpXUHVnM3VKeEpTYWYzOGdoWHF1elp3a2JCQkVjb0dMN1VvMlgyX3RMd19LaVRuMTh4T1ZIdmhDZ1QtM3B0VmJPLUNaUHo3NEljZ2tzcnhrNGFIOG5jbThoeTJSWGhKWlNXeFBPTURseVFCNGdsUU5yMzJPOGhWbVhKcEJpU2poWXFQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: Union Cabinet approves draft Bill for stricter punishments in paper leak cases
+                - time [ref=f20e241]: 10 hours ago
+          - link "See more headlines and perspectives" [ref=f20e244] [cursor=pointer]:
+            - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lEdFBfU0VSSGhuT0dCWFNZQk15Z0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+        - generic [ref=f20e251]:
+          - generic [ref=f20e252]:
+            - generic [ref=f20e253]:
+              - link [ref=f20e255] [cursor=pointer]:
+                - /url: ./read/CBMiWkFVX3lxTE5MVk9qTzdOcmV3RmtoWUVxczFmOWtoRlhyQ1kxOTRmZmNqbEYtSXVmSzlJLWFqV21BVEZKU3hNRGc4UERoSUd4QkptUkYwVC1KdUxlLUJfWV9ndw?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - figure [ref=f20e256]
+              - generic [ref=f20e257]:
+                - generic [ref=f20e258]: BBC
+                - generic [ref=f20e264]:
+                  - generic:
+                    - 'button "More - Jantar Mantar protest: CJP representatives hold talks with government but stalemate continues" [ref=f20e265] [cursor=pointer]'
+                    - tooltip [ref=f20e269]: More
+              - 'link "Jantar Mantar protest: CJP representatives hold talks with government but stalemate continues - BBC - 1 hour ago - By Jaroslav Lukiv and Geeta Pandey" [ref=f20e270] [cursor=pointer]':
+                - /url: ./read/CBMiWkFVX3lxTE5MVk9qTzdOcmV3RmtoWUVxczFmOWtoRlhyQ1kxOTRmZmNqbEYtSXVmSzlJLWFqV21BVEZKU3hNRGc4UERoSUd4QkptUkYwVC1KdUxlLUJfWV9ndw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "Jantar Mantar protest: CJP representatives hold talks with government but stalemate continues"
+              - generic [ref=f20e271]:
+                - time [ref=f20e272]: 1 hour ago
+                - separator [ref=f20e273]
+                - generic [ref=f20e274]: By Jaroslav Lukiv and Geeta Pandey
+            - generic [ref=f20e275]:
+              - generic [ref=f20e276]:
+                - link [ref=f20e278] [cursor=pointer]:
+                  - /url: ./read/CBMi8wFBVV95cUxQaTNFMzdYMENoeVVlR2FyZHozZm4xdHpIUEp3LU5MWnlkMlVKQWkwVDlobFlRYzdhOFo5RmdMQmFBVkJXSTVTNzBiVkVZU2VYZUw4dFItMndSaEdnYWx5Y2xvbDA2N3dpZUFtWl8tQjhfejRMcXZxNkxSOUVHN0dYS3Qybm16cmNPcVQ0SlUwRFBOQThJbjFGTnRVdHlzSUE4dmp6TnJhSFZCdlV4bHJSMzRFZGd6eWtfN3dXenR0TXp1MDdFZE1DckVkYUx4WnQ2YzdSNHhQZDVTWnpLSkl3TFBPODdNaHFDTHNGTGZtWTdLRGc?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e279]:
+                  - generic [ref=f20e280]: The Times of India
+                  - generic [ref=f20e286]:
+                    - generic:
+                      - 'button "More - Govt ready on 2 demands, CJP adamant on Pradhan''s resignation: What happened in round 2 of talks" [ref=f20e287] [cursor=pointer]'
+                      - tooltip [ref=f20e291]: More
+                - 'link "Govt ready on 2 demands, CJP adamant on Pradhan''s resignation: What happened in round 2 of talks - The Times of India - 1 hour ago" [ref=f20e292] [cursor=pointer]':
+                  - /url: ./read/CBMi8wFBVV95cUxQaTNFMzdYMENoeVVlR2FyZHozZm4xdHpIUEp3LU5MWnlkMlVKQWkwVDlobFlRYzdhOFo5RmdMQmFBVkJXSTVTNzBiVkVZU2VYZUw4dFItMndSaEdnYWx5Y2xvbDA2N3dpZUFtWl8tQjhfejRMcXZxNkxSOUVHN0dYS3Qybm16cmNPcVQ0SlUwRFBOQThJbjFGTnRVdHlzSUE4dmp6TnJhSFZCdlV4bHJSMzRFZGd6eWtfN3dXenR0TXp1MDdFZE1DckVkYUx4WnQ2YzdSNHhQZDVTWnpLSkl3TFBPODdNaHFDTHNGTGZtWTdLRGc?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: "Govt ready on 2 demands, CJP adamant on Pradhan's resignation: What happened in round 2 of talks"
+                - time [ref=f20e294]: 1 hour ago
+              - generic [ref=f20e295]:
+                - link [ref=f20e297] [cursor=pointer]:
+                  - /url: ./read/CBMi1wFBVV95cUxNYi1Lc2d5bWhPSUY0Q0M1OW83OFExQnlPdXdINHAxTVFpZV8zUkZzUllBZVlJeldOUGViYm9mOW5yeUk1OFJGTUJCRGdxRG54V0VXd29NeGpybWt3Q05ScHdDXzV1Vlk5MzByaXBicTRXUlhwN1lqU1hsR082SkxONi1uSHZkRzUtQ2pvbFVtRXRRcEpvVllqUjFMdVN0X3JQdVN5SEh4bjd4Z2RrckJpSWZuYWdXRzAtajlpOHJySlhhNjZQU0RiNkZsMVVld01DNjQyR29hYw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e298]:
+                  - generic [ref=f20e299]: NDTV
+                  - generic [ref=f20e305]:
+                    - generic:
+                      - 'button "More - \"Dharmendra Pradhan Must Quit\": Abhijeet Dipke As CJP, Centre Hold Talks" [ref=f20e306] [cursor=pointer]'
+                      - tooltip [ref=f20e310]: More
+                - 'link "\"Dharmendra Pradhan Must Quit\": Abhijeet Dipke As CJP, Centre Hold Talks - NDTV - 4 hours ago - By Ashutosh Tripathi" [ref=f20e311] [cursor=pointer]':
+                  - /url: ./read/CBMi1wFBVV95cUxNYi1Lc2d5bWhPSUY0Q0M1OW83OFExQnlPdXdINHAxTVFpZV8zUkZzUllBZVlJeldOUGViYm9mOW5yeUk1OFJGTUJCRGdxRG54V0VXd29NeGpybWt3Q05ScHdDXzV1Vlk5MzByaXBicTRXUlhwN1lqU1hsR082SkxONi1uSHZkRzUtQ2pvbFVtRXRRcEpvVllqUjFMdVN0X3JQdVN5SEh4bjd4Z2RrckJpSWZuYWdXRzAtajlpOHJySlhhNjZQU0RiNkZsMVVld01DNjQyR29hYw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: "\"Dharmendra Pradhan Must Quit\": Abhijeet Dipke As CJP, Centre Hold Talks"
+                - generic [ref=f20e312]:
+                  - time [ref=f20e313]: 4 hours ago
+                  - separator [ref=f20e314]
+                  - generic [ref=f20e315]: By Ashutosh Tripathi
+              - generic [ref=f20e316]:
+                - link [ref=f20e318] [cursor=pointer]:
+                  - /url: ./read/CBMiqAFBVV95cUxNcjR4enQ1MS0tNENOSmhlQUpLZU8xVzlxVC1BcmRyUjRvY2xMd291Ti1BVEFIbVhWZXlYYjhsUGlNMVV3b1JKb0sxM1lrWHlOSERTLVFlQVRzSFJ5VE9ISmo2M2sweUdSYWhpT1FUaVR0Y1ZvaHNEaHBqckE2U0JQTC04WFh0dEVtTnBzNlB0TWs4UVJLUkUwMHFLQld1TXUwZFFTM04xYXk?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e319]:
+                  - generic [ref=f20e320]: News On AIR
+                  - generic [ref=f20e326]:
+                    - generic:
+                      - button "More - Second round of talks between CJP leaders and Union Ministers underway in Delhi" [ref=f20e327] [cursor=pointer]
+                      - tooltip [ref=f20e331]: More
+                - link "Second round of talks between CJP leaders and Union Ministers underway in Delhi - News On AIR - 3 hours ago" [ref=f20e332] [cursor=pointer]:
+                  - /url: ./read/CBMiqAFBVV95cUxNcjR4enQ1MS0tNENOSmhlQUpLZU8xVzlxVC1BcmRyUjRvY2xMd291Ti1BVEFIbVhWZXlYYjhsUGlNMVV3b1JKb0sxM1lrWHlOSERTLVFlQVRzSFJ5VE9ISmo2M2sweUdSYWhpT1FUaVR0Y1ZvaHNEaHBqckE2U0JQTC04WFh0dEVtTnBzNlB0TWs4UVJLUkUwMHFLQld1TXUwZFFTM04xYXk?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: Second round of talks between CJP leaders and Union Ministers underway in Delhi
+                - time [ref=f20e334]: 3 hours ago
+          - link "See more headlines and perspectives" [ref=f20e337] [cursor=pointer]:
+            - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lMNzd6VkVSRnM2X2F6QUYzd2JTZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+        - generic [ref=f20e344]:
+          - generic [ref=f20e345]:
+            - link [ref=f20e347] [cursor=pointer]:
+              - /url: ./read/CBMiswFBVV95cUxNbnZxbTdDVy11MW5SY1otelI1Q1hhSGlLZEdkRWhFcVp4YU1nNEFkd0pxb0tBbmR6cDhjMHVTYTByX1hhUHdJRkdBMWxCSGdabFNTMGlJQ3QxaWdCWUYyUXQ0aE1uT3dmS2haUTRrRHlFeFA5dUgtd3NKQm1qeXFoNk93Q0QwVURqNlh0R3RIcUZkWmpqSUN2bW1Sd2tvdndMaVJEb004Z3BaUkR2NFJ0WVI5b9IBuAFBVV95cUxNNjFhajRrbVVLWUFDNG8zVDc0R1hZWW5sRXlCVGpPUF9rczNIalBVbklJWThLTzNlVWZEdFN3Nmt3V2ktVFI0UGctN3BCVmZHLWNZWGgxbmtpcFJHUkk1VzRnZHF3SUxvY29RYmk1dUpNLURiOHc2WmZJdmRlaEdXcDV0N2owMEdNYmRMMWU0M3JFdjJBUUNLWGlHcnVJTGhBZXU3UVR5LTItODY1NzNjamVZeExvTUtZ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e349]:
+              - generic [ref=f20e350]:
+                - generic [ref=f20e351]: Telegraph India
+                - generic [ref=f20e357]:
+                  - generic:
+                    - 'button "More - No petition filed against police action on CJP protests, media reports ‘reckless’: CJI Surya Kant" [ref=f20e358] [cursor=pointer]'
+                    - tooltip [ref=f20e362]: More
+              - 'link "No petition filed against police action on CJP protests, media reports ‘reckless’: CJI Surya Kant - Telegraph India - 4 hours ago" [ref=f20e363] [cursor=pointer]':
+                - /url: ./read/CBMiswFBVV95cUxNbnZxbTdDVy11MW5SY1otelI1Q1hhSGlLZEdkRWhFcVp4YU1nNEFkd0pxb0tBbmR6cDhjMHVTYTByX1hhUHdJRkdBMWxCSGdabFNTMGlJQ3QxaWdCWUYyUXQ0aE1uT3dmS2haUTRrRHlFeFA5dUgtd3NKQm1qeXFoNk93Q0QwVURqNlh0R3RIcUZkWmpqSUN2bW1Sd2tvdndMaVJEb004Z3BaUkR2NFJ0WVI5b9IBuAFBVV95cUxNNjFhajRrbVVLWUFDNG8zVDc0R1hZWW5sRXlCVGpPUF9rczNIalBVbklJWThLTzNlVWZEdFN3Nmt3V2ktVFI0UGctN3BCVmZHLWNZWGgxbmtpcFJHUkk1VzRnZHF3SUxvY29RYmk1dUpNLURiOHc2WmZJdmRlaEdXcDV0N2owMEdNYmRMMWU0M3JFdjJBUUNLWGlHcnVJTGhBZXU3UVR5LTItODY1NzNjamVZeExvTUtZ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "No petition filed against police action on CJP protests, media reports ‘reckless’: CJI Surya Kant"
+          - generic [ref=f20e364]:
+            - time [ref=f20e365]: 4 hours ago
+            - 'link "See more headlines and perspectives - No petition filed against police action on CJP protests, media reports ‘reckless’: CJI Surya Kant" [ref=f20e366] [cursor=pointer]':
+              - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pGclByTkVSR044eUthbUg0WTFpZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - generic [ref=f20e369]: See more
+        - generic [ref=f20e373]:
+          - generic [ref=f20e374]:
+            - link [ref=f20e376] [cursor=pointer]:
+              - /url: ./read/CBMitAFBVV95cUxPRDFTT1dsSTQ1QU5raW4xeDkzZFJFa1lYX0JUeDV3UmV3eGVxQkwtdHBramk4VlVWSVlMc1d2VVMyeTEySThNOUY4WEI5VkJpV1pZU2gzWFBDQlZub0V0aHc3ZFQtcWFaWlJQTGU0WEE2MmlpYnBPa1loUlhYeUl0UVVtTHNUdWJtbng1UG9PZ2VZYjVuUGdnT3MyT1pzdWg2QkUtWjdLSWZydW1panJHX0xNc1_SAbsBQVVfeXFMT2habTkyUGxEMXpfUFNtMG1tSlZNZDRUNGl2akYtdnhmeG9odjhxeWZRNk4tclNvbG5qY2x1aWhTLUhCd0pUX2JMQXhBMVZoSXhLM083U0NqOHlXUUYxLVVnZ0pzdWlOUUFfUTltVnJIQTljUzRtb3J6VlkwTDRPam9jVW1hS1RoRXVxR0FOa1ZrSlVNUjQzZlY0cjhaS3FCQ0ZOb05JazlibnFCak1KOTdLanRWNENqcTRfOA?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e378]:
+              - generic [ref=f20e379]:
+                - generic [ref=f20e380]: The Hindu
+                - generic [ref=f20e386]:
+                  - generic:
+                    - 'button "More - CRPF ‘verifying’ reports of pellet guns used against protesters in Delhi: official" [ref=f20e387] [cursor=pointer]'
+                    - tooltip [ref=f20e391]: More
+              - 'link "CRPF ‘verifying’ reports of pellet guns used against protesters in Delhi: official - The Hindu - 5 hours ago" [ref=f20e392] [cursor=pointer]':
+                - /url: ./read/CBMitAFBVV95cUxPRDFTT1dsSTQ1QU5raW4xeDkzZFJFa1lYX0JUeDV3UmV3eGVxQkwtdHBramk4VlVWSVlMc1d2VVMyeTEySThNOUY4WEI5VkJpV1pZU2gzWFBDQlZub0V0aHc3ZFQtcWFaWlJQTGU0WEE2MmlpYnBPa1loUlhYeUl0UVVtTHNUdWJtbng1UG9PZ2VZYjVuUGdnT3MyT1pzdWg2QkUtWjdLSWZydW1panJHX0xNc1_SAbsBQVVfeXFMT2habTkyUGxEMXpfUFNtMG1tSlZNZDRUNGl2akYtdnhmeG9odjhxeWZRNk4tclNvbG5qY2x1aWhTLUhCd0pUX2JMQXhBMVZoSXhLM083U0NqOHlXUUYxLVVnZ0pzdWlOUUFfUTltVnJIQTljUzRtb3J6VlkwTDRPam9jVW1hS1RoRXVxR0FOa1ZrSlVNUjQzZlY0cjhaS3FCQ0ZOb05JazlibnFCak1KOTdLanRWNENqcTRfOA?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "CRPF ‘verifying’ reports of pellet guns used against protesters in Delhi: official"
+            - figure [ref=f20e393]
+          - generic [ref=f20e394]:
+            - time [ref=f20e395]: 5 hours ago
+            - 'link "See more headlines and perspectives - CRPF ‘verifying’ reports of pellet guns used against protesters in Delhi: official" [ref=f20e396] [cursor=pointer]':
+              - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2psbllyVUVSSG9nOWVaSHFVRHpTZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - generic [ref=f20e399]: See more
+      - generic [ref=f20e458]:
+        - heading "Picks for you" [level=3] [ref=f20e461]
+        - generic [ref=f20e462]:
+          - text: Sign in for personalised stories in your briefing and news feed
+          - generic [ref=f20e464]:
+            - generic [ref=f20e466]: Sign in
+            - link "Sign in" [ref=f20e467] [cursor=pointer]:
+              - /url: https://accounts.google.com/ServiceLogin?hl=en-IN&continue=https://news.google.com/home?hl%3Den-IN%26gl%3DIN%26ceid%3DIN:en&hl=en-IN&gl=IN&ceid=IN%3Aen
+    - generic [ref=f20e470]:
+      - generic [ref=f20e471]:
+        - generic [ref=f20e472]:
+          - heading "More news" [level=2] [ref=f20e474]
+          - paragraph [ref=f20e476]: Sign in to get stories based on your interests
+        - generic [ref=f20e479]:
+          - generic [ref=f20e481]: Sign in
+          - link "Sign in" [ref=f20e482] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?hl=en-IN&continue=https://news.google.com/home?hl%3Den-IN%26gl%3DIN%26ceid%3DIN:en
+      - generic [ref=f20e483]:
+        - generic [ref=f20e484]:
+          - generic [ref=f20e487]:
+            - generic [ref=f20e488]:
+              - link [ref=f20e490] [cursor=pointer]:
+                - /url: ./read/CBMiWkFVX3lxTFBiLWpWRFRvUW44Y2hFYWhBQXgtWmI2RTV1RFkyT0NfMXFJVGlDQ0ZHTGM5WGtUaFZZaWQ1ZFBTSk5hRDFDX19ZeEZRc1RMcXpjZElmZGJ4VW9Ldw?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - generic [ref=f20e492]:
+                - generic [ref=f20e493]:
+                  - generic [ref=f20e494]: BBC
+                  - generic [ref=f20e500]:
+                    - generic:
+                      - 'button "More - CJP protest: The youth movement India''s Modi didn''t see coming" [ref=f20e501] [cursor=pointer]'
+                      - tooltip [ref=f20e505]: More
+                - 'link "CJP protest: The youth movement India''s Modi didn''t see coming - BBC - 12 hours ago - By Soutik Biswas" [ref=f20e506] [cursor=pointer]':
+                  - /url: ./read/CBMiWkFVX3lxTFBiLWpWRFRvUW44Y2hFYWhBQXgtWmI2RTV1RFkyT0NfMXFJVGlDQ0ZHTGM5WGtUaFZZaWQ1ZFBTSk5hRDFDX19ZeEZRc1RMcXpjZElmZGJ4VW9Ldw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: "CJP protest: The youth movement India's Modi didn't see coming"
+              - figure [ref=f20e507]
+            - generic [ref=f20e508]:
+              - time [ref=f20e509]: 12 hours ago
+              - separator [ref=f20e510]
+              - generic [ref=f20e511]: By Soutik Biswas
+              - generic [ref=f20e512]:
+                - 'link "See more headlines and perspectives - CJP protest: The youth movement India''s Modi didn''t see coming" [ref=f20e514] [cursor=pointer]':
+                  - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lWcFB6UkVSRTNWb2wtRnRxUW1TZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - tooltip [ref=f20e517]: See more headlines and perspectives
+          - separator [ref=f20e518]
+        - generic [ref=f20e519]:
+          - generic [ref=f20e522]:
+            - generic [ref=f20e523]:
+              - link [ref=f20e525] [cursor=pointer]:
+                - /url: ./read/CBMi7AFBVV95cUxOblg0dGNCZjJEejU3UHR6VXB1NEhEdmZ3aWZ0dnlKZHlKN1NGdkxKX0Z0MFkwcU95XzNWTmV2S2dHOW5IY1ZKSmV2d3otQjZ0MHNWQ0dVSGsyR2VKYThPWDFQckRldlgtVXlFU2V5MkM3dnhoN19yUXk3SWhvZUFyaTNqYVp0T1lmV1BzYUZ0RG03cTRTWGdpY1ZCRi1SeDhyWG5pSldMXzlueVNfbzdTTXllTnMzSU1WbTlCakoySFg2QVpDN3RSaDg0clJfOThGZTVvVktlcVREd09BRmNSdlZVaDFWYTlVTk5lbdIB8gFBVV95cUxNWHc1aU1Hb3NXbWVaaXdOMFhfS21qRl81bVgwdUFTaExVOVJjeWdRODg0U04xOXVBQWpKTUVlWHp1M19KV19GbjZjUXViT2dKOTBKUFU4ZWQyLWFkZ0N0bzVweDFkNElsMmFFelhDV2NhRGdUWUFFN1RldnhvVlRfY09qdHVOZWFfUXlCVDJBTXVkVXJmSmJOUGZrTUtxbzJmSkZhVnRSQWt4b3NEX3dCcXppWHY3MVpJMXB6YVlvcW82bnV2QlpDRUM5Y3NPNmN6VXRSdXpWck93OXJyemVlVUd6NUx0VnhsclBWZ29ZWEw3UQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - generic [ref=f20e527]:
+                - generic [ref=f20e528]:
+                  - generic [ref=f20e529]: Live Law
+                  - generic [ref=f20e535]:
+                    - generic:
+                      - button "More - BREAKING| Supreme Court Bans Uploading & Sharing Of Audio-Video Recordings Of Court Hearings Without..." [ref=f20e536] [cursor=pointer]
+                      - tooltip [ref=f20e540]: More
+                - link "BREAKING| Supreme Court Bans Uploading & Sharing Of Audio-Video Recordings Of Court Hearings Without... - Live Law - 4 hours ago - By Debby Jain" [ref=f20e541] [cursor=pointer]:
+                  - /url: ./read/CBMi7AFBVV95cUxOblg0dGNCZjJEejU3UHR6VXB1NEhEdmZ3aWZ0dnlKZHlKN1NGdkxKX0Z0MFkwcU95XzNWTmV2S2dHOW5IY1ZKSmV2d3otQjZ0MHNWQ0dVSGsyR2VKYThPWDFQckRldlgtVXlFU2V5MkM3dnhoN19yUXk3SWhvZUFyaTNqYVp0T1lmV1BzYUZ0RG03cTRTWGdpY1ZCRi1SeDhyWG5pSldMXzlueVNfbzdTTXllTnMzSU1WbTlCakoySFg2QVpDN3RSaDg0clJfOThGZTVvVktlcVREd09BRmNSdlZVaDFWYTlVTk5lbdIB8gFBVV95cUxNWHc1aU1Hb3NXbWVaaXdOMFhfS21qRl81bVgwdUFTaExVOVJjeWdRODg0U04xOXVBQWpKTUVlWHp1M19KV19GbjZjUXViT2dKOTBKUFU4ZWQyLWFkZ0N0bzVweDFkNElsMmFFelhDV2NhRGdUWUFFN1RldnhvVlRfY09qdHVOZWFfUXlCVDJBTXVkVXJmSmJOUGZrTUtxbzJmSkZhVnRSQWt4b3NEX3dCcXppWHY3MVpJMXB6YVlvcW82bnV2QlpDRUM5Y3NPNmN6VXRSdXpWck93OXJyemVlVUd6NUx0VnhsclBWZ29ZWEw3UQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: BREAKING| Supreme Court Bans Uploading & Sharing Of Audio-Video Recordings Of Court Hearings Without...
+              - figure [ref=f20e542]
+            - generic [ref=f20e543]:
+              - time [ref=f20e544]: 4 hours ago
+              - separator [ref=f20e545]
+              - generic [ref=f20e546]: By Debby Jain
+              - generic [ref=f20e547]:
+                - link "See more headlines and perspectives - BREAKING| Supreme Court Bans Uploading & Sharing Of Audio-Video Recordings Of Court Hearings Without..." [ref=f20e549] [cursor=pointer]:
+                  - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k1emJEU0VSRlNpRllEdzNBS2VTZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - tooltip [ref=f20e552]: See more headlines and perspectives
+          - separator [ref=f20e553]
+        - generic [ref=f20e554]:
+          - generic [ref=f20e557]:
+            - generic [ref=f20e558]:
+              - link [ref=f20e560] [cursor=pointer]:
+                - /url: ./read/CBMixAFBVV95cUxNaXpsOVRvT3JTaTYwX0NMVTQzTzBWY1hvTThiUEgxd1VsLXRsSzZnSWYzX3Q4R1Y4VnlIRkwxUzhGYmxJZGhvSmRON1E3ajlxVDVybmd5QnBkXy1PVlFxb2FOVG5vQk0xcEZoWFdOSnlWX2NNZ1BTN1lGRFQzcDNTU0dLV19ObXoyMjhFTVgzV1NnWGJOYXVzWWNMZjhfOGpRWmxoUXNZUHVFNHBlTXNHZko4SFVCaElsYzcxZmJGM1dtUFB50gHLAUFVX3lxTE9xcmpVc0hqa0x3UjdNWjhHRkotMERGSk1aRGttbnFkczZ6V3ZMblZPdFBrYWxwTXV6VmFLNHlDdEZaQTJDcHQ3VDZQZVRWUllLYjhwbFV5a0ZBRzdYN2lGYmd4NnhDMDFYYlRGMFo5M0Rqc2JIV1pPRVpHNUpsTXBlZmlnbnNZeXNUM0VqSGZKT3FmTDBQdV95OVMtZmFrQk1LNXI5dC13OTYwdV9keXIxLVJ2RlROMXlWNHZQWkNWUVd4ZDRnQ05rM2N3?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - generic [ref=f20e562]:
+                - generic [ref=f20e563]:
+                  - generic [ref=f20e564]: The Hindu
+                  - generic [ref=f20e570]:
+                    - generic:
+                      - button "More - 18-storey building of apartment complex in Bengaluru to be demolished" [ref=f20e571] [cursor=pointer]
+                      - tooltip [ref=f20e575]: More
+                - link "18-storey building of apartment complex in Bengaluru to be demolished - The Hindu - 18 hours ago" [ref=f20e576] [cursor=pointer]:
+                  - /url: ./read/CBMixAFBVV95cUxNaXpsOVRvT3JTaTYwX0NMVTQzTzBWY1hvTThiUEgxd1VsLXRsSzZnSWYzX3Q4R1Y4VnlIRkwxUzhGYmxJZGhvSmRON1E3ajlxVDVybmd5QnBkXy1PVlFxb2FOVG5vQk0xcEZoWFdOSnlWX2NNZ1BTN1lGRFQzcDNTU0dLV19ObXoyMjhFTVgzV1NnWGJOYXVzWWNMZjhfOGpRWmxoUXNZUHVFNHBlTXNHZko4SFVCaElsYzcxZmJGM1dtUFB50gHLAUFVX3lxTE9xcmpVc0hqa0x3UjdNWjhHRkotMERGSk1aRGttbnFkczZ6V3ZMblZPdFBrYWxwTXV6VmFLNHlDdEZaQTJDcHQ3VDZQZVRWUllLYjhwbFV5a0ZBRzdYN2lGYmd4NnhDMDFYYlRGMFo5M0Rqc2JIV1pPRVpHNUpsTXBlZmlnbnNZeXNUM0VqSGZKT3FmTDBQdV95OVMtZmFrQk1LNXI5dC13OTYwdV9keXIxLVJ2RlROMXlWNHZQWkNWUVd4ZDRnQ05rM2N3?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: 18-storey building of apartment complex in Bengaluru to be demolished
+              - figure [ref=f20e577]
+            - generic [ref=f20e578]:
+              - time [ref=f20e579]: 18 hours ago
+              - generic [ref=f20e580]:
+                - link "See more headlines and perspectives - 18-storey building of apartment complex in Bengaluru to be demolished" [ref=f20e582] [cursor=pointer]:
+                  - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l4dC16VkVSSHAwSmFvUFZUcXpTZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - tooltip [ref=f20e585]: See more headlines and perspectives
+          - separator [ref=f20e586]
+        - generic [ref=f20e587]:
+          - generic [ref=f20e590]:
+            - generic [ref=f20e591]:
+              - link [ref=f20e593] [cursor=pointer]:
+                - /url: ./read/CBMisgJBVV95cUxNRDJfX3dkMzQ3LV9aWkRVeFJ5SUlZRDhUZGQzdGxuQ3hfSEZGTTFneWVoTjFGZTlMdnkyWGZQblhzMjQzUFRQR2ltNHVrdy13SWI3ckZ5ZVhrVEdfaVNiOXVfV0M3MWhZUkJ4UHJONDNzQ0gxZENfRzdoalZrTXY4d21uR0hsQVg2MURVa0dEak9ERllsZlJvRG9RNk1ydmZ6ZV95VEtSRDI0R1BWdm12NkxuN3lkQmJVVXdYVVZKSG5xOVlaZk40eTNBREVNMlk1eEYwSV9uZVFRUjJQWkZTdnlQejhRWGMwaWs5RTdTVUtnX3gtNEwwTXU5QmMzbU9xeFpoZm44ZkFCdjVRRVN3ajVJRlJjR3hxd2M1OFh3U0EwM0hkWUxPUHpCdk1sdm5hMnc?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - generic [ref=f20e595]:
+                - generic [ref=f20e596]:
+                  - generic [ref=f20e597]: The Economic Times
+                  - generic [ref=f20e603]:
+                    - generic:
+                      - 'button "More - Boarding call: Can Adani succeed where so many airlines have failed?" [ref=f20e604] [cursor=pointer]'
+                      - tooltip [ref=f20e608]: More
+                - 'link "Boarding call: Can Adani succeed where so many airlines have failed? - The Economic Times - Yesterday" [ref=f20e609] [cursor=pointer]':
+                  - /url: ./read/CBMisgJBVV95cUxNRDJfX3dkMzQ3LV9aWkRVeFJ5SUlZRDhUZGQzdGxuQ3hfSEZGTTFneWVoTjFGZTlMdnkyWGZQblhzMjQzUFRQR2ltNHVrdy13SWI3ckZ5ZVhrVEdfaVNiOXVfV0M3MWhZUkJ4UHJONDNzQ0gxZENfRzdoalZrTXY4d21uR0hsQVg2MURVa0dEak9ERllsZlJvRG9RNk1ydmZ6ZV95VEtSRDI0R1BWdm12NkxuN3lkQmJVVXdYVVZKSG5xOVlaZk40eTNBREVNMlk1eEYwSV9uZVFRUjJQWkZTdnlQejhRWGMwaWs5RTdTVUtnX3gtNEwwTXU5QmMzbU9xeFpoZm44ZkFCdjVRRVN3ajVJRlJjR3hxd2M1OFh3U0EwM0hkWUxPUHpCdk1sdm5hMnc?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: "Boarding call: Can Adani succeed where so many airlines have failed?"
+              - figure [ref=f20e610]
+            - generic [ref=f20e611]:
+              - time [ref=f20e612]: Yesterday
+              - generic [ref=f20e613]:
+                - 'link "See more headlines and perspectives - Boarding call: Can Adani succeed where so many airlines have failed?" [ref=f20e615] [cursor=pointer]':
+                  - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2owNjZEVUVSRVBLM2FVVEdMdHJpZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - tooltip [ref=f20e618]: See more headlines and perspectives
+          - separator [ref=f20e619]
+        - generic [ref=f20e623]:
+          - generic [ref=f20e624]:
+            - link [ref=f20e626] [cursor=pointer]:
+              - /url: ./read/CBMivAFBVV95cUxNMWJtZWc2el9QWEt5RkVOSEc0ZUd1U3pNNnhNZUZGMmRCMzd2b3VkTGVzV29ZVW9WNkI1N3YwWng4Z3JaT25KQ3BLZU5hMWtoejAzNVM5RTBwNF90MUtNVTRWVXFMd0g2blp5S25qekpKY3pPSnJWbXo4RG9wcExFWlpySUo1LXRKUTRyeUc1M2VaV3hZTi1jVHNlRklRZm4tN3BIbndQMkd0dzh4bzdKOUUyWndfNWVhZUFXOdIBxAFBVV95cUxOX3lCTkJXSko5Uk96c2tONW13bnRScV9sOXNraFlNUFd2MzZQX3lBTFEwNXpNU2pDa2dZcUlhQVBEQU41cU1mY1dldTFSVDFHbnhiZmFnbUd3ZVZ6NUlKbW8wV0tuOTdtc1JKekNUWF9WTE9jWWw2WEk0MjBGWlhTOHBjTEg1cm9BNXV3anJNeVpnX0I0YmFpOVpMcE13ZUtuN2NVaG9HNDM0bjJldmVHTjdZNkF0UmJ3QUltNk50aHZNd3Rt?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e628]:
+              - generic [ref=f20e629]:
+                - generic [ref=f20e630]: NDTV
+                - generic [ref=f20e636]:
+                  - generic:
+                    - button "More - Inside Ranbir Kapoor And Alia Bhatt's Rs 250 Crore 'Krishna Raj' Bungalow In Mumbai" [ref=f20e637] [cursor=pointer]
+                    - tooltip [ref=f20e641]: More
+              - link "Inside Ranbir Kapoor And Alia Bhatt's Rs 250 Crore 'Krishna Raj' Bungalow In Mumbai - NDTV - Yesterday - By Krati Purwar" [ref=f20e642] [cursor=pointer]:
+                - /url: ./read/CBMivAFBVV95cUxNMWJtZWc2el9QWEt5RkVOSEc0ZUd1U3pNNnhNZUZGMmRCMzd2b3VkTGVzV29ZVW9WNkI1N3YwWng4Z3JaT25KQ3BLZU5hMWtoejAzNVM5RTBwNF90MUtNVTRWVXFMd0g2blp5S25qekpKY3pPSnJWbXo4RG9wcExFWlpySUo1LXRKUTRyeUc1M2VaV3hZTi1jVHNlRklRZm4tN3BIbndQMkd0dzh4bzdKOUUyWndfNWVhZUFXOdIBxAFBVV95cUxOX3lCTkJXSko5Uk96c2tONW13bnRScV9sOXNraFlNUFd2MzZQX3lBTFEwNXpNU2pDa2dZcUlhQVBEQU41cU1mY1dldTFSVDFHbnhiZmFnbUd3ZVZ6NUlKbW8wV0tuOTdtc1JKekNUWF9WTE9jWWw2WEk0MjBGWlhTOHBjTEg1cm9BNXV3anJNeVpnX0I0YmFpOVpMcE13ZUtuN2NVaG9HNDM0bjJldmVHTjdZNkF0UmJ3QUltNk50aHZNd3Rt?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Inside Ranbir Kapoor And Alia Bhatt's Rs 250 Crore 'Krishna Raj' Bungalow In Mumbai
+            - figure [ref=f20e643]
+          - generic [ref=f20e644]:
+            - time [ref=f20e645]: Yesterday
+            - separator [ref=f20e646]
+            - generic [ref=f20e647]: By Krati Purwar
+        - generic [ref=f20e651]:
+          - generic [ref=f20e652]:
+            - link [ref=f20e654] [cursor=pointer]:
+              - /url: ./read/CBMinwJBVV95cUxQLVlDeTlmaEtGMi1zdm9VYjFzWlFTXzBZR2dEajlDQktPZFZhblBGa3hZYkhlSnVGd2MyRFVEenIza1hjaDloZHpQN1ZZNGREQk1mSEJHR2xnUTB0VXdZSWhUN1ZqLU5xYnVBZjNrWUlCLWhrSlFCV0pmVjBPcnVpVXFpdnJsaWliLWtiQWJlZ0hFdGpZa3E3eFlsT3hiY0xJZ0VMQ0hidnNxdWN2Wk1wTVl4QjlnZVU4c0ZHRFdlaEt6V0FJc2swdlJjX0l0SDhUR09EX2NkazNlYjhNV2FUUEpqYUt4Q3ZyVktmejk0U1V3ZS04eHZDYm96RFoyOXpoNVZTVFJNUmQxVEsyeTdONmlwZDVQcHNxdkNHdmM1Zw?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f20e656]:
+              - generic [ref=f20e657]:
+                - generic [ref=f20e658]: The Times of India
+                - generic [ref=f20e664]:
+                  - generic:
+                    - 'button "More - Watch: Vaibhav Sooryavanshi''s emotional ''A'' celebration steals hearts after historic world-record fifty" [ref=f20e665] [cursor=pointer]'
+                    - tooltip [ref=f20e669]: More
+              - 'link "Watch: Vaibhav Sooryavanshi''s emotional ''A'' celebration steals hearts after historic world-record fifty - The Times of India - 21 hours ago" [ref=f20e670] [cursor=pointer]':
+                - /url: ./read/CBMinwJBVV95cUxQLVlDeTlmaEtGMi1zdm9VYjFzWlFTXzBZR2dEajlDQktPZFZhblBGa3hZYkhlSnVGd2MyRFVEenIza1hjaDloZHpQN1ZZNGREQk1mSEJHR2xnUTB0VXdZSWhUN1ZqLU5xYnVBZjNrWUlCLWhrSlFCV0pmVjBPcnVpVXFpdnJsaWliLWtiQWJlZ0hFdGpZa3E3eFlsT3hiY0xJZ0VMQ0hidnNxdWN2Wk1wTVl4QjlnZVU4c0ZHRFdlaEt6V0FJc2swdlJjX0l0SDhUR09EX2NkazNlYjhNV2FUUEpqYUt4Q3ZyVktmejk0U1V3ZS04eHZDYm96RFoyOXpoNVZTVFJNUmQxVEsyeTdONmlwZDVQcHNxdkNHdmM1Zw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "Watch: Vaibhav Sooryavanshi's emotional 'A' celebration steals hearts after historic world-record fifty"
+            - figure [ref=f20e671]
+          - generic [ref=f20e672]:
+            - time [ref=f20e673]: 21 hours ago
+            - generic [ref=f20e674]:
+              - 'link "See more headlines and perspectives - Watch: Vaibhav Sooryavanshi''s emotional ''A'' celebration steals hearts after historic world-record fifty" [ref=f20e676] [cursor=pointer]':
+                - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lral9uS0VSR3NGZWFrbFNIWXVDZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - tooltip [ref=f20e679]: See more headlines and perspectives
+    - generic [ref=f20e683]:
+      - generic [ref=f20e684]:
+        - heading "Your topics" [level=2] [ref=f20e686]
+        - button "Customise" [ref=f20e689]
+      - generic [ref=f20e695]:
+        - generic [ref=f20e698]:
+          - heading [level=3] [ref=f20e700]:
+            - link "India" [ref=f20e701] [cursor=pointer]:
+              - /url: ./topics/CAAqJQgKIh9DQkFTRVFvSUwyMHZNRE55YXpBU0JXVnVMVWRDS0FBUAE?hl=en-IN&gl=IN&ceid=IN%3Aen
+          - separator [ref=f20e704]
+          - generic [ref=f20e705]:
+            - generic [ref=f20e708]:
+              - generic [ref=f20e709]:
+                - link [ref=f20e711] [cursor=pointer]:
+                  - /url: ./read/CBMivgFBVV95cUxQcmFGTlIwQW9WTWJpbW1YZHRrVXV5VGVWZDBTa2R1akV4X2k1MWh5NjV4OVp3QWVkN0pTcEhpTWlBTFYwRVM0NWw1RUMzRHozR2xBa250cDJaMmEwdTUycE55LXhiQVg5bXhfWjlmVW14TWU0dHBkYU9OemhVOU13cEZRdjBhNEg2dXF2TzByWnBKVFRGWkJUTVE5TGVhSF84aC1lRnFxMlVXTllIc1FxV29iZy1xZE9BWENOQWRR?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e713]:
+                  - generic [ref=f20e714]:
+                    - generic [ref=f20e715]: Telegraph India
+                    - generic [ref=f20e721]:
+                      - generic:
+                        - 'button "More - Dharmendra Pradhan must resign, Delhi Police detentions must stop: CJP to govt" [ref=f20e722] [cursor=pointer]'
+                        - tooltip [ref=f20e726]: More
+                  - 'link "Dharmendra Pradhan must resign, Delhi Police detentions must stop: CJP to govt - Telegraph India - 1 hour ago" [ref=f20e727] [cursor=pointer]':
+                    - /url: ./read/CBMivgFBVV95cUxQcmFGTlIwQW9WTWJpbW1YZHRrVXV5VGVWZDBTa2R1akV4X2k1MWh5NjV4OVp3QWVkN0pTcEhpTWlBTFYwRVM0NWw1RUMzRHozR2xBa250cDJaMmEwdTUycE55LXhiQVg5bXhfWjlmVW14TWU0dHBkYU9OemhVOU13cEZRdjBhNEg2dXF2TzByWnBKVFRGWkJUTVE5TGVhSF84aC1lRnFxMlVXTllIc1FxV29iZy1xZE9BWENOQWRR?hl=en-IN&gl=IN&ceid=IN%3Aen
+                    - text: "Dharmendra Pradhan must resign, Delhi Police detentions must stop: CJP to govt"
+                - figure [ref=f20e728]
+              - generic [ref=f20e729]:
+                - time [ref=f20e730]: 1 hour ago
+                - generic [ref=f20e731]:
+                  - 'link "See more headlines and perspectives - Dharmendra Pradhan must resign, Delhi Police detentions must stop: CJP to govt" [ref=f20e733] [cursor=pointer]':
+                    - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lWcFB6UkVSR0ZBTjhWZUF1LTZDZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - tooltip [ref=f20e736]: See more headlines and perspectives
+            - separator [ref=f20e737]
+            - generic [ref=f20e740]:
+              - generic [ref=f20e741]:
+                - link [ref=f20e743] [cursor=pointer]:
+                  - /url: ./read/CBMikAJBVV95cUxNZ2Zpd0xsQVctbXZwaVJXOHlIdEptdE9lRC1KdEZKZnRKM1FWZDFGODVMdDZ6azBtcXVaTXlGVEItQ3BZdm5vZUFhQzlDazJWaXBYUTFxMVJKOXBQV3prY0pRd2hoT2FLZlBLY0VSZWhXcWJ5SGl2emZzUTFqMlNTWVUxOE0wRUVDSERBVnQ4ZWZyREdLdFRvbFU2LVRKd3ljZnY2N1MybUF6VTZJZVp3cGl3SUxqMm5CVWFvYW8wOEpUaG80bEJPVmdXUEJVd1p4S1NVMzM4bU1Fb1FhUDBJLWxLME11VVJBZGh1ajlvVlB3SXBERDRyMlZJYzIwQlhzdTgwLXNzYVh4YXFfWmRoT9IBlwJBVV95cUxQamkwU1NXSGRyMkpMV1V3c1F6VXFjZjByRUdoV3h1akZfa1BFd29zWWdRNWoxZ1VTOW1lY014Z3hZUnh5dnRodGVuTmYzeDFMaTc3alR1U2JGbG5NYjY1Z1pLbUgtSWVWbS1rVlJ0SUdWbFpKYXhZdnRHVmVJSkUzVTZiMGozOENoTVFIMFN1WjFYeTU2RC1Ob1h4enNZX1d5ZGpraXpLTWZTTzJQZGk4TzAxcWkxNE5yU1VuMzJaODBzd3JaREtQa0xrN21RNWgwQ0N1Rm12SW9jeVZIcmhmc2I5SjlNSW42UHRCRGYzb0xHZ0tHcldDaktPMDN5MFFHcVpSZ0tSbmlHaExQOTlKaUtiUFhxQkU?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e745]:
+                  - generic [ref=f20e746]:
+                    - generic [ref=f20e747]: The Hindu
+                    - generic [ref=f20e753]:
+                      - generic:
+                        - 'button "More - Jantar Mantar protest LIVE: ''Pradhan''s resignation non-negotiable'', says CJP in meeting with Union Ministers" [ref=f20e754] [cursor=pointer]'
+                        - tooltip [ref=f20e758]: More
+                  - 'link "Jantar Mantar protest LIVE: ''Pradhan''s resignation non-negotiable'', says CJP in meeting with Union Ministers - The Hindu - 1 hour ago" [ref=f20e759] [cursor=pointer]':
+                    - /url: ./read/CBMikAJBVV95cUxNZ2Zpd0xsQVctbXZwaVJXOHlIdEptdE9lRC1KdEZKZnRKM1FWZDFGODVMdDZ6azBtcXVaTXlGVEItQ3BZdm5vZUFhQzlDazJWaXBYUTFxMVJKOXBQV3prY0pRd2hoT2FLZlBLY0VSZWhXcWJ5SGl2emZzUTFqMlNTWVUxOE0wRUVDSERBVnQ4ZWZyREdLdFRvbFU2LVRKd3ljZnY2N1MybUF6VTZJZVp3cGl3SUxqMm5CVWFvYW8wOEpUaG80bEJPVmdXUEJVd1p4S1NVMzM4bU1Fb1FhUDBJLWxLME11VVJBZGh1ajlvVlB3SXBERDRyMlZJYzIwQlhzdTgwLXNzYVh4YXFfWmRoT9IBlwJBVV95cUxQamkwU1NXSGRyMkpMV1V3c1F6VXFjZjByRUdoV3h1akZfa1BFd29zWWdRNWoxZ1VTOW1lY014Z3hZUnh5dnRodGVuTmYzeDFMaTc3alR1U2JGbG5NYjY1Z1pLbUgtSWVWbS1rVlJ0SUdWbFpKYXhZdnRHVmVJSkUzVTZiMGozOENoTVFIMFN1WjFYeTU2RC1Ob1h4enNZX1d5ZGpraXpLTWZTTzJQZGk4TzAxcWkxNE5yU1VuMzJaODBzd3JaREtQa0xrN21RNWgwQ0N1Rm12SW9jeVZIcmhmc2I5SjlNSW42UHRCRGYzb0xHZ0tHcldDaktPMDN5MFFHcVpSZ0tSbmlHaExQOTlKaUtiUFhxQkU?hl=en-IN&gl=IN&ceid=IN%3Aen
+                    - text: "Jantar Mantar protest LIVE: 'Pradhan's resignation non-negotiable', says CJP in meeting with Union Ministers"
+                - figure [ref=f20e760]
+              - generic [ref=f20e761]:
+                - time [ref=f20e762]: 1 hour ago
+                - generic [ref=f20e763]:
+                  - 'link "See more headlines and perspectives - Jantar Mantar protest LIVE: ''Pradhan''s resignation non-negotiable'', says CJP in meeting with Union Ministers" [ref=f20e765] [cursor=pointer]':
+                    - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lMNzd6VkVSRTdyUHNBeWROajFTZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - tooltip [ref=f20e768]: See more headlines and perspectives
+            - separator [ref=f20e769]
+            - generic [ref=f20e772]:
+              - generic [ref=f20e773]:
+                - link [ref=f20e775] [cursor=pointer]:
+                  - /url: ./read/CBMiuwFBVV95cUxNUkVSMnBBQmNObHA3bUlsTUdIamdlNkJ4bDA2bGcxU3VYQW5La25LVEo1SUpndmpEUmZmQXlGazQ4TDFaVVc5akhhVlV4eURXTWYwbzZBbEFiemNQMVQxckF0Wm5zam4yLWYzelN2WGtMYnpOaFZLZHRwNVlvaWdHbXJKck05d1lfcl80Z2JZVHo4UUFTcTd4VUR2Q1hsMzZLa0pId1pTRlpzUV9OOFlES1BPUDQwWDRwd1Fv0gHAAUFVX3lxTE4wRlc2U2Z2c2pZUWI2Yi1DamdORUdmSmg1YkdqeEdmVzYyUklBa1J0MWphQ0Z2aUcyVmFSY0x6QVR1eUJSRHFSV2RjNnZjdW5oTmpEd1VEWUF5VjIxSl9la1poeE1XSWJSSkUxdUJjNENFOFlBZjdJdzdzc05uNEdVXzI4c3BLTGdLN3Z1QUFtVFdLbjJHd1ZQM0J3RWZaY0tnRlk5SGhmZnZxUnNTTnl6dGJxek5JZlIwRU1wWHlCQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e777]:
+                  - generic [ref=f20e778]:
+                    - generic [ref=f20e779]: Live Law
+                    - generic [ref=f20e785]:
+                      - generic:
+                        - button "More - Bombay High Court Designates Two Special Courts In Aurangabad & Nagpur To Fast Track Paper Leak Cases" [ref=f20e786] [cursor=pointer]
+                        - tooltip [ref=f20e790]: More
+                  - link "Bombay High Court Designates Two Special Courts In Aurangabad & Nagpur To Fast Track Paper Leak Cases - Live Law - 5 hours ago - By Narsi Benwal" [ref=f20e791] [cursor=pointer]:
+                    - /url: ./read/CBMiuwFBVV95cUxNUkVSMnBBQmNObHA3bUlsTUdIamdlNkJ4bDA2bGcxU3VYQW5La25LVEo1SUpndmpEUmZmQXlGazQ4TDFaVVc5akhhVlV4eURXTWYwbzZBbEFiemNQMVQxckF0Wm5zam4yLWYzelN2WGtMYnpOaFZLZHRwNVlvaWdHbXJKck05d1lfcl80Z2JZVHo4UUFTcTd4VUR2Q1hsMzZLa0pId1pTRlpzUV9OOFlES1BPUDQwWDRwd1Fv0gHAAUFVX3lxTE4wRlc2U2Z2c2pZUWI2Yi1DamdORUdmSmg1YkdqeEdmVzYyUklBa1J0MWphQ0Z2aUcyVmFSY0x6QVR1eUJSRHFSV2RjNnZjdW5oTmpEd1VEWUF5VjIxSl9la1poeE1XSWJSSkUxdUJjNENFOFlBZjdJdzdzc05uNEdVXzI4c3BLTGdLN3Z1QUFtVFdLbjJHd1ZQM0J3RWZaY0tnRlk5SGhmZnZxUnNTTnl6dGJxek5JZlIwRU1wWHlCQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                    - text: Bombay High Court Designates Two Special Courts In Aurangabad & Nagpur To Fast Track Paper Leak Cases
+                - figure [ref=f20e792]
+              - generic [ref=f20e793]:
+                - time [ref=f20e794]: 5 hours ago
+                - separator [ref=f20e795]
+                - generic [ref=f20e796]: By Narsi Benwal
+                - generic [ref=f20e797]:
+                  - link "See more headlines and perspectives - Bombay High Court Designates Two Special Courts In Aurangabad & Nagpur To Fast Track Paper Leak Cases" [ref=f20e799] [cursor=pointer]:
+                    - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lEdFBfU0VSSGhuT0dCWFNZQk15Z0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - tooltip [ref=f20e802]: See more headlines and perspectives
+        - generic [ref=f20e805]:
+          - heading [level=3] [ref=f20e807]:
+            - link "World" [ref=f20e808] [cursor=pointer]:
+              - /url: ./topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx1YlY4U0JXVnVMVWRDR2dKSlRpZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+          - separator [ref=f20e811]
+          - generic [ref=f20e812]:
+            - generic [ref=f20e815]:
+              - generic [ref=f20e816]:
+                - link [ref=f20e818] [cursor=pointer]:
+                  - /url: ./read/CBMingJBVV95cUxQVm0wQnp1REJwQm9xTk1MSnE0NjVFNE1OUmdfUzJndzdSUUpzLTFDZWp1ZG50YXF2M19DejFvVDIwbEcyMm5qT2phZWU0YlJDVjBmTnZ5ajZ5MHhmR1ZZeTA5UUU1Y2k5VzNMbGFxemYxSXV4Q0F3VWQ2aXo4c2lySTk5aUhCbnNsNTdvUE9ScHlSYldzUjBvNzhNazZXZ3ZKQjBiTFF0a1BtU3BBcWpCcDZBWHF0TjRjV0pfTFhpWkE2SE9DcWU1WVBwY1pKVFd3YnpmRU9iZ3E4c3FWclRfc2VYenZibG1UVFJ6dUgtVS05VUthRFZwLUlEbFhLQ3J2STFMLUtPMENnVXRPd0Q5MzJuTzljV2Jic3N3QlNR?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e820]:
+                  - generic [ref=f20e821]:
+                    - generic [ref=f20e822]: The Times of India
+                    - generic [ref=f20e828]:
+                      - generic:
+                        - button "More - Bangladesh President Mohammad Shahabuddin resigns ahead of Sheikh Hasina's planned return, reports of rif" [ref=f20e829] [cursor=pointer]
+                        - tooltip [ref=f20e833]: More
+                  - link "Bangladesh President Mohammad Shahabuddin resigns ahead of Sheikh Hasina's planned return, reports of rif - The Times of India - 1 hour ago" [ref=f20e834] [cursor=pointer]:
+                    - /url: ./read/CBMingJBVV95cUxQVm0wQnp1REJwQm9xTk1MSnE0NjVFNE1OUmdfUzJndzdSUUpzLTFDZWp1ZG50YXF2M19DejFvVDIwbEcyMm5qT2phZWU0YlJDVjBmTnZ5ajZ5MHhmR1ZZeTA5UUU1Y2k5VzNMbGFxemYxSXV4Q0F3VWQ2aXo4c2lySTk5aUhCbnNsNTdvUE9ScHlSYldzUjBvNzhNazZXZ3ZKQjBiTFF0a1BtU3BBcWpCcDZBWHF0TjRjV0pfTFhpWkE2SE9DcWU1WVBwY1pKVFd3YnpmRU9iZ3E4c3FWclRfc2VYenZibG1UVFJ6dUgtVS05VUthRFZwLUlEbFhLQ3J2STFMLUtPMENnVXRPd0Q5MzJuTzljV2Jic3N3QlNR?hl=en-IN&gl=IN&ceid=IN%3Aen
+                    - text: Bangladesh President Mohammad Shahabuddin resigns ahead of Sheikh Hasina's planned return, reports of rif
+                - figure [ref=f20e835]
+              - generic [ref=f20e836]:
+                - time [ref=f20e837]: 1 hour ago
+                - generic [ref=f20e838]:
+                  - link "See more headlines and perspectives - Bangladesh President Mohammad Shahabuddin resigns ahead of Sheikh Hasina's planned return, reports of rif" [ref=f20e840] [cursor=pointer]:
+                    - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lDOS1IVUVSRXo2T1BDbGR0MW95Z0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - tooltip [ref=f20e843]: See more headlines and perspectives
+            - separator [ref=f20e844]
+            - generic [ref=f20e847]:
+              - generic [ref=f20e848]:
+                - link [ref=f20e850] [cursor=pointer]:
+                  - /url: ./read/CBMixAFBVV95cUxQUlp6YV9ySUNjMUVjdDlLWHNTcGVDeG40NkluUUE0Q2N4OURQRG5FZkhPWDVkNFB6aTRZZVhscE5RN3R4M3pucUd2UnQtZjloem5JLUZQOWJpZDdReEZPSWRfSXQybzdTd281bjNnUTZ2QkZ5RnNnZDJYcE9mWkxaWlJZTlVpX3M5VEpiVzJ3OEtPRXhPUlRMT1V6VzFleFp6WDYzOVl5MWZENzVtYnNaYWJKYzhwZjRpZVBMaWRvdmRhdFZL0gHLAUFVX3lxTE1MZlFsbDR5YjJaVDhSb3haU3psUVVjeTlaN1JxakcxRHNVYTlNT0gyb0ZUemhKeGhZSEpwSkpIMWlGbURfckg0Wi1RQllQbHFTWFgyYUFaTm1DNzhDMC0zSkZQb3RFeXpwOUxKaFJid2VwUzVmbGVFTFFWR3p4MGlxR094c3FYZ1B0MF9NTGlxTEZXQlN6dERuVE9QT1VIMVU0NDRBdVowcVNpMmJjT1FBQTZFSnZydWM4WWlBSVhBdlJTUnhOVHlSR2s4?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e852]:
+                  - generic [ref=f20e853]:
+                    - generic [ref=f20e854]: The Hindu
+                    - generic [ref=f20e860]:
+                      - generic:
+                        - button "More - Trump throws U.S.-Saudi nuclear deal into turmoil by pinning it to Israel ties" [ref=f20e861] [cursor=pointer]
+                        - tooltip [ref=f20e865]: More
+                  - link "Trump throws U.S.-Saudi nuclear deal into turmoil by pinning it to Israel ties - The Hindu - 23 hours ago" [ref=f20e866] [cursor=pointer]:
+                    - /url: ./read/CBMixAFBVV95cUxQUlp6YV9ySUNjMUVjdDlLWHNTcGVDeG40NkluUUE0Q2N4OURQRG5FZkhPWDVkNFB6aTRZZVhscE5RN3R4M3pucUd2UnQtZjloem5JLUZQOWJpZDdReEZPSWRfSXQybzdTd281bjNnUTZ2QkZ5RnNnZDJYcE9mWkxaWlJZTlVpX3M5VEpiVzJ3OEtPRXhPUlRMT1V6VzFleFp6WDYzOVl5MWZENzVtYnNaYWJKYzhwZjRpZVBMaWRvdmRhdFZL0gHLAUFVX3lxTE1MZlFsbDR5YjJaVDhSb3haU3psUVVjeTlaN1JxakcxRHNVYTlNT0gyb0ZUemhKeGhZSEpwSkpIMWlGbURfckg0Wi1RQllQbHFTWFgyYUFaTm1DNzhDMC0zSkZQb3RFeXpwOUxKaFJid2VwUzVmbGVFTFFWR3p4MGlxR094c3FYZ1B0MF9NTGlxTEZXQlN6dERuVE9QT1VIMVU0NDRBdVowcVNpMmJjT1FBQTZFSnZydWM4WWlBSVhBdlJTUnhOVHlSR2s4?hl=en-IN&gl=IN&ceid=IN%3Aen
+                    - text: Trump throws U.S.-Saudi nuclear deal into turmoil by pinning it to Israel ties
+                - figure [ref=f20e867]
+              - generic [ref=f20e868]:
+                - time [ref=f20e869]: 23 hours ago
+                - generic [ref=f20e870]:
+                  - link "See more headlines and perspectives - Trump throws U.S.-Saudi nuclear deal into turmoil by pinning it to Israel ties" [ref=f20e872] [cursor=pointer]:
+                    - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lweXNmUUVSRmNGOGlkb0RFNDd5Z0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - tooltip [ref=f20e875]: See more headlines and perspectives
+            - separator [ref=f20e876]
+            - generic [ref=f20e879]:
+              - generic [ref=f20e880]:
+                - link [ref=f20e882] [cursor=pointer]:
+                  - /url: ./read/CBMiqwFBVV95cUxNTkFnbkxjVWFHVTRnSlVSSTd2V2JReUVBXzhPV0pPZFJneUJtbnJ0VDhULTJYb0s5aVRDZHAzdS1XY3NYT0NNUEdTekVEazdIV2lfRTdHZTJUWEZkam1Xekp2RUdFT2FCdVMzbmdTb1BtLUtETTd5UGZGSUNIa3dsX0o1c0p6Wi1Jdjdvc1daOUxtcENwR0t2MVJwWF9pMUo5ZldEbkFNNkNGdjDSAbMBQVVfeXFMTnhKMVdkRXN4TG5jREh3UC13c3NLbjZ0NWM1Y1B5X0RuR0d3dHQtUmxzVnMwdVJHNnMxZGR1NnUtR2ZIX2N3SjlHbmRFSmVUVmYtYXUyamxEdi13elJmUGVmYUhRLWhad2dtWGlHazdKZ0pkR1d2SVdhOWhIaUJ4WmdVdlBkdU1yeFdUdnJMTTh4aFNFMjNvZm1PRjhqUVU3U05DenpocWZ5SXNmV1N3SnJ5Rlk?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e884]:
+                  - generic [ref=f20e885]:
+                    - generic [ref=f20e886]: NDTV
+                    - generic [ref=f20e892]:
+                      - generic:
+                        - button "More - Trump Imposes Fresh 10% US Tariff On India In New Trade Move" [ref=f20e893] [cursor=pointer]
+                        - tooltip [ref=f20e897]: More
+                  - link "Trump Imposes Fresh 10% US Tariff On India In New Trade Move - NDTV - 11 hours ago" [ref=f20e898] [cursor=pointer]:
+                    - /url: ./read/CBMiqwFBVV95cUxNTkFnbkxjVWFHVTRnSlVSSTd2V2JReUVBXzhPV0pPZFJneUJtbnJ0VDhULTJYb0s5aVRDZHAzdS1XY3NYT0NNUEdTekVEazdIV2lfRTdHZTJUWEZkam1Xekp2RUdFT2FCdVMzbmdTb1BtLUtETTd5UGZGSUNIa3dsX0o1c0p6Wi1Jdjdvc1daOUxtcENwR0t2MVJwWF9pMUo5ZldEbkFNNkNGdjDSAbMBQVVfeXFMTnhKMVdkRXN4TG5jREh3UC13c3NLbjZ0NWM1Y1B5X0RuR0d3dHQtUmxzVnMwdVJHNnMxZGR1NnUtR2ZIX2N3SjlHbmRFSmVUVmYtYXUyamxEdi13elJmUGVmYUhRLWhad2dtWGlHazdKZ0pkR1d2SVdhOWhIaUJ4WmdVdlBkdU1yeFdUdnJMTTh4aFNFMjNvZm1PRjhqUVU3U05DenpocWZ5SXNmV1N3SnJ5Rlk?hl=en-IN&gl=IN&ceid=IN%3Aen
+                    - text: Trump Imposes Fresh 10% US Tariff On India In New Trade Move
+                - figure [ref=f20e899]
+              - generic [ref=f20e900]:
+                - time [ref=f20e901]: 11 hours ago
+                - generic [ref=f20e902]:
+                  - link "See more headlines and perspectives - Trump Imposes Fresh 10% US Tariff On India In New Trade Move" [ref=f20e904] [cursor=pointer]:
+                    - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p6NWJmVEVSSHo3MHFIOXNsVmJDZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - tooltip [ref=f20e907]: See more headlines and perspectives
+        - generic [ref=f20e910]:
+          - heading [level=3] [ref=f20e912]:
+            - link "Business" [ref=f20e913] [cursor=pointer]:
+              - /url: ./topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx6TVdZU0JXVnVMVWRDR2dKSlRpZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+          - separator [ref=f20e916]
+          - generic [ref=f20e917]:
+            - generic [ref=f20e920]:
+              - generic [ref=f20e921]:
+                - link [ref=f20e923] [cursor=pointer]:
+                  - /url: ./read/CBMikAJBVV95cUxNbjZwOU8teHVzUFpEbVlGcVpSNFRmQjRvUlZuanZ3RERPNGtZRDF5QWdDSnpyLUp6UGNEQVByb2VvbmNJWU9kblNIb1F6Z3FkTzhaRnRLRW9DcHI0QWVIWENOd0NoWFNDNDJwUHpzWW9NcEZMenhGbTFaRHJUNUsyVGY3Ri1TZUZLT25CZ0RlOWhwUGRnVWxWZmp4anRETUg5UHhIZzVYYWtpNE5qcnU4cy1CMnFveTZxUlR0ODJOaHNXSVBhVUZXaWlmY25JLU03ZFFIcnNWa0RyYzh4MF8ycHp1V2tSbmdtRXJrbmROT0p1UWFOZllxSFgyZk84V3J1UF9YZnVoeGlhR05HY1dQQdIBmAJBVV95cUxNQ1ZjTHdIN1EyWGpQSHBXVjRUcjFPUFRBbS1EU0xLd0hyZE9Xd3FNZHhsRV9hdFI0aHIxd2llSFhVMW16RHJxbG5ZSmlTblhUS1NHMURJYzA0dGtnMGRHN2lfUEEtVzh2a2xzRl9RUHdTaFVhcGxaQVhVQklJSmh4RThHSTh3Z3dhX3ExTER4M0YybGZBZjRRQmZXWTgxVnpqYTl3UUtmTElibUFLVVJtSEMyM3hxMm1URDB2eUJnMktsSWhRUXZ6Qld1SjNyc2doSzMtd0RBQldQWTh6b0dHc3RoQU9ubFI2THVfMzd1NXpwdGlMZWFDWm9RRHAxaTV2Z2hWTmdSLTg1U2pScVFPS3pwbG4yN3pw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e925]:
+                  - generic [ref=f20e926]:
+                    - generic [ref=f20e927]: NDTV Profit
+                    - generic [ref=f20e933]:
+                      - generic:
+                        - 'button "More - Stock Market Crash News Today: Nifty Ends Below 23,800, Sensex Slides 300 Points; Bajaj Finance, Eternal Top Losers" [ref=f20e934] [cursor=pointer]'
+                        - tooltip [ref=f20e938]: More
+                  - 'link "Stock Market Crash News Today: Nifty Ends Below 23,800, Sensex Slides 300 Points; Bajaj Finance, Eternal Top Losers - NDTV Profit - 4 hours ago - By Anirudh Saligrama" [ref=f20e939] [cursor=pointer]':
+                    - /url: ./read/CBMikAJBVV95cUxNbjZwOU8teHVzUFpEbVlGcVpSNFRmQjRvUlZuanZ3RERPNGtZRDF5QWdDSnpyLUp6UGNEQVByb2VvbmNJWU9kblNIb1F6Z3FkTzhaRnRLRW9DcHI0QWVIWENOd0NoWFNDNDJwUHpzWW9NcEZMenhGbTFaRHJUNUsyVGY3Ri1TZUZLT25CZ0RlOWhwUGRnVWxWZmp4anRETUg5UHhIZzVYYWtpNE5qcnU4cy1CMnFveTZxUlR0ODJOaHNXSVBhVUZXaWlmY25JLU03ZFFIcnNWa0RyYzh4MF8ycHp1V2tSbmdtRXJrbmROT0p1UWFOZllxSFgyZk84V3J1UF9YZnVoeGlhR05HY1dQQdIBmAJBVV95cUxNQ1ZjTHdIN1EyWGpQSHBXVjRUcjFPUFRBbS1EU0xLd0hyZE9Xd3FNZHhsRV9hdFI0aHIxd2llSFhVMW16RHJxbG5ZSmlTblhUS1NHMURJYzA0dGtnMGRHN2lfUEEtVzh2a2xzRl9RUHdTaFVhcGxaQVhVQklJSmh4RThHSTh3Z3dhX3ExTER4M0YybGZBZjRRQmZXWTgxVnpqYTl3UUtmTElibUFLVVJtSEMyM3hxMm1URDB2eUJnMktsSWhRUXZ6Qld1SjNyc2doSzMtd0RBQldQWTh6b0dHc3RoQU9ubFI2THVfMzd1NXpwdGlMZWFDWm9RRHAxaTV2Z2hWTmdSLTg1U2pScVFPS3pwbG4yN3pw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                    - text: "Stock Market Crash News Today: Nifty Ends Below 23,800, Sensex Slides 300 Points; Bajaj Finance, Eternal Top Losers"
+                - figure [ref=f20e940]
+              - generic [ref=f20e941]:
+                - time [ref=f20e942]: 4 hours ago
+                - separator [ref=f20e943]
+                - generic [ref=f20e944]: By Anirudh Saligrama
+                - generic [ref=f20e945]:
+                  - 'link "See more headlines and perspectives - Stock Market Crash News Today: Nifty Ends Below 23,800, Sensex Slides 300 Points; Bajaj Finance, Eternal Top Losers" [ref=f20e947] [cursor=pointer]':
+                    - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pnMHA3VUVSR3IzNHRrT2N2MFZpZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - tooltip [ref=f20e950]: See more headlines and perspectives
+            - separator [ref=f20e951]
+            - generic [ref=f20e954]:
+              - generic [ref=f20e955]:
+                - link [ref=f20e957] [cursor=pointer]:
+                  - /url: ./read/CBMi3wFBVV95cUxPTXdsQ1NYYnFkRmVhRnJXekNUV0RCdDJKVUtNaWRTWHFPY254bmlzakdNNXpfQzc1Q0lJQzk1bkRDMHc1blRPQl9WYVRIRmZrOC1fWkxuYm1VMG5kY2Z3NTRXekJ1c3YtQnlBSF9zRm0yNXJNQ1BTSnY0QVpFeG1ZbkFRU1J2VEREMXlxZkZkdG01QlpoUUZmbG1MWjgwVk5HdEk4blN4NjFCY0p4MlpibTNzVUluYUtibFQyNVFYUEZTemsyNmFqQWxLdndsQjV4U2RxU09TNXpJb3hua1M40gHkAUFVX3lxTE5keHViSThkUUVIWTlDekNLOVlORW03bGVIeHVfcWZJdXo3RnFQUXdnS0pHWVpwWFBXQXZaY2lJNnlkalUzZXlod0MyZVpQWmVLNkpwb19HRmdNdkdWdUVGbUVndFZvVzlBQ0gxSmlia1RIaS05VEFNVDFfUEp4d2pncWpIbm12bzBLNjNxMG9yNnJLU0JmeUdBWXhKbnpkX3hSWVp5SHA2U3R2U1lIY25aZlEyMGI4bndVNHlTNmNveUVlU2dwRDRRbVBDMmYxVFVnTUY0R3g3OEFFcEhOOU1ORGRFZA?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e959]:
+                  - generic [ref=f20e960]:
+                    - generic [ref=f20e961]: Moneycontrol.com
+                    - generic [ref=f20e967]:
+                      - generic:
+                        - button "More - HCLTech announces Rs 14,257 crore AI data centre in Odisha with Sarvam; stock gains" [ref=f20e968] [cursor=pointer]
+                        - tooltip [ref=f20e972]: More
+                  - link "HCLTech announces Rs 14,257 crore AI data centre in Odisha with Sarvam; stock gains - Moneycontrol.com - 5 hours ago" [ref=f20e973] [cursor=pointer]:
+                    - /url: ./read/CBMi3wFBVV95cUxPTXdsQ1NYYnFkRmVhRnJXekNUV0RCdDJKVUtNaWRTWHFPY254bmlzakdNNXpfQzc1Q0lJQzk1bkRDMHc1blRPQl9WYVRIRmZrOC1fWkxuYm1VMG5kY2Z3NTRXekJ1c3YtQnlBSF9zRm0yNXJNQ1BTSnY0QVpFeG1ZbkFRU1J2VEREMXlxZkZkdG01QlpoUUZmbG1MWjgwVk5HdEk4blN4NjFCY0p4MlpibTNzVUluYUtibFQyNVFYUEZTemsyNmFqQWxLdndsQjV4U2RxU09TNXpJb3hua1M40gHkAUFVX3lxTE5keHViSThkUUVIWTlDekNLOVlORW03bGVIeHVfcWZJdXo3RnFQUXdnS0pHWVpwWFBXQXZaY2lJNnlkalUzZXlod0MyZVpQWmVLNkpwb19HRmdNdkdWdUVGbUVndFZvVzlBQ0gxSmlia1RIaS05VEFNVDFfUEp4d2pncWpIbm12bzBLNjNxMG9yNnJLU0JmeUdBWXhKbnpkX3hSWVp5SHA2U3R2U1lIY25aZlEyMGI4bndVNHlTNmNveUVlU2dwRDRRbVBDMmYxVFVnTUY0R3g3OEFFcEhOOU1ORGRFZA?hl=en-IN&gl=IN&ceid=IN%3Aen
+                    - text: HCLTech announces Rs 14,257 crore AI data centre in Odisha with Sarvam; stock gains
+                - figure [ref=f20e974]
+              - generic [ref=f20e975]:
+                - time [ref=f20e976]: 5 hours ago
+                - generic [ref=f20e977]:
+                  - link "See more headlines and perspectives - HCLTech announces Rs 14,257 crore AI data centre in Odisha with Sarvam; stock gains" [ref=f20e979] [cursor=pointer]:
+                    - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2laMlpIVkVSRzNIaVVULUpLN1RpZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - tooltip [ref=f20e982]: See more headlines and perspectives
+            - separator [ref=f20e983]
+            - generic [ref=f20e986]:
+              - generic [ref=f20e987]:
+                - link "Sensex -0.43% 76,059.77" [ref=f20e988] [cursor=pointer]:
+                  - /url: https://www.google.com/search?q=INDEXBOM+SENSEX&hl=en-GB&source=news
+                  - generic [ref=f20e989]: Sensex
+                  - generic [ref=f20e992]: "-0.43%"
+                  - generic [ref=f20e993]: 76,059.77
+                - link "NIFTY 50 -0.43% 23,767.45" [ref=f20e995] [cursor=pointer]:
+                  - /url: https://www.google.com/search?q=INDEXNSE+NIFTY_50&hl=en-GB&source=news
+                  - generic [ref=f20e996]: NIFTY 50
+                  - generic [ref=f20e999]: "-0.43%"
+                  - generic [ref=f20e1000]: 23,767.45
+                - link "Nikkei 225 -2.73% 64,611.15" [ref=f20e1002] [cursor=pointer]:
+                  - /url: https://www.google.com/search?q=INDEXNIKKEI+NI225&hl=en-GB&source=news
+                  - generic [ref=f20e1003]: Nikkei 225
+                  - generic [ref=f20e1006]: "-2.73%"
+                  - generic [ref=f20e1007]: 64,611.15
+                - link "SSE -1.61% 3,814.20" [ref=f20e1009] [cursor=pointer]:
+                  - /url: https://www.google.com/search?q=SHA+000001&hl=en-GB&source=news
+                  - generic [ref=f20e1010]: SSE
+                  - generic [ref=f20e1013]: "-1.61%"
+                  - generic [ref=f20e1014]: 3,814.20
+              - generic [ref=f20e1016]:
+                - time [ref=f20e1017]: 5 hours ago
+                - generic [ref=f20e1018]:
+                  - link "Disclaimer" [ref=f20e1019] [cursor=pointer]:
+                    - /url: //www.google.com/intl/en-GB_IN/googlefinance/disclaimer/
+                  - separator [ref=f20e1020]
+                  - link "More from Google Finance" [ref=f20e1021] [cursor=pointer]:
+                    - /url: https://finance.google.com/?hl=en-GB&gl=IN&source=news
+        - generic [ref=f20e1024]:
+          - heading [level=3] [ref=f20e1026]:
+            - link "Technology" [ref=f20e1027] [cursor=pointer]:
+              - /url: ./topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRGRqTVhZU0JXVnVMVWRDR2dKSlRpZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+          - separator [ref=f20e1030]
+          - generic [ref=f20e1031]:
+            - generic [ref=f20e1034]:
+              - generic [ref=f20e1035]:
+                - link [ref=f20e1037] [cursor=pointer]:
+                  - /url: ./read/CBMitgFBVV95cUxOaE5OaDdaczktMnhIWlhJYUZIS2tyOU9DY0I4emxETm9Ub3p1WUpGM3lYb2JQay0zMG42dDR0Y1ZSekxral85bzR6VEZ4ckNPYUI3TXJIM1B6Tmd4QmYwZUFpbE5NYjVBUk50cW1GcDNmeXhHMlpyeWR1NUZFSEpXOGFzdE5iNGZkb3BQcGRpVndxQXR1MlJ5NVdvUzlic2RXVHpOcFl6Q3VPSUk3UGgxTE5lSUI5UQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1039]:
+                  - generic [ref=f20e1040]:
+                    - generic [ref=f20e1041]: thenationalnews.com
+                    - generic [ref=f20e1047]:
+                      - generic:
+                        - 'button "More - Best photos of July 24: Wildfire in France to kite festival in Bali" [ref=f20e1048] [cursor=pointer]'
+                        - tooltip [ref=f20e1052]: More
+                  - 'link "Best photos of July 24: Wildfire in France to kite festival in Bali - thenationalnews.com - 2 hours ago" [ref=f20e1053] [cursor=pointer]':
+                    - /url: ./read/CBMitgFBVV95cUxOaE5OaDdaczktMnhIWlhJYUZIS2tyOU9DY0I4emxETm9Ub3p1WUpGM3lYb2JQay0zMG42dDR0Y1ZSekxral85bzR6VEZ4ckNPYUI3TXJIM1B6Tmd4QmYwZUFpbE5NYjVBUk50cW1GcDNmeXhHMlpyeWR1NUZFSEpXOGFzdE5iNGZkb3BQcGRpVndxQXR1MlJ5NVdvUzlic2RXVHpOcFl6Q3VPSUk3UGgxTE5lSUI5UQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                    - text: "Best photos of July 24: Wildfire in France to kite festival in Bali"
+                - figure [ref=f20e1054]
+              - generic [ref=f20e1055]:
+                - time [ref=f20e1056]: 2 hours ago
+                - generic [ref=f20e1057]:
+                  - 'link "See more headlines and perspectives - Best photos of July 24: Wildfire in France to kite festival in Bali" [ref=f20e1059] [cursor=pointer]':
+                    - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pFbnNmTkVSRkNuM1JNZWhPWmt5Z0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - tooltip [ref=f20e1062]: See more headlines and perspectives
+            - separator [ref=f20e1063]
+            - generic [ref=f20e1066]:
+              - generic [ref=f20e1067]:
+                - link [ref=f20e1069] [cursor=pointer]:
+                  - /url: ./read/CBMizAFBVV95cUxOY29vcjNaa3RHNmtiNU4xTFdQMXljTkJack1aU0FmaG9jc2RYRV9VRE9hbHNjTG12eDVRbWdhRTRPZGlmZ3VnUHVqaEpqelAyY1NDS0ZqNUZId3VzdWhPRW03SGlvWHhycUhmV3JUY2xKX2JKbXZ2ZXdkZU1WWHhyVHpHRmFxQkRrRjlBQ2FBQ2h2amRRcGNZRnk2WTVCbV9kN1dqMWllSmFibzFUeEVsSURnRkNxcmlNcXJjQ0xRV0JJZ051aVlFYm5TUHbSAdMBQVVfeXFMTlQxaU5nOUJOeHE5WGpnRXBUbGF5LTdWMmtyVDZUZnFTRG85WS1WN3FOTkUzT3d4M01mTWQ1ejBDRV9yT1BzdGNPOGF1d2N3STBpSmJSLXFYVjY3V3lEZmJNZEtXQWJUZUpSdl9QUDZkTXlNMXVrUV9uX0tlaTBOMXE3M1djdnVKMWo3bEw5ZlNlV2pFcXpiaDNva3U2TkNCMU1CaFYyUGI4NDFIczd0OFlwRTlyUmpNc3ctcWgwcXU1UTQzbTAzNGFVY29PUDVianVWQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1071]:
+                  - generic [ref=f20e1072]:
+                    - generic [ref=f20e1073]: The Hindu
+                    - generic [ref=f20e1079]:
+                      - generic:
+                        - button "More - iQOO Z11 Lite 5G launched in India with Dimensity processor" [ref=f20e1080] [cursor=pointer]
+                        - tooltip [ref=f20e1084]: More
+                  - link "iQOO Z11 Lite 5G launched in India with Dimensity processor - The Hindu - 2 hours ago" [ref=f20e1085] [cursor=pointer]:
+                    - /url: ./read/CBMizAFBVV95cUxOY29vcjNaa3RHNmtiNU4xTFdQMXljTkJack1aU0FmaG9jc2RYRV9VRE9hbHNjTG12eDVRbWdhRTRPZGlmZ3VnUHVqaEpqelAyY1NDS0ZqNUZId3VzdWhPRW03SGlvWHhycUhmV3JUY2xKX2JKbXZ2ZXdkZU1WWHhyVHpHRmFxQkRrRjlBQ2FBQ2h2amRRcGNZRnk2WTVCbV9kN1dqMWllSmFibzFUeEVsSURnRkNxcmlNcXJjQ0xRV0JJZ051aVlFYm5TUHbSAdMBQVVfeXFMTlQxaU5nOUJOeHE5WGpnRXBUbGF5LTdWMmtyVDZUZnFTRG85WS1WN3FOTkUzT3d4M01mTWQ1ejBDRV9yT1BzdGNPOGF1d2N3STBpSmJSLXFYVjY3V3lEZmJNZEtXQWJUZUpSdl9QUDZkTXlNMXVrUV9uX0tlaTBOMXE3M1djdnVKMWo3bEw5ZlNlV2pFcXpiaDNva3U2TkNCMU1CaFYyUGI4NDFIczd0OFlwRTlyUmpNc3ctcWgwcXU1UTQzbTAzNGFVY29PUDVianVWQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                    - text: iQOO Z11 Lite 5G launched in India with Dimensity processor
+                - figure [ref=f20e1086]
+              - generic [ref=f20e1087]:
+                - time [ref=f20e1088]: 2 hours ago
+                - generic [ref=f20e1089]:
+                  - link "See more headlines and perspectives - iQOO Z11 Lite 5G launched in India with Dimensity processor" [ref=f20e1091] [cursor=pointer]:
+                    - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o5cnRuT0VSRjJoYXEyLUdtc0dTZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - tooltip [ref=f20e1094]: See more headlines and perspectives
+            - separator [ref=f20e1095]
+            - generic [ref=f20e1098]:
+              - generic [ref=f20e1099]:
+                - link [ref=f20e1101] [cursor=pointer]:
+                  - /url: ./read/CBMiqwFBVV95cUxOOFFrcGxJbkU0aVhjU1VqUXFZVzBRRF82UDNfLUxmX0ZjTElPb1ZBcVlJLXVERnJSeGd2eE9OQXBKNGRUSmlXY3pvdXNrbzNaeXR0NzZ5WHhvemp3M1oxakJDYW11NUhUZkVxRVEyd1NKUWhJenRjRUJURlhEbV9ST2VHVHJvcnJOa0tGNl8wUkdLZ2xtc0hnc3U1aHZwb1g5YTdRV3lIWi1SV1U?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1103]:
+                  - generic [ref=f20e1104]:
+                    - generic [ref=f20e1105]: t2ONLINE
+                    - generic [ref=f20e1111]:
+                      - generic:
+                        - button "More - Samsung opens Galaxy Watch Ultra2 and Watch9 pre-orders in India" [ref=f20e1112] [cursor=pointer]
+                        - tooltip [ref=f20e1116]: More
+                  - link "Samsung opens Galaxy Watch Ultra2 and Watch9 pre-orders in India - t2ONLINE - 7 hours ago" [ref=f20e1117] [cursor=pointer]:
+                    - /url: ./read/CBMiqwFBVV95cUxOOFFrcGxJbkU0aVhjU1VqUXFZVzBRRF82UDNfLUxmX0ZjTElPb1ZBcVlJLXVERnJSeGd2eE9OQXBKNGRUSmlXY3pvdXNrbzNaeXR0NzZ5WHhvemp3M1oxakJDYW11NUhUZkVxRVEyd1NKUWhJenRjRUJURlhEbV9ST2VHVHJvcnJOa0tGNl8wUkdLZ2xtc0hnc3U1aHZwb1g5YTdRV3lIWi1SV1U?hl=en-IN&gl=IN&ceid=IN%3Aen
+                    - text: Samsung opens Galaxy Watch Ultra2 and Watch9 pre-orders in India
+                - figure [ref=f20e1118]
+              - generic [ref=f20e1119]:
+                - time [ref=f20e1120]: 7 hours ago
+                - generic [ref=f20e1121]:
+                  - link "See more headlines and perspectives - Samsung opens Galaxy Watch Ultra2 and Watch9 pre-orders in India" [ref=f20e1123] [cursor=pointer]:
+                    - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pEcDZMU0VSR0RzM21KNDdkSmJDZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - tooltip [ref=f20e1126]: See more headlines and perspectives
+        - generic [ref=f20e1129]:
+          - heading [level=3] [ref=f20e1131]:
+            - link "Entertainment" [ref=f20e1132] [cursor=pointer]:
+              - /url: ./topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNREpxYW5RU0JXVnVMVWRDR2dKSlRpZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+          - separator [ref=f20e1135]
+          - generic [ref=f20e1136]:
+            - generic [ref=f20e1139]:
+              - generic [ref=f20e1140]:
+                - link [ref=f20e1142] [cursor=pointer]:
+                  - /url: ./read/CBMi3gFBVV95cUxNNWhWaXViOFlGT0wzcjM5b2lRbjhNUHRpWW1tOUZsNGtvVDhDOFZ0aXFXR1NkRzNWcExJWUNjM2RmcnpkdWVZM29qS2hrQzBodGVKLTJ4NzdIU2V6U3pyTFVldllwd1ltRUlCRTdiTmZVMGFuRExrMlg4M0FRakVqbC1LOV9TZ3R5VmJ2MVR1WnNpNWxPNEVTdzV4OVNfRUlZdG9oeDRqUFdMMTZBOGhxUk9pTXhiWU84UFhRalo4ZFloa1BTVVA3WXl5VzZPazBWZmhoR3hVUGtHMmhZR0HSAeQBQVVfeXFMTU1UREdxelJ3UlpMZ2VGTk5IWnBGNlQ2ZjVITHUtaGJHREZNOFh2TjM0TEhUYWRZOWxUdzMzNWpWNXhMX09QTUZvYldQbUNyTHZ5RlZuYmNNcnJITHBUbXI1RFRRSVZlWGgyVzM4TklpY2NWQVBkbUp5UTctYzJsaUdqWjA2UzVpYm5BYlc5QWtWai1EUW1zU1BVMFBvMzlCOTdBcFZWczN4dGcySUVSSHJVMjBhc19UZzlBWHQ5a3hrTlZhNm53VXBtUl9wNEdwRFpzVXdUWGl6S21mQ2dGMzJFSTU0?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1144]:
+                  - generic [ref=f20e1145]:
+                    - generic [ref=f20e1146]: The Indian Express
+                    - generic [ref=f20e1152]:
+                      - generic:
+                        - 'button "More - Jana Nayagan Box Office Day 1 Live Updates: Vijay’s farewell film makes 50 percent of Leo; earns Rs 78 cr" [ref=f20e1153] [cursor=pointer]'
+                        - tooltip [ref=f20e1157]: More
+                  - 'link "Jana Nayagan Box Office Day 1 Live Updates: Vijay’s farewell film makes 50 percent of Leo; earns Rs 78 cr - The Indian Express - 25 minutes ago - By Kriti Sonali" [ref=f20e1158] [cursor=pointer]':
+                    - /url: ./read/CBMi3gFBVV95cUxNNWhWaXViOFlGT0wzcjM5b2lRbjhNUHRpWW1tOUZsNGtvVDhDOFZ0aXFXR1NkRzNWcExJWUNjM2RmcnpkdWVZM29qS2hrQzBodGVKLTJ4NzdIU2V6U3pyTFVldllwd1ltRUlCRTdiTmZVMGFuRExrMlg4M0FRakVqbC1LOV9TZ3R5VmJ2MVR1WnNpNWxPNEVTdzV4OVNfRUlZdG9oeDRqUFdMMTZBOGhxUk9pTXhiWU84UFhRalo4ZFloa1BTVVA3WXl5VzZPazBWZmhoR3hVUGtHMmhZR0HSAeQBQVVfeXFMTU1UREdxelJ3UlpMZ2VGTk5IWnBGNlQ2ZjVITHUtaGJHREZNOFh2TjM0TEhUYWRZOWxUdzMzNWpWNXhMX09QTUZvYldQbUNyTHZ5RlZuYmNNcnJITHBUbXI1RFRRSVZlWGgyVzM4TklpY2NWQVBkbUp5UTctYzJsaUdqWjA2UzVpYm5BYlc5QWtWai1EUW1zU1BVMFBvMzlCOTdBcFZWczN4dGcySUVSSHJVMjBhc19UZzlBWHQ5a3hrTlZhNm53VXBtUl9wNEdwRFpzVXdUWGl6S21mQ2dGMzJFSTU0?hl=en-IN&gl=IN&ceid=IN%3Aen
+                    - text: "Jana Nayagan Box Office Day 1 Live Updates: Vijay’s farewell film makes 50 percent of Leo; earns Rs 78 cr"
+                - figure [ref=f20e1159]
+              - generic [ref=f20e1160]:
+                - time [ref=f20e1161]: 25 minutes ago
+                - separator [ref=f20e1162]
+                - generic [ref=f20e1163]: By Kriti Sonali
+                - generic [ref=f20e1164]:
+                  - 'link "See more headlines and perspectives - Jana Nayagan Box Office Day 1 Live Updates: Vijay’s farewell film makes 50 percent of Leo; earns Rs 78 cr" [ref=f20e1166] [cursor=pointer]':
+                    - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pOOUk3QkVSRUtmNnRYM3hGTUVpZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - tooltip [ref=f20e1169]: See more headlines and perspectives
+            - separator [ref=f20e1170]
+            - generic [ref=f20e1173]:
+              - generic [ref=f20e1174]:
+                - link [ref=f20e1176] [cursor=pointer]:
+                  - /url: ./read/CBMi-AFBVV95cUxOTlhfWnliYUlndDhRQW9XRVpRVmpPNFZsdUFyYmtXVWdwRFZORFoweV9YRzVHc3NIeXdPaU9nVFQ0Z0tRUzcxdk5fNENuNkdpaDkzZ3k0czNmSi1nYzg1eUJzWU1vQzFwTWdjN2NjNkJDdmxBa2hWYTk3djBmYXJSeTM3eXZwU2o0ZDdyNXZXeHRMN3hBbEVFQ2VxbWpVYWtjcWM3N3JRTXgta3BfcUNSU0xJUnNmbWR4WkZ4Q0RyR01JZVdfU3g5eXpmWF9sZDNQRkV6cTBVNWRpbGNEdmoyWXk0blV4RXRBRUUxRS1UYnB0cjVJTkVjaNIB_wFBVV95cUxPQ0ZRTUx3dzBqM3N3Xzl1b3U5WEdyVW9VZllSUFhZb0U3SzBjT0ttN29aWVRkcDlVR0Q0MWYwekpROE5VVUNrV0tVelM3TVZVTmZGQjFQNW0zZmNfSXlxWVFla1k4TEdfRVdlOW1mcUZlZ1MtMVRuNTUtbGF0a0M1cXhKY3BUNk1LT2gzVkVjVXB4OGsteXI5SlBDbjJTNXdvN05tRDdHSnFnanBoUm1KN2QzUm5IQUJHRHNQRkN6TkVCei1jVF9aaG55WE9yYkdCdEZlZzVTVlptQl9ISkNSWkNYbGtuS2tBMEk2MkxPWkRkeGNsS0tjb1R2VHJYZzg?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1178]:
+                  - generic [ref=f20e1179]:
+                    - generic [ref=f20e1180]: The Hindu
+                    - generic [ref=f20e1186]:
+                      - generic:
+                        - button "More - ‘Ramayana’ trailer postponed as producer Namit Malhotra announces Sony Pictures as global distributor" [ref=f20e1187] [cursor=pointer]
+                        - tooltip [ref=f20e1191]: More
+                  - link "‘Ramayana’ trailer postponed as producer Namit Malhotra announces Sony Pictures as global distributor - The Hindu - 9 hours ago" [ref=f20e1192] [cursor=pointer]:
+                    - /url: ./read/CBMi-AFBVV95cUxOTlhfWnliYUlndDhRQW9XRVpRVmpPNFZsdUFyYmtXVWdwRFZORFoweV9YRzVHc3NIeXdPaU9nVFQ0Z0tRUzcxdk5fNENuNkdpaDkzZ3k0czNmSi1nYzg1eUJzWU1vQzFwTWdjN2NjNkJDdmxBa2hWYTk3djBmYXJSeTM3eXZwU2o0ZDdyNXZXeHRMN3hBbEVFQ2VxbWpVYWtjcWM3N3JRTXgta3BfcUNSU0xJUnNmbWR4WkZ4Q0RyR01JZVdfU3g5eXpmWF9sZDNQRkV6cTBVNWRpbGNEdmoyWXk0blV4RXRBRUUxRS1UYnB0cjVJTkVjaNIB_wFBVV95cUxPQ0ZRTUx3dzBqM3N3Xzl1b3U5WEdyVW9VZllSUFhZb0U3SzBjT0ttN29aWVRkcDlVR0Q0MWYwekpROE5VVUNrV0tVelM3TVZVTmZGQjFQNW0zZmNfSXlxWVFla1k4TEdfRVdlOW1mcUZlZ1MtMVRuNTUtbGF0a0M1cXhKY3BUNk1LT2gzVkVjVXB4OGsteXI5SlBDbjJTNXdvN05tRDdHSnFnanBoUm1KN2QzUm5IQUJHRHNQRkN6TkVCei1jVF9aaG55WE9yYkdCdEZlZzVTVlptQl9ISkNSWkNYbGtuS2tBMEk2MkxPWkRkeGNsS0tjb1R2VHJYZzg?hl=en-IN&gl=IN&ceid=IN%3Aen
+                    - text: ‘Ramayana’ trailer postponed as producer Namit Malhotra announces Sony Pictures as global distributor
+                - figure [ref=f20e1193]
+              - generic [ref=f20e1194]:
+                - time [ref=f20e1195]: 9 hours ago
+                - generic [ref=f20e1196]:
+                  - link "See more headlines and perspectives - ‘Ramayana’ trailer postponed as producer Namit Malhotra announces Sony Pictures as global distributor" [ref=f20e1198] [cursor=pointer]:
+                    - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k1cGUzUUVSRk9hNnZ4WDBjNFpDZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - tooltip [ref=f20e1201]: See more headlines and perspectives
+            - separator [ref=f20e1202]
+            - generic [ref=f20e1205]:
+              - generic [ref=f20e1206]:
+                - link [ref=f20e1208] [cursor=pointer]:
+                  - /url: ./read/CBMipwFBVV95cUxNZmdETW1ySkh5UHRNaEY4ZXBoczYtODRFWE5Jc0Mzb2tZTkZPYW81eGQ4aEMydW1Sai1CTlBCVXJERmVUanJkQ2lnNkc0U2tjWmE4SlhYcm9yUHBwT1J6MjRnTXpVQmZQbnVxTGMwR0tIeHkzcnBKWTRjaXp5SFY0bjNMX3NKMmNoUTJUWm9qWkxhVG1NaEFuYlpsMlg0NUR0OVZiSnFud9IBrAFBVV95cUxNVVRsMDdGZ2U5ejFOb3BOeFRWY0U5UU5vZDl6TUpJeFFGY0dRcjdWWjVZSkhLNXRBNTR6Zk5DdEhKOEtoR3FEZVktYzBNLWNURG1nbGgtRjFSeFFmaFU3UjF6cXJQZGh0WHFrOUlxNXdGTEd3dTBhbldMQ2ZLVUFaUzdhUWRZRGRzOGM5dzFNRzdzRWJ1azJVcXowQXdjYTl6YUNfLW8yS1NyX3JC?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1210]:
+                  - generic [ref=f20e1211]:
+                    - generic [ref=f20e1212]: Rediff
+                    - generic [ref=f20e1218]:
+                      - generic:
+                        - 'button "More - Adarsh Baal Vidyalaya Review: Humour, Heart, Hard Realities" [ref=f20e1219] [cursor=pointer]'
+                        - tooltip [ref=f20e1223]: More
+                  - 'link "Adarsh Baal Vidyalaya Review: Humour, Heart, Hard Realities - Rediff - 5 hours ago - By Deepa Gahlot" [ref=f20e1224] [cursor=pointer]':
+                    - /url: ./read/CBMipwFBVV95cUxNZmdETW1ySkh5UHRNaEY4ZXBoczYtODRFWE5Jc0Mzb2tZTkZPYW81eGQ4aEMydW1Sai1CTlBCVXJERmVUanJkQ2lnNkc0U2tjWmE4SlhYcm9yUHBwT1J6MjRnTXpVQmZQbnVxTGMwR0tIeHkzcnBKWTRjaXp5SFY0bjNMX3NKMmNoUTJUWm9qWkxhVG1NaEFuYlpsMlg0NUR0OVZiSnFud9IBrAFBVV95cUxNVVRsMDdGZ2U5ejFOb3BOeFRWY0U5UU5vZDl6TUpJeFFGY0dRcjdWWjVZSkhLNXRBNTR6Zk5DdEhKOEtoR3FEZVktYzBNLWNURG1nbGgtRjFSeFFmaFU3UjF6cXJQZGh0WHFrOUlxNXdGTEd3dTBhbldMQ2ZLVUFaUzdhUWRZRGRzOGM5dzFNRzdzRWJ1azJVcXowQXdjYTl6YUNfLW8yS1NyX3JC?hl=en-IN&gl=IN&ceid=IN%3Aen
+                    - text: "Adarsh Baal Vidyalaya Review: Humour, Heart, Hard Realities"
+                - figure [ref=f20e1225]
+              - generic [ref=f20e1226]:
+                - time [ref=f20e1227]: 5 hours ago
+                - separator [ref=f20e1228]
+                - generic [ref=f20e1229]: By Deepa Gahlot
+                - generic [ref=f20e1230]:
+                  - 'link "See more headlines and perspectives - Adarsh Baal Vidyalaya Review: Humour, Heart, Hard Realities" [ref=f20e1232] [cursor=pointer]':
+                    - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lBeU5MVUVSSG9QRVpTOWJyUWxTZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - tooltip [ref=f20e1235]: See more headlines and perspectives
+        - generic [ref=f20e1238]:
+          - heading [level=3] [ref=f20e1240]:
+            - link "Sports" [ref=f20e1241] [cursor=pointer]:
+              - /url: ./topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp1ZEdvU0JXVnVMVWRDR2dKSlRpZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+          - separator [ref=f20e1244]
+          - generic [ref=f20e1245]:
+            - generic [ref=f20e1248]:
+              - generic [ref=f20e1249]:
+                - link [ref=f20e1251] [cursor=pointer]:
+                  - /url: ./read/CBMilwFBVV95cUxNb0U1NkgxLW1md051blJlWkVncW1SbFRzckFZdVNPLWh3LXJYWTVfN29iNURnWXJqUHdIQzlWeVQ1SFA4bFFnRzhUMmxfU1FqamtQaFBqVF9IMVl0eXJwcFBTUW9lUkc5Tl9UTnExaW9BTzZ6TXRITXdLdUJ3Z2t1RTl2TEtBRnYwZ3EwVzc1aTcxWUpDTGVJ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1253]:
+                  - generic [ref=f20e1254]:
+                    - generic [ref=f20e1255]: olympics.com
+                    - generic [ref=f20e1261]:
+                      - generic:
+                        - 'button "More - CWG 2026 India schedule today, July 24: Srihari Nataraj in action; first medal chances beckon in powerlifting, para swimming and gymnastics" [ref=f20e1262] [cursor=pointer]'
+                        - tooltip [ref=f20e1266]: More
+                  - 'link "CWG 2026 India schedule today, July 24: Srihari Nataraj in action; first medal chances beckon in powerlifting, para swimming and gymnastics - olympics.com - 14 hours ago" [ref=f20e1267] [cursor=pointer]':
+                    - /url: ./read/CBMilwFBVV95cUxNb0U1NkgxLW1md051blJlWkVncW1SbFRzckFZdVNPLWh3LXJYWTVfN29iNURnWXJqUHdIQzlWeVQ1SFA4bFFnRzhUMmxfU1FqamtQaFBqVF9IMVl0eXJwcFBTUW9lUkc5Tl9UTnExaW9BTzZ6TXRITXdLdUJ3Z2t1RTl2TEtBRnYwZ3EwVzc1aTcxWUpDTGVJ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                    - text: "CWG 2026 India schedule today, July 24: Srihari Nataraj in action; first medal chances beckon in powerlifting, para swimming and gymnastics"
+                - figure [ref=f20e1268]
+              - generic [ref=f20e1269]:
+                - time [ref=f20e1270]: 14 hours ago
+                - generic [ref=f20e1271]:
+                  - 'link "See more headlines and perspectives - CWG 2026 India schedule today, July 24: Srihari Nataraj in action; first medal chances beckon in powerlifting, para swimming and gymnastics" [ref=f20e1273] [cursor=pointer]':
+                    - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2otMFBUUkVSR0M4MWNnaGVWRFRDZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - tooltip [ref=f20e1276]: See more headlines and perspectives
+            - separator [ref=f20e1277]
+            - generic [ref=f20e1280]:
+              - generic [ref=f20e1281]:
+                - link [ref=f20e1283] [cursor=pointer]:
+                  - /url: ./read/CBMiuAFBVV95cUxOTHNPVG9oSU1VYWxwRWdzS1gwTjBRRXVwa2NvVEhRbEdlTHk0LWc4RlFlcnRyNnJId2oxOC1obUtaVEZVdWVKT3FxWndGQWktcGFTazdkNXduSDllRUdvN2dyb2NLTnFVR0dEazh5djFrdGdLNG82eTNJVS1OVGIwQnlqTGxDNU9qQkZRYWZtbmxjTGZ3bE9kNzFfdGE2MGZGOGlJM0E5R2F3ak5vM3plMWlNOWU3ek9p0gG-AUFVX3lxTFBabzZxTXZFZFFwX1ByeXlVcHlMT2pydFRCNDlyUXZiRUJ3azc2Q0kzRHk5WktKY3daaWQ3S2U4UGc2WnlMX1VkVUp4c0hnSzN3OWUxa25hN3E4MVNDSzBuZHRvcDFNWTNHVHpZdTFabHAyZGE2dmVobzJZeF9MczVpNVlvSk9ZbERjRGVmSUhZNjhWQ1dLOE9xNkhSdGc2QWNoNTZ5QWJHVFFFMTNtQ3dxUThzS01ZWDI5Z0c0enc?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1285]:
+                  - generic [ref=f20e1286]:
+                    - generic [ref=f20e1287]: Al Jazeera
+                    - generic [ref=f20e1293]:
+                      - generic:
+                        - button "More - Germany appoint Klopp as ex-Liverpool coach sought to lift World Cup blues" [ref=f20e1294] [cursor=pointer]
+                        - tooltip [ref=f20e1298]: More
+                  - link "Germany appoint Klopp as ex-Liverpool coach sought to lift World Cup blues - Al Jazeera - 2 hours ago" [ref=f20e1299] [cursor=pointer]:
+                    - /url: ./read/CBMiuAFBVV95cUxOTHNPVG9oSU1VYWxwRWdzS1gwTjBRRXVwa2NvVEhRbEdlTHk0LWc4RlFlcnRyNnJId2oxOC1obUtaVEZVdWVKT3FxWndGQWktcGFTazdkNXduSDllRUdvN2dyb2NLTnFVR0dEazh5djFrdGdLNG82eTNJVS1OVGIwQnlqTGxDNU9qQkZRYWZtbmxjTGZ3bE9kNzFfdGE2MGZGOGlJM0E5R2F3ak5vM3plMWlNOWU3ek9p0gG-AUFVX3lxTFBabzZxTXZFZFFwX1ByeXlVcHlMT2pydFRCNDlyUXZiRUJ3azc2Q0kzRHk5WktKY3daaWQ3S2U4UGc2WnlMX1VkVUp4c0hnSzN3OWUxa25hN3E4MVNDSzBuZHRvcDFNWTNHVHpZdTFabHAyZGE2dmVobzJZeF9MczVpNVlvSk9ZbERjRGVmSUhZNjhWQ1dLOE9xNkhSdGc2QWNoNTZ5QWJHVFFFMTNtQ3dxUThzS01ZWDI5Z0c0enc?hl=en-IN&gl=IN&ceid=IN%3Aen
+                    - text: Germany appoint Klopp as ex-Liverpool coach sought to lift World Cup blues
+                - figure [ref=f20e1300]
+              - generic [ref=f20e1301]:
+                - time [ref=f20e1302]: 2 hours ago
+                - generic [ref=f20e1303]:
+                  - link "See more headlines and perspectives - Germany appoint Klopp as ex-Liverpool coach sought to lift World Cup blues" [ref=f20e1305] [cursor=pointer]:
+                    - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2preXFEUkVSRjF3WXBEemdWQllTZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - tooltip [ref=f20e1308]: See more headlines and perspectives
+            - separator [ref=f20e1309]
+            - generic [ref=f20e1312]:
+              - generic [ref=f20e1313]:
+                - link [ref=f20e1315] [cursor=pointer]:
+                  - /url: ./read/CBMirwFBVV95cUxPNFdOOE1oVkNqSUNuMFhPWkdvelotdFMzOTFLa2Z5aUlhdVdUbEF2MU9uTUxUaXM0djBESV9VMXZ1OVVGU0lMMXotVEVRVG8xUW5YR2JObkk0YXozZUJGa3JfQUljX3IzMEh5cXB3Rko2MTMtM0tHSEpNanZvNmlnYmJoU2pzS0hsaXlya09jYV9vMHFBdUFCZ2JQVmNnMVVROFBQbWNvbzZxTFN3S1RR?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1317]:
+                  - generic [ref=f20e1318]:
+                    - generic [ref=f20e1319]: Cricinfo
+                    - generic [ref=f20e1325]:
+                      - generic:
+                        - button "More - Sooryavanshi, Mayank help India end T20I losing streak" [ref=f20e1326] [cursor=pointer]
+                        - tooltip [ref=f20e1330]: More
+                  - link "Sooryavanshi, Mayank help India end T20I losing streak - Cricinfo - 7 hours ago - By Firdose Moonda" [ref=f20e1331] [cursor=pointer]:
+                    - /url: ./read/CBMirwFBVV95cUxPNFdOOE1oVkNqSUNuMFhPWkdvelotdFMzOTFLa2Z5aUlhdVdUbEF2MU9uTUxUaXM0djBESV9VMXZ1OVVGU0lMMXotVEVRVG8xUW5YR2JObkk0YXozZUJGa3JfQUljX3IzMEh5cXB3Rko2MTMtM0tHSEpNanZvNmlnYmJoU2pzS0hsaXlya09jYV9vMHFBdUFCZ2JQVmNnMVVROFBQbWNvbzZxTFN3S1RR?hl=en-IN&gl=IN&ceid=IN%3Aen
+                    - text: Sooryavanshi, Mayank help India end T20I losing streak
+                - figure [ref=f20e1332]
+              - generic [ref=f20e1333]:
+                - time [ref=f20e1334]: 7 hours ago
+                - separator [ref=f20e1335]
+                - generic [ref=f20e1336]: By Firdose Moonda
+                - generic [ref=f20e1337]:
+                  - link "See more headlines and perspectives - Sooryavanshi, Mayank help India end T20I losing streak" [ref=f20e1339] [cursor=pointer]:
+                    - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lral9uS0VSSDV4Vl9jRi1oT0d5Z0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - tooltip [ref=f20e1342]: See more headlines and perspectives
+    - generic [ref=f20e1346]:
+      - heading "Sources" [level=2] [ref=f20e1347]
+      - paragraph [ref=f20e1348]: Popular in your area
+      - generic [ref=f20e1349]:
+        - button [ref=f20e1354] [cursor=pointer]
+        - generic [ref=f20e1358]:
+          - generic [ref=f20e1362]:
+            - generic [ref=f20e1363]: Introducing News Showcase
+            - generic [ref=f20e1364]: A new feature from Google highlighting stories selected by newsroom editors
+          - generic [ref=f20e1370]:
+            - generic [ref=f20e1371]:
+              - link [ref=f20e1372] [cursor=pointer]:
+                - /url: ./publications/CAAqIQgKIhtDQklTRGdnTWFnb0tDRzVrZEhZdVkyOXRLQUFQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - heading "NDTV" [level=3] [ref=f20e1373]:
+                  - img "NDTV" [ref=f20e1374]
+              - generic [ref=f20e1376]:
+                - button "Follow this source - NDTV" [ref=f20e1378]:
+                  - generic [ref=f20e1384]: Follow
+                - tooltip [ref=f20e1385]: Follow this source
+            - heading "Top Headlines" [level=4] [ref=f20e1386]
+            - generic [ref=f20e1387]:
+              - generic [ref=f20e1388]:
+                - link [ref=f20e1390] [cursor=pointer]:
+                  - /url: ./read/CBMitwNBVV95cUxNdXgwc3F4Qm9RcDJ1T3hGTzJMQjZKdmo3R2VtOXg0bkJOdnRaaW1YNk1kTDZ5SVZrdjU0anF1NUZDTHBHUjJYWVhwVldwM1FRN0ktRVZBQ2kwdGpBMUc3bUh5eTQ4alAtSzdicEw3UG5ndnpLSVJJbW5tRkNQcDRhLXBoQUxJWFBVREIyS19uQVRHb25lZnVxMlFFSjVmRWgwckoxMWxQUHlfdG8wWFdKUFM0UWlWdjR0LXdfTnpIV3VJa1NCQnhlM29IZWFiTG1nX04wdXZST3hWb2RveFRReVI0alJXX04zQWpfXzNfTUV5UGVvU3k3LUZuWEpLWHAtcWpUSHlLZVI3NDg3ZUE0NnpZLUNTd1B3b3NWaWtycmIwY2UtR1VjejVCdUpPejFiaWxqM3Ffcl9qOHlFZnNPcXoyUUlBeWp6SUdTQ0pvbGRqb3BVU1B5aEI5NWFHRlhaaFZ1VGtqMmtHRUU2cjVfYThtNGZvNktkVlRUT0pGYXBvd1VDMGVMNGh0RkY0clZjUndTUXplX1ZGbmZwYmhtbF9zOERUY0FPb3BxYmZaRlVUUjNuZmFF?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1391]: Video
+                - link "'Dharmendra Pradhan's Resignation Not On Cards, Easiest Call..." [ref=f20e1392] [cursor=pointer]:
+                  - /url: ./read/CBMitwNBVV95cUxNdXgwc3F4Qm9RcDJ1T3hGTzJMQjZKdmo3R2VtOXg0bkJOdnRaaW1YNk1kTDZ5SVZrdjU0anF1NUZDTHBHUjJYWVhwVldwM1FRN0ktRVZBQ2kwdGpBMUc3bUh5eTQ4alAtSzdicEw3UG5ndnpLSVJJbW5tRkNQcDRhLXBoQUxJWFBVREIyS19uQVRHb25lZnVxMlFFSjVmRWgwckoxMWxQUHlfdG8wWFdKUFM0UWlWdjR0LXdfTnpIV3VJa1NCQnhlM29IZWFiTG1nX04wdXZST3hWb2RveFRReVI0alJXX04zQWpfXzNfTUV5UGVvU3k3LUZuWEpLWHAtcWpUSHlLZVI3NDg3ZUE0NnpZLUNTd1B3b3NWaWtycmIwY2UtR1VjejVCdUpPejFiaWxqM3Ffcl9qOHlFZnNPcXoyUUlBeWp6SUdTQ0pvbGRqb3BVU1B5aEI5NWFHRlhaaFZ1VGtqMmtHRUU2cjVfYThtNGZvNktkVlRUT0pGYXBvd1VDMGVMNGh0RkY0clZjUndTUXplX1ZGbmZwYmhtbF9zOERUY0FPb3BxYmZaRlVUUjNuZmFF?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1393]
+              - generic [ref=f20e1394]:
+                - link [ref=f20e1396] [cursor=pointer]:
+                  - /url: ./read/CBMi5wJBVV95cUxNREJieDJGZGNUQllzQzZsSHhPV2FyRVI5NHR5bmdpLVpxYi1zUEVua2F1YkFKQmNXaEJCVUg2UEpjamxKRkhIendOTE1wSS15R2hxeEt6TkdqYjhweVRfc2ZpLW9LdkE5eWpKVG5jd1VLVEJEalFOUkw4MlpmRGlVU3YzYlgxMnREVXJ3bXM2Rm1ob1BJWUhpSkVlREZfZDhROHNWbmR2UGcwUlM3UElmMzdnYzVHT0ZLdzZXSkFTN09DUTV6aTRCNV9Cdm93dEhhXzZSYlJHbHk4b3FXNXhMQkFUeklNallCVmY4c2x5a1R3NnEwcThfQ3ZYV2RuWEFST0F2WS1MSk5CbzRlNG41a1BIZlRURGlZOGdHREI1TFNBSU85Ny03amxWYWZORUZvSEJTVV90SklRbURKLTllQ1d0QmhwNFBIRkl5NGFJV3lqV19uZnlldFViM01LWHZRUHdmcEQ1QQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1397]: Video
+                - 'link "''Centre Sought A Day''s Time'': CJP Firm On Dharmendra Pradhan..." [ref=f20e1398] [cursor=pointer]':
+                  - /url: ./read/CBMi5wJBVV95cUxNREJieDJGZGNUQllzQzZsSHhPV2FyRVI5NHR5bmdpLVpxYi1zUEVua2F1YkFKQmNXaEJCVUg2UEpjamxKRkhIendOTE1wSS15R2hxeEt6TkdqYjhweVRfc2ZpLW9LdkE5eWpKVG5jd1VLVEJEalFOUkw4MlpmRGlVU3YzYlgxMnREVXJ3bXM2Rm1ob1BJWUhpSkVlREZfZDhROHNWbmR2UGcwUlM3UElmMzdnYzVHT0ZLdzZXSkFTN09DUTV6aTRCNV9Cdm93dEhhXzZSYlJHbHk4b3FXNXhMQkFUeklNallCVmY4c2x5a1R3NnEwcThfQ3ZYV2RuWEFST0F2WS1MSk5CbzRlNG41a1BIZlRURGlZOGdHREI1TFNBSU85Ny03amxWYWZORUZvSEJTVV90SklRbURKLTllQ1d0QmhwNFBIRkl5NGFJV3lqV19uZnlldFViM01LWHZRUHdmcEQ1QQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1399]
+              - generic [ref=f20e1400]:
+                - link [ref=f20e1402] [cursor=pointer]:
+                  - /url: ./read/CBMi6wJBVV95cUxQOEZ6YTQtVlhiU3BYbXg1aUhBZ3hCTS1LSFpXbDJ3UkQ1a3hYcHkxQm9BS1ppWlU3MUxLR3NNY0ZMb2tONUFfSmVZZEZ3anU5eTBKOV9iMmk2OVpJaTZtRlFtbXRveTlFU2VwZzlTSGFwYlJqb1RadG9WTTdncGJ4VjdsV01NTHhKSzI2TlZkQXVpMlVoMklkUkdVM3VjNkwwSWxrWkNNeS1oUnJjTUNHd3FTWGQ2Tzk0QkxKT0RCTl9YZHh3cFp5ZXVyY2dmd1JfblZUODg5OVMyeUNuc3poNHYyY0E3cDdfcW5jYmFJa3J3aHRMQVBmRzVNekN6Y19TSlJUZ1I4dTJzcWktek9XUlJwRVotYUdGTEtZMGh0NXhUSng1RElhamRsb3NLcmhaM2pIRU80a29USE1ETF83aHRfZTdwMFJNLWtpaE0zY0dHR29DUUxUSHZKOU5oamJWMkRFdVIwbUlSX00?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1403]: New Delhi
+                - 'link "\"Demon Out Of Bag\": Top Court Bans Recording, Sharing Videos..." [ref=f20e1404] [cursor=pointer]':
+                  - /url: ./read/CBMi6wJBVV95cUxQOEZ6YTQtVlhiU3BYbXg1aUhBZ3hCTS1LSFpXbDJ3UkQ1a3hYcHkxQm9BS1ppWlU3MUxLR3NNY0ZMb2tONUFfSmVZZEZ3anU5eTBKOV9iMmk2OVpJaTZtRlFtbXRveTlFU2VwZzlTSGFwYlJqb1RadG9WTTdncGJ4VjdsV01NTHhKSzI2TlZkQXVpMlVoMklkUkdVM3VjNkwwSWxrWkNNeS1oUnJjTUNHd3FTWGQ2Tzk0QkxKT0RCTl9YZHh3cFp5ZXVyY2dmd1JfblZUODg5OVMyeUNuc3poNHYyY0E3cDdfcW5jYmFJa3J3aHRMQVBmRzVNekN6Y19TSlJUZ1I4dTJzcWktek9XUlJwRVotYUdGTEtZMGh0NXhUSng1RElhamRsb3NLcmhaM2pIRU80a29USE1ETF83aHRfZTdwMFJNLWtpaE0zY0dHR29DUUxUSHZKOU5oamJWMkRFdVIwbUlSX00?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1405]
+            - generic [ref=f20e1406]:
+              - generic [ref=f20e1407]:
+                - generic [ref=f20e1408]: Showcase
+                - time [ref=f20e1409]: • 5 minutes ago
+              - generic [ref=f20e1414]:
+                - button "More - NDTV" [ref=f20e1415] [cursor=pointer]
+                - tooltip [ref=f20e1419]: More
+          - generic [ref=f20e1423]:
+            - generic [ref=f20e1424]:
+              - link [ref=f20e1425] [cursor=pointer]:
+                - /url: ./publications/CAAqLggKIihDQklTR0FnTWFoUUtFbWhwYm1SMWMzUmhiblJwYldWekxtTnZiU2dBUAE?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - heading "Hindustan Times" [level=3] [ref=f20e1426]:
+                  - img "Hindustan Times" [ref=f20e1427]
+              - generic [ref=f20e1429]:
+                - button "Follow this source - Hindustan Times" [ref=f20e1431]:
+                  - generic [ref=f20e1437]: Follow
+                - tooltip [ref=f20e1438]: Follow this source
+            - heading "Top Stories" [level=4] [ref=f20e1439]
+            - generic [ref=f20e1440]:
+              - generic [ref=f20e1441]:
+                - link [ref=f20e1443] [cursor=pointer]:
+                  - /url: ./read/CBMikwNBVV95cUxNWDVXZ1VmYjFwSGxLS3dSVi1jOHVyZ3BKOHJ1RmRtUl9yaldiOFpqUGhDZllmckU4aGVidXpYUjRXd2IxcEhmNEZqcjNCa214c19hVWdxZnNVM1VJU2NUMW1tNEkzdWJpdThSV08xdmhfS29WVThCUkh3UUxSMXhfdlVlWUVzZWFLMEN4RWVqb1Y5UVUwM05wN3lHQ0x3aVpwY3NBYXJvQkotZVJBd09JbkNZQkFYeF9qaHZlMGJZcmdjVF9xbkFaQlB1ZmdxR3c2a3lXRzNlSE8xcWVsREtNM0VidjMxenVpMF83R3BJRlZYTE5NN3pJQlU2YUc3X2JiYXZ6QjVyczJCOEdhUmtwTmFVZkZ6cDNneVpxYlNleDNtQ3BjeE5CUnNKdW9NSTJYY1BjMVkzT2dIN0E2a0R4d0VRT0hLMDktVFFnZ2VtTE9SZ2FLM1ZHQV9uRTdlcjNKandld1ZGelA2NGZuWjMyb0s1ZVczX3NhSjZyOXlVZWIyU3RTZnRjT1pia01jekFjY3pj?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1444]: CJP protest
+                - 'link "‘No plea filed on CJP protest police action’: CJI Surya Kant" [ref=f20e1445] [cursor=pointer]':
+                  - /url: ./read/CBMikwNBVV95cUxNWDVXZ1VmYjFwSGxLS3dSVi1jOHVyZ3BKOHJ1RmRtUl9yaldiOFpqUGhDZllmckU4aGVidXpYUjRXd2IxcEhmNEZqcjNCa214c19hVWdxZnNVM1VJU2NUMW1tNEkzdWJpdThSV08xdmhfS29WVThCUkh3UUxSMXhfdlVlWUVzZWFLMEN4RWVqb1Y5UVUwM05wN3lHQ0x3aVpwY3NBYXJvQkotZVJBd09JbkNZQkFYeF9qaHZlMGJZcmdjVF9xbkFaQlB1ZmdxR3c2a3lXRzNlSE8xcWVsREtNM0VidjMxenVpMF83R3BJRlZYTE5NN3pJQlU2YUc3X2JiYXZ6QjVyczJCOEdhUmtwTmFVZkZ6cDNneVpxYlNleDNtQ3BjeE5CUnNKdW9NSTJYY1BjMVkzT2dIN0E2a0R4d0VRT0hLMDktVFFnZ2VtTE9SZ2FLM1ZHQV9uRTdlcjNKandld1ZGelA2NGZuWjMyb0s1ZVczX3NhSjZyOXlVZWIyU3RTZnRjT1pia01jekFjY3pj?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1446]
+              - generic [ref=f20e1447]:
+                - link [ref=f20e1449] [cursor=pointer]:
+                  - /url: ./read/CBMikgNBVV95cUxNT3hRbkVLUGIxV0VuU0VzTlJSQTNuUzFQUWdlb2lVenJZREN1anpwVWdKS19oblpQMDFSYUhFazBud2VlZ05DQ0RwZms4UzFMbF9jVVFBMnE0N1Z3T2FzYnV4ZENhV0FnWF9QQ2hVR29wZWtuOGJKd0ZJWF96R2pzM0ZUMU9vY2Nyd2U0S25zVVdqUUtSeFNWa1hXZEpkdndtdGphQV9WR0lJcklrOHdUVmg3UW5TN3BLbTl1TEgwMlZweWZnTVlxc2NLR3E0YjZ6SDUtLVhMVUxkQ2JwM2NnWTJhc0tLVzFVSW1jUnlGN2Q2M25sc0xLdVdTMW5nc2pZMnpCQXE4UVE5c2o2UlItb01oWnJpWFMtdDZaUVA5YVhZOEo2N0VjV0d4aXltMW9jOWVlQlBHa3h4QURSdmZJX2hQQ1NsbWZvSDEwZldEUmdaRTNmbEcxOTIzbEx5ZWk3SVdON0ZoRFF4dzgzNjJOLWdJMFJXTDJxUG54eEQ0WmR2VGtuTG1qRTVfaFJjLUFQSnc?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1450]: "'Sansad Chalo' march"
+                - 'link "‘No cases against protesters’: Wangchuk shares govt''s assurance" [ref=f20e1451] [cursor=pointer]':
+                  - /url: ./read/CBMikgNBVV95cUxNT3hRbkVLUGIxV0VuU0VzTlJSQTNuUzFQUWdlb2lVenJZREN1anpwVWdKS19oblpQMDFSYUhFazBud2VlZ05DQ0RwZms4UzFMbF9jVVFBMnE0N1Z3T2FzYnV4ZENhV0FnWF9QQ2hVR29wZWtuOGJKd0ZJWF96R2pzM0ZUMU9vY2Nyd2U0S25zVVdqUUtSeFNWa1hXZEpkdndtdGphQV9WR0lJcklrOHdUVmg3UW5TN3BLbTl1TEgwMlZweWZnTVlxc2NLR3E0YjZ6SDUtLVhMVUxkQ2JwM2NnWTJhc0tLVzFVSW1jUnlGN2Q2M25sc0xLdVdTMW5nc2pZMnpCQXE4UVE5c2o2UlItb01oWnJpWFMtdDZaUVA5YVhZOEo2N0VjV0d4aXltMW9jOWVlQlBHa3h4QURSdmZJX2hQQ1NsbWZvSDEwZldEUmdaRTNmbEcxOTIzbEx5ZWk3SVdON0ZoRFF4dzgzNjJOLWdJMFJXTDJxUG54eEQ0WmR2VGtuTG1qRTVfaFJjLUFQSnc?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1452]
+              - generic [ref=f20e1453]:
+                - link [ref=f20e1455] [cursor=pointer]:
+                  - /url: ./read/CBMi0gJBVV95cUxNTVhiNVJTNzhVZ0g5UlNOT2hzdkpYWE5pU1VmMUJiRGlXa0EyM0lXR3ozaFIycUg2OHQ2S1picFFlQWZnLW5EZ1l2RVpHakEwaUF6R2NPRTF3a09WRFBWNnZja2piN3oxZDJxOUl1cURUSF9LM0RjM21Kd3BXSU85M2tOWGc1Q0ZHMWMzVWNvWTBoanNGZnR3Z20tcGZJY0w3TVBVWGNWRmRFNnFFM3Jpb2p3U3J6Y2hrWVNhUkZ3TDAyUUFBNS1WbUwzQXB5ZVN2R1kxTGFTWEtIREJlZmtHd1N1Z2VJR19yVWV5TGJzZ1QxLWY3STVlUk1LVzFsZVpscTZZS2pPTTlJV3JJU2tDekJlSVU2VzFNbDZsX2IzSkpxeXROMzVNcWRtOXZsZ2Z6ekthSk9JVU85anpncElPbjJuMnk2akJoNGRhakpiaGwzdw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1456]: US' fresh tariff
+                - link "What is US' forced labour tariff and what it means for India?" [ref=f20e1457] [cursor=pointer]:
+                  - /url: ./read/CBMi0gJBVV95cUxNTVhiNVJTNzhVZ0g5UlNOT2hzdkpYWE5pU1VmMUJiRGlXa0EyM0lXR3ozaFIycUg2OHQ2S1picFFlQWZnLW5EZ1l2RVpHakEwaUF6R2NPRTF3a09WRFBWNnZja2piN3oxZDJxOUl1cURUSF9LM0RjM21Kd3BXSU85M2tOWGc1Q0ZHMWMzVWNvWTBoanNGZnR3Z20tcGZJY0w3TVBVWGNWRmRFNnFFM3Jpb2p3U3J6Y2hrWVNhUkZ3TDAyUUFBNS1WbUwzQXB5ZVN2R1kxTGFTWEtIREJlZmtHd1N1Z2VJR19yVWV5TGJzZ1QxLWY3STVlUk1LVzFsZVpscTZZS2pPTTlJV3JJU2tDekJlSVU2VzFNbDZsX2IzSkpxeXROMzVNcWRtOXZsZ2Z6ekthSk9JVU85anpncElPbjJuMnk2akJoNGRhakpiaGwzdw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1458]
+            - generic [ref=f20e1459]:
+              - generic [ref=f20e1460]:
+                - generic [ref=f20e1461]: Showcase
+                - time [ref=f20e1462]: • 3 hours ago
+              - generic [ref=f20e1467]:
+                - button "More - Hindustan Times" [ref=f20e1468] [cursor=pointer]
+                - tooltip [ref=f20e1472]: More
+          - generic [ref=f20e1476]:
+            - generic [ref=f20e1477]:
+              - link [ref=f20e1478] [cursor=pointer]:
+                - /url: ./publications/CAAqLAgKIiZDQklTRmdnTWFoSUtFR1JsWTJOaGJtaGxjbUZzWkM1amIyMG9BQVAB?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - heading "Deccan Herald" [level=3] [ref=f20e1479]:
+                  - img "Deccan Herald" [ref=f20e1480]
+              - generic [ref=f20e1482]:
+                - button "Follow this source - Deccan Herald" [ref=f20e1484]:
+                  - generic [ref=f20e1490]: Follow
+                - tooltip [ref=f20e1491]: Follow this source
+            - heading "What's Buzzing in News Today" [level=4] [ref=f20e1492]
+            - generic [ref=f20e1493]:
+              - generic [ref=f20e1494]:
+                - link [ref=f20e1496] [cursor=pointer]:
+                  - /url: ./read/CBMi5AVBVV95cUxOelNsNUNzY3U5dl9YV0Q5bzBpa2V5a1lia3RhRDJqUG9sNXBjbkRHOV85RXU2LTl1XzJaUWJmb05lYWV2S3NuYzlYZXFGXzF6NkVZMXFHOGZZQjV1V2x0Nmc1V3lYa0NPUHNTRXByRHJuV2dud1BocHFmMlUwTUlEaVA0dTVtcmVZZ01jYURVRElyTGtBWHZQN19NT1Z5VG5KMUl2OUlXYlBQRVZlNklzc0w4eGM2cjNTTC12aWNrc3ZsdWItMUFCOW9EdVJudkFXZnJ4VGxqeG5NNUZ4YVRFTHVHSVlKbU9pQXR0Rm5pWHd2NHVmeGZaVlBXeTVMN0xpVFFTOGVvdjlFRzVMcTE5THdnMC1RMXkxU3RKdGYxMmx4aXJBbUl4YTgwMmFjdGh1UTh3cGZ1VG5lYjlQdUVFcVZUX0xscmEySU5Ocy1KdkFIT2xHdnJHUVM3bVVTM2FObjFmRWJTbVJNZXpzcmJ1aWpDWkdsWGNVdHlqWmF2SWlYWmR6WWhFYXpfUlBKQzB3Rk1hS0xBT2lZamFDUTVNM20xLWdoWFpCYjJIcFNoMTI4NVNMRWkzeU04RktKZmZ5cVc4SVlvOWdjZnRZSTVxQlZBcEhuU1E3dElCWlVhWHJOczBwZk44U0JaR080RFVZM3JaWHJwMU1QT2ZGaWxDLVl2bFRWNDZoLUloaXRseDhzSEpOeTlmNWZiQkFuZnR5ZC1EX04yNVpybjZsMTJZc1pSSEZ6aFNjYnA3SWROM1ZyeVNMMHh6SWQxWjNWMDVLV095NnFtaWRHMDlfRHk3cjh6Y2g3NEdUTnlpVkNnTUVyTUNVWWtyMy1ReUVrVEdzcndtWlJwQ3RoWUpGeV9nOVVxOWdELXFjaDlDcnZHbTU2cmVFVFJQRTNUMzdEbTVDOXZCSXl6WDdZVV9MOVlveTJ5RHRZLTEwNWZ0aWlMazVvR1FrRnptcFNSUTdYMG5NODg4Yw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1497]: India
+                - link "CJP protest LIVE Updates | Govt sought time till tomorrow on ..." [ref=f20e1498] [cursor=pointer]:
+                  - /url: ./read/CBMi5AVBVV95cUxOelNsNUNzY3U5dl9YV0Q5bzBpa2V5a1lia3RhRDJqUG9sNXBjbkRHOV85RXU2LTl1XzJaUWJmb05lYWV2S3NuYzlYZXFGXzF6NkVZMXFHOGZZQjV1V2x0Nmc1V3lYa0NPUHNTRXByRHJuV2dud1BocHFmMlUwTUlEaVA0dTVtcmVZZ01jYURVRElyTGtBWHZQN19NT1Z5VG5KMUl2OUlXYlBQRVZlNklzc0w4eGM2cjNTTC12aWNrc3ZsdWItMUFCOW9EdVJudkFXZnJ4VGxqeG5NNUZ4YVRFTHVHSVlKbU9pQXR0Rm5pWHd2NHVmeGZaVlBXeTVMN0xpVFFTOGVvdjlFRzVMcTE5THdnMC1RMXkxU3RKdGYxMmx4aXJBbUl4YTgwMmFjdGh1UTh3cGZ1VG5lYjlQdUVFcVZUX0xscmEySU5Ocy1KdkFIT2xHdnJHUVM3bVVTM2FObjFmRWJTbVJNZXpzcmJ1aWpDWkdsWGNVdHlqWmF2SWlYWmR6WWhFYXpfUlBKQzB3Rk1hS0xBT2lZamFDUTVNM20xLWdoWFpCYjJIcFNoMTI4NVNMRWkzeU04RktKZmZ5cVc4SVlvOWdjZnRZSTVxQlZBcEhuU1E3dElCWlVhWHJOczBwZk44U0JaR080RFVZM3JaWHJwMU1QT2ZGaWxDLVl2bFRWNDZoLUloaXRseDhzSEpOeTlmNWZiQkFuZnR5ZC1EX04yNVpybjZsMTJZc1pSSEZ6aFNjYnA3SWROM1ZyeVNMMHh6SWQxWjNWMDVLV095NnFtaWRHMDlfRHk3cjh6Y2g3NEdUTnlpVkNnTUVyTUNVWWtyMy1ReUVrVEdzcndtWlJwQ3RoWUpGeV9nOVVxOWdELXFjaDlDcnZHbTU2cmVFVFJQRTNUMzdEbTVDOXZCSXl6WDdZVV9MOVlveTJ5RHRZLTEwNWZ0aWlMazVvR1FrRnptcFNSUTdYMG5NODg4Yw?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1499]
+              - generic [ref=f20e1500]:
+                - link [ref=f20e1502] [cursor=pointer]:
+                  - /url: ./read/CBMigwNBVV95cUxQeUI5S19jeXRZYUtsc2s0XzBnVW9NMmxJTnpFNGJMbmFXSmtiTVg3UFpmMmR0a0FhdnNYRE5hZGY1RDEwdmptLUdleHZmd21yY25QOWVsN0l6bklWdVNnRFJYQ2JYQ1dVS1JYd3U1ZHU1MUNkd3FwZGQ5RzFCdUhCeGJfejJpNnBSSHY5Uy1GbGx4MGUxWDQ1QjhRYVNndlJiazZaM0JJMVc5Y1RMU3pRczRONW9xZWdBZ25sRlplSk5hX0RDRENTYmJYSlVtMzZjSUhpV2pGaG5wU0lXTmtoR2tzNlJabjZCSG5DVEl3QUhfMVk1TlV6MUdZQ0tiSzlReUhFaFlPQ2JSc0d2TDZZRnNESEk0bzNOeWRwVmNDWEk1dXdZWVlaaFBaN2JtRVVCbllRZXhJX0wzM1VBZUJEZjc2WUZnVXRkbHUtTHlaMUY2TENOMHU4Z2FjYVFWLUc4THRRTGNrNFZJWmQtQ2NIYXRLckZ2Zlp1RFhXdkpoQy1Fb1U?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1503]: Delhi
+                - link "How Indian reporters were caught in youth protest anger" [ref=f20e1504] [cursor=pointer]:
+                  - /url: ./read/CBMigwNBVV95cUxQeUI5S19jeXRZYUtsc2s0XzBnVW9NMmxJTnpFNGJMbmFXSmtiTVg3UFpmMmR0a0FhdnNYRE5hZGY1RDEwdmptLUdleHZmd21yY25QOWVsN0l6bklWdVNnRFJYQ2JYQ1dVS1JYd3U1ZHU1MUNkd3FwZGQ5RzFCdUhCeGJfejJpNnBSSHY5Uy1GbGx4MGUxWDQ1QjhRYVNndlJiazZaM0JJMVc5Y1RMU3pRczRONW9xZWdBZ25sRlplSk5hX0RDRENTYmJYSlVtMzZjSUhpV2pGaG5wU0lXTmtoR2tzNlJabjZCSG5DVEl3QUhfMVk1TlV6MUdZQ0tiSzlReUhFaFlPQ2JSc0d2TDZZRnNESEk0bzNOeWRwVmNDWEk1dXdZWVlaaFBaN2JtRVVCbllRZXhJX0wzM1VBZUJEZjc2WUZnVXRkbHUtTHlaMUY2TENOMHU4Z2FjYVFWLUc4THRRTGNrNFZJWmQtQ2NIYXRLckZ2Zlp1RFhXdkpoQy1Fb1U?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1505]
+              - generic [ref=f20e1506]:
+                - link [ref=f20e1508] [cursor=pointer]:
+                  - /url: ./read/CBMilgNBVV95cUxQM2V6Um9COWV5UGdoT1doSy1SdnQyZjJzZTJTRFMwVG5JQzhPTjEwMUpNQTZDRzZkVU9RMy1XY1Y2TnB2SDNvVGdtN1dlck9NdXJrcXU2NGkzVEtpNW85SmpKQjFRM2Z0aG1VNExvZkx3Q1BZbE5UczlPdjVnM01qTTRjNXFIeXpXUmVoM3VjcmFtTjZrWmRnYkNGa1k2c0I4S2FGejQtRTZ6YVpWODhadkJjMXhOSjAwMC1INDZlREp6SXhNLXhtSWpZRkNnQjBjVml0Q2pFU2FpaFlNYjI4UTVCdmxRUDVsanpIMXpET0NtUHVRb2FZdkZFakVhdGRvOHVNV200M2tnZDRGa1VoaEdSMC1UellDaW56cjBfM2xGVjY3Q1FraURXWTZfZm8weUw0Vjc0UnRYd0djYlRwVkpwakt6ZnhUa2E5MEtERHYwalV6alozVzdJUm5uVnFRalU2aUNPcDFzMmR0UDNUaVpZQkRncGYwTm1yeWpRR3dkX0JfMjdOci1WZDlVblV3ZG1Vb093?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1509]: India
+                - 'link "10-year jail, Rs 10 crore fine: Modi govt eyes tougher legisl..." [ref=f20e1510] [cursor=pointer]':
+                  - /url: ./read/CBMilgNBVV95cUxQM2V6Um9COWV5UGdoT1doSy1SdnQyZjJzZTJTRFMwVG5JQzhPTjEwMUpNQTZDRzZkVU9RMy1XY1Y2TnB2SDNvVGdtN1dlck9NdXJrcXU2NGkzVEtpNW85SmpKQjFRM2Z0aG1VNExvZkx3Q1BZbE5UczlPdjVnM01qTTRjNXFIeXpXUmVoM3VjcmFtTjZrWmRnYkNGa1k2c0I4S2FGejQtRTZ6YVpWODhadkJjMXhOSjAwMC1INDZlREp6SXhNLXhtSWpZRkNnQjBjVml0Q2pFU2FpaFlNYjI4UTVCdmxRUDVsanpIMXpET0NtUHVRb2FZdkZFakVhdGRvOHVNV200M2tnZDRGa1VoaEdSMC1UellDaW56cjBfM2xGVjY3Q1FraURXWTZfZm8weUw0Vjc0UnRYd0djYlRwVkpwakt6ZnhUa2E5MEtERHYwalV6alozVzdJUm5uVnFRalU2aUNPcDFzMmR0UDNUaVpZQkRncGYwTm1yeWpRR3dkX0JfMjdOci1WZDlVblV3ZG1Vb093?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1511]
+            - generic [ref=f20e1512]:
+              - generic [ref=f20e1513]:
+                - generic [ref=f20e1514]: Showcase
+                - time [ref=f20e1515]: • 50 minutes ago
+              - generic [ref=f20e1520]:
+                - button "More - Deccan Herald" [ref=f20e1521] [cursor=pointer]
+                - tooltip [ref=f20e1525]: More
+          - generic [ref=f20e1529]:
+            - generic [ref=f20e1530]:
+              - link [ref=f20e1531] [cursor=pointer]:
+                - /url: ./publications/CAAqLQgKIidDQklTRndnTWFoTUtFWEpsY0hWaWJHbGpkMjl5YkdRdVkyOXRLQUFQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - heading "Republic World" [level=3] [ref=f20e1532]:
+                  - img "Republic World" [ref=f20e1533]
+              - generic [ref=f20e1535]:
+                - button "Follow this source - Republic World" [ref=f20e1537]:
+                  - generic [ref=f20e1543]: Follow
+                - tooltip [ref=f20e1544]: Follow this source
+            - heading "Latest News" [level=4] [ref=f20e1545]
+            - generic [ref=f20e1546]:
+              - generic [ref=f20e1547]:
+                - link [ref=f20e1549] [cursor=pointer]:
+                  - /url: ./read/CBMiowNBVV95cUxQSDRRVmxUSzQyU2hJeENkTjV4dlNVbnJhaF9XWnAzVGxQTjFxdzhENlFTVjhxdF9MMlhNWUg3bWFIX3N4WUllc25iM1RuRnhoSzlYVEVILVg0eTFva3pFSEZfa2xYWmo5Z1U0elFHVHQwdFdOTzBQbDkyMXl0R2xwV0pwNW1aX3Q5dXZ0enRqYjZMTkNLZ0ZXMkdCdkdTaGVQaUpHeGpJX2dhVkUxQVppLWlXNzFfOEpESzI2eVVydkJSVzFEeWptLS1GZTlYMmhBaXRyY19taERIYTNTbEpUWEY4LU0xM1NTcVFkWnlWS1VNQWhHNE40RGl2NUhxUUhQZmxoYXBkdnZfZUJBUE9xWUhzM3l6U2pRVVBqTzdqdlJyRjQxUE1OVWVFazgydFM1Y3poNTRZRUdmZHBHVjQteUMwdG5maUxCeXFsN29xNWpKcmYxRm5zaXl4XzZuRE5seVFWUUlKZGdZSkRzTUpLSmtRUmkxOXE3STVNZDlJd3Zxc0RfYU91YWNSSVJqbmtRQ0xzTXcycV9yV3hzNnBEZ0lTRQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1550]: Biggest Story
+                - 'link "BREAKING: CJP Sticks To Dharmendra Pradhan''s Resignation, Says Govt ''Positive'' On FIR Withdrawal & Compensation; Talks Resume Tomorrow" [ref=f20e1551] [cursor=pointer]':
+                  - /url: ./read/CBMiowNBVV95cUxQSDRRVmxUSzQyU2hJeENkTjV4dlNVbnJhaF9XWnAzVGxQTjFxdzhENlFTVjhxdF9MMlhNWUg3bWFIX3N4WUllc25iM1RuRnhoSzlYVEVILVg0eTFva3pFSEZfa2xYWmo5Z1U0elFHVHQwdFdOTzBQbDkyMXl0R2xwV0pwNW1aX3Q5dXZ0enRqYjZMTkNLZ0ZXMkdCdkdTaGVQaUpHeGpJX2dhVkUxQVppLWlXNzFfOEpESzI2eVVydkJSVzFEeWptLS1GZTlYMmhBaXRyY19taERIYTNTbEpUWEY4LU0xM1NTcVFkWnlWS1VNQWhHNE40RGl2NUhxUUhQZmxoYXBkdnZfZUJBUE9xWUhzM3l6U2pRVVBqTzdqdlJyRjQxUE1OVWVFazgydFM1Y3poNTRZRUdmZHBHVjQteUMwdG5maUxCeXFsN29xNWpKcmYxRm5zaXl4XzZuRE5seVFWUUlKZGdZSkRzTUpLSmtRUmkxOXE3STVNZDlJd3Zxc0RfYU91YWNSSVJqbmtRQ0xzTXcycV9yV3hzNnBEZ0lTRQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1552]
+              - generic [ref=f20e1553]:
+                - link [ref=f20e1555] [cursor=pointer]:
+                  - /url: ./read/CBMiwgJBVV95cUxPSzdkMTFzYkNrcnpFd3J0ajFycm5ubl82UVc5T3o4RWZKRXFBYzhnMC0zZzF4Q09MTERMQktCSVQ2b3QzRzBVN2JnMkFnUVN3aVdhTlJ1M04xM3o4S3dlVlFJdGtGNVhlY2tRb3I4Z0RneDlhcmk3ZUp4cWhBeFM3d0x6VTY4LWdfbjZIRjkxYnVxY3JXU1dCejhSOE5aZnF0U1RUVjhkTndHclY4aTRzRUpwTzdhcGdZVHlkczEwcXlaa3BOUkhIQkk3OUtvUkU1MzVtczJpdU5jZ05qenNKcTVpb0hpdWtDS3AtWlYxX0VvcVpNTDNCNGQxakRSTEI4ZW9jQjhiem5qcHJjVmNPUXlkRTZTSUVPMGdRODFSY21Fc0pkNS1PRTVsWU5MZ3RfNFM1NlZ3UnFmb2gxb2YyYW5B?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1556]: India News
+                - link "'Anna Hazare Part 2'? Congress Targets Sonam Wangchuk Over Fast Withdrawal, BJP Calls Remarks 'Shocking'" [ref=f20e1557] [cursor=pointer]:
+                  - /url: ./read/CBMiwgJBVV95cUxPSzdkMTFzYkNrcnpFd3J0ajFycm5ubl82UVc5T3o4RWZKRXFBYzhnMC0zZzF4Q09MTERMQktCSVQ2b3QzRzBVN2JnMkFnUVN3aVdhTlJ1M04xM3o4S3dlVlFJdGtGNVhlY2tRb3I4Z0RneDlhcmk3ZUp4cWhBeFM3d0x6VTY4LWdfbjZIRjkxYnVxY3JXU1dCejhSOE5aZnF0U1RUVjhkTndHclY4aTRzRUpwTzdhcGdZVHlkczEwcXlaa3BOUkhIQkk3OUtvUkU1MzVtczJpdU5jZ05qenNKcTVpb0hpdWtDS3AtWlYxX0VvcVpNTDNCNGQxakRSTEI4ZW9jQjhiem5qcHJjVmNPUXlkRTZTSUVPMGdRODFSY21Fc0pkNS1PRTVsWU5MZ3RfNFM1NlZ3UnFmb2gxb2YyYW5B?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1558]
+              - generic [ref=f20e1559]:
+                - link [ref=f20e1561] [cursor=pointer]:
+                  - /url: ./read/CBMi7gJBVV95cUxPWkFqTTZEa1RDYzQ5X1dHeWl3aENTSXd0LWJQTjdpTDRscGxUX0FFRjFIZlpyeF9ZQ19FdXhDQ2xNaGZTYjdIelNjTEZ3OHFMRmpFMi1ZUTFOb05tT2Y0N1FpV3lyenVpdldRTWJfS1M4T3c5UC1EVTR4bGxEaURpTjVQaHFIZUxkUzhHZUpPT3FSRnB1emNSX0R6MW0tellhcVZMNFBIdGtrNF9lMXNxYzlWd0QwREVmNzhlX1QzT1pKZlhTUzk2X21hSnRwenc2U3ZmNjVBZHUzRzljQU4ybWtpSy1UNE1qSXRmd3pCTVZxTzkySlBUWHllVDBFY1NsRXc3Mm9SSXhKeHFCLUVrbjRYQmZzNnB2VnZxVFI4SE55eE9DZ3hjc1FRaGJKMlgtY3VYQ2VmbFJpUVp4N1lEY1o0amdDRlB6T2hTQWt2UzBoa2EtSFFGN2h1WkVRTENjdktWVVlqYnpLTERkNkE?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1562]: World News
+                - link "Trump Targets 60 Nations With Fresh Tariffs, India Among 17 Economies In 10% Lower Slab" [ref=f20e1563] [cursor=pointer]:
+                  - /url: ./read/CBMi7gJBVV95cUxPWkFqTTZEa1RDYzQ5X1dHeWl3aENTSXd0LWJQTjdpTDRscGxUX0FFRjFIZlpyeF9ZQ19FdXhDQ2xNaGZTYjdIelNjTEZ3OHFMRmpFMi1ZUTFOb05tT2Y0N1FpV3lyenVpdldRTWJfS1M4T3c5UC1EVTR4bGxEaURpTjVQaHFIZUxkUzhHZUpPT3FSRnB1emNSX0R6MW0tellhcVZMNFBIdGtrNF9lMXNxYzlWd0QwREVmNzhlX1QzT1pKZlhTUzk2X21hSnRwenc2U3ZmNjVBZHUzRzljQU4ybWtpSy1UNE1qSXRmd3pCTVZxTzkySlBUWHllVDBFY1NsRXc3Mm9SSXhKeHFCLUVrbjRYQmZzNnB2VnZxVFI4SE55eE9DZ3hjc1FRaGJKMlgtY3VYQ2VmbFJpUVp4N1lEY1o0amdDRlB6T2hTQWt2UzBoa2EtSFFGN2h1WkVRTENjdktWVVlqYnpLTERkNkE?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1564]
+            - generic [ref=f20e1565]:
+              - generic [ref=f20e1566]:
+                - generic [ref=f20e1567]: Showcase
+                - time [ref=f20e1568]: • 48 minutes ago
+              - generic [ref=f20e1573]:
+                - button "More - Republic World" [ref=f20e1574] [cursor=pointer]
+                - tooltip [ref=f20e1578]: More
+          - generic [ref=f20e1582]:
+            - generic [ref=f20e1583]:
+              - link [ref=f20e1584] [cursor=pointer]:
+                - /url: ./publications/CAAqJQgKIh9DQklTRVFnTWFnMEtDM0psZFhSbGNuTXVZMjl0S0FBUAE?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - heading "Reuters India" [level=3] [ref=f20e1585]:
+                  - img "Reuters India" [ref=f20e1586]
+              - generic [ref=f20e1588]:
+                - button "Follow this source - Reuters India" [ref=f20e1590]:
+                  - generic [ref=f20e1596]: Follow
+                - tooltip [ref=f20e1597]: Follow this source
+            - heading "INDIA BUSINESS" [level=4] [ref=f20e1598]
+            - generic [ref=f20e1599]:
+              - generic [ref=f20e1600]:
+                - link [ref=f20e1602] [cursor=pointer]:
+                  - /url: ./read/CBMiigVBVV95cUxPV0g1bDVJWGp3UVFQUVJHY1VXMkhZSFo5QUdtYk5pYnFiSmQyN2w4d3lrbFR2amdyYVBjRXM0MDQyRUduRnZ2SG02bWNoOUw1RHFzTVR1TUxzNGNEcDJsRS1uYzNQZ19wYmJVSTBtUzExenNFSWpBbElHOHZzUHdEQ0Y3dXpNXzF6M2RrOGF0OTFlZE9VWGJreVY0Z2JlNXZaUTRMWW12TXNVdDdXU1BfN2dfV0hJa2lvb3ZmdElTNmpxVUVFTDZsaGJ4ajR4cHJKWUg2UkJFYU4xQUpUN3BadzNRam03YkJ4QU5yY3c1RWc0MWZiLWRicUZfMHZ4eEJTUUV3SUNQT1hTNFN6TGdmdkNhMWx2ZVQ3T1A4Q1hzazEwcFduTGtQcXRsOXBTdjBacHVMV1VSZXM4S3RKTVV5WjBXTVRkRXpsaHlvRzdwWmtZVUxNTUthVnNENWt0VEdubEdEbk5uUWttZ0E0cHhHOWE3d3FwZW85T3FvRUxDcHdVVXc4emc5TWhmbDBvcllTdkxmeFRwcHNMMWI2N2xXZk1ubnF4ZW9YZEh4aWh5NUxaM1h3MmhJaHVqN0NxV0pQb1Ntb3JORzFhejVtUDZMclo1VjZ6RFpMWUNuVEVDcUxObWJpOENpbHZYSklFSlpvMVgtYlc2czA4T2hNblFoYmdZYXdEZEhBdlBzR0ZTdjJKalAzMXczaWcwdEdGRUFsX1FNNDRIZDh1aG9BTVJXRDdRazNqVWtlYVFnMERBSHBUMDZIUjhOYmlsZk1UWnUxcVdPdVlrU21vc3JNSW5pcXBxeEowdHAtdlVWZWUzYUZuUmc4QTFJc1Rwb1drUHRzcXF6SjRLSTBnQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1603]: ChatGPT training dispute
+                - link "Court says OpenAI did not violate news agency ANI's copyright" [ref=f20e1604] [cursor=pointer]:
+                  - /url: ./read/CBMiigVBVV95cUxPV0g1bDVJWGp3UVFQUVJHY1VXMkhZSFo5QUdtYk5pYnFiSmQyN2w4d3lrbFR2amdyYVBjRXM0MDQyRUduRnZ2SG02bWNoOUw1RHFzTVR1TUxzNGNEcDJsRS1uYzNQZ19wYmJVSTBtUzExenNFSWpBbElHOHZzUHdEQ0Y3dXpNXzF6M2RrOGF0OTFlZE9VWGJreVY0Z2JlNXZaUTRMWW12TXNVdDdXU1BfN2dfV0hJa2lvb3ZmdElTNmpxVUVFTDZsaGJ4ajR4cHJKWUg2UkJFYU4xQUpUN3BadzNRam03YkJ4QU5yY3c1RWc0MWZiLWRicUZfMHZ4eEJTUUV3SUNQT1hTNFN6TGdmdkNhMWx2ZVQ3T1A4Q1hzazEwcFduTGtQcXRsOXBTdjBacHVMV1VSZXM4S3RKTVV5WjBXTVRkRXpsaHlvRzdwWmtZVUxNTUthVnNENWt0VEdubEdEbk5uUWttZ0E0cHhHOWE3d3FwZW85T3FvRUxDcHdVVXc4emc5TWhmbDBvcllTdkxmeFRwcHNMMWI2N2xXZk1ubnF4ZW9YZEh4aWh5NUxaM1h3MmhJaHVqN0NxV0pQb1Ntb3JORzFhejVtUDZMclo1VjZ6RFpMWUNuVEVDcUxObWJpOENpbHZYSklFSlpvMVgtYlc2czA4T2hNblFoYmdZYXdEZEhBdlBzR0ZTdjJKalAzMXczaWcwdEdGRUFsX1FNNDRIZDh1aG9BTVJXRDdRazNqVWtlYVFnMERBSHBUMDZIUjhOYmlsZk1UWnUxcVdPdVlrU21vc3JNSW5pcXBxeEowdHAtdlVWZWUzYUZuUmc4QTFJc1Rwb1drUHRzcXF6SjRLSTBnQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1605]
+              - generic [ref=f20e1606]:
+                - link [ref=f20e1608] [cursor=pointer]:
+                  - /url: ./read/CBMi9wRBVV95cUxQOFFLcU05VjZtaGhvdVJyT3piUnhqa19HQlRSLVRnLWJiTFR2MVdZUWV0SkdyczRzMmpDNkU5d3JCVm9lQ3BhenFram5FdmdlWDJJSGpEUmh5NzkwZnRTZmozZ0RpcllxWDFfaHctZEc1eU1hODZnNXQtZDV4TWJUd1lxU0h0b2Z1a0U3akVjSU1XRnFyRjYycUtrSzJ1VjJnV3FaNDFfM1prMFB3Q2V3cWlTR1RGR2xxdUYxMHFqcnBmRXFndXAxOVZ3V2ZYOW0zZkhKSldIa042NXFGNndtWEhJYk83ZlVxaXlhcTB0MFdWYm85aFJTUXdwUkdVYmM2VDBjbmo1aTl0SGpLSnVmV2JCUXNmQ1kyd2VJd3dURm5WRDlNRF9GX1NJUUlRSlFVU0RaS1JhU2FSdU1vbVprZkJ4NVBWWkZVQ2ZIVUFmdUVRMzlhZmtaQXFQTXlZZFZ1ODVqd04ybS1UN2pPR0pPN281RkVCeElyX0RBOXFNTThOTmJ5SXhOajlyaHhOem56R3hUdEVOZEluV3JuM0pQQlJHdXdiSmx5OTdWY3lsa1lsRWlPWE1VNTFHdlVXTlJQcUdxWUNRWXBFMnJ3T1ZJejQwR2NGOUpuRkRXekhyNTRLRGtjQ0F6UmJ4WjRiRENHb1RHMWJhRG9KUmFYY2puaWwzNjluTENzUmZ5cFNPUVBMYm5yUlFFM1NCOXBkLV9NMldKeWhPZ3VvZ1g0ZUFpMmNtUkVvdkswVmVVN2tNcGRSWGxDRVlUeTdpbnczOEJ2NGtwMThVaVBweHJvUWN5N3FyQnppLXFVZ2U2Y05qSVlzMW9WSFZ3?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1609]: To be 5,000-seat tech hub
+                - link "HCLTech to invest $1.48 bln in AI data center" [ref=f20e1610] [cursor=pointer]:
+                  - /url: ./read/CBMi9wRBVV95cUxQOFFLcU05VjZtaGhvdVJyT3piUnhqa19HQlRSLVRnLWJiTFR2MVdZUWV0SkdyczRzMmpDNkU5d3JCVm9lQ3BhenFram5FdmdlWDJJSGpEUmh5NzkwZnRTZmozZ0RpcllxWDFfaHctZEc1eU1hODZnNXQtZDV4TWJUd1lxU0h0b2Z1a0U3akVjSU1XRnFyRjYycUtrSzJ1VjJnV3FaNDFfM1prMFB3Q2V3cWlTR1RGR2xxdUYxMHFqcnBmRXFndXAxOVZ3V2ZYOW0zZkhKSldIa042NXFGNndtWEhJYk83ZlVxaXlhcTB0MFdWYm85aFJTUXdwUkdVYmM2VDBjbmo1aTl0SGpLSnVmV2JCUXNmQ1kyd2VJd3dURm5WRDlNRF9GX1NJUUlRSlFVU0RaS1JhU2FSdU1vbVprZkJ4NVBWWkZVQ2ZIVUFmdUVRMzlhZmtaQXFQTXlZZFZ1ODVqd04ybS1UN2pPR0pPN281RkVCeElyX0RBOXFNTThOTmJ5SXhOajlyaHhOem56R3hUdEVOZEluV3JuM0pQQlJHdXdiSmx5OTdWY3lsa1lsRWlPWE1VNTFHdlVXTlJQcUdxWUNRWXBFMnJ3T1ZJejQwR2NGOUpuRkRXekhyNTRLRGtjQ0F6UmJ4WjRiRENHb1RHMWJhRG9KUmFYY2puaWwzNjluTENzUmZ5cFNPUVBMYm5yUlFFM1NCOXBkLV9NMldKeWhPZ3VvZ1g0ZUFpMmNtUkVvdkswVmVVN2tNcGRSWGxDRVlUeTdpbnczOEJ2NGtwMThVaVBweHJvUWN5N3FyQnppLXFVZ2U2Y05qSVlzMW9WSFZ3?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1611]
+              - generic [ref=f20e1612]:
+                - link [ref=f20e1614] [cursor=pointer]:
+                  - /url: ./read/CBMi8wRBVV95cUxOR0loMVdNV2tTVEQwM0I1VGVoVFpQY3JvY1BlVjdSUjZMSXMxRVFuUjljRE1jSDdwZmFkbU11QU1KNFFORC1hYl8zbFN5dXdRUl92RUJmMGkyQXBaZkl6OUY3VU1mWEcxbWxOOHNNNUE1YWJVYmM5bkJIUGJYdFFGQzQ1Mkd0SktQMV96eFhlUWNwdkdoaHdXMHB2dGd1ZkphNVFRSU1NcmxsTWJhaTJmVWFxeDFBeG5CTnh1VUwtM0FvX2dvVEw3RmlmTHdFSWVnNzhSWWF1US0yZXhvaFVYbWRMVEVlNllqclRVRFhwVS1ZWG5ZZTZkRWVQbzUteC1QcWw5WGRLZEhtZ1NqN3RFNG5MYTNsaVFMdUhMWWJtN2taMG82cFI4TTNwZkpEUXh4Nk1WNWF3N2pYV2RUQmc5dWZyNlBqdkM4cVR6S2wwWnRQSXZkZDhfVEFsMWZWVXZiNEVKQkZSMjgwYjROYWlpcWM2aWsxLWtBaU5SUXFhQVJZTlhJWFNtemlqNzBObExOaW1LODNjYzllMDEzYTczWjI3NFFST1ZKTjJNSWJVUVhEVEVoeklpZ1hmVGJuY2paTFpfSmxfZVpKX1BzVVUwT1dJdG8tZ2tHRkZQZFV6ajBCRmk4ZWVfRjFKR01GdWNWWXlUQUszM3RTWUtCNUNQT1dCbTM5U3lCZmExQWdVdHBtVHRFYXpPV1cyS0dmWXZJam15VXhyZTlHZTR5Tm1ZOGVfa19HQXhmd1pHQnlOYTFuREJtRHlFZUFjUWFadGpOZ1NUazlyMHo0OXRaUHBDclE2NGtsTGlVbXpyaEJXcUN3cTA?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1615]: Plans to ⁠add 2,400 beds
+                - link "Manipal Health to spend $414.4 million to expand capacity" [ref=f20e1616] [cursor=pointer]:
+                  - /url: ./read/CBMi8wRBVV95cUxOR0loMVdNV2tTVEQwM0I1VGVoVFpQY3JvY1BlVjdSUjZMSXMxRVFuUjljRE1jSDdwZmFkbU11QU1KNFFORC1hYl8zbFN5dXdRUl92RUJmMGkyQXBaZkl6OUY3VU1mWEcxbWxOOHNNNUE1YWJVYmM5bkJIUGJYdFFGQzQ1Mkd0SktQMV96eFhlUWNwdkdoaHdXMHB2dGd1ZkphNVFRSU1NcmxsTWJhaTJmVWFxeDFBeG5CTnh1VUwtM0FvX2dvVEw3RmlmTHdFSWVnNzhSWWF1US0yZXhvaFVYbWRMVEVlNllqclRVRFhwVS1ZWG5ZZTZkRWVQbzUteC1QcWw5WGRLZEhtZ1NqN3RFNG5MYTNsaVFMdUhMWWJtN2taMG82cFI4TTNwZkpEUXh4Nk1WNWF3N2pYV2RUQmc5dWZyNlBqdkM4cVR6S2wwWnRQSXZkZDhfVEFsMWZWVXZiNEVKQkZSMjgwYjROYWlpcWM2aWsxLWtBaU5SUXFhQVJZTlhJWFNtemlqNzBObExOaW1LODNjYzllMDEzYTczWjI3NFFST1ZKTjJNSWJVUVhEVEVoeklpZ1hmVGJuY2paTFpfSmxfZVpKX1BzVVUwT1dJdG8tZ2tHRkZQZFV6ajBCRmk4ZWVfRjFKR01GdWNWWXlUQUszM3RTWUtCNUNQT1dCbTM5U3lCZmExQWdVdHBtVHRFYXpPV1cyS0dmWXZJam15VXhyZTlHZTR5Tm1ZOGVfa19HQXhmd1pHQnlOYTFuREJtRHlFZUFjUWFadGpOZ1NUazlyMHo0OXRaUHBDclE2NGtsTGlVbXpyaEJXcUN3cTA?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1617]
+            - generic [ref=f20e1618]:
+              - generic [ref=f20e1619]:
+                - generic [ref=f20e1620]: Showcase
+                - time [ref=f20e1621]: • 1 hour ago
+              - generic [ref=f20e1626]:
+                - button "More - Reuters India" [ref=f20e1627] [cursor=pointer]
+                - tooltip [ref=f20e1631]: More
+          - generic [ref=f20e1635]:
+            - generic [ref=f20e1636]:
+              - link [ref=f20e1637] [cursor=pointer]:
+                - /url: ./publications/CAAqJAgKIh5DQklTRUFnTWFnd0tDbUZ1YVc1bGQzTXVhVzRvQUFQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - heading "ANI News" [level=3] [ref=f20e1638]:
+                  - img "ANI News" [ref=f20e1639]
+              - generic [ref=f20e1641]:
+                - button "Follow this source - ANI News" [ref=f20e1643]:
+                  - generic [ref=f20e1649]: Follow
+                - tooltip [ref=f20e1650]: Follow this source
+            - heading "Top News" [level=4] [ref=f20e1651]
+            - generic [ref=f20e1652]:
+              - generic [ref=f20e1653]:
+                - link [ref=f20e1655] [cursor=pointer]:
+                  - /url: ./read/CBMiswNBVV95cUxQdW4wbWtJejJyQzlFV0hxNU8wTk5KeWtiZlBXV3Jfa1dFdGU5a1NlWjZVSWtKbGU4cHlmeFJPekQwczFncVFvc2VJRi16X0Z3U09hamNpZThHUFJaV1Y1R0JZV004dGxhTjB5Z3VaZVEwQzJCV2FZLTY1ZzN1d2I3YTFWaE9oNjgtTUJ5X2NpQjY2bkwtSnBZRmF6WXprSWJlSnZLTlZyWHhpZVdNdDlyYThNeHJfcnkzWU91MGlBcEpWRktXakdqMTBCUVlkNk1rdlpRdkRhRkl1RzI5WFN3dU5CM0dXOW40bGFQT1l6WmpiNVN2aHBMM3FTLXhYLWdIOHQ0VzhsVTl0bldNTlRqNDVnQ1FHTlJia1htVC1vYWhsTmJOejZnOGpiRXJEU3dtZm1DbkNYb1RRZFFrQk5rN0dGelQ4NzA1LXFWQTR1Nk1DcFFDTXZwZ1VJQnJfRXAtMXNVZ3dHdFpnUkJqTHJEazVDbHVTYWlVNnotMThwdUF4b1VFUlQ2OURycG5aRWtMRk14YlJLRGJYdHlwblVaZ1NwRTM3blhJeDA0aXllZVY1a0k?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1656]: New Delhi
+                - 'link "Centre seeks time till Saturday on Pradhan''s resignation: CJP" [ref=f20e1657] [cursor=pointer]':
+                  - /url: ./read/CBMiswNBVV95cUxQdW4wbWtJejJyQzlFV0hxNU8wTk5KeWtiZlBXV3Jfa1dFdGU5a1NlWjZVSWtKbGU4cHlmeFJPekQwczFncVFvc2VJRi16X0Z3U09hamNpZThHUFJaV1Y1R0JZV004dGxhTjB5Z3VaZVEwQzJCV2FZLTY1ZzN1d2I3YTFWaE9oNjgtTUJ5X2NpQjY2bkwtSnBZRmF6WXprSWJlSnZLTlZyWHhpZVdNdDlyYThNeHJfcnkzWU91MGlBcEpWRktXakdqMTBCUVlkNk1rdlpRdkRhRkl1RzI5WFN3dU5CM0dXOW40bGFQT1l6WmpiNVN2aHBMM3FTLXhYLWdIOHQ0VzhsVTl0bldNTlRqNDVnQ1FHTlJia1htVC1vYWhsTmJOejZnOGpiRXJEU3dtZm1DbkNYb1RRZFFrQk5rN0dGelQ4NzA1LXFWQTR1Nk1DcFFDTXZwZ1VJQnJfRXAtMXNVZ3dHdFpnUkJqTHJEazVDbHVTYWlVNnotMThwdUF4b1VFUlQ2OURycG5aRWtMRk14YlJLRGJYdHlwblVaZ1NwRTM3blhJeDA0aXllZVY1a0k?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1658]
+              - generic [ref=f20e1659]:
+                - link [ref=f20e1661] [cursor=pointer]:
+                  - /url: ./read/CBMi-wJBVV95cUxPTHBYM09HY0JVeEhwa2J3V1k2MjRJS1JFRE5DSVN1WWY2emRfaG1ELXZuZHhmZHZBb3Ftek80VzlqVFZoRS1Na1ZRRzRzOVNwZE5PTFRKTDI3WUNXa1RDMTFSNEhrcklHbGtEcXVZMGdud2g5WnBISHlONTlIWUJELXdSRzdIMjR5SEZ0SV9UbFdrWnQzTmwwZ3RNdTY3MndCYTlFTHJFSGRpbGVGcWtwNXZWTk1VV1N6S0U4c1c1bkF3S1pyamI0OWt5Q0ZHSld4ZE8xeERVUG9nZlV5am1hdEx6eWpzTy1SdFJuTEd5RHlYQXA3cFV2S3V0X0EteG1xS3JSUnNwWlNzcVZBVUI4RUs3NENIbTZ2VVJUUDNaS3hHTkt5RDJSU0RXT0tLTW9Uay13Zl9tOGRWbmJtLVF5bmhLSWdXUGotQUpYX3plNkJfUWs4aHpyM2UteGU2Y1RXN2o2czFHMUNwQkxUOUJFNm9aNTBzS0JoenFV?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1662]: New Delhi
+                - link "MoS Nityanand Rai tables National Honour (Amendment) Bill in RS" [ref=f20e1663] [cursor=pointer]:
+                  - /url: ./read/CBMi-wJBVV95cUxPTHBYM09HY0JVeEhwa2J3V1k2MjRJS1JFRE5DSVN1WWY2emRfaG1ELXZuZHhmZHZBb3Ftek80VzlqVFZoRS1Na1ZRRzRzOVNwZE5PTFRKTDI3WUNXa1RDMTFSNEhrcklHbGtEcXVZMGdud2g5WnBISHlONTlIWUJELXdSRzdIMjR5SEZ0SV9UbFdrWnQzTmwwZ3RNdTY3MndCYTlFTHJFSGRpbGVGcWtwNXZWTk1VV1N6S0U4c1c1bkF3S1pyamI0OWt5Q0ZHSld4ZE8xeERVUG9nZlV5am1hdEx6eWpzTy1SdFJuTEd5RHlYQXA3cFV2S3V0X0EteG1xS3JSUnNwWlNzcVZBVUI4RUs3NENIbTZ2VVJUUDNaS3hHTkt5RDJSU0RXT0tLTW9Uay13Zl9tOGRWbmJtLVF5bmhLSWdXUGotQUpYX3plNkJfUWs4aHpyM2UteGU2Y1RXN2o2czFHMUNwQkxUOUJFNm9aNTBzS0JoenFV?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1664]
+              - generic [ref=f20e1665]:
+                - link [ref=f20e1667] [cursor=pointer]:
+                  - /url: ./read/CBMi9wJBVV95cUxOOUQ0NEx0aWpWd09fN2dnR1VsOGNEUWxDRjBrc3FXak5pNG1sRlJKamZQbW1pblRLWjktTzQ1S1NGTHpNZll4OEhhZUtqUGdoMkYyRXlIcHVVbXJxWC1NeWhPNDkxLVR6Tnc4Qm12cG05dENFYUpIdHJCdmpOc1hzN250ZkpiY3pJTldRb1p4d202YXh1WlIwQ0VlX2c3akhNdlJKdUFIcXhIeVJPVGQ3NmUzdGZ2YWk3NmNxWVg3NC12WEZMWnVjUGNxUnprQzl4UWJjWmRWNjFZVmFwUWFwTFJxZDMwalBxTEtuRWVkbWZSY1lwRGVxSDJab2g4eDNOMDNyc2J1XzF1N1B0Rk56dUc0dHEtem8wVmJMd2U4bzMzQjRNZ0tJSzZTdlI1Yk9WWUFZNkNHVkNXclMzUjJYUVR1NS1ndmdBdm4tbEYzWVQ4LXhPYl9CSmtTZUFSWUliT1B6bDlTcThjeFRqSVYxWmZwbm9uV1U?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1668]: Maharashtra
+                - link "Indian boxing builds on bright start in Commonwealth Games 2026" [ref=f20e1669] [cursor=pointer]:
+                  - /url: ./read/CBMi9wJBVV95cUxOOUQ0NEx0aWpWd09fN2dnR1VsOGNEUWxDRjBrc3FXak5pNG1sRlJKamZQbW1pblRLWjktTzQ1S1NGTHpNZll4OEhhZUtqUGdoMkYyRXlIcHVVbXJxWC1NeWhPNDkxLVR6Tnc4Qm12cG05dENFYUpIdHJCdmpOc1hzN250ZkpiY3pJTldRb1p4d202YXh1WlIwQ0VlX2c3akhNdlJKdUFIcXhIeVJPVGQ3NmUzdGZ2YWk3NmNxWVg3NC12WEZMWnVjUGNxUnprQzl4UWJjWmRWNjFZVmFwUWFwTFJxZDMwalBxTEtuRWVkbWZSY1lwRGVxSDJab2g4eDNOMDNyc2J1XzF1N1B0Rk56dUc0dHEtem8wVmJMd2U4bzMzQjRNZ0tJSzZTdlI1Yk9WWUFZNkNHVkNXclMzUjJYUVR1NS1ndmdBdm4tbEYzWVQ4LXhPYl9CSmtTZUFSWUliT1B6bDlTcThjeFRqSVYxWmZwbm9uV1U?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1670]
+            - generic [ref=f20e1671]:
+              - generic [ref=f20e1672]:
+                - generic [ref=f20e1673]: Showcase
+                - time [ref=f20e1674]: • 1 hour ago
+              - generic [ref=f20e1679]:
+                - button "More - ANI News" [ref=f20e1680] [cursor=pointer]
+                - tooltip [ref=f20e1684]: More
+          - generic [ref=f20e1688]:
+            - generic [ref=f20e1689]:
+              - link [ref=f20e1690] [cursor=pointer]:
+                - /url: ./publications/CAAqMQgKIitDQklTR2dnTWFoWUtGRzVsZDJsdVpHbGhibVY0Y0hKbGMzTXVZMjl0S0FBUAE?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - heading "The New Indian Express" [level=3] [ref=f20e1691]:
+                  - img "The New Indian Express" [ref=f20e1692]
+              - generic [ref=f20e1694]:
+                - button "Follow this source - The New Indian Express" [ref=f20e1696]:
+                  - generic [ref=f20e1702]: Follow
+                - tooltip [ref=f20e1703]: Follow this source
+            - heading "News today" [level=4] [ref=f20e1704]
+            - generic [ref=f20e1705]:
+              - generic [ref=f20e1706]:
+                - link [ref=f20e1708] [cursor=pointer]:
+                  - /url: ./read/CBMi1AJBVV95cUxPbDRVWkJQQnNNWERJRVl3NXFpbWJncXB2X1NtRGZwX3pabmJIRFdvajJNbnh3bkZBSmpTNEtpRXNMZWRZVmdxa0FlbzdUV1JxYXVaUkgwRjdWMk10Qi1sS3hrOS1MME0tRlcyQUE1MG4zaFJvclZMaTl2RXNyZ1B2Mm1ORHdPVzhtZXRzMkEzVVlERkhSMGV5LVhGTnRjZVhxaGJVNGo1bnVINVdWWE00WkdpaFhMV0hRSmkxNGxoYW9MZDY2cVVFX0gzYXRpcjBOZmVNbjRYbGNlMnJibE9SeHhybVQyTVVWaENLcUlkZmk0Y0JNNkVBRmY1ZV94OHNKc2RkZ1Awd0hIYU8wM3BhR2pobXdHRkpsUk84c3ZYbXMxTllvTURHOUZPS2RERTZ0NXBhdkowby0xV2V5cEtnZnJmZ3hTMkI5SDU0Wl9hemlWWjFC?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1709]: India
+                - link "SC seeks fast-track probe, proposes special courts for Manipur violence cases" [ref=f20e1710] [cursor=pointer]:
+                  - /url: ./read/CBMi1AJBVV95cUxPbDRVWkJQQnNNWERJRVl3NXFpbWJncXB2X1NtRGZwX3pabmJIRFdvajJNbnh3bkZBSmpTNEtpRXNMZWRZVmdxa0FlbzdUV1JxYXVaUkgwRjdWMk10Qi1sS3hrOS1MME0tRlcyQUE1MG4zaFJvclZMaTl2RXNyZ1B2Mm1ORHdPVzhtZXRzMkEzVVlERkhSMGV5LVhGTnRjZVhxaGJVNGo1bnVINVdWWE00WkdpaFhMV0hRSmkxNGxoYW9MZDY2cVVFX0gzYXRpcjBOZmVNbjRYbGNlMnJibE9SeHhybVQyTVVWaENLcUlkZmk0Y0JNNkVBRmY1ZV94OHNKc2RkZ1Awd0hIYU8wM3BhR2pobXdHRkpsUk84c3ZYbXMxTllvTURHOUZPS2RERTZ0NXBhdkowby0xV2V5cEtnZnJmZ3hTMkI5SDU0Wl9hemlWWjFC?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1711]
+              - generic [ref=f20e1712]:
+                - link [ref=f20e1714] [cursor=pointer]:
+                  - /url: ./read/CBMixgJBVV95cUxOaGZkVm1sWHdhLUhaaWpfVVNQMFBZSVlPVEE3MDJVeVpJT3dVMXBReVF0T2h0Yk1DcDRoNUJCdWdURWlsRDBZZ3l4NDBRbV9CMDVRY0dTY0hraWZqUDBGaTlxMTNnQWNHaEhPQkVxOWtGOUJGeXBZLUhzVXA0ODJfVUR3VHJiS0xhR2U1Qk4xMHliSXVGZWgxNHdQM3NlVlZNZy1ZYW0xVERNWHczQlcteENBZUQwNFpxcFJLOEswWlk1bm9POWdGMlQyN0wtbWF3SVJfVzlHRHY5UTZmeW1DR3hPZ2RQaTIwR1hXcmxpTU9DZVdYOUxVcFk4bDhkYkVPNXY4dndpNlV0TUFaZzN4RElJdEllZ18yXzhtQnl3OUFJS2tqYUViajhCamJ2eDhBWjNjdW5uMWlxdC1oSEZlRXRoLU9XQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1715]: India
+                - link "Wangchuk ends hunger strike after 26-days; CJP to continue protest" [ref=f20e1716] [cursor=pointer]:
+                  - /url: ./read/CBMixgJBVV95cUxOaGZkVm1sWHdhLUhaaWpfVVNQMFBZSVlPVEE3MDJVeVpJT3dVMXBReVF0T2h0Yk1DcDRoNUJCdWdURWlsRDBZZ3l4NDBRbV9CMDVRY0dTY0hraWZqUDBGaTlxMTNnQWNHaEhPQkVxOWtGOUJGeXBZLUhzVXA0ODJfVUR3VHJiS0xhR2U1Qk4xMHliSXVGZWgxNHdQM3NlVlZNZy1ZYW0xVERNWHczQlcteENBZUQwNFpxcFJLOEswWlk1bm9POWdGMlQyN0wtbWF3SVJfVzlHRHY5UTZmeW1DR3hPZ2RQaTIwR1hXcmxpTU9DZVdYOUxVcFk4bDhkYkVPNXY4dndpNlV0TUFaZzN4RElJdEllZ18yXzhtQnl3OUFJS2tqYUViajhCamJ2eDhBWjNjdW5uMWlxdC1oSEZlRXRoLU9XQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1717]
+              - generic [ref=f20e1718]:
+                - link [ref=f20e1720] [cursor=pointer]:
+                  - /url: ./read/CBMi4wJBVV95cUxPQ3RzeFo2UTN0N3VhZmlPT1lVZmxMMl9CZTlfa3RHU0FFSFdWZExHa1lpcmVKZENnVTYxR2pUdlV3M3hqNklyVXdkYm81cTdFYURIenJjaUkxaHhUajc4dkQwRDVnb0hWa21fY3VmdVI1REJ4WEw5Mk9QWGdRbEFzdGVVbDh2dHE5VE9Pd0Y0RHZmVlNwMFo4Z3VFVGQyalNyYUgwZDdKcDJhV0NyMkc4dkZDWXlBMy1lbXE2Q2IyWmpUazhWSXBUR0RRRmlvTUx3ZjhBb1UyODNyUzJod1hRUGhXVDd1TUVpOWdNMFd1OHI4SjdSc082NDZXRmxPNUFyRDY3MXJYLWd2OXlCa0dwTXAwTGtVMEdhQ2JVdno4N1AtNy1iMkJvUFN1SDIwMTZkVGNVZ3owS1ZqSXVuQkdNS25sa2d2ZzhLck1CLXJ0ajVjUVFvYzh5OVYxQ0lnTG9VcjY4?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f20e1721]: World
+                - link "US is ready to help end the 'senseless war' in Ukraine but no quick deal ahead, Rubio says" [ref=f20e1722] [cursor=pointer]:
+                  - /url: ./read/CBMi4wJBVV95cUxPQ3RzeFo2UTN0N3VhZmlPT1lVZmxMMl9CZTlfa3RHU0FFSFdWZExHa1lpcmVKZENnVTYxR2pUdlV3M3hqNklyVXdkYm81cTdFYURIenJjaUkxaHhUajc4dkQwRDVnb0hWa21fY3VmdVI1REJ4WEw5Mk9QWGdRbEFzdGVVbDh2dHE5VE9Pd0Y0RHZmVlNwMFo4Z3VFVGQyalNyYUgwZDdKcDJhV0NyMkc4dkZDWXlBMy1lbXE2Q2IyWmpUazhWSXBUR0RRRmlvTUx3ZjhBb1UyODNyUzJod1hRUGhXVDd1TUVpOWdNMFd1OHI4SjdSc082NDZXRmxPNUFyRDY3MXJYLWd2OXlCa0dwTXAwTGtVMEdhQ2JVdno4N1AtNy1iMkJvUFN1SDIwMTZkVGNVZ3owS1ZqSXVuQkdNS25sa2d2ZzhLck1CLXJ0ajVjUVFvYzh5OVYxQ0lnTG9VcjY4?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - figure [ref=f20e1723]
+            - generic [ref=f20e1724]:
+              - generic [ref=f20e1725]:
+                - generic [ref=f20e1726]: Showcase
+                - time [ref=f20e1727]: • 4 hours ago
+              - generic [ref=f20e1732]:
+                - button "More - The New Indian Express" [ref=f20e1733] [cursor=pointer]
+                - tooltip [ref=f20e1737]: More
+          - link [ref=f20e1739] [cursor=pointer]:
+            - /url: ./showcase?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - button "See more sources" [ref=f20e1740]
+    - generic [ref=f20e1746]:
+      - generic [ref=f20e1747]: Sign in to get news based on your interests
+      - generic [ref=f20e1749]:
+        - generic [ref=f20e1751]: Sign in
+        - link "Sign in" [ref=f20e1752] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en-IN&continue=https://news.google.com/home?hl%3Den-IN%26gl%3DIN%26ceid%3DIN:en&hl=en-IN&gl=IN&ceid=IN%3Aen

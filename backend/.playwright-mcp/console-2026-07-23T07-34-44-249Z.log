@@ -1,0 +1,16 @@
+[   18350ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:22:12
+    at <anonymous>:32:5
+    at <anonymous>:33:7
+[   18359ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:22:12
+    at <anonymous>:32:5
+    at <anonymous>:33:7
+[   18366ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:22:12
+    at <anonymous>:32:5
+    at <anonymous>:33:7
+[   19221ms] [ERROR] WebSocket connection to 'wss://amiunique.org/itsgonnafail' failed: Error during WebSocket handshake: Unexpected response code: 404 @ https://amiunique.org/_nuxt/5e0ca75.js:1

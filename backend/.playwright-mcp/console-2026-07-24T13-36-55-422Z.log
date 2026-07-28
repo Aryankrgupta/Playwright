@@ -1,0 +1,124 @@
+[     823ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    1034ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at https://www.producthunt.com/:2:178346
+    at https://www.producthunt.com/:2:178651
+[    3144ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at B (https://www.producthunt.com/cdn-cgi/challenge-platform/scripts/jsd/main.js:1:20523)
+    at Object.PqaFB (https://www.producthunt.com/cdn-cgi/challenge-platform/scripts/jsd/main.js:1:19542)
+    at G (https://www.producthunt.com/cdn-cgi/challenge-platform/scripts/jsd/main.js:1:19621)
+    at X (https://www.producthunt.com/cdn-cgi/challenge-platform/scripts/jsd/main.js:1:17701)
+    at Object.DuoII (https://www.producthunt.com/cdn-cgi/challenge-platform/scripts/jsd/main.js:1:17565)
+    at H (https://www.producthunt.com/cdn-cgi/challenge-platform/scripts/jsd/main.js:1:17761)
+[    3168ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at B (https://www.producthunt.com/cdn-cgi/challenge-platform/scripts/jsd/main.js:1:20523)
+    at Object.PqaFB (https://www.producthunt.com/cdn-cgi/challenge-platform/scripts/jsd/main.js:1:19542)
+    at G (https://www.producthunt.com/cdn-cgi/challenge-platform/scripts/jsd/main.js:1:19621)
+    at X (https://www.producthunt.com/cdn-cgi/challenge-platform/scripts/jsd/main.js:1:17701)
+    at Object.DuoII (https://www.producthunt.com/cdn-cgi/challenge-platform/scripts/jsd/main.js:1:17565)
+    at H (https://www.producthunt.com/cdn-cgi/challenge-platform/scripts/jsd/main.js:1:17761)
+[    6827ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at https://www.producthunt.com/_next/static/chunks/045eokxglkhiq.js:5:767
+    at q (https://www.producthunt.com/_next/static/chunks/045eokxglkhiq.js:5:874)
+    at H (https://www.producthunt.com/_next/static/chunks/045eokxglkhiq.js:5:598)
+    at https://www.producthunt.com/_next/static/chunks/045eokxglkhiq.js:5:50444
+    at t$.computeHandlingStack (https://www.producthunt.com/_next/static/chunks/045eokxglkhiq.js:5:50709)
+    at n (https://www.producthunt.com/_next/static/chunks/045eokxglkhiq.js:2:1029)
+[    6840ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at https://www.producthunt.com/_next/static/chunks/045eokxglkhiq.js:5:767
+    at q (https://www.producthunt.com/_next/static/chunks/045eokxglkhiq.js:5:874)
+    at H (https://www.producthunt.com/_next/static/chunks/045eokxglkhiq.js:5:598)
+    at https://www.producthunt.com/_next/static/chunks/045eokxglkhiq.js:5:50444
+    at t$.computeHandlingStack (https://www.producthunt.com/_next/static/chunks/045eokxglkhiq.js:5:50709)
+    at n (https://www.producthunt.com/_next/static/chunks/045eokxglkhiq.js:2:1029)
+[    8300ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at d (https://connect.facebook.net/en_US/fbevents.js:286:1116)
+    at S (https://connect.facebook.net/en_US/fbevents.js:138:1427)
+    at v (https://connect.facebook.net/en_US/fbevents.js:138:1078)
+    at E (https://connect.facebook.net/en_US/fbevents.js:282:1822)
+    at n (https://connect.facebook.net/en_US/fbevents.js:54:446)
+    at f (https://connect.facebook.net/en_US/fbevents.js:278:1489)
+[    8315ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at d (https://connect.facebook.net/en_US/fbevents.js:286:1116)
+    at S (https://connect.facebook.net/en_US/fbevents.js:138:1427)
+    at v (https://connect.facebook.net/en_US/fbevents.js:138:1078)
+    at E (https://connect.facebook.net/en_US/fbevents.js:282:1822)
+    at n (https://connect.facebook.net/en_US/fbevents.js:54:446)
+    at f (https://connect.facebook.net/en_US/fbevents.js:278:1489)
+[    8384ms] [ERROR] Provider's accounts list is empty. @ https://www.producthunt.com/:0
+[    8710ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    8720ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    8950ms] [INFO] Clear-Site-Data header on 'https://www.producthunt.com/v4/reset': Cleared data types: "cache". @ https://www.producthunt.com/:0
+[   14359ms] [LOG] Download the Apollo DevTools for a better development experience: %s https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm @ https://www.producthunt.com/_next/static/chunks/045eokxglkhiq.js:4
+[   14961ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at d (https://connect.facebook.net/en_US/fbevents.js:286:1116)
+    at S (https://connect.facebook.net/en_US/fbevents.js:138:1427)
+    at v (https://connect.facebook.net/en_US/fbevents.js:138:1078)
+    at E (https://connect.facebook.net/en_US/fbevents.js:282:1822)
+    at n (https://connect.facebook.net/en_US/fbevents.js:54:446)
+    at f (https://connect.facebook.net/en_US/fbevents.js:278:1489)
+[   14964ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at d (https://connect.facebook.net/en_US/fbevents.js:286:1116)
+    at S (https://connect.facebook.net/en_US/fbevents.js:138:1427)
+    at v (https://connect.facebook.net/en_US/fbevents.js:138:1078)
+    at E (https://connect.facebook.net/en_US/fbevents.js:282:1822)
+    at n (https://connect.facebook.net/en_US/fbevents.js:54:446)
+    at f (https://connect.facebook.net/en_US/fbevents.js:278:1489)
+[   15009ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason @ https://www.producthunt.com/_next/static/chunks/045eokxglkhiq.js:4
+[   15125ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   15130ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7

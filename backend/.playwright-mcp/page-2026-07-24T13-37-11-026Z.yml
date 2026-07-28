@@ -1,0 +1,848 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "Product Hunt Logo" [ref=e6] [cursor=pointer]:
+            - /url: /
+          - button [ref=e1159] [cursor=pointer]
+        - navigation "Main Navigation" [ref=e15]:
+          - list [ref=e16]:
+            - listitem [ref=e17]:
+              - link "Best Products" [ref=e18] [cursor=pointer]:
+                - /url: /categories?ref=header_nav
+            - listitem [ref=e21]:
+              - link "Launches" [ref=e22] [cursor=pointer]:
+                - /url: /leaderboard/daily/2026/7/24?ref=header_nav
+            - listitem [ref=e25]:
+              - link "News" [ref=e26] [cursor=pointer]:
+                - /url: /newsletters?ref=header_nav
+            - listitem [ref=e29]:
+              - link "Forums" [ref=e30] [cursor=pointer]:
+                - /url: /forums?ref=header_nav
+        - generic [ref=e33]:
+          - link "Subscribe" [ref=e34] [cursor=pointer]:
+            - /url: /newsletters?ref=header_nav&campaign=weekly_newsletter&source=header_nav
+          - button "Sign in" [ref=e37] [cursor=pointer]
+    - generic [ref=e42]:
+      - main [ref=e43]:
+        - link:
+          - /url: /sponsor
+          - text: Promoted
+        - link:
+          - /url: /sponsor
+          - text: Promoted
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - heading "Top Products Launching Today" [level=1] [ref=e46]
+            - generic [ref=e47] [cursor=pointer]:
+              - img "Fedica 2.0" [ref=e48]
+              - generic [ref=e49]:
+                - link "1. Fedica 2.0" [ref=e51]:
+                  - /url: /products/fedica
+                - generic [ref=e53]: Publish and grow your profile across social apps
+                - generic [ref=e55]:
+                  - img "Promoted" [ref=e57]
+                  - generic [ref=e58]:
+                    - link "Social Media" [ref=e61]:
+                      - /url: /topics/social-media
+                    - generic [ref=e62]: •
+                    - link "Analytics" [ref=e63]:
+                      - /url: /topics/analytics
+                    - generic [ref=e64]: •
+                    - link "Marketing" [ref=e65]:
+                      - /url: /topics/marketing
+              - button [ref=e66]:
+                - paragraph [ref=e70]: "38"
+              - button [ref=e1162]:
+                - paragraph [ref=e75]: "197"
+            - generic [ref=e76] [cursor=pointer]:
+              - img "Fluree AI" [ref=e77]
+              - generic [ref=e78]:
+                - link "2. Fluree AI" [ref=e80]:
+                  - /url: /products/fluree
+                - generic [ref=e82]: Give every AI agent trusted context
+                - generic [ref=e84]:
+                  - img "Promoted" [ref=e86]
+                  - generic [ref=e87]:
+                    - link "Developer Tools" [ref=e90]:
+                      - /url: /topics/developer-tools
+                    - generic [ref=e91]: •
+                    - link "Artificial Intelligence" [ref=e92]:
+                      - /url: /topics/artificial-intelligence
+                    - generic [ref=e93]: •
+                    - link "Data" [ref=e94]:
+                      - /url: /topics/data
+              - button [ref=e95]:
+                - paragraph [ref=e99]: "53"
+              - button [ref=e100]:
+                - paragraph [ref=e104]: "178"
+            - generic [ref=e105] [cursor=pointer]:
+              - img "Pushary" [ref=e106]
+              - generic [ref=e107]:
+                - link "3. Pushary" [ref=e109]:
+                  - /url: /products/pushary
+                - generic [ref=e111]: Approve AI requests from your lock screen
+                - generic [ref=e113]:
+                  - img "Promoted" [ref=e115]
+                  - generic [ref=e116]:
+                    - link "Productivity" [ref=e119]:
+                      - /url: /topics/productivity
+                    - generic [ref=e120]: •
+                    - link "Developer Tools" [ref=e121]:
+                      - /url: /topics/developer-tools
+                    - generic [ref=e122]: •
+                    - link "Artificial Intelligence" [ref=e123]:
+                      - /url: /topics/artificial-intelligence
+              - button [ref=e124]:
+                - paragraph [ref=e128]: "69"
+              - button [ref=e129]:
+                - paragraph [ref=e133]: "164"
+            - generic [ref=e134] [cursor=pointer]:
+              - img "The new Firecrawl /search" [ref=e135]
+              - generic [ref=e136]:
+                - link "4. The new Firecrawl /search" [ref=e138]:
+                  - /url: /products/extract-by-firecrawl
+                - generic [ref=e140]: Our most accurate Search API for AI agents.
+                - generic [ref=e142]:
+                  - img "Promoted" [ref=e144]
+                  - generic [ref=e145]:
+                    - link "Developer Tools" [ref=e148]:
+                      - /url: /topics/developer-tools
+                    - generic [ref=e149]: •
+                    - link "Search" [ref=e150]:
+                      - /url: /topics/search
+              - button [ref=e151]:
+                - paragraph [ref=e155]: "23"
+              - button [ref=e156]:
+                - paragraph [ref=e160]: "161"
+            - img "Framer 3.0" [ref=e163] [cursor=pointer]
+            - generic [ref=e164] [cursor=pointer]:
+              - img "YC has it" [ref=e165]
+              - generic [ref=e166]:
+                - link "5. YC has it" [ref=e168]:
+                  - /url: /products/yc-has-it
+                - generic [ref=e170]: Describe your problem, get the YC startup that solves it
+                - generic [ref=e172]:
+                  - img "Promoted" [ref=e174]
+                  - generic [ref=e175]:
+                    - link "Artificial Intelligence" [ref=e178]:
+                      - /url: /topics/artificial-intelligence
+                    - generic [ref=e179]: •
+                    - link "Search" [ref=e180]:
+                      - /url: /topics/search
+                    - generic [ref=e181]: •
+                    - link "Database" [ref=e182]:
+                      - /url: /topics/database
+              - button [ref=e183]:
+                - paragraph [ref=e187]: "20"
+              - button [ref=e188]:
+                - paragraph [ref=e192]: "136"
+            - generic [ref=e194]:
+              - generic [ref=e195]: Get the best of Product Hunt, directly in your inbox.
+              - link "Sign Up" [ref=e196] [cursor=pointer]:
+                - /url: /newsletters?campaign=weekly_newsletter&source=newsletter_homepage
+            - generic [ref=e197] [cursor=pointer]:
+              - img "MinkNote" [ref=e198]
+              - generic [ref=e199]:
+                - link "6. MinkNote" [ref=e201]:
+                  - /url: /products/minknote
+                - generic [ref=e203]: Private macOS notes built on plain Markdown files
+                - generic [ref=e205]:
+                  - img "Promoted" [ref=e207]
+                  - generic [ref=e208]:
+                    - link "Mac" [ref=e211]:
+                      - /url: /topics/mac
+                    - generic [ref=e212]: •
+                    - link "Writing" [ref=e213]:
+                      - /url: /topics/writing
+                    - generic [ref=e214]: •
+                    - link "Notes" [ref=e215]:
+                      - /url: /topics/notes
+              - button [ref=e216]:
+                - paragraph [ref=e220]: "25"
+              - button [ref=e221]:
+                - paragraph [ref=e225]: "119"
+            - generic [ref=e226] [cursor=pointer]:
+              - img "HarnessRouter" [ref=e227]
+              - generic [ref=e228]:
+                - link "7. HarnessRouter" [ref=e230]:
+                  - /url: /products/epsilla
+                - generic [ref=e232]: Bring the world's best AI agents into your app, with one API
+                - generic [ref=e234]:
+                  - img "Promoted" [ref=e236]
+                  - generic [ref=e237]:
+                    - link "API" [ref=e240]:
+                      - /url: /topics/api-1
+                    - generic [ref=e241]: •
+                    - link "Developer Tools" [ref=e242]:
+                      - /url: /topics/developer-tools
+                    - generic [ref=e243]: •
+                    - link "Artificial Intelligence" [ref=e244]:
+                      - /url: /topics/artificial-intelligence
+              - button [ref=e245]:
+                - paragraph [ref=e249]: "15"
+              - button [ref=e250]:
+                - paragraph [ref=e254]: "112"
+            - generic [ref=e255] [cursor=pointer]:
+              - img "Buzz" [ref=e256]
+              - generic [ref=e257]:
+                - link "8. Buzz" [ref=e259]:
+                  - /url: /products/buzz-3
+                - generic [ref=e261]: Your people, your agents, your project — all in one place
+                - generic [ref=e263]:
+                  - img "Promoted" [ref=e265]
+                  - generic [ref=e266]:
+                    - link "Messaging" [ref=e269]:
+                      - /url: /topics/messaging
+                    - generic [ref=e270]: •
+                    - link "Open Source" [ref=e271]:
+                      - /url: /topics/open-source
+                    - generic [ref=e272]: •
+                    - link "GitHub" [ref=e273]:
+                      - /url: /topics/github
+              - button [ref=e274]:
+                - paragraph [ref=e278]: "6"
+              - button [ref=e279]:
+                - paragraph [ref=e283]: "111"
+            - generic [ref=e284] [cursor=pointer]:
+              - img "HealthyNotch" [ref=e285]
+              - generic [ref=e286]:
+                - link "9. HealthyNotch" [ref=e288]:
+                  - /url: /products/healthynotch
+                - generic [ref=e290]: Work shouldn't cost you your health
+                - generic [ref=e292]:
+                  - img "Promoted" [ref=e294]
+                  - generic [ref=e295]:
+                    - link "Mac" [ref=e298]:
+                      - /url: /topics/mac
+                    - generic [ref=e299]: •
+                    - link "Menu Bar Apps" [ref=e300]:
+                      - /url: /topics/menu-bar-apps
+                    - generic [ref=e301]: •
+                    - link "Health" [ref=e302]:
+                      - /url: /topics/health
+              - button [ref=e303]:
+                - paragraph [ref=e307]: "10"
+              - button [ref=e308]:
+                - paragraph [ref=e312]: "104"
+            - generic [ref=e314] [cursor=pointer]:
+              - img "Viktor.com" [ref=e315]
+              - generic [ref=e316]:
+                - link "Viktor.com" [ref=e318]:
+                  - /url: /products/viktor
+                - generic [ref=e320]: An AI coworker that actually does the work
+                - generic [ref=e322]:
+                  - img "Promoted" [ref=e324]
+                  - generic [ref=e325]:
+                    - link "Productivity" [ref=e328]:
+                      - /url: /topics/productivity
+                    - generic [ref=e329]: •
+                    - link "Artificial Intelligence" [ref=e330]:
+                      - /url: /topics/artificial-intelligence
+                    - generic [ref=e331]: •
+                    - link "Business" [ref=e332]:
+                      - /url: /topics/business
+              - button [ref=e333]:
+                - paragraph [ref=e337]: "125"
+              - button [ref=e338]:
+                - paragraph [ref=e342]: "652"
+            - generic [ref=e343] [cursor=pointer]:
+              - img "Freesolo Flash" [ref=e344]
+              - generic [ref=e345]:
+                - link "10. Freesolo Flash" [ref=e347]:
+                  - /url: /products/freesolo-flash
+                - generic [ref=e349]: Full-Stack Platform for Training Small Language Models
+                - generic [ref=e351]:
+                  - img "Promoted" [ref=e353]
+                  - generic [ref=e354]:
+                    - link "SaaS" [ref=e357]:
+                      - /url: /topics/saas
+                    - generic [ref=e358]: •
+                    - link "Artificial Intelligence" [ref=e359]:
+                      - /url: /topics/artificial-intelligence
+              - button [ref=e360]:
+                - paragraph [ref=e364]: "4"
+              - button [ref=e365]:
+                - paragraph [ref=e369]: "102"
+            - generic [ref=e370] [cursor=pointer]:
+              - img "Prosed" [ref=e371]
+              - generic [ref=e372]:
+                - link "11. Prosed" [ref=e374]:
+                  - /url: /products/prosed-turn-your-content-into-a-book
+                - generic [ref=e376]: The AI book service that shows its work
+                - generic [ref=e378]:
+                  - img "Promoted" [ref=e380]
+                  - generic [ref=e381]:
+                    - link "Writing" [ref=e384]:
+                      - /url: /topics/writing
+                    - generic [ref=e385]: •
+                    - link "Artificial Intelligence" [ref=e386]:
+                      - /url: /topics/artificial-intelligence
+                    - generic [ref=e387]: •
+                    - link "Books" [ref=e388]:
+                      - /url: /topics/books
+              - button [ref=e389]:
+                - paragraph [ref=e393]: "7"
+              - button [ref=e394]:
+                - paragraph [ref=e398]: "97"
+            - generic [ref=e399] [cursor=pointer]:
+              - img "Liso" [ref=e400]
+              - generic [ref=e401]:
+                - link "12. Liso" [ref=e403]:
+                  - /url: /products/liso-listen-to-highlights
+                - generic [ref=e405]: Highlight text on any page and turn it into audio.
+                - generic [ref=e407]:
+                  - img "Promoted" [ref=e409]
+                  - generic [ref=e410]:
+                    - link "Productivity" [ref=e413]:
+                      - /url: /topics/productivity
+                    - generic [ref=e414]: •
+                    - link "Books" [ref=e415]:
+                      - /url: /topics/books
+                    - generic [ref=e416]: •
+                    - link "Audio" [ref=e417]:
+                      - /url: /topics/audio
+              - button [ref=e418]:
+                - paragraph [ref=e422]: "8"
+              - button [ref=e423]:
+                - paragraph [ref=e427]: "90"
+            - generic [ref=e428] [cursor=pointer]:
+              - img "Hotspot Meter" [ref=e429]
+              - generic [ref=e430]:
+                - link "13. Hotspot Meter" [ref=e432]:
+                  - /url: /products/hotspot-meter-track-wi-fi-and-hotspots
+                - generic [ref=e434]: A private data-usage meter for your Mac menu bar
+                - generic [ref=e436]:
+                  - img "Promoted" [ref=e438]
+                  - generic [ref=e439]:
+                    - link "Productivity" [ref=e442]:
+                      - /url: /topics/productivity
+                    - generic [ref=e443]: •
+                    - link "Privacy" [ref=e444]:
+                      - /url: /topics/privacy
+                    - generic [ref=e445]: •
+                    - link "Menu Bar Apps" [ref=e446]:
+                      - /url: /topics/menu-bar-apps
+              - button [ref=e447]:
+                - paragraph [ref=e451]: "13"
+              - button [ref=e452]:
+                - paragraph [ref=e456]: "84"
+            - button [active] [ref=e1181] [cursor=pointer]
+          - 'img "Wispr Flow: Dictation That Works Everywhere" [ref=e460] [cursor=pointer]'
+          - generic [ref=e461]:
+            - heading "Yesterday's Top Products" [level=2] [ref=e462]
+            - generic [ref=e463] [cursor=pointer]:
+              - img "Teable 3.0" [ref=e464]
+              - generic [ref=e465]:
+                - link "1. Teable 3.0" [ref=e467]:
+                  - /url: /products/teable-4
+                - generic [ref=e469]: AI Spreadsheet for Business
+                - generic [ref=e471]:
+                  - img "Promoted" [ref=e473]
+                  - generic [ref=e474]:
+                    - link "Productivity" [ref=e477]:
+                      - /url: /topics/productivity
+                    - generic [ref=e478]: •
+                    - link "Spreadsheets" [ref=e479]:
+                      - /url: /topics/spreadsheets
+                    - generic [ref=e480]: •
+                    - link "Artificial Intelligence" [ref=e481]:
+                      - /url: /topics/artificial-intelligence
+              - button [ref=e482]:
+                - paragraph [ref=e486]: "131"
+              - button [ref=e487]:
+                - paragraph [ref=e491]: "441"
+            - generic [ref=e492] [cursor=pointer]:
+              - img "PromptQL" [ref=e493]
+              - generic [ref=e494]:
+                - link "2. PromptQL" [ref=e496]:
+                  - /url: /products/promptql
+                - generic [ref=e498]: Multiplayer AI that replaces Slack
+                - generic [ref=e500]:
+                  - img "Promoted" [ref=e502]
+                  - generic [ref=e503]:
+                    - link "Productivity" [ref=e506]:
+                      - /url: /topics/productivity
+                    - generic [ref=e507]: •
+                    - link "SaaS" [ref=e508]:
+                      - /url: /topics/saas
+                    - generic [ref=e509]: •
+                    - link "Artificial Intelligence" [ref=e510]:
+                      - /url: /topics/artificial-intelligence
+              - button [ref=e511]:
+                - paragraph [ref=e515]: "103"
+              - button [ref=e516]:
+                - paragraph [ref=e520]: "453"
+            - generic [ref=e521] [cursor=pointer]:
+              - img "PodcastorAI" [ref=e522]
+              - generic [ref=e523]:
+                - link "3. PodcastorAI" [ref=e525]:
+                  - /url: /products/podcastorai
+                - generic [ref=e527]: Your AI twin hosts your video podcast
+                - generic [ref=e529]:
+                  - img "Promoted" [ref=e531]
+                  - generic [ref=e532]:
+                    - link "Social Media" [ref=e535]:
+                      - /url: /topics/social-media
+                    - generic [ref=e536]: •
+                    - link "Marketing" [ref=e537]:
+                      - /url: /topics/marketing
+                    - generic [ref=e538]: •
+                    - link "YouTube" [ref=e539]:
+                      - /url: /topics/youtube
+              - button [ref=e540]:
+                - paragraph [ref=e544]: "95"
+              - button [ref=e545]:
+                - paragraph [ref=e549]: "320"
+            - generic [ref=e550] [cursor=pointer]:
+              - img "CrawlRaven" [ref=e551]
+              - generic [ref=e552]:
+                - link "4. CrawlRaven" [ref=e554]:
+                  - /url: /products/crawlraven
+                - generic [ref=e556]: SEO Hub for GSC + GA4 + a 200-point crawl
+                - generic [ref=e558]:
+                  - img "Promoted" [ref=e560]
+                  - generic [ref=e561]:
+                    - link "Marketing" [ref=e564]:
+                      - /url: /topics/marketing
+                    - generic [ref=e565]: •
+                    - link "SEO" [ref=e566]:
+                      - /url: /topics/seo
+                    - generic [ref=e567]: •
+                    - link "Search" [ref=e568]:
+                      - /url: /topics/search
+              - button [ref=e569]:
+                - paragraph [ref=e573]: "63"
+              - button [ref=e574]:
+                - paragraph [ref=e578]: "286"
+            - generic [ref=e580] [cursor=pointer]:
+              - img "Framer AI Agents" [ref=e581]
+              - generic [ref=e582]:
+                - link "Framer AI Agents" [ref=e584]:
+                  - /url: /products/framer
+                - generic [ref=e586]: Design and publish professional sites with AI
+                - generic [ref=e587]:
+                  - generic [ref=e588]:
+                    - img "Promoted" [ref=e590]
+                    - generic [ref=e591]:
+                      - link "Design Tools" [ref=e594]:
+                        - /url: /topics/design-tools
+                      - generic [ref=e595]: •
+                      - link "Website Builder" [ref=e596]:
+                        - /url: /topics/website-builder
+                      - generic [ref=e597]: •
+                      - link "Artificial Intelligence" [ref=e598]:
+                        - /url: /topics/artificial-intelligence
+                  - link [ref=e1164]:
+                    - /url: /products/framer?comment=5455621
+                    - button [ref=e1165]:
+                      - img "Jurre Houtkamp" [ref=e1166]
+                    - button [ref=e1167]:
+                      - paragraph [ref=e1168]: Jurre Houtkamp
+                    - paragraph [ref=e1169]: Hey everyone, we’re shipping three huge Framer updates today. 1. Use Agents on the canvas to design, write, analyze, and organize your site. Including ways to connect your own AI’s like Claude Code or Codex to Framer. 2. Branching gives your team a safer way to try ideas before you publish. 3. The new Framer Community gives creators a place to share work and earn from it. Try them out and tell us what you think!
+              - button [ref=e606]:
+                - paragraph [ref=e610]: "28"
+              - button [ref=e611]:
+                - paragraph [ref=e615]: "785"
+            - generic [ref=e616] [cursor=pointer]:
+              - img "AskCodi" [ref=e617]
+              - generic [ref=e618]:
+                - link "5. AskCodi" [ref=e620]:
+                  - /url: /products/askcodi
+                - generic [ref=e622]: Orchestrate agents at scale while reducing cost
+                - generic [ref=e624]:
+                  - img "Promoted" [ref=e626]
+                  - generic [ref=e627]:
+                    - link "Mac" [ref=e630]:
+                      - /url: /topics/mac
+                    - generic [ref=e631]: •
+                    - link "Productivity" [ref=e632]:
+                      - /url: /topics/productivity
+                    - generic [ref=e633]: •
+                    - link "Artificial Intelligence" [ref=e634]:
+                      - /url: /topics/artificial-intelligence
+              - button [ref=e635]:
+                - paragraph [ref=e639]: "76"
+              - button [ref=e640]:
+                - paragraph [ref=e644]: "267"
+            - button "See all of yesterday's top products" [ref=e645] [cursor=pointer]
+          - generic [ref=e646]:
+            - heading "Last Week's Top Products" [level=2] [ref=e647]
+            - generic [ref=e648] [cursor=pointer]:
+              - img "ClawTeams" [ref=e649]
+              - generic [ref=e650]:
+                - link "1. ClawTeams" [ref=e652]:
+                  - /url: /products/clawteams
+                - generic [ref=e654]: The first goal-driven, proactive AI team for e-commerce
+                - generic [ref=e656]:
+                  - img "Promoted" [ref=e658]
+                  - generic [ref=e659]:
+                    - link "Productivity" [ref=e662]:
+                      - /url: /topics/productivity
+                    - generic [ref=e663]: •
+                    - link "Marketing" [ref=e664]:
+                      - /url: /topics/marketing
+                    - generic [ref=e665]: •
+                    - link "Artificial Intelligence" [ref=e666]:
+                      - /url: /topics/artificial-intelligence
+              - button [ref=e667]:
+                - paragraph [ref=e671]: "92"
+              - button [ref=e672]:
+                - paragraph [ref=e676]: "810"
+            - generic [ref=e677] [cursor=pointer]:
+              - img "Paradigm" [ref=e678]
+              - generic [ref=e679]:
+                - link "2. Paradigm" [ref=e681]:
+                  - /url: /products/paradigm-3
+                - generic [ref=e683]: Turn any goal into a personalized, adaptive learning path.
+                - generic [ref=e685]:
+                  - img "Promoted" [ref=e687]
+                  - generic [ref=e688]:
+                    - link "User Experience" [ref=e691]:
+                      - /url: /topics/user-experience
+                    - generic [ref=e692]: •
+                    - link "Education" [ref=e693]:
+                      - /url: /topics/education
+                    - generic [ref=e694]: •
+                    - link "Career" [ref=e695]:
+                      - /url: /topics/career
+              - button [ref=e696]:
+                - paragraph [ref=e700]: "130"
+              - button [ref=e701]:
+                - paragraph [ref=e705]: "818"
+            - generic [ref=e706] [cursor=pointer]:
+              - img "Pazi" [ref=e707]
+              - generic [ref=e708]:
+                - link "3. Pazi" [ref=e710]:
+                  - /url: /products/pazi
+                - generic [ref=e712]: Vibe code business operations
+                - generic [ref=e714]:
+                  - img "Promoted" [ref=e716]
+                  - generic [ref=e717]:
+                    - link "Productivity" [ref=e720]:
+                      - /url: /topics/productivity
+                    - generic [ref=e721]: •
+                    - link "Artificial Intelligence" [ref=e722]:
+                      - /url: /topics/artificial-intelligence
+                    - generic [ref=e723]: •
+                    - link "Vibe coding" [ref=e724]:
+                      - /url: /topics/vibe-coding
+              - button [ref=e725]:
+                - paragraph [ref=e729]: "106"
+              - button [ref=e730]:
+                - paragraph [ref=e734]: "883"
+            - generic [ref=e735] [cursor=pointer]:
+              - img "V2Fun" [ref=e736]
+              - generic [ref=e737]:
+                - link "4. V2Fun" [ref=e739]:
+                  - /url: /products/v2fun
+                - generic [ref=e741]: Generate 3D character with 8K textures and AI motion capture
+                - generic [ref=e743]:
+                  - img "Promoted" [ref=e745]
+                  - generic [ref=e746]:
+                    - link "Artificial Intelligence" [ref=e749]:
+                      - /url: /topics/artificial-intelligence
+                    - generic [ref=e750]: •
+                    - link "3D Modeling" [ref=e751]:
+                      - /url: /topics/3d-modeling
+                    - generic [ref=e752]: •
+                    - link "Animation" [ref=e753]:
+                      - /url: /topics/animation
+              - button [ref=e754]:
+                - paragraph [ref=e758]: "189"
+              - button [ref=e759]:
+                - paragraph [ref=e763]: "653"
+            - generic [ref=e765] [cursor=pointer]:
+              - img "Framer AI Agents" [ref=e766]
+              - generic [ref=e767]:
+                - link "Framer AI Agents" [ref=e769]:
+                  - /url: /products/framer
+                - generic [ref=e771]: Design and publish professional sites with AI
+                - generic [ref=e772]:
+                  - generic [ref=e773]:
+                    - img "Promoted" [ref=e775]
+                    - generic [ref=e776]:
+                      - link "Design Tools" [ref=e779]:
+                        - /url: /topics/design-tools
+                      - generic [ref=e780]: •
+                      - link "Website Builder" [ref=e781]:
+                        - /url: /topics/website-builder
+                      - generic [ref=e782]: •
+                      - link "Artificial Intelligence" [ref=e783]:
+                        - /url: /topics/artificial-intelligence
+                  - link [ref=e1171]:
+                    - /url: /products/framer?comment=5455621
+                    - button [ref=e1172]:
+                      - img "Jurre Houtkamp" [ref=e1173]
+                    - button [ref=e1174]:
+                      - paragraph [ref=e1175]: Jurre Houtkamp
+                    - paragraph [ref=e1176]: Hey everyone, we’re shipping three huge Framer updates today. 1. Use Agents on the canvas to design, write, analyze, and organize your site. Including ways to connect your own AI’s like Claude Code or Codex to Framer. 2. Branching gives your team a safer way to try ideas before you publish. 3. The new Framer Community gives creators a place to share work and earn from it. Try them out and tell us what you think!
+              - button [ref=e791]:
+                - paragraph [ref=e795]: "28"
+              - button [ref=e796]:
+                - paragraph [ref=e800]: "785"
+            - generic [ref=e801] [cursor=pointer]:
+              - img "AgentKey" [ref=e802]
+              - generic [ref=e803]:
+                - link "5. AgentKey" [ref=e805]:
+                  - /url: /products/agentkey
+                - generic [ref=e807]: One-stop live data marketplace for your agent
+                - generic [ref=e809]:
+                  - img "Promoted" [ref=e811]
+                  - generic [ref=e812]:
+                    - link "Productivity" [ref=e815]:
+                      - /url: /topics/productivity
+                    - generic [ref=e816]: •
+                    - link "Artificial Intelligence" [ref=e817]:
+                      - /url: /topics/artificial-intelligence
+                    - generic [ref=e818]: •
+                    - link "Data" [ref=e819]:
+                      - /url: /topics/data
+              - button [ref=e820]:
+                - paragraph [ref=e824]: "130"
+              - button [ref=e825]:
+                - paragraph [ref=e829]: "670"
+            - generic [ref=e831]:
+              - generic [ref=e832]: Get the best of Product Hunt, directly in your inbox.
+              - link "Sign Up" [ref=e833] [cursor=pointer]:
+                - /url: /newsletters?campaign=weekly_newsletter&source=newsletter_homepage
+            - button "See all of last week's top products" [ref=e834] [cursor=pointer]
+          - generic [ref=e835]:
+            - heading "Last Month's Top Products" [level=2] [ref=e836]
+            - generic [ref=e837] [cursor=pointer]:
+              - img "Fundraisly" [ref=e838]
+              - generic [ref=e839]:
+                - link "1. Fundraisly" [ref=e841]:
+                  - /url: /products/fundraisly
+                - generic [ref=e843]: AI fundraising agent that finds investors and books meetings
+                - generic [ref=e845]:
+                  - img "Promoted" [ref=e847]
+                  - generic [ref=e848]:
+                    - link "Venture Capital" [ref=e851]:
+                      - /url: /topics/venture-capital
+                    - generic [ref=e852]: •
+                    - link "Artificial Intelligence" [ref=e853]:
+                      - /url: /topics/artificial-intelligence
+                    - generic [ref=e854]: •
+                    - link "Fundraising" [ref=e855]:
+                      - /url: /topics/fundraising
+              - button [ref=e856]:
+                - paragraph [ref=e860]: "419"
+              - button [ref=e861]:
+                - paragraph [ref=e865]: 1,593
+            - generic [ref=e866] [cursor=pointer]:
+              - img "Goldfish" [ref=e867]
+              - generic [ref=e868]:
+                - link "2. Goldfish" [ref=e870]:
+                  - /url: /products/goldfish-early-access
+                - generic [ref=e872]: Press Option. It knows your work and replies like you
+                - generic [ref=e874]:
+                  - img "Promoted" [ref=e876]
+                  - generic [ref=e877]:
+                    - link "Mac" [ref=e880]:
+                      - /url: /topics/mac
+                    - generic [ref=e881]: •
+                    - link "Productivity" [ref=e882]:
+                      - /url: /topics/productivity
+                    - generic [ref=e883]: •
+                    - link "Artificial Intelligence" [ref=e884]:
+                      - /url: /topics/artificial-intelligence
+              - button [ref=e885]:
+                - paragraph [ref=e889]: "311"
+              - button [ref=e890]:
+                - paragraph [ref=e894]: 1,030
+            - generic [ref=e895] [cursor=pointer]:
+              - img "Upstream" [ref=e896]
+              - generic [ref=e897]:
+                - link "3. Upstream" [ref=e899]:
+                  - /url: /products/upstream-3
+                - generic [ref=e901]: The inbox designed for humans and agents
+                - generic [ref=e903]:
+                  - img "Promoted" [ref=e905]
+                  - generic [ref=e906]:
+                    - link "Email" [ref=e909]:
+                      - /url: /topics/email
+                    - generic [ref=e910]: •
+                    - link "Productivity" [ref=e911]:
+                      - /url: /topics/productivity
+                    - generic [ref=e912]: •
+                    - link "Artificial Intelligence" [ref=e913]:
+                      - /url: /topics/artificial-intelligence
+              - button [ref=e914]:
+                - paragraph [ref=e918]: "647"
+              - button [ref=e919]:
+                - paragraph [ref=e923]: "994"
+            - generic [ref=e924] [cursor=pointer]:
+              - img "Bond" [ref=e925]
+              - generic [ref=e926]:
+                - link "4. Bond" [ref=e928]:
+                  - /url: /products/bond-12
+                - generic [ref=e930]: The AI to-do list that does itself
+                - generic [ref=e932]:
+                  - img "Promoted" [ref=e934]
+                  - generic [ref=e935]:
+                    - link "Productivity" [ref=e938]:
+                      - /url: /topics/productivity
+                    - generic [ref=e939]: •
+                    - link "Task Management" [ref=e940]:
+                      - /url: /topics/task-management
+                    - generic [ref=e941]: •
+                    - link "Virtual Assistants" [ref=e942]:
+                      - /url: /topics/virtual-assistants
+              - button [ref=e943]:
+                - paragraph [ref=e947]: "188"
+              - button [ref=e948]:
+                - paragraph [ref=e952]: "826"
+            - generic [ref=e954] [cursor=pointer]:
+              - img "Viktor.com" [ref=e955]
+              - generic [ref=e956]:
+                - link "Viktor.com" [ref=e958]:
+                  - /url: /products/viktor
+                - generic [ref=e960]: An AI coworker that actually does the work
+                - generic [ref=e962]:
+                  - img "Promoted" [ref=e964]
+                  - generic [ref=e965]:
+                    - link "Productivity" [ref=e968]:
+                      - /url: /topics/productivity
+                    - generic [ref=e969]: •
+                    - link "Artificial Intelligence" [ref=e970]:
+                      - /url: /topics/artificial-intelligence
+                    - generic [ref=e971]: •
+                    - link "Business" [ref=e972]:
+                      - /url: /topics/business
+              - button [ref=e973]:
+                - paragraph [ref=e977]: "125"
+              - button [ref=e978]:
+                - paragraph [ref=e982]: "652"
+            - generic [ref=e983] [cursor=pointer]:
+              - img "Tencent EdgeOne Makers" [ref=e984]
+              - generic [ref=e985]:
+                - link "5. Tencent EdgeOne Makers" [ref=e987]:
+                  - /url: /products/tencent-edgeone-2
+                - generic [ref=e989]: Ship AI agents like web apps, in minutes.
+                - generic [ref=e991]:
+                  - img "Promoted" [ref=e993]
+                  - generic [ref=e994]:
+                    - link "Website Builder" [ref=e997]:
+                      - /url: /topics/website-builder
+                    - generic [ref=e998]: •
+                    - link "Artificial Intelligence" [ref=e999]:
+                      - /url: /topics/artificial-intelligence
+                    - generic [ref=e1000]: •
+                    - link "Development" [ref=e1001]:
+                      - /url: /topics/development
+              - button [ref=e1002]:
+                - paragraph [ref=e1006]: "164"
+              - button [ref=e1007]:
+                - paragraph [ref=e1011]: 1,101
+            - button "See all of last month's top products" [ref=e1012] [cursor=pointer]
+      - complementary [ref=e1013]:
+        - generic [ref=e1014]:
+          - link "Trending Forum Threads" [ref=e1015] [cursor=pointer]:
+            - /url: /forums
+          - generic [ref=e1016]:
+            - generic [ref=e1017]:
+              - generic [ref=e1018] [cursor=pointer]:
+                - link "p/general" [ref=e1019]:
+                  - /url: /p/general
+                - link "What are the 5 tools you simply couldn't do your work without?" [ref=e1020]:
+                  - /url: /p/general/what-are-the-5-tools-you-simply-couldn-t-do-your-work-without
+                - generic [ref=e1022]:
+                  - button "Upvote (720)" [ref=e1023]:
+                    - generic [ref=e1027]: Upvote
+                    - text: (720)
+                  - generic [ref=e1028]: •
+                  - generic: "703"
+                  - generic [ref=e1177]: •
+                  - paragraph [ref=e1178]: 9 online
+              - generic [ref=e1029] [cursor=pointer]:
+                - link "p/general" [ref=e1030]:
+                  - /url: /p/general
+                - link "When is the right time to launch on Product Hunt?" [ref=e1031]:
+                  - /url: /p/general/when-is-the-right-time-to-launch-on-product-hunt-2
+                - generic [ref=e1033]:
+                  - button "Upvote (145)" [ref=e1034]:
+                    - generic [ref=e1038]: Upvote
+                    - text: (145)
+                  - generic [ref=e1039]: •
+                  - generic: "123"
+              - generic [ref=e1040] [cursor=pointer]:
+                - link [ref=e1041]:
+                  - /url: /p/pushary
+                  - img "Pushary" [ref=e1042]
+                  - text: p/pushary
+                - link "How do you stay aware of what your AI coding agents are doing?" [ref=e1043]:
+                  - /url: /p/pushary/how-do-you-stay-aware-of-what-your-ai-coding-agents-are-doing
+                - generic [ref=e1045]:
+                  - button "Upvote (511)" [ref=e1046]:
+                    - generic [ref=e1050]: Upvote
+                    - text: (511)
+                  - generic [ref=e1051]: •
+                  - generic: "474"
+              - generic [ref=e1052] [cursor=pointer]:
+                - link [ref=e1053]:
+                  - /url: /p/promptql
+                  - img "PromptQL" [ref=e1054]
+                  - text: p/promptql
+                - link "Do we need an AI-native slack?" [ref=e1055]:
+                  - /url: /p/promptql/do-we-need-an-ai-native-slack
+                - generic [ref=e1057]:
+                  - button "Upvote (38)" [ref=e1058]:
+                    - generic [ref=e1062]: Upvote
+                    - text: (38)
+                  - generic [ref=e1063]: •
+                  - generic: "56"
+            - generic [ref=e1064]:
+              - link "View all" [ref=e1065] [cursor=pointer]:
+                - /url: /forums
+              - link "Start new thread" [ref=e1066] [cursor=pointer]:
+                - /url: /p/new
+    - contentinfo [ref=e1069]:
+      - generic [ref=e1070]:
+        - generic [ref=e1071]: Top Product Categories
+        - generic [ref=e1072]:
+          - button "Engineering & Development" [ref=e1074] [cursor=pointer]
+          - button "LLMs" [ref=e1079] [cursor=pointer]
+          - button "Productivity" [ref=e1084] [cursor=pointer]
+          - button "Marketing & Sales" [ref=e1089] [cursor=pointer]
+          - button "Design & Creative" [ref=e1094] [cursor=pointer]
+          - button "Social & Community" [ref=e1099] [cursor=pointer]
+          - button "Finance" [ref=e1104] [cursor=pointer]
+          - button "AI Agents" [ref=e1109] [cursor=pointer]
+      - generic [ref=e1115]:
+        - button "Trending categories" [ref=e1117] [cursor=pointer]
+        - button "Top reviewed" [ref=e1122] [cursor=pointer]
+        - button "Trending products" [ref=e1127] [cursor=pointer]
+        - button "Top forum threads" [ref=e1132] [cursor=pointer]
+      - generic [ref=e1138]:
+        - generic [ref=e1139]: © 2026 Product Hunt
+        - generic [ref=e1140]:
+          - link "Newsletter" [ref=e1141] [cursor=pointer]:
+            - /url: /newsletters
+          - link "Apps" [ref=e1142] [cursor=pointer]:
+            - /url: /apps
+          - link "About" [ref=e1143] [cursor=pointer]:
+            - /url: /about
+          - link "FAQ" [ref=e1144] [cursor=pointer]:
+            - /url: https://help.producthunt.com
+          - link "Terms" [ref=e1145] [cursor=pointer]:
+            - /url: /legal#terms
+          - link "Privacy & Cookies" [ref=e1146] [cursor=pointer]:
+            - /url: /legal#privacy
+          - link "Privacy Choices" [ref=e1147] [cursor=pointer]:
+            - /url: /privacy/do-not-sell
+          - link "Advertise" [ref=e1148] [cursor=pointer]:
+            - /url: /sponsor?utm_content=sf
+          - link "llms.txt" [ref=e1149] [cursor=pointer]:
+            - /url: /llms.txt
+          - generic [ref=e1150]:
+            - text: "Contact us:"
+            - link "hello@producthunt.com" [ref=e1151] [cursor=pointer]:
+              - /url: mailto:hello@producthunt.com
+        - generic [ref=e1152]:
+          - link [ref=e1153] [cursor=pointer]:
+            - /url: https://x.com/ProductHunt
+          - link [ref=e1156] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/producthunt
+  - alert [ref=e1180]

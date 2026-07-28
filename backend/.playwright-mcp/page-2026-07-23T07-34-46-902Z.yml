@@ -1,0 +1,48 @@
+- generic [ref=e5]:
+  - banner [ref=e6]:
+    - generic [ref=e7]:
+      - button [ref=e8] [cursor=pointer]
+      - link [ref=e14] [cursor=pointer]:
+        - /url: /
+      - button [ref=e17] [cursor=pointer]
+  - main [ref=e22]:
+    - generic [ref=e24]:
+      - link [ref=e25] [cursor=pointer]:
+        - /url: https://play.google.com/store/apps/details?id=com.amiunique.amiuniqueapp
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - heading "Install AmIUnique App" [level=4] [ref=e29]
+            - paragraph [ref=e30]: Be one of the participants in our research! We're investigating the potential of device fingerprinting on Android mobile devices and exploring how unique each device truly is. Help us by installing our app and scanning your device's fingerprint!
+          - generic [ref=e31]: Install AmIUnique
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - heading "Learn how identifiable you are on the Internet" [level=1] [ref=e39]
+          - heading "Help us investigate the diversity of web browsers" [level=3] [ref=e40]
+          - paragraph [ref=e41]: This website aims at studying the diversity of browser fingerprints and providing developers with data to help them design good defenses. Contribute to the efforts by viewing your own browser fingerprint or consult the current statistics of data provided by users around the world! If you click on this button.
+          - link "See My Fingerprint" [ref=e43] [cursor=pointer]:
+            - /url: /fingerprint
+          - paragraph [ref=e45]:
+            - text: we will collect your browser fingerprint and we will put a cookie on your browser for a period of 4 months. More details are available in the
+            - link "Privacy Policy" [ref=e46] [cursor=pointer]:
+              - /url: /privacy-policy
+        - alert [ref=e48]:
+          - generic [ref=e53]:
+            - text: What is browser fingerprinting?
+            - paragraph [ref=e54]: "Device fingerprinting or browser fingerprinting is the systematic collection of information about a remote device, for identification purposes. Client-side scripting languages allow the development of procedures to collect very rich fingerprints: browser and operating system type and version, screen resolution, architecture type, lists of fonts, plugins, microphone, camera, etc."
+  - generic [ref=e56]:
+    - link "Fingerprint" [ref=e57] [cursor=pointer]:
+      - /url: /fingerprint
+    - link "History" [ref=e63] [cursor=pointer]:
+      - /url: /fingerprint/history
+    - link "Statistics" [ref=e69] [cursor=pointer]:
+      - /url: /fingerprints-global-statistics
+    - link "FAQ ?" [ref=e75] [cursor=pointer]:
+      - /url: /faq
+  - status [ref=e82]:
+    - paragraph [ref=e83]:
+      - text: This website uses cookies or similar technologies, to enhance your browsing experience and provide personalized recommendations. By continuing to use our website, you agree to our
+      - link "Privacy Policy" [ref=e84] [cursor=pointer]:
+        - /url: /privacy-policy
+    - generic [ref=e85]:
+      - button "Reject" [ref=e86] [cursor=pointer]
+      - button "Accept" [ref=e88] [cursor=pointer]

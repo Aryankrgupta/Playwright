@@ -1,0 +1,14 @@
+- generic [ref=f3e2]:
+  - separator [ref=f3e3]
+  - iframe [ref=f3e8]:
+    - generic [ref=f4e2]:
+      - generic [ref=f4e3]:
+        - checkbox "I'm not a robot" [ref=f4e7]
+        - generic [ref=f4e9]: I'm not a robot
+      - generic [ref=f4e12]: reCAPTCHA
+  - separator [ref=f3e9]
+  - generic [ref=f3e10]:
+    - text: About this page Our systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot.
+    - link "Why did this happen?" [ref=f3e11] [cursor=pointer]:
+      - /url: "#"
+    - generic [ref=f3e12]: "IP address: 2409:40e5:11ac:a881:8c1:29dc:2895:ec6eTime: 2026-07-24T17:42:54ZURL: https://www.google.com/search?q=news&sca_esv=128d3fbf1687292d&source=hp&ei=CaRjauGPKuKfhvcPwMF5&iflsig=ABILxe8AAAAAamOyGZ4LdEBMuTVnowkKDH8g-USfOFdQ&ved=0ahUKEwihuJOu7uuVAxXij-EIHcBgHgAQ4dUDCB4&uact=5&oq=news&gs_lp=Egdnd3Mtd2l6IgRuZXdzSBZQAFgAcAB4AJABAJgBAKABAKoBALgBA8gBAPgBAZgCAKACAJgDAJIHAKAHALIHALgHAMIHAMgHAIAIAQ&sclient=gws-wiz&sei=HaRjas3xN4GTseMP0ujUkQ8"

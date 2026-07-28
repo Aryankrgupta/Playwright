@@ -1,0 +1,280 @@
+- generic [active] [ref=f19e1]:
+  - banner [ref=f19e2]:
+    - generic [ref=f19e3]:
+      - link "Google News" [ref=f19e7] [cursor=pointer]:
+        - /url: ./?hl=en-IN&gl=IN&ceid=IN%3Aen
+        - generic [ref=f19e9]: News
+      - generic [ref=f19e10]:
+        - search [ref=f19e12]:
+          - generic [ref=f19e17]:
+            - combobox "Search for topics, locations & sources" [ref=f19e19]
+            - status
+          - button "Advanced search" [ref=f19e20] [cursor=pointer]:
+            - generic [ref=f19e21]:
+              - generic "Advanced search" [ref=f19e22]
+              - tooltip [ref=f19e25]: Advanced search
+          - button "Search" [ref=f19e26] [cursor=pointer]
+        - generic [ref=f19e30]:
+          - generic [ref=f19e35]:
+            - button "Help" [ref=f19e36] [cursor=pointer]
+            - tooltip [ref=f19e40]: Help
+          - generic [ref=f19e45]:
+            - button "Settings" [ref=f19e46] [cursor=pointer]
+            - tooltip [ref=f19e51]: Settings
+      - generic [ref=f19e53]:
+        - button "Google apps" [ref=f19e57] [cursor=pointer]
+        - link "Sign in" [ref=f19e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://news.google.com/home?hl%3Den-IN%26gl%3DIN%26ceid%3DIN:en&followup=https://news.google.com/home?hl%3Den-IN%26gl%3DIN%26ceid%3DIN:en&hl=en-IN&ec=GAZAqgM
+    - navigation [ref=f19e64]:
+      - tablist [ref=f19e65]:
+        - tab [selected] [ref=f19e66] [cursor=pointer]:
+          - tab "Home" [selected] [ref=f19e67]
+        - tab [ref=f19e68] [cursor=pointer]:
+          - tab "For you" [ref=f19e69]
+        - tab [ref=f19e70] [cursor=pointer]:
+          - tab "Following" [ref=f19e71]
+        - tab [ref=f19e72] [cursor=pointer]:
+          - tab "News Showcase" [ref=f19e73]
+        - tab [ref=f19e76] [cursor=pointer]:
+          - tab "India" [ref=f19e77]
+        - tab [ref=f19e78] [cursor=pointer]:
+          - tab "World" [ref=f19e79]
+        - tab [ref=f19e80] [cursor=pointer]:
+          - tab "Local" [ref=f19e81]
+        - tab [ref=f19e82] [cursor=pointer]:
+          - tab "Business" [ref=f19e83]
+        - tab [ref=f19e84] [cursor=pointer]:
+          - tab "Technology" [ref=f19e85]
+      - generic [ref=f19e89]:
+        - button "More" [ref=f19e90] [cursor=pointer]
+        - tooltip [ref=f19e94]: More
+  - main [ref=f19e99]:
+    - generic [ref=f19e102]:
+      - generic [ref=f19e103]:
+        - generic [ref=f19e104]:
+          - heading "Your briefing" [level=1] [ref=f19e105]
+          - paragraph [ref=f19e106]: Friday, 24 July
+        - generic [ref=f19e109]:
+          - generic [ref=f19e110]:
+            - generic [ref=f19e111]:
+              - generic [ref=f19e112]: Today
+              - generic [ref=f19e114]:
+                - generic [ref=f19e115]: 32°
+                - generic [ref=f19e116]: 26°
+            - generic [ref=f19e117]:
+              - generic [ref=f19e118]: Sat
+              - generic [ref=f19e120]:
+                - generic [ref=f19e121]: 32°
+                - generic [ref=f19e122]: 26°
+            - generic [ref=f19e123]:
+              - generic [ref=f19e124]: Sun
+              - generic [ref=f19e126]:
+                - generic [ref=f19e127]: 32°
+                - generic [ref=f19e128]: 26°
+            - generic [ref=f19e129]:
+              - generic [ref=f19e130]: Mon
+              - generic [ref=f19e132]:
+                - generic [ref=f19e133]: 31°
+                - generic [ref=f19e134]: 26°
+          - generic [ref=f19e135]:
+            - button "Expand to view forecast" [ref=f19e136] [cursor=pointer]
+            - generic "Your local weather, 27°C, thunderstorms" [ref=f19e139]:
+              - img "thunderstorms" [ref=f19e140]
+              - generic [ref=f19e151]:
+                - generic [ref=f19e152]:
+                  - generic [ref=f19e153]: Your local weather
+                  - button "Use precise location" [ref=f19e154] [cursor=pointer]
+                - generic [ref=f19e157]: 27°C
+                - link "Google Weather" [ref=f19e158] [cursor=pointer]:
+                  - /url: https://support.google.com/websearch/answer/13687874
+      - generic [ref=f19e160]:
+        - heading [level=3] [ref=f19e163]:
+          - link "Top stories" [ref=f19e164] [cursor=pointer]:
+            - /url: ./topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRFZxYUdjU0JXVnVMVWRDR2dKSlRpZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+        - generic [ref=f19e170]:
+          - link "CJP demands Union Education Minister Dharmendra Pradhan's resignation" [ref=f19e172] [cursor=pointer]:
+            - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lMNzd6VkVSRTdyUHNBeWROajFTZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - text: CJP demands Union Education Minister Dharmendra Pradhan's resignation chevron_right
+          - generic [ref=f19e173]:
+            - generic [ref=f19e174]:
+              - link [ref=f19e176] [cursor=pointer]:
+                - /url: ./read/CBMikAJBVV95cUxNZ2Zpd0xsQVctbXZwaVJXOHlIdEptdE9lRC1KdEZKZnRKM1FWZDFGODVMdDZ6azBtcXVaTXlGVEItQ3BZdm5vZUFhQzlDazJWaXBYUTFxMVJKOXBQV3prY0pRd2hoT2FLZlBLY0VSZWhXcWJ5SGl2emZzUTFqMlNTWVUxOE0wRUVDSERBVnQ4ZWZyREdLdFRvbFU2LVRKd3ljZnY2N1MybUF6VTZJZVp3cGl3SUxqMm5CVWFvYW8wOEpUaG80bEJPVmdXUEJVd1p4S1NVMzM4bU1Fb1FhUDBJLWxLME11VVJBZGh1ajlvVlB3SXBERDRyMlZJYzIwQlhzdTgwLXNzYVh4YXFfWmRoT9IBlwJBVV95cUxQamkwU1NXSGRyMkpMV1V3c1F6VXFjZjByRUdoV3h1akZfa1BFd29zWWdRNWoxZ1VTOW1lY014Z3hZUnh5dnRodGVuTmYzeDFMaTc3alR1U2JGbG5NYjY1Z1pLbUgtSWVWbS1rVlJ0SUdWbFpKYXhZdnRHVmVJSkUzVTZiMGozOENoTVFIMFN1WjFYeTU2RC1Ob1h4enNZX1d5ZGpraXpLTWZTTzJQZGk4TzAxcWkxNE5yU1VuMzJaODBzd3JaREtQa0xrN21RNWgwQ0N1Rm12SW9jeVZIcmhmc2I5SjlNSW42UHRCRGYzb0xHZ0tHcldDaktPMDN5MFFHcVpSZ0tSbmlHaExQOTlKaUtiUFhxQkU?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - figure [ref=f19e177]
+              - generic [ref=f19e178]:
+                - generic [ref=f19e179]: The Hindu
+                - generic [ref=f19e185]:
+                  - generic:
+                    - 'button "More - Jantar Mantar protest LIVE: NTA terminates 47 officials as part of complete overhaul" [ref=f19e186] [cursor=pointer]'
+                    - tooltip [ref=f19e190]: More
+              - 'link "Jantar Mantar protest LIVE: NTA terminates 47 officials as part of complete overhaul - The Hindu - 1 hour ago" [ref=f19e191] [cursor=pointer]':
+                - /url: ./read/CBMikAJBVV95cUxNZ2Zpd0xsQVctbXZwaVJXOHlIdEptdE9lRC1KdEZKZnRKM1FWZDFGODVMdDZ6azBtcXVaTXlGVEItQ3BZdm5vZUFhQzlDazJWaXBYUTFxMVJKOXBQV3prY0pRd2hoT2FLZlBLY0VSZWhXcWJ5SGl2emZzUTFqMlNTWVUxOE0wRUVDSERBVnQ4ZWZyREdLdFRvbFU2LVRKd3ljZnY2N1MybUF6VTZJZVp3cGl3SUxqMm5CVWFvYW8wOEpUaG80bEJPVmdXUEJVd1p4S1NVMzM4bU1Fb1FhUDBJLWxLME11VVJBZGh1ajlvVlB3SXBERDRyMlZJYzIwQlhzdTgwLXNzYVh4YXFfWmRoT9IBlwJBVV95cUxQamkwU1NXSGRyMkpMV1V3c1F6VXFjZjByRUdoV3h1akZfa1BFd29zWWdRNWoxZ1VTOW1lY014Z3hZUnh5dnRodGVuTmYzeDFMaTc3alR1U2JGbG5NYjY1Z1pLbUgtSWVWbS1rVlJ0SUdWbFpKYXhZdnRHVmVJSkUzVTZiMGozOENoTVFIMFN1WjFYeTU2RC1Ob1h4enNZX1d5ZGpraXpLTWZTTzJQZGk4TzAxcWkxNE5yU1VuMzJaODBzd3JaREtQa0xrN21RNWgwQ0N1Rm12SW9jeVZIcmhmc2I5SjlNSW42UHRCRGYzb0xHZ0tHcldDaktPMDN5MFFHcVpSZ0tSbmlHaExQOTlKaUtiUFhxQkU?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "Jantar Mantar protest LIVE: NTA terminates 47 officials as part of complete overhaul"
+              - time [ref=f19e193]: 1 hour ago
+            - generic [ref=f19e194]:
+              - generic [ref=f19e195]:
+                - link [ref=f19e197] [cursor=pointer]:
+                  - /url: ./read/CBMiqgJBVV95cUxQb0NnTHU4NlBmamtPLVJXdTVCYUwxWTBjaElBMGxBbS1BbUJTYWxPT1F2MTYyMkY1bklIazMzS3FFTnNRNVhqVzdiYlRyeF9ia01LR2lLQjJ1N2RiYzVyTlFrdUFoLXJsUUktdTlnSHNnQWtXNzRxQnBzaWdzY2VZUFNWanNya1Z3VFJlRFdZbFhGd0NWa3NpRHlWSzJZUGhHeXpqeV9yUlk4MElFWUZOUUU0bTFXb1Q3Tno4SUlxVTg0R0hxaTRmU3JCeUlHLU8tYkxYTXlyTC1XejFMSldwZWRpYklJU2JseDJLV3JPdVZ6dkhGMUZ6RkE1X0dpa0ZRYW9ON1NtMTQyYjBPUDBaUWVOakVRN05VY1Y3RUdtNjI2WEJ0eUFvLWxR?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f19e198]:
+                  - generic [ref=f19e199]: The Times of India
+                  - generic [ref=f19e205]:
+                    - generic:
+                      - 'button "More - Students'' stir: CJP-Centre 3rd round of talks tomorrow; Pradhan''s fate unclear - top developments" [ref=f19e206] [cursor=pointer]'
+                      - tooltip [ref=f19e210]: More
+                - 'link "Students'' stir: CJP-Centre 3rd round of talks tomorrow; Pradhan''s fate unclear - top developments - The Times of India - 1 hour ago" [ref=f19e211] [cursor=pointer]':
+                  - /url: ./read/CBMiqgJBVV95cUxQb0NnTHU4NlBmamtPLVJXdTVCYUwxWTBjaElBMGxBbS1BbUJTYWxPT1F2MTYyMkY1bklIazMzS3FFTnNRNVhqVzdiYlRyeF9ia01LR2lLQjJ1N2RiYzVyTlFrdUFoLXJsUUktdTlnSHNnQWtXNzRxQnBzaWdzY2VZUFNWanNya1Z3VFJlRFdZbFhGd0NWa3NpRHlWSzJZUGhHeXpqeV9yUlk4MElFWUZOUUU0bTFXb1Q3Tno4SUlxVTg0R0hxaTRmU3JCeUlHLU8tYkxYTXlyTC1XejFMSldwZWRpYklJU2JseDJLV3JPdVZ6dkhGMUZ6RkE1X0dpa0ZRYW9ON1NtMTQyYjBPUDBaUWVOakVRN05VY1Y3RUdtNjI2WEJ0eUFvLWxR?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: "Students' stir: CJP-Centre 3rd round of talks tomorrow; Pradhan's fate unclear - top developments"
+                - time [ref=f19e213]: 1 hour ago
+              - generic [ref=f19e214]:
+                - link [ref=f19e216] [cursor=pointer]:
+                  - /url: ./read/CBMiuAFBVV95cUxOYmtXeUpaSnhBWGZya3lTNVFiQk1WYlZmMHpKRW52ZXZsVktqOGRmMG5CUXlqN1VFQTdNS2pHdmR6QV92eWNOdE5meEtSdE1TR2UxT2JCWE5lRlNjOTVEX01Lc0p2S0dKazZrdVBuemdXOUllLUJrTE9MbHZvU1Z1QmQ5d1VYZjNhVndfaE9nX2ZycHVxNTQ4UDM4LWpzOXZ3bkswQU9wcHYzQWEtd1RGWHRmaThvZk9Q?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f19e217]:
+                  - generic [ref=f19e218]: NDTV
+                  - generic [ref=f19e224]:
+                    - generic:
+                      - 'button "More - ''Centre Sought A Day''s Time'': CJP Firm On Dharmendra Pradhan''s Resignation" [ref=f19e225] [cursor=pointer]'
+                      - tooltip [ref=f19e229]: More
+                - 'link "''Centre Sought A Day''s Time'': CJP Firm On Dharmendra Pradhan''s Resignation - NDTV - 8 hours ago - By Ashutosh Tripathi" [ref=f19e230] [cursor=pointer]':
+                  - /url: ./read/CBMiuAFBVV95cUxOYmtXeUpaSnhBWGZya3lTNVFiQk1WYlZmMHpKRW52ZXZsVktqOGRmMG5CUXlqN1VFQTdNS2pHdmR6QV92eWNOdE5meEtSdE1TR2UxT2JCWE5lRlNjOTVEX01Lc0p2S0dKazZrdVBuemdXOUllLUJrTE9MbHZvU1Z1QmQ5d1VYZjNhVndfaE9nX2ZycHVxNTQ4UDM4LWpzOXZ3bkswQU9wcHYzQWEtd1RGWHRmaThvZk9Q?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: "'Centre Sought A Day's Time': CJP Firm On Dharmendra Pradhan's Resignation"
+                - generic [ref=f19e231]:
+                  - time [ref=f19e232]: 8 hours ago
+                  - separator [ref=f19e233]
+                  - generic [ref=f19e234]: By Ashutosh Tripathi
+              - generic [ref=f19e235]:
+                - link [ref=f19e237] [cursor=pointer]:
+                  - /url: ./read/CBMihgJBVV95cUxPTFJrZk1PUFBjVlJPaXZTYVJVd3ZlUXhKVC1CeHI2R1JOMGp3TkJiLVRuOHNXSHRtSm9mVFQ5SWQtcWFPZkY5RUpMRTI1MTVZWkhKTk1qYXNsV19qWnRLbDUxVjVfMVJQVGZsVHAwc2dvaW5XcEJrek92QjByeXl1OW5DZzk4ejc1RkdyMnU1aDNPNTgtRUFfYXlYNFBoV0Z3cVF0YlRMMWltNThCRzY5ZWlGOUstdnlFX3dHLTNzekI0Mk9lWjZjT184R1E5LTJMMnVhZnlKSUhxSXNDTWFmSFlUQkdCb3ZaYmgyYi14VnBBQ0NMd0x1MW5QT3gwbjBEOVVHTW5B?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f19e238]:
+                  - generic [ref=f19e239]: Hindustan Times
+                  - generic [ref=f19e245]:
+                    - generic:
+                      - 'button "More - Read CJP''s full letter to Modi govt: ‘Our demands are non-negotiable’ | What happened in meeting with ministers" [ref=f19e246] [cursor=pointer]'
+                      - tooltip [ref=f19e250]: More
+                - 'link "Read CJP''s full letter to Modi govt: ‘Our demands are non-negotiable’ | What happened in meeting with ministers - Hindustan Times - 7 hours ago" [ref=f19e251] [cursor=pointer]':
+                  - /url: ./read/CBMihgJBVV95cUxPTFJrZk1PUFBjVlJPaXZTYVJVd3ZlUXhKVC1CeHI2R1JOMGp3TkJiLVRuOHNXSHRtSm9mVFQ5SWQtcWFPZkY5RUpMRTI1MTVZWkhKTk1qYXNsV19qWnRLbDUxVjVfMVJQVGZsVHAwc2dvaW5XcEJrek92QjByeXl1OW5DZzk4ejc1RkdyMnU1aDNPNTgtRUFfYXlYNFBoV0Z3cVF0YlRMMWltNThCRzY5ZWlGOUstdnlFX3dHLTNzekI0Mk9lWjZjT184R1E5LTJMMnVhZnlKSUhxSXNDTWFmSFlUQkdCb3ZaYmgyYi14VnBBQ0NMd0x1MW5QT3gwbjBEOVVHTW5B?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: "Read CJP's full letter to Modi govt: ‘Our demands are non-negotiable’ | What happened in meeting with ministers"
+                - time [ref=f19e253]: 7 hours ago
+          - link "See more headlines and perspectives - CJP demands Union Education Minister Dharmendra Pradhan's resignation" [ref=f19e256] [cursor=pointer]:
+            - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lMNzd6VkVSRTdyUHNBeWROajFTZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f19e259]: See more headlines and perspectives
+        - generic [ref=f19e263]:
+          - link "Sonam Wangchuk ends hunger strike after meeting union ministers" [ref=f19e265] [cursor=pointer]:
+            - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o2bXFyR0VSR0VQTVF2LWxhVE1DZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - text: Sonam Wangchuk ends hunger strike after meeting union ministers chevron_right
+          - generic [ref=f19e266]:
+            - generic [ref=f19e267]:
+              - link [ref=f19e269] [cursor=pointer]:
+                - /url: ./read/CBMioAFBVV95cUxNeTY2cVJHNnVRWG01TG14d1ZxTmUycTZWXzFmd3hEdnYwTUJtTzdiUDJOUXRUX05YMmFIcjVJTmRFWkFwaEJ2RXBEZnIxU3pITU1vbER1TlBvY0VqTW0za3RRRG1OQWI3ZHFDX2tOWDVsUjZDVU9tZkJUZEpCdlQxTGlDQ0Y2V1U0X2FBQThfSlEwampOWk14dWxKNE0xU2Ja?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - figure [ref=f19e270]
+              - generic [ref=f19e271]:
+                - generic [ref=f19e272]: AP News
+                - generic [ref=f19e278]:
+                  - generic:
+                    - button "More - Indian activist Wangchuk ends 26-day hunger strike as 'Cockroach' protesters vow to press on" [ref=f19e279] [cursor=pointer]
+                    - tooltip [ref=f19e283]: More
+              - link "Indian activist Wangchuk ends 26-day hunger strike as 'Cockroach' protesters vow to press on - AP News - 7 hours ago - By Sheikh Saaliq and shonal ganguly" [ref=f19e284] [cursor=pointer]:
+                - /url: ./read/CBMioAFBVV95cUxNeTY2cVJHNnVRWG01TG14d1ZxTmUycTZWXzFmd3hEdnYwTUJtTzdiUDJOUXRUX05YMmFIcjVJTmRFWkFwaEJ2RXBEZnIxU3pITU1vbER1TlBvY0VqTW0za3RRRG1OQWI3ZHFDX2tOWDVsUjZDVU9tZkJUZEpCdlQxTGlDQ0Y2V1U0X2FBQThfSlEwampOWk14dWxKNE0xU2Ja?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Indian activist Wangchuk ends 26-day hunger strike as 'Cockroach' protesters vow to press on
+              - generic [ref=f19e285]:
+                - time [ref=f19e286]: 7 hours ago
+                - separator [ref=f19e287]
+                - generic [ref=f19e288]: By Sheikh Saaliq and shonal ganguly
+            - generic [ref=f19e289]:
+              - generic [ref=f19e290]:
+                - link [ref=f19e292] [cursor=pointer]:
+                  - /url: ./read/CBMi0gFBVV95cUxQMFFYRGFmR05yNW9feGlEelRVdnlqLXFEUHZDTmFJcElza2NheEJTckJZZHZjU1RTMWppclRBTVVoanpvSWx0d3VrTE5RMVVlcnMzUlcxcGE0bnUybG9qNDYzclFMdXZyWnBtWGdOS0hSUFV5MFdpRGVxT1BoTmY5NkZ0b2tTb2x1aDRRLUNqRDB6dE9iUTBTOXFKUXdvaU5NS0JZYVlnZXdWTWtXdWc4elJjMV9VOG1BalpySEVpUkF0aWxSQ0laTkVQRUY3SWozTWc?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f19e293]:
+                  - generic [ref=f19e294]: NDTV
+                  - generic [ref=f19e300]:
+                    - generic:
+                      - 'button "More - Inside Story: How Centre Got Sonam Wangchuk To End His Hunger Strike" [ref=f19e301] [cursor=pointer]'
+                      - tooltip [ref=f19e305]: More
+                - 'link "Inside Story: How Centre Got Sonam Wangchuk To End His Hunger Strike - NDTV - 14 hours ago - By Aishvarya Jain and Mohd Asim" [ref=f19e306] [cursor=pointer]':
+                  - /url: ./read/CBMi0gFBVV95cUxQMFFYRGFmR05yNW9feGlEelRVdnlqLXFEUHZDTmFJcElza2NheEJTckJZZHZjU1RTMWppclRBTVVoanpvSWx0d3VrTE5RMVVlcnMzUlcxcGE0bnUybG9qNDYzclFMdXZyWnBtWGdOS0hSUFV5MFdpRGVxT1BoTmY5NkZ0b2tTb2x1aDRRLUNqRDB6dE9iUTBTOXFKUXdvaU5NS0JZYVlnZXdWTWtXdWc4elJjMV9VOG1BalpySEVpUkF0aWxSQ0laTkVQRUY3SWozTWc?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: "Inside Story: How Centre Got Sonam Wangchuk To End His Hunger Strike"
+                - generic [ref=f19e307]:
+                  - time [ref=f19e308]: 14 hours ago
+                  - separator [ref=f19e309]
+                  - generic [ref=f19e310]: By Aishvarya Jain and Mohd Asim
+              - generic [ref=f19e311]:
+                - link [ref=f19e313] [cursor=pointer]:
+                  - /url: ./read/CBMiwAFBVV95cUxQUWVzb0x6VXJUYWszQU5LdUdPNV9uWGw0NnNIcUVKNHlBajR4NXVBSFlkWnJZN2poSmZDZHk4UEZ0SHBHMDJIRVRCaUN6aThKdmVjTDJDU1hBVVNPQVJMYkdFSERNQUFpLVF5ZGplUnVjdmhFTldfUUtrTmtRMFZ0T3RIQnVpU3lqWEVDMWoydl9LZ0dnbnBJeDhlQWZKZlY3NWpxcllRWUw5QnBhd1NPTGpQNnlIOHR5RVFacHRCa1DSAccBQVVfeXFMUDV0aEFNY05QM3BDZk8wUGczc0hkUHJBR2lPTXBFNUNZLVJfWDNTVkp5OTF2YlF1ZjJ3Y0pRVG05ZU5kLWtJSldtSlpsZ2xMbVg1azhsd1I5bkZzRmdSZzEwTHF1WDJTS0FaQXRaTkczSHNJcHpobnowdVJlcE0tWGpqVThSMDhheHhKc2xSR0UyOXpjYklXTGdBMG1LOVZwN21uZlM5OXpmS1NWaG9TeGYyUzZGTnZ0WjVGakphbWgxeERoTmhfQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f19e314]:
+                  - generic [ref=f19e315]: The Hindu
+                  - generic [ref=f19e321]:
+                    - generic:
+                      - button "More - Woken from sleep to witness Wangchuk end fast, says Ladakh leader" [ref=f19e322] [cursor=pointer]
+                      - tooltip [ref=f19e326]: More
+                - link "Woken from sleep to witness Wangchuk end fast, says Ladakh leader - The Hindu - 24 minutes ago - By vijaita singh" [ref=f19e327] [cursor=pointer]:
+                  - /url: ./read/CBMiwAFBVV95cUxQUWVzb0x6VXJUYWszQU5LdUdPNV9uWGw0NnNIcUVKNHlBajR4NXVBSFlkWnJZN2poSmZDZHk4UEZ0SHBHMDJIRVRCaUN6aThKdmVjTDJDU1hBVVNPQVJMYkdFSERNQUFpLVF5ZGplUnVjdmhFTldfUUtrTmtRMFZ0T3RIQnVpU3lqWEVDMWoydl9LZ0dnbnBJeDhlQWZKZlY3NWpxcllRWUw5QnBhd1NPTGpQNnlIOHR5RVFacHRCa1DSAccBQVVfeXFMUDV0aEFNY05QM3BDZk8wUGczc0hkUHJBR2lPTXBFNUNZLVJfWDNTVkp5OTF2YlF1ZjJ3Y0pRVG05ZU5kLWtJSldtSlpsZ2xMbVg1azhsd1I5bkZzRmdSZzEwTHF1WDJTS0FaQXRaTkczSHNJcHpobnowdVJlcE0tWGpqVThSMDhheHhKc2xSR0UyOXpjYklXTGdBMG1LOVZwN21uZlM5OXpmS1NWaG9TeGYyUzZGTnZ0WjVGakphbWgxeERoTmhfQQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: Woken from sleep to witness Wangchuk end fast, says Ladakh leader
+                - generic [ref=f19e328]:
+                  - time [ref=f19e329]: 24 minutes ago
+                  - separator [ref=f19e330]
+                  - generic [ref=f19e331]: By vijaita singh
+              - generic [ref=f19e332]:
+                - link [ref=f19e334] [cursor=pointer]:
+                  - /url: ./read/CBMi5AFBVV95cUxPZGpqcVhjbmkzUnhUV1Y4eTdNUW1pTF9ZTFZ6blktX0lHZGIzMEpXMGVYOWJmdXY1VWk4UjAySlUxZEVSZGY0QkVnNEU5UzBTcFc5R3B0WVBNeVhRN3BGYmVENG5xREpTU2xCLWVjS0FndTVERHgtU0NIaDVJOEk4cF9kNDlDeWhhQ1E1SFBrNVdPbU1ZZ2dDdlQ1Q0ZVZVdxRUtHbmFETUxtS29LUGNJWXg1RHd5YkFPaWtjM1ZQQ0JNV0xnMERKMUlhamYyTERPWTBTUzVCdXpSd2hzLVBBM2JkbUE?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - generic [ref=f19e335]:
+                  - generic [ref=f19e336]: The Times of India
+                  - generic [ref=f19e342]:
+                    - generic:
+                      - 'button "More - ''Have a heart'': Sonam Wangchuk''s wife slams critics after he ends 26-day hunger strike" [ref=f19e343] [cursor=pointer]'
+                      - tooltip [ref=f19e347]: More
+                - 'link "''Have a heart'': Sonam Wangchuk''s wife slams critics after he ends 26-day hunger strike - The Times of India - 1 hour ago" [ref=f19e348] [cursor=pointer]':
+                  - /url: ./read/CBMi5AFBVV95cUxPZGpqcVhjbmkzUnhUV1Y4eTdNUW1pTF9ZTFZ6blktX0lHZGIzMEpXMGVYOWJmdXY1VWk4UjAySlUxZEVSZGY0QkVnNEU5UzBTcFc5R3B0WVBNeVhRN3BGYmVENG5xREpTU2xCLWVjS0FndTVERHgtU0NIaDVJOEk4cF9kNDlDeWhhQ1E1SFBrNVdPbU1ZZ2dDdlQ1Q0ZVZVdxRUtHbmFETUxtS29LUGNJWXg1RHd5YkFPaWtjM1ZQQ0JNV0xnMERKMUlhamYyTERPWTBTUzVCdXpSd2hzLVBBM2JkbUE?hl=en-IN&gl=IN&ceid=IN%3Aen
+                  - text: "'Have a heart': Sonam Wangchuk's wife slams critics after he ends 26-day hunger strike"
+                - time [ref=f19e350]: 1 hour ago
+          - link "See more headlines and perspectives - Sonam Wangchuk ends hunger strike after meeting union ministers" [ref=f19e353] [cursor=pointer]:
+            - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o2bXFyR0VSR0VQTVF2LWxhVE1DZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f19e356]: See more headlines and perspectives
+        - generic [ref=f19e360]:
+          - generic [ref=f19e361]:
+            - link [ref=f19e363] [cursor=pointer]:
+              - /url: ./read/CBMi7AFBVV95cUxQZ0JqSDZCVFVycHZyZHM4RFd0TzNPclUwLVpZbTgzV1VzTVFqSUdMWDI2S2k2Y1FiYzlfckJPcmdQbTd0alNDMkd3SW02RmtxQjJnUXdUS3AyRURmejljRlJ0Z3pYMVRqb0dFT0dTbnM5MGFKQXpzRThDOFNYbEdCaHZDQ0pFaTVoc19UYVRCeE40N3dfUFdnRmxxYUxqTlBkc1B3T3pla0MyZzh1N0ViWnRvM1N0dGdyY3JENERhaDdTU3NYbGhmQmU2eXBkOGZRaVB6MS1rMV96ZG1YaTFZa0QtS1BPZU9GSzgtS9IB8gFBVV95cUxQOXczZkNEMFV4djRYblBLZmRDLUxtdl9rcmRXclRlc0ZHRVZSTWxIajREbGlDZGxzZDBoRmthaHJKQUZ0R0ZZT3N6Skx6TFA2elBSM285MWZDcjNyQk84Z0JVX045cVpUazRZRGZiX28wT0M0M3hrcVZfMlBnRjZRMWw4MTlaLVBDMzJ4WUpqc1JWMlVuaWMxdzh0NV9wZEFTTFN2Si1lRWt5a0dFMGd3ZTFLbFlGdUgtTlBkM3ItOXRaaHU2SnBjQlJzQnZlMkhvMnJTRHJVMTB6b2xYZ1VnVE1RSDFSWEFEc0E4WUpfUXZ1QQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f19e365]:
+              - generic [ref=f19e366]:
+                - generic [ref=f19e367]: Hindustan Times
+                - generic [ref=f19e373]:
+                  - generic:
+                    - 'button "More - ''A very exceptional thing'': Why Opposition wants to take up NEET paper leak in Parliament with an adjournment motion | Hindustan Times" [ref=f19e374] [cursor=pointer]'
+                    - tooltip [ref=f19e378]: More
+              - 'link "''A very exceptional thing'': Why Opposition wants to take up NEET paper leak in Parliament with an adjournment motion | Hindustan Times - Hindustan Times - 8 hours ago" [ref=f19e379] [cursor=pointer]':
+                - /url: ./read/CBMi7AFBVV95cUxQZ0JqSDZCVFVycHZyZHM4RFd0TzNPclUwLVpZbTgzV1VzTVFqSUdMWDI2S2k2Y1FiYzlfckJPcmdQbTd0alNDMkd3SW02RmtxQjJnUXdUS3AyRURmejljRlJ0Z3pYMVRqb0dFT0dTbnM5MGFKQXpzRThDOFNYbEdCaHZDQ0pFaTVoc19UYVRCeE40N3dfUFdnRmxxYUxqTlBkc1B3T3pla0MyZzh1N0ViWnRvM1N0dGdyY3JENERhaDdTU3NYbGhmQmU2eXBkOGZRaVB6MS1rMV96ZG1YaTFZa0QtS1BPZU9GSzgtS9IB8gFBVV95cUxQOXczZkNEMFV4djRYblBLZmRDLUxtdl9rcmRXclRlc0ZHRVZSTWxIajREbGlDZGxzZDBoRmthaHJKQUZ0R0ZZT3N6Skx6TFA2elBSM285MWZDcjNyQk84Z0JVX045cVpUazRZRGZiX28wT0M0M3hrcVZfMlBnRjZRMWw4MTlaLVBDMzJ4WUpqc1JWMlVuaWMxdzh0NV9wZEFTTFN2Si1lRWt5a0dFMGd3ZTFLbFlGdUgtTlBkM3ItOXRaaHU2SnBjQlJzQnZlMkhvMnJTRHJVMTB6b2xYZ1VnVE1RSDFSWEFEc0E4WUpfUXZ1QQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: "'A very exceptional thing': Why Opposition wants to take up NEET paper leak in Parliament with an adjournment motion | Hindustan Times"
+            - figure [ref=f19e380]
+          - generic [ref=f19e381]:
+            - time [ref=f19e382]: 8 hours ago
+            - 'link "See more headlines and perspectives - ''A very exceptional thing'': Why Opposition wants to take up NEET paper leak in Parliament with an adjournment motion | Hindustan Times" [ref=f19e383] [cursor=pointer]':
+              - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lBMk5EVkVSSGlWaEppZEhZbHRTZ0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - generic [ref=f19e386]: See more
+        - generic [ref=f19e390]:
+          - generic [ref=f19e391]:
+            - link [ref=f19e393] [cursor=pointer]:
+              - /url: ./read/CBMihAFBVV95cUxNZ2lPcXNQLWZUZ1hacDRQSHQyVTFFRG5Zem5zc2pUZmd1RDBLWTlpTVQtSVJ6a1VxZ3NGdUdjbjNpaUpyeGhnTGRzSnc2WUxoYlRwWDJIeHJZTTEwRWsyZGl5TEtsSUVsWDI2czhjWFhYZDNMVnE5MlRoZ3cwSTFNemlGUDg?hl=en-IN&gl=IN&ceid=IN%3Aen
+            - generic [ref=f19e395]:
+              - generic [ref=f19e396]:
+                - generic [ref=f19e397]: Financial Times
+                - generic [ref=f19e403]:
+                  - generic:
+                    - button "More - Europe wins and Brazil loses in Trump tariff overhaul" [ref=f19e404] [cursor=pointer]
+                    - tooltip [ref=f19e408]: More
+              - link "Europe wins and Brazil loses in Trump tariff overhaul - Financial Times - 5 hours ago - By Aime Williams, Paola Tamma and Peter Foster" [ref=f19e409] [cursor=pointer]:
+                - /url: ./read/CBMihAFBVV95cUxNZ2lPcXNQLWZUZ1hacDRQSHQyVTFFRG5Zem5zc2pUZmd1RDBLWTlpTVQtSVJ6a1VxZ3NGdUdjbjNpaUpyeGhnTGRzSnc2WUxoYlRwWDJIeHJZTTEwRWsyZGl5TEtsSUVsWDI2czhjWFhYZDNMVnE5MlRoZ3cwSTFNemlGUDg?hl=en-IN&gl=IN&ceid=IN%3Aen
+                - text: Europe wins and Brazil loses in Trump tariff overhaul
+            - figure [ref=f19e410]
+          - generic [ref=f19e411]:
+            - time [ref=f19e412]: 5 hours ago
+            - separator [ref=f19e413]
+            - generic [ref=f19e414]: By Aime Williams, Paola Tamma and Peter Foster
+            - link "See more headlines and perspectives - Europe wins and Brazil loses in Trump tariff overhaul" [ref=f19e415] [cursor=pointer]:
+              - /url: ./stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p6NWJmVEVSR3VyMjZac1RwbTB5Z0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen
+              - generic [ref=f19e418]: See more
+      - generic [ref=f19e421]:
+        - generic [ref=f19e422]:
+          - heading [level=3] [ref=f19e424]:
+            - link "Local news" [ref=f19e425] [cursor=pointer]:
+              - /url: ./topics/CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE?hl=en-IN&gl=IN&ceid=IN%3Aen
+          - generic [ref=f19e430]:
+            - button "Manage local news" [ref=f19e431] [cursor=pointer]
+            - tooltip [ref=f19e435]: Manage local news
+        - tablist [ref=f19e437]

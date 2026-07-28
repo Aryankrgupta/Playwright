@@ -1,0 +1,9 @@
+- generic [ref=e2]:
+  - heading "Alexander Romanov" [level=1] [ref=e4]
+  - generic [ref=e5]:
+    - link "LinkedIn" [ref=e6] [cursor=pointer]:
+      - /url: https://www.linkedin.com/in/aromanov/
+    - link "GitHub" [ref=e7] [cursor=pointer]:
+      - /url: https://github.com/sannysoft
+  - link "sannysoft@gmail.com" [ref=e9] [cursor=pointer]:
+    - /url: mailto:sannysoft@gmail.com

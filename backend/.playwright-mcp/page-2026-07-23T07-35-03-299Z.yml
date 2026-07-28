@@ -1,0 +1,368 @@
+- generic [ref=e5]:
+  - banner [ref=e6]:
+    - generic [ref=e7]:
+      - button [ref=e8] [cursor=pointer]
+      - link [ref=e14] [cursor=pointer]:
+        - /url: /
+      - button [ref=e17] [cursor=pointer]
+  - main [ref=e22]:
+    - generic [ref=e24]:
+      - link [ref=e25] [cursor=pointer]:
+        - /url: https://play.google.com/store/apps/details?id=com.amiunique.amiuniqueapp
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - heading "Install AmIUnique App" [level=4] [ref=e29]
+            - paragraph [ref=e30]: Be one of the participants in our research! We're investigating the potential of device fingerprinting on Android mobile devices and exploring how unique each device truly is. Help us by installing our app and scanning your device's fingerprint!
+          - generic [ref=e31]: Install AmIUnique
+      - generic [ref=e90]:
+        - generic [ref=e93]:
+          - heading "My browser fingerprint" [level=1] [ref=e94]
+          - heading "See your browser fingerprint properties" [level=3] [ref=e95]
+        - generic [ref=e98]:
+          - progressbar [ref=e99]
+          - generic [ref=e105]:
+            - heading "Are you unique ?" [level=3] [ref=e107]
+            - generic [ref=e108]:
+              - button [ref=e109] [cursor=pointer]
+              - link [ref=e114] [cursor=pointer]:
+                - /url: /fingerprint/history
+          - tablist [ref=e120]:
+            - generic [ref=e122]:
+              - tab "Today" [ref=e125] [cursor=pointer]
+              - tab "7 days" [ref=e126] [cursor=pointer]
+              - tab "15 days" [ref=e127] [cursor=pointer]
+              - tab "30 days" [ref=e128] [cursor=pointer]
+              - tab "90 days" [ref=e129] [cursor=pointer]
+              - tab "All time" [selected] [ref=e130] [cursor=pointer]
+          - alert [ref=e132]
+        - generic [ref=e168]:
+          - heading "HTTP headers attributes" [level=3] [ref=e170]
+          - generic [ref=e171]:
+            - textbox "Search for an attribute" [ref=e181]
+            - table [ref=e183]:
+              - rowgroup [ref=e188]:
+                - row [ref=e189]:
+                  - columnheader "Attribute" [ref=e190]
+                  - columnheader "Similarity ratio" [ref=e191]
+                  - columnheader "Value" [ref=e192]
+              - rowgroup:
+                - row:
+                  - columnheader:
+                    - progressbar [ref=e193]
+              - rowgroup [ref=e198]:
+                - row [ref=e199]:
+                  - cell [ref=e200]
+                  - cell [ref=e205]:
+                    - progressbar [ref=e206]
+                  - cell "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36" [ref=e209]
+                - row [ref=e210]:
+                  - cell [ref=e211]
+                  - cell [ref=e216]:
+                    - progressbar [ref=e217]
+                  - cell "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7" [ref=e220]
+                - row [ref=e221]:
+                  - cell [ref=e222]
+                  - cell [ref=e227]:
+                    - progressbar [ref=e228]
+                  - cell "gzip, deflate, br, zstd" [ref=e231]
+                - row [ref=e232]:
+                  - cell [ref=e233]
+                  - cell [ref=e238]:
+                    - progressbar [ref=e239]
+                  - cell "en-US,en;q=0.9" [ref=e242]
+                - row [ref=e243]:
+                  - cell [ref=e244]
+                  - cell [ref=e249]:
+                    - progressbar [ref=e250]
+                  - cell "1" [ref=e253]
+          - heading "Javascript attributes" [level=3] [ref=e255]
+          - generic [ref=e256]:
+            - textbox "Search for an attribute" [ref=e266]
+            - table [ref=e268]:
+              - rowgroup [ref=e273]:
+                - row [ref=e274]:
+                  - columnheader "Attribute" [ref=e275]
+                  - columnheader "Similarity ratio" [ref=e276]
+                  - columnheader "Value" [ref=e277]
+              - rowgroup:
+                - row:
+                  - columnheader:
+                    - progressbar [ref=e278]
+              - rowgroup [ref=e283]:
+                - row [ref=e284]:
+                  - cell [ref=e285]
+                  - cell [ref=e290]:
+                    - progressbar [ref=e291]
+                  - cell "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36" [ref=e294]
+                - row [ref=e295]:
+                  - cell [ref=e296]
+                  - cell [ref=e301]:
+                    - progressbar [ref=e302]
+                  - cell "Win32" [ref=e305]
+                - row [ref=e306]:
+                  - cell [ref=e307]
+                  - cell [ref=e312]:
+                    - progressbar [ref=e313]
+                  - cell [ref=e316]
+                - row [ref=e317]:
+                  - cell [ref=e318]
+                  - cell [ref=e323]:
+                    - progressbar [ref=e324]
+                  - cell "UTC+05:30" [ref=e327]
+                - row [ref=e328]:
+                  - cell [ref=e329]
+                  - cell [ref=e334]:
+                    - progressbar [ref=e335]
+                  - cell [ref=e338]
+                - row [ref=e339]:
+                  - cell [ref=e340]
+                  - cell [ref=e345]:
+                    - progressbar [ref=e346]
+                  - cell [ref=e349]
+                - row [ref=e350]:
+                  - cell [ref=e351]
+                  - cell [ref=e356]:
+                    - progressbar [ref=e357]
+                  - cell [ref=e360]
+                - row [ref=e361]:
+                  - cell [ref=e362]
+                  - cell [ref=e367]:
+                    - progressbar [ref=e368]
+                  - cell [ref=e371]
+                - row [ref=e372]:
+                  - cell [ref=e373]
+                  - cell [ref=e378]:
+                    - progressbar [ref=e379]
+                  - cell [ref=e382]
+                - row [ref=e383]:
+                  - cell [ref=e384]
+                  - cell [ref=e389]:
+                    - progressbar [ref=e390]
+                  - cell [ref=e393]
+                - row [ref=e394]:
+                  - cell [ref=e395]
+                  - cell [ref=e400]:
+                    - progressbar [ref=e401]
+                  - cell "Not supported" [ref=e404]
+                - row [ref=e405]:
+                  - cell [ref=e406]
+                  - cell [ref=e411]:
+                    - progressbar [ref=e412]
+                  - cell "Gecko" [ref=e415]
+                - row [ref=e416]:
+                  - cell [ref=e417]
+                  - cell [ref=e422]:
+                    - progressbar [ref=e423]
+                  - cell "20030107" [ref=e426]
+                - row [ref=e427]:
+                  - cell [ref=e428]
+                  - cell [ref=e433]:
+                    - progressbar [ref=e434]
+                  - cell "Google Inc." [ref=e437]
+                - row [ref=e438]:
+                  - cell [ref=e439]
+                  - cell [ref=e444]:
+                    - progressbar [ref=e445]
+                  - cell "No value" [ref=e448]
+                - row [ref=e449]:
+                  - cell [ref=e450]
+                  - cell [ref=e455]:
+                    - progressbar [ref=e456]
+                  - cell "12" [ref=e459]
+                - row [ref=e460]:
+                  - cell [ref=e461]
+                  - cell [ref=e466]:
+                    - progressbar [ref=e467]
+                  - cell "16" [ref=e470]
+                - row [ref=e471]:
+                  - cell [ref=e472]
+                  - cell [ref=e477]:
+                    - progressbar [ref=e478]
+                  - cell [ref=e481]
+                - row [ref=e482]:
+                  - cell [ref=e483]
+                  - cell [ref=e488]:
+                    - progressbar [ref=e489]
+                  - cell "1920" [ref=e492]
+                - row [ref=e493]:
+                  - cell [ref=e494]
+                  - cell [ref=e499]:
+                    - progressbar [ref=e500]
+                  - cell "1080" [ref=e503]
+                - row [ref=e504]:
+                  - cell [ref=e505]
+                  - cell [ref=e510]:
+                    - progressbar [ref=e511]
+                  - cell "24" [ref=e514]
+                - row [ref=e515]:
+                  - cell [ref=e516]
+                  - cell [ref=e521]:
+                    - progressbar [ref=e522]
+                  - cell "1032" [ref=e525]
+                - row [ref=e526]:
+                  - cell [ref=e527]
+                  - cell [ref=e532]:
+                    - progressbar [ref=e533]
+                  - cell "1920" [ref=e536]
+                - row [ref=e537]:
+                  - cell [ref=e538]
+                  - cell [ref=e543]:
+                    - progressbar [ref=e544]
+                  - cell [ref=e547]
+                - row [ref=e548]:
+                  - cell [ref=e549]
+                  - cell [ref=e554]:
+                    - progressbar [ref=e555]
+                  - cell "Intel Inc." [ref=e558]
+                - row [ref=e559]:
+                  - cell [ref=e560]
+                  - cell [ref=e565]:
+                    - progressbar [ref=e566]
+                  - cell "Intel(R) Iris(R) Xe Graphics Direct3D11" [ref=e569]
+                - row [ref=e570]:
+                  - cell [ref=e571]
+                  - cell [ref=e576]:
+                    - progressbar [ref=e577]
+                  - cell [ref=e580]
+                - row [ref=e581]:
+                  - cell [ref=e582]
+                  - cell [ref=e587]:
+                    - progressbar [ref=e588]
+                  - cell [ref=e591]
+                - row [ref=e592]:
+                  - cell [ref=e593]
+                  - cell [ref=e598]:
+                    - progressbar [ref=e599]
+                  - cell [ref=e602]
+                - row [ref=e603]:
+                  - cell [ref=e604]
+                  - cell [ref=e609]:
+                    - progressbar [ref=e610]
+                  - cell [ref=e613]
+                - row [ref=e614]:
+                  - cell [ref=e615]
+                  - cell [ref=e620]:
+                    - progressbar [ref=e621]
+                  - cell [ref=e624]
+                - row [ref=e625]:
+                  - cell [ref=e626]
+                  - cell [ref=e631]:
+                    - progressbar [ref=e632]
+                  - cell [ref=e635]
+                - row [ref=e636]:
+                  - cell [ref=e637]
+                  - cell [ref=e642]:
+                    - progressbar [ref=e643]
+                  - cell [ref=e646]
+                - row [ref=e647]:
+                  - cell [ref=e648]
+                  - cell [ref=e653]:
+                    - progressbar [ref=e654]
+                  - cell [ref=e657]
+                - row [ref=e658]:
+                  - cell [ref=e659]
+                  - cell [ref=e664]:
+                    - progressbar [ref=e665]
+                  - cell [ref=e668]
+                - row [ref=e669]:
+                  - cell [ref=e670]
+                  - cell [ref=e675]:
+                    - progressbar [ref=e676]
+                  - cell [ref=e679]
+                - row [ref=e680]:
+                  - cell [ref=e681]
+                  - cell [ref=e686]:
+                    - progressbar [ref=e687]
+                  - cell [ref=e690]
+                - row [ref=e691]:
+                  - cell [ref=e692]
+                  - cell [ref=e697]:
+                    - progressbar [ref=e698]
+                  - cell [ref=e701]
+                - row [ref=e702]:
+                  - cell [ref=e703]
+                  - cell [ref=e708]:
+                    - progressbar [ref=e709]
+                  - cell [ref=e712]
+                - row [ref=e713]:
+                  - cell [ref=e714]
+                  - cell [ref=e719]:
+                    - progressbar [ref=e720]
+                  - cell [ref=e723]
+                - row [ref=e724]:
+                  - cell [ref=e725]
+                  - cell [ref=e730]:
+                    - progressbar [ref=e731]
+                  - cell [ref=e734]
+                - row [ref=e735]:
+                  - cell [ref=e736]
+                  - cell [ref=e741]:
+                    - progressbar [ref=e742]
+                  - cell "No value" [ref=e745]
+                - row [ref=e746]:
+                  - cell [ref=e747]
+                  - cell [ref=e752]:
+                    - progressbar [ref=e753]
+                  - cell [ref=e756]
+                - row [ref=e757]:
+                  - cell [ref=e758]
+                  - cell [ref=e763]:
+                    - progressbar [ref=e764]
+                  - cell [ref=e767]
+                - row [ref=e768]:
+                  - cell [ref=e769]
+                  - cell [ref=e774]:
+                    - progressbar [ref=e775]
+                  - cell [ref=e778]
+                - row [ref=e779]:
+                  - cell [ref=e780]
+                  - cell [ref=e785]:
+                    - progressbar [ref=e786]
+                  - cell [ref=e789]
+                - row [ref=e790]:
+                  - cell [ref=e791]
+                  - cell [ref=e796]:
+                    - progressbar [ref=e797]
+                  - cell [ref=e800]
+                - row [ref=e801]:
+                  - cell [ref=e802]
+                  - cell [ref=e807]:
+                    - progressbar [ref=e808]
+                  - cell "No value" [ref=e811]
+                - row [ref=e812]:
+                  - cell [ref=e813]
+                  - cell [ref=e818]:
+                    - progressbar [ref=e819]
+                  - cell [ref=e822]
+                - row [ref=e823]:
+                  - cell [ref=e824]
+                  - cell [ref=e829]:
+                    - progressbar [ref=e830]
+                  - cell [ref=e833]
+                - row [ref=e834]:
+                  - cell [ref=e835]
+                  - cell [ref=e840]:
+                    - progressbar [ref=e841]
+                  - cell [ref=e844]
+                - row [ref=e845]:
+                  - cell [ref=e846]
+                  - cell [ref=e851]:
+                    - progressbar [ref=e852]
+                  - cell [ref=e855]
+  - generic [ref=e56]:
+    - link "Fingerprint" [ref=e57] [cursor=pointer]:
+      - /url: /fingerprint
+    - link "History" [ref=e63] [cursor=pointer]:
+      - /url: /fingerprint/history
+    - link "Statistics" [ref=e69] [cursor=pointer]:
+      - /url: /fingerprints-global-statistics
+    - link "FAQ ?" [ref=e75] [cursor=pointer]:
+      - /url: /faq
+  - status [ref=e82]:
+    - paragraph [ref=e83]:
+      - text: This website uses cookies or similar technologies, to enhance your browsing experience and provide personalized recommendations. By continuing to use our website, you agree to our
+      - link "Privacy Policy" [ref=e84] [cursor=pointer]:
+        - /url: /privacy-policy
+    - generic [ref=e85]:
+      - button "Reject" [ref=e86] [cursor=pointer]
+      - button "Accept" [ref=e88] [cursor=pointer]

@@ -1,0 +1,2 @@
+[providers]
+node = { npxPlaywrightInstall = true } # Tells Railway to download and configure Chromium binaries at build time

@@ -1,0 +1,137 @@
+[    1065ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    1068ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    1080ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    1087ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    2019ms] [INFO] LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable. @ https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:10111
+[    2223ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fsignin_passive%26feature%3Dpassive&dsh=S-904325886%3A1784899392872640&hl=en&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxv3qLfccmpkjRXrYHiFiR-2mYamBfA_UerNfFjPuXKWq5qqscJ_K4Y0Hh4YMkqjxSv1qnrS:0
+[    2278ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at HTMLBodyElement.<anonymous> (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:3643:185)
+    at c.init (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:14565:158)
+    at omz.init (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:14570:70)
+    at _.w.init (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:14588:88)
+    at Eq.attached (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:28209:226)
+    at h.attached (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:2033:119)
+[    2287ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at HTMLBodyElement.<anonymous> (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:3643:185)
+    at c.init (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:14565:158)
+    at omz.init (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:14570:70)
+    at _.w.init (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:14588:88)
+    at Eq.attached (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:28209:226)
+    at h.attached (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:2033:119)
+[    2296ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at HTMLBodyElement.<anonymous> (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:3643:185)
+    at c.init (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:14565:158)
+    at omz.init (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:14570:70)
+    at _.w.init (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:14588:88)
+    at Eq.attached (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:28209:226)
+    at h.attached (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:2033:119)
+[    2306ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at HTMLBodyElement.<anonymous> (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:3643:185)
+    at c.init (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:14565:158)
+    at omz.init (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:14570:70)
+    at _.w.init (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:14588:88)
+    at Eq.attached (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:28209:226)
+    at h.attached (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:2033:119)
+[    2368ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    2384ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    2399ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    2406ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    2771ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at HTMLBodyElement.<anonymous> (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:3643:185)
+    at eval (eval at <anonymous> (https://www.google.com/js/th/Nr-h58UGrJdg4UkHpbyd1J-AfoCKb_0Vq_PVyVC05FE.js:2:466), <anonymous>:3020:29356)
+    at aA (eval at <anonymous> (https://www.google.com/js/th/Nr-h58UGrJdg4UkHpbyd1J-AfoCKb_0Vq_PVyVC05FE.js:2:466), <anonymous>:3020:36466)
+    at FN (eval at <anonymous> (https://www.google.com/js/th/Nr-h58UGrJdg4UkHpbyd1J-AfoCKb_0Vq_PVyVC05FE.js:2:466), <anonymous>:3020:37909)
+    at O.eval [as g] (eval at <anonymous> (https://www.google.com/js/th/Nr-h58UGrJdg4UkHpbyd1J-AfoCKb_0Vq_PVyVC05FE.js:2:466), <anonymous>:3020:58329)
+    at EI (eval at <anonymous> (https://www.google.com/js/th/Nr-h58UGrJdg4UkHpbyd1J-AfoCKb_0Vq_PVyVC05FE.js:2:466), <anonymous>:3020:32903)
+[    2779ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at HTMLBodyElement.<anonymous> (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:3643:185)
+    at eval (eval at <anonymous> (https://www.google.com/js/th/Nr-h58UGrJdg4UkHpbyd1J-AfoCKb_0Vq_PVyVC05FE.js:2:466), <anonymous>:3020:29356)
+    at aA (eval at <anonymous> (https://www.google.com/js/th/Nr-h58UGrJdg4UkHpbyd1J-AfoCKb_0Vq_PVyVC05FE.js:2:466), <anonymous>:3020:36466)
+    at FN (eval at <anonymous> (https://www.google.com/js/th/Nr-h58UGrJdg4UkHpbyd1J-AfoCKb_0Vq_PVyVC05FE.js:2:466), <anonymous>:3020:37909)
+    at O.eval [as g] (eval at <anonymous> (https://www.google.com/js/th/Nr-h58UGrJdg4UkHpbyd1J-AfoCKb_0Vq_PVyVC05FE.js:2:466), <anonymous>:3020:58329)
+    at EI (eval at <anonymous> (https://www.google.com/js/th/Nr-h58UGrJdg4UkHpbyd1J-AfoCKb_0Vq_PVyVC05FE.js:2:466), <anonymous>:3020:32903)
+[    2790ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at HTMLBodyElement.<anonymous> (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:3643:185)
+    at eval (eval at <anonymous> (https://www.google.com/js/th/Nr-h58UGrJdg4UkHpbyd1J-AfoCKb_0Vq_PVyVC05FE.js:2:466), <anonymous>:3020:29356)
+    at aA (eval at <anonymous> (https://www.google.com/js/th/Nr-h58UGrJdg4UkHpbyd1J-AfoCKb_0Vq_PVyVC05FE.js:2:466), <anonymous>:3020:36466)
+    at FN (eval at <anonymous> (https://www.google.com/js/th/Nr-h58UGrJdg4UkHpbyd1J-AfoCKb_0Vq_PVyVC05FE.js:2:466), <anonymous>:3020:37909)
+    at O.eval [as g] (eval at <anonymous> (https://www.google.com/js/th/Nr-h58UGrJdg4UkHpbyd1J-AfoCKb_0Vq_PVyVC05FE.js:2:466), <anonymous>:3020:58329)
+    at EI (eval at <anonymous> (https://www.google.com/js/th/Nr-h58UGrJdg4UkHpbyd1J-AfoCKb_0Vq_PVyVC05FE.js:2:466), <anonymous>:3020:32903)
+[    2801ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at HTMLBodyElement.<anonymous> (https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.-RWOEStBLnQ.es5.O/am=AAAAACAAEBAkBg/d=1/br=1/rs=AGKMywFu9J6LSg3M5HQrf3q0b3LlhbAOKA/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:3643:185)
+    at eval (eval at <anonymous> (https://www.google.com/js/th/Nr-h58UGrJdg4UkHpbyd1J-AfoCKb_0Vq_PVyVC05FE.js:2:466), <anonymous>:3020:29356)
+    at aA (eval at <anonymous> (https://www.google.com/js/th/Nr-h58UGrJdg4UkHpbyd1J-AfoCKb_0Vq_PVyVC05FE.js:2:466), <anonymous>:3020:36466)
+    at FN (eval at <anonymous> (https://www.google.com/js/th/Nr-h58UGrJdg4UkHpbyd1J-AfoCKb_0Vq_PVyVC05FE.js:2:466), <anonymous>:3020:37909)
+    at O.eval [as g] (eval at <anonymous> (https://www.google.com/js/th/Nr-h58UGrJdg4UkHpbyd1J-AfoCKb_0Vq_PVyVC05FE.js:2:466), <anonymous>:3020:58329)
+    at EI (eval at <anonymous> (https://www.google.com/js/th/Nr-h58UGrJdg4UkHpbyd1J-AfoCKb_0Vq_PVyVC05FE.js:2:466), <anonymous>:3020:32903)
+[    7815ms] [WARNING] The resource https://i.ytimg.com/generate_204 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.youtube.com/?gl=IN:0
+[   14513ms] [WARNING] The resource https://i.ytimg.com/generate_204 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.youtube.com/:0
+[   19023ms] [WARNING] The resource https://i.ytimg.com/generate_204 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.youtube.com/:0
+[   22462ms] [WARNING] The resource https://i.ytimg.com/generate_204 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.youtube.com/:0
+[   31995ms] [WARNING] The resource https://i.ytimg.com/generate_204 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.youtube.com/:0
+[   39960ms] [WARNING] The resource https://i.ytimg.com/generate_204 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.youtube.com/:0

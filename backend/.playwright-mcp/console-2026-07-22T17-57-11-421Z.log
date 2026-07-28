@@ -1,0 +1,16 @@
+[    2749ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7
+[    2751ms] TypeError: Cannot redefine property: webdriver
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:3:12
+    at <anonymous>:5:5
+    at <anonymous>:6:7
+[    3119ms] TypeError: Cannot read properties of undefined (reading 'indexOf')
+    at get_absolute_url (https://bellard.org/jslinux/jslinux.js:113:15)
+    at start_vm (https://bellard.org/jslinux/jslinux.js:543:11)
+    at https://bellard.org/jslinux/jslinux.js:662:9
+    at https://bellard.org/jslinux/jslinux.js:664:3
+[    3355ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://bellard.org/favicon.ico:0

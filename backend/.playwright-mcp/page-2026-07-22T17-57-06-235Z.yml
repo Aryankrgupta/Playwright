@@ -1,0 +1,50 @@
+- generic [ref=f3e3]:
+  - banner [ref=f3e4]:
+    - navigation [ref=f3e7]:
+      - generic [ref=f3e10]:
+        - link [ref=f3e12] [cursor=pointer]:
+          - /url: /
+        - button [ref=f3e16] [cursor=pointer]
+        - generic [ref=f3e20]:
+          - textbox [ref=f3e21]
+          - generic [ref=f3e22]: AWK
+        - button "Login" [ref=f3e28] [cursor=pointer]
+  - generic [ref=f3e32]:
+    - generic [ref=f3e33]:
+      - img "Page not found" [ref=f3e34]
+      - paragraph [ref=f3e35]: PAGE NOT FOUND
+    - generic [ref=f3e37]:
+      - paragraph [ref=f3e38]: You've ventured into the abyss of code no one's written yet. Don't worry, you're not lost in space; you're just a little off the beaten path.
+      - paragraph [ref=f3e39]: While you're here, why not grab a virtual coffee with our compilers and explore the wonderful world of coding?
+      - generic [ref=f3e41]:
+        - button [ref=f3e42] [cursor=pointer]:
+          - link "Go to Homepage" [ref=f3e43]:
+            - /url: /
+        - button "Let's Code" [ref=f3e44] [cursor=pointer]
+  - generic [ref=f3e47]:
+    - paragraph [ref=f3e48]: This website uses cookies to ensure you get the best experience on our website.
+    - button "Got it!" [ref=f3e49] [cursor=pointer]
+  - generic [ref=f3e50]:
+    - generic [ref=f3e52]:
+      - link "Facebook" [ref=f3e54] [cursor=pointer]:
+        - /url: https://www.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fwww.jdoodle.com&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=popup&locale=en_GB
+        - button [ref=f3e55]
+      - link "Twitter" [ref=f3e58] [cursor=pointer]:
+        - /url: https://twitter.com/intent/tweet/?text=JDoodle%20-%20free%20Online%20Compiler,%20Editor%20for%20Java,%20C/C%20,%20etc&url=https%3A%2F%2Fwww.jdoodle.com
+        - button [ref=f3e59]
+      - link "Email" [ref=f3e62] [cursor=pointer]:
+        - /url: mailto:?subject=JDoodle%20-%20free%20Online%20Compiler,%20Editor%20for%20Java,%20C/C%20,%20etc.&body=https%3A%2F%2Fwww.jdoodle.com
+        - button [ref=f3e63]
+      - link "LinkedIn" [ref=f3e66] [cursor=pointer]:
+        - /url: https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.jdoodle.com&title=JDoodle%20-%20free%20Online%20Compiler,%20Editor%20for%20Java,%20C/C%20,%20etc.&summary=JDoodle%20-%20free%20Online%20Compiler,%20Editor%20for%20Java,%20C/C%20,%20etc.&source=https%3A%2F%2Fwww.jdoodle.com
+        - button [ref=f3e67]
+      - link "Instagram" [ref=f3e70] [cursor=pointer]:
+        - /url: https://www.instagram.com/jdoodleide/
+        - button [ref=f3e71]
+      - link "Youtube" [ref=f3e74] [cursor=pointer]:
+        - /url: https://www.youtube.com/channel/UCMg38oKj3kRmzksoRDEAs9Q
+        - button [ref=f3e75]
+    - link [ref=f3e79] [cursor=pointer]:
+      - /url: https://www.producthunt.com/products/jdoodle/reviews?utm_source=badge-product_review&utm_medium=badge&utm_souce=badge-jdoodle
+      - img "JDoodle - JDoodle provides zero-setup cloud IDEs for 76 languages | Product Hunt" [ref=f3e80]
+    - button "I need help" [ref=f3e82] [cursor=pointer]

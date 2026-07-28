@@ -1,0 +1,802 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e9]:
+        - button "Toggle navigation" [ref=e11] [cursor=pointer]
+        - link "Homepage" [ref=e17] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e20]:
+          - link "Sign in" [ref=e21] [cursor=pointer]:
+            - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Ftrending
+          - button "Appearance settings" [disabled] [ref=e24]
+  - main [ref=e27]:
+    - navigation "Explore navigation" [ref=e29]:
+      - generic [ref=e30]:
+        - link "Explore" [ref=e31] [cursor=pointer]:
+          - /url: /explore
+        - link "Topics" [ref=e32] [cursor=pointer]:
+          - /url: /topics
+        - link "Trending" [ref=e33] [cursor=pointer]:
+          - /url: /trending
+        - link "Collections" [ref=e34] [cursor=pointer]:
+          - /url: /collections
+        - link "Events" [ref=e35] [cursor=pointer]:
+          - /url: /events
+        - link "GitHub Sponsors" [ref=e36] [cursor=pointer]:
+          - /url: /sponsors/explore
+    - generic [ref=e38]:
+      - heading "Trending" [level=1] [ref=e39]
+      - paragraph [ref=e40]: See what the GitHub community is most excited about today.
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - navigation "Trending" [ref=e44]:
+          - link "Repositories" [ref=e45] [cursor=pointer]:
+            - /url: /trending
+          - link "Developers" [ref=e46] [cursor=pointer]:
+            - /url: /trending/developers
+        - generic [ref=e47]:
+          - group [ref=e49]:
+            - 'button "Spoken Language: Any" [ref=e50] [cursor=pointer]'
+          - group [ref=e52]:
+            - 'button "Language: Any" [ref=e53] [cursor=pointer]'
+          - group [ref=e55]:
+            - 'button "Date range: Today" [ref=e56] [cursor=pointer]'
+      - generic [ref=e57]:
+        - article [ref=e58]:
+          - generic [ref=e59]:
+            - link "Sponsor @tirth8205" [ref=e60] [cursor=pointer]:
+              - /url: /sponsors/tirth8205
+              - generic [ref=e61]: Sponsor
+            - link "You must be signed in to star a repository" [ref=e66] [cursor=pointer]:
+              - /url: /login?return_to=%2Ftirth8205%2Fcode-review-graph
+              - text: Star
+          - heading [level=2] [ref=e69]:
+            - link "tirth8205 / code-review-graph" [ref=e70] [cursor=pointer]:
+              - /url: /tirth8205/code-review-graph
+          - paragraph [ref=e73]: Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.
+          - generic [ref=e74]:
+            - generic [ref=e75]: Python
+            - link [ref=e77] [cursor=pointer]:
+              - /url: /tirth8205/code-review-graph/stargazers
+              - img "star" [ref=e78]
+              - text: 22,777
+            - link [ref=e80] [cursor=pointer]:
+              - /url: /tirth8205/code-review-graph/forks
+              - img "fork" [ref=e81]
+              - text: 2,252
+            - generic [ref=e83]:
+              - text: Built by
+              - link [ref=e84] [cursor=pointer]:
+                - /url: /tirth8205
+                - img "@tirth8205" [ref=e85]
+              - link [ref=e86] [cursor=pointer]:
+                - /url: /claude
+                - img "@claude" [ref=e87]
+              - link [ref=e88] [cursor=pointer]:
+                - /url: /gzenz
+                - img "@gzenz" [ref=e89]
+              - link [ref=e90] [cursor=pointer]:
+                - /url: /jaissebastian
+                - img "@jaissebastian" [ref=e91]
+              - link [ref=e92] [cursor=pointer]:
+                - /url: /michael-denyer
+                - img "@michael-denyer" [ref=e93]
+            - generic [ref=e94]: 1,876 stars today
+        - article [ref=e97]:
+          - link "You must be signed in to star a repository" [ref=e100] [cursor=pointer]:
+            - /url: /login?return_to=%2F1jehuang%2Fjcode
+            - text: Star
+          - heading [level=2] [ref=e103]:
+            - link "1jehuang / jcode" [ref=e104] [cursor=pointer]:
+              - /url: /1jehuang/jcode
+          - paragraph [ref=e107]: The most intelligent agent harness for code
+          - generic [ref=e108]:
+            - generic [ref=e109]: Rust
+            - link [ref=e111] [cursor=pointer]:
+              - /url: /1jehuang/jcode/stargazers
+              - img "star" [ref=e112]
+              - text: 9,435
+            - link [ref=e114] [cursor=pointer]:
+              - /url: /1jehuang/jcode/forks
+              - img "fork" [ref=e115]
+              - text: 1,075
+            - generic [ref=e117]:
+              - text: Built by
+              - link [ref=e118] [cursor=pointer]:
+                - /url: /1jehuang
+                - img "@1jehuang" [ref=e119]
+              - link [ref=e120] [cursor=pointer]:
+                - /url: /claude
+                - img "@claude" [ref=e121]
+              - link [ref=e122] [cursor=pointer]:
+                - /url: /FabianAmherd
+                - img "@FabianAmherd" [ref=e123]
+              - link [ref=e124] [cursor=pointer]:
+                - /url: /hongnoul
+                - img "@hongnoul" [ref=e125]
+              - link [ref=e126] [cursor=pointer]:
+                - /url: /AlazBatu
+                - img "@AlazBatu" [ref=e127]
+            - generic [ref=e128]: 612 stars today
+        - article [ref=e131]:
+          - generic [ref=e132]:
+            - link "Sponsor @diegosouzapw" [ref=e133] [cursor=pointer]:
+              - /url: /sponsors/diegosouzapw
+              - generic [ref=e134]: Sponsor
+            - link "You must be signed in to star a repository" [ref=e139] [cursor=pointer]:
+              - /url: /login?return_to=%2Fdiegosouzapw%2FOmniRoute
+              - text: Star
+          - heading [level=2] [ref=e142]:
+            - link "diegosouzapw / OmniRoute" [ref=e143] [cursor=pointer]:
+              - /url: /diegosouzapw/OmniRoute
+          - paragraph [ref=e146]: "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Claude, GPT, Gemini, Kimi K3, GLM, DeepSeek. Works with Claude Code, Codex, Cursor, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, multimodal, Desktop/PWA. Built by 500+ contributors."
+          - generic [ref=e147]:
+            - generic [ref=e148]: TypeScript
+            - link [ref=e150] [cursor=pointer]:
+              - /url: /diegosouzapw/OmniRoute/stargazers
+              - img "star" [ref=e151]
+              - text: 21,276
+            - link [ref=e153] [cursor=pointer]:
+              - /url: /diegosouzapw/OmniRoute/forks
+              - img "fork" [ref=e154]
+              - text: 2,917
+            - generic [ref=e156]:
+              - text: Built by
+              - link [ref=e157] [cursor=pointer]:
+                - /url: /diegosouzapw
+                - img "@diegosouzapw" [ref=e158]
+              - link [ref=e159] [cursor=pointer]:
+                - /url: /oyi77
+                - img "@oyi77" [ref=e160]
+              - link [ref=e161] [cursor=pointer]:
+                - /url: /claude
+                - img "@claude" [ref=e162]
+              - link [ref=e163] [cursor=pointer]:
+                - /url: /apps/dependabot
+                - img "@dependabot" [ref=e164]
+              - link [ref=e165] [cursor=pointer]:
+                - /url: /rdself
+                - img "@rdself" [ref=e166]
+            - generic [ref=e167]: 1,300 stars today
+        - article [ref=e170]:
+          - generic [ref=e171]:
+            - link "Sponsor @rohitg00" [ref=e172] [cursor=pointer]:
+              - /url: /sponsors/rohitg00
+              - generic [ref=e173]: Sponsor
+            - link "You must be signed in to star a repository" [ref=e178] [cursor=pointer]:
+              - /url: /login?return_to=%2Frohitg00%2Fai-engineering-from-scratch
+              - text: Star
+          - heading [level=2] [ref=e181]:
+            - link "rohitg00 / ai-engineering-from-scratch" [ref=e182] [cursor=pointer]:
+              - /url: /rohitg00/ai-engineering-from-scratch
+          - paragraph [ref=e185]: Learn it. Build it. Ship it for others.
+          - generic [ref=e186]:
+            - generic [ref=e187]: Python
+            - link [ref=e189] [cursor=pointer]:
+              - /url: /rohitg00/ai-engineering-from-scratch/stargazers
+              - img "star" [ref=e190]
+              - text: 40,372
+            - link [ref=e192] [cursor=pointer]:
+              - /url: /rohitg00/ai-engineering-from-scratch/forks
+              - img "fork" [ref=e193]
+              - text: 6,707
+            - generic [ref=e195]:
+              - text: Built by
+              - link [ref=e196] [cursor=pointer]:
+                - /url: /rohitg00
+                - img "@rohitg00" [ref=e197]
+              - link [ref=e198] [cursor=pointer]:
+                - /url: /apps/github-actions
+                - img "@github-actions" [ref=e199]
+              - link [ref=e200] [cursor=pointer]:
+                - /url: /abhinav-m22
+                - img "@abhinav-m22" [ref=e201]
+              - link [ref=e202] [cursor=pointer]:
+                - /url: /thereisnotime
+                - img "@thereisnotime" [ref=e203]
+              - link [ref=e204] [cursor=pointer]:
+                - /url: /pzy0006
+                - img "@pzy0006" [ref=e205]
+            - generic [ref=e206]: 846 stars today
+        - article [ref=e209]:
+          - generic [ref=e210]:
+            - link "Sponsor @msitarzewski" [ref=e211] [cursor=pointer]:
+              - /url: /sponsors/msitarzewski
+              - generic [ref=e212]: Sponsor
+            - link "You must be signed in to star a repository" [ref=e217] [cursor=pointer]:
+              - /url: /login?return_to=%2Fmsitarzewski%2Fagency-agents
+              - text: Star
+          - heading [level=2] [ref=e220]:
+            - link "msitarzewski / agency-agents" [ref=e221] [cursor=pointer]:
+              - /url: /msitarzewski/agency-agents
+          - paragraph [ref=e224]: A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
+          - generic [ref=e225]:
+            - generic [ref=e226]: Shell
+            - link [ref=e228] [cursor=pointer]:
+              - /url: /msitarzewski/agency-agents/stargazers
+              - img "star" [ref=e229]
+              - text: 134,556
+            - link [ref=e231] [cursor=pointer]:
+              - /url: /msitarzewski/agency-agents/forks
+              - img "fork" [ref=e232]
+              - text: 21,947
+            - generic [ref=e234]:
+              - text: Built by
+              - link [ref=e235] [cursor=pointer]:
+                - /url: /msitarzewski
+                - img "@msitarzewski" [ref=e236]
+              - link [ref=e237] [cursor=pointer]:
+                - /url: /claude
+                - img "@claude" [ref=e238]
+              - link [ref=e239] [cursor=pointer]:
+                - /url: /epowelljr
+                - img "@epowelljr" [ref=e240]
+              - link [ref=e241] [cursor=pointer]:
+                - /url: /4shil
+                - img "@4shil" [ref=e242]
+              - link [ref=e243] [cursor=pointer]:
+                - /url: /hedonnn
+                - img "@hedonnn" [ref=e244]
+            - generic [ref=e245]: 744 stars today
+        - article [ref=e248]:
+          - link "You must be signed in to star a repository" [ref=e251] [cursor=pointer]:
+            - /url: /login?return_to=%2Fkvcache-ai%2Fktransformers
+            - text: Star
+          - heading [level=2] [ref=e254]:
+            - link "kvcache-ai / ktransformers" [ref=e255] [cursor=pointer]:
+              - /url: /kvcache-ai/ktransformers
+          - paragraph [ref=e258]: A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations
+          - generic [ref=e259]:
+            - generic [ref=e260]: Python
+            - link [ref=e262] [cursor=pointer]:
+              - /url: /kvcache-ai/ktransformers/stargazers
+              - img "star" [ref=e263]
+              - text: 18,681
+            - link [ref=e265] [cursor=pointer]:
+              - /url: /kvcache-ai/ktransformers/forks
+              - img "fork" [ref=e266]
+              - text: 1,463
+            - generic [ref=e268]:
+              - text: Built by
+              - link [ref=e269] [cursor=pointer]:
+                - /url: /Atream
+                - img "@Atream" [ref=e270]
+              - link [ref=e271] [cursor=pointer]:
+                - /url: /KMSorSMS
+                - img "@KMSorSMS" [ref=e272]
+              - link [ref=e273] [cursor=pointer]:
+                - /url: /Azure-Tang
+                - img "@Azure-Tang" [ref=e274]
+              - link [ref=e275] [cursor=pointer]:
+                - /url: /ovowei
+                - img "@ovowei" [ref=e276]
+              - link [ref=e277] [cursor=pointer]:
+                - /url: /qiyuxinlin
+                - img "@qiyuxinlin" [ref=e278]
+            - generic [ref=e279]: 448 stars today
+        - article [ref=e282]:
+          - link "You must be signed in to star a repository" [ref=e285] [cursor=pointer]:
+            - /url: /login?return_to=%2Fjamiepine%2Fvoicebox
+            - text: Star
+          - heading [level=2] [ref=e288]:
+            - link "jamiepine / voicebox" [ref=e289] [cursor=pointer]:
+              - /url: /jamiepine/voicebox
+          - paragraph [ref=e292]: The open-source AI voice studio. Clone, dictate, create.
+          - generic [ref=e293]:
+            - generic [ref=e294]: TypeScript
+            - link [ref=e296] [cursor=pointer]:
+              - /url: /jamiepine/voicebox/stargazers
+              - img "star" [ref=e297]
+              - text: 43,997
+            - link [ref=e299] [cursor=pointer]:
+              - /url: /jamiepine/voicebox/forks
+              - img "fork" [ref=e300]
+              - text: 5,350
+            - generic [ref=e302]:
+              - text: Built by
+              - link [ref=e303] [cursor=pointer]:
+                - /url: /jamiepine
+                - img "@jamiepine" [ref=e304]
+              - link [ref=e305] [cursor=pointer]:
+                - /url: /claude
+                - img "@claude" [ref=e306]
+              - link [ref=e307] [cursor=pointer]:
+                - /url: /tomasmach
+                - img "@tomasmach" [ref=e308]
+              - link [ref=e309] [cursor=pointer]:
+                - /url: /mvanhorn
+                - img "@mvanhorn" [ref=e310]
+              - link [ref=e311] [cursor=pointer]:
+                - /url: /selop
+                - img "@selop" [ref=e312]
+            - generic [ref=e313]: 839 stars today
+        - article [ref=e316]:
+          - generic [ref=e317]:
+            - link "Sponsor @topoteretes" [ref=e318] [cursor=pointer]:
+              - /url: /sponsors/topoteretes
+              - generic [ref=e319]: Sponsor
+            - link "You must be signed in to star a repository" [ref=e324] [cursor=pointer]:
+              - /url: /login?return_to=%2Ftopoteretes%2Fcognee
+              - text: Star
+          - heading [level=2] [ref=e327]:
+            - link "topoteretes / cognee" [ref=e328] [cursor=pointer]:
+              - /url: /topoteretes/cognee
+          - paragraph [ref=e331]: Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.
+          - generic [ref=e332]:
+            - generic [ref=e333]: Python
+            - link [ref=e335] [cursor=pointer]:
+              - /url: /topoteretes/cognee/stargazers
+              - img "star" [ref=e336]
+              - text: 28,682
+            - link [ref=e338] [cursor=pointer]:
+              - /url: /topoteretes/cognee/forks
+              - img "fork" [ref=e339]
+              - text: 2,736
+            - generic [ref=e341]:
+              - text: Built by
+              - link [ref=e342] [cursor=pointer]:
+                - /url: /Vasilije1990
+                - img "@Vasilije1990" [ref=e343]
+              - link [ref=e344] [cursor=pointer]:
+                - /url: /dexters1
+                - img "@dexters1" [ref=e345]
+              - link [ref=e346] [cursor=pointer]:
+                - /url: /hajdul88
+                - img "@hajdul88" [ref=e347]
+              - link [ref=e348] [cursor=pointer]:
+                - /url: /claude
+                - img "@claude" [ref=e349]
+              - link [ref=e350] [cursor=pointer]:
+                - /url: /borisarzentar
+                - img "@borisarzentar" [ref=e351]
+            - generic [ref=e352]: 249 stars today
+        - article [ref=e355]:
+          - link "You must be signed in to star a repository" [ref=e358] [cursor=pointer]:
+            - /url: /login?return_to=%2FRobbyant%2Flingbot-map
+            - text: Star
+          - heading [level=2] [ref=e361]:
+            - link "Robbyant / lingbot-map" [ref=e362] [cursor=pointer]:
+              - /url: /Robbyant/lingbot-map
+          - paragraph [ref=e365]: A feed-forward 3D foundation model for reconstructing scenes from streaming data
+          - generic [ref=e366]:
+            - generic [ref=e367]: Python
+            - link [ref=e369] [cursor=pointer]:
+              - /url: /Robbyant/lingbot-map/stargazers
+              - img "star" [ref=e370]
+              - text: 14,075
+            - link [ref=e372] [cursor=pointer]:
+              - /url: /Robbyant/lingbot-map/forks
+              - img "fork" [ref=e373]
+              - text: 1,470
+            - generic [ref=e375]:
+              - text: Built by
+              - link [ref=e376] [cursor=pointer]:
+                - /url: /LinZhuoChen
+                - img "@LinZhuoChen" [ref=e377]
+              - link [ref=e378] [cursor=pointer]:
+                - /url: /justimyhxu
+                - img "@justimyhxu" [ref=e379]
+            - generic [ref=e380]: 554 stars today
+        - article [ref=e383]:
+          - link "You must be signed in to star a repository" [ref=e386] [cursor=pointer]:
+            - /url: /login?return_to=%2Fevery-app%2Fopen-seo
+            - text: Star
+          - heading [level=2] [ref=e389]:
+            - link "every-app / open-seo" [ref=e390] [cursor=pointer]:
+              - /url: /every-app/open-seo
+          - paragraph [ref=e393]: Open source alternative to Semrush and Ahrefs
+          - generic [ref=e394]:
+            - generic [ref=e395]: TypeScript
+            - link [ref=e397] [cursor=pointer]:
+              - /url: /every-app/open-seo/stargazers
+              - img "star" [ref=e398]
+              - text: 5,641
+            - link [ref=e400] [cursor=pointer]:
+              - /url: /every-app/open-seo/forks
+              - img "fork" [ref=e401]
+              - text: "629"
+            - generic [ref=e403]:
+              - text: Built by
+              - link [ref=e404] [cursor=pointer]:
+                - /url: /bensenescu
+                - img "@bensenescu" [ref=e405]
+              - link [ref=e406] [cursor=pointer]:
+                - /url: /claude
+                - img "@claude" [ref=e407]
+              - link [ref=e408] [cursor=pointer]:
+                - /url: /bookingseo
+                - img "@bookingseo" [ref=e409]
+              - link [ref=e410] [cursor=pointer]:
+                - /url: /mvanhorn
+                - img "@mvanhorn" [ref=e411]
+              - link [ref=e412] [cursor=pointer]:
+                - /url: /mattmacrocket
+                - img "@mattmacrocket" [ref=e413]
+            - generic [ref=e414]: 983 stars today
+        - article [ref=e417]:
+          - link "You must be signed in to star a repository" [ref=e420] [cursor=pointer]:
+            - /url: /login?return_to=%2FMoonshotAI%2Fkimi-cli
+            - text: Star
+          - heading [level=2] [ref=e423]:
+            - link "MoonshotAI / kimi-cli" [ref=e424] [cursor=pointer]:
+              - /url: /MoonshotAI/kimi-cli
+          - paragraph [ref=e427]: Kimi Code CLI is your next CLI agent.
+          - generic [ref=e428]:
+            - generic [ref=e429]: Python
+            - link [ref=e431] [cursor=pointer]:
+              - /url: /MoonshotAI/kimi-cli/stargazers
+              - img "star" [ref=e432]
+              - text: 10,159
+            - link [ref=e434] [cursor=pointer]:
+              - /url: /MoonshotAI/kimi-cli/forks
+              - img "fork" [ref=e435]
+              - text: 1,215
+            - generic [ref=e437]:
+              - text: Built by
+              - link [ref=e438] [cursor=pointer]:
+                - /url: /stdrc
+                - img "@stdrc" [ref=e439]
+              - link [ref=e440] [cursor=pointer]:
+                - /url: /RealKai42
+                - img "@RealKai42" [ref=e441]
+              - link [ref=e442] [cursor=pointer]:
+                - /url: /xxchan
+                - img "@xxchan" [ref=e443]
+              - link [ref=e444] [cursor=pointer]:
+                - /url: /apps/dependabot
+                - img "@dependabot" [ref=e445]
+              - link [ref=e446] [cursor=pointer]:
+                - /url: /n-WN
+                - img "@n-WN" [ref=e447]
+            - generic [ref=e448]: 405 stars today
+        - article [ref=e451]:
+          - link "You must be signed in to star a repository" [ref=e454] [cursor=pointer]:
+            - /url: /login?return_to=%2FAstrBotDevs%2FAstrBot
+            - text: Star
+          - heading [level=2] [ref=e457]:
+            - link "AstrBotDevs / AstrBot" [ref=e458] [cursor=pointer]:
+              - /url: /AstrBotDevs/AstrBot
+          - paragraph [ref=e461]: AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨
+          - generic [ref=e462]:
+            - generic [ref=e463]: Python
+            - link [ref=e465] [cursor=pointer]:
+              - /url: /AstrBotDevs/AstrBot/stargazers
+              - img "star" [ref=e466]
+              - text: 37,002
+            - link [ref=e468] [cursor=pointer]:
+              - /url: /AstrBotDevs/AstrBot/forks
+              - img "fork" [ref=e469]
+              - text: 2,568
+            - generic [ref=e471]:
+              - text: Built by
+              - link [ref=e472] [cursor=pointer]:
+                - /url: /Soulter
+                - img "@Soulter" [ref=e473]
+              - link [ref=e474] [cursor=pointer]:
+                - /url: /Raven95676
+                - img "@Raven95676" [ref=e475]
+              - link [ref=e476] [cursor=pointer]:
+                - /url: /RC-CHN
+                - img "@RC-CHN" [ref=e477]
+              - link [ref=e478] [cursor=pointer]:
+                - /url: /zouyonghe
+                - img "@zouyonghe" [ref=e479]
+              - link [ref=e480] [cursor=pointer]:
+                - /url: /LIghtJUNction
+                - img "@LIghtJUNction" [ref=e481]
+            - generic [ref=e482]: 330 stars today
+        - article [ref=e485]:
+          - link "You must be signed in to star a repository" [ref=e488] [cursor=pointer]:
+            - /url: /login?return_to=%2FPrefectHQ%2Ffastmcp
+            - text: Star
+          - heading [level=2] [ref=e491]:
+            - link "PrefectHQ / fastmcp" [ref=e492] [cursor=pointer]:
+              - /url: /PrefectHQ/fastmcp
+          - paragraph [ref=e495]: 🚀 The fast, Pythonic way to build MCP servers and clients.
+          - generic [ref=e496]:
+            - generic [ref=e497]: Python
+            - link [ref=e499] [cursor=pointer]:
+              - /url: /PrefectHQ/fastmcp/stargazers
+              - img "star" [ref=e500]
+              - text: 26,455
+            - link [ref=e502] [cursor=pointer]:
+              - /url: /PrefectHQ/fastmcp/forks
+              - img "fork" [ref=e503]
+              - text: 2,157
+            - generic [ref=e505]:
+              - text: Built by
+              - link [ref=e506] [cursor=pointer]:
+                - /url: /jlowin
+                - img "@jlowin" [ref=e507]
+              - link [ref=e508] [cursor=pointer]:
+                - /url: /strawgate
+                - img "@strawgate" [ref=e509]
+              - link [ref=e510] [cursor=pointer]:
+                - /url: /claude
+                - img "@claude" [ref=e511]
+              - link [ref=e512] [cursor=pointer]:
+                - /url: /zzstoatzz
+                - img "@zzstoatzz" [ref=e513]
+              - link [ref=e514] [cursor=pointer]:
+                - /url: /apps/marvin-context-protocol
+                - img "@marvin-context-protocol" [ref=e515]
+            - generic [ref=e516]: 77 stars today
+        - article [ref=e519]:
+          - link "You must be signed in to star a repository" [ref=e522] [cursor=pointer]:
+            - /url: /login?return_to=%2FKnockOutEZ%2Fwigolo
+            - text: Star
+          - heading [level=2] [ref=e525]:
+            - link "KnockOutEZ / wigolo" [ref=e526] [cursor=pointer]:
+              - /url: /KnockOutEZ/wigolo
+          - paragraph [ref=e529]: The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.
+          - generic [ref=e530]:
+            - generic [ref=e531]: TypeScript
+            - link [ref=e533] [cursor=pointer]:
+              - /url: /KnockOutEZ/wigolo/stargazers
+              - img "star" [ref=e534]
+              - text: 2,384
+            - link [ref=e536] [cursor=pointer]:
+              - /url: /KnockOutEZ/wigolo/forks
+              - img "fork" [ref=e537]
+              - text: "144"
+            - generic [ref=e539]:
+              - text: Built by
+              - link [ref=e540] [cursor=pointer]:
+                - /url: /KnockOutEZ
+                - img "@KnockOutEZ" [ref=e541]
+              - link [ref=e542] [cursor=pointer]:
+                - /url: /YoshiTabletopGamer
+                - img "@YoshiTabletopGamer" [ref=e543]
+              - link [ref=e544] [cursor=pointer]:
+                - /url: /gitcommit90
+                - img "@gitcommit90" [ref=e545]
+            - generic [ref=e546]: 695 stars today
+        - article [ref=e549]:
+          - generic [ref=e550]:
+            - link "Sponsor @tokio-rs" [ref=e551] [cursor=pointer]:
+              - /url: /sponsors/tokio-rs
+              - generic [ref=e552]: Sponsor
+            - link "You must be signed in to star a repository" [ref=e557] [cursor=pointer]:
+              - /url: /login?return_to=%2Ftokio-rs%2Ftopcoat
+              - text: Star
+          - heading [level=2] [ref=e560]:
+            - link "tokio-rs / topcoat" [ref=e561] [cursor=pointer]:
+              - /url: /tokio-rs/topcoat
+          - paragraph [ref=e564]: A batteries-included framework for building web apps
+          - generic [ref=e565]:
+            - generic [ref=e566]: Rust
+            - link [ref=e568] [cursor=pointer]:
+              - /url: /tokio-rs/topcoat/stargazers
+              - img "star" [ref=e569]
+              - text: 1,399
+            - link [ref=e571] [cursor=pointer]:
+              - /url: /tokio-rs/topcoat/forks
+              - img "fork" [ref=e572]
+              - text: "38"
+            - generic [ref=e574]:
+              - text: Built by
+              - link [ref=e575] [cursor=pointer]:
+                - /url: /pikaju
+                - img "@pikaju" [ref=e576]
+              - link [ref=e577] [cursor=pointer]:
+                - /url: /akoll
+                - img "@akoll" [ref=e578]
+              - link [ref=e579] [cursor=pointer]:
+                - /url: /carllerche
+                - img "@carllerche" [ref=e580]
+              - link [ref=e581] [cursor=pointer]:
+                - /url: /claymcleod
+                - img "@claymcleod" [ref=e582]
+              - link [ref=e583] [cursor=pointer]:
+                - /url: /apps/github-actions
+                - img "@github-actions" [ref=e584]
+            - generic [ref=e585]: 374 stars today
+        - article [ref=e588]:
+          - link "You must be signed in to star a repository" [ref=e591] [cursor=pointer]:
+            - /url: /login?return_to=%2Fiptv-org%2Fiptv
+            - text: Star
+          - heading [level=2] [ref=e594]:
+            - link "iptv-org / iptv" [ref=e595] [cursor=pointer]:
+              - /url: /iptv-org/iptv
+          - paragraph [ref=e598]: Collection of publicly available IPTV channels from all over the world
+          - generic [ref=e599]:
+            - generic [ref=e600]: TypeScript
+            - link [ref=e602] [cursor=pointer]:
+              - /url: /iptv-org/iptv/stargazers
+              - img "star" [ref=e603]
+              - text: 133,668
+            - link [ref=e605] [cursor=pointer]:
+              - /url: /iptv-org/iptv/forks
+              - img "fork" [ref=e606]
+              - text: 7,556
+            - generic [ref=e608]:
+              - text: Built by
+              - link [ref=e609] [cursor=pointer]:
+                - /url: /freearhey
+                - img "@freearhey" [ref=e610]
+              - link [ref=e611] [cursor=pointer]:
+                - /url: /apps/iptv-bot
+                - img "@iptv-bot" [ref=e612]
+              - link [ref=e613] [cursor=pointer]:
+                - /url: /BellezaEmporium
+                - img "@BellezaEmporium" [ref=e614]
+              - link [ref=e615] [cursor=pointer]:
+                - /url: /Dum4G
+                - img "@Dum4G" [ref=e616]
+              - link [ref=e617] [cursor=pointer]:
+                - /url: /UltraHDR
+                - img "@UltraHDR" [ref=e618]
+            - generic [ref=e619]: 144 stars today
+        - article [ref=e622]:
+          - link "You must be signed in to star a repository" [ref=e625] [cursor=pointer]:
+            - /url: /login?return_to=%2Foblien%2Fopenship
+            - text: Star
+          - heading [level=2] [ref=e628]:
+            - link "oblien / openship" [ref=e629] [cursor=pointer]:
+              - /url: /oblien/openship
+          - paragraph [ref=e632]: Self-hosted deployment platform
+          - generic [ref=e633]:
+            - generic [ref=e634]: TypeScript
+            - link [ref=e636] [cursor=pointer]:
+              - /url: /oblien/openship/stargazers
+              - img "star" [ref=e637]
+              - text: 4,432
+            - link [ref=e639] [cursor=pointer]:
+              - /url: /oblien/openship/forks
+              - img "fork" [ref=e640]
+              - text: "305"
+            - generic [ref=e642]:
+              - text: Built by
+              - link [ref=e643] [cursor=pointer]:
+                - /url: /Hydralerne
+                - img "@Hydralerne" [ref=e644]
+              - link [ref=e645] [cursor=pointer]:
+                - /url: /claude
+                - img "@claude" [ref=e646]
+              - link [ref=e647] [cursor=pointer]:
+                - /url: /rizwannur
+                - img "@rizwannur" [ref=e648]
+              - link [ref=e649] [cursor=pointer]:
+                - /url: /shiv19
+                - img "@shiv19" [ref=e650]
+              - link [ref=e651] [cursor=pointer]:
+                - /url: /rhCat
+                - img "@rhCat" [ref=e652]
+            - generic [ref=e653]: 1,719 stars today
+        - article [ref=e656]:
+          - link "You must be signed in to star a repository" [ref=e659] [cursor=pointer]:
+            - /url: /login?return_to=%2Fmicrosoft%2FOntology-Playground
+            - text: Star
+          - heading [level=2] [ref=e662]:
+            - link "microsoft / Ontology-Playground" [ref=e663] [cursor=pointer]:
+              - /url: /microsoft/Ontology-Playground
+          - paragraph [ref=e666]: Free, open-source web app for learning about ontologies and Microsoft Fabric IQ. Explore a catalogue of pre-built ontologies, design your own visually, export as RDF/XML, and share interactive diagrams. Zero backend, fully static.
+          - generic [ref=e667]:
+            - generic [ref=e668]: TypeScript
+            - link [ref=e670] [cursor=pointer]:
+              - /url: /microsoft/Ontology-Playground/stargazers
+              - img "star" [ref=e671]
+              - text: 1,637
+            - link [ref=e673] [cursor=pointer]:
+              - /url: /microsoft/Ontology-Playground/forks
+              - img "fork" [ref=e674]
+              - text: "225"
+            - generic [ref=e676]:
+              - text: Built by
+              - link [ref=e677] [cursor=pointer]:
+                - /url: /videlalvaro
+                - img "@videlalvaro" [ref=e678]
+              - link [ref=e679] [cursor=pointer]:
+                - /url: /vaibhavius
+                - img "@vaibhavius" [ref=e680]
+              - link [ref=e681] [cursor=pointer]:
+                - /url: /apps/dependabot
+                - img "@dependabot" [ref=e682]
+              - link [ref=e683] [cursor=pointer]:
+                - /url: /bbreugel
+                - img "@bbreugel" [ref=e684]
+              - link [ref=e685] [cursor=pointer]:
+                - /url: /RaviChanduEdru
+                - img "@RaviChanduEdru" [ref=e686]
+            - generic [ref=e687]: 487 stars today
+        - article [ref=e690]:
+          - link "You must be signed in to star a repository" [ref=e693] [cursor=pointer]:
+            - /url: /login?return_to=%2Fhandy-computer%2Ftranscribe.cpp
+            - text: Star
+          - heading [level=2] [ref=e696]:
+            - link "handy-computer / transcribe.cpp" [ref=e697] [cursor=pointer]:
+              - /url: /handy-computer/transcribe.cpp
+          - paragraph [ref=e700]: ggml speech-to-text inference for 16+ model families
+          - generic [ref=e701]:
+            - generic [ref=e702]: C++
+            - link [ref=e704] [cursor=pointer]:
+              - /url: /handy-computer/transcribe.cpp/stargazers
+              - img "star" [ref=e705]
+              - text: 1,139
+            - link [ref=e707] [cursor=pointer]:
+              - /url: /handy-computer/transcribe.cpp/forks
+              - img "fork" [ref=e708]
+              - text: "29"
+            - generic [ref=e710]:
+              - text: Built by
+              - link [ref=e711] [cursor=pointer]:
+                - /url: /cjpais
+                - img "@cjpais" [ref=e712]
+              - link [ref=e713] [cursor=pointer]:
+                - /url: /claude
+                - img "@claude" [ref=e714]
+            - generic [ref=e715]: 401 stars today
+        - article [ref=e718]:
+          - link "You must be signed in to star a repository" [ref=e721] [cursor=pointer]:
+            - /url: /login?return_to=%2Fmoonshine-ai%2Fmoonshine
+            - text: Star
+          - heading [level=2] [ref=e724]:
+            - link "moonshine-ai / moonshine" [ref=e725] [cursor=pointer]:
+              - /url: /moonshine-ai/moonshine
+          - paragraph [ref=e728]: Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces
+          - generic [ref=e729]:
+            - generic [ref=e730]: C++
+            - link [ref=e732] [cursor=pointer]:
+              - /url: /moonshine-ai/moonshine/stargazers
+              - img "star" [ref=e733]
+              - text: 9,646
+            - link [ref=e735] [cursor=pointer]:
+              - /url: /moonshine-ai/moonshine/forks
+              - img "fork" [ref=e736]
+              - text: "510"
+            - generic [ref=e738]:
+              - text: Built by
+              - link [ref=e739] [cursor=pointer]:
+                - /url: /evmaki
+                - img "@evmaki" [ref=e740]
+              - link [ref=e741] [cursor=pointer]:
+                - /url: /kylehowells
+                - img "@kylehowells" [ref=e742]
+              - link [ref=e743] [cursor=pointer]:
+                - /url: /petewarden
+                - img "@petewarden" [ref=e744]
+              - link [ref=e745] [cursor=pointer]:
+                - /url: /giovanninibarbosa
+                - img "@giovanninibarbosa" [ref=e746]
+              - link [ref=e747] [cursor=pointer]:
+                - /url: /andimarafioti
+                - img "@andimarafioti" [ref=e748]
+            - generic [ref=e749]: 264 stars today
+  - contentinfo [ref=e752]:
+    - heading "Footer" [level=2] [ref=e753]
+    - generic [ref=e754]:
+      - generic [ref=e755]:
+        - link "GitHub Homepage" [ref=e756] [cursor=pointer]:
+          - /url: https://github.com
+        - generic [ref=e759]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e760]:
+        - heading "Footer navigation" [level=3] [ref=e761]
+        - list "Footer navigation" [ref=e762]:
+          - listitem [ref=e763]:
+            - link "Terms" [ref=e764] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e765]:
+            - link "Privacy" [ref=e766] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e767]:
+            - link "Security" [ref=e768] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e769]:
+            - link "Status" [ref=e770] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e771]:
+            - link "Community" [ref=e772] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e773]:
+            - link "Docs" [ref=e774] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e775]:
+            - link "Contact" [ref=e776] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e777]:
+            - button "Manage cookies" [ref=e779] [cursor=pointer]
+          - listitem [ref=e780]:
+            - button "Do not share my personal information" [ref=e782] [cursor=pointer]

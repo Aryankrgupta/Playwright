@@ -1,0 +1,16 @@
+[     447ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[     449ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[     979ms] [WARNING] A preload for 'https://duckduckgo.com/country.json' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute. @ https://duckduckgo.com/_next/static/chunks/pages/_app-d940d4a1850ae68a.js:0
+[    4549ms] [WARNING] The resource https://duckduckgo.com/static-assets/image/sad/chrome/chrome-1-light-en-US.png was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://duckduckgo.com/:0
+[    4550ms] [WARNING] The resource https://duckduckgo.com/country.json was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://duckduckgo.com/:0
+[    4551ms] [WARNING] The resource https://duckduckgo.com/static-assets/image/pages/app/app-store-badge-light.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://duckduckgo.com/:0
+[    4551ms] [WARNING] The resource https://duckduckgo.com/static-assets/image/sad/chrome/chrome-3-light-en-US.png was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://duckduckgo.com/:0
+[    4551ms] [WARNING] The resource https://duckduckgo.com/static-assets/image/sad/chrome/chrome-2-light-en-US.png was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://duckduckgo.com/:0

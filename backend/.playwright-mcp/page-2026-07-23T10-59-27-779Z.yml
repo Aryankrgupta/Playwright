@@ -1,0 +1,1490 @@
+- generic [ref=f5e2]:
+  - navigation "Shortcuts menu" [ref=f5e3]:
+    - heading "Skip to" [level=2] [ref=f5e4]
+    - list "Skip to" [ref=f5e5]:
+      - listitem [ref=f5e6]:
+        - link "main content" [ref=f5e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+    - separator [ref=f5e8]
+    - heading "Keyboard shortcuts" [level=2] [ref=f5e9]
+    - list "Keyboard shortcuts" [ref=f5e10]:
+      - listitem [ref=f5e11]:
+        - link "Search, alt, forward slash" [ref=f5e12] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f5e13]:
+            - generic [ref=f5e14]: Search
+            - generic [ref=f5e15]:
+              - generic [ref=f5e16]: alt
+              - generic [ref=f5e17]: +
+              - generic [ref=f5e18]: /
+      - listitem [ref=f5e19]:
+        - link "Cart, shift, alt, c" [ref=f5e20] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f5e21]:
+            - generic [ref=f5e22]: Cart
+            - generic [ref=f5e23]:
+              - generic [ref=f5e24]: shift
+              - generic [ref=f5e25]: +
+              - generic [ref=f5e26]: alt
+              - generic [ref=f5e27]: +
+              - generic [ref=f5e28]: C
+      - listitem [ref=f5e29]:
+        - link "Home, shift, alt, h" [ref=f5e30] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f5e31]:
+            - generic [ref=f5e32]: Home
+            - generic [ref=f5e33]:
+              - generic [ref=f5e34]: shift
+              - generic [ref=f5e35]: +
+              - generic [ref=f5e36]: alt
+              - generic [ref=f5e37]: +
+              - generic [ref=f5e38]: H
+      - listitem [ref=f5e39]:
+        - link "Your orders, shift, alt, o" [ref=f5e40] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f5e41]:
+            - generic [ref=f5e42]: Orders
+            - generic [ref=f5e43]:
+              - generic [ref=f5e44]: shift
+              - generic [ref=f5e45]: +
+              - generic [ref=f5e46]: alt
+              - generic [ref=f5e47]: +
+              - generic [ref=f5e48]: O
+      - listitem [ref=f5e49]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=f5e50] [cursor=pointer]:
+          - generic [ref=f5e51]:
+            - generic [ref=f5e52]: Show/Hide shortcuts
+            - generic [ref=f5e53]:
+              - generic [ref=f5e54]: shift
+              - generic [ref=f5e55]: +
+              - generic [ref=f5e56]: alt
+              - generic [ref=f5e57]: +
+              - generic [ref=f5e58]: Z
+    - generic [ref=f5e59]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=f5e65]:
+    - navigation "Primary" [ref=f5e66]:
+      - generic [ref=f5e67]:
+        - generic [ref=f5e68]:
+          - link "Amazon" [ref=f5e70] [cursor=pointer]:
+            - /url: /ref=nav_logo
+          - button "Deliver to India" [ref=f5e73] [cursor=pointer]:
+            - generic [ref=f5e75]:
+              - generic [ref=f5e76]: Deliver to
+              - generic [ref=f5e77]: India
+        - search [ref=f5e80]:
+          - generic [ref=f5e83]:
+            - generic [ref=f5e84]: All
+            - combobox "Select the department you want to search in" [ref=f5e87] [cursor=pointer]:
+              - option "All Departments" [selected]
+              - option "Arts & Crafts"
+              - option "Automotive"
+              - option "Baby"
+              - option "Beauty & Personal Care"
+              - option "Books"
+              - option "Boys' Fashion"
+              - option "Computers"
+              - option "Deals"
+              - option "Digital Music"
+              - option "Electronics"
+              - option "Girls' Fashion"
+              - option "Health & Household"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Kindle Store"
+              - option "Luggage"
+              - option "Men's Fashion"
+              - option "Movies & TV"
+              - option "Music, CDs & Vinyl"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Software"
+              - option "Sports & Outdoors"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Video Games"
+              - option "Women's Fashion"
+          - searchbox "Search Amazon" [ref=f5e90]
+          - generic [ref=f5e91]:
+            - generic "Go" [ref=f5e93] [cursor=pointer]:
+              - button "Go" [ref=f5e94]
+            - button [ref=f5e96]: Agent Search
+        - generic [ref=f5e98]:
+          - generic [ref=f5e99]:
+            - link "Choose a language for shopping in Amazon United States. The current selection is English (EN)." [ref=f5e100] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang_ais
+              - generic [ref=f5e103]:
+                - img "United States" [ref=f5e104]
+                - generic [ref=f5e105]: EN
+            - button "Expand to Change Language or Country" [ref=f5e106] [cursor=pointer]
+          - generic [ref=f5e107]:
+            - link "Hello, sign in Account & Lists" [ref=f5e108] [cursor=pointer]:
+              - /url: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=f5e109]: Hello, sign in
+              - generic [ref=f5e111]: Account & Lists
+            - button "Expand Account and Lists" [ref=f5e112] [cursor=pointer]
+          - link "Returns & Orders" [ref=f5e113] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=f5e114]: Returns
+            - generic [ref=f5e115]: "& Orders"
+          - link "0 items in cart" [ref=f5e116] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=f5e117]: "0"
+      - alertdialog "International Shopping Transition Alert" [ref=f5e120]:
+        - generic [ref=f5e121]:
+          - generic [ref=f5e125]:
+            - text: We're showing you items that ship to
+            - strong [ref=f5e126]: India
+            - text: . To see items that ship to a different country, change your delivery address.
+          - generic [ref=f5e127]:
+            - generic [ref=f5e129] [cursor=pointer]:
+              - button "Submit" [ref=f5e130]
+              - generic [ref=f5e131]: Dismiss
+            - generic [ref=f5e133] [cursor=pointer]:
+              - button "Submit" [ref=f5e134]
+              - generic [ref=f5e135]: Change Address
+      - generic [ref=f5e136]:
+        - button "Open All Categories Menu" [ref=f5e138] [cursor=pointer]:
+          - generic [ref=f5e140]: All
+        - list [ref=f5e144]:
+          - listitem [ref=f5e145]:
+            - link "Today's Deals" [ref=f5e147] [cursor=pointer]:
+              - /url: /gp/goldbox?ref_=nav_cs_gb
+          - listitem [ref=f5e148]:
+            - link "Prime Video" [ref=f5e150] [cursor=pointer]:
+              - /url: /Amazon-Video/b/?ie=UTF8&node=2858778011&ref_=nav_cs_prime_video
+          - listitem [ref=f5e151]:
+            - link "Gift Cards" [ref=f5e153] [cursor=pointer]:
+              - /url: /gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc
+          - listitem [ref=f5e154]:
+            - link "Sell" [ref=f5e156] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell
+          - listitem [ref=f5e157]:
+            - link "Customer Service" [ref=f5e159] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice
+          - listitem [ref=f5e160]:
+            - link "Registry" [ref=f5e162] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16115931011&ref_=nav_cs_registry
+          - link "Click to call our Disability Customer Support line, or reach us directly at 1-888-283-1678" [ref=f5e163] [cursor=pointer]:
+            - /url: /gp/help/customer/accessibility
+            - text: Disability Customer Support
+  - main [ref=f5e167]:
+    - banner [ref=f5e169]:
+      - group "Featured content" [ref=f5e170]:
+        - generic [ref=f5e172]:
+          - button "Previous slide" [disabled] [ref=f5e174] [cursor=pointer]
+          - group [ref=f5e178]:
+            - list [ref=f5e179]:
+              - listitem [ref=f5e180]:
+                - link [ref=f5e183] [cursor=pointer]:
+                  - /url: /b/?_encoding=UTF8&node=121171061011&pd_rd_w=B2zh1&content-id=amzn1.sym.4a4beafc-f047-4dd0-a3b4-484b6b0aff69&pf_rd_p=4a4beafc-f047-4dd0-a3b4-484b6b0aff69&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=vAqSW&pd_rd_r=375ef1b6-e536-43b7-acdb-be46991f2300&ref_=pd_hp_d_hero_unk
+                  - img "Shop Back to School" [ref=f5e185]
+          - button "Next slide" [ref=f5e187] [cursor=pointer]
+    - generic [ref=f5e190]:
+      - generic [ref=f5e192]:
+        - text: You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.
+        - link "Click here to go to amazon.in" [ref=f5e193] [cursor=pointer]:
+          - /url: https://www.amazon.com/r/?_encoding=UTF8&aid=Jb1bh6HBRX-p7CkTgHfWPg&dest=https%3A%2F%2Fwww.amazon.in%3Fref%3Daisgw_intl_stripe_in&pd_rd_w=SN9vT&content-id=amzn1.sym.5d022dd3-7374-4c36-972c-d2f317605745&pf_rd_p=5d022dd3-7374-4c36-972c-d2f317605745&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+      - generic [ref=f5e194]:
+        - generic [ref=f5e196]:
+          - heading "Get your game on" [level=2] [ref=f5e198]
+          - link "Get your game on Shop gaming" [ref=f5e199] [cursor=pointer]:
+            - /url: /s/?_encoding=UTF8&k=gaming&pd_rd_w=AIg5N&content-id=amzn1.sym.bd749ccd-05a5-46df-9094-58bcc6398482&pf_rd_p=bd749ccd-05a5-46df-9094-58bcc6398482&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+            - img "Get your game on" [ref=f5e202]
+            - generic [ref=f5e204]:
+              - generic [ref=f5e205]: Shop gaming
+              - generic [ref=f5e206]: Shop gaming
+        - generic [ref=f5e208]:
+          - heading "Must-haves for every student" [level=2] [ref=f5e210]
+          - link "Shop Back to School Shop Back to School" [ref=f5e211] [cursor=pointer]:
+            - /url: /b/?_encoding=UTF8&node=121171061011&pd_rd_w=lId5w&content-id=amzn1.sym.e29eb269-c557-47be-abb8-260c66a64468&pf_rd_p=e29eb269-c557-47be-abb8-260c66a64468&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+            - img "Shop Back to School" [ref=f5e214]
+            - generic [ref=f5e216]:
+              - generic [ref=f5e217]: Shop Back to School
+              - generic [ref=f5e218]: Shop Back to School
+        - generic [ref=f5e220]:
+          - heading "New home arrivals under $50" [level=2] [ref=f5e222]
+          - generic [ref=f5e223]:
+            - generic [ref=f5e224]:
+              - link "Kitchen & dining" [ref=f5e226] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=kitchen%20and%20dining&rh=p_36%3A-5000&s=date-desc-rank&pd_rd_w=J9mbP&content-id=amzn1.sym.679a99a5-333c-46b8-a493-b812dbdccbc0&pf_rd_p=679a99a5-333c-46b8-a493-b812dbdccbc0&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+                - img "Kitchen & dining" [ref=f5e228]
+                - generic [ref=f5e229]: Kitchen & Dining
+              - link "Home improvement" [ref=f5e232] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=home%20improvement&i=tools&rh=n%3A228013%2Cp_36%3A-5000&dc=&ds=v1%3AU%2F9vxcfd6LLqNGLcdfGjetkk3KJGd0ZuNoxWMV3LcAk&pd_rd_w=J9mbP&content-id=amzn1.sym.679a99a5-333c-46b8-a493-b812dbdccbc0&pf_rd_p=679a99a5-333c-46b8-a493-b812dbdccbc0&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+                - img "Home improvement" [ref=f5e234]
+                - generic [ref=f5e235]: Home Improvement
+            - generic [ref=f5e237]:
+              - link "Décor" [ref=f5e239] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=home%20decor&rh=p_36%3A-5000&s=date-desc-rank&pd_rd_w=J9mbP&content-id=amzn1.sym.679a99a5-333c-46b8-a493-b812dbdccbc0&pf_rd_p=679a99a5-333c-46b8-a493-b812dbdccbc0&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+                - img "Décor" [ref=f5e241]
+              - link "Bedding & bath" [ref=f5e245] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=bedding%20and%20bath&rh=p_36%3A-5000&s=date-desc-rank&pd_rd_w=J9mbP&content-id=amzn1.sym.679a99a5-333c-46b8-a493-b812dbdccbc0&pf_rd_p=679a99a5-333c-46b8-a493-b812dbdccbc0&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+                - img "Bedding & bath" [ref=f5e247]
+                - generic [ref=f5e248]: Bedding & Bath
+          - link "New home arrivals under $50 - Shop the latest from Home" [ref=f5e251] [cursor=pointer]:
+            - /url: /s/?_encoding=UTF8&k=home&i=garden&rh=n%3A1055398%2Cp_36%3A-5000&s=exact-aware-popularity-rank&dc=&pd_rd_w=J9mbP&content-id=amzn1.sym.679a99a5-333c-46b8-a493-b812dbdccbc0&pf_rd_p=679a99a5-333c-46b8-a493-b812dbdccbc0&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+            - generic [ref=f5e252]:
+              - generic [ref=f5e253]: Shop the latest from Home
+              - generic [ref=f5e254]: Shop the latest from Home
+        - generic [ref=f5e256]:
+          - heading "Must-have school supplies" [level=2] [ref=f5e258]
+          - generic [ref=f5e259]:
+            - generic [ref=f5e260]:
+              - link "Backpacks" [ref=f5e262] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=backpack%20for%20kids&pd_rd_w=ntX0X&content-id=amzn1.sym.0a756ea7-0115-4102-86ad-9ef42571e0d7&pf_rd_p=0a756ea7-0115-4102-86ad-9ef42571e0d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+                - img "Backpacks" [ref=f5e264]
+              - link "Electronics" [ref=f5e268] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=electronics%20for%20college%20students&pd_rd_w=ntX0X&content-id=amzn1.sym.0a756ea7-0115-4102-86ad-9ef42571e0d7&pf_rd_p=0a756ea7-0115-4102-86ad-9ef42571e0d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+                - img "Electronics" [ref=f5e270]
+            - generic [ref=f5e273]:
+              - link "Stationery" [ref=f5e275] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=stationery&pd_rd_w=ntX0X&content-id=amzn1.sym.0a756ea7-0115-4102-86ad-9ef42571e0d7&pf_rd_p=0a756ea7-0115-4102-86ad-9ef42571e0d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+                - img "Stationery" [ref=f5e277]
+              - link "Fashion" [ref=f5e281] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=school%20kids%20clothes&pd_rd_w=ntX0X&content-id=amzn1.sym.0a756ea7-0115-4102-86ad-9ef42571e0d7&pf_rd_p=0a756ea7-0115-4102-86ad-9ef42571e0d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+                - img "Fashion" [ref=f5e283]
+          - link "Must-have school supplies - Shop Back to School" [ref=f5e287] [cursor=pointer]:
+            - /url: /b/?_encoding=UTF8&node=121171061011&pd_rd_w=ntX0X&content-id=amzn1.sym.0a756ea7-0115-4102-86ad-9ef42571e0d7&pf_rd_p=0a756ea7-0115-4102-86ad-9ef42571e0d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+            - generic [ref=f5e288]:
+              - generic [ref=f5e289]: Shop Back to School
+              - generic [ref=f5e290]: Shop Back to School
+        - separator [ref=f5e291]
+        - generic [ref=f5e293]:
+          - heading "Shop Fashion for less" [level=2] [ref=f5e295]
+          - generic [ref=f5e296]:
+            - generic [ref=f5e297]:
+              - link "Jeans under $50" [ref=f5e299] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=Jeans&rh=n%3A1040660%2Cn%3A1048188%2Cp_36%3A-5000&dc=&ds=v1%3AZrh2YeJ%2Bmo6tc5p1QJD9idnCpBDTF2pKNTUbGqlhFKk&crid=1TZCO6ZC2HZVA&qid=1684823801&rnid=2941120011&sprefix=jeans%2Caps%2C155&ref=sr_nr_n_4&pd_rd_w=nWvJS&content-id=amzn1.sym.1cb3993a-41fc-4a2a-b2ee-016e70298d9f&pf_rd_p=1cb3993a-41fc-4a2a-b2ee-016e70298d9f&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+                - img "Jeans under $50" [ref=f5e301]
+              - link "Tops under $25" [ref=f5e305] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=Tops&rh=p_36%3A-2500&crid=19AKO4YZK6ZPJ&qid=1684823853&rnid=2661611011&sprefix=tops%2Caps%2C250&ref=sr_nr_p_36_5&pd_rd_w=nWvJS&content-id=amzn1.sym.1cb3993a-41fc-4a2a-b2ee-016e70298d9f&pf_rd_p=1cb3993a-41fc-4a2a-b2ee-016e70298d9f&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+                - img "Tops under $25" [ref=f5e307]
+            - generic [ref=f5e310]:
+              - link "Dresses under $30" [ref=f5e312] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=Dresses&rh=p_36%3A-3000&crid=Y67PJX929LXO&qid=1684823891&rnid=2661611011&sprefix=dresses%2Caps%2C149&ref=sr_nr_p_36_5&pd_rd_w=nWvJS&content-id=amzn1.sym.1cb3993a-41fc-4a2a-b2ee-016e70298d9f&pf_rd_p=1cb3993a-41fc-4a2a-b2ee-016e70298d9f&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+                - img "Dresses under $30" [ref=f5e314]
+              - link "Shoes under $50" [ref=f5e318] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=Shoes&rh=p_36%3A-5000&crid=1QEZIUFPCL3YZ&qid=1684823927&rnid=2661611011&sprefix=shoes%2Caps%2C145&ref=sr_nr_p_36_5&pd_rd_w=nWvJS&content-id=amzn1.sym.1cb3993a-41fc-4a2a-b2ee-016e70298d9f&pf_rd_p=1cb3993a-41fc-4a2a-b2ee-016e70298d9f&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+                - img "Shoes under $50" [ref=f5e320]
+          - link "Shop Fashion for less - See all deals" [ref=f5e324] [cursor=pointer]:
+            - /url: /gp/goldbox/?ie=UTF8&ref_=nav_cs_gb&deals-widget=%257B%2522version%2522%253A1%252C%2522viewIndex%2522%253A0%252C%2522presetId%2522%253A%252215E8DB96732AF8CA9C14916141BB1C4C%2522%252C%2522departments%2522%253A%255B%25227147440011%2522%252C%25227192394011%2522%252C%2522679337011%2522%252C%25226358543011%2522%255D%252C%2522sorting%2522%253A%2522FEATURED%2522%257D&pd_rd_w=nWvJS&content-id=amzn1.sym.1cb3993a-41fc-4a2a-b2ee-016e70298d9f&pf_rd_p=1cb3993a-41fc-4a2a-b2ee-016e70298d9f&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8
+            - generic [ref=f5e325]:
+              - generic [ref=f5e326]: See all deals
+              - generic [ref=f5e327]: See all deals
+        - generic [ref=f5e329]:
+          - heading "Top categories in Kitchen appliances" [level=2] [ref=f5e331]:
+            - generic [ref=f5e332]:
+              - generic [ref=f5e333]: Top categories in Kitchen appliances
+              - generic [ref=f5e334]: Top categories in Kitchen appliances
+          - generic [ref=f5e335]:
+            - link "Cooker" [ref=f5e337] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&k=cooker&pd_rd_w=uiF0B&content-id=amzn1.sym.8158743a-e3ec-4239-b3a8-31bfee7d4a15&pf_rd_p=8158743a-e3ec-4239-b3a8-31bfee7d4a15&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+              - img "Cooker" [ref=f5e340]
+              - generic [ref=f5e342]:
+                - generic [ref=f5e343]: Cooker
+                - generic [ref=f5e344]: Cooker
+            - generic [ref=f5e345]:
+              - link "Coffee" [ref=f5e347] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=coffee%20machine&pd_rd_w=uiF0B&content-id=amzn1.sym.8158743a-e3ec-4239-b3a8-31bfee7d4a15&pf_rd_p=8158743a-e3ec-4239-b3a8-31bfee7d4a15&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+                - img "Coffee" [ref=f5e350]
+                - generic [ref=f5e352]:
+                  - generic [ref=f5e353]: Coffee
+                  - generic [ref=f5e354]: Coffee
+              - link "Pots and Pans" [ref=f5e356] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=pots%20and%20pans&pd_rd_w=uiF0B&content-id=amzn1.sym.8158743a-e3ec-4239-b3a8-31bfee7d4a15&pf_rd_p=8158743a-e3ec-4239-b3a8-31bfee7d4a15&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+                - img "Pots and Pans" [ref=f5e359]
+                - generic [ref=f5e361]:
+                  - generic [ref=f5e362]: Pots and Pans
+                  - generic [ref=f5e363]: Pots and…
+              - link "Kettles" [ref=f5e365] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=kettle&pd_rd_w=uiF0B&content-id=amzn1.sym.8158743a-e3ec-4239-b3a8-31bfee7d4a15&pf_rd_p=8158743a-e3ec-4239-b3a8-31bfee7d4a15&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+                - img "Kettles" [ref=f5e368]
+                - generic [ref=f5e370]:
+                  - generic [ref=f5e371]: Kettles
+                  - generic [ref=f5e372]: Kettles
+          - link "Explore all products in Kitchen" [ref=f5e374] [cursor=pointer]:
+            - /url: /s/?_encoding=UTF8&k=kitchen%20products&pd_rd_w=uiF0B&content-id=amzn1.sym.8158743a-e3ec-4239-b3a8-31bfee7d4a15&pf_rd_p=8158743a-e3ec-4239-b3a8-31bfee7d4a15&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=gTqgi&pd_rd_r=1f2c31ea-4f0b-4790-9bb6-b1fd01c404a8&ref_=pd_hp_d_atf_unk
+            - generic [ref=f5e375]:
+              - generic [ref=f5e376]: Explore all products in Kitchen
+              - generic [ref=f5e377]: Explore all products in Kitchen
+      - generic [ref=f5e379]:
+        - generic [ref=f5e382]:
+          - heading "Best Sellers in Home & Kitchen" [level=2] [ref=f5e384]
+          - generic [ref=f5e385]:
+            - list [ref=f5e387]:
+              - listitem [ref=f5e388]:
+                - link [ref=f5e390] [cursor=pointer]:
+                  - /url: /Queen-Size-Piece-Sheet-Set/dp/B01M16WBW1/?_encoding=UTF8&pd_rd_w=Bki95&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                  - img "Queen Size 4 Piece Sheet Set - Comfy Breathable & Cooling Sheets - Hotel Luxury Bed Sheets for Women & Men - Deep..." [ref=f5e391]
+              - listitem [ref=f5e392]:
+                - link [ref=f5e394] [cursor=pointer]:
+                  - /url: /Amazon-Basics-Microfiber-Lightweight-Wrinkle-free/dp/B0154ASID6/?_encoding=UTF8&pd_rd_w=Bki95&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                  - img "Amazon Basics Lightweight Super Soft Breathable Wrinkle-Resistant Microfiber 4-Piece Bed Sheet Set with 14-Inch Deep..." [ref=f5e395]
+              - listitem [ref=f5e396]:
+                - link [ref=f5e398] [cursor=pointer]:
+                  - /url: /Owala-Insulated-Stainless-Steel-Push-Button-24-Ounce/dp/B085DTZQNZ/?_encoding=UTF8&pd_rd_w=Bki95&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                  - img "Owala FreeSip Insulated Stainless Steel Water Bottle with Straw, BPA-Free Sports Water Bottle, Great for Travel, 24 Oz,..." [ref=f5e399]
+              - listitem [ref=f5e400]:
+                - link [ref=f5e402] [cursor=pointer]:
+                  - /url: /upsimples-Picture-Display-Pictures-Without/dp/B0BQR2BQYZ/?_encoding=UTF8&pd_rd_w=Bki95&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                  - img "upsimples 11x14 Picture Frame, Display Pictures 8x10 with Mat or 11x14 Without Mat, Wall Hanging Photo Frame, Black, 1 Pack" [ref=f5e403]
+              - listitem [ref=f5e404]:
+                - link [ref=f5e406] [cursor=pointer]:
+                  - /url: /Amazon-Basics-Non-Slip-Clothes-Hangers/dp/B00FXNABPI/?_encoding=UTF8&pd_rd_w=Bki95&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                  - img "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers for Closet Organization, Black/Silver, 30-Pack" [ref=f5e407]
+              - listitem [ref=f5e408]:
+                - link [ref=f5e410] [cursor=pointer]:
+                  - /url: /Portable-Handheld-PlayHot-Personal-Rechargeable/dp/B0D97YVVQ2/?_encoding=UTF8&pd_rd_w=Bki95&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                  - img "PlayHot Portable Handheld Turbo Fan, 5 Gear Wind, USB-C Rechargeable Fan, Up to 12 Working Hours, 3 IN 1 Hand Fans with..." [ref=f5e411]
+              - listitem [ref=f5e412]:
+                - link [ref=f5e414] [cursor=pointer]:
+                  - /url: /BigFoot-Shower-Curtain-Liner-Compatible/dp/B08CRPWQHB/?_encoding=UTF8&pd_rd_w=Bki95&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                  - img "BigFoot Clear Shower Curtain - 72x72 Odorless Plastic with Magnets, Washable Long Bathroom Curtain - Premium PEVA..." [ref=f5e415]
+              - listitem [ref=f5e416]:
+                - link [ref=f5e418] [cursor=pointer]:
+                  - /url: /Comfortable-Handles-Durable-Clothes-Supplies/dp/B0DGF616XN/?_encoding=UTF8&pd_rd_w=Bki95&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                  - img "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper & Comfortable Handles, Sturdy & Durable Clothes Storage..." [ref=f5e419]
+              - listitem [ref=f5e420]:
+                - link [ref=f5e422] [cursor=pointer]:
+                  - /url: /DREO-Tower-Bedroom-Velocity-Speeds/dp/B09MKPDJRT/?_encoding=UTF8&pd_rd_w=Bki95&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                  - img "DREO Tower Fan for Bedroom, 28ft/s Velocity, 20dB Ultra Quiet, 8 Speeds | 2026 Upgraded DC Motor, 90° Oscillating, 4..." [ref=f5e423]
+              - listitem [ref=f5e424]:
+                - link [ref=f5e426] [cursor=pointer]:
+                  - /url: /AmazonBasics-Merv-Furnace-Air-Filter/dp/B088BZTYFP/?_encoding=UTF8&pd_rd_w=Bki95&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                  - img "Amazon Basics 16x20x1 Air Filter 6-Pack, MERV 8 AC Furnace Filters, Allergy Control, Removes Dust, Lint and Pollen,..." [ref=f5e427]
+              - listitem [ref=f5e428]:
+                - link [ref=f5e430] [cursor=pointer]:
+                  - /url: /Honeywell-HT-900-TurboForce-Circulator-Black/dp/B001R1RXUG/?_encoding=UTF8&pd_rd_w=Bki95&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                  - img "Honeywell TurboForce Air Circulator, Small Tabletop Fan, Quiet Personal Fan for Home or Office, 3 Speeds, 90 Degree..." [ref=f5e431]
+              - listitem [ref=f5e432]:
+                - link [ref=f5e434] [cursor=pointer]:
+                  - /url: /OLANLY-Bathroom-Absorbent-Chenille-Non-Slip/dp/B0CFGYFCYL/?_encoding=UTF8&pd_rd_w=Bki95&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                  - img "OLANLY Bathroom Rugs 30x20, Extra Soft Absorbent Chenille Bath Rugs, Rubber Backing Quick Dry, Machine Washable Bath..." [ref=f5e435]
+              - listitem [ref=f5e436]:
+                - link [ref=f5e438] [cursor=pointer]:
+                  - /url: /Queen-Size-Sheet-Set-Pillowcases/dp/B00NX0WXQI/?_encoding=UTF8&pd_rd_w=Bki95&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                  - img "Queen Size Sheet Set – 4 Piece Bed Sheets, Soft and Breathable Microfiber, Includes 1 Fitted Sheet, 1 Flat Sheet and 2..." [ref=f5e439]
+              - listitem [ref=f5e440]:
+                - link [ref=f5e442] [cursor=pointer]:
+                  - /url: /Utopia-Bedding-Throw-Pillows-Insert/dp/B01NBNDC1T/?_encoding=UTF8&pd_rd_w=Bki95&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                  - img "Utopia Bedding 18x18 Pillow Inserts, Set of 2, White – Indoor Decorative Throw Pillows for Bed, Sofa & Couch – Soft,..." [ref=f5e443]
+              - listitem [ref=f5e444]:
+                - link [ref=f5e446] [cursor=pointer]:
+                  - /url: /Etekcity-Multifunction-Stainless-Batteries-Included/dp/B0113UZJE2/?_encoding=UTF8&pd_rd_w=Bki95&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                  - img "Etekcity Food Kitchen Scale, Digital Grams and Ounces, 11lb | Tare function, ideal for baking, weight loss, keto, meal..." [ref=f5e447]
+              - listitem [ref=f5e448]:
+                - link [ref=f5e450] [cursor=pointer]:
+                  - /url: /Utopia-Bedding-Zippered-Mattress-Encasement/dp/B00U6HREPQ/?_encoding=UTF8&pd_rd_w=Bki95&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                  - img "Utopia Bedding Queen Mattress Protector Zippered, 100% Waterproof Bed Bug and Dust Mite Proof Mattress Encasement,..." [ref=f5e451]
+              - listitem [ref=f5e452]:
+                - link [ref=f5e454] [cursor=pointer]:
+                  - /url: /Levoit-Tower-Bedroom-28ft-Quiet/dp/B0BVZFQ4DF/?_encoding=UTF8&pd_rd_w=Bki95&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                  - img "Levoit Tower Fan for Bedroom, 28ft/s Fans that Blow Cold Air, 28dB Quiet | Standing Floor Fan for Room, 90° Oscillating,..." [ref=f5e455]
+              - listitem [ref=f5e456]:
+                - link [ref=f5e458] [cursor=pointer]:
+                  - /url: /Zulay-Stronger-Titanium-Stand-Included/dp/B082314NFL/?_encoding=UTF8&pd_rd_w=Bki95&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_1055398
+                  - img "Zulay Kitchen Milk Frother Handheld Electric Whisk – Frother Wand with 2 Duracell Batteries, Durable Drink Mixer, Coffee..." [ref=f5e459]
+            - link [ref=f5e460] [cursor=pointer]:
+              - /url: "#"
+            - link [ref=f5e462] [cursor=pointer]:
+              - /url: "#"
+        - separator [ref=f5e466]
+        - generic [ref=f5e469]:
+          - heading "Top picks for India" [level=2] [ref=f5e471]
+          - list [ref=f5e474]:
+            - listitem [ref=f5e475]:
+              - link [ref=f5e477] [cursor=pointer]:
+                - /url: /Nuwave-Bravo-XL-Grill-Thermometer/dp/B00IXBNUDW/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "Nuwave Bravo XL Air Fryer Toaster Smart Oven, 12-in-1 Countertop Grill/Griddle Combo, 30-Qt XL Capacity, 50F-500F..." [ref=f5e478]
+            - listitem [ref=f5e479]:
+              - link [ref=f5e481] [cursor=pointer]:
+                - /url: /AmazonBasics-Puresoft-PU-Padded-Mid-Back-Computer/dp/B081H43WV2/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "Amazon Basics Classic Puresoft PU Padded Mid-Back Office Chair with Armrest, Height Adjustable, Wheels, 25.75\"D x..." [ref=f5e482]
+            - listitem [ref=f5e483]:
+              - link [ref=f5e485] [cursor=pointer]:
+                - /url: /Kalamera-Massager-Kneading-Vibration-Relaxation/dp/B0GVF63W6X/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "Kalamera Shiatsu Neck Back Massager for Chair with Foot Massager Full Body Massage Machine with Deep Kneading Nodes,..." [ref=f5e486]
+            - listitem [ref=f5e487]:
+              - link [ref=f5e489] [cursor=pointer]:
+                - /url: /Old-Spice-Swagger-Scent-Ounce/dp/B078J7GGC9/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "Old Spice Body Wash for Men, 24/7 Shower Fresh with Long Lasting Scent, Refreshing 3X Defense, Red Collection, Swagger..." [ref=f5e490]
+            - listitem [ref=f5e491]:
+              - link [ref=f5e493] [cursor=pointer]:
+                - /url: /R-N600A-Network-Receiver-Streaming-Built/dp/B0CK8M25R3/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "R-N600A Network Receiver with Streaming, Phono and Built-in DAC, Silver" [ref=f5e494]
+            - listitem [ref=f5e495]:
+              - link [ref=f5e497] [cursor=pointer]:
+                - /url: /CHEFMAN-Mini-Air-Fryer-Space-Saving/dp/B0DC11YH4J/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "CHEFMAN 2 Qt Mini Air Fryer – Digital Space-Saving Compact Air Fryer with Nonstick and Dishwasher Safe Basket, Quick &..." [ref=f5e498]
+            - listitem [ref=f5e499]:
+              - link [ref=f5e501] [cursor=pointer]:
+                - /url: /HAX-Snowmobile-Motorcycle-Helmet-Adult/dp/B0FPCPXRTH/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "HAX Full Face Motorcycle Helmet for Adult Men and Women, DOT & ECE 22.06 Certified - Powersports Advanced Ventilation..." [ref=f5e502]
+            - listitem [ref=f5e503]:
+              - link [ref=f5e505] [cursor=pointer]:
+                - /url: /Bosch-MRC23EVSK-Combination-Router-Horsepower/dp/B002LASDGA/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "Bosch MRC23EVSK 2.3 HP Electronic Modular Router System" [ref=f5e506]
+            - listitem [ref=f5e507]:
+              - link [ref=f5e509] [cursor=pointer]:
+                - /url: /LEGO-Classic-Medium-Creative-Brick/dp/B00NHQFA1I/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "LEGO Classic Medium Creative Brick Box 10696 Building Toy Set - Featuring Storage, Includes Train, Car, and a Tiger..." [ref=f5e510]
+            - listitem [ref=f5e511]:
+              - link [ref=f5e513] [cursor=pointer]:
+                - /url: /Chefman-RJ02-180-Non-Stick-Stainless-Removable/dp/B01J1AWMFU/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "Chefman Electric Panini Press Grill, Compact 2-Slice Sandwich Maker, Non-Stick Coated Plates, Opens 180 Degrees,..." [ref=f5e514]
+            - listitem [ref=f5e515]:
+              - link [ref=f5e517] [cursor=pointer]:
+                - /url: /Bathroom-Widespread-Push-Pop-Champagne-3545-CZ-PR-DST/dp/B0GRCVWKXH/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "Delta Bonacci Brushed Gold Bathroom Faucet 3 Hole, 8 Inch Widespread Bathroom Sink Faucet for Vanity, Metal Push-Pop..." [ref=f5e518]
+            - listitem [ref=f5e519]:
+              - link [ref=f5e521] [cursor=pointer]:
+                - /url: /Philips-Hue-Starter-Kit-Downlights/dp/B0FNC1DT1R/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - 'img "Philips Hue Starter Kit: Hue Bridge Pro & 4 Retrofit LED Recessed Downlights 5/6-inch, White & Color Ambiance, Dimmable,..." [ref=f5e522]'
+            - listitem [ref=f5e523]:
+              - link [ref=f5e525] [cursor=pointer]:
+                - /url: /Samsung-Galaxy-Android-Tablet-Version/dp/B0DVZSRJ8Q/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "Samsung Galaxy Tab S10 FE 128GB WiFi Android Tablet, US Version, Silver | Large Display, Long Battery Life, Exynos 1580..." [ref=f5e526]
+            - listitem [ref=f5e527]:
+              - link [ref=f5e529] [cursor=pointer]:
+                - /url: /Two-Rivers-Flavored-Sampler-Compatible/dp/B071456ZW7/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "Two Rivers Coffee Pods Compatible with K Cup Brewers Including 2.0, Assorted Flavored Coffee 100 Count" [ref=f5e530]
+            - listitem [ref=f5e531]:
+              - link [ref=f5e533] [cursor=pointer]:
+                - /url: /Bosch-Deluxe-Extraction-Adapter-RA1054/dp/B00005RHPP/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "BOSCH RA1054 Deluxe Router Edge Guide with Dust Extraction Hood & Vacuum Hose Adapter" [ref=f5e534]
+            - listitem [ref=f5e535]:
+              - link [ref=f5e537] [cursor=pointer]:
+                - /url: /Ninja-Single-Serve-Permanent-Removable-CM371/dp/B0CSDRZSGG/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "Ninja Hot & Iced XL Coffee Maker with Rapid Cold Brew, 4 Brew Styles, 8 Sizes Small Cup to Travel Mug, Single-Serve..." [ref=f5e538]
+            - listitem [ref=f5e539]:
+              - link [ref=f5e541] [cursor=pointer]:
+                - /url: /Elizabeth-Arden-Anti-Aging-Treatment-Boosting/dp/B00FAA12G6/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "Elizabeth Arden Prevage Anti-Aging Treatment Boosting Cleanser, 4.2 Fl Oz" [ref=f5e542]
+            - listitem [ref=f5e543]:
+              - link [ref=f5e545] [cursor=pointer]:
+                - /url: /VTech-Learn-and-Spin-Aquarium/dp/B07FK9RNN9/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "VTech Learn and Spin Aquarium" [ref=f5e546]
+            - listitem [ref=f5e547]:
+              - link [ref=f5e549] [cursor=pointer]:
+                - /url: /Molton-Brown-Fiery-Pepper-Shower/dp/B0BY38K76Y/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "Molton Brown Fiery Pink Pepper Body Wash 10 fl. oz." [ref=f5e550]
+            - listitem [ref=f5e551]:
+              - link [ref=f5e553] [cursor=pointer]:
+                - /url: /Carbonating-Compatible-Carbonator-ADD4902WHOQ-37/dp/B0DJSC3JKV/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "Philips Sparkling Water Maker & Soda Streaming Machine, ADD4902WHOQ/37 | Soda Maker with 1L PET BPA-Free Quick Twist..." [ref=f5e554]
+            - listitem [ref=f5e555]:
+              - link [ref=f5e557] [cursor=pointer]:
+                - /url: /WOW-Puppetronic-Limited-Certificate-Disneys/dp/B0CY5N7XDW/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "Wow! Stuff Disney Stitch Puppetronic by RealFX | Looks, Feels & Sounds Real! | Disney's Lilo & Stitch | Over 100 Action..." [ref=f5e558]
+            - listitem [ref=f5e559]:
+              - link [ref=f5e561] [cursor=pointer]:
+                - /url: /AcuRite-01540M-Weather-Connection-Underground/dp/B07D9D6CXW/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "AcuRite Iris (5-in-1) Home Weather Station with Wi-Fi Connection to Weather Underground with Temperature, Humidity, Wind..." [ref=f5e562]
+            - listitem [ref=f5e563]:
+              - link [ref=f5e565] [cursor=pointer]:
+                - /url: /Hydraulic-High-Polished-Adjustment-Adjustable-Resistant/dp/B007QV0RMM/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "SUNEX TOOLS 8516 Hydraulic Shop Stool, High-Polished Chrome Finish, Hydraulic Seat Adjustment, Vinyl Padded Adjustable..." [ref=f5e566]
+            - listitem [ref=f5e567]:
+              - link [ref=f5e569] [cursor=pointer]:
+                - /url: /Degree-Men-UltraClear-Antiperspirant-Deodorant/dp/B072J2ZBPY/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "Degree Men UltraClear Antiperspirant Deodorant Black + White 4 count 72-Hour Sweat & Odor Protection Antiperspirant For..." [ref=f5e570]
+            - listitem [ref=f5e571]:
+              - link [ref=f5e573] [cursor=pointer]:
+                - /url: /Sports-Research%C2%AE-Vegan-5000iu-Vitamin/dp/B07255MPRN/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "Sports Research® Vitamin D3 + K2 w/ Coconut Oil - Vegan Vitamin D 5000iu & Mk7 Vitamin K 100mcg for Bone & Immune..." [ref=f5e574]
+            - listitem [ref=f5e575]:
+              - link [ref=f5e577] [cursor=pointer]:
+                - /url: /Skechers-Mens-2-0-Grand-Sneaker-Charcoal/dp/B0CH3TJC3B/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "Skechers Men's Hands Free Slip-ins Go Walk Arch Fit 2.0 - Grand Select 2 Sneaker" [ref=f5e578]
+            - listitem [ref=f5e579]:
+              - link [ref=f5e581] [cursor=pointer]:
+                - /url: /White-Knight-2906-25AM-Chrome-M12x1-25/dp/B099V1QL8R/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "White Knight 2906-25AM Chrome M12x1.25 1-Pc Hex Spike Lug Nut Set with Extra Spike Lug Nut, 25 Pack" [ref=f5e582]
+            - listitem [ref=f5e583]:
+              - link [ref=f5e585] [cursor=pointer]:
+                - /url: /Waterpik-Aquarius-Professional-WP-662-Packaging/dp/B01LXY19XD/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "Waterpik Aquarius Water Flosser For Teeth Cleaning, Gums, Braces, Dental Care, Electric Power With 10 Settings, 7 Tips..." [ref=f5e586]
+            - listitem [ref=f5e587]:
+              - link [ref=f5e589] [cursor=pointer]:
+                - /url: /Johnsons-Baby-Relaxing-NaturalCalm-Essentials/dp/B07DGPGR56/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "Johnson's Baby Sleepy Time Gift Set with Calming Bedtime Bath, Bedtime Lotion & Calming Shampoo, Baby Bedtime Essentials..." [ref=f5e590]
+            - listitem [ref=f5e591]:
+              - link [ref=f5e593] [cursor=pointer]:
+                - /url: /Casio-Diver-Style-Resistant-Unidirectional-Screw-Lock/dp/B083VMXGR4/?_encoding=UTF8&pd_rd_w=Ff76f&content-id=amzn1.sym.4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_p=4bba068a-9322-4692-abd5-0bbe652907a9&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_nta-top-picks
+                - img "Casio MDV106 Series | Unisex Analog Watch | 200M WR | Stainless Steel Case | Resin Band | 2 Hand Analog (HR, Min, SEC) |..." [ref=f5e594]
+        - separator [ref=f5e596]
+        - generic [ref=f5e598]:
+          - heading "Have more fun with family" [level=2] [ref=f5e600]
+          - generic [ref=f5e601]:
+            - generic [ref=f5e602]:
+              - link "Outdoor Play Sets" [ref=f5e604] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=outdoor%20play%20toys&pd_rd_w=3VoRY&content-id=amzn1.sym.b378ed84-9ce7-4534-ab5a-a5a362ea6b4e&pf_rd_p=b378ed84-9ce7-4534-ab5a-a5a362ea6b4e&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Outdoor Play Sets" [ref=f5e606]
+              - link "Learning Toys" [ref=f5e610] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=learning%20toys&pd_rd_w=3VoRY&content-id=amzn1.sym.b378ed84-9ce7-4534-ab5a-a5a362ea6b4e&pf_rd_p=b378ed84-9ce7-4534-ab5a-a5a362ea6b4e&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Learning Toys" [ref=f5e612]
+            - generic [ref=f5e615]:
+              - link "Action Figures" [ref=f5e617] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=action%20figures&pd_rd_w=3VoRY&content-id=amzn1.sym.b378ed84-9ce7-4534-ab5a-a5a362ea6b4e&pf_rd_p=b378ed84-9ce7-4534-ab5a-a5a362ea6b4e&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Action Figures" [ref=f5e619]
+              - link "Pretend Play Toys" [ref=f5e623] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=Pretend%20Play%20Toys&pd_rd_w=3VoRY&content-id=amzn1.sym.b378ed84-9ce7-4534-ab5a-a5a362ea6b4e&pf_rd_p=b378ed84-9ce7-4534-ab5a-a5a362ea6b4e&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Pretend Play Toys" [ref=f5e625]
+          - link "Have more fun with family - See more" [ref=f5e629] [cursor=pointer]:
+            - /url: /s/?_encoding=UTF8&k=toys%20and%20games&pd_rd_w=3VoRY&content-id=amzn1.sym.b378ed84-9ce7-4534-ab5a-a5a362ea6b4e&pf_rd_p=b378ed84-9ce7-4534-ab5a-a5a362ea6b4e&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+            - generic [ref=f5e630]:
+              - generic [ref=f5e631]: See more
+              - generic [ref=f5e632]: See more
+        - generic [ref=f5e634]:
+          - heading "Gear up to get fit" [level=2] [ref=f5e636]
+          - generic [ref=f5e637]:
+            - generic [ref=f5e638]:
+              - link "Clothing" [ref=f5e640] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=fitness%20clothing&pd_rd_w=rmzXL&content-id=amzn1.sym.3fdbc1ee-e2a3-48ef-a93a-bce40e980706&pf_rd_p=3fdbc1ee-e2a3-48ef-a93a-bce40e980706&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Clothing" [ref=f5e642]
+              - link "Trackers" [ref=f5e646] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=fitness%20trackers&pd_rd_w=rmzXL&content-id=amzn1.sym.3fdbc1ee-e2a3-48ef-a93a-bce40e980706&pf_rd_p=3fdbc1ee-e2a3-48ef-a93a-bce40e980706&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Trackers" [ref=f5e648]
+            - generic [ref=f5e651]:
+              - link "Equipment" [ref=f5e653] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=fitness%20equipment&pd_rd_w=rmzXL&content-id=amzn1.sym.3fdbc1ee-e2a3-48ef-a93a-bce40e980706&pf_rd_p=3fdbc1ee-e2a3-48ef-a93a-bce40e980706&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Equipment" [ref=f5e655]
+              - link "Deals" [ref=f5e659] [cursor=pointer]:
+                - /url: /gp/goldbox/?ie=UTF8&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522departments%255C%2522%253A%255B%255C%25223375301%252F3407731%255C%2522%255D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522&pd_rd_w=rmzXL&content-id=amzn1.sym.3fdbc1ee-e2a3-48ef-a93a-bce40e980706&pf_rd_p=3fdbc1ee-e2a3-48ef-a93a-bce40e980706&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Deals" [ref=f5e661]
+          - link "Gear up to get fit - Discover more" [ref=f5e665] [cursor=pointer]:
+            - /url: /s/?_encoding=UTF8&k=fitness%20gear&pd_rd_w=rmzXL&content-id=amzn1.sym.3fdbc1ee-e2a3-48ef-a93a-bce40e980706&pf_rd_p=3fdbc1ee-e2a3-48ef-a93a-bce40e980706&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+            - generic [ref=f5e666]:
+              - generic [ref=f5e667]: Discover more
+              - generic [ref=f5e668]: Discover more
+        - generic [ref=f5e670]:
+          - heading "Wireless Tech" [level=2] [ref=f5e672]
+          - generic [ref=f5e673]:
+            - generic [ref=f5e674]:
+              - link "Smartphones" [ref=f5e676] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=smartphones&pd_rd_w=XmcVz&content-id=amzn1.sym.69a935ef-cee6-41d5-aefa-c36bfc7821bc&pf_rd_p=69a935ef-cee6-41d5-aefa-c36bfc7821bc&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Smartphones" [ref=f5e678]
+              - link "Watches" [ref=f5e682] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=smart%20watches&pd_rd_w=XmcVz&content-id=amzn1.sym.69a935ef-cee6-41d5-aefa-c36bfc7821bc&pf_rd_p=69a935ef-cee6-41d5-aefa-c36bfc7821bc&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Watches" [ref=f5e684]
+            - generic [ref=f5e687]:
+              - link "Headphones" [ref=f5e689] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=headphones&pd_rd_w=XmcVz&content-id=amzn1.sym.69a935ef-cee6-41d5-aefa-c36bfc7821bc&pf_rd_p=69a935ef-cee6-41d5-aefa-c36bfc7821bc&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Headphones" [ref=f5e691]
+              - link "Tablets" [ref=f5e695] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=tablets&pd_rd_w=XmcVz&content-id=amzn1.sym.69a935ef-cee6-41d5-aefa-c36bfc7821bc&pf_rd_p=69a935ef-cee6-41d5-aefa-c36bfc7821bc&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Tablets" [ref=f5e697]
+          - link "Wireless Tech - Discover more" [ref=f5e701] [cursor=pointer]:
+            - /url: /s/?_encoding=UTF8&k=electronics&pd_rd_w=XmcVz&content-id=amzn1.sym.69a935ef-cee6-41d5-aefa-c36bfc7821bc&pf_rd_p=69a935ef-cee6-41d5-aefa-c36bfc7821bc&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+            - generic [ref=f5e702]:
+              - generic [ref=f5e703]: Discover more
+              - generic [ref=f5e704]: Discover more
+        - separator [ref=f5e705]
+        - generic [ref=f5e707]:
+          - heading "Toys for all ages" [level=2] [ref=f5e709]
+          - generic [ref=f5e710]:
+            - generic [ref=f5e711]:
+              - link "Ride on's" [ref=f5e713] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=ride%20on%20toys&pd_rd_w=wc4BE&content-id=amzn1.sym.db4c8a8b-ebce-43d6-afeb-c39934278ec6&pf_rd_p=db4c8a8b-ebce-43d6-afeb-c39934278ec6&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Ride on's" [ref=f5e715]
+              - link "Building & construction" [ref=f5e719] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=building%20construction%20toys&pd_rd_w=wc4BE&content-id=amzn1.sym.db4c8a8b-ebce-43d6-afeb-c39934278ec6&pf_rd_p=db4c8a8b-ebce-43d6-afeb-c39934278ec6&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Building & construction" [ref=f5e721]
+            - generic [ref=f5e724]:
+              - link "Doll & Doll House" [ref=f5e726] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=doll%20and%20doll%20house&pd_rd_w=wc4BE&content-id=amzn1.sym.db4c8a8b-ebce-43d6-afeb-c39934278ec6&pf_rd_p=db4c8a8b-ebce-43d6-afeb-c39934278ec6&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Doll & Doll House" [ref=f5e728]
+                - generic [ref=f5e729]: Dolls & Doll Houses
+              - link "Swimming pools" [ref=f5e732] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=Swimming%20pools&pd_rd_w=wc4BE&content-id=amzn1.sym.db4c8a8b-ebce-43d6-afeb-c39934278ec6&pf_rd_p=db4c8a8b-ebce-43d6-afeb-c39934278ec6&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Swimming pools" [ref=f5e734]
+          - link "Toys for all ages - See all" [ref=f5e738] [cursor=pointer]:
+            - /url: /s/?_encoding=UTF8&k=toys&pd_rd_w=wc4BE&content-id=amzn1.sym.db4c8a8b-ebce-43d6-afeb-c39934278ec6&pf_rd_p=db4c8a8b-ebce-43d6-afeb-c39934278ec6&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+            - generic [ref=f5e739]:
+              - generic [ref=f5e740]: See all
+              - generic [ref=f5e741]: See all
+        - generic [ref=f5e744]:
+          - heading "Best Sellers in Computers & Accessories" [level=2] [ref=f5e746]
+          - list [ref=f5e749]:
+            - listitem [ref=f5e750]:
+              - link [ref=f5e752] [cursor=pointer]:
+                - /url: /Ailun-Protector-Generation-Compatible-Sensitive/dp/B0BJPXXM7D/?_encoding=UTF8&pd_rd_w=DgIGB&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                - img "Ailun Screen Protector for iPad 11th A16 2025 [11 Inch] / 10th Generation 2022 [10.9 Inch], Tempered Glass [Face ID &..." [ref=f5e753]
+            - listitem [ref=f5e754]:
+              - link [ref=f5e756] [cursor=pointer]:
+                - /url: /JanSport-Classic-Mainstream-Student-Backpack/dp/B01A6BPAN4/?_encoding=UTF8&pd_rd_w=DgIGB&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                - img "JanSport Cool Backpack, with 15-inch Laptop Sleeve - Large Computer Bag Rucksack with 2 Compartments, Ergonomic Straps,..." [ref=f5e757]
+            - listitem [ref=f5e758]:
+              - link [ref=f5e760] [cursor=pointer]:
+                - /url: /JanSport-Big-Student-Backpack-Black/dp/B07K74LDCH/?_encoding=UTF8&pd_rd_w=DgIGB&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                - img "JanSport Laptop Backpack - Computer Bag with 2 Compartments, Ergonomic Shoulder Straps, 15” Laptop Sleeve, Haul Handle -..." [ref=f5e761]
+            - listitem [ref=f5e762]:
+              - link [ref=f5e764] [cursor=pointer]:
+                - /url: /Miracase-iPhone-Case-Military-Grade-Black/dp/B0FY6G1RFK/?_encoding=UTF8&pd_rd_w=DgIGB&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                - img "Miracase for iPhone 16e case & iPhone 17e Case for MagSafe [with 2×9H+ Screen Protectors] TOP Military-Grade Protection..." [ref=f5e765]
+            - listitem [ref=f5e766]:
+              - link [ref=f5e768] [cursor=pointer]:
+                - /url: /MoKo-Generation-Stand-Translucent-Support/dp/B0B8STRJYJ/?_encoding=UTF8&pd_rd_w=DgIGB&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                - img "MoKo for iPad (A16) 11th Generation Case 11 Inch 2025, iPad 10th Generation Case 10.9 Inch 2022, Slim Stand Hard PC..." [ref=f5e769]
+            - listitem [ref=f5e770]:
+              - link [ref=f5e772] [cursor=pointer]:
+                - /url: /MOSISO-Polyester-Vertical-Repellent-Compatible/dp/B01N6M1Y9N/?_encoding=UTF8&pd_rd_w=DgIGB&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                - img "MOSISO Laptop Case 13.3 inch, 13-13.3 inch Laptop Sleeve Compatible with MacBook Air/Pro 13/Pro 14 M5 M4 M3 M2 M1, HP..." [ref=f5e773]
+            - listitem [ref=f5e774]:
+              - link [ref=f5e776] [cursor=pointer]:
+                - /url: /ProCase-iPad-11th-10th-10-9/dp/B0BDKJFRX4/?_encoding=UTF8&pd_rd_w=DgIGB&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                - img "ProCase 2 Pcs Screen Protector for iPad A16 2025 11th Generation 11 Inch/iPad 10th 2022 10.9 Inch, Tempered Glass Film..." [ref=f5e777]
+            - listitem [ref=f5e778]:
+              - link [ref=f5e780] [cursor=pointer]:
+                - /url: /Anker-Display-MacBook-Thinkpad-Laptops/dp/B0BQLLB61B/?_encoding=UTF8&pd_rd_w=DgIGB&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                - img "Anker USB C Hub, 5-in-1 USBC to HDMI Splitter with 4K Display, 1 x Powered USB-C 5Gbps & 2×Powered USB-A 3.0 5Gbps Data..." [ref=f5e781]
+            - listitem [ref=f5e782]:
+              - link [ref=f5e784] [cursor=pointer]:
+                - /url: /Nelko-P21-Bluetooth-Templates-Organizing/dp/B0C3L93F2Q/?_encoding=UTF8&pd_rd_w=DgIGB&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                - img "Nelko Label Maker Machine with Tape, P21 Bluetooth Label Printer, Wireless Mini Label Makers with Multiple Templates for..." [ref=f5e785]
+            - listitem [ref=f5e786]:
+              - link [ref=f5e788] [cursor=pointer]:
+                - /url: /ProCase-Generation-Stand-Protective-Black/dp/B07XY28FZG/?_encoding=UTF8&pd_rd_w=DgIGB&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                - img "ProCase for iPad 9th/ 8th/ 7th Generation Case 10.2 Inch (2021/2020/2019 Release), 10.2 iPad Case 9th/ 8th/ 7th Gen..." [ref=f5e789]
+            - listitem [ref=f5e790]:
+              - link [ref=f5e792] [cursor=pointer]:
+                - /url: /SPARIN-Compatible-iPad-10th-2022/dp/B0BKL7KD6Y/?_encoding=UTF8&pd_rd_w=DgIGB&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                - img "SPARIN Screen Protector for iPad A16 2025 11th (11 Inch) /10th Generation 2022 (10.9 Inch), 2 Pack Tempered Glass for..." [ref=f5e793]
+            - listitem [ref=f5e794]:
+              - link [ref=f5e796] [cursor=pointer]:
+                - /url: /Phomemo-Bluetooth-Smartphone-Organization-Rechargeable/dp/B08HV3MPFD/?_encoding=UTF8&pd_rd_w=DgIGB&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                - img "Phomemo Label Maker, D30 Bluetooth Mini Label Maker Machine with Tape, Small Label Makers, Multiple Templates Fonts Icon..." [ref=f5e797]
+            - listitem [ref=f5e798]:
+              - link [ref=f5e800] [cursor=pointer]:
+                - /url: /LOVEVOOK-Backpack-Capacity-Computer-Waterproof/dp/B0FX2MQRXC/?_encoding=UTF8&pd_rd_w=DgIGB&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                - img "LOVEVOOK Laptop Backpack for Women with Pouch Pocket for Large Capacity Cup,15.6 Inch Laptop Computer Bag Travel..." [ref=f5e801]
+            - listitem [ref=f5e802]:
+              - link [ref=f5e804] [cursor=pointer]:
+                - /url: /Mac-Book-Pro-Charger-Cable%EF%BC%887-2ft/dp/B0B1HJ666G/?_encoding=UTF8&pd_rd_w=DgIGB&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                - img "Mac Book Pro Charger - 118W USB C Charger Fast Charger Compatible with MacBook Pro/Air, M1 M2 M3 M4 M5, ipad Pro,..." [ref=f5e805]
+            - listitem [ref=f5e806]:
+              - link [ref=f5e808] [cursor=pointer]:
+                - /url: /WiFi-6-Router-Gigabit-Wireless/dp/B08H8ZLKKK/?_encoding=UTF8&pd_rd_w=DgIGB&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                - img "TP-Link AX1800 WiFi 6 Router (Archer AX21 V5) – Dual Band Wireless Internet, Gigabit, Easy Mesh, Works with Alexa - A..." [ref=f5e809]
+            - listitem [ref=f5e810]:
+              - link [ref=f5e812] [cursor=pointer]:
+                - /url: /iPhone-Charger-Fast-Charging-Certified/dp/B0CH9WTYYG/?_encoding=UTF8&pd_rd_w=DgIGB&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                - img "iPhone 17 16 15 Charger Fast Charging 10FT - 20W USB C Charger Block | with 10FT Type C to C Cable Compatible with..." [ref=f5e813]
+            - listitem [ref=f5e814]:
+              - link [ref=f5e816] [cursor=pointer]:
+                - /url: /Lamicall-Car-Headrest-Tablet-Holder/dp/B0BRRPP5KH/?_encoding=UTF8&pd_rd_w=DgIGB&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                - img "Lamicall Car Headrest Tablet Holder - [3 in 1 Extension Arm] Adjustable Tablet Car Mount for Back Seat, Gifts Road Trip..." [ref=f5e817]
+            - listitem [ref=f5e818]:
+              - link [ref=f5e820] [cursor=pointer]:
+                - /url: /BAGSMART-College-Backpack-Quilted-Water-Resistant/dp/B0CT4HT3CM/?_encoding=UTF8&pd_rd_w=DgIGB&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                - img "BAGSMART College Laptop Backpack, Travel Backpack for Women, Quilted Casual Daypack, Water-Resistant Bookbag for 15.6..." [ref=f5e821]
+        - separator [ref=f5e823]
+        - generic [ref=f5e826]:
+          - heading "Best Sellers in Kitchen & Dining" [level=2] [ref=f5e828]
+          - list [ref=f5e831]:
+            - listitem [ref=f5e832]:
+              - link [ref=f5e834] [cursor=pointer]:
+                - /url: /Nespresso-Vertuoline-Seller-Assortment-Count/dp/B01N05APQY/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Nespresso Capsules Vertuo, Variety Pack, Medium and Dark Roast Coffee, 30 Count Coffee Pods, Brews 7.8 oz." [ref=f5e835]
+            - listitem [ref=f5e836]:
+              - link [ref=f5e838] [cursor=pointer]:
+                - /url: /Bounty-Quick-Size-Paper-Towels-Family/dp/B079VP6DH5/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Bounty Paper Towels Quick Size, White, 16 Family Rolls = 40 Regular Rolls" [ref=f5e839]
+            - listitem [ref=f5e840]:
+              - link [ref=f5e842] [cursor=pointer]:
+                - /url: /Owala-FreeSip-Insulated-Stainless-BPA-Free/dp/B0DR9GN2PM/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Owala FreeSip Insulated Stainless Steel Water Bottle with Straw for Sports and Travel, BPA-Free Sports Water Bottle, 24..." [ref=f5e843]
+            - listitem [ref=f5e844]:
+              - link [ref=f5e846] [cursor=pointer]:
+                - /url: /Amazon-Basics-Everyday-Plates-Disposable/dp/B0C2CY22B8/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Amazon Basics Everyday Disposable Paper Plates, 8.62 Inch, Microwave-Safe, Cut Resistant, Soak-Proof, 100 Count,..." [ref=f5e847]
+            - listitem [ref=f5e848]:
+              - link [ref=f5e850] [cursor=pointer]:
+                - /url: /Amazon-Basics-Ply-Paper-Towel/dp/B09BWFX1L6/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Amazon Basics 2-Ply Flex-Sheets Paper Towels, 12 Basics Rolls = 40 Regular Rolls, Everyday Value with 150 Sheets per..." [ref=f5e851]
+            - listitem [ref=f5e852]:
+              - link [ref=f5e854] [cursor=pointer]:
+                - /url: /Brawny-Square-Regular-Absorbent-Durable/dp/B0DFHMZ922/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Brawny Tear-A-Square 3-Ply Paper Towels, 6 Double Rolls = 12 Regular Rolls, Strong, Absorbent, and Durable with 3 Sheet..." [ref=f5e855]
+            - listitem [ref=f5e856]:
+              - link [ref=f5e858] [cursor=pointer]:
+                - /url: /Sparkle%C2%AE-Size%C2%AE-Towels-Double-Regular/dp/B09NW92T8Q/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Sparkle Pick-A-Size Paper Towels, 6 Double Rolls (660 Sheets Total) - Strong 2-Ply Towels for Kitchen Cleanup and..." [ref=f5e859]
+            - listitem [ref=f5e860]:
+              - link [ref=f5e862] [cursor=pointer]:
+                - /url: /Bounty-Paper-Napkins-200-Count/dp/B000VCFB0G/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Bounty Paper Napkins, White, 200 Count, Packaging may vary" [ref=f5e863]
+            - listitem [ref=f5e864]:
+              - link [ref=f5e866] [cursor=pointer]:
+                - /url: /Nespresso-Capsules-Vertuo-Barista-Flavored/dp/B0BZJVFFNM/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Nespresso Capsules Vertuo, Barista Flavored Pack, Medium Roast Coffee, 30 Count Coffee Pods, Brews 7.8oz." [ref=f5e867]
+            - listitem [ref=f5e868]:
+              - link [ref=f5e870] [cursor=pointer]:
+                - /url: /Twinings-Pure-Black-English-Breakfast/dp/B001GM60LE/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Twinings English Breakfast Black Tea Individually Wrapped Bags, 100 Count (Pack of 1), Smooth, Flavourful, and Robust,..." [ref=f5e871]
+            - listitem [ref=f5e872]:
+              - link [ref=f5e874] [cursor=pointer]:
+                - /url: /Dixie-Stronger-Microwave-Safe-Soak-Proof-Resistant/dp/B099BWGZBP/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Dixie Ultra, Large Paper Plates, 10 Inch, 172 Count (4 packs of 43 plates), 3X Stronger*, Heavy Duty, Microwave-Safe,..." [ref=f5e875]
+            - listitem [ref=f5e876]:
+              - link [ref=f5e878] [cursor=pointer]:
+                - /url: /Viva-Signature-Towels-Double-Sheets/dp/B0DF9BGP8S/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Viva Signature Cloth Paper Towels, Choose-A-Sheet Size, 3 Double Rolls, 86 Sheets per Roll (Packaging May Vary)" [ref=f5e879]
+            - listitem [ref=f5e880]:
+              - link [ref=f5e882] [cursor=pointer]:
+                - /url: /Owala-FreeSip-Insulated-Stainless-Two-Way/dp/B0FK1MWXCW/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Owala FreeSip Sway Insulated Stainless Steel Water Bottle with Two-Way Spout, Built-In Straw and Bucket Handle, Made for..." [ref=f5e883]
+            - listitem [ref=f5e884]:
+              - link [ref=f5e886] [cursor=pointer]:
+                - /url: /MedPride-Powder-Free-Nitrile-Gloves-Medium/dp/B00GS8W3T4/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "MedPride Powder-Free Nitrile Exam Gloves, Iris Blue, Medium, Box/100" [ref=f5e887]
+            - listitem [ref=f5e888]:
+              - link [ref=f5e890] [cursor=pointer]:
+                - /url: /Amazon-Basics-Everyday-Plates-Disposable/dp/B0C2CZJ1TK/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Amazon Basics Everyday Paper Plates, 10 Inch, Disposable, 150 Count, Packaging May Vary" [ref=f5e891]
+            - listitem [ref=f5e892]:
+              - link [ref=f5e894] [cursor=pointer]:
+                - /url: /Peets-Coffee-Dickasons-Complex-Layered/dp/B01N2KFHRS/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Peet's Coffee, Dark Roast Keurig K-Cup Pods, 100% Arabica Coffee - Major Dickason's Blend 75 Count (1 Box of 75 Pods)" [ref=f5e895]
+            - listitem [ref=f5e896]:
+              - link [ref=f5e898] [cursor=pointer]:
+                - /url: /Bounty-Essentials-Select-Towels-Regular/dp/B0CV4GS3F2/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Bounty Essentials Select-A-Size Paper Towels, White, 2 Triple Rolls = 6 Regular Rolls (Packaging May Vary)" [ref=f5e899]
+            - listitem [ref=f5e900]:
+              - link [ref=f5e902] [cursor=pointer]:
+                - /url: /Sparkle-Pick-Towels-Double-Sheets/dp/B09NW8CW6P/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Sparkle Tear-A-Square Paper Towels, 2 Double Rolls (220 Sheets Total) - Strong 2-Ply Towels for Kitchen Cleanup and..." [ref=f5e903]
+            - listitem [ref=f5e904]:
+              - link [ref=f5e906] [cursor=pointer]:
+                - /url: /Brita-Standard-Replacement-Pitchers-Dispensers/dp/B0000CF98Q/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Brita Standard Water Filter for Pitchers and Dispensers, BPA-Free, Reduces Copper, Cadmium and Mercury Impurities, Lasts..." [ref=f5e907]
+            - listitem [ref=f5e908]:
+              - link [ref=f5e910] [cursor=pointer]:
+                - /url: /Amazon-Basics-Disposable-BPA-Free-Everyday/dp/B0CLH1445W/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Amazon Basics Disposable Clear Plastic Forks, Premium Quality, 100 Count, Large Pack, Packaging May Vary" [ref=f5e911]
+            - listitem [ref=f5e912]:
+              - link [ref=f5e914] [cursor=pointer]:
+                - /url: /Donut-Shop-Regular-Portion-24-Count/dp/B007TJGY6O/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "The Original Donut Shop Regular, Single-Serve Keurig K-Cup Pods, Medium Roast Coffee Pods, 96 Count" [ref=f5e915]
+            - listitem [ref=f5e916]:
+              - link [ref=f5e918] [cursor=pointer]:
+                - /url: /Etekcity-Multifunction-Stainless-Batteries-Included/dp/B0113UZJE2/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Etekcity Food Kitchen Scale, Digital Grams and Ounces, 11lb | Tare function, ideal for baking, weight loss, keto, meal..." [ref=f5e919]
+            - listitem [ref=f5e920]:
+              - link [ref=f5e922] [cursor=pointer]:
+                - /url: /Zulay-Stronger-Titanium-Stand-Included/dp/B082314NFL/?_encoding=UTF8&pd_rd_w=JOTfK&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Zulay Kitchen Milk Frother Handheld Electric Whisk – Frother Wand with 2 Duracell Batteries, Durable Drink Mixer, Coffee..." [ref=f5e923]
+        - separator [ref=f5e925]
+        - generic [ref=f5e927]:
+          - heading "Level up your gaming" [level=2] [ref=f5e929]
+          - generic [ref=f5e930]:
+            - generic [ref=f5e931]:
+              - link "PC gaming" [ref=f5e933] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=pc%20gaming&pd_rd_w=7mwlm&content-id=amzn1.sym.f4dce7c3-dfcf-41bb-8922-50be98bf1e86&pf_rd_p=f4dce7c3-dfcf-41bb-8922-50be98bf1e86&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "PC gaming" [ref=f5e935]
+              - link "Xbox" [ref=f5e939] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=Xbox&pd_rd_w=7mwlm&content-id=amzn1.sym.f4dce7c3-dfcf-41bb-8922-50be98bf1e86&pf_rd_p=f4dce7c3-dfcf-41bb-8922-50be98bf1e86&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Xbox" [ref=f5e941]
+            - generic [ref=f5e944]:
+              - link "PlayStation" [ref=f5e946] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=Play%20Station&pd_rd_w=7mwlm&content-id=amzn1.sym.f4dce7c3-dfcf-41bb-8922-50be98bf1e86&pf_rd_p=f4dce7c3-dfcf-41bb-8922-50be98bf1e86&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "PlayStation" [ref=f5e948]
+              - link "Nintendo Switch" [ref=f5e952] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=Nintendo%20Switch&pd_rd_w=7mwlm&content-id=amzn1.sym.f4dce7c3-dfcf-41bb-8922-50be98bf1e86&pf_rd_p=f4dce7c3-dfcf-41bb-8922-50be98bf1e86&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Nintendo Switch" [ref=f5e954]
+          - link "Level up your gaming - Shop the latest in gaming" [ref=f5e958] [cursor=pointer]:
+            - /url: /b/?_encoding=UTF8&node=23508887011&pd_rd_w=7mwlm&content-id=amzn1.sym.f4dce7c3-dfcf-41bb-8922-50be98bf1e86&pf_rd_p=f4dce7c3-dfcf-41bb-8922-50be98bf1e86&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+            - generic [ref=f5e959]:
+              - generic [ref=f5e960]: Shop the latest in gaming
+              - generic [ref=f5e961]: Shop the latest in gaming
+        - generic [ref=f5e963]:
+          - heading "Finds for Home" [level=2] [ref=f5e965]
+          - generic [ref=f5e966]:
+            - generic [ref=f5e967]:
+              - link "Kitchen" [ref=f5e969] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=kitchen&pd_rd_w=kkguv&content-id=amzn1.sym.20c14023-dc4e-49db-9d00-9553df5d755b&pf_rd_p=20c14023-dc4e-49db-9d00-9553df5d755b&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Kitchen" [ref=f5e971]
+              - link "Home Decor" [ref=f5e975] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=home%20decor&pd_rd_w=kkguv&content-id=amzn1.sym.20c14023-dc4e-49db-9d00-9553df5d755b&pf_rd_p=20c14023-dc4e-49db-9d00-9553df5d755b&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Home Decor" [ref=f5e977]
+            - generic [ref=f5e980]:
+              - link "Dining" [ref=f5e982] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=kitchen%20and%20dining&pd_rd_w=kkguv&content-id=amzn1.sym.20c14023-dc4e-49db-9d00-9553df5d755b&pf_rd_p=20c14023-dc4e-49db-9d00-9553df5d755b&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Dining" [ref=f5e984]
+              - link "Smart Home" [ref=f5e988] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=smart%20home&pd_rd_w=kkguv&content-id=amzn1.sym.20c14023-dc4e-49db-9d00-9553df5d755b&pf_rd_p=20c14023-dc4e-49db-9d00-9553df5d755b&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Smart Home" [ref=f5e990]
+          - link "Finds for Home - See more" [ref=f5e994] [cursor=pointer]:
+            - /url: /s/?_encoding=UTF8&k=home%20and%20kitchen&pd_rd_w=kkguv&content-id=amzn1.sym.20c14023-dc4e-49db-9d00-9553df5d755b&pf_rd_p=20c14023-dc4e-49db-9d00-9553df5d755b&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+            - generic [ref=f5e995]:
+              - generic [ref=f5e996]: See more
+              - generic [ref=f5e997]: See more
+        - separator [ref=f5e998]
+        - generic [ref=f5e1000]:
+          - heading "Most-loved watches" [level=2] [ref=f5e1002]
+          - generic [ref=f5e1003]:
+            - generic [ref=f5e1004]:
+              - link "Women" [ref=f5e1006] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=women%20watch&pd_rd_w=oJXve&content-id=amzn1.sym.db94be39-53f1-4c79-89b2-88aa81be709e&pf_rd_p=db94be39-53f1-4c79-89b2-88aa81be709e&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Women" [ref=f5e1008]
+              - link "Men" [ref=f5e1012] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=men%20watches&pd_rd_w=oJXve&content-id=amzn1.sym.db94be39-53f1-4c79-89b2-88aa81be709e&pf_rd_p=db94be39-53f1-4c79-89b2-88aa81be709e&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Men" [ref=f5e1014]
+            - generic [ref=f5e1017]:
+              - link "Girls" [ref=f5e1019] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=girls%20watches&pd_rd_w=oJXve&content-id=amzn1.sym.db94be39-53f1-4c79-89b2-88aa81be709e&pf_rd_p=db94be39-53f1-4c79-89b2-88aa81be709e&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Girls" [ref=f5e1021]
+              - link "Boys" [ref=f5e1025] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=Boys%20watches&pd_rd_w=oJXve&content-id=amzn1.sym.db94be39-53f1-4c79-89b2-88aa81be709e&pf_rd_p=db94be39-53f1-4c79-89b2-88aa81be709e&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Boys" [ref=f5e1027]
+          - link "Most-loved watches - Discover more" [ref=f5e1031] [cursor=pointer]:
+            - /url: /s/?_encoding=UTF8&k=watches&pd_rd_w=oJXve&content-id=amzn1.sym.db94be39-53f1-4c79-89b2-88aa81be709e&pf_rd_p=db94be39-53f1-4c79-89b2-88aa81be709e&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+            - generic [ref=f5e1032]:
+              - generic [ref=f5e1033]: Discover more
+              - generic [ref=f5e1034]: Discover more
+        - generic [ref=f5e1036]:
+          - heading "Level up your PC here" [level=2] [ref=f5e1038]
+          - generic [ref=f5e1039]:
+            - generic [ref=f5e1040]:
+              - link "Laptops" [ref=f5e1042] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=laptops&pd_rd_w=TyjYY&content-id=amzn1.sym.4d71698b-309b-46ab-ad93-6701581285d6&pf_rd_p=4d71698b-309b-46ab-ad93-6701581285d6&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Laptops" [ref=f5e1044]
+              - link "PCs" [ref=f5e1048] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=PC%20computers&pd_rd_w=TyjYY&content-id=amzn1.sym.4d71698b-309b-46ab-ad93-6701581285d6&pf_rd_p=4d71698b-309b-46ab-ad93-6701581285d6&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "PCs" [ref=f5e1050]
+            - generic [ref=f5e1053]:
+              - link "Hard Drives" [ref=f5e1055] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=hard%20drives&pd_rd_w=TyjYY&content-id=amzn1.sym.4d71698b-309b-46ab-ad93-6701581285d6&pf_rd_p=4d71698b-309b-46ab-ad93-6701581285d6&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Hard Drives" [ref=f5e1057]
+              - link "Monitors" [ref=f5e1061] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=computer%20monitors&pd_rd_w=TyjYY&content-id=amzn1.sym.4d71698b-309b-46ab-ad93-6701581285d6&pf_rd_p=4d71698b-309b-46ab-ad93-6701581285d6&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Monitors" [ref=f5e1063]
+          - link "Level up your PC here - Discover more" [ref=f5e1067] [cursor=pointer]:
+            - /url: /s/?_encoding=UTF8&k=computers&pd_rd_w=TyjYY&content-id=amzn1.sym.4d71698b-309b-46ab-ad93-6701581285d6&pf_rd_p=4d71698b-309b-46ab-ad93-6701581285d6&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+            - generic [ref=f5e1068]:
+              - generic [ref=f5e1069]: Discover more
+              - generic [ref=f5e1070]: Discover more
+        - generic [ref=f5e1073]:
+          - heading "Best Sellers in Beauty & Personal Care" [level=2] [ref=f5e1075]
+          - list [ref=f5e1078]:
+            - listitem [ref=f5e1079]:
+              - link [ref=f5e1081] [cursor=pointer]:
+                - /url: /Amazon-Basics-Cotton-Swabs-500ct/dp/B09541P9WH/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Amazon Basics Double-Tipped Cotton Swabs for Personal Hygiene and Baby Care, Cotton, Versatile, Baby Safe, 500 Count" [ref=f5e1082]
+            - listitem [ref=f5e1083]:
+              - link [ref=f5e1085] [cursor=pointer]:
+                - /url: /Medicube-Zero-Pore-Pads-Dual-Textured/dp/B09V7Z4TJG/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "medicube Toner Pads Zero Pore Pad 2.0 | Dual-Textured Facial Pad for Exfoliation and Pore Care with 4.5% AHA Lactic..." [ref=f5e1086]
+            - listitem [ref=f5e1087]:
+              - link [ref=f5e1089] [cursor=pointer]:
+                - /url: /Mighty-Patch-Hydrocolloid-Absorbing-count/dp/B074PVTPBW/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - 'img "Mighty Patch Hero Cosmetics Original Nighttime Acne Pimple Patches, 36 Ct | #1 Hydrocolloid Acne Patches, Shrinking Zits..." [ref=f5e1090]'
+            - listitem [ref=f5e1091]:
+              - link [ref=f5e1093] [cursor=pointer]:
+                - /url: /Neutrogena-Cleansing-Towelettes-Waterproof-Alcohol-Free/dp/B00U2VQZDS/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Neutrogena Makeup Remover Micellar Wipes for Face Daily Gently Removes Oil Dirt and Waterproof Makeup in a Simple Fully..." [ref=f5e1094]
+            - listitem [ref=f5e1095]:
+              - link [ref=f5e1097] [cursor=pointer]:
+                - /url: /Amazon-Basics-Cotton-Rounds-Count/dp/B09542G9ZN/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Amazon Basics Hypoallergenic Cotton Rounds for Makeup Removal and Skincare, 100 Count, 1 Pack" [ref=f5e1098]
+            - listitem [ref=f5e1099]:
+              - link [ref=f5e1101] [cursor=pointer]:
+                - /url: /eos-Cashmere-Moisture-Lightweight-Non-Greasy/dp/B08KT2Z93D/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "eos Shea Better Body Lotion Vanilla Cashmere, 24-Hour Moisture Skin Care, Lightweight & Non-Greasy, Natural Shea, Vegan,..." [ref=f5e1102]
+            - listitem [ref=f5e1103]:
+              - link [ref=f5e1105] [cursor=pointer]:
+                - /url: /Biodance-Bio-Collagen-Tightening-Hydrating-Molecular/dp/B0B2RM68G2/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping,..." [ref=f5e1106]
+            - listitem [ref=f5e1107]:
+              - link [ref=f5e1109] [cursor=pointer]:
+                - /url: /Clean-Skin-Club-Disposable-Sensitive/dp/B07PBXXNCY/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Clean Skin Club Clean Towels XL®, 100% USDA Biobased Face Towel, Disposable Face Towelette, Eczema Association Accepted,..." [ref=f5e1110]
+            - listitem [ref=f5e1111]:
+              - link [ref=f5e1113] [cursor=pointer]:
+                - /url: /Maybelline-Volumizing-Buildable-Lengthening-Multiplying/dp/B08H3JPH74/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Maybelline Lash Sensational Sky High Washable Mascara Makeup, Volumizing, Lengthening, Defining, Curling, Multiplying,..." [ref=f5e1114]
+            - listitem [ref=f5e1115]:
+              - link [ref=f5e1117] [cursor=pointer]:
+                - /url: /Amazon-Basics-Gentle-Liquid-Triclosan-free/dp/B09HHDHXWX/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Amazon Basics Gentle & Mild Clear Liquid Hand Soap Refill, Triclosan-Free, Dermatologist-Tested, pH Balanced,..." [ref=f5e1118]
+            - listitem [ref=f5e1119]:
+              - link [ref=f5e1121] [cursor=pointer]:
+                - /url: /MRS-MEYERS-CLEAN-DAY-Biodegradable/dp/B07MFMWFYL/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "MRS. MEYER'S CLEAN DAY Hand Soap Refill, Rain Water Scent, 33 Fl Oz Bottle" [ref=f5e1122]
+            - listitem [ref=f5e1123]:
+              - link [ref=f5e1125] [cursor=pointer]:
+                - /url: /Getter-Multi-Oil-Hydrating-Naturium-Cleanser/dp/B0B1PDDLGZ/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Naturium The Glow Getter Multi-Oil Hydrating Body Wash, Gentle Cleanser, 16.9 oz" [ref=f5e1126]
+            - listitem [ref=f5e1127]:
+              - link [ref=f5e1129] [cursor=pointer]:
+                - /url: /eos-Moisturizing-Nourishing-Phthalate-Sensitive/dp/B0DPHQRLJC/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "eos Body Wash, Vanilla, Moisturizing Creamy Gel Formula with Shea Butter, Glycerin, Vitamin E, pH Balanced, Sensitive..." [ref=f5e1130]
+            - listitem [ref=f5e1131]:
+              - link [ref=f5e1133] [cursor=pointer]:
+                - /url: /Amazon-Basics-Magnesium-Sulfate-1-Pack/dp/B0BXTS6L35/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Amazon Basics Epsom Salt Soak, Unscented, Magnesium Sulfate USP, Muscle and Feet Relaxation, Resealable Bag, 3 Pound" [ref=f5e1134]
+            - listitem [ref=f5e1135]:
+              - link [ref=f5e1137] [cursor=pointer]:
+                - /url: /celimax-Tightening-Liposomized-Matryxyl-Minimizer/dp/B0DK4Y2YP3/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "celimax The Vita A Retinal Shot Tightening Booster | 0.1% Retinal, 3% Matryxyl, High-Strength Retinoid for Anti-Aging,..." [ref=f5e1138]
+            - listitem [ref=f5e1139]:
+              - link [ref=f5e1141] [cursor=pointer]:
+                - /url: /Native-Deodorant-without-Aluminum-Parabens/dp/B07GB3NVN1/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Native Deodorant Contains Naturally Derived Ingredients, 72 Hour Odor Control, Deodorant for Women and Men, Aluminum..." [ref=f5e1142]
+            - listitem [ref=f5e1143]:
+              - link [ref=f5e1145] [cursor=pointer]:
+                - /url: /EltaMD-Acne-Prone-Mineral-Based-Dermatologist-Recommended/dp/B002MSN3QQ/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "EltaMD UV Clear Face Sunscreen SPF, Oil-Free Sunscreen with Zinc Oxide, Dermatologist Recommended" [ref=f5e1146]
+            - listitem [ref=f5e1147]:
+              - link [ref=f5e1149] [cursor=pointer]:
+                - /url: /Roche-Posay-Toleriane-Double-Repair-Moisturizer/dp/B01N9SPQHQ/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Toleriane Double Repair Face Moisturizer, Daily Moisturizer Face Cream with Ceramide and Niacinamide for All Skin Types" [ref=f5e1150]
+            - listitem [ref=f5e1151]:
+              - link [ref=f5e1153] [cursor=pointer]:
+                - /url: /Vanicream-Moisturizer-Hyaluronic-pH-Balanced-Dermatologist/dp/B08BW46XXK/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Vanicream Daily Facial Moisturizer, Face Cream with 5 Key Cermides & Hyaluronic Acid, 3 Fl Oz, Formulated Without Common..." [ref=f5e1154]
+            - listitem [ref=f5e1155]:
+              - link [ref=f5e1157] [cursor=pointer]:
+                - /url: /MRS-MEYERS-CLEAN-DAY-Biodegradable/dp/B07TJG79HP/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "MRS. MEYER'S CLEAN DAY Hand Soap, Rain Water Scent, 12.5 Fl Oz Bottle - 3 Pack" [ref=f5e1158]
+            - listitem [ref=f5e1159]:
+              - link [ref=f5e1161] [cursor=pointer]:
+                - /url: /Vanicream-Gentle-Cleanser-sensitive-Dispenser/dp/B00QY1XZ4W/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Vanicream Gentle Facial Cleaner with Pump Dispenser, 8 Fl Oz, Formulated without Common Irritants for Sensitive Skin,..." [ref=f5e1162]
+            - listitem [ref=f5e1163]:
+              - link [ref=f5e1165] [cursor=pointer]:
+                - /url: /ColorStay-Waterproof-Smudgeproof-Longwearing-Ultra-Fine/dp/B000H3I2JG/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Revlon ColorStay Pencil Waterproof Eyeliner, Smudge-Proof, Eye Makeup with Built-In Sharpener, Long-Lasting, Matte..." [ref=f5e1166]
+            - listitem [ref=f5e1167]:
+              - link [ref=f5e1169] [cursor=pointer]:
+                - /url: /CeraVe-Hyaluronic-Ceramides-Niacinamide-Non-Drying/dp/B01N1LL62W/?_encoding=UTF8&pd_rd_w=tgiUv&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "CeraVe Foaming Facial Cleanser, Daily Face Wash for Oily Skin, Hyaluronic Acid + Ceramides + Niacinamide, Fragrance..." [ref=f5e1170]
+        - separator [ref=f5e1172]
+        - generic [ref=f5e1175]:
+          - heading "Best Sellers in Books" [level=2] [ref=f5e1177]
+          - list [ref=f5e1180]:
+            - listitem [ref=f5e1181]:
+              - link [ref=f5e1183] [cursor=pointer]:
+                - /url: /Theo-Golden-Novel-Allen-Levi/dp/1668236516/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Theo of Golden: A Novel" [ref=f5e1184]'
+            - listitem [ref=f5e1185]:
+              - link [ref=f5e1187] [cursor=pointer]:
+                - /url: /Threshing-Wing-Claw-Collection-Empyrean/dp/168281808X/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "Threshing Day (Wing and Claw Collection) (The Empyrean)" [ref=f5e1188]
+            - listitem [ref=f5e1189]:
+              - link [ref=f5e1191] [cursor=pointer]:
+                - /url: /Odyssey-Homer/dp/0393356256/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "The Odyssey" [ref=f5e1192]
+            - listitem [ref=f5e1193]:
+              - link [ref=f5e1195] [cursor=pointer]:
+                - /url: /Calamity-Club-Novel-Kathryn-Stockett/dp/1954118813/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "The Calamity Club: A Novel" [ref=f5e1196]'
+            - listitem [ref=f5e1197]:
+              - link [ref=f5e1199] [cursor=pointer]:
+                - /url: /Killer-Isnt-Alice-Suspect-Mystery/dp/B0GQ2VXKY7/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "The Killer Isn''t Alice: The 46,600 Suspect Murder Mystery Puzzle" [ref=f5e1200]'
+            - listitem [ref=f5e1201]:
+              - link [ref=f5e1203] [cursor=pointer]:
+                - /url: /Yesteryear-Novel-Caro-Claire-Burke/dp/059380421X/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Yesteryear: A GMA Book Club Pick: A Novel" [ref=f5e1204]'
+            - listitem [ref=f5e1205]:
+              - link [ref=f5e1207] [cursor=pointer]:
+                - /url: /Whistler-Novel-Ann-Patchett/dp/0063511630/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Whistler: A Novel" [ref=f5e1208]'
+            - listitem [ref=f5e1209]:
+              - link [ref=f5e1211] [cursor=pointer]:
+                - /url: /Project-Hail-Mary-Andy-Weir/dp/0593135229/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Project Hail Mary: A Novel" [ref=f5e1212]'
+            - listitem [ref=f5e1213]:
+              - link [ref=f5e1215] [cursor=pointer]:
+                - /url: /Five-Star-Weekend-Elin-Hilderbrand/dp/0316259187/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "The Five-Star Weekend" [ref=f5e1216]
+            - listitem [ref=f5e1217]:
+              - link [ref=f5e1219] [cursor=pointer]:
+                - /url: /Very-Hungry-Caterpillar-Eric-Carle/dp/0399226907/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "The Very Hungry Caterpillar" [ref=f5e1220]
+            - listitem [ref=f5e1221]:
+              - link [ref=f5e1223] [cursor=pointer]:
+                - /url: /Odyssey-Homer/dp/0140268863/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "The Odyssey" [ref=f5e1224]
+            - listitem [ref=f5e1225]:
+              - link [ref=f5e1227] [cursor=pointer]:
+                - /url: /Correspondent-Novel-Virginia-Evans/dp/0593798430/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "The Correspondent: A Novel" [ref=f5e1228]'
+            - listitem [ref=f5e1229]:
+              - link [ref=f5e1231] [cursor=pointer]:
+                - /url: /Let-Them-Theory-Life-Changing-Millions/dp/1401971369/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "The Let Them Theory: A Life-Changing Tool That Millions of People Can''t Stop Talking About" [ref=f5e1232]'
+            - listitem [ref=f5e1233]:
+              - link [ref=f5e1235] [cursor=pointer]:
+                - /url: /Deal-Off-Campus-Elle-Kennedy/dp/1775293939/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "The Deal: Now an Original Series on Amazon Prime (Off-Campus, 1)" [ref=f5e1236]'
+            - listitem [ref=f5e1237]:
+              - link [ref=f5e1239] [cursor=pointer]:
+                - /url: /Theo-Golden-Novel-Allen-Levi/dp/1668236567/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Theo of Golden: A Novel" [ref=f5e1240]'
+            - listitem [ref=f5e1241]:
+              - link [ref=f5e1243] [cursor=pointer]:
+                - /url: /Rainbow-Fish-Marcus-Pfister/dp/1558585362/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "The Rainbow Fish" [ref=f5e1244]
+            - listitem [ref=f5e1245]:
+              - link [ref=f5e1247] [cursor=pointer]:
+                - /url: /Mistake-Off-Campus-Elle-Kennedy/dp/1775293947/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "The Mistake: Now an Original Series on Amazon Prime (Off-Campus, 2)" [ref=f5e1248]'
+            - listitem [ref=f5e1249]:
+              - link [ref=f5e1251] [cursor=pointer]:
+                - /url: /Brown-Bear-What-You-See/dp/0805047905/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Brown Bear, Brown Bear, What Do You See?: 50th Anniversary Edition" [ref=f5e1252]'
+            - listitem [ref=f5e1253]:
+              - link [ref=f5e1255] [cursor=pointer]:
+                - /url: /Dungeon-Crawler-Carl-Matt-Dinniman/dp/059382024X/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "Dungeon Crawler Carl" [ref=f5e1256]
+            - listitem [ref=f5e1257]:
+              - link [ref=f5e1259] [cursor=pointer]:
+                - /url: /I-Love-You-Moon-Back/dp/1589255518/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "I Love You to the Moon and Back" [ref=f5e1260]
+            - listitem [ref=f5e1261]:
+              - link [ref=f5e1263] [cursor=pointer]:
+                - /url: /Psychology-Money-Timeless-lessons-happiness/dp/0857197681/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "The Psychology of Money: Timeless lessons on wealth, greed, and happiness" [ref=f5e1264]'
+            - listitem [ref=f5e1265]:
+              - link [ref=f5e1267] [cursor=pointer]:
+                - /url: /Dungeon-Anarchists-Cookbook-Crawler-Carl/dp/0593820282/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "The Dungeon Anarchist's Cookbook (Dungeon Crawler Carl)" [ref=f5e1268]
+            - listitem [ref=f5e1269]:
+              - link [ref=f5e1271] [cursor=pointer]:
+                - /url: /My-First-Library-Boxset-Board/dp/9387779262/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "My First Library: Boxset of 10 Board Books for Kids" [ref=f5e1272]'
+            - listitem [ref=f5e1273]:
+              - link [ref=f5e1275] [cursor=pointer]:
+                - /url: /See-Later-Alligator-Sally-Hopgood/dp/1510704841/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "See You Later, Alligator (RhymeTime Animals)" [ref=f5e1276]
+            - listitem [ref=f5e1277]:
+              - link [ref=f5e1279] [cursor=pointer]:
+                - /url: /Murdoku-Murder-Mystery-Logic-Puzzles/dp/1454961791/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Murdoku: 80 Murder Mystery Logic Puzzles" [ref=f5e1280]'
+            - listitem [ref=f5e1281]:
+              - link [ref=f5e1283] [cursor=pointer]:
+                - /url: /Score-Off-Campus-Elle-Kennedy/dp/1775293955/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "The Score: Now an Original Series on Amazon Prime (Off-Campus, 3)" [ref=f5e1284]'
+            - listitem [ref=f5e1285]:
+              - link [ref=f5e1287] [cursor=pointer]:
+                - /url: /Cozy-Cuties-Coloring-Adults-Spaces/dp/B0DQSHRG96/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Cozy Cuties: Coloring Book for Adults and Kids (Cozy Spaces Coloring)" [ref=f5e1288]'
+            - listitem [ref=f5e1289]:
+              - link [ref=f5e1291] [cursor=pointer]:
+                - /url: /Atomic-Habits-Proven-Build-Break/dp/0735211299/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones" [ref=f5e1292]'
+            - listitem [ref=f5e1293]:
+              - link [ref=f5e1295] [cursor=pointer]:
+                - /url: /Dungeon-Crawler-Carl-Matt-Dinniman/dp/0593820258/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "Dungeon Crawler Carl" [ref=f5e1296]
+            - listitem [ref=f5e1297]:
+              - link [ref=f5e1299] [cursor=pointer]:
+                - /url: /Wheres-Spot-Eric-Hill/dp/0399240462/?_encoding=UTF8&pd_rd_w=n0BIU&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Where''s Spot?: A Lift-the-Flap Book" [ref=f5e1300]'
+        - separator [ref=f5e1302]
+        - generic [ref=f5e1304]:
+          - heading "Deals on top categories" [level=2] [ref=f5e1306]
+          - generic [ref=f5e1307]:
+            - generic [ref=f5e1308]:
+              - link "Books" [ref=f5e1310] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=good%20books&pd_rd_w=uk04t&content-id=amzn1.sym.8a64fefa-e450-4bbe-83a4-970ea696b46d&pf_rd_p=8a64fefa-e450-4bbe-83a4-970ea696b46d&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Books" [ref=f5e1312]
+              - link "Fashion" [ref=f5e1316] [cursor=pointer]:
+                - /url: s/?_encoding=UTF8&k=fashion&pd_rd_w=uk04t&content-id=amzn1.sym.8a64fefa-e450-4bbe-83a4-970ea696b46d&pf_rd_p=8a64fefa-e450-4bbe-83a4-970ea696b46d&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Fashion" [ref=f5e1318]
+            - generic [ref=f5e1321]:
+              - link "PC" [ref=f5e1323] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=PCs&pd_rd_w=uk04t&content-id=amzn1.sym.8a64fefa-e450-4bbe-83a4-970ea696b46d&pf_rd_p=8a64fefa-e450-4bbe-83a4-970ea696b46d&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "PC" [ref=f5e1325]
+              - link "Beauty" [ref=f5e1329] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=beauty&pd_rd_w=uk04t&content-id=amzn1.sym.8a64fefa-e450-4bbe-83a4-970ea696b46d&pf_rd_p=8a64fefa-e450-4bbe-83a4-970ea696b46d&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+                - img "Beauty" [ref=f5e1331]
+          - link "Deals on top categories - Discover more" [ref=f5e1335] [cursor=pointer]:
+            - /url: /gp/goldbox/?ie=UTF8&pd_rd_w=uk04t&content-id=amzn1.sym.8a64fefa-e450-4bbe-83a4-970ea696b46d&pf_rd_p=8a64fefa-e450-4bbe-83a4-970ea696b46d&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_unk
+            - generic [ref=f5e1336]:
+              - generic [ref=f5e1337]: Discover more
+              - generic [ref=f5e1338]: Discover more
+        - separator [ref=f5e1339]
+        - generic [ref=f5e1342]:
+          - heading "Popular items this season" [level=2] [ref=f5e1344]
+          - list [ref=f5e1347]:
+            - listitem [ref=f5e1348]:
+              - link [ref=f5e1350] [cursor=pointer]:
+                - /url: /Invicta-Diver-Quartz-Watch-Stainless/dp/B07RD81XJS/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - img "Invicta Men's Pro Diver Quartz Watch" [ref=f5e1351]
+            - listitem [ref=f5e1352]:
+              - link [ref=f5e1354] [cursor=pointer]:
+                - /url: /Thief-Criterion-Collection-4K-UHD/dp/B0DQF143DT/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - img "Thief (The Criterion Collection) [4K UHD]" [ref=f5e1355]
+            - listitem [ref=f5e1356]:
+              - link [ref=f5e1358] [cursor=pointer]:
+                - /url: /Casio-Classic-Quartz-Metal-Casual/dp/B01MZF6LL2/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - img "Casio F91W Series | Digital Watch | Water Resistant | LED Light | 1/100 SEC Stopwatch | Regular Time Keeping (HR, Min,..." [ref=f5e1359]
+            - listitem [ref=f5e1360]:
+              - link [ref=f5e1362] [cursor=pointer]:
+                - /url: /Object-Oriented-Design-Interview-Insiders/dp/173604916X/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - 'img "Object Oriented Design Interview: An Insider’s Guide" [ref=f5e1363]'
+            - listitem [ref=f5e1364]:
+              - link [ref=f5e1366] [cursor=pointer]:
+                - /url: /Gillette-Clear-Antiperspirant-Deodorant-Ounce/dp/B01HVZKDXA/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - img "Gillette Antiperspirant and Deodorant for Men, 72hr Sweat & Odor Protection, Long Lasting Freshness, Anti-White Mark..." [ref=f5e1367]
+            - listitem [ref=f5e1368]:
+              - link [ref=f5e1370] [cursor=pointer]:
+                - /url: /Invicta-8926OB-Stainless-Automatic-Bracelet/dp/B000JQFX1G/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - img "Invicta Men's 5053 Pro Diver Collection Automatic Watch" [ref=f5e1371]
+            - listitem [ref=f5e1372]:
+              - link [ref=f5e1374] [cursor=pointer]:
+                - /url: /Timex-TW4B15500-Expedition-Scout-Slip-Thru/dp/B07FFBHM7F/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - img "Timex Men's Expedition Scout 40mm Watch" [ref=f5e1375]
+            - listitem [ref=f5e1376]:
+              - link [ref=f5e1378] [cursor=pointer]:
+                - /url: /Stress-Less-Cards-Mindfulness-Meditation/dp/B088BXDJPZ/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - img "Allura & Arcia 52 Stress Less & Self Care Cards - Mindfulness & Meditation Exercises - Anxiety Relief & Relaxation" [ref=f5e1379]
+            - listitem [ref=f5e1380]:
+              - link [ref=f5e1382] [cursor=pointer]:
+                - /url: /Eyes-Wide-Shut-Criterion-Collection/dp/B0FN4RVN71/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - img "Eyes Wide Shut (The Criterion Collection) [4K UHD]" [ref=f5e1383]
+            - listitem [ref=f5e1384]:
+              - link [ref=f5e1386] [cursor=pointer]:
+                - /url: /CRACK-CORE-EXAM-1-12th/dp/B0DY1Y9RC9/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - 'img "CRACK THE CORE EXAM - VOLUME 1: 12th Edition (2025)" [ref=f5e1387]'
+            - listitem [ref=f5e1388]:
+              - link [ref=f5e1390] [cursor=pointer]:
+                - /url: /AmazonBasics-Pre-sharpened-Wood-Cased-Pencils/dp/B071JM699P/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - 'img "Amazon Basics Wood-Cased #2 Pencils for Writing, Drawing and Sketching, Pre-sharpened, HB Soft Lead with Erasers,..." [ref=f5e1391]'
+            - listitem [ref=f5e1392]:
+              - link [ref=f5e1394] [cursor=pointer]:
+                - /url: /Beating-Heart-100-Lifetime-Healthy/dp/B0FGJHY7Y7/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - 'img "Beating Heart at 100: Your Lifetime Guide to a Healthy Heart" [ref=f5e1395]'
+            - listitem [ref=f5e1396]:
+              - link [ref=f5e1398] [cursor=pointer]:
+                - /url: /CRACK-CORE-EXAM-2-12th/dp/B0DY6JTWQN/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - 'img "CRACK THE CORE EXAM - VOLUME 2: 12th Edition (2025)" [ref=f5e1399]'
+            - listitem [ref=f5e1400]:
+              - link [ref=f5e1402] [cursor=pointer]:
+                - /url: /Amazfit-Fitness-Exercise-Bluetooth-Calling/dp/B0C7GJN1NC/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - img "Amazfit Active Smart Watch 42mm, AI Fitness Tracker & Sleep Coach, GPS, Amazon Alexa Built-in, Bluetooth, 14-Day..." [ref=f5e1403]
+            - listitem [ref=f5e1404]:
+              - link [ref=f5e1406] [cursor=pointer]:
+                - /url: /Casio-Digital-Sport-Watch-AE1500WH-1AV/dp/B08VNR3NRW/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - img "Casio Illuminator AE1500WH Series | 10-Year Battery | LED Backlight | 5-Alarms | 1/100 Sec Stopwatch | Men's Digital Watch" [ref=f5e1407]
+            - listitem [ref=f5e1408]:
+              - link [ref=f5e1410] [cursor=pointer]:
+                - /url: /Critical-Reader-Sixth-Complete-Reading/dp/B0F251W1PB/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - 'img "The Critical Reader, Sixth Edition: The Complete Guide to SAT Reading" [ref=f5e1411]'
+            - listitem [ref=f5e1412]:
+              - link [ref=f5e1414] [cursor=pointer]:
+                - /url: /Ninja-NC301-placeholder-Cream-Maker/dp/B08QXB9BH5/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - img "Ninja NC301 CREAMi Ice Cream Maker, for Gelato, Mix-ins, Milkshakes, Sorbet, Smoothie Bowls & More, 7 One-Touch..." [ref=f5e1415]
+            - listitem [ref=f5e1416]:
+              - link [ref=f5e1418] [cursor=pointer]:
+                - /url: /XPOWER-Centrifugal-Stackable-Restoration-Janitorial/dp/B08K9CW9TY/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - img "XPOWER P-230AT Mini Mighty 1/4 HP 925 CFM Centrifugal Air Mover, Carpet Dryer, Floor Fan, Blower, Stackable, Daisy..." [ref=f5e1419]
+            - listitem [ref=f5e1420]:
+              - link [ref=f5e1422] [cursor=pointer]:
+                - /url: /Hot-Wheels-Cars-10-Pack-Race/dp/B0CNJFV6KH/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - img "Hot Wheels 10-Pack of Toy Race Cars (Styles May Vary) | Set of 10 1:64 Scale Vehicles,Includes Hot Wheels Originals &..." [ref=f5e1423]
+            - listitem [ref=f5e1424]:
+              - link [ref=f5e1426] [cursor=pointer]:
+                - /url: /CeraVe-Shampoo-Fragrance-Paraben-Tear-Free/dp/B097CJG15S/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - img "CeraVe Baby Wash & Shampoo, Tear-Free 2-in-1 Bath Wash for Hair & Skin, with Vitamin E, Fragrance-Free, Paraben-Free,..." [ref=f5e1427]
+            - listitem [ref=f5e1428]:
+              - link [ref=f5e1430] [cursor=pointer]:
+                - /url: /Casio-MDV107D-1A2V-Stainless-Steel-3-Hand/dp/B0CG2FBJFF/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - img "Casio MDV107D-1A2V Men's Stainless Steel 200M Black/Blue Bezel Black Dial 3-Hand Anlog Dive Watch" [ref=f5e1431]
+            - listitem [ref=f5e1432]:
+              - link [ref=f5e1434] [cursor=pointer]:
+                - /url: /Jurassic-Park-Trilogy-Lost-World/dp/B0GT6W2SXQ/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - 'img "Jurassic Park Trilogy (Jurassic Park / The Lost World: Jurassic Park / Jurassic Park III) - Blu-ray + Digital" [ref=f5e1435]'
+            - listitem [ref=f5e1436]:
+              - link [ref=f5e1438] [cursor=pointer]:
+                - /url: /Master-Commander-World-Blu-ray-Digital/dp/B0FHKQDDCF/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - 'img "Master and Commander: The Far Side of the World - 4K + Blu-ray + Digital" [ref=f5e1439]'
+            - listitem [ref=f5e1440]:
+              - link [ref=f5e1442] [cursor=pointer]:
+                - /url: /Spicer-5-1310X-U-Joint-Kit/dp/B009X1X91O/?_encoding=UTF8&pd_rd_w=TCGRN&content-id=amzn1.sym.e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_p=e85ee24d-ce5e-479d-bdb3-28d6161095d7&pf_rd_r=PRW30K43756TBGTPCC3H&pd_rd_wg=ai3KL&pd_rd_r=1449804d-b38b-46ac-8baf-97eb90f26ce5&ref_=pd_hp_d_btf_exports-popular-this-season-with-similar-asins
+                - img "Spicer 5-1310X U-Joint Kit 1310/SPL22 Series (OSR)" [ref=f5e1443]
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=f5e1445]:
+    - button "Back to top" [ref=f5e1446] [cursor=pointer]
+    - generic [ref=f5e1448]:
+      - generic [ref=f5e1449]:
+        - heading "Get to Know Us" [level=6] [ref=f5e1450]
+        - list [ref=f5e1451]:
+          - listitem [ref=f5e1452]:
+            - link "Careers" [ref=f5e1453] [cursor=pointer]:
+              - /url: https://www.amazon.jobs
+          - listitem [ref=f5e1454]:
+            - link "Blog" [ref=f5e1455] [cursor=pointer]:
+              - /url: https://blog.aboutamazon.com/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=f5e1456]:
+            - link "About Amazon" [ref=f5e1457] [cursor=pointer]:
+              - /url: https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=f5e1458]:
+            - link "Investor Relations" [ref=f5e1459] [cursor=pointer]:
+              - /url: https://www.amazon.com/ir
+          - listitem [ref=f5e1460]:
+            - link "Amazon Devices" [ref=f5e1461] [cursor=pointer]:
+              - /url: /gp/browse.html?node=2102313011&ref_=footer_devices
+          - listitem [ref=f5e1462]:
+            - link "Amazon Science" [ref=f5e1463] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=f5e1465]:
+        - heading "Make Money with Us" [level=6] [ref=f5e1466]
+        - list [ref=f5e1467]:
+          - listitem [ref=f5e1468]:
+            - link "Sell products on Amazon" [ref=f5e1469] [cursor=pointer]:
+              - /url: https://services.amazon.com/sell.html?ld=AZFSSOA&ref_=footer_soa
+          - listitem [ref=f5e1470]:
+            - link "Sell on Amazon Business" [ref=f5e1471] [cursor=pointer]:
+              - /url: https://services.amazon.com/amazon-business.html?ld=usb2bunifooter&ref_=footer_b2b
+          - listitem [ref=f5e1472]:
+            - link "Sell apps on Amazon" [ref=f5e1473] [cursor=pointer]:
+              - /url: https://developer.amazon.com
+          - listitem [ref=f5e1474]:
+            - link "Become an Affiliate" [ref=f5e1475] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.com/
+          - listitem [ref=f5e1476]:
+            - link "Advertise Your Products" [ref=f5e1477] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/?ref=ext_amzn_ftr
+          - listitem [ref=f5e1478]:
+            - link "Self-Publish with Us" [ref=f5e1479] [cursor=pointer]:
+              - /url: /gp/seller-account/mm-summary-page.html?ld=AZFooterSelfPublish&topic=200260520&ref_=footer_publishing
+          - listitem [ref=f5e1480]:
+            - link "Host an Amazon Hub" [ref=f5e1481] [cursor=pointer]:
+              - /url: https://go.thehub-amazon.com/amazon-hub-locker
+          - listitem [ref=f5e1482]:
+            - text: ›
+            - link "See More Make Money with Us" [ref=f5e1483] [cursor=pointer]:
+              - /url: /b/?node=18190131011&ld=AZUSSOA-seemore&ref_=footer_seemore
+      - generic [ref=f5e1485]:
+        - heading "Amazon Payment Products" [level=6] [ref=f5e1486]
+        - list [ref=f5e1487]:
+          - listitem [ref=f5e1488]:
+            - link "Amazon Business Card" [ref=f5e1489] [cursor=pointer]:
+              - /url: /dp/B07984JN3L?plattr=ACOMFO&ie=UTF-8
+          - listitem [ref=f5e1490]:
+            - link "Shop with Points" [ref=f5e1491] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16218619011&ref_=footer_swp
+          - listitem [ref=f5e1492]:
+            - link "Reload Your Balance" [ref=f5e1493] [cursor=pointer]:
+              - /url: /dp/B0CHTVMXZJ?th=1?ref_=footer_reload_us
+          - listitem [ref=f5e1494]:
+            - link "Amazon Currency Converter" [ref=f5e1495] [cursor=pointer]:
+              - /url: /gp/browse.html?node=388305011&ref_=footer_tfx
+      - generic [ref=f5e1497]:
+        - heading "Let Us Help You" [level=6] [ref=f5e1498]
+        - list [ref=f5e1499]:
+          - listitem [ref=f5e1500]:
+            - link "Amazon and COVID-19" [ref=f5e1501] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&ref_=footer_covid
+          - listitem [ref=f5e1502]:
+            - link "Your Account" [ref=f5e1503] [cursor=pointer]:
+              - /url: https://www.amazon.com/gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=f5e1504]:
+            - link "Your Orders" [ref=f5e1505] [cursor=pointer]:
+              - /url: https://www.amazon.com/gp/css/order-history?ref_=footer_yo
+          - listitem [ref=f5e1506]:
+            - link "Shipping Rates & Policies" [ref=f5e1507] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=468520&ref_=footer_shiprates
+          - listitem [ref=f5e1508]:
+            - link "Returns & Replacements" [ref=f5e1509] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=f5e1510]:
+            - link "Manage Your Content and Devices" [ref=f5e1511] [cursor=pointer]:
+              - /url: /gp/digital/fiona/manage?ref_=footer_myk
+          - listitem [ref=f5e1512]:
+            - link "Help" [ref=f5e1513] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+    - generic [ref=f5e1515]:
+      - link "Amazon US Home" [ref=f5e1518] [cursor=pointer]:
+        - /url: /?ref_=footer_logo
+      - generic [ref=f5e1521]:
+        - generic [ref=f5e1522]:
+          - link "Choose a language for shopping. Current selection is English." [ref=f5e1523] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=f5e1525]: English
+          - button "Expand to Change Language or Country" [ref=f5e1526] [cursor=pointer]
+        - link "₹ INR - Indian Rupee" [ref=f5e1527] [cursor=pointer]:
+          - /url: /customer-preferences/edit?ie=UTF8&ref_=footer_cop&preferencesReturnUrl=%2F
+          - generic [ref=f5e1528]: ₹
+          - generic [ref=f5e1529]: INR - Indian Rupee
+        - button "Choose a country/region for shopping. The current selection is United States." [ref=f5e1530] [cursor=pointer]:
+          - generic [ref=f5e1532]: United States
+    - navigation "More on Amazon" [ref=f5e1533]:
+      - generic "More on Amazon" [ref=f5e1534]:
+        - list [ref=f5e1535]:
+          - listitem [ref=f5e1536]:
+            - link [ref=f5e1537] [cursor=pointer]:
+              - /url: https://music.amazon.com?ref=dm_aff_amz_com
+              - heading "Amazon Music" [level=5] [ref=f5e1538]
+              - generic [ref=f5e1539]: Stream millionsof songs
+          - listitem [ref=f5e1540]
+          - listitem [ref=f5e1541]:
+            - link [ref=f5e1542] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/?ref=footer_advtsing_amzn_com
+              - heading "Amazon Ads" [level=5] [ref=f5e1543]
+              - generic [ref=f5e1544]: Reach customerswherever theyspend their time
+          - listitem [ref=f5e1545]
+          - listitem [ref=f5e1546]:
+            - link [ref=f5e1547] [cursor=pointer]:
+              - /url: https://www.6pm.com
+              - heading "6pm" [level=5] [ref=f5e1548]
+              - generic [ref=f5e1549]: Score dealson fashion brands
+          - listitem [ref=f5e1550]
+          - listitem [ref=f5e1551]:
+            - link [ref=f5e1552] [cursor=pointer]:
+              - /url: https://www.abebooks.com
+              - heading "AbeBooks" [level=5] [ref=f5e1553]
+              - generic [ref=f5e1554]: Books, art& collectibles
+          - listitem [ref=f5e1555]
+          - listitem [ref=f5e1556]:
+            - link [ref=f5e1557] [cursor=pointer]:
+              - /url: https://www.acx.com/
+              - heading "ACX" [level=5] [ref=f5e1558]
+              - generic [ref=f5e1559]: Audiobook PublishingMade Easy
+          - listitem [ref=f5e1560]
+          - listitem [ref=f5e1561]:
+            - link "Sell on Amazon Start a Selling Account" [ref=f5e1562] [cursor=pointer]:
+              - /url: https://sell.amazon.com/?ld=AZUSSOA-footer-aff&ref_=footer_sell
+              - heading "Sell on Amazon" [level=5] [ref=f5e1563]
+              - generic [ref=f5e1564]: Start a Selling Account
+          - listitem [ref=f5e1565]
+          - listitem [ref=f5e1566]:
+            - link [ref=f5e1567] [cursor=pointer]:
+              - /url: https://www.veeqo.com/?utm_source=amazon&utm_medium=website&utm_campaign=footer
+              - heading "Veeqo" [level=5] [ref=f5e1568]
+              - generic [ref=f5e1569]: Shipping SoftwareInventory Management
+        - list [ref=f5e1570]:
+          - listitem [ref=f5e1571]:
+            - link [ref=f5e1572] [cursor=pointer]:
+              - /url: /business?ref_=footer_retail_b2b
+              - heading "Amazon Business" [level=5] [ref=f5e1573]
+              - generic [ref=f5e1574]: Everything ForYour Business
+          - listitem [ref=f5e1575]
+          - listitem [ref=f5e1576]:
+            - link [ref=f5e1577] [cursor=pointer]:
+              - /url: /gp/browse.html?node=20338496011&ref_=footer_amazonglobal
+              - heading "AmazonGlobal" [level=5] [ref=f5e1578]
+              - generic [ref=f5e1579]: Ship OrdersInternationally
+          - listitem [ref=f5e1580]
+          - listitem [ref=f5e1581]:
+            - link [ref=f5e1582] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=f5e1583]
+              - generic [ref=f5e1584]: Scalable CloudComputing Services
+          - listitem [ref=f5e1585]
+          - listitem [ref=f5e1586]:
+            - link [ref=f5e1587] [cursor=pointer]:
+              - /url: https://www.audible.com
+              - heading "Audible" [level=5] [ref=f5e1588]
+              - generic [ref=f5e1589]: Listen to Books & OriginalAudio Performances
+          - listitem [ref=f5e1590]
+          - listitem [ref=f5e1591]:
+            - link [ref=f5e1592] [cursor=pointer]:
+              - /url: https://www.boxofficemojo.com/?ref_=amzn_nav_ftr
+              - heading "Box Office Mojo" [level=5] [ref=f5e1593]
+              - generic [ref=f5e1594]: Find MovieBox Office Data
+          - listitem [ref=f5e1595]
+          - listitem [ref=f5e1596]:
+            - link [ref=f5e1597] [cursor=pointer]:
+              - /url: https://www.goodreads.com
+              - heading "Goodreads" [level=5] [ref=f5e1598]
+              - generic [ref=f5e1599]: Book reviews& recommendations
+          - listitem [ref=f5e1600]
+          - listitem [ref=f5e1601]:
+            - link [ref=f5e1602] [cursor=pointer]:
+              - /url: https://www.imdb.com
+              - heading "IMDb" [level=5] [ref=f5e1603]
+              - generic [ref=f5e1604]: Movies, TV& Celebrities
+        - list [ref=f5e1605]:
+          - listitem [ref=f5e1606]:
+            - link [ref=f5e1607] [cursor=pointer]:
+              - /url: https://pro.imdb.com?ref_=amzn_nav_ftr
+              - heading "IMDbPro" [level=5] [ref=f5e1608]
+              - generic [ref=f5e1609]: Get Info EntertainmentProfessionals Need
+          - listitem [ref=f5e1610]
+          - listitem [ref=f5e1611]:
+            - link [ref=f5e1612] [cursor=pointer]:
+              - /url: https://kdp.amazon.com
+              - heading "Kindle Direct Publishing" [level=5] [ref=f5e1613]
+              - generic [ref=f5e1614]: Indie Digital & Print PublishingMade Easy
+          - listitem [ref=f5e1615]
+          - listitem [ref=f5e1616]:
+            - link [ref=f5e1617] [cursor=pointer]:
+              - /url: https://videodirect.amazon.com/home/landing
+              - heading "Prime Video Direct" [level=5] [ref=f5e1618]
+              - generic [ref=f5e1619]: Video DistributionMade Easy
+          - listitem [ref=f5e1620]
+          - listitem [ref=f5e1621]:
+            - link [ref=f5e1622] [cursor=pointer]:
+              - /url: https://www.shopbop.com
+              - heading "Shopbop" [level=5] [ref=f5e1623]
+              - generic [ref=f5e1624]: DesignerFashion Brands
+          - listitem [ref=f5e1625]
+          - listitem [ref=f5e1626]:
+            - link [ref=f5e1627] [cursor=pointer]:
+              - /url: https://www.woot.com/
+              - heading "Woot!" [level=5] [ref=f5e1628]
+              - generic [ref=f5e1629]: Deals and Shenanigans
+          - listitem [ref=f5e1630]
+          - listitem [ref=f5e1631]:
+            - link [ref=f5e1632] [cursor=pointer]:
+              - /url: https://www.zappos.com
+              - heading "Zappos" [level=5] [ref=f5e1633]
+              - generic [ref=f5e1634]: Shoes &Clothing
+          - listitem [ref=f5e1635]
+          - listitem [ref=f5e1636]:
+            - link [ref=f5e1637] [cursor=pointer]:
+              - /url: https://ring.com
+              - heading "Ring" [level=5] [ref=f5e1638]
+              - generic [ref=f5e1639]: Smart HomeSecurity Systems
+        - list [ref=f5e1640]:
+          - listitem [ref=f5e1641]
+          - listitem [ref=f5e1642]
+          - listitem [ref=f5e1643]:
+            - link [ref=f5e1644] [cursor=pointer]:
+              - /url: https://eero.com/
+              - heading "eero WiFi" [level=5] [ref=f5e1645]
+              - generic [ref=f5e1646]: Stream 4K Videoin Every Room
+          - listitem [ref=f5e1647]
+          - listitem [ref=f5e1648]:
+            - link [ref=f5e1649] [cursor=pointer]:
+              - /url: https://blinkforhome.com/?ref=nav_footer
+              - heading "Blink" [level=5] [ref=f5e1650]
+              - generic [ref=f5e1651]: Smart Securityfor Every Home
+          - listitem [ref=f5e1652]
+          - listitem [ref=f5e1653]:
+            - link [ref=f5e1654] [cursor=pointer]:
+              - /url: https://shop.ring.com/pages/neighbors-app
+              - heading "Neighbors App" [level=5] [ref=f5e1655]
+              - generic [ref=f5e1656]: Real-Time Crime& Safety Alerts
+          - listitem [ref=f5e1657]
+          - listitem [ref=f5e1658]:
+            - link "PillPack Pharmacy Simplified" [ref=f5e1659] [cursor=pointer]:
+              - /url: https://www.pillpack.com
+              - heading "PillPack" [level=5] [ref=f5e1660]
+              - generic [ref=f5e1661]: Pharmacy Simplified
+          - listitem [ref=f5e1662]
+          - listitem [ref=f5e1663]
+          - listitem [ref=f5e1664]
+          - listitem [ref=f5e1665]
+    - generic [ref=f5e1666]:
+      - list [ref=f5e1667]:
+        - listitem [ref=f5e1668]:
+          - link "Conditions of Use" [ref=f5e1669] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=508088&ref_=footer_cou
+        - listitem [ref=f5e1670]:
+          - link "Privacy Notice" [ref=f5e1671] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ&ref_=footer_privacy
+        - listitem [ref=f5e1672]:
+          - link "Consumer Health Data Privacy Disclosure" [ref=f5e1673] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?ie=UTF8&nodeId=TnACMrGVghHocjL8KB&ref_=footer_consumer_health_data_privacy
+        - listitem [ref=f5e1674]:
+          - link "Your Ads Privacy Choices" [ref=f5e1675] [cursor=pointer]:
+            - /url: /privacyprefs?ref_=footer_iba
+        - listitem [ref=f5e1676]
+      - generic [ref=f5e1678]: © 1996-2026, Amazon.com, Inc. or its affiliates

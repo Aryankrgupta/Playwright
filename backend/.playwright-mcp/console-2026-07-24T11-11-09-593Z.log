@@ -1,0 +1,11 @@
+[      31ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:40:5
+    at <anonymous>:41:7
+[      32ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:40:5
+    at <anonymous>:41:7
+[     879ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://bookface-static.ycombinator.com/vite/assets/sentry-Ca0bquLB.js:13

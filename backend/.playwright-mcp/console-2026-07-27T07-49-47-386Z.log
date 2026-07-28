@@ -1,0 +1,80 @@
+[   10396ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   10476ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at eval (eval at <anonymous> (https://www.google.com/search?q=latest+AI+news&sca_esv=5e02511340b4fcfa&source=hp&ei=lw1naun9Lb7N1sQPw-q3iQI&iflsig=ABILxe8AAAAAamcbp5-OK1J0Nt2GnqmQ_4YjAXxmPZVp&ved=0ahUKEwippaO5r_KVAxW-ppUCHUP1LSEQ4dUDCB4&uact=5&oq=latest+AI+news&gs_lp=Egdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3c0gaUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE&sclient=gws-wiz:2:459), <anonymous>:4759:27911)
+    at fZ (eval at <anonymous> (https://www.google.com/search?q=latest+AI+news&sca_esv=5e02511340b4fcfa&source=hp&ei=lw1naun9Lb7N1sQPw-q3iQI&iflsig=ABILxe8AAAAAamcbp5-OK1J0Nt2GnqmQ_4YjAXxmPZVp&ved=0ahUKEwippaO5r_KVAxW-ppUCHUP1LSEQ4dUDCB4&uact=5&oq=latest+AI+news&gs_lp=Egdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3c0gaUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE&sclient=gws-wiz:2:459), <anonymous>:4759:20054)
+    at J.eval [as F] (eval at <anonymous> (https://www.google.com/search?q=latest+AI+news&sca_esv=5e02511340b4fcfa&source=hp&ei=lw1naun9Lb7N1sQPw-q3iQI&iflsig=ABILxe8AAAAAamcbp5-OK1J0Nt2GnqmQ_4YjAXxmPZVp&ved=0ahUKEwippaO5r_KVAxW-ppUCHUP1LSEQ4dUDCB4&uact=5&oq=latest+AI+news&gs_lp=Egdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3c0gaUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE&sclient=gws-wiz:2:459), <anonymous>:4759:60102)
+    at CT (eval at <anonymous> (https://www.google.com/search?q=latest+AI+news&sca_esv=5e02511340b4fcfa&source=hp&ei=lw1naun9Lb7N1sQPw-q3iQI&iflsig=ABILxe8AAAAAamcbp5-OK1J0Nt2GnqmQ_4YjAXxmPZVp&ved=0ahUKEwippaO5r_KVAxW-ppUCHUP1LSEQ4dUDCB4&uact=5&oq=latest+AI+news&gs_lp=Egdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3c0gaUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE&sclient=gws-wiz:2:459), <anonymous>:4759:24824)
+    at Vu (eval at <anonymous> (https://www.google.com/search?q=latest+AI+news&sca_esv=5e02511340b4fcfa&source=hp&ei=lw1naun9Lb7N1sQPw-q3iQI&iflsig=ABILxe8AAAAAamcbp5-OK1J0Nt2GnqmQ_4YjAXxmPZVp&ved=0ahUKEwippaO5r_KVAxW-ppUCHUP1LSEQ4dUDCB4&uact=5&oq=latest+AI+news&gs_lp=Egdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3c0gaUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE&sclient=gws-wiz:2:459), <anonymous>:4759:13780)
+    at R (eval at <anonymous> (https://www.google.com/search?q=latest+AI+news&sca_esv=5e02511340b4fcfa&source=hp&ei=lw1naun9Lb7N1sQPw-q3iQI&iflsig=ABILxe8AAAAAamcbp5-OK1J0Nt2GnqmQ_4YjAXxmPZVp&ved=0ahUKEwippaO5r_KVAxW-ppUCHUP1LSEQ4dUDCB4&uact=5&oq=latest+AI+news&gs_lp=Egdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3c0gaUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE&sclient=gws-wiz:2:459), <anonymous>:4759:941)
+[   11471ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dlatest%2BAI%2Bnews%26sca_esv%3D5e02511340b4fcfa%26source%3Dhp%26ei%3Dlw1naun9Lb7N1sQPw-q3iQI%26iflsig%3DABILxe8AAAAAamcbp5-OK1J0Nt2GnqmQ_4YjAXxmPZVp%26ved%3D0ahUKEwippaO5r_KVAxW-ppUCHUP1LSEQ4dUDCB4%26uact%3D5%26oq%3Dlatest%2BAI%2Bnews%26gs_lp%3DEgdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3c0gaUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE%26sclient%3Dgws-wiz%26sei%3DoQ1naprvL66jhvcPp-CMyAU&q=EhAkCUDlEayogQjBKdwolexuGKKbnNMGIjCOUqouygMrczLfuR793hZuxzBmm5Gh2Z3HJ5lIG2avHK2LY6HiX_cJa_fluya_SDoyAVJaAUM:0
+[   11488ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   12024ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   12185ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdLLIMbAAAAAIl-KLj9p1ePhM-4LCCDbjtJLqRO&co=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbTo0NDM.&hl=en&v=A7KpaEASfhDcK0nXxgQEyyYv&size=normal&s=UGUFjuyHTvjCuoFcSuNLfJCkvY6qmUpVkw_WAqt_y2_Pi1S6Uum771I5-vF_Cn9_BAljEVoAY-ehB2uzhaejpcPuXacyWi6rgQ9EHeVqIZPGcBcrALOioTGDOffp52cFYGqjbf6Rv69eMk7XP4HCWk9obup1xuqltnSNivK45lWk2uy1voVtOncD87jg3wj8_wEdPLMWE-wMQlnn-Wj2LBdtL5DVpBrDzXla7KAjYa9lLYElV5i4YEWH2MkkEh1Y1J8-XiwqFkkePkzuSwwOviaymJliR8Y&anchor-ms=20000&execute-ms=30000&cb=4t3d4x5ibflg:0
+[   12358ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:371:62)
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:374:399)
+    at aN.M (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:118:303)
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:233:151)
+    at B.next (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:799:238)
+    at https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:133:18
+[   12482ms] ReferenceError: solveSimpleChallenge is not defined
+    at onload (https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dlatest%2BAI%2Bnews%26sca_esv%3D5e02511340b4fcfa%26source%3Dhp%26ei%3Dlw1naun9Lb7N1sQPw-q3iQI%26iflsig%3DABILxe8AAAAAamcbp5-OK1J0Nt2GnqmQ_4YjAXxmPZVp%26ved%3D0ahUKEwippaO5r_KVAxW-ppUCHUP1LSEQ4dUDCB4%26uact%3D5%26oq%3Dlatest%2BAI%2Bnews%26gs_lp%3DEgdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3c0gaUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE%26sclient%3Dgws-wiz%26sei%3DoQ1naprvL66jhvcPp-CMyAU&q=EhAkCUDlEayogQjBKdwolexuGKKbnNMGIjCOUqouygMrczLfuR793hZuxzBmm5Gh2Z3HJ5lIG2avHK2LY6HiX_cJa_fluya_SDoyAVJaAUM:4:316)
+[   12827ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:371:62)
+    at https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:1205:43
+    at https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:1261:125
+    at https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:764:104
+    at https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:250:328
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:120:110)
+[   12861ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at xy.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:821:387)
+    at xy.K.R.<computed>.ab (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:1658:488)
+    at xy.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:536:82)
+    at xy.K.R.<computed>.F.FX (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:1655:237)
+    at https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:430:184
+    at Pb (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:943:79)
+[   12998ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://www.google.com/recaptcha/enterprise/bframe?hl=en&v=A7KpaEASfhDcK0nXxgQEyyYv&k=6LdLLIMbAAAAAIl-KLj9p1ePhM-4LCCDbjtJLqRO&bft=0dAFcWeA5o99CYqYmzijPwn1ybPwoNbtcFYR_D9MaqzIPlYGF-ZvvEZxGoxmwn2QRVecgXds9gPCZT1KwfAE9rITD5O__5xIPsTA:0
+[   13004ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   13157ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at xy.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:821:387)
+    at xy.K.R.<computed>.ab (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:1658:488)
+    at xy.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:536:82)
+    at xy.K.R.<computed>.F.FX (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:1655:237)
+    at https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:430:184
+    at Pb (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:943:79)

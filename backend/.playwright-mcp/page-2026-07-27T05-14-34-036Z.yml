@@ -1,0 +1,14 @@
+- generic [ref=f3e2]:
+  - separator [ref=f3e3]
+  - iframe [ref=f3e8]:
+    - generic [ref=f4e2]:
+      - generic [ref=f4e3]:
+        - checkbox "I'm not a robot" [ref=f4e7]
+        - generic [ref=f4e9]: I'm not a robot
+      - generic [ref=f4e12]: reCAPTCHA
+  - separator [ref=f3e9]
+  - generic [ref=f3e10]:
+    - text: About this page Our systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot.
+    - link "Why did this happen?" [ref=f3e11] [cursor=pointer]:
+      - /url: "#"
+    - generic [ref=f3e12]: "IP address: 2409:40e5:11ac:a881:8c1:29dc:2895:ec6eTime: 2026-07-27T05:14:28ZURL: https://www.google.com/search?q=latest+AI+news&sca_esv=80600b589e019a80&source=hp&ei=LOlmapatE8jgseMP6Ne4OQ&iflsig=ABILxe8AAAAAamb3PJ3xBKT2jGWopnW9RBkDXbAJ0v4q&ved=0ahUKEwiW88HbjPKVAxVIcGwGHegrLgcQ4dUDCCE&uact=5&oq=latest+AI+news&gs_lp=Egdnd3Mtd2l6Ig5sYXRlc3QgQUkgbmV3c0h5UABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE&sclient=gws-wiz&sei=M-lmarrBGc_h4-EPnNbTuAw"

@@ -1,0 +1,96 @@
+- generic [ref=f4e2]:
+  - navigation "Shortcuts menu" [ref=f4e3]:
+    - heading "Skip to" [level=2] [ref=f4e4]
+    - list "Skip to" [ref=f4e5]:
+      - listitem [ref=f4e6]:
+        - link "main content" [ref=f4e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+    - separator [ref=f4e8]
+  - banner [ref=f4e9]:
+    - navigation "Primary" [ref=f4e10]:
+      - generic [ref=f4e11]:
+        - generic [ref=f4e12]:
+          - link "Amazon" [ref=f4e14] [cursor=pointer]:
+            - /url: /ref=nav_logo
+          - button "Deliver to India" [ref=f4e17] [cursor=pointer]:
+            - generic [ref=f4e19]:
+              - generic [ref=f4e20]: Deliver to
+              - generic [ref=f4e21]: India
+        - search [ref=f4e24]:
+          - generic [ref=f4e27]:
+            - generic [ref=f4e28]: All
+            - combobox "Select the department you want to search in" [ref=f4e31] [cursor=pointer]:
+              - option "All Departments" [selected]
+              - option "Arts & Crafts"
+              - option "Automotive"
+              - option "Baby"
+              - option "Beauty & Personal Care"
+              - option "Books"
+              - option "Boys' Fashion"
+              - option "Computers"
+              - option "Deals"
+              - option "Digital Music"
+              - option "Electronics"
+              - option "Girls' Fashion"
+              - option "Health & Household"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Kindle Store"
+              - option "Luggage"
+              - option "Men's Fashion"
+              - option "Movies & TV"
+              - option "Music, CDs & Vinyl"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Software"
+              - option "Sports & Outdoors"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Video Games"
+              - option "Women's Fashion"
+          - searchbox "Search Amazon" [ref=f4e34]: wireless mouse best seller
+          - generic "Go" [ref=f4e37] [cursor=pointer]:
+            - button "Go" [ref=f4e38]
+        - generic [ref=f4e40]:
+          - link "Choose a language for shopping in Amazon United States. The current selection is English (EN)." [ref=f4e42] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang_ais
+            - generic [ref=f4e45]:
+              - img "United States" [ref=f4e46]
+              - generic [ref=f4e47]: EN
+          - link "Hello, sign in Account & Lists" [ref=f4e49] [cursor=pointer]:
+            - /url: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fs%2Fref%3Dnb_sb_noss_1%2F%3F_encoding%3DUTF8%26crid%3D12FNNR053Y599%26field-keywords%3Dwireless%2520mouse%2520best%2520seller%26sprefix%3Dwireless%2520mouse%2520best%2520seller%252Caps%252C437%26url%3Dsearch-alias%253Daps%26ref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+            - generic [ref=f4e50]: Hello, sign in
+            - generic [ref=f4e52]: Account & Lists
+          - link "Returns & Orders" [ref=f4e53] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=f4e54]: Returns
+            - generic [ref=f4e55]: "& Orders"
+          - link "0 items in cart" [ref=f4e56] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=f4e57]: "0"
+      - generic [ref=f4e60]:
+        - button "Open All Categories Menu" [ref=f4e62] [cursor=pointer]:
+          - generic [ref=f4e64]: All
+        - list [ref=f4e68]:
+          - listitem [ref=f4e69]:
+            - link "Today's Deals" [ref=f4e71] [cursor=pointer]:
+              - /url: /gp/goldbox?ref_=nav_cs_gb
+          - listitem [ref=f4e72]:
+            - link "Prime Video" [ref=f4e74] [cursor=pointer]:
+              - /url: /Amazon-Video/b/?ie=UTF8&node=2858778011&ref_=nav_cs_prime_video
+          - listitem [ref=f4e75]:
+            - link "Gift Cards" [ref=f4e77] [cursor=pointer]:
+              - /url: /gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc
+          - listitem [ref=f4e78]:
+            - link "Sell" [ref=f4e80] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell
+          - listitem [ref=f4e81]:
+            - link "Customer Service" [ref=f4e83] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice
+          - listitem [ref=f4e84]:
+            - link "Registry" [ref=f4e86] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16115931011&ref_=nav_cs_registry
+          - link "Click to call our Disability Customer Support line, or reach us directly at 1-888-283-1678" [ref=f4e87] [cursor=pointer]:
+            - /url: /gp/help/customer/accessibility
+            - text: Disability Customer Support
