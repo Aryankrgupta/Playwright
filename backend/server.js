@@ -594,11 +594,14 @@ async function spawnMcpClient({ record = false, taskId = null } = {}) {
 
     const args = [
       "@playwright/mcp",
-      "--cdp-endpoint",
-      "http://127.0.0.1:9222",
+      // =========================================================================
+      // ✅ ENGINE BOUNDARY REPAIR: Forces the child node to strictly lock onto Chromium
+      // =========================================================================
+      "--engine", "chromium",
+      // =========================================================================
+      "--cdp-endpoint", "http://127.0.0.1:9222",
       "--isolated",
-      "--timeout-navigation",
-      "30000", // Increased to accommodate heavy anti-bot script execution
+      "--timeout-navigation", "30000", 
     ];
     if (process.env.PLAYWRIGHT_HEADED !== "true") args.push("--headless");
 
@@ -1051,7 +1054,7 @@ async function* runAgent(state, client, tools, signal) {
 
     const subGoalTimer = timer(`sub-goal ${subGoal.id} ("${subGoal.goal}")`);
     const stepsBefore = state.currentStep;
-    const result = yield* runSubGoal(state, client, tools, signal);
+    const result = yield* runSubGoal(state, client, tools, signal, state.turbo);
     const stepsUsed = state.currentStep - stepsBefore + 1;
 
     if (result === "rate_limited") {

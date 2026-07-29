@@ -1,2 +1,7 @@
+# wayfinder/backend/nixpacks.toml
 [providers]
-node = { npxPlaywrightInstall = true } # Tells Railway to download and configure Chromium binaries at build time
+node = { npxPlaywrightInstall = false } # Disable the generic multi-browser setup script
+
+[phases.setup]
+# FORCE THE PACKAGER TO EXCLUSIVELY BUILD HEADLESS CHROMIUM:
+cmds = ["npm ci", "npx playwright install chromium"]
