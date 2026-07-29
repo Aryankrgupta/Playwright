@@ -1,7 +1,11 @@
 # wayfinder/backend/nixpacks.toml
 [providers]
-node = { npxPlaywrightInstall = false } # Disable the generic multi-browser setup script
+node = { npxPlaywrightInstall = false } # Disable the generic installer loop
+
+[variables]
+# CRITICAL LAYER: Forces Playwright to download and read binaries inside your local project path
+PLAYWRIGHT_BROWSERS_PATH = "/app/node_modules/playwright-core/.local-browsers"
 
 [phases.setup]
-# FORCE THE PACKAGER TO EXCLUSIVELY BUILD HEADLESS CHROMIUM:
+# Force the system builder to pull down the explicit headless shell binaries
 cmds = ["npm ci", "npx playwright install chromium"]
