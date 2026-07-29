@@ -1,0 +1,1718 @@
+- generic [ref=f4e2]:
+  - navigation "Shortcuts menu" [ref=f4e3]:
+    - heading "Skip to" [level=2] [ref=f4e4]
+    - list "Skip to" [ref=f4e5]:
+      - listitem [ref=f4e6]:
+        - link "main content" [ref=f4e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=f4e8]:
+        - link "Results" [ref=f4e9] [cursor=pointer]:
+          - /url: .s-asin a:has(h2)
+      - listitem [ref=f4e10]:
+        - link "Filters" [ref=f4e11] [cursor=pointer]:
+          - /url: "#s-refinements > div.a-section > div:first-child"
+    - separator [ref=f4e12]
+    - heading "Keyboard shortcuts" [level=2] [ref=f4e13]
+    - list "Keyboard shortcuts" [ref=f4e14]:
+      - listitem [ref=f4e15]:
+        - link "Search, alt, forward slash" [ref=f4e16] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f4e17]:
+            - generic [ref=f4e18]: Search
+            - generic [ref=f4e19]:
+              - generic [ref=f4e20]: alt
+              - generic [ref=f4e21]: +
+              - generic [ref=f4e22]: /
+      - listitem [ref=f4e23]:
+        - link "Cart, shift, alt, c" [ref=f4e24] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f4e25]:
+            - generic [ref=f4e26]: Cart
+            - generic [ref=f4e27]:
+              - generic [ref=f4e28]: shift
+              - generic [ref=f4e29]: +
+              - generic [ref=f4e30]: alt
+              - generic [ref=f4e31]: +
+              - generic [ref=f4e32]: C
+      - listitem [ref=f4e33]:
+        - link "Home, shift, alt, h" [ref=f4e34] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f4e35]:
+            - generic [ref=f4e36]: Home
+            - generic [ref=f4e37]:
+              - generic [ref=f4e38]: shift
+              - generic [ref=f4e39]: +
+              - generic [ref=f4e40]: alt
+              - generic [ref=f4e41]: +
+              - generic [ref=f4e42]: H
+      - listitem [ref=f4e43]:
+        - link "Your orders, shift, alt, o" [ref=f4e44] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=f4e45]:
+            - generic [ref=f4e46]: Orders
+            - generic [ref=f4e47]:
+              - generic [ref=f4e48]: shift
+              - generic [ref=f4e49]: +
+              - generic [ref=f4e50]: alt
+              - generic [ref=f4e51]: +
+              - generic [ref=f4e52]: O
+      - listitem [ref=f4e53]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=f4e54] [cursor=pointer]:
+          - generic [ref=f4e55]:
+            - generic [ref=f4e56]: Show/Hide shortcuts
+            - generic [ref=f4e57]:
+              - generic [ref=f4e58]: shift
+              - generic [ref=f4e59]: +
+              - generic [ref=f4e60]: alt
+              - generic [ref=f4e61]: +
+              - generic [ref=f4e62]: Z
+    - generic [ref=f4e63]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=f4e69]:
+    - navigation "Primary" [ref=f4e70]:
+      - generic [ref=f4e71]:
+        - generic [ref=f4e72]:
+          - link "Amazon" [ref=f4e74] [cursor=pointer]:
+            - /url: /ref=nav_logo
+          - button "Deliver to India" [ref=f4e77] [cursor=pointer]:
+            - generic [ref=f4e79]:
+              - generic [ref=f4e80]: Deliver to
+              - generic [ref=f4e81]: India
+        - search [ref=f4e84]:
+          - generic [ref=f4e87]:
+            - generic [ref=f4e88]: All
+            - combobox "Select the department you want to search in" [ref=f4e91] [cursor=pointer]:
+              - option "All Departments" [selected]
+              - option "Arts & Crafts"
+              - option "Automotive"
+              - option "Baby"
+              - option "Beauty & Personal Care"
+              - option "Books"
+              - option "Boys' Fashion"
+              - option "Computers"
+              - option "Deals"
+              - option "Digital Music"
+              - option "Electronics"
+              - option "Girls' Fashion"
+              - option "Health & Household"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Kindle Store"
+              - option "Luggage"
+              - option "Men's Fashion"
+              - option "Movies & TV"
+              - option "Music, CDs & Vinyl"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Software"
+              - option "Sports & Outdoors"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Video Games"
+              - option "Women's Fashion"
+          - searchbox "Search Amazon" [ref=f4e94]: wireless mouse
+          - generic [ref=f4e95]:
+            - generic "Go" [ref=f4e97] [cursor=pointer]:
+              - button "Go" [ref=f4e98]
+            - button [ref=f4e100]: Agent Search
+        - generic [ref=f4e102]:
+          - generic [ref=f4e103]:
+            - link "Choose a language for shopping in Amazon United States. The current selection is English (EN)." [ref=f4e104] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang_ais
+              - generic [ref=f4e107]:
+                - img "United States" [ref=f4e108]
+                - generic [ref=f4e109]: EN
+            - button "Expand to Change Language or Country" [ref=f4e110] [cursor=pointer]
+          - generic [ref=f4e111]:
+            - link "Hello, sign in Account & Lists" [ref=f4e112] [cursor=pointer]:
+              - /url: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fs%3Fk%3Dwireless%2Bmouse%26crid%3D1HCRFJNZZ6Z4Z%26sprefix%3Dwireless%2Bmouse%252Caps%252C357%26ref%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=f4e113]: Hello, sign in
+              - generic [ref=f4e115]: Account & Lists
+            - button "Expand Account and Lists" [ref=f4e116] [cursor=pointer]
+          - link "Returns & Orders" [ref=f4e117] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=f4e118]: Returns
+            - generic [ref=f4e119]: "& Orders"
+          - link "0 items in cart" [ref=f4e120] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=f4e121]: "0"
+      - generic [ref=f4e124]:
+        - button "Open All Categories Menu" [ref=f4e126] [cursor=pointer]:
+          - generic [ref=f4e128]: All
+        - list [ref=f4e132]:
+          - listitem [ref=f4e133]:
+            - link "Today's Deals" [ref=f4e135] [cursor=pointer]:
+              - /url: /gp/goldbox?ref_=nav_cs_gb
+          - listitem [ref=f4e136]:
+            - link "Prime Video" [ref=f4e138] [cursor=pointer]:
+              - /url: /Amazon-Video/b/?ie=UTF8&node=2858778011&ref_=nav_cs_prime_video
+          - listitem [ref=f4e139]:
+            - link "Gift Cards" [ref=f4e141] [cursor=pointer]:
+              - /url: /gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc
+          - listitem [ref=f4e142]:
+            - link "Sell" [ref=f4e144] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell
+          - listitem [ref=f4e145]:
+            - link "Customer Service" [ref=f4e147] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice
+          - listitem [ref=f4e148]:
+            - link "Registry" [ref=f4e150] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16115931011&ref_=nav_cs_registry
+          - link "Click to call our Disability Customer Support line, or reach us directly at 1-888-283-1678" [ref=f4e151] [cursor=pointer]:
+            - /url: /gp/help/customer/accessibility
+            - text: Disability Customer Support
+      - dialog [ref=f4e154]
+  - generic [ref=f4e156]:
+    - heading [level=1] [ref=f4e159]:
+      - generic [ref=f4e160]:
+        - heading "1-16 of over 30,000 results for \"wireless mouse\"" [level=2] [ref=f4e163]
+        - generic [ref=f4e168]:
+          - generic [ref=f4e169]: "Sort by:"
+          - combobox "Sort by:" [ref=f4e170]:
+            - option "Featured" [selected]
+            - 'option "Price: Low to High"'
+            - 'option "Price: High to Low"'
+            - option "Avg. Customer Review"
+            - option "Newest Arrivals"
+            - option "Best Sellers"
+          - generic [ref=f4e171] [cursor=pointer]: Sort by:Featured
+    - generic [ref=f4e175]:
+      - generic [ref=f4e177]:
+        - generic [ref=f4e179]:
+          - generic [ref=f4e181]:
+            - generic [ref=f4e184]:
+              - heading "Results" [level=2] [ref=f4e185]
+              - generic [ref=f4e186]: Check each product page for other buying options.
+            - generic:
+              - list:
+                - listitem [ref=f4e187]:
+                  - generic [ref=f4e193]:
+                    - generic [ref=f4e195]:
+                      - generic "Amazon's Choice" [ref=f4e198]: Overall Pick
+                      - link [ref=f4e212] [cursor=pointer]:
+                        - /url: /Logitech-Wireless-Mouse-M185-Swift/dp/B004YAVF8I/ref=sr_1_1?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-1
+                    - generic [ref=f4e217]:
+                      - link [ref=f4e219] [cursor=pointer]:
+                        - /url: /Logitech-Wireless-Mouse-M185-Swift/dp/B004YAVF8I/ref=sr_1_1?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-1
+                        - heading "Logitech M185 Compact Ambidextrous 2.4 GHz Wireless Mouse - Swift Grey | Ambidextrous mouse with 2.4 GHz USB-A Nano Receiver, Optical Tracking, 12-Months Battery Life, PC, Mac, Laptop compatible" [level=2] [ref=f4e220]
+                      - generic [ref=f4e221]:
+                        - generic [ref=f4e222]:
+                          - text: "4.5"
+                          - button "4.5 out of 5 stars, rating details" [ref=f4e224] [cursor=pointer]:
+                            - generic [ref=f4e225]: 4.5 out of 5 stars
+                          - link "44,243 ratings" [ref=f4e230] [cursor=pointer]:
+                            - /url: /Logitech-Wireless-Mouse-M185-Swift/dp/B004YAVF8I/ref=sr_1_1?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-1#customerReviews
+                            - text: (44.2K)
+                        - generic [ref=f4e231]: 10K+ bought in past month
+                      - generic [ref=f4e234]:
+                        - generic [ref=f4e237]:
+                          - generic [ref=f4e238]: Price, product page
+                          - 'link "INR 1,335.41 List: INR 1,722.15 List: INR 1,722.15" [ref=f4e239] [cursor=pointer]':
+                            - /url: /Logitech-Wireless-Mouse-M185-Swift/dp/B004YAVF8I/ref=sr_1_1?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-1
+                            - generic [ref=f4e240]:
+                              - generic [ref=f4e241]: INR 1,335.41
+                              - generic [ref=f4e242]:
+                                - text: INR
+                                - generic [ref=f4e243]:
+                                  - text: 1,335
+                                  - generic [ref=f4e244]: .
+                                - text: "41"
+                            - generic [ref=f4e245]: "List: INR 1,722.15"
+                            - generic [ref=f4e246]:
+                              - text: "List:"
+                              - generic [ref=f4e247]:
+                                - generic [ref=f4e248]: INR 1,722.15
+                                - text: INR1,722.15
+                        - button "Safer chemicals +1 more" [ref=f4e260] [cursor=pointer]
+                        - button "Add to cart" [ref=f4e277] [cursor=pointer]
+                        - generic [ref=f4e279]:
+                          - text: More Buying ChoicesINR 795.50
+                          - link "(6 used & new offers)" [ref=f4e281] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B004YAVF8I/ref=sr_1_1_olp?keywords=wireless+mouse&crid=1HCRFJNZZ6Z4Z&sprefix=wireless+mouse%2Caps%2C357&dib_tag=se&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&qid=1785305947&sr=8-1
+                - listitem [ref=f4e284]:
+                  - generic [ref=f4e290]:
+                    - link [ref=f4e296] [cursor=pointer]:
+                      - /url: /Logitech-Wireless-Computer-Unifying-Receiver/dp/B087Z5WDJ2/ref=sr_1_2?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-2
+                    - generic [ref=f4e301]:
+                      - link [ref=f4e303] [cursor=pointer]:
+                        - /url: /Logitech-Wireless-Computer-Unifying-Receiver/dp/B087Z5WDJ2/ref=sr_1_2?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-2
+                        - heading "Logitech M510 Full Size Ambidextrous 2.4 GHz Wireless Mouse | 2.4 GHz USB-A Nano Receiver, tilt-to-scroll function, 2-year battery life, Windows Mac Linux compatible, certified for Chrome" [level=2] [ref=f4e304]
+                      - generic [ref=f4e305]:
+                        - generic [ref=f4e306]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=f4e308] [cursor=pointer]:
+                            - generic [ref=f4e309]: 4.6 out of 5 stars
+                          - link "35,170 ratings" [ref=f4e314] [cursor=pointer]:
+                            - /url: /Logitech-Wireless-Computer-Unifying-Receiver/dp/B087Z5WDJ2/ref=sr_1_2?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-2#customerReviews
+                            - text: (35.1K)
+                        - generic [ref=f4e315]: 10K+ bought in past month
+                      - generic [ref=f4e318]:
+                        - link "See options" [ref=f4e327] [cursor=pointer]:
+                          - /url: /Logitech-Wireless-Computer-Unifying-Receiver/dp/B087Z5WDJ2/ref=sr_1_2_so_INPUT_MOUSE?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-2
+                        - generic [ref=f4e329]:
+                          - text: No featured offers availableINR 1,943.28
+                          - link "(44 used & new offers)" [ref=f4e331] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B087Z5WDJ2/ref=sr_1_2_olp?keywords=wireless+mouse&crid=1HCRFJNZZ6Z4Z&sprefix=wireless+mouse%2Caps%2C357&dib_tag=se&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&qid=1785305947&sr=8-2
+                - listitem [ref=f4e334]:
+                  - generic [ref=f4e340]:
+                    - link [ref=f4e346] [cursor=pointer]:
+                      - /url: /INFINMIND-L123-Wireless-Bluetooth-Computer/dp/B0GFCSPTK2/ref=sr_1_3?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-3
+                    - generic [ref=f4e351]:
+                      - link [ref=f4e353] [cursor=pointer]:
+                        - /url: /INFINMIND-L123-Wireless-Bluetooth-Computer/dp/B0GFCSPTK2/ref=sr_1_3?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-3
+                        - heading "INFINMIND L123 Wireless Mouse, 2.4G USB+2 Bluetooth, for Computer, Laptop. | Programmable Buttons, Silent Multi-Device Mouse, Anti-Slip Rubber. for Computer, Laptop, MacBook, iPad." [level=2] [ref=f4e354]
+                      - generic [ref=f4e355]:
+                        - generic [ref=f4e356]:
+                          - text: "4.9"
+                          - button "4.9 out of 5 stars, rating details" [ref=f4e358] [cursor=pointer]:
+                            - generic [ref=f4e359]: 4.9 out of 5 stars
+                          - link "31 ratings" [ref=f4e364] [cursor=pointer]:
+                            - /url: /INFINMIND-L123-Wireless-Bluetooth-Computer/dp/B0GFCSPTK2/ref=sr_1_3?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-3#customerReviews
+                            - text: (31)
+                        - generic [ref=f4e365]: New on Amazon in past month
+                      - generic [ref=f4e368]:
+                        - link "See options" [ref=f4e377] [cursor=pointer]:
+                          - /url: /INFINMIND-L123-Wireless-Bluetooth-Computer/dp/B0GFCSPTK2/ref=sr_1_3_so_INPUT_MOUSE?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-3
+                        - generic [ref=f4e379]:
+                          - text: No featured offers availableINR 1,434.96
+                          - link "(1 new offer)" [ref=f4e381] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B0GFCSPTK2/ref=sr_1_3_olp?keywords=wireless+mouse&crid=1HCRFJNZZ6Z4Z&sprefix=wireless+mouse%2Caps%2C357&dib_tag=se&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&qid=1785305947&sr=8-3
+                - listitem [ref=f4e384]:
+                  - generic [ref=f4e390]:
+                    - link [ref=f4e396] [cursor=pointer]:
+                      - /url: /Logitech-SUPERSTRIKE-Performance-Lightweight-Customizable/dp/B0G12HGHGM/ref=sr_1_4?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-4
+                    - generic [ref=f4e401]:
+                      - link [ref=f4e403] [cursor=pointer]:
+                        - /url: /Logitech-SUPERSTRIKE-Performance-Lightweight-Customizable/dp/B0G12HGHGM/ref=sr_1_4?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-4
+                        - heading "Logitech G PRO X2 SUPERSTRIKE Wireless Gaming Mouse - Black/White | Customizable Rapid Trigger Magnetic Analog Switches, Adjustable Click Haptics, 61g Lightweight, USB-C, <8K, For PC/Mac" [level=2] [ref=f4e404]
+                      - generic [ref=f4e405]:
+                        - generic [ref=f4e406]: Top Reviewed for Battery life
+                        - generic [ref=f4e409]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=f4e411] [cursor=pointer]:
+                            - generic [ref=f4e412]: 4.7 out of 5 stars
+                          - link "434 ratings" [ref=f4e417] [cursor=pointer]:
+                            - /url: /Logitech-SUPERSTRIKE-Performance-Lightweight-Customizable/dp/B0G12HGHGM/ref=sr_1_4?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-4#customerReviews
+                            - text: (434)
+                        - generic [ref=f4e418]: 7K+ bought in past month
+                      - generic [ref=f4e421]:
+                        - link "See options" [ref=f4e430] [cursor=pointer]:
+                          - /url: /Logitech-SUPERSTRIKE-Performance-Lightweight-Customizable/dp/B0G12HGHGM/ref=sr_1_4_so_INPUT_MOUSE?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-4
+                        - generic [ref=f4e432]:
+                          - text: No featured offers availableINR 14,645.43
+                          - link "(6 used & new offers)" [ref=f4e434] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B0G12HGHGM/ref=sr_1_4_olp?keywords=wireless+mouse&crid=1HCRFJNZZ6Z4Z&sprefix=wireless+mouse%2Caps%2C357&dib_tag=se&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&qid=1785305947&sr=8-4
+                - listitem [ref=f4e437]:
+                  - generic [ref=f4e443]:
+                    - link [ref=f4e449] [cursor=pointer]:
+                      - /url: /Amazon-Basics-Wireless-Multi-Device-Compatibility/dp/B005EJH6Z4/ref=sr_1_5?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-5
+                    - generic [ref=f4e454]:
+                      - link [ref=f4e456] [cursor=pointer]:
+                        - /url: /Amazon-Basics-Wireless-Multi-Device-Compatibility/dp/B005EJH6Z4/ref=sr_1_5?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-5
+                        - heading "Amazon Basics 2.4 GHz Wireless Optical Computer Mouse with USB Nano Receiver, Portable, No Wires, Smooth Tracking, Multi-Device Compatibility, Black" [level=2] [ref=f4e457]
+                      - generic [ref=f4e458]:
+                        - generic [ref=f4e459]:
+                          - text: "4.5"
+                          - button "4.5 out of 5 stars, rating details" [ref=f4e461] [cursor=pointer]:
+                            - generic [ref=f4e462]: 4.5 out of 5 stars
+                          - link "69,467 ratings" [ref=f4e467] [cursor=pointer]:
+                            - /url: /Amazon-Basics-Wireless-Multi-Device-Compatibility/dp/B005EJH6Z4/ref=sr_1_5?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-5#customerReviews
+                            - text: (69.4K)
+                        - generic [ref=f4e468]: 10K+ bought in past month
+                      - generic [ref=f4e471]:
+                        - link "See options" [ref=f4e480] [cursor=pointer]:
+                          - /url: /Amazon-Basics-Wireless-Multi-Device-Compatibility/dp/B005EJH6Z4/ref=sr_1_5_so_INPUT_MOUSE?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-5
+                        - generic [ref=f4e482]:
+                          - text: No featured offers availableINR 975.47
+                          - link "(10 used & new offers)" [ref=f4e484] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B005EJH6Z4/ref=sr_1_5_olp?keywords=wireless+mouse&crid=1HCRFJNZZ6Z4Z&sprefix=wireless+mouse%2Caps%2C357&dib_tag=se&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&qid=1785305947&sr=8-5
+                - listitem [ref=f4e487]:
+                  - generic [ref=f4e493]:
+                    - link [ref=f4e499] [cursor=pointer]:
+                      - /url: /Logitech-Vertical-Ergonomic-Bluetooth-Compatible/dp/B09J1TB35S/ref=sr_1_6?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-6
+                    - generic [ref=f4e504]:
+                      - link [ref=f4e506] [cursor=pointer]:
+                        - /url: /Logitech-Vertical-Ergonomic-Bluetooth-Compatible/dp/B09J1TB35S/ref=sr_1_6?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-6
+                        - heading "Logitech Lift Vertical Ergonomic Wireless Mouse - Graphite | Connect via Bluetooth or included Logi Bolt USB-A receiver, quiet clicks, 4 of 6 buttons customizable, Windows Mac compatible" [level=2] [ref=f4e507]
+                      - generic [ref=f4e508]:
+                        - generic [ref=f4e509]:
+                          - text: "4.4"
+                          - button "4.4 out of 5 stars, rating details" [ref=f4e511] [cursor=pointer]:
+                            - generic [ref=f4e512]: 4.4 out of 5 stars
+                          - link "13,612 ratings" [ref=f4e517] [cursor=pointer]:
+                            - /url: /Logitech-Vertical-Ergonomic-Bluetooth-Compatible/dp/B09J1TB35S/ref=sr_1_6?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-6#customerReviews
+                            - text: (13.6K)
+                        - generic [ref=f4e518]: 8K+ bought in past month
+                      - generic [ref=f4e521]:
+                        - link "See options" [ref=f4e530] [cursor=pointer]:
+                          - /url: /Logitech-Vertical-Ergonomic-Bluetooth-Compatible/dp/B09J1TB35S/ref=sr_1_6_so_INPUT_MOUSE?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-6
+                        - generic [ref=f4e532]:
+                          - text: No featured offers availableINR 3,668.30
+                          - link "(31 used & new offers)" [ref=f4e534] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B09J1TB35S/ref=sr_1_6_olp?keywords=wireless+mouse&crid=1HCRFJNZZ6Z4Z&sprefix=wireless+mouse%2Caps%2C357&dib_tag=se&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&qid=1785305947&sr=8-6
+                - listitem [ref=f4e537]:
+                  - generic [ref=f4e543]:
+                    - link [ref=f4e549] [cursor=pointer]:
+                      - /url: /TeckNet-Ergonomic-Wireless-Chromebook-Adjustment/dp/B015NBTAOW/ref=sr_1_7?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-7
+                    - generic [ref=f4e554]:
+                      - link [ref=f4e556] [cursor=pointer]:
+                        - /url: /TeckNet-Ergonomic-Wireless-Chromebook-Adjustment/dp/B015NBTAOW/ref=sr_1_7?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-7
+                        - heading "TECKNET Wireless Mouse, 2.4G Ergonomic Computer Mouse, 2600 DPI, Purple | Ergonomic Design with Side Grips, Adjustable DPI, 2-Year Battery, Compact Size, USB-A Plug & Play, Wide OS Compatibility" [level=2] [ref=f4e557]
+                      - generic [ref=f4e558]:
+                        - generic [ref=f4e559]:
+                          - text: "4.5"
+                          - button "4.5 out of 5 stars, rating details" [ref=f4e561] [cursor=pointer]:
+                            - generic [ref=f4e562]: 4.5 out of 5 stars
+                          - link "78,698 ratings" [ref=f4e567] [cursor=pointer]:
+                            - /url: /TeckNet-Ergonomic-Wireless-Chromebook-Adjustment/dp/B015NBTAOW/ref=sr_1_7?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-7#customerReviews
+                            - text: (78.6K)
+                        - generic [ref=f4e568]: 10K+ bought in past month
+                      - generic [ref=f4e571]:
+                        - generic [ref=f4e572]:
+                          - generic [ref=f4e574]:
+                            - generic [ref=f4e575]: Price, product page
+                            - 'link "INR 956.32 List: INR 1,530.69 List: INR 1,530.69" [ref=f4e576] [cursor=pointer]':
+                              - /url: /TeckNet-Ergonomic-Wireless-Chromebook-Adjustment/dp/B015NBTAOW/ref=sr_1_7?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-7
+                              - generic [ref=f4e577]:
+                                - generic [ref=f4e578]: INR 956.32
+                                - generic [ref=f4e579]:
+                                  - text: INR
+                                  - generic [ref=f4e580]:
+                                    - text: "956"
+                                    - generic [ref=f4e581]: .
+                                  - text: "32"
+                              - generic [ref=f4e582]: "List: INR 1,530.69"
+                              - generic [ref=f4e583]:
+                                - text: "List:"
+                                - generic [ref=f4e584]:
+                                  - generic [ref=f4e585]: INR 1,530.69
+                                  - text: INR1,530.69
+                          - generic [ref=f4e586]: Save 5% at checkout
+                        - button "Recycled materials +2 more" [ref=f4e598] [cursor=pointer]
+                        - button "Add to cart" [ref=f4e615] [cursor=pointer]
+                - listitem [ref=f4e618]:
+                  - generic [ref=f4e624]:
+                    - link [ref=f4e630] [cursor=pointer]:
+                      - /url: /Redragon-M810-Wireless-Buttons-Capacity/dp/B09ZY348SY/ref=sr_1_8?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-8
+                    - generic [ref=f4e635]:
+                      - link [ref=f4e637] [cursor=pointer]:
+                        - /url: /Redragon-M810-Wireless-Buttons-Capacity/dp/B09ZY348SY/ref=sr_1_8?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-8
+                        - heading "Redragon M810 PRO Wireless RGB Gaming Mouse 10000 DPI Remapping Keys | Cable-Free 0 Delay, Rapid-Fire Macro Keybinds, Vibing Backlight, Ergonomic Grip Body Comfort" [level=2] [ref=f4e638]
+                      - generic [ref=f4e639]:
+                        - generic [ref=f4e640]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=f4e642] [cursor=pointer]:
+                            - generic [ref=f4e643]: 4.6 out of 5 stars
+                          - link "3,720 ratings" [ref=f4e648] [cursor=pointer]:
+                            - /url: /Redragon-M810-Wireless-Buttons-Capacity/dp/B09ZY348SY/ref=sr_1_8?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-8#customerReviews
+                            - text: (3.7K)
+                        - generic [ref=f4e649]: 1K+ bought in past month
+                      - generic [ref=f4e652]:
+                        - link "See options" [ref=f4e661] [cursor=pointer]:
+                          - /url: /Redragon-M810-Wireless-Buttons-Capacity/dp/B09ZY348SY/ref=sr_1_8_so_INPUT_MOUSE?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-8
+                        - generic [ref=f4e663]:
+                          - text: No featured offers availableINR 3,182.00
+                          - link "(2 used & new offers)" [ref=f4e665] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B09ZY348SY/ref=sr_1_8_olp?keywords=wireless+mouse&crid=1HCRFJNZZ6Z4Z&sprefix=wireless+mouse%2Caps%2C357&dib_tag=se&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&qid=1785305947&sr=8-8
+                - listitem [ref=f4e668]:
+                  - generic [ref=f4e674]:
+                    - link [ref=f4e680] [cursor=pointer]:
+                      - /url: /Logitech-Master-Bluetooth-Wireless-Receiver/dp/B0FB21526X/ref=sr_1_9?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-9
+                    - generic [ref=f4e685]:
+                      - link [ref=f4e687] [cursor=pointer]:
+                        - /url: /Logitech-Master-Bluetooth-Wireless-Receiver/dp/B0FB21526X/ref=sr_1_9?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-9
+                        - heading "Logitech MX Master 3S Bluetooth Wireless Mouse No Receiver - Graphite | No USB Receiver, ultra-fast scrolling, 8K DPI, track on glass, quiet clicks, works with Mac, Windows PC, Linux, Chrome" [level=2] [ref=f4e688]
+                      - generic [ref=f4e689]:
+                        - generic [ref=f4e690]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=f4e692] [cursor=pointer]:
+                            - generic [ref=f4e693]: 4.6 out of 5 stars
+                          - link "513 ratings" [ref=f4e698] [cursor=pointer]:
+                            - /url: /Logitech-Master-Bluetooth-Wireless-Receiver/dp/B0FB21526X/ref=sr_1_9?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-9#customerReviews
+                            - text: (513)
+                        - generic [ref=f4e699]: 5K+ bought in past month
+                      - generic [ref=f4e702]:
+                        - link "See options" [ref=f4e711] [cursor=pointer]:
+                          - /url: /Logitech-Master-Bluetooth-Wireless-Receiver/dp/B0FB21526X/ref=sr_1_9_so_INPUT_MOUSE?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-9
+                        - generic [ref=f4e713]:
+                          - text: No featured offers availableINR 7,557.73
+                          - link "(3 used & new offers)" [ref=f4e715] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B0FB21526X/ref=sr_1_9_olp?keywords=wireless+mouse&crid=1HCRFJNZZ6Z4Z&sprefix=wireless+mouse%2Caps%2C357&dib_tag=se&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&qid=1785305947&sr=8-9
+                - listitem [ref=f4e718]:
+                  - generic [ref=f4e724]:
+                    - link [ref=f4e730] [cursor=pointer]:
+                      - /url: /Logitech-Ergonomic-Performance-Ultra-Fast-Scrolling/dp/B0FC5V3YVY/ref=sr_1_10?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-10
+                    - generic [ref=f4e735]:
+                      - link [ref=f4e737] [cursor=pointer]:
+                        - /url: /Logitech-Ergonomic-Performance-Ultra-Fast-Scrolling/dp/B0FC5V3YVY/ref=sr_1_10?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-10
+                        - heading "Logitech MX Master 4 Ergonomic Wireless Mouse with Haptics - Pale Gray | Advanced performance haptic feedback, ultra-fast scrolling, USB-C charging, Bluetooth, Windows, MacOS compatible" [level=2] [ref=f4e738]
+                      - generic [ref=f4e739]:
+                        - generic [ref=f4e740]:
+                          - text: "4.3"
+                          - button "4.3 out of 5 stars, rating details" [ref=f4e742] [cursor=pointer]:
+                            - generic [ref=f4e743]: 4.3 out of 5 stars
+                          - link "1,724 ratings" [ref=f4e748] [cursor=pointer]:
+                            - /url: /Logitech-Ergonomic-Performance-Ultra-Fast-Scrolling/dp/B0FC5V3YVY/ref=sr_1_10?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-10#customerReviews
+                            - text: (1.7K)
+                        - generic [ref=f4e749]: 3K+ bought in past month
+                      - generic [ref=f4e752]:
+                        - link "See options" [ref=f4e761] [cursor=pointer]:
+                          - /url: /Logitech-Ergonomic-Performance-Ultra-Fast-Scrolling/dp/B0FC5V3YVY/ref=sr_1_10_so_INPUT_MOUSE?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-10
+                        - generic [ref=f4e763]:
+                          - text: No featured offers availableINR 9,932.74
+                          - link "(9 used & new offers)" [ref=f4e765] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B0FC5V3YVY/ref=sr_1_10_olp?keywords=wireless+mouse&crid=1HCRFJNZZ6Z4Z&sprefix=wireless+mouse%2Caps%2C357&dib_tag=se&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&qid=1785305947&sr=8-10
+                - listitem [ref=f4e768]:
+                  - generic [ref=f4e774]:
+                    - generic [ref=f4e776]:
+                      - group "Best Sellerin Computer Mice" [ref=f4e782]:
+                        - generic "Best Seller" [ref=f4e784]
+                      - link [ref=f4e788] [cursor=pointer]:
+                        - /url: /Logitech-910-003636-Wireless-Mouse-M185/dp/B00PGB7OKM/ref=sr_1_11?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-11
+                    - generic [ref=f4e793]:
+                      - link [ref=f4e795] [cursor=pointer]:
+                        - /url: /Logitech-910-003636-Wireless-Mouse-M185/dp/B00PGB7OKM/ref=sr_1_11?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-11
+                        - heading "Logitech M185 Compact Ambidextrous Wireless Mouse with Rubber Grips - Blue | Ambidextrous mouse with 2.4 GHz USB-A Nano Receiver, Optical Tracking, 12-Months Battery Life, PC, Mac, Laptop compatible" [level=2] [ref=f4e796]
+                      - generic [ref=f4e797]:
+                        - generic [ref=f4e798]:
+                          - text: "4.5"
+                          - button "4.5 out of 5 stars, rating details" [ref=f4e800] [cursor=pointer]:
+                            - generic [ref=f4e801]: 4.5 out of 5 stars
+                          - link "44,243 ratings" [ref=f4e806] [cursor=pointer]:
+                            - /url: /Logitech-910-003636-Wireless-Mouse-M185/dp/B00PGB7OKM/ref=sr_1_11?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-11#customerReviews
+                            - text: (44.2K)
+                        - generic [ref=f4e807]: 3K+ bought in past month
+                      - generic [ref=f4e810]:
+                        - button "Safer chemicals +1 more" [ref=f4e819] [cursor=pointer]
+                        - link "See options" [ref=f4e828] [cursor=pointer]:
+                          - /url: /Logitech-910-003636-Wireless-Mouse-M185/dp/B00PGB7OKM/ref=sr_1_11_so_INPUT_MOUSE?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-11
+                        - generic [ref=f4e830]:
+                          - text: No featured offers availableINR 895.06
+                          - link "(15 used & new offers)" [ref=f4e832] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B00PGB7OKM/ref=sr_1_11_olp?keywords=wireless+mouse&crid=1HCRFJNZZ6Z4Z&sprefix=wireless+mouse%2Caps%2C357&dib_tag=se&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&qid=1785305947&sr=8-11
+                - listitem [ref=f4e835]:
+                  - generic [ref=f4e841]:
+                    - link [ref=f4e847] [cursor=pointer]:
+                      - /url: /Logitech-Vertical-Wireless-Mouse-Rechargeable/dp/B07FNJB8TT/ref=sr_1_12?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-12
+                    - generic [ref=f4e852]:
+                      - link [ref=f4e854] [cursor=pointer]:
+                        - /url: /Logitech-Vertical-Wireless-Mouse-Rechargeable/dp/B07FNJB8TT/ref=sr_1_12?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-12
+                        - heading "Logitech MX Vertical Wireless Mouse Ergonomic Design - Graphite | Reduces muscle strain, move content between 3 Windows and Apple computers, rechargeable" [level=2] [ref=f4e855]
+                      - generic [ref=f4e856]:
+                        - generic [ref=f4e857]: Top Reviewed for Battery life
+                        - generic [ref=f4e860]:
+                          - text: "4.4"
+                          - button "4.4 out of 5 stars, rating details" [ref=f4e862] [cursor=pointer]:
+                            - generic [ref=f4e863]: 4.4 out of 5 stars
+                          - link "14,961 ratings" [ref=f4e868] [cursor=pointer]:
+                            - /url: /Logitech-Vertical-Wireless-Mouse-Rechargeable/dp/B07FNJB8TT/ref=sr_1_12?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-12#customerReviews
+                            - text: (14.9K)
+                        - generic [ref=f4e869]: 5K+ bought in past month
+                      - generic [ref=f4e872]:
+                        - link "See options" [ref=f4e881] [cursor=pointer]:
+                          - /url: /Logitech-Vertical-Wireless-Mouse-Rechargeable/dp/B07FNJB8TT/ref=sr_1_12_so_INPUT_MOUSE?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-12
+                        - generic [ref=f4e883]:
+                          - text: No featured offers availableINR 5,292.80
+                          - link "(51 used & new offers)" [ref=f4e885] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B07FNJB8TT/ref=sr_1_12_olp?keywords=wireless+mouse&crid=1HCRFJNZZ6Z4Z&sprefix=wireless+mouse%2Caps%2C357&dib_tag=se&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&qid=1785305947&sr=8-12
+                - listitem [ref=f4e888]:
+                  - generic [ref=f4e894]:
+                    - link [ref=f4e900] [cursor=pointer]:
+                      - /url: /Wireless-Bluetooth-Rechargeable-Ultra-thin-Receiver/dp/B0DKFGJDCN/ref=sr_1_13?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-13
+                    - generic [ref=f4e905]:
+                      - link [ref=f4e907] [cursor=pointer]:
+                        - /url: /Wireless-Bluetooth-Rechargeable-Ultra-thin-Receiver/dp/B0DKFGJDCN/ref=sr_1_13?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-13
+                        - heading "Afaartcci Rechargeable Wireless Mouse, Silent Bluetooth Mouse (Black) | ergonomic design,Bluetooth 5.2 and 2.4GHz USB Receiver,Portable Computer Mouse for Laptops, iPads, MacBooks & Apple Devices" [level=2] [ref=f4e908]
+                      - generic [ref=f4e909]:
+                        - generic [ref=f4e910]:
+                          - text: "4.3"
+                          - button "4.3 out of 5 stars, rating details" [ref=f4e912] [cursor=pointer]:
+                            - generic [ref=f4e913]: 4.3 out of 5 stars
+                          - link "4,383 ratings" [ref=f4e918] [cursor=pointer]:
+                            - /url: /Wireless-Bluetooth-Rechargeable-Ultra-thin-Receiver/dp/B0DKFGJDCN/ref=sr_1_13?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-13#customerReviews
+                            - text: (4.3K)
+                        - generic [ref=f4e919]: 10K+ bought in past month
+                      - generic [ref=f4e922]:
+                        - generic [ref=f4e925]:
+                          - generic [ref=f4e926]: Price, product page
+                          - link "INR 573.41" [ref=f4e927] [cursor=pointer]:
+                            - /url: /Wireless-Bluetooth-Rechargeable-Ultra-thin-Receiver/dp/B0DKFGJDCN/ref=sr_1_13?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-13
+                            - generic [ref=f4e928]:
+                              - generic [ref=f4e929]: INR 573.41
+                              - generic [ref=f4e930]:
+                                - text: INR
+                                - generic [ref=f4e931]:
+                                  - text: "573"
+                                  - generic [ref=f4e932]: .
+                                - text: "41"
+                        - button "Add to cart" [ref=f4e952] [cursor=pointer]
+                - listitem [ref=f4e955]:
+                  - generic [ref=f4e961]:
+                    - link [ref=f4e967] [cursor=pointer]:
+                      - /url: /AmazonBasics-Ergonomic-Wireless-Mouse-adjustable/dp/B0787D6SGQ/ref=sr_1_14?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-14
+                    - generic [ref=f4e972]:
+                      - link [ref=f4e974] [cursor=pointer]:
+                        - /url: /AmazonBasics-Ergonomic-Wireless-Mouse-adjustable/dp/B0787D6SGQ/ref=sr_1_14?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-14
+                        - heading "Amazon Basics Portable Wireless Computer Mouse, Ergonomic, 2.4 GHz Optical, DPI Adjustable, Easy to Use, Compatible With PC, Mac, Laptop, Black" [level=2] [ref=f4e975]
+                      - generic [ref=f4e976]:
+                        - generic [ref=f4e977]:
+                          - text: "4.3"
+                          - button "4.3 out of 5 stars, rating details" [ref=f4e979] [cursor=pointer]:
+                            - generic [ref=f4e980]: 4.3 out of 5 stars
+                          - link "29,586 ratings" [ref=f4e985] [cursor=pointer]:
+                            - /url: /AmazonBasics-Ergonomic-Wireless-Mouse-adjustable/dp/B0787D6SGQ/ref=sr_1_14?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-14#customerReviews
+                            - text: (29.5K)
+                        - generic [ref=f4e986]: 7K+ bought in past month
+                      - generic [ref=f4e989]:
+                        - link "See options" [ref=f4e998] [cursor=pointer]:
+                          - /url: /AmazonBasics-Ergonomic-Wireless-Mouse-adjustable/dp/B0787D6SGQ/ref=sr_1_14_so_INPUT_MOUSE?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-14
+                        - generic [ref=f4e1000]:
+                          - text: No featured offers availableINR 889.31
+                          - link "(5 used & new offers)" [ref=f4e1002] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B0787D6SGQ/ref=sr_1_14_olp?keywords=wireless+mouse&crid=1HCRFJNZZ6Z4Z&sprefix=wireless+mouse%2Caps%2C357&dib_tag=se&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&qid=1785305947&sr=8-14
+                - listitem [ref=f4e1005]:
+                  - generic [ref=f4e1011]:
+                    - link [ref=f4e1017] [cursor=pointer]:
+                      - /url: /Wireless-Vssoplor-Portable-Computer-Computer-Black/dp/B098S48QWM/ref=sr_1_15?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-15
+                    - generic [ref=f4e1022]:
+                      - link [ref=f4e1024] [cursor=pointer]:
+                        - /url: /Wireless-Vssoplor-Portable-Computer-Computer-Black/dp/B098S48QWM/ref=sr_1_15?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-15
+                        - heading "VssoPlor Wireless Mouse, 2.4G Slim Computer Laptop Mouse, Black and Gold | Portable Mouse, Plug & Play USB Nano Receiver, Quiet Silent Optical Mice for Notebook, PC, Laptop, Computer, Windows, Mac" [level=2] [ref=f4e1025]
+                      - generic [ref=f4e1026]:
+                        - generic [ref=f4e1027]:
+                          - text: "4.5"
+                          - button "4.5 out of 5 stars, rating details" [ref=f4e1029] [cursor=pointer]:
+                            - generic [ref=f4e1030]: 4.5 out of 5 stars
+                          - link "28,979 ratings" [ref=f4e1035] [cursor=pointer]:
+                            - /url: /Wireless-Vssoplor-Portable-Computer-Computer-Black/dp/B098S48QWM/ref=sr_1_15?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-15#customerReviews
+                            - text: (28.9K)
+                        - generic [ref=f4e1036]: 9K+ bought in past month
+                      - generic [ref=f4e1039]:
+                        - button "Carbon impact" [ref=f4e1048] [cursor=pointer]
+                        - link "See options" [ref=f4e1057] [cursor=pointer]:
+                          - /url: /Wireless-Vssoplor-Portable-Computer-Computer-Black/dp/B098S48QWM/ref=sr_1_15_so_INPUT_MOUSE?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-15
+                        - generic [ref=f4e1059]:
+                          - text: No featured offers availableINR 955.37
+                          - link "(1 new offer)" [ref=f4e1061] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B098S48QWM/ref=sr_1_15_olp?keywords=wireless+mouse&crid=1HCRFJNZZ6Z4Z&sprefix=wireless+mouse%2Caps%2C357&dib_tag=se&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&qid=1785305947&sr=8-15
+                - listitem [ref=f4e1064]:
+                  - generic [ref=f4e1070]:
+                    - link [ref=f4e1076] [cursor=pointer]:
+                      - /url: /TECKNET-Bluetooth-Rechargeable-Adjustable-Compatibility/dp/B0FB9BR23C/ref=sr_1_16?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-16
+                    - generic [ref=f4e1081]:
+                      - link [ref=f4e1083] [cursor=pointer]:
+                        - /url: /TECKNET-Bluetooth-Rechargeable-Adjustable-Compatibility/dp/B0FB9BR23C/ref=sr_1_16?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-16
+                        - heading "TECKNET Wireless Mouse, Bluetooth Mouse (BT5.3/5.0 & 2.4G) Rechargeable Ergonomic Optical Mouse with 6 Adjustable DPI, Side Scroll, Quiet Clicks, USB A Receiver, 7 Buttons, Wide Compatibility - Black" [level=2] [ref=f4e1084]
+                      - generic [ref=f4e1085]:
+                        - generic [ref=f4e1086]: Top Reviewed for Battery life
+                        - generic [ref=f4e1089]:
+                          - text: "4.5"
+                          - button "4.5 out of 5 stars, rating details" [ref=f4e1091] [cursor=pointer]:
+                            - generic [ref=f4e1092]: 4.5 out of 5 stars
+                          - link "4,711 ratings" [ref=f4e1097] [cursor=pointer]:
+                            - /url: /TECKNET-Bluetooth-Rechargeable-Adjustable-Compatibility/dp/B0FB9BR23C/ref=sr_1_16?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-16#customerReviews
+                            - text: (4.7K)
+                        - generic [ref=f4e1098]: 3K+ bought in past month
+                      - generic [ref=f4e1101]:
+                        - generic [ref=f4e1104]:
+                          - generic [ref=f4e1105]: Price, product page
+                          - 'link "INR 1,913.60 List Price: INR 2,870.88 List Price: INR 2,870.88" [ref=f4e1106] [cursor=pointer]':
+                            - /url: /TECKNET-Bluetooth-Rechargeable-Adjustable-Compatibility/dp/B0FB9BR23C/ref=sr_1_16?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-16
+                            - generic [ref=f4e1107]:
+                              - generic [ref=f4e1108]: INR 1,913.60
+                              - generic [ref=f4e1109]:
+                                - text: INR
+                                - generic [ref=f4e1110]:
+                                  - text: 1,913
+                                  - generic [ref=f4e1111]: .
+                                - text: "60"
+                            - generic [ref=f4e1112]: "List Price: INR 2,870.88"
+                            - generic [ref=f4e1113]:
+                              - text: "List Price:"
+                              - generic [ref=f4e1114]:
+                                - generic [ref=f4e1115]: INR 2,870.88
+                                - text: INR2,870.88
+                        - button "Recycled materials +2 more" [ref=f4e1127] [cursor=pointer]
+                        - link "See options" [ref=f4e1136] [cursor=pointer]:
+                          - /url: /TECKNET-Bluetooth-Rechargeable-Adjustable-Compatibility/dp/B0FB9BR23C/ref=sr_1_16_so_INPUT_MOUSE?crid=1HCRFJNZZ6Z4Z&dib=eyJ2IjoiMSJ9.q0cfVk5pIDwp96MY0_ssCRSHKJ2ewCHat6hQ6Pb-xJLg9AUHk1vvNYd5u7_cn-F05qO3OUJJSr5otLxhPJUD90MbMrBh4WzRiC1p9TbaFGmZcbROE9wLfb536kCwtsjsv8XlQleIu0COLrKVNEMQyG25AiTE37eACLozdeIC85hD6zuCHuDahxZtUAvuXA6TcLSaP3pnIi2Yu0n8OIoz9yjho3yJ4Ikn4vAJheGfwmc.3S5gkSyDUv4yZNL-bSRjinXxGr-hvc6YY4RLBGyrtrI&dib_tag=se&keywords=wireless+mouse&qid=1785305947&sprefix=wireless+mouse%2Caps%2C357&sr=8-16
+          - generic [ref=f4e1144]:
+            - generic "Related searches in wireless mouse" [ref=f4e1145]:
+              - heading "Related searches" [level=2] [ref=f4e1148]
+            - list [ref=f4e1150]:
+              - generic [ref=f4e1151]:
+                - link "wireless mouse logitech" [ref=f4e1152] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse+logitech&ref=rsl_sug_0_0&pd_rd_w=WuD75&content-id=amzn1.sym.3be64970-3b95-4a6d-a45d-78077a3ff871:amzn1.sym.3be64970-3b95-4a6d-a45d-78077a3ff871&pf_rd_p=3be64970-3b95-4a6d-a45d-78077a3ff871&pf_rd_r=XG2KZX95TB05713DB4JV&pd_rd_wg=YcrGH&pd_rd_r=8ce0d539-31b6-4b05-8c19-9d23a8bb0081&qid=1785305947
+                  - listitem [ref=f4e1153]:
+                    - generic [ref=f4e1154]: wireless mouse logitech
+                - link "mouse pad" [ref=f4e1160] [cursor=pointer]:
+                  - /url: /s?k=mouse+pad&ref=rsl_sug_0_3&pd_rd_w=WuD75&content-id=amzn1.sym.3be64970-3b95-4a6d-a45d-78077a3ff871:amzn1.sym.3be64970-3b95-4a6d-a45d-78077a3ff871&pf_rd_p=3be64970-3b95-4a6d-a45d-78077a3ff871&pf_rd_r=XG2KZX95TB05713DB4JV&pd_rd_wg=YcrGH&pd_rd_r=8ce0d539-31b6-4b05-8c19-9d23a8bb0081&qid=1785305947
+                  - listitem [ref=f4e1161]:
+                    - generic [ref=f4e1162]: mouse pad
+              - generic [ref=f4e1168]:
+                - link "wireless keyboard" [ref=f4e1169] [cursor=pointer]:
+                  - /url: /s?k=wireless+keyboard&ref=rsl_sug_0_1&pd_rd_w=WuD75&content-id=amzn1.sym.3be64970-3b95-4a6d-a45d-78077a3ff871:amzn1.sym.3be64970-3b95-4a6d-a45d-78077a3ff871&pf_rd_p=3be64970-3b95-4a6d-a45d-78077a3ff871&pf_rd_r=XG2KZX95TB05713DB4JV&pd_rd_wg=YcrGH&pd_rd_r=8ce0d539-31b6-4b05-8c19-9d23a8bb0081&qid=1785305947
+                  - listitem [ref=f4e1170]:
+                    - generic [ref=f4e1171]: wireless keyboard
+                - link "mouse" [ref=f4e1177] [cursor=pointer]:
+                  - /url: /s?k=mouse&ref=rsl_sug_0_4&pd_rd_w=WuD75&content-id=amzn1.sym.3be64970-3b95-4a6d-a45d-78077a3ff871:amzn1.sym.3be64970-3b95-4a6d-a45d-78077a3ff871&pf_rd_p=3be64970-3b95-4a6d-a45d-78077a3ff871&pf_rd_r=XG2KZX95TB05713DB4JV&pd_rd_wg=YcrGH&pd_rd_r=8ce0d539-31b6-4b05-8c19-9d23a8bb0081&qid=1785305947
+                  - listitem [ref=f4e1178]:
+                    - generic [ref=f4e1179]: mouse
+              - generic [ref=f4e1185]:
+                - link "wireless gaming mouse" [ref=f4e1186] [cursor=pointer]:
+                  - /url: /s?k=wireless+gaming+mouse&ref=rsl_sug_0_2&pd_rd_w=WuD75&content-id=amzn1.sym.3be64970-3b95-4a6d-a45d-78077a3ff871:amzn1.sym.3be64970-3b95-4a6d-a45d-78077a3ff871&pf_rd_p=3be64970-3b95-4a6d-a45d-78077a3ff871&pf_rd_r=XG2KZX95TB05713DB4JV&pd_rd_wg=YcrGH&pd_rd_r=8ce0d539-31b6-4b05-8c19-9d23a8bb0081&qid=1785305947
+                  - listitem [ref=f4e1187]:
+                    - generic [ref=f4e1188]: wireless gaming mouse
+                - link "wireless keyboard and mouse" [ref=f4e1194] [cursor=pointer]:
+                  - /url: /s?k=wireless+keyboard+and+mouse&ref=rsl_sug_0_5&pd_rd_w=WuD75&content-id=amzn1.sym.3be64970-3b95-4a6d-a45d-78077a3ff871:amzn1.sym.3be64970-3b95-4a6d-a45d-78077a3ff871&pf_rd_p=3be64970-3b95-4a6d-a45d-78077a3ff871&pf_rd_r=XG2KZX95TB05713DB4JV&pd_rd_wg=YcrGH&pd_rd_r=8ce0d539-31b6-4b05-8c19-9d23a8bb0081&qid=1785305947
+                  - listitem [ref=f4e1195]:
+                    - generic [ref=f4e1196]: wireless keyboard and mouse
+          - navigation "pagination" [ref=f4e1204]:
+            - list [ref=f4e1206]:
+              - listitem [ref=f4e1207]:
+                - button "Previous" [disabled] [ref=f4e1209]
+              - listitem [ref=f4e1212]:
+                - button "Page 1" [ref=f4e1214]: "1"
+              - listitem [ref=f4e1215]:
+                - button "Go to page 2" [ref=f4e1217] [cursor=pointer]: "2"
+              - listitem [ref=f4e1218]:
+                - button "Go to page 3" [ref=f4e1220] [cursor=pointer]: "3"
+              - button [disabled] [ref=f4e1221]:
+                - img [ref=f4e1222]: ...
+              - button "20" [disabled] [ref=f4e1224]
+              - listitem [ref=f4e1225]:
+                - button "Go to next page, page 2" [ref=f4e1227] [cursor=pointer]: Next
+          - generic [ref=f4e1232]:
+            - separator [ref=f4e1233]
+            - generic [ref=f4e1234]:
+              - heading "Brands related to your search" [ref=f4e1235]
+              - button "Leave feedback on Sponsored ad" [ref=f4e1240] [cursor=pointer]: Sponsored
+              - generic [ref=f4e1244]:
+                - generic [ref=f4e1246]:
+                  - generic:
+                    - generic:
+                      - link:
+                        - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JBlKr1r0GB2f9KgpAbOX8XIAAAGfrIbeWQEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICApNu0f/clv1c_ek-ABHHWErTe3OubE9vMIQm3PR9H_td0b7YJLonCvr8yx02rTgR89_Wjp8CxaWUwI7Rhh4XF7u-iA3M_i6mDYPMAwMj6afIpKHMwEgVc1ew3i7Bi6-i-DjfXSkl0o2k3G8W_UIxZO-6u-OORN85F37jRiN2fmGGKErRg7varxptXgQvd0r2FFkGlmtKYkGsmrq-m968OmQLB2-hF26AAMtxrZf01BlSsBc7c9Oz-k8TNdEkqSxc9Z76tSt8AZgfmxHlwDIIXBSGQmulaBRcO2vYX4zDg31kN-kDXUKV2xs8rrh6une9BJNvRogLoPoR11PLm1IBRlpoyjGkosSeTzrHAE5ShpszsCYTVL16TZ9CIY2PRbRIT4PLajj31D2m6hZmuQq9YgkM_7TgG8w1Ofg65B4wjq9PZ-vmip-zt4ckBFeQDf94q9z9QKrOYMjEUJkFkcNImOg1_5c5Tj2y9skvIAmiGLiBjAdDD2JtMFHpsCpmLNZsARArtOZFR1BYBzXt5uwecJr3aMkeBpyl_d-Tw8jALWO0ZJ4a_g8sLDgsIBZ0W2ZCOpPmZd8qAIJHhhBvGpuuxeVDEFpZeD-oJGA_v3NDR3V0FJB6mRPmhy-Sh-jKAYbBhd_peGRvAY5kLEpj7xw7jOrS79SM9n5ZhZzV45KbbzB4l47rIUIaLI-TgF3sm7LjRlAKwodQlrnSnIzfHb9IWbL4tg6a-6j7S9S_LVXZbTrPn96F1Dhs9Q_cpXZkG2Ic_LvywwjfG-npZ7_cW5ERpXgjOavt5Xvi8SjOmauKPbz_9K-2PBbcawr02LfZyWiYdQRF5ELrZImB1Ad5mFqZ4-PIw9FgJE9MzmM3txVNo3bBSb1lu2kbp-un7tHgUSj4_C7P9ZbXxC2IRl5cX6a-YIeI9aXw-XTihLjvCyhw94dUvLBqDXcLNv-EamO5qH5iJ9NeZx41ySQAVNl2Cnblf1TNVpuZnyEnJZmy4RHHD49H0fs3WEXpZHyIHYu0SzrjwL_NInTzqxDQ5RUt_mvfPfoYFdFHBvRtEqeIbS5e4k2iIl2_ixmgG-cWlMNVe9NTeZm3Q8xKV-IPnrcQzz74R8g5I89iow-j2RoZzgI2ybEnNbLdLZnaB1GkGYvkF_LsJ2sG2ef4EW56IDJZ0mFEJ_Wsqr_KLGXlEaH4YmrFEikZdL13X4dbQGLNRpGk5sUIJqHtvKB0AYxaqhrFcTapXa9hLTfCHUoN61ZYi34HyYzrMAxp7x1mQRjss4ugVaMBG7aYh_yphqT_LbBaitHRCTQ8cCT6HokN0FP99e_umUs0IEmUM_f0D8OzhsGBlCP5P0Z8rntUcoD3DwLyMERcNcpeW6S1PPQ5CgPh0BnlYmrrbpoZaWeO9S0Sz1QbOwr1oud-SuuQuTnDsyvwNJNxgC0v04Ym2zIFLydekc8rDp35VA6HyZBVD3O7LX7evXeo29UdK1pmTK8Mo8852mHtn6HK5makssYNx9jrE1BO-OrSQExsN5Z6E4a2gNdc8-bd3pBjN_VtLWpTPA1DKGjy1S96Uy37QQ_ColGnfL_Fnur4F9mlT0KSyYQO2YMq4s5q1Gb8OKMSbNfmFwuxG-inFQTb1mhQtiY7wE-WvOn5HUgydyD4ZYRglvZ0wn_s3xin7rsFlr8_ozR6ylb6uL0T-AYxC9k5ZdQ16jA1L3AqUco4/https://www.amazon.com/stores/page/97FD222D-3B4E-4DC5-9EB4-4E5631A4FDD6/?_encoding=UTF8&store_ref=SB_A00997361JW4KOIN8NPER-A01419643K8V8Y4SZMH36&pd_rd_plhdr=t&aaxitk=6b00b4e2a63149c6f634a527905fea4d&hsa_cr_id=0&lp_asins=B0BDDPPWPY%2CB0CC54X9KP%2CB0DLGDR3GL&lp_query=wireless%20mouse&lp_slot=desktop-hsa-3psl&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=Nv8Wl&content-id=amzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d%3Aamzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_p=34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_r=XG2KZX95TB05713DB4JV&pd_rd_wg=NHNV2&pd_rd_r=cd41ba39-d951-4586-a05e-62509c1cae1d
+                      - link [ref=f4e1247] [cursor=pointer]:
+                        - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JBlKr1r0GB2f9KgpAbOX8XIAAAGfrIbeWQEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICApNu0f/clv1c_ek-ABHHWErTe3OubE9vMIQm3PR9H_td0b7YJLonCvr8yx02rTgR89_Wjp8CxaWUwI7Rhh4XF7u-iA3M_i6mDYPMAwMj6afIpKHMwEgVc1ew3i7Bi6-i-DjfXSkl0o2k3G8W_UIxZO-6u-OORN85F37jRiN2fmGGKErRg7varxptXgQvd0r2FFkGlmtKYkGsmrq-m968OmQLB2-hF26AAMtxrZf01BlSsBc7c9Oz-k8TNdEkqSxc9Z76tSt8AZgfmxHlwDIIXBSGQmulaBRcO2vYX4zDg31kN-kDXUKV2xs8rrh6une9BJNvRogLoPoR11PLm1IBRlpoyjGkosSeTzrHAE5ShpszsCYTVL16TZ9CIY2PRbRIT4PLajj31D2m6hZmuQq9YgkM_7TgG8w1Ofg65B4wjq9PZ-vmip-zt4ckBFeQDf94q9z9QKrOYMjEUJkFkcNImOg1_5c5Tj2y9skvIAmiGLiBjAdDD2JtMFHpsCpmLNZsARArtOZFR1BYBzXt5uwecJr3aMkeBpyl_d-Tw8jALWO0ZJ4a_g8sLDgsIBZ0W2ZCOpPmZd8qAIJHhhBvGpuuxeVDEFpZeD-oJGA_v3NDR3V0FJB6mRPmhy-Sh-jKAYbBhd_peGRvAY5kLEpj7xw7jOrS79SM9n5ZhZzV45KbbzB4l47rIUIaLI-TgF3sm7LjRlAKwodQlrnSnIzfHb9IWbL4tg6a-6j7S9S_LVXZbTrPn96F1Dhs9Q_cpXZkG2Ic_LvywwjfG-npZ7_cW5ERpXgjOavt5Xvi8SjOmauKPbz_9K-2PBbcawr02LfZyWiYdQRF5ELrZImB1Ad5mFqZ4-PIw9FgJE9MzmM3txVNo3bBSb1lu2kbp-un7tHgUSj4_C7P9ZbXxC2IRl5cX6a-YIeI9aXw-XTihLjvCyhw94dUvLBqDXcLNv-EamO5qH5iJ9NeZx41ySQAVNl2Cnblf1TNVpuZnyEnJZmy4RHHD49H0fs3WEXpZHyIHYu0SzrjwL_NInTzqxDQ5RUt_mvfPfoYFdFHBvRtEqeIbS5e4k2iIl2_ixmgG-cWlMNVe9NTeZm3Q8xKV-IPnrcQzz74R8g5I89iow-j2RoZzgI2ybEnNbLdLZnaB1GkGYvkF_LsJ2sG2ef4EW56IDJZ0mFEJ_Wsqr_KLGXlEaH4YmrFEikZdL13X4dbQGLNRpGk5sUIJqHtvKB0AYxaqhrFcTapXa9hLTfCHUoN61ZYi34HyYzrMAxp7x1mQRjss4ugVaMBG7aYh_yphqT_LbBaitHRCTQ8cCT6HokN0FP99e_umUs0IEmUM_f0D8OzhsGBlCP5P0Z8rntUcoD3DwLyMERcNcpeW6S1PPQ5CgPh0BnlYmrrbpoZaWeO9S0Sz1QbOwr1oud-SuuQuTnDsyvwNJNxgC0v04Ym2zIFLydekc8rDp35VA6HyZBVD3O7LX7evXeo29UdK1pmTK8Mo8852mHtn6HK5makssYNx9jrE1BO-OrSQExsN5Z6E4a2gNdc8-bd3pBjN_VtLWpTPA1DKGjy1S96Uy37QQ_ColGnfL_Fnur4F9mlT0KSyYQO2YMq4s5q1Gb8OKMSbNfmFwuxG-inFQTb1mhQtiY7wE-WvOn5HUgydyD4ZYRglvZ0wn_s3xin7rsFlr8_ozR6ylb6uL0T-AYxC9k5ZdQ16jA1L3AqUco4/https://www.amazon.com/stores/page/97FD222D-3B4E-4DC5-9EB4-4E5631A4FDD6/?_encoding=UTF8&store_ref=SB_A00997361JW4KOIN8NPER-A01419643K8V8Y4SZMH36&pd_rd_plhdr=t&aaxitk=6b00b4e2a63149c6f634a527905fea4d&hsa_cr_id=0&lp_asins=B0BDDPPWPY%2CB0CC54X9KP%2CB0DLGDR3GL&lp_query=wireless%20mouse&lp_slot=desktop-hsa-3psl&ref_=sbx_be_s_3psl_mbd_mb0_ls&pd_rd_w=Nv8Wl&content-id=amzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d%3Aamzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_p=34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_r=XG2KZX95TB05713DB4JV&pd_rd_wg=NHNV2&pd_rd_r=cd41ba39-d951-4586-a05e-62509c1cae1d
+                        - img "RAPIQUE" [ref=f4e1248]
+                      - generic [ref=f4e1250]:
+                        - generic [ref=f4e1251]:
+                          - link [ref=f4e1252] [cursor=pointer]:
+                            - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JBlKr1r0GB2f9KgpAbOX8XIAAAGfrIbeWQEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICApNu0f/clv1c_ek-ABHHWErTe3OubE9vMIQm3PR9H_td0b7YJLonCvr8yx02rTgR89_Wjp8CxaWUwI7Rhh4XF7u-iA3M_i6mDYPMAwMj6afIpKHMwEgVc1ew3i7Bi6-i-DjfXSkl0o2k3G8W_UIxZO-6u-OORN85F37jRiN2fmGGKErRg7varxptXgQvd0r2FFkGlmtKYkGsmrq-m968OmQLB2-hF26AAMtxrZf01BlSsBc7c9Oz-k8TNdEkqSxc9Z76tSt8AZgfmxHlwDIIXBSGQmulaBRcO2vYX4zDg31kN-kDXUKV2xs8rrh6une9BJNvRogLoPoR11PLm1IBRlpoyjGkosSeTzrHAE5ShpszsCYTVL16TZ9CIY2PRbRIT4PLajj31D2m6hZmuQq9YgkM_7TgG8w1Ofg65B4wjq9PZ-vmip-zt4ckBFeQDf94q9z9QKrOYMjEUJkFkcNImOg1_5c5Tj2y9skvIAmiGLiBjAdDD2JtMFHpsCpmLNZsARArtOZFR1BYBzXt5uwecJr3aMkeBpyl_d-Tw8jALWO0ZJ4a_g8sLDgsIBZ0W2ZCOpPmZd8qAIJHhhBvGpuuxeVDEFpZeD-oJGA_v3NDR3V0FJB6mRPmhy-Sh-jKAYbBhd_peGRvAY5kLEpj7xw7jOrS79SM9n5ZhZzV45KbbzB4l47rIUIaLI-TgF3sm7LjRlAKwodQlrnSnIzfHb9IWbL4tg6a-6j7S9S_LVXZbTrPn96F1Dhs9Q_cpXZkG2Ic_LvywwjfG-npZ7_cW5ERpXgjOavt5Xvi8SjOmauKPbz_9K-2PBbcawr02LfZyWiYdQRF5ELrZImB1Ad5mFqZ4-PIw9FgJE9MzmM3txVNo3bBSb1lu2kbp-un7tHgUSj4_C7P9ZbXxC2IRl5cX6a-YIeI9aXw-XTihLjvCyhw94dUvLBqDXcLNv-EamO5qH5iJ9NeZx41ySQAVNl2Cnblf1TNVpuZnyEnJZmy4RHHD49H0fs3WEXpZHyIHYu0SzrjwL_NInTzqxDQ5RUt_mvfPfoYFdFHBvRtEqeIbS5e4k2iIl2_ixmgG-cWlMNVe9NTeZm3Q8xKV-IPnrcQzz74R8g5I89iow-j2RoZzgI2ybEnNbLdLZnaB1GkGYvkF_LsJ2sG2ef4EW56IDJZ0mFEJ_Wsqr_KLGXlEaH4YmrFEikZdL13X4dbQGLNRpGk5sUIJqHtvKB0AYxaqhrFcTapXa9hLTfCHUoN61ZYi34HyYzrMAxp7x1mQRjss4ugVaMBG7aYh_yphqT_LbBaitHRCTQ8cCT6HokN0FP99e_umUs0IEmUM_f0D8OzhsGBlCP5P0Z8rntUcoD3DwLyMERcNcpeW6S1PPQ5CgPh0BnlYmrrbpoZaWeO9S0Sz1QbOwr1oud-SuuQuTnDsyvwNJNxgC0v04Ym2zIFLydekc8rDp35VA6HyZBVD3O7LX7evXeo29UdK1pmTK8Mo8852mHtn6HK5makssYNx9jrE1BO-OrSQExsN5Z6E4a2gNdc8-bd3pBjN_VtLWpTPA1DKGjy1S96Uy37QQ_ColGnfL_Fnur4F9mlT0KSyYQO2YMq4s5q1Gb8OKMSbNfmFwuxG-inFQTb1mhQtiY7wE-WvOn5HUgydyD4ZYRglvZ0wn_s3xin7rsFlr8_ozR6ylb6uL0T-AYxC9k5ZdQ16jA1L3AqUco4/https://www.amazon.com/stores/page/97FD222D-3B4E-4DC5-9EB4-4E5631A4FDD6/?_encoding=UTF8&store_ref=SB_A00997361JW4KOIN8NPER-A01419643K8V8Y4SZMH36&pd_rd_plhdr=t&aaxitk=6b00b4e2a63149c6f634a527905fea4d&hsa_cr_id=0&lp_asins=B0BDDPPWPY%2CB0CC54X9KP%2CB0DLGDR3GL&lp_query=wireless%20mouse&lp_slot=desktop-hsa-3psl&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=Nv8Wl&content-id=amzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d%3Aamzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_p=34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_r=XG2KZX95TB05713DB4JV&pd_rd_wg=NHNV2&pd_rd_r=cd41ba39-d951-4586-a05e-62509c1cae1d
+                          - link [ref=f4e1253] [cursor=pointer]:
+                            - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JBlKr1r0GB2f9KgpAbOX8XIAAAGfrIbeWQEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICApNu0f/clv1c_ek-ABHHWErTe3OubE9vMIQm3PR9H_td0b7YJLonCvr8yx02rTgR89_Wjp8CxaWUwI7Rhh4XF7u-iA3M_i6mDYPMAwMj6afIpKHMwEgVc1ew3i7Bi6-i-DjfXSkl0o2k3G8W_UIxZO-6u-OORN85F37jRiN2fmGGKErRg7varxptXgQvd0r2FFkGlmtKYkGsmrq-m968OmQLB2-hF26AAMtxrZf01BlSsBc7c9Oz-k8TNdEkqSxc9Z76tSt8AZgfmxHlwDIIXBSGQmulaBRcO2vYX4zDg31kN-kDXUKV2xs8rrh6une9BJNvRogLoPoR11PLm1IBRlpoyjGkosSeTzrHAE5ShpszsCYTVL16TZ9CIY2PRbRIT4PLajj31D2m6hZmuQq9YgkM_7TgG8w1Ofg65B4wjq9PZ-vmip-zt4ckBFeQDf94q9z9QKrOYMjEUJkFkcNImOg1_5c5Tj2y9skvIAmiGLiBjAdDD2JtMFHpsCpmLNZsARArtOZFR1BYBzXt5uwecJr3aMkeBpyl_d-Tw8jALWO0ZJ4a_g8sLDgsIBZ0W2ZCOpPmZd8qAIJHhhBvGpuuxeVDEFpZeD-oJGA_v3NDR3V0FJB6mRPmhy-Sh-jKAYbBhd_peGRvAY5kLEpj7xw7jOrS79SM9n5ZhZzV45KbbzB4l47rIUIaLI-TgF3sm7LjRlAKwodQlrnSnIzfHb9IWbL4tg6a-6j7S9S_LVXZbTrPn96F1Dhs9Q_cpXZkG2Ic_LvywwjfG-npZ7_cW5ERpXgjOavt5Xvi8SjOmauKPbz_9K-2PBbcawr02LfZyWiYdQRF5ELrZImB1Ad5mFqZ4-PIw9FgJE9MzmM3txVNo3bBSb1lu2kbp-un7tHgUSj4_C7P9ZbXxC2IRl5cX6a-YIeI9aXw-XTihLjvCyhw94dUvLBqDXcLNv-EamO5qH5iJ9NeZx41ySQAVNl2Cnblf1TNVpuZnyEnJZmy4RHHD49H0fs3WEXpZHyIHYu0SzrjwL_NInTzqxDQ5RUt_mvfPfoYFdFHBvRtEqeIbS5e4k2iIl2_ixmgG-cWlMNVe9NTeZm3Q8xKV-IPnrcQzz74R8g5I89iow-j2RoZzgI2ybEnNbLdLZnaB1GkGYvkF_LsJ2sG2ef4EW56IDJZ0mFEJ_Wsqr_KLGXlEaH4YmrFEikZdL13X4dbQGLNRpGk5sUIJqHtvKB0AYxaqhrFcTapXa9hLTfCHUoN61ZYi34HyYzrMAxp7x1mQRjss4ugVaMBG7aYh_yphqT_LbBaitHRCTQ8cCT6HokN0FP99e_umUs0IEmUM_f0D8OzhsGBlCP5P0Z8rntUcoD3DwLyMERcNcpeW6S1PPQ5CgPh0BnlYmrrbpoZaWeO9S0Sz1QbOwr1oud-SuuQuTnDsyvwNJNxgC0v04Ym2zIFLydekc8rDp35VA6HyZBVD3O7LX7evXeo29UdK1pmTK8Mo8852mHtn6HK5makssYNx9jrE1BO-OrSQExsN5Z6E4a2gNdc8-bd3pBjN_VtLWpTPA1DKGjy1S96Uy37QQ_ColGnfL_Fnur4F9mlT0KSyYQO2YMq4s5q1Gb8OKMSbNfmFwuxG-inFQTb1mhQtiY7wE-WvOn5HUgydyD4ZYRglvZ0wn_s3xin7rsFlr8_ozR6ylb6uL0T-AYxC9k5ZdQ16jA1L3AqUco4/https://www.amazon.com/stores/page/97FD222D-3B4E-4DC5-9EB4-4E5631A4FDD6/?_encoding=UTF8&store_ref=SB_A00997361JW4KOIN8NPER-A01419643K8V8Y4SZMH36&pd_rd_plhdr=t&aaxitk=6b00b4e2a63149c6f634a527905fea4d&hsa_cr_id=0&lp_asins=B0BDDPPWPY%2CB0CC54X9KP%2CB0DLGDR3GL&lp_query=wireless%20mouse&lp_slot=desktop-hsa-3psl&ref_=sbx_be_s_3psl_mbd_mb0_logo&pd_rd_w=Nv8Wl&content-id=amzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d%3Aamzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_p=34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_r=XG2KZX95TB05713DB4JV&pd_rd_wg=NHNV2&pd_rd_r=cd41ba39-d951-4586-a05e-62509c1cae1d
+                            - img "RAPIQUE" [ref=f4e1255]
+                        - generic [ref=f4e1256]:
+                          - link [ref=f4e1257] [cursor=pointer]:
+                            - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JBlKr1r0GB2f9KgpAbOX8XIAAAGfrIbeWQEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICApNu0f/clv1c_ek-ABHHWErTe3OubE9vMIQm3PR9H_td0b7YJLonCvr8yx02rTgR89_Wjp8CxaWUwI7Rhh4XF7u-iA3M_i6mDYPMAwMj6afIpKHMwEgVc1ew3i7Bi6-i-DjfXSkl0o2k3G8W_UIxZO-6u-OORN85F37jRiN2fmGGKErRg7varxptXgQvd0r2FFkGlmtKYkGsmrq-m968OmQLB2-hF26AAMtxrZf01BlSsBc7c9Oz-k8TNdEkqSxc9Z76tSt8AZgfmxHlwDIIXBSGQmulaBRcO2vYX4zDg31kN-kDXUKV2xs8rrh6une9BJNvRogLoPoR11PLm1IBRlpoyjGkosSeTzrHAE5ShpszsCYTVL16TZ9CIY2PRbRIT4PLajj31D2m6hZmuQq9YgkM_7TgG8w1Ofg65B4wjq9PZ-vmip-zt4ckBFeQDf94q9z9QKrOYMjEUJkFkcNImOg1_5c5Tj2y9skvIAmiGLiBjAdDD2JtMFHpsCpmLNZsARArtOZFR1BYBzXt5uwecJr3aMkeBpyl_d-Tw8jALWO0ZJ4a_g8sLDgsIBZ0W2ZCOpPmZd8qAIJHhhBvGpuuxeVDEFpZeD-oJGA_v3NDR3V0FJB6mRPmhy-Sh-jKAYbBhd_peGRvAY5kLEpj7xw7jOrS79SM9n5ZhZzV45KbbzB4l47rIUIaLI-TgF3sm7LjRlAKwodQlrnSnIzfHb9IWbL4tg6a-6j7S9S_LVXZbTrPn96F1Dhs9Q_cpXZkG2Ic_LvywwjfG-npZ7_cW5ERpXgjOavt5Xvi8SjOmauKPbz_9K-2PBbcawr02LfZyWiYdQRF5ELrZImB1Ad5mFqZ4-PIw9FgJE9MzmM3txVNo3bBSb1lu2kbp-un7tHgUSj4_C7P9ZbXxC2IRl5cX6a-YIeI9aXw-XTihLjvCyhw94dUvLBqDXcLNv-EamO5qH5iJ9NeZx41ySQAVNl2Cnblf1TNVpuZnyEnJZmy4RHHD49H0fs3WEXpZHyIHYu0SzrjwL_NInTzqxDQ5RUt_mvfPfoYFdFHBvRtEqeIbS5e4k2iIl2_ixmgG-cWlMNVe9NTeZm3Q8xKV-IPnrcQzz74R8g5I89iow-j2RoZzgI2ybEnNbLdLZnaB1GkGYvkF_LsJ2sG2ef4EW56IDJZ0mFEJ_Wsqr_KLGXlEaH4YmrFEikZdL13X4dbQGLNRpGk5sUIJqHtvKB0AYxaqhrFcTapXa9hLTfCHUoN61ZYi34HyYzrMAxp7x1mQRjss4ugVaMBG7aYh_yphqT_LbBaitHRCTQ8cCT6HokN0FP99e_umUs0IEmUM_f0D8OzhsGBlCP5P0Z8rntUcoD3DwLyMERcNcpeW6S1PPQ5CgPh0BnlYmrrbpoZaWeO9S0Sz1QbOwr1oud-SuuQuTnDsyvwNJNxgC0v04Ym2zIFLydekc8rDp35VA6HyZBVD3O7LX7evXeo29UdK1pmTK8Mo8852mHtn6HK5makssYNx9jrE1BO-OrSQExsN5Z6E4a2gNdc8-bd3pBjN_VtLWpTPA1DKGjy1S96Uy37QQ_ColGnfL_Fnur4F9mlT0KSyYQO2YMq4s5q1Gb8OKMSbNfmFwuxG-inFQTb1mhQtiY7wE-WvOn5HUgydyD4ZYRglvZ0wn_s3xin7rsFlr8_ozR6ylb6uL0T-AYxC9k5ZdQ16jA1L3AqUco4/https://www.amazon.com/stores/page/97FD222D-3B4E-4DC5-9EB4-4E5631A4FDD6/?_encoding=UTF8&store_ref=SB_A00997361JW4KOIN8NPER-A01419643K8V8Y4SZMH36&pd_rd_plhdr=t&aaxitk=6b00b4e2a63149c6f634a527905fea4d&hsa_cr_id=0&lp_asins=B0BDDPPWPY%2CB0CC54X9KP%2CB0DLGDR3GL&lp_query=wireless%20mouse&lp_slot=desktop-hsa-3psl&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=Nv8Wl&content-id=amzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d%3Aamzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_p=34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_r=XG2KZX95TB05713DB4JV&pd_rd_wg=NHNV2&pd_rd_r=cd41ba39-d951-4586-a05e-62509c1cae1d
+                          - link "Bluetooth Mouse, Comfortable Grip" [ref=f4e1258] [cursor=pointer]:
+                            - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JBlKr1r0GB2f9KgpAbOX8XIAAAGfrIbeWQEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICApNu0f/clv1c_ek-ABHHWErTe3OubE9vMIQm3PR9H_td0b7YJLonCvr8yx02rTgR89_Wjp8CxaWUwI7Rhh4XF7u-iA3M_i6mDYPMAwMj6afIpKHMwEgVc1ew3i7Bi6-i-DjfXSkl0o2k3G8W_UIxZO-6u-OORN85F37jRiN2fmGGKErRg7varxptXgQvd0r2FFkGlmtKYkGsmrq-m968OmQLB2-hF26AAMtxrZf01BlSsBc7c9Oz-k8TNdEkqSxc9Z76tSt8AZgfmxHlwDIIXBSGQmulaBRcO2vYX4zDg31kN-kDXUKV2xs8rrh6une9BJNvRogLoPoR11PLm1IBRlpoyjGkosSeTzrHAE5ShpszsCYTVL16TZ9CIY2PRbRIT4PLajj31D2m6hZmuQq9YgkM_7TgG8w1Ofg65B4wjq9PZ-vmip-zt4ckBFeQDf94q9z9QKrOYMjEUJkFkcNImOg1_5c5Tj2y9skvIAmiGLiBjAdDD2JtMFHpsCpmLNZsARArtOZFR1BYBzXt5uwecJr3aMkeBpyl_d-Tw8jALWO0ZJ4a_g8sLDgsIBZ0W2ZCOpPmZd8qAIJHhhBvGpuuxeVDEFpZeD-oJGA_v3NDR3V0FJB6mRPmhy-Sh-jKAYbBhd_peGRvAY5kLEpj7xw7jOrS79SM9n5ZhZzV45KbbzB4l47rIUIaLI-TgF3sm7LjRlAKwodQlrnSnIzfHb9IWbL4tg6a-6j7S9S_LVXZbTrPn96F1Dhs9Q_cpXZkG2Ic_LvywwjfG-npZ7_cW5ERpXgjOavt5Xvi8SjOmauKPbz_9K-2PBbcawr02LfZyWiYdQRF5ELrZImB1Ad5mFqZ4-PIw9FgJE9MzmM3txVNo3bBSb1lu2kbp-un7tHgUSj4_C7P9ZbXxC2IRl5cX6a-YIeI9aXw-XTihLjvCyhw94dUvLBqDXcLNv-EamO5qH5iJ9NeZx41ySQAVNl2Cnblf1TNVpuZnyEnJZmy4RHHD49H0fs3WEXpZHyIHYu0SzrjwL_NInTzqxDQ5RUt_mvfPfoYFdFHBvRtEqeIbS5e4k2iIl2_ixmgG-cWlMNVe9NTeZm3Q8xKV-IPnrcQzz74R8g5I89iow-j2RoZzgI2ybEnNbLdLZnaB1GkGYvkF_LsJ2sG2ef4EW56IDJZ0mFEJ_Wsqr_KLGXlEaH4YmrFEikZdL13X4dbQGLNRpGk5sUIJqHtvKB0AYxaqhrFcTapXa9hLTfCHUoN61ZYi34HyYzrMAxp7x1mQRjss4ugVaMBG7aYh_yphqT_LbBaitHRCTQ8cCT6HokN0FP99e_umUs0IEmUM_f0D8OzhsGBlCP5P0Z8rntUcoD3DwLyMERcNcpeW6S1PPQ5CgPh0BnlYmrrbpoZaWeO9S0Sz1QbOwr1oud-SuuQuTnDsyvwNJNxgC0v04Ym2zIFLydekc8rDp35VA6HyZBVD3O7LX7evXeo29UdK1pmTK8Mo8852mHtn6HK5makssYNx9jrE1BO-OrSQExsN5Z6E4a2gNdc8-bd3pBjN_VtLWpTPA1DKGjy1S96Uy37QQ_ColGnfL_Fnur4F9mlT0KSyYQO2YMq4s5q1Gb8OKMSbNfmFwuxG-inFQTb1mhQtiY7wE-WvOn5HUgydyD4ZYRglvZ0wn_s3xin7rsFlr8_ozR6ylb6uL0T-AYxC9k5ZdQ16jA1L3AqUco4/https://www.amazon.com/stores/page/97FD222D-3B4E-4DC5-9EB4-4E5631A4FDD6/?_encoding=UTF8&store_ref=SB_A00997361JW4KOIN8NPER-A01419643K8V8Y4SZMH36&pd_rd_plhdr=t&aaxitk=6b00b4e2a63149c6f634a527905fea4d&hsa_cr_id=0&lp_asins=B0BDDPPWPY%2CB0CC54X9KP%2CB0DLGDR3GL&lp_query=wireless%20mouse&lp_slot=desktop-hsa-3psl&ref_=sbx_be_s_3psl_mbd_mb0_hl&pd_rd_w=Nv8Wl&content-id=amzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d%3Aamzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_p=34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_r=XG2KZX95TB05713DB4JV&pd_rd_wg=NHNV2&pd_rd_r=cd41ba39-d951-4586-a05e-62509c1cae1d
+                            - generic [ref=f4e1260]:
+                              - generic [ref=f4e1261]: Bluetooth Mouse, Comfortable Grip
+                              - generic [ref=f4e1262]: Bluetooth Mouse, Comfortable Grip
+                - generic [ref=f4e1264]:
+                  - generic:
+                    - generic:
+                      - link:
+                        - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JDZudoVDJfLi1Ub_c2b7Sv8AAAGfrIbeWgEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICDjtwfV/clv1c_ek-AxHfWErTaTLXhZCfv748Zr5IQEDDfSCJLLo2MD5uHadOhH6mp2OiU7haGMJewsSwfLJgT3Guo4Uv-h1A3wVyTAbH1YhobSZI-ROzYcSf2gh3oKpjRBAAU1wmBJHAi52i6bFim2Tigq_RnCUsjN96i5JnRlEj6skTx02ec1qInGQgeG8ubQm6_Mx3apbY-dqNzZJQzBgPk3MLZj5ghQMqaFpStYRu3jZ0VjauZ1XoYFEWtnnFFGftuZphNOAaREbyZl8qZGVNwxig5xEIrVfuPrAS9EEPOQhcHaqkNKL89AG3xfY0AStp8ScqraOm5n2iaAdACAP3tuvdWUqLzTSKBZhfL7A97HLvqN_Q6vNdbolth1MFJHwPr2jPmMPsUZJg9FxUPYqnyPBf566EtSLwFN9ZGNnRYtVAqImRdGsOA_6Bcr91oXWKxk34rRj_YYGvJXbzB3XIXcvBnbuP4qJwWvN-QhEFNfYSX1M1TwYMzFmZaZ7JrRcT-9cN2EY-bY8eH5IHdTsrwL15pT4zxj_8PowJwcN_4SwrYoCLam6zKfx6csefa_664zZ5Rs88p8mVebjAa8aTE33GcppWCw1hg9LgSd3VD8G9lOd7Rj5pAGIGxl0Zgx2b6p9izfhWz5KQmSrSEnO7QzU6VYSQJtzQFt5foUES6Ed5gSVy_G_l0Ir5_Mqrb0nIIRe801PmfKvRxHFY0ealrVkUQ5Qf4DB1Tn1OwYlc3C30tnGPojNlJ3acmZaO6aKpZdDEguiM6DOqCCO-oMWN-5AMkzpz3BbiTKmaiWFdvib8HXaNZWK0AmK4wPR4PAdKPmRXvMtYOvw1VASRr5w9o41Mz4FXBgTzqXzyGhpOLiL2irJznhG_OF4SFQYf5mj9HNorFKX_SIdecTJNR9c84ak9eOZLJb66Vnz8kUQXKxaFmBYvIGhgqQQHl0baqdUiPDPdxSD-SfIGAbVrep1LrwLmF3yGc8kCrzUAKAnZCVaOaauRQ_O3HbjaEK6bKMKfILTbqlm1wL82zXT6UtsAyCW3cOr5T9mMcEXq_asdoJXYaA-W5FXncA8xSoi64yxkE7PVDVKVfNuAWTd0BSk4YmaQkC6Qy29pkSsMNKrPahUvixrPy1_PzFcoqRngf2A1zl4n1IuY2jqFlW3iTqV1sdGwaM91XGEW9m0MtIjISaVoF-xVSztgzSrvpZlNZvgZ4svBkUS4foFhXZExAnK95GqHc087xfH349y0HCd_KAzu2wgCODn61KAHtpIwMMKH3LhkXVHK6UuSzh2OKOfk3xfNSHfA-YQ6Ub9Q7uhsQ6kpJvHanpTlqJzQwr0V-WHNSLIcCU8gCnebH9k4bcmOzk-UdGw0Dk3pFv9UDhBavO2chb7xtUPL32OaZuFx8K3mkNxV_DDmMIs8-3sJtSVkbH3G9F6KV95pp4qbOQO_NhBntTBd-TW15xBVC2rMjv1y7MWVz1_oaqarM9MYqqdTF0x8yhrb5QAMd77Y0uD8p8fLA4NnYwYUDJnvRYv2mjmLJ1CiqOjR1m4jNvGNq8YBJ522gUYkZxSQUbugcbwkXsc_CryYUr-eKTxMlw_gGV7yskOD6LiiTUdq0djU7MLNk3YTzLGS29Yt8qi4BgprTkD9f8e00OmkSsdNrEsBpa5y2mkl1dKQu4Pc4-tY9lyua7ip6_RWWTfB1wVAbGLXUcXLDJHBffg/https://www.amazon.com/stores/page/17523ADE-DFE2-47FE-A8F6-543EAF563D7E/?_encoding=UTF8&store_ref=SB_A05207582Q3DSRVXOB2VT-A09946035C47PTT01O6H&pd_rd_plhdr=t&aaxitk=cec3f5ef5f8d165e23f3140dbb5fa3d0&hsa_cr_id=0&lp_asins=B0D5BCH4J6%2CB0D5B7TNL5%2CB0D5BBMN25&lp_query=wireless%20mouse&lp_slot=desktop-hsa-3psl&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=Nv8Wl&content-id=amzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d%3Aamzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_p=34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_r=XG2KZX95TB05713DB4JV&pd_rd_wg=NHNV2&pd_rd_r=cd41ba39-d951-4586-a05e-62509c1cae1d
+                      - link [ref=f4e1265] [cursor=pointer]:
+                        - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JDZudoVDJfLi1Ub_c2b7Sv8AAAGfrIbeWgEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICDjtwfV/clv1c_ek-AxHfWErTaTLXhZCfv748Zr5IQEDDfSCJLLo2MD5uHadOhH6mp2OiU7haGMJewsSwfLJgT3Guo4Uv-h1A3wVyTAbH1YhobSZI-ROzYcSf2gh3oKpjRBAAU1wmBJHAi52i6bFim2Tigq_RnCUsjN96i5JnRlEj6skTx02ec1qInGQgeG8ubQm6_Mx3apbY-dqNzZJQzBgPk3MLZj5ghQMqaFpStYRu3jZ0VjauZ1XoYFEWtnnFFGftuZphNOAaREbyZl8qZGVNwxig5xEIrVfuPrAS9EEPOQhcHaqkNKL89AG3xfY0AStp8ScqraOm5n2iaAdACAP3tuvdWUqLzTSKBZhfL7A97HLvqN_Q6vNdbolth1MFJHwPr2jPmMPsUZJg9FxUPYqnyPBf566EtSLwFN9ZGNnRYtVAqImRdGsOA_6Bcr91oXWKxk34rRj_YYGvJXbzB3XIXcvBnbuP4qJwWvN-QhEFNfYSX1M1TwYMzFmZaZ7JrRcT-9cN2EY-bY8eH5IHdTsrwL15pT4zxj_8PowJwcN_4SwrYoCLam6zKfx6csefa_664zZ5Rs88p8mVebjAa8aTE33GcppWCw1hg9LgSd3VD8G9lOd7Rj5pAGIGxl0Zgx2b6p9izfhWz5KQmSrSEnO7QzU6VYSQJtzQFt5foUES6Ed5gSVy_G_l0Ir5_Mqrb0nIIRe801PmfKvRxHFY0ealrVkUQ5Qf4DB1Tn1OwYlc3C30tnGPojNlJ3acmZaO6aKpZdDEguiM6DOqCCO-oMWN-5AMkzpz3BbiTKmaiWFdvib8HXaNZWK0AmK4wPR4PAdKPmRXvMtYOvw1VASRr5w9o41Mz4FXBgTzqXzyGhpOLiL2irJznhG_OF4SFQYf5mj9HNorFKX_SIdecTJNR9c84ak9eOZLJb66Vnz8kUQXKxaFmBYvIGhgqQQHl0baqdUiPDPdxSD-SfIGAbVrep1LrwLmF3yGc8kCrzUAKAnZCVaOaauRQ_O3HbjaEK6bKMKfILTbqlm1wL82zXT6UtsAyCW3cOr5T9mMcEXq_asdoJXYaA-W5FXncA8xSoi64yxkE7PVDVKVfNuAWTd0BSk4YmaQkC6Qy29pkSsMNKrPahUvixrPy1_PzFcoqRngf2A1zl4n1IuY2jqFlW3iTqV1sdGwaM91XGEW9m0MtIjISaVoF-xVSztgzSrvpZlNZvgZ4svBkUS4foFhXZExAnK95GqHc087xfH349y0HCd_KAzu2wgCODn61KAHtpIwMMKH3LhkXVHK6UuSzh2OKOfk3xfNSHfA-YQ6Ub9Q7uhsQ6kpJvHanpTlqJzQwr0V-WHNSLIcCU8gCnebH9k4bcmOzk-UdGw0Dk3pFv9UDhBavO2chb7xtUPL32OaZuFx8K3mkNxV_DDmMIs8-3sJtSVkbH3G9F6KV95pp4qbOQO_NhBntTBd-TW15xBVC2rMjv1y7MWVz1_oaqarM9MYqqdTF0x8yhrb5QAMd77Y0uD8p8fLA4NnYwYUDJnvRYv2mjmLJ1CiqOjR1m4jNvGNq8YBJ522gUYkZxSQUbugcbwkXsc_CryYUr-eKTxMlw_gGV7yskOD6LiiTUdq0djU7MLNk3YTzLGS29Yt8qi4BgprTkD9f8e00OmkSsdNrEsBpa5y2mkl1dKQu4Pc4-tY9lyua7ip6_RWWTfB1wVAbGLXUcXLDJHBffg/https://www.amazon.com/stores/page/17523ADE-DFE2-47FE-A8F6-543EAF563D7E/?_encoding=UTF8&store_ref=SB_A05207582Q3DSRVXOB2VT-A09946035C47PTT01O6H&pd_rd_plhdr=t&aaxitk=cec3f5ef5f8d165e23f3140dbb5fa3d0&hsa_cr_id=0&lp_asins=B0D5BCH4J6%2CB0D5B7TNL5%2CB0D5BBMN25&lp_query=wireless%20mouse&lp_slot=desktop-hsa-3psl&ref_=sbx_be_s_3psl_mbd_mb1_ls&pd_rd_w=Nv8Wl&content-id=amzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d%3Aamzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_p=34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_r=XG2KZX95TB05713DB4JV&pd_rd_wg=NHNV2&pd_rd_r=cd41ba39-d951-4586-a05e-62509c1cae1d
+                        - img "Uciefy" [ref=f4e1266]
+                      - generic [ref=f4e1268]:
+                        - generic [ref=f4e1269]:
+                          - link [ref=f4e1270] [cursor=pointer]:
+                            - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JDZudoVDJfLi1Ub_c2b7Sv8AAAGfrIbeWgEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICDjtwfV/clv1c_ek-AxHfWErTaTLXhZCfv748Zr5IQEDDfSCJLLo2MD5uHadOhH6mp2OiU7haGMJewsSwfLJgT3Guo4Uv-h1A3wVyTAbH1YhobSZI-ROzYcSf2gh3oKpjRBAAU1wmBJHAi52i6bFim2Tigq_RnCUsjN96i5JnRlEj6skTx02ec1qInGQgeG8ubQm6_Mx3apbY-dqNzZJQzBgPk3MLZj5ghQMqaFpStYRu3jZ0VjauZ1XoYFEWtnnFFGftuZphNOAaREbyZl8qZGVNwxig5xEIrVfuPrAS9EEPOQhcHaqkNKL89AG3xfY0AStp8ScqraOm5n2iaAdACAP3tuvdWUqLzTSKBZhfL7A97HLvqN_Q6vNdbolth1MFJHwPr2jPmMPsUZJg9FxUPYqnyPBf566EtSLwFN9ZGNnRYtVAqImRdGsOA_6Bcr91oXWKxk34rRj_YYGvJXbzB3XIXcvBnbuP4qJwWvN-QhEFNfYSX1M1TwYMzFmZaZ7JrRcT-9cN2EY-bY8eH5IHdTsrwL15pT4zxj_8PowJwcN_4SwrYoCLam6zKfx6csefa_664zZ5Rs88p8mVebjAa8aTE33GcppWCw1hg9LgSd3VD8G9lOd7Rj5pAGIGxl0Zgx2b6p9izfhWz5KQmSrSEnO7QzU6VYSQJtzQFt5foUES6Ed5gSVy_G_l0Ir5_Mqrb0nIIRe801PmfKvRxHFY0ealrVkUQ5Qf4DB1Tn1OwYlc3C30tnGPojNlJ3acmZaO6aKpZdDEguiM6DOqCCO-oMWN-5AMkzpz3BbiTKmaiWFdvib8HXaNZWK0AmK4wPR4PAdKPmRXvMtYOvw1VASRr5w9o41Mz4FXBgTzqXzyGhpOLiL2irJznhG_OF4SFQYf5mj9HNorFKX_SIdecTJNR9c84ak9eOZLJb66Vnz8kUQXKxaFmBYvIGhgqQQHl0baqdUiPDPdxSD-SfIGAbVrep1LrwLmF3yGc8kCrzUAKAnZCVaOaauRQ_O3HbjaEK6bKMKfILTbqlm1wL82zXT6UtsAyCW3cOr5T9mMcEXq_asdoJXYaA-W5FXncA8xSoi64yxkE7PVDVKVfNuAWTd0BSk4YmaQkC6Qy29pkSsMNKrPahUvixrPy1_PzFcoqRngf2A1zl4n1IuY2jqFlW3iTqV1sdGwaM91XGEW9m0MtIjISaVoF-xVSztgzSrvpZlNZvgZ4svBkUS4foFhXZExAnK95GqHc087xfH349y0HCd_KAzu2wgCODn61KAHtpIwMMKH3LhkXVHK6UuSzh2OKOfk3xfNSHfA-YQ6Ub9Q7uhsQ6kpJvHanpTlqJzQwr0V-WHNSLIcCU8gCnebH9k4bcmOzk-UdGw0Dk3pFv9UDhBavO2chb7xtUPL32OaZuFx8K3mkNxV_DDmMIs8-3sJtSVkbH3G9F6KV95pp4qbOQO_NhBntTBd-TW15xBVC2rMjv1y7MWVz1_oaqarM9MYqqdTF0x8yhrb5QAMd77Y0uD8p8fLA4NnYwYUDJnvRYv2mjmLJ1CiqOjR1m4jNvGNq8YBJ522gUYkZxSQUbugcbwkXsc_CryYUr-eKTxMlw_gGV7yskOD6LiiTUdq0djU7MLNk3YTzLGS29Yt8qi4BgprTkD9f8e00OmkSsdNrEsBpa5y2mkl1dKQu4Pc4-tY9lyua7ip6_RWWTfB1wVAbGLXUcXLDJHBffg/https://www.amazon.com/stores/page/17523ADE-DFE2-47FE-A8F6-543EAF563D7E/?_encoding=UTF8&store_ref=SB_A05207582Q3DSRVXOB2VT-A09946035C47PTT01O6H&pd_rd_plhdr=t&aaxitk=cec3f5ef5f8d165e23f3140dbb5fa3d0&hsa_cr_id=0&lp_asins=B0D5BCH4J6%2CB0D5B7TNL5%2CB0D5BBMN25&lp_query=wireless%20mouse&lp_slot=desktop-hsa-3psl&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=Nv8Wl&content-id=amzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d%3Aamzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_p=34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_r=XG2KZX95TB05713DB4JV&pd_rd_wg=NHNV2&pd_rd_r=cd41ba39-d951-4586-a05e-62509c1cae1d
+                          - link [ref=f4e1271] [cursor=pointer]:
+                            - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JDZudoVDJfLi1Ub_c2b7Sv8AAAGfrIbeWgEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICDjtwfV/clv1c_ek-AxHfWErTaTLXhZCfv748Zr5IQEDDfSCJLLo2MD5uHadOhH6mp2OiU7haGMJewsSwfLJgT3Guo4Uv-h1A3wVyTAbH1YhobSZI-ROzYcSf2gh3oKpjRBAAU1wmBJHAi52i6bFim2Tigq_RnCUsjN96i5JnRlEj6skTx02ec1qInGQgeG8ubQm6_Mx3apbY-dqNzZJQzBgPk3MLZj5ghQMqaFpStYRu3jZ0VjauZ1XoYFEWtnnFFGftuZphNOAaREbyZl8qZGVNwxig5xEIrVfuPrAS9EEPOQhcHaqkNKL89AG3xfY0AStp8ScqraOm5n2iaAdACAP3tuvdWUqLzTSKBZhfL7A97HLvqN_Q6vNdbolth1MFJHwPr2jPmMPsUZJg9FxUPYqnyPBf566EtSLwFN9ZGNnRYtVAqImRdGsOA_6Bcr91oXWKxk34rRj_YYGvJXbzB3XIXcvBnbuP4qJwWvN-QhEFNfYSX1M1TwYMzFmZaZ7JrRcT-9cN2EY-bY8eH5IHdTsrwL15pT4zxj_8PowJwcN_4SwrYoCLam6zKfx6csefa_664zZ5Rs88p8mVebjAa8aTE33GcppWCw1hg9LgSd3VD8G9lOd7Rj5pAGIGxl0Zgx2b6p9izfhWz5KQmSrSEnO7QzU6VYSQJtzQFt5foUES6Ed5gSVy_G_l0Ir5_Mqrb0nIIRe801PmfKvRxHFY0ealrVkUQ5Qf4DB1Tn1OwYlc3C30tnGPojNlJ3acmZaO6aKpZdDEguiM6DOqCCO-oMWN-5AMkzpz3BbiTKmaiWFdvib8HXaNZWK0AmK4wPR4PAdKPmRXvMtYOvw1VASRr5w9o41Mz4FXBgTzqXzyGhpOLiL2irJznhG_OF4SFQYf5mj9HNorFKX_SIdecTJNR9c84ak9eOZLJb66Vnz8kUQXKxaFmBYvIGhgqQQHl0baqdUiPDPdxSD-SfIGAbVrep1LrwLmF3yGc8kCrzUAKAnZCVaOaauRQ_O3HbjaEK6bKMKfILTbqlm1wL82zXT6UtsAyCW3cOr5T9mMcEXq_asdoJXYaA-W5FXncA8xSoi64yxkE7PVDVKVfNuAWTd0BSk4YmaQkC6Qy29pkSsMNKrPahUvixrPy1_PzFcoqRngf2A1zl4n1IuY2jqFlW3iTqV1sdGwaM91XGEW9m0MtIjISaVoF-xVSztgzSrvpZlNZvgZ4svBkUS4foFhXZExAnK95GqHc087xfH349y0HCd_KAzu2wgCODn61KAHtpIwMMKH3LhkXVHK6UuSzh2OKOfk3xfNSHfA-YQ6Ub9Q7uhsQ6kpJvHanpTlqJzQwr0V-WHNSLIcCU8gCnebH9k4bcmOzk-UdGw0Dk3pFv9UDhBavO2chb7xtUPL32OaZuFx8K3mkNxV_DDmMIs8-3sJtSVkbH3G9F6KV95pp4qbOQO_NhBntTBd-TW15xBVC2rMjv1y7MWVz1_oaqarM9MYqqdTF0x8yhrb5QAMd77Y0uD8p8fLA4NnYwYUDJnvRYv2mjmLJ1CiqOjR1m4jNvGNq8YBJ522gUYkZxSQUbugcbwkXsc_CryYUr-eKTxMlw_gGV7yskOD6LiiTUdq0djU7MLNk3YTzLGS29Yt8qi4BgprTkD9f8e00OmkSsdNrEsBpa5y2mkl1dKQu4Pc4-tY9lyua7ip6_RWWTfB1wVAbGLXUcXLDJHBffg/https://www.amazon.com/stores/page/17523ADE-DFE2-47FE-A8F6-543EAF563D7E/?_encoding=UTF8&store_ref=SB_A05207582Q3DSRVXOB2VT-A09946035C47PTT01O6H&pd_rd_plhdr=t&aaxitk=cec3f5ef5f8d165e23f3140dbb5fa3d0&hsa_cr_id=0&lp_asins=B0D5BCH4J6%2CB0D5B7TNL5%2CB0D5BBMN25&lp_query=wireless%20mouse&lp_slot=desktop-hsa-3psl&ref_=sbx_be_s_3psl_mbd_mb1_logo&pd_rd_w=Nv8Wl&content-id=amzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d%3Aamzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_p=34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_r=XG2KZX95TB05713DB4JV&pd_rd_wg=NHNV2&pd_rd_r=cd41ba39-d951-4586-a05e-62509c1cae1d
+                            - img "Uciefy" [ref=f4e1273]
+                        - generic [ref=f4e1274]:
+                          - link [ref=f4e1275] [cursor=pointer]:
+                            - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JDZudoVDJfLi1Ub_c2b7Sv8AAAGfrIbeWgEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICDjtwfV/clv1c_ek-AxHfWErTaTLXhZCfv748Zr5IQEDDfSCJLLo2MD5uHadOhH6mp2OiU7haGMJewsSwfLJgT3Guo4Uv-h1A3wVyTAbH1YhobSZI-ROzYcSf2gh3oKpjRBAAU1wmBJHAi52i6bFim2Tigq_RnCUsjN96i5JnRlEj6skTx02ec1qInGQgeG8ubQm6_Mx3apbY-dqNzZJQzBgPk3MLZj5ghQMqaFpStYRu3jZ0VjauZ1XoYFEWtnnFFGftuZphNOAaREbyZl8qZGVNwxig5xEIrVfuPrAS9EEPOQhcHaqkNKL89AG3xfY0AStp8ScqraOm5n2iaAdACAP3tuvdWUqLzTSKBZhfL7A97HLvqN_Q6vNdbolth1MFJHwPr2jPmMPsUZJg9FxUPYqnyPBf566EtSLwFN9ZGNnRYtVAqImRdGsOA_6Bcr91oXWKxk34rRj_YYGvJXbzB3XIXcvBnbuP4qJwWvN-QhEFNfYSX1M1TwYMzFmZaZ7JrRcT-9cN2EY-bY8eH5IHdTsrwL15pT4zxj_8PowJwcN_4SwrYoCLam6zKfx6csefa_664zZ5Rs88p8mVebjAa8aTE33GcppWCw1hg9LgSd3VD8G9lOd7Rj5pAGIGxl0Zgx2b6p9izfhWz5KQmSrSEnO7QzU6VYSQJtzQFt5foUES6Ed5gSVy_G_l0Ir5_Mqrb0nIIRe801PmfKvRxHFY0ealrVkUQ5Qf4DB1Tn1OwYlc3C30tnGPojNlJ3acmZaO6aKpZdDEguiM6DOqCCO-oMWN-5AMkzpz3BbiTKmaiWFdvib8HXaNZWK0AmK4wPR4PAdKPmRXvMtYOvw1VASRr5w9o41Mz4FXBgTzqXzyGhpOLiL2irJznhG_OF4SFQYf5mj9HNorFKX_SIdecTJNR9c84ak9eOZLJb66Vnz8kUQXKxaFmBYvIGhgqQQHl0baqdUiPDPdxSD-SfIGAbVrep1LrwLmF3yGc8kCrzUAKAnZCVaOaauRQ_O3HbjaEK6bKMKfILTbqlm1wL82zXT6UtsAyCW3cOr5T9mMcEXq_asdoJXYaA-W5FXncA8xSoi64yxkE7PVDVKVfNuAWTd0BSk4YmaQkC6Qy29pkSsMNKrPahUvixrPy1_PzFcoqRngf2A1zl4n1IuY2jqFlW3iTqV1sdGwaM91XGEW9m0MtIjISaVoF-xVSztgzSrvpZlNZvgZ4svBkUS4foFhXZExAnK95GqHc087xfH349y0HCd_KAzu2wgCODn61KAHtpIwMMKH3LhkXVHK6UuSzh2OKOfk3xfNSHfA-YQ6Ub9Q7uhsQ6kpJvHanpTlqJzQwr0V-WHNSLIcCU8gCnebH9k4bcmOzk-UdGw0Dk3pFv9UDhBavO2chb7xtUPL32OaZuFx8K3mkNxV_DDmMIs8-3sJtSVkbH3G9F6KV95pp4qbOQO_NhBntTBd-TW15xBVC2rMjv1y7MWVz1_oaqarM9MYqqdTF0x8yhrb5QAMd77Y0uD8p8fLA4NnYwYUDJnvRYv2mjmLJ1CiqOjR1m4jNvGNq8YBJ522gUYkZxSQUbugcbwkXsc_CryYUr-eKTxMlw_gGV7yskOD6LiiTUdq0djU7MLNk3YTzLGS29Yt8qi4BgprTkD9f8e00OmkSsdNrEsBpa5y2mkl1dKQu4Pc4-tY9lyua7ip6_RWWTfB1wVAbGLXUcXLDJHBffg/https://www.amazon.com/stores/page/17523ADE-DFE2-47FE-A8F6-543EAF563D7E/?_encoding=UTF8&store_ref=SB_A05207582Q3DSRVXOB2VT-A09946035C47PTT01O6H&pd_rd_plhdr=t&aaxitk=cec3f5ef5f8d165e23f3140dbb5fa3d0&hsa_cr_id=0&lp_asins=B0D5BCH4J6%2CB0D5B7TNL5%2CB0D5BBMN25&lp_query=wireless%20mouse&lp_slot=desktop-hsa-3psl&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=Nv8Wl&content-id=amzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d%3Aamzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_p=34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_r=XG2KZX95TB05713DB4JV&pd_rd_wg=NHNV2&pd_rd_r=cd41ba39-d951-4586-a05e-62509c1cae1d
+                          - link "Battery Level Visible, Bluetooth Mouse" [ref=f4e1276] [cursor=pointer]:
+                            - /url: https://aax-us-east-retail-direct.amazon.com/x/c/JDZudoVDJfLi1Ub_c2b7Sv8AAAGfrIbeWgEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICDjtwfV/clv1c_ek-AxHfWErTaTLXhZCfv748Zr5IQEDDfSCJLLo2MD5uHadOhH6mp2OiU7haGMJewsSwfLJgT3Guo4Uv-h1A3wVyTAbH1YhobSZI-ROzYcSf2gh3oKpjRBAAU1wmBJHAi52i6bFim2Tigq_RnCUsjN96i5JnRlEj6skTx02ec1qInGQgeG8ubQm6_Mx3apbY-dqNzZJQzBgPk3MLZj5ghQMqaFpStYRu3jZ0VjauZ1XoYFEWtnnFFGftuZphNOAaREbyZl8qZGVNwxig5xEIrVfuPrAS9EEPOQhcHaqkNKL89AG3xfY0AStp8ScqraOm5n2iaAdACAP3tuvdWUqLzTSKBZhfL7A97HLvqN_Q6vNdbolth1MFJHwPr2jPmMPsUZJg9FxUPYqnyPBf566EtSLwFN9ZGNnRYtVAqImRdGsOA_6Bcr91oXWKxk34rRj_YYGvJXbzB3XIXcvBnbuP4qJwWvN-QhEFNfYSX1M1TwYMzFmZaZ7JrRcT-9cN2EY-bY8eH5IHdTsrwL15pT4zxj_8PowJwcN_4SwrYoCLam6zKfx6csefa_664zZ5Rs88p8mVebjAa8aTE33GcppWCw1hg9LgSd3VD8G9lOd7Rj5pAGIGxl0Zgx2b6p9izfhWz5KQmSrSEnO7QzU6VYSQJtzQFt5foUES6Ed5gSVy_G_l0Ir5_Mqrb0nIIRe801PmfKvRxHFY0ealrVkUQ5Qf4DB1Tn1OwYlc3C30tnGPojNlJ3acmZaO6aKpZdDEguiM6DOqCCO-oMWN-5AMkzpz3BbiTKmaiWFdvib8HXaNZWK0AmK4wPR4PAdKPmRXvMtYOvw1VASRr5w9o41Mz4FXBgTzqXzyGhpOLiL2irJznhG_OF4SFQYf5mj9HNorFKX_SIdecTJNR9c84ak9eOZLJb66Vnz8kUQXKxaFmBYvIGhgqQQHl0baqdUiPDPdxSD-SfIGAbVrep1LrwLmF3yGc8kCrzUAKAnZCVaOaauRQ_O3HbjaEK6bKMKfILTbqlm1wL82zXT6UtsAyCW3cOr5T9mMcEXq_asdoJXYaA-W5FXncA8xSoi64yxkE7PVDVKVfNuAWTd0BSk4YmaQkC6Qy29pkSsMNKrPahUvixrPy1_PzFcoqRngf2A1zl4n1IuY2jqFlW3iTqV1sdGwaM91XGEW9m0MtIjISaVoF-xVSztgzSrvpZlNZvgZ4svBkUS4foFhXZExAnK95GqHc087xfH349y0HCd_KAzu2wgCODn61KAHtpIwMMKH3LhkXVHK6UuSzh2OKOfk3xfNSHfA-YQ6Ub9Q7uhsQ6kpJvHanpTlqJzQwr0V-WHNSLIcCU8gCnebH9k4bcmOzk-UdGw0Dk3pFv9UDhBavO2chb7xtUPL32OaZuFx8K3mkNxV_DDmMIs8-3sJtSVkbH3G9F6KV95pp4qbOQO_NhBntTBd-TW15xBVC2rMjv1y7MWVz1_oaqarM9MYqqdTF0x8yhrb5QAMd77Y0uD8p8fLA4NnYwYUDJnvRYv2mjmLJ1CiqOjR1m4jNvGNq8YBJ522gUYkZxSQUbugcbwkXsc_CryYUr-eKTxMlw_gGV7yskOD6LiiTUdq0djU7MLNk3YTzLGS29Yt8qi4BgprTkD9f8e00OmkSsdNrEsBpa5y2mkl1dKQu4Pc4-tY9lyua7ip6_RWWTfB1wVAbGLXUcXLDJHBffg/https://www.amazon.com/stores/page/17523ADE-DFE2-47FE-A8F6-543EAF563D7E/?_encoding=UTF8&store_ref=SB_A05207582Q3DSRVXOB2VT-A09946035C47PTT01O6H&pd_rd_plhdr=t&aaxitk=cec3f5ef5f8d165e23f3140dbb5fa3d0&hsa_cr_id=0&lp_asins=B0D5BCH4J6%2CB0D5B7TNL5%2CB0D5BBMN25&lp_query=wireless%20mouse&lp_slot=desktop-hsa-3psl&ref_=sbx_be_s_3psl_mbd_mb1_hl&pd_rd_w=Nv8Wl&content-id=amzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d%3Aamzn1.sym.34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_p=34925003-ed5a-42a1-b6c2-ded67a03dc8d&pf_rd_r=XG2KZX95TB05713DB4JV&pd_rd_wg=NHNV2&pd_rd_r=cd41ba39-d951-4586-a05e-62509c1cae1d
+                            - generic [ref=f4e1278]:
+                              - generic [ref=f4e1279]: Battery Level Visible, Bluetooth Mouse
+                              - generic [ref=f4e1280]: Battery Level Visible, Bluetooth Mouse
+          - generic [ref=f4e1286]:
+            - heading "Need help?" [level=2] [ref=f4e1289]
+            - generic [ref=f4e1290]:
+              - link "Visit the help section" [ref=f4e1291] [cursor=pointer]:
+                - /url: /gp/help/customer/display.html?nodeId=468556
+              - text: or
+              - link "contact us" [ref=f4e1292] [cursor=pointer]:
+                - /url: /gp/help/customer/contact-us
+        - link "Go back to filtering menu" [ref=f4e1293] [cursor=pointer]:
+          - /url: "#s-skipLinkTargetForFilterOptions"
+      - generic [ref=f4e1295]:
+        - link "Skip to main search results" [ref=f4e1296] [cursor=pointer]:
+          - /url: "#s-skipLinkTargetForMainSearchResults"
+        - generic [ref=f4e1302]:
+          - group [ref=f4e1303]:
+            - heading "Popular Shopping Ideas" [level=2] [ref=f4e1304]
+            - list [ref=f4e1305]:
+              - listitem [ref=f4e1306]:
+                - link "Laptop" [ref=f4e1308] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse+for+laptop&ref=sr_nr_p_rag_integrated_qb_0
+              - listitem [ref=f4e1309]:
+                - link "Gaming" [ref=f4e1311] [cursor=pointer]:
+                  - /url: /s?k=wireless+gaming+mouse&ref=sr_nr_p_rag_integrated_qb_1
+              - listitem [ref=f4e1312]:
+                - link "Ergonomic" [ref=f4e1314] [cursor=pointer]:
+                  - /url: /s?k=ergonomic+wireless+mouse&ref=sr_nr_p_rag_integrated_qb_2
+              - listitem [ref=f4e1315]:
+                - link "Computer" [ref=f4e1317] [cursor=pointer]:
+                  - /url: /s?k=wireless+computer+mouse&ref=sr_nr_p_rag_integrated_qb_3
+              - listitem [ref=f4e1318]:
+                - button "See more" [ref=f4e1321] [cursor=pointer]
+          - separator [ref=f4e1323]
+          - group [ref=f4e1324]:
+            - heading "Customer Reviews" [level=2] [ref=f4e1325]
+            - list "Customer Reviews" [ref=f4e1326]:
+              - listitem [ref=f4e1327]:
+                - link "Apply 4 Stars & Up filter to narrow results" [ref=f4e1330] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_72%3A1248879011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=1248877011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_72_1&ds=v1%3A4auDjrNnmV5y2yWlXVSukQOKE6Tj9cvQZ70o%2FbJ9boE
+                  - generic [ref=f4e1331]: 4 Stars
+                  - text: "& Up"
+          - group [ref=f4e1333]:
+            - heading "Brands" [level=2] [ref=f4e1334]
+            - list "Brands" [ref=f4e1335]:
+              - listitem "Popular Shopping Ideas" [ref=f4e1336]:
+                - link "Apply Logitech filter to narrow results" [ref=f4e1338] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_123%3A213704&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=85457740011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_123_1&ds=v1%3AmZshG0hS9U4OusrXBX4HbpFBz1zU4KXTqsBBGX0vRR4
+                  - checkbox [ref=f4e1341]
+                  - text: Logitech
+              - listitem "Popular Shopping Ideas" [ref=f4e1343]:
+                - link "Apply HP filter to narrow results" [ref=f4e1345] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_123%3A308445&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=85457740011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_123_2&ds=v1%3A5CmDGajCOMkgAM59S4DkdfD6PPa%2BccnQG3QRfr9x%2B5Y
+                  - checkbox [ref=f4e1348]
+                  - text: HP
+              - listitem "Popular Shopping Ideas" [ref=f4e1350]:
+                - link "Apply Razer filter to narrow results" [ref=f4e1352] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_123%3A220854&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=85457740011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_123_3&ds=v1%3AaluP%2BEiQA87s5GvVYdBBCADYphtQLWC9tQjJbSpyEeI
+                  - checkbox [ref=f4e1355]
+                  - text: Razer
+              - listitem "Popular Shopping Ideas" [ref=f4e1357]:
+                - link "Apply Microsoft filter to narrow results" [ref=f4e1359] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_123%3A42439&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=85457740011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_123_4&ds=v1%3AWZfagqVJNBJ4cfubMNQWrQtSs06W77R4hZYxzFF0E3M
+                  - checkbox [ref=f4e1362]
+                  - text: Microsoft
+              - listitem "Popular Shopping Ideas" [ref=f4e1364]:
+                - link "Apply Apple filter to narrow results" [ref=f4e1366] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_123%3A110955&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=85457740011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_123_5&ds=v1%3AypXsQ85fiTtyfYCY7TxZfzwqZ9t%2BqvouB1ejpSTiczQ
+                  - checkbox [ref=f4e1369]
+                  - text: Apple
+              - listitem "Popular Shopping Ideas" [ref=f4e1371]:
+                - link "Apply Dell filter to narrow results" [ref=f4e1373] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_123%3A241862&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=85457740011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_123_6&ds=v1%3AuZ2RG9nSey9Z8uO6qCmarcFOkR%2BkA7WXX4Y32E6JYUo
+                  - checkbox [ref=f4e1376]
+                  - text: Dell
+              - listitem "Popular Shopping Ideas" [ref=f4e1378]:
+                - link "Apply Lenovo filter to narrow results" [ref=f4e1380] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_123%3A391242&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=85457740011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_123_7&ds=v1%3AvW8fTm5qhIoXJLVBpDG18OR7CjdnTHie0He34kYwMuI
+                  - checkbox [ref=f4e1383]
+                  - text: Lenovo
+              - listitem [ref=f4e1385]:
+                - button "See more, Brands" [ref=f4e1388] [cursor=pointer]: See more
+          - group [ref=f4e1390]:
+            - heading "Color" [level=2] [ref=f4e1391]
+            - list "Color" [ref=f4e1392]:
+              - listitem [ref=f4e1393]:
+                - generic:
+                  - link "Apply Black filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_g-1001308730111%3A2569815011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=2569813011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1001308730111_1&ds=v1%3AcbzWXzS2zrjpj6qMSI4T6nXX5%2B8k0UaUN9EQ0neB4lA
+              - listitem [ref=f4e1395]:
+                - generic:
+                  - link "Apply White filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_g-1001308730111%3A2569829011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=2569813011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1001308730111_2&ds=v1%3AGxdgYT%2Bv8ltHJkPBDbSN8H4jQ%2BXREPaswIFoE7%2FoMJg
+              - listitem [ref=f4e1397]:
+                - generic:
+                  - link "Apply Pink filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_g-1001308730111%3A2569825011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=2569813011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1001308730111_3&ds=v1%3AvngwHIR4iTbx8JpiOuNKAVHZUa6nWTvIzeiHch6p%2BPQ
+              - listitem [ref=f4e1399]:
+                - generic:
+                  - link "Apply Grey filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_g-1001308730111%3A2569821011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=2569813011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1001308730111_4&ds=v1%3AnYV3zoyyeswmitNAMWkX3DFcNA2z%2FUfTgJrN6AegFoY
+              - listitem [ref=f4e1401]:
+                - generic:
+                  - link "Apply Brown filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_g-1001308730111%3A2569817011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=2569813011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1001308730111_5&ds=v1%3AFW4lIjp%2BJ2QxZjYWMCAOV1qOpCE7J6ru4iVUEb1t8RE
+              - listitem [ref=f4e1403]:
+                - generic:
+                  - link "Apply Beige filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_g-1001308730111%3A2569814011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=2569813011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1001308730111_6&ds=v1%3AD9ZWhl8OKabCK4NbhlGIPn%2FVt1kXfN7a%2B%2B1KBg8EYJw
+              - listitem [ref=f4e1405]:
+                - generic:
+                  - link "Apply Red filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_g-1001308730111%3A2569827011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=2569813011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1001308730111_7&ds=v1%3APTtaSHFVUp7JSjoKBrn%2BggXxW5xn5EUette5S%2FxrlW0
+              - listitem [ref=f4e1407]:
+                - generic:
+                  - link "Apply Orange filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_g-1001308730111%3A2569824011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=2569813011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1001308730111_8&ds=v1%3AXyG4gw3uqo47t%2F3TRtgggnRkrQTrqYmnh6Vmbr6Wbh0
+              - listitem [ref=f4e1409]:
+                - generic:
+                  - link "Apply Yellow filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_g-1001308730111%3A2569830011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=2569813011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1001308730111_9&ds=v1%3AlLC8Kk0tbWJdHv%2FaWLk7ozVVNm6Xk76HzbyO2%2BgRJN4
+              - listitem [ref=f4e1411]:
+                - generic:
+                  - link "Apply Ivory filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_g-1001308730111%3A2569822011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=2569813011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1001308730111_10&ds=v1%3AT3a46v6jYCj1YW6h3iaeLxMDniS%2BeHSlrHrPXUs4%2FUk
+              - listitem [ref=f4e1413]:
+                - generic:
+                  - link "Apply Green filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_g-1001308730111%3A2569820011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=2569813011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1001308730111_11&ds=v1%3AW50dF0F23XBGb9wG7kctOakFBVUHZnmu%2FudTrQHLA2o
+              - listitem [ref=f4e1415]:
+                - generic:
+                  - link "Apply Blue filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_g-1001308730111%3A2569816011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=2569813011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1001308730111_12&ds=v1%3AL0lqarigTtyGAdU1SoJy8zTVTXn814nO1bjIhSn2e1w
+              - listitem [ref=f4e1417]:
+                - generic:
+                  - link "Apply Purple filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_g-1001308730111%3A2569826011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=2569813011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1001308730111_13&ds=v1%3Af2KfTfbgsKOdAYKClR0DmLUvWJG9fl4F%2BVWrBmGwPHA
+              - listitem [ref=f4e1419]:
+                - generic:
+                  - link "Apply Gold filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_g-1001308730111%3A2569819011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=2569813011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1001308730111_14&ds=v1%3AipkFi9UpN9YVf%2BGNdASmw%2BA2NCL3M84572iutq%2BCrVM
+              - listitem [ref=f4e1421]:
+                - generic:
+                  - link "Apply Silver filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_g-1001308730111%3A2569828011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=2569813011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1001308730111_15&ds=v1%3A3yNP1hS8bXUusQmNaXoL7byKoiAG36e8yCNriTnQH9c
+              - listitem [ref=f4e1423]:
+                - generic:
+                  - link "Apply Multi filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_g-1001308730111%3A2569823011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=2569813011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1001308730111_16&ds=v1%3A7QlhOtEktnHoJ0%2FV71oduJDWwaJRO0rjxANfFiw0GHI
+              - listitem [ref=f4e1425]:
+                - generic:
+                  - link "Apply Clear filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_g-1001308730111%3A2569818011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=2569813011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1001308730111_17&ds=v1%3AhHVzlzzsymYwX%2FVryaV7z0SDgiSILM4SDxUk9Y5hf4w
+          - group [ref=f4e1427]:
+            - heading "Features" [level=2] [ref=f4e1428]
+            - list "Features" [ref=f4e1429]:
+              - listitem "Popular Shopping Ideas" [ref=f4e1430]:
+                - link "Apply Ergonomic Design filter to narrow results" [ref=f4e1432] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101013588207111%3A75675167011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=75675161011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101013588207111_1&ds=v1%3AchodGbHoCAqmobnNAuhNVcrvM%2F3N8Gfhhogkl%2BhPttA
+                  - checkbox [ref=f4e1435]
+                  - text: Ergonomic Design
+              - listitem "Popular Shopping Ideas" [ref=f4e1437]:
+                - link "Apply Wireless filter to narrow results" [ref=f4e1439] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101013588207111%3A75675164011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=75675161011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101013588207111_2&ds=v1%3ApYLPOgZb8Pl6wm3eS34oRiClr14m7CAELmsMKp4a0K8
+                  - checkbox [ref=f4e1442]
+                  - text: Wireless
+              - listitem "Popular Shopping Ideas" [ref=f4e1444]:
+                - link "Apply Lightweight filter to narrow results" [ref=f4e1446] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101013588207111%3A75675174011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=75675161011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101013588207111_3&ds=v1%3Al%2Fzlm2I7o4lyAtdqG223Cz1qNwm%2BvKEI24%2BtszkCBuo
+                  - checkbox [ref=f4e1449]
+                  - text: Lightweight
+              - listitem "Popular Shopping Ideas" [ref=f4e1451]:
+                - link "Apply LED Lights filter to narrow results" [ref=f4e1453] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101013588207111%3A75675169011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=75675161011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101013588207111_4&ds=v1%3AgYAbgGYkKXHOmFwIdV0gLfBsx4ZXLwbnVdTqjhvleB0
+                  - checkbox [ref=f4e1456]
+                  - text: LED Lights
+              - listitem "Popular Shopping Ideas" [ref=f4e1458]:
+                - link "Apply Portable filter to narrow results" [ref=f4e1460] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101013588207111%3A75675176011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=75675161011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101013588207111_5&ds=v1%3AlmKKbkmLsbS1oppoKY4wYb8N7lsBvEPnTYGBsFclcgM
+                  - checkbox [ref=f4e1463]
+                  - text: Portable
+              - listitem "Popular Shopping Ideas" [ref=f4e1465]:
+                - link "Apply Rechargeable filter to narrow results" [ref=f4e1467] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101013588207111%3A75675173011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=75675161011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101013588207111_6&ds=v1%3Aq723qKvySJXomtNp%2FrejjqnpmYFygIazEYCUDDGp4UE
+                  - checkbox [ref=f4e1470]
+                  - text: Rechargeable
+              - listitem "Popular Shopping Ideas" [ref=f4e1472]:
+                - link "Apply Soundless filter to narrow results" [ref=f4e1474] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101013588207111%3A75675168011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=75675161011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101013588207111_7&ds=v1%3ArjqXAbSLFAiDWDxyVzqUwCvBj9H%2BYpeN4Ro3YToA7yI
+                  - checkbox [ref=f4e1477]
+                  - text: Soundless
+              - listitem [ref=f4e1479]:
+                - button "See more, Features" [ref=f4e1482] [cursor=pointer]: See more
+          - group [ref=f4e1484]:
+            - heading "Deals & Discounts" [level=2] [ref=f4e1485]
+            - list "Deals & Discounts" [ref=f4e1486]:
+              - listitem [ref=f4e1487]:
+                - link "All Discounts" [ref=f4e1489] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_deal_type%3A23566065011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23566063011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_deal_type_1&ds=v1%3A9YkN7IhS2%2FxPPFk8nFrUwjpGeuIiT79vDqZrRgfo4t8
+              - listitem [ref=f4e1490]:
+                - link "Buy More, Save More" [ref=f4e1492] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_deal_type%3A210906365011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23566063011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_deal_type_2&ds=v1%3AksHPiVdSn7dYTTcqYrKKdGmtw7quvOpnjT6xIkzABBY
+              - listitem [ref=f4e1493]:
+                - link "Coupons" [ref=f4e1495] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_deal_type%3A210906366011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23566063011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_deal_type_3&ds=v1%3ApOcurliucAWVkGgkscMV1sGA%2B5jbB9g0%2FGQPD4nS%2BUc
+              - listitem [ref=f4e1496]:
+                - link "Today's Deals" [ref=f4e1498] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_deal_type%3A23566064011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23566063011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_deal_type_4&ds=v1%3A5EKjoOOo2WwB4puH3zayd1riehKr4qdVWibHLHWNi5I
+          - group [ref=f4e1499]:
+            - heading "Condition" [level=2] [ref=f4e1500]
+            - list "Condition" [ref=f4e1501]:
+              - listitem "Popular Shopping Ideas" [ref=f4e1502]:
+                - link "Apply New filter to narrow results" [ref=f4e1504] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_condition-type%3A2224371011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=2224369011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_condition-type_1&ds=v1%3Acvh%2FmW3VyX2PZhmteLt1dJ8giL3Zm6FVwxJJb0aDY6M
+                  - checkbox [ref=f4e1507]
+                  - text: New
+              - listitem "Popular Shopping Ideas" [ref=f4e1509]:
+                - link "Apply Renewed filter to narrow results" [ref=f4e1511] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_condition-type%3A16907720011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=2224369011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_condition-type_2&ds=v1%3AEpqDL5ddZvp1iv8r2sU%2FCibalak8RGf9I2bR%2B%2Fr%2FLtU
+                  - checkbox [ref=f4e1514]
+                  - text: Renewed
+              - listitem "Popular Shopping Ideas" [ref=f4e1516]:
+                - link "Apply Used filter to narrow results" [ref=f4e1518] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_condition-type%3A2224373011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=2224369011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_condition-type_3&ds=v1%3Ax2%2B2s5W731VhAf1h67TReNu%2FQSm70GUZrMxWe9288i8
+                  - checkbox [ref=f4e1521]
+                  - text: Used
+          - group [ref=f4e1523]:
+            - heading "Power Source" [level=2] [ref=f4e1524]
+            - list "Power Source" [ref=f4e1525]:
+              - listitem "Popular Shopping Ideas" [ref=f4e1526]:
+                - link "Apply Battery Powered filter to narrow results" [ref=f4e1528] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-1003009850111%3A23627257011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23627253011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1003009850111_1&ds=v1%3A9jGvs7iEq1LfvW47d19N0KEkqBpe3qoUG%2B%2FmspY%2BZLs
+                  - checkbox [ref=f4e1531]
+                  - text: Battery Powered
+              - listitem "Popular Shopping Ideas" [ref=f4e1533]:
+                - link "Apply Corded Electric filter to narrow results" [ref=f4e1535] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-1003009850111%3A23627256011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23627253011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1003009850111_2&ds=v1%3AgDRJhzKK2RzhJ1HwrUw6VyETJqcOZ%2BWWSJpIJMKBvq0
+                  - checkbox [ref=f4e1538]
+                  - text: Corded Electric
+          - group [ref=f4e1540]:
+            - heading "Connectivity" [level=2] [ref=f4e1541]
+            - list "Connectivity" [ref=f4e1542]:
+              - listitem "Popular Shopping Ideas" [ref=f4e1543]:
+                - link "Apply USB filter to narrow results" [ref=f4e1545] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_twelve_browse-bin%3A23680031011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23680026011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_twelve_browse-bin_1&ds=v1%3A%2BEcEbLQohymzlLQckcMnCJpzPKkdct8Ud3LifrPACXY
+                  - checkbox [ref=f4e1548]
+                  - text: USB
+              - listitem "Popular Shopping Ideas" [ref=f4e1550]:
+                - link "Apply Wi-Fi filter to narrow results" [ref=f4e1552] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_twelve_browse-bin%3A43549771011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23680026011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_twelve_browse-bin_2&ds=v1%3AhAWUHLdoONTrJXYXfmxjKAIphKOdPgkrQHVJ15r8Vz8
+                  - checkbox [ref=f4e1555]
+                  - text: Wi-Fi
+              - listitem "Popular Shopping Ideas" [ref=f4e1557]:
+                - link "Apply Bluetooth filter to narrow results" [ref=f4e1559] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_twelve_browse-bin%3A23680029011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23680026011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_twelve_browse-bin_3&ds=v1%3ARH9e1ZK%2B4f%2FPIrgsXUdEAeDSnsiCsYkpU0eJt92rVqY
+                  - checkbox [ref=f4e1562]
+                  - text: Bluetooth
+              - listitem "Popular Shopping Ideas" [ref=f4e1564]:
+                - link "Apply Infrared filter to narrow results" [ref=f4e1566] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_twelve_browse-bin%3A58126515011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23680026011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_twelve_browse-bin_4&ds=v1%3AUkEjxaiZRnN9lAa5E%2Fr%2BIBe%2FLku63sXpsKdYX5OZFzU
+                  - checkbox [ref=f4e1569]
+                  - text: Infrared
+              - listitem "Popular Shopping Ideas" [ref=f4e1571]:
+                - link "Apply PS/2 filter to narrow results" [ref=f4e1573] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_twelve_browse-bin%3A43549770011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23680026011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_twelve_browse-bin_5&ds=v1%3AvBs%2FbzPsypNOdPmm4O5SxZvo9ahTqyKxAdTqkeIwlDs
+                  - checkbox [ref=f4e1576]
+                  - text: PS/2
+              - listitem "Popular Shopping Ideas" [ref=f4e1578]:
+                - link "Apply Radio Frequency filter to narrow results" [ref=f4e1580] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_twelve_browse-bin%3A23680028011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23680026011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_twelve_browse-bin_6&ds=v1%3A6uEFG9mn9P69X5RdMySYWLs1U4BKBM2PuKviFfHtn5U
+                  - checkbox [ref=f4e1583]
+                  - text: Radio Frequency
+          - group [ref=f4e1585]:
+            - heading "Hand Orientation" [level=2] [ref=f4e1586]
+            - list "Hand Orientation" [ref=f4e1587]:
+              - listitem "Popular Shopping Ideas" [ref=f4e1588]:
+                - link "Apply Ambidextrous filter to narrow results" [ref=f4e1590] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-1003340631111%3A23974318011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23974204011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1003340631111_1&ds=v1%3AYCsPBTxFavPsTevzuzEmSStltBPuxM9cnCPFDGlaPeA
+                  - checkbox [ref=f4e1593]
+                  - text: Ambidextrous
+              - listitem "Popular Shopping Ideas" [ref=f4e1595]:
+                - link "Apply Left filter to narrow results" [ref=f4e1597] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-1003340631111%3A23974316011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23974204011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1003340631111_2&ds=v1%3A%2FoK3P5p%2Fk8Fz4TYrAIe3PAZRqd9RYMx%2B3l18ZptxGAQ
+                  - checkbox [ref=f4e1600]
+                  - text: Left
+              - listitem "Popular Shopping Ideas" [ref=f4e1602]:
+                - link "Apply Right filter to narrow results" [ref=f4e1604] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-1003340631111%3A23974317011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23974204011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1003340631111_3&ds=v1%3AO5VMbMdO9eFKLgtPko0uSKNRSU70jREC9Dhz8IvdTrA
+                  - checkbox [ref=f4e1607]
+                  - text: Right
+          - group [ref=f4e1609]:
+            - heading "Operating System" [level=2] [ref=f4e1610]
+            - list "Operating System" [ref=f4e1611]:
+              - listitem "Popular Shopping Ideas" [ref=f4e1612]:
+                - link "Apply Windows filter to narrow results" [ref=f4e1614] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_eleven_browse-bin%3A23657300011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23657290011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_eleven_browse-bin_1&ds=v1%3AugtKCvUyspR2w7fGh%2F%2BN%2BzaNTbV0oelp8uWOf5jC4po
+                  - checkbox [ref=f4e1617]
+                  - text: Windows
+              - listitem "Popular Shopping Ideas" [ref=f4e1619]:
+                - link "Apply Linux filter to narrow results" [ref=f4e1621] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_eleven_browse-bin%3A23657298011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23657290011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_eleven_browse-bin_2&ds=v1%3A9M9wct0DG9NB%2BIhO08NdbIxzALlphZ7auGYDcNOUn4Y
+                  - checkbox [ref=f4e1624]
+                  - text: Linux
+              - listitem "Popular Shopping Ideas" [ref=f4e1626]:
+                - link "Apply Chrome OS filter to narrow results" [ref=f4e1628] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_eleven_browse-bin%3A23657301011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23657290011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_eleven_browse-bin_3&ds=v1%3AEjXFToLOPw4iwVcPdZQ97j6VIpQHEizRefaw5JDSVW4
+                  - checkbox [ref=f4e1631]
+                  - text: Chrome OS
+              - listitem "Popular Shopping Ideas" [ref=f4e1633]:
+                - link "Apply DOS filter to narrow results" [ref=f4e1635] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_eleven_browse-bin%3A23657297011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23657290011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_eleven_browse-bin_4&ds=v1%3Atw8mQL1RwX2%2FaFjWAB4Zqz6%2FJo31epA4WfuJ0D7QnGA
+                  - checkbox [ref=f4e1638]
+                  - text: DOS
+              - listitem "Popular Shopping Ideas" [ref=f4e1640]:
+                - link "Apply Mac filter to narrow results" [ref=f4e1642] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_eleven_browse-bin%3A23657299011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23657290011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_eleven_browse-bin_5&ds=v1%3AScnI%2Ff4ZI7zhCQ5vajWU3sPw27tkbG594DHG%2F%2FAbO1U
+                  - checkbox [ref=f4e1645]
+                  - text: Mac
+              - listitem "Popular Shopping Ideas" [ref=f4e1647]:
+                - link "Apply Mac OS 10.13 High Sierra filter to narrow results" [ref=f4e1649] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_eleven_browse-bin%3A122391555011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23657290011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_eleven_browse-bin_6&ds=v1%3A816wo8UOnso%2B%2BAyXpnqMjdlROcbQ10LHDgBLbr9IrHY
+                  - checkbox [ref=f4e1652]
+                  - text: Mac OS 10.13 High Sierra
+              - listitem "Popular Shopping Ideas" [ref=f4e1654]:
+                - link "Apply Mac OS 10.15 Catalina filter to narrow results" [ref=f4e1656] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_eleven_browse-bin%3A122391562011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23657290011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_eleven_browse-bin_7&ds=v1%3A846p%2B5rJbqL72pCDC43ZDPBOec9JUvMT7FrEiqetO3U
+                  - checkbox [ref=f4e1659]
+                  - text: Mac OS 10.15 Catalina
+              - listitem [ref=f4e1661]:
+                - button "See more, Operating System" [ref=f4e1664] [cursor=pointer]: See more
+          - group [ref=f4e1666]:
+            - heading "Top Brands" [level=2] [ref=f4e1667]
+            - list "Top Brands" [ref=f4e1668]:
+              - listitem "Popular Shopping Ideas" [ref=f4e1669]:
+                - link "Apply Top Brands filter to narrow results" [ref=f4e1671] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101014971069111%3A119653281011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=119653280011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101014971069111_1&ds=v1%3AgjphRrJWu%2Bs7SXzI3trHxTlb4C4r885S7An%2F%2BsoGKg4
+                  - checkbox [ref=f4e1674]
+                  - text: Top Brands
+          - group [ref=f4e1676]:
+            - heading "From Our Brands" [level=2] [ref=f4e1677]
+            - list "From Our Brands" [ref=f4e1678]:
+              - listitem "Popular Shopping Ideas" [ref=f4e1679]:
+                - link "Apply Amazon Brands filter to narrow results" [ref=f4e1681] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-1001321510111%3A24677333011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=21180941011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1001321510111_1&ds=v1%3AQXBZRnoxza%2B8%2Bkwj9oQ2ZjCxSRzzOXafy%2FybrSYhq8s
+                  - checkbox [ref=f4e1684]
+                  - text: Amazon Brands
+          - group [ref=f4e1686]:
+            - heading "Button Quantity" [level=2] [ref=f4e1687]
+            - list "Button Quantity" [ref=f4e1688]:
+              - listitem [ref=f4e1689]:
+                - generic:
+                  - link "Apply 1 filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_feature_four_browse-bin%3A23534248011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534181011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_four_browse-bin_1&ds=v1%3AXtPz19RZN1b8a%2FUKuChE%2Bz6RxybJHs9IMKCwsfSwVeY
+                    - button "1" [ref=f4e1692] [cursor=pointer]
+              - listitem [ref=f4e1693]:
+                - generic:
+                  - link "Apply 2 filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_feature_four_browse-bin%3A23534250011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534181011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_four_browse-bin_2&ds=v1%3ACyTnd02Hib%2Bv2A%2BdfQ7iCESkUBxFLae0FGmI5VJsyY8
+                    - button "2" [ref=f4e1696] [cursor=pointer]
+              - listitem [ref=f4e1697]:
+                - generic:
+                  - link "Apply 3 filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_feature_four_browse-bin%3A23534260011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534181011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_four_browse-bin_3&ds=v1%3AUQH3DQW8jGRV%2BHTIvpfggVL6%2Bs%2BMv%2FxAT%2BOeLDExtJk
+                    - button "3" [ref=f4e1700] [cursor=pointer]
+              - listitem [ref=f4e1701]:
+                - generic:
+                  - link "Apply 4 filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_feature_four_browse-bin%3A23534264011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534181011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_four_browse-bin_4&ds=v1%3A%2Bz0OJG8klxz%2BHwSkUsHSoFFt3XWgwo%2Fan0emgOpEuik
+                    - button "4" [ref=f4e1704] [cursor=pointer]
+              - listitem [ref=f4e1705]:
+                - generic:
+                  - link "Apply 5 filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_feature_four_browse-bin%3A23534265011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534181011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_four_browse-bin_5&ds=v1%3AzFb%2Fw5mXdDvK47sYbcAe4QrLq84RZs8HyZlmgQWBWFw
+                    - button "5" [ref=f4e1708] [cursor=pointer]
+              - listitem [ref=f4e1709]:
+                - generic:
+                  - link "Apply 6 filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_feature_four_browse-bin%3A23534257011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534181011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_four_browse-bin_6&ds=v1%3AWAXkv7FtGwTB2M4F5RMHCq47HFdwCv6OUW1sh3Oc7wY
+                    - button "6" [ref=f4e1712] [cursor=pointer]
+              - listitem [ref=f4e1713]:
+                - generic:
+                  - link "Apply 7 filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_feature_four_browse-bin%3A23534258011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534181011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_four_browse-bin_7&ds=v1%3Aazhpes%2F0RXRwr1OpgcQQPnJFu%2F2GSp5ezMGNOG5LkR4
+                    - button "7" [ref=f4e1716] [cursor=pointer]
+              - listitem [ref=f4e1717]:
+                - generic:
+                  - link "Apply 8 filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_feature_four_browse-bin%3A23534255011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534181011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_four_browse-bin_8&ds=v1%3ABtkc15nlRDjFoKf3AD7P%2BuZo1y6yvPc7TCQKLt0CHaE
+                    - button "8" [ref=f4e1720] [cursor=pointer]
+              - listitem [ref=f4e1721]:
+                - generic:
+                  - link "Apply 9 filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_feature_four_browse-bin%3A23534253011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534181011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_four_browse-bin_9&ds=v1%3AwjomEwvO1jhyamFEsBLprLrOirhQ%2B1Va7KYR9t7TM9Y
+                    - button "9" [ref=f4e1724] [cursor=pointer]
+              - listitem [ref=f4e1725]:
+                - generic:
+                  - link "Apply 10 filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_feature_four_browse-bin%3A23534254011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534181011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_four_browse-bin_10&ds=v1%3AMf50OyTBpCezcKvsI4f0IBZh8ONE7uzWBqmYJxS3VnI
+                    - button "10" [ref=f4e1728] [cursor=pointer]
+              - listitem [ref=f4e1729]:
+                - generic:
+                  - link "Apply 11 filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_feature_four_browse-bin%3A23534266011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534181011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_four_browse-bin_11&ds=v1%3AVjW%2B9vM%2F9XffsI2zOdQwngEpHfPNK1vddAEWwfoC8FA
+                    - button "11" [ref=f4e1732] [cursor=pointer]
+              - listitem [ref=f4e1733]:
+                - generic:
+                  - link "Apply 12 filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_feature_four_browse-bin%3A23534263011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534181011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_four_browse-bin_12&ds=v1%3A7KdWBT35W%2BiKMH3CGWZeahoGaSZa34RYpHSl%2FCZ7MYA
+                    - button "12" [ref=f4e1736] [cursor=pointer]
+              - listitem [ref=f4e1737]:
+                - generic:
+                  - link "Apply 13 filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_feature_four_browse-bin%3A23534261011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534181011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_four_browse-bin_13&ds=v1%3A5OzpOpugZOyK3tsyayDqfIZ6YkI3KfOC421n6LngEaI
+                    - button "13" [ref=f4e1740] [cursor=pointer]
+              - listitem [ref=f4e1741]:
+                - generic:
+                  - link "Apply 14 filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_feature_four_browse-bin%3A23534259011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534181011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_four_browse-bin_14&ds=v1%3AyAq0JNDp%2BdBtE4FJQ55gnZ%2FKoE%2FbuFi0wH3aauKQ%2Fe8
+                    - button "14" [ref=f4e1744] [cursor=pointer]
+              - listitem [ref=f4e1745]:
+                - generic:
+                  - link "Apply 15 filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_feature_four_browse-bin%3A23534252011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534181011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_four_browse-bin_15&ds=v1%3AIZL31XdbegstB6l9o5iKsHuMh%2FsY%2BCfdQ8ICUiup5lE
+                    - button "15" [ref=f4e1748] [cursor=pointer]
+              - listitem [ref=f4e1749]:
+                - generic:
+                  - link "Apply 16 filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_feature_four_browse-bin%3A23534256011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534181011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_four_browse-bin_16&ds=v1%3AJiiEjTvQAWdq%2BheznOuGQQNpxwT6uHkqIjH1a2b1mGQ
+                    - button "16" [ref=f4e1752] [cursor=pointer]
+              - listitem [ref=f4e1753]:
+                - generic:
+                  - link "Apply 17 filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_feature_four_browse-bin%3A23534247011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534181011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_four_browse-bin_17&ds=v1%3ATys8%2FIZ1AU765ciFWZC1HiXHydVpv5BLiaokZkIQyDA
+                    - button "17" [ref=f4e1756] [cursor=pointer]
+              - listitem [ref=f4e1757]:
+                - generic:
+                  - link "Apply 18 filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_feature_four_browse-bin%3A23534249011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534181011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_four_browse-bin_18&ds=v1%3A36upo361nPe0TOs11A3AIRBqHoTyOzfJyFK3FtkyZCc
+                    - button "18" [ref=f4e1760] [cursor=pointer]
+              - listitem [ref=f4e1761]:
+                - generic:
+                  - link "Apply 19 filter to narrow results":
+                    - /url: /s?k=wireless+mouse&rh=p_n_feature_four_browse-bin%3A23534251011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534181011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_four_browse-bin_19&ds=v1%3AQbzrX2T7YWNxmb1koAGskISbAi0qgZBY40ZfjPK2XRw
+                    - button "19" [ref=f4e1764] [cursor=pointer]
+          - group [ref=f4e1765]:
+            - heading "Length" [level=2] [ref=f4e1766]
+            - list "Length" [ref=f4e1767]:
+              - listitem "Popular Shopping Ideas" [ref=f4e1768]:
+                - link "Apply Up to 2.9 in filter to narrow results" [ref=f4e1770] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101014931080111%3A119068478011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=119068436011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101014931080111_1&ds=v1%3AzJtCNZJ04lQKYPc%2FDaiXBvwCOLh39WokDSjNTIp%2F4%2B4
+                  - checkbox [ref=f4e1773]
+                  - text: Up to 2.9 in
+              - listitem "Popular Shopping Ideas" [ref=f4e1775]:
+                - link "Apply 3 to 3.9 in filter to narrow results" [ref=f4e1777] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101014931080111%3A119068477011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=119068436011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101014931080111_2&ds=v1%3AGWifrdJXhGtwNjxZNOYqawjuSfmzR%2FPQXDDtjRUeJrU
+                  - checkbox [ref=f4e1780]
+                  - text: 3 to 3.9 in
+              - listitem "Popular Shopping Ideas" [ref=f4e1782]:
+                - link "Apply 4 to 4.9 in filter to narrow results" [ref=f4e1784] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101014931080111%3A119068479011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=119068436011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101014931080111_3&ds=v1%3ADG0DIsMZjbbzvQLQdSqPxhy6cWMXpiXy%2BoOsoLApgIw
+                  - checkbox [ref=f4e1787]
+                  - text: 4 to 4.9 in
+              - listitem "Popular Shopping Ideas" [ref=f4e1789]:
+                - link "Apply 5 in & above filter to narrow results" [ref=f4e1791] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101014931080111%3A119068480011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=119068436011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101014931080111_4&ds=v1%3AEpwEaIsecHY5fgIk9VL7H%2FFAmsDDSj1RIFIMPooBX2E
+                  - checkbox [ref=f4e1794]
+                  - text: 5 in & above
+          - group [ref=f4e1796]:
+            - heading "Movement Detection" [level=2] [ref=f4e1797]
+            - list "Movement Detection" [ref=f4e1798]:
+              - listitem "Popular Shopping Ideas" [ref=f4e1799]:
+                - link "Apply Gyroscopic filter to narrow results" [ref=f4e1801] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_two_browse-bin%3A121541912011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23473576011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_two_browse-bin_1&ds=v1%3A44gYW0Q28BCPoJxGl%2FzO3TKtTQo3ynv5CXaOJ%2BCda4c
+                  - checkbox [ref=f4e1804]
+                  - text: Gyroscopic
+              - listitem "Popular Shopping Ideas" [ref=f4e1806]:
+                - link "Apply Laser filter to narrow results" [ref=f4e1808] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_two_browse-bin%3A23473579011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23473576011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_two_browse-bin_2&ds=v1%3AifB3qLdSn7wOFlEqtvTvBhLvkAPERdsssVjq77Go5v0
+                  - checkbox [ref=f4e1811]
+                  - text: Laser
+              - listitem "Popular Shopping Ideas" [ref=f4e1813]:
+                - link "Apply Optical filter to narrow results" [ref=f4e1815] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_two_browse-bin%3A23473577011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23473576011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_two_browse-bin_3&ds=v1%3AugMKZf36TEjQ5AduEbJgtIMaMH%2F7bM7gO3ZtaMcV5Cc
+                  - checkbox [ref=f4e1818]
+                  - text: Optical
+              - listitem "Popular Shopping Ideas" [ref=f4e1820]:
+                - link "Apply Trackball filter to narrow results" [ref=f4e1822] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_two_browse-bin%3A23473578011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23473576011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_two_browse-bin_4&ds=v1%3AXgNk%2FpoosrtDV5BKp48dRUjy9VL%2FlmwQPrlYTXNdnfk
+                  - checkbox [ref=f4e1825]
+                  - text: Trackball
+          - group [ref=f4e1827]:
+            - heading "Seller" [level=2] [ref=f4e1828]
+            - list "Seller" [ref=f4e1829]:
+              - listitem "Popular Shopping Ideas" [ref=f4e1830]:
+                - link "Apply Amazon.com filter to narrow results" [ref=f4e1832] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_6%3AATVPDKIKX0DER&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=303116011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_6_1&ds=v1%3AhUgH3PG8M2QTAjKIL4So7ZliYdphqjD9fg4MZmD6wVg
+                  - checkbox [ref=f4e1835]
+                  - text: Amazon.com
+              - listitem "Popular Shopping Ideas" [ref=f4e1837]:
+                - link "Apply Triplenet Pricing INC filter to narrow results" [ref=f4e1839] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_6%3AAAZRLVTNON75Z&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=303116011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_6_2&ds=v1%3AOFMUgK%2B914BNAHxdLFBts%2F2FclA0c2eWiO0wng%2B2qDE
+                  - checkbox [ref=f4e1842]
+                  - text: Triplenet Pricing INC
+              - listitem [ref=f4e1844]:
+                - button "See more, Seller" [ref=f4e1847] [cursor=pointer]: See more
+          - group [ref=f4e1849]:
+            - heading "Material" [level=2] [ref=f4e1850]
+            - list "Material" [ref=f4e1851]:
+              - listitem "Popular Shopping Ideas" [ref=f4e1852]:
+                - link "Apply Plastic filter to narrow results" [ref=f4e1854] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-1003070332111%3A23682336011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23682332011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1003070332111_1&ds=v1%3AWaWUW9pyTJkhbmkwyGxYBIlPG5CECWHvtWXi%2Bf4tang
+                  - checkbox [ref=f4e1857]
+                  - text: Plastic
+              - listitem "Popular Shopping Ideas" [ref=f4e1859]:
+                - link "Apply Metal filter to narrow results" [ref=f4e1861] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-1003070332111%3A23682337011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23682332011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1003070332111_2&ds=v1%3A%2Fadnc70gig9ybtKFIVyrpeKlHGZZpGQ2KMqe%2FMB41r8
+                  - checkbox [ref=f4e1864]
+                  - text: Metal
+              - listitem "Popular Shopping Ideas" [ref=f4e1866]:
+                - link "Apply Wood filter to narrow results" [ref=f4e1868] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-1003070332111%3A23682335011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23682332011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1003070332111_3&ds=v1%3AoW4XfqHwIZKth4HZAmwnEV91nKWdzYPaTnDZTgUSn3w
+                  - checkbox [ref=f4e1871]
+                  - text: Wood
+          - group [ref=f4e1873]:
+            - heading "Style" [level=2] [ref=f4e1874]
+            - list "Style" [ref=f4e1875]:
+              - listitem "Popular Shopping Ideas" [ref=f4e1876]:
+                - link "Apply Classic filter to narrow results" [ref=f4e1878] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-1003509419111%3A32912308011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=32911994011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1003509419111_1&ds=v1%3AdfhHtRdoM8xQAlGSz4X7nq9NoPw%2BnGg0zZRtP%2BamoWU
+                  - checkbox [ref=f4e1881]
+                  - text: Classic
+              - listitem "Popular Shopping Ideas" [ref=f4e1883]:
+                - link "Apply Modern filter to narrow results" [ref=f4e1885] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-1003509419111%3A32912306011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=32911994011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1003509419111_2&ds=v1%3AD5jRN94rsE6A9cBLjIgR3Fiamirt%2F7TB0KpBpIl3cDc
+                  - checkbox [ref=f4e1888]
+                  - text: Modern
+              - listitem "Popular Shopping Ideas" [ref=f4e1890]:
+                - link "Apply Retro filter to narrow results" [ref=f4e1892] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-1003509419111%3A32912304011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=32911994011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1003509419111_3&ds=v1%3Ai1uRJDLDn0mA2jvmAjyBMq1m1C%2FgdBWb0ysjGK7kWiM
+                  - checkbox [ref=f4e1895]
+                  - text: Retro
+          - group [ref=f4e1897]:
+            - heading "Theme" [level=2] [ref=f4e1898]
+            - list "Theme" [ref=f4e1899]:
+              - listitem "Popular Shopping Ideas" [ref=f4e1900]:
+                - link "Apply Rainbow filter to narrow results" [ref=f4e1902] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-1003009924111%3A23641604011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23641587011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1003009924111_1&ds=v1%3A1OsxIXAvi2oJWa2IAeX318x9Vx%2B%2FINXwP7Yr52y0MTo
+                  - checkbox [ref=f4e1905]
+                  - text: Rainbow
+              - listitem "Popular Shopping Ideas" [ref=f4e1907]:
+                - link "Apply Video Game filter to narrow results" [ref=f4e1909] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-1003009924111%3A205118419011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23641587011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1003009924111_2&ds=v1%3AU%2F8fox8xn3BfmQfAWNo%2BXMyJf21K%2BzXDK%2BWXIzazzg0
+                  - checkbox [ref=f4e1912]
+                  - text: Video Game
+              - listitem "Popular Shopping Ideas" [ref=f4e1914]:
+                - link "Apply Car filter to narrow results" [ref=f4e1916] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-1003009924111%3A23641594011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23641587011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1003009924111_3&ds=v1%3AAauX%2FUuOKTfdARP9iqLfxoqkLY2aPskDlOsmc0pO5vU
+                  - checkbox [ref=f4e1919]
+                  - text: Car
+              - listitem "Popular Shopping Ideas" [ref=f4e1921]:
+                - link "Apply Alien filter to narrow results" [ref=f4e1923] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-1003009924111%3A205118411011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23641587011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1003009924111_4&ds=v1%3A8%2BbEmSSs1YVXCdmVrsxZk3DsvjEWa37jFFajkCdgBm8
+                  - checkbox [ref=f4e1926]
+                  - text: Alien
+              - listitem "Popular Shopping Ideas" [ref=f4e1928]:
+                - link "Apply Animal filter to narrow results" [ref=f4e1930] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-1003009924111%3A205118415011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23641587011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1003009924111_5&ds=v1%3A71MZPJovAnZKVpKv2BF1tFc%2Bt0V6dJDZSCOK%2FB5jYLo
+                  - checkbox [ref=f4e1933]
+                  - text: Animal
+              - listitem "Popular Shopping Ideas" [ref=f4e1935]:
+                - link "Apply Anime filter to narrow results" [ref=f4e1937] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-1003009924111%3A205118420011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23641587011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1003009924111_6&ds=v1%3AyX0b1lku%2B8WhoutazqkcqR9NKtMsudQVHlKkcPGAG88
+                  - checkbox [ref=f4e1940]
+                  - text: Anime
+              - listitem "Popular Shopping Ideas" [ref=f4e1942]:
+                - link "Apply Baby filter to narrow results" [ref=f4e1944] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-1003009924111%3A205118418011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23641587011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-1003009924111_7&ds=v1%3A61i6Mr2mG8zbJQnH5ZBczRCOuxk%2FAd3qhfZiHkgAjF8
+                  - checkbox [ref=f4e1947]
+                  - text: Baby
+              - listitem [ref=f4e1949]:
+                - button "See more, Theme" [ref=f4e1952] [cursor=pointer]: See more
+          - group [ref=f4e1954]:
+            - heading "Sustainability Features" [level=2] [ref=f4e1955]
+            - list "Sustainability Features" [ref=f4e1956]:
+              - listitem [ref=f4e1957]:
+                - link "Any Feature" [ref=f4e1959] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_cpf_labels%3A121136630011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=116845681011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_cpf_labels_1&ds=v1%3ASLGnzZIELxbjLcaBMJW9qOk%2BTGU2L6vp9v5CnKfo4%2B0
+              - listitem [ref=f4e1960]:
+                - link "Carbon Impact" [ref=f4e1962] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_cpf_labels%3A116845688011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=116845681011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_cpf_labels_2&ds=v1%3AOKB9R2OP3nUHd%2B6FLiIDTzwNl80JtjsfJkEY6NtkOmA
+              - listitem [ref=f4e1963]:
+                - button "See more, Sustainability Features" [ref=f4e1966] [cursor=pointer]: See more
+          - group [ref=f4e1968]:
+            - heading "Premium Brands" [level=2] [ref=f4e1969]
+            - list "Premium Brands" [ref=f4e1970]:
+              - listitem "Popular Shopping Ideas" [ref=f4e1971]:
+                - link "Apply Premium Brands filter to narrow results" [ref=f4e1973] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101015887018111%3A204376014011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=204376013011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101015887018111_1&ds=v1%3A%2FqunappUVoIZcILdllGFH7XcDuLgXH%2FaYuuUDAcAidQ
+                  - checkbox [ref=f4e1976]
+                  - text: Premium Brands
+          - group [ref=f4e1978]:
+            - heading "Purpose" [level=2] [ref=f4e1979]
+            - list "Purpose" [ref=f4e1980]:
+              - listitem "Popular Shopping Ideas" [ref=f4e1981]:
+                - link "Apply Gaming filter to narrow results" [ref=f4e1983] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101016696198111%3A207748509011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=207748508011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101016696198111_1&ds=v1%3A0RrTBahLcrsPyhAfa%2FghQBZsGng1%2Bebsrdb3G5EX6C0
+                  - checkbox [ref=f4e1986]
+                  - text: Gaming
+              - listitem "Popular Shopping Ideas" [ref=f4e1988]:
+                - link "Apply Working filter to narrow results" [ref=f4e1990] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101016696198111%3A214322371011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=207748508011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101016696198111_2&ds=v1%3AdOxHHP%2BPRqIfLFiKws80dR%2FrJGmVEcQkg%2FuRQ2ajrPY
+                  - checkbox [ref=f4e1993]
+                  - text: Working
+              - listitem "Popular Shopping Ideas" [ref=f4e1995]:
+                - link "Apply Traveling filter to narrow results" [ref=f4e1997] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101016696198111%3A207748510011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=207748508011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101016696198111_3&ds=v1%3AEHaDO284kcd6LxmA%2Bkabg7AWCECtJSMRasWZ6z4CrTE
+                  - checkbox [ref=f4e2000]
+                  - text: Traveling
+          - group [ref=f4e2002]:
+            - heading "Width" [level=2] [ref=f4e2003]
+            - list "Width" [ref=f4e2004]:
+              - listitem "Popular Shopping Ideas" [ref=f4e2005]:
+                - link "Apply Up to 1 in filter to narrow results" [ref=f4e2007] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101014931362111%3A119068475011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=119068435011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101014931362111_1&ds=v1%3A7GcMS44PtHjDcHLXzk2uK%2B4URiZmGbjLFvOUmXq%2FaBU
+                  - checkbox [ref=f4e2010]
+                  - text: Up to 1 in
+              - listitem "Popular Shopping Ideas" [ref=f4e2012]:
+                - link "Apply 1 to 1.9 in filter to narrow results" [ref=f4e2014] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101014931362111%3A119068476011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=119068435011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101014931362111_2&ds=v1%3AGYK%2F4wUYQTFMGIBY%2FsSYc3Jj4sVsSYU2MK%2BUgh9QTow
+                  - checkbox [ref=f4e2017]
+                  - text: 1 to 1.9 in
+              - listitem "Popular Shopping Ideas" [ref=f4e2019]:
+                - link "Apply 2 to 2.9 in filter to narrow results" [ref=f4e2021] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101014931362111%3A119068474011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=119068435011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101014931362111_3&ds=v1%3AKJ50SXG5xW7ntXt0OnPm%2F7FTzVl3TdST9N%2FBT6asxvo
+                  - checkbox [ref=f4e2024]
+                  - text: 2 to 2.9 in
+              - listitem "Popular Shopping Ideas" [ref=f4e2026]:
+                - link "Apply 3 in & above filter to narrow results" [ref=f4e2028] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101014931362111%3A119068473011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=119068435011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101014931362111_4&ds=v1%3ABMmckl02ieqgb00ZLPvXM%2Bwm5LPEqz1JY05s19PXzwQ
+                  - checkbox [ref=f4e2031]
+                  - text: 3 in & above
+          - group [ref=f4e2033]:
+            - heading "Embellishment Feature" [level=2] [ref=f4e2034]
+            - list "Embellishment Feature" [ref=f4e2035]:
+              - listitem "Popular Shopping Ideas" [ref=f4e2036]:
+                - link "Apply Crystal filter to narrow results" [ref=f4e2038] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_seven_browse-bin%3A23534348011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534193011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_seven_browse-bin_1&ds=v1%3A08Wqwf3ea3Q%2Bb2Yq1fmdCpTVvoO3GFvTaRIyWW6%2FMgU
+                  - checkbox [ref=f4e2041]
+                  - text: Crystal
+              - listitem "Popular Shopping Ideas" [ref=f4e2043]:
+                - link "Apply Glitter filter to narrow results" [ref=f4e2045] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_seven_browse-bin%3A23534347011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534193011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_seven_browse-bin_2&ds=v1%3AtPWvC6TkDdbG883%2Fot71waXqwqlEKA9cEqArl7uX%2FVI
+                  - checkbox [ref=f4e2048]
+                  - text: Glitter
+              - listitem "Popular Shopping Ideas" [ref=f4e2050]:
+                - link "Apply LED filter to narrow results" [ref=f4e2052] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_seven_browse-bin%3A23690121011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534193011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_seven_browse-bin_3&ds=v1%3A6xc1FBLkSxCQKNVETCbkA8bBFw%2Bm7DBHsHsXcmh4dbU
+                  - checkbox [ref=f4e2055]
+                  - text: LED
+              - listitem "Popular Shopping Ideas" [ref=f4e2057]:
+                - link "Apply Logo filter to narrow results" [ref=f4e2059] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_feature_seven_browse-bin%3A23690120011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=23534193011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_feature_seven_browse-bin_4&ds=v1%3APslfNF1NCr5j8ty9tGndSDRW0Cmd3N9TGkoIvvjFMek
+                  - checkbox [ref=f4e2062]
+                  - text: Logo
+          - group [ref=f4e2064]:
+            - heading "Pattern" [level=2] [ref=f4e2065]
+            - list "Pattern" [ref=f4e2066]:
+              - listitem "Popular Shopping Ideas" [ref=f4e2067]:
+                - link "Apply Animal Print filter to narrow results" [ref=f4e2069] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101017147868111%3A213409552011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=213409542011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101017147868111_1&ds=v1%3AuNl8DXB6AwmsxSfZV%2FVBcoZCZmeBehDsA%2F9TEgLmno8
+                  - checkbox [ref=f4e2072]
+                  - text: Animal Print
+              - listitem "Popular Shopping Ideas" [ref=f4e2074]:
+                - link "Apply Camouflage filter to narrow results" [ref=f4e2076] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101017147868111%3A213409545011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=213409542011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101017147868111_2&ds=v1%3A8AY5Wc54%2BaJakD2Ttvd6OaxQRup%2Bp%2BmJ3I2JbFdCmbI
+                  - checkbox [ref=f4e2079]
+                  - text: Camouflage
+              - listitem "Popular Shopping Ideas" [ref=f4e2081]:
+                - link "Apply Solid filter to narrow results" [ref=f4e2083] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101017147868111%3A213409554011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=213409542011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101017147868111_3&ds=v1%3A7GS6zLOC7ul5xRlil5Ujq6RsPss4q5JVjNvr4HJWHco
+                  - checkbox [ref=f4e2086]
+                  - text: Solid
+              - listitem "Popular Shopping Ideas" [ref=f4e2088]:
+                - link "Apply Striped filter to narrow results" [ref=f4e2090] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_g-101017147868111%3A213409550011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=213409542011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_g-101017147868111_4&ds=v1%3AyuPm%2BFDnK0I5j2na7pB3Gfc66sczwer4jIfqH2z6U%2FM
+                  - checkbox [ref=f4e2093]
+                  - text: Striped
+          - group [ref=f4e2095]:
+            - heading "Amazon Certified" [level=2] [ref=f4e2096]
+            - list "Amazon Certified" [ref=f4e2097]:
+              - listitem "Popular Shopping Ideas" [ref=f4e2098]:
+                - link "Apply Works with Alexa filter to narrow results" [ref=f4e2100] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_amazon_certified%3A16741513011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=16741512011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_amazon_certified_1&ds=v1%3A9hgWl9EGIdSGZDt%2Bqzc8bdobBB98f5tDY1rzZEq%2BcSI
+                  - checkbox [ref=f4e2103]
+                  - text: Works with Alexa
+          - group [ref=f4e2105]:
+            - heading "Release Date" [level=2] [ref=f4e2106]
+            - list "Release Date" [ref=f4e2107]:
+              - listitem [ref=f4e2108]:
+                - link "Last 30 days" [ref=f4e2110] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_date%3A1249088011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=1249087011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_date_1&ds=v1%3AL5TjveadUd%2Fdq18GB3Sh0ywkMqLTQjzSXxm5iXFtIH0
+              - listitem [ref=f4e2111]:
+                - link "Last 90 days" [ref=f4e2113] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_date%3A1249089011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=1249087011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_date_2&ds=v1%3A0PNtTD5P%2BWk%2BS4JmBN0pstTKghZH7hTd%2B3i0EJv0Zo8
+              - listitem [ref=f4e2114]:
+                - link "Coming Soon" [ref=f4e2116] [cursor=pointer]:
+                  - /url: /s?k=wireless+mouse&rh=p_n_date%3A1249090011&dc&crid=1HCRFJNZZ6Z4Z&qid=1785305947&rnid=1249087011&sprefix=wireless+mouse%2Caps%2C357&ref=sr_nr_p_n_date_3&ds=v1%3AlorBWZGSfA5tX0MoqnvBKizufjlx%2BtkJJqHqIy0i4dQ
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=f4e2117]:
+    - button "Back to top" [ref=f4e2118] [cursor=pointer]
+    - generic [ref=f4e2120]:
+      - generic [ref=f4e2121]:
+        - heading "Get to Know Us" [level=6] [ref=f4e2122]
+        - list [ref=f4e2123]:
+          - listitem [ref=f4e2124]:
+            - link "Careers" [ref=f4e2125] [cursor=pointer]:
+              - /url: https://www.amazon.jobs
+          - listitem [ref=f4e2126]:
+            - link "Blog" [ref=f4e2127] [cursor=pointer]:
+              - /url: https://blog.aboutamazon.com/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=f4e2128]:
+            - link "About Amazon" [ref=f4e2129] [cursor=pointer]:
+              - /url: https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=f4e2130]:
+            - link "Investor Relations" [ref=f4e2131] [cursor=pointer]:
+              - /url: https://www.amazon.com/ir
+          - listitem [ref=f4e2132]:
+            - link "Amazon Devices" [ref=f4e2133] [cursor=pointer]:
+              - /url: /gp/browse.html?node=2102313011&ref_=footer_devices
+          - listitem [ref=f4e2134]:
+            - link "Amazon Science" [ref=f4e2135] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=f4e2137]:
+        - heading "Make Money with Us" [level=6] [ref=f4e2138]
+        - list [ref=f4e2139]:
+          - listitem [ref=f4e2140]:
+            - link "Sell products on Amazon" [ref=f4e2141] [cursor=pointer]:
+              - /url: https://services.amazon.com/sell.html?ld=AZFSSOA&ref_=footer_soa
+          - listitem [ref=f4e2142]:
+            - link "Sell on Amazon Business" [ref=f4e2143] [cursor=pointer]:
+              - /url: https://services.amazon.com/amazon-business.html?ld=usb2bunifooter&ref_=footer_b2b
+          - listitem [ref=f4e2144]:
+            - link "Sell apps on Amazon" [ref=f4e2145] [cursor=pointer]:
+              - /url: https://developer.amazon.com
+          - listitem [ref=f4e2146]:
+            - link "Become an Affiliate" [ref=f4e2147] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.com/
+          - listitem [ref=f4e2148]:
+            - link "Advertise Your Products" [ref=f4e2149] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/?ref=ext_amzn_ftr
+          - listitem [ref=f4e2150]:
+            - link "Self-Publish with Us" [ref=f4e2151] [cursor=pointer]:
+              - /url: /gp/seller-account/mm-summary-page.html?ld=AZFooterSelfPublish&topic=200260520&ref_=footer_publishing
+          - listitem [ref=f4e2152]:
+            - link "Host an Amazon Hub" [ref=f4e2153] [cursor=pointer]:
+              - /url: https://go.thehub-amazon.com/amazon-hub-locker
+          - listitem [ref=f4e2154]:
+            - text: ›
+            - link "See More Make Money with Us" [ref=f4e2155] [cursor=pointer]:
+              - /url: /b/?node=18190131011&ld=AZUSSOA-seemore&ref_=footer_seemore
+      - generic [ref=f4e2157]:
+        - heading "Amazon Payment Products" [level=6] [ref=f4e2158]
+        - list [ref=f4e2159]:
+          - listitem [ref=f4e2160]:
+            - link "Amazon Business Card" [ref=f4e2161] [cursor=pointer]:
+              - /url: /dp/B07984JN3L?plattr=ACOMFO&ie=UTF-8
+          - listitem [ref=f4e2162]:
+            - link "Shop with Points" [ref=f4e2163] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16218619011&ref_=footer_swp
+          - listitem [ref=f4e2164]:
+            - link "Reload Your Balance" [ref=f4e2165] [cursor=pointer]:
+              - /url: /dp/B0CHTVMXZJ?th=1?ref_=footer_reload_us
+          - listitem [ref=f4e2166]:
+            - link "Amazon Currency Converter" [ref=f4e2167] [cursor=pointer]:
+              - /url: /gp/browse.html?node=388305011&ref_=footer_tfx
+      - generic [ref=f4e2169]:
+        - heading "Let Us Help You" [level=6] [ref=f4e2170]
+        - list [ref=f4e2171]:
+          - listitem [ref=f4e2172]:
+            - link "Your Account" [ref=f4e2173] [cursor=pointer]:
+              - /url: https://www.amazon.com/gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=f4e2174]:
+            - link "Your Orders" [ref=f4e2175] [cursor=pointer]:
+              - /url: https://www.amazon.com/gp/css/order-history?ref_=footer_yo
+          - listitem [ref=f4e2176]:
+            - link "Shipping Rates & Policies" [ref=f4e2177] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=468520&ref_=footer_shiprates
+          - listitem [ref=f4e2178]:
+            - link "Returns & Replacements" [ref=f4e2179] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=f4e2180]:
+            - link "Manage Your Content and Devices" [ref=f4e2181] [cursor=pointer]:
+              - /url: /gp/digital/fiona/manage?ref_=footer_myk
+          - listitem [ref=f4e2182]:
+            - link "Help" [ref=f4e2183] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+    - generic [ref=f4e2185]:
+      - link "Amazon US Home" [ref=f4e2188] [cursor=pointer]:
+        - /url: /?ref_=footer_logo
+      - generic [ref=f4e2191]:
+        - generic [ref=f4e2192]:
+          - link "Choose a language for shopping. Current selection is English." [ref=f4e2193] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=f4e2195]: English
+          - button "Expand to Change Language or Country" [ref=f4e2196] [cursor=pointer]
+        - link "₹ INR - Indian Rupee" [ref=f4e2197] [cursor=pointer]:
+          - /url: /customer-preferences/edit?ie=UTF8&ref_=footer_cop&preferencesReturnUrl=%2Fs%3Fk%3Dwireless%2Bmouse%26crid%3D1HCRFJNZZ6Z4Z%26sprefix%3Dwireless%2Bmouse%252Caps%252C357%26ref%3Dnb_sb_noss_1s%2Fref%3Dnb_sb_noss_1
+          - generic [ref=f4e2198]: ₹
+          - generic [ref=f4e2199]: INR - Indian Rupee
+        - button "Choose a country/region for shopping. The current selection is United States." [ref=f4e2200] [cursor=pointer]:
+          - generic [ref=f4e2202]: United States
+    - navigation "More on Amazon" [ref=f4e2203]:
+      - generic "More on Amazon" [ref=f4e2204]:
+        - list [ref=f4e2205]:
+          - listitem [ref=f4e2206]:
+            - link [ref=f4e2207] [cursor=pointer]:
+              - /url: https://music.amazon.com?ref=dm_aff_amz_com
+              - heading "Amazon Music" [level=5] [ref=f4e2208]
+              - generic [ref=f4e2209]: Stream millionsof songs
+          - listitem [ref=f4e2210]
+          - listitem [ref=f4e2211]:
+            - link [ref=f4e2212] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/?ref=footer_advtsing_amzn_com
+              - heading "Amazon Ads" [level=5] [ref=f4e2213]
+              - generic [ref=f4e2214]: Reach customerswherever theyspend their time
+          - listitem [ref=f4e2215]
+          - listitem [ref=f4e2216]:
+            - link [ref=f4e2217] [cursor=pointer]:
+              - /url: https://www.6pm.com
+              - heading "6pm" [level=5] [ref=f4e2218]
+              - generic [ref=f4e2219]: Score dealson fashion brands
+          - listitem [ref=f4e2220]
+          - listitem [ref=f4e2221]:
+            - link [ref=f4e2222] [cursor=pointer]:
+              - /url: https://www.abebooks.com
+              - heading "AbeBooks" [level=5] [ref=f4e2223]
+              - generic [ref=f4e2224]: Books, art& collectibles
+          - listitem [ref=f4e2225]
+          - listitem [ref=f4e2226]:
+            - link [ref=f4e2227] [cursor=pointer]:
+              - /url: https://www.acx.com/
+              - heading "ACX" [level=5] [ref=f4e2228]
+              - generic [ref=f4e2229]: Audiobook PublishingMade Easy
+          - listitem [ref=f4e2230]
+          - listitem [ref=f4e2231]:
+            - link "Sell on Amazon Start a Selling Account" [ref=f4e2232] [cursor=pointer]:
+              - /url: https://sell.amazon.com/?ld=AZUSSOA-footer-aff&ref_=footer_sell
+              - heading "Sell on Amazon" [level=5] [ref=f4e2233]
+              - generic [ref=f4e2234]: Start a Selling Account
+          - listitem [ref=f4e2235]
+          - listitem [ref=f4e2236]:
+            - link [ref=f4e2237] [cursor=pointer]:
+              - /url: https://www.veeqo.com/?utm_source=amazon&utm_medium=website&utm_campaign=footer
+              - heading "Veeqo" [level=5] [ref=f4e2238]
+              - generic [ref=f4e2239]: Shipping SoftwareInventory Management
+        - list [ref=f4e2240]:
+          - listitem [ref=f4e2241]:
+            - link [ref=f4e2242] [cursor=pointer]:
+              - /url: /business?ref_=footer_retail_b2b
+              - heading "Amazon Business" [level=5] [ref=f4e2243]
+              - generic [ref=f4e2244]: Everything ForYour Business
+          - listitem [ref=f4e2245]
+          - listitem [ref=f4e2246]:
+            - link [ref=f4e2247] [cursor=pointer]:
+              - /url: /gp/browse.html?node=20338496011&ref_=footer_amazonglobal
+              - heading "AmazonGlobal" [level=5] [ref=f4e2248]
+              - generic [ref=f4e2249]: Ship OrdersInternationally
+          - listitem [ref=f4e2250]
+          - listitem [ref=f4e2251]:
+            - link [ref=f4e2252] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=f4e2253]
+              - generic [ref=f4e2254]: Scalable CloudComputing Services
+          - listitem [ref=f4e2255]
+          - listitem [ref=f4e2256]:
+            - link [ref=f4e2257] [cursor=pointer]:
+              - /url: https://www.audible.com
+              - heading "Audible" [level=5] [ref=f4e2258]
+              - generic [ref=f4e2259]: Listen to Books & OriginalAudio Performances
+          - listitem [ref=f4e2260]
+          - listitem [ref=f4e2261]:
+            - link [ref=f4e2262] [cursor=pointer]:
+              - /url: https://www.boxofficemojo.com/?ref_=amzn_nav_ftr
+              - heading "Box Office Mojo" [level=5] [ref=f4e2263]
+              - generic [ref=f4e2264]: Find MovieBox Office Data
+          - listitem [ref=f4e2265]
+          - listitem [ref=f4e2266]:
+            - link [ref=f4e2267] [cursor=pointer]:
+              - /url: https://www.goodreads.com
+              - heading "Goodreads" [level=5] [ref=f4e2268]
+              - generic [ref=f4e2269]: Book reviews& recommendations
+          - listitem [ref=f4e2270]
+          - listitem [ref=f4e2271]:
+            - link [ref=f4e2272] [cursor=pointer]:
+              - /url: https://www.imdb.com
+              - heading "IMDb" [level=5] [ref=f4e2273]
+              - generic [ref=f4e2274]: Movies, TV& Celebrities
+        - list [ref=f4e2275]:
+          - listitem [ref=f4e2276]:
+            - link [ref=f4e2277] [cursor=pointer]:
+              - /url: https://pro.imdb.com?ref_=amzn_nav_ftr
+              - heading "IMDbPro" [level=5] [ref=f4e2278]
+              - generic [ref=f4e2279]: Get Info EntertainmentProfessionals Need
+          - listitem [ref=f4e2280]
+          - listitem [ref=f4e2281]:
+            - link [ref=f4e2282] [cursor=pointer]:
+              - /url: https://kdp.amazon.com
+              - heading "Kindle Direct Publishing" [level=5] [ref=f4e2283]
+              - generic [ref=f4e2284]: Indie Digital & Print PublishingMade Easy
+          - listitem [ref=f4e2285]
+          - listitem [ref=f4e2286]:
+            - link [ref=f4e2287] [cursor=pointer]:
+              - /url: https://videodirect.amazon.com/home/landing
+              - heading "Prime Video Direct" [level=5] [ref=f4e2288]
+              - generic [ref=f4e2289]: Video DistributionMade Easy
+          - listitem [ref=f4e2290]
+          - listitem [ref=f4e2291]:
+            - link [ref=f4e2292] [cursor=pointer]:
+              - /url: https://www.shopbop.com
+              - heading "Shopbop" [level=5] [ref=f4e2293]
+              - generic [ref=f4e2294]: DesignerFashion Brands
+          - listitem [ref=f4e2295]
+          - listitem [ref=f4e2296]:
+            - link [ref=f4e2297] [cursor=pointer]:
+              - /url: https://www.woot.com/
+              - heading "Woot!" [level=5] [ref=f4e2298]
+              - generic [ref=f4e2299]: Deals and Shenanigans
+          - listitem [ref=f4e2300]
+          - listitem [ref=f4e2301]:
+            - link [ref=f4e2302] [cursor=pointer]:
+              - /url: https://www.zappos.com
+              - heading "Zappos" [level=5] [ref=f4e2303]
+              - generic [ref=f4e2304]: Shoes &Clothing
+          - listitem [ref=f4e2305]
+          - listitem [ref=f4e2306]:
+            - link [ref=f4e2307] [cursor=pointer]:
+              - /url: https://ring.com
+              - heading "Ring" [level=5] [ref=f4e2308]
+              - generic [ref=f4e2309]: Smart HomeSecurity Systems
+        - list [ref=f4e2310]:
+          - listitem [ref=f4e2311]
+          - listitem [ref=f4e2312]
+          - listitem [ref=f4e2313]:
+            - link [ref=f4e2314] [cursor=pointer]:
+              - /url: https://eero.com/
+              - heading "eero WiFi" [level=5] [ref=f4e2315]
+              - generic [ref=f4e2316]: Stream 4K Videoin Every Room
+          - listitem [ref=f4e2317]
+          - listitem [ref=f4e2318]:
+            - link [ref=f4e2319] [cursor=pointer]:
+              - /url: https://blinkforhome.com/?ref=nav_footer
+              - heading "Blink" [level=5] [ref=f4e2320]
+              - generic [ref=f4e2321]: Smart Securityfor Every Home
+          - listitem [ref=f4e2322]
+          - listitem [ref=f4e2323]:
+            - link [ref=f4e2324] [cursor=pointer]:
+              - /url: https://shop.ring.com/pages/neighbors-app
+              - heading "Neighbors App" [level=5] [ref=f4e2325]
+              - generic [ref=f4e2326]: Real-Time Crime& Safety Alerts
+          - listitem [ref=f4e2327]
+          - listitem [ref=f4e2328]:
+            - link "PillPack Pharmacy Simplified" [ref=f4e2329] [cursor=pointer]:
+              - /url: https://www.pillpack.com
+              - heading "PillPack" [level=5] [ref=f4e2330]
+              - generic [ref=f4e2331]: Pharmacy Simplified
+          - listitem [ref=f4e2332]
+          - listitem [ref=f4e2333]
+          - listitem [ref=f4e2334]
+          - listitem [ref=f4e2335]
+    - generic [ref=f4e2336]:
+      - list [ref=f4e2337]:
+        - listitem [ref=f4e2338]:
+          - link "Conditions of Use" [ref=f4e2339] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=508088&ref_=footer_cou
+        - listitem [ref=f4e2340]:
+          - link "Privacy Notice" [ref=f4e2341] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ&ref_=footer_privacy
+        - listitem [ref=f4e2342]:
+          - link "Consumer Health Data Privacy Disclosure" [ref=f4e2343] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?ie=UTF8&nodeId=TnACMrGVghHocjL8KB&ref_=footer_consumer_health_data_privacy
+        - listitem [ref=f4e2344]:
+          - link "Your Ads Privacy Choices" [ref=f4e2345] [cursor=pointer]:
+            - /url: /privacyprefs?ref_=footer_iba
+        - listitem [ref=f4e2346]
+      - generic [ref=f4e2348]: © 1996-2026, Amazon.com, Inc. or its affiliates

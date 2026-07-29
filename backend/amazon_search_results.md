@@ -1,0 +1,110 @@
+- generic [active] [ref=f4e1] [box=0,0,914,5723]:
+  - generic [ref=f4e2] [box=0,0,914,5723]:
+    - navigation "Shortcuts menu" [ref=f4e3] [box=-9988,12,420,488]:
+      - heading "Skip to" [level=2] [ref=f4e4] [box=-9968,28,47,24]
+      - list "Skip to" [ref=f4e5] [box=-9968,56,380,68]:
+        - listitem [ref=f4e6] [box=-9968,56,88,20]:
+          - link "main content" [ref=f4e7] [cursor=pointer] [box=-9968,55,88,22]:
+            - /url: "#skippedLink"
+        - listitem [ref=f4e8] [box=-9968,80,49,20]:
+          - link "Results" [ref=f4e9] [cursor=pointer] [box=-9968,79,49,22]:
+            - /url: .s-asin a:has(h2)
+        - listitem [ref=f4e10] [box=-9968,104,43,20]:
+          - link "Filters" [ref=f4e11] [cursor=pointer] [box=-9968,103,43,22]:
+            - /url: "#s-refinements > div.a-section > div:first-child"
+      - separator [ref=f4e12] [box=-9968,136,380,1]
+      - heading "Keyboard shortcuts" [level=2] [ref=f4e13] [box=-9968,151,128,24]
+      - list "Keyboard shortcuts" [ref=f4e14] [box=-9968,179,358,225]:
+        - listitem [ref=f4e15] [box=-9968,179,358,45]:
+          - link "Search, alt, forward slash" [ref=f4e16] [cursor=pointer] [box=-9966,181,354,41]:
+            - /url: javascript:void(0)
+        - listitem [ref=f4e23] [box=-9968,224,358,45]:
+          - link "Cart, shift, alt, c" [ref=f4e24] [cursor=pointer] [box=-9966,226,354,41]:
+            - /url: javascript:void(0)
+        - listitem [ref=f4e33] [box=-9968,269,358,45]:
+          - link "Home, shift, alt, h" [ref=f4e34] [cursor=pointer] [box=-9966,271,354,41]:
+            - /url: javascript:void(0)
+        - listitem [ref=f4e43] [box=-9968,314,358,45]:
+          - link "Your orders, shift, alt, o" [ref=f4e44] [cursor=pointer] [box=-9966,316,354,41]:
+            - /url: javascript:void(0)
+        - listitem [ref=f4e53] [box=-9968,359,358,45]:
+          - button "Show/hide shortcuts, shift, alt, z" [ref=f4e54] [cursor=pointer] [box=-9966,361,351,41]
+      - generic [ref=f4e63] [box=-9968,412,380,68]: To move between items, use your keyboard's up or down arrows.
+    - banner [ref=f4e69] [box=0,0,914,99]:
+      - navigation "Primary" [ref=f4e70] [box=0,0,1000,99]:
+        - generic [ref=f4e71] [box=0,0,1000,60]:
+          - generic [ref=f4e72] [box=0,0,206,60]
+          - search [ref=f4e84] [box=209,10,436,40]
+          - generic [ref=f4e102] [box=648,2,352,58]
+        - generic [ref=f4e124] [box=0,60,1000,39]:
+          - button "Open All Categories Menu" [ref=f4e126] [cursor=pointer] [box=1,60,58,39]
+          - list [ref=f4e132] [box=0,0,0,0]
+        - dialog [ref=f4e154] [box=1133,0,1,902]
+    - generic [ref=f4e156] [box=0,99,1000,4674]:
+      - heading "1-16 of over 30,000 results for \"wireless mouse\" Featured" [level=1] [ref=f4e159] [box=0,99,1000,42]:
+        - generic [ref=f4e160] [box=2,100,996,40]:
+          - heading "1-16 of over 30,000 results for \"wireless mouse\"" [level=2] [ref=f4e163] [box=6,110,615,20]
+          - generic [ref=f4e168] [box=863,110,131,18]
+      - generic [ref=f4e175] [box=2,149,996,4624]:
+        - generic [ref=f4e177] [box=251,163,747,4610]:
+          - generic [ref=f4e179] [box=251,163,747,4610]
+          - link "Go back to filtering menu" [ref=f4e1293] [cursor=pointer] [box=0,883,162,20]:
+            - /url: "#s-skipLinkTargetForFilterOptions"
+        - generic [ref=f4e1295] [box=2,163,249,4610]:
+          - link "Skip to main search results" [ref=f4e1296] [cursor=pointer] [box=0,883,170,20]:
+            - /url: "#s-skipLinkTargetForMainSearchResults"
+          - generic [ref=f4e1302] [box=6,163,229,3701]
+    - complementary "Your recently viewed items and featured recommendations" [box=0,4773,914,0]
+    - generic [ref=f4e2117] [box=0,4803,1000,920]:
+      - button "Back to top" [ref=f4e2118] [cursor=pointer] [box=0,4803,1000,89]
+      - generic [ref=f4e2120] [box=0,4892,1000,268]:
+        - generic [ref=f4e2121] [box=0,4892,136,268]:
+          - heading "Get to Know Us" [level=6] [ref=f4e2122] [box=10,4898,116,17]
+          - list [ref=f4e2123] [box=10,4929,116,151]
+        - generic [ref=f4e2137] [box=236,4892,184,268]:
+          - heading "Make Money with Us" [level=6] [ref=f4e2138] [box=246,4898,164,17]
+          - list [ref=f4e2139] [box=246,4929,164,221]
+        - generic [ref=f4e2157] [box=520,4892,222,268]:
+          - heading "Amazon Payment Products" [level=6] [ref=f4e2158] [box=530,4898,202,17]
+          - list [ref=f4e2159] [box=530,4929,202,97]
+        - generic [ref=f4e2169] [box=843,4892,157,268]:
+          - heading "Let Us Help You" [level=6] [ref=f4e2170] [box=853,4898,137,17]
+          - list [ref=f4e2171] [box=853,4929,137,201]
+      - generic [ref=f4e2185] [box=0,5211,1000,68]:
+        - link "Amazon US Home" [ref=f4e2188] [cursor=pointer] [box=192,5233,76,42]:
+          - /url: /?ref_=footer_logo
+        - generic [ref=f4e2191] [box=355,5229,453,35]:
+          - generic [ref=f4e2192] [box=355,5230,132,34]
+          - link "₹ INR - Indian Rupee" [ref=f4e2197] [cursor=pointer] [box=495,5229,161,35]:
+            - /url: /customer-preferences/edit?ie=UTF8&ref_=footer_cop&preferencesReturnUrl=%2Fs%3Fk%3Dwireless%2Bmouse%26crid%3D1HCRFJNZZ6Z4Z%26sprefix%3Dwireless%2Bmouse%252Caps%252C357%26ref%3Dnb_sb_noss_1s%2Fref%3Dnb_sb_noss_1
+          - button "Choose a country/region for shopping. The current selection is United States." [ref=f4e2200] [cursor=pointer] [box=663,5230,141,34]
+      - navigation "More on Amazon" [ref=f4e2203] [box=0,5309,1000,337]:
+        - generic "More on Amazon" [ref=f4e2204] [box=0,5339,1000,277]:
+          - list [ref=f4e2205] [box=0,5339,1000,54]
+          - list [ref=f4e2240] [box=0,5408,1000,68]
+          - list [ref=f4e2275] [box=0,5491,1000,68]
+          - list [ref=f4e2310] [box=0,5575,1000,41]
+      - generic [ref=f4e2336] [box=0,5646,1000,77]:
+        - list [ref=f4e2337] [box=18,5656,982,19]:
+          - listitem [ref=f4e2338] [box=200,5656,110,19]
+          - listitem [ref=f4e2340] [box=311,5656,91,19]
+          - listitem [ref=f4e2342] [box=402,5656,238,19]
+          - listitem [ref=f4e2344] [box=640,5656,149,19]
+          - listitem [ref=f4e2346] [box=789,5656,29,19]
+        - generic [ref=f4e2348] [box=365,5675,270,18]: © 1996-2026, Amazon.com, Inc. or its affiliates
+    - iframe [ref=f4e2351] [box=-1000000,-999986,1,1]:
+      - iframe [ref=f6e2] [box=0,0,1,1]:
+        
+  - generic [box=-9999,-9999,1,1]: "Test: amzn-nv-flyout-healthy-choice"
+  - generic [box=-9999,-9999,1,1]: "Test: nav-rufus-disc-txt"
+  - generic [box=-9999,-9999,1,1]: "Test: a-truncate-cut"
+  - generic [box=-9999,-9999,1,1]: "Test: sp-cc-wrapper"
+  - generic [box=-9999,-9999,1,1]: "Test: .mo-wp"
+  - generic [box=-9999,-9999,1,1]: "Test: .a-image-container"
+  - generic [box=-9999,-9999,1,1]: "Test: sp-cc"
+  - generic [box=-9999,-9999,1,1]: "Test: .amzn-box-inner"
+  - generic [box=-9999,-9999,1,1]: "Test: .js-order-card"
+  - generic [box=-9999,-9999,1,1]: "Test: pldn-deep-link"
+  - generic [box=-9999,-9999,1,1]: "Test: add-to-cart-btn"
+  - generic [box=-9999,-9999,1,1]: "Test: amzn-nav-app-banner-container"
+  - generic [box=-9999,-9999,1,1]: "Test: .sparkle-container"

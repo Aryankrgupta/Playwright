@@ -1,0 +1,445 @@
+- generic [active] [ref=f23e1]:
+  - generic [ref=f23e2]:
+    - generic [ref=f23e4]:
+      - generic [ref=f23e5]:
+        - generic [ref=f23e6]:
+          - link "DuckDuckGo home" [ref=f23e7] [cursor=pointer]:
+            - /url: /?t=h_
+            - generic [ref=f23e8]: DuckDuckGo
+          - generic [ref=f23e15]:
+            - combobox "Search privately" [ref=f23e17]: latest AI news
+            - button "search" [ref=f23e19] [cursor=pointer]
+        - button "Open menu" [ref=f23e23] [cursor=pointer]
+      - navigation [ref=f23e31]:
+        - list [ref=f23e32]:
+          - listitem [ref=f23e33]:
+            - link "All" [ref=f23e34] [cursor=pointer]:
+              - /url: /?ia=web&origin=funnel_home_website&t=h_&q=latest+AI+news&chip-select=search
+          - listitem [ref=f23e37]:
+            - link "Images" [ref=f23e38] [cursor=pointer]:
+              - /url: /?ia=images&origin=funnel_home_website&t=h_&q=latest+AI+news&chip-select=search&iax=images
+          - listitem [ref=f23e39]:
+            - link "News" [ref=f23e40] [cursor=pointer]:
+              - /url: /?ia=news&origin=funnel_home_website&t=h_&q=latest+AI+news&chip-select=search&iar=news
+          - listitem [ref=f23e41]:
+            - link "Videos" [ref=f23e42] [cursor=pointer]:
+              - /url: /?ia=videos&origin=funnel_home_website&t=h_&q=latest+AI+news&chip-select=search&iax=videos
+          - listitem [ref=f23e43]:
+            - link "Maps" [ref=f23e44] [cursor=pointer]:
+              - /url: /?origin=funnel_home_website&t=h_&q=latest+AI+news&chip-select=search&iaxm=maps
+        - list [ref=f23e45]:
+          - listitem [ref=f23e46]:
+            - link "Search Assist" [ref=f23e49] [cursor=pointer]:
+              - /url: /?ia=web&origin=funnel_home_website&t=h_&q=latest+AI+news&chip-select=search&assist=true
+          - listitem [ref=f23e54]:
+            - link "Duck.ai" [ref=f23e56] [cursor=pointer]:
+              - /url: /?ia=chat&origin=funnel_home_website&t=h_&q=latest+AI+news&chip-select=search
+          - listitem [ref=f23e60]:
+            - button "Search Settings ✀" [ref=f23e62] [cursor=pointer]:
+              - generic [ref=f23e65]: Search Settings
+              - generic [ref=f23e66]: ✀
+    - generic [ref=f23e73]:
+      - navigation [ref=f23e75]:
+        - generic [ref=f23e78] [cursor=pointer]:
+          - generic [ref=f23e79]: Protected
+          - img [ref=f23e87]: ▼
+        - generic [ref=f23e91] [cursor=pointer]:
+          - generic [ref=f23e94]:
+            - switch "✓" [ref=f23e95]
+            - generic [ref=f23e97]: India (en)
+          - img [ref=f23e98]: ▼
+        - generic [ref=f23e102] [cursor=pointer]:
+          - generic [ref=f23e103]: "Safe search: moderate"
+          - img [ref=f23e104]: ▼
+        - generic [ref=f23e108] [cursor=pointer]:
+          - generic [ref=f23e109]: Any time
+          - img [ref=f23e110]: ▼
+      - generic [ref=f23e113]:
+        - list [ref=f23e114]:
+          - listitem [ref=f23e115]:
+            - generic [ref=f23e117]:
+              - heading [level=2] [ref=f23e119]:
+                - link "News for latest AI news" [ref=f23e120] [cursor=pointer]:
+                  - /url: /?ia=news&origin=funnel_home_website&t=h_&q=latest+AI+news&chip-select=search&iar=news
+              - generic [ref=f23e129]:
+                - list [ref=f23e130]:
+                  - listitem [ref=f23e131] [cursor=pointer]:
+                    - link [ref=f23e132]:
+                      - /url: https://www.newsweek.com/teacher-arrested-after-clapping-in-support-of-ai-data-center-detractors-12254351
+                      - article [ref=f23e133]:
+                        - generic [ref=f23e135]:
+                          - heading "Teacher Arrested After Clapping in Support of AI Data Center Detractors" [level=3] [ref=f23e137]
+                          - generic [ref=f23e139]:
+                            - generic [ref=f23e140]: 16 hours ago
+                            - generic [ref=f23e142]:
+                              - generic [ref=f23e143]: Newsweek
+                              - button "menu" [ref=f23e148]
+                  - listitem [ref=f23e152] [cursor=pointer]:
+                    - link [ref=f23e153]:
+                      - /url: https://www.yahoo.com/news/politics/articles/elon-musks-x-ai-sues-195516655.html
+                      - article [ref=f23e154]:
+                        - generic [ref=f23e156]:
+                          - heading "Elon Musk's X.AI sues to block Minnesota's AI nudification ban, calling it a 'ban on free speech'" [level=3] [ref=f23e158]
+                          - generic [ref=f23e160]:
+                            - generic [ref=f23e161]: 10 hours ago
+                            - generic [ref=f23e163]:
+                              - generic [ref=f23e164]: Yahoo
+                              - button "menu" [ref=f23e169]
+                  - listitem [ref=f23e173] [cursor=pointer]:
+                    - link [ref=f23e174]:
+                      - /url: https://www.forbes.com/sites/the-prompt/2026/07/28/ais-early-winners-are-shopping-for-their-next-big-moves/
+                      - article [ref=f23e175]:
+                        - generic [ref=f23e177]:
+                          - heading "AI's Early Winners Are Shopping For Their Next Big Moves" [level=3] [ref=f23e179]
+                          - generic [ref=f23e181]:
+                            - generic [ref=f23e182]: 11 hours ago
+                            - generic [ref=f23e184]:
+                              - generic [ref=f23e185]: Forbes
+                              - button "menu" [ref=f23e190]
+                  - listitem [ref=f23e194] [cursor=pointer]:
+                    - link [ref=f23e195]:
+                      - /url: https://www.inc.com/kit-eaton/nvidia-just-bet-5-billion-on-an-ai-startup-most-people-have-never-heard-of-heres-why/91380974
+                      - article [ref=f23e196]:
+                        - generic [ref=f23e198]:
+                          - heading "Nvidia Just Bet $5 Billion on an AI Startup Most People Have Never Heard Of. Here's Why" [level=3] [ref=f23e200]
+                          - generic [ref=f23e202]:
+                            - generic [ref=f23e203]: 15 hours ago
+                            - generic [ref=f23e205]:
+                              - generic [ref=f23e206]: Inc.com
+                              - button "menu" [ref=f23e211]
+                  - listitem [ref=f23e215] [cursor=pointer]:
+                    - link [ref=f23e216]:
+                      - /url: https://www.msn.com/en-us/money/general/prediction-1-000-invested-in-soundhound-ai-stock-will-be-worth-this-much-in-1-year/ar-AA28SD2u
+                      - article [ref=f23e217]:
+                        - generic [ref=f23e219]:
+                          - 'heading "Prediction: $1,000 Invested in SoundHound AI Stock Will Be Worth This Much in 1 Year" [level=3] [ref=f23e221]'
+                          - generic [ref=f23e223]:
+                            - generic [ref=f23e224]: 14 hours ago
+                            - generic [ref=f23e226]:
+                              - generic [ref=f23e227]:
+                                - generic [ref=f23e228]: MSN.com
+                                - generic [ref=f23e229]: The Motley Fool
+                              - button "menu" [ref=f23e232]
+                  - listitem [ref=f23e236] [cursor=pointer]:
+                    - generic [ref=f23e237]: →
+                    - generic [ref=f23e239]: More News
+                - button "Next page" [ref=f23e240] [cursor=pointer]
+              - link "More News" [ref=f23e245] [cursor=pointer]:
+                - /url: /?ia=news&origin=funnel_home_website&t=h_&q=latest+AI+news&chip-select=search&iar=news
+              - generic [ref=f23e253]:
+                - text: Was this helpful?
+                - button "Positive feedback" [ref=f23e254] [cursor=pointer]
+                - button "Negative feedback" [ref=f23e258] [cursor=pointer]
+          - listitem [ref=f23e262]:
+            - article [ref=f23e263] [cursor=pointer]:
+              - button [ref=f23e265]
+              - generic [ref=f23e270]:
+                - link "Search domain news.google.com" [ref=f23e272]:
+                  - /url: /?q=latest%20AI%20news+site:news.google.com&t=h_
+                - generic [ref=f23e275]:
+                  - paragraph [ref=f23e276]: Google News
+                  - link "https://news.google.com › topics › CAAqJAgKIh5DQkFTRUFvSEwyMHZNRzFyZWhJRlpXNHRSMElvQUFQAQ" [ref=f23e277]:
+                    - /url: https://news.google.com/topics/CAAqJAgKIh5DQkFTRUFvSEwyMHZNRzFyZWhJRlpXNHRSMElvQUFQAQ
+                    - paragraph [ref=f23e279]:
+                      - generic [ref=f23e280]: https://news.google.com
+                      - generic [ref=f23e281]: › topics › CAAqJAgKIh5DQkFTRUFvSEwyMHZNRzFyZWhJRlpXNHRSMElvQUFQAQ
+              - heading [level=2] [ref=f23e283]:
+                - link "Google News - Artificial intelligence - Latest" [ref=f23e284]:
+                  - /url: https://news.google.com/topics/CAAqJAgKIh5DQkFTRUFvSEwyMHZNRzFyZWhJRlpXNHRSMElvQUFQAQ
+              - generic [ref=f23e286]: Read full articles, watch videos, browse thousands of titles and more on the "Artificial intelligence" topic with Google News.
+          - listitem [ref=f23e291]:
+            - article [ref=f23e292] [cursor=pointer]:
+              - button [ref=f23e294]
+              - generic [ref=f23e299]:
+                - link "Search domain artificialintelligence-news.com" [ref=f23e301]:
+                  - /url: /?q=latest%20AI%20news+site:www.artificialintelligence-news.com&t=h_
+                - generic [ref=f23e304]:
+                  - paragraph [ref=f23e305]: AI News
+                  - link "https://www.artificialintelligence-news.com" [ref=f23e306]:
+                    - /url: https://www.artificialintelligence-news.com/
+                    - paragraph [ref=f23e308]:
+                      - generic [ref=f23e309]: https://www.artificialintelligence-news.com
+              - heading [level=2] [ref=f23e311]:
+                - link "AI News | Latest News | Insights Powering AI-Driven Business Growth" [ref=f23e312]:
+                  - /url: https://www.artificialintelligence-news.com/
+              - generic [ref=f23e314]: AI News delivers the latest updates in artificial intelligence, machine learning, deep learning, enterprise AI, and emerging tech worldwide.
+          - listitem [ref=f23e319]:
+            - article [ref=f23e320] [cursor=pointer]:
+              - button [ref=f23e322]
+              - generic [ref=f23e327]:
+                - link "Search domain techcrunch.com" [ref=f23e329]:
+                  - /url: /?q=latest%20AI%20news+site:techcrunch.com&t=h_
+                - generic [ref=f23e332]:
+                  - paragraph [ref=f23e333]: TechCrunch
+                  - link "https://techcrunch.com › category › artificial-intelligence" [ref=f23e334]:
+                    - /url: https://techcrunch.com/category/artificial-intelligence/
+                    - paragraph [ref=f23e336]:
+                      - generic [ref=f23e337]: https://techcrunch.com
+                      - generic [ref=f23e338]: › category › artificial-intelligence
+              - heading [level=2] [ref=f23e340]:
+                - link "AI News & Artificial Intelligence | TechCrunch" [ref=f23e341]:
+                  - /url: https://techcrunch.com/category/artificial-intelligence/
+              - generic [ref=f23e343]: Read the latest on artificial intelligence and machine learning tech, the companies that are building them, and the ethical issues AI raises today.
+          - listitem [ref=f23e348]:
+            - article [ref=f23e349] [cursor=pointer]:
+              - button [ref=f23e351]
+              - generic [ref=f23e356]:
+                - link "Search domain aiweekly.co" [ref=f23e358]:
+                  - /url: /?q=latest%20AI%20news+site:aiweekly.co&t=h_
+                - generic [ref=f23e361]:
+                  - paragraph [ref=f23e362]: AI Weekly
+                  - link "https://aiweekly.co" [ref=f23e363]:
+                    - /url: https://aiweekly.co/
+                    - paragraph [ref=f23e365]:
+                      - generic [ref=f23e366]: https://aiweekly.co
+              - heading [level=2] [ref=f23e368]:
+                - link "AI News — Today's Top Stories, Tracked & Ranked | AI Weekly" [ref=f23e369]:
+                  - /url: https://aiweekly.co/
+              - generic [ref=f23e371]: The latest AI news, funding rounds, model releases, regulation, and real-world applications. Curated 3x/week for 50,000+ AI professionals.
+          - listitem [ref=f23e376]:
+            - article [ref=f23e377] [cursor=pointer]:
+              - button [ref=f23e379]
+              - generic [ref=f23e384]:
+                - link "Search domain reuters.com" [ref=f23e386]:
+                  - /url: /?q=latest%20AI%20news+site:www.reuters.com&t=h_
+                - generic [ref=f23e389]:
+                  - paragraph [ref=f23e390]: Reuters
+                  - link "https://www.reuters.com › technology › artificial-intelligence" [ref=f23e391]:
+                    - /url: https://www.reuters.com/technology/artificial-intelligence/
+                    - paragraph [ref=f23e393]:
+                      - generic [ref=f23e394]: https://www.reuters.com
+                      - generic [ref=f23e395]: › technology › artificial-intelligence
+              - heading [level=2] [ref=f23e397]:
+                - link "AI News | Latest Headlines and Developments | Reuters" [ref=f23e398]:
+                  - /url: https://www.reuters.com/technology/artificial-intelligence/
+              - generic [ref=f23e403]:
+                - text: Today·
+                - generic [ref=f23e404]: Explore the latest artificial intelligence news with Reuters - from AI breakthroughs and technology trends to regulation, ethics, business and global impact.
+          - listitem [ref=f23e405]:
+            - article [ref=f23e406] [cursor=pointer]:
+              - button [ref=f23e408]
+              - generic [ref=f23e413]:
+                - link "Search domain bloomberg.com" [ref=f23e415]:
+                  - /url: /?q=latest%20AI%20news+site:www.bloomberg.com&t=h_
+                - generic [ref=f23e418]:
+                  - paragraph [ref=f23e419]: Bloomberg
+                  - link "https://www.bloomberg.com › latest › the-ai-race" [ref=f23e420]:
+                    - /url: https://www.bloomberg.com/latest/the-ai-race
+                    - paragraph [ref=f23e422]:
+                      - generic [ref=f23e423]: https://www.bloomberg.com
+                      - generic [ref=f23e424]: › latest › the-ai-race
+              - heading [level=2] [ref=f23e426]:
+                - 'link "The AI Race: Trending News, Latest Updates, Analysis" [ref=f23e427]':
+                  - /url: https://www.bloomberg.com/latest/the-ai-race
+              - generic [ref=f23e429]: See the latest on The AI Race. From breaking news to in-depth reporting, Bloomberg tracks the full story in real time.
+          - listitem [ref=f23e434]:
+            - article [ref=f23e435] [cursor=pointer]:
+              - button [ref=f23e437]
+              - generic [ref=f23e442]:
+                - link "Search domain aiweekly.co" [ref=f23e444]:
+                  - /url: /?q=latest%20AI%20news+site:aiweekly.co&t=h_
+                - generic [ref=f23e447]:
+                  - paragraph [ref=f23e448]: AI Weekly
+                  - link "https://aiweekly.co › ai-news-today" [ref=f23e449]:
+                    - /url: https://aiweekly.co/ai-news-today
+                    - paragraph [ref=f23e451]:
+                      - generic [ref=f23e452]: https://aiweekly.co
+                      - generic [ref=f23e453]: › ai-news-today
+              - heading [level=2] [ref=f23e455]:
+                - link "AI News Today — Top AI Stories & Live Updates | AI Weekly" [ref=f23e456]:
+                  - /url: https://aiweekly.co/ai-news-today
+              - generic [ref=f23e458]: AI News Today The top AI stories and live updates for Wednesday, July 29, 2026 — selected by the team behind 600+ issues, tracked across 113 entities.
+          - listitem [ref=f23e463]:
+            - article [ref=f23e464] [cursor=pointer]:
+              - button [ref=f23e466]
+              - generic [ref=f23e471]:
+                - link "Search domain economictimes.indiatimes.com" [ref=f23e473]:
+                  - /url: /?q=latest%20AI%20news+site:economictimes.indiatimes.com&t=h_
+                - generic [ref=f23e476]:
+                  - paragraph [ref=f23e477]: The Economic Times
+                  - link "https://economictimes.indiatimes.com › topic › artificial-intelligence-latest-news" [ref=f23e478]:
+                    - /url: https://economictimes.indiatimes.com/topic/artificial-intelligence-latest-news
+                    - paragraph [ref=f23e480]:
+                      - generic [ref=f23e481]: https://economictimes.indiatimes.com
+                      - generic [ref=f23e482]: › topic › artificial-intelligence-latest-news
+              - heading [level=2] [ref=f23e484]:
+                - 'link "artificial intelligence latest news: Latest News & Videos, Photos about ..." [ref=f23e485]':
+                  - /url: https://economictimes.indiatimes.com/topic/artificial-intelligence-latest-news
+              - generic [ref=f23e490]:
+                - text: 1 day ago·
+                - generic [ref=f23e491]: artificial intelligence latest news Latest Breaking News, Pictures, Videos, and Special Reports from The Economic Times. artificial intelligence latest news Blogs, Comments and Archive News on Economictimes.com
+          - listitem [ref=f23e492]:
+            - article [ref=f23e493] [cursor=pointer]:
+              - button [ref=f23e495]
+              - generic [ref=f23e500]:
+                - link "Search domain sciencedaily.com" [ref=f23e502]:
+                  - /url: /?q=latest%20AI%20news+site:www.sciencedaily.com&t=h_
+                - generic [ref=f23e505]:
+                  - paragraph [ref=f23e506]: ScienceDaily
+                  - link "https://www.sciencedaily.com › news › computers_math › artificial_intelligence" [ref=f23e507]:
+                    - /url: https://www.sciencedaily.com/news/computers_math/artificial_intelligence/
+                    - paragraph [ref=f23e509]:
+                      - generic [ref=f23e510]: https://www.sciencedaily.com
+                      - generic [ref=f23e511]: › news › computers_math › artificial_intelligence
+              - heading [level=2] [ref=f23e513]:
+                - link "Artificial Intelligence News -- ScienceDaily" [ref=f23e514]:
+                  - /url: https://www.sciencedaily.com/news/computers_math/artificial_intelligence/
+              - generic [ref=f23e519]:
+                - text: Jul 21, 2026·
+                - generic [ref=f23e520]: Artificial Intelligence News. Everything on AI including futuristic robots with artificial intelligence, computer models of human intelligence and more.
+          - listitem [ref=f23e521]:
+            - article [ref=f23e522] [cursor=pointer]:
+              - button [ref=f23e524]
+              - generic [ref=f23e529]:
+                - link "Search domain artificialintelligence-news.com" [ref=f23e531]:
+                  - /url: /?q=latest%20AI%20news+site:www.artificialintelligence-news.com&t=h_
+                - generic [ref=f23e534]:
+                  - paragraph [ref=f23e535]: AI News
+                  - link "https://www.artificialintelligence-news.com › categories › artificial-intelligence" [ref=f23e536]:
+                    - /url: https://www.artificialintelligence-news.com/categories/artificial-intelligence/
+                    - paragraph [ref=f23e538]:
+                      - generic [ref=f23e539]: https://www.artificialintelligence-news.com
+                      - generic [ref=f23e540]: › categories › artificial-intelligence
+              - heading [level=2] [ref=f23e542]:
+                - link "Latest Artificial Intelligence News & Insights | AI News" [ref=f23e543]:
+                  - /url: https://www.artificialintelligence-news.com/categories/artificial-intelligence/
+              - generic [ref=f23e548]:
+                - text: Jul 21, 2026·
+                - generic [ref=f23e549]: Artificial Intelligence News. Explore the latest news and insights surrounding AI with expert articles brought to you by AI News.
+          - listitem [ref=f23e550]:
+            - generic [ref=f23e552]:
+              - paragraph [ref=f23e553]: Searches related to latest AI news
+              - generic [ref=f23e554]:
+                - list [ref=f23e555]:
+                  - listitem [ref=f23e556]:
+                    - link "latest ai news today" [ref=f23e557] [cursor=pointer]:
+                      - /url: "?q=latest%20ai%20news%20today&t=h_"
+                  - listitem [ref=f23e560]:
+                    - link "latest ai news in india" [ref=f23e561] [cursor=pointer]:
+                      - /url: "?q=latest%20ai%20news%20in%20india&t=h_"
+                  - listitem [ref=f23e564]:
+                    - link "artificial intelligence news this week" [ref=f23e565] [cursor=pointer]:
+                      - /url: "?q=artificial%20intelligence%20news%20this%20week&t=h_"
+                  - listitem [ref=f23e568]:
+                    - link "latest ai news this week" [ref=f23e569] [cursor=pointer]:
+                      - /url: "?q=latest%20ai%20news%20this%20week&t=h_"
+                - list [ref=f23e572]:
+                  - listitem [ref=f23e573]:
+                    - link "latest ai news and trends" [ref=f23e574] [cursor=pointer]:
+                      - /url: "?q=latest%20ai%20news%20and%20trends&t=h_"
+                  - listitem [ref=f23e577]:
+                    - link "breaking ai news today" [ref=f23e578] [cursor=pointer]:
+                      - /url: "?q=breaking%20ai%20news%20today&t=h_"
+                  - listitem [ref=f23e581]:
+                    - link "ai news" [ref=f23e582] [cursor=pointer]:
+                      - /url: "?q=ai%20news&t=h_"
+                  - listitem [ref=f23e585]:
+                    - link "google latest ai news" [ref=f23e586] [cursor=pointer]:
+                      - /url: "?q=google%20latest%20ai%20news&t=h_"
+        - button "More results" [ref=f23e591] [cursor=pointer]
+    - list [ref=f23e594]:
+      - button "Close menu" [ref=f23e595] [cursor=pointer]
+      - list [ref=f23e599]:
+        - listitem [ref=f23e600]: Search
+        - listitem [ref=f23e601]:
+          - link "Homepage" [ref=f23e602] [cursor=pointer]:
+            - /url: https://start.duckduckgo.com/
+        - listitem [ref=f23e603]:
+          - link "Themes" [ref=f23e604] [cursor=pointer]:
+            - /url: /settings#appearance
+        - listitem [ref=f23e605]:
+          - link "Settings" [ref=f23e606] [cursor=pointer]:
+            - /url: /settings
+      - list [ref=f23e607]:
+        - listitem [ref=f23e608]: Share Feedback
+        - listitem [ref=f23e609]:
+          - generic [ref=f23e612]:
+            - button "Positive feedback" [ref=f23e613] [cursor=pointer]
+            - button "Negative feedback" [ref=f23e617] [cursor=pointer]
+      - list [ref=f23e621]:
+        - listitem [ref=f23e622]: Downloads
+        - listitem [ref=f23e623]:
+          - link "iOS Browser" [ref=f23e624] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/duckduckgo-private-browser/id663592361?platform=iphone&pt=866401&mt=8&ct=serp-atb-serp
+        - listitem [ref=f23e625]:
+          - link "Android Browser" [ref=f23e626] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=utm_campaign%3Dserp-atb-serp%26origin%3Dfunnel_playstore_searchresults
+        - listitem [ref=f23e627]:
+          - link "Mac Browser" [ref=f23e628] [cursor=pointer]:
+            - /url: /mac?origin=funnel_browser_searchresults
+        - listitem [ref=f23e629]:
+          - link "Windows Browser" [ref=f23e630] [cursor=pointer]:
+            - /url: /windows?origin=funnel_browser_searchresults
+        - listitem [ref=f23e631]: Browser Extensions
+      - list [ref=f23e632]:
+        - listitem [ref=f23e633]: More From DuckDuckGo
+        - listitem [ref=f23e634]:
+          - generic [ref=f23e637]:
+            - button "Dismiss promotion" [ref=f23e638] [cursor=pointer]
+            - generic [ref=f23e641]:
+              - paragraph [ref=f23e643]: Upgrade to our Private Browser
+              - paragraph [ref=f23e655]: Fast. Secure. Free.
+            - link "Download Browser" [ref=f23e656] [cursor=pointer]:
+              - /url: /windows
+        - listitem [ref=f23e659]:
+          - link "Duck.ai" [ref=f23e660] [cursor=pointer]:
+            - /url: https://duck.ai
+        - listitem [ref=f23e661]:
+          - link "Email Protection" [ref=f23e662] [cursor=pointer]:
+            - /url: /email
+        - listitem [ref=f23e663]:
+          - link "Newsletter" [ref=f23e664] [cursor=pointer]:
+            - /url: /newsletter
+        - listitem [ref=f23e665]:
+          - link "Blog" [ref=f23e666] [cursor=pointer]:
+            - /url: /blog
+        - listitem [ref=f23e667]:
+          - link "Podcast" [ref=f23e668] [cursor=pointer]:
+            - /url: https://insideduckduckgo.substack.com/?showWelcome=true
+        - listitem [ref=f23e669]:
+          - link "Collaborations" [ref=f23e670] [cursor=pointer]:
+            - /url: /collaborations
+      - list [ref=f23e671]:
+        - listitem [ref=f23e672]: Learn More
+        - listitem [ref=f23e673]:
+          - link "What’s New" [ref=f23e674] [cursor=pointer]:
+            - /url: /updates
+        - listitem [ref=f23e675]:
+          - link "Compare Privacy" [ref=f23e676] [cursor=pointer]:
+            - /url: /compare-privacy
+        - listitem [ref=f23e677]:
+          - link "About Our Browser" [ref=f23e678] [cursor=pointer]:
+            - /url: /app
+        - listitem [ref=f23e679]:
+          - link "About DuckDuckGo" [ref=f23e680] [cursor=pointer]:
+            - /url: /about
+      - list [ref=f23e681]:
+        - listitem [ref=f23e682]: Other Resources
+        - listitem [ref=f23e683]:
+          - link "Help" [ref=f23e684] [cursor=pointer]:
+            - /url: /duckduckgo-help-pages
+        - listitem [ref=f23e685]:
+          - link "Community" [ref=f23e686] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/duckduckgo/
+        - listitem [ref=f23e687]:
+          - link "Careers" [ref=f23e688] [cursor=pointer]:
+            - /url: /careers
+        - listitem [ref=f23e689]:
+          - link "Privacy Policy" [ref=f23e690] [cursor=pointer]:
+            - /url: /privacy
+        - listitem [ref=f23e691]:
+          - link "Terms of Service" [ref=f23e692] [cursor=pointer]:
+            - /url: /terms
+        - listitem [ref=f23e693]:
+          - link "Press Kit" [ref=f23e694] [cursor=pointer]:
+            - /url: /press
+        - listitem [ref=f23e695]:
+          - link "Advertise on Search" [ref=f23e696] [cursor=pointer]:
+            - /url: /duckduckgo-help-pages/company/advertise-on-duckduckgo-search
+  - generic [ref=f23e702]:
+    - generic [ref=f23e718]:
+      - heading "Get Our Windows Browser" [level=3] [ref=f23e719]
+      - paragraph [ref=f23e720]: Protect your data as you search, browse, and use AI.
+    - link "Download" [ref=f23e721] [cursor=pointer]:
+      - /url: https://duckduckgo.com/windows?origin=funnel_browser_searchresults__footercard
+  - button "Share Feedback" [ref=f23e728] [cursor=pointer]

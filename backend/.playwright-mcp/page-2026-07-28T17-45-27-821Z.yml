@@ -1,0 +1,524 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#bbc-main"
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - button "Open menu" [ref=e8] [cursor=pointer]
+        - link "British Broadcasting Corporation" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img "British Broadcasting Corporation" [ref=e18]
+        - generic [ref=e21]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: https://session.bbc.com/session?action=register&userOrigin=BBCS_BBC&ptrt=https%3A%2F%2Fwww.bbc.com%2Fnews
+            - button "Register" [ref=e24]
+          - link [ref=e27] [cursor=pointer]:
+            - /url: https://session.bbc.com/session?userOrigin=BBCS_BBC&ptrt=https%3A%2F%2Fwww.bbc.com%2Fnews
+            - button "Sign In" [ref=e28]
+    - navigation
+    - main [ref=e30]:
+      - article [ref=e31]:
+        - heading [level=1] [ref=e36]:
+          - img "News" [ref=e37]
+        - generic [ref=e41]:
+          - generic [ref=e44]:
+            - link [ref=e48] [cursor=pointer]:
+              - /url: https://www.bbc.com/news/live/c9q2481v855t
+              - img "Composite image of damaged mall and fallen chimney at paper factory" [ref=e50]
+            - link "LIVE People trapped in Japanese mall hit by earthquake, with others missing after factory chimney collapse One witness reported seeing the second floor of the mall collapse, after a magnitude 6.8 earthquake hit Kyushu island in south-west Japan." [ref=e54] [cursor=pointer]:
+              - /url: https://www.bbc.com/news/live/c9q2481v855t
+              - generic [ref=e55]:
+                - generic [ref=e57]:
+                  - generic [ref=e58]: LIVE
+                  - heading "People trapped in Japanese mall hit by earthquake, with others missing after factory chimney collapse" [level=2] [ref=e63]
+                - paragraph [ref=e64]: One witness reported seeing the second floor of the mall collapse, after a magnitude 6.8 earthquake hit Kyushu island in south-west Japan.
+          - generic [ref=e67]:
+            - 'link "The roof of a temple is destroyed due to an earthquake. Watch: The moment quake hit Japan Video shows locations across the region where a strong earthquake struck Japan''s Kyushu island on 28 July. 2 hrs ago Asia" [ref=e71] [cursor=pointer]':
+              - /url: /news/videos/cvg7v55gxnqo
+              - generic [ref=e72]:
+                - img "The roof of a temple is destroyed due to an earthquake." [ref=e76]
+                - generic [ref=e81]:
+                  - 'heading "Watch: The moment quake hit Japan" [level=2] [ref=e84]'
+                  - paragraph [ref=e85]: Video shows locations across the region where a strong earthquake struck Japan's Kyushu island on 28 July.
+                  - generic [ref=e86]:
+                    - generic [ref=e87]: 2 hrs ago
+                    - generic: Asia
+            - link "Hong Kong activist allowed to stay in UK after deportation threat Wu was detained for hours at London's Heathrow Airport last week and refused entry, he told the BBC. 13 hrs ago Asia" [ref=e92] [cursor=pointer]:
+              - /url: /news/articles/cpd74e0yy12o
+              - generic [ref=e94]:
+                - heading "Hong Kong activist allowed to stay in UK after deportation threat" [level=2] [ref=e97]
+                - paragraph [ref=e98]: Wu was detained for hours at London's Heathrow Airport last week and refused entry, he told the BBC.
+                - generic [ref=e99]:
+                  - generic [ref=e100]: 13 hrs ago
+                  - generic: Asia
+            - link "The cocaine superhighway from Ecuador to Europe - the BBC reports on gangs and the police fightback The BBC goes on patrol with Ecuador's police, who are grappling with a huge surge in drug crime. 13 hrs ago Latin America" [ref=e105] [cursor=pointer]:
+              - /url: /news/articles/cdx7n1r54nno
+              - generic [ref=e107]:
+                - heading "The cocaine superhighway from Ecuador to Europe - the BBC reports on gangs and the police fightback" [level=2] [ref=e110]
+                - paragraph [ref=e111]: The BBC goes on patrol with Ecuador's police, who are grappling with a huge surge in drug crime.
+                - generic [ref=e112]:
+                  - generic [ref=e113]: 13 hrs ago
+                  - generic: Latin America
+          - generic [ref=e116]:
+            - link "A French firefighter crew battles a wildfire spreading in Claouey, southwestern France, 28 July 2026. LIVE French fire service battles 'flare-up' on coast as Spanish PM warns against lowering guard The Cap Ferret authority says firefighting aircraft have been deployed near Grand Crohot beach, a coastal area west of Bordeaux." [ref=e120] [cursor=pointer]:
+              - /url: https://www.bbc.com/news/live/cvgzd34kq5dt
+              - generic [ref=e121]:
+                - img "A French firefighter crew battles a wildfire spreading in Claouey, southwestern France, 28 July 2026." [ref=e125]
+                - generic [ref=e126]:
+                  - generic [ref=e128]:
+                    - generic [ref=e129]: LIVE
+                    - heading "French fire service battles 'flare-up' on coast as Spanish PM warns against lowering guard" [level=2] [ref=e134]
+                  - paragraph [ref=e135]: The Cap Ferret authority says firefighting aircraft have been deployed near Grand Crohot beach, a coastal area west of Bordeaux.
+            - link "side-by-side close-ups of Netanyahu and Zelensky, both with blue backgrounds LIVE Netanyahu arrives at White House after Trump meets Zelensky The world leaders are in Washington for Senator Lindsey Graham's funeral." [ref=e140] [cursor=pointer]:
+              - /url: https://www.bbc.com/news/live/crmrjj92830t
+              - generic [ref=e141]:
+                - img "side-by-side close-ups of Netanyahu and Zelensky, both with blue backgrounds" [ref=e145]
+                - generic [ref=e146]:
+                  - generic [ref=e148]:
+                    - generic [ref=e149]: LIVE
+                    - heading "Netanyahu arrives at White House after Trump meets Zelensky" [level=2] [ref=e154]
+                  - paragraph [ref=e155]: The world leaders are in Washington for Senator Lindsey Graham's funeral.
+            - 'link "Assam floods ''It took everything from us'': India''s Assam faces worst floods in years While flooding happens in Assam every year, a state minister described this year as the worst in six decades. 19 hrs ago Asia" [ref=e160] [cursor=pointer]':
+              - /url: /news/articles/cqlx61p3wz0o
+              - generic [ref=e161]:
+                - img "Assam floods" [ref=e165]
+                - generic [ref=e166]:
+                  - 'heading "''It took everything from us'': India''s Assam faces worst floods in years" [level=2] [ref=e169]'
+                  - paragraph [ref=e170]: While flooding happens in Assam every year, a state minister described this year as the worst in six decades.
+                  - generic [ref=e171]:
+                    - generic [ref=e172]: 19 hrs ago
+                    - generic: Asia
+            - link "Fifa president Gianni Infantino (left) and US President Donald Trump at the 2026 World Cup final Uefa reacts with fury to Infantino World Cup plan European football's governing body Uefa reacts furiously to proposals from Fifa to seek private investment in its competitions, including the World Cup. 2 hrs ago" [ref=e177] [cursor=pointer]:
+              - /url: /sport/football/articles/c8xng9894z0o
+              - generic [ref=e178]:
+                - img "Fifa president Gianni Infantino (left) and US President Donald Trump at the 2026 World Cup final" [ref=e182]
+                - generic [ref=e183]:
+                  - heading "Uefa reacts with fury to Infantino World Cup plan" [level=2] [ref=e186]
+                  - paragraph [ref=e187]: European football's governing body Uefa reacts furiously to proposals from Fifa to seek private investment in its competitions, including the World Cup.
+                  - generic [ref=e188]: 2 hrs ago
+        - generic [ref=e192]:
+          - link [ref=e195] [cursor=pointer]:
+            - /url: /news/articles/cd692n215ndo
+            - heading "Odyssey translator writes scathing review of Nolan film adaptation" [level=2] [ref=e199]
+          - link [ref=e202] [cursor=pointer]:
+            - /url: /news/articles/c87nj3w9gxjo
+            - heading "US walks out of UN Security Council meeting during France's remarks" [level=2] [ref=e206]
+          - link [ref=e209] [cursor=pointer]:
+            - /url: /news/articles/cgewg57rq2ro
+            - 'heading "''A narcissist'': Victim''s family hits out at Kohberger for challenging murder conviction" [level=2] [ref=e213]'
+          - link [ref=e216] [cursor=pointer]:
+            - /url: /news/articles/cy4ker2y1mko
+            - heading "French patrol boat heard firing shots during BBC interview with UK MP" [level=2] [ref=e220]
+          - link [ref=e223] [cursor=pointer]:
+            - /url: /news/articles/clyqnz52rp6o
+            - heading "Johnson & Johnson offers up to $5.5bn to settle baby powder lawsuits" [level=2] [ref=e227]
+        - generic [ref=e228]:
+          - generic [ref=e232]:
+            - separator [ref=e234]
+            - heading "More to explore" [level=2] [ref=e237]
+          - generic [ref=e239]:
+            - generic [ref=e242]:
+              - link [ref=e246] [cursor=pointer]:
+                - /url: /news/articles/c36d79nd5w8o
+                - img "Barriers are seen alongside a road where the mosque is being built" [ref=e248]
+              - link "A Japanese town wrestles with identity after protests over its first mosque As Japan increasingly relies on foreign workers, it is also grappling with how to integrate new cultures and religions. 20 hrs ago Asia" [ref=e252] [cursor=pointer]:
+                - /url: /news/articles/c36d79nd5w8o
+                - generic [ref=e253]:
+                  - heading "A Japanese town wrestles with identity after protests over its first mosque" [level=2] [ref=e256]
+                  - paragraph [ref=e257]: As Japan increasingly relies on foreign workers, it is also grappling with how to integrate new cultures and religions.
+                  - generic [ref=e258]:
+                    - generic [ref=e259]: 20 hrs ago
+                    - generic: Asia
+            - generic [ref=e262]:
+              - link "Laura Loomer Why is Ukraine rolling out the red carpet for a US far-right influencer? Laura Loomer, Trump ally, MAGA influencer, and former Ukraine critic was granted extensive access to the country. 5 hrs ago Europe" [ref=e266] [cursor=pointer]:
+                - /url: /news/videos/cn8n41ywwj1o
+                - generic [ref=e267]:
+                  - img "Laura Loomer" [ref=e271]
+                  - generic [ref=e276]:
+                    - heading "Why is Ukraine rolling out the red carpet for a US far-right influencer?" [level=2] [ref=e279]
+                    - paragraph [ref=e280]: Laura Loomer, Trump ally, MAGA influencer, and former Ukraine critic was granted extensive access to the country.
+                    - generic [ref=e281]:
+                      - generic [ref=e282]: 5 hrs ago
+                      - generic: Europe
+              - link "A treated image showing missiles coloured red and grey. They sit against a beige background. As the US pauses the war with Iran, is Trump really running out of weapons? The US has fired thousands of hard-to-replace missiles during its war with Iran. We unpack whether its \"arsenal of freedom\" is perilously low. 21 hrs ago BBC InDepth" [ref=e287] [cursor=pointer]:
+                - /url: /news/articles/c0qvnk2ezp7o
+                - generic [ref=e288]:
+                  - img "A treated image showing missiles coloured red and grey. They sit against a beige background." [ref=e292]
+                  - generic [ref=e293]:
+                    - heading "As the US pauses the war with Iran, is Trump really running out of weapons?" [level=2] [ref=e296]
+                    - paragraph [ref=e297]: The US has fired thousands of hard-to-replace missiles during its war with Iran. We unpack whether its "arsenal of freedom" is perilously low.
+                    - generic [ref=e298]:
+                      - generic [ref=e299]: 21 hrs ago
+                      - generic: BBC InDepth
+            - 'link "Elizabeth Strout wearing a pink top and pictured on the set of CBS This Morning Booker Prize longlist: See the 13 ''dynamite'' novels up for this year''s prestigious award Elizabeth Strout, Douglas Stuart and Marlon James are among the 13 authors recognised this year. 5 hrs ago Culture" [ref=e304] [cursor=pointer]':
+              - /url: /news/articles/czekl599087o
+              - generic [ref=e305]:
+                - img "Elizabeth Strout wearing a pink top and pictured on the set of CBS This Morning" [ref=e309]
+                - generic [ref=e310]:
+                  - 'heading "Booker Prize longlist: See the 13 ''dynamite'' novels up for this year''s prestigious award" [level=2] [ref=e313]'
+                  - paragraph [ref=e314]: Elizabeth Strout, Douglas Stuart and Marlon James are among the 13 authors recognised this year.
+                  - generic [ref=e315]:
+                    - generic [ref=e316]: 5 hrs ago
+                    - generic: Culture
+            - link "Orla Guerin speaks to a man wearing a black baseball cap and red scarf covering his face. Confronting gang members at the heart of Ecuador's drug battle Orla Guerin speaks to a gang leader about violence, drugs and infiltrating the police. 13 hrs ago Latin America" [ref=e321] [cursor=pointer]:
+              - /url: /news/videos/c1l1d429m8eo
+              - generic [ref=e322]:
+                - img "Orla Guerin speaks to a man wearing a black baseball cap and red scarf covering his face." [ref=e326]
+                - generic [ref=e331]:
+                  - heading "Confronting gang members at the heart of Ecuador's drug battle" [level=2] [ref=e334]
+                  - paragraph [ref=e335]: Orla Guerin speaks to a gang leader about violence, drugs and infiltrating the police.
+                  - generic [ref=e336]:
+                    - generic [ref=e337]: 13 hrs ago
+                    - generic: Latin America
+        - generic [ref=e341]:
+          - generic [ref=e342]:
+            - separator [ref=e344]
+            - heading "Most watched" [level=2] [ref=e347]
+          - generic [ref=e348]:
+            - link "1 Train derailed and buildings on fire after earthquake" [ref=e351] [cursor=pointer]:
+              - /url: /news/videos/c1l1drq070jo
+              - generic [ref=e352]:
+                - generic [ref=e353]: "1"
+                - heading "Train derailed and buildings on fire after earthquake" [level=2] [ref=e359]
+            - link "2 Confronting gang members at the heart of Ecuador's drug battle" [ref=e362] [cursor=pointer]:
+              - /url: /news/videos/c1l1d429m8eo
+              - generic [ref=e363]:
+                - generic [ref=e364]: "2"
+                - heading "Confronting gang members at the heart of Ecuador's drug battle" [level=2] [ref=e370]
+            - link "3 Why is Ukraine rolling out the red carpet for a US far-right influencer?" [ref=e373] [cursor=pointer]:
+              - /url: /news/videos/cn8n41ywwj1o
+              - generic [ref=e374]:
+                - generic [ref=e375]: "3"
+                - heading "Why is Ukraine rolling out the red carpet for a US far-right influencer?" [level=2] [ref=e381]
+            - link "4 US accuses France of 'disingenuous grandstanding' at UN" [ref=e384] [cursor=pointer]:
+              - /url: /news/videos/cj039njqdmno
+              - generic [ref=e385]:
+                - generic [ref=e386]: "4"
+                - heading "US accuses France of 'disingenuous grandstanding' at UN" [level=2] [ref=e392]
+            - 'link "5 Watch: Orcas ram into fish so hard they explode" [ref=e395] [cursor=pointer]':
+              - /url: /news/videos/c0l5z9p1nwgo
+              - generic [ref=e396]:
+                - generic [ref=e397]: "5"
+                - 'heading "Watch: Orcas ram into fish so hard they explode" [level=2] [ref=e403]'
+        - generic [ref=e404]:
+          - generic [ref=e408]:
+            - separator [ref=e410]
+            - heading "Also in news" [level=2] [ref=e413]
+          - generic [ref=e415]:
+            - generic [ref=e418]:
+              - link [ref=e422] [cursor=pointer]:
+                - /url: /sport/football/articles/c0ly412r412o
+                - img "Roberto Mancini on the sidelines while managing in Italy" [ref=e424]
+              - link "Mancini reappointed Italy boss after Pirlo controversy Roberto Mancini is appointed Italy manager for a second time - just a day after Andrea Pirlo rules himself out of the running for the job and technical director Paolo Maldini resigns. 4 hrs ago Italy" [ref=e428] [cursor=pointer]:
+                - /url: /sport/football/articles/c0ly412r412o
+                - generic [ref=e429]:
+                  - heading "Mancini reappointed Italy boss after Pirlo controversy" [level=2] [ref=e432]
+                  - paragraph [ref=e433]: Roberto Mancini is appointed Italy manager for a second time - just a day after Andrea Pirlo rules himself out of the running for the job and technical director Paolo Maldini resigns.
+                  - generic [ref=e434]:
+                    - generic [ref=e435]: 4 hrs ago
+                    - generic: Italy
+            - generic [ref=e438]:
+              - link "King Charles and Sir Clive Alderton walk together outside Search begins for King's new top aide The King will need a new private secretary, with Sir Clive Alderton stepping down next year. 4 hrs ago UK" [ref=e442] [cursor=pointer]:
+                - /url: /news/articles/c1m1g3y1jvdo
+                - generic [ref=e443]:
+                  - img "King Charles and Sir Clive Alderton walk together outside" [ref=e447]
+                  - generic [ref=e448]:
+                    - heading "Search begins for King's new top aide" [level=2] [ref=e451]
+                    - paragraph [ref=e452]: The King will need a new private secretary, with Sir Clive Alderton stepping down next year.
+                    - generic [ref=e453]:
+                      - generic [ref=e454]: 4 hrs ago
+                      - generic: UK
+              - link "'I just found all the classified stuff downstairs,' Biden tells ghostwriter in recording Recordings between Biden and his ghostwriter reveal references to classified information and memory gaps. 11 hrs ago US & Canada" [ref=e459] [cursor=pointer]:
+                - /url: /news/articles/cr49znlz5ggo
+                - generic [ref=e461]:
+                  - heading "'I just found all the classified stuff downstairs,' Biden tells ghostwriter in recording" [level=2] [ref=e464]
+                  - paragraph [ref=e465]: Recordings between Biden and his ghostwriter reveal references to classified information and memory gaps.
+                  - generic [ref=e466]:
+                    - generic [ref=e467]: 11 hrs ago
+                    - generic: US & Canada
+              - link "Why attachment theory is everywhere right now and how it can help you Attachment theory is everywhere right now, but what is it and how can you use it to improve your relationships? 17 hrs ago Health" [ref=e472] [cursor=pointer]:
+                - /url: /news/articles/cnv95790mgpo
+                - generic [ref=e474]:
+                  - heading "Why attachment theory is everywhere right now and how it can help you" [level=2] [ref=e477]
+                  - paragraph [ref=e478]: Attachment theory is everywhere right now, but what is it and how can you use it to improve your relationships?
+                  - generic [ref=e479]:
+                    - generic [ref=e480]: 17 hrs ago
+                    - generic: Health
+            - link "Wu Chi-wai speaking at the legislative council chamber. He's wearing a grey suit and holding sheets of paper. Hong Kong activist allowed to stay in UK after deportation threat Wu was detained for hours at London's Heathrow Airport last week and refused entry, he told the BBC. 13 hrs ago Asia" [ref=e485] [cursor=pointer]:
+              - /url: /news/articles/cpd74e0yy12o
+              - generic [ref=e486]:
+                - img "Wu Chi-wai speaking at the legislative council chamber. He's wearing a grey suit and holding sheets of paper." [ref=e490]
+                - generic [ref=e491]:
+                  - heading "Hong Kong activist allowed to stay in UK after deportation threat" [level=2] [ref=e494]
+                  - paragraph [ref=e495]: Wu was detained for hours at London's Heathrow Airport last week and refused entry, he told the BBC.
+                  - generic [ref=e496]:
+                    - generic [ref=e497]: 13 hrs ago
+                    - generic: Asia
+            - link "image unavailable Bugio Islands in the Atlantic Ocean. Large rock cliff are seen in dark blue sea with a larger green part of the island in the foreground Zoo staff rescue near-extinct snails from remote rock Just 21 Madeiran land snails were found clinging to a rock on Portugal's Bugio Island, say conservationists. 9 hrs ago England" [ref=e502] [cursor=pointer]:
+              - /url: /news/articles/cwyq7e5d1gko
+              - generic [ref=e503]:
+                - generic [ref=e506]:
+                  - img "image unavailable" [ref=e507]
+                  - img "Bugio Islands in the Atlantic Ocean. Large rock cliff are seen in dark blue sea with a larger green part of the island in the foreground" [ref=e508]
+                - generic [ref=e509]:
+                  - heading "Zoo staff rescue near-extinct snails from remote rock" [level=2] [ref=e512]
+                  - paragraph [ref=e513]: Just 21 Madeiran land snails were found clinging to a rock on Portugal's Bugio Island, say conservationists.
+                  - generic [ref=e514]:
+                    - generic [ref=e515]: 9 hrs ago
+                    - generic: England
+            - link "image unavailable Melanie Stanford standing to one side of an excavated area. She is wearing a blue body warmer and t-shirt and is smiling at the camera. Roman port dug up behind woman's home The remains have been discovered beneath a paddock close to the Humber estuary in Brough. 6 hrs ago Hull & East Yorkshire" [ref=e520] [cursor=pointer]:
+              - /url: /news/articles/c3r085dwv8vo
+              - generic [ref=e521]:
+                - generic [ref=e524]:
+                  - img "image unavailable" [ref=e525]
+                  - img "Melanie Stanford standing to one side of an excavated area. She is wearing a blue body warmer and t-shirt and is smiling at the camera." [ref=e526]
+                - generic [ref=e527]:
+                  - heading "Roman port dug up behind woman's home" [level=2] [ref=e530]
+                  - paragraph [ref=e531]: The remains have been discovered beneath a paddock close to the Humber estuary in Brough.
+                  - generic [ref=e532]:
+                    - generic [ref=e533]: 6 hrs ago
+                    - generic: Hull & East Yorkshire
+        - generic [ref=e537]:
+          - generic [ref=e538]:
+            - separator [ref=e540]
+            - heading "Most read" [level=2] [ref=e543]
+          - generic [ref=e544]:
+            - link "1 US walks out of UN Security Council meeting during France's remarks" [ref=e547] [cursor=pointer]:
+              - /url: /news/articles/c87nj3w9gxjo
+              - generic [ref=e548]:
+                - generic [ref=e549]: "1"
+                - heading "US walks out of UN Security Council meeting during France's remarks" [level=2] [ref=e552]
+            - link "2 Odyssey translator writes scathing review of Nolan film adaptation" [ref=e555] [cursor=pointer]:
+              - /url: /news/articles/cd692n215ndo
+              - generic [ref=e556]:
+                - generic [ref=e557]: "2"
+                - heading "Odyssey translator writes scathing review of Nolan film adaptation" [level=2] [ref=e560]
+            - link "3 French Navy carries out 'shooting drill' mid interview" [ref=e563] [cursor=pointer]:
+              - /url: /news/articles/cy4ker2y1mko
+              - generic [ref=e564]:
+                - generic [ref=e565]: "3"
+                - heading "French Navy carries out 'shooting drill' mid interview" [level=2] [ref=e568]
+            - link "4 Why attachment theory is everywhere right now and how it can help you" [ref=e571] [cursor=pointer]:
+              - /url: /news/articles/cnv95790mgpo
+              - generic [ref=e572]:
+                - generic [ref=e573]: "4"
+                - heading "Why attachment theory is everywhere right now and how it can help you" [level=2] [ref=e576]
+            - link "5 As the US pauses the war with Iran, is Trump really running out of weapons?" [ref=e579] [cursor=pointer]:
+              - /url: /news/articles/c0qvnk2ezp7o
+              - generic [ref=e580]:
+                - generic [ref=e581]: "5"
+                - heading "As the US pauses the war with Iran, is Trump really running out of weapons?" [level=2] [ref=e584]
+            - link "6 Powerful earthquake hits Japan, with many people feared trapped in collapsed mall" [ref=e587] [cursor=pointer]:
+              - /url: /news/articles/cgewg24qgnjo
+              - generic [ref=e588]:
+                - generic [ref=e589]: "6"
+                - heading "Powerful earthquake hits Japan, with many people feared trapped in collapsed mall" [level=2] [ref=e592]
+            - 'link "7 ''It took everything from us'': India''s Assam faces worst floods in years" [ref=e595] [cursor=pointer]':
+              - /url: /news/articles/cqlx61p3wz0o
+              - generic [ref=e596]:
+                - generic [ref=e597]: "7"
+                - 'heading "''It took everything from us'': India''s Assam faces worst floods in years" [level=2] [ref=e600]'
+            - link "8 Johnson & Johnson offers up to $5.5bn to settle baby powder lawsuits" [ref=e603] [cursor=pointer]:
+              - /url: /news/articles/clyqnz52rp6o
+              - generic [ref=e604]:
+                - generic [ref=e605]: "8"
+                - heading "Johnson & Johnson offers up to $5.5bn to settle baby powder lawsuits" [level=2] [ref=e608]
+            - link "9 The prehistoric species fighting for survival in Lough Neagh" [ref=e611] [cursor=pointer]:
+              - /url: /news/articles/ce97nze240vo
+              - generic [ref=e612]:
+                - generic [ref=e613]: "9"
+                - heading "The prehistoric species fighting for survival in Lough Neagh" [level=2] [ref=e616]
+            - 'link "10 Booker Prize longlist: See the 13 ''dynamite'' novels up for this year''s prestigious award" [ref=e619] [cursor=pointer]':
+              - /url: /news/articles/czekl599087o
+              - generic [ref=e620]:
+                - generic [ref=e621]: "10"
+                - 'heading "Booker Prize longlist: See the 13 ''dynamite'' novels up for this year''s prestigious award" [level=2] [ref=e624]'
+        - generic [ref=e625]:
+          - generic [ref=e629]:
+            - separator [ref=e631]
+            - heading "Sport" [level=2] [ref=e634]
+          - generic [ref=e636]:
+            - generic [ref=e639]:
+              - link [ref=e643] [cursor=pointer]:
+                - /url: /sport/football/articles/c8xng9894z0o
+                - img "Fifa president Gianni Infantino (left) and US President Donald Trump at the 2026 World Cup final" [ref=e645]
+              - link "Uefa says Fifa plan for private investment in World Cup 'crosses line' European football's governing body Uefa reacts furiously to proposals from Fifa to seek private investment in its competitions, including the World Cup. 2 hrs ago" [ref=e649] [cursor=pointer]:
+                - /url: /sport/football/articles/c8xng9894z0o
+                - generic [ref=e650]:
+                  - heading "Uefa says Fifa plan for private investment in World Cup 'crosses line'" [level=2] [ref=e653]
+                  - paragraph [ref=e654]: European football's governing body Uefa reacts furiously to proposals from Fifa to seek private investment in its competitions, including the World Cup.
+                  - generic [ref=e655]: 2 hrs ago
+            - generic [ref=e658]:
+              - link "image unavailable Roberto Mancini on the sidelines while managing in Italy Mancini reappointed Italy boss after Pirlo controversy Roberto Mancini is appointed Italy manager for a second time - just a day after Andrea Pirlo rules himself out of the running for the job and technical director Paolo Maldini resigns. 4 hrs ago Italy" [ref=e662] [cursor=pointer]:
+                - /url: /sport/football/articles/c0ly412r412o
+                - generic [ref=e663]:
+                  - generic [ref=e666]:
+                    - img "image unavailable" [ref=e667]
+                    - img "Roberto Mancini on the sidelines while managing in Italy" [ref=e668]
+                  - generic [ref=e669]:
+                    - heading "Mancini reappointed Italy boss after Pirlo controversy" [level=2] [ref=e672]
+                    - paragraph [ref=e673]: Roberto Mancini is appointed Italy manager for a second time - just a day after Andrea Pirlo rules himself out of the running for the job and technical director Paolo Maldini resigns.
+                    - generic [ref=e674]:
+                      - generic [ref=e675]: 4 hrs ago
+                      - generic: Italy
+              - 'link "LIVE Commonwealth Games: Wales'' Evans leads home nations clean sweep of gymnastics floor medals Follow live text updates from day five of the Commonwealth Games in Glasgow." [ref=e680] [cursor=pointer]':
+                - /url: https://www.bbc.com/sport/live/czj8rzmmxd7t
+                - generic [ref=e682]:
+                  - generic [ref=e684]:
+                    - generic [ref=e685]: LIVE
+                    - 'heading "Commonwealth Games: Wales'' Evans leads home nations clean sweep of gymnastics floor medals" [level=2] [ref=e690]'
+                  - paragraph [ref=e691]: Follow live text updates from day five of the Commonwealth Games in Glasgow.
+              - link "Celtic 'a really good match' for record signing Hogh Celtic break their transfer record to sign Denmark striker Kasper Hogh from Bodo/Glimt on a four-year contract. 3 hrs ago Celtic" [ref=e696] [cursor=pointer]:
+                - /url: /sport/football/articles/cwymjrm0xlwo
+                - generic [ref=e698]:
+                  - heading "Celtic 'a really good match' for record signing Hogh" [level=2] [ref=e701]
+                  - paragraph [ref=e702]: Celtic break their transfer record to sign Denmark striker Kasper Hogh from Bodo/Glimt on a four-year contract.
+                  - generic [ref=e703]:
+                    - generic [ref=e704]: 3 hrs ago
+                    - generic: Celtic
+            - link "image unavailable Joao Pedro partly covers his face with his hand Alonso's first Chelsea match a tale of four strikers Xabi Alonso's first game as Chelsea manager is defined by four strikers - from one who scored a hat-trick to one who could leave. 4 hrs ago Chelsea" [ref=e709] [cursor=pointer]:
+              - /url: /sport/football/articles/c1w13ddr4ejo
+              - generic [ref=e710]:
+                - generic [ref=e713]:
+                  - img "image unavailable" [ref=e714]
+                  - img "Joao Pedro partly covers his face with his hand" [ref=e715]
+                - generic [ref=e716]:
+                  - heading "Alonso's first Chelsea match a tale of four strikers" [level=2] [ref=e719]
+                  - paragraph [ref=e720]: Xabi Alonso's first game as Chelsea manager is defined by four strikers - from one who scored a hat-trick to one who could leave.
+                  - generic [ref=e721]:
+                    - generic [ref=e722]: 4 hrs ago
+                    - generic: Chelsea
+            - link "image unavailable A referee looks into a blue VAR monitor Only use VAR when error blatant - referee chiefs Video assistant referees should only be used to change \"blatantly incorrect\" decisions and clear missed incidents, say European refereeing officials. 6 hrs ago Football" [ref=e727] [cursor=pointer]:
+              - /url: /sport/football/articles/cm2gyzme6gno
+              - generic [ref=e728]:
+                - generic [ref=e731]:
+                  - img "image unavailable" [ref=e732]
+                  - img "A referee looks into a blue VAR monitor" [ref=e733]
+                - generic [ref=e734]:
+                  - heading "Only use VAR when error blatant - referee chiefs" [level=2] [ref=e737]
+                  - paragraph [ref=e738]: Video assistant referees should only be used to change "blatantly incorrect" decisions and clear missed incidents, say European refereeing officials.
+                  - generic [ref=e739]:
+                    - generic [ref=e740]: 6 hrs ago
+                    - generic: Football
+            - link "image unavailable Zinedine Zidane looking on at a news conference Zidane confirmed as France head coach Former Real Madrid manager Zinedine Zidane has been confirmed as the head coach of the France national team. 9 hrs ago France" [ref=e745] [cursor=pointer]:
+              - /url: /sport/football/articles/cpd741qn2y9o
+              - generic [ref=e746]:
+                - generic [ref=e749]:
+                  - img "image unavailable" [ref=e750]
+                  - img "Zinedine Zidane looking on at a news conference" [ref=e751]
+                - generic [ref=e752]:
+                  - heading "Zidane confirmed as France head coach" [level=2] [ref=e755]
+                  - paragraph [ref=e756]: Former Real Madrid manager Zinedine Zidane has been confirmed as the head coach of the France national team.
+                  - generic [ref=e757]:
+                    - generic [ref=e758]: 9 hrs ago
+                    - generic: France
+    - separator [ref=e761]
+    - contentinfo [ref=e762]:
+      - link "British Broadcasting Corporation" [ref=e765] [cursor=pointer]:
+        - /url: /
+        - img "British Broadcasting Corporation" [ref=e766]
+      - navigation "Footer navigation" [ref=e769]:
+        - list [ref=e770]:
+          - listitem [ref=e771]:
+            - link "Home" [ref=e773] [cursor=pointer]:
+              - /url: https://www.bbc.com/
+          - listitem [ref=e774]:
+            - link "News" [ref=e776] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=e777]:
+            - link "Sport" [ref=e779] [cursor=pointer]:
+              - /url: /sport
+          - listitem [ref=e780]:
+            - link "Business" [ref=e782] [cursor=pointer]:
+              - /url: /business
+          - listitem [ref=e783]:
+            - link "Technology" [ref=e785] [cursor=pointer]:
+              - /url: /technology
+          - listitem [ref=e786]:
+            - link "Health" [ref=e788] [cursor=pointer]:
+              - /url: /health
+          - listitem [ref=e789]:
+            - link "Culture" [ref=e791] [cursor=pointer]:
+              - /url: /culture
+          - listitem [ref=e792]:
+            - link "Arts" [ref=e794] [cursor=pointer]:
+              - /url: /arts
+          - listitem [ref=e795]:
+            - link "Travel" [ref=e797] [cursor=pointer]:
+              - /url: /travel
+          - listitem [ref=e798]:
+            - link "Earth" [ref=e800] [cursor=pointer]:
+              - /url: /future-planet
+          - listitem [ref=e801]:
+            - link "Audio" [ref=e803] [cursor=pointer]:
+              - /url: /audio
+          - listitem [ref=e804]:
+            - link "Video" [ref=e806] [cursor=pointer]:
+              - /url: /video
+          - listitem [ref=e807]:
+            - link "Live" [ref=e809] [cursor=pointer]:
+              - /url: /live
+          - listitem [ref=e810]:
+            - link "Weather" [ref=e812] [cursor=pointer]:
+              - /url: https://www.bbc.com/weather
+          - listitem [ref=e813]:
+            - link "BBC Shop" [ref=e815] [cursor=pointer]:
+              - /url: https://shop.bbc.com/
+          - listitem [ref=e816]:
+            - link "BritBox" [ref=e818] [cursor=pointer]:
+              - /url: https://www.britbox.com/?utm_source=bbc.com&utm_medium=referral&utm_campaign=footer
+      - button [ref=e821] [cursor=pointer]
+      - generic [ref=e825]:
+        - generic [ref=e826]: "Follow BBC on:"
+        - generic [ref=e827]:
+          - button "Follow BBC on x" [ref=e828]
+          - button "Follow BBC on facebook" [ref=e831]
+          - button "Follow BBC on instagram" [ref=e834]
+          - button "Follow BBC on tiktok" [ref=e837]
+          - button "Follow BBC on linkedin" [ref=e840]
+          - button "Follow BBC on youtube" [ref=e843]
+      - navigation [ref=e847]:
+        - list [ref=e848]:
+          - listitem [ref=e849]:
+            - link "Terms of Use" [ref=e851] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/terms-of-use
+          - listitem [ref=e852]:
+            - link "Subscription Terms" [ref=e854] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/subscription-terms
+          - listitem [ref=e855]:
+            - link "About the BBC" [ref=e857] [cursor=pointer]:
+              - /url: https://www.bbc.co.uk/aboutthebbc
+          - listitem [ref=e858]:
+            - link "Privacy Policy" [ref=e860] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/privacy-policy
+          - listitem [ref=e861]:
+            - link "Cookies" [ref=e863] [cursor=pointer]:
+              - /url: https://www.bbc.com/usingthebbc/cookies/
+          - listitem [ref=e864]:
+            - link "Accessibility Help" [ref=e866] [cursor=pointer]:
+              - /url: https://www.bbc.co.uk/accessibility/
+          - listitem [ref=e867]:
+            - link "Contact the BBC" [ref=e869] [cursor=pointer]:
+              - /url: https://www.bbc.co.uk/contact
+          - listitem [ref=e870]:
+            - link "Advertise with us" [ref=e872] [cursor=pointer]:
+              - /url: https://advertising.bbcstudios.com/
+          - listitem [ref=e873]:
+            - link "Do not share or sell my info" [ref=e875] [cursor=pointer]:
+              - /url: https://www.bbc.com/usingthebbc/cookies/how-can-i-change-my-bbc-cookie-settings/
+          - listitem [ref=e876]:
+            - link "BBC.com Help & FAQs" [ref=e878] [cursor=pointer]:
+              - /url: https://help.bbc.com/hc/
+          - listitem [ref=e879]:
+            - link "Content Index" [ref=e881] [cursor=pointer]:
+              - /url: https://www.bbc.com/pages/content-index
+          - listitem [ref=e882]:
+            - link "Set Preferred Source" [ref=e884] [cursor=pointer]:
+              - /url: https://www.bbc.com/future/article/20260128-how-to-make-google-put-trusted-sources-up-top-when-you-search
+      - generic [ref=e885]:
+        - paragraph [ref=e886]:
+          - text: Copyright 2026 BBC. All rights reserved. The BBC is not responsible for the content of external sites.
+          - link "Read about our approach to external linking." [ref=e887] [cursor=pointer]:
+            - /url: https://www.bbc.com/editorialguidelines/guidance/links-and-feeds
+        - paragraph [ref=e888]
+  - alert [ref=e889]

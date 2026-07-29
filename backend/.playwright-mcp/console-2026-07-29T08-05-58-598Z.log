@@ -1,0 +1,79 @@
+[    2028ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    2031ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    2323ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at eval (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops:2:482), <anonymous>:4462:29421)
+    at yv (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops:2:482), <anonymous>:4462:40540)
+    at LO.eval [as N] (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops:2:482), <anonymous>:4462:60049)
+    at en (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops:2:482), <anonymous>:4462:35905)
+    at sk (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops:2:482), <anonymous>:4462:20699)
+    at sk (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops:2:482), <anonymous>:4462:21085)
+[    2326ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at eval (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops:2:482), <anonymous>:4462:29421)
+    at yv (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops:2:482), <anonymous>:4462:40540)
+    at LO.eval [as N] (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops:2:482), <anonymous>:4462:60049)
+    at en (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops:2:482), <anonymous>:4462:35905)
+    at sk (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops:2:482), <anonymous>:4462:20699)
+    at sk (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops:2:482), <anonymous>:4462:21085)
+[    3672ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dbest%2Bselling%2Blaptops%26sei%3DZ7Rpat7mNO7f1sQPktPFgAU&q=EhAkCUDlEBeGZAA9U9xsZCGgGOnoptMGIjA0cIlnJg-gzgHFW79bQaklYKYcq3-wGZa75iiz9BLJRzqtkhXQN2fU046vC5oZF38yAVJaAUM:0
+[    3728ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    3729ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    4021ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    4023ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    4202ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdLLIMbAAAAAIl-KLj9p1ePhM-4LCCDbjtJLqRO&co=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbTo0NDM.&hl=en&v=A7KpaEASfhDcK0nXxgQEyyYv&size=normal&s=Si_fqI39ExZ-S2k1WcTGrYkcDhk3H3cEOasuITsEGgLr8r41EDFThNJbrI2u55lvK_ajpR34NitX46lpwn01Enagvu9XwY8P4T5Ra-axBEWhbJ2HtvWtbmhf3az8xtNny7PZmM9ZSwxn-ImMP3ldMZfwjUQKkyuwbKW5kgaNhgv1OTRFspcsVTHdWY742ySeKb9kE79nkNriygd-W9UK-X3_IHv26kej1khrpTRKkvhL598Z7kMH8zZQZ_7G4STSS4sthq2EvcJUEIOrFq14QyL4mTBl9Ns&anchor-ms=20000&execute-ms=30000&cb=rg6jos1531hf:0
+[    4476ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2 @ https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:559
+[    4577ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:371:62)
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:374:399)
+    at aN.M (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:118:303)
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:233:151)
+    at B.next (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:799:238)
+    at https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:133:18
+[    4578ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:371:62)
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:374:399)
+    at aN.M (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:118:303)
+    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:233:151)
+    at B.next (https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:799:238)
+    at https://www.gstatic.com/recaptcha/releases/A7KpaEASfhDcK0nXxgQEyyYv/recaptcha__en.js:133:18
+[    4602ms] ReferenceError: solveSimpleChallenge is not defined
+    at onload (https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dbest%2Bselling%2Blaptops%26sei%3DZ7Rpat7mNO7f1sQPktPFgAU&q=EhAkCUDlEBeGZAA9U9xsZCGgGOnoptMGIjA0cIlnJg-gzgHFW79bQaklYKYcq3-wGZa75iiz9BLJRzqtkhXQN2fU046vC5oZF38yAVJaAUM:4:316)

@@ -1,0 +1,515 @@
+- generic [ref=f22e1]:
+  - main [ref=f22e4]:
+    - article [ref=f22e5]:
+      - generic [ref=f22e6]:
+        - generic [ref=f22e11]:
+          - link "Learn about DuckDuckGo" [ref=f22e13] [cursor=pointer]:
+            - /url: /about
+          - search "Search the web with DuckDuckGo" [ref=f22e18]:
+            - generic [ref=f22e19]:
+              - combobox "Search with DuckDuckGo" [active] [ref=f22e22]
+              - radiogroup [ref=f22e25]:
+                - generic [ref=f22e27] [cursor=pointer]:
+                  - radio "Search Search" [checked]
+                  - generic "Search" [ref=f22e28]:
+                    - button "Search" [ref=f22e29]
+                    - text: Search
+                - generic [ref=f22e33] [cursor=pointer]:
+                  - radio "Ask AI Ask AI"
+                  - generic "Ask AI" [ref=f22e34]:
+                    - button "Ask AI" [ref=f22e35]
+                    - text: Ask AI
+          - generic [ref=f22e40]:
+            - link "Duck.ai" [ref=f22e41] [cursor=pointer]:
+              - /url: https://duck.ai/?origin=funnel_home_website
+            - navigation "navigation" [ref=f22e47]:
+              - list [ref=f22e48]:
+                - listitem [ref=f22e49]:
+                  - generic [ref=f22e50]: Main navigation menu closed
+                  - button "Menu" [ref=f22e51] [cursor=pointer]
+        - generic [ref=f22e56]:
+          - heading "Switch to DuckDuckGo. It’s private and free!" [level=1] [ref=f22e57]: Switch to DuckDuckGo.It’s privateand free!
+          - list [ref=f22e59]:
+            - listitem [ref=f22e60]:
+              - paragraph [ref=f22e62]: Make DuckDuckGo your default search engine.
+              - link [ref=f22e63] [cursor=pointer]:
+                - /url: https://chromewebstore.google.com/detail/duckduckgo-search/jhagicoeeifaamcacdeifbjacnbgbeip
+            - listitem [ref=f22e65]:
+              - paragraph [ref=f22e67]: Best Privacy
+              - paragraph [ref=f22e69]: Get our free browser for even more privacy.
+              - link [ref=f22e70] [cursor=pointer]:
+                - /url: https://duckduckgo.com/windows?origin=funnel_home_website__hero
+          - paragraph [ref=f22e75]: Trusted by tens of millions worldwide!
+        - button "AI Settings" [ref=f22e77] [cursor=pointer]
+        - button "Scroll down to learn more" [ref=f22e87] [cursor=pointer]
+      - generic [ref=f22e91]:
+        - generic [ref=f22e94]:
+          - heading "Discover more from DuckDuckGo." [level=2] [ref=f22e95]
+          - generic [ref=f22e96]:
+            - button [ref=f22e98] [cursor=pointer]:
+              - paragraph [ref=f22e99]: Private Search
+            - button [ref=f22e104] [cursor=pointer]:
+              - paragraph [ref=f22e105]: Duck.ai
+            - button [ref=f22e110] [cursor=pointer]:
+              - paragraph [ref=f22e111]: Subscription
+            - button [ref=f22e116] [cursor=pointer]:
+              - paragraph [ref=f22e117]: Email
+        - main [ref=f22e121]:
+          - generic [ref=f22e126]:
+            - generic [ref=f22e134]: Search or enter address
+            - generic [ref=f22e175]:
+              - heading "The browser that actively protects your personal information." [level=1] [ref=f22e187]
+              - link "Download DuckDuckGo for Windows" [ref=f22e188] [cursor=pointer]:
+                - /url: https://duckduckgo.com/windows?origin=funnel_home_website__details
+              - generic [ref=f22e193]:
+                - paragraph [ref=f22e194]: Also available on the Microsoft Store
+                - link "Download from Microsoft Store" [ref=f22e195] [cursor=pointer]:
+                  - /url: https://apps.microsoft.com/detail/9n74nhxch1n6?referrer=appbadge&mode=direct
+                  - img "Download from Microsoft Store" [ref=f22e196]
+          - generic [ref=f22e198]:
+            - button [ref=f22e199] [cursor=pointer]:
+              - img "Protection Shield" [ref=f22e200]
+              - generic [ref=f22e208]:
+                - paragraph [ref=f22e209]: Evade scams & data-hungry companies
+                - paragraph [ref=f22e210]: Protection
+            - button [ref=f22e211] [cursor=pointer]:
+              - img "Cookie" [ref=f22e212]
+              - generic [ref=f22e219]:
+                - paragraph [ref=f22e220]: Block most ads & cookie pop-ups
+                - paragraph [ref=f22e221]: Privacy
+            - button [ref=f22e222] [cursor=pointer]:
+              - img "Mask" [ref=f22e223]
+              - generic [ref=f22e229]:
+                - paragraph [ref=f22e230]: Search & chat without being tracked
+                - paragraph [ref=f22e231]: Peace of Mind
+          - generic [ref=f22e232]:
+            - generic [ref=f22e233]:
+              - heading "See how DuckDuckGo compares." [level=2] [ref=f22e234]
+              - tablist "Browser to compare" [ref=f22e236]:
+                - tab "Chrome" [selected] [ref=f22e237] [cursor=pointer]
+                - tab "Edge" [ref=f22e239] [cursor=pointer]
+                - tab "Safari" [ref=f22e241] [cursor=pointer]
+                - tab "Firefox" [ref=f22e243] [cursor=pointer]
+                - tab "Brave" [ref=f22e245] [cursor=pointer]
+              - generic [ref=f22e247]:
+                - table [ref=f22e248]:
+                  - rowgroup [ref=f22e249]:
+                    - row [ref=f22e250]:
+                      - columnheader "Feature" [ref=f22e251]
+                      - columnheader "Chrome" [ref=f22e252]
+                      - columnheader "DuckDuckGo" [ref=f22e261]
+                  - rowgroup [ref=f22e273]:
+                    - row "Search privately by default" [ref=f22e274]:
+                      - cell [ref=f22e275]:
+                        - paragraph [ref=f22e282]: Search privately by default
+                      - cell [ref=f22e283]
+                      - cell [ref=f22e287]
+                    - row "Chat privately with popular AI chatbots (optional)" [ref=f22e291]:
+                      - cell [ref=f22e292]:
+                        - paragraph [ref=f22e300]: Chat privately with popular AI chatbots (optional)
+                      - cell [ref=f22e301]
+                      - cell [ref=f22e305]
+                    - row "Blocks 3rd-party trackers from Facebook, Google, and others" [ref=f22e309]:
+                      - cell [ref=f22e310]:
+                        - paragraph [ref=f22e317]: Blocks 3rd-party trackers from Facebook, Google, and others
+                      - cell [ref=f22e318]
+                      - cell [ref=f22e322]
+                    - row "Blocks targeted ads" [ref=f22e326]:
+                      - cell [ref=f22e327]:
+                        - paragraph [ref=f22e333]: Blocks targeted ads
+                      - cell [ref=f22e334]
+                      - cell [ref=f22e338]
+                    - row "Blocks cookie pop-ups" [ref=f22e342]:
+                      - cell [ref=f22e343]:
+                        - paragraph [ref=f22e349]: Blocks cookie pop-ups
+                      - cell [ref=f22e350]
+                      - cell [ref=f22e354]
+                    - row "Watch YouTube videos without ads" [ref=f22e358]:
+                      - cell [ref=f22e359]:
+                        - paragraph [ref=f22e366]: Watch YouTube videos without ads
+                      - cell [ref=f22e367]
+                      - cell [ref=f22e371]
+                    - row "Securely manages passwords" [ref=f22e375]:
+                      - cell [ref=f22e376]:
+                        - paragraph [ref=f22e384]: Securely manages passwords
+                      - cell [ref=f22e385]
+                      - cell [ref=f22e389]
+                    - row "Blocks email trackers" [ref=f22e393]:
+                      - cell [ref=f22e394]:
+                        - paragraph [ref=f22e401]: Blocks email trackers
+                      - cell [ref=f22e402]
+                      - cell [ref=f22e406]
+                    - row "Deletes browsing data with one button" [ref=f22e410]:
+                      - cell [ref=f22e411]:
+                        - paragraph [ref=f22e418]: Deletes browsing data with one button
+                      - cell [ref=f22e419]
+                      - cell [ref=f22e423]
+                    - row "Removes personal details from sites that sell them" [ref=f22e427]:
+                      - cell [ref=f22e428]:
+                        - paragraph [ref=f22e436]: Removes personal details from sites that sell them
+                      - cell [ref=f22e437]
+                      - cell [ref=f22e441]
+                    - row "Helps restore your identity" [ref=f22e445]:
+                      - cell [ref=f22e446]:
+                        - paragraph [ref=f22e452]: Helps restore your identity
+                      - cell [ref=f22e453]
+                      - cell [ref=f22e457]
+                    - row "Protects your connection with a VPN" [ref=f22e461]:
+                      - cell [ref=f22e462]:
+                        - paragraph [ref=f22e469]: Protects your connection with a VPN
+                      - cell [ref=f22e470]
+                      - cell [ref=f22e474]
+                - generic [ref=f22e478]:
+                  - generic [ref=f22e479]:
+                    - paragraph [ref=f22e487]: Included
+                    - paragraph [ref=f22e495]: Limited
+                    - paragraph [ref=f22e503]: Paid
+                    - paragraph [ref=f22e511]: None
+                  - paragraph [ref=f22e512]: Browser comparisons were made with default settings. Information is correct as of December 2025
+                - generic [ref=f22e513]:
+                  - link "Download DuckDuckGo for Windows" [ref=f22e514] [cursor=pointer]:
+                    - /url: https://duckduckgo.com/windows?origin=funnel_home_website__details
+                  - link "Compare More Protections" [ref=f22e521] [cursor=pointer]:
+                    - /url: /compare-privacy
+            - generic [ref=f22e527]:
+              - heading "Protection. Privacy. Peace of mind. Get the browser built for data protection, not data collection." [level=3] [ref=f22e529]:
+                - generic [ref=f22e530]: Protection.
+                - generic [ref=f22e534]: Privacy.
+                - generic [ref=f22e538]: Peace of mind.
+                - text: Get the browser built for data protection,
+                - generic [ref=f22e542]: not data collection.
+              - generic [ref=f22e543]:
+                - paragraph [ref=f22e544]: The DuckDuckGo browser is available on
+                - generic [ref=f22e545]:
+                  - link "Windows" [ref=f22e546] [cursor=pointer]:
+                    - /url: https://duckduckgo.com/windows?origin=funnel_home_website__details
+                  - link "Mac" [ref=f22e550] [cursor=pointer]:
+                    - /url: https://duckduckgo.com/mac?origin=funnel_home_website__details
+                  - link "Android" [ref=f22e555] [cursor=pointer]:
+                    - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=origin%3Dfunnel_home_website__details
+                  - link "iOS" [ref=f22e559] [cursor=pointer]:
+                    - /url: https://apps.apple.com/app/duckduckgo-privacy-browser/id663592361?platform=iphone&pt=866401&mt=8
+            - generic [ref=f22e564]:
+              - generic [ref=f22e565]:
+                - heading "Take back control of your personal information." [level=3] [ref=f22e566]
+                - paragraph [ref=f22e567]: Hidden trackers lurk on 85% of popular websites. We actively block them by default, helping you evade hackers, scammers, and data-hungry companies.
+                - generic [ref=f22e568]:
+                  - button [ref=f22e570] [cursor=pointer]:
+                    - paragraph [ref=f22e571]: Goodbye Incognito mode, hello real privacy in every tab
+                  - button [ref=f22e576] [cursor=pointer]:
+                    - paragraph [ref=f22e577]: Block 3rd-party trackers from Google, Facebook, and others
+                  - button [ref=f22e582] [cursor=pointer]:
+                    - paragraph [ref=f22e583]: Delete all tabs, history, and browsing data in one click
+              - generic [ref=f22e587]:
+                - heading "Block most ads & cookie pop-ups for fewer interruptions." [level=3] [ref=f22e588]
+                - paragraph [ref=f22e589]: Our browser blocks most ads before they even appear, including on videos, so you can enjoy your favorite content with less hassle. We spot cookie pop-ups right away and, where possible, opt you out automatically, so you won’t even see them.
+                - generic [ref=f22e590]:
+                  - button [ref=f22e592] [cursor=pointer]:
+                    - paragraph [ref=f22e593]: Stop ads following you everywhere
+                  - button [ref=f22e598] [cursor=pointer]:
+                    - paragraph [ref=f22e599]: Block annoying cookie pop-ups
+                  - button [ref=f22e604] [cursor=pointer]:
+                    - paragraph [ref=f22e605]: Block ads on YouTube
+              - generic [ref=f22e609]:
+                - heading "Data protection, not data collection." [level=3] [ref=f22e610]
+                - paragraph [ref=f22e611]: We believe the best way to protect your data is to stop it from being collected at all. We never track your searches, and our browsing protections help stop other companies from collecting your data.
+                - generic [ref=f22e612]:
+                  - button [ref=f22e614] [cursor=pointer]:
+                    - paragraph [ref=f22e615]: Search without being tracked
+                  - button [ref=f22e620] [cursor=pointer]:
+                    - paragraph [ref=f22e621]: A simple, secure password manager
+                  - button [ref=f22e626] [cursor=pointer]:
+                    - paragraph [ref=f22e627]: Chat privately with popular AI chatbots (optional)
+            - generic [ref=f22e631]:
+              - heading "Don’t just take our word for it." [level=2] [ref=f22e632]
+              - generic [ref=f22e634]:
+                - link [ref=f22e636] [cursor=pointer]:
+                  - /url: https://www.theverge.com/2023/6/22/23769084/duckduckgo-browser-windows-download
+                  - generic:
+                    - img "The Verge"
+                  - blockquote [ref=f22e637]: “ a solid cross-platform browser that really can keep up with the Chromes and Edges of the world.”
+                  - paragraph [ref=f22e639]: David Pierce
+                - link [ref=f22e641] [cursor=pointer]:
+                  - /url: https://www.wired.com/story/privacy-browsers-duckduckgo-ghostery-brave/
+                  - generic:
+                    - img "Wired"
+                  - blockquote [ref=f22e642]: “ you're getting maximum protection with minimal effort.”
+                  - paragraph [ref=f22e644]: David Nield
+                - link [ref=f22e646] [cursor=pointer]:
+                  - /url: https://www.engadget.com/duckduckgo-mac-browser-open-beta-092105957.html
+                  - generic:
+                    - img "Engadget"
+                  - blockquote [ref=f22e647]: “ easy and quick to import passwords and bookmarks from other browsers like Chrome.”
+                  - paragraph [ref=f22e649]: Mariella Moon
+                - link [ref=f22e651] [cursor=pointer]:
+                  - /url: https://www.cnet.com/tech/services-and-software/five-reasons-you-should-use-duckduckgo-instead-of-google/
+                  - generic:
+                    - img "CNET"
+                  - blockquote [ref=f22e652]: “ frees up bandwidth and lets websites load faster.”
+                  - paragraph [ref=f22e654]: Zachary McAuliffe
+                - link [ref=f22e656] [cursor=pointer]:
+                  - /url: https://www.techradar.com/pro/duckduckgo-private-browser
+                  - generic:
+                    - img "TechRadar"
+                  - blockquote [ref=f22e657]: “ DuckDuckGo is a must-try”
+                  - paragraph [ref=f22e659]: Desire Athow
+                - link [ref=f22e661] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/duckduckgo-private-browser/id663592361?see-all=reviews
+                  - img "Apple App Store"
+                  - blockquote [ref=f22e662]: “ the most intuitive, well laid out, and quick browser I've used.”
+                  - paragraph [ref=f22e667]: App Store Review
+                - link [ref=f22e669] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/duckduckgo-private-browser/id663592361?see-all=reviews
+                  - img "Apple App Store"
+                  - blockquote [ref=f22e670]: “ absolutely love this browser, and cannot imagine using any other again.”
+                  - paragraph [ref=f22e675]: App Store Review
+                - link [ref=f22e677] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/duckduckgo-private-browser/id663592361?see-all=reviews
+                  - img "Apple App Store"
+                  - blockquote [ref=f22e678]: “ I find it faster than Safari, Chrome, and Firefox, and I feel way more protected.”
+                  - paragraph [ref=f22e683]: App Store Review
+                - link [ref=f22e685] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=origin%3Dfunnel_home_website__details
+                  - img "Google Play Store"
+                  - blockquote [ref=f22e686]: “ Gives me just the peace of mind that I need.”
+                  - paragraph [ref=f22e691]: Google Play Review
+                - link [ref=f22e693] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=origin%3Dfunnel_home_website__details
+                  - img "Google Play Store"
+                  - blockquote [ref=f22e694]: “ it keeps my personal and browsing data away from the big tech companies.”
+                  - paragraph [ref=f22e699]: Google Play Review
+                - link [ref=f22e701] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=origin%3Dfunnel_home_website__details
+                  - img "Google Play Store"
+                  - blockquote [ref=f22e702]: “ Pretty much all you could ask for in a browser.”
+                  - paragraph [ref=f22e707]: Google Play Review
+                - link [ref=f22e709] [cursor=pointer]:
+                  - /url: https://www.theverge.com/2023/6/22/23769084/duckduckgo-browser-windows-download
+                  - generic:
+                    - img "The Verge"
+                  - blockquote [ref=f22e710]: “ a solid cross-platform browser that really can keep up with the Chromes and Edges of the world.”
+                  - paragraph [ref=f22e712]: David Pierce
+                - link [ref=f22e714] [cursor=pointer]:
+                  - /url: https://www.wired.com/story/privacy-browsers-duckduckgo-ghostery-brave/
+                  - generic:
+                    - img "Wired"
+                  - blockquote [ref=f22e715]: “ you're getting maximum protection with minimal effort.”
+                  - paragraph [ref=f22e717]: David Nield
+                - link [ref=f22e719] [cursor=pointer]:
+                  - /url: https://www.engadget.com/duckduckgo-mac-browser-open-beta-092105957.html
+                  - generic:
+                    - img "Engadget"
+                  - blockquote [ref=f22e720]: “ easy and quick to import passwords and bookmarks from other browsers like Chrome.”
+                  - paragraph [ref=f22e722]: Mariella Moon
+                - link [ref=f22e724] [cursor=pointer]:
+                  - /url: https://www.cnet.com/tech/services-and-software/five-reasons-you-should-use-duckduckgo-instead-of-google/
+                  - generic:
+                    - img "CNET"
+                  - blockquote [ref=f22e725]: “ frees up bandwidth and lets websites load faster.”
+                  - paragraph [ref=f22e727]: Zachary McAuliffe
+                - link [ref=f22e729] [cursor=pointer]:
+                  - /url: https://www.techradar.com/pro/duckduckgo-private-browser
+                  - generic:
+                    - img "TechRadar"
+                  - blockquote [ref=f22e730]: “ DuckDuckGo is a must-try”
+                  - paragraph [ref=f22e732]: Desire Athow
+                - link [ref=f22e734] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/duckduckgo-private-browser/id663592361?see-all=reviews
+                  - img "Apple App Store"
+                  - blockquote [ref=f22e735]: “ the most intuitive, well laid out, and quick browser I've used.”
+                  - paragraph [ref=f22e740]: App Store Review
+                - link [ref=f22e742] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/duckduckgo-private-browser/id663592361?see-all=reviews
+                  - img "Apple App Store"
+                  - blockquote [ref=f22e743]: “ absolutely love this browser, and cannot imagine using any other again.”
+                  - paragraph [ref=f22e748]: App Store Review
+                - link [ref=f22e750] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/duckduckgo-private-browser/id663592361?see-all=reviews
+                  - img "Apple App Store"
+                  - blockquote [ref=f22e751]: “ I find it faster than Safari, Chrome, and Firefox, and I feel way more protected.”
+                  - paragraph [ref=f22e756]: App Store Review
+                - link [ref=f22e758] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=origin%3Dfunnel_home_website__details
+                  - img "Google Play Store"
+                  - blockquote [ref=f22e759]: “ Gives me just the peace of mind that I need.”
+                  - paragraph [ref=f22e764]: Google Play Review
+                - link [ref=f22e766] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=origin%3Dfunnel_home_website__details
+                  - img "Google Play Store"
+                  - blockquote [ref=f22e767]: “ it keeps my personal and browsing data away from the big tech companies.”
+                  - paragraph [ref=f22e772]: Google Play Review
+                - link [ref=f22e774] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=origin%3Dfunnel_home_website__details
+                  - img "Google Play Store"
+                  - blockquote [ref=f22e775]: “ Pretty much all you could ask for in a browser.”
+                  - paragraph [ref=f22e780]: Google Play Review
+            - generic [ref=f22e781]:
+              - generic [ref=f22e782]:
+                - heading "Trusted by tens of millions worldwide!" [level=3] [ref=f22e783]
+                - list [ref=f22e784]:
+                  - listitem [ref=f22e785]:
+                    - generic [ref=f22e786]: 100%
+                    - generic [ref=f22e787]: Free
+                  - listitem [ref=f22e788]:
+                    - generic [ref=f22e789]: 3 Billion
+                    - generic [ref=f22e790]: Monthly Searches
+                  - listitem [ref=f22e791]:
+                    - generic [ref=f22e792]: 9 Million
+                    - generic [ref=f22e793]: Monthly Downloads
+              - generic [ref=f22e795]:
+                - heading "Get our free browser today!" [level=6] [ref=f22e796]
+                - link "Download DuckDuckGo Browser" [ref=f22e798] [cursor=pointer]:
+                  - /url: https://duckduckgo.com/windows?origin=funnel_home_website__details
+                - generic [ref=f22e799]:
+                  - generic [ref=f22e800]:
+                    - link "Download DuckDuckGo on the App Store" [ref=f22e801] [cursor=pointer]:
+                      - /url: https://apps.apple.com/app/duckduckgo-privacy-browser/id663592361?platform=iphone&ct=home-atb-home&pt=866401&mt=8
+                    - generic [ref=f22e807]:
+                      - generic [ref=f22e808]:
+                        - img "Filled star icon in the context of a rating" [ref=f22e809]
+                        - img "Filled star icon in the context of a rating" [ref=f22e811]
+                        - img "Filled star icon in the context of a rating" [ref=f22e813]
+                        - img "Filled star icon in the context of a rating" [ref=f22e815]
+                        - img "Filled star icon in the context of a rating" [ref=f22e817]
+                      - generic [ref=f22e819]: "4.8"
+                    - paragraph [ref=f22e820]: 2.9 million ratings
+                  - generic [ref=f22e821]:
+                    - link "Download DuckDuckGo on Google Play" [ref=f22e822] [cursor=pointer]:
+                      - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=utm_campaign%3Dhome-atb-home%26origin%3Dfunnel_home_website__details
+                    - generic [ref=f22e833]:
+                      - generic [ref=f22e834]:
+                        - img "Filled star icon in the context of a rating" [ref=f22e835]
+                        - img "Filled star icon in the context of a rating" [ref=f22e837]
+                        - img "Filled star icon in the context of a rating" [ref=f22e839]
+                        - img "Filled star icon in the context of a rating" [ref=f22e841]
+                        - img "Filled star icon in the context of a rating" [ref=f22e843]
+                      - generic [ref=f22e845]: "4.7"
+                    - paragraph [ref=f22e846]: 2.3 million reviews
+            - generic [ref=f22e848]:
+              - heading "Still have questions?" [level=3] [ref=f22e850]
+              - generic [ref=f22e853]:
+                - generic [ref=f22e854]:
+                  - button "What is DuckDuckGo?" [expanded] [ref=f22e855] [cursor=pointer]
+                  - group "What is DuckDuckGo?" [ref=f22e860]:
+                    - paragraph [ref=f22e862]:
+                      - text: At DuckDuckGo, we believe the best way to protect your personal information from hackers, scammers, and privacy-invasive companies is to stop it from being collected at all. That's why millions of people
+                      - link "choose DuckDuckGo over Chrome and other browsers" [ref=f22e863] [cursor=pointer]:
+                        - /url: https://duckduckgo.com/compare-privacy
+                      - text: to search and browse online. Our built-in search engine is like Google but never tracks your searches, and our browser blocks ads, trackers, and cookies that collect your data. It also offers private, useful, and optional AI, including
+                      - link "Duck.ai" [ref=f22e864] [cursor=pointer]:
+                        - /url: https://duck.ai
+                      - text: ", which lets you chat privately with ChatGPT, Claude, and other AIs, all in one place. Oh, and our browser is free. We make money from"
+                      - link "privacy-respecting search ads" [ref=f22e865] [cursor=pointer]:
+                        - /url: https://duckduckgo.com/duckduckgo-help-pages/company/how-duckduckgo-makes-money/
+                      - text: ", not by exploiting your data. Take back control of your personal information with the browser designed for data protection, not data collection."
+                      - link "Learn more" [ref=f22e866] [cursor=pointer]:
+                        - /url: https://duckduckgo.com/duckduckgo-help-pages/company/
+                - button "How does DuckDuckGo protect my privacy?" [ref=f22e868] [cursor=pointer]
+                - button "Does DuckDuckGo block all trackers on websites I visit?" [ref=f22e874] [cursor=pointer]
+                - button "How many people use DuckDuckGo?" [ref=f22e880] [cursor=pointer]
+                - button "How does DuckDuckGo make money?" [ref=f22e886] [cursor=pointer]
+                - button "Why use DuckDuckGo instead of Google?" [ref=f22e892] [cursor=pointer]
+                - button "Is Incognito Mode private?" [ref=f22e898] [cursor=pointer]
+                - button "How do DuckDuckGo Search results compare to Google's?" [ref=f22e904] [cursor=pointer]
+                - button "Is DuckDuckGo owned by Google or any other entity?" [ref=f22e910] [cursor=pointer]
+            - generic [ref=f22e916]:
+              - generic [ref=f22e919]:
+                - navigation [ref=f22e920]:
+                  - generic [ref=f22e921]:
+                    - heading "Learn More" [level=4] [ref=f22e922]
+                    - list [ref=f22e923]:
+                      - listitem [ref=f22e924]:
+                        - paragraph [ref=f22e925]:
+                          - link "About DuckDuckGo" [ref=f22e926] [cursor=pointer]:
+                            - /url: /about
+                      - listitem [ref=f22e927]:
+                        - paragraph [ref=f22e928]:
+                          - link "About Our Browser" [ref=f22e929] [cursor=pointer]:
+                            - /url: /app?origin=funnel_home_website__details
+                      - listitem [ref=f22e930]:
+                        - paragraph [ref=f22e931]:
+                          - link "What’s New" [ref=f22e932] [cursor=pointer]:
+                            - /url: /updates
+                      - listitem [ref=f22e933]:
+                        - paragraph [ref=f22e934]:
+                          - link "Compare Privacy" [ref=f22e935] [cursor=pointer]:
+                            - /url: /compare-privacy
+                      - listitem [ref=f22e936]:
+                        - paragraph [ref=f22e937]:
+                          - link "Blog" [ref=f22e938] [cursor=pointer]:
+                            - /url: https://spreadprivacy.com
+                      - listitem [ref=f22e939]:
+                        - paragraph [ref=f22e940]:
+                          - link "Newsletter" [ref=f22e941] [cursor=pointer]:
+                            - /url: /newsletter
+                      - listitem [ref=f22e942]:
+                        - paragraph [ref=f22e943]:
+                          - link "Podcast" [ref=f22e944] [cursor=pointer]:
+                            - /url: https://insideduckduckgo.substack.com/?showWelcome=true
+                  - generic [ref=f22e945]:
+                    - heading "Other Resources" [level=4] [ref=f22e946]
+                    - list [ref=f22e947]:
+                      - listitem [ref=f22e948]:
+                        - paragraph [ref=f22e949]:
+                          - link "Help" [ref=f22e950] [cursor=pointer]:
+                            - /url: https://duckduckgo.com/duckduckgo-help-pages
+                      - listitem [ref=f22e951]:
+                        - paragraph [ref=f22e952]:
+                          - link "Community" [ref=f22e953] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/duckduckgo/
+                      - listitem [ref=f22e954]:
+                        - paragraph [ref=f22e955]:
+                          - link "Careers" [ref=f22e956] [cursor=pointer]:
+                            - /url: /hiring
+                      - listitem [ref=f22e957]:
+                        - paragraph [ref=f22e958]:
+                          - link "Privacy Policy" [ref=f22e959] [cursor=pointer]:
+                            - /url: /privacy
+                      - listitem [ref=f22e960]:
+                        - paragraph [ref=f22e961]:
+                          - link "Terms of Service" [ref=f22e962] [cursor=pointer]:
+                            - /url: /terms
+                      - listitem [ref=f22e963]:
+                        - paragraph [ref=f22e964]:
+                          - link "Press Kit" [ref=f22e965] [cursor=pointer]:
+                            - /url: /press
+                      - listitem [ref=f22e966]:
+                        - paragraph [ref=f22e967]:
+                          - link "Advertise on Search" [ref=f22e968] [cursor=pointer]:
+                            - /url: https://duckduckgo.com/duckduckgo-help-pages/company/advertise-on-duckduckgo-search
+                      - listitem [ref=f22e969]:
+                        - paragraph [ref=f22e970]:
+                          - link "Collaborations" [ref=f22e971] [cursor=pointer]:
+                            - /url: /collaborations
+                - generic [ref=f22e972]:
+                  - heading "About DuckDuckGo" [level=4] [ref=f22e973]
+                  - paragraph [ref=f22e975]:
+                    - text: At DuckDuckGo, we believe the best way to protect your personal information from hackers, scammers, and privacy-invasive companies is to stop it from being collected at all. That's why millions of people
+                    - link "choose DuckDuckGo over Chrome and other browsers" [ref=f22e976] [cursor=pointer]:
+                      - /url: https://duckduckgo.com/compare-privacy
+                    - text: to search and browse online. Our built-in search engine is like Google but never tracks your searches, and our browser blocks ads, trackers, and cookies that collect your data. It also offers private, useful, and optional AI, including
+                    - link "Duck.ai" [ref=f22e977] [cursor=pointer]:
+                      - /url: https://duck.ai
+                    - text: ", which lets you chat privately with ChatGPT, Claude, and other AIs, all in one place. Oh, and our browser is free. We make money from"
+                    - link "privacy-respecting search ads" [ref=f22e978] [cursor=pointer]:
+                      - /url: https://duckduckgo.com/duckduckgo-help-pages/company/how-duckduckgo-makes-money
+                    - text: ", not by exploiting your data. Available to download on"
+                    - link "Mac" [ref=f22e979] [cursor=pointer]:
+                      - /url: https://duckduckgo.com/mac?origin=funnel_home_website__details
+                    - text: ","
+                    - link "Windows" [ref=f22e980] [cursor=pointer]:
+                      - /url: https://duckduckgo.com/windows?origin=funnel_home_website__details
+                    - text: ","
+                    - link "iOS" [ref=f22e981] [cursor=pointer]:
+                      - /url: https://apps.apple.com/app/duckduckgo-privacy-browser/id663592361?platform=iphone
+                    - text: ", and"
+                    - link "Android" [ref=f22e982] [cursor=pointer]:
+                      - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=origin%3Dfunnel_home_website__details
+                    - text: .
+              - generic [ref=f22e985]:
+                - paragraph [ref=f22e987]:
+                  - text: © 2026
+                  - link "DuckDuckGo" [ref=f22e988] [cursor=pointer]:
+                    - /url: https://duckduckgo.com
+                - paragraph [ref=f22e990]: Protection. Privacy. Peace of mind.
+  - alert [ref=f22e992]

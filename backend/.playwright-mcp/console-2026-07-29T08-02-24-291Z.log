@@ -1,0 +1,101 @@
+[     922ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[     926ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    1025ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=best+selling+laptops:11
+[    1027ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=best+selling+laptops:11
+[    1028ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=best+selling+laptops:11
+[    1028ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=best+selling+laptops:11
+[    1028ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=best+selling+laptops:11
+[    1532ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    1534ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    3354ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at Element.appendChild (https://www.bing.com/search?q=best+selling+laptops:34:14569)
+    at D (https://www.bing.com/search?q=best+selling+laptops:34:22736)
+    at Object.O [as init] (https://www.bing.com/search?q=best+selling+laptops:34:28665)
+    at <anonymous>:3:36051
+[    3361ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at Element.appendChild (https://www.bing.com/search?q=best+selling+laptops:34:14569)
+    at D (https://www.bing.com/search?q=best+selling+laptops:34:22736)
+    at Object.O [as init] (https://www.bing.com/search?q=best+selling+laptops:34:28665)
+    at <anonymous>:3:36051
+[   14748ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at Element.appendChild (https://www.bing.com/search?q=best+selling+laptops:34:14569)
+    at https://r.bing.com/rp/z28Pkk4sBQoJopStCb3TuhQgcTo.br.js:1:4305
+    at https://r.bing.com/rp/z28Pkk4sBQoJopStCb3TuhQgcTo.br.js:1:4788
+[   14749ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at Element.appendChild (https://www.bing.com/search?q=best+selling+laptops:34:14569)
+    at https://r.bing.com/rp/z28Pkk4sBQoJopStCb3TuhQgcTo.br.js:1:4305
+    at https://r.bing.com/rp/z28Pkk4sBQoJopStCb3TuhQgcTo.br.js:1:4788
+[   14824ms] TypeError: processCallback threw error for script:A:rms:answers:Web:SerpKeyboardNavigation script Url:https://r.bing.com/rp/hKiQuLp0jAHrS5ouM_oqxCkA38s.br.js error stack:TypeError: Cannot use 'in' operator to search for 'firstPaintAfterLoadTime' in 1785312159102
+    at https://r.bing.com/rp/NrZkLT2UqRF82Z0M6pNqbG6i6oM.br.js:1:16308
+    at Object.load (https://r.bing.com/rp/NrZkLT2UqRF82Z0M6pNqbG6i6oM.br.js:1:16367)
+    at U (https://r.bing.com/rp/NrZkLT2UqRF82Z0M6pNqbG6i6oM.br.js:1:4686)
+    at C (https://r.bing.com/rp/NrZkLT2UqRF82Z0M6pNqbG6i6oM.br.js:1:861)
+    at a (https://www.bing.com/rp/SccNQeLN7ACFT-5aKi7G9m6B494.br.js:1:2779)
+    at Object.u [as fire] (https://www.bing.com/rp/SccNQeLN7ACFT-5aKi7G9m6B494.br.js:1:2868)
+    at https://www.bing.com/rp/SccNQeLN7ACFT-5aKi7G9m6B494.br.js:1:13818
+    at P.dec (https://www.bing.com/rp/SccNQeLN7ACFT-5aKi7G9m6B494.br.js:1:12714)
+    at G (https://www.bing.com/rp/SccNQeLN7ACFT-5aKi7G9m6B494.br.js:1:11051)
+    at E (https://www.bing.com/rp/SccNQeLN7ACFT-5aKi7G9m6B494.br.js:1:10705)
+    at https://r.bing.com/rp/NrZkLT2UqRF82Z0M6pNqbG6i6oM.br.js:1:16308
+    at Object.load (https://r.bing.com/rp/NrZkLT2UqRF82Z0M6pNqbG6i6oM.br.js:1:16367)
+    at U (https://r.bing.com/rp/NrZkLT2UqRF82Z0M6pNqbG6i6oM.br.js:1:4686)
+    at C (https://r.bing.com/rp/NrZkLT2UqRF82Z0M6pNqbG6i6oM.br.js:1:861)
+    at a (https://www.bing.com/rp/SccNQeLN7ACFT-5aKi7G9m6B494.br.js:1:2779)
+    at Object.u [as fire] (https://www.bing.com/rp/SccNQeLN7ACFT-5aKi7G9m6B494.br.js:1:2868)
+    at https://www.bing.com/rp/SccNQeLN7ACFT-5aKi7G9m6B494.br.js:1:13818
+    at P.dec (https://www.bing.com/rp/SccNQeLN7ACFT-5aKi7G9m6B494.br.js:1:12714)
+    at G (https://www.bing.com/rp/SccNQeLN7ACFT-5aKi7G9m6B494.br.js:1:11051)
+    at E (https://www.bing.com/rp/SccNQeLN7ACFT-5aKi7G9m6B494.br.js:1:10705)
+    at n.onreadystatechange.n.onload [as onreadystatechange] (https://www.bing.com/rp/SccNQeLN7ACFT-5aKi7G9m6B494.br.js:1:11484)
+[   17142ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   17147ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   17619ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   17619ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7

@@ -1,0 +1,14 @@
+- generic [ref=f9e2]:
+  - separator [ref=f9e3]
+  - iframe [ref=f9e8]:
+    - generic [ref=f10e2]:
+      - generic [ref=f10e3]:
+        - checkbox "I'm not a robot" [ref=f10e7]
+        - generic [ref=f10e9]: I'm not a robot
+      - generic [ref=f10e12]: reCAPTCHA
+  - separator [ref=f9e9]
+  - generic [ref=f9e10]:
+    - text: About this page Our systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot.
+    - link "Why did this happen?" [ref=f9e11] [cursor=pointer]:
+      - /url: "#"
+    - generic [ref=f9e12]: "IP address: 2409:40e5:1017:8664:3d:53dc:6c64:21a0Time: 2026-07-29T08:06:01ZURL: https://www.google.com/search?q=best+selling+laptops&sei=Z7Rpat7mNO7f1sQPktPFgAU"

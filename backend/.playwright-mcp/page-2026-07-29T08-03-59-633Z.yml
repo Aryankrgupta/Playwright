@@ -1,0 +1,454 @@
+- generic [ref=f16e3]:
+  - generic [ref=f16e4]:
+    - navigation [ref=f16e5]:
+      - link [ref=f16e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f16e8]:
+          - generic:
+            - img "icon"
+      - list [ref=f16e9]:
+        - listitem [ref=f16e10]:
+          - link "icon New chat" [ref=f16e11] [cursor=pointer]:
+            - /url: /work/app?src=f_seo-business
+            - generic [ref=f16e12]:
+              - generic:
+                - img "icon"
+            - generic [ref=f16e13]: New chat
+        - listitem [ref=f16e14]:
+          - link "icon History" [ref=f16e15] [cursor=pointer]:
+            - /url: /work/app?src=f_seo-business
+            - generic [ref=f16e16]:
+              - generic:
+                - img "icon"
+            - generic [ref=f16e17]: History
+        - listitem [ref=f16e18]:
+          - link "icon My Favorites" [ref=f16e19] [cursor=pointer]:
+            - /url: /work/app?src=f_seo-business
+            - generic [ref=f16e20]:
+              - generic:
+                - img "icon"
+            - generic [ref=f16e21]: My Favorites
+        - listitem [ref=f16e22]:
+          - link "icon Messages" [ref=f16e23] [cursor=pointer]:
+            - /url: /work/app?src=f_seo-business
+            - generic [ref=f16e24]:
+              - generic:
+                - img "icon"
+            - generic [ref=f16e25]: Messages
+    - generic [ref=f16e27]:
+      - 'link "Meet Accio Work: your business agent team Meet Accio Work: your business agent team Beyond chat, a proactive agent team that run real business from store operations to sourcing. View more" [ref=f16e29] [cursor=pointer]':
+        - /url: https://www.accio.com/work/app?src=f_seo-business
+        - 'img "Meet Accio Work: your business agent team" [ref=f16e31]'
+        - generic [ref=f16e32]:
+          - generic [ref=f16e33]:
+            - generic [ref=f16e34]: "Meet Accio Work: your business agent team"
+            - generic [ref=f16e35]: Beyond chat, a proactive agent team that run real business from store operations to sourcing.
+          - generic "View more" [ref=f16e36]
+      - button "Dismiss" [ref=f16e41] [cursor=pointer]
+  - generic [ref=f16e45]:
+    - banner [ref=f16e46]:
+      - navigation "breadcrumb" [ref=f16e47]:
+        - list [ref=f16e48]:
+          - listitem [ref=f16e49]:
+            - link "Home" [ref=f16e51] [cursor=pointer]:
+              - /url: /
+            - generic [ref=f16e52]: /
+          - listitem [ref=f16e53]:
+            - generic [ref=f16e54]: Business
+            - generic [ref=f16e55]: /
+          - listitem [ref=f16e56]:
+            - generic [ref=f16e57]: best selling laptops in india
+    - main [ref=f16e59]:
+      - article [ref=f16e60]:
+        - generic [ref=f16e61]:
+          - heading "best selling laptops in india" [level=1] [ref=f16e63]
+          - generic [ref=f16e68] [cursor=pointer]:
+            - generic [ref=f16e69]:
+              - text: Researched
+              - strong [ref=f16e70]: "8"
+              - text: sources from
+              - strong [ref=f16e71]: "8"
+              - text: unique websites
+              - time [ref=f16e72]: 2026-07-29
+            - generic [ref=f16e73]:
+              - list [ref=f16e74]:
+                - listitem [ref=f16e75]:
+                  - img "Laptop Brands" [ref=f16e76]
+                - listitem [ref=f16e77]:
+                  - img "91mobiles.com |" [ref=f16e78]
+                - listitem [ref=f16e79]:
+                  - img "Bajajfinserv" [ref=f16e80]
+              - generic [ref=f16e81]: 8 Sources
+          - generic [ref=f16e86]:
+            - heading "Market Analysis" [level=3] [ref=f16e87]
+            - paragraph [ref=f16e88]:
+              - text: The Indian laptop market is experiencing robust growth, with sales projected to reach 15.9 million units in 2026, reflecting an increase from the previous year
+              - generic [ref=f16e89] [cursor=pointer]: "5"
+              - text: ". This growth is driven by several key factors:"
+            - list [ref=f16e91]:
+              - listitem [ref=f16e92]:
+                - strong [ref=f16e93]: "Premiumization:"
+                - text: Consumers are increasingly opting for higher-end devices, moving away from purely budget-focused purchases
+                - link "3" [ref=f16e95] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/posts/91mobiles_laptop-market-in-india-in-2026-chat-with-activity-7429489994756685824-hcYO
+                - generic [ref=f16e96] [cursor=pointer]: "5"
+                - text: .
+              - listitem [ref=f16e98]:
+                - strong [ref=f16e99]: "AI Integration:"
+                - text: The emergence of AI-powered chips is creating new interest in laptops that offer enhanced capabilities for everyday users
+                - link "3" [ref=f16e101] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/posts/91mobiles_laptop-market-in-india-in-2026-chat-with-activity-7429489994756685824-hcYO
+                - generic [ref=f16e102] [cursor=pointer]: "5"
+                - text: .
+              - listitem [ref=f16e104]:
+                - strong [ref=f16e105]: "Brand Dominance:"
+                - text: HP leads the market with a 30% share, followed by Lenovo (18-20%) and Dell (15%)
+                - generic [ref=f16e106] [cursor=pointer]: "5"
+                - text: . Other significant players include Acer, ASUS, Apple, and Samsung
+                - generic [ref=f16e108] [cursor=pointer]: "5"
+                - text: .
+              - listitem [ref=f16e110]:
+                - strong [ref=f16e111]: "Diverse Needs:"
+                - text: The market caters to a wide range of users, from students and professionals to hardcore gamers and creative professionals
+                - generic [ref=f16e112] [cursor=pointer]: "5"
+                - text: .
+            - heading "B2C Hot Selling (Amazon)" [level=3] [ref=f16e114]
+            - paragraph [ref=f16e115]: The following table highlights the top-selling laptops on Amazon, representing the preferences of end-consumers in India. These products are ranked by their latest month's sales volume.
+            - table [ref=f16e117]:
+              - rowgroup [ref=f16e118]:
+                - row [ref=f16e119]:
+                  - columnheader "Image" [ref=f16e120]
+                  - columnheader "Product Name" [ref=f16e121]
+                  - columnheader "Key Features" [ref=f16e122]
+                  - columnheader "Latest Month's Sale Volume" [ref=f16e123]
+                  - columnheader "Retail Price (USD)" [ref=f16e124]
+              - rowgroup [ref=f16e125]:
+                - row [ref=f16e126]:
+                  - cell [ref=f16e127]:
+                    - img "Image" [ref=f16e129]
+                  - cell "HP 17 Laptop" [ref=f16e130]
+                  - cell "17.3\" HD+ Touchscreen, 12th Gen Intel i7-1255U, 64GB RAM, 2TB SSD, Windows 11" [ref=f16e131]
+                  - cell "1256" [ref=f16e132]
+                  - cell "$917.30" [ref=f16e133]
+                - row [ref=f16e134]:
+                  - cell [ref=f16e135]:
+                    - img "Image" [ref=f16e137]
+                  - cell "Dell 16 Laptop" [ref=f16e138]
+                  - cell "16\" FHD+ Display, Intel Core 7 150U, 16GB DDR5 RAM, 1TB SSD, Windows 11" [ref=f16e139]
+                  - cell "1106" [ref=f16e140]
+                  - cell "$713.33" [ref=f16e141]
+                - row [ref=f16e142]:
+                  - cell [ref=f16e143]:
+                    - img "Image" [ref=f16e145]
+                  - cell "Dell 16 Plus Laptop" [ref=f16e146]
+                  - cell "16\" 2.5K Display, Intel Core Ultra 7 256V, 16GB LPDDR5X, 1TB SSD, Arc Graphics" [ref=f16e147]
+                  - cell "659" [ref=f16e148]
+                  - cell "$808.83" [ref=f16e149]
+                - row [ref=f16e150]:
+                  - cell [ref=f16e151]:
+                    - img "Image" [ref=f16e153]
+                  - cell "Lenovo IdeaPad 1i" [ref=f16e154]
+                  - cell "15.6\" FHD Touchscreen, Intel Core i5-1235U, 16GB RAM, 512GB SSD, Windows 11" [ref=f16e155]
+                  - cell "475" [ref=f16e156]
+                  - cell "$440.84" [ref=f16e157]
+                - row [ref=f16e158]:
+                  - cell [ref=f16e159]:
+                    - img "Image" [ref=f16e161]
+                  - cell "Lenovo IdeaPad 1 Student" [ref=f16e162]
+                  - cell "15.6\" FHD Display, Intel Dual Core, 20GB RAM, 1TB SSD + 128GB eMMC, Windows 11" [ref=f16e163]
+                  - cell "360" [ref=f16e164]
+                  - cell "$386.26" [ref=f16e165]
+                - row [ref=f16e166]:
+                  - cell [ref=f16e167]:
+                    - img "Image" [ref=f16e169]
+                  - cell "ASUS TUF Gaming F16" [ref=f16e170]
+                  - cell "16\" FHD+ 144Hz Display, Intel Core 5 210H, NVIDIA RTX 4050, 8GB DDR5, 512GB SSD" [ref=f16e171]
+                  - cell "160" [ref=f16e172]
+                  - cell "$823.58" [ref=f16e173]
+                - row [ref=f16e174]:
+                  - cell [ref=f16e175]:
+                    - img "Image" [ref=f16e177]
+                  - cell "Alienware M18 Gaming" [ref=f16e178]
+                  - cell "18\" QHD+ 165Hz Display, Intel Core i7-14700HX, NVIDIA RTX 4070, 16GB RAM, 1TB SSD" [ref=f16e179]
+                  - cell "55" [ref=f16e180]
+                  - cell "$2244.57" [ref=f16e181]
+                - row [ref=f16e182]:
+                  - cell [ref=f16e183]:
+                    - img "Image" [ref=f16e185]
+                  - cell "Acer Nitro V Gaming" [ref=f16e186]
+                  - cell "15.6\" FHD IPS 165Hz Display, Intel Core i7-13620H, NVIDIA RTX 4050, 16GB DDR5, 1TB SSD" [ref=f16e187]
+                  - cell "17" [ref=f16e188]
+                  - cell "$770.83" [ref=f16e189]
+                - row [ref=f16e190]:
+                  - cell [ref=f16e191]:
+                    - img "Image" [ref=f16e193]
+                  - cell "Lenovo ThinkPad X1 Yoga" [ref=f16e194]
+                  - cell "14\" WQHD Touchscreen, 2-in-1 Ultrabook, Intel Core i7-7600U, 16GB RAM, 512GB SSD" [ref=f16e195]
+                  - cell "5" [ref=f16e196]
+                  - cell "$728.90" [ref=f16e197]
+            - paragraph [ref=f16e198]:
+              - text: Table data sourced from
+              - generic [ref=f16e199] [cursor=pointer]: "1"
+            - heading "B2B Hot Selling (Alibaba)" [level=3] [ref=f16e201]
+            - paragraph [ref=f16e202]: On the B2B platform Alibaba, the "hot selling" products are not laptops themselves but logistics and shipping services. This indicates a strong demand from businesses for efficient and reliable shipping solutions to transport their goods, including electronics like laptops, to markets such as India.
+            - table [ref=f16e204]:
+              - rowgroup [ref=f16e205]:
+                - row [ref=f16e206]:
+                  - columnheader "Image" [ref=f16e207]
+                  - columnheader "Product Title" [ref=f16e208]
+                  - columnheader "Description" [ref=f16e209]
+                  - columnheader "Sales Volume" [ref=f16e210]
+              - rowgroup [ref=f16e211]:
+                - row [ref=f16e212]:
+                  - cell [ref=f16e213]:
+                    - img "Image" [ref=f16e215]
+                  - cell "Free Door to Door DHL/FEDEX/UPS Express" [ref=f16e216]
+                  - cell "Comprehensive international shipping services" [ref=f16e217]
+                  - cell "28,703" [ref=f16e218]
+                - row [ref=f16e219]:
+                  - cell [ref=f16e220]:
+                    - img "Image" [ref=f16e222]
+                  - cell "Logistics Top 10 Chinese Shipping" [ref=f16e223]
+                  - cell "Logistics services for various destinations" [ref=f16e224]
+                  - cell "11,151" [ref=f16e225]
+                - row [ref=f16e226]:
+                  - cell [ref=f16e227]:
+                    - img "Image" [ref=f16e229]
+                  - cell "DHL Alibaba Delivery Air Express" [ref=f16e230]
+                  - cell "Freight forwarding services from China" [ref=f16e231]
+                  - cell "3,473" [ref=f16e232]
+                - row [ref=f16e233]:
+                  - cell [ref=f16e234]:
+                    - img "Image" [ref=f16e236]
+                  - cell "International Shipping Companies DHL" [ref=f16e237]
+                  - cell "DDP transport and cargo services" [ref=f16e238]
+                  - cell "1,870" [ref=f16e239]
+                - row [ref=f16e240]:
+                  - cell [ref=f16e241]:
+                    - img "Image" [ref=f16e243]
+                  - cell "Dropshipping Agent FCL LCL Sea Air" [ref=f16e244]
+                  - cell "Freight forwarding and dropshipping agent" [ref=f16e245]
+                  - cell "992" [ref=f16e246]
+            - paragraph [ref=f16e247]:
+              - text: Table data sourced from
+              - generic [ref=f16e248] [cursor=pointer]: "2"
+            - generic [ref=f16e250]: Top 5 Hot Selling Logistics Products on Alibaba by Sales Volume
+            - paragraph [ref=f16e255]:
+              - text: Chart data sourced from
+              - generic [ref=f16e256] [cursor=pointer]: "2"
+            - heading "Potential Reasons for Hot Sales" [level=3] [ref=f16e258]
+            - paragraph [ref=f16e259]: "The popularity of these products can be attributed to several factors:"
+            - list [ref=f16e260]:
+              - listitem [ref=f16e261]:
+                - strong [ref=f16e262]: "HP's Dominance:"
+                - text: HP's high market share is due to its strong brand reputation, wide range of products for different user segments (students, professionals, gamers), and extensive service network with over 1,000 service centers in India
+                - generic [ref=f16e263] [cursor=pointer]: "5"
+                - text: .
+              - listitem [ref=f16e265]:
+                - strong [ref=f16e266]: "Lenovo and Dell's Reliability:"
+                - text: These brands are favored for their durability, strong performance, and reliable after-sales service, making them popular choices for both personal and business use
+                - generic [ref=f16e267] [cursor=pointer]: "5"
+                - text: .
+              - listitem [ref=f16e269]:
+                - strong [ref=f16e270]: "Gaming Laptops:"
+                - text: The growing gaming community in India drives demand for high-performance gaming laptops from brands like ASUS, Acer, and MSI. These laptops feature powerful processors, dedicated graphics cards, and high-refresh-rate displays
+                - generic [ref=f16e271] [cursor=pointer]: "5"
+                - generic [ref=f16e273] [cursor=pointer]: "6"
+                - text: .
+              - listitem [ref=f16e275]:
+                - strong [ref=f16e276]: "Budget-Friendly Options:"
+                - text: Brands like Acer and HP offer affordable models with decent specifications, catering to budget-conscious consumers and students
+                - generic [ref=f16e277] [cursor=pointer]: "5"
+                - text: .
+              - listitem [ref=f16e279]:
+                - strong [ref=f16e280]: "Premiumization:"
+                - text: The trend towards higher-end devices is evident with the success of laptops from Apple and high-end models from Lenovo and MSI, which are purchased by users seeking top-tier performance and features
+                - link "3" [ref=f16e282] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/posts/91mobiles_laptop-market-in-india-in-2026-chat-with-activity-7429489994756685824-hcYO
+                - generic [ref=f16e283] [cursor=pointer]: "5"
+                - text: .
+              - listitem [ref=f16e285]:
+                - strong [ref=f16e286]: "Logistics Demand:"
+                - text: The high sales volume of shipping services on Alibaba reflects the significant volume of international trade, including the import of electronics, into India. Businesses require reliable logistics partners to manage their supply chains efficiently
+                - generic [ref=f16e287] [cursor=pointer]: "2"
+                - text: .
+            - heading "Recommendations for Next Steps" [level=3] [ref=f16e289]
+            - paragraph [ref=f16e290]: "For businesses and consumers looking to navigate the Indian laptop market, consider the following strategies:"
+            - list [ref=f16e291]:
+              - listitem [ref=f16e292]:
+                - paragraph [ref=f16e293]:
+                  - strong [ref=f16e294]: "For Businesses:"
+                - list [ref=f16e295]:
+                  - listitem [ref=f16e296]:
+                    - strong [ref=f16e297]: "Source from Trusted Brands:"
+                    - text: Focus on established brands like HP, Lenovo, and Dell, which have a proven track record in the Indian market
+                    - generic [ref=f16e298] [cursor=pointer]: "5"
+                    - text: .
+                  - listitem [ref=f16e300]:
+                    - strong [ref=f16e301]: "Secure Logistics Partnerships:"
+                    - text: Given the high demand for shipping services, it is crucial to partner with reliable logistics providers to ensure timely and cost-effective delivery of products
+                    - generic [ref=f16e302] [cursor=pointer]: "2"
+                    - text: .
+                  - listitem [ref=f16e304]:
+                    - strong [ref=f16e305]: "Monitor Market Trends:"
+                    - text: Stay updated on trends such as the integration of AI in laptops and the shift towards premiumization to anticipate consumer demand and adjust product offerings accordingly
+                    - link "3" [ref=f16e307] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/posts/91mobiles_laptop-market-in-india-in-2026-chat-with-activity-7429489994756685824-hcYO
+                    - generic [ref=f16e308] [cursor=pointer]: "5"
+                    - text: .
+              - listitem [ref=f16e310]:
+                - paragraph [ref=f16e311]:
+                  - strong [ref=f16e312]: "For Consumers:"
+                - list [ref=f16e313]:
+                  - listitem [ref=f16e314]:
+                    - strong [ref=f16e315]: "Define Your Needs:"
+                    - text: Identify your primary use case (student, professional, gamer) to narrow down your options and select the most suitable brand and model
+                    - generic [ref=f16e316] [cursor=pointer]: "5"
+                    - text: .
+                  - listitem [ref=f16e318]:
+                    - strong [ref=f16e319]: "Consider Your Budget:"
+                    - text: Set a clear budget. Brands like Acer and HP offer excellent value for money, while Apple and high-end models from other brands cater to premium needs
+                    - generic [ref=f16e320] [cursor=pointer]: "5"
+                    - text: .
+                  - listitem [ref=f16e322]:
+                    - strong [ref=f16e323]: "Check for Promotions:"
+                    - text: Take advantage of sales on platforms like Amazon and Flipkart to get discounts and flexible payment options like EMI
+                    - generic [ref=f16e324] [cursor=pointer]: "5"
+                    - text: .
+                  - listitem [ref=f16e326]:
+                    - strong [ref=f16e327]: "Evaluate Long-Term Value:"
+                    - text: Consider factors like battery life, build quality, and warranty when making a purchase to ensure long-term satisfaction
+                    - generic [ref=f16e328] [cursor=pointer]: "5"
+                    - text: .
+          - generic [ref=f16e332]:
+            - heading "Product Recommendations" [level=3] [ref=f16e333]
+            - heading "1. High-Performance Laptops" [level=4] [ref=f16e334]
+            - paragraph [ref=f16e335]: Considering the general demand for laptops in India, high-performance models are consistently sought after for various uses.
+            - list [ref=f16e336]:
+              - listitem [ref=f16e337] [cursor=pointer]:
+                - generic:
+                  - img "Factory Direct Sale 14.1-inch Intel N95 Win 11 System High-p..."
+                - generic [ref=f16e338]:
+                  - generic "Factory Direct Sale 14.1-inch Intel N95 Win 11 System High-p..." [ref=f16e339]
+                  - generic [ref=f16e340]: $392.0~$650.0
+                  - generic [ref=f16e341]: "Min. order: 1 piece"
+                  - generic [ref=f16e342]:
+                    - img "Alibaba.com" [ref=f16e343]
+                    - text: Alibaba.com
+              - listitem [ref=f16e344] [cursor=pointer]:
+                - generic:
+                  - img "I3-5005U 15.6 Inch Win10 Business High Performance Thin and ..."
+                - generic [ref=f16e345]:
+                  - generic "I3-5005U 15.6 Inch Win10 Business High Performance Thin and ..." [ref=f16e346]
+                  - generic [ref=f16e347]: $282.0~$318.0
+                  - generic [ref=f16e348]: "Min. order: 500 pieces"
+                  - generic [ref=f16e349]:
+                    - img "Alibaba.com" [ref=f16e350]
+                    - text: Alibaba.com
+              - listitem [ref=f16e351] [cursor=pointer]:
+                - generic:
+                  - img "High Performance Laptop 16 Inch LCD Core I9 10th Generation ..."
+                - generic [ref=f16e352]:
+                  - generic "High Performance Laptop 16 Inch LCD Core I9 10th Generation ..." [ref=f16e353]
+                  - generic [ref=f16e354]: $850.0~$900.0
+                  - generic [ref=f16e355]: "Min. order: 2 pieces"
+                  - generic [ref=f16e356]:
+                    - img "Alibaba.com" [ref=f16e357]
+                    - text: Alibaba.com
+              - listitem [ref=f16e358] [cursor=pointer]:
+                - generic:
+                  - img "High End Laptop Win10/11 15.6+7 Inch 32G+1TB Dual Touch Scre..."
+                - generic [ref=f16e359]:
+                  - generic "High End Laptop Win10/11 15.6+7 Inch 32G+1TB Dual Touch Scre..." [ref=f16e360]
+                  - generic [ref=f16e361]: $210.0~$230.0
+                  - generic [ref=f16e362]: "Min. order: 1 piece"
+                  - generic [ref=f16e363]:
+                    - img "Alibaba.com" [ref=f16e364]
+                    - text: Alibaba.com
+            - button "View More ↗" [ref=f16e366] [cursor=pointer]
+      - generic [ref=f16e368]:
+        - heading "Related Pages" [level=2] [ref=f16e372]
+        - list [ref=f16e373]:
+          - listitem [ref=f16e374]:
+            - link "best laptops in india across price ranges" [ref=f16e375] [cursor=pointer]:
+              - /url: https://www.accio.com/plp/best-laptops-in-india-across-price-ranges
+          - listitem [ref=f16e377]:
+            - link "best seller laptop in india" [ref=f16e378] [cursor=pointer]:
+              - /url: https://www.accio.com/business/best-seller-laptop-in-india
+          - listitem [ref=f16e380]:
+            - link "best selling laptop brands in india" [ref=f16e381] [cursor=pointer]:
+              - /url: https://www.accio.com/business/best-selling-laptop-brands-in-india
+          - listitem [ref=f16e383]:
+            - link "best selling laptop in india 2025" [ref=f16e384] [cursor=pointer]:
+              - /url: https://www.accio.com/business/best-selling-laptop-in-india-2025
+          - listitem [ref=f16e386]:
+            - link "best selling lenovo laptops in india" [ref=f16e387] [cursor=pointer]:
+              - /url: https://www.accio.com/business/best-selling-lenovo-laptops-in-india
+          - listitem [ref=f16e389]:
+            - link "india best selling laptop" [ref=f16e390] [cursor=pointer]:
+              - /url: https://www.accio.com/plp/india-best-selling-laptop
+          - listitem [ref=f16e392]:
+            - link "laptops for sale in india" [ref=f16e393] [cursor=pointer]:
+              - /url: https://www.accio.com/plp/laptops-for-sale-in-india
+          - listitem [ref=f16e395]:
+            - link "top selling dell laptops in india" [ref=f16e396] [cursor=pointer]:
+              - /url: https://www.accio.com/business/top-selling-dell-laptops-in-india
+          - listitem [ref=f16e398]:
+            - link "top selling laptop in india" [ref=f16e399] [cursor=pointer]:
+              - /url: https://www.accio.com/business/top-selling-laptop-in-india
+          - listitem [ref=f16e401]:
+            - link "top selling laptops in india" [ref=f16e402] [cursor=pointer]:
+              - /url: https://www.accio.com/business/top-selling-laptops-in-india
+      - generic [ref=f16e404]:
+        - heading "Discover" [level=2] [ref=f16e408]
+        - list [ref=f16e409]:
+          - listitem [ref=f16e410]:
+            - link "best budget gaming keyboard for fortnite" [ref=f16e411] [cursor=pointer]:
+              - /url: https://www.accio.com/biz-cheap/best-budget-gaming-keyboard-for-fortnite
+          - listitem [ref=f16e413]:
+            - link "best selling laptop in amazon" [ref=f16e414] [cursor=pointer]:
+              - /url: https://www.accio.com/business/best-selling-laptop-in-amazon
+          - listitem [ref=f16e416]:
+            - link "best selling laptop in china" [ref=f16e417] [cursor=pointer]:
+              - /url: https://www.accio.com/business/best-selling-laptop-in-china
+          - listitem [ref=f16e419]:
+            - link "best selling laptop under 30000" [ref=f16e420] [cursor=pointer]:
+              - /url: https://www.accio.com/business/best-selling-laptop-under-30000
+          - listitem [ref=f16e422]:
+            - link "best selling laptops amazon uk" [ref=f16e423] [cursor=pointer]:
+              - /url: https://www.accio.com/business/best-selling-laptops-amazon-uk
+          - listitem [ref=f16e425]:
+            - link "best selling laptops in france" [ref=f16e426] [cursor=pointer]:
+              - /url: https://www.accio.com/business/best-selling-laptops-in-france
+          - listitem [ref=f16e428]:
+            - link "best selling laptops in the world" [ref=f16e429] [cursor=pointer]:
+              - /url: https://www.accio.com/business/best-selling-laptops-in-the-world
+          - listitem [ref=f16e431]:
+            - link "best selling laptops uk" [ref=f16e432] [cursor=pointer]:
+              - /url: https://www.accio.com/business/best-selling-laptops-uk
+          - listitem [ref=f16e434]:
+            - link "best selling laptops under 500" [ref=f16e435] [cursor=pointer]:
+              - /url: https://www.accio.com/business/best-selling-laptops-under-500
+          - listitem [ref=f16e437]:
+            - link "best selling laptops under 30000" [ref=f16e438] [cursor=pointer]:
+              - /url: https://www.accio.com/business/best-selling-laptops-under-30000
+          - listitem [ref=f16e440]:
+            - link "best selling laptops under 40000" [ref=f16e441] [cursor=pointer]:
+              - /url: https://www.accio.com/business/best-selling-laptops-under-40000
+          - listitem [ref=f16e443]:
+            - link "cheap leaner mirror" [ref=f16e444] [cursor=pointer]:
+              - /url: https://www.accio.com/biz-cheap/cheap-leaner-mirror
+          - listitem [ref=f16e446]:
+            - link "custom porsche gt3 rs custom wheels" [ref=f16e447] [cursor=pointer]:
+              - /url: https://www.accio.com/plp/custom-porsche-gt3-rs-custom-wheels
+          - listitem [ref=f16e449]:
+            - link "fishing slingshot low price" [ref=f16e450] [cursor=pointer]:
+              - /url: https://www.accio.com/biz-cheap/fishing-slingshot-low-price
+          - listitem [ref=f16e452]:
+            - link "jack hammer sex toy" [ref=f16e453] [cursor=pointer]:
+              - /url: https://www.accio.com/plp/jack-hammer-sex-toy
+          - listitem [ref=f16e455]:
+            - link "textile yarn tensioner" [ref=f16e456] [cursor=pointer]:
+              - /url: https://www.accio.com/plp/textile-yarn-tensioner
+    - contentinfo [ref=f16e458]:
+      - textbox "Ask follow-up..." [ref=f16e467]: best selling laptops in india

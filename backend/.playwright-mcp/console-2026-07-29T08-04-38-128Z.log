@@ -1,0 +1,155 @@
+[       0ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[       1ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    3255ms] [INFO] [ssr-shim] v4 fired onboarding at 4272.5 ms (guest) @ https://www.accio.com/work/app?src=f_seo-business&askParams=%7B%22question%22%3A%22top%20selling%20dell%20laptops%20in%20india%22%2C%22questionType%22%3A%22v1_biz%22%7D:979
+[    4302ms] [LOG] [connector.store] [connector-fallback] connector views fallback applied {
+  "reason": "initial_without_cached_snapshot",
+  "viewCount": 52,
+  "registryCount": 53,
+  "localCatalogCount": 0,
+  "hasPersistedVisibility": false,
+  "loading": true
+} @ https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/BY_W7t_f2.js:0
+[    4320ms] [INFO] 🌐 i18next is maintained with support from Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙 @ https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/phoenix-bootstrap.BO6s5sfI.js:1
+[    4330ms] [LOG] [ssr] mount path {isSsr: true} @ https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/s6BDqTSq.js:9
+[    4381ms] [LOG] [SsrView] query-effect fire {currentValue: } @ https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/s6BDqTSq.js:9
+[    4382ms] [LOG] [home-query-param] read: raw URL query = null @ https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/s6BDqTSq.js:9
+[    4383ms] [LOG] [SsrView] readHomeQueryParam => null @ https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/s6BDqTSq.js:9
+[    4432ms] [LOG] [SsrView] query-effect fire {currentValue: } @ https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/s6BDqTSq.js:9
+[    4434ms] [LOG] [home-query-param] read: raw URL query = null @ https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/s6BDqTSq.js:9
+[    4435ms] [LOG] [SsrView] readHomeQueryParam => null @ https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/s6BDqTSq.js:9
+[    4517ms] [LOG] [login] initialize started {
+  "startedAt": "2026-07-29T08:04:42.644Z",
+  "previousStatus": "idle",
+  "shouldShowLoading": true
+} @ https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/BY_W7t_f2.js:0
+[    4531ms] [LOG] [login] initialize completed {
+  "startedAt": "2026-07-29T08:04:42.644Z",
+  "completedAt": "2026-07-29T08:04:42.659Z",
+  "costMs": 15,
+  "previousStatus": "idle",
+  "authenticated": false,
+  "hasUser": false
+} @ https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/BY_W7t_f2.js:0
+[    4592ms] [LOG] [SsrView] query-effect fire {currentValue: } @ https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/s6BDqTSq.js:9
+[    4594ms] [LOG] [home-query-param] read: raw URL query = null @ https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/s6BDqTSq.js:9
+[    4595ms] [LOG] [SsrView] readHomeQueryParam => null @ https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/s6BDqTSq.js:9
+[    9358ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/s6BDqTSq.js:9
+[    9421ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at ey (https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/s6BDqTSq.js:10:242155)
+    at https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/s6BDqTSq.js:10:242553
+    at window.requestIdleCallback.timeout (https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/s6BDqTSq.js:10:242390)
+[    9422ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at ey (https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/s6BDqTSq.js:10:242155)
+    at https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/s6BDqTSq.js:10:242553
+    at window.requestIdleCallback.timeout (https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/s6BDqTSq.js:10:242390)
+[    9389ms] [INFO] [login-overlay-prewarm] warmed in 33ms @ https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/s6BDqTSq.js:9
+[    9675ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://www.accio.com/login?embed=1&parent_origin=https%3A%2F%2Fwww.accio.com&channel=accio_work_web&src=f_seo-business:0
+[    9699ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    9702ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   10716ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://g.alicdn.com/??/AWSC/AWSC/awsc.js,/sd/baxia/2.5.36/baxiaCommon.js:0
+[   10816ms] [WARNING] [itrace says] using cookieStore @ https://s.alicdn.com/@g/woodpeckerx/itrace-next/??itrace-jserror.iife.js,itrace-interface.iife.js,itrace-flow.iife.js,itrace-blank.iife.js,itrace-resource.iife.js,itrace.iife.js:5
+[   20553ms] [WARNING] [itrace says] using cookieStore @ https://s.alicdn.com/@g/code/npm/@ali/phoenix-web/0.26.2/assets/c/BY_W7t_f2.js:0
+[   20920ms] [LOG] ======== DOMContentLoaded @ https://www.accio.com/login?embed=1&parent_origin=https%3A%2F%2Fwww.accio.com&channel=accio_work_web&src=f_seo-business:908
+[   21005ms] [LOG] [SiteConfigManager] 初始化完成 {siteType: accio, hostname: www.accio.com, currentConfig: Object} @ https://www.accio.com/@assets/code/npm/@ali/buyer-agent/2.2.342/CwafJGIY.js:72
+[   21204ms] [WARNING] [getLocalizedText] missing {mcmsKey: ba.auth.signup.account.subTitle, localeId: en-us} @ https://www.accio.com/@assets/code/npm/@ali/buyer-agent/2.2.342/CwafJGIY.js:72
+[   21444ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   21445ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   23781ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://img.alicdn.com/imgextra/i1/O1CN01PMr4vd27fuMhuCvxA_!!6000000007825-55-tps-20-20.svg:0
+[   23791ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://img.alicdn.com/imgextra/i4/O1CN01l3ZVuj1JoOvBC38ar_!!6000000001075-55-tps-20-20.svg:0
+[   23791ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://img.alicdn.com/imgextra/i2/O1CN01aArZLP1na94Bf2W6e_!!6000000005105-55-tps-16-16.svg:0
+[   23791ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://img.alicdn.com/imgextra/i4/O1CN01ha5faZ1pdvZK3yNSs_!!6000000005384-55-tps-20-20.svg:0
+[   23791ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://img.alicdn.com/imgextra/i3/O1CN01uPMuYL1lVuAYIFQb0_!!6000000004825-55-tps-16-16.svg:0
+[   24543ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   24548ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   24791ms] [LOG] Wed Jul 29 2026 13:35:02 GMT+0530 (India Standard Time) @ https://g.alicdn.com/AWSC/et/1.83.41/et_f.js:1
+[   25612ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://px-intl.ucweb.com/api/v1/jssdk/upload?wpk-header=app%3Daccio%26cp%3Dnone%26de%3D1%26seq%3D17853122892836%26tm%3D1785312289%26ud%3D1421d7e2-c0ae-4304-067d-5460a6888b4e%26ver%3DPC%26type%3Dflow%26sver%3D2.3.34%26sign%3D9bf8a190ef82c5049df7b199c599c45b&uc_param_str=prveosfrnwutmisvbditcu:0
+[   32968ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   32971ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   33014ms] [LOG] Wed Jul 29 2026 13:35:11 GMT+0530 (India Standard Time) @ https://g.alicdn.com/AWSC/et/1.83.41/et_f.js:1
+[   33444ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   33450ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   35047ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   35048ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   39127ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   39132ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   42702ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://px-intl.ucweb.com/api/v1/jssdk/upload?wpk-header=app%3Dtrjem55t-7k84028l%26cp%3Dnone%26de%3D1%26seq%3D17853122992884%26tm%3D1785312299%26ud%3D7qHwIg9mayYCAS8fTR9YnLq5%26ver%3D0.26.2%26type%3Dflow%26sver%3D2.3.34%26sign%3D9bf8a190ef82c5049df7b199c599c45b&uc_param_str=prveosfrnwutmisvbditcu:0
+[   45140ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://px-intl.ucweb.com/api/v1/jssdk/upload?wpk-header=app%3Daccio%26cp%3Dnone%26de%3D1%26seq%3D17853123008147%26tm%3D1785312300%26ud%3D1421d7e2-c0ae-4304-067d-5460a6888b4e%26ver%3DPC%26type%3Dapi%26sver%3D2.3.34%26sign%3D9bf8a190ef82c5049df7b199c599c45b&uc_param_str=prveosfrnwutmisvbditcu:0
+[   49411ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://px-intl.ucweb.com/api/v1/jssdk/upload?wpk-header=app%3Daccio%26cp%3Dnone%26de%3D1%26seq%3D17853123002588%26tm%3D1785312300%26ud%3D1421d7e2-c0ae-4304-067d-5460a6888b4e%26ver%3DPC%26type%3Dapi%26sver%3D2.3.34%26sign%3D9bf8a190ef82c5049df7b199c599c45b&uc_param_str=prveosfrnwutmisvbditcu:0
+[   51667ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://px-intl.ucweb.com/api/v1/jssdk/upload?wpk-header=app%3Daccio%26cp%3Dnone%26de%3D1%26seq%3D17853123019887%26tm%3D1785312301%26ud%3D1421d7e2-c0ae-4304-067d-5460a6888b4e%26ver%3DPC%26type%3Dapi%26sver%3D2.3.34%26sign%3D9bf8a190ef82c5049df7b199c599c45b&uc_param_str=prveosfrnwutmisvbditcu:0
+[   51774ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://px-intl.ucweb.com/api/v1/jssdk/upload?wpk-header=app%3Daccio%26cp%3Dnone%26de%3D1%26seq%3D17853123123774%26tm%3D1785312312%26ud%3D1421d7e2-c0ae-4304-067d-5460a6888b4e%26ver%3DPC%26type%3Dapi%26sver%3D2.3.34%26sign%3D9bf8a190ef82c5049df7b199c599c45b&uc_param_str=prveosfrnwutmisvbditcu:0
+[   55751ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://px-intl.ucweb.com/api/v1/jssdk/upload?wpk-header=app%3Daccio%26cp%3Dnone%26de%3D1%26seq%3D17853123156609%26tm%3D1785312315%26ud%3D1421d7e2-c0ae-4304-067d-5460a6888b4e%26ver%3DPC%26type%3Dapi%26sver%3D2.3.34%26sign%3D9bf8a190ef82c5049df7b199c599c45b&uc_param_str=prveosfrnwutmisvbditcu:0
+[   64064ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://px-intl.ucweb.com/api/v1/jssdk/upload?wpk-header=app%3Daccio%26cp%3Dnone%26de%3D1%26seq%3D17853123156047%26tm%3D1785312315%26ud%3D1421d7e2-c0ae-4304-067d-5460a6888b4e%26ver%3DPC%26type%3Dresloadfail%26sver%3D2.3.34%26sign%3D9bf8a190ef82c5049df7b199c599c45b&uc_param_str=prveosfrnwutmisvbditcu:0
+[   66478ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://px-intl.ucweb.com/api/v1/jssdk/upload?wpk-header=app%3Dtrjem55t-7k84028l%26cp%3Dnone%26de%3D1%26seq%3D17853123164340%26tm%3D1785312316%26ud%3D7qHwIg9mayYCAS8fTR9YnLq5%26ver%3D0.26.2%26type%3Dapi%26sver%3D2.3.34%26sign%3D9bf8a190ef82c5049df7b199c599c45b&uc_param_str=prveosfrnwutmisvbditcu:0
+[   70770ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://px-intl.ucweb.com/api/v1/jssdk/upload?wpk-header=app%3Daccio%26cp%3Dnone%26de%3D1%26seq%3D17853123198793%26tm%3D1785312319%26ud%3D1421d7e2-c0ae-4304-067d-5460a6888b4e%26ver%3DPC%26type%3Dapi%26sver%3D2.3.34%26sign%3D9bf8a190ef82c5049df7b199c599c45b&uc_param_str=prveosfrnwutmisvbditcu:0

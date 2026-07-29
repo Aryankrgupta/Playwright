@@ -1,0 +1,798 @@
+- generic [active] [ref=f11e1]:
+  - banner [ref=f11e2]:
+    - button "Skip to content" [ref=f11e3] [cursor=pointer]
+    - button "Accessibility Feedback" [ref=f11e6] [cursor=pointer]
+    - link "Accessibility Help" [ref=f11e9] [cursor=pointer]:
+      - /url: https://www.bing.com/ck/a?!&&p=a31c08d90a46df4b67e56293ee9ec5b904c2dc54da69137b56b165466b466c5cJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vdG9waWMvYWNjZXNzaWJpbGl0eS1pbi1iaW5nLWRlODBkODA4LWZhN2MtNDZjNy1hZDUzLTAyZjhiMWJjOWRmNw&ntb=1
+    - generic [ref=f11e12]:
+      - link [ref=f11e13] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=f11e14]
+      - search [ref=f11e15]:
+        - button "Search" [ref=f11e18] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=f11e19]: best selling laptops
+        - button "Clear text" [ref=f11e21]
+        - button "Search using an image" [ref=f11e28] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=f11e30]:
+      - button "Microsoft Rewards" [ref=f11e31] [cursor=pointer]
+      - link "Sign in" [ref=f11e32] [cursor=pointer]:
+        - /url: javascript:void(0)
+    - navigation "Search Filter" [ref=f11e34]:
+      - list [ref=f11e35]:
+        - listitem [ref=f11e36]:
+          - link "All" [ref=f11e37] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=f11e38]:
+          - link "Search" [ref=f11e39] [cursor=pointer]:
+            - /url: /copilotsearch?q=best+selling+laptops&FORM=CSSCOP
+        - listitem [ref=f11e42]:
+          - link "Shopping" [ref=f11e43] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6c7aacf2a41700066175c3e68ea10579dea28b270d3094dcc20d43c1ca02d0ccJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvdG9waWNzP3E9YmVzdCtzZWxsaW5nK2xhcHRvcHMmRk9STT1TSE9QVEI&ntb=1
+        - listitem [ref=f11e44]:
+          - link "Images" [ref=f11e45] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=b52bd1b00bc6f72e3834ec32ce507589a90f564b519b9ae81daed262b13c6e3cJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L2ltYWdlcy9zZWFyY2g_cT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZGT1JNPUhEUlNDMw&ntb=1
+        - listitem [ref=f11e46]:
+          - link "Videos" [ref=f11e47] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=7af84cabfca7950dfca3cc59c000d5d4208fc90830bd61300dedb4027226ff18JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZGT1JNPUhEUlNDNA&ntb=1
+        - listitem [ref=f11e48]:
+          - link "Maps" [ref=f11e49] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=9e87d7b2bdfa3602f9f762fb56e08c1e5f87b3a7618ec3188b01a78517bf06bdJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L21hcHM_cT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZGT1JNPUhEUlNDNg&ntb=1
+        - listitem [ref=f11e50]:
+          - link "Copilot" [ref=f11e51] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=bec680477ea44b29bc0922e1f29bde418c54b7c8cc4c0f64d33d8d8bba48940dJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L2NoYXQ_cHJvbXB0PWJlc3Qrc2VsbGluZytsYXB0b3BzJnNlbmRxdWVyeT0xJkZPUk09U0NDT0RY&ntb=1
+  - main "Search Results" [ref=f11e53]:
+    - generic [ref=f11e54]: About 22,900 results
+    - generic [ref=f11e66]:
+      - list [ref=f11e67]:
+        - listitem [ref=f11e68]:
+          - list [ref=f11e69]:
+            - listitem [ref=f11e70]:
+              - generic [ref=f11e71]:
+                - generic [ref=f11e72] [cursor=pointer]:
+                  - generic [ref=f11e73]: Dell India
+                  - generic [ref=f11e78]:
+                    - generic [ref=f11e79]: https://www.dellstore.com › dell_windows_11 › laptops
+                    - button [ref=f11e80]:
+                      - img "About our ads" [ref=f11e82]
+                - heading [level=2] [ref=f11e83]:
+                  - link "Dell Laptops with Windows 11 | Exclusively on Dell Website" [ref=f11e84] [cursor=pointer]:
+                    - /url: https://www.bing.com/aclk?ld=e8STX9peUyz3I7hW_k78SvBDVUCUzxm5ny8Z1sobuI3f7yICoDE632uew1ivWA1-FvQuAsZYqRLlDWMR7ENy0ZtceNANle9GEpyHTCETNDRqG5eJi24kMuZ3Gfu9GvrLLyl5aSgjItbLpH45ADkuZegAQRRJzvWHZRBHUZDuM8voD6R-lpndDjLhjQw89N3PC00qd8W3W1S2E5LUXGMUst4Gsl5q4&u=aHR0cHMlM2ElMmYlMmZ3d3cuZGVsbHN0b3JlLmNvbSUyZmRlYWxzJTJmbGFwdG9wLWRlYWxzLmh0bWwlM2ZnYWNkJTNkMTA0MTU5NTMtMTMwOTItNTc2MTA0MC0yODU5ODEzNTYtMCUyNmRnYyUzZFNUJTI2U0EzNjBDSUQlM2QyMTMxMDE2Mjc3NiUyNmdjbGlkJTNkYzE5N2YwODRhYjBlMWY5NTczZDc5YWVkMTg5ZTlmNTQlMjZnY2xzcmMlM2QzcC5kcyUyNm1zY2xraWQlM2RjMTk3ZjA4NGFiMGUxZjk1NzNkNzlhZWQxODllOWY1NA&rlid=c197f084ab0e1f9573d79aed189e9f54&ntb=1
+                - generic [ref=f11e85]:
+                  - generic [ref=f11e86]:
+                    - generic [ref=f11e87]: Sponsored
+                    - text: Dell Ultraslim Laptops Pre-installed With Windows 11 Home. Customize your Dell shopping experience now!
+                  - paragraph [ref=f11e90]:
+                    - link "Shanti Bhawan Road, Giridh · 13.8 km" [ref=f11e92] [cursor=pointer]:
+                      - /url: https://www.bing.com/aclk?ld=e8Do8IHnY_CNYJC896ftCPKTVUCUzDlWjuCHwnIuJxZGtIkuAJoudYfirP4PF0Jc2PvcGXQZasD79X7zI4zUXkPwWp7Z5BL67deLNKL35pdjuEijnyA4v4nMIf9s0ojxi3YNxfyhoMiqw0He8vN3Fv1N5JeVU4utPv1MBC1cDOS8Amv8DIBBOlClC-rXZJv8fZ1TQcTAmELJMQVYc2XByVk23zLlsPoHXzsI0I1avJRqxUGUf5&u=aHR0cCUzYSUyZiUyZnd3dy5iaW5nLmNvbSUyZm1hcHMlMmYlM2Z2JTNkMiUyNm1vZGUlM2REJTI2Zm9ybSUzZEFEQklORyUyNndoZXJlMSUzZFNoYW50aSUyYkJoYXdhbiUyYlJvYWQlMmJHaXJpZGglMmJKSCUyYjgxNTMwMSUyYklOJTI2cnRwJTNkJTdlcG9zLjI0LjE4ODIwOF84Ni4zMDgyNV9TaGFudGklMmJCaGF3YW4lMmJSb2FkJTJiR2lyaWRoJTJiSkglMmI4MTUzMDElMmJJTl9EZWxsJTJiRXhjbHVzaXZlJTJiU3RvcmVfOTQzMTE1NjQ2OCUyNnNldGxhbmclM2RFTi1VUw&rlid=55d41dc12f9f10e3f07e77a89c0f4561&ntb=1
+                    - text: · 9431156468
+            - listitem [ref=f11e93]:
+              - generic [ref=f11e94]:
+                - generic [ref=f11e95] [cursor=pointer]:
+                  - generic [ref=f11e96]: Amazon
+                  - generic [ref=f11e101]:
+                    - generic [ref=f11e102]: www.amazon.in › Sale-Offers › electronics
+                    - button [ref=f11e103]:
+                      - img "About our ads" [ref=f11e105]
+                - heading [level=2] [ref=f11e106]:
+                  - link "Amazon Great Republic Day Sale | New Beginnings, Big Savings" [ref=f11e107] [cursor=pointer]:
+                    - /url: https://www.bing.com/aclk?ld=e8fioCSYCMhSMsXjh8UGGLAjVUCUzKEbJpqJqay5GLCmKoZuYpv4rksKsIQb2H42CBN73cs5kPc6gLJ3vzcWAcxQ_QM0rL5O0ZxIMsYOkpubEWxC8ImLUbwhuuvX-5MNAmgrU_JB3KTqMlwqIRW4TcYt07TIMkcJAqk-5G91C1vChONJJvdDwty3rSi8jLm1QCvR3LvrxDtoFLh0dYJFFlMJGZztE&u=aHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmluJTJmcyUyZiUzZmllJTNkVVRGOCUyNmtleXdvcmRzJTNkbGFwdG9wcyUyNTI3JTI2aW5kZXglM2Rjb21wdXRlcnMlMjZ0YWclM2Rtc25kZXNrc3RkaW4tMjElMjZyZWYlM2RwZF9zbF81ZG9hYjh4NmdlX3AlMjZhZGdycGlkJTNkMTMxMzkxODAwNTEyNTI4MSUyNmh2YWRpZCUzZDgyMTIwMTM0NTY5NjcxJTI2aHZuZXR3JTNkbyUyNmh2cW10JTNkcCUyNmh2Ym10JTNkYnAlMjZodmRldiUzZGMlMjZodmxvY2ludCUzZCUyNmh2bG9jcGh5JTNkMjYwNDY3JTI2aHZ0YXJnaWQlM2Rrd2QtODIxMjA3NTc5MTQxMjAlM2Fsb2MtOTAlMjZoeWRhZGNyJTNkMTQyMTZfMjE3MzY1OCUyNm1jaWQlM2Q1MTBjYzE4NDhlZmEzNWU5YmNmMWI0YjBhNWU0MDg0MCUyNm1zY2xraWQlM2QyN2FiZDVhMDU3OTQxZGVlOGUzNGJmYzllNDA0YjlkMQ&rlid=27abd5a057941dee8e34bfc9e404b9d1&ntb=1
+                - generic [ref=f11e109]:
+                  - generic [ref=f11e110]: Sponsored
+                  - text: 10% Instant Discount with SBI Credit Card* (*T&C apply). Get great deals
+                - generic [ref=f11e113]:
+                  - list [ref=f11e114]:
+                    - listitem [ref=f11e115]:
+                      - link "Laptops In India" [ref=f11e117] [cursor=pointer]:
+                        - /url: https://www.bing.com/aclk?ld=e8XaHDIlgROuuDUG_1pX9HFDVUCUwkP7TDgfZPOhOTLF5fOtsxR4WIVE1Ucp07nhhUKhuz5-xCvfLESaar9x5YY0drYHb2S_fN_AXnWBdE1RocLdXJD6k_xJa-z6E6DcfDwA7DmWRgzVkFB91yTPgFJfenX48QAuBe6NfkEfQmpSl7TeAAwzr_IpsxfaSS-UifhloPyIWbAf5IpB5ji0ukgLVFQbqJ9rFwD3BEri9UDUvS6qqb&u=aHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmluJTJmYiUyZiUzZmllJTNkVVRGOCUyNm5vZGUlM2QxMzc1NDI0MDMxJTI2ZXh0JTNkNDY0Ny0yMDkxMSUyNnJlZiUzZCU3Yl9oeWRyZWYlN2QlMjZ0YWclM2QlN2JfaHlkdGFnJTdkJTI2aHZxbXQlM2QlN2JNYXRjaFR5cGUlN2QlMjZodmJtdCUzZCU3YkJpZE1hdGNoVHlwZSU3ZCUyNmh2ZGV2JTNkJTdiRGV2aWNlJTdkJTI2dGFnJTNkbXNuZGVza3N0ZGluLTIxJTI2cmVmJTNkcGRfc2xfNWRvYWI4eDZnZV9wJTI2YWRncnBpZCUzZDEzMTM5MTgwMDUxMjUyODElMjZodmFkaWQlM2Q4MjEyMDEzNDU2OTY3MSUyNmh2bmV0dyUzZG8lMjZodnFtdCUzZHAlMjZodmJtdCUzZGJwJTI2aHZkZXYlM2RjJTI2aHZsb2NpbnQlM2QlMjZodmxvY3BoeSUzZDI2MDQ2NyUyNmh2dGFyZ2lkJTNka3dkLTgyMTIwNzU3OTE0MTIwJTNhbG9jLTkwJTI2aHlkYWRjciUzZDE0MjE2XzIxNzM2NTglMjZtY2lkJTNkNTEwY2MxODQ4ZWZhMzVlOWJjZjFiNGIwYTVlNDA4NDAlMjZtc2Nsa2lkJTNkZTRjZTFiNGU1OTI1MWZkNDVlN2I3MTI3ZWFiNWZjMjA&rlid=e4ce1b4e59251fd45e7b7127eab5fc20&ntb=1
+                    - listitem [ref=f11e118]:
+                      - link "Laptops" [ref=f11e120] [cursor=pointer]:
+                        - /url: https://www.bing.com/aclk?ld=e84MWqGRuPVx0oHexDI6l3YzVUCUy5ZQVnL1qPevwtnVjrJI35S2ZYUT1u5O70Hln6tYMmTk6dAkDK6_xlfp49aQqV_XADx2A_16OaXcS3UoK76vWPuboeP6CgPKN5A3aSahR28zvsdCSyA9P8C9VOuy_blEJqfwKFZGkt5xZuKk18MCSs9-cKd1JXsrqYNLH8DAQbJgBVl2WhL6ZqlkjlVhfwe8FB6_ziCE09n3vwqYl_HVhL&u=aHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmluJTJmYiUyZiUzZmllJTNkVVRGOCUyNm5vZGUlM2QxMzc1NDI0MDMxJTI2ZXh0JTNkNDY0Ny0yMDkxMSUyNnJlZiUzZHBkX3NsXzVkb2FiOHg2Z2VfcCUyNnRhZyUzZG1zbmRlc2tzdGRpbi0yMSUyNmh2cW10JTNkcCUyNmh2Ym10JTNkYnAlMjZodmRldiUzZGMlMjZ0YWclM2Rtc25kZXNrc3RkaW4tMjElMjZyZWYlM2RwZF9zbF81ZG9hYjh4NmdlX3AlMjZhZGdycGlkJTNkMTMxMzkxODAwNTEyNTI4MSUyNmh2YWRpZCUzZDgyMTIwMTM0NTY5NjcxJTI2aHZuZXR3JTNkbyUyNmh2cW10JTNkcCUyNmh2Ym10JTNkYnAlMjZodmRldiUzZGMlMjZodmxvY2ludCUzZCUyNmh2bG9jcGh5JTNkMjYwNDY3JTI2aHZ0YXJnaWQlM2Rrd2QtODIxMjA3NTc5MTQxMjAlM2Fsb2MtOTAlMjZoeWRhZGNyJTNkMTQyMTZfMjE3MzY1OCUyNm1jaWQlM2Q1MTBjYzE4NDhlZmEzNWU5YmNmMWI0YjBhNWU0MDg0MCUyNm1zY2xraWQlM2RkNjlkNmUyMzBlZmQxOWYxNjZlZDA0NGFiZDZkNTM2OA&rlid=d69d6e230efd19f166ed044abd6d5368&ntb=1
+                  - list [ref=f11e121]:
+                    - listitem [ref=f11e122]:
+                      - link "Laptops & Accessories" [ref=f11e124] [cursor=pointer]:
+                        - /url: https://www.bing.com/aclk?ld=e8AN4WCtfYYRgAG4P743ITRDVUCUxSJuZtd9-TGYpt4Mb7rQd1LcJrBR6V6W_r3-fN7bJcsi-4TK84HR5NW4IJTor6zhq-HyJ2MAhfl4jAeT8iYEepSYtOqBAv5ZE-qD1WIWmpE-xo6XHJ8ThXK0--wkHz_wKJdkRH1LvUJLgY2-QJcZBb1-jcF8OS-IRTCkRraCzy-KLU4uBhMXWP1raHTMkhTFAzG9_UDEktx2GFmxudN0Zd&u=aHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmluJTJmYiUyZiUzZmllJTNkVVRGOCUyNm5vZGUlM2Q5NzYzOTIwMzElMjZleHQlM2Q0NjQ3LTIwOTEwJTI2cmVmJTNkJTdiX2h5ZHJlZiU3ZCUyNnRhZyUzZCU3Yl9oeWR0YWclN2QlMjZodnFtdCUzZCU3Yk1hdGNoVHlwZSU3ZCUyNmh2Ym10JTNkJTdiQmlkTWF0Y2hUeXBlJTdkJTI2aHZkZXYlM2QlN2JEZXZpY2UlN2QlMjZ0YWclM2Rtc25kZXNrc3RkaW4tMjElMjZyZWYlM2RwZF9zbF81ZG9hYjh4NmdlX3AlMjZhZGdycGlkJTNkMTMxMzkxODAwNTEyNTI4MSUyNmh2YWRpZCUzZDgyMTIwMTM0NTY5NjcxJTI2aHZuZXR3JTNkbyUyNmh2cW10JTNkcCUyNmh2Ym10JTNkYnAlMjZodmRldiUzZGMlMjZodmxvY2ludCUzZCUyNmh2bG9jcGh5JTNkMjYwNDY3JTI2aHZ0YXJnaWQlM2Rrd2QtODIxMjA3NTc5MTQxMjAlM2Fsb2MtOTAlMjZoeWRhZGNyJTNkMTQyMTZfMjE3MzY1OCUyNm1jaWQlM2Q1MTBjYzE4NDhlZmEzNWU5YmNmMWI0YjBhNWU0MDg0MCUyNm1zY2xraWQlM2QxYWQxYzJlMjgyNTcxODc3OWVkM2E4OGIzMWM3MmZiZA&rlid=1ad1c2e2825718779ed3a88b31c72fbd&ntb=1
+                    - listitem [ref=f11e125]:
+                      - link "5 Star Rating" [ref=f11e127] [cursor=pointer]:
+                        - /url: https://www.bing.com/aclk?ld=e8I3WIxbfmvSZjliTsCzbq1DVUCUxb0Nbau38HfcQDbu0UtUj3whNjIIacKNPDaP-EioVfcgT72ug2pZjPjo9RdkRZO5TaWCa6OPOVd6TQBOMZvg2FeBQBtTOSzgsQZiyyzU6pTW3qkbkZlFicWimH0TcULcfpOHbrdfQaduxBqTwc5BXkg41ZglmSq9tP-v-IHvU4JWn045XIFGkuh9E3Z07bV9dhrTqUGFAB5bVKQwx5e1Iw&u=aHR0cHMlM2ElMmYlMmYlMmZhbWF6b24uaW4lMmZzJTNmayUzZDAuNSUyYnRvbiUyYjUlMmJzdGFyJTJid2luZG93JTJiYWMlMjZhbXAlM2JyZWYlM2Rzcl9ucl9wX3JhZ19pbnRlZ3JhdGVkX3FiXzMlMjZ0YWclM2Rtc25kZXNrc3RkaW4tMjElMjZyZWYlM2RwZF9zbF81ZG9hYjh4NmdlX3AlMjZhZGdycGlkJTNkMTMxMzkxODAwNTEyNTI4MSUyNmh2YWRpZCUzZDgyMTIwMTM0NTY5NjcxJTI2aHZuZXR3JTNkbyUyNmh2cW10JTNkcCUyNmh2Ym10JTNkYnAlMjZodmRldiUzZGMlMjZodmxvY2ludCUzZCUyNmh2bG9jcGh5JTNkMjYwNDY3JTI2aHZ0YXJnaWQlM2Rrd2QtODIxMjA3NTc5MTQxMjAlM2Fsb2MtOTAlMjZoeWRhZGNyJTNkMTQyMTZfMjE3MzY1OCUyNm1jaWQlM2Q1MTBjYzE4NDhlZmEzNWU5YmNmMWI0YjBhNWU0MDg0MCUyNm1zY2xraWQlM2QxMGExYmE1N2Q2YzMxMzI2YTNkM2QwM2U2NTUzNTQzMA&rlid=10a1ba57d6c31326a3d3d03e65535430&ntb=1
+            - listitem [ref=f11e128]:
+              - generic [ref=f11e129]:
+                - generic [ref=f11e130] [cursor=pointer]:
+                  - generic [ref=f11e131]: Telikin
+                  - generic [ref=f11e136]:
+                    - generic [ref=f11e137]: www.telikin.com
+                    - button [ref=f11e138]:
+                      - img "About our ads" [ref=f11e140]
+                - heading [level=2] [ref=f11e141]:
+                  - link "Laptop For The Elderly | Affordable Computer Repair" [ref=f11e142] [cursor=pointer]:
+                    - /url: https://www.bing.com/aclk?ld=e8olmKa7cSTNIqwaMfAbi-izVUCUy_I2fytMJYlrjj8db-iP-5lCnhMrgWwugoufV8l2PZQDWLWwUntEIHgH-WIdEw2vdLKWwM9ssOjjs-SuCqFOlO60VfaY1Wzjd7LbheQ6t_YSTctQ2GJofUWiOxLDdQpWsJLrecGmxZksr0SP8CCP1y9z2ogihxGp9zln0gKmQOYbqmAHbXpr5VgcdC0uli15Q&u=aHR0cHMlM2ElMmYlMmZ3d3cudGVsaWtpbi5jb20lMmYlM2Z1dG1fc291cmNlJTNkU0VNJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV90ZXJtJTNkTk9URVJNJTI2dXRtX2NhbXBhaWduJTNkU0VNU2VuaW9yJTI2bXNjbGtpZCUzZDZkMzBhZjgyMGE2OTFlY2ZlYzFkYzVlYmI5ZjlmYzFi&rlid=6d30af820a691ecfec1dc5ebb9f9fc1b&ntb=1
+                - generic [ref=f11e143]:
+                  - generic [ref=f11e144]:
+                    - generic [ref=f11e145]: Sponsored
+                    - text: Easy to Use Touchscreen Computers Designed for Seniors
+                  - paragraph [ref=f11e148]: Built-In Video Help · Built-In Video Chat · Family Friendly Features
+                - generic [ref=f11e149]:
+                  - list [ref=f11e150]:
+                    - listitem [ref=f11e151]:
+                      - link "Open Source" [ref=f11e153] [cursor=pointer]:
+                        - /url: https://www.bing.com/aclk?ld=e8lHv9_SwSXLchEoq35jYH1TVUCUwX_b86_7gzQnmmBvD42QtB8Y2qEU8FlWjTISSQL6lnnBL525dsZKZJ-iBnvLcdq8LpQkhc1fanu26KV5mc-nyKPouXvD7bZCYTRBNWP8B7zpyNeMP9_HaE-DHvurM20tjJTUUoNgShkLCbI0omcOmwWcRqpbRsA7qQwx9KI8IzH5WYs6EzHj1zWADkemzcXZmJAkNvxCfTi2Dbz8hGk4RT&u=aHR0cHMlM2ElMmYlMmYlMmZ0ZWxpa2luLmNvbSUyZm9wZW4tc291cmNlJTNmdXRtX3NvdXJjZSUzZFNFTSUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fdGVybSUzZE5PVEVSTSUyNnV0bV9jYW1wYWlnbiUzZFNFTVNlbmlvciUyNm1zY2xraWQlM2Q4Y2RkYjFhMWJkNGUxYThhMjA3ZWRiYzgwZWRlYjFmMA&rlid=8cddb1a1bd4e1a8a207edbc80edeb1f0&ntb=1
+                    - listitem [ref=f11e154]:
+                      - link "Details" [ref=f11e156] [cursor=pointer]:
+                        - /url: https://www.bing.com/aclk?ld=e8aPC3qkDkleT7MDIzDfHCfzVUCUxNc9mWM4_kNFZwjWFzVNYqpF6_JT9Ca8L3nbFkCxl90iA3khwuO080O6rjtdF4NUWg_T0QvgH4kXG7Y6dYAftFoWwKR-_xsYitaOsu60du0Vu_uYDFRhvRupQVBgyRddG9RNbArS2N4K-JBcRrli-V1sh7VG7idlUO9appKikM126wT8GpyCpJRvpP-UoD7YhEYjYiKnvkNvfxxfdjhAb9&u=d3d3LnRlbGlraW4uY29tJTJmdGVsaWtpbl90b3VjaC5waHAlM2Z1dG1fc291cmNlJTNkU0VNJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV90ZXJtJTNkTk9URVJNJTI2dXRtX2NhbXBhaWduJTNkU0VNU2VuaW9yJTI2bXNjbGtpZCUzZDc1MGZiOTgwYWY0OTEzZGZmOTUxZDNlOTFjZDk3OGNk&rlid=750fb980af4913dff951d3e91cd978cd&ntb=1
+                  - list [ref=f11e157]:
+                    - listitem [ref=f11e158]:
+                      - link "Touchscreen Computers" [ref=f11e160] [cursor=pointer]:
+                        - /url: https://www.bing.com/aclk?ld=e8rDO_TlHcOcgSqKHrMCSfODVUCUzbrakXxee6LvYz_uh1azDjNscyTqbKXB08Gziw4ZY0r2-ZD8XzPlPpYymxVoWYEa33E2P6CtSfu09OgePwKRNybEqGFKf-sMt5WYCqlC-BzH-nFmToJwx9NfaWQw5qAx9Y1LbpxFdkibiMrEWraAwLZPLrjNOamE7N3opiMZ3aRAFSAjLjB2VA8cUJk35cCb1uMG6vAGchJyaHw9v-Xn47&u=d3d3LnRlbGlraW4uY29tJTJmcmV2aWV3cy5waHAlM2Z1dG1fc291cmNlJTNkU0VNJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV90ZXJtJTNkTk9URVJNJTI2dXRtX2NhbXBhaWduJTNkU0VNU2VuaW9yJTI2bXNjbGtpZCUzZDhkNGVhMDI1ZTI1MDEzYmYxZGYzY2E0YzUxYzA4MDI1&rlid=8d4ea025e25013bf1df3ca4c51c08025&ntb=1
+                    - listitem [ref=f11e161]:
+                      - link "Fry's Stores" [ref=f11e163] [cursor=pointer]:
+                        - /url: https://www.bing.com/aclk?ld=e8EERSOT_PIe3baxvikxB22jVUCUybabO5l3y2hrLPpzEbeZZ3hH1ylqMP_PFKNL7OSAXav2Y7w0sds32sM4vA6ysUcBjyVOQFebDsjD4tm-ilPu2eAP5xQ8TjswmAG0xPyNskmEVoIBwnlkTsLFpIZJvgaca9HmrmmPHZSBrzEJ2zXuOCRBZYQWI5tqE8UR7A720dWsVccFEjvh_jo6X3pV8rBcQ-2ajaxKcO_QS1mLoao21W&u=d3d3LnRlbGlraW4uY29tJTJmZnJ5c19hbm5vdW5jZW1lbnQucGhwJTNmdXRtX3NvdXJjZSUzZFNFTSUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fdGVybSUzZE5PVEVSTSUyNnV0bV9jYW1wYWlnbiUzZFNFTVNlbmlvciUyNm1zY2xraWQlM2Q2MjY2NjIyMGI0M2ExODJmYzI3YzA4NDkwN2FhMzQ1NA&rlid=62666220b43a182fc27c084907aa3454&ntb=1
+        - listitem [ref=f11e164]:
+          - list
+      - list [ref=f11e165]:
+        - listitem [ref=f11e166]:
+          - generic [ref=f11e170]:
+            - generic [ref=f11e172]:
+              - button "Like" [ref=f11e173]
+              - button "Dislike" [ref=f11e176]
+            - button "AI disclaimer" [ref=f11e179]
+        - listitem [ref=f11e204]:
+          - link "Amazon" [ref=f11e206] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=839fb5fa8340ec333db3c2149db4d99955734ba4167a6f98021e5529d4dd6c2eJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1aHR0cHM6Ly93d3cuYW1hem9uLmluL2dwL2Jlc3RzZWxsZXJzL2NvbXB1dGVycy8xMzc1NDI0MDMx&ntb=1
+            - generic [ref=f11e211]:
+              - generic [ref=f11e212]: Amazon
+              - generic [ref=f11e213]: https://www.amazon.in
+          - heading [level=2] [ref=f11e216]:
+            - 'link "Amazon.in Bestsellers: The most popular items in Laptops" [ref=f11e217] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=839fb5fa8340ec333db3c2149db4d99955734ba4167a6f98021e5529d4dd6c2eJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1aHR0cHM6Ly93d3cuYW1hem9uLmluL2dwL2Jlc3RzZWxsZXJzL2NvbXB1dGVycy8xMzc1NDI0MDMx&ntb=1
+          - paragraph [ref=f11e219]: Our most popular products based on sales. Updated frequently.
+        - listitem [ref=f11e220]:
+          - link "accio.com" [ref=f11e222] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0376fd889c6e27be4b8c51f92c45f5b2c2178c259dd4327440cb11166e86ec01JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1aHR0cHM6Ly93d3cuYWNjaW8uY29tL2J1c2luZXNzL3RvcC1zZWxsaW5nLWxhcHRvcC1pbi1pbmRpYQ&ntb=1
+            - generic [ref=f11e227]:
+              - generic [ref=f11e228]: accio.com
+              - generic [ref=f11e229]: https://www.accio.com
+          - heading [level=2] [ref=f11e232]:
+            - 'link "Top Selling Laptop in India 2025: HP, Dell & More - accio.com" [ref=f11e233] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=0376fd889c6e27be4b8c51f92c45f5b2c2178c259dd4327440cb11166e86ec01JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1aHR0cHM6Ly93d3cuYWNjaW8uY29tL2J1c2luZXNzL3RvcC1zZWxsaW5nLWxhcHRvcC1pbi1pbmRpYQ&ntb=1
+          - paragraph [ref=f11e235]: Jul 20, 2026 · Discover the top selling laptop in India for 2025. Explore why HP leads in sales, Dell dominates trust, and ASUS excels in gaming. Click to find the best model for your needs!
+        - listitem [ref=f11e236]:
+          - link "91mobiles.com" [ref=f11e238] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=f4a2790ea71e7cb23d22dbc9953a012911b278353f452610059d0117d45a66ceJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1aHR0cHM6Ly93d3cuOTFtb2JpbGVzLmNvbS9yZXZpZXdzL2Jlc3QtbGFwdG9wcy1pbi1pbmRpYS1leHBlcnQtcGlja3Mv&ntb=1
+            - generic [ref=f11e243]:
+              - generic [ref=f11e244]: 91mobiles.com
+              - generic [ref=f11e245]: https://www.91mobiles.com
+          - heading [level=2] [ref=f11e248]:
+            - 'link "Best Laptops in India (2026): Expert Picks Across Every Budget and …" [ref=f11e249] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=f4a2790ea71e7cb23d22dbc9953a012911b278353f452610059d0117d45a66ceJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1aHR0cHM6Ly93d3cuOTFtb2JpbGVzLmNvbS9yZXZpZXdzL2Jlc3QtbGFwdG9wcy1pbi1pbmRpYS1leHBlcnQtcGlja3Mv&ntb=1
+          - paragraph [ref=f11e251]: "35 minutes ago · Best laptops in India (2026), tested and ranked: Dell Pro Max 16 Plus, MacBook Pro M5 Pro, XPS 14 and more. Top picks for students, professionals and creators."
+        - listitem [ref=f11e252]:
+          - generic [ref=f11e254]:
+            - heading [level=2] [ref=f11e256]:
+              - link "Videos of Best Selling Laptops" [ref=f11e257] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=362b54adde60304fe4e677084644cb921ec2efe6e81916f77fb7104b7f88f0abJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZxcHZ0PWJlc3Qrc2VsbGluZytsYXB0b3BzJkZPUk09VkRSRQ&ntb=1
+            - list "Please use arrow keys to navigate" [ref=f11e264]:
+              - listitem [ref=f11e265]:
+                - link "Laptop Deals" [ref=f11e266] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=1dc416d89d0b7be88495c40bb2eeee8eaebcd04c408af28ce884c78d8e283221JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1MYXB0b3ArRGVhbHMmJkZPUk09VkFSU1FQ&ntb=1
+              - listitem [ref=f11e270]:
+                - link "Fastest" [ref=f11e271] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=258798163735a840dd2242f62787c12feceef3b361b0e6f332c8b8c7bfd0980fJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1GYXN0ZXN0JiZGT1JNPVZBUlNRUA&ntb=1
+              - listitem [ref=f11e275]:
+                - link "Comparison" [ref=f11e276] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=4b417f88afa100b3f3f4c65a18f8a9418f9afa4ebf3ef4267ef1ac690f6d100aJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1Db21wYXJpc29uJiZGT1JNPVZBUlNRUA&ntb=1
+              - listitem [ref=f11e280]:
+                - link "Unboxing" [ref=f11e281] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=ec0775335e3a6d25d564ef84ad37ac9b04d58c40cf4b9f746f5ea621206ff419JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1VbmJveGluZyYmRk9STT1WQVJTUVA&ntb=1
+              - listitem [ref=f11e285]:
+                - link "Latest" [ref=f11e286] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=d98a4121cab0ba721b80b637d2f79dc4cd14130e4504d24a13a8aace8e69b67aJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1MYXRlc3QmJkZPUk09VkFSU1FQ&ntb=1
+              - listitem [ref=f11e290]:
+                - link "Dell" [ref=f11e291] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=3998ac82f262acd827a02c5e94362026f6d84240070ddaeedb8e207929be2108JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1EZWxsJiZGT1JNPVZBUlNRUA&ntb=1
+              - listitem [ref=f11e295]:
+                - link "Expensive" [ref=f11e296] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=27f45c243d23c8e01cae9d881b97db946b73c033b49d15b6f0dcbd47a9a0fdb4JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1FeHBlbnNpdmUmJkZPUk09VkFSU1FQ&ntb=1
+              - listitem [ref=f11e300]:
+                - link "Gaming" [ref=f11e301] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=def23749df1c392649cff1ab6f9707ca1131ec0aca9fbae156a19ffea0a5c015JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1HYW1pbmcmJkZPUk09VkFSU1FQ&ntb=1
+              - listitem [ref=f11e305]:
+                - link "Most Expensive" [ref=f11e306] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=acf792968a2933bc08b80b9024a30b78c2b7caf6e573f1c8e96d5c7ffab66a3dJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1Nb3N0K0V4cGVuc2l2ZSYmRk9STT1WQVJTUVA&ntb=1
+              - listitem [ref=f11e310]:
+                - link "Cheap Laptops" [ref=f11e311] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=daa1d52dbc189e723b48de46b322ebb80bb204447b31eac738c2fdb3e3d042d9JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1DaGVhcCtMYXB0b3BzJiZGT1JNPVZBUlNRUA&ntb=1
+              - listitem [ref=f11e315]:
+                - link "Laptop" [ref=f11e316] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=439c72db31149376d58432688ed61130e093b5b2830ade2e3fa18db096dd41cdJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1MYXB0b3AmJkZPUk09VkFSU1FQ&ntb=1
+              - listitem [ref=f11e320]:
+                - link "Laptop Hacks" [ref=f11e321] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=81a77d5fcd74de60234780a2120cc66b63d9da368e7fd3efdd9c646394ba2602JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1MYXB0b3ArSGFja3MmJkZPUk09VkFSU1FQ&ntb=1
+              - listitem [ref=f11e325]:
+                - link "Oldest" [ref=f11e326] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=9c21ab905cc9a8fa3acfb049b9245dc0421b8305dc4bcee71af832e818f775aeJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1PbGRlc3QmJkZPUk09VkFSU1FQ&ntb=1
+              - listitem [ref=f11e330]:
+                - link "Acer" [ref=f11e331] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=f5d77b2a7b3a3513d9eab5600b5f7cb377f745ea033cbaecc874beca0a0ccf10JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1BY2VyJiZGT1JNPVZBUlNRUA&ntb=1
+              - listitem [ref=f11e335]:
+                - link "Small Laptops" [ref=f11e336] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=12b2e7c2a9fa3e4dc5eff10b5f2d99ef9f2cc8b9cd14bc5dbb908e787b88eb4dJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1TbWFsbCtMYXB0b3BzJiZGT1JNPVZBUlNRUA&ntb=1
+              - listitem [ref=f11e340]:
+                - link "Lenovo" [ref=f11e341] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=44a3904498e41ee978eafb884783ef1ef46cf1c94a832711e665b0b91e587d2aJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1MZW5vdm8mJkZPUk09VkFSU1FQ&ntb=1
+              - listitem [ref=f11e345]:
+                - link "MacBook" [ref=f11e346] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=afcc7222db2c20a8ff765f1c844b2068fad05bbb41aaaddae36f94590f8405c2JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1NYWNCb29rJiZGT1JNPVZBUlNRUA&ntb=1
+              - listitem [ref=f11e350]:
+                - link "Repair" [ref=f11e351] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=30aa55c20ac34cac22abbd89e2484fef190eecff4e7b27a9cd592bb3ac7e93c5JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1SZXBhaXImJkZPUk09VkFSU1FQ&ntb=1
+              - listitem [ref=f11e355]:
+                - link "Chromebook" [ref=f11e356] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=a0ae77d240f58335d5d39c338651662733148ea31549c861997c57dbbcdc5c2eJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1DaHJvbWVib29rJiZGT1JNPVZBUlNRUA&ntb=1
+              - listitem [ref=f11e360]:
+                - link "Accessories" [ref=f11e361] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=f34f1817c15e2daadbb6f8364ca678b1fb6e50582802ca594290930b85005affJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1BY2Nlc3NvcmllcyYmRk9STT1WQVJTUVA&ntb=1
+              - listitem [ref=f11e365]:
+                - link "MSI" [ref=f11e366] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=338dc9e6c33189f7cd95a07f5254c277f88209568f3da9ccc2b752bbfc419641JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1NU0kmJkZPUk09VkFSU1FQ&ntb=1
+              - listitem [ref=f11e370]:
+                - link "iPad" [ref=f11e371] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=e565c5716e2afd71653fb6d47de05836eaa0a13f00b37e0ce1007024a99bdb2fJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1pUGFkJiZGT1JNPVZBUlNRUA&ntb=1
+              - listitem [ref=f11e375]:
+                - link "Asus" [ref=f11e376] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=ebb6e6216829c1c441c9e97df4a3e58d1d78d4de5471aac9549515c89d4fe841JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1Bc3VzJiZGT1JNPVZBUlNRUA&ntb=1
+              - listitem [ref=f11e380]:
+                - link "vs Tablet" [ref=f11e381] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=23a524205d91891f4744760f518bc2cec8a6ce188814c50a74f0d38ecf30f792JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT12cytUYWJsZXQmJkZPUk09VkFSU1FQ&ntb=1
+              - listitem [ref=f11e385]:
+                - link "Razer" [ref=f11e386] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=78f784ca29c98a35d2bfffad16f91f5a0cd985869848dcae3f1910c7325dc364JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1SYXplciYmRk9STT1WQVJTUVA&ntb=1
+              - listitem [ref=f11e390]:
+                - link "Tips and Tricks" [ref=f11e391] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=ab84c20e4c10bf084a89b6126272b3d72b9f38019509d7938f992cf830f60f21JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1UaXBzK2FuZCtUcmlja3MmJkZPUk09VkFSU1FQ&ntb=1
+              - listitem [ref=f11e395]:
+                - link "HP" [ref=f11e396] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=dad69f0932fa14e8747fb033730f46a8de4e7f64965c99f6ff6985b41cb96b58JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1IUCYmRk9STT1WQVJTUVA&ntb=1
+            - 'link "Top 50 Best-Selling Laptops in the USA (2026) | Most Popular Laptops Ranked! #usadata #laptops from YouTube · Duration: 5 minutes 54 seconds · 10 views · uploaded on 3 weeks ago · uploaded by US Data Zone · Click to play. · Top 50 Best-Selling Laptops in the USA (2026) | Most Popular Laptops Ranked! #usadata #laptops top 50 laptops USA, best selling laptops USA, most popular laptops in America, USA laptop sales ranking, best laptops 2026, top laptops 2026, MacBook Air M5, best gaming laptops USA, Lenovo laptops USA, HP laptops USA, Dell laptops USA, Apple MacBook ..." [ref=f11e402] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=12b88138e493c8e0ffa9d6d30ba4f9eec7eb284129f6c299188ba2e4ee4ba66bJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9YmVzdCtzZWxsaW5nK2xhcHRvcHMmbWlkPTUyMTNCQjBFRTVFQjkzNTk0NTU5NTIxM0JCMEVFNUVCOTM1OTQ1NTkmY2h1cmw9JkZPUk09VklSRQ&ntb=1
+              - generic [ref=f11e403]:
+                - generic [ref=f11e404]: 5:54
+                - generic [ref=f11e415]:
+                  - 'generic "Top 50 Best-Selling Laptops in the USA (2026) | Most Popular Laptops Ranked! #usadata #laptops" [ref=f11e416]':
+                    - text: Top 50
+                    - strong [ref=f11e417]: Best
+                    - text: "-"
+                    - strong [ref=f11e418]: Selling
+                    - strong [ref=f11e419]: Laptops
+                    - text: in the USA (2026) | Most Popular
+                    - strong [ref=f11e420]: Laptops
+                    - text: "Ranked! #usadata #"
+                    - strong [ref=f11e421]: laptops
+                  - generic [ref=f11e423]:
+                    - generic [ref=f11e424]:
+                      - img "Video source site" [ref=f11e425]
+                      - text: YouTube · US Data Zone
+                    - generic [ref=f11e426]: 10 views · 3 weeks ago
+            - generic [ref=f11e428]:
+              - 'link "The Best Laptops to Buy Right Now: Budget, Premium, Creator & Gaming Picks from YouTube · Duration: 15 minutes 25 seconds · 252.5K views · uploaded on 2 months ago · uploaded by Just Josh · Click to play. · 👉 Save BIG on Your Next Laptop: https://www.bestlaptop.deals Budget Laptops: - MacBook Neo: https://go.bestlaptop.deals/SYUGJ - MacBook Air M3 (Refurbished/Open Box): https://bestbuycreators.7tiv.net/L0mOQ0 - MacBook Air M4 (Refurbished/Open Box): https://bestbuycreators.7tiv.net/5kZyV1 - Acer Aspire 14: https://go.bestlaptop.deals/F5L56 ..." [ref=f11e431] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=15ace3024a3bdf287e2ab11cbad4be7a68c3f344795144a572c1ff49dcf78823JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9YmVzdCtzZWxsaW5nK2xhcHRvcHMmbWlkPUJENjZEOUJDRDdDRTU0NjNCM0UxQkQ2NkQ5QkNEN0NFNTQ2M0IzRTEmY2h1cmw9aHR0cHMlM2ElMmYlMmZ3d3cueW91dHViZS5jb20lMmZjaGFubmVsJTJmVUN0SG05YWk1elNiLXlmUm5uVUJvcEFnJkZPUk09VklSRQ&ntb=1
+                - generic [ref=f11e432]:
+                  - generic [ref=f11e433]: 15:25
+                  - generic [ref=f11e442]:
+                    - 'generic "The Best Laptops to Buy Right Now: Budget, Premium, Creator & Gaming Picks" [ref=f11e443]':
+                      - text: The
+                      - strong [ref=f11e444]: Best
+                      - strong [ref=f11e445]: Laptops
+                      - text: "to Buy Right Now: Budget, Premium, Creator & Gaming Picks"
+                    - generic [ref=f11e446]:
+                      - generic [ref=f11e447]:
+                        - img "Video source site" [ref=f11e448]
+                        - text: YouTube · Just Josh
+                      - generic [ref=f11e449]: 252.5K views · 2 months ago
+              - 'link "Top 10 Best Selling Laptop Brands 💻🔥 | Global Ranking from YouTube · Duration: 6 seconds · 1.9K views · uploaded on 5 months ago · uploaded by Factspur · Click to play. · Top 10 best selling laptop brands in the world 🌍 From business powerhouses to gaming giants! 👇 Comment your favourite laptop brand #LaptopBrands #TechRanking #BestSelling #Shorts" [ref=f11e452] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=b15852d688f4f5dc38a05a4ff45a45dd37a3a38f1890d46fec1aec53f24343ffJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9YmVzdCtzZWxsaW5nK2xhcHRvcHMmbWlkPTlDNTAxNkNFNDBEOUNFQzU3OTMzOUM1MDE2Q0U0MEQ5Q0VDNTc5MzMmY2h1cmw9aHR0cHMlM2ElMmYlMmZ3d3cueW91dHViZS5jb20lMmZjaGFubmVsJTJmVUM5S25sbFdxRHVYemJ0aHVXZFZYY0ZBJm1tc2NuPXN0dm8mRk9STT1WSVJF&ntb=1
+                - generic [ref=f11e453]:
+                  - generic [ref=f11e454]: 0:06
+                  - generic [ref=f11e463]:
+                    - generic "Top 10 Best Selling Laptop Brands 💻🔥 | Global Ranking" [ref=f11e464]:
+                      - text: Top 10
+                      - strong [ref=f11e465]: Best
+                      - strong [ref=f11e466]: Selling
+                      - text: Laptop Brands 💻🔥 | Global Ranking
+                    - generic [ref=f11e467]:
+                      - generic [ref=f11e468]:
+                        - img "Video source site" [ref=f11e469]
+                        - text: YouTube · Factspur
+                      - generic [ref=f11e470]: 1.9K views · 5 months ago
+              - 'link "Best Laptops to Buy in 2026 (₹35K to ₹1.5 Lakh) | Complete Buying Guide from YouTube · Duration: 22 minutes 1 seconds · 116.1K views · uploaded on 1 month ago · uploaded by Nishant Chahar · Click to play. · In this video, we reveal the best laptops to buy in 2026 across every budget range, from ₹35,000 to ₹1.5 lakh. Whether you''re a student, programmer, gamer, content creator, or AI/ML enthusiast, you''ll discover which laptops offer the best value for money. We also explain why laptop prices have increased and how to avoid overpaying for ..." [ref=f11e473] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=6fe2fb06b758a9f684e1ad6af5e1c7a9c5650251e7cfe5e2a13539e66e725116JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9YmVzdCtzZWxsaW5nK2xhcHRvcHMmbWlkPTY5RTA1OERGRTg1OTYxNjU5RDAxNjlFMDU4REZFODU5NjE2NTlEMDEmY2h1cmw9JkZPUk09VklSRQ&ntb=1
+                - generic [ref=f11e474]:
+                  - generic [ref=f11e475]: 22:01
+                  - generic [ref=f11e484]:
+                    - generic "Best Laptops to Buy in 2026 (₹35K to ₹1.5 Lakh) | Complete Buying Guide" [ref=f11e485]:
+                      - strong [ref=f11e486]: Best
+                      - strong [ref=f11e487]: Laptops
+                      - text: to Buy in 2026 (₹35K to ₹1.5 Lakh) | Complete Buying Guide
+                    - generic [ref=f11e488]:
+                      - generic [ref=f11e489]:
+                        - img "Video source site" [ref=f11e490]
+                        - text: YouTube · Nishant Chahar
+                      - generic [ref=f11e491]: 116.1K views · 1 month ago
+            - generic [ref=f11e492]:
+              - link "Short videos" [ref=f11e493] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=69e4e166ceadd1ee7898fc3ebb64d4daecc3a50b6c13fdd7fc4694927375f321JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9zZWFyY2g_JnE9YmVzdCtzZWxsaW5nK2xhcHRvcHMmcWZ0PStmaWx0ZXJ1aSUzYWZpbHRlcmhpbnQtc2hvcnR2aWRlbyZ2aWV3PXNob3J0dmlkZW8mRk9STT1TVlJUUlQ&ntb=1
+              - generic [ref=f11e499]:
+                - button [ref=f11e500]
+                - button [ref=f11e505]
+                - list "Please use arrow keys to navigate" [ref=f11e512]:
+                  - listitem [ref=f11e513]:
+                    - 'link "Top 20 Best Selling Laptop Brands in the World 2025 | Global Laptop Sales Ranking | Lenovo, HP, Dell from YouTube · Duration: 16 seconds · 65 views · uploaded on 2 weeks ago · uploaded by Nalla GenZ · Click to play." [ref=f11e515] [cursor=pointer]':
+                      - /url: https://www.bing.com/ck/a?!&&p=a46f77f0a887997b1a41377640949d29a9f9dd4531cacedf79532410a17c7619JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9YmVzdCtzZWxsaW5nK2xhcHRvcHMmJm1pZD1FMUU5NkM4MUYxNUQzMkRFOURFRUUxRTk2QzgxRjE1RDMyREU5REVFJmNodXJsPWh0dHBzJTNhJTJmJTJmd3d3LnlvdXR1YmUuY29tJTJmY2hhbm5lbCUyZlVDcF9HNUFlQmE4aFB3WWZfaWVWZm1ldyZtbXNjbj1zdHZvJkZPUk09VklSRQ&ntb=1
+                      - generic [ref=f11e516]: YouTube
+                  - listitem [ref=f11e529]:
+                    - 'link "Top 50 Best-Selling Laptops in the USA (2026) | Most Popular Laptops Ranked! part 02 from YouTube · Duration: 1 minutes 18 seconds · 32 views · uploaded on 2 weeks ago · uploaded by US Data Zone · Click to play." [ref=f11e531] [cursor=pointer]':
+                      - /url: https://www.bing.com/ck/a?!&&p=b8aa6ab854e7cc177d98b488fc576c8d38f650ca794cd56df11b1a78f0f01116JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9YmVzdCtzZWxsaW5nK2xhcHRvcHMmJm1pZD1DNUQ1NjAxNEUwMzFCRUFBQ0E4MkM1RDU2MDE0RTAzMUJFQUFDQTgyJmNodXJsPWh0dHBzJTNhJTJmJTJmd3d3LnlvdXR1YmUuY29tJTJmY2hhbm5lbCUyZlVDQUd1a3Y2c1RPVFhXd1daN1JDYnRiUSZtbXNjbj1zdHZvJkZPUk09VklSRQ&ntb=1
+                      - generic [ref=f11e532]: YouTube
+                  - listitem [ref=f11e545]:
+                    - 'link "Top 50 Best-Selling Laptops in the USA (2026) | Most Popular Laptops Ranked! part 01 from YouTube · Duration: 1 minutes · 30 views · uploaded on 2 weeks ago · uploaded by US Data Zone · Click to play." [ref=f11e547] [cursor=pointer]':
+                      - /url: https://www.bing.com/ck/a?!&&p=6f05457043dcf21ea14d59f3f923e35a3fcc64a972315590c3fa08b0e1a04becJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9YmVzdCtzZWxsaW5nK2xhcHRvcHMmJm1pZD0yOEZDNDFBQTgzQUJEMTJBODg5NjI4RkM0MUFBODNBQkQxMkE4ODk2JmNodXJsPWh0dHBzJTNhJTJmJTJmd3d3LnlvdXR1YmUuY29tJTJmY2hhbm5lbCUyZlVDQUd1a3Y2c1RPVFhXd1daN1JDYnRiUSZtbXNjbj1zdHZvJkZPUk09VklSRQ&ntb=1
+                      - generic [ref=f11e548]: YouTube
+                  - listitem [ref=f11e561]:
+                    - 'link "Best Laptops Under ₹50,000 & ₹60,000 In 2026 ⚡ Ft. Flipkart GOAT Sale from YouTube · Duration: 2 minutes 2 seconds · 149.8K views · uploaded on 3 weeks ago · uploaded by Trakin Tech · Click to play." [ref=f11e563] [cursor=pointer]':
+                      - /url: https://www.bing.com/ck/a?!&&p=2e28dd4eb1d98fcb000703298c5980bf040101310497e240213cf6b1d78b3497JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9YmVzdCtzZWxsaW5nK2xhcHRvcHMmJm1pZD0zREY5Njk3ODZDREMxODE4MTNFRDNERjk2OTc4NkNEQzE4MTgxM0VEJmNodXJsPWh0dHBzJTNhJTJmJTJmd3d3LnlvdXR1YmUuY29tJTJmY2hhbm5lbCUyZlVDRVBMMDdxelZzT2NIZDNzTVV3czY1ZyZtbXNjbj1zdHZvJkZPUk09VklSRQ&ntb=1
+                      - generic [ref=f11e564]: YouTube
+                  - listitem [ref=f11e577]:
+                    - 'link "Most laptop Selling Brands From (2005 to 2025) from YouTube · Duration: 1 minutes · 998 views · uploaded on 2 months ago · uploaded by Chartory · Click to play." [ref=f11e579] [cursor=pointer]':
+                      - /url: https://www.bing.com/ck/a?!&&p=095b1781479986d843e00e3555bfd256969fc7a1f4851d963e88e6fcd1f04cdfJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9YmVzdCtzZWxsaW5nK2xhcHRvcHMmJm1pZD03NDgwMkY3MkRBQzJGMUNFREYxOTc0ODAyRjcyREFDMkYxQ0VERjE5JmNodXJsPWh0dHBzJTNhJTJmJTJmd3d3LnlvdXR1YmUuY29tJTJmY2hhbm5lbCUyZlVDZUNpZDg0TkVmXzE5dEsxSk1TQXI2ZyZtbXNjbj1zdHZvJkZPUk09VklSRQ&ntb=1
+                      - generic [ref=f11e580]: YouTube
+                  - listitem [ref=f11e593]:
+                    - 'link "Powerful - Best Laptop Under 50000 in 2026 from YouTube · Duration: 1 minutes 17 seconds · 47.5K views · uploaded on 1 month ago · uploaded by Tech Terminus · Click to play." [ref=f11e595] [cursor=pointer]':
+                      - /url: https://www.bing.com/ck/a?!&&p=a01129bc3a312e7d94add8573709e2c77f79a249fd3855f49af840e585e3884bJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9YmVzdCtzZWxsaW5nK2xhcHRvcHMmJm1pZD01NDQ3QzU0QTBDRDZFMDhDOUE0QTU0NDdDNTRBMENENkUwOEM5QTRBJmNodXJsPWh0dHBzJTNhJTJmJTJmd3d3LnlvdXR1YmUuY29tJTJmY2hhbm5lbCUyZlVDUVJKYkN6RVVuMmxJSG9WbG11S0FjZyZtbXNjbj1zdHZvJkZPUk09VklSRQ&ntb=1
+                      - generic [ref=f11e596]: YouTube
+        - listitem [ref=f11e609]:
+          - generic [ref=f11e610]:
+            - link "Shop Best Selling Laptops Shop Best Selling Laptops" [ref=f11e612] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=65cd0c6d3972a3510e9ea1a678b8e9b1567ad8b6c1f2e01e2265696a02085ff7JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvdG9waWNzP3E9YmVzdCtzZWxsaW5nK2xhcHRvcHMmRk9STT1TU0FUMDE&ntb=1
+              - generic [ref=f11e613]: Shop Best Selling Laptops
+              - img "Shop Best Selling Laptops" [ref=f11e614]
+            - list "Please use arrow keys to navigate" [ref=f11e621]:
+              - listitem [ref=f11e622]:
+                - link "Product Image Laptops on Sale" [ref=f11e623] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=ad78741b52d0bc60ac506eb9264e36d4d0c1f9bac0fe26b25f96e3342277d1f4JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvdG9waWNzP3E9TGFwdG9wcyBvbiBTYWxlJkZPUk09U1NBRkxUJm9yaWdpbklHVUlEPUNGM0RERTcyRjg0MjRDMjM5OTZGRjc3QkJGODIxOTkx&ntb=1
+                  - img "Product Image" [ref=f11e624]
+                  - generic [ref=f11e625]: Laptops on Sale
+              - listitem [ref=f11e626]:
+                - link "Product Image Laptop Deals" [ref=f11e627] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=09c3245fcc949c6c985a36e5b3febdc80c51311914a311e37df5ffe410e2ae89JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvdG9waWNzP3E9TGFwdG9wIERlYWxzJkZPUk09U1NBRkxUJm9yaWdpbklHVUlEPUNGM0RERTcyRjg0MjRDMjM5OTZGRjc3QkJGODIxOTkx&ntb=1
+                  - img "Product Image" [ref=f11e628]
+                  - generic [ref=f11e629]: Laptop Deals
+              - listitem [ref=f11e630]:
+                - link "Product Image Best Buy Laptops on Sale" [ref=f11e631] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=c470b86e5422eb1066654375b5993982dd846ac0f664c747624cffc51191c06aJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvdG9waWNzP3E9QmVzdCBCdXkgTGFwdG9wcyBvbiBTYWxlJkZPUk09U1NBRkxUJm9yaWdpbklHVUlEPUNGM0RERTcyRjg0MjRDMjM5OTZGRjc3QkJGODIxOTkx&ntb=1
+                  - img "Product Image" [ref=f11e632]
+                  - generic [ref=f11e633]: Best Buy Laptops on Sale
+              - listitem [ref=f11e634]:
+                - link "Product Image Amazon Laptops" [ref=f11e635] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=b789edd5d58aad3f8ec7136f9a29f2bf59bd9684bbbde3fbb7eaa158b59d9892JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvdG9waWNzP3E9QW1hem9uIExhcHRvcHMmRk9STT1TU0FGTFQmb3JpZ2luSUdVSUQ9Q0YzRERFNzJGODQyNEMyMzk5NkZGNzdCQkY4MjE5OTE&ntb=1
+                  - img "Product Image" [ref=f11e636]
+                  - generic [ref=f11e637]: Amazon Laptops
+              - listitem [ref=f11e638]:
+                - link "Product Image Best Buy Laptop Computers" [ref=f11e639] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=f1f6f8d9b6c60f1078cd411c6899e7669106e68bfedbfa182da43779e373dfe6JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvdG9waWNzP3E9QmVzdCBCdXkgTGFwdG9wIENvbXB1dGVycyZGT1JNPVNTQUZMVCZvcmlnaW5JR1VJRD1DRjNEREU3MkY4NDI0QzIzOTk2RkY3N0JCRjgyMTk5MQ&ntb=1
+                  - img "Product Image" [ref=f11e640]
+                  - generic [ref=f11e641]: Best Buy Laptop Computers
+              - listitem [ref=f11e642]:
+                - link "Product Image Best Rated Laptops" [ref=f11e643] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=12ec013010fdd70f23a58d1c7e2fbf704018ad792fbc0772e383781eafa0eb8fJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvdG9waWNzP3E9QmVzdCBSYXRlZCBMYXB0b3BzJkZPUk09U1NBRkxUJm9yaWdpbklHVUlEPUNGM0RERTcyRjg0MjRDMjM5OTZGRjc3QkJGODIxOTkx&ntb=1
+                  - img "Product Image" [ref=f11e644]
+                  - generic [ref=f11e645]: Best Rated Laptops
+              - listitem [ref=f11e646]:
+                - link "Product Image Best Buy Computers" [ref=f11e647] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=52a9c9913ff3e5ecb9c99a7299bd45467d184f1df2df475937417ed7eeb47ec8JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvdG9waWNzP3E9QmVzdCBCdXkgQ29tcHV0ZXJzJkZPUk09U1NBRkxUJm9yaWdpbklHVUlEPUNGM0RERTcyRjg0MjRDMjM5OTZGRjc3QkJGODIxOTkx&ntb=1
+                  - img "Product Image" [ref=f11e648]
+                  - generic [ref=f11e649]: Best Buy Computers
+              - listitem [ref=f11e650]:
+                - link "Product Image Laptops at Best Buy" [ref=f11e651] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=cfd1b4c4e0015f6a014e827f0226c931c6811a6d819486cfb10f4e59547d59b4JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvdG9waWNzP3E9TGFwdG9wcyBhdCBCZXN0IEJ1eSZGT1JNPVNTQUZMVCZvcmlnaW5JR1VJRD1DRjNEREU3MkY4NDI0QzIzOTk2RkY3N0JCRjgyMTk5MQ&ntb=1
+                  - img "Product Image" [ref=f11e652]
+                  - generic [ref=f11e653]: Laptops at Best Buy
+              - listitem [ref=f11e654]:
+                - link "Product Image Best Buy Computers on Sale" [ref=f11e655] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=5efb57be8d56b6b09c89de77341bddf6c2db152aebe872381c0b44202b65b3adJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvdG9waWNzP3E9QmVzdCBCdXkgQ29tcHV0ZXJzIG9uIFNhbGUmRk9STT1TU0FGTFQmb3JpZ2luSUdVSUQ9Q0YzRERFNzJGODQyNEMyMzk5NkZGNzdCQkY4MjE5OTE&ntb=1
+                  - img "Product Image" [ref=f11e656]
+                  - generic [ref=f11e657]: Best Buy Computers on Sale
+              - listitem [ref=f11e658]:
+                - link "Product Image Best Buy PC" [ref=f11e659] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=555182584dc90961b69e52c079bd456b49f71f43cac0d9fa693b75971e3700b4JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvdG9waWNzP3E9QmVzdCBCdXkgUEMmRk9STT1TU0FGTFQmb3JpZ2luSUdVSUQ9Q0YzRERFNzJGODQyNEMyMzk5NkZGNzdCQkY4MjE5OTE&ntb=1
+                  - img "Product Image" [ref=f11e660]
+                  - generic [ref=f11e661]: Best Buy PC
+            - list [ref=f11e663]:
+              - listitem [ref=f11e664]:
+                - generic [ref=f11e665]:
+                  - 'link "Product Image HP Everyday Laptop | Intel Quad-Core Processor | 11.5 Hrs Battery | 128GB SSD, 8GB RAM | Rose Gold | Copilot AI Windows 11 Ubuy India Current Price: ₹47,081.00." [ref=f11e666] [cursor=pointer]':
+                    - /url: https://www.bing.com/ck/a?!&&p=5d025eb86605fcef80d50bee8917b92d1d14f55430019811b484d25a0d7c0978JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvcHJvZHVjdGRldGFpbHM_cT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZwZHBvdmVybGF5PXRydWUmZ29pZD00NDkyNTQxMzk5MjcmZW50cnlQb2ludD1iaW5nc2VhcmNocGFnZSZiZ3NjZW5hcmlvPXRscCZvcmlnaW5RdWVyeT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZvdmVybGF5T2ZmZXJJZHM9NDQ5MjU0MTM5OTI3JTJjNDY0OTYwODI0OTc0JTJjMzg0NDc3Mzg1MzAwJTJjNDY2MjYwNDg4MjU4JTJjNDIzMDYwNzA1NDk5JTJjNDIyMTQ1MjYwNjMwJTJjNDY2MjEzMjg4MTEzJTJjNDY1MDkyMDA4NzM3JTJjMzg0NTE3MTE2MzEwJTJjNDA1MTM1MTg2NDUyJTJjNDQwNzk5MTUyMTE2JTJjNDY0MDkyNDM2MTg2JTJjNDY0MDgzNjIwNzUyJTJjMzk3NTU0MDc0NjM4JTJjMzg0OTI5OTIxNTE2JTJjMzkwNjQwODQ1MjEzJTJjNDM3MzE2NjkyMTY1JkZPUk09U1NBUEMx&ntb=1
+                    - img "Product Image" [ref=f11e671]
+                    - generic [ref=f11e673]:
+                      - generic "HP Everyday Laptop | Intel Quad-Core Processor | 11.5 Hrs Battery | 128GB SSD, 8GB RAM | Rose Gold | Copilot AI Windows 11" [ref=f11e675]
+                      - generic [ref=f11e676]: Ubuy India
+                      - 'generic "Current Price: ₹47,081.00." [ref=f11e682]':
+                        - generic [ref=f11e685]:
+                          - generic [ref=f11e686]: ₹
+                          - generic [ref=f11e687]: 47,081
+                  - generic [ref=f11e688]: 1 of 16
+              - listitem [ref=f11e689]:
+                - generic [ref=f11e690]:
+                  - 'link "Product Image Acer Aspire Personal Laptop (2025):15.6\" FHD 1920 X 1080 60Hz 13th Generation Intel Core I9-13900H 16 GB RAM 1 TB SSD Win10 Home Wi-Fi 6E Backlit Ubuy India Current Price: ₹1,25,027.00." [ref=f11e691] [cursor=pointer]':
+                    - /url: https://www.bing.com/ck/a?!&&p=92e76c7696e92e40d1244a1c9a572779204735ceff7f431a0a933275a98bce33JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvcHJvZHVjdGRldGFpbHM_cT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZwZHBvdmVybGF5PXRydWUmZ29pZD00NjQ5NjA4MjQ5NzQmZW50cnlQb2ludD1iaW5nc2VhcmNocGFnZSZiZ3NjZW5hcmlvPXRscCZvcmlnaW5RdWVyeT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZvdmVybGF5T2ZmZXJJZHM9NDQ5MjU0MTM5OTI3JTJjNDY0OTYwODI0OTc0JTJjMzg0NDc3Mzg1MzAwJTJjNDY2MjYwNDg4MjU4JTJjNDIzMDYwNzA1NDk5JTJjNDIyMTQ1MjYwNjMwJTJjNDY2MjEzMjg4MTEzJTJjNDY1MDkyMDA4NzM3JTJjMzg0NTE3MTE2MzEwJTJjNDA1MTM1MTg2NDUyJTJjNDQwNzk5MTUyMTE2JTJjNDY0MDkyNDM2MTg2JTJjNDY0MDgzNjIwNzUyJTJjMzk3NTU0MDc0NjM4JTJjMzg0OTI5OTIxNTE2JTJjMzkwNjQwODQ1MjEzJTJjNDM3MzE2NjkyMTY1JkZPUk09U1NBUEMx&ntb=1
+                    - img "Product Image" [ref=f11e696]
+                    - generic [ref=f11e698]:
+                      - generic "Acer Aspire Personal Laptop (2025):15.6\" FHD 1920 X 1080 60Hz 13th Generation Intel Core I9-13900H 16 GB RAM 1 TB SSD Win10 Home Wi-Fi 6E Backlit" [ref=f11e700]
+                      - generic [ref=f11e701]: Ubuy India
+                      - 'generic "Current Price: ₹1,25,027.00." [ref=f11e707]':
+                        - generic [ref=f11e710]:
+                          - generic [ref=f11e711]: ₹
+                          - generic [ref=f11e712]: 1,25,027
+                  - generic [ref=f11e713]: 2 of 16
+              - listitem [ref=f11e714]:
+                - generic [ref=f11e715]:
+                  - 'link "Product Image HP Laptop Computer For Home And Student, 16GB RAM, 384GB Storage 128GB UFS 256GB MSD, Office365 1-Year, 14 Inch, Intel N150 CPU Beats N4120, Wifi 6, Ubuy India Current Price: ₹46,965.00." [ref=f11e716] [cursor=pointer]':
+                    - /url: https://www.bing.com/ck/a?!&&p=7857458b05a99850d47ab418746f414b2380890e47513aff9fae49d171ad72cbJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvcHJvZHVjdGRldGFpbHM_cT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZwZHBvdmVybGF5PXRydWUmZ29pZD0zODQ0NzczODUzMDAmZW50cnlQb2ludD1iaW5nc2VhcmNocGFnZSZiZ3NjZW5hcmlvPXRscCZvcmlnaW5RdWVyeT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZvdmVybGF5T2ZmZXJJZHM9NDQ5MjU0MTM5OTI3JTJjNDY0OTYwODI0OTc0JTJjMzg0NDc3Mzg1MzAwJTJjNDY2MjYwNDg4MjU4JTJjNDIzMDYwNzA1NDk5JTJjNDIyMTQ1MjYwNjMwJTJjNDY2MjEzMjg4MTEzJTJjNDY1MDkyMDA4NzM3JTJjMzg0NTE3MTE2MzEwJTJjNDA1MTM1MTg2NDUyJTJjNDQwNzk5MTUyMTE2JTJjNDY0MDkyNDM2MTg2JTJjNDY0MDgzNjIwNzUyJTJjMzk3NTU0MDc0NjM4JTJjMzg0OTI5OTIxNTE2JTJjMzkwNjQwODQ1MjEzJTJjNDM3MzE2NjkyMTY1JkZPUk09U1NBUEMx&ntb=1
+                    - img "Product Image" [ref=f11e721]
+                    - generic [ref=f11e723]:
+                      - generic "HP Laptop Computer For Home And Student, 16GB RAM, 384GB Storage 128GB UFS 256GB MSD, Office365 1-Year, 14 Inch, Intel N150 CPU Beats N4120, Wifi 6," [ref=f11e725]
+                      - generic [ref=f11e726]: Ubuy India
+                      - 'generic "Current Price: ₹46,965.00." [ref=f11e732]':
+                        - generic [ref=f11e735]:
+                          - generic [ref=f11e736]: ₹
+                          - generic [ref=f11e737]: 46,965
+                  - generic [ref=f11e738]: 3 of 16
+              - listitem [ref=f11e739]:
+                - generic [ref=f11e740]:
+                  - 'link "Product Image Acer Aspire Personal Laptop, 14 WUXGA Touchscreen, Intel Ultra 7 258V 8 Cores, Intel Arc Graphics 140V, 32GB LPDDR5 4TB SSD, Win10 Home, HDMI 2.1, Ubuy India Current Price: ₹1,55,320.00." [ref=f11e741] [cursor=pointer]':
+                    - /url: https://www.bing.com/ck/a?!&&p=a585a93347afd657d23d81d45e88cf0dcb74375ad856ed6655029b533adea435JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvcHJvZHVjdGRldGFpbHM_cT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZwZHBvdmVybGF5PXRydWUmZ29pZD00NjYyNjA0ODgyNTgmZW50cnlQb2ludD1iaW5nc2VhcmNocGFnZSZiZ3NjZW5hcmlvPXRscCZvcmlnaW5RdWVyeT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZvdmVybGF5T2ZmZXJJZHM9NDQ5MjU0MTM5OTI3JTJjNDY0OTYwODI0OTc0JTJjMzg0NDc3Mzg1MzAwJTJjNDY2MjYwNDg4MjU4JTJjNDIzMDYwNzA1NDk5JTJjNDIyMTQ1MjYwNjMwJTJjNDY2MjEzMjg4MTEzJTJjNDY1MDkyMDA4NzM3JTJjMzg0NTE3MTE2MzEwJTJjNDA1MTM1MTg2NDUyJTJjNDQwNzk5MTUyMTE2JTJjNDY0MDkyNDM2MTg2JTJjNDY0MDgzNjIwNzUyJTJjMzk3NTU0MDc0NjM4JTJjMzg0OTI5OTIxNTE2JTJjMzkwNjQwODQ1MjEzJTJjNDM3MzE2NjkyMTY1JkZPUk09U1NBUEMx&ntb=1
+                    - img "Product Image" [ref=f11e746]
+                    - generic [ref=f11e748]:
+                      - generic "Acer Aspire Personal Laptop, 14 WUXGA Touchscreen, Intel Ultra 7 258V 8 Cores, Intel Arc Graphics 140V, 32GB LPDDR5 4TB SSD, Win10 Home, HDMI 2.1," [ref=f11e750]
+                      - generic [ref=f11e751]: Ubuy India
+                      - 'generic "Current Price: ₹1,55,320.00." [ref=f11e757]':
+                        - generic [ref=f11e760]:
+                          - generic [ref=f11e761]: ₹
+                          - generic [ref=f11e762]: 1,55,320
+                  - generic [ref=f11e763]: 4 of 16
+              - listitem [ref=f11e764]:
+                - generic [ref=f11e765]:
+                  - 'link "Product Image Acer Aspire Personal Laptop 2025:14 WUXGA 1920 X 1200 60Hz Intel Core Ultra 7 258V 32 GB DDR5 SDRAM 2 TB Nvme SSD Win10 Pro Wi-Fi 6E Backlit KB 1080P Ubuy India Current Price: ₹1,61,145.00." [ref=f11e766] [cursor=pointer]':
+                    - /url: https://www.bing.com/ck/a?!&&p=bda8e6399ccd71178cf9ccb81648d6f9a53163a110c1d026307298ddae291e7cJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvcHJvZHVjdGRldGFpbHM_cT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZwZHBvdmVybGF5PXRydWUmZ29pZD00MjMwNjA3MDU0OTkmZW50cnlQb2ludD1iaW5nc2VhcmNocGFnZSZiZ3NjZW5hcmlvPXRscCZvcmlnaW5RdWVyeT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZvdmVybGF5T2ZmZXJJZHM9NDQ5MjU0MTM5OTI3JTJjNDY0OTYwODI0OTc0JTJjMzg0NDc3Mzg1MzAwJTJjNDY2MjYwNDg4MjU4JTJjNDIzMDYwNzA1NDk5JTJjNDIyMTQ1MjYwNjMwJTJjNDY2MjEzMjg4MTEzJTJjNDY1MDkyMDA4NzM3JTJjMzg0NTE3MTE2MzEwJTJjNDA1MTM1MTg2NDUyJTJjNDQwNzk5MTUyMTE2JTJjNDY0MDkyNDM2MTg2JTJjNDY0MDgzNjIwNzUyJTJjMzk3NTU0MDc0NjM4JTJjMzg0OTI5OTIxNTE2JTJjMzkwNjQwODQ1MjEzJTJjNDM3MzE2NjkyMTY1JkZPUk09U1NBUEMx&ntb=1
+                    - img "Product Image" [ref=f11e771]
+                    - generic [ref=f11e773]:
+                      - generic "Acer Aspire Personal Laptop 2025:14 WUXGA 1920 X 1200 60Hz Intel Core Ultra 7 258V 32 GB DDR5 SDRAM 2 TB Nvme SSD Win10 Pro Wi-Fi 6E Backlit KB 1080P" [ref=f11e775]
+                      - generic [ref=f11e776]: Ubuy India
+                      - 'generic "Current Price: ₹1,61,145.00." [ref=f11e782]':
+                        - generic [ref=f11e785]:
+                          - generic [ref=f11e786]: ₹
+                          - generic [ref=f11e787]: 1,61,145
+                  - generic [ref=f11e788]: 5 of 16
+              - listitem [ref=f11e789]:
+                - generic [ref=f11e790]:
+                  - 'link "Product Image GEEKOM Geekbook X14 Pro Laptop, 2.2Lbs Ultra Thin 14\" 2.8K OLED Laptop Computer, Ultra 9 Ubuy India Current Price: ₹1,40,173.00." [ref=f11e791] [cursor=pointer]':
+                    - /url: https://www.bing.com/ck/a?!&&p=6c11cbd8f91a68cbb5c12d680d325925e8a34979066fe7e0957dc0ec5bdf75acJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvcHJvZHVjdGRldGFpbHM_cT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZwZHBvdmVybGF5PXRydWUmZ29pZD00MjIxNDUyNjA2MzAmZW50cnlQb2ludD1iaW5nc2VhcmNocGFnZSZiZ3NjZW5hcmlvPXRscCZvcmlnaW5RdWVyeT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZvdmVybGF5T2ZmZXJJZHM9NDQ5MjU0MTM5OTI3JTJjNDY0OTYwODI0OTc0JTJjMzg0NDc3Mzg1MzAwJTJjNDY2MjYwNDg4MjU4JTJjNDIzMDYwNzA1NDk5JTJjNDIyMTQ1MjYwNjMwJTJjNDY2MjEzMjg4MTEzJTJjNDY1MDkyMDA4NzM3JTJjMzg0NTE3MTE2MzEwJTJjNDA1MTM1MTg2NDUyJTJjNDQwNzk5MTUyMTE2JTJjNDY0MDkyNDM2MTg2JTJjNDY0MDgzNjIwNzUyJTJjMzk3NTU0MDc0NjM4JTJjMzg0OTI5OTIxNTE2JTJjMzkwNjQwODQ1MjEzJTJjNDM3MzE2NjkyMTY1JkZPUk09U1NBUEMx&ntb=1
+                    - img "Product Image" [ref=f11e796]
+                    - generic [ref=f11e798]:
+                      - generic "GEEKOM Geekbook X14 Pro Laptop, 2.2Lbs Ultra Thin 14\" 2.8K OLED Laptop Computer, Ultra 9" [ref=f11e800]
+                      - generic [ref=f11e801]: Ubuy India
+                      - 'generic "Current Price: ₹1,40,173.00." [ref=f11e807]':
+                        - generic [ref=f11e810]:
+                          - generic [ref=f11e811]: ₹
+                          - generic [ref=f11e812]: 1,40,173
+                  - generic [ref=f11e813]: 6 of 16
+              - listitem [ref=f11e814]:
+                - generic [ref=f11e815]:
+                  - 'link "Product Image Acer Aspire Go 15 Laptop: 15.3 WUXGA Display 13th Generation Intel Core I5-1334U Intel Iris Xe Graphics 16 GB DDR5 SDRAM 2 TB Nvme Ubuy India Current Price: ₹91,239.00." [ref=f11e816] [cursor=pointer]':
+                    - /url: https://www.bing.com/ck/a?!&&p=4eb5c95d57aff359f816e9e4f4bdfeb108f322bff58e88b05105b8e5e208b273JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvcHJvZHVjdGRldGFpbHM_cT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZwZHBvdmVybGF5PXRydWUmZ29pZD00NjYyMTMyODgxMTMmZW50cnlQb2ludD1iaW5nc2VhcmNocGFnZSZiZ3NjZW5hcmlvPXRscCZvcmlnaW5RdWVyeT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZvdmVybGF5T2ZmZXJJZHM9NDQ5MjU0MTM5OTI3JTJjNDY0OTYwODI0OTc0JTJjMzg0NDc3Mzg1MzAwJTJjNDY2MjYwNDg4MjU4JTJjNDIzMDYwNzA1NDk5JTJjNDIyMTQ1MjYwNjMwJTJjNDY2MjEzMjg4MTEzJTJjNDY1MDkyMDA4NzM3JTJjMzg0NTE3MTE2MzEwJTJjNDA1MTM1MTg2NDUyJTJjNDQwNzk5MTUyMTE2JTJjNDY0MDkyNDM2MTg2JTJjNDY0MDgzNjIwNzUyJTJjMzk3NTU0MDc0NjM4JTJjMzg0OTI5OTIxNTE2JTJjMzkwNjQwODQ1MjEzJTJjNDM3MzE2NjkyMTY1JkZPUk09U1NBUEMx&ntb=1
+                    - img "Product Image" [ref=f11e821]
+                    - generic [ref=f11e823]:
+                      - 'generic "Acer Aspire Go 15 Laptop: 15.3 WUXGA Display 13th Generation Intel Core I5-1334U Intel Iris Xe Graphics 16 GB DDR5 SDRAM 2 TB Nvme" [ref=f11e825]'
+                      - generic [ref=f11e826]: Ubuy India
+                      - 'generic "Current Price: ₹91,239.00." [ref=f11e832]':
+                        - generic [ref=f11e835]:
+                          - generic [ref=f11e836]: ₹
+                          - generic [ref=f11e837]: 91,239
+                  - generic [ref=f11e838]: 7 of 16
+              - listitem [ref=f11e839]:
+                - generic [ref=f11e840]:
+                  - 'link "Product Image Acer Aspire Go 15 15.6\" Intel Core I9-13900H 32GB Memory 512GB Pcie SSD Windows 11 Home AG15-72P-97RC Ubuy India Current Price: ₹1,03,758.00." [ref=f11e841] [cursor=pointer]':
+                    - /url: https://www.bing.com/ck/a?!&&p=4d1d7411aee11a60c52a7507bc07c6ef4bf2b27c9469fd2bfaea58634a82d18eJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvcHJvZHVjdGRldGFpbHM_cT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZwZHBvdmVybGF5PXRydWUmZ29pZD00NjUwOTIwMDg3MzcmZW50cnlQb2ludD1iaW5nc2VhcmNocGFnZSZiZ3NjZW5hcmlvPXRscCZvcmlnaW5RdWVyeT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZvdmVybGF5T2ZmZXJJZHM9NDQ5MjU0MTM5OTI3JTJjNDY0OTYwODI0OTc0JTJjMzg0NDc3Mzg1MzAwJTJjNDY2MjYwNDg4MjU4JTJjNDIzMDYwNzA1NDk5JTJjNDIyMTQ1MjYwNjMwJTJjNDY2MjEzMjg4MTEzJTJjNDY1MDkyMDA4NzM3JTJjMzg0NTE3MTE2MzEwJTJjNDA1MTM1MTg2NDUyJTJjNDQwNzk5MTUyMTE2JTJjNDY0MDkyNDM2MTg2JTJjNDY0MDgzNjIwNzUyJTJjMzk3NTU0MDc0NjM4JTJjMzg0OTI5OTIxNTE2JTJjMzkwNjQwODQ1MjEzJTJjNDM3MzE2NjkyMTY1JkZPUk09U1NBUEMx&ntb=1
+                    - img "Product Image" [ref=f11e846]
+                    - generic [ref=f11e848]:
+                      - generic "Acer Aspire Go 15 15.6\" Intel Core I9-13900H 32GB Memory 512GB Pcie SSD Windows 11 Home AG15-72P-97RC" [ref=f11e850]
+                      - generic [ref=f11e851]: Ubuy India
+                      - 'generic "Current Price: ₹1,03,758.00." [ref=f11e857]':
+                        - generic [ref=f11e860]:
+                          - generic [ref=f11e861]: ₹
+                          - generic [ref=f11e862]: 1,03,758
+                  - generic [ref=f11e863]: 8 of 16
+              - listitem [ref=f11e864]:
+                - generic [ref=f11e865]:
+                  - 'link "Product Image Acer Aspire Premium Laptop For Home Or Work | AMD Ryzen 7 5700U Beats I7-1250U | Trial MS Office, | 64GB RAM | 2TB SSD | Ethernet Port | HDMI | Ubuy India Current Price: ₹84,249.00." [ref=f11e866] [cursor=pointer]':
+                    - /url: https://www.bing.com/ck/a?!&&p=1e7a8578aa992ab5b5e385eec795594cdc90d696dab6bef9fa8b0cdc64a3a703JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvcHJvZHVjdGRldGFpbHM_cT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZwZHBvdmVybGF5PXRydWUmZ29pZD0zODQ1MTcxMTYzMTAmZW50cnlQb2ludD1iaW5nc2VhcmNocGFnZSZiZ3NjZW5hcmlvPXRscCZvcmlnaW5RdWVyeT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZvdmVybGF5T2ZmZXJJZHM9NDQ5MjU0MTM5OTI3JTJjNDY0OTYwODI0OTc0JTJjMzg0NDc3Mzg1MzAwJTJjNDY2MjYwNDg4MjU4JTJjNDIzMDYwNzA1NDk5JTJjNDIyMTQ1MjYwNjMwJTJjNDY2MjEzMjg4MTEzJTJjNDY1MDkyMDA4NzM3JTJjMzg0NTE3MTE2MzEwJTJjNDA1MTM1MTg2NDUyJTJjNDQwNzk5MTUyMTE2JTJjNDY0MDkyNDM2MTg2JTJjNDY0MDgzNjIwNzUyJTJjMzk3NTU0MDc0NjM4JTJjMzg0OTI5OTIxNTE2JTJjMzkwNjQwODQ1MjEzJTJjNDM3MzE2NjkyMTY1JkZPUk09U1NBUEMx&ntb=1
+                    - img "Product Image" [ref=f11e871]
+                    - generic [ref=f11e873]:
+                      - generic "Acer Aspire Premium Laptop For Home Or Work | AMD Ryzen 7 5700U Beats I7-1250U | Trial MS Office, | 64GB RAM | 2TB SSD | Ethernet Port | HDMI |" [ref=f11e875]
+                      - generic [ref=f11e876]: Ubuy India
+                      - 'generic "Current Price: ₹84,249.00." [ref=f11e882]':
+                        - generic [ref=f11e885]:
+                          - generic [ref=f11e886]: ₹
+                          - generic [ref=f11e887]: 84,249
+                  - generic [ref=f11e888]: 9 of 16
+              - listitem [ref=f11e889]:
+                - generic [ref=f11e890]:
+                  - 'link "Product Image HP Chromebook X360 14A 2-In-1 Laptop, Intel Pentium Silver N5000 Processor, 4 GB RAM, 64 Ubuy India Current Price: ₹33,683.00." [ref=f11e891] [cursor=pointer]':
+                    - /url: https://www.bing.com/ck/a?!&&p=aa666db1b1c00906b7ac95fd8c4c7639d857033521dc6b0933b004f8c2d5cdbeJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvcHJvZHVjdGRldGFpbHM_cT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZwZHBvdmVybGF5PXRydWUmZ29pZD00MDUxMzUxODY0NTImZW50cnlQb2ludD1iaW5nc2VhcmNocGFnZSZiZ3NjZW5hcmlvPXRscCZvcmlnaW5RdWVyeT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZvdmVybGF5T2ZmZXJJZHM9NDQ5MjU0MTM5OTI3JTJjNDY0OTYwODI0OTc0JTJjMzg0NDc3Mzg1MzAwJTJjNDY2MjYwNDg4MjU4JTJjNDIzMDYwNzA1NDk5JTJjNDIyMTQ1MjYwNjMwJTJjNDY2MjEzMjg4MTEzJTJjNDY1MDkyMDA4NzM3JTJjMzg0NTE3MTE2MzEwJTJjNDA1MTM1MTg2NDUyJTJjNDQwNzk5MTUyMTE2JTJjNDY0MDkyNDM2MTg2JTJjNDY0MDgzNjIwNzUyJTJjMzk3NTU0MDc0NjM4JTJjMzg0OTI5OTIxNTE2JTJjMzkwNjQwODQ1MjEzJTJjNDM3MzE2NjkyMTY1JkZPUk09U1NBUEMx&ntb=1
+                    - img "Product Image" [ref=f11e896]
+                    - generic [ref=f11e898]:
+                      - generic "HP Chromebook X360 14A 2-In-1 Laptop, Intel Pentium Silver N5000 Processor, 4 GB RAM, 64" [ref=f11e900]
+                      - generic [ref=f11e901]: Ubuy India
+                      - 'generic "Current Price: ₹33,683.00." [ref=f11e907]':
+                        - generic [ref=f11e910]:
+                          - generic [ref=f11e911]: ₹
+                          - generic [ref=f11e912]: 33,683
+                  - generic [ref=f11e913]: 10 of 16
+              - listitem [ref=f11e914]:
+                - generic [ref=f11e915]:
+                  - 'link "Product Image HP Chromebook Student & Business Laptop, 14 Display, Intel Celeron N4120, 4GB RAM, 128GB Storage 64GB Emmc64gb MSD Card, Intel UHD Graphics 600, Ubuy India Current Price: ₹21,333.00." [ref=f11e916] [cursor=pointer]':
+                    - /url: https://www.bing.com/ck/a?!&&p=c44ca1eae9bf7d82ed50327ded6aa94a160cbfe35dde3de5c27fb21b1b88cccfJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvcHJvZHVjdGRldGFpbHM_cT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZwZHBvdmVybGF5PXRydWUmZ29pZD00NDA3OTkxNTIxMTYmZW50cnlQb2ludD1iaW5nc2VhcmNocGFnZSZiZ3NjZW5hcmlvPXRscCZvcmlnaW5RdWVyeT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZvdmVybGF5T2ZmZXJJZHM9NDQ5MjU0MTM5OTI3JTJjNDY0OTYwODI0OTc0JTJjMzg0NDc3Mzg1MzAwJTJjNDY2MjYwNDg4MjU4JTJjNDIzMDYwNzA1NDk5JTJjNDIyMTQ1MjYwNjMwJTJjNDY2MjEzMjg4MTEzJTJjNDY1MDkyMDA4NzM3JTJjMzg0NTE3MTE2MzEwJTJjNDA1MTM1MTg2NDUyJTJjNDQwNzk5MTUyMTE2JTJjNDY0MDkyNDM2MTg2JTJjNDY0MDgzNjIwNzUyJTJjMzk3NTU0MDc0NjM4JTJjMzg0OTI5OTIxNTE2JTJjMzkwNjQwODQ1MjEzJTJjNDM3MzE2NjkyMTY1JkZPUk09U1NBUEMx&ntb=1
+                    - img "Product Image" [ref=f11e921]
+                    - generic [ref=f11e923]:
+                      - generic "HP Chromebook Student & Business Laptop, 14 Display, Intel Celeron N4120, 4GB RAM, 128GB Storage 64GB Emmc64gb MSD Card, Intel UHD Graphics 600," [ref=f11e925]
+                      - generic [ref=f11e926]: Ubuy India
+                      - 'generic "Current Price: ₹21,333.00." [ref=f11e932]':
+                        - generic [ref=f11e935]:
+                          - generic [ref=f11e936]: ₹
+                          - generic [ref=f11e937]: 21,333
+                  - generic [ref=f11e938]: 11 of 16
+              - listitem [ref=f11e939]:
+                - generic [ref=f11e940]:
+                  - 'link "Product Image ASUS Chromebook CX1 Laptop (14\" FHD Touchscreen, Intel Celeron, 8GB RAM, 256GB Storage (128GB Emmc+128GB SD Card)) Home & Student, Spill-Resistant, Ubuy India Current Price: ₹38,199.00." [ref=f11e941] [cursor=pointer]':
+                    - /url: https://www.bing.com/ck/a?!&&p=130b3ed7eeb4289432becf28b201e5273b8bfd0dacc12b6d164f90b9d0e5b918JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvcHJvZHVjdGRldGFpbHM_cT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZwZHBvdmVybGF5PXRydWUmZ29pZD00NjQwOTI0MzYxODYmZW50cnlQb2ludD1iaW5nc2VhcmNocGFnZSZiZ3NjZW5hcmlvPXRscCZvcmlnaW5RdWVyeT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZvdmVybGF5T2ZmZXJJZHM9NDQ5MjU0MTM5OTI3JTJjNDY0OTYwODI0OTc0JTJjMzg0NDc3Mzg1MzAwJTJjNDY2MjYwNDg4MjU4JTJjNDIzMDYwNzA1NDk5JTJjNDIyMTQ1MjYwNjMwJTJjNDY2MjEzMjg4MTEzJTJjNDY1MDkyMDA4NzM3JTJjMzg0NTE3MTE2MzEwJTJjNDA1MTM1MTg2NDUyJTJjNDQwNzk5MTUyMTE2JTJjNDY0MDkyNDM2MTg2JTJjNDY0MDgzNjIwNzUyJTJjMzk3NTU0MDc0NjM4JTJjMzg0OTI5OTIxNTE2JTJjMzkwNjQwODQ1MjEzJTJjNDM3MzE2NjkyMTY1JkZPUk09U1NBUEMx&ntb=1
+                    - img "Product Image" [ref=f11e946]
+                    - generic [ref=f11e948]:
+                      - generic "ASUS Chromebook CX1 Laptop (14\" FHD Touchscreen, Intel Celeron, 8GB RAM, 256GB Storage (128GB Emmc+128GB SD Card)) Home & Student, Spill-Resistant," [ref=f11e950]
+                      - generic [ref=f11e951]: Ubuy India
+                      - 'generic "Current Price: ₹38,199.00." [ref=f11e957]':
+                        - generic [ref=f11e960]:
+                          - generic [ref=f11e961]: ₹
+                          - generic [ref=f11e962]: 38,199
+                  - generic [ref=f11e963]: 12 of 16
+            - link "See all" [ref=f11e968] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=0f57ae10b9bc3623cefccc8210dcafe68094d1a4320402984781d49575b4ed19JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3Nob3AvdG9waWNzP3E9YmVzdCtzZWxsaW5nK2xhcHRvcHMmRk9STT1TU0FTQUI&ntb=1
+        - listitem [ref=f11e971]:
+          - link "accio.com" [ref=f11e973] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=e57145b7bb899120df1ccce72dde478f20773c67ec09bef4b73ca760af99af2fJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1aHR0cHM6Ly93d3cuYWNjaW8uY29tL2J1c2luZXNzL2Jlc3Qtc2VsbGluZy1sYXB0b3BzLWluLWluZGlh&ntb=1
+            - generic [ref=f11e978]:
+              - generic [ref=f11e979]: accio.com
+              - generic [ref=f11e980]: https://www.accio.com
+          - heading "Best Selling Laptops in India 2026 - accio.com" [level=2] [ref=f11e983]:
+            - link "Best Selling Laptops in India 2026 - accio.com":
+              - /url: https://www.bing.com/ck/a?!&&p=e57145b7bb899120df1ccce72dde478f20773c67ec09bef4b73ca760af99af2fJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1aHR0cHM6Ly93d3cuYWNjaW8uY29tL2J1c2luZXNzL2Jlc3Qtc2VsbGluZy1sYXB0b3BzLWluLWluZGlh&ntb=1
+          - paragraph [ref=f11e985]: Jul 14, 2026 · Discover the top-selling laptops in India for 2026. From HP and Lenovo to gaming and budget picks, find the best models for work, study, or entertainment. Click to explore expert …
+        - listitem [ref=f11e986]:
+          - link "91mobiles.com" [ref=f11e988] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=b1cbf4a8227edceddec84ecdf1d6f21341500d613abb2fb63aae89621cd043bbJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1aHR0cHM6Ly93d3cuOTFtb2JpbGVzLmNvbS9saXN0LW9mLWxhcHRvcHMvYmVzdC1sYXB0b3BzLWluLWluZGlh&ntb=1
+            - generic [ref=f11e993]:
+              - generic [ref=f11e994]: 91mobiles.com
+              - generic [ref=f11e995]: https://www.91mobiles.com
+          - heading "Best laptops in India with price, Best Laptops/ Notebooks in India ..." [level=2] [ref=f11e998]:
+            - link "Best laptops in India with price, Best Laptops/ Notebooks in India ...":
+              - /url: https://www.bing.com/ck/a?!&&p=b1cbf4a8227edceddec84ecdf1d6f21341500d613abb2fb63aae89621cd043bbJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1aHR0cHM6Ly93d3cuOTFtb2JpbGVzLmNvbS9saXN0LW9mLWxhcHRvcHMvYmVzdC1sYXB0b3BzLWluLWluZGlh&ntb=1
+          - paragraph [ref=f11e1000]: Discover the best laptops in India for every budget and need. Whether you're a gamer seeking powerful graphics, a professional needing an ultrabook with all-day battery life, or a student looking for value, …
+        - listitem [ref=f11e1001]:
+          - link "Amazon" [ref=f11e1003] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=f79cfb2b70fa5abab9b1e2384a9887d349740a048e3a1f1e0ca021504d505973JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1aHR0cHM6Ly93d3cuYW1hem9uLmluL2dwL2Jlc3RzZWxsZXJzL2NvbXB1dGVycy8yMjk2Mzc5NjAzMS8&ntb=1
+            - generic [ref=f11e1008]:
+              - generic [ref=f11e1009]: Amazon
+              - generic [ref=f11e1010]: https://www.amazon.in
+          - 'heading "Amazon.in Bestsellers: The most popular items in Traditional Laptops" [level=2] [ref=f11e1013]':
+            - 'link "Amazon.in Bestsellers: The most popular items in Traditional Laptops"':
+              - /url: https://www.bing.com/ck/a?!&&p=f79cfb2b70fa5abab9b1e2384a9887d349740a048e3a1f1e0ca021504d505973JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1aHR0cHM6Ly93d3cuYW1hem9uLmluL2dwL2Jlc3RzZWxsZXJzL2NvbXB1dGVycy8yMjk2Mzc5NjAzMS8&ntb=1
+          - paragraph [ref=f11e1015]: Our most popular products based on sales. Updated frequently.
+        - listitem [ref=f11e1016]:
+          - list [ref=f11e1017]:
+            - listitem [ref=f11e1018]:
+              - generic [ref=f11e1019]:
+                - generic [ref=f11e1020] [cursor=pointer]:
+                  - generic [ref=f11e1021]: Dell India
+                  - generic [ref=f11e1026]:
+                    - generic [ref=f11e1027]: https://www.dellstore.com › dell_windows_11 › laptops
+                    - button [ref=f11e1028]:
+                      - img "About our ads" [ref=f11e1030]
+                - heading [level=2] [ref=f11e1031]:
+                  - link "Dell Laptops with Windows 11 | Exclusively on Dell Website" [ref=f11e1032] [cursor=pointer]:
+                    - /url: https://www.bing.com/aclk?ld=e8bJ6yZcto3tRqWUnJQOqg_zVUCUyAjFLyV2MyobubHRJYXCk77ECW8wM0NKBrhpMjxS6FMmZa53MeK8eC31kjFeHsIfwAdCqIFK24c1NmrEcfSvN-aJ_hSEPxEVjo9Es89ZpVuwBIlazJbOWEitcKhSb7icutZtunLTk979m4tKK_dCr57Zbn9KaULc4VNEIJX9CyIdtSmbBHmIlCKyT5Et8A3VA&u=aHR0cHMlM2ElMmYlMmZ3d3cuZGVsbHN0b3JlLmNvbSUyZmRlYWxzJTJmbGFwdG9wLWRlYWxzLmh0bWwlM2ZnYWNkJTNkMTA0MTU5NTMtMTMwOTItNTc2MTA0MC0yODU5ODEzNTYtMCUyNmRnYyUzZFNUJTI2U0EzNjBDSUQlM2QyMTMxMDE2Mjc3NiUyNmdjbGlkJTNkNzkwYjc1OTQyMzY1MWM1M2ZmYmMxZmZkOTBmNWRmYzklMjZnY2xzcmMlM2QzcC5kcyUyNm1zY2xraWQlM2Q3OTBiNzU5NDIzNjUxYzUzZmZiYzFmZmQ5MGY1ZGZjOQ&rlid=790b759423651c53ffbc1ffd90f5dfc9&ntb=1
+                - generic [ref=f11e1033]:
+                  - generic [ref=f11e1034]:
+                    - generic [ref=f11e1035]: Sponsored
+                    - text: Dell Ultraslim Laptops Pre-installed With Windows 11 Home. Customize your Dell shopping experience now!
+                  - paragraph [ref=f11e1038]:
+                    - link "Shanti Bhawan Road, Giridh · 13.8 km" [ref=f11e1040] [cursor=pointer]:
+                      - /url: https://www.bing.com/aclk?ld=e8xzwJJZS5RLGzOW9RKOob_jVUCUwTIwtvKgAkFkWhhin5SxGNNne1MhbiL4-kplp3OYvviL5jV9JglKadOEOz1goSw673Ep1rt1X0FsOEhA84z8oGadsGw1ZoRahOBClLpfHiQRrhRU9HY_wuGAqyk_uoZzqJjQCwz3Nze37OGB3V-p988o7QfKqVJ4FKLEpK6emVCgOPrB17kGLYpuZMPTkKpZXYznaHNGHyuaPM3OyO4WBu&u=aHR0cCUzYSUyZiUyZnd3dy5iaW5nLmNvbSUyZm1hcHMlMmYlM2Z2JTNkMiUyNm1vZGUlM2REJTI2Zm9ybSUzZEFEQklORyUyNndoZXJlMSUzZFNoYW50aSUyYkJoYXdhbiUyYlJvYWQlMmJHaXJpZGglMmJKSCUyYjgxNTMwMSUyYklOJTI2cnRwJTNkJTdlcG9zLjI0LjE4ODIwOF84Ni4zMDgyNV9TaGFudGklMmJCaGF3YW4lMmJSb2FkJTJiR2lyaWRoJTJiSkglMmI4MTUzMDElMmJJTl9EZWxsJTJiRXhjbHVzaXZlJTJiU3RvcmVfOTQzMTE1NjQ2OCUyNnNldGxhbmclM2RFTi1VUw&rlid=458b79a12a12151bde7d13c899826962&ntb=1
+                    - text: · 9431156468
+            - listitem [ref=f11e1041]:
+              - generic [ref=f11e1042]:
+                - generic [ref=f11e1043] [cursor=pointer]:
+                  - generic [ref=f11e1044]: Amazon
+                  - generic [ref=f11e1049]:
+                    - generic [ref=f11e1050]: www.amazon.in › Sale-Offers › electronics
+                    - button [ref=f11e1051]:
+                      - img "About our ads" [ref=f11e1053]
+                - heading [level=2] [ref=f11e1054]:
+                  - link "Amazon Great Republic Day Sale | New Beginnings, Big Savings" [ref=f11e1055] [cursor=pointer]:
+                    - /url: https://www.bing.com/aclk?ld=e8TZbnhvsEMotRJEQGe24VkTVUCUxwguJXMj4Cz0wPXGIe3v6JlDQhbkVDRA8rXSIIzzLV0B359DtdEJNKsHI_LNj0T_xKg6w7qbKVT84lTUb1-iG4rO6JgXHk9Zgn4sg75xruqu6dl3N3doQa9TXCRwQzupnWrqU3JC4yGjWKCYUnVMQYJvlzcIDUaa8dz6Sb7Oe1KU8RRyxDTZcETlZ0_pgFgas&u=aHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmluJTJmcyUyZiUzZmllJTNkVVRGOCUyNmtleXdvcmRzJTNkbGFwdG9wcyUyNTI3JTI2aW5kZXglM2Rjb21wdXRlcnMlMjZ0YWclM2Rtc25kZXNrc3RkaW4tMjElMjZyZWYlM2RwZF9zbF81ZG9hYjh4NmdlX3AlMjZhZGdycGlkJTNkMTMxMzkxODAwNTEyNTI4MSUyNmh2YWRpZCUzZDgyMTIwMTM0NTY5NjcxJTI2aHZuZXR3JTNkbyUyNmh2cW10JTNkcCUyNmh2Ym10JTNkYnAlMjZodmRldiUzZGMlMjZodmxvY2ludCUzZCUyNmh2bG9jcGh5JTNkMjYwNDY3JTI2aHZ0YXJnaWQlM2Rrd2QtODIxMjA3NTc5MTQxMjAlM2Fsb2MtOTAlMjZoeWRhZGNyJTNkMTQyMTZfMjE3MzY1OCUyNm1jaWQlM2Q1MTBjYzE4NDhlZmEzNWU5YmNmMWI0YjBhNWU0MDg0MCUyNm1zY2xraWQlM2QwMzUwMzA5MDJmYmQxNzBiOGM5OTVhZjk5YzJkNjUwYQ&rlid=035030902fbd170b8c995af99c2d650a&ntb=1
+                - generic [ref=f11e1056]:
+                  - generic [ref=f11e1057]:
+                    - generic [ref=f11e1058]: Sponsored
+                    - text: 10% Instant Discount with SBI Credit Card* (*T&C apply). Get great deals
+                  - generic [ref=f11e1061]:
+                    - strong [ref=f11e1062]: "Site visitors:"
+                    - text: Over 1M in the past month
+                  - paragraph [ref=f11e1063]: Durable Cable Designs · Fast Delivery Available · Easy Online Shopping
+        - listitem [ref=f11e1064]:
+          - generic [ref=f11e1065]:
+            - heading [level=2] [ref=f11e1066]:
+              - link "Images of Best Selling Laptops" [ref=f11e1067] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=ee0204dfa6674a47751ad9350fde1ade5fbe6a2cc98e20c1347a0c993d20440fJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L2ltYWdlcy9zZWFyY2g_cT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZxcHZ0PWJlc3Qrc2VsbGluZytsYXB0b3BzJkZPUk09SUdSRQ&ntb=1
+              - navigation "Related searches" [ref=f11e1072]:
+                - generic [ref=f11e1074]:
+                  - button [ref=f11e1075]
+                  - button "Click to scroll right" [ref=f11e1080] [cursor=pointer]
+                  - list "Please use arrow keys to navigate" [ref=f11e1087]:
+                    - listitem [ref=f11e1088]:
+                      - link "Best Laptop in the World" [ref=f11e1089] [cursor=pointer]:
+                        - /url: https://www.bing.com/ck/a?!&&p=77db59e77f0f95fd97432c07ea508e143a211356d8aff7ea2d144f25473cf9bdJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3NlYXJjaD9xPUJlc3QrTGFwdG9wK2luK3RoZStXb3JsZCZtbXJlcXJ5PXJzZ2JpbWcmbW1yZXFoPXBoYiUyYnc5WDZ5b0MxU3BBUHBVS3NPcnVSbDkyT25STHNGS01JOWxxNmJGayUzZCZGT1JNPUlSU1NSUA&ntb=1
+                    - listitem [ref=f11e1094]:
+                      - link "10 Best Laptops" [ref=f11e1095] [cursor=pointer]:
+                        - /url: https://www.bing.com/ck/a?!&&p=5242abf837732018f4a2164728b4baee3c4e96793e975109f0c0b6736484d35aJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3NlYXJjaD9xPTEwK0Jlc3QrTGFwdG9wcyZtbXJlcXJ5PXJzZ2JpbWcmbW1yZXFoPTVSN2hLdU1RTVdmSEthOE1vcWdXN0o2N0Q5TWNHdDdPeTlGUFFtTHE4ZHclM2QmRk9STT1JUlNTUlA&ntb=1
+                    - listitem [ref=f11e1100]:
+                      - link "Best Budget Laptops" [ref=f11e1101] [cursor=pointer]:
+                        - /url: https://www.bing.com/ck/a?!&&p=79a682454d238760d340c5c2b37a128a75077ecae59f6e6fe312c63f63bc6963JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3NlYXJjaD9xPUJlc3QrQnVkZ2V0K0xhcHRvcHMmbW1yZXFyeT1yc2diaW1nJm1tcmVxaD1wa0xROG82YkxER1BFJTJmcXczUUR2MUd2M0Rrczh2RVJlM2dNVjh1RXNSZlElM2QmRk9STT1JUlNTUlA&ntb=1
+                    - listitem [ref=f11e1106]:
+                      - link "Top 10 Laptop Brands" [ref=f11e1107] [cursor=pointer]:
+                        - /url: https://www.bing.com/ck/a?!&&p=0c7912ecb2106e3f77dab6a5346be4206f0f79e8df1d6769e282367e376c20baJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3NlYXJjaD9xPVRvcCsxMCtMYXB0b3ArQnJhbmRzJm1tcmVxcnk9cnNnYmltZyZtbXJlcWg9ZWhhWmZPTzVjOGl4ZUElMmJ5YVVFZWt2cFBYYlVUZmElMmJXcHBLcnlPOHBTUlElM2QmRk9STT1JUlNTUlA&ntb=1
+                    - listitem [ref=f11e1112]:
+                      - link "Top 10 Best Laptop Computers" [ref=f11e1113] [cursor=pointer]:
+                        - /url: https://www.bing.com/ck/a?!&&p=8ad766695e1bced24c965d224998e95a155ab0f468dab64615eae12dd3109cffJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3NlYXJjaD9xPVRvcCsxMCtCZXN0K0xhcHRvcCtDb21wdXRlcnMmbW1yZXFyeT1yc2diaW1nJm1tcmVxaD1WSHIlMmZxWUJxY2pGZDhTcXVqM2tyRHNJZTlwUzVvd2R4cDYlMmYxem1PenglMmY0JTNkJkZPUk09SVJTU1JQ&ntb=1
+                    - listitem [ref=f11e1118]:
+                      - link "Best Touch Screen Laptops" [ref=f11e1119] [cursor=pointer]:
+                        - /url: https://www.bing.com/ck/a?!&&p=fe6747eba94122f59723015a6bb281e680032391ced845fa6ab9b2c2a2fa104eJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3NlYXJjaD9xPUJlc3QrVG91Y2grU2NyZWVuK0xhcHRvcHMmbW1yZXFyeT1yc2diaW1nJm1tcmVxaD1ERWY0Q1hIeTRHJTJiWlloc1pLaWs2aEFvaUE0Vno2WUtBMElkOGl4S2hGVWclM2QmRk9STT1JUlNTUlA&ntb=1
+                    - listitem [ref=f11e1124]:
+                      - link "Best Laptops for College Students" [ref=f11e1125] [cursor=pointer]:
+                        - /url: https://www.bing.com/ck/a?!&&p=efda842b7e71a8b32da4bfc336ef4149fc9a67df03b3b47cd1284d8bb53a4b92JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3NlYXJjaD9xPUJlc3QrTGFwdG9wcytmb3IrQ29sbGVnZStTdHVkZW50cyZtbXJlcXJ5PXJzZ2JpbWcmbW1yZXFoPTF3eGp3OVVKTyUyYk1qQk45MUNJViUyYk9wdlNubTZIUUhjTGo4SHVWRlcxS1VBJTNkJkZPUk09SVJTU1JQ&ntb=1
+                    - listitem [ref=f11e1130]:
+                      - link "Best Asus Laptop" [ref=f11e1131] [cursor=pointer]:
+                        - /url: https://www.bing.com/ck/a?!&&p=dabe95125747087d5970c674733c19b00a53c868580827ea68f0ce21d318e6adJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3NlYXJjaD9xPUJlc3QrQXN1cytMYXB0b3AmbW1yZXFyeT1yc2diaW1nJm1tcmVxaD0yTDYwNmhxdll5eml5RGNIRUkwOExoczBOdUM4QTdNT2hZczBhNVI0QkZVJTNkJkZPUk09SVJTU1JQ&ntb=1
+                    - listitem [ref=f11e1136]:
+                      - link "Best Rated Laptops" [ref=f11e1137] [cursor=pointer]:
+                        - /url: https://www.bing.com/ck/a?!&&p=9b33103abbd5f216a373297562de8cb6c63eafd447607fbd92fb991c42a8dde9JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3NlYXJjaD9xPUJlc3QrUmF0ZWQrTGFwdG9wcyZtbXJlcXJ5PXJzZ2JpbWcmbW1yZXFoPUxFTmNEOWl3ZW5oQVJMc003UnI5UTc3R2JnJTJiYnJ5aVRDaGZQamhRakJDayUzZCZGT1JNPUlSU1NSUA&ntb=1
+            - generic [ref=f11e1143]:
+              - region "Image Carousel" [ref=f11e1144]:
+                - list [ref=f11e1145]:
+                  - listitem [ref=f11e1146]:
+                    - list [ref=f11e1147]:
+                      - listitem [ref=f11e1148]:
+                        - link "All our articles with February 2025 tag | LaptopMedia India" [ref=f11e1150] [cursor=pointer]:
+                          - /url: /images/search?view=detailV2&ccid=Sf%2ffB9OY&id=F66DD1CA0B6FBEAE7F6ABE2FC5CCADAB59B3B2E8&thid=OIP.Sf_fB9OYBAlAZIFIsvR6ewHaEo&mediaurl=https%3a%2f%2flaptopmedia.com%2fwp-content%2fuploads%2f2025%2f03%2fBest-Selling-Laptops-COM-Top-10.jpg&exph=1600&expw=2560&q=best+selling+laptops&mode=overlay&FORM=IQFRBA&ck=11AE88785F59D52856CB2988636742C0&selectedIndex=0&idpp=serp
+                      - listitem [ref=f11e1155]:
+                        - link "[October 2024] Global Ranking of the Best-Selling Laptop Brands on ..." [ref=f11e1157] [cursor=pointer]:
+                          - /url: /images/search?view=detailV2&ccid=xpuT4ufk&id=24412647A745F347C6A9A566441141DD87A672F2&thid=OIP.xpuT4ufkKmUyeRYQIoozTgHaHz&mediaurl=https%3a%2f%2flaptopmedia.com%2fwp-content%2fuploads%2f2024%2f11%2fmodels_per_brand_world.png&exph=1214&expw=1153&q=best+selling+laptops&mode=overlay&FORM=IQFRBA&ck=4E02C2482FFA456E2614400E95A465F6&selectedIndex=0&idpp=serp
+                      - listitem [ref=f11e1162]:
+                        - link "[November 2024] Global Ranking of the Best-Selling Laptop Brands on ..." [ref=f11e1164] [cursor=pointer]:
+                          - /url: /images/search?view=detailV2&ccid=eYmPWocx&id=B6AC6AB8C17E0F5E317ED990D7BCB8CB0024B79B&thid=OIP.eYmPWocxdFqxA9dyqYBAYAHaEo&mediaurl=https%3a%2f%2flaptopmedia.com%2fwp-content%2fuploads%2f2024%2f12%2fWorld-Best-Brands-2048x1280.jpg&exph=1280&expw=2048&q=best+selling+laptops&mode=overlay&FORM=IQFRBA&ck=963F612C8C2E84E19A2697143FF986D9&selectedIndex=0&idpp=serp
+                      - listitem [ref=f11e1169]:
+                        - link "[USA] Amazon's Top 3 Best-Selling Laptops for October 2023 - Reviewed ..." [ref=f11e1171] [cursor=pointer]:
+                          - /url: /images/search?view=detailV2&ccid=IAr%2funHn&id=F313BB75B03D3B0601845794E12B733B5AE3BEAD&thid=OIP.IAr_unHnayZ29b9tLR5VJgHaEK&mediaurl=https%3a%2f%2flaptopmedia.com%2fwp-content%2fuploads%2f2023%2f10%2fUSA-amazon-best-selling-october-2023.jpg&exph=768&expw=1366&q=best+selling+laptops&mode=overlay&FORM=IQFRBA&ck=98625B9A5ADD2D884B0B49B94AA727FE&selectedIndex=0&idpp=serp
+                      - listitem [ref=f11e1176]:
+                        - link "Die Besten Laptops 2025 The 10 Best Laptops Coming In 2025 (what Will ..." [ref=f11e1178] [cursor=pointer]:
+                          - /url: /images/search?view=detailV2&ccid=8tjamoyn&id=04ACF1DFDAC4AD18C06E9AEA97BF6AD85459C630&thid=OIP.8tjamoynTCeK5WuKgFpM4QHaEK&mediaurl=https%3a%2f%2ftrendingstech.com%2fwp-content%2fuploads%2f2025%2f04%2ftop-10-Best-Laptop-in-2025.jpg&exph=720&expw=1280&q=best+selling+laptops&mode=overlay&FORM=IQFRBA&ck=EEBE00805831A1C0A30E1480AD2E3FC0&selectedIndex=0&idpp=serp
+                      - listitem [ref=f11e1183]:
+                        - 'link "[January 2025] Amazon UK: Top 10 Best-Selling Laptops – HP Takes the ..." [ref=f11e1185] [cursor=pointer]':
+                          - /url: /images/search?view=detailV2&ccid=Vo%2bXBdta&id=E2140C5A09E744B084DE2E8482DE3A64DC9297C2&thid=OIP.Vo-XBdtappkjlodw_aVXLQHaEo&mediaurl=https%3a%2f%2flaptopmedia.com%2fwp-content%2fuploads%2f2025%2f02%2fBest-Selling-Laptops-CO.UK-Top-10.jpg&exph=1600&expw=2560&q=best+selling+laptops&mode=overlay&FORM=IQFRBA&ck=311B326B30238B0D4026D22524892F35&selectedIndex=0&idpp=serp
+                      - listitem [ref=f11e1190]:
+                        - link "10 Best Selling Laptop Brands In The World - 2023 Edition - Techyv.com" [ref=f11e1192] [cursor=pointer]:
+                          - /url: /images/search?view=detailV2&ccid=k%2bjQs5fZ&id=137BDA7A45F89D64948B3A730A11DD05B6AA6E1D&thid=OIP.k-jQs5fZCj8wsts3dE8PJwHaE6&mediaurl=https%3a%2f%2fwww.techyv.com%2fsites%2fdefault%2f2022%2f09%2fusers%2fProofreader1%2f2.-Asus-.png&exph=581&expw=877&q=best+selling+laptops&mode=overlay&FORM=IQFRBA&ck=7EFAE76E7E1A906AFAA4798F8BF057A6&selectedIndex=0&idpp=serp
+                      - listitem [ref=f11e1197]:
+                        - link "10 Best Selling Laptop Brands In The World - 2023 Edition - Techyv.com" [ref=f11e1199] [cursor=pointer]:
+                          - /url: /images/search?view=detailV2&ccid=eeECon8v&id=137BDA7A45F89D64948B2A8987AB17E23D63D4C8&thid=OIP.eeECon8vgSc4fgpSex7bSAHaEo&mediaurl=https%3a%2f%2fwww.techyv.com%2fsites%2fdefault%2f2023%2f06%2fusers%2fBramha%2f10-best-selling-laptop-brands-in-the-world-2023-edition.webp&exph=500&expw=800&q=best+selling+laptops&mode=overlay&FORM=IQFRBA&ck=B301B457729CEA1A0C9E88CFA55E9E49&selectedIndex=0&idpp=serp
+                      - listitem [ref=f11e1204]:
+                        - link "[2025 年 4 月] 意大利亚马逊：十大最畅销笔记本电脑 - 惠普凭借经济实惠的机型独占鳌头，超越苹果的高端 MacBook Air ..." [ref=f11e1206] [cursor=pointer]:
+                          - /url: /images/search?view=detailV2&ccid=iyRJ7zUV&id=9F1DACE2F9A6F9483780E38631769BACBB231059&thid=OIP.iyRJ7zUVUuE-1Mk5eshNaAHaEo&mediaurl=https%3a%2f%2flaptopmedia.com%2fwp-content%2fuploads%2f2025%2f05%2fBest-Selling-Laptops-IT-Top-10.jpg&exph=1600&expw=2560&q=best+selling+laptops&mode=overlay&FORM=IQFRBA&ck=1918E1AE0279053DB0EA4A6E31CE05D6&selectedIndex=0&idpp=serp
+                      - listitem [ref=f11e1211]:
+                        - link "[January 2025] Global Ranking of Best-Selling Laptop CPUs on Amazon ..." [ref=f11e1213] [cursor=pointer]:
+                          - /url: /images/search?view=detailV2&ccid=JaCaQqAX&id=E434F8FF992BEEC57CC1AD713F4F437F7EFF4B28&thid=OIP.JaCaQqAXvowKPcnQPVrifAHaEo&mediaurl=https%3a%2f%2flaptopmedia.com%2fwp-content%2fuploads%2f2025%2f02%2fBest-Selling-CPUs-GLOBAL-Top-10-2048x1280.jpg&exph=1280&expw=2048&q=best+selling+laptops&mode=overlay&FORM=IQFRBA&ck=F2B207317AD5AA3D4C1CCC65B2203365&selectedIndex=0&idpp=serp
+              - list "Navigation controls":
+                - listitem
+                - listitem
+            - link "See all images" [ref=f11e1219] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=afec75b400973e40b8118faad72e927ab6c07e06e60b88ef52955f59ba40b013JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L2ltYWdlcy9zZWFyY2g_cT1iZXN0K3NlbGxpbmcrbGFwdG9wcyZxcHZ0PWJlc3Qrc2VsbGluZytsYXB0b3BzJkZPUk09SVFGUk1M&ntb=1
+        - listitem [ref=f11e1226]:
+          - generic [ref=f11e1227]:
+            - heading [level=2] [ref=f11e1228]:
+              - text: Deep dive into
+              - strong [ref=f11e1229]: best selling laptops
+            - list [ref=f11e1230]:
+              - listitem [ref=f11e1231]:
+                - link [ref=f11e1232] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=ace1194fee9e4913f09f278cac081c7cf2c82974ee6dcc324198155ce4ea72a6JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3NlYXJjaD9xPWJlc3Qrc2VsbGluZytjb21wdXRlcnMmRk9STT1RU1JFMQ&ntb=1
+                  - generic [ref=f11e1234]:
+                    - text: best selling
+                    - strong [ref=f11e1235]: computers
+              - listitem [ref=f11e1236]:
+                - link [ref=f11e1237] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=29f029ffa012b82d9920762de1c233e9ff6e7aa3a24b1265ecfb0a1f9cd39929JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3NlYXJjaD9xPWJlc3Qrc2VsbGluZytsYXB0b3BzK1VLJkZPUk09UVNSRTI&ntb=1
+                  - generic [ref=f11e1239]:
+                    - text: best selling laptops
+                    - strong [ref=f11e1240]: uk
+              - listitem [ref=f11e1241]:
+                - link [ref=f11e1242] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=3caa3ef9292b17f2f84de3aa3f0acc8665bea445061f96bb84faad035173a321JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3NlYXJjaD9xPWJlc3Qrc2VsbGluZytsYXB0b3BzK29uK2VCYXkmRk9STT1RU1JFMw&ntb=1
+                  - generic [ref=f11e1244]:
+                    - text: best selling laptops
+                    - strong [ref=f11e1245]: on ebay
+              - listitem [ref=f11e1246]:
+                - link [ref=f11e1247] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=5038b7a9b93c6680960722847b7845e0f75676faaf29ee9bf8d65cf7cdacbb6fJmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3NlYXJjaD9xPWJlc3Qrc2VsbGluZytsYXB0b3BzK0FtYXpvbiZGT1JNPVFTUkU0&ntb=1
+                  - generic [ref=f11e1249]:
+                    - text: best selling laptops
+                    - strong [ref=f11e1250]: amazon
+              - listitem [ref=f11e1251]:
+                - link [ref=f11e1252] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=8d1f576f117737c4e1eb1b887639e4a47f261059304c6a49bed13dd02dc29621JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3NlYXJjaD9xPXdvcmxkK21vc3Qrc2VsbGluZytsYXB0b3ArYnJhbmQmRk9STT1RU1JFNQ&ntb=1
+                  - generic [ref=f11e1254]:
+                    - strong [ref=f11e1255]: world most
+                    - text: selling laptop
+                    - strong [ref=f11e1256]: brand
+              - listitem [ref=f11e1257]:
+                - link [ref=f11e1258] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=1ebd7ebac2dfb9f26b54140719435c0609eebecc65bbaea5d6f27e239efd3395JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3NlYXJjaD9xPWhpZ2hlc3Qrc2VsbGluZytsYXB0b3ArYnJhbmQmRk9STT1RU1JFNg&ntb=1
+                  - generic [ref=f11e1260]:
+                    - strong [ref=f11e1261]: highest
+                    - text: selling laptop
+                    - strong [ref=f11e1262]: brand
+              - listitem [ref=f11e1263]:
+                - link [ref=f11e1264] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=1fd90e07125342dade91135726b4a1a10d71d9f3e9d0a6178611c555a32681f8JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3NlYXJjaD9xPWJlc3Qrc2VsbGluZytsYXB0b3BzK2luK1VTQSZGT1JNPVFTUkU3&ntb=1
+                  - generic [ref=f11e1266]:
+                    - text: best selling laptops
+                    - strong [ref=f11e1267]: in usa
+              - listitem [ref=f11e1268]:
+                - link [ref=f11e1269] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=625c168524c0fbdf02d7a083ed370c7a57a69060bcc90a200a61c74990bd9170JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1L3NlYXJjaD9xPWxhcHRvcCttYXJrZXQrc2hhcmUrYnkrYnJhbmQmRk9STT1RU1JFOA&ntb=1
+                  - generic [ref=f11e1271]:
+                    - text: laptop
+                    - strong [ref=f11e1272]: market share by brand
+        - listitem [ref=f11e1273]:
+          - link "Some results have been removed" [ref=f11e1275] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=def564cd59c80c5ec6cd7a8fe949a4980339c9585b8fc3cb88b12e6d3a7a6584JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+        - listitem [ref=f11e1276]:
+          - navigation "More results for best selling laptops":
+            - list:
+              - listitem [ref=f11e1277]:
+                - generic "Page 1" [ref=f11e1278]: "1"
+              - listitem [ref=f11e1279]:
+                - link "Page 2" [ref=f11e1280] [cursor=pointer]:
+                  - /url: /search?q=best+selling+laptops&FPIG=CF3DDE72F8424C23996FF77BBF821991&first=7&FORM=PERE
+                  - text: "2"
+              - listitem [ref=f11e1281]:
+                - link "Page 3" [ref=f11e1282] [cursor=pointer]:
+                  - /url: /search?q=best+selling+laptops&FPIG=CF3DDE72F8424C23996FF77BBF821991&first=17&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=f11e1283]:
+                - link "Next page" [ref=f11e1284] [cursor=pointer]:
+                  - /url: /search?q=best+selling+laptops&FPIG=CF3DDE72F8424C23996FF77BBF821991&first=7&FORM=PORE
+      - complementary "Additional Results" [ref=f11e1285]:
+        - list
+  - contentinfo [ref=f11e1286]:
+    - generic [ref=f11e1287]:
+      - list:
+        - listitem [ref=f11e1288]:
+          - link "Privacy" [ref=f11e1289] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=bfa06f158a0bdf2d8e4f33c64028a39e2fa0ab4f4026b4af9f9fdba40f8a6245JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=f11e1290]:
+          - link "Terms" [ref=f11e1291] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6bc8509f39589d88b2722215d90450d95028e60028e70cd99b26fb142b2a8b63JmltdHM9MTc4NTI4MzIwMA&ptn=3&ver=2&hsh=4&fclid=2680c891-b324-6323-2cee-df34b2f9624c&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

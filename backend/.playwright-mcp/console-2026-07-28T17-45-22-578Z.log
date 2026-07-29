@@ -1,0 +1,897 @@
+[      32ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[      37ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[     972ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[     986ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    2350ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    2355ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    3707ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at t (<anonymous>:1:579)
+    at t (<anonymous>:1:624)
+    at <anonymous>:1:1435
+    at <anonymous>:1:1439
+    at preLoad (https://gn-web-assets.api.bbc.com/ngas/latest/dotcom-bootstrap.js:1:41284)
+    at Ge (https://gn-web-assets.api.bbc.com/ngas/latest/dotcom-bootstrap.js:1:33404)
+[    3708ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at t (<anonymous>:1:579)
+    at t (<anonymous>:1:624)
+    at <anonymous>:1:1435
+    at <anonymous>:1:1439
+    at preLoad (https://gn-web-assets.api.bbc.com/ngas/latest/dotcom-bootstrap.js:1:41284)
+    at Ge (https://gn-web-assets.api.bbc.com/ngas/latest/dotcom-bootstrap.js:1:33404)
+[    3715ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at window.__gpp_addFrame (https://gn-web-assets.api.bbc.com/ngas/latest/dotcom-bootstrap.js:1:41465)
+    at preLoad (https://gn-web-assets.api.bbc.com/ngas/latest/dotcom-bootstrap.js:1:43727)
+    at Ge (https://gn-web-assets.api.bbc.com/ngas/latest/dotcom-bootstrap.js:1:33404)
+    at https://gn-web-assets.api.bbc.com/ngas/latest/dotcom-bootstrap.js:1:34488
+    at new Promise (<anonymous>)
+    at He (https://gn-web-assets.api.bbc.com/ngas/latest/dotcom-bootstrap.js:1:34199)
+[    3717ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at window.__gpp_addFrame (https://gn-web-assets.api.bbc.com/ngas/latest/dotcom-bootstrap.js:1:41465)
+    at preLoad (https://gn-web-assets.api.bbc.com/ngas/latest/dotcom-bootstrap.js:1:43727)
+    at Ge (https://gn-web-assets.api.bbc.com/ngas/latest/dotcom-bootstrap.js:1:33404)
+    at https://gn-web-assets.api.bbc.com/ngas/latest/dotcom-bootstrap.js:1:34488
+    at new Promise (<anonymous>)
+    at He (https://gn-web-assets.api.bbc.com/ngas/latest/dotcom-bootstrap.js:1:34199)
+[    3720ms] [INFO] [OPTIMIZELY] - INFO 2026-07-28T17:45:26.297Z ProjectConfigManager: Skipping JSON schema validation. @ https://static.files.bbci.co.uk/bbcdotcom/web/20260723-115353-11d20ce153-web-3.15.1-1/_next/static/chunks/0x.eh1.-22ej3.js:0
+[    3721ms] [INFO] [OPTIMIZELY] - INFO 2026-07-28T17:45:26.298Z Optimizely: Updated Optimizely config to revision 18 (project id 28346550223) @ https://static.files.bbci.co.uk/bbcdotcom/web/20260723-115353-11d20ce153-web-3.15.1-1/_next/static/chunks/0x.eh1.-22ej3.js:0
+[    5334ms] [LOG] Messaging without detection successfully executed. @ https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js:0
+[    5345ms] [LOG] interaction complete @ https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js:0
+[    6607ms] [WARNING] [GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.
+https://goo.gle/gpt-message#201 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:18
+[    6663ms] [LOG] setAdunits has been called, will set window.ozAdUnits now @ https://prebid.the-ozone-project.com/hw2/OZONEBBC4784/1500000107/current/adUnits.min.js:0
+[    6663ms] [LOG] window.ozAdUnits has been created. @ https://prebid.the-ozone-project.com/hw2/OZONEBBC4784/1500000107/current/adUnits.min.js:0
+[    6666ms] [WARNING] [GPT] PubAdsService.getTargetingKeys is deprecated, use googletag.getConfig('targeting') instead.
+https://goo.gle/gpt-message#200 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:18
+[    6694ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at window.<computed>.<computed>.appendChild (https://scripts.webcontentassessor.com/scripts/64ca3dfd44dd68a629e2e51a27e7ccd960974b5961e4ca2897139d14bf10be8b:1:110522)
+    at Object.Md (https://gn-web-assets.api.bbc.com/ngas/vendor/edr/edr.min.js:24:317)
+    at Object.gd (https://gn-web-assets.api.bbc.com/ngas/vendor/edr/edr.min.js:71:14)
+    at Object.Ab (https://gn-web-assets.api.bbc.com/ngas/vendor/edr/edr.min.js:70:401)
+    at Object.cc (https://gn-web-assets.api.bbc.com/ngas/vendor/edr/edr.min.js:70:241)
+    at Object.tc (https://gn-web-assets.api.bbc.com/ngas/vendor/edr/edr.min.js:70:137)
+[    6695ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at window.<computed>.<computed>.appendChild (https://scripts.webcontentassessor.com/scripts/64ca3dfd44dd68a629e2e51a27e7ccd960974b5961e4ca2897139d14bf10be8b:1:110522)
+    at Object.Md (https://gn-web-assets.api.bbc.com/ngas/vendor/edr/edr.min.js:24:317)
+    at Object.gd (https://gn-web-assets.api.bbc.com/ngas/vendor/edr/edr.min.js:71:14)
+    at Object.Ab (https://gn-web-assets.api.bbc.com/ngas/vendor/edr/edr.min.js:70:401)
+    at Object.cc (https://gn-web-assets.api.bbc.com/ngas/vendor/edr/edr.min.js:70:241)
+    at Object.tc (https://gn-web-assets.api.bbc.com/ngas/vendor/edr/edr.min.js:70:137)
+[    6737ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    6739ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    6976ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at window.<computed>.<computed>.appendChild (https://scripts.webcontentassessor.com/scripts/64ca3dfd44dd68a629e2e51a27e7ccd960974b5961e4ca2897139d14bf10be8b:1:110522)
+    at V (https://prebid.the-ozone-project.com/hw2/builds/ozwrap_pbjs.js:12:11516)
+    at https://prebid.the-ozone-project.com/hw2/builds/ozwrap_pbjs.js:12:102488
+    at Object.processQueue (https://prebid.the-ozone-project.com/hw2/builds/ozwrap_pbjs.js:12:88033)
+    at https://prebid.the-ozone-project.com/hw2/builds/ozwrap_pbjs.js:98:18
+[    6978ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at window.<computed>.<computed>.appendChild (https://scripts.webcontentassessor.com/scripts/64ca3dfd44dd68a629e2e51a27e7ccd960974b5961e4ca2897139d14bf10be8b:1:110522)
+    at V (https://prebid.the-ozone-project.com/hw2/builds/ozwrap_pbjs.js:12:11516)
+    at https://prebid.the-ozone-project.com/hw2/builds/ozwrap_pbjs.js:12:102488
+    at Object.processQueue (https://prebid.the-ozone-project.com/hw2/builds/ozwrap_pbjs.js:12:88033)
+    at https://prebid.the-ozone-project.com/hw2/builds/ozwrap_pbjs.js:98:18
+[    7354ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    7363ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    7877ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    7878ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    8665ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at window.<computed>.<computed>.appendChild (https://scripts.webcontentassessor.com/scripts/64ca3dfd44dd68a629e2e51a27e7ccd960974b5961e4ca2897139d14bf10be8b:1:110522)
+    at YM (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:263503)
+    at Bda (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:396079)
+    at O.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:590627)
+    at JX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:347813)
+    at zF.j (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:346899)
+[    8668ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at window.<computed>.<computed>.appendChild (https://scripts.webcontentassessor.com/scripts/64ca3dfd44dd68a629e2e51a27e7ccd960974b5961e4ca2897139d14bf10be8b:1:110522)
+    at YM (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:263503)
+    at Bda (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:396079)
+    at O.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:590627)
+    at JX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:347813)
+    at zF.j (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:346899)
+[    8676ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://scripts.webcontentassessor.com/scripts/64ca3dfd44dd68a629e2e51a27e7ccd960974b5961e4ca2897139d14bf10be8b:0
+[    8686ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at window.<computed>.<computed>.appendChild (https://scripts.webcontentassessor.com/scripts/64ca3dfd44dd68a629e2e51a27e7ccd960974b5961e4ca2897139d14bf10be8b:1:110411)
+    at Ika (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:599441)
+    at w1.l (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:600127)
+    at O.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:601541)
+    at JX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:347813)
+    at zF.j (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:346899)
+[    8688ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at window.<computed>.<computed>.appendChild (https://scripts.webcontentassessor.com/scripts/64ca3dfd44dd68a629e2e51a27e7ccd960974b5961e4ca2897139d14bf10be8b:1:110411)
+    at Ika (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:599441)
+    at w1.l (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:600127)
+    at O.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:601541)
+    at JX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:347813)
+    at zF.j (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:346899)
+[    8721ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://scripts.webcontentassessor.com/scripts/64ca3dfd44dd68a629e2e51a27e7ccd960974b5961e4ca2897139d14bf10be8b:0
+[    8726ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at window.<computed>.<computed>.appendChild (https://scripts.webcontentassessor.com/scripts/64ca3dfd44dd68a629e2e51a27e7ccd960974b5961e4ca2897139d14bf10be8b:1:110411)
+    at Ika (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:599441)
+    at w1.l (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:600127)
+    at O.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:601541)
+    at JX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:347813)
+    at zF.j (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:346899)
+[    8727ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at window.<computed>.<computed>.appendChild (https://scripts.webcontentassessor.com/scripts/64ca3dfd44dd68a629e2e51a27e7ccd960974b5961e4ca2897139d14bf10be8b:1:110411)
+    at Ika (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:599441)
+    at w1.l (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:600127)
+    at O.id [as f] (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:601541)
+    at JX.J (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:347813)
+    at zF.j (https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607220101/pubads_impl.js:19:346899)
+[    8788ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    8789ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    8803ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at window.<computed>.<computed>.appendChild (https://scripts.webcontentassessor.com/scripts/64ca3dfd44dd68a629e2e51a27e7ccd960974b5961e4ca2897139d14bf10be8b:1:110522)
+    at MeasurementScriptInjection.injectScriptElement (https://pub.doubleverify.com/dvtag/29028254/DV1298722/pub.js:2:85742)
+    at MeasurementScriptInjection.injectScriptElement (https://pub.doubleverify.com/dvtag/29028254/DV1298722/pub.js:2:3411)
+    at Measurement._onAdCandidateCommitted (https://pub.doubleverify.com/dvtag/29028254/DV1298722/pub.js:2:87194)
+    at Measurement._onAdCandidateCommitted (https://pub.doubleverify.com/dvtag/29028254/DV1298722/pub.js:2:3411)
+    at https://pub.doubleverify.com/dvtag/29028254/DV1298722/pub.js:2:8195
+[    8804ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at window.<computed>.<computed>.appendChild (https://scripts.webcontentassessor.com/scripts/64ca3dfd44dd68a629e2e51a27e7ccd960974b5961e4ca2897139d14bf10be8b:1:110522)
+    at MeasurementScriptInjection.injectScriptElement (https://pub.doubleverify.com/dvtag/29028254/DV1298722/pub.js:2:85742)
+    at MeasurementScriptInjection.injectScriptElement (https://pub.doubleverify.com/dvtag/29028254/DV1298722/pub.js:2:3411)
+    at Measurement._onAdCandidateCommitted (https://pub.doubleverify.com/dvtag/29028254/DV1298722/pub.js:2:87194)
+    at Measurement._onAdCandidateCommitted (https://pub.doubleverify.com/dvtag/29028254/DV1298722/pub.js:2:3411)
+    at https://pub.doubleverify.com/dvtag/29028254/DV1298722/pub.js:2:8195
+[    8813ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at window.<computed>.<computed>.appendChild (https://scripts.webcontentassessor.com/scripts/64ca3dfd44dd68a629e2e51a27e7ccd960974b5961e4ca2897139d14bf10be8b:1:110522)
+    at MeasurementScriptInjection.injectScriptElement (https://pub.doubleverify.com/dvtag/29028254/DV1298722/pub.js:2:85742)
+    at MeasurementScriptInjection.injectScriptElement (https://pub.doubleverify.com/dvtag/29028254/DV1298722/pub.js:2:3411)
+    at Measurement._onAdCandidateCommitted (https://pub.doubleverify.com/dvtag/29028254/DV1298722/pub.js:2:87194)
+    at Measurement._onAdCandidateCommitted (https://pub.doubleverify.com/dvtag/29028254/DV1298722/pub.js:2:3411)
+    at https://pub.doubleverify.com/dvtag/29028254/DV1298722/pub.js:2:8195
+[    8813ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at window.<computed>.<computed>.appendChild (https://scripts.webcontentassessor.com/scripts/64ca3dfd44dd68a629e2e51a27e7ccd960974b5961e4ca2897139d14bf10be8b:1:110522)
+    at MeasurementScriptInjection.injectScriptElement (https://pub.doubleverify.com/dvtag/29028254/DV1298722/pub.js:2:85742)
+    at MeasurementScriptInjection.injectScriptElement (https://pub.doubleverify.com/dvtag/29028254/DV1298722/pub.js:2:3411)
+    at Measurement._onAdCandidateCommitted (https://pub.doubleverify.com/dvtag/29028254/DV1298722/pub.js:2:87194)
+    at Measurement._onAdCandidateCommitted (https://pub.doubleverify.com/dvtag/29028254/DV1298722/pub.js:2:3411)
+    at https://pub.doubleverify.com/dvtag/29028254/DV1298722/pub.js:2:8195
+[    9465ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at k (https://cdn.doubleverify.com/dvtp_src.js:2:5234)
+    at https://cdn.doubleverify.com/dvtp_src.js:2:643
+    at https://cdn.doubleverify.com/dvtp_src.js:2:760
+    at https://cdn.doubleverify.com/dvtp_src.js:2:9654
+[    9468ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at k (https://cdn.doubleverify.com/dvtp_src.js:2:5234)
+    at https://cdn.doubleverify.com/dvtp_src.js:2:643
+    at https://cdn.doubleverify.com/dvtp_src.js:2:760
+    at https://cdn.doubleverify.com/dvtp_src.js:2:9654
+[    9478ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at k (https://cdn.doubleverify.com/dvtp_src.js:2:5234)
+    at Q (https://cdn.doubleverify.com/dvtp_src.js:2:6047)
+    at Object.loadScript (https://cdn.doubleverify.com/dvtp_src.js:2:2548)
+    at https://cdn.doubleverify.com/dvtp_src.js:2:9561
+    at https://cdn.doubleverify.com/dvtp_src.js:2:9654
+[    9479ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at k (https://cdn.doubleverify.com/dvtp_src.js:2:5234)
+    at Q (https://cdn.doubleverify.com/dvtp_src.js:2:6047)
+    at Object.loadScript (https://cdn.doubleverify.com/dvtp_src.js:2:2548)
+    at https://cdn.doubleverify.com/dvtp_src.js:2:9561
+    at https://cdn.doubleverify.com/dvtp_src.js:2:9654
+[    9490ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at k (https://cdn.doubleverify.com/dvtp_src.js:2:5234)
+    at https://cdn.doubleverify.com/dvtp_src.js:2:643
+    at https://cdn.doubleverify.com/dvtp_src.js:2:760
+    at https://cdn.doubleverify.com/dvtp_src.js:2:9654
+[    9492ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at k (https://cdn.doubleverify.com/dvtp_src.js:2:5234)
+    at https://cdn.doubleverify.com/dvtp_src.js:2:643
+    at https://cdn.doubleverify.com/dvtp_src.js:2:760
+    at https://cdn.doubleverify.com/dvtp_src.js:2:9654
+[    9504ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at k (https://cdn.doubleverify.com/dvtp_src.js:2:5234)
+    at Q (https://cdn.doubleverify.com/dvtp_src.js:2:6047)
+    at Object.loadScript (https://cdn.doubleverify.com/dvtp_src.js:2:2548)
+    at https://cdn.doubleverify.com/dvtp_src.js:2:9561
+    at https://cdn.doubleverify.com/dvtp_src.js:2:9654
+[    9506ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at k (https://cdn.doubleverify.com/dvtp_src.js:2:5234)
+    at Q (https://cdn.doubleverify.com/dvtp_src.js:2:6047)
+    at Object.loadScript (https://cdn.doubleverify.com/dvtp_src.js:2:2548)
+    at https://cdn.doubleverify.com/dvtp_src.js:2:9561
+    at https://cdn.doubleverify.com/dvtp_src.js:2:9654
+[    9686ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    9690ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    9828ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    9829ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    9835ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    9835ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   10194ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   10233ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   10272ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   10276ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   11076ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at eval (eval at <anonymous> (https://pagead2.googlesyndication.com/bg/zUiFwVyYBZ5NSiLlLR4o3wluKM808dcrcjyqb0WtT84.js:2:435), <anonymous>:2769:25829)
+    at tC (eval at <anonymous> (https://pagead2.googlesyndication.com/bg/zUiFwVyYBZ5NSiLlLR4o3wluKM808dcrcjyqb0WtT84.js:2:435), <anonymous>:2769:24280)
+    at pP (eval at <anonymous> (https://pagead2.googlesyndication.com/bg/zUiFwVyYBZ5NSiLlLR4o3wluKM808dcrcjyqb0WtT84.js:2:435), <anonymous>:2769:33283)
+    at p.eval [as P] (eval at <anonymous> (https://pagead2.googlesyndication.com/bg/zUiFwVyYBZ5NSiLlLR4o3wluKM808dcrcjyqb0WtT84.js:2:435), <anonymous>:2769:54348)
+    at yD (eval at <anonymous> (https://pagead2.googlesyndication.com/bg/zUiFwVyYBZ5NSiLlLR4o3wluKM808dcrcjyqb0WtT84.js:2:435), <anonymous>:2769:34155)
+    at Ai (eval at <anonymous> (https://pagead2.googlesyndication.com/bg/zUiFwVyYBZ5NSiLlLR4o3wluKM808dcrcjyqb0WtT84.js:2:435), <anonymous>:2769:6031)
+[   11080ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at eval (eval at <anonymous> (https://pagead2.googlesyndication.com/bg/zUiFwVyYBZ5NSiLlLR4o3wluKM808dcrcjyqb0WtT84.js:2:435), <anonymous>:2769:25829)
+    at tC (eval at <anonymous> (https://pagead2.googlesyndication.com/bg/zUiFwVyYBZ5NSiLlLR4o3wluKM808dcrcjyqb0WtT84.js:2:435), <anonymous>:2769:24280)
+    at pP (eval at <anonymous> (https://pagead2.googlesyndication.com/bg/zUiFwVyYBZ5NSiLlLR4o3wluKM808dcrcjyqb0WtT84.js:2:435), <anonymous>:2769:33283)
+    at p.eval [as P] (eval at <anonymous> (https://pagead2.googlesyndication.com/bg/zUiFwVyYBZ5NSiLlLR4o3wluKM808dcrcjyqb0WtT84.js:2:435), <anonymous>:2769:54348)
+    at yD (eval at <anonymous> (https://pagead2.googlesyndication.com/bg/zUiFwVyYBZ5NSiLlLR4o3wluKM808dcrcjyqb0WtT84.js:2:435), <anonymous>:2769:34155)
+    at Ai (eval at <anonymous> (https://pagead2.googlesyndication.com/bg/zUiFwVyYBZ5NSiLlLR4o3wluKM808dcrcjyqb0WtT84.js:2:435), <anonymous>:2769:6031)
+[   12695ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   12698ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   14124ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   14125ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   17550ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   17552ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   23021ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   23023ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   24829ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   24837ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   24939ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   24941ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   25035ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   25041ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   25220ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   25224ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   25384ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   25387ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   25528ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   25534ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   25739ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   25744ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   26097ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   26102ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   26308ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   26309ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   33119ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://id5-sync.com/c/112/112/9/1.gif?puid=B57F8DF5B5CA13F0&gdpr=0&gdpr_consent=&us_privacy=:0
+[   55069ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   55073ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   55158ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   55159ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   55292ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   55295ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   55684ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   55697ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   55874ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   55875ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   56170ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   56171ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   56495ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   56496ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   56534ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   56539ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   56646ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   56646ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   56799ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   56802ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   57824ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   57826ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   85253ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   85257ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   85873ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   85874ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   85920ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   85923ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   85974ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   85975ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   86080ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   86083ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   86174ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   86174ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   86482ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   86494ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   86747ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   86747ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   86924ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   86931ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   98397ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   98405ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  106076ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  106082ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  116391ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  116396ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  116416ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  116417ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  116680ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  116682ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  116758ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  116759ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  116979ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  116980ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  117070ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  117072ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  117374ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  117379ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  117780ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  117887ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  117913ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  117928ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  117929ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  117938ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  118178ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  118181ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  147347ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  147353ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7

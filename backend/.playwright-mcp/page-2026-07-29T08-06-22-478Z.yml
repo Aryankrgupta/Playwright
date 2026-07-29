@@ -1,0 +1,393 @@
+- generic [active] [ref=f17e1]:
+  - generic [ref=f17e2]:
+    - generic [ref=f17e4]:
+      - generic [ref=f17e5]:
+        - generic [ref=f17e6]:
+          - link "DuckDuckGo home" [ref=f17e7] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f17e8]: DuckDuckGo
+          - generic [ref=f17e15]:
+            - combobox "Search privately" [ref=f17e17]: best selling laptops
+            - button "search" [ref=f17e19] [cursor=pointer]
+        - button "Open menu" [ref=f17e23] [cursor=pointer]
+      - navigation [ref=f17e31]:
+        - list [ref=f17e32]:
+          - listitem [ref=f17e33]:
+            - link "All" [ref=f17e34] [cursor=pointer]:
+              - /url: /?q=best+selling+laptops&ia=web
+          - listitem [ref=f17e37]:
+            - link "Images" [ref=f17e38] [cursor=pointer]:
+              - /url: /?q=best+selling+laptops&ia=images&iax=images
+          - listitem [ref=f17e39]:
+            - link "News" [ref=f17e40] [cursor=pointer]:
+              - /url: /?q=best+selling+laptops&ia=news&iar=news
+          - listitem [ref=f17e41]:
+            - link "Videos" [ref=f17e42] [cursor=pointer]:
+              - /url: /?q=best+selling+laptops&ia=videos&iax=videos
+          - listitem [ref=f17e43]:
+            - link "Maps" [ref=f17e44] [cursor=pointer]:
+              - /url: /?q=best+selling+laptops&iaxm=maps
+        - list [ref=f17e45]:
+          - listitem [ref=f17e46]:
+            - link "Search Assist" [ref=f17e49] [cursor=pointer]:
+              - /url: /?q=best+selling+laptops&ia=web&assist=true
+          - listitem [ref=f17e54]:
+            - link "Duck.ai" [ref=f17e56] [cursor=pointer]:
+              - /url: /?q=best+selling+laptops&ia=chat
+          - listitem [ref=f17e60]:
+            - button "Search Settings ✀" [ref=f17e62] [cursor=pointer]:
+              - generic [ref=f17e65]: Search Settings
+              - generic [ref=f17e66]: ✀
+    - generic [ref=f17e73]:
+      - navigation [ref=f17e75]:
+        - generic [ref=f17e78] [cursor=pointer]:
+          - generic [ref=f17e79]: Protected
+          - img [ref=f17e87]: ▼
+        - generic [ref=f17e91] [cursor=pointer]:
+          - generic [ref=f17e94]:
+            - switch "✓" [ref=f17e95]
+            - generic [ref=f17e97]: India (en)
+          - img [ref=f17e98]: ▼
+        - generic [ref=f17e102] [cursor=pointer]:
+          - generic [ref=f17e103]: "Safe search: moderate"
+          - img [ref=f17e104]: ▼
+        - generic [ref=f17e108] [cursor=pointer]:
+          - generic [ref=f17e109]: Any time
+          - img [ref=f17e110]: ▼
+      - generic [ref=f17e113]:
+        - list [ref=f17e114]:
+          - listitem [ref=f17e115]:
+            - article [ref=f17e116] [cursor=pointer]:
+              - button [ref=f17e118]
+              - link "Amazon https://www.amazon.in › Laptops › Computers" [ref=f17e125]:
+                - /url: https://duckduckgo.com/y.js?ad_domain=amazon.in&ad_provider=bingv7aa&ad_type=txad&click_metadata=7D5ahn4X5kKd28Eq9jEciQLyEosxR2bwORVY7bo6Vo%2DNPb2UxhNsPbk0OIKS36xoNbPpbxlIYQu1ZLfhflSW_YfJ1YIdAqhAFkSLlU8wqEs1X5xrrkG2VqYDO4tH2%2D3xXd7U_X3JZYizQ5TM%2DX1Dyw.L39OCrigu7qOjqzPlo3a8A&eddgt=lgAbU17vq1ldxKYytVZ_3g%3D%3D&rut=4898b7d195c3337bdd1a126980707038f8c56ce8a1cf85893fc0de88bcf22ac5&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8jfkexUd8VKcML6V03lqLfjVUCUzwKU1Jtulb2cCohjCLR4_N6ZYbPknclrLzkwhXGOD_UUlb24Y3dYzdS6kMBwrkKNJn6jv7evzKgZ3WTviZjDz%2DSUieK5ycwTTwHQvqH0UkP1_FX9koO124CRPKHp_4dJw4wui4SgqlDt_QlX47hwmiBac1H3jz_ptfQxs2RPoLGEr3pW15mrxs9dSATV4JiPc%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmluJTJmcyUyZiUzZmllJTNkVVRGOCUyNmtleXdvcmRzJTNkbGFwdG9wJTJib2YlMjZpbmRleCUzZGFwcyUyNnRhZyUzZG1zbmRlc2tzdGRpbi0yMSUyNnJlZiUzZHBkX3NsXzZyOTJjbGN6eXZfcCUyNmFkZ3JwaWQlM2QxMzIxNjE0NTgxODkzNDAwJTI2aHZhZGlkJTNkODI2MDExODE4MzkzMjMlMjZodm5ldHclM2RvJTI2aHZxbXQlM2RwJTI2aHZibXQlM2RicCUyNmh2ZGV2JTNkYyUyNmh2bG9jaW50JTNkJTI2aHZsb2NwaHklM2QyNTM0OTklMjZodnRhcmdpZCUzZGt3ZC04MjYwMTc4OTE5Nzk4OSUzYWxvYy05MCUyNmh5ZGFkY3IlM2QzNzg1XzIzOTg2OTYlMjZtY2lkJTNkOWFkN2NmNTkwYmIyM2U2YWFjZjdhNjk2MTU4MjkyOWMlMjZtc2Nsa2lkJTNkN2YyOGM1ZGZkOWI3MWU1YWU0ZGRhZmI2NmRjZjIxN2I%26rlid%3D7f28c5dfd9b71e5ae4ddafb66dcf217b&vqd=4-274798230687029665020036901840672159934&iurl=%7B1%7DIG%3D22142EBF27FD48A8AF1CCCC5897F8D4F%26CID%3D267855D837686CE7077F427D360A6DE2%26ID%3DDevEx%2C5036.1
+                - generic [ref=f17e129]:
+                  - paragraph [ref=f17e130]: Amazon
+                  - paragraph [ref=f17e131]:
+                    - generic [ref=f17e132]: https://www.amazon.in
+                    - generic [ref=f17e133]: › Laptops › Computers
+              - heading [level=2] [ref=f17e135]:
+                - link "laptop of - Affordable Product Range" [ref=f17e136]:
+                  - /url: https://duckduckgo.com/y.js?ad_domain=amazon.in&ad_provider=bingv7aa&ad_type=txad&click_metadata=7D5ahn4X5kKd28Eq9jEciQLyEosxR2bwORVY7bo6Vo%2DNPb2UxhNsPbk0OIKS36xoNbPpbxlIYQu1ZLfhflSW_YfJ1YIdAqhAFkSLlU8wqEs1X5xrrkG2VqYDO4tH2%2D3xXd7U_X3JZYizQ5TM%2DX1Dyw.L39OCrigu7qOjqzPlo3a8A&eddgt=lgAbU17vq1ldxKYytVZ_3g%3D%3D&rut=4898b7d195c3337bdd1a126980707038f8c56ce8a1cf85893fc0de88bcf22ac5&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8jfkexUd8VKcML6V03lqLfjVUCUzwKU1Jtulb2cCohjCLR4_N6ZYbPknclrLzkwhXGOD_UUlb24Y3dYzdS6kMBwrkKNJn6jv7evzKgZ3WTviZjDz%2DSUieK5ycwTTwHQvqH0UkP1_FX9koO124CRPKHp_4dJw4wui4SgqlDt_QlX47hwmiBac1H3jz_ptfQxs2RPoLGEr3pW15mrxs9dSATV4JiPc%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmluJTJmcyUyZiUzZmllJTNkVVRGOCUyNmtleXdvcmRzJTNkbGFwdG9wJTJib2YlMjZpbmRleCUzZGFwcyUyNnRhZyUzZG1zbmRlc2tzdGRpbi0yMSUyNnJlZiUzZHBkX3NsXzZyOTJjbGN6eXZfcCUyNmFkZ3JwaWQlM2QxMzIxNjE0NTgxODkzNDAwJTI2aHZhZGlkJTNkODI2MDExODE4MzkzMjMlMjZodm5ldHclM2RvJTI2aHZxbXQlM2RwJTI2aHZibXQlM2RicCUyNmh2ZGV2JTNkYyUyNmh2bG9jaW50JTNkJTI2aHZsb2NwaHklM2QyNTM0OTklMjZodnRhcmdpZCUzZGt3ZC04MjYwMTc4OTE5Nzk4OSUzYWxvYy05MCUyNmh5ZGFkY3IlM2QzNzg1XzIzOTg2OTYlMjZtY2lkJTNkOWFkN2NmNTkwYmIyM2U2YWFjZjdhNjk2MTU4MjkyOWMlMjZtc2Nsa2lkJTNkN2YyOGM1ZGZkOWI3MWU1YWU0ZGRhZmI2NmRjZjIxN2I%26rlid%3D7f28c5dfd9b71e5ae4ddafb66dcf217b&vqd=4-274798230687029665020036901840672159934&iurl=%7B1%7DIG%3D22142EBF27FD48A8AF1CCCC5897F8D4F%26CID%3D267855D837686CE7077F427D360A6DE2%26ID%3DDevEx%2C5036.1
+                - button "Ad" [ref=f17e139]
+              - generic [ref=f17e142]:
+                - link "Explore an Amazing Selection Of Laptops, Available At Great Prices. Enhance Your Shopping Experience With Our Personalised Recommendations." [ref=f17e143]:
+                  - /url: https://duckduckgo.com/y.js?ad_domain=amazon.in&ad_provider=bingv7aa&ad_type=txad&click_metadata=7D5ahn4X5kKd28Eq9jEciQLyEosxR2bwORVY7bo6Vo%2DNPb2UxhNsPbk0OIKS36xoNbPpbxlIYQu1ZLfhflSW_YfJ1YIdAqhAFkSLlU8wqEs1X5xrrkG2VqYDO4tH2%2D3xXd7U_X3JZYizQ5TM%2DX1Dyw.L39OCrigu7qOjqzPlo3a8A&eddgt=lgAbU17vq1ldxKYytVZ_3g%3D%3D&rut=4898b7d195c3337bdd1a126980707038f8c56ce8a1cf85893fc0de88bcf22ac5&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8jfkexUd8VKcML6V03lqLfjVUCUzwKU1Jtulb2cCohjCLR4_N6ZYbPknclrLzkwhXGOD_UUlb24Y3dYzdS6kMBwrkKNJn6jv7evzKgZ3WTviZjDz%2DSUieK5ycwTTwHQvqH0UkP1_FX9koO124CRPKHp_4dJw4wui4SgqlDt_QlX47hwmiBac1H3jz_ptfQxs2RPoLGEr3pW15mrxs9dSATV4JiPc%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmluJTJmcyUyZiUzZmllJTNkVVRGOCUyNmtleXdvcmRzJTNkbGFwdG9wJTJib2YlMjZpbmRleCUzZGFwcyUyNnRhZyUzZG1zbmRlc2tzdGRpbi0yMSUyNnJlZiUzZHBkX3NsXzZyOTJjbGN6eXZfcCUyNmFkZ3JwaWQlM2QxMzIxNjE0NTgxODkzNDAwJTI2aHZhZGlkJTNkODI2MDExODE4MzkzMjMlMjZodm5ldHclM2RvJTI2aHZxbXQlM2RwJTI2aHZibXQlM2RicCUyNmh2ZGV2JTNkYyUyNmh2bG9jaW50JTNkJTI2aHZsb2NwaHklM2QyNTM0OTklMjZodnRhcmdpZCUzZGt3ZC04MjYwMTc4OTE5Nzk4OSUzYWxvYy05MCUyNmh5ZGFkY3IlM2QzNzg1XzIzOTg2OTYlMjZtY2lkJTNkOWFkN2NmNTkwYmIyM2U2YWFjZjdhNjk2MTU4MjkyOWMlMjZtc2Nsa2lkJTNkN2YyOGM1ZGZkOWI3MWU1YWU0ZGRhZmI2NmRjZjIxN2I%26rlid%3D7f28c5dfd9b71e5ae4ddafb66dcf217b&vqd=4-274798230687029665020036901840672159934&iurl=%7B1%7DIG%3D22142EBF27FD48A8AF1CCCC5897F8D4F%26CID%3D267855D837686CE7077F427D360A6DE2%26ID%3DDevEx%2C5036.1
+                - link "Cashback Offers · Exclusive Discounts · Convenient Shopping" [ref=f17e146]:
+                  - /url: https://duckduckgo.com/y.js?ad_domain=amazon.in&ad_provider=bingv7aa&ad_type=txad&click_metadata=7D5ahn4X5kKd28Eq9jEciQLyEosxR2bwORVY7bo6Vo%2DNPb2UxhNsPbk0OIKS36xoNbPpbxlIYQu1ZLfhflSW_YfJ1YIdAqhAFkSLlU8wqEs1X5xrrkG2VqYDO4tH2%2D3xXd7U_X3JZYizQ5TM%2DX1Dyw.L39OCrigu7qOjqzPlo3a8A&eddgt=lgAbU17vq1ldxKYytVZ_3g%3D%3D&rut=4898b7d195c3337bdd1a126980707038f8c56ce8a1cf85893fc0de88bcf22ac5&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8jfkexUd8VKcML6V03lqLfjVUCUzwKU1Jtulb2cCohjCLR4_N6ZYbPknclrLzkwhXGOD_UUlb24Y3dYzdS6kMBwrkKNJn6jv7evzKgZ3WTviZjDz%2DSUieK5ycwTTwHQvqH0UkP1_FX9koO124CRPKHp_4dJw4wui4SgqlDt_QlX47hwmiBac1H3jz_ptfQxs2RPoLGEr3pW15mrxs9dSATV4JiPc%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmluJTJmcyUyZiUzZmllJTNkVVRGOCUyNmtleXdvcmRzJTNkbGFwdG9wJTJib2YlMjZpbmRleCUzZGFwcyUyNnRhZyUzZG1zbmRlc2tzdGRpbi0yMSUyNnJlZiUzZHBkX3NsXzZyOTJjbGN6eXZfcCUyNmFkZ3JwaWQlM2QxMzIxNjE0NTgxODkzNDAwJTI2aHZhZGlkJTNkODI2MDExODE4MzkzMjMlMjZodm5ldHclM2RvJTI2aHZxbXQlM2RwJTI2aHZibXQlM2RicCUyNmh2ZGV2JTNkYyUyNmh2bG9jaW50JTNkJTI2aHZsb2NwaHklM2QyNTM0OTklMjZodnRhcmdpZCUzZGt3ZC04MjYwMTc4OTE5Nzk4OSUzYWxvYy05MCUyNmh5ZGFkY3IlM2QzNzg1XzIzOTg2OTYlMjZtY2lkJTNkOWFkN2NmNTkwYmIyM2U2YWFjZjdhNjk2MTU4MjkyOWMlMjZtc2Nsa2lkJTNkN2YyOGM1ZGZkOWI3MWU1YWU0ZGRhZmI2NmRjZjIxN2I%26rlid%3D7f28c5dfd9b71e5ae4ddafb66dcf217b&vqd=4-274798230687029665020036901840672159934&iurl=%7B1%7DIG%3D22142EBF27FD48A8AF1CCCC5897F8D4F%26CID%3D267855D837686CE7077F427D360A6DE2%26ID%3DDevEx%2C5036.1
+          - listitem [ref=f17e147]:
+            - generic [ref=f17e150]:
+              - generic [ref=f17e153]:
+                - generic [ref=f17e154]:
+                  - button [ref=f17e156] [cursor=pointer]:
+                    - generic [ref=f17e157]: Search Assist
+                  - generic [ref=f17e163]:
+                    - generic [ref=f17e164]:
+                      - button "Copy" [ref=f17e165] [cursor=pointer]
+                      - button "Share" [ref=f17e170] [cursor=pointer]
+                    - button "Learn More About Assist" [ref=f17e175] [cursor=pointer]
+                    - button "Assist Settings" [ref=f17e180] [cursor=pointer]
+                - generic [ref=f17e183]:
+                  - generic [ref=f17e186]:
+                    - paragraph [ref=f17e188]: Best selling laptops typically include models that are highly rated by users for their performance, portability, and value. Popular choices often feature powerful processors, ample RAM, and solid-state drives (SSD) for fast performance.
+                    - generic [ref=f17e190]:
+                      - link "Dell" [ref=f17e193] [cursor=pointer]:
+                        - /url: https://www.dell.com/en-us/shopping/best-selling-laptops
+                      - link "Best Buy" [ref=f17e200] [cursor=pointer]:
+                        - /url: https://www.bestbuy.com/site/shop/best-selling-laptops
+                  - generic [ref=f17e208]:
+                    - button "More" [ref=f17e209] [cursor=pointer]
+                    - button "Expand Duck.ai chat input" [ref=f17e219] [cursor=pointer]
+              - generic [ref=f17e223]:
+                - paragraph [ref=f17e225]: Auto-generated based on listed sources. May contain inaccuracies.
+                - generic [ref=f17e228]:
+                  - text: Was this helpful?
+                  - button "Positive feedback" [ref=f17e229] [cursor=pointer]
+                  - button "Negative feedback" [ref=f17e233] [cursor=pointer]
+          - listitem [ref=f17e237]:
+            - article [ref=f17e238] [cursor=pointer]:
+              - button [ref=f17e240]
+              - generic [ref=f17e245]:
+                - link "Search domain rank1one.com" [ref=f17e247]:
+                  - /url: /?q=best%20selling%20laptops+site:rank1one.com
+                - generic [ref=f17e250]:
+                  - paragraph [ref=f17e251]: rank1one.com
+                  - link "https://rank1one.com › best-selling-laptops" [ref=f17e252]:
+                    - /url: https://rank1one.com/best-selling-laptops/
+                    - paragraph [ref=f17e254]:
+                      - generic [ref=f17e255]: https://rank1one.com
+                      - generic [ref=f17e256]: › best-selling-laptops
+              - heading [level=2] [ref=f17e258]:
+                - link "Top 10 Best-Selling Laptops 2026 | Rank1one" [ref=f17e259]:
+                  - /url: https://rank1one.com/best-selling-laptops/
+              - generic [ref=f17e264]:
+                - text: Nov 2, 2025·
+                - generic [ref=f17e265]: "Top 10 Best-Selling Laptops of 2026: A Deep Dive into Sales Leaders The global laptop market is booming, driven by AI integrations, Windows 11 upgrades, and a surge in remote work demands. According to industry reports, the market is projected to hit $132.1 billion in revenue this year, with unit sales reaching around 193.6 million worldwide."
+          - listitem [ref=f17e266]:
+            - article [ref=f17e267] [cursor=pointer]:
+              - button [ref=f17e269]
+              - generic [ref=f17e274]:
+                - link "Search domain pcmag.com" [ref=f17e276]:
+                  - /url: /?q=best%20selling%20laptops+site:www.pcmag.com
+                - generic [ref=f17e279]:
+                  - paragraph [ref=f17e280]: PCMag
+                  - link "https://www.pcmag.com › picks › the-best-laptops" [ref=f17e281]:
+                    - /url: https://www.pcmag.com/picks/the-best-laptops
+                    - paragraph [ref=f17e283]:
+                      - generic [ref=f17e284]: https://www.pcmag.com
+                      - generic [ref=f17e285]: › picks › the-best-laptops
+              - heading [level=2] [ref=f17e287]:
+                - link "The Best Laptops We've Tested (July 2026) | PCMag" [ref=f17e288]:
+                  - /url: https://www.pcmag.com/picks/the-best-laptops
+              - generic [ref=f17e293]:
+                - text: Jul 14, 2026·
+                - generic [ref=f17e294]: Whether you want a simple budget PC, a productivity workhorse, or a screamer of a gaming notebook, our experts have done the heavy lifting to help you find the right laptop for the job.
+          - listitem [ref=f17e295]:
+            - article [ref=f17e296] [cursor=pointer]:
+              - button [ref=f17e298]
+              - generic [ref=f17e303]:
+                - link "Search domain bestbuy.com" [ref=f17e305]:
+                  - /url: /?q=best%20selling%20laptops+site:www.bestbuy.com
+                - generic [ref=f17e308]:
+                  - paragraph [ref=f17e309]: Bestbuy
+                  - link "https://www.bestbuy.com › discover › best-selling › best-selling-laptop-computers › abcat0502000" [ref=f17e310]:
+                    - /url: https://www.bestbuy.com/discover/best-selling/best-selling-laptop-computers/abcat0502000
+                    - paragraph [ref=f17e312]:
+                      - generic [ref=f17e313]: https://www.bestbuy.com
+                      - generic [ref=f17e314]: › discover › best-selling › best-selling-laptop-computers › abcat0502000
+              - heading [level=2] [ref=f17e316]:
+                - link "Best-Selling Laptops - Best Buy" [ref=f17e317]:
+                  - /url: https://www.bestbuy.com/discover/best-selling/best-selling-laptop-computers/abcat0502000
+              - generic [ref=f17e319]: Shop all the best selling laptops brands and styles from Best Buy today.
+          - listitem [ref=f17e324]:
+            - article [ref=f17e325] [cursor=pointer]:
+              - button [ref=f17e327]
+              - generic [ref=f17e332]:
+                - link "Search domain bestbuy.com" [ref=f17e334]:
+                  - /url: /?q=best%20selling%20laptops+site:www.bestbuy.com
+                - generic [ref=f17e337]:
+                  - paragraph [ref=f17e338]: Bestbuy
+                  - link "https://www.bestbuy.com › site › shop › best-selling-laptops" [ref=f17e339]:
+                    - /url: https://www.bestbuy.com/site/shop/best-selling-laptops
+                    - paragraph [ref=f17e341]:
+                      - generic [ref=f17e342]: https://www.bestbuy.com
+                      - generic [ref=f17e343]: › site › shop › best-selling-laptops
+              - heading [level=2] [ref=f17e345]:
+                - link "Best Selling Laptops" [ref=f17e346]:
+                  - /url: https://www.bestbuy.com/site/shop/best-selling-laptops
+              - generic [ref=f17e348]: The laptop is the ultimate mobile computer. It can be used almost anywhere, and are packed with features that help you get your work done. We've put together a list of popular models to help you choose what's best for you. Browse the top-ranked list of best selling laptops below along with associated reviews and opinions.
+          - listitem [ref=f17e353]:
+            - article [ref=f17e354] [cursor=pointer]:
+              - button [ref=f17e356]
+              - generic [ref=f17e361]:
+                - link "Search domain forbes.com" [ref=f17e363]:
+                  - /url: /?q=best%20selling%20laptops+site:www.forbes.com
+                - generic [ref=f17e366]:
+                  - paragraph [ref=f17e367]: Forbes
+                  - link "https://www.forbes.com › sites › forbes-personal-shopper › article › best-laptop" [ref=f17e368]:
+                    - /url: https://www.forbes.com/sites/forbes-personal-shopper/article/best-laptop/
+                    - paragraph [ref=f17e370]:
+                      - generic [ref=f17e371]: https://www.forbes.com
+                      - generic [ref=f17e372]: › sites › forbes-personal-shopper › article › best-laptop
+              - heading [level=2] [ref=f17e374]:
+                - link "Best Laptops 2026 - Forbes Vetted" [ref=f17e375]:
+                  - /url: https://www.forbes.com/sites/forbes-personal-shopper/article/best-laptop/
+              - generic [ref=f17e380]:
+                - text: Jun 15, 2026·
+                - generic [ref=f17e381]: After testing over 20 models, here are the best laptops based on performance, battery life, display quality and more.
+          - listitem [ref=f17e382]:
+            - article [ref=f17e383] [cursor=pointer]:
+              - button [ref=f17e385]
+              - generic [ref=f17e390]:
+                - link "Search domain amazon.com" [ref=f17e392]:
+                  - /url: /?q=best%20selling%20laptops+site:www.amazon.com
+                - generic [ref=f17e395]:
+                  - paragraph [ref=f17e396]: Amazon
+                  - link "https://www.amazon.com › Best-Sellers-Laptop-Computers › zgbs › electronics › 565108" [ref=f17e397]:
+                    - /url: https://www.amazon.com/Best-Sellers-Laptop-Computers/zgbs/electronics/565108
+                    - paragraph [ref=f17e399]:
+                      - generic [ref=f17e400]: https://www.amazon.com
+                      - generic [ref=f17e401]: › Best-Sellers-Laptop-Computers › zgbs › electronics › 565108
+              - heading [level=2] [ref=f17e403]:
+                - 'link "Amazon Best Sellers: Best Laptop Computers" [ref=f17e404]':
+                  - /url: https://www.amazon.com/Best-Sellers-Laptop-Computers/zgbs/electronics/565108
+              - generic [ref=f17e406]: Discover the best Laptop Computers in Best Sellers. Find the top 100 most popular items in Amazon Electronics Best Sellers.
+          - listitem [ref=f17e411]:
+            - article [ref=f17e412] [cursor=pointer]:
+              - button [ref=f17e414]
+              - generic [ref=f17e419]:
+                - link "Search domain nytimes.com" [ref=f17e421]:
+                  - /url: /?q=best%20selling%20laptops+site:www.nytimes.com
+                - generic [ref=f17e424]:
+                  - paragraph [ref=f17e425]: New York Times
+                  - link "https://www.nytimes.com › wirecutter › reviews › best-laptops" [ref=f17e426]:
+                    - /url: https://www.nytimes.com/wirecutter/reviews/best-laptops/
+                    - paragraph [ref=f17e428]:
+                      - generic [ref=f17e429]: https://www.nytimes.com
+                      - generic [ref=f17e430]: › wirecutter › reviews › best-laptops
+              - heading [level=2] [ref=f17e432]:
+                - link "The 14 Best Laptops of 2026 | Reviews by Wirecutter" [ref=f17e433]:
+                  - /url: https://www.nytimes.com/wirecutter/reviews/best-laptops/
+              - generic [ref=f17e438]:
+                - text: Jul 6, 2026·
+                - generic [ref=f17e439]: From budget-friendly options to thin-and-light ultrabooks to powerful gaming laptops, we've spent hundreds of hours finding the best laptops for most people.
+          - listitem [ref=f17e440]:
+            - article [ref=f17e441] [cursor=pointer]:
+              - button [ref=f17e443]
+              - generic [ref=f17e448]:
+                - link "Search domain dell.com" [ref=f17e450]:
+                  - /url: /?q=best%20selling%20laptops+site:www.dell.com
+                - generic [ref=f17e453]:
+                  - paragraph [ref=f17e454]: Dell
+                  - link "https://www.dell.com › en-us › shopping › best-selling-laptops" [ref=f17e455]:
+                    - /url: https://www.dell.com/en-us/shopping/best-selling-laptops
+                    - paragraph [ref=f17e457]:
+                      - generic [ref=f17e458]: https://www.dell.com
+                      - generic [ref=f17e459]: › en-us › shopping › best-selling-laptops
+              - heading [level=2] [ref=f17e461]:
+                - link "Best Selling Laptops | Dell" [ref=f17e462]:
+                  - /url: https://www.dell.com/en-us/shopping/best-selling-laptops
+              - generic [ref=f17e464]: Looking for the top-rated laptops on the market? Our curated selection of best-selling laptops is based on user reviews, ensuring that you get the most reliable and highly-rated options available. Whether you're a student, professional, or tech enthusiast, these top-performing laptops are sure to meet your needs and exceed your expectations.
+          - listitem [ref=f17e469]:
+            - generic [ref=f17e471]:
+              - paragraph [ref=f17e472]: Searches related to best selling laptops
+              - generic [ref=f17e473]:
+                - list [ref=f17e474]:
+                  - listitem [ref=f17e475]:
+                    - link "best selling computers" [ref=f17e476] [cursor=pointer]:
+                      - /url: "?q=best%20selling%20computers"
+                  - listitem [ref=f17e479]:
+                    - link "best selling laptops uk" [ref=f17e480] [cursor=pointer]:
+                      - /url: "?q=best%20selling%20laptops%20uk"
+                  - listitem [ref=f17e483]:
+                    - link "best selling laptops on ebay" [ref=f17e484] [cursor=pointer]:
+                      - /url: "?q=best%20selling%20laptops%20on%20ebay"
+                  - listitem [ref=f17e487]:
+                    - link "best selling laptops amazon" [ref=f17e488] [cursor=pointer]:
+                      - /url: "?q=best%20selling%20laptops%20amazon"
+                  - listitem [ref=f17e491]:
+                    - link "world most selling laptop brand" [ref=f17e492] [cursor=pointer]:
+                      - /url: "?q=world%20most%20selling%20laptop%20brand"
+                - list [ref=f17e495]:
+                  - listitem [ref=f17e496]:
+                    - link "highest selling laptop brand" [ref=f17e497] [cursor=pointer]:
+                      - /url: "?q=highest%20selling%20laptop%20brand"
+                  - listitem [ref=f17e500]:
+                    - link "best selling laptops in usa" [ref=f17e501] [cursor=pointer]:
+                      - /url: "?q=best%20selling%20laptops%20in%20usa"
+                  - listitem [ref=f17e504]:
+                    - link "laptop market share by brand" [ref=f17e505] [cursor=pointer]:
+                      - /url: "?q=laptop%20market%20share%20by%20brand"
+                  - listitem [ref=f17e508]:
+                    - link "high rated laptop computers" [ref=f17e509] [cursor=pointer]:
+                      - /url: "?q=high%20rated%20laptop%20computers"
+                  - listitem [ref=f17e512]:
+                    - link "who sells the most laptops" [ref=f17e513] [cursor=pointer]:
+                      - /url: "?q=who%20sells%20the%20most%20laptops"
+        - button "More results" [ref=f17e518] [cursor=pointer]
+    - list [ref=f17e521]:
+      - button "Close menu" [ref=f17e522] [cursor=pointer]
+      - list [ref=f17e526]:
+        - listitem [ref=f17e527]: Search
+        - listitem [ref=f17e528]:
+          - link "Homepage" [ref=f17e529] [cursor=pointer]:
+            - /url: https://start.duckduckgo.com/
+        - listitem [ref=f17e530]:
+          - link "Themes" [ref=f17e531] [cursor=pointer]:
+            - /url: /settings#appearance
+        - listitem [ref=f17e532]:
+          - link "Settings" [ref=f17e533] [cursor=pointer]:
+            - /url: /settings
+      - list [ref=f17e534]:
+        - listitem [ref=f17e535]: Share Feedback
+        - listitem [ref=f17e536]:
+          - generic [ref=f17e539]:
+            - button "Positive feedback" [ref=f17e540] [cursor=pointer]
+            - button "Negative feedback" [ref=f17e544] [cursor=pointer]
+      - list [ref=f17e548]:
+        - listitem [ref=f17e549]: Downloads
+        - listitem [ref=f17e550]:
+          - link "iOS Browser" [ref=f17e551] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/duckduckgo-private-browser/id663592361?platform=iphone&pt=866401&mt=8&ct=serp-atb-serp
+        - listitem [ref=f17e552]:
+          - link "Android Browser" [ref=f17e553] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=utm_campaign%3Dserp-atb-serp%26origin%3Dfunnel_playstore_searchresults
+        - listitem [ref=f17e554]:
+          - link "Mac Browser" [ref=f17e555] [cursor=pointer]:
+            - /url: /mac?origin=funnel_browser_searchresults
+        - listitem [ref=f17e556]:
+          - link "Windows Browser" [ref=f17e557] [cursor=pointer]:
+            - /url: /windows?origin=funnel_browser_searchresults
+        - listitem [ref=f17e558]: Browser Extensions
+      - list [ref=f17e559]:
+        - listitem [ref=f17e560]: More From DuckDuckGo
+        - listitem [ref=f17e561]:
+          - generic [ref=f17e564]:
+            - button "Dismiss promotion" [ref=f17e565] [cursor=pointer]
+            - generic [ref=f17e568]:
+              - paragraph [ref=f17e570]: Upgrade to our Private Browser
+              - paragraph [ref=f17e582]: Fast. Secure. Free.
+            - link "Download Browser" [ref=f17e583] [cursor=pointer]:
+              - /url: /windows
+        - listitem [ref=f17e586]:
+          - link "Duck.ai" [ref=f17e587] [cursor=pointer]:
+            - /url: https://duck.ai
+        - listitem [ref=f17e588]:
+          - link "Email Protection" [ref=f17e589] [cursor=pointer]:
+            - /url: /email
+        - listitem [ref=f17e590]:
+          - link "Newsletter" [ref=f17e591] [cursor=pointer]:
+            - /url: /newsletter
+        - listitem [ref=f17e592]:
+          - link "Blog" [ref=f17e593] [cursor=pointer]:
+            - /url: /blog
+        - listitem [ref=f17e594]:
+          - link "Podcast" [ref=f17e595] [cursor=pointer]:
+            - /url: https://insideduckduckgo.substack.com/?showWelcome=true
+        - listitem [ref=f17e596]:
+          - link "Collaborations" [ref=f17e597] [cursor=pointer]:
+            - /url: /collaborations
+      - list [ref=f17e598]:
+        - listitem [ref=f17e599]: Learn More
+        - listitem [ref=f17e600]:
+          - link "What’s New" [ref=f17e601] [cursor=pointer]:
+            - /url: /updates
+        - listitem [ref=f17e602]:
+          - link "Compare Privacy" [ref=f17e603] [cursor=pointer]:
+            - /url: /compare-privacy
+        - listitem [ref=f17e604]:
+          - link "About Our Browser" [ref=f17e605] [cursor=pointer]:
+            - /url: /app
+        - listitem [ref=f17e606]:
+          - link "About DuckDuckGo" [ref=f17e607] [cursor=pointer]:
+            - /url: /about
+      - list [ref=f17e608]:
+        - listitem [ref=f17e609]: Other Resources
+        - listitem [ref=f17e610]:
+          - link "Help" [ref=f17e611] [cursor=pointer]:
+            - /url: /duckduckgo-help-pages
+        - listitem [ref=f17e612]:
+          - link "Community" [ref=f17e613] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/duckduckgo/
+        - listitem [ref=f17e614]:
+          - link "Careers" [ref=f17e615] [cursor=pointer]:
+            - /url: /careers
+        - listitem [ref=f17e616]:
+          - link "Privacy Policy" [ref=f17e617] [cursor=pointer]:
+            - /url: /privacy
+        - listitem [ref=f17e618]:
+          - link "Terms of Service" [ref=f17e619] [cursor=pointer]:
+            - /url: /terms
+        - listitem [ref=f17e620]:
+          - link "Press Kit" [ref=f17e621] [cursor=pointer]:
+            - /url: /press
+        - listitem [ref=f17e622]:
+          - link "Advertise on Search" [ref=f17e623] [cursor=pointer]:
+            - /url: /duckduckgo-help-pages/company/advertise-on-duckduckgo-search
+  - generic [ref=f17e629]:
+    - generic [ref=f17e640]:
+      - heading "Introducing DuckDuckGo Collaborations" [level=3] [ref=f17e641]
+      - paragraph [ref=f17e642]: Expertly crafted products for people who give a duck about privacy.
+    - link "See More" [ref=f17e643] [cursor=pointer]:
+      - /url: https://duckduckgo.com/collaborations
+  - button "Share Feedback" [ref=f17e648] [cursor=pointer]

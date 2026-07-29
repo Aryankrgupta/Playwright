@@ -1,0 +1,58 @@
+[       4ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    1899ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    1904ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  165504ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  165507ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  165647ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at eval (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops&sca_esv=5fc228418363e72d&source=hp&ei=3bJpaoLrBqC0hvcP7OHKsQQ&iflsig=ABILxe8AAAAAamnA7cFc1-RrJRnAP0z8LL7oUraniyn-&ved=0ahUKEwjCzfmrtfeVAxUgmuEIHeywMkYQ4dUDCB4&uact=5&oq=best+selling+laptops&gs_lp=Egdnd3Mtd2l6IhRiZXN0IHNlbGxpbmcgbGFwdG9wczIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIIEAAYiQUYogRIiN0EUABYAHAAeACQAQCYAaAIoAGgCKoBAzctMbgBA8gBAPgBAZgCAaACqQiYAwCSBwM2LTGgB7EFsgcDNi0xuAepCMIHAzItMcgHBoAIAQ&sclient=gws-wiz:2:477), <anonymous>:1226:34397)
+    at Y7 (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops&sca_esv=5fc228418363e72d&source=hp&ei=3bJpaoLrBqC0hvcP7OHKsQQ&iflsig=ABILxe8AAAAAamnA7cFc1-RrJRnAP0z8LL7oUraniyn-&ved=0ahUKEwjCzfmrtfeVAxUgmuEIHeywMkYQ4dUDCB4&uact=5&oq=best+selling+laptops&gs_lp=Egdnd3Mtd2l6IhRiZXN0IHNlbGxpbmcgbGFwdG9wczIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIIEAAYiQUYogRIiN0EUABYAHAAeACQAQCYAaAIoAGgCKoBAzctMbgBA8gBAPgBAZgCAaACqQiYAwCSBwM2LTGgB7EFsgcDNi0xuAepCMIHAzItMcgHBoAIAQ&sclient=gws-wiz:2:477), <anonymous>:1226:38526)
+    at Q.eval [as W] (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops&sca_esv=5fc228418363e72d&source=hp&ei=3bJpaoLrBqC0hvcP7OHKsQQ&iflsig=ABILxe8AAAAAamnA7cFc1-RrJRnAP0z8LL7oUraniyn-&ved=0ahUKEwjCzfmrtfeVAxUgmuEIHeywMkYQ4dUDCB4&uact=5&oq=best+selling+laptops&gs_lp=Egdnd3Mtd2l6IhRiZXN0IHNlbGxpbmcgbGFwdG9wczIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIIEAAYiQUYogRIiN0EUABYAHAAeACQAQCYAaAIoAGgCKoBAzctMbgBA8gBAPgBAZgCAaACqQiYAwCSBwM2LTGgB7EFsgcDNi0xuAepCMIHAzItMcgHBoAIAQ&sclient=gws-wiz:2:477), <anonymous>:1226:57415)
+    at vX (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops&sca_esv=5fc228418363e72d&source=hp&ei=3bJpaoLrBqC0hvcP7OHKsQQ&iflsig=ABILxe8AAAAAamnA7cFc1-RrJRnAP0z8LL7oUraniyn-&ved=0ahUKEwjCzfmrtfeVAxUgmuEIHeywMkYQ4dUDCB4&uact=5&oq=best+selling+laptops&gs_lp=Egdnd3Mtd2l6IhRiZXN0IHNlbGxpbmcgbGFwdG9wczIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIIEAAYiQUYogRIiN0EUABYAHAAeACQAQCYAaAIoAGgCKoBAzctMbgBA8gBAPgBAZgCAaACqQiYAwCSBwM2LTGgB7EFsgcDNi0xuAepCMIHAzItMcgHBoAIAQ&sclient=gws-wiz:2:477), <anonymous>:1226:37384)
+    at nC (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops&sca_esv=5fc228418363e72d&source=hp&ei=3bJpaoLrBqC0hvcP7OHKsQQ&iflsig=ABILxe8AAAAAamnA7cFc1-RrJRnAP0z8LL7oUraniyn-&ved=0ahUKEwjCzfmrtfeVAxUgmuEIHeywMkYQ4dUDCB4&uact=5&oq=best+selling+laptops&gs_lp=Egdnd3Mtd2l6IhRiZXN0IHNlbGxpbmcgbGFwdG9wczIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIIEAAYiQUYogRIiN0EUABYAHAAeACQAQCYAaAIoAGgCKoBAzctMbgBA8gBAPgBAZgCAaACqQiYAwCSBwM2LTGgB7EFsgcDNi0xuAepCMIHAzItMcgHBoAIAQ&sclient=gws-wiz:2:477), <anonymous>:1226:5654)
+    at a (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops&sca_esv=5fc228418363e72d&source=hp&ei=3bJpaoLrBqC0hvcP7OHKsQQ&iflsig=ABILxe8AAAAAamnA7cFc1-RrJRnAP0z8LL7oUraniyn-&ved=0ahUKEwjCzfmrtfeVAxUgmuEIHeywMkYQ4dUDCB4&uact=5&oq=best+selling+laptops&gs_lp=Egdnd3Mtd2l6IhRiZXN0IHNlbGxpbmcgbGFwdG9wczIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIIEAAYiQUYogRIiN0EUABYAHAAeACQAQCYAaAIoAGgCKoBAzctMbgBA8gBAPgBAZgCAaACqQiYAwCSBwM2LTGgB7EFsgcDNi0xuAepCMIHAzItMcgHBoAIAQ&sclient=gws-wiz:2:477), <anonymous>:1226:14058)
+[  165648ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+    at eval (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops&sca_esv=5fc228418363e72d&source=hp&ei=3bJpaoLrBqC0hvcP7OHKsQQ&iflsig=ABILxe8AAAAAamnA7cFc1-RrJRnAP0z8LL7oUraniyn-&ved=0ahUKEwjCzfmrtfeVAxUgmuEIHeywMkYQ4dUDCB4&uact=5&oq=best+selling+laptops&gs_lp=Egdnd3Mtd2l6IhRiZXN0IHNlbGxpbmcgbGFwdG9wczIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIIEAAYiQUYogRIiN0EUABYAHAAeACQAQCYAaAIoAGgCKoBAzctMbgBA8gBAPgBAZgCAaACqQiYAwCSBwM2LTGgB7EFsgcDNi0xuAepCMIHAzItMcgHBoAIAQ&sclient=gws-wiz:2:477), <anonymous>:1226:34397)
+    at Y7 (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops&sca_esv=5fc228418363e72d&source=hp&ei=3bJpaoLrBqC0hvcP7OHKsQQ&iflsig=ABILxe8AAAAAamnA7cFc1-RrJRnAP0z8LL7oUraniyn-&ved=0ahUKEwjCzfmrtfeVAxUgmuEIHeywMkYQ4dUDCB4&uact=5&oq=best+selling+laptops&gs_lp=Egdnd3Mtd2l6IhRiZXN0IHNlbGxpbmcgbGFwdG9wczIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIIEAAYiQUYogRIiN0EUABYAHAAeACQAQCYAaAIoAGgCKoBAzctMbgBA8gBAPgBAZgCAaACqQiYAwCSBwM2LTGgB7EFsgcDNi0xuAepCMIHAzItMcgHBoAIAQ&sclient=gws-wiz:2:477), <anonymous>:1226:38526)
+    at Q.eval [as W] (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops&sca_esv=5fc228418363e72d&source=hp&ei=3bJpaoLrBqC0hvcP7OHKsQQ&iflsig=ABILxe8AAAAAamnA7cFc1-RrJRnAP0z8LL7oUraniyn-&ved=0ahUKEwjCzfmrtfeVAxUgmuEIHeywMkYQ4dUDCB4&uact=5&oq=best+selling+laptops&gs_lp=Egdnd3Mtd2l6IhRiZXN0IHNlbGxpbmcgbGFwdG9wczIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIIEAAYiQUYogRIiN0EUABYAHAAeACQAQCYAaAIoAGgCKoBAzctMbgBA8gBAPgBAZgCAaACqQiYAwCSBwM2LTGgB7EFsgcDNi0xuAepCMIHAzItMcgHBoAIAQ&sclient=gws-wiz:2:477), <anonymous>:1226:57415)
+    at vX (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops&sca_esv=5fc228418363e72d&source=hp&ei=3bJpaoLrBqC0hvcP7OHKsQQ&iflsig=ABILxe8AAAAAamnA7cFc1-RrJRnAP0z8LL7oUraniyn-&ved=0ahUKEwjCzfmrtfeVAxUgmuEIHeywMkYQ4dUDCB4&uact=5&oq=best+selling+laptops&gs_lp=Egdnd3Mtd2l6IhRiZXN0IHNlbGxpbmcgbGFwdG9wczIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIIEAAYiQUYogRIiN0EUABYAHAAeACQAQCYAaAIoAGgCKoBAzctMbgBA8gBAPgBAZgCAaACqQiYAwCSBwM2LTGgB7EFsgcDNi0xuAepCMIHAzItMcgHBoAIAQ&sclient=gws-wiz:2:477), <anonymous>:1226:37384)
+    at nC (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops&sca_esv=5fc228418363e72d&source=hp&ei=3bJpaoLrBqC0hvcP7OHKsQQ&iflsig=ABILxe8AAAAAamnA7cFc1-RrJRnAP0z8LL7oUraniyn-&ved=0ahUKEwjCzfmrtfeVAxUgmuEIHeywMkYQ4dUDCB4&uact=5&oq=best+selling+laptops&gs_lp=Egdnd3Mtd2l6IhRiZXN0IHNlbGxpbmcgbGFwdG9wczIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIIEAAYiQUYogRIiN0EUABYAHAAeACQAQCYAaAIoAGgCKoBAzctMbgBA8gBAPgBAZgCAaACqQiYAwCSBwM2LTGgB7EFsgcDNi0xuAepCMIHAzItMcgHBoAIAQ&sclient=gws-wiz:2:477), <anonymous>:1226:5654)
+    at a (eval at <anonymous> (https://www.google.com/search?q=best+selling+laptops&sca_esv=5fc228418363e72d&source=hp&ei=3bJpaoLrBqC0hvcP7OHKsQQ&iflsig=ABILxe8AAAAAamnA7cFc1-RrJRnAP0z8LL7oUraniyn-&ved=0ahUKEwjCzfmrtfeVAxUgmuEIHeywMkYQ4dUDCB4&uact=5&oq=best+selling+laptops&gs_lp=Egdnd3Mtd2l6IhRiZXN0IHNlbGxpbmcgbGFwdG9wczIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIIEAAYiQUYogRIiN0EUABYAHAAeACQAQCYAaAIoAGgCKoBAzctMbgBA8gBAPgBAZgCAaACqQiYAwCSBwM2LTGgB7EFsgcDNi0xuAepCMIHAzItMcgHBoAIAQ&sclient=gws-wiz:2:477), <anonymous>:1226:14058)
+[  167149ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dbest%2Bselling%2Blaptops%26sca_esv%3D5fc228418363e72d%26source%3Dhp%26ei%3D3bJpaoLrBqC0hvcP7OHKsQQ%26iflsig%3DABILxe8AAAAAamnA7cFc1-RrJRnAP0z8LL7oUraniyn-%26ved%3D0ahUKEwjCzfmrtfeVAxUgmuEIHeywMkYQ4dUDCB4%26uact%3D5%26oq%3Dbest%2Bselling%2Blaptops%26gs_lp%3DEgdnd3Mtd2l6IhRiZXN0IHNlbGxpbmcgbGFwdG9wczIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIIEAAYiQUYogRIiN0EUABYAHAAeACQAQCYAaAIoAGgCKoBAzctMbgBA8gBAPgBAZgCAaACqQiYAwCSBwM2LTGgB7EFsgcDNi0xuAepCMIHAzItMcgHBoAIAQ%26sclient%3Dgws-wiz%26sei%3DgLNpao2ENtmXhvcPg56EGQ&q=EhAkCUDlEBeGZAA9U9xsZCGgGIHnptMGIjCB46TLm1iebwR8h3qIGsNNACHEz0VjNnFfWGm-4I2VJyQPJIOuFUZp2ZbH8w0pp0QyAVJaAUM:0
+[  167166ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  167167ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7

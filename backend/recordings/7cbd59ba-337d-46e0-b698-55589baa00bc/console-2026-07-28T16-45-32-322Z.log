@@ -1,0 +1,101 @@
+[      18ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[     521ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[     525ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    2691ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    2693ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    9662ms] [ERROR] Failed to load resource: net::ERR_TRUST_TOKEN_OPERATION_FAILED @ https://www.amazon.com/tt/i:0
+[   10639ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   10643ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   11569ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   11572ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   11660ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   11662ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   11832ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   11834ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   12507ms] [ERROR] Failed to load resource: net::ERR_TRUST_TOKEN_OPERATION_FAILED @ https://www.amazon.com/tt/i:0
+[   13763ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   13766ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   14187ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   14194ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   14944ms] [ERROR] Error logged with the Track&Report JS errors API(http://tiny/1covqr6l8/wamazindeClieUserJava): {"m":"ARA:RegisterTriggerResponseError:SEARCH. Error receiving response from ARAServiceFailed to execute 'json' on 'Response': Unexpected end of JSON input","name":"SyntaxError","csm":"v5 ueLogError stack","logLevel":"ERROR","attribution":"ARARegisterTrigger","pageURL":"https://www.amazon.com/s?k=wireless+mouse&ref=nb_sb_noss","f":"https://m.media-amazon.com/images/I/21vARlfe4pL._RC%7C11s0wiXngEL.js_.js?AUIClients/ARARegisterTriggerSubAssets-search","l":"7","s":["SyntaxError: Unexpected end of JSON input","at https://m.media-amazon.com/images/I/21vARlfe4pL._RC%7C11s0wiXngEL.js_.js?AUIClients/ARARegisterTriggerSubAssets-search:7:384"],"t":4314} {m: ARA:RegisterTriggerResponseError:SEARCH. Error rec…json' on 'Response': Unexpected end of JSON input, name: SyntaxError, type: undefined, csm: v5 ueLogError stack, logLevel: ERROR} @ https://images-na.ssl-images-amazon.com/images/I/215h87l68bL.js:3
+[   15725ms] [ERROR] Loading the image 'https://match.adsrvr.org/track/cmf/generic?ttd_pid=stickyads&ttd_tpi=1&gdpr=0&gdpr_consent=' violates the following Content Security Policy directive: "default-src 'self' s.amazon-adsystem.com aax-eu.amazon-adsystem.com aax-fe.amazon-adsystem.com fonts.gstatic.com *.firefox.etp doubleclick.net *.stickyadstv.com *.g.doubleclick.net fout.jp ninthdecimal.com *.postrelease.com *.yahoo.com *.adnxs.com exelator.com richaudience.com *.presage.io samplicio.us *.rubiconproject.com semasio.net cm.g.doubleclick.net *.samba.tv presage.io yahoo.com *.loopme.me *.amazon-adsystem.com yahoo.net gumgum.com *.imdb.com google.com amazon-adsystem.com *.samplicio.us *.smartadserver.com loopme.me zeotap.com *.mediarithmics.com taboola.com *.bidswitch.net *.thisisdax.com *.fwmrm.net *.yahoo.net adscale.de *.ninthdecimal.com *.zeotap.com *.adscale.de fwmrm.net demdex.net *.scorecardresearch.com agkn.com *.kargo.com connatix.com *.dmxleo.com *.casalemedia.com bidswitch.net dmxleo.com imdb.com *.gumgum.com *.demdex.net *.ispot.tv *.google.com *.exelator.com *.pubmatic.com kargo.com scorecardresearch.com *.3lift.com thisisdax.com postrelease.com *.doubleclick.net stickyadstv.com yieldmo.com *.mookie1.com ispot.tv *.connatix.com *.agkn.com samba.tv pubmatic.com smartadserver.com s.amazon-adsystem.com/ecm3 *.match.360yield.com *.richaudience.com *.fout.jp casalemedia.com rubiconproject.com openx.net adnxs.com mookie1.com match.360yield.com *.taboola.com *.openx.net *.semasio.net *.yieldmo.com". Note that 'img-src' was not explicitly set, so 'default-src' is used as a fallback. The action has been blocked. @ https://s.amazon-adsystem.com/v3/pr?exlist=n-xr-HMT_n-id-HMT_n-nt-HMT_ns_n-eq-HMT3_n-ix-HMT_bsw_n-y-HMT_n-cx-HMT_n-dm2-HMT_n-dx-HMT2_n-zeotap-4_fw_imdb_n-fo-HMT_n-lucid_n-st-HMT1_n-samba.tv_n-rb-HMT3_n-fw-HMT1_n-og-HMT_adelphic_adb_mp_n-mediarithmics_g_n-comscr.com_n-lm-HMT3_ox_n-tl-HMT_n-semasio-ecm_n-kg-HMT_n-gg-HMT2_an_n-pm-HMT_n-g-hmt_nsln_nd_n-ispot_n-stroer-HMT_n-ym-HMT_n-ox-hmt_n-ex1-HMT_tbl&fv=1.0&a=cm&dmt=1&gdpr_consent=&ex-pl-n-g-hmt=xHMO-7c3TDG8Pn74eIG76A&gdpr=0&ep=afDb_v8rl7ElD9Y4dCV-jrl76TC1VWHPktZYnRmtUbGWsdyGTMtBj2xgm3tGjDZp87DUb5LXBg2nb3PvF3EqFBR70_Wfun-dJ2T9vrH4N1N7m_UV_jlyPqX2xChDapYUariE9RRSrT8vkJ_KXm4IeSwcU6284Ay0Df3zLhcHBMMMTYd_UcdWSAjLpoA1I2p-MJPfKr8rx9Tn2DOeCKfi4VlpdZmqQUuVj49VcTFSucX_Z30vwDZeWKf2fEJhZelLUSGnUy-uaeL_2emMLnL4_PvifSg_YjhOs7P4MEuXzzTX82PvfC9U1214Ps3OdVyqZ9ZxyHLF7psKcKu8fgZfTIgP2i8bLxHmOANHHCDvIzE2WPJrs4zHIZ9VDlpjm2ITZiROj06qTYN6ar8pMyByQmf1FlkzZDze2Tgc0DbaiNVL94NBBdpjvwEWvSL1Tg5RnkPMLc6_9FTPPEYVqkZxRsiyQPA9p5lwllLwHa-I0hpQJi7DDIDR3vpgIkjyKLjHesCwxwzgXPP4Y3YNF9lArKT9kaM7cYAjS0y1D9Md4lB17hoeG5Vo-WInzOvU93ykBoVblUof3f4zJza7WKYLvrG7azRIjvy0Xulb4DtwNQ2b2XID-OjwLbQsqhXto9RDgP5Nj5md__kGQ7KUsW1C8U2WBV79QEVqIxhJ2UtV_rSOKdVnpl_IT9IliB54f2Y-mSXc5bJolEJ5en_ibdh_02_mc_1oL_75fqaiahZKKuMLQ-zd6l0PXSUyrqD8OunZvmcBvNZZspRzqS0oPtaZExXIJ39WzTdiYQXoc4FJEz5lSI3DwHqmDFfUZHvaylVA4BHwzdRUNq7UCPnC_sOK6NDwt_Fwq7I0EPSTRpDQStBwyY0KpetqimO_zDbHicLdW5pR36VL35XX3fL6Gx6dUaU37IjIr9PCFS5Zn8dCenzU7Czf9XL3K5LyF5ix6ThOJrFlzRtO1O0guf5XRNVh78ZMlHiDGdiZ8iOwKml91tAOvvEBBTD1uTQmjLOxCzGFX2s6SvdE5sEHf_3p3NJVaDdzq3fBiOR3w7CMmyfx717CKhktJCht3AiK1BXOFiFCImsfrSAO54aX_lkPXqhEVej3mt2PAkWsrqDX_s3TRJ72fUWH2ZOcx7XPVfQBhhele2cUhnHJqw1mDVAeL1WJvRPw55G8DQa8gsSEjfNeavLB6t8CsJc1UvjOHj7paAHklTMR_gqUWJoxWA5kL9uaujhVHrrG86zzmiMNLuHXkcACikxu5alKh_n7qdAWJz8sHhgkpDTlWQh2cS3oqUTPU9OHoKOD1WaAN1ZyVF1X8nLfHooQHdlV1AB02lm9or9c7IDwb2FhqNccf_i4NL2dG4KTrCVJb400ukntJWi5GcYN1JUw-WTb7lcnxgfQ-wWFVMchsDytBvNB5iJwDKMX-OtMOllON59y5TaGyi_vjwtwq6i5kZYuyaicn5hSRnvh:0
+[   15942ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/cqKHmwD3Ut9oj5s.js#sfClientUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.com/s?k=wireless+mouse&ref=nb_sb_noss:0
+[   15943ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/1dcKWNtgTsXnwBt.html#sfClientHtmlUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.com/s?k=wireless+mouse&ref=nb_sb_noss:0
+[   25105ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/cqKHmwD3Ut9oj5s.js#sfClientUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.com/s?k=wireless+mouse&ref=nb_sb_noss:0
+[   25106ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/1dcKWNtgTsXnwBt.html#sfClientHtmlUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.com/s?k=wireless+mouse&ref=nb_sb_noss:0
+[   32419ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/cqKHmwD3Ut9oj5s.js#sfClientUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.com/s?k=wireless+mouse&ref=nb_sb_noss:0
+[   32420ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/1dcKWNtgTsXnwBt.html#sfClientHtmlUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.com/s?k=wireless+mouse&ref=nb_sb_noss:0
+[   43814ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/cqKHmwD3Ut9oj5s.js#sfClientUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.com/s?k=wireless+mouse&ref=nb_sb_noss:0
+[   43815ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/1dcKWNtgTsXnwBt.html#sfClientHtmlUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.com/s?k=wireless+mouse&ref=nb_sb_noss:0
+[   60598ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/cqKHmwD3Ut9oj5s.js#sfClientUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.com/s?k=wireless+mouse&ref=nb_sb_noss:0
+[   60599ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/1dcKWNtgTsXnwBt.html#sfClientHtmlUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.com/s?k=wireless+mouse&ref=nb_sb_noss:0
+[   67854ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/cqKHmwD3Ut9oj5s.js#sfClientUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.com/s?k=wireless+mouse&ref=nb_sb_noss:0
+[   67856ms] [WARNING] The resource https://m.media-amazon.com/images/S/sash/1dcKWNtgTsXnwBt.html#sfClientHtmlUrl was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.com/s?k=wireless+mouse&ref=nb_sb_noss:0

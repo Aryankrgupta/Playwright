@@ -14,7 +14,6 @@ import * as cheerio from "cheerio";
 import { solve as solveRecaptcha } from "recaptcha-solver";
 import fsSync from "fs";
 
-
 // 1. Initialize the core stealth framework to strip obvious automation flags
 const stealth = stealthPlugin({
   enabledEvasions: new Set([
@@ -173,6 +172,7 @@ const cerebras = new OpenAI({
   baseURL: "https://api.cerebras.ai/v1",
 });
 
+
 // ---------------------------------------------------------------------------
 // Timing helpers -- lightweight, console-only instrumentation.
 // ---------------------------------------------------------------------------
@@ -219,6 +219,42 @@ const openrouter = openrouterEnabled
     })
   : null;
 
+const NVIDIA_NIM_MODEL =
+  process.env.NVIDIA_NIM_MODEL || "meta/llama-3.3-70b-instruct";
+const nvidiaNimEnabled = !!process.env.NVIDIA_NIM_API_KEY;
+
+const nvidiaNim = nvidiaNimEnabled
+  ? new OpenAI({
+      apiKey: process.env.NVIDIA_NIM_API_KEY,
+      // 1. Updated Base URL to the modern, unified routing catalog path
+      baseURL: "https://api.nvidia.com/v1", 
+      // 2. Injects standard environment headers to authenticate the backend network socket
+      defaultHeaders: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) OpenAI-Node-SDK/Wayfinder",
+        "Accept": "application/json",
+        "X-NVAPI-Client": "NodeJS-SDK"
+      }
+    })
+  : null;
+
+const SAMBANOVA_MODEL = process.env.SAMBANOVA_MODEL || "gpt-oss-120b";
+const sambanovaEnabled = !!process.env.SAMBANOVA_API_KEY;
+const sambanova = sambanovaEnabled
+  ? new OpenAI({
+      apiKey: process.env.SAMBANOVA_API_KEY,
+      baseURL: "https://api.sambanova.ai/v1",
+    })
+  : null;
+
+if (!groqEnabled)
+  console.log("[fallback] GROQ_API_KEY not set -- Groq disabled.");
+if (!openrouterEnabled)
+  console.log("[fallback] OPENROUTER_API_KEY not set -- OpenRouter disabled.");
+if (!nvidiaNimEnabled)
+  console.log("[fallback] NVIDIA_NIM_API_KEY not set -- NVIDIA NIM disabled.");
+if (!sambanovaEnabled)
+  console.log("[fallback] SAMBANOVA_API_KEY not set -- SambaNova disabled.");
+
 if (!groqEnabled)
   console.log("[fallback] GROQ_API_KEY not set -- Groq disabled.");
 if (!openrouterEnabled)
@@ -236,8 +272,23 @@ const fallbackChain = [
         disabledUntil: 0,
       }
     : null,
+    sambanovaEnabled
+    ? {
+        name: "sambanova",
+        client: sambanova,
+        model: SAMBANOVA_MODEL,
+        disabledUntil: 0,
+      }
+    : null,
+  nvidiaNimEnabled
+    ? {
+        name: "nvidia_nim",
+        client: nvidiaNim,
+        model: NVIDIA_NIM_MODEL,
+        disabledUntil: 0,
+      }
+    : null,
 ].filter(Boolean);
-
 function parseCooldownMs(message, fallbackMs = 15 * 60 * 1000) {
   const match =
     /try again in\s*(?:([\d.]+)h)?\s*(?:([\d.]+)m)?\s*(?:([\d.]+)s)?/i.exec(
@@ -769,23 +820,34 @@ function broadcastQueuePositions() {
   });
 }
 
+const SNAPSHOT_NOISE_PATTERNS = [
+  /- navigation "Shortcuts menu"[\s\S]*?- generic \[ref=\w+\]: To move between items, use your keyboard's up or down arrows\.\n/,
+  /- combobox "Select the department you want to search in"[\s\S]*?(?=\n\s*- searchbox)/,
+  /(?:\s*- generic: "Test: [^\n]+"\n)+/g,
+];
+
+function stripSnapshotNoise(text) {
+  let cleaned = text;
+  for (const pattern of SNAPSHOT_NOISE_PATTERNS) {
+    cleaned = cleaned.replace(pattern, "");
+  }
+  return cleaned;
+}
+
 function summarizeMcpResult(result) {
   const items = result?.content || [];
-  const text = items
+  let text = items
     .filter((i) => i.type === "text")
     .map((i) => i.text)
-    .join("\n")
-    .slice(0, 4000);
+    .join("\n");
+
+  text = stripSnapshotNoise(text);   // <-- add this line, before the slice
+  text = text.slice(0, 4000);
+
   const screenshot = items.find((i) => i.type === "image");
   return {
-    text:
-      text ||
-      (screenshot
-        ? "(screenshot captured -- shown to the user, not visible to you)"
-        : "(no text output)"),
-    screenshot: screenshot
-      ? { data: screenshot.data, mimeType: screenshot.mimeType || "image/png" }
-      : null,
+    text: text || (screenshot ? "(screenshot captured -- shown to the user, not visible to you)" : "(no text output)"),
+    screenshot: screenshot ? { data: screenshot.data, mimeType: screenshot.mimeType || "image/png" } : null,
     isError: !!result?.isError,
   };
 }
@@ -851,7 +913,11 @@ Guidelines:
   specific text/data on the page), never optimistically. Set success:false and explain what blocked you if you
   could not verify it, rather than guessing or claiming something you didn't confirm.
 - If you get stuck after several attempts on this sub-goal, call finish_subgoal with success:false and explain
-  what's blocking you, instead of repeating the same failing action or claiming false progress.`;
+  what's blocking you, instead of repeating the same failing action or claiming false progress.
+- Prices may appear in any currency/locale format (e.g. "INR 1,234.56", "€99,00"), not just "$X.XX". Don't
+  assume USD formatting when searching for price text -- prefer browser_evaluate querying common price CSS
+  classes (.a-price, .a-offscreen, etc. on Amazon) over guessing currency symbols with browser_find.`;
+
 
 const PLAN_SYSTEM_PROMPT = `You are a task planner for a browser automation agent. Given a user's task, break it
 into 2-5 concrete, sequential sub-goals that together accomplish it. Each sub-goal should be a single, well-scoped
@@ -1142,9 +1208,11 @@ async function* runSubGoal(state, client, tools, signal, useFallback = true) {
           // =========================================================================
           // 🛡️ EMERGENCY FIREWALL FAILOVER INTERCEPTOR HOOK: Detects Google Blocks
           // =========================================================================
-          const rawResponseText = mcpResult?.content?.[0]?.text || "";
+                    // =========================================================================
+          // 🛡️ REBUILT FIREWALL FAILOVER INTERCEPTOR: Complete Parameter Routing
+          // =========================================================================
+          const rawResponseText = mcpResult?.content?.[0]?.text || mcpResult?.content || "";
           
-          // Detect if Google served a hard CAPTCHA, a 429 page, or a sorry/index redirect
           const isGoogleCaptcha = 
             rawResponseText.includes("sorry/index") || 
             rawResponseText.includes("captcha") || 
@@ -1154,35 +1222,34 @@ async function* runSubGoal(state, client, tools, signal, useFallback = true) {
           if (isGoogleCaptcha) {
             console.log("⚠️ [Failover Shield] Hard Google CAPTCHA block detected! Initiating emergency reroute sequence...");
             
-            // Extract the original keywords the agent was trying to find
-            // Falls back to a clean default query if argument parsing is complex
-             const originalQuery = args.text || args.value || args.q || "latest AI news";
+            // =========================================================================
+            // ✅ THE PERFECT REPAIR: Pulls your live active task query dynamically
+            // =========================================================================
+            let extractedQuery = args.text || args.value || args.q || state.task || "web search";
+            // =========================================================================
             
-            // Rebuilt using direct string additions to prevent text interpolation bugs
-            const fallbackUrl = "https://duckduckgo.com" + encodeURIComponent(originalQuery);
+            const fallbackUrl = "https://duckduckgo.com" + encodeURIComponent(extractedQuery);
             
             yield { 
               type: "status", 
-              text: "⚠️ Google CAPTCHA triggered. Auto-rerouting query to DuckDuckGo fallback line..." 
+              text: `⚠️ Google CAPTCHA triggered. Auto-rerouting query [${extractedQuery}] to DuckDuckGo...` 
             };
 
-            console.log("[Failover Shield] Executing safe fallback extraction on: " + fallbackUrl);
+            console.log("[Failover Shield] Navigating to dynamic route: " + fallbackUrl);
             
-            // Overwrite the tool runner on the fly to navigate to DuckDuckGo instead
             mcpResult = await client.callTool({
               name: "browser_navigate",
               arguments: { url: fallbackUrl }
             });
 
-            // Immediately take a clean snapshot of DuckDuckGo's result layout to feed back to your LLM
             mcpResult = await client.callTool({
               name: "browser_snapshot",
               arguments: { depth: 4 }
             });
             
-            // Prepend a structural layout note so your Cerebras LLM understands it is reading from DuckDuckGo now
+            // Append a structural note so your Cerebras or NVIDIA NIM model adapts its parsing instantly
             if (mcpResult && mcpResult.content?.[0]) {
-              mcpResult.content[0].text = `[SYSTEM ARCHITECTURE ADJUSTMENT: The primary Google query encountered a hard network block. The system automatically executed a real-time failover reroute to DuckDuckGo to fetch your results. Please extract your final data directly from this clean DuckDuckGo text array layout]:\n${mcpResult.content[0].text}`;
+              mcpResult.content[0].text = `[SYSTEM ARCHITECTURE ADJUSTMENT: The primary Google query encountered a hard network block. The system automatically executed a real-time failover reroute to DuckDuckGo to fetch your results. Please extract your final data directly from this clean DuckDuckGo text array layout]:\n` + mcpResult.content[0].text;
             }
           }
           // =========================================================================

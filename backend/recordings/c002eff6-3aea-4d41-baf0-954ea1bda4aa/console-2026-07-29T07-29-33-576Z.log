@@ -1,0 +1,1 @@
+[     302ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://www.google.com/recaptcha/enterprise/bframe?hl=en&v=A7KpaEASfhDcK0nXxgQEyyYv&k=6LdLLIMbAAAAAIl-KLj9p1ePhM-4LCCDbjtJLqRO&bft=0dAFcWeA7qpQ32NpDAMCPzGF61vyHhEku353k1II37pg8FdSBv7KDW02bcOSV-lxlBpJ3XQ9YxW4ckHWNUp_jHaXmLBBqprMn0mw:0

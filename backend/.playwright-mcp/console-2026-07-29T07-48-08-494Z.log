@@ -1,0 +1,42 @@
+[    1989ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    1991ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[    5046ms] [WARNING] A preload for 'https://duckduckgo.com/country.json' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute. @ https://duckduckgo.com/_next/static/chunks/pages/_app-fefa7ebf00b3a8b5.js:0
+[    7900ms] [WARNING] The resource https://duckduckgo.com/static-assets/image/pages/app/app-store-badge-light.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://duckduckgo.com/:0
+[    7904ms] [WARNING] The resource https://duckduckgo.com/country.json was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://duckduckgo.com/:0
+[   13187ms] [WARNING] The resource https://duckduckgo.com/static-assets/image/pages/app/app-store-badge-light.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://duckduckgo.com/:0
+[   13187ms] [WARNING] The resource https://duckduckgo.com/country.json was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://duckduckgo.com/:0
+[   74588ms] [WARNING] Attempted to start an event that already exists: homepage_search-from-homepage @ https://duckduckgo.com/_next/static/chunks/pages/_app-fefa7ebf00b3a8b5.js:0
+[   76390ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   76395ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   81896ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://duckduckgo.com/font/DuckSansDisplay-Regular.woff2 @ https://duckduckgo.com/dist/wpm.main.5ce8922b119acc3b7f2e.js:0
+[   81907ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://duckduckgo.com/font/DuckSansDisplay-Bold.woff2 @ https://duckduckgo.com/dist/lib/l.3ae6f13dc257d9500d18.js:46
+[   81969ms] [WARNING] useTranslation: DISMISS is not available @ https://duckduckgo.com/dist/wpm.main.5ce8922b119acc3b7f2e.js:0
+[   81991ms] [WARNING] useTranslation: DISMISS is not available @ https://duckduckgo.com/dist/wpm.main.5ce8922b119acc3b7f2e.js:0
+[   82617ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[   82617ms] TypeError: Cannot redefine property: languages
+    at Object.defineProperty (<anonymous>)
+    at <anonymous>:28:12
+    at <anonymous>:46:5
+    at <anonymous>:47:7
+[  101153ms] [WARNING] The resource https://duckduckgo.com/dist/wpm.duckassist-ia.09fad14a717bd9da80d3.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://duckduckgo.com/?ia=web&origin=funnel_home_website&t=h_&q=latest+AI+news&chip-select=search:0
+[  101154ms] [WARNING] The resource https://duckduckgo.com/dist/wpm.duckassist-ia.9b2dfaa9a52c8dd3f656.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://duckduckgo.com/?ia=web&origin=funnel_home_website&t=h_&q=latest+AI+news&chip-select=search:0
