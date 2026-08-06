@@ -13,6 +13,7 @@ import stealthPlugin from "puppeteer-extra-plugin-stealth";
 import * as cheerio from "cheerio";
 import { solve as solveRecaptcha } from "recaptcha-solver";
 import fsSync from "fs";
+import { safeParseJson, makeOpenAIProvider } from "./lib.js";
 
 // 1. Initialize the core stealth framework to strip obvious automation flags
 const stealth = stealthPlugin({
@@ -197,98 +198,64 @@ function timer(label) {
 
 const FALLBACK_TIMEOUT_MS = 4000;
 
-const GROQ_MODEL = process.env.GROQ_MODEL || "llama-3.3-70b-versatile";
-const groqEnabled = !!process.env.GROQ_API_KEY;
-const groq = groqEnabled
-  ? new OpenAI({
-      apiKey: process.env.GROQ_API_KEY,
-      baseURL: "https://api.groq.com/openai/v1",
-    })
-  : null;
+// Each fallback provider is an OpenAI-compatible endpoint, enabled only when
+// its API key is present. The chain is tried in this array's order.
+const fallbackProviders = [
+  makeOpenAIProvider({
+    name: "groq",
+    label: "Groq",
+    apiKeyEnv: "GROQ_API_KEY",
+    model: process.env.GROQ_MODEL || "llama-3.3-70b-versatile",
+    baseURL: "https://api.groq.com/openai/v1",
+  }),
+  makeOpenAIProvider({
+    name: "openrouter",
+    label: "OpenRouter",
+    apiKeyEnv: "OPENROUTER_API_KEY",
+    model: process.env.OPENROUTER_MODEL || "openrouter/free",
+    baseURL: "https://openrouter.ai/api/v1",
+    defaultHeaders: {
+      "HTTP-Referer": process.env.FRONTEND_ORIGIN || "http://localhost:5173",
+      "X-Title": "Wayfinder",
+    },
+  }),
+  makeOpenAIProvider({
+    name: "sambanova",
+    label: "SambaNova",
+    apiKeyEnv: "SAMBANOVA_API_KEY",
+    model: process.env.SAMBANOVA_MODEL || "gpt-oss-120b",
+    baseURL: "https://api.sambanova.ai/v1",
+  }),
+  makeOpenAIProvider({
+    name: "nvidia_nim",
+    label: "NVIDIA NIM",
+    apiKeyEnv: "NVIDIA_NIM_API_KEY",
+    model: process.env.NVIDIA_NIM_MODEL || "meta/llama-3.3-70b-instruct",
+    baseURL: "https://api.nvidia.com/v1",
+    defaultHeaders: {
+      "User-Agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) OpenAI-Node-SDK/Wayfinder",
+      Accept: "application/json",
+      "X-NVAPI-Client": "NodeJS-SDK",
+    },
+  }),
+];
 
-const OPENROUTER_MODEL = process.env.OPENROUTER_MODEL || "openrouter/free";
-const openrouterEnabled = !!process.env.OPENROUTER_API_KEY;
-const openrouter = openrouterEnabled
-  ? new OpenAI({
-      apiKey: process.env.OPENROUTER_API_KEY,
-      baseURL: "https://openrouter.ai/api/v1",
-      defaultHeaders: {
-        "HTTP-Referer": process.env.FRONTEND_ORIGIN || "http://localhost:5173",
-        "X-Title": "Wayfinder",
-      },
-    })
-  : null;
+const groqEnabled = fallbackProviders.find((p) => p.name === "groq").enabled;
+const openrouterEnabled = fallbackProviders.find(
+  (p) => p.name === "openrouter",
+).enabled;
 
-const NVIDIA_NIM_MODEL =
-  process.env.NVIDIA_NIM_MODEL || "meta/llama-3.3-70b-instruct";
-const nvidiaNimEnabled = !!process.env.NVIDIA_NIM_API_KEY;
+for (const provider of fallbackProviders) {
+  if (!provider.enabled) {
+    console.log(
+      `[fallback] ${provider.apiKeyEnv} not set -- ${provider.label} disabled.`,
+    );
+  }
+}
 
-const nvidiaNim = nvidiaNimEnabled
-  ? new OpenAI({
-      apiKey: process.env.NVIDIA_NIM_API_KEY,
-      // 1. Updated Base URL to the modern, unified routing catalog path
-      baseURL: "https://api.nvidia.com/v1", 
-      // 2. Injects standard environment headers to authenticate the backend network socket
-      defaultHeaders: {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) OpenAI-Node-SDK/Wayfinder",
-        "Accept": "application/json",
-        "X-NVAPI-Client": "NodeJS-SDK"
-      }
-    })
-  : null;
+const fallbackChain = fallbackProviders.filter((p) => p.enabled);
 
-const SAMBANOVA_MODEL = process.env.SAMBANOVA_MODEL || "gpt-oss-120b";
-const sambanovaEnabled = !!process.env.SAMBANOVA_API_KEY;
-const sambanova = sambanovaEnabled
-  ? new OpenAI({
-      apiKey: process.env.SAMBANOVA_API_KEY,
-      baseURL: "https://api.sambanova.ai/v1",
-    })
-  : null;
-
-if (!groqEnabled)
-  console.log("[fallback] GROQ_API_KEY not set -- Groq disabled.");
-if (!openrouterEnabled)
-  console.log("[fallback] OPENROUTER_API_KEY not set -- OpenRouter disabled.");
-if (!nvidiaNimEnabled)
-  console.log("[fallback] NVIDIA_NIM_API_KEY not set -- NVIDIA NIM disabled.");
-if (!sambanovaEnabled)
-  console.log("[fallback] SAMBANOVA_API_KEY not set -- SambaNova disabled.");
-
-if (!groqEnabled)
-  console.log("[fallback] GROQ_API_KEY not set -- Groq disabled.");
-if (!openrouterEnabled)
-  console.log("[fallback] OPENROUTER_API_KEY not set -- OpenRouter disabled.");
-
-const fallbackChain = [
-  groqEnabled
-    ? { name: "groq", client: groq, model: GROQ_MODEL, disabledUntil: 0 }
-    : null,
-  openrouterEnabled
-    ? {
-        name: "openrouter",
-        client: openrouter,
-        model: OPENROUTER_MODEL,
-        disabledUntil: 0,
-      }
-    : null,
-    sambanovaEnabled
-    ? {
-        name: "sambanova",
-        client: sambanova,
-        model: SAMBANOVA_MODEL,
-        disabledUntil: 0,
-      }
-    : null,
-  nvidiaNimEnabled
-    ? {
-        name: "nvidia_nim",
-        client: nvidiaNim,
-        model: NVIDIA_NIM_MODEL,
-        disabledUntil: 0,
-      }
-    : null,
-].filter(Boolean);
 function parseCooldownMs(message, fallbackMs = 15 * 60 * 1000) {
   const match =
     /try again in\s*(?:([\d.]+)h)?\s*(?:([\d.]+)m)?\s*(?:([\d.]+)s)?/i.exec(
@@ -338,6 +305,14 @@ function sanitizeAssistantMessage(msg) {
   return clean;
 }
 
+// Builds the Cerebras request payload, pinning the prompt cache to the given
+// task id when available (improves cache hit rate across a task's steps).
+function buildCerebrasParams(params, taskId) {
+  const built = { model: MODEL, ...params };
+  if (taskId) built.prompt_cache_key = taskId;
+  return built;
+}
+
 // Tries Cerebras first (racing it against a timeout, unless useFallback is
 // false -- then Cerebras alone, no timeout race, no chain). If Cerebras is
 // slow/errors and useFallback is true, walks the fallback chain in order,
@@ -355,13 +330,7 @@ async function createCompletionWithFallback(
   const cleanupPrimary = () =>
     signal?.removeEventListener("abort", forwardAbort);
 
-  // 1. Build the primary Cerebras request payload object
-  const cerebrasRequestParams = {
-    model: MODEL,
-    ...params,
-  };
-
-  // 2. ZERO FRONTEND CHANGES CACHING HOOK:
+  // 1. ZERO FRONTEND CHANGES CACHING HOOK:
   // We extract the taskId directly from your existing params object or global context
   // so you don't have to rewrite your frontend fetch calls.
   const currentTaskId = params.taskId || params.messages?.[0]?.taskId || null;
@@ -369,8 +338,10 @@ async function createCompletionWithFallback(
     console.log(
       `[Cache Optimizer] Pinning Cerebras prompt_cache_key to: ${currentTaskId}`,
     );
-    cerebrasRequestParams.prompt_cache_key = currentTaskId;
   }
+
+  // 2. Build the primary Cerebras request payload object
+  const cerebrasRequestParams = buildCerebrasParams(params, currentTaskId);
 
   const cerebrasTimer = timer(`${label}: cerebras call`);
   const cerebrasAttempt = cerebras.chat.completions
@@ -477,8 +448,7 @@ async function createCompletionWithFallback(
 
   const bounceTimer = timer(`${label}: cerebras bounce-back call`);
   try {
-    const bounceParams = { model: MODEL, ...params };
-    if (currentTaskId) bounceParams.prompt_cache_key = currentTaskId;
+    const bounceParams = buildCerebrasParams(params, currentTaskId);
 
     const bounceResult = await cerebras.chat.completions.create(bounceParams, {
       signal: bounceController.signal,
@@ -954,6 +924,19 @@ function tryParsePlan(text) {
   return null;
 }
 
+// Event emitted whenever a run is aborted by the user (via the abort signal).
+const STOPPED_BY_USER = { type: "stopped", text: "Stopped by user." };
+
+// Emits a `provider_switch` event when the active LLM provider changes, then
+// records the new provider on `state`. Used by both the planner and the
+// per-step ReAct loop so the switch-detection logic lives in one place.
+function* trackProviderSwitch(state, provider) {
+  if (state.currentProvider && state.currentProvider !== provider) {
+    yield { type: "provider_switch", from: state.currentProvider, to: provider };
+  }
+  state.currentProvider = provider;
+}
+
 // `state` shape:
 // {
 //   task,
@@ -965,7 +948,7 @@ function tryParsePlan(text) {
 async function* runAgent(state, client, tools, signal) {
   if (!state.subGoals) {
     if (signal.aborted) {
-      yield { type: "stopped", text: "Stopped by user." };
+      yield STOPPED_BY_USER;
       return;
     }
 
@@ -985,14 +968,7 @@ async function* runAgent(state, client, tools, signal) {
           state.turbo,
         );
 
-      if (state.currentProvider && state.currentProvider !== provider) {
-        yield {
-          type: "provider_switch",
-          from: state.currentProvider,
-          to: provider,
-        };
-      }
-      state.currentProvider = provider;
+      yield* trackProviderSwitch(state, provider);
 
       const raw = planCompletion.choices[0]?.message?.content || "";
       const parsed = tryParsePlan(raw);
@@ -1001,7 +977,7 @@ async function* runAgent(state, client, tools, signal) {
       ];
     } catch (err) {
       if (signal.aborted) {
-        yield { type: "stopped", text: "Stopped by user." };
+        yield STOPPED_BY_USER;
         return;
       }
       const status = err?.status || err?.response?.status;
@@ -1116,7 +1092,7 @@ async function* runSubGoal(state, client, tools, signal, useFallback = true) {
     state.currentStep = step;
 
     if (signal.aborted) {
-      yield { type: "stopped", text: "Stopped by user." };
+      yield STOPPED_BY_USER;
       return "stopped";
     }
 
@@ -1138,10 +1114,7 @@ async function* runSubGoal(state, client, tools, signal, useFallback = true) {
     const activeProvider = completionResult.provider; // Extracts "cerebras", "groq", or "openrouter"
 
     // Yield provider switch metrics back to your UI loop to light up frontend badges
-    if (state.currentProvider && state.currentProvider !== activeProvider) {
-      yield { type: "provider_switch", from: state.currentProvider, to: activeProvider };
-    }
-    state.currentProvider = activeProvider;
+    yield* trackProviderSwitch(state, activeProvider);
 
     const msg = completion.choices[0].message;
     messages.push(sanitizeAssistantMessage(msg));
@@ -1164,12 +1137,7 @@ async function* runSubGoal(state, client, tools, signal, useFallback = true) {
 
     const finishCall = toolCalls.find((c) => c.function.name === "finish_subgoal");
     if (finishCall) {
-      let finishArgs = {};
-      try {
-        finishArgs = finishCall.function.arguments ? JSON.parse(finishCall.function.arguments) : {};
-      } catch {
-        finishArgs = {};
-      }
+      const finishArgs = safeParseJson(finishCall.function.arguments);
       const success = finishArgs.success === true;
       const summary =
         typeof finishArgs.summary === "string" && finishArgs.summary.trim()
@@ -1183,16 +1151,11 @@ async function* runSubGoal(state, client, tools, signal, useFallback = true) {
     // 2. Active Tool Dispatch and Execution Loop Block
     for (const call of toolCalls) {
       if (signal.aborted) {
-        yield { type: "stopped", text: "Stopped by user." };
+        yield STOPPED_BY_USER;
         return "stopped";
       }
 
-      let args = {};
-      try {
-        args = call.function.arguments ? JSON.parse(call.function.arguments) : {};
-      } catch {
-        args = {};
-      }
+      const args = safeParseJson(call.function.arguments);
 
       yield { type: "action", tool: call.function.name, input: args };
 
@@ -1274,7 +1237,7 @@ async function* runSubGoal(state, client, tools, signal, useFallback = true) {
       toolTimer.end();
 
       if (signal.aborted) {
-        yield { type: "stopped", text: "Stopped by user." };
+        yield STOPPED_BY_USER;
         return "stopped";
       }
 
