@@ -1,19 +1,30 @@
 const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:3000";
+const API_KEY = import.meta.env.VITE_API_KEY || "";
+
+function authHeaders(extra = {}) {
+  return API_KEY ? { ...extra, Authorization: `Bearer ${API_KEY}` } : extra;
+}
 
 export async function stopTask(taskId) {
-  const res = await fetch(`${API_BASE}/api/stop/${taskId}`, { method: "POST" });
+  const res = await fetch(`${API_BASE}/api/stop/${encodeURIComponent(taskId)}`, {
+    method: "POST",
+    headers: authHeaders(),
+  });
   return res.json();
 }
 
 export async function resumeTask(taskId) {
-  const res = await fetch(`${API_BASE}/api/resume/${taskId}`, { method: "POST" });
+  const res = await fetch(`${API_BASE}/api/resume/${encodeURIComponent(taskId)}`, {
+    method: "POST",
+    headers: authHeaders(),
+  });
   return res.json();
 }
 
 export async function runTask(task, onEvent, options = {}) {
   const res = await fetch(`${API_BASE}/api/task`, {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: authHeaders({ "Content-Type": "application/json" }),
     body: JSON.stringify({
       task,
       forceRefresh: !!options.forceRefresh,
