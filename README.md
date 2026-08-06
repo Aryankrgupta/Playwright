@@ -67,6 +67,23 @@ Try a task like:
 
 > Go to news.ycombinator.com and tell me the top 3 story titles right now
 
+## Tests
+
+Unit tests run on [Vitest](https://vitest.dev) in both workspaces and need no
+API keys, browser, or running server:
+
+```bash
+cd backend  && npm test   # npm run coverage for a coverage report
+cd frontend && npm test   # npm run coverage for a coverage report
+```
+
+The backend suite covers the pure agent-loop helpers in `backend/lib/` (HTML
+compaction, provider cooldown/message normalization, result cache, MCP result
+summarizing, plan parsing) and the Custom Search client in
+`backend/services/`. The frontend suite covers the ndjson client in
+`src/api.js` and every component, using Testing Library. `wayfinder-smoke-test.js`
+and `wayfinder-e2e-test.js` remain end-to-end scripts that need a live backend.
+
 ## Configuration
 
 **`backend/.env`**

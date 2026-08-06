@@ -10,9 +10,17 @@ import fs from "fs/promises";
 import { exec } from "child_process";
 import { chromium } from "playwright-extra";
 import stealthPlugin from "puppeteer-extra-plugin-stealth";
-import * as cheerio from "cheerio";
 import { solve as solveRecaptcha } from "recaptcha-solver";
 import fsSync from "fs";
+import { dropTokenWaste } from "./lib/htmlCompact.js";
+import {
+  parseCooldownMs,
+  parseRetrySeconds,
+  sanitizeAssistantMessage,
+} from "./lib/providers.js";
+import { createResultCache, isTimeSensitive } from "./lib/resultCache.js";
+import { summarizeMcpResult } from "./lib/mcpResult.js";
+import { tryParsePlan } from "./lib/plan.js";
 
 // 1. Initialize the core stealth framework to strip obvious automation flags
 const stealth = stealthPlugin({
@@ -26,40 +34,6 @@ const stealth = stealthPlugin({
 // Explicitly scrap specific leaks that standard stealth drivers occasionally miss
 stealth.enabledEvasions.add("user-agent-override");
 chromium.use(stealth);
-
-function dropTokenWaste(rawHtml) {
-  if (!rawHtml) return "";
-  const $ = cheerio.load(rawHtml);
-
-  // 1. Instantly shred layout weight that doesn't contain user text or data
-  $(
-    "script, style, svg, path, link, noscript, iframe, head, footer, header, nav",
-  ).remove();
-
-  // 2. Erase non-essential tracker attributes but keep data identifiers intact
-  $("*").each((_, element) => {
-    const keep = [
-      "id",
-      "href",
-      "placeholder",
-      "value",
-      "name",
-      "aria-label",
-      "role",
-      "class",
-    ];
-    const attribs = element.attribs || {};
-    Object.keys(attribs).forEach((attr) => {
-      if (!keep.includes(attr)) {
-        $(element).removeAttr(attr);
-      }
-    });
-  });
-
-  // 3. Compress multiple line spaces into a single space
-  return $.html().replace(/\s+/g, " ").trim();
-}
-
 
 function silentlyPurgeOldProfiles() {
   console.log("[Auto-Purge] Initializing silent system workspace cleanup...");
@@ -289,55 +263,6 @@ const fallbackChain = [
       }
     : null,
 ].filter(Boolean);
-function parseCooldownMs(message, fallbackMs = 15 * 60 * 1000) {
-  const match =
-    /try again in\s*(?:([\d.]+)h)?\s*(?:([\d.]+)m)?\s*(?:([\d.]+)s)?/i.exec(
-      message || "",
-    );
-  if (!match) return fallbackMs;
-  const [, h, m, s] = match;
-  const ms =
-    ((parseFloat(h) || 0) * 3600 +
-      (parseFloat(m) || 0) * 60 +
-      (parseFloat(s) || 0)) *
-    1000;
-  return ms > 0 ? ms : fallbackMs;
-}
-
-// Cerebras's gpt-oss model attaches extra non-standard fields (like
-// `reasoning`) to assistant messages. Other providers reject those fields
-// outright, so any message pushed into the shared conversation history
-// must be stripped down to the standard OpenAI shape first.
-function sanitizeAssistantMessage(msg) {
-  if (!msg) return msg;
-
-  const clean = { 
-    role: msg.role, 
-    content: msg.content ?? null 
-  };
-
-  // 1. If it's a tool-use message, normalize the call structures cleanly
-  if (msg.tool_calls && Array.isArray(msg.tool_calls)) {
-    clean.tool_calls = msg.tool_calls.map(call => ({
-      id: call.id || `call_${Math.random().toString(36).substr(2, 9)}`, // Fallback safe ID generator
-      type: "function",
-      function: {
-        name: call.function?.name || call.name,
-        arguments: typeof call.function?.arguments === "string" 
-          ? call.function.arguments 
-          : JSON.stringify(call.function?.arguments || call.arguments || {})
-      }
-    }));
-  }
-
-  // 2. If it's a structural tool response message, enforce strict tool_call_id parameter mapping
-  if (msg.role === "tool") {
-    clean.tool_call_id = msg.tool_call_id || msg.id || "";
-  }
-
-  return clean;
-}
-
 // Tries Cerebras first (racing it against a timeout, unless useFallback is
 // false -- then Cerebras alone, no timeout race, no chain). If Cerebras is
 // slow/errors and useFallback is true, walks the fallback chain in order,
@@ -493,72 +418,14 @@ async function createCompletionWithFallback(
   }
 }
 
-function parseRetrySeconds(err) {
-  const headers = err?.headers || err?.response?.headers;
-  if (!headers) return null;
-
-  const getHeader = (name) =>
-    typeof headers.get === "function" ? headers.get(name) : headers[name];
-
-  const resetKeys = [
-    "x-ratelimit-reset-tokens-minute",
-    "x-ratelimit-reset-requests-minute",
-    "x-ratelimit-reset-tokens-hour",
-    "x-ratelimit-reset-requests-hour",
-    "x-ratelimit-reset-tokens-day",
-    "x-ratelimit-reset-requests-day",
-    "retry-after",
-  ];
-
-  let maxSeconds = null;
-  for (const key of resetKeys) {
-    const value = getHeader(key);
-    if (value === undefined || value === null) continue;
-    const num = parseFloat(value);
-    if (!Number.isNaN(num) && (maxSeconds === null || num > maxSeconds)) {
-      maxSeconds = num;
-    }
-  }
-
-  return maxSeconds !== null ? Math.ceil(maxSeconds) : null;
-}
-
 // ---------------------------------------------------------------------------
 // Result cache
 // ---------------------------------------------------------------------------
 
-const resultCache = new Map();
-
-const TIME_SENSITIVE_PATTERN =
-  /\b(right now|today|current(ly)?|latest|live|this (week|month|hour)|now\b)/i;
-
-function isTimeSensitive(task) {
-  return TIME_SENSITIVE_PATTERN.test(task);
-}
-
-function cacheKey(task) {
-  return task.trim().toLowerCase();
-}
-
-function getCached(task) {
-  const key = cacheKey(task);
-  const entry = resultCache.get(key);
-  if (!entry) return null;
-  if (Date.now() > entry.expiresAt) {
-    resultCache.delete(key);
-    return null;
-  }
-  return entry.events;
-}
-
-function setCached(task, events) {
-  const key = cacheKey(task);
-  if (resultCache.size >= RESULT_CACHE_MAX && !resultCache.has(key)) {
-    const oldestKey = resultCache.keys().next().value;
-    resultCache.delete(oldestKey);
-  }
-  resultCache.set(key, { events, expiresAt: Date.now() + RESULT_CACHE_TTL_MS });
-}
+const resultCache = createResultCache({
+  ttlMs: RESULT_CACHE_TTL_MS,
+  max: RESULT_CACHE_MAX,
+});
 
 // ---------------------------------------------------------------------------
 // Playwright MCP sessions, queue, pool, and paused (rate-limited) tasks
@@ -823,38 +690,6 @@ function broadcastQueuePositions() {
   });
 }
 
-const SNAPSHOT_NOISE_PATTERNS = [
-  /- navigation "Shortcuts menu"[\s\S]*?- generic \[ref=\w+\]: To move between items, use your keyboard's up or down arrows\.\n/,
-  /- combobox "Select the department you want to search in"[\s\S]*?(?=\n\s*- searchbox)/,
-  /(?:\s*- generic: "Test: [^\n]+"\n)+/g,
-];
-
-function stripSnapshotNoise(text) {
-  let cleaned = text;
-  for (const pattern of SNAPSHOT_NOISE_PATTERNS) {
-    cleaned = cleaned.replace(pattern, "");
-  }
-  return cleaned;
-}
-
-function summarizeMcpResult(result) {
-  const items = result?.content || [];
-  let text = items
-    .filter((i) => i.type === "text")
-    .map((i) => i.text)
-    .join("\n");
-
-  text = stripSnapshotNoise(text);   // <-- add this line, before the slice
-  text = text.slice(0, 4000);
-
-  const screenshot = items.find((i) => i.type === "image");
-  return {
-    text: text || (screenshot ? "(screenshot captured -- shown to the user, not visible to you)" : "(no text output)"),
-    screenshot: screenshot ? { data: screenshot.data, mimeType: screenshot.mimeType || "image/png" } : null,
-    isError: !!result?.isError,
-  };
-}
-
 const FINISH_SUBGOAL_TOOL = {
   type: "function",
   function: {
@@ -928,31 +763,6 @@ piece of work (e.g. "Navigate to X", "Find Y on the page", "Extract Z").
 
 Respond with ONLY a JSON array, no other text, no markdown fences. Format:
 [{"goal": "short imperative description of sub-goal 1"}, {"goal": "short imperative description of sub-goal 2"}]`;
-
-function tryParsePlan(text) {
-  try {
-    const cleaned = text
-      .trim()
-      .replace(/^```(json)?/i, "")
-      .replace(/```$/, "")
-      .trim();
-    const parsed = JSON.parse(cleaned);
-    if (
-      Array.isArray(parsed) &&
-      parsed.length > 0 &&
-      parsed.every((p) => p && typeof p.goal === "string")
-    ) {
-      return parsed.map((p, i) => ({
-        id: i + 1,
-        goal: p.goal,
-        status: "pending",
-      }));
-    }
-  } catch {
-    // fall through
-  }
-  return null;
-}
 
 // `state` shape:
 // {
@@ -1387,7 +1197,7 @@ async function runAndHandle(
       }
 
       if (completedNormally && !skipCache) {
-        setCached(task, recordedEvents);
+        resultCache.set(task, recordedEvents);
       }
       res.end();
     }
@@ -1506,7 +1316,7 @@ app.post("/api/task", (req, res) => {
   const skipCache = forceRefresh || isTimeSensitive(task) || record; // don't cache recorded runs -- the video is per-run, a cache replay would show stale text with no matching video
 
   if (!skipCache) {
-    const cached = getCached(task);
+    const cached = resultCache.get(task);
     if (cached) {
       send({ type: "start", taskId, task, cached: true });
       for (const evt of cached) {
