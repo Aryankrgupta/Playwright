@@ -121,7 +121,7 @@ async function autoLaunchStealthChrome() {
     const randomSessionId = crypto.randomUUID().substring(0, 8);
     const dynamicProfileDir = `C:\\ChromeProfile_${randomSessionId}`;
     
-    const parameters = `--remote-debugging-port=9222 --user-data-dir="${dynamicProfileDir}" --disable-blink-features=AutomationControlled --remote-allow-origins="*" --no-first-run --no-default-browser-check --disable-infobars --password-store=basic --use-mock-keychain --disable-features=IsolateOrigins,site-per-process --blink-settings=primaryHoverType=2,primaryPointerType=4`;
+    const parameters = `--remote-debugging-port=9222 --user-data-dir="${dynamicProfileDir}" --disable-blink-features=AutomationControlled --remote-allow-origins="http://127.0.0.1:9222,http://localhost:9222" --no-first-run --no-default-browser-check --disable-infobars --password-store=basic --use-mock-keychain --disable-features=IsolateOrigins,site-per-process --blink-settings=primaryHoverType=2,primaryPointerType=4`;
     
     exec(`${chromeExecutable} ${parameters}`, (error) => {
       if (error && !error.killed) console.error(error.message);
@@ -140,7 +140,7 @@ async function autoLaunchStealthChrome() {
         '--disable-blink-features=AutomationControlled',
         '--no-sandbox',
         '--disable-setuid-sandbox',
-        '--remote-allow-origins=*'
+        '--remote-allow-origins=http://127.0.0.1:9222,http://localhost:9222'
       ]
     });
     
@@ -155,6 +155,10 @@ const PORT = process.env.PORT || 3000;
 const MODEL = process.env.CEREBRAS_MODEL || "gpt-oss-120b";
 const FRONTEND_ORIGIN = process.env.FRONTEND_ORIGIN || "http://localhost:5173";
 const MAX_CONCURRENT_TASKS = 3;
+const API_KEY = process.env.WAYFINDER_API_KEY || "";
+const MAX_TASK_LENGTH = 2000;
+const RATE_LIMIT_WINDOW_MS = 60 * 1000;
+const RATE_LIMIT_MAX_REQUESTS = 20;
 const POOL_SIZE = 2;
 const RESULT_CACHE_TTL_MS = 10 * 60 * 1000;
 const RESULT_CACHE_MAX = 50;
@@ -1459,8 +1463,65 @@ function tryStartNext() {
 
 const app = express();
 app.use(cors({ origin: FRONTEND_ORIGIN }));
-app.use(express.json());
-app.use("/recordings", express.static(RECORDINGS_DIR));
+app.use(express.json({ limit: "64kb" }));
+
+if (!API_KEY) {
+  console.warn(
+    "WAYFINDER_API_KEY is not set -- the API and recordings are unauthenticated. Set it in .env and send it as `Authorization: Bearer <key>` (or the x-api-key header).",
+  );
+}
+
+function keyMatches(provided) {
+  const expected = Buffer.from(API_KEY);
+  const given = Buffer.from(provided);
+  return (
+    given.length === expected.length && crypto.timingSafeEqual(given, expected)
+  );
+}
+
+function requireApiKey(req, res, next) {
+  if (!API_KEY) return next();
+  const header = req.get("authorization") || "";
+  const bearer = header.startsWith("Bearer ") ? header.slice(7) : "";
+  const provided = bearer || req.get("x-api-key") || "";
+  if (!keyMatches(provided)) {
+    return res.status(401).json({ error: "Unauthorized" });
+  }
+  return next();
+}
+
+// <video> elements can't send an Authorization header, so recordings also
+// accept the key as a query param.
+function requireApiKeyForMedia(req, res, next) {
+  if (!API_KEY) return next();
+  const fromQuery = typeof req.query.key === "string" ? req.query.key : "";
+  if (fromQuery && keyMatches(fromQuery)) return next();
+  return requireApiKey(req, res, next);
+}
+
+const rateLimitHits = new Map();
+
+function rateLimit(req, res, next) {
+  const key = req.ip || "unknown";
+  const now = Date.now();
+  const hits = (rateLimitHits.get(key) || []).filter(
+    (t) => now - t < RATE_LIMIT_WINDOW_MS,
+  );
+  if (hits.length >= RATE_LIMIT_MAX_REQUESTS) {
+    return res.status(429).json({ error: "Too many requests" });
+  }
+  hits.push(now);
+  rateLimitHits.set(key, hits);
+  if (rateLimitHits.size > 10000) {
+    for (const [k, v] of rateLimitHits) {
+      if (!v.some((t) => now - t < RATE_LIMIT_WINDOW_MS)) rateLimitHits.delete(k);
+    }
+  }
+  return next();
+}
+
+app.use("/api", rateLimit, requireApiKey);
+app.use("/recordings", requireApiKeyForMedia, express.static(RECORDINGS_DIR));
 
 app.get("/api/health", (req, res) => {
   res.json({
@@ -1483,6 +1544,10 @@ app.get("/api/health", (req, res) => {
 });
 
 app.post("/api/task", (req, res) => {
+  if (req.body?.task !== undefined && typeof req.body.task !== "string") {
+    res.status(400).json({ error: "Field 'task' must be a string" });
+    return;
+  }
   const task = (req.body?.task || "").trim();
   const forceRefresh = !!req.body?.forceRefresh;
   const turbo = req.body?.turbo !== false;
@@ -1490,6 +1555,13 @@ app.post("/api/task", (req, res) => {
 
   if (!task) {
     res.status(400).json({ error: "Missing task" });
+    return;
+  }
+
+  if (task.length > MAX_TASK_LENGTH) {
+    res
+      .status(400)
+      .json({ error: `Task must be at most ${MAX_TASK_LENGTH} characters` });
     return;
   }
 

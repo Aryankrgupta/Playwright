@@ -78,6 +78,7 @@ Try a task like:
 | `PORT` | backend port, default `3000` |
 | `FRONTEND_ORIGIN` | allowed CORS origin, default `http://localhost:5173` -- update if you deploy the frontend elsewhere |
 | `PLAYWRIGHT_HEADED` | set `true` to see the actual browser window (needs a display) instead of running headless |
+| `WAYFINDER_API_KEY` | shared secret required on `/api/*` and `/recordings/*`. Strongly recommended for any deployment reachable from the internet -- without it anyone can run browser tasks against your LLM keys. Send it as `Authorization: Bearer <key>` or `x-api-key` |
 
 **Frontend** (optional): if you deploy the frontend separately from the
 backend (i.e. not using the Vite dev proxy), set `VITE_API_URL` in a
@@ -85,6 +86,10 @@ backend (i.e. not using the Vite dev proxy), set `VITE_API_URL` in a
 ```
 VITE_API_URL=https://your-backend.example.com
 ```
+If the backend sets `WAYFINDER_API_KEY`, set the same value as `VITE_API_KEY`
+in `frontend/.env` so the console can authenticate. Note that anything in a
+Vite build is public to whoever loads the page, so treat this as a
+deployment-gate secret, not a per-user credential.
 
 ## Building for production
 
