@@ -50,31 +50,28 @@ export default function App() {
     setRuns((prev) => prev.map((r) => (r.id === id ? { ...r, ...patch } : r)));
   };
 
-  const handleRun = async () => {
-    const currentTask = task.trim();
-    if (!currentTask) return;
-
-    const id = nextId.current++;
-    setRuns((prev) => [
-      ...prev,
-      { id, taskId: null, task: currentTask, events: [], running: false, queued: true, queuePosition: null, stopping: false },
-    ]);
-    setTask("");
-
+  // Streams a run's ndjson events into the run with the given id. Shared by
+  // both the initial run and the force-refresh path, which differ only in the
+  // options passed to runTask.
+  const streamRun = async (id, taskText, options) => {
     try {
-      await runTask(currentTask, (evt) => {
-        if (evt.type === "queued") {
-          updateRun(id, { taskId: evt.taskId, queued: true, running: false, queuePosition: evt.position });
-          return;
-        }
-        if (evt.type === "start") {
-          updateRun(id, { taskId: evt.taskId, queued: false, running: true, cached: !!evt.cached });
-          return;
-        }
-        setRuns((prev) =>
-          prev.map((r) => (r.id === id ? { ...r, events: [...r.events, evt] } : r))
-        );
-      }, { turbo, record });
+      await runTask(
+        taskText,
+        (evt) => {
+          if (evt.type === "queued") {
+            updateRun(id, { taskId: evt.taskId, queued: true, running: false, queuePosition: evt.position });
+            return;
+          }
+          if (evt.type === "start") {
+            updateRun(id, { taskId: evt.taskId, queued: false, running: true, cached: !!evt.cached });
+            return;
+          }
+          setRuns((prev) =>
+            prev.map((r) => (r.id === id ? { ...r, events: [...r.events, evt] } : r))
+          );
+        },
+        options
+      );
     } catch (err) {
       setRuns((prev) =>
         prev.map((r) =>
@@ -86,6 +83,20 @@ export default function App() {
     } finally {
       updateRun(id, { running: false, queued: false, stopping: false });
     }
+  };
+
+  const handleRun = async () => {
+    const currentTask = task.trim();
+    if (!currentTask) return;
+
+    const id = nextId.current++;
+    setRuns((prev) => [
+      ...prev,
+      { id, taskId: null, task: currentTask, events: [], running: false, queued: true, queuePosition: null, stopping: false },
+    ]);
+    setTask("");
+
+    await streamRun(id, currentTask, { turbo, record });
   };
 
   const handleStop = async (id, taskId) => {
@@ -114,35 +125,7 @@ export default function App() {
 
     updateRun(id, { queued: true, running: false, taskId: null, events: [], cached: false });
 
-    try {
-      await runTask(
-        run.task,
-        (evt) => {
-          if (evt.type === "queued") {
-            updateRun(id, { taskId: evt.taskId, queued: true, running: false, queuePosition: evt.position });
-            return;
-          }
-          if (evt.type === "start") {
-            updateRun(id, { taskId: evt.taskId, queued: false, running: true, cached: !!evt.cached });
-            return;
-          }
-          setRuns((prev) =>
-            prev.map((r) => (r.id === id ? { ...r, events: [...r.events, evt] } : r))
-          );
-        },
-        { forceRefresh: true, turbo }
-      );
-    } catch (err) {
-      setRuns((prev) =>
-        prev.map((r) =>
-          r.id === id
-            ? { ...r, events: [...r.events, { type: "error", text: err.message || String(err) }] }
-            : r
-        )
-      );
-    } finally {
-      updateRun(id, { running: false, queued: false });
-    }
+    await streamRun(id, run.task, { forceRefresh: true, turbo });
   };
 
   const handleSelectHistory = (id) => {

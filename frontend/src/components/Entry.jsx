@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { API_BASE } from "../config.js";
 
 const LABELS = {
   thought: "Thought",
@@ -152,7 +153,7 @@ export default function Entry({ event, onImageClick, onRetry, isLatest }) {
       <div className="entry recording">
         <div className="entry-card">
           <div className="entry-label">Recording</div>
-          <video controls src={`${import.meta.env.VITE_API_BASE || "http://localhost:3000"}${event.url}`} style={{ maxWidth: "100%", borderRadius: "6px" }} />
+          <video controls src={`${API_BASE}${event.url}`} style={{ maxWidth: "100%", borderRadius: "6px" }} />
         </div>
       </div>
     );
@@ -160,20 +161,21 @@ export default function Entry({ event, onImageClick, onRetry, isLatest }) {
 
   if (type === "observation") {
     const entryType = event.isError ? "error" : "observation";
+    const screenshotSrc = event.screenshot
+      ? `data:${event.screenshot.mimeType};base64,${event.screenshot.data}`
+      : null;
     return (
       <div className={`entry ${entryType}`}>
         <div className="entry-card">
           <div className="entry-label">{LABELS.observation}</div>
           <div className="entry-tool">← {event.tool}</div>
           <div className="entry-obs-text">{event.text}</div>
-          {event.screenshot && (
+          {screenshotSrc && (
             <img
               className="thumb"
-              src={`data:${event.screenshot.mimeType};base64,${event.screenshot.data}`}
+              src={screenshotSrc}
               alt="Screenshot"
-              onClick={() =>
-                onImageClick(`data:${event.screenshot.mimeType};base64,${event.screenshot.data}`)
-              }
+              onClick={() => onImageClick(screenshotSrc)}
             />
           )}
         </div>
