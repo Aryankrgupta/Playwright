@@ -25,7 +25,8 @@ function loadStoredRuns() {
           }
         : r
     );
-  } catch {
+  } catch (err) {
+    console.error("Could not restore run history; starting empty.", err);
     return [];
   }
 }
@@ -41,13 +42,19 @@ export default function App() {
   useEffect(() => {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(runs));
-    } catch {
-      // ignore quota errors
+    } catch (err) {
+      console.warn("Could not persist run history (storage full or blocked).", err);
     }
   }, [runs]);
 
   const updateRun = (id, patch) => {
     setRuns((prev) => prev.map((r) => (r.id === id ? { ...r, ...patch } : r)));
+  };
+
+  const appendEvent = (id, event) => {
+    setRuns((prev) =>
+      prev.map((r) => (r.id === id ? { ...r, events: [...r.events, event] } : r))
+    );
   };
 
   const handleRun = async () => {
@@ -76,13 +83,7 @@ export default function App() {
         );
       }, { turbo, record });
     } catch (err) {
-      setRuns((prev) =>
-        prev.map((r) =>
-          r.id === id
-            ? { ...r, events: [...r.events, { type: "error", text: err.message || String(err) }] }
-            : r
-        )
-      );
+      appendEvent(id, { type: "error", text: err.message || String(err) });
     } finally {
       updateRun(id, { running: false, queued: false, stopping: false });
     }
@@ -96,6 +97,10 @@ export default function App() {
     } catch (err) {
       console.error("Failed to stop", err);
       updateRun(id, { stopping: false });
+      appendEvent(id, {
+        type: "error",
+        text: `Could not stop this run: ${err.message || err}`,
+      });
     }
   };
 
@@ -105,6 +110,10 @@ export default function App() {
       await resumeTask(taskId);
     } catch (err) {
       console.error("Failed to resume", err);
+      appendEvent(id, {
+        type: "error",
+        text: `Could not resume this run: ${err.message || err}`,
+      });
     }
   };
 
@@ -133,13 +142,7 @@ export default function App() {
         { forceRefresh: true, turbo }
       );
     } catch (err) {
-      setRuns((prev) =>
-        prev.map((r) =>
-          r.id === id
-            ? { ...r, events: [...r.events, { type: "error", text: err.message || String(err) }] }
-            : r
-        )
-      );
+      appendEvent(id, { type: "error", text: err.message || String(err) });
     } finally {
       updateRun(id, { running: false, queued: false });
     }
@@ -158,8 +161,8 @@ export default function App() {
     setRuns([]);
     try {
       localStorage.removeItem(STORAGE_KEY);
-    } catch {
-      // ignore
+    } catch (err) {
+      console.warn("Could not clear stored run history.", err);
     }
   };
 

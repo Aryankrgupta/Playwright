@@ -670,6 +670,7 @@ html, body, #root {
 .entry.done     { --accent: var(--observation); --dot: var(--observation); }
 .entry.error    { --accent: var(--error);     --dot: var(--error); }
 .entry.stopped  { --accent: var(--error);     --dot: var(--error); }
+.entry.status   { --accent: var(--action);    --dot: var(--action); }
 
 .lightbox {
   display: none;
