@@ -8,6 +8,7 @@ const LABELS = {
   error: "Error",
   stopped: "Stopped",
   rate_limited: "Rate limited",
+  status: "Note",
 };
 
 function RateLimitedEntry({ event, isLatest, onRetry }) {
@@ -111,7 +112,13 @@ export default function Entry({ event, onImageClick, onRetry, isLatest }) {
     );
   }
 
-  if (type === "thought" || type === "done" || type === "error" || type === "stopped") {
+  if (
+    type === "thought" ||
+    type === "done" ||
+    type === "error" ||
+    type === "stopped" ||
+    type === "status"
+  ) {
     return (
       <div className={`entry ${type}`}>
         <div className="entry-card">
@@ -176,6 +183,19 @@ export default function Entry({ event, onImageClick, onRetry, isLatest }) {
               }
             />
           )}
+        </div>
+      </div>
+    );
+  }
+
+  // An unrecognised event still carries information the user should see --
+  // rendering nothing would silently hide server-side notices.
+  if (event.text) {
+    return (
+      <div className="entry status">
+        <div className="entry-card">
+          <div className="entry-label">{LABELS.status}</div>
+          <div className="entry-body">{event.text}</div>
         </div>
       </div>
     );

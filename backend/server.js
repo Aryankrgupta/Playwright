@@ -7,11 +7,10 @@ import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
 import path from "path";
 import fs from "fs/promises";
-import { exec } from "child_process";
+import { exec, execSync } from "child_process";
 import { chromium } from "playwright-extra";
 import stealthPlugin from "puppeteer-extra-plugin-stealth";
 import * as cheerio from "cheerio";
-import { solve as solveRecaptcha } from "recaptcha-solver";
 import fsSync from "fs";
 
 // 1. Initialize the core stealth framework to strip obvious automation flags
@@ -61,19 +60,26 @@ function dropTokenWaste(rawHtml) {
 }
 
 
-function silentlyPurgeOldProfiles() {
-  console.log("[Auto-Purge] Initializing silent system workspace cleanup...");
-  
+// Cleans up the leftover C:\ChromeProfile_* directories created by the
+// Windows launch path in autoLaunchStealthChrome(). Only meaningful on
+// Windows: other platforms launch a Playwright-managed browser that owns its
+// own profile, and killing every "chrome" process there would take down
+// browsers belonging to other in-flight tasks.
+function purgeOldProfiles() {
+  if (process.platform !== "win32") return;
+
+  console.log("[Auto-Purge] Cleaning up stale Chrome profile directories...");
+
   // 1. Force kill any hidden background Chrome processes to unlock the folders
   try {
-    if (process.platform === "win32") {
-      execSync("taskkill /F /IM chrome.exe /T", { stdio: "ignore" });
-    } else {
-      execSync("pkill -f chrome", { stdio: "ignore" });
-    }
-    console.log("[Auto-Purge] Hanging background Chrome processes successfully closed.");
+    execSync("taskkill /F /IM chrome.exe /T", { stdio: "ignore" });
+    console.log("[Auto-Purge] Hanging background Chrome processes closed.");
   } catch (err) {
-    // Fails silently if no hidden Chrome instances were running
+    // taskkill exits non-zero when no matching process exists (128), which is
+    // the normal case -- anything else is worth surfacing.
+    if (err?.status !== 128) {
+      console.warn("[Auto-Purge] Could not kill background Chrome:", err.message);
+    }
   }
 
   // 2. Read the root drive directory to find any C:\ChromeProfile_* folders
@@ -81,24 +87,21 @@ function silentlyPurgeOldProfiles() {
     const rootDrive = "C:\\";
     if (fsSync.existsSync(rootDrive)) {
       const items = fsSync.readdirSync(rootDrive);
-      
+
       items.forEach((item) => {
-        // Find folders matching our dynamic cellular profile signature
         if (item.startsWith("ChromeProfile_")) {
           const targetFolderPath = path.join(rootDrive, item);
           try {
-            // Shred the folder natively using standard recursive flags
             fsSync.rmSync(targetFolderPath, { recursive: true, force: true });
-            console.log(`[Auto-Purge] Silently shredded old cache folder: ${item}`);
+            console.log(`[Auto-Purge] Removed old cache folder: ${item}`);
           } catch (folderErr) {
-            console.warn(`[Auto-Purge Warning] Could not clear folder ${item}:`, folderErr.message);
+            console.warn(`[Auto-Purge] Could not clear folder ${item}:`, folderErr.message);
           }
         }
       });
     }
-    console.log("[Auto-Purge] Workspace cache completely normalized.");
   } catch (dirErr) {
-    console.error("[Auto-Purge Error] Directory traversal failed:", dirErr.message);
+    console.error("[Auto-Purge] Directory traversal failed:", dirErr.message);
   }
 }
 
@@ -122,12 +125,23 @@ async function autoLaunchStealthChrome() {
     const dynamicProfileDir = `C:\\ChromeProfile_${randomSessionId}`;
     
     const parameters = `--remote-debugging-port=9222 --user-data-dir="${dynamicProfileDir}" --disable-blink-features=AutomationControlled --remote-allow-origins="*" --no-first-run --no-default-browser-check --disable-infobars --password-store=basic --use-mock-keychain --disable-features=IsolateOrigins,site-per-process --blink-settings=primaryHoverType=2,primaryPointerType=4`;
-    
+
+    // Chrome stays alive for the whole session, so we can't await the exec
+    // callback -- but a launch that dies immediately (missing binary, bad
+    // profile dir) must not be reported as a success: record it and fail the
+    // spawn instead of letting it resurface later as an opaque CDP timeout.
+    let launchError = null;
     exec(`${chromeExecutable} ${parameters}`, (error) => {
-      if (error && !error.killed) console.error(error.message);
+      if (error && !error.killed) {
+        launchError = error;
+        console.error("[Universal Anti-Detect] Chrome launch failed:", error.message);
+      }
     });
     await new Promise((resolve) => setTimeout(resolve, 3500));
-    
+    if (launchError) {
+      throw new Error(`Failed to launch Chrome: ${launchError.message}`);
+    }
+
   } else {
     // 2. PRODUCTION PRODUCTION: If running on Railway Linux, bypass external exec calls entirely!
     // We launch a native headless instance using Playwright's core binaries
@@ -575,7 +589,7 @@ let cachedTools = null;
 async function spawnMcpClient({ record = false, taskId = null } = {}) {
   try {
 
-    silentlyPurgeOldProfiles();
+    purgeOldProfiles();
 
     await autoLaunchStealthChrome();
 
@@ -588,8 +602,12 @@ async function spawnMcpClient({ record = false, taskId = null } = {}) {
     for (const context of browser.contexts()) {
       await hardenContextAgainstDetection(context);
     }
-    browser.on("context", async (context) => {
-      await hardenContextAgainstDetection(context);
+    // Event handlers run outside the spawn promise: an unhandled rejection
+    // here would crash the process instead of failing this one context.
+    browser.on("context", (context) => {
+      hardenContextAgainstDetection(context).catch((err) =>
+        console.warn("[Stealth Engine] Failed to harden new context:", err.message),
+      );
     });
 
     const args = [
@@ -688,7 +706,7 @@ async function hardenContextAgainstDetection(context) {
   });
 
   // 2. Behavioral Interaction Humanization (Keystrokes and mouse drag timing)
-  context.on("page", async (page) => {
+  context.on("page", (page) => {
     // 🔍 ADD THIS NAVIGATION INTERCEPTOR HOOK:
     const originalGoto = page.goto.bind(page);
     page.goto = async (url, options = {}) => {
@@ -736,31 +754,64 @@ async function hardenContextAgainstDetection(context) {
           await page.waitForTimeout(Math.floor(Math.random() * 250) + 150);
         }
       } catch (e) {
+        // Kinetic path is best-effort: fall back to a plain hover, then let
+        // the real click below surface any genuine failure to the caller.
+        console.warn(
+          `[Stealth Mouse] Could not curve path to ${selector}: ${e.message}`,
+        );
         try {
           await page.hover(selector);
-        } catch (err) {}
+        } catch (hoverErr) {
+          console.warn(`[Stealth Mouse] Hover fallback failed: ${hoverErr.message}`);
+        }
       }
       return await originalClick(selector, options);
     };
 
     // Auto-sweep modal frames on document load updates
-    page.on("load", async () => {
-      try {
-        await page.waitForTimeout(1500);
-        const modalDismissSelectors = [
-          'input[data-action-type="DISMISS"]',
-          ".a-button-close",
-          'button:has-text("Dismiss")',
-          "#cookie-accept",
-          'button:has-text("Accept All")',
-        ].join(", ");
-        const dismissTarget = page.locator(modalDismissSelectors).first();
-        if (await dismissTarget.isVisible()) {
-          await dismissTarget.click();
-        }
-      } catch (err) {}
+    page.on("load", () => {
+      dismissModals(page).catch((err) =>
+        console.warn("[Stealth Engine] Modal sweep failed:", err.message),
+      );
     });
   });
+}
+
+// Moves the mouse to the target along a quadratic Bezier curve so the pointer
+// path doesn't look machine-straight.
+async function humanMouseMove(page, fromX, fromY, toX, toY, steps = 20) {
+  const controlX = (fromX + toX) / 2 + (Math.random() - 0.5) * 200;
+  const controlY = (fromY + toY) / 2 + (Math.random() - 0.5) * 200;
+
+  for (let i = 1; i <= steps; i++) {
+    const t = i / steps;
+    const inv = 1 - t;
+    const x = inv * inv * fromX + 2 * inv * t * controlX + t * t * toX;
+    const y = inv * inv * fromY + 2 * inv * t * controlY + t * t * toY;
+    await page.mouse.move(x, y);
+  }
+}
+
+// Best-effort dismissal of cookie/promo overlays after a page load. Failures
+// are expected (no such overlay, page navigated away) but are logged rather
+// than dropped so a systematically failing sweep is visible.
+async function dismissModals(page) {
+  try {
+    await page.waitForTimeout(1500);
+    const modalDismissSelectors = [
+      'input[data-action-type="DISMISS"]',
+      ".a-button-close",
+      'button:has-text("Dismiss")',
+      "#cookie-accept",
+      'button:has-text("Accept All")',
+    ].join(", ");
+    const dismissTarget = page.locator(modalDismissSelectors).first();
+    if (await dismissTarget.isVisible()) {
+      await dismissTarget.click();
+    }
+  } catch (err) {
+    console.warn(`[Stealth Engine] Modal dismissal skipped: ${err.message}`);
+  }
 }
 async function fillPool() {
   while (pool.length < POOL_SIZE) {
@@ -768,7 +819,7 @@ async function fillPool() {
       const client = await spawnMcpClient();
       pool.push(client);
     } catch (err) {
-      console.error("Failed to pre-warm MCP client for pool", err);
+      console.error("Failed to pre-warm MCP client for pool:", err.message);
       break;
     }
   }
@@ -794,7 +845,9 @@ async function getClientFast({ record = false, taskId = null } = {}) {
     client = await spawnMcpClient();
   }
   t.end(fromPool ? "from pool" : "cold spawn");
-  fillPool();
+  // Refilled in the background; fillPool never rejects, but guard anyway so a
+  // future change can't turn this into an unhandled rejection.
+  fillPool().catch((err) => console.error("Pool refill failed:", err.message));
   return client;
 }
 
@@ -948,8 +1001,8 @@ function tryParsePlan(text) {
         status: "pending",
       }));
     }
-  } catch {
-    // fall through
+  } catch (err) {
+    console.warn("[plan] Model returned unparseable plan JSON:", err.message);
   }
   return null;
 }
@@ -996,6 +1049,11 @@ async function* runAgent(state, client, tools, signal) {
 
       const raw = planCompletion.choices[0]?.message?.content || "";
       const parsed = tryParsePlan(raw);
+      if (!parsed) {
+        console.warn(
+          "[plan] Falling back to a single sub-goal (planner output was not a usable plan).",
+        );
+      }
       state.subGoals = parsed || [
         { id: 1, goal: state.task, status: "pending" },
       ];
@@ -1014,6 +1072,11 @@ async function* runAgent(state, client, tools, signal) {
         };
         return;
       }
+      console.error("[plan] Planning request failed:", err?.message || err);
+      yield {
+        type: "status",
+        text: `Planning failed (${err?.message || err}) -- running the task as a single sub-goal.`,
+      };
       state.subGoals = [{ id: 1, goal: state.task, status: "pending" }];
     }
 
@@ -1130,8 +1193,13 @@ async function* runSubGoal(state, client, tools, signal, useFallback = true) {
         useFallback
       );
     } catch (err) {
-      yield { type: "stopped", text: `LLM Processing generation error: ${err.message}` };
-      return { ok: false, summary: `LLM Error: ${err.message}` };
+      if (signal.aborted) {
+        yield { type: "stopped", text: "Stopped by user." };
+        return "stopped";
+      }
+      console.error(`[agent] Completion failed at step ${step}:`, err?.message || err);
+      yield { type: "error", text: `LLM request failed: ${err.message}` };
+      return { ok: false, summary: `LLM request failed: ${err.message}` };
     }
 
     const completion = completionResult.completion;
@@ -1167,7 +1235,10 @@ async function* runSubGoal(state, client, tools, signal, useFallback = true) {
       let finishArgs = {};
       try {
         finishArgs = finishCall.function.arguments ? JSON.parse(finishCall.function.arguments) : {};
-      } catch {
+      } catch (err) {
+        console.warn(
+          `[agent] Malformed finish_subgoal arguments (${err.message}); treating the sub-goal as unverified.`,
+        );
         finishArgs = {};
       }
       const success = finishArgs.success === true;
@@ -1188,9 +1259,14 @@ async function* runSubGoal(state, client, tools, signal, useFallback = true) {
       }
 
       let args = {};
+      let argsError = null;
       try {
         args = call.function.arguments ? JSON.parse(call.function.arguments) : {};
-      } catch {
+      } catch (err) {
+        // Don't quietly call the tool with {} -- that produces a confusing
+        // downstream failure. Report the parse error back to the model so it
+        // can re-issue the call correctly.
+        argsError = err.message;
         args = {};
       }
 
@@ -1199,7 +1275,17 @@ async function* runSubGoal(state, client, tools, signal, useFallback = true) {
       let mcpResult;
       const toolTimer = timer(`tool: ${call.function.name}`);
       try {
-        if (call.function.name === "browser_find" && !args.text && !args.regex) {
+        if (argsError) {
+          mcpResult = {
+            isError: true,
+            content: [
+              {
+                type: "text",
+                text: `Invalid call: arguments were not valid JSON (${argsError}). Re-issue the call with a valid JSON arguments object.`,
+              },
+            ],
+          };
+        } else if (call.function.name === "browser_find" && !args.text && !args.regex) {
           mcpResult = {
             isError: true,
             content: [{ type: "text", text: 'Invalid call: browser_find requires either "text" or "regex".' }],
@@ -1214,9 +1300,12 @@ async function* runSubGoal(state, client, tools, signal, useFallback = true) {
                     // =========================================================================
           // 🛡️ REBUILT FIREWALL FAILOVER INTERCEPTOR: Complete Parameter Routing
           // =========================================================================
-          const rawResponseText = mcpResult?.content?.[0]?.text || mcpResult?.content || "";
-          
-          const isGoogleCaptcha = 
+          const rawResponseText =
+            typeof mcpResult?.content?.[0]?.text === "string"
+              ? mcpResult.content[0].text
+              : "";
+
+          const isGoogleCaptcha =
             rawResponseText.includes("sorry/index") || 
             rawResponseText.includes("captcha") || 
             rawResponseText.includes("HTTP status: 429") ||
@@ -1231,7 +1320,8 @@ async function* runSubGoal(state, client, tools, signal, useFallback = true) {
             let extractedQuery = args.text || args.value || args.q || state.task || "web search";
             // =========================================================================
             
-            const fallbackUrl = "https://duckduckgo.com" + encodeURIComponent(extractedQuery);
+            const fallbackUrl =
+              "https://duckduckgo.com/?q=" + encodeURIComponent(extractedQuery);
             
             yield { 
               type: "status", 
@@ -1239,20 +1329,36 @@ async function* runSubGoal(state, client, tools, signal, useFallback = true) {
             };
 
             console.log("[Failover Shield] Navigating to dynamic route: " + fallbackUrl);
-            
-            mcpResult = await client.callTool({
-              name: "browser_navigate",
-              arguments: { url: fallbackUrl }
-            });
 
-            mcpResult = await client.callTool({
-              name: "browser_snapshot",
-              arguments: { depth: 4 }
-            });
-            
-            // Append a structural note so your Cerebras or NVIDIA NIM model adapts its parsing instantly
-            if (mcpResult && mcpResult.content?.[0]) {
-              mcpResult.content[0].text = `[SYSTEM ARCHITECTURE ADJUSTMENT: The primary Google query encountered a hard network block. The system automatically executed a real-time failover reroute to DuckDuckGo to fetch your results. Please extract your final data directly from this clean DuckDuckGo text array layout]:\n` + mcpResult.content[0].text;
+            // If the reroute itself fails, say so explicitly -- otherwise the
+            // model just sees a bare tool error and never learns that the
+            // original page was CAPTCHA-blocked.
+            try {
+              await client.callTool({
+                name: "browser_navigate",
+                arguments: { url: fallbackUrl }
+              });
+
+              mcpResult = await client.callTool({
+                name: "browser_snapshot",
+                arguments: { depth: 4 }
+              });
+
+              // Append a structural note so the model adapts its parsing instantly
+              if (typeof mcpResult?.content?.[0]?.text === "string") {
+                mcpResult.content[0].text = `[SYSTEM ARCHITECTURE ADJUSTMENT: The primary Google query encountered a hard network block. The system automatically executed a real-time failover reroute to DuckDuckGo to fetch your results. Please extract your final data directly from this clean DuckDuckGo text array layout]:\n` + mcpResult.content[0].text;
+              }
+            } catch (failoverErr) {
+              console.error("[Failover Shield] Reroute to DuckDuckGo failed:", failoverErr.message);
+              mcpResult = {
+                isError: true,
+                content: [
+                  {
+                    type: "text",
+                    text: `The page was blocked by a CAPTCHA / rate limit, and the automatic reroute to DuckDuckGo also failed: ${failoverErr.message}. Try a different site or approach.`,
+                  },
+                ],
+              };
             }
           }
           // =========================================================================
@@ -1269,6 +1375,7 @@ async function* runSubGoal(state, client, tools, signal, useFallback = true) {
           }
         }
       } catch (err) {
+        console.error(`[agent] Tool ${call.function.name} failed:`, err.message);
         mcpResult = { isError: true, content: [{ type: "text", text: `Tool error: ${err.message}` }] };
       }
       toolTimer.end();
@@ -1334,7 +1441,9 @@ async function runAndHandle(
       sendAndRecord(event);
     }
   } catch (err) {
-    if (!abortController.signal.aborted) {
+    if (abortController.signal.aborted) {
+      console.log(`Task ${taskId} ended after abort: ${err?.message || err}`);
+    } else {
       console.error(err);
       sendAndRecord({ type: "error", text: err.message || String(err) });
     }
@@ -1382,14 +1491,26 @@ async function runAndHandle(
             });
           }
         } catch (err) {
-          console.error(`No recording found for task ${taskId}:`, err.message);
+          if (err.code === "ENOENT") {
+            console.warn(`No recording directory for task ${taskId}.`);
+          } else {
+            console.error(`Failed to read recordings for task ${taskId}:`, err.message);
+          }
+          sendAndRecord({
+            type: "status",
+            text: "Recording was requested but no video could be retrieved for this run.",
+          });
         }
       }
 
       if (completedNormally && !skipCache) {
         setCached(task, recordedEvents);
       }
-      res.end();
+      try {
+        res.end();
+      } catch (endErr) {
+        console.error(`Failed to close stream for task ${taskId}:`, endErr.message);
+      }
     }
 
     tryStartNext();
@@ -1404,8 +1525,11 @@ async function startTask(item) {
   try {
     client = await getClientFast({ record, taskId });
   } catch (err) {
-    console.error(err);
-    send({ type: "error", text: "Failed to start browser session." });
+    console.error(`Failed to start browser session for task ${taskId}:`, err?.message || err);
+    send({
+      type: "error",
+      text: `Failed to start browser session: ${err?.message || err}`,
+    });
     res.end();
     activeCount--;
     tryStartNext();
@@ -1429,6 +1553,13 @@ async function startTask(item) {
   });
 }
 
+// runAndHandle owns its own error reporting, but its finally block still
+// touches the socket -- so scheduling callers must not leave a rejection
+// floating (an unhandled rejection takes the whole server down on Node 20).
+function reportSchedulingFailure(taskId, err) {
+  console.error(`Task ${taskId} failed outside the agent loop:`, err?.message || err);
+}
+
 function resumeTask(taskId) {
   const paused = pausedTasks.get(taskId);
   if (!paused) return false;
@@ -1440,7 +1571,7 @@ function resumeTask(taskId) {
   runAndHandle(taskId, task, client, state, send, res, abortController, {
     sendStart: false,
     skipCache,
-  });
+  }).catch((err) => reportSchedulingFailure(taskId, err));
   return true;
 }
 
@@ -1448,7 +1579,7 @@ function tryStartNext() {
   while (activeCount < MAX_CONCURRENT_TASKS && queue.length > 0) {
     const item = queue.shift();
     if (item.cancelled) continue;
-    startTask(item);
+    startTask(item).catch((err) => reportSchedulingFailure(item.taskId, err));
   }
   broadcastQueuePositions();
 }
@@ -1501,7 +1632,17 @@ app.post("/api/task", (req, res) => {
     Connection: "keep-alive",
   });
 
-  const send = (event) => res.write(JSON.stringify(event) + "\n");
+  // The client can disappear mid-run (tab closed, network drop). Writing to a
+  // finished response throws, which would otherwise escape from deep inside
+  // the agent loop and abort cleanup; log and drop the event instead.
+  const send = (event) => {
+    if (res.writableEnded || res.destroyed) return;
+    try {
+      res.write(JSON.stringify(event) + "\n");
+    } catch (err) {
+      console.error(`Failed to stream event to client for task ${taskId}:`, err.message);
+    }
+  };
 
   const skipCache = forceRefresh || isTimeSensitive(task) || record; // don't cache recorded runs -- the video is per-run, a cache replay would show stale text with no matching video
 
@@ -1609,11 +1750,23 @@ app.post("/api/stop/:taskId", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  silentlyPurgeOldProfiles(); 
+  purgeOldProfiles();
   console.log(`Wayfinder API running at http://localhost:${PORT}`);
   console.log(`Accepting requests from ${FRONTEND_ORIGIN}`);
   console.log(
     `Max concurrent tasks: ${MAX_CONCURRENT_TASKS} (queuing + resume-in-place + sub-goal decomposition + finish_subgoal + smart caching + timing + fallback chain [cerebras${groqEnabled ? " -> groq" : ""}${openrouterEnabled ? " -> openrouter" : ""}] + turbo toggle enabled)`,
   );
-  fillPool();
+  fillPool().catch((err) =>
+    console.error("Initial pool warm-up failed:", err.message),
+  );
+});
+
+// Anything that escapes the per-task handlers would otherwise take the whole
+// server -- and every in-flight task with it -- down without explanation.
+process.on("unhandledRejection", (reason) => {
+  console.error("[fatal] Unhandled promise rejection:", reason);
+});
+
+process.on("uncaughtException", (err) => {
+  console.error("[fatal] Uncaught exception:", err);
 });
